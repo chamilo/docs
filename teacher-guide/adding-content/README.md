@@ -1,11 +1,11 @@
-# Adding Content
+# 添加内容
 
-This section covers the tools you use to add learning content to your course. Chamilo provides several ways to deliver material to your learners:
+本节介绍您用于向课程添加学习内容的工具。Chamilo 提供了多种方式让您为学生提供材料：
 
-* **[Documents](documents.md)** — Upload files, create web pages, and organize your content library
-* **[Links](links.md)** — Share URLs to external resources, organized by category
-* **[Learning Paths](learning-paths.md)** — Build structured sequences of content with prerequisites and progress tracking
-* **[Glossary](glossary.md)** — Define key terms that learners can reference throughout the course
-* **[Announcements](announcements.md)** — Send messages and updates to your enrolled learners
+* **[文档](documents.md)** — 上传文件、创建网页并组织您的内容库
+* **[链接](links.md)** — 分享外部资源的 URL，按类别组织
+* **[学习路径](learning-paths.md)** — 构建具有前提条件和进度跟踪的结构化内容序列
+* **[词汇表](glossary.md)** — 定义学生在课程中可以参考的关键术语
+* **[公告](announcements.md)** — 向注册学生发送消息和更新
 
-Each tool is accessible from the course homepage tool grid. Click the tool's icon to open it.
+每种工具都可以从课程首页的工具网格中访问。点击工具图标即可打开。

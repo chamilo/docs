@@ -1,7 +1,7 @@
-# Contributing
+# 贡献指南
 
-Chamilo is an open-source project that welcomes contributions. This section covers how to contribute effectively.
+Chamilo 是一个开源项目，欢迎各界人士参与贡献。本节将介绍如何有效地为项目做出贡献。
 
-* **[Coding Conventions](coding-conventions.md)** — Code style and standards
-* **[Git Workflow](git-workflow.md)** — Branching, commits, and pull requests
-* **[Testing](testing.md)** — Testing strategy and tools
+* **[编码规范](coding-conventions.md)** — 代码风格和标准
+* **[Git 工作流程](git-workflow.md)** — 分支、提交和拉取请求
+* **[测试](testing.md)** — 测试策略和工具

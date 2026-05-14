@@ -1,46 +1,46 @@
-# Sessions
+# 会话
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+在 Chamilo 中，会话是一种在不同时间向不同学习者群体提供相同课程的方式，而无需重复课程内容。可以将会话视为课程的一个预定版本或队列。
 
-## How Sessions Work
+## 会话如何运作
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+**课程** 是内容和工具的容器。**会话** 将该课程分配给特定学习者群体，并在特定时间段内进行。这意味着：
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+- 同一课程可以在多个会话中重复使用
+- 每个会话有自己的注册学习者和自己的开始/结束日期
+- 每个会话有自己的结果——成绩、进度和跟踪数据按会话分开保存
+- 基础课程内容是共享的，但教师可以针对每个会话自定义某些元素
 
-## Your Sessions
+## 您的会话
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+从侧边栏点击 **我的会话** 查看您的会话。它们分为三个视图：
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![我的会话页面显示当前、过去和即将到来的会话视图](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+- **当前会话** —— 当前处于活动状态的会话
+- **过去会话** —— 已经结束的会话
+- **即将到来的会话** —— 尚未开始的会话
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+每个会话显示其包含的课程。点击会话内的课程以访问它。
 
-## Teaching in a Session
+## 在会话中教学
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+当您通过会话进入课程时，体验与常规课程类似，但有一些区别：
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+- **会话名称** 会与课程标题一起显示，因此您始终知道自己在哪个会话中工作
+- 学习者数据（进度、成绩、提交内容）是特定于该会话的
+- 某些设置（例如更改工具可见性的能力）可能被会话管理员锁定
 
-## Session Roles
+## 会话角色
 
-Sessions introduce additional roles:
+会话引入了额外的角色：
 
-| Role | Description |
+| 角色 | 描述 |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **会话管理员** | 管理会话的创建和配置 |
+| **会话教练** | 监督会话内的所有课程（可以跨课程访问跟踪数据） |
+| **课程教练** | 在会话内教授特定课程 |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+如果您在会话中被指定为 **课程教练**，您可以管理该课程的内容并跟踪该会话学习者的进度。
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> 会话通常由管理员管理。如果您需要创建或修改会话，请联系您的平台管理员或会话管理员。

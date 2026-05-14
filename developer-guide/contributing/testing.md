@@ -1,12 +1,12 @@
-# Testing
+# 测试
 
-## PHP Testing
+## PHP 测试
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo 使用 **PHPUnit** 进行后端测试。
 
-### Test Database Setup
+### 测试数据库设置
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+测试需要一个专用的数据库。创建 `.env.test.local` 文件，并填写测试数据库的凭据：
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+然后初始化测试数据库：
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+在模式更改后重置数据库：
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### 运行测试
 
 ```bash
-# Run all tests
+# 运行所有测试
 php bin/phpunit
 
-# Run a specific test file
+# 运行特定的测试文件
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# 运行测试并生成 HTML 覆盖率报告
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### 测试位置
 
-Tests are in the `tests/` directory:
+测试文件位于 `tests/` 目录下：
 
 ```
 tests/
@@ -64,82 +64,82 @@ tests/
 ├── CourseBundle/
 │   ├── Repository/
 │   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── behat/               # Behat 端到端测试
+├── fixtures/            # Alice 固定数据文件
+├── AbstractApiTest.php  # API 测试的基类
+└── ChamiloTestTrait.php # 共享的测试辅助工具
 ```
 
-### Test Types
+### 测试类型
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **单元/集成测试** — 位于 `CoreBundle/` 和 `CourseBundle/` 中的 PHPUnit 测试；大多数测试会连接真实的数据库（通过 `dama/doctrine-test-bundle`）
+* **功能（API）测试** — 继承 `AbstractApiTest`，对 HTTP 端点进行端到端测试
+* **Behat 测试** — 位于 `tests/behat/features/` 中的浏览器级验收测试（见下文）
 
-## Behat (End-to-End) Tests
+## Behat（端到端）测试
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo 拥有一套 Behat 测试套件，用于浏览器级的验收测试。运行测试需要一个正在运行的 Chamilo 实例、Chrome 浏览器以及 ChromeDriver。
 
 ```bash
-# From the tests/behat/ directory:
+# 从 tests/behat/ 目录运行：
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# 或者运行所有功能测试：
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+在运行之前，请在 `tests/behat/behat.yml` 中配置基础 URL。
 
-## Frontend Checks
+## 前端检查
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# 检查 JavaScript/Vue 代码格式（使用 Prettier 的 ESLint）
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# 类型检查 TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# 构建生产环境资源（验证整个构建是否能够编译）
 yarn build
 ```
 
-## PHP Code Quality
+## PHP 代码质量
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo 使用 **ECS**（Easy Coding Standard）、**PHPStan** 和 **Psalm** 来保证代码质量。Composer 提供了每个工具的快捷命令：
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# 检查代码风格（ECS — Easy Coding Standard）
 composer phpcs
-# or directly:
+# 或者直接运行：
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# 自动修复代码风格问题
 composer phpcs-fix
-# or directly:
+# 或者直接运行：
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# 使用 PHPStan 进行静态分析（级别 5，扫描 src/ 和 tests/）
 composer phpstan
-# or directly:
+# 或者直接运行：
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# 使用 Psalm 进行静态分析
 composer psalm
-# or directly:
+# 或者直接运行：
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+注意：本项目中没有使用 `php-cs-fixer`。代码风格工具是 ECS（`symplify/easy-coding-standard`）。
 
-## Continuous Integration
+## 持续集成
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+拉取请求会自动通过四个 GitHub Actions 工作流程进行检查：
 
-| Workflow | What it runs |
+| 工作流程 | 运行内容 |
 |----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| `phpunit.yml` | PHPUnit 测试套件 |
+| `format_code.yml` | ECS 代码风格检查 |
+| `php_analysis.yml` | Psalm、Doctrine 模式验证、安全检查 |
+| `behat.yml` | Behat 端到端测试 |

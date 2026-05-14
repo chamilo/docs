@@ -1,55 +1,54 @@
-# Access URLs
+# 访问URL
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+访问URL允许单个Chamilo安装服务于多个独立的门户。
 
+## 使用场景
 
-## Use Cases
+* **多租户部署** — 在单个服务器上为不同组织托管独立的培训门户
+* **部门门户** — 为每个部门提供自己的品牌门户（例如，`hr.training.company.com`，`it.training.company.com`）
+* **区域门户** — 为不同地区或语言设置独立的门户
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+## 工作原理
 
-## How It Works
+每个访问URL是同一Chamilo安装的不同入口点：
 
-Each access URL is a separate entry point to the same Chamilo installation:
+* 用户可以被分配到一个或多个访问URL
+* 课程和会话属于特定的访问URL
+* 平台设置可以按访问URL进行定制
+* 品牌和主题可以按URL不同
+* 一个门户上的用户无法看到另一个门户上的用户或课程（除非明确共享）
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+## 配置
 
-## Configuration
+### 启用多URL
 
-### Enabling Multi-URL
+必须在Chamilo配置中启用多URL（通常在环境设置中）。这通常在初始设置时完成。
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+### 创建访问URL
 
-### Creating an Access URL
+1. 从管理面板导航到**访问URL**
+2. 点击**添加URL**
+3. 输入URL（例如，`https://portal2.yoursite.com`）
+4. 配置特定于此URL的设置
+5. 保存
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+### 分配用户和课程
 
-### Assigning Users and Courses
+* **用户** — 将用户分配到特定的访问URL。一个用户可以属于多个URL。
+* **课程** — 将课程分配到特定的访问URL
+* **会话** — 将会话分配到特定的访问URL
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+### 按URL设置
 
-### Per-URL Settings
+每个访问URL可以有自己的：
 
-Each access URL can have its own:
+* **颜色主题** — 不同的视觉品牌
+* **平台名称和标志** — 自定义身份
+* **设置覆盖** — 某些平台设置可以按URL进行定制
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+## 提示
 
-## Tips
-
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **尽早决定** — 如果选择多URL设置，应在Chamilo项目开始时就做出决定，因为这要求第一个URL的内容相对为空。之后启用多URL会更加困难（需要手动更改数据库）。
+* **规划URL结构** — 在创建访问URL之前决定URL方案，因为后续更改URL会影响所有现有链接和书签
+* **DNS配置** — 每个访问URL必须解析到同一个Chamilo服务器。相应地配置DNS记录。
+* **全局管理员** — 使用全局管理员角色管理所有访问URL

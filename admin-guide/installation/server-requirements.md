@@ -1,93 +1,93 @@
-# Server Requirements
+# 服务器要求
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+在安装 Chamilo 2.0 之前，请确保您的服务器满足以下要求。
 
-## Software Requirements
+## 软件要求
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| 要求 | 最低版本 | 推荐版本 |
+|------|----------|----------|
+| **PHP 版本** | 8.2 | 8.3 或更高版本 |
 
-### Required PHP Extensions
+### 必需的 PHP 扩展
 
-| Extension | Purpose |
-|-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| 扩展 | 用途 |
+|------|------|
+| **curl** | HTTP 请求（API 集成、外部服务） |
+| **fileinfo** | 上传文件的 MIME 类型检测 |
+| **gd** | 图像处理（缩略图、验证码） |
+| **intl** | 国际化（日期、数字和字符串格式化） |
+| **json** | JSON 编码/解码 |
+| **ldap** | LDAP 连接器。尽管您可能不会使用 LDAP，但 Chamilo 需要它 |
+| **mbstring** | 多字节字符串处理（支持 UTF-8） |
+| **openssl** | 加密操作（HTTPS、密码哈希、令牌） |
+| **pdo_mysql** 或 **pdo_pgsql** | 数据库连接（安装与您的数据库匹配的扩展） |
+| **xml** | XML 解析（SCORM、RSS、SOAP） |
+| **zip** | 处理 ZIP 存档（SCORM 包、批量导入/导出） |
+| **apcu** | 用户级缓存（推荐） |
+| **opcache** | 操作码缓存（强烈推荐以提升性能） |
+| **xapian** | 全文搜索（可选，仅在您使用搜索功能时需要） |
 
-### Database
+### 数据库
 
-| Database | Minimum Version |
-|----------|----------------|
+| 数据库 | 最低版本 |
+|--------|----------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### Web 服务器
 
-| Server | Notes |
-|--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| 服务器 | 备注 |
+|--------|------|
+| **Apache** | 需要启用 `mod_rewrite`。 |
+| **Nginx** | 需要手动配置 URL 重写。请参考 Symfony Nginx 文档获取参考配置。 |
 
-### Build Tools
+### 构建工具
 
-| Tool | Purpose |
-|------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| 工具 | 用途 |
+|------|------|
+| **Composer** | PHP 依赖管理。安装 Chamilo 的 PHP 库时必需。 |
+| **Node.js** (18+) | JavaScript 运行时。构建前端资源时必需。 |
+| **npm** | JavaScript 包管理器。与 Node.js 一起安装。 |
 
-## Hardware Requirements
+## 硬件要求
 
-| Resource | Minimum | Recommended |
-|----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+| 资源 | 最低要求 | 推荐要求 |
+|------|----------|----------|
+| **内存 (RAM)** | 2 GB | 4 GB 或更多 |
+| **CPU** | 1 核 | 2 核或更多 |
+| **磁盘空间** | 2 GB（仅应用程序） | 20 GB 或更多（包括上传的内容） |
+| **磁盘类型** | HDD | SSD（显著提升数据库和缓存性能） |
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+以上为基准数据。实际要求取决于并发用户数量和托管内容的体积。
 
-## Operating System
+## 操作系统
 
-| OS | Notes |
-|----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+| 操作系统 | 备注 |
+|----------|------|
+| **Linux** | 推荐。Ubuntu 22.04+、Debian 12+、AlmaLinux 9+ 或同等版本。 |
+| **Windows** | 可能支持但未经充分测试。开发时建议使用 WSL2。 |
+| **macOS** | 仅限开发/未经测试。 |
 
-## Network Requirements
+## 网络要求
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
+* 指向您服务器的域名。
+* 用于 HTTPS 的 SSL/TLS 证书（Let's Encrypt 提供免费证书）。
+* 如果直接发送电子邮件，需要出站 SMTP 访问权限（或使用第三方电子邮件服务）。
+* 端口 443 (HTTPS)，可选端口 80 (HTTP，用于重定向到 HTTPS)。
 
-## Checking Requirements
+## 检查要求
 
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+将 Chamilo 源代码放置在服务器上后，您可以直接检查 PHP 配置：
 
 ```bash
-php -m          # List installed extensions
-php -i          # Full PHP info
+php -m          # 列出已安装的扩展
+php -i          # 完整的 PHP 信息
 ```
 
-## Tips
+## 小贴士
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **使用 PHP-FPM** 与 Apache 或 Nginx 配合使用，性能比 mod_php 更好。
+* 对于预计超过 500 名并发用户的平台，**将数据库分离**到专用服务器上。
+* **使用 SSD 存储** —— 像 Chamilo 这样数据库密集型的应用程序会显著受益于快速磁盘 I/O。

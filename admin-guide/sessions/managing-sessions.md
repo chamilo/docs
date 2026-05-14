@@ -1,75 +1,75 @@
-# Managing Sessions
+# 管理会话
 
-## Creating a Session
+## 创建会话
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![会话创建表单，包含名称、日期、教练、类别和可见性字段](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. 从管理面板中，点击**创建会话**
+2. 填写会话详细信息：
+   * **会话名称** — 一个描述性的名称（例如，“2026年春季入职培训”）
+   * **开始和结束日期** — 会话运行的时间（可选 — 会话可以是开放式的）。有3组日期：显示日期、限制学习者访问的日期和限制教练访问的日期
+   * **会话教练** — 负责整个会话的人员
+   * **类别** — 将会话分配到一个类别以便组织
+   * **可见性** — 控制访问和列表显示行为
+3. **添加课程** — 选择一个或多个课程添加到会话中
+4. **注册学习者** — 添加单个用户或用户组
+5. **分配课程教练** — 为每门课程分配一名教师（课程教练）
+6. 保存
 
-## Session Dates
+## 会话日期
 
-Sessions support flexible date configuration:
+会话支持灵活的日期配置：
 
-| Date | Purpose |
+| 日期 | 用途 |
 |------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| **显示开始/结束日期** | 会话在学习者列表中显示的时间 |
+| **访问开始/结束日期** | 学习者实际可以访问会话内容的时间 |
+| **教练访问开始/结束日期** | 教练可以访问会话的时间（通常在学习者访问之前开始并在之后结束） |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+这允许您在学习者到达之前准备会话，并在会话结束后保持教练访问权限以进行评分和报告。
 
-## Session List
+## 会话列表
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![会话列表，显示所有会话的名称、日期、课程数量、学习者数量和状态](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+会话列表显示所有会话，包括：
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* 会话名称
+* 开始和结束日期
+* 状态（进行中、即将开始、已结束）
 
-Use search and filters to find sessions by name, date, category, or status.
+使用搜索和过滤功能按名称、日期、类别或状态查找会话。
 
-## Editing a Session
+## 编辑会话
 
-Click on a session to edit:
+点击一个会话进行编辑：
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* 更改日期、名称或类别
+* 添加或删除课程
+* 更换课程教练
+* 添加或删除学习者
+* 查看会话的跟踪数据
 
-## Enrolling Users
+## 注册用户
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![会话注册界面，用于添加单个用户、班级或通过CSV导入](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+您可以通过以下方式将会话注册用户：
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **单个注册** — 搜索并添加单个用户
+* **班级注册** — 一次性添加整个班级（预定义的用户组）
+* **CSV导入** — 上传包含用户-会话分配的文件
 
-## Session Access
+## 会话访问
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+学习者通过侧边栏中的**我的会话**访问他们的会话。会话分为：
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **当前会话** — 正在进行中
+* **过去会话** — 已结束
+* **即将开始的会话** — 尚未开始
 
-## Tips
+## 小贴士
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **仔细计划日期** — 确保教练访问日期超出学习者日期，以便教练可以进行设置和后续跟进
+* **使用班级进行重复注册** — 如果您经常注册相同的群体，请创建班级并将其分配到会话中
+* **保持会话组织有序** — 使用类别和清晰的命名规则以便于管理

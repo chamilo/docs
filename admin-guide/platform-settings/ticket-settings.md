@@ -1,68 +1,63 @@
-# Tickets Settings
+# 工单设置
 
-Behaviour of the **Tickets** (helpdesk) system.
+**工单**（帮助台）系统的行为设置。
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过 **管理 > 配置设置 > 工单** 访问这些设置。此类别包含 **7 个设置项**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置项
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**显示报告错误的链接**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+在页眉中显示一个链接，用于在我们的支持平台（http://support.chamilo.org）上报告错误。点击链接后，用户将被引导至支持平台上的一个 wiki 页面，该页面描述了错误报告流程。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**显示工单创建链接**
 
-Show the ticket creation link to users on the right side of the portal
+在门户右侧向用户显示工单创建链接。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**允许编辑工单类别**
 
-Allow category edition by administrators.
+允许管理员编辑类别。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**允许用户添加工单**
 
-Allows all users to add tickets not only the administrators.
+允许所有用户添加工单，而不仅仅是管理员。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**按角色访问工单项目**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+允许特定用户角色访问工单项目。例如：['permissions' => [1 => [17]]，其中 project_id = 1，STUDENT_BOSS = 17。
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**向管理员发送工单警告消息**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+如果工单创建时未选择类别或类别未分配管理员，则发送消息通知。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**如果工单类别无人负责，则向管理员发送警报**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+如果某个类别未分配用户，则向所有管理员发送警告消息（电子邮件和 Chamilo 消息）。
 
-*Default: `false`*
-
-
+*默认值：`false`*

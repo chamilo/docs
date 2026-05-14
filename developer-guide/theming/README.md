@@ -1,7 +1,7 @@
-# Theming
+# 主题个性化
 
-Chamilo 2.0 supports visual customization through color themes, CSS/Tailwind, and Twig templates.
+Chamilo 2.0 支持通过颜色主题、CSS/Tailwind 和 Twig 模板进行视觉个性化定制。
 
-* **[Color Themes](color-themes.md)** — The color theme system
-* **[CSS and Tailwind](css-and-tailwind.md)** — Styling architecture
-* **[Twig Templates](twig-templates.md)** — Server-side template structure
+* **[颜色主题](color-themes.md)** — 颜色主题系统
+* **[CSS 和 Tailwind](css-and-tailwind.md)** — 样式架构
+* **[Twig 模板](twig-templates.md)** — 服务器端模板结构

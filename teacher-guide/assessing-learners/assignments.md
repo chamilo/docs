@@ -1,93 +1,95 @@
-# Assignments
+# 作业
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+作业工具（也称为“学生提交内容”）允许您收集学生的作业——论文、项目、报告或任何基于文件的提交内容，并对其进行评估。
 
-## Creating an Assignment
+## 创建作业
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. 在课程首页打开**作业**工具 <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作业" data-size="line">
+2. 点击**创建作业**
+3. 填写详细信息：
+   * **作业名称** — 作业的名称（例如，“最终项目报告”）
+   * **描述** — 给学生的指导说明，包括提交内容和评估方式（支持格式化文本）
+   * **最高分值** — 作业的满分值
+   * **添加到成绩单** — 将其作为评估工具（成绩单）中的一个评估项目，以便纳入课程目标
+   * **截止日期** — 官方公布的日期和时间，超过此时间提交将被标记为迟交（仍可接受提交）
+   * **完全结束于** — 最终截止日期和时间，之后无法提交
+   * **添加到日历** — 创建一个事件以参考此作业的提交日期
+   * **提交类型** — 选择**仅允许文本**、**仅允许文件**或**允许文件或在线文本**
+4. 保存
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+创建作业后，您还可以：
+* 从作业详情页面上传模板文档
+* 将作业分配给特定用户（而不是课程中的所有用户）
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+当学生提交作业后，您可以：
+* 导出PDF格式的提交列表
+* 仅显示未提交作业的学生列表
+* 将所有作业下载为一个ZIP文件
+* 上传所有批改文件为一个ZIP文件
+* 删除您上传的所有批改文件（这不会删除学生的提交内容）
 
-## How Learners Submit
+## 学生如何提交
 
-Learners open the assignment and:
+学生打开作业后：
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. 点击**上传文件**或提交按钮
+2. 从电脑中选择文件（或根据设置直接输入文本）
+3. 添加可选的评论
+4. 提交
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+学生可以查看是否已提交，并且在允许的情况下更新他们的提交内容。
 
-## Reviewing Submissions
+## 审查提交内容
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![作业提交列表，显示学生姓名、日期、文件和评估状态](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+作为教师，打开作业即可查看所有提交内容的列表：
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **学生姓名** — 提交者
+* **提交日期** — 作业提交的时间
+* **文件** — 下载提交的文件
+* **状态** — 提交是否已评估
+* **评论** — 学生或您留下的任何评论
 
-### Grading a Submission
+### 评估提交内容
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![作业评估视图，包含分数输入、反馈字段和已批改文件上传](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. 点击某个提交内容以打开
+2. 审查提交的文件
+3. 输入**分数**
+4. 为学生撰写**反馈评论**
+5. 可选地，上传**已批改文件**作为附件
+6. 保存
 
-### AI-Assisted Grading
+### 人工智能辅助评估
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+如果您的平台配置了人工智能工具，您在审查提交内容时可能会看到**人工智能评估**选项。这将使用人工智能模型为开放性作业建议分数和反馈。更多详情请参见[人工智能评估](../ai-tools/ai-grading.md)。
 
-## Managing Submissions
+## 管理提交内容
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+批量操作：
+* **下载作业包** — 将所有提交内容下载为一个ZIP文件以供离线审查
+* **上传批改包** — 如果您已将所有提交内容下载为一个ZIP文件，并在电脑上直接编辑了文件并重新压缩，您可以将ZIP文件作为批改包上传。请勿更改文件名，否则此操作将无效。
+* **迟交提交** — 超过截止日期的提交会被标记，但根据您的设置仍可被接受
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+单个提交操作：
+* **上传批改** — 为某个学生上传批改文件
+* **下载** — 下载某个学生的提交内容
+* **批改并评分** — 为学生的提交内容添加批改和分数
+* **编辑** — 编辑提交内容的文档标题或之前的反馈
+* **移动** — 将提交内容在作业文件夹之间转移（例如，如果学生提交到了错误的作业）
+* **可见性** — 控制学生是否可以看到彼此的提交内容
 
-## Linking to the Gradebook
+---
+## 关联到成绩单
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+作业的评分可以纳入课程的成绩单（“评估”工具）。这使得作业成绩能够计入学生的课程总成绩以及证书的资格认定。更多详情请参见[成绩单](gradebook.md)。
 
-## Tips
+---
+## 小贴士
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **明确指导说明** — 清楚地描述学生需要提交的内容、期望的格式以及评估标准
+* **设定合理的时间期限** — 使用日程工具使截止日期在课程日历中可见
+* **使用批改文件功能** — 上传学生的作业批注版本，以便他们能看到具体的修改意见
+* **谨慎启用同伴可见性** — 允许学生查看彼此的作业可以促进学习，但并非所有任务都适合这样做

@@ -1,202 +1,203 @@
-# Display Settings
+# 显示设置
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+平台如何向用户展示——首页布局、Gravatar、菜单、品牌行为及类似的视觉偏好。
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过 **管理 > 配置设置 > 显示** 访问这些设置。此类别包含 **24 个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**字体调整辅助功能**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+启用此选项后，将在校园页面的右上角显示一组字体调整选项。这将帮助视障人士更轻松地阅读课程内容。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**在首页显示类别**
 
-This option will display or hide courses categories on the portal home page
+此选项将在门户首页显示或隐藏课程类别。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**启用帮助链接**
 
-The Help link is located in the top right part of the screen
+帮助链接位于屏幕右上角。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Gravatar 用户图片**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+启用此选项后，如果用户未在本地设置图片，将在 Gravatar 存储库中搜索当前用户的图片。这对于自动填充您网站上的图片非常有用，特别是如果您的用户是活跃的互联网用户。Gravatar 图片可以基于用户的电子邮件地址轻松配置，详见 http://en.gravatar.com/
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Gravatar 头像类型**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+如果启用了 Gravatar 选项且用户未在 Gravatar 上配置图片，此选项允许您选择 Gravatar 为每个用户生成的头像类型。查看头像类型示例，请访问 <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a>。
 
-*Default: `mm`*
+*默认值：`mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**在“谁在线”中隐藏完整用户名**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+如果启用了“谁在线”页面，将显示当前在线的每个用户的图片和名称。启用此选项可隐藏名称。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**隐藏退出按钮**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+隐藏退出按钮。通常只有在使用外部登录/退出方法时（例如某种单点登录）才有用。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**隐藏主导航菜单**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+当将 Chamilo 用于特定目的（例如大规模在线考试）时，您可能希望通过移除侧边菜单进一步减少干扰。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**隐藏社交媒体链接**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+某些页面允许您在社交网络上推广门户或课程。启用此设置可移除这些链接。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**按官方代码排序用户**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+使用“官方代码”对平台上的大多数学生列表进行排序，而不是按姓氏或名字排序。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**PDF 页眉标志**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+是否使用 var/themes/[your-theme]/images/pdf_logo_header.png 图像作为所有 PDF 导出的 PDF 页眉标志（而不是普通的门户标志）。
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**显示管理员工具栏**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+为指定的用户角色在页面顶部显示全局工具栏。此工具栏与 Wordpress 和 Google 的黑色工具栏非常相似，可以真正加快复杂操作的速度并增加学习内容可用空间，但可能会让某些用户感到困惑。
 
-*Default: `do_not_show`*
+*默认值：`do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**显示类别/课程的返回链接**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+显示一个链接以返回课程层级。无论如何，列表底部都会有一个链接可用。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**在登录页面和门户起始页面显示已关闭的课程？**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+是否在登录页面和课程起始页面显示已关闭的课程？在门户起始页面上，课程旁边会显示一个图标，以便快速订阅每个课程。这仅在用户登录且尚未订阅门户时在门户起始页面上显示。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**显示电子邮件地址**
 
-Show email addresses to users
+向用户显示电子邮件地址。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**显示空的课程类别**
 
-Show the categories of courses on the homepage, even if they're empty
+在首页显示课程类别，即使它们是空的。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**显示热门课程**
 
-The hot courses list will be added in the index page
+热门课程列表将添加到索引页面中。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**显示课程数量**
 
-Show the number of courses in each category in the courses categories on the homepage
+在首页的课程类别中显示每个类别的课程数量。
 
-*Default: `false`*
+*默认值：`false`*
 
+---
 ### `show_tabs`
 
-**Main menu entries**
+**主菜单项**
 
-Check the entrie you want to see appear in the main menu
+勾选您希望在主菜单中显示的条目
 
-*Default:*
+*默认值：*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**按角色显示主菜单项**
 
-Define header tabs visibility per role.
+定义按角色显示的头部标签可见性。
 
-*Default: `{}`*
+*默认值：`{}`*
 
 ### `showonline`
 
-**Who's Online**
+**在线用户**
 
-Display the number of persons that are online?
+是否显示当前在线的人数？
 
-*Default: `world`*
+*默认值：`world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**表格默认行数**
 
-How many rows should be shown in all tables by default.
+默认情况下，所有表格应显示多少行。
 
-*Default: `20`*
+*默认值：`20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**表格中默认提供的分页选项**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+设置您希望在表格导航中显示的选项，以便在一页上显示更少或更多的行。例如：[50, 100, 200, 500]。
 
-*Default: `[10,20,50,100]`*
+*默认值：`[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**在线用户时间限制**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+此时间限制定义了用户在最后一次操作后多少分钟内仍被视为“在线”。
 
-*Default: `30`*
+*默认值：`30`*

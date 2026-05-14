@@ -1,8 +1,8 @@
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+Chamilo 可以与 LDAP 服务器（包括 Microsoft Active Directory）进行用户身份验证。LDAP 的配置在 `config/authentication.yaml` 文件中进行。
 
-## Configuration
+## 配置
 
 ```yaml
 authentication:
@@ -10,24 +10,24 @@ authentication:
     ldap:
       main:
         enabled: true
-        title: "Sign in with LDAP"
+        title: "使用 LDAP 登录"
         connection_string: "ldap://ldap.yourorg.com:389"
         protocol_version: 3
         referrals: false
         force_as_login_method: false
 ```
 
-### Bind and search
+### 绑定和搜索
 
-Two approaches for locating the user in the directory:
+有两种方法可以在目录中定位用户：
 
-**Direct bind** — constructs the DN from the username directly:
+**直接绑定** — 直接从用户名构建 DN：
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**搜索绑定** — 首先使用服务账户搜索目录，然后以找到的用户身份进行绑定：
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,28 +37,28 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+对于 Active Directory，使用 `sAMAccountName` 作为 `uid_key`，并将 `query_string` 调整为 `(sAMAccountName=%s)`。
 
-### Attribute mapping
+### 属性映射
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+在 `data_correspondence` 下将 LDAP 属性映射到 Chamilo 用户字段：
 
 ```yaml
         data_correspondence:
           firstname: givenName
           lastname: sn
           email: mail
-          phone: telephoneNumber   # optional
-          locale: preferredLanguage  # optional
+          phone: telephoneNumber   # 可选
+          locale: preferredLanguage  # 可选
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+`firstname`、`lastname` 和 `email` 是必需的。系统会根据电子邮件或用户名将用户与现有的 Chamilo 账户进行匹配；如果未找到匹配项且 `allow_create_new_users` 为 true，则会创建一个新账户。
 
-## Tips
+## 提示
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **在生产环境中使用 LDAPS** — 将 `ldap://` 切换为 `ldaps://`（端口 636）以使用加密连接。
+* **服务账户** — 搜索绑定的账户只需要对用户条目具有读取权限。
+* **先进行测试** — 在配置 Chamilo 之前，使用 `ldapsearch` 验证您的连接字符串和查询。
+* **`force_as_login_method: true`** — 隐藏其他登录方式，强制所有用户通过 LDAP 登录。在测试期间将其保持为 `false`，以便您仍可以通过标准表单以管理员身份登录。
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+有关完整的参数参考，请参见 [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration)。

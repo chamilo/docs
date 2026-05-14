@@ -1,26 +1,26 @@
 # SCIM
 
-**SCIM** (System for Cross-domain Identity Management) automates user provisioning — creating, updating, and deactivating Chamilo accounts based on changes in your identity provider. Unlike OAuth2 or LDAP, SCIM handles provisioning, not login.
+**SCIM**（跨域身份管理系统）能够自动化用户配置——根据身份提供商中的变更，创建、更新和停用 Chamilo 账户。与 OAuth2 或 LDAP 不同，SCIM 负责配置，而非登录。
 
-| Scenario | SCIM action |
-|----------|-------------|
-| A new employee joins | Creates a Chamilo account |
-| An employee's name or role changes | Updates the Chamilo account |
-| An employee leaves | Deactivates or deletes the Chamilo account |
+| 场景 | SCIM 操作 |
+|------|-----------|
+| 新员工加入 | 创建 Chamilo 账户 |
+| 员工姓名或角色变更 | 更新 Chamilo 账户 |
+| 员工离职 | 停用或删除 Chamilo 账户 |
 
-## Configuration
+## 配置
 
-### 1. Set the SCIM token
+### 1. 设置 SCIM 令牌
 
-In your `.env` (or `.env.local`) file, define a secure random token:
+在您的 `.env`（或 `.env.local`）文件中，定义一个安全的随机令牌：
 
 ```
 SCIM_TOKEN=your-secure-random-token
 ```
 
-This token is used by your identity provider to authenticate its requests to Chamilo's SCIM endpoints.
+此令牌用于身份提供商向 Chamilo 的 SCIM 端点进行身份验证请求。
 
-### 2. Enable SCIM in authentication.yaml
+### 2. 在 authentication.yaml 中启用 SCIM
 
 ```yaml
 authentication:
@@ -31,37 +31,37 @@ authentication:
         auth_source: platform
 ```
 
-Clear and warm the cache after editing:
+编辑后清除并预热缓存：
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### 3. Configure your identity provider
+### 3. 配置您的身份提供商
 
-In your identity provider (Azure AD, Okta, etc.):
+在您的身份提供商（Azure AD、Okta 等）中：
 
-1. Add Chamilo as a SCIM application
-2. Set the SCIM base URL to `https://your-chamilo-url/scim/v2/`
-3. Enter the token from step 1 as the bearer token
-4. Map provider attributes to SCIM standard fields (userName, name.givenName, name.familyName, emails)
-5. Enable automatic provisioning
+1. 将 Chamilo 添加为 SCIM 应用程序
+2. 将 SCIM 基础 URL 设置为 `https://your-chamilo-url/scim/v2/`
+3. 输入步骤 1 中的令牌作为 bearer 令牌
+4. 将提供商属性映射到 SCIM 标准字段（userName, name.givenName, name.familyName, emails）
+5. 启用自动配置
 
-## SCIM endpoints
+## SCIM 端点
 
-Chamilo implements SCIM 2.0:
+Chamilo 实现了 SCIM 2.0：
 
-| Endpoint | Method | Action |
-|----------|--------|--------|
-| `/scim/v2/Users` | GET | List users |
-| `/scim/v2/Users` | POST | Create a user |
-| `/scim/v2/Users/{id}` | GET | Get a user |
-| `/scim/v2/Users/{id}` | PUT | Replace a user |
-| `/scim/v2/Users/{id}` | PATCH | Update a user |
-| `/scim/v2/Users/{id}` | DELETE | Remove a user |
+| 端点 | 方法 | 操作 |
+|------|------|------|
+| `/scim/v2/Users` | GET | 列出用户 |
+| `/scim/v2/Users` | POST | 创建用户 |
+| `/scim/v2/Users/{id}` | GET | 获取用户 |
+| `/scim/v2/Users/{id}` | PUT | 替换用户 |
+| `/scim/v2/Users/{id}` | PATCH | 更新用户 |
+| `/scim/v2/Users/{id}` | DELETE | 删除用户 |
 
-## Tips
+## 小贴士
 
-* **Start with a test group** — provision a small set of users before enabling SCIM for the whole organization.
-* **Combine with OAuth2** — a common setup uses Azure AD OAuth2 for login and Azure AD SCIM for provisioning.
-* **Monitor logs** — check both Chamilo (`var/log/`) and your identity provider's provisioning logs for errors.
+* **从测试组开始** —— 在为整个组织启用 SCIM 之前，先配置一小部分用户。
+* **与 OAuth2 结合使用** —— 常见的设置是使用 Azure AD OAuth2 进行登录，使用 Azure AD SCIM 进行配置。
+* **监控日志** —— 检查 Chamilo（`var/log/`）和您的身份提供商的配置日志以查找错误。

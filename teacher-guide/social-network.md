@@ -1,53 +1,53 @@
-# Social Network
+# 社交网络
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo 内置了一个社交网络功能，让您可以与平台上的其他用户建立联系。此功能可能由您的平台管理员启用或禁用。
 
-## Accessing the Social Network
+## 访问社交网络
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+在侧边栏中点击**社交网络**以访问社交功能。如果您没有看到此选项，可能是您的管理员已将其禁用。
 
-## Your Social Wall
+## 您的社交墙
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![社交墙显示来自联系人的帖子、点赞和评论的动态](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+社交墙显示您和您的联系人的活动动态。您可以：
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **发布更新** — 与您的联系人分享文本和链接
+* **点赞和评论** — 与其他用户的帖子互动
+* **查看活动** — 查看您联系人的最新帖子
 
-## Connections
+## 联系人
 
-You can connect with other users on the platform:
+您可以在平台上与其他用户建立联系：
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **搜索用户** — 按姓名查找同事和学习者
+* **发送联系请求** — 邀请其他用户建立联系
+* **管理联系人** — 接受、拒绝或删除联系人
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **注意：** 学习者只能搜索并添加其他学习者为好友，他们无法向教师发送好友请求。然而，作为教师，您可以搜索学习者并请求添加他们为好友。
 
-## Messaging
+## 消息
 
-The social network integrates with the platform's messaging system:
+社交网络与平台的消息系统集成：
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **发送消息** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新消息" data-size="line"> — 向其他用户发送直接消息
+* **收件箱** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="收件箱" data-size="line"> — 阅读和回复收到的消息
+* **已发送消息** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="已发送" data-size="line"> — 查看您已发送的消息
 
-### Composing and Replying
+### 撰写和回复
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+在撰写新消息时，您可以同时将其发送给多个收件人。同样，在回复消息时，您可以将多个用户包含在回复中——这对于没有正式社交小组的群体协调非常有用。
 
-### Message Tags
+### 消息标签
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+如果您的平台配置使用了消息标签（通常在平台级别管理），您的收件箱会显示一个标签列表，您可以点击以按该标签过滤消息，这使得在收件箱增长时更快找到相关线程。
 
-## Social Groups
+## 社交小组
 
-Social groups allow users to gather around common interests or projects:
+社交小组允许用户围绕共同兴趣或项目聚集：
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **加入小组** — 浏览并加入现有小组
+* **创建小组** — 创建一个新的社交小组（如果允许）
+* **小组讨论** — 在小组范围内分享帖子
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> 社交小组与**课程小组**（在[小组](collaboration-and-communication/groups.md)部分中介绍）不同。课程小组与特定课程相关联，而社交小组是平台范围内的。

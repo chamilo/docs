@@ -1,30 +1,30 @@
 # OAuth2
 
-OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
+OAuth2 认证在 `config/authentication.yaml` 文件中进行配置。Chamilo 内置支持 Azure AD、Keycloak、Facebook 以及任何符合 OAuth2 标准的提供商。
 
-## Step 1 — Register Chamilo in your identity provider
+## 步骤 1 — 在您的身份提供商中注册 Chamilo
 
-Create an application in your provider's admin panel and set the **redirect URI** to:
+在提供商的管理面板中创建一个应用程序，并将**重定向 URI**设置为：
 
 ```
 https://your-chamilo-url/connect/<provider>/check
 ```
 
-Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
+其中 `<provider>` 可以是 `azure`、`keycloak`、`facebook`，或者您为通用提供商指定的名称。记下**客户端 ID** 和**客户端密钥**。
 
-## Step 2 — Configure authentication.yaml
+## 步骤 2 — 配置 authentication.yaml
 
-Enable the provider and supply its credentials. All providers share these common keys:
+启用提供商并提供其凭据。所有提供商共享以下通用键：
 
-| Key | Description |
+| 键名 | 描述 |
 |-----|-------------|
-| `enabled` | `true` to activate |
-| `title` | Label shown on the login button |
-| `client_id` | From your identity provider |
-| `client_secret` | From your identity provider |
-| `allow_create_new_users` | Auto-create a Chamilo account on first login |
-| `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Disable other methods and force this one |
+| `enabled` | 设置为 `true` 以激活 |
+| `title` | 登录按钮上显示的标签 |
+| `client_id` | 来自您的身份提供商 |
+| `client_secret` | 来自您的身份提供商 |
+| `allow_create_new_users` | 首次登录时自动创建 Chamilo 账户 |
+| `allow_update_user_info` | 每次登录时同步用户数据 |
+| `force_as_login_method` | 禁用其他方法并强制使用此方法 |
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -34,7 +34,7 @@ authentication:
     oauth2:
       azure:
         enabled: true
-        title: "Sign in with Microsoft"
+        title: "使用 Microsoft 登录"
         client_id: "<application-client-id>"
         client_secret: "<client-secret>"
         tenant: "<tenant-id>"
@@ -46,7 +46,7 @@ authentication:
         allow_update_user_info: true
 ```
 
-Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
+Azure 还支持基于组的角色映射（将 Azure 组 ID 映射到 Chamilo 角色，如教师或管理员）、用户增量同步命令，以及使用证书认证替代客户端密钥。有关这些选项的详细信息，请参见 [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration)。
 
 ### Keycloak
 
@@ -56,7 +56,7 @@ authentication:
     oauth2:
       keycloak:
         enabled: true
-        title: "Sign in with Keycloak"
+        title: "使用 Keycloak 登录"
         client_id: "<client-id>"
         client_secret: "<client-secret>"
         auth_server_url: "https://keycloak.yourorg.com"
@@ -72,16 +72,16 @@ authentication:
     oauth2:
       facebook:
         enabled: true
-        title: "Sign in with Facebook"
+        title: "使用 Facebook 登录"
         client_id: "<app-id>"
         client_secret: "<app-secret>"
         graph_api_version: "v20.0"
         allow_create_new_users: true
 ```
 
-### Generic OAuth2
+### 通用 OAuth2
 
-Use this for Google, GitLab, or any OAuth2-compliant provider:
+适用于 Google、GitLab 或任何符合 OAuth2 标准的提供商：
 
 ```yaml
 authentication:
@@ -89,7 +89,7 @@ authentication:
     oauth2:
       myprovider:
         enabled: true
-        title: "Sign in with MyProvider"
+        title: "使用 MyProvider 登录"
         client_id: "<client-id>"
         client_secret: "<client-secret>"
         urlAuthorize: "https://provider.example.com/oauth/authorize"
@@ -99,18 +99,18 @@ authentication:
         allow_create_new_users: true
 ```
 
-Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
+字段映射（提供商属性如何映射到 Chamilo 的 `firstname`、`lastname`、`email` 等）以及角色映射也可以配置。有关映射键的完整列表，请参见 [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration)。
 
-## Step 3 — Clear cache and test
+## 步骤 3 — 清除缓存并测试
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
+退出 Chamilo 登录。配置的提供商按钮应出现在登录页面上。在向所有用户推广之前，使用专用账户进行测试。
 
-## Tips
+## 小贴士
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
-* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
-* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.
+* 保留标准登录表单启用，以便管理员在 OAuth2 出现问题时始终可以登录。
+* 当使用 Azure 与现有用户时，配置 `existing_user_verification_order` 以控制 Chamilo 如何将新用户匹配到现有账户。
+* 角色分配默认设置为学生；使用组映射自动将用户提升为教师或管理员角色。

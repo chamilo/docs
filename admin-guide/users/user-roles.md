@@ -1,57 +1,57 @@
-# User Roles
+# 用户角色
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamilo 使用基于角色的权限系统。每个用户都被分配一个角色，决定了他们在平台上可以看到和执行的操作。
 
-## Platform-Level Roles
+## 平台级角色
 
-These roles control access to platform-wide features:
+这些角色控制对平台范围功能的访问：
 
-| Role |  Description |
+| 角色 | 描述 |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **学习者（学生）** | 默认角色。可以注册课程，访问学习内容，提交作业和参加练习。 |
+| **教师（培训师）** | 可以创建和管理课程，添加内容，为学生评分，并查看课程级别的报告。 |
+| **会话管理员** | 可以创建和管理会话（即基于时间的课程包），将用户注册到会话中，并分配教练。无法访问通用平台设置。 |
+| **人力资源经理（HRM）** | 可以查看分配用户的跟踪和报告数据。适用于需要监控员工培训但不管理内容或平台的监督者。 |
+| **门户管理员** | 完全访问所有平台管理功能。可以管理用户、课程、会话、插件和所有设置。 |
+| **全局管理员** | 与门户管理员相同，但可以在多URL（即多租户）设置中访问所有访问URL。 |
+| **匿名用户** | 适用于未登录的访客的特殊角色。如果启用，可以访问公共课程和内容。 |
 
-## Course-Level Roles
+## 课程级角色
 
-Within a course, users have specific roles:
+在课程内，用户具有特定角色：
 
-| Role | Description |
+| 角色 | 描述 |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **学生** | 默认课程角色。可以访问内容，参加练习，提交作业。 |
+| **课程助理** | 在课程内拥有有限的管理权限。可以帮助管理内容和主持论坛。 |
+| **教师** | 对课程拥有完全控制权：管理内容、工具、设置和注册。 |
 
-## Session-Level Roles
+## 会话级角色
 
-Within a session, additional roles exist:
+在会话内，存在额外的角色：
 
-| Role | Description |
+| 角色 | 描述 |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **会话导师** | 监督会话内的所有课程。可以查看会话内所有课程的跟踪情况。 |
+| **课程导师** | 在会话内教授特定课程。可以管理该课程的内容并跟踪该会话中的学习者。 |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+注意：教练和导师这两个名称在含义上非常相似，通常取决于组织。在 Chamilo 2.0 中，我们交替使用这两个术语，但大多数时候我们指的是导师，即帮助您从课程中学习的人，而不是个人教练。未来我们可能会专使用“导师”一词。
 
-## Assigning Roles
+## 分配角色
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+在管理面板中创建或编辑用户账户时，您可以选择他们的平台级角色。课程和会话角色在将用户注册到课程或会话时分配。
 
-## Role Hierarchy
+## 角色层级
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+权限较高的角色继承权限较低角色的能力：
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* 管理员可以执行教师能做的一切
+* 教师可以执行学生能做的一切
+* 会话级角色（教练）仅在分配的会话内提供额外的功能
 
-## Tips
+## 小贴士
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **使用最小权限原则** — 为用户分配执行任务所需的最小角色
+* **使用会话管理员进行委托管理** — 如果您有员工需要管理培训会话但不需要管理整个平台，请为他们分配会话管理员角色，而不是完全的管理员访问权限
+* **为监督者使用 HRM** — 人力资源经理可以监控培训进度，而无需访问修改课程或平台设置的权限
+* **角色创建** — Chamilo 2.x 已经具备创建新角色的内部结构，但该功能还需要更多测试以广泛发布。可以通过 [Chamilo 官方提供商](https://chamilo.org/providers) 启用。

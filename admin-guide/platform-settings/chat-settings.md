@@ -1,50 +1,49 @@
-# Chat Settings
+# 聊天设置
 
-Behaviour of the course **Chat** tool.
+课程**聊天**工具的行为设置。
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过**管理 > 配置设置 > 聊天**访问这些设置。此类别包含**5个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**允许全局聊天**
 
-Users can chat with each other
+用户可以相互聊天
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**限制课程聊天仅限教练**
 
-Only allow students to talk to the tutors in the course (not other students).
+仅允许学生与课程中的导师交谈（不允许与其他学生交谈）。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**在全局聊天中隐藏视频聊天选项**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+启用后，视频聊天功能将在全局聊天工具中被禁用并不可用。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**将私人对话保存在文档中**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+如果启用，1:1的私人聊天消息将被镜像到课程聊天历史文档中。出于隐私考虑，建议保持禁用。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**显示聊天会话历史文件夹**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+这将向教师显示包含聊天中进行的所有会话的文件夹，教师可以选择是否让学习者可见，并将其作为资源使用。
 
-*Default: `true`*
-
+*默认值：`true`*

@@ -1,293 +1,270 @@
-# Gradebook (Assessments) Settings
+# 成绩册（评估）设置
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+适用于**成绩册（评估）**工具的默认设置——分数显示、小数精度、证书分数阈值和汇总。
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 成绩册（评估）**下访问这些设置。此类别包含**34个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**成绩册评论**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+启用成绩册评论，以便教师可以对学习者在课程中的整体表现添加评论。评论将显示在学习者的PDF导出文件中。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**在成绩册中缓存结果**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+将一些大型平均值计算放入缓存字段中，用于链接和评估，以提高速度（显著）。潜在的负面影响是刷新成绩册结果表可能需要一些时间。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**成绩册徽章侧边栏**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+在侧边菜单中生成一个块，显示一些待批准的徽章。需要在此处按（数字）ID列出成绩册。
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**默认评分模型**
 
-This value will be selected by default when creating a course
+创建课程时默认选择此值
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**成绩册默认权重**
 
-This weight will be use in all courses by default
+此权重将默认用于所有课程
 
-*Default: `100`*
+*默认值：`100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**成绩册间依赖关系**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+启用成绩册依赖机制，让人们知道在完成成绩册之前需要先完成哪些其他项目。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**成绩册依赖的必修课程**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+在使用成绩册间依赖时，可以选择一个必修课程列表，这些课程将在批准任何有依赖关系的成绩册之前要求完成。
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**在成绩册中显示额外列**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+在学生的成绩册视图中显示额外列，包括所有学生的最高分、查看报告的学生的相对位置以及整个学生群体的平均分。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**成绩册额外统计**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+在成绩册主报告中添加额外列（1 = 排名，2 = 最高分，3 = 平均值）。
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**评估工具激活**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+评估工具允许您通过将课堂和在线活动评估合并到绩效报告中来评估组织中的能力。您要激活它吗？
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**启用成绩册模型**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+根据成绩册模型启用课程内成绩册类别的自动创建。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**启用成绩册子类别的技能**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+技能通常因完成整个成绩册而获得。启用此选项后，允许将技能附加到成绩册的子部分。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**成绩册平面视图中的用户额外字段**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+将给定的列（'variables' 数组）添加到成绩册的主结果表中。
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**隐藏成绩册图表**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+如果您的门户资源有限，减少生成可能包含数千个结果的动态成绩册图表是一个不错的选择。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**对学习者隐藏成绩册中的项目链接**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+通过移除项目上的链接，避免学习者从成绩册中点击项目。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**隐藏成绩册“下载PDF报告”按钮**
 
-Removes the PDF export button from gradebook views for learners.
+从学习者的成绩册视图中移除PDF导出按钮。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**对学习者隐藏成绩册表格**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+通过隐藏结果表（但仍允许访问证书、技能等）来减少成绩册加载时间。
 
-*Default: `false`*
+*默认值：`false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**启用教师对评估的锁定功能**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+启用此选项后，相应课程的教师将能够锁定任何评估。这将防止教师在评估中使用的资源（考试、学习路径、任务等）内修改结果。唯一有权解锁已锁定评估的角色是管理员。教师将被告知这一可能性。成绩簿的锁定和解锁将被记录在系统的重要活动报告中。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**允许在成绩簿中进行多次评估尝试**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+允许在成绩簿和结果表中为多次评估尝试添加评论。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**小数位数**
 
-Allows you to set the number of decimals allowed in a score
+允许设置分数中允许的小数位数。
 
-*Default: `0`*
+*默认值：`0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**成绩簿PDF导出选项**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+根据提供的设置（'hide_score_weight'、'hide_feedback_textarea'等）更改学习者的PDF导出内容。
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**成绩簿报告分数样式**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+在平面视图中添加成绩簿分数样式配置。有关选项，请参见 api.lib.php，例如：SCORE_DIV = 1, SCORE_PERCENT = 2 等。
 
-*Default: `1`*
-
+*默认值：`1`*
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**阈值**
 
-The threshold (in %) under which scores will be colored red
+分数低于此阈值（百分比）时将显示为红色。
 
-*Default: `50`*
-
+*默认值：`50`*
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**能力等级标签**
 
-Tick the box to enable Competence levels labelling
+勾选此框以启用能力等级标签。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**成绩簿独立列中的自定义分数显示**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+在使用自定义分数显示时，在成绩簿平面视图中以单独列显示自定义能力等级值。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**显示分数上限**
 
-Tick the box to show the score's upper limit
+勾选此框以显示分数的上限。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**使用APCu缓存加速成绩簿**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+使用Doctrine APCU缓存提高成绩簿学生报告的渲染速度。APCu是一个可选但推荐的PHP扩展。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**使用测试设置进行成绩显示**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+将练习分数显示设置（百分比或分数）应用于成绩簿中的类别分数。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**在成绩簿中使用全局分数显示设置**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+将全局练习分数显示设置应用于成绩簿中的总分计算。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**隐藏最佳/平均成绩簿结果中的百分比**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+从学习者在成绩簿中看到的最佳/平均分数结果中移除百分比显示。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**在成绩簿中显示分数颜色**
 
-Enables color coding for better score visibility in the gradebook.
+启用颜色编码以提高成绩簿中分数的可见性。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**成绩簿中考虑的作业**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+在作业工具中，学生可以上传多个文件。如果单个作业有多个文件，在成绩簿中排名时应考虑哪个文件？这取决于您的教学方法。使用 'first' 强调对细节的关注（例如按时提交和首先处理正确的工作）。使用 'last' 强调协作和适应性工作。
 
-*Default: `first`*
-
+*默认值：`first`*
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**教师可以更改成绩簿模型设置**
 
-When editing a Gradebook
+在编辑成绩簿时。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**教师可以更改成绩簿分数设置**
 
-When editing the Gradebook settings
+在编辑成绩簿设置时。
 
-*Default: `true`*
-
-
+*默认值：`true`*

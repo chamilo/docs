@@ -1,75 +1,73 @@
-# Dropbox Settings
+# Dropbox 设置
 
-Behaviour of the **Dropbox** file-exchange tool.
+**Dropbox** 文件交换工具的行为设置。
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 配置设置 > Dropbox** 下访问这些设置。此类别包含 **8 个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox：允许群组**
 
-Users can send files to groups
+用户可以向群组发送文件
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox：上传到自己的 Dropbox 空间？**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+允许培训师和用户将文档上传到他们的 Dropbox，而无需将文档发送给自己
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox：允许邮件发送**
 
-With the mailing functionality you can send each learner a personal document
+通过邮件功能，您可以向每位学习者发送个人文档
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox：是否可以覆盖文档**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+当用户或培训师上传与已存在文档同名的文档时，是否可以覆盖原始文档？如果选择“是”，则会失去版本控制机制。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox：学习者 <-> 学习者**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+允许用户向其他用户发送文档（点对点）。用户也可能将此功能用于不太重要的文档（mp3、测试答案等）。如果禁用此功能，则用户只能向培训师发送文档。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox：隐藏课程教练**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+当教练向学生发送文档时，在 Dropbox 中隐藏课程教练
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Dropbox 中隐藏总教练**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+当总教练上传文件时，在 Dropbox 工具中隐藏总教练姓名
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox：文档的最大文件大小**
 
-How big (in MB) can a dropbox document be?
+Dropbox 文档的最大大小可以是多少（以 MB 为单位）？
 
-*Default: `100000000`*
-
+*默认值：`100000000`*

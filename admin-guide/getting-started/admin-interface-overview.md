@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# 管理界面概览
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+管理面板是您管理Chamilo平台的指挥中心。通过点击侧边栏中的**Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line">进入。
 
-## Administration Dashboard
+## 管理仪表板
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![管理仪表板显示用户、课程、会话和设置的功能模块](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+管理仪表板按功能模块组织。每个模块将相关的管理工具分组：
 
-### Users
+### 用户
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **用户列表** — 查看、搜索、编辑和管理平台上的所有用户
+* **添加用户** — 创建单个用户账户
+* **用户组** — 管理用户组以用于组织目的
+* **班级** — 管理用户班级以进行批量会话注册
 
-### Courses
+### 课程
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **课程列表** — 查看和管理平台上的所有课程
+* **创建课程** — 创建新课程
+* **课程分类** — 将课程组织到目录中的分类中
 
-### Sessions
+### 会话
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **会话列表** — 查看和管理培训会话
+* **创建会话** — 设置包含课程和注册的新会话
+* **会话分类** — 将会话组织到分类中
+* **职业和晋升** — 管理职业路径和晋升流程
 
-### Platform Settings
+### 平台设置
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **配置设置** — 访问包含门户、课程、会话、用户、安全等分类的全面平台设置面板
 
-### Plugins
+### 插件
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **管理插件** — 安装、激活、配置和停用平台插件
 
-### System
+### 系统
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **系统状态** — 检查PHP配置、数据库状态和服务器健康状况
+* **归档清理** — 管理临时文件和缓存
 
-### Branding
+### 品牌定制
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **颜色** — 自定义平台的视觉外观
+* **门户定制** — 配置门户首页、新闻和品牌元素
 
-Each section is covered in detail in its corresponding chapter of this guide.
+本指南的相应章节中详细介绍了每个部分。
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+像OAuth2、LDAP、CAS和其他外部身份验证提供商这样的身份验证方法不在管理仪表板中配置，而是在`config/authentication.yaml`中配置。

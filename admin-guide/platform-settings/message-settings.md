@@ -1,70 +1,65 @@
-# Messaging Settings
+# 消息设置
 
-Behaviour of the **Messaging / Inbox** system.
+**消息/收件箱**系统的行为设置。
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过**管理 > 配置设置 > 消息**访问这些设置。此类别包含**7个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**内部消息工具**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+启用内部消息工具后，用户可以向平台上的其他用户发送消息，并拥有一个消息收件箱。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**允许向任何平台用户发送消息**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+允许您向平台上的任何用户发送消息，而不仅仅是您的好友或当前在线的人。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**管理员可以查看个人消息**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+允许管理员查看教师与学习者之间的个人消息。请确保在您的条款和条件中包含一条说明，因为这可能会影响隐私保护。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**教师只能在会话时间范围内访问学习者的消息**
 
-Filter messages between a teacher and a learner between the session start end dates
+在会话开始和结束日期之间过滤教师与学习者之间的消息。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**消息中上传文件的最大大小**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+消息工具中文件上传的最大大小（以字节为单位）。
 
-*Default: `20971520`*
+*默认值：`20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**允许教师之间就学习者进行私人消息交流**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+允许教师/上级在该用户的跟踪页面上就该用户进行消息交流。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**允许学习者查看教师之间关于他们的消息**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+如果启用了关于用户的消息交流，此选项将允许相应用户查看这些消息。这是为了遵守组织可能需要遵循的透明度规则。
 
-*Default: `false`*
-
-
+*默认值：`false`*

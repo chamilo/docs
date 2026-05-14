@@ -1,57 +1,57 @@
-# FAQ
+# 常见问题解答
 
-## General Questions
+## 一般问题
 
-**How do I access my course?**
+**如何访问我的课程？**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+点击侧边栏中的 **我的课程**，然后点击您想要打开的课程。如果您的课程属于某个会话，请先点击 **我的会话**，然后选择相应的会话和课程。
 
-**Can my learners access the course from a mobile phone?**
+**我的学生可以通过手机访问课程吗？**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+可以。Chamilo 2.0 拥有响应式界面，能够适应各种屏幕尺寸。学生可以在手机、平板电脑或计算机上使用任何现代网页浏览器访问课程。
 
-**What browsers are supported?**
+**支持哪些浏览器？**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 兼容所有主流现代浏览器：Chrome、Firefox、Safari 和 Edge。为了获得最佳体验，请使用最新版本的浏览器。
 
-## Content and Courses
+## 内容与课程
 
-**How do I create a backup of my course?**
+**如何备份我的课程？**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+在您的课程中访问 **维护** 工具（可在课程首页的设置菜单中找到）。在那里，您会找到导出课程内容的选项。
 
-**Can I copy content from one course to another?**
+**我可以将一个课程的内容复制到另一个课程吗？**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+可以。使用维护工具中的课程导入/导出功能，在课程之间复制内容。您需要先创建一个空的 *目标* 课程。
 
-**What file formats can I upload?**
+**我可以上传哪些文件格式？**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo 支持大多数常见文件格式：PDF、Word 文档、PowerPoint 演示文稿、图片（PNG、JPG、SVG、GIF）、音频文件、视频文件等。出于安全原因，您的管理员可能会限制某些文件类型。
 
-**What is the maximum file upload size?**
+**文件上传的最大大小是多少？**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+这取决于您的服务器配置。上传限制由管理员设定。如果您遇到限制，请联系管理员。
 
-## Assessment
+## 评估
 
-**Can exercises be graded automatically?**
+**练习可以自动评分吗？**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+可以。大多数问题类型（多选题、判断题、填空题、匹配题）都可以自动评分。开放性问题需要手动评分，或者如果已配置，您可以使用 AI 辅助评分。
 
-**Can I set a time limit on exercises?**
+**我可以为练习设置时间限制吗？**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+可以。在创建或编辑练习时，您可以以分钟为单位设置时间限制。学生会看到一个倒计时计时器。
 
-**Can learners retake an exercise?**
+**学生可以重做练习吗？**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+可以。您可以在练习设置中控制允许的尝试次数。您可以允许无限次尝试或设置特定的最大次数，但此最大次数适用于课程中的所有用户（您可以通过删除之前的尝试来 *释放* 新的尝试机会，但不建议这样做，因为这会导致用户之间的机会不平等，并且会在平台级别进行审计记录）。
 
-## Technical Issues
+## 技术问题
 
-**I cannot see a tool on my course homepage. Where is it?**
+**我在课程首页看不到某个工具。它在哪里？**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+某些工具可能被隐藏。作为教师，您可以通过查找带有划线眼睛图标的工具来显示隐藏的工具。如果您找不到特定的工具，可能是平台管理员在平台级别禁用了该工具。
 
-**My learners say they cannot access the course.**
+**我的学生说他们无法访问课程。**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+检查课程的可见性设置（课程设置 > 课程可见性）。如果设置为“仅限注册用户”，则学生必须明确注册到课程中。同时确认他们是否在平台上拥有活跃的账户。

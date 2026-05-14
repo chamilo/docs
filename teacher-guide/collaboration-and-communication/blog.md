@@ -1,46 +1,46 @@
-# Blog
+# 博客
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+博客工具允许您在课程内创建一个共享博客。学生可以撰写帖子、留下评论并参与结构化的写作活动。
 
-## Creating a Blog
+## 创建博客
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. 在课程首页打开**博客**工具（位于顶部齿轮图标下）
+2. 点击**新建项目**
+3. 输入**标题**和可选的副标题
+4. 保存
+5. 点击**显示**图标（眼睛图标）决定何时让学生可以访问
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+您可以在单个课程内创建多个博客（例如，每个主题一个或每个小组一个）。
 
-## Writing Blog Posts
+## 撰写博客帖子
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. 打开一个博客
+2. 点击**新建帖子**
+3. 输入**标题**并使用富文本编辑器编写帖子内容
+4. 保存
 
-Both teachers and learners (depending on permissions) can create posts.
+教师和学生（根据权限设置）都可以创建帖子。
 
-## Comments and Ratings
+## 评论与评价
 
-Readers can interact with blog posts through:
+读者可以通过以下方式与博客帖子互动：
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **评论** — 在帖子下方留下反馈或发起讨论（评论也可以作为对其他评论的回复进行嵌套）
+* **评价** — 对帖子进行评分以突出最受重视的贡献
+* **附件** — 帖子和评论都可以包含附件文件
 
-## Blog Tasks
+## 博客任务
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+您可以在博客内创建**任务** — 具体的写作任务，学生必须以博客帖子的形式完成。这适用于：
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* 反思日记
+* 每周写作作业
+* 项目更新报告
 
-## Managing the Blog
+## 管理博客
 
-As the teacher, you can:
+作为教师，您可以：
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* **编辑或删除**帖子和评论（删除帖子仅限于帖子作者或教师）
+* **切换博客可见性**以显示或隐藏博客给学生
+* **设置任务** — 添加具体的写作任务，学生必须以帖子形式完成。任务可以按颜色编码以便于视觉分组。

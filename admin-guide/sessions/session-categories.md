@@ -1,22 +1,22 @@
-# Session Categories
+# 会话类别
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+会话类别有助于组织您的会话，特别是在您同时运行多个会话时。
 
-## Creating a Category
+## 创建类别
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. 从管理面板中，导航到**会话类别**
+2. 点击**添加类别**
+3. 输入**名称**以及可选的开始/结束日期
+4. 保存
 
-## Use Cases
+## 使用场景
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **按计划** — “领导力发展”、“技术培训”、“入职培训”
+* **按周期** — “2026年第一季度”、“春季学期”、“七月批次”
+* **按部门** — “工程”、“销售”、“人力资源”
 
-## Managing Categories
+## 管理类别
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **编辑** — 更改类别名称或日期
+* **分配会话** — 在创建或编辑会话时，选择其类别
+* **删除** — 删除类别（类别中的会话将变为未分类）

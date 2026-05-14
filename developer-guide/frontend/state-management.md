@@ -1,103 +1,103 @@
-# State Management
+# 状态管理
 
-Chamilo uses two state management libraries side by side:
+Chamilo 同时使用两种状态管理库：
 
-* **Pinia** — the current standard for all new stores. The majority of the codebase uses Pinia.
-* **Vuex** — legacy store, still present and used by older views. New code should use Pinia.
+* **Pinia** — 所有新存储的当前标准。代码库的大部分使用 Pinia。
+* **Vuex** — 遗留存储，仍然存在并被旧视图使用。新代码应使用 Pinia。
 
-## Pinia Stores
+## Pinia 存储
 
-The Pinia stores live directly in `assets/vue/store/`:
+Pinia 存储直接位于 `assets/vue/store/` 中：
 
-| Store file | Composable | Purpose |
+| 存储文件 | 可组合函数 | 用途 |
 |-----------|-----------|---------|
-| `securityStore.js` | `useSecurityStore` | Authenticated user, login/logout, session check |
-| `cidReq.js` | `useCidReqStore` | Current course/session context (course ID, session ID) |
-| `courseSettingStore.js` | `useCourseSettings` | Course-level settings cache |
-| `enrolledStore.js` | `useEnrolledStore` | User enrollment data |
-| `platformConfig.js` | `usePlatformConfig` | Platform configuration, plugins, theme, OAuth2 providers |
-| `messageRelUserStore.js` | `useMessageRelUserStore` | Messaging state |
-| `socialStore.js` | `useSocialStore` | Social network state |
+| `securityStore.js` | `useSecurityStore` | 认证用户，登录/登出，会话检查 |
+| `cidReq.js` | `useCidReqStore` | 当前课程/会话上下文（课程 ID，会话 ID） |
+| `courseSettingStore.js` | `useCourseSettings` | 课程级设置缓存 |
+| `enrolledStore.js` | `useEnrolledStore` | 用户注册数据 |
+| `platformConfig.js` | `usePlatformConfig` | 平台配置，插件，主题，OAuth2 提供商 |
+| `messageRelUserStore.js` | `useMessageRelUserStore` | 消息状态 |
+| `socialStore.js` | `useSocialStore` | 社交网络状态 |
 
-### Security Store
+### 安全存储
 
 ```javascript
 const securityStore = useSecurityStore()
 
-// Check if user is logged in
+// 检查用户是否已登录
 if (securityStore.isAuthenticated) { ... }
 
-// Access current user object
+// 访问当前用户对象
 const user = securityStore.user
 ```
 
-### CID Request Store
+### CID 请求存储
 
-Tracks the current course/session context — required for any course-scoped API operation:
+跟踪当前的课程/会话上下文 — 任何课程范围的 API 操作都需要：
 
 ```javascript
 const cidReqStore = useCidReqStore()
 
-// Current course and session objects
+// 当前课程和会话对象
 const course = cidReqStore.course
 const session = cidReqStore.session
 ```
 
-### Course Settings Store
+### 课程设置存储
 
-Caches course-level settings to avoid repeated API calls:
+缓存课程级设置以避免重复的 API 调用：
 
 ```javascript
 const courseSettings = useCourseSettings()
 const value = courseSettings.getSetting('exercise_generator')
 ```
 
-### Platform Config Store
+### 平台配置存储
 
-Holds platform-wide configuration fetched from `/platform-config/list`:
+保存从 `/platform-config/list` 获取的平台范围配置：
 
 ```javascript
 const platformConfig = usePlatformConfig()
 
-// Loaded settings array, active theme, enabled plugins, OAuth2 providers
+// 加载的设置数组，活动主题，启用的插件，OAuth2 提供商
 const theme = platformConfig.visualTheme
 const plugins = platformConfig.plugins
 ```
 
-## Vuex Store (Legacy)
+## Vuex 存储（遗留）
 
-The Vuex store is defined in `assets/vue/store/index.js` and contains:
+Vuex 存储定义在 `assets/vue/store/index.js` 中，包含：
 
-| Module | Purpose |
+| 模块 | 用途 |
 |--------|---------|
-| `modules/crud.js` | Factory (`makeCrudModule`) that generates a full CRUD Vuex module for a given service — used by older list/create/update views |
-| `modules/notifications.js` | Toast notification state (show, color, text, timeout) |
-| `modules/ux.js` | UX state (forbidden-access message) |
-| `security.js` | Legacy Vuex security module (superseded by `securityStore.js`) |
+| `modules/crud.js` | 工厂（`makeCrudModule`），为给定服务生成完整的 CRUD Vuex 模块 — 被旧的列表/创建/更新视图使用 |
+| `modules/notifications.js` | 提示通知状态（显示，颜色，文本，超时） |
+| `modules/ux.js` | 用户体验状态（禁止访问消息） |
+| `security.js` | 遗留 Vuex 安全模块（已被 `securityStore.js` 取代） |
 
-Avoid adding new Vuex modules. Use Pinia for any new state.
+避免添加新的 Vuex 模块。任何新状态都应使用 Pinia。
 
-## Composables
+## 可组合函数
 
-In addition to stores, `assets/vue/composables/` contains shared composition functions. Notable examples:
+除了存储之外，`assets/vue/composables/` 还包含共享的组合函数。值得注意的示例：
 
-| File | Purpose |
+| 文件 | 用途 |
 |------|---------|
-| `useFileManager.js` | File browser state and operations |
-| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | Top-bar menu wiring |
-| `useTopbarTour.js` | Guided tour for the top bar |
-| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | Document tool helpers |
-| `useCertificateTags.js` | Certificate-template tag helpers |
-| `sidebarMenu.js` | Sidebar navigation tree |
-| `theme.js` | Theme loading and switching |
-| `pluginRegion.js` | Plugin-injected UI region rendering |
-| `userPermissions.js` | Permission checks for the current user |
-| `notification.js` | Push notification helpers |
-| `locale.js` | Locale detection and switching |
-| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | Reusable datatable CRUD patterns |
-| `useSocialInfo.js` / `useSocialMenuItems.js` | Social network helpers |
-| `usePushSubscription.js` | Web Push subscription management |
-| `upload.js` | File upload helpers |
-| `useConfirmation.js` | Confirmation dialog helper |
+| `useFileManager.js` | 文件浏览器状态和操作 |
+| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | 顶部栏菜单连接 |
+| `useTopbarTour.js` | 顶部栏的引导游览 |
+| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | 文档工具助手 |
+| `useCertificateTags.js` | 证书模板标签助手 |
+| `sidebarMenu.js` | 侧边栏导航树 |
+| `theme.js` | 主题加载和切换 |
+| `pluginRegion.js` | 插件注入的 UI 区域渲染 |
+| `userPermissions.js` | 当前用户的权限检查 |
+| `notification.js` | 推送通知助手 |
+| `locale.js` | 语言环境检测和切换 |
+| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | 可重用的数据表 CRUD 模式 |
+| `useSocialInfo.js` / `useSocialMenuItems.js` | 社交网络助手 |
+| `usePushSubscription.js` | Web 推送订阅管理 |
+| `upload.js` | 文件上传助手 |
+| `useConfirmation.js` | 确认对话框助手 |
 
-Composables are also organized into feature subdirectories (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, etc.). The full list is in `assets/vue/composables/`.
+可组合函数还按功能子目录组织（`course/`、`session/`、`document/`、`calendar/`、`admin/`、`auth/`、`message/`、`skill/` 等）。完整列表位于 `assets/vue/composables/` 中。

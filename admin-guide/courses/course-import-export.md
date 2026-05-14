@@ -1,78 +1,78 @@
-# Course Import and Export
+# 课程导入与导出
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Chamilo 支持课程的导入和导出功能，用于备份、迁移和内容共享。
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+这些功能位于课程内部的**维护**工具中，可在课程首页顶部的齿轮图标下找到。
 
-## Exporting a Course
+## 导出课程
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+教师可以从课程维护工具中导出自己的课程。作为管理员，您可以导出任何课程：
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. 进入课程
+2. 访问**课程维护**工具
+3. 选择**创建备份**
+4. 选择要包含的内容（内容、用户数据等）
+5. 下载导出文件
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+导出将创建一个包含课程文档、练习、论坛、学习路径和配置的包。
 
-## Importing a Course
+## 导入课程
 
-To import a course from a Chamilo export file:
+要从 Chamilo 导出文件导入课程：
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. 进入课程
+2. 访问**课程维护**工具
+3. 在**导入备份**部分，上传导出文件
+4. 选择要包含的内容（内容、用户数据等）
+5. 配置导入选项：
+   * 是否覆盖现有内容
+   * 是否包含用户数据
+6. 执行导入
 
-## Copying a Course
+## 复制课程
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+要将另一个课程的内容复制到您的课程中，首先需要创建源课程和目标课程。
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. 进入目标课程
+2. 访问**课程维护**工具
+3. 在**复制课程**部分，选择**源课程**
+4. 验证选项
+5. 点击**继续**并按照说明操作
 
-## Common Cartridge
+## 通用卡带格式
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Chamilo 支持 **IMS Common Cartridge 1.3** (IMS CC 1.3) 标准，以便与其他学习管理系统实现互操作性。您可以：
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **导入** 通用卡带格式包（.imscc 文件）
+* **导出** 课程内容为通用卡带格式
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+这允许与其他支持通用卡带标准的平台（如 Moodle、Canvas、Blackboard 等）进行内容交换。
 
-## Recycling a course
+## 课程回收
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+课程回收功能仅允许您保留课程的外壳，但会清除其内容。
 
-## Deleting a course
+## 删除课程
 
-This will completely erase your course, including all its contents and the user activity in it.
+这将完全删除您的课程，包括其所有内容和用户活动。
 
-To delete a course permanently:
+要永久删除课程：
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. 进入目标课程
+2. 访问**课程维护**工具
+3. 在**完全删除此课程**部分，手动输入课程代码以确认您的意图
+4. 验证
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+随后您将被重定向到门户首页，因为该课程已不存在。
 
-## Moodle Import
+## Moodle 导入
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Chamilo 可以导入来自 **Moodle** 的课程备份。导入工具会将 Moodle 的内容结构转换为 Chamilo 的格式，包括测验、文档和课程设置。
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **正在进行中。** 尽管已经覆盖了广泛的内容，Moodle 导入工具目前尚未涵盖 Moodle 的所有活动类型和内容格式。请将其视为一个起点，导入完成后可能仍需手动调整。如果您在导入或导出过程中发现任何失败或缺失的元素，请通过我们的 [Github 空间](https://github.com/chamilo/chamilo-lms/issues) 向我们报告，点击顶部的 **New issue** 并提供尽可能多的详细信息（如果不涉及机密信息，可包括课程备份本身）。
 
-## Tips
+## 小贴士
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **定期备份** — 鼓励教师定期导出课程作为备份
+* **测试导入** — 从其他平台导入内容时，请先在试验课程中测试导入，以验证所有内容是否正确转移
+* **内容可移植性** — 当需要与其他 LMS 平台共享内容时，使用通用卡带格式

@@ -1,50 +1,50 @@
-# Course Reports
+# 课程报告
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+课程报告为您提供了课程中所有学习者活动和表现的汇总视图。
 
-## Accessing Course Reports
+## 访问课程报告
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+从课程主页打开**跟踪** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具，并选择课程级别的报告视图。
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![课程跟踪概览，显示参与度指标和学习者活动摘要](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## 可用报告
 
-### Activity Overview
+### 活动概览
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+课程整体参与度的摘要，包括注册学习者、在课程中花费的时间、课程进度、练习进度和平均分数，以及作业活动。
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+在跟踪部分可以查看单独的详细视图，包括**资源**（每个资源的访问次数）、**工具**（每个工具的使用情况）和**事件**（原始事件日志）。
 
-### Exercise Reports
+### 练习报告
 
-For each exercise in the course:
+针对课程中的每个练习：
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* 尝试过的学习者人数
+* 平均分数
+* 分数分布
+* 通过的学习者人数（基于您设置的通过阈值）
 
-### Learning Path Reports
+### 学习路径报告
 
-For each learning path:
+针对每个学习路径：
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* 所有学习者的完成率
+* 平均进度百分比
+* 每个项目花费的时间
+* 已完成路径的学习者与仍在进行中的学习者
 
-### Assignment Reports
+### 作业报告
 
-For each assignment:
+针对每个作业：
 
-* Number of submissions received
-* Number of pending reviews
+* 收到的提交数量
+* 待审核的数量
 
-## Exporting Data
+## 导出数据
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+您可以导出跟踪和报告数据以进行进一步分析。查找**导出** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 选项，以电子表格兼容格式下载数据。
 
-## Session Reports
+## 会话报告
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+如果您在会话中教学，报告将限定于该会话的学习者。会话教练可以访问其会话中所有课程的报告。全局配置设置还可以允许教师查看使用其课程的所有会话中的作业（请咨询您的管理员）。

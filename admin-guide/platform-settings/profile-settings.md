@@ -1,227 +1,222 @@
-# User Profile Settings
+# 用户资料设置
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+用户资料中显示哪些字段，用户可以编辑哪些字段，以及相关的偏好设置。
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过 **管理 > 配置设置 > 用户资料** 访问这些设置。此类别包含 **29 个设置项**，以下列出平台设置固定值 (`SettingsCurrentFixtures.php`) 中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用。
 
-## Settings
+## 设置项
 
 ### `account_valid_duration`
 
-**Account validity**
+**账户有效期**
 
-A user account is valid for this number of days after creation
+用户账户在创建后的有效天数
 
-*Default: `3660`*
-
+*默认值：`3660`*
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**在页脚联系方式中预填用户和课程信息的邮件**
 
-Add subject and body in the mailto: footer.
+在 mailto: 页脚中添加主题和正文。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**允许显示用户的 LinkedIn URL**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+在用户社交模块中添加一个链接，允许访问用户的 LinkedIn 个人资料
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**允许显示用户的 Skype 账户**
 
-Add a link on the user social block allowing start a chat by Skype
+在用户社交模块中添加一个链接，允许通过 Skype 发起聊天
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**用户在地图上的地理位置**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+在社交网络中启用地图显示，允许定位其他用户。这包括多个位置（当前和目标），这些位置必须定义为地址或坐标，并分别存储在额外的字段中。额外字段必须在此处设置为数组。
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**允许教师管理班级**
 
-Enables teachers to manage class groups and their membership within the system.
+启用教师管理系统内的班级组及其成员资格。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**允许在课程内进行用户画像**
 
-Can a teacher define learner profile fields to retrieve additional information?
+教师是否可以定义学习者资料字段以获取额外信息？
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**允许用户无需密码即可更改电子邮件**
 
-When changing the account information
+在更改账户信息时
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**用户允许在资料中更改的字段**
 
-Select the fields users will be able to change on their profile page.
-
+选择用户在其资料页面上可以更改的字段。
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**启用用户的地理定位**
 
-Enable user's address field and show it on a map using geolocalization features
+启用用户的地址字段，并使用地理定位功能在地图上显示
 
 ### `extended_profile`
 
-**Portfolio**
+**作品集**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+如果启用此设置，用户可以填写以下（可选）字段：“我的个人开放区域”、“我的能力”、“我的文凭”、“我能教授的内容”
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**在课程聊天中隐藏用户名**
 
-In the course chat, hide the username. Only display people's names.
+在课程聊天中隐藏用户名，仅显示人名。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**在显示完整姓名时隐藏用户名**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+某些内部功能在返回用户的完整姓名时会返回用户名。启用此选项后，确保用户名不会显示。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**LinkedIn 组织 ID**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+在 LinkedIn 上分享徽章时，LinkedIn 允许您设置一个组织 ID，该 ID 将链接到您组织的 LinkedIn 页面（以链接颁发徽章的组织）。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `login_is_email`
 
-**Use the email as username**
+**使用电子邮件作为用户名**
 
-Use the email in order to login to the system
+使用电子邮件登录系统
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**我的空间中每页默认项目数**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+在“我的空间”跟踪部分（用户、工作统计、学生列表）中每页显示的记录数。
 
-*Default: `10`*
-
+*默认值：`10`*
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**密码提醒自定义页面**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+设置您自己的密码重置页面 URL。在使用联合账户管理系统时非常有用。
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**资料页面上可见的字段**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+字段数组及其在用户资料页面上是否可见（布尔值）（也适用于额外字段标签）。
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**在注册时添加两个姓名的帮助文本**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+在注册表单中为用户添加帮助文本，以便在常见双姓的情况下输入两个姓名。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**用户创建时向管理员发送邮件**
 
-Send email notification to admin when a user is created.
+当用户被创建时，向管理员发送电子邮件通知。
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**向用户显示特定注册条件**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+在注册过程中向用户显示多个条件。提供一个数组，每个元素包含 'variable'（内部额外字段名称）、'display_text'（复选框的简单文本）、'text_area'（条件长文本）。
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**“在线用户”页面上的官方代码**
 
-Show official code on the 'Who is online' page, below the username.
+在“在线用户”页面上，在用户名下方显示官方代码。
 
-*Default: `false`*
+*默认值：`false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**仅在个人资料完整时显示条款和条件**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+启用此选项后，只有当以“terms_”开头且设置为可见的额外个人资料字段被填写完整时，用户才能查看条款和条件。
 
-*Default: `false`*
+*默认值：`false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**分割用户上传目录**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+在高负载的门户网站上，如果注册用户众多且上传了大量图片，上传目录（main/upload/users/）可能会包含过多的文件，导致文件系统无法处理（在Debian服务器上曾报告超过36000个文件）。更改此选项将启用上传目录的一级分割。将在基础目录中使用9个目录，所有后续用户的目录将被存储在这9个目录之一中。更改此选项不会影响磁盘上的目录结构，但会影响Chamilo代码的行为，因此如果您更改此选项，必须在服务器上自行创建新目录并移动现有目录。请注意，在创建和移动这些目录时，您需要将用户1到9的目录移动到同名的子目录中。如果您不确定此选项，最好不要激活它。
 
-*Default: `true`*
+*默认值：`true`*
+
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**启用用户时区**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+启用此选项后，用户可以选择自己的时区。一旦配置完成，用户将能够以自己的时区查看作业截止日期和其他时间参考，从而减少交付时的错误。
 
-*Default: `true`*
+*默认值：`true`*
+
 
 ### `user_import_settings`
 
-**Options for user import**
+**用户导入选项**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+在CSV/XML用户导入中作为默认参数应用的一组选项。
+
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**管理员在用户列表中按额外字段搜索用户**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+在用户搜索中自然包含给定的额外字段（额外字段标签数组）。
+
 
 ### `user_selected_theme`
 
-**User theme selection**
+**用户主题选择**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+允许用户在个人资料中选择自己的视觉主题。这将更改Chamilo对他们的显示效果，但不会影响门户网站的默认样式。如果特定课程或会话分配了特定主题，则该主题将优先于用户定义的主题。
 
-*Default: `false`*
+*默认值：`false`*
+
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**个人资料中可见字段列表**
 
-Controls which profile fields are visible to users and others.
-
-
+控制哪些个人资料字段对用户和其他人可见。

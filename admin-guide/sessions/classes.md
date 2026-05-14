@@ -1,34 +1,34 @@
-# Classes
+# 班级
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+在 Chamilo 中，班级是预定义的用户组，可以作为一个整体注册到会话中。当您定期培训同一组人时，班级可以简化注册流程。
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> 班级和[用户组](../../admin-guide/users/user-groups.md) 使用相同的界面。唯一的区别在于**组类型**设置：在创建组时选择“班级”。其他所有内容——成员管理、可见性和界面本身——都完全相同。
 
-## Creating a Class
+## 创建班级
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. 从管理面板中，导航到**班级**（或用户组并选择“班级”类型）
+2. 点击**创建班级**
+3. 输入**名称**（例如，“工程团队”、“2026年3月新员工”）
+4. 添加**成员**——搜索并选择用户
+5. 保存
 
-## Using Classes for Enrollment
+## 使用班级进行注册
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+在创建或编辑会话时，您可以一次性注册整个班级，而无需逐个添加用户：
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. 打开会话注册设置
+2. 点击**添加班级**
+3. 选择班级
+4. 班级的所有成员将被注册到该会话中
 
-## Managing Classes
+## 管理班级
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **编辑**——更改班级名称或更新成员
+* **添加/删除成员**——保持班级名册最新
+* **删除**——删除班级（不会影响成员账户或他们现有的注册）
 
-## Tips
+## 小贴士
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **为重复出现的群体创建班级**——如果您为不同团队运行相同的培训，为每个团队创建一个班级
+* **在每个会话前更新**——在将班级注册到新会话之前，检查班级成员以确保名册是最新的
+* **结合 CSV 导入**——对于大型群体，可以从 CSV 文件导入班级成员

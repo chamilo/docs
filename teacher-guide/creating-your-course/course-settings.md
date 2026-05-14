@@ -1,99 +1,99 @@
-# Course Settings
+# 课程设置
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+课程设置允许您控制课程的行为方式——谁可以访问课程、课程的显示方式以及启用的功能。
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+要访问课程设置，请进入您的课程并点击**设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 图标，该图标位于**切换到学生视图**按钮旁边。
 
-## General Settings
+## 常规设置
 
-### Course Information
+### 课程信息
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **课程标题** — 课程的显示名称
+* **课程语言** — 课程界面的主要语言
+* **课程类别** — 课程在目录中所属的类别
+* **课程图片** — 上传一个代表您课程的缩略图，在课程列表中显示（会根据上下文调整大小）
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+课程代码（简短的唯一标识符）在创建课程时设置，无法从此页面编辑。
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+默认情况下，所有进入您课程的用户将看到整个 Chamilo 界面以课程语言显示。这是一个沉浸式功能。管理员可以更改此行为，但您也可以通过第一个选项进行更改：**以用户语言显示课程**（默认设置为“否”），如果您认为这对您的用户来说太困难。
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+部门和部门网址是已弃用的字段，仅出于遗留支持原因而保留。
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+如果启用，您可以通过**样式表**选项在课程内切换样式，使用门户上现有的样式表。此选项通常被管理员禁用，以实现更一体化的全局设计。
 
-### Disk Quota
+### 磁盘配额
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+每个课程都有上传文件的存储限制（磁盘配额）。配额由平台管理员设置。您可以在课程设置中查看当前限制，并在**文档**工具中查看当前使用情况。
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> 如果您的空间不足，请联系平台管理员请求增加配额，或从文档工具中删除未使用的文件。
 
-### Course Visibility
+### 课程可见性
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![课程可见性设置，显示公开、开放、注册和关闭选项](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+控制谁可以访问您的课程：
 
-| Setting | Description |
+| 设置 | 描述 |
 |---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| **公开** | 任何人，包括匿名访问者，都可以访问课程 |
+| **对平台开放** | 平台上所有注册用户都可以访问课程 |
+| **私有 — 由特权用户授予访问权限** | 只有明确注册课程的用户可以访问 |
+| **关闭** | 课程被锁定；除了教师外无人可以访问 |
 
-#### Enrollment Settings
+#### 注册设置
 
-Depending on your platform configuration, you may be able to control:
+根据您的平台配置，您可能能够控制：
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **允许自助注册** — 学习者是否可以通过课程目录自行注册
+* **允许自助取消注册** — 学习者是否可以自行退出课程
+* **注册密码** — 自助注册时要求输入密码（适用于限制特定群体的访问），但安全级别较低，因为所有用户共享相同的课程访问密码。
 
-### Document Settings
+### 文档设置
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+选择是否在**文档**工具中显示或隐藏系统文件夹（默认隐藏，在大多数情况下您并不需要它们，显示它们可能会导致隐藏内容和学习者的问题）。
 
-### E-mail Notification Settings
+### 电子邮件通知设置
 
-Configure how course activity triggers notifications:
+配置课程活动如何触发通知：
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **新内容电子邮件通知** — 当您添加新文档、公告或其他内容时通知已注册用户
 
-### Chat Settings
+### 聊天设置
 
-Control how the **Chat** tool will show.
+控制**聊天**工具的显示方式。
 
-### Learning path Settings
+### 学习路径设置
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **启用课程主题** — 允许学习路径更改外观（不建议用于一体化用户体验）
+* **学习路径返回链接** — 决定用户在学习路径中点击**首页**图标时跳转到的位置：学习路径列表、课程首页、*我的课程*、*我的会话*或门户首页
 
-### Thematic Advance Settings
+### 主题进展设置
 
-Configure how the thematic advance messages will appear on the course homepage.
+配置主题进展消息在课程首页上的显示方式。
 
-### Forum Settings
+### 论坛设置
 
-Control behaviour in the forum tool of this course.
+控制此课程论坛工具的行为。
 
-### Assignment Settings
+### 作业设置
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **新上传文件的默认可见性设置** — 决定学习者在**作业**工具中上传的新文档是否与其他学习者共享（默认设置为“否”）
+* **允许学习者删除自己的发布内容** — 允许学习者删除他们已上传的作业（以便他们想上传更正内容）。
 
-### Autolaunch Settings
+### 自动启动设置
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+课程可以设置为具有自动启动功能，这将缩短学习者进入课程重要部分的路径。如果启用此功能，进入课程的学习者将被直接引导至所选工具，而不会看到课程主页作为中间步骤。您甚至可以选择特定的学习路径或练习，以便在进入课程时自动启动。在这种情况下，您需要在此处选择相应选项，然后转到学习路径或练习列表，点击所选项目上的火箭图标 <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自动启动" data-size="line">。
 
-### AI Helpers Settings
+### 人工智能助手设置
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+此部分仅在您的管理员已在平台上启用人工智能工具时才会显示。它允许您调整通过 Chamilo 平台不同工具可用的人工智能助手服务的选择。如果您不想使用这些工具，可以禁用它们，但这可能不是一个好主意，因为这些工具非常强大。
 
-These features are explained in the **AI Tools** section of this guide.
+这些功能的详细说明在本指南的 **人工智能工具** 部分中提供。
 
-### External Tools (LTI)
+### 外部工具 (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+如果在您的平台上启用了学习工具集成 (Learning Tools Integration)，您可以将外部兼容活动整合到本课程中，作为课程主页上的独立图标。讨论 LTI 超出了本指南的范围，但这对教师来说是一个强大的集成系统。
 
-### Others
+### 其他
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+根据 Chamilo 的选项和版本，此页面上可能会出现额外的部分或选项。

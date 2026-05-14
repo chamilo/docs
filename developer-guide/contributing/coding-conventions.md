@@ -1,39 +1,39 @@
-# Coding Conventions
+# 编码规范
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **标准**：PSR-12 编码风格
+* **类型声明**：使用 PHP 8.2 类型声明（参数类型、返回类型、属性类型）
+* **严格类型**：所有 PHP 文件应声明 `strict_types=1`
+* **命名空间**：遵循 PSR-4 自动加载（例如，`Chamilo\CoreBundle\Entity\User`）
+* **Symfony 标准**：遵循 Symfony 的编码标准和最佳实践
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**：代码使用 ESLint 进行检查，并使用 Prettier 进行格式化；配置文件位于项目根目录的 `eslint.config.mjs`。同时启用了 `prettier-plugin-tailwindcss`，用于自动排序 Tailwind 类。
+* **组合 API**：对于新组件，使用 Vue 3 的 `<script setup>` 语法
+* **TypeScript**：支持 TypeScript；用于类型安全的代码
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**：优先使用工具类而非自定义 CSS
+* **BEM 命名**：当需要自定义 CSS 时，使用 BEM 命名约定
+* **SCSS**：对于复杂的样式表使用 SCSS
 
-## PHP Static Analysis and Refactoring Tools
+## PHP 静态分析和重构工具
 
-The project ships configuration for three additional tools:
+项目提供了三种额外工具的配置：
 
-| Tool | Config file | Purpose |
+| 工具 | 配置文件 | 用途 |
 |------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| **PHPStan** | `phpstan.neon` | 静态分析（级别 5，扫描 `src/` 和测试目录） |
+| **Psalm** | `psalm.xml` | 第二次静态分析；每次推送时在 CI 中运行 |
+| **Rector** | `rector.php` | 自动化代码转换和升级 |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+通过 composer 快捷方式运行它们：`composer phpstan`，`composer psalm`。完整命令请参见[测试](../contributing/testing.md)。
 
-## General
+## 通用规范
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **英文**：所有代码注释、变量名和文档应使用英文
+* **翻译**：所有面向用户的文本应使用翻译系统（前端使用 Vue I18n，后端使用 Symfony Translator）
+* **禁止魔法值**：使用常量或枚举替代硬编码值

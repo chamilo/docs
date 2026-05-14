@@ -1,107 +1,107 @@
-# Views and Routing
+# 视图与路由
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Chamilo 拥有一套庞大的 Vue 视图（页面级组件），通过 Vue Router 进行连接。实际文件位于 `assets/vue/views/` 目录下。
 
-## Router Architecture
+## 路由架构
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+路由定义在 `assets/vue/router/index.js` 中，使用 `createWebHistory` 来实现简洁的 URL。
 
-Routes are modular — organized into per-feature route files imported into the main router:
+路由是模块化的——按功能组织成独立的路由文件，并导入到主路由中：
 
-| Route module | Pages |
+| 路由模块 | 页面 |
 |-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| `admin` | 管理面板页面 |
+| `sessionAdmin` | 会话管理页面 |
+| `course` | 课程列表、创建、主页、目录 |
+| `account` | 用户资料和设置 |
+| `personalfile` | 个人文件空间 |
+| `message` | 消息/收件箱 |
+| `user` | 用户管理页面 |
+| `usergroup` | 用户组（班级）页面 |
+| `userreluser` | 用户关系（好友/关注）页面 |
+| `ccalendarevent` | 课程日历和议程 |
+| `ctoolintro` | 课程工具介绍页面 |
+| `page` | 静态 CMS 页面 |
+| `pageLayout` | 页面布局包装器 |
+| `publicPage` | 公开访问页面 |
+| `social` | 社交网络页面 |
+| `filemanager` | 文件管理器（课程文档浏览器） |
+| `skill` | 技能和能力页面 |
+| `accessurl` | 多 URL（门户）管理页面 |
+| `branch` | 分支/网络校区页面 |
+| `room` | 虚拟房间页面 |
+| `buycourses` | 课程购买页面 |
+| `documents` | 文档管理 |
+| `assignments` | 作业流程 |
+| `links` | 外部链接管理 |
+| `glossary` | 词汇表管理 |
+| `attendance` | 出勤跟踪 |
+| `lp` | 学习路径播放器和编辑器 |
+| `dropbox` | Dropbox / 文件交换 |
+| `blog` | 博客页面 |
+| `blogAdmin` | 博客管理 |
+| `coursemaintenance` | 课程备份和恢复 |
+| `catalogue` | 课程和会话目录 |
 
-## Key Routes
+## 关键路由
 
-| Path | View | Description |
+| 路径 | 视图 | 描述 |
 |------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| `/` | `AppIndex.vue`（或自定义） | 应用入口点 |
+| `/home` | `pages/Home.vue` | 平台主页 |
+| `/login` | `pages/Login.vue` | 登录页面 |
+| `/courses` | `views/user/courses/List.vue` | 用户已注册的课程 |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | 当前会话 |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | 过去的会话 |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | 即将到来的会话 |
+| `/course/:id/home` | `views/course/CourseHome.vue` | 课程主页 |
+| `/account/home` | `views/account/Home.vue` | 用户资料 |
+| `/admin` | 管理视图 | 管理面板 |
+| `/faq` | `pages/Faq.vue` | 常见问题页面 |
 
-## Route Guards
+## 路由守卫
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+路由使用导航守卫（通过 `beforeEach` 和 `afterEach` 声明）来：
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* 通过 `useSecurityStore` 检查认证状态，并将未认证用户重定向到 `/login`
+* 通过 `useCidReqStore` 验证课程上下文
+* 在 SPA 导航期间应用页面类型 CSS 类（替代 Twig 的 `PageHelper` 在完整页面加载时所做的工作）
+* 支持自定义 Vue 模板覆盖——当启用自定义 Vue 模板时，入口组件 `/` 将被替换为自定义的 `AppIndex.vue`（`var/vue_templates/pages/AppIndex.vue`）
 
-## View Organization
+## 视图组织
 
-Views are in `assets/vue/views/`, organized by feature:
+视图位于 `assets/vue/views/` 中，按功能组织：
 
 ```
 views/
-├── account/          # User profile and settings
-├── admin/            # Admin pages
-├── assignments/      # Assignment submission and grading
-├── attendance/       # Attendance sheets
-├── blog/             # Blog posts and comments
-├── branch/           # Network campus management
-├── buycourses/       # Course purchase flow
-├── ccalendarevent/   # Course calendar
-├── course/           # Course list, home, creation, catalog
-├── coursecategory/   # Course category management
-├── coursemaintenance/# Course backup/restore
-├── ctoolintro/       # Tool introduction pages
-├── documents/        # Document list, creation, media generation
-├── dropbox/          # Dropbox / file exchange
-├── filemanager/      # File browser
-├── glossary/         # Glossary list and term management
-├── links/            # External links
-├── lp/               # Learning path player and editor
-├── message/          # Inbox and messaging
-├── page/             # CMS static pages
-├── pageLayout/       # Page layout wrappers
-├── personalfile/     # Personal file space
-├── room/             # Virtual rooms
-├── sessionadmin/     # Session administration
-├── skill/            # Skills and competencies
-├── social/           # Social network
-├── terms/            # Terms of service
-├── user/             # User management and course/session lists
-├── usergroup/        # User groups (classes)
-└── userreluser/      # User relationships (friends/follows)
+├── account/          # 用户资料和设置
+├── admin/            # 管理页面
+├── assignments/      # 作业提交和评分
+├── attendance/       # 出勤表
+├── blog/             # 博客文章和评论
+├── branch/           # 网络校区管理
+├── buycourses/       # 课程购买流程
+├── ccalendarevent/   # 课程日历
+├── course/           # 课程列表、主页、创建、目录
+├── coursecategory/   # 课程类别管理
+├── coursemaintenance/# 课程备份/恢复
+├── ctoolintro/       # 工具介绍页面
+├── documents/        # 文档列表、创建、媒体生成
+├── dropbox/          # Dropbox / 文件交换
+├── filemanager/      # 文件浏览器
+├── glossary/         # 词汇表列表和术语管理
+├── links/            # 外部链接
+├── lp/               # 学习路径播放器和编辑器
+├── message/          # 收件箱和消息
+├── page/             # CMS 静态页面
+├── pageLayout/       # 页面布局包装器
+├── personalfile/     # 个人文件空间
+├── room/             # 虚拟房间
+├── sessionadmin/     # 会话管理
+├── skill/            # 技能和能力
+├── social/           # 社交网络
+├── terms/            # 服务条款
+├── user/             # 用户管理和课程/会话列表
+├── usergroup/        # 用户组（班级）
+└── userreluser/      # 用户关系（好友/关注）
 ```

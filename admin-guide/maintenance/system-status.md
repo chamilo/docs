@@ -1,40 +1,40 @@
-# System Status
+# 系统状态
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+系统状态页面帮助您验证您的Chamilo服务器是否正确配置，并识别潜在问题。
 
-## Accessing System Status
+## 访问系统状态
 
-From the administration panel, click **System status** (or **System information**).
+从管理面板中，点击**系统状态**（或**系统信息**）。
 
-## What It Shows
+## 页面显示内容
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![系统状态页面显示PHP配置、数据库状态、文件权限和服务器信息](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### PHP配置
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **PHP版本** — Chamilo 2.0需要PHP 8.2或更高版本
+* **必需扩展** — 检查是否安装了所有必要的PHP扩展
+* **PHP设置** — 验证重要的PHP设置，如内存限制、上传限制和执行时间
 
-### Database Status
+### 数据库状态
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **数据库连接** — 确认数据库可访问
+* **数据库版本** — 显示数据库服务器版本
 
-### File Permissions
+### 文件权限
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **可写目录** — 检查Chamilo是否可以写入所需目录（缓存、上传、日志）
 
-### Server Information
+### 服务器信息
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **操作系统** — 服务器操作系统详情
+* **Web服务器** — Apache、Nginx或其他
+* **磁盘空间** — 可用存储空间
 
-## Recommended Checks
+## 推荐检查
 
-Perform these checks regularly:
+定期执行以下检查：
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **安装后** — 验证是否满足所有要求
+* **升级后** — 确保PHP版本和扩展仍然兼容
+* **出现问题时** — 在排查问题时首先检查系统状态

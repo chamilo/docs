@@ -1,30 +1,30 @@
-# Sessions
+# 会话
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+会话是 Chamilo 最强大的功能之一。它们允许您在不同时间向不同的学习者群体提供相同的课程，而无需重复课程内容。
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[管理会话](managing-sessions.md)** — 创建、配置和管理培训会话
+* **[会话类别](session-categories.md)** — 将会话组织成类别
+* **[职业与晋升](careers-and-promotions.md)** — 定义职业路径和晋升流程
+* **[班级](classes.md)** — 管理学习者班级以进行批量注册
 
-## Understanding Sessions
+## 理解会话
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+会话是**可选的**。您可以仅使用课程来运行您的门户网站，但我们**强烈**建议您考虑会话的额外复杂性，作为长期节省管理工作的一种方式。
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+一个**课程**包含内容（文档、练习、学习路径）。一个**会话**将该课程（或多个课程）分配给特定学习者群体*在特定时间段内*。
 
-This architecture means:
+这种架构意味着：
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* 教师在课程中一次性创建内容
+* 管理员创建会话，将内容交付给不同的学习群体
+* 每个会话有自己的注册、跟踪数据和结果
+* 基础课程内容是共享的，但会话教练可以自定义某些元素
 
-## When to Use Sessions
+## 何时使用会话
 
-Use sessions when:
+在以下情况下使用会话：
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* 您多次提供相同的培训（例如，每月入职会话）
+* 您有基于群体的项目（例如，按学期划分的班级）
+* 您需要为每组学习者进行单独跟踪
+* 您希望不同的教练管理同一课程的不同版本

@@ -1,136 +1,136 @@
-# Installation Wizard
+# 安装向导
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设置。首次访问平台时，向导会自动运行。
 
-## Before You Start
+## 开始之前
 
-Ensure the following prerequisites are met:
+请确保满足以下前提条件：
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. 您的服务器满足所有[服务器要求](server-requirements.md)。
+2. 您已下载 Chamilo 的打包版本（zip 或 tar.gz）。
+3. 您的 Web 服务器已配置将 `public/` 目录作为文档根目录。
+4. 您的 `.env` 文件存在且为空（向导将指导数据库设置）。
 
-## Step 1: Installation Language
+## 步骤 1：安装语言
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![安装向导步骤 1 — 语言选择](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+第一步允许您选择安装过程的语言。从下拉菜单中选择您偏好的语言。
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+如果 Chamilo 检测到现有安装（用于升级），它将显示迁移状态并提供升级路径，而不是全新安装。
 
-## Step 2: Requirements Check
+## 步骤 2：要求检查
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![安装向导步骤 2 — 要求检查显示 PHP 版本、扩展和目录权限](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+向导会检查您的服务器环境：
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **PHP 版本** 为 8.2 或更高版本
+* **必需的 PHP 扩展** 已安装（intl, gd, curl, zip, mbstring, xml 等）
+* **推荐的 PHP 设置** — `date.timezone` 已配置，上传/内存限制充足
+* **目录和文件权限** — `var/`, `config/` 和 `public/upload/` 可被 Web 服务器写入
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+如果有任何要求未满足，向导会显示警告或错误。在继续之前解决这些问题。
 
-## Step 3: License
+## 步骤 3：许可证
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![安装向导步骤 3 — 许可证接受](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+此步骤显示 GNU/GPLv3 许可证。您必须勾选 **"我接受"** 复选框才能继续。
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+您可以选择展开 **联系信息** 部分，提供有关您组织的信息（名称、电子邮件、公司、国家）。这是自愿的，有助于 Chamilo 社区了解谁在使用该平台，但也允许我们 *极少情况下* 就您附近的活动与您联系。
 
-## Step 4: Database Settings
+## 步骤 4：数据库设置
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![安装向导步骤 4 — 数据库连接配置](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+输入您的数据库连接详细信息：
 
-| Field | Description |
+| 字段 | 描述 |
 |-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| **数据库主机** | 数据库服务器的主机名或 IP（例如，`localhost` 或 `127.0.0.1`） |
+| **数据库端口** | 默认值：MySQL/MariaDB 为 3306 |
+| **数据库名称** | 要使用的数据库名称（仅限字母数字和下划线） |
+| **数据库用户** | 对指定数据库具有完全权限的数据库用户 |
+| **数据库密码** | 数据库用户的密码 |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+点击 **检查数据库连接** 进行测试。在连接成功之前，向导不会让您继续。如果数据库已存在，将显示警告。
 
-## Step 5: Configuration Settings
+## 步骤 5：配置设置
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![安装向导步骤 5 — 管理员账户、门户设置和电子邮件配置](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+此步骤包括管理员账户创建、门户设置和电子邮件配置。
 
-### Administrator Account
+### 管理员账户
 
-| Field | Description |
+| 字段 | 描述 |
 |-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| **登录名** | 管理员用户名 |
+| **密码** | 选择一个强密码 — 此账户拥有平台完整访问权限 |
+| **名字** | 管理员的名字 |
+| **姓氏** | 管理员的姓氏 |
+| **电子邮件** | 用于系统通知和密码重置 |
+| **电话** | 可选的联系电话 |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+这些管理员详细信息也将被 Chamilo 用于填充支持联系方式，因此请确保在安装完成后在设置中重新配置。
 
-### Portal Settings
+### 门户设置
 
-| Field | Description |
+| 字段 | 描述 |
 |-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| **语言** | 默认界面语言 |
+| **门户名称** | 您的平台名称（例如，“我的组织 LMS”） |
+| **公司简称** | 您组织的简称 |
+| **公司网址** | 您组织的网站 |
+| **加密方法** | 密码哈希算法 — 推荐使用 **bcrypt** |
+| **允许自注册** | 是 / 否 / 需审批后 |
+| **允许自注册为培训师** | 是 / 否 |
 
-### Email Configuration
+### 电子邮件配置
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+电子邮件设置部分允许您配置邮件传输（SMTP, Amazon SES, Mailjet 等）并测试邮件发送。详细信息请参见[电子邮件配置](email-configuration.md)。
 
-All these settings can be changed later from the administration panel.
+所有这些设置稍后都可以在管理面板中更改。
 
-## Step 6: Last Check Before Install
+## 第6步：安装前的最后检查
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![安装向导第6步 — 安装前审查所有设置](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+此步骤显示您输入的所有内容的摘要，供您审查：
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* 管理员凭据（密码默认隐藏 — 点击眼睛图标以显示）
+* 门户设置
+* 数据库连接详细信息
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+请仔细审查，然后点击 **安装Chamilo** 执行安装。向导将创建所有数据库表，填充初始数据，并配置平台。
 
-## Step 7: Installation Complete
+## 第7步：安装完成
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![安装向导第7步 — 完成并提供安全建议和门户链接](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+安装成功完成后，向导将显示：
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **入门建议** — 建议创建您的第一个课程以探索平台（作为管理员，您需要从管理面板中执行此操作）
+* **安全建议**：
+  * 将 `config/` 目录设置为只读（`chmod 0555`）
+  * 删除 `public/main/install/` 目录
+* 一个 **指向您的门户的链接**，使用您刚刚创建的管理员凭据登录
 
-## Post-Installation
+## 安装后操作
 
-After completing the wizard:
+完成向导后：
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **移除或限制对安装程序的访问** —— 安装后不应能访问向导。Chamilo 通常会自动锁定，但请验证重新访问安装 URL 是否会重定向到登录页面。
+* **配置电子邮件发送** —— 参见 [电子邮件配置](email-configuration.md)。
+* **设置备份** —— 在添加内容之前，配置自动化的数据库和文件备份（Chamilo 没有提供解决方案，但复制 var/ 文件夹和数据库是两个最重要的元素）。
+* **审查安全设置** —— 参见 [安全设置](../platform-settings/security-settings.md)。
 
-## Troubleshooting
+## 故障排除
 
-| Problem | Solution |
+| 问题 | 解决方案 |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| 安装 URL 处显示空白页面 | 检查 PHP 错误日志。临时将 .env 中的 `APP_ENV` 更改为 `dev` 以在浏览器中查看错误。 |
+| 数据库连接失败 | 验证凭据，确认数据库存在，检查数据库服务器是否允许来自 Web 服务器主机的连接。 |
+| 权限被拒绝错误 | 确保 `var/` 目录对 Web 服务器用户具有写入权限。 |
+| 资源未加载（无 CSS/JS） | 运行 `yarn install && yarn build` 以编译前端资源。 |

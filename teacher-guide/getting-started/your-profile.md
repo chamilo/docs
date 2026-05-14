@@ -1,43 +1,43 @@
-# Your Profile
+# 您的个人资料
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+在Chamilo中，您的个人资料包含您的个人信息和偏好设置。平台上的其他用户可以根据您的可见性设置查看您个人资料的部分内容。
 
-## Accessing Your Profile
+## 访问您的个人资料
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+点击顶部栏右上角的**头像**，然后从下拉菜单中选择**个人资料**。您也可以通过侧边栏的**社交网络**部分访问它。
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![用户头像下拉菜单，显示个人资料、账户设置和退出选项](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## 个人资料信息
 
-Your profile page might show (depending on configuration):
+您的个人资料页面可能会显示（取决于配置）：
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **头像** — 您的个人资料图片。点击**编辑个人资料**可以更改它。
+* **全名** — 您在平台上注册的姓名和姓氏。
+* **电子邮件** — 您的电子邮件地址。其他用户可以点击它在Chamilo内给您发送消息。
+* **语言** — 您的首选语言。
+* **附加字段** — 根据您平台的配置，您可能会看到诸如电话号码、Skype账号、LinkedIn个人资料链接或由管理员定义的自定义字段等信息。
 
-## Editing Your Profile
+## 编辑您的个人资料
 
-To update your profile information, click **Edit profile**. Here you can:
+要更新您的个人资料信息，请点击**编辑个人资料**。在这里您可以：
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* 更改您的姓名、电子邮件和密码
+* 上传或更改您的头像/图片
+* 更新您的首选语言
+* 填写额外的个人资料字段（Skype、LinkedIn等）
+* 配置通知偏好
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+要更改密码，请点击**更改密码**。出于安全原因，您需要提供当前密码并两次输入新密码。
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+如果您的管理员为平台启用了**双重身份验证**选项（`2fa_enable`），您的个人资料将允许您使用TOTP身份验证器应用（Google Authenticator、Authy、1Password等）为自己的账户开启2FA。启用后，登录流程将要求您在输入密码之外，还提供基于时间的6位代码。
 
-## Personal Data
+## 个人数据
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+在**社交网络** > **个人数据**下，您可以查看Chamilo存储的关于您的所有信息。此部分包括：
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* 按类别组织的所收集数据的摘要
+* 如果您的组织启用了此功能，您对平台**条款和条件**的接受状态
+* 如果您的组织启用了此功能，一个**撤销同意**或**删除账户**的选项，这将触发一个账户删除请求，您的管理员将处理该请求
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> 此功能是为了遵守数据保护法规而提供的。如果您对数据处理方式有疑问，请联系您的管理员。

@@ -1,36 +1,36 @@
-# Glossary
+# 词汇表
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+词汇表工具允许您为课程定义关键术语。学生可以在学习时浏览词汇表以查阅定义。
 
-## Adding a Term
+## 添加术语
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. 在课程首页打开**词汇表**工具 <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">
+2. 点击**添加新术语到词汇表**
+3. 输入**术语**及其**定义**（定义支持富文本格式）
+4. 保存
 
-## Managing Terms
+## 管理术语
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新术语或其定义
+* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从词汇表中移除术语
+* **搜索** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="搜索" data-size="line"> — 使用搜索功能快速找到特定术语
 
-## Importing and Exporting
+## 导入和导出
 
-You can build your glossary faster using import/export:
+您可以使用导入/导出功能更快地构建词汇表：
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **导入** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="导入" data-size="line"> — 从CSV或XLS文件上传术语和定义列表。您还可以勾选“更新现有术语”以覆盖词汇表中已存在的术语定义。
+* **导出** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="导出" data-size="line"> — 将词汇表下载为CSV、Excel (XLS) 或 PDF 格式，以便在其他课程中使用或离线参考
 
-## Display Options
+## 显示选项
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+词汇表可以以两种格式显示，可通过工具栏切换：
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **表格视图** — 术语以表格形式列出，附带其定义
+* **列表视图** — 术语以单个面板形式显示，依次堆叠
 
-## Tips
+## 小贴士
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **逐步构建** — 在课程中引入术语时逐步添加，而不是一次性全部添加
+* **保持定义简洁** — 简短清晰的定义比冗长的解释更有用
+* **从学习路径链接** — 在学习路径内容中引用词汇表中的术语，鼓励学生使用词汇表

@@ -1,75 +1,75 @@
-# User Profiling
+# 用户画像
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamilo 允许您定义自定义档案字段（额外字段），以便在标准姓名、电子邮件和角色之外，捕获有关用户的额外信息。
 
-## Extra Profile Fields
+## 额外档案字段
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![显示自定义字段的额外档案字段列表，包括名称、类型和可见性设置](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+额外字段让您可以存储特定于您组织的数据，例如：
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* 员工编号
+* 部门
+* 职位
+* 地点/办公室
+* 电话号码
+* 自定义标识符
 
-## Creating Extra Fields
+## 创建额外字段
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. 从管理面板导航到 **额外字段** 或 **档案字段**
+2. 点击 **添加**
+3. 配置字段：
+   * **名称** — 显示给用户的字段标题
+   * **描述** — 可选的描述
+   * **帮助文本** — 在包含该字段的任何表单下方显示
+   * **字段类型** — 文本、下拉列表、日期、复选框等
+   * **字段标签** — 字段的内部名称，用于插件集成
+   * **可能的值** — 如果字段是这些值之间的选择器
+   * **默认值** — 可选的默认值
+   * **对自己可见** — 该字段是否在用户自己的档案上可见
+   * **对他人可见** — 该字段是否对平台上的其他用户可见
+   * **可更改** — 用户是否可以自行更改自己的字段（或者只有管理员可以）
+   * **过滤器** — 如果这是一个选择器类型的字段，是否将其作为管理页面中的过滤器（例如，用于将用户注册到课程或会话）
+   * **顺序** — 如果您想管理字段的显示顺序，需要为每个字段指定一个数字顺序
+   * **匿名化时移除** — 对于隐私规则和法律非常重要：如果用户被匿名化但未被删除，该字段是否应被视为可能包含个人身份数据的持有者？
+4. 保存
 
-## Field Types
+## 字段类型
 
-The extra-field engine supports a broad set of input types. Common ones include:
+额外字段引擎支持多种输入类型。常见类型包括：
 
-| Type | Description |
+| 类型 | 描述 |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **文本** | 单行文本输入 |
+| **文本区域** | 多行文本输入 |
+| **单选** | 单选按钮组 |
+| **下拉列表 / 多选下拉列表** | 预定义选项列表（单选或多选） |
+| **双重选择** | 两个依赖的下拉列表（例如，国家 → 城市） |
+| **复选框** | 是/否切换 |
+| **日期 / 日期和时间** | 日期或日期+时间选择器 |
+| **整数** | 数字输入 |
+| **标签** | 多个自由格式的标签值 |
+| **文件** | 文件上传字段 |
+| **视频URL** | 指向视频的URL |
+| **手机号码** | 格式化的电话号码字段 |
+| **时区** | 时区选择器 |
+| **社交档案** | 社交网络档案链接 |
+| **分隔线** | 表单内的视觉分隔符（无值） |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+可用的类型确切集合取决于 Chamilo 版本；**额外字段** 管理页面中的字段类型下拉列表是权威来源。
 
-## Using Extra Fields
+## 使用额外字段
 
-Extra fields appear:
+额外字段会出现在：
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* 用户创建（如果对自己可见）和编辑表单中
+* 用户档案页面上（如果对自己可见）
+* 用户导入中（您可以在 CSV 导入中包含额外字段值）
+* 导出和报告中（按额外字段值进行过滤或分组）
 
-## Tips
+## 小贴士
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **创建前规划** — 在创建字段之前明确您需要哪些信息，因为在输入数据后更改字段类型可能会出现问题
+* **使用下拉列表确保一致性** — 当字段有已知的可能值集合时，使用下拉列表而非自由文本以确保数据一致性
+* **用于报告** — 额外字段对于过滤报告非常有用（例如，“显示部门 X 中完成培训 Y 的所有用户”）

@@ -1,92 +1,92 @@
-# Database Schema
+# 数据库结构
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+Chamilo 2.0 将大量的 Doctrine 实体映射到数据库表中。具体数量在不同版本之间会有所变化——请阅读下面列出的实体目录以了解当前状态。
 
-## Entity locations
+## 实体位置
 
-| Bundle | Where | Prefix |
+| 包 | 位置 | 前缀 |
 |--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| CoreBundle | `src/CoreBundle/Entity/` | 无（例如，`user`, `course`, `session`） |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_`（例如，`c_document`, `c_quiz`, `c_lp`） |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## 关键表
 
-### User and Authentication
+### 用户和认证
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| `user` | 用户账户 |
+| `access_url` | 多URL门户 |
+| `access_url_rel_user` | 用户-门户分配 |
+| `usergroup` | 平台范围的用户组 |
 
-### Courses
+### 课程
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| `course` | 课程 |
+| `course_category` | 课程分类 |
+| `course_rel_user` | 课程注册 |
 
-### Sessions
+### 会话
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| `session` | 培训会话 |
+| `session_rel_user` | 会话注册 |
+| `session_rel_course` | 会话中的课程 |
+| `session_rel_course_rel_user` | 每个会话-课程的用户注册 |
 
-### Resource System
+### 资源系统
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| `resource_node` | 统一的内容抽象 |
+| `resource_file` | 文件附件 |
+| `resource_link` | 按上下文的可见性/访问权限 |
+| `resource_type` | 资源类型注册表 |
 
-### Course Content (c_ prefix)
+### 课程内容（c_ 前缀）
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| `c_document` | 文档 |
+| `c_quiz` | 练习/测试 |
+| `c_quiz_question` | 测验问题 |
+| `c_quiz_answer` | 问题答案 |
+| `c_lp` | 学习路径 |
+| `c_lp_item` | 学习路径项目 |
+| `c_forum_category` | 论坛分类 |
+| `c_forum_forum` | 论坛 |
+| `c_forum_thread` | 论坛主题 |
+| `c_forum_post` | 论坛帖子 |
+| `c_student_publication` | 作业/提交 |
+| `c_survey` | 调查 |
+| `c_glossary` | 词汇表术语 |
+| `c_calendar_event` | 日历事件 |
+| `c_attendance` | 考勤表 |
 
-### Tracking
+### 跟踪
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| `track_e_login` | 登录跟踪 |
+| `track_e_online` | 在线用户跟踪 |
+| `track_e_default` | 通用活动跟踪 |
+| `gradebook_category` | 成绩簿分类 |
+| `gradebook_result` | 成绩 |
 
-### Settings
+### 设置
 
-| Table | Purpose |
+| 表 | 用途 |
 |-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| `settings` | 平台设置 |
+| `settings_options` | 设置选项定义 |
 
-## Migrations
+## 迁移
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+数据库结构更改通过 `src/CoreBundle/Migrations/` 中的 Doctrine Migrations 进行管理。使用以下命令运行迁移：
 
 ```bash
 php bin/console doctrine:migrations:migrate

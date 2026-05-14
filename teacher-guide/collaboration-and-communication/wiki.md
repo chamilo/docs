@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+Wiki工具允许您和您的学生在课程内协作创建和编辑网页。这对于小组项目、共享知识库和协作写作练习非常有用。
 
-## How the Wiki Works
+## Wiki如何运作
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Wiki是一组相互链接的网页集合，任何有权限的人都可以编辑。在Chamilo中：
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* 每个课程都有自己的Wiki
+* 页面可以通过Wiki风格的链接相互连接
+* 所有编辑都会被追踪并记录在修订历史中
+* 可以比较和恢复之前的版本
 
-## Creating a Wiki Page
+## 创建Wiki页面
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. 在课程首页打开**Wiki**工具
+2. 点击**添加新页面**
+3. 输入**页面标题**
+4. 使用富文本编辑器编写页面内容
+5. 保存
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+要在编辑器中链接到另一个Wiki页面，请使用目标页面的标题创建链接。
 
-## Editing Pages
+## 编辑页面
 
-Anyone with edit permissions can modify a wiki page:
+任何有编辑权限的人都可以修改Wiki页面：
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. 打开您想要编辑的页面
+2. 点击**编辑**按钮 <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line">
+3. 在编辑器中进行更改
+4. 在**评论**中可选地添加一条记录，描述您更改了什么
+5. 保存
 
-## Revision History
+## 修订历史
 
-Every edit creates a new revision. You can:
+每次编辑都会创建一个新的修订版本。您可以：
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **查看历史记录** — 查看所有修订版本的列表，包括时间戳和作者
+* **比较版本** — 查看两个修订版本之间的变化
+* **恢复版本** — 如有需要，将页面恢复到之前的修订版本
 
-## Managing the Wiki
+## 管理Wiki
 
-As the course teacher, you can:
+作为课程教师，您可以：
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **查看所有页面** — 查看课程中所有Wiki页面的列表
+* **查找孤立页面** — 识别未链接到任何其他页面的页面
+* **查找所需页面** — 查看已被链接但尚不存在的页面
+* **锁定页面以禁止编辑** — 在您完成页面时，阻止对该页面进行所有编辑
+* **切换可见性** — 对学生隐藏某个页面
+* **删除页面** — 删除不再需要的页面
+* **监控贡献** — 按用户查看统计数据：最活跃的编辑者、最常编辑的页面、最常访问的页面
+* **导出** — 将Wiki页面导出为PDF或发送到文档工具
 
-## Tips
+## 小贴士
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **将Wiki用于小组项目** — 为每个小组分配一个Wiki页面，让他们协作构建交付成果
+* **创建课程知识库** — 构建一个包含关键概念的参考Wiki，并鼓励学生参与贡献
+* **审查编辑历史** — 修订历史记录允许您评估协作工作中的个人贡献

@@ -1,42 +1,41 @@
-# Attendance Settings
+# 考勤设置
 
-Defaults and behaviour of the **Attendance** tool.
+**考勤**工具的默认设置和行为。
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 考勤**下访问这些设置。此类别包含**4个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**考勤：启用删除功能**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Chamilo 的默认行为是隐藏考勤表而不是删除它们，以防教师误操作。启用此选项以允许教师*真正*删除考勤表。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**允许在考勤表中添加评论**
 
-Teachers and students can comment on each individual attendance (to justify).
+教师和学生可以对每个单独的考勤记录进行评论（以作解释）。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**考勤签名**
 
-Enable taking signatures to confirm one's attendance.
+启用签名功能以确认出席。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**启用多级考勤评分**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+允许使用多级评分来评估考勤，而不仅仅是简单的出席/缺席系统。
 
-*Default: `false`*
-
+*默认值：`false`*

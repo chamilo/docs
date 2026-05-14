@@ -1,7 +1,7 @@
-# Getting Started
+# 入门指南
 
-This section helps you set up a development environment and understand the Chamilo 2.0 project structure.
+本节将帮助您设置开发环境并了解 Chamilo 2.0 的项目结构。
 
-* **[Tech Stack](tech-stack.md)** — All technologies and their versions
-* **[Development Setup](development-setup.md)** — How to get Chamilo running locally
-* **[Project Structure](project-structure.md)** — Where things live in the codebase
+* **[技术栈](tech-stack.md)** — 所有技术及其版本
+* **[开发设置](development-setup.md)** — 如何在本地运行 Chamilo
+* **[项目结构](project-structure.md)** — 代码库中各部分的位置

@@ -1,80 +1,79 @@
-# Announcements Settings
+# 公告设置
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+课程**公告**工具的行为设置——公告如何发送和安排。
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 公告**下访问这些设置。此类别包含**9个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**将全局公告与职业和晋升关联**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+启用后，全局公告可以与职业和晋升关联，以便进行有针对性的分发。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**允许教练始终编辑公告**
 
-Allow coaches to always edit announcements inside active or past sessions.
+允许教练在活动或过去的会话中始终编辑公告。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**在会话中启用定时公告**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+允许会话管理者设置在特定日期或会话开始/结束后的若干天触发的公告。启用此功能需要设置一个定时任务。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**隐藏向人力资源用户发送公告的选项**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+移除启用向具有人力资源角色的用户发送公告的复选框（仍需在公告工具中确认）。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**基于日期的公告**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+允许教师配置在特定日期发送的公告。这需要您在cron/course_announcement.php上设置一个定时任务，至少每天运行一次。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**禁用公告附件**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+尽管此版本中的附件处理方式优雅且不会在磁盘上重复，您可能仍希望完全禁用附件以避免过度使用。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**禁用删除所有公告的按钮**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+选择“是”以移除删除所有公告的按钮，因为教师可能会误用此功能。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**在公告中隐藏“发送至”信息**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+选择“是”以避免显示公告已发送给谁。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**隐藏向人力资源发送公告副本的选项**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+在公告表单中，通常会出现一个选项，允许教师向用户的人力资源管理者发送公告副本。设置为“是”以移除该选项（并且*不*发送副本）。

@@ -1,53 +1,53 @@
-# AI Tutor
+# 人工智能辅导员
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+人工智能辅导员是集成在Chamilo中的一个聊天机器人，学生可以使用它来提出与课程相关的问题。它提供即时且具有上下文的回答，由先进的语言模型驱动。
 
-## How It Works
+## 工作原理
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+当为课程启用人工智能辅导员时，学生会看到一个聊天界面，他们可以：
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **提出问题** 关于课程内容
+* **获取解释** 关于课程中涉及的概念
+* **获得指导** 无需等待教师的回复
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+人工智能辅导员利用课程的上下文提供相关回答。它旨在补充您的教学，而不是替代您。
 
-## Enabling the AI Tutor
+## 启用人工智能辅导员
 
-The AI Tutor requires two levels of configuration:
+人工智能辅导员需要两个层面的配置：
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **平台层面** — 管理员必须启用人工智能助手并配置至少一个人工智能提供商（参见[人工智能配置](../../admin-guide/integrations/ai-configuration.md)）
+2. **课程层面** — 必须在课程设置中启用人工智能辅导员（一个简单的开关选项）。用于聊天的提供商是管理员配置的提供商。
 
-## The Chat Interface
+## 聊天界面
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![人工智能辅导员的聊天界面，显示学生与人工智能之间的对话](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+人工智能辅导员在课程中显示为一个**固定的聊天面板**。学生可以：
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* 输入消息并接收人工智能生成的回复
+* 查看他们的对话历史
+* 重启对话以从头开始
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+聊天界面以熟悉的消息格式显示学生与人工智能之间的消息交流。
 
-## Important Behavior
+## 重要行为
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **仅限于课程上下文** — 人工智能辅导员仅在课程内部可用，不在整个平台上通用
+* **考试期间禁用** — 当学生进行练习时，人工智能辅导员会自动禁用，以防止作弊
+* **按学生划分的对话** — 每个学生与人工智能辅导员有自己的私人对话，提示上下文仅包括最近的消息
+* **提供商备用** — 如果配置的提供商发生故障，Chamilo会切换到另一个可用的提供商，以确保聊天继续运行
 
-## As a Teacher
+## 作为教师
 
-You should be aware that:
+您需要了解以下事项：
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* 人工智能辅导员可能并非总是提供完美的回答 — 鼓励学生核实重要信息
+* 您可以通过平台的跟踪功能审查人工智能辅导员的使用情况
+* 人工智能辅导员是您教学的补充，而不是替代品。将其与论坛、公告和直接消息结合使用，为学生提供全面支持。
 
-## Tips
+## 小贴士
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **设定期望** — 在课程开始时告知学生人工智能辅导员可用，并解释如何适当使用
+* **鼓励批判性思维** — 提醒学生对人工智能生成的回答进行批判性思考
+* **用于常见问题** — 人工智能辅导员特别适用于处理您需要反复回答的常见问题

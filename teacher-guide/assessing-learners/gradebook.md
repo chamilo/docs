@@ -1,89 +1,90 @@
-# Assessments
+# 评估
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+评估（之前称为 *gradebook*）将练习、作业和其他评估活动的分数汇总为每个学生表现的统一视图。同时也控制证书的生成。
 
-## How the Assessments Work
+## 评估的工作原理
 
-The assessments are weighted scoring systems. You define:
+评估是加权评分系统。您可以定义：
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **哪些活动**计入成绩（练习、作业、考勤等）
+2. **每项活动的权重**（它对最终成绩的贡献程度）
+3. **认证的最低分数**（获得证书的门槛）
+4. **每项活动的最低分数** — 成绩簿中的每项活动可以有自己的**最低分数**。学生在某项关键活动中得分低于最低分数可能会被阻止达成目标并获得证书，即使他们的加权总分足够高。
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+活动可以分为两种类型：
+* **课堂活动**（或现场活动），其成绩需要从其他来源导入
+* **在线活动**，从课程中选择，成绩通过在课程中完成活动获得
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo 会根据这些权重计算每个学生的总体成绩。
 
-## Setting Up the Assessment
+## 设置评估
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. 在课程首页打开**评估**工具 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成绩簿" data-size="line">
+2. 您将看到评估概览，初始为空
 
-### Adding Activities
+### 添加活动
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. 点击**添加在线活动**
+2. 选择类型：
+   * **测试** — 链接到课程中的特定练习
+   * **作业** — 链接到学生的发布文件夹
+   * **学习路径** — 链接到学习路径的完成情况
+   * **考勤** — 链接到考勤表
+   * **论坛主题** — 链接到论坛主题（需手动评分）
+   * **调查** — 链接到调查
+3. 在所选类型中选择具体的活动
+4. 为该活动设置**权重**（例如，中期考试占 30%，最终项目占 40%）
+5. 如果适用，设置**最低分数**
+6. 保存
 
-The total weight of all activities should add up to 100%.
+所有活动的总权重应加起来为 100%。
 
-### Sub-Categories
+### 子类别
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+对于复杂的评估方案，您可以创建**子类别**来分组相关活动：
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **示例**：一个名为“作业”的子类别（权重：30%），包含五个单独的作业，每个作业占子类别的 20%
+* 子类别允许以分层方式组织评估，同时保持整体计算简单
 
-## Viewing Grades
+## 查看成绩
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![成绩簿概览表，显示学生姓名、活动分数和加权总分](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+评估显示一个表格，包含：
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* 每个学生的姓名
+* 每项活动的分数
+* 加权总分
+* 学生是否符合获得证书的条件
 
-You can sort by any column to quickly identify top performers or struggling learners.
+您可以按任意列排序，快速识别表现最佳的学生或有困难的学生。
 
-## Certificates
+## 证书
 
-To enable certificate generation:
+要启用证书生成：
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. 在评估设置中，设置**认证的最低分数**（例如，70%）
+2. 当学生的加权总分达到或超过该门槛（且未在任何活动的单独最低分数上失败）时，他们可以下载证书
+3. 证书由平台管理员配置的模板生成
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+有关更多详细信息，请参阅[证书与技能](../tracking-and-reporting/certificates-and-skills.md)。
 
-## Linking to Skills
+## 关联技能
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+您可以将**技能**与评估关联。当学生达到完成评估的既定目标时，他们可以获得证书、技能或两者兼得。技能会在学生的社交网络空间个人资料中显示。这将随着时间构建一个能力记录。
 
-## Exporting Grades
+## 导出成绩
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+点击**导出**按钮 <img src="/.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 下载成绩为电子表格。这对于以下情况很有用：
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* 与行政系统共享成绩
+* 在 Chamilo 之外进行额外分析
+* 保留离线记录
 
-## Tips
+---
+## 提示
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **提前规划权重** — 在课程开始时就确定评估方案，以便学生知道预期内容
+* **对复杂课程使用子类别** — 将作业、测验和参与度分组到清晰的类别中
+* **设定有意义的及格线** — 认证分数应反映真实的 competence，而不仅仅是参与度
+* **定期检查** — 定期审查成绩簿，确保所有活动都正确链接，并且分数被准确记录

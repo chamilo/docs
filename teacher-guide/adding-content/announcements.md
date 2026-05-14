@@ -1,38 +1,38 @@
-# Announcements
+# 公告
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+公告工具允许您向课程中注册的所有学生发送消息，也可以发送给特定的个人或小组。
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+通过公告工具发送的消息将同时通过电子邮件和Chamilo的收件箱发送给学生。
 
-## Creating an Announcement
+## 创建公告
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. 在课程首页打开**公告**工具 <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line">
+2. 再次点击**添加公告**图标 <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line">
+3. 填写以下内容：
+   * **收件人** — 选择接收公告的对象：
+     * 所有注册学生
+     * 特定学生
+     * 特定小组
+   * **主题** — 公告的主题行
+   * **描述** — 消息正文（支持富文本格式、链接和图片）
+   * **附件** — 可选的附件，随电子邮件一起发送
+   * **发送选项** — 默认情况下，公告将通过电子邮件发送，但您也可以选择（如果有权限）将其发送到包含此课程的所有会话，发送一份副本给自己，或将此公告链接到课程日历中的一个事件。
+4. 保存
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+**标签**按钮允许您识别一系列标记，这些标记将在公告的**内容**中动态替换。它们相对直观，因此我们让您自己去发现它们的作用。
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+**预览**按钮不太直观：它允许您查看此公告将发送给谁。这相当于对上述收件人选择的确认。
 
-## Managing Announcements
+## 管理公告
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 修改现有公告
+* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 删除公告
+* **可见性** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 隐藏或显示公告
 
-Announcements are displayed in reverse chronological order (newest first).
+公告按时间倒序列出（最新的排在最前面）。
 
-## Tips
+## 小贴士
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **欢迎消息** — 在课程开始时创建一个公告，欢迎学生并提供指导
+* **使用电子邮件发送** — 对于时间敏感的公告，启用电子邮件选项，以便学生即使未登录平台也能收到消息
+* **定向公告** — 当消息与整个班级无关时，向特定小组或个人发送公告

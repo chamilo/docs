@@ -1,66 +1,66 @@
-# Attendance
+# 出勤
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+出勤工具允许您跟踪学生在预定课程中的参与情况，无论是线下还是在线课程。
 
-## Creating an Attendance Sheet
+## 创建出勤表
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. 在课程首页打开**出勤**工具
+2. 点击**添加出勤**以创建出勤表
+3. 为出勤表输入一个**标题**（例如，“第1周 - 介绍”）
+4. 输入**描述**（这主要是供您自己使用 - 学生不会看到描述）
+5. 保存
 
-### Advanced settings
+### 高级设置
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **要求唯一出勤**允许您在学生至少参加出勤表中的一个日期时将其视为完全出勤
+2. **成绩册选项**允许您决定是否在评估工具（成绩册）中对出勤表进行评分。
 
-## Adding dates
+## 添加日期
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+每张出勤表包含一个或多个日期（课程），您可以在这些日期上记录出勤情况：
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. 打开一张出勤表或继续创建过程
+2. 点击**添加日期** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加日期" data-size="line">
+3. 选择日期和时间
+4. 可选地，勾选**重复日期**以选择重复逻辑
+5. 为活动设置**持续时间**（以分钟为单位，默认值为60分钟）
+6. 可选地，如果此出勤日期仅适用于某个学生组，则选择一个**组**
+7. 保存
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+您可以为同一张出勤表添加多个日期（例如，一个月内的所有课程）。
 
-## Recording Attendance
+## 记录出勤
 
-For each date, mark each learner as:
+对于每个日期，将每位学生标记为：
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **出席** — 学生到场（所有学生的默认值）
+* **缺席** — 学生未到场
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+点击每位学生姓名旁边的状态单元格以在出席和缺席之间切换。
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+默认情况下，所有学生都被标记为出席，因为我们认为出席的人数通常比缺席的人数多。
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+注意：管理员可以修改门户设置，允许您选择更广泛的出勤类型（迟到、有正当理由缺席等），这可能更符合您的流程。在这种情况下，只需点击出勤条目即可在所有出勤类型之间切换。
 
-## Viewing Attendance Reports
+## 查看出勤报告
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![出勤表显示包含学生、日期和出勤指标的汇总表](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+出勤工具显示：
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* 包含所有学生和所有日期的汇总表
+* 每位学生的出勤百分比（出席课程数/总课程数）
+* 便于查看的颜色编码指标
 
-## Extra
+## 附加功能
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+出勤表具有一些不立即可见的附加功能：
+* **签名**可以启用，以便学生通过教师管理的平板电脑在课堂上签名确认出勤
+* **评论**可以由教师添加，记录每位学生的出勤情况
+* **PDF报告**可以导出以符合规定要求
 
-## Tips
+## 小贴士
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **与课程进度关联** — 将出勤数据与课程进度工具结合使用，以关联出勤情况与主题覆盖情况
+* **导出数据** — 导出出勤表用于行政记录
+* **设定期望** — 如果出勤是强制性的，请在课程介绍或公告中明确传达政策

@@ -1,196 +1,182 @@
-# Workflows Settings
+# 工作流程设置
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+跨领域的工作流程开关——课程创建、注册验证、作业流程等类似功能。
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 配置设置 > 工作流程** 下访问这些设置。此类别包含 **23 个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用。
 
-## Settings
+## 设置
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**允许课程管理员订阅用户**
 
-Activate this option will allow course administrator to subscribe users inside a course
+激活此选项将允许课程管理员在课程内订阅用户
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**允许非管理员创建课程**
 
-Allow non administrators (teachers) to create new courses on the server
+允许非管理员（教师）在服务器上创建新课程
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**启用课程工作时间的编辑**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+启用此功能，让教师可以手动更新学习者在课程中花费的时间。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**仅管理员可更改课程可见性**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+禁止非管理员更改课程可见性。当教师数量过多难以直接控制时，可见性可能成为问题。强制设置可见性有助于组织更好地管理课程目录。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**课程的默认菜单项**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+定义用户未注册任何课程或会话时，“课程”条目显示的默认子元素。
 
-*Default: `my_courses`*
-
+*默认值：`my_courses`*
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**用于发送禁用账户通知的用户的内部ID**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+通过使用“机器人”账户向用户发送电子邮件，避免在账户因某些原因被禁用时过于个人化。
 
-*Default: `0`*
-
+*默认值：`0`*
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**禁用编辑课程教练的能力**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+禁用后，管理员在课程编辑页面上将没有快速分配教练到会话课程的链接。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**人力资源经理可访问所有学生的报告页面**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[推测] 授予人力资源/部门负责人经理访问平台上所有学习者的报告页面。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `gamification_mode`
 
-**Gamification mode**
+**游戏化模式**
 
-Activate the stars achievement in learning paths
+在学习路径中激活星级成就
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**登录后直接进入课程**
 
-When a user is registered in one course, go directly to the course after login
+当用户注册了一个课程时，登录后直接进入该课程
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**加载条款条件部分**
 
-The legal agreement will appear during the login or when enter to a course.
+法律协议将在登录时或进入课程时显示。
 
-*Default: `login`*
-
+*默认值：`login`*
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**在子URL中隐藏禁用的设置**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+设置为“是”后，如果主URL中禁用了某个设置（即 access_url_changeable 字段 = 0），则在子URL中完全隐藏该设置
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**启用重定向插件**
 
-Enable only if you are using the Redirection plugin
+仅在使用重定向插件时启用
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**为已认证用户将 index.php 重定向到指定URL**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+如果您不希望使用索引页面（公告、热门课程等），可以在此定义用户尝试加载索引时将被重定向到的脚本（从文档根目录开始）。
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**将所有电子邮件发送至**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+提供一个电子邮件地址列表，平台发送的所有电子邮件都将发送到这些地址。这些地址将作为可见的目的地接收电子邮件。
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**用于搜索和命名会话的额外用户字段**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+此设置定义了用于搜索用户和在 /admin-dashboard/register 注册学生时定义会话名称的额外用户字段键（例如，“company”）。
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**教师可以选择课程作为模板**
 
-Allow pick a course as template for the new course that teacher is creating
+允许选择一个课程作为教师创建的新课程的模板
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**首次登录时设置到期日期**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+定义在用户首次登录时设置账户到期日期的“天数”和“月份”的数组。
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**设置额外字段作为前学习者注册的触发条件**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+在此提供一个额外字段标签。如果任何用户的此额外字段被更新，将触发一个流程，检查该用户是否可以访问具有相同额外字段的课程。
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**按角色设置的默认过期天数**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+一个角色 => 天数的数组，表示根据角色不同，账户在过期前的天数。
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**在用户从组/班级取消订阅时，不自动取消其课程或会话的订阅**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[推断] 当从组/班级中移除用户时，不自动取消其与相关课程或会话的订阅。
 
-*Default: `false`*
+*默认值：`false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**在从组/班级移除课程时，不自动取消用户的课程订阅**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[推断] 当从组/班级中移除课程时，不自动取消用户对该课程的订阅。
 
-*Default: `false`*
+*默认值：`false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**在从组/班级移除会话时，不自动取消用户的会话订阅**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[推断] 当从组/班级中移除会话时，不自动取消用户对该会话的订阅。
 
-*Default: `false`*
-
-
+*默认值：`false`*

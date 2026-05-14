@@ -1,150 +1,149 @@
-# Upgrading
+# 升级
 
-Note: On this page, we use 2.0.0 as a strict version number and 2.x to identify all versions that start with the number 2 (2.0.0, 2.0.1, 2.1.0, etc)
+注意：在此页面中，我们使用 2.0.0 作为严格的版本号，而 2.x 则指代所有以数字 2 开头的版本（例如 2.0.0、2.0.1、2.1.0 等）。
 
-The upgrade process from 1.11.x to 2.x is described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
-The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
-Although we have made extensive tests on similar migrations, because some of the settings of 1.11.x were not yet supported in 2.0.0, we recommend waiting for version 2.1 before upgrading a 1.11.x system, or to be professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
+从 1.11.x 升级到 2.x 的过程在您的 Chamilo 代码中的 `public/documentation/installation_guide.html` 文件中有详细描述。此处的信息大部分是重复的。您可以在 `https://campus.chamilo.net/documentation/installation_guide.html` 在线查看。尽管我们已经对类似的迁移进行了广泛测试，但由于 1.11.x 的某些设置在 2.0.0 中尚未得到支持，我们建议等待 2.1 版本再升级 1.11.x 系统，或者在这一过程中寻求 [官方 Chamilo 提供商](https://chamilo.org/providers) 的专业协助。
 
-## Upgrading from 1.11.x to 2.x
+## 从 1.11.x 升级到 2.x
 
-Upgrading from Chamilo 1.11.x to 2.x is a **major migration**, not a simple update. Chamilo 2.0 was rebuilt on the Symfony framework with a restructured database schema, new API, and different file organization. Plan this migration carefully and try it out on a test environment before rolling out in production.
+从 Chamilo 1.11.x 升级到 2.x 是一次**重大迁移**，而不仅仅是简单的更新。Chamilo 2.0 基于 Symfony 框架重建，数据库结构进行了重组，引入了新的 API，并调整了文件组织结构。请仔细规划此次迁移，并在生产环境部署前先在测试环境中进行尝试。
 
-### Before You Begin
+### 开始之前
 
-1. **Read the release notes** for Chamilo 2.x to understand what has changed, what is new, and what features from 1.11.x may not yet be available.
-2. **Back up everything**:
-   - Full database dump (`mysqldump` or equivalent).
-   - All files in the Chamilo 1.11.x installation directory, especially `app/upload/`, `app/courses/`, and `main/`.
-   - Your `configuration.php` file.
-3. **Test on a staging server first.** Never run the migration directly on your production server.
-4. **Verify server requirements.** Chamilo 2.x has different requirements than 1.11.x (notably, PHP 8.2+). See [Server Requirements](server-requirements.md).
+1. **阅读发布说明**：了解 Chamilo 2.x 的变化、新功能以及 1.11.x 中可能尚未提供的功能。
+2. **备份所有内容**：
+   - 完整数据库转储（使用 `mysqldump` 或类似工具）。
+   - Chamilo 1.11.x 安装目录中的所有文件，特别是 `app/upload/`、`app/courses/` 和 `main/`。
+   - 您的 `configuration.php` 文件。
+3. **先在测试服务器上进行测试。** 切勿直接在生产服务器上运行迁移。
+4. **验证服务器要求。** Chamilo 2.x 的要求与 1.11.x 不同（特别是需要 PHP 8.2+）。请参阅[服务器要求](server-requirements.md)。
 
-### What May Require Manual Attention
+### 可能需要手动处理的事项
 
-| Area | Notes |
+| 领域 | 说明 |
 |------|-------|
-| **Custom plugins** | 1.11.x plugins are not compatible with 2.x. They must be rewritten or replaced, which has been partially done in 2.0 and should be complete by 2.1 for official plugins. |
-| **Custom themes** | 1.11.x themes do not work in 2.x. Recreate your branding using the 2.x theming system. |
-| **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
-| **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
-| **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
+| **自定义插件** | 1.11.x 的插件与 2.x 不兼容。必须重写或替换插件，部分工作已在 2.0 中完成，官方插件预计将在 2.1 版本中完全适配。 |
+| **自定义主题** | 1.11.x 的主题在 2.x 中无法使用。需使用 2.x 的主题系统重新创建品牌样式。 |
+| **自定义数据库修改** | 任何在 Chamilo 之外直接对数据库进行的修改可能无法迁移。 |
+| **SCORM 包** | SCORM 内容应能迁移，但需逐个测试包以验证播放效果。 |
+| **外部集成** | 任何使用 1.11.x API 或 Web 服务的集成需更新为使用 2.x 的纯 REST API，基于 [API Platform](https://github.com/api-platform/api-platform)。 |
 
-## Updating Chamilo 2.0.x
+## 更新 Chamilo 2.0.x
 
-Minor updates within the 2.0 branch are more straightforward.
+在 2.0 分支内的次要更新相对简单。
 
-### Update Process
+### 更新流程
 
-#### Using a package
+#### 使用安装包
 
-1. **Back up** the database and files.
+1. **备份**数据库和文件。
 
-2. **Download the latest 2.0.x version** from [chamilo.org](https://chamilo.org/download):
+2. **从 [chamilo.org](https://chamilo.org/download) 下载最新的 2.0.x 版本**：
 
-3. **Expand locally**
+3. **本地解压**
 
-For example (adapt to the downloaded version)
+例如（根据下载的版本进行调整）：
    ```bash
    unzip chamilo-2.0.1.zip
    ```
 
-4. **Copy the files over your existing Chamilo installation**
+4. **将文件复制到现有的 Chamilo 安装目录**
    ```bash
    cp -r chamilo/* [your-chamilo-installation-path]/
    cp -r chamilo/.* [your-chamilo-installation-path]/
    ```
 
-5. **Run database migrations:**
+5. **运行数据库迁移：**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **清除缓存：**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **更改权限**
 
-Adapt to your web server user:
+根据您的 Web 服务器用户进行调整：
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **验证**平台是否正常加载，并抽查关键功能。
 
-#### Using Git
+#### 使用 Git
 
-If you installed Chamilo using Git, you can follow these instructions instead.
+如果您使用 Git 安装了 Chamilo，可以按照以下说明操作。
 
-1. **Back up** the database and files.
+1. **备份**数据库和文件。
 
-2. **Pull the latest code** (or download the new release):
+2. **拉取最新代码**（或下载新版本）：
    ```bash
    git pull origin 2.0
    ```
 
-3. **Update PHP dependencies:**
+3. **更新 PHP 依赖：**
    ```bash
    composer install --no-dev --optimize-autoloader
    ```
 
-4. **Update JavaScript dependencies and rebuild assets:**
+4. **更新 JavaScript 依赖并重新构建资源：**
    ```bash
    yarn install && yarn build
    ```
 
-5. **Run database migrations:**
+5. **运行数据库迁移：**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **清除缓存：**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **更改权限**
 
-Adapt to your web server user:
+根据您的 Web 服务器用户进行调整：
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **验证**平台是否正常加载，并抽查关键功能。
 
-### Automating Updates
+### 自动化更新
 
-For organizations that manage multiple Chamilo instances, consider scripting the update process:
+对于管理多个 Chamilo 实例的组织，可以考虑编写脚本以自动化更新过程：
 
 ```bash
 #!/bin/bash
 set -e
 
-# Pull code
+# 拉取代码
 git pull origin 2.0
 
-# Dependencies
+# 依赖
 composer install --no-dev --optimize-autoloader
 yarn install && yarn build
 
-# Database
+# 数据库
 php bin/console doctrine:migrations:migrate --no-interaction
 
-# Cache
+# 缓存
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 
-echo "Update complete."
+echo "更新完成。"
 ```
 
-## Tips
+---
+## 提示
 
-* **Always back up before upgrading.** Database migrations are not reversible through the Chamilo interface.
-* **Test on staging first** -- especially for the 1.11.x to 2.0 migration, which involves significant data transformation.
-* **Schedule upgrades during maintenance windows** when users are not actively using the platform.
-* **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
-* **Web updates** are not yet provided in Chamilo 2.0, but this is an ongoing project we hope to be releasing soon.
+* **升级前务必进行备份。** 数据库迁移无法通过 Chamilo 界面进行撤销。
+* **首先在测试环境中进行测试** —— 特别是从 1.11.x 升级到 2.0 的迁移，涉及大量数据转换。
+* **在维护窗口期间安排升级**，此时用户不会积极使用平台。
+* **订阅 GitHub 发布版本**，在 [Github](https://github.com/chamilo/chamilo-lms/releases) 上使用铃铛图标，以便接收新版本和安全补丁的通知。
+* **Web 更新** 在 Chamilo 2.0 中尚未提供，但这是一个正在进行的项目，我们希望很快能发布。

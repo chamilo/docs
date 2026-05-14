@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# 词汇表术语生成器
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+词汇表术语生成器通过人工智能帮助您更快地构建课程词汇表，自动从某个主题或学科领域生成术语定义。在将任何内容添加到词汇表之前，您可以审查每个建议的术语和定义。
 
-## Accessing the Glossary Terms Generator
+## 访问词汇表术语生成器
 
-The generator is available from the **Glossary** tool, provided that:
+只要满足以下条件，生成器即可在**词汇表**工具中使用：
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. 平台层面启用了人工智能助手
+2. 至少配置了一个人工智能文本提供商
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+在课程首页打开**词汇表**工具 <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">，然后在工具栏中查找**使用人工智能生成**按钮。
 
-## How to Generate Terms
+## 如何生成术语
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. 点击**使用人工智能生成**
+2. 输入**主题或学科领域**——描述您希望生成术语的领域（例如，“基础有机化学”或“项目管理方法论”）
+3. 可选地，指定要生成的**术语数量**
+4. 如果配置了多个人工智能提供商，选择一个**人工智能提供商**
+5. 点击**生成**
 
-The AI produces a list of terms with definitions that you can then review.
+人工智能将生成一个包含定义的术语列表，供您审查。
 
-## Reviewing and Adding Terms
+## 审查和添加术语
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+生成的术语将作为建议显示。在将它们添加到您的词汇表之前：
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **检查准确性**——确认定义是否符合您课程的级别和背景
+* **编辑措辞**——调整定义以匹配您的教学风格或课程惯例
+* **移除重复项**——忽略已经在您的词汇表中或超出课程范围的术语
+* **选择要添加的内容**——选择要导入的术语；您无需全部接受
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+当您满意后，确认选择，术语将被添加到您的词汇表中。
 
-## Tips
+## 小贴士
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **主题要具体**——广泛的主题会生成一般性定义；更具体的主题会提供与课程更相关的术语
+* **始终审查**——人工智能生成的定义可能过于简化或不准确。在发布给学生之前，检查每一个定义
+* **导入后可编辑**——您可以在词汇表管理视图中随时更新术语的定义
+* **结合手动输入**——使用生成器获取初始术语集，然后手动添加特定学科的术语

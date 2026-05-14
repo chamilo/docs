@@ -1,27 +1,27 @@
-# AI Tools
+# 人工智能工具
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0 引入了由人工智能驱动的工具，帮助您更快地创建内容并为学生提供个性化支持。这些功能利用先进的语言模型（如 OpenAI 的 GPT、Google Gemini、Mistral 等）来生成教育内容并协助评估。
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> 人工智能工具必须由平台管理员进行配置后才能使用。有关配置的详细信息，请参阅《管理员指南》中的[人工智能配置](../../admin-guide/integrations/ai-configuration.md)部分。
 
-## Available AI Tools
+## 可用的人工智能工具
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[人工智能导师](ai-tutor.md)** — 一个人工智能聊天机器人，学生可以与之互动以解决与课程相关的问题
+* **[练习生成器](exercise-generator.md)** — 根据课程内容或主题描述自动生成测试问题
+* **[学习路径生成器](learning-path-generator.md)** — 根据主题或一组目标创建结构化的学习序列
+* **[人工智能评估](ai-grading.md)** — 获取对开放性答案和学生提交内容的人工智能辅助评估
+* **[词汇表术语生成器](glossary-generator.md)** — 自动为课程词汇表生成术语定义
+* **[人工智能媒体生成](ai-media-generation.md)** — 在创建文档时通过富文本编辑器生成图像和短视频
 
-## How AI Tools Work
+## 人工智能工具的工作原理
 
-When AI tools are enabled, they appear in the relevant contexts:
+当人工智能工具被启用后，它们会在相关场景中出现：
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* **练习生成器**会在创建或编辑练习时出现，也可以在“文档”工具中的文档上作为快速操作出现
+* **学习路径生成器**会在创建学习路径时出现
+* **人工智能评估**选项会在作业批改流程中出现
+* **人工智能导师**在课程内对学生可用
+* **词汇表术语生成器**会在词汇表工具的工具栏中出现
+* **人工智能媒体生成**对话框会在创建或编辑文档时在富文本编辑器中出现
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+所有由人工智能生成的内容都以**建议**的形式呈现，您可以在发布前进行审查、编辑和修改。您始终对学生看到的内容拥有最终决定权。

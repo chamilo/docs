@@ -1,50 +1,49 @@
-# Privacy Settings
+# 隐私设置
 
-Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
+隐私和数据保护（GDPR风格）控制——同意、数据导出、账户删除请求等类似功能。
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 配置设置 > 隐私** 下访问这些设置。此类别包含 **6 个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过 API 进行脚本编写或需要通过编辑 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `data_protection_officer_email`
 
-**Data protection officer e-mail address**
+**数据保护官电子邮件地址**
 
-Email address for the designated data protection officer, displayed in GDPR/privacy sections.
+指定数据保护官的电子邮件地址，显示在 GDPR/隐私部分。
 
 ### `data_protection_officer_name`
 
-**Data protection officer name**
+**数据保护官姓名**
 
-Full name of the designated data protection officer, displayed in personal data and privacy pages.
+指定数据保护官的全名，显示在个人数据和隐私页面中。
 
 ### `data_protection_officer_role`
 
-**Data protection officer role**
+**数据保护官角色**
 
-Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
+指定数据保护官的职位或角色，与其姓名一起显示在隐私信息中。
 
 ### `disable_change_user_visibility_for_public_courses`
 
-**Disable making tool users visible in public courses**
+**禁止在公共课程中使工具用户可见**
 
-Avoid anyone making the 'users' tool visible in a public course.
+防止任何人使公共课程中的“用户”工具可见。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `disable_gdpr`
 
-**Disable GDPR features**
+**禁用 GDPR 功能**
 
-If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+如果您已经在其他地方管理用户的个人数据保护声明，可以安全地禁用此功能。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `hide_user_field_from_list`
 
-**Hide fields from users list in course**
+**在课程的用户列表中隐藏字段**
 
-By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
-
+默认情况下，我们会在课程的用户工具中显示用户的所有数据。此数组允许您指定不想显示的字段。仅影响主要字段（不包括额外字段）。

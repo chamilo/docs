@@ -1,140 +1,140 @@
-# Custom Actions
+# 自定义操作
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+除了标准的 CRUD 操作外，Chamilo 还拥有许多自定义 API 操作控制器（数量在几十个左右），用于处理专门的操作。具体数量因版本而异——请查看 `src/CoreBundle/Controller/Api/` 以获取当前集合。
 
-## Location
+## 位置
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+自定义操作位于 `src/CoreBundle/Controller/Api/`。
 
-## Notable Custom Actions
+## 值得注意的自定义操作
 
-### Documents
+### 文档
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| `CreateDocumentFileAction` | 上传文件或创建文件夹/链接文档 |
+| `UpdateDocumentFileAction` | 替换文档文件 |
+| `ReplaceDocumentFileAction` | 替换文档文件，保留其 ID |
+| `MoveDocumentAction` | 将文档移动到不同文件夹 |
+| `UpdateVisibilityDocument` | 切换文档对学习者的可见性 |
+| `DownloadAllDocumentsAction` | 以 ZIP 格式下载文件夹中的所有文档 |
+| `DownloadSelectedDocumentsAction` | 以 ZIP 格式下载选定的文档集 |
+| `DocumentUsageAction` | 列出使用文档的课程/会话 |
+| `DocumentLearningPathUsageAction` | 列出使用文档的学习路径 |
 
-### Glossary
+### 词汇表
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| `CreateCGlossaryAction` | 创建词汇表术语 |
+| `UpdateCGlossaryAction` | 更新词汇表术语 |
+| `ExportCGlossaryAction` | 将词汇表导出为文件 |
+| `ImportCGlossaryAction` | 从文件导入词汇表 |
+| `ExportGlossaryToDocumentsAction` | 将词汇表导出为课程中的文档 |
+| `GetGlossaryCollectionController` | 获取带有自定义过滤的词汇表集合 |
 
-### Links
+### 链接
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| `CreateCLinkAction` | 创建外部链接 |
+| `UpdateCLinkAction` | 更新外部链接 |
+| `CreateCLinkCategoryAction` | 创建链接类别 |
+| `UpdateCLinkCategoryAction` | 更新链接类别 |
+| `CheckCLinkAction` | 检查链接 URL 是否可访问 |
+| `ExportCLinksAction` | 将链接导出为文件 |
+| `CLinkDetailsController` | 获取链接详细信息 |
+| `CLinkImageController` | 获取或设置链接的预览图像 |
+| `GetLinksCollectionController` | 获取带有自定义过滤的链接集合 |
+| `UpdateVisibilityLink` | 切换链接可见性 |
+| `UpdateVisibilityLinkCategory` | 切换链接类别可见性 |
+| `UpdatePositionLink` | 重新排序链接 |
 
-### Learning Paths
+### 学习路径
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| `CreateCLpAction` | 创建学习路径 |
+| `LpReorderController` | 重新排序学习路径项目 |
 
-### Calendar
+### 日历
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| `UpdateCCalendarEventAction` | 更新课程日历事件 |
+| `CalendarMyStudentsScheduleAction` | 获取教师学生的日程安排 |
 
-### Blog
+### 博客
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| `CreateCBlogAction` | 创建博客文章 |
+| `CreateBlogAttachmentAction` | 为博客文章添加附件 |
+| `UpdateVisibilityBlog` | 切换博客可见性 |
 
 ### Dropbox
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| `CreateDropboxFileAction` | 上传文件到 Dropbox（文件交换工具） |
 
-### Student Work (Assignments)
+### 学生作业（任务）
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| `CreateStudentPublicationFileAction` | 提交作业文件 |
+| `CreateStudentPublicationCommentAction` | 为提交添加评论 |
+| `CreateStudentPublicationCorrectionFileAction` | 为提交上传更正文件 |
 
-### Personal Files
+### 个人文件
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| `CreatePersonalFileAction` | 上传文件到用户的个人文件空间 |
+| `UpdatePersonalFileAction` | 更新个人文件 |
 
-### Social
+### 社交
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| `LikeSocialPostController` | 点赞社交帖子 |
+| `DislikeSocialPostController` | 取消点赞社交帖子 |
+| `CreateSocialPostAttachmentAction` | 为社交帖子添加附件 |
+| `SocialPostAttachmentsController` | 列出社交帖子上的附件 |
+| `AbstractFeedbackSocialPostController` | 社交帖子反馈操作的基类 |
 
-### Sessions
+### 会话
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| `CreateSessionWithUsersAndCoursesAction` | 创建会话并一次性注册用户和课程 |
 
-### Users & Access URLs
+### 用户与访问 URL
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| `CreateUserOnAccessUrlAction` | 创建用户并将其与访问 URL 关联 |
+| `UserAccessUrlsController` | 列出用户所属的访问 URL |
+| `UserSkillsController` | 列出授予用户的技能 |
 
-### Video Conference
+### 视频会议
 
-| Controller | Purpose |
+| 控制器 | 用途 |
 |-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| `VideoConferenceCallbackController` | 处理来自外部视频会议提供商的回调 |
 
-### Base Classes
+### 基类
 
-| Class | Purpose |
+| 类 | 用途 |
 |-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| `BaseResourceFileAction` | 文件上传操作的基类；处理多部分解析、资源节点创建和存储 |
 
-## Implementing a Custom Action
+## 实现自定义操作
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+自定义操作是标准的 Symfony 控制器，在 API Platform 的操作定义中被引用。`#[ApiResource]` 属性存在于**实体**上，每个操作的 `controller:` 参数指向操作类：
 
 ```php
-// On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
+// 在实体类上（例如 src/CourseBundle/Entity/CDocument.php）：
 #[ApiResource(
     shortName: 'Document',
     operations: [
@@ -152,7 +152,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+操作类本身是一个普通的可调用控制器——服务通过 `__invoke()` 方法参数注入：
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -165,14 +165,14 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
     public function __invoke(
         Request $request,
         CDocumentRepository $repo,
-        // ... other injected services
+        // ... 其他注入的服务
     ): CDocument {
-        // Handle the upload and return the entity
+        // 处理上传并返回实体
     }
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+关键点：
+- 当操作直接读取请求（例如多部分文件上传）而不是让 API Platform 反序列化 JSON 主体时，设置 `deserialize: false`。
+- 文件上传操作通常继承自 `BaseResourceFileAction`，它处理多部分解析和资源节点连接。
+- 安全性通过操作上的 `security:` 参数强制执行，而不是在控制器内部。

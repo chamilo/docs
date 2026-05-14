@@ -1,18 +1,18 @@
-# Creating a Plugin
+# 创建插件
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+本指南介绍如何为 Chamilo 创建一个基本插件。更多详细信息，请参阅[关于插件开发的 wiki 页面](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development)。
 
-## Step 1: Create the Plugin Directory
+## 步骤 1：创建插件目录
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+在 `public/plugin/` 中创建一个目录。目录名称应与您的插件标识符一致：
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## 步骤 2：定义插件类
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+创建文件 `src/MyPluginPlugin.php`。该类继承自 `Plugin` 并遵循单例模式：
 
 ```php
 <?php
@@ -36,19 +36,19 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### 可用的配置类型
 
-| Type | Description |
-|------|-------------|
-| `boolean` | Checkbox on/off |
-| `text` | Single-line text input |
-| `select` | Dropdown (provide `options` array) |
-| `wysiwyg` | Rich text editor |
-| `html` | Raw HTML field |
-| `checkbox` | Checkbox |
-| `user` | User selector |
+| 类型       | 描述                     |
+|------------|--------------------------|
+| `boolean`  | 开/关复选框             |
+| `text`     | 单行文本输入框          |
+| `select`   | 下拉菜单（提供 `options` 数组） |
+| `wysiwyg`  | 富文本编辑器            |
+| `html`     | 原始 HTML 字段          |
+| `checkbox` | 复选框                 |
+| `user`     | 用户选择器             |
 
-For `select` settings:
+对于类型为 `select` 的配置：
 
 ```php
 $settings = [
@@ -60,44 +60,44 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+在运行时访问配置：
 
 ```php
 $plugin = MyPluginPlugin::create();
-$key  = $plugin->get('api_key');       // single value
-$all  = $plugin->get_settings();       // all settings
+$key  = $plugin->get('api_key');       // 单个值
+$all  = $plugin->get_settings();       // 所有配置
 ```
 
-## Step 3: Create plugin.php
+## 步骤 3：创建 plugin.php 文件
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+插件根目录下的 `plugin.php` 文件是**必需的**。它必须赋值 `$plugin_info`：
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## 步骤 4：创建安装和卸载脚本
 
-`install.php`:
+`install.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->install();
 ```
 
-`uninstall.php`:
+`uninstall.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+在类中使用 Doctrine 的 `SchemaTool` 实现模式的创建/删除。
 
-## Step 5: Add Translations
+## 步骤 5：添加翻译
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+在 `lang/` 目录下使用语言环境代码创建语言文件（例如 `en_US.php`、`fr_FR.php`、`es_ES.php`）。默认回退文件为 `en_US.php`。
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+通过 `$plugin->get_lang('key')` 访问翻译。
 
-## Step 6: Inject Content via Display Regions
+## 步骤 6：通过显示区域注入内容
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+插件可以在 Vue 前端的 18 个预定义区域中注入 HTML。在您的类中重写 `renderRegion()`：
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+可用的区域包括：`content_bottom`、`content_top`、`course_tool_plugin`、`footer_center`、`footer_left`、`footer_right`、`header_center`、`header_left`、`header_main`、`header_right`、`login_bottom`、`login_top`、`main_bottom`、`main_top`、`menu_administrator`、`menu_bottom`、`menu_top`、`pre_footer`。
 
-## Step 7: React to Platform Events (Optional)
+## 步骤 7：响应平台事件（可选）
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+插件可以使用 Symfony 的事件订阅者来响应平台事件。在 `src/EventSubscriber/` 内创建一个以 `EventSubscriber.php` 结尾的文件——它会通过 `PluginEventSubscriberPass` 自动注册。
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function __construct()
     {
-        // Plugin classes are not Symfony services — use the create() singleton.
+        // 插件类不是 Symfony 服务——使用单例 create()。
         $this->plugin = MyPluginPlugin::create();
     }
 
@@ -160,35 +160,35 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
         if (!$this->plugin->isEnabled()) {
             return;
         }
-        // your logic here
+        // 您的逻辑在此处
     }
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+请参阅 `src/CoreBundle/Event/Events.php` 获取完整的事件列表（用户、课程、会话、学习路径、练习、作品集、认证等）。
 
-## Step 8: Lifecycle Hooks
+## 步骤 8：生命周期钩子
 
-Override these methods in your plugin class to respond to platform actions:
+在您的插件类中重写这些方法，以响应平台操作：
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| 方法 | 触发时机 |
+|--------|------------------|
+| `install()` | 插件被激活时 |
+| `uninstall()` | 插件被移除时 |
+| `performActionsAfterConfigure()` | 管理员保存配置表单时 |
+| `course_settings_updated(array $values)` | 课程级别的设置被更改时 |
+| `validateCourseSetting(string $variable)` | 保存课程设置时（返回 `false` 以拒绝） |
+| `doWhenDeletingUser(int $userId)` | 删除用户时 |
+| `doWhenDeletingCourse(int $courseId)` | 删除课程时 |
+| `doWhenDeletingSession(int $sessionId)` | 删除会话时 |
 
-## Step 9: Activate
+## 步骤 9：激活
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+以管理员身份登录，导航到 **管理插件**，找到您的插件并点击 **激活**。
 
-## Tips
+## 小贴士
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **参考现有插件作为示例** — `public/plugin/HelloWorld/` 和 `public/plugin/TopLinks/` 是简单的良好参考
+* **使用翻译** — 始终使用 `lang/` 系统处理面向用户的文本
+* **卸载时清理** — 在卸载脚本中删除数据库表和配置
+* **检查激活状态** — 在事件订阅者中，始终在执行逻辑前调用 `$this->plugin->isEnabled()`

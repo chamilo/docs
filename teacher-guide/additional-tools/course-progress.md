@@ -1,33 +1,33 @@
-# Course Progress
+# 课程进度
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+课程进度工具帮助您定义课程的主题结构，并跟踪已交付的计划内容量。
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+对于学生来说，这是一个有用的工具，特别是对于那些因病缺席几天课程的学生，他们可以了解讨论了哪些主题，以及在他们缺席期间其他同学的进度如何。
 
-## How It Works
+## 工作原理
 
-Course progress is organized into three layers:
+课程进度分为三个层次：
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **主题部分** — 课程的主要主题或模块
+* **主题计划** — 针对每个部分，您计划涵盖的内容。每个计划条目属于固定类型：**目标**、**需掌握的技能**、**方法论**、**基础设施**、**评估**或**其他**。
+* **主题进展** — 每个部分下的离散交付记录，每个记录包含开始日期和持续时间（以小时为单位）。在交付内容时，将进展标记为**已完成**，以跟踪相对于计划的实际进度。
 
-## Setting Up Course Progress
+## 设置课程进度
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. 在课程首页打开**课程进度**工具
+2. 创建与课程主要主题或模块相对应的**主题部分**
+3. 在每个部分内，按类型添加**计划**条目，描述您打算涵盖的内容
+4. 在交付内容时，添加带有日期和持续时间的**主题进展**，并将其标记为已完成
+5. 通过在**课程设置**部分（课程首页顶部的齿轮图标）更改相关设置，决定这些信息在课程首页上的可见性
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+您可以选择将主题进展与考勤表关联，以便从考勤记录中提取开始日期。部分（包括其计划和进展）还可以在同一课程/会话内进行**复制**。
 
-## Use Cases
+## 使用场景
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **跟踪教学计划** — 监控课程哪些部分已交付，哪些部分尚未完成
+* **与考勤整合** — 课程进度可以与考勤工具配合使用，将考勤与所涵盖的主题相关联
+* **报告** — 随着时间的推移，清晰了解课程交付状态
 
-## For Learners
+## 对于学生
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+学生可以查看课程进度，以了解课程结构并查看目前已涵盖的主题。这对于晚加入课程或错过课程的学生尤为有用。

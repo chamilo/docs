@@ -1,46 +1,46 @@
-# Learner Tracking
+# 学习者跟踪
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Chamilo 在整个平台上跟踪学习者的活动，为您提供有关每个学习者如何参与您的课程的详细见解。
 
-## Accessing Learner Tracking
+## 访问学习者跟踪
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+从课程主页打开 **跟踪** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具，或者点击侧边栏中的 **报告**。
 
-## What Is Tracked
+## 跟踪的内容
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+对于每个学习者，Chamilo 记录（在主要的按学习者跟踪视图中）：
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **登录活动** — 学习者上次登录的时间及其总登录时间
+* **在课程中花费的时间** — 学习者在您的课程中花费的总时间
+* **首次和最后访问** — 学习者首次进入和最后访问课程的时间
+* **课程进度** — 课程整体进度百分比
+* **练习结果** — 每次练习的得分和尝试次数
+* **学习路径进度** — 每个学习路径的完成百分比和花费时间
+* **作业提交** — 已提交和评分的作业
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+按资源访问的详细信息（学习者打开的具体文档或页面）以及工具级别的活动可以通过跟踪部分的专用 **资源**、**工具** 和 **事件** 视图查看，而不在主要学习者行中显示。
 
-## Viewing Individual Learner Data
+## 查看个别学习者数据
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![详细的学习者跟踪视图，显示进度、分数和活动时间线](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+点击学习者的姓名以查看他们的详细活动报告。这将显示：
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* 他们整体参与度的摘要
+* 每个学习路径的进度
+* 练习分数和尝试历史
+* 作业提交状态
 
-## Tracking Views
+## 跟踪视图
 
-You can view tracking data from different perspectives:
+您可以从不同的角度查看跟踪数据：
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **按学习者** — 选择一个学习者以查看他们的所有活动
+* **按资源** — 选择一个文档、练习或学习路径，以查看所有学习者与其互动的情况
+* **按工具** — 查看每个课程工具的汇总使用情况
 
-## Tips
+## 小贴士
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **识别有困难的学习者** — 寻找参与度低、多次练习失败或学习路径未完成的学习者
+* **定期监控进度** — 每周检查跟踪数据以尽早发现问题
+* **利用数据提供反馈** — 与学习者分享相关的跟踪数据，帮助他们了解自己的进度

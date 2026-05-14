@@ -1,35 +1,35 @@
 # Webhooks
 
-Chamilo's webhook support is currently scoped to the **BigBlueButton (BBB) plugin**. Rather than sending webhooks to external systems, Chamilo acts as a webhook *receiver*: it exposes endpoints that BigBlueButton calls when room events occur, and uses those events to build per-participant activity metrics.
+Chamilo 的 webhook 支持目前仅限于 **BigBlueButton (BBB) 插件**。Chamilo 并非向外部系统发送 webhook，而是作为 webhook 的*接收者*：它暴露了一些端点，供 BigBlueButton 在房间事件发生时调用，并利用这些事件构建每个参与者的活动指标。
 
-## How It Works
+## 工作原理
 
-When a BBB meeting takes place, the BBB server pushes real-time event notifications to a signed callback URL on your Chamilo installation. Chamilo processes each event and stores aggregated metrics (talk time, camera time, messages, reactions, hand raises) in the `conference_activity` database table.
+当 BBB 会议进行时，BBB 服务器会向您的 Chamilo 安装上的一个签名回调 URL 推送实时事件通知。Chamilo 处理每个事件，并将聚合指标（发言时间、摄像头时间、消息、反应、举手）存储在 `conference_activity` 数据库表中。
 
 ```
-BigBlueButton server
-        │  POST (signed)
+BigBlueButton 服务器
+        │  POST (已签名)
         ▼
-Chamilo webhook endpoint
+Chamilo webhook 端点
         │
         ▼
-conference_activity (metrics JSON)
+conference_activity (指标 JSON)
         │
         ▼
-Webhook dashboard (/plugin/Bbb/webhook_dashboard.php)
+Webhook 仪表板 (/plugin/Bbb/webhook_dashboard.php)
 ```
 
-## Endpoints
+## 端点
 
-### Legacy PHP endpoint
+### 传统 PHP 端点
 
 ```
 POST /plugin/Bbb/webhook.php?au={accessUrlId}&mid={meetingId}&ts={timestamp}&sig={hmac}
 ```
 
-Handles all BBB room events. Validates the HMAC signature, then upserts a `ConferenceActivity` row and updates the metrics JSON field.
+处理所有 BBB 房间事件。验证 HMAC 签名，然后插入或更新 `ConferenceActivity` 行并更新指标 JSON 字段。
 
-### Modern Symfony endpoint
+### 现代 Symfony 端点
 
 ```
 POST /api/videoconference/callback
@@ -38,45 +38,45 @@ Headers:
   X-Chamilo-Signature: <hmac-sha256>
 ```
 
-Defined via API Platform on the `ConferenceActivity` entity. Requires the signature headers for activity recording; requests without a valid signature are accepted but no activity row is written.
+通过 API Platform 在 `ConferenceActivity` 实体上定义。需要签名头信息来进行活动记录；没有有效签名的请求会被接受，但不会写入活动行。
 
-## Configuration (BBB Plugin)
+## 配置 (BBB 插件)
 
-In **Administration → Plugins → BigBlueButton**, the following webhook settings are available:
+在 **管理 → 插件 → BigBlueButton** 中，可以使用以下 webhook 设置：
 
-| Setting | Values | Description |
+| 设置 | 值 | 描述 |
 |---|---|---|
-| `webhooks_enabled` | `true` / `false` | Enable or disable webhook registration |
-| `webhooks_scope` | `per_meeting` / `global` | Register one hook per meeting or a single global hook for all meetings |
-| `webhooks_hash_algo` | `sha256` / `sha1` | HMAC algorithm for signature verification |
-| `webhooks_event_filter` | comma-separated string | Optional list of BBB event names to receive (empty = all events) |
+| `webhooks_enabled` | `true` / `false` | 启用或禁用 webhook 注册 |
+| `webhooks_scope` | `per_meeting` / `global` | 为每个会议注册一个钩子，或为所有会议注册一个全局钩子 |
+| `webhooks_hash_algo` | `sha256` / `sha1` | 用于签名验证的 HMAC 算法 |
+| `webhooks_event_filter` | 逗号分隔的字符串 | 可选的 BBB 事件名称列表，指定要接收的事件（为空表示接收所有事件） |
 
-When a meeting is created and webhooks are enabled, Chamilo calls the BBB `hooks/create` API to register the callback URL. The URL includes a time-bound HMAC signature.
+当创建会议且 webhook 已启用时，Chamilo 会调用 BBB 的 `hooks/create` API 来注册回调 URL。该 URL 包含一个有时限的 HMAC 签名。
 
-## Signature Validation
+## 签名验证
 
-The legacy endpoint uses query-string parameters:
+传统端点使用查询字符串参数：
 
 ```
 sig = HMAC-{algo}("{accessUrlId}|{meetingId}|{timestamp}", salt)
 ```
 
-- The `salt` is the BBB plugin's configured salt value.
-- Requests older than **15 minutes** are rejected to limit replay attacks.
+- `salt` 是 BBB 插件配置的盐值。
+- 超过 **15 分钟** 的请求将被拒绝，以限制重放攻击。
 
-The modern endpoint uses headers:
+现代端点使用头信息：
 
 ```
 sig = HMAC-SHA256("{timestamp}\n{rawBody}", kernelSecret)
 ```
 
-- Requests older than **5 minutes** are rejected.
+- 超过 **5 分钟** 的请求将被拒绝。
 
-## Example: BigBlueButton Webhook Event
+## 示例：BigBlueButton Webhook 事件
 
-BBB posts a JSON body containing an array of events. Each event has an `data.id` (event name) and a `data.attributes` object.
+BBB 会发送一个包含事件数组的 JSON 主体。每个事件包含一个 `data.id`（事件名称）和一个 `data.attributes` 对象。
 
-**Request from BBB:**
+**来自 BBB 的请求：**
 
 ```http
 POST /plugin/Bbb/webhook.php?au=1&mid=chamilo-meeting-abc123&ts=1715520000&sig=e3b0c44298fc
@@ -101,32 +101,32 @@ Content-Type: application/json
 }
 ```
 
-**What Chamilo does:**
+**Chamilo 的处理：**
 
-1. Validates the HMAC signature and timestamp.
-2. Looks up the `ConferenceMeeting` by `remote_id`.
-3. Looks up (or creates) an open `ConferenceActivity` row for that meeting + user.
-4. Records `temp.talk_started_at = 1715520123` in the metrics JSON.
+1. 验证 HMAC 签名和时间戳。
+2. 通过 `remote_id` 查找 `ConferenceMeeting`。
+3. 查找（或创建）该会议和用户的开放 `ConferenceActivity` 行。
+4. 在指标 JSON 中记录 `temp.talk_started_at = 1715520123`。
 
-When the matching `user-talking-stopped` event arrives, Chamilo computes the elapsed seconds and adds them to `totals.talk_seconds`.
+当匹配的 `user-talking-stopped` 事件到达时，Chamilo 会计算经过的秒数并将其添加到 `totals.talk_seconds` 中。
 
-## Tracked Events and Metrics
+## 跟踪的事件和指标
 
-| BBB event(s) | Metric updated |
+| BBB 事件 | 更新的指标 |
 |---|---|
-| `user-joined` / `participantjoined` | Activity row created |
-| `user-talking-started` / `uservoiceactivated` | Timer started for `totals.talk_seconds` |
-| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` incremented |
-| `camera-share-started` / `webcamsharestarted` | Timer started for `totals.camera_seconds` |
-| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` incremented |
-| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` incremented |
-| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + per-emoji breakdown |
-| `user-hand-raised` / `userraisedhand` | `counts.hands` incremented |
-| `user-left` / `participantleft` | Open timers flushed, activity row closed |
+| `user-joined` / `participantjoined` | 创建活动行 |
+| `user-talking-started` / `uservoiceactivated` | 为 `totals.talk_seconds` 启动计时器 |
+| `user-talking-stopped` / `uservoicedeactivated` | 增加 `totals.talk_seconds` |
+| `camera-share-started` / `webcamsharestarted` | 为 `totals.camera_seconds` 启动计时器 |
+| `camera-share-stopped` / `webcamsharestopped` | 增加 `totals.camera_seconds` |
+| `chat-message-posted` / `publicchatmessageposted` | 增加 `counts.messages` |
+| `user-reaction-changed` / `useremojichanged` | 增加 `counts.reactions` 并按表情细分 |
+| `user-hand-raised` / `userraisedhand` | 增加 `counts.hands` |
+| `user-left` / `participantleft` | 刷新开放的计时器，关闭活动行 |
 
-## Metrics Data Structure
+## 指标数据结构
 
-Metrics are stored as a JSON column on `ConferenceActivity`:
+指标以 JSON 格式存储在 `ConferenceActivity` 表的列中：
 
 ```json
 {
@@ -150,26 +150,26 @@ Metrics are stored as a JSON column on `ConferenceActivity`:
 }
 ```
 
-The `temp` fields hold in-progress timer start timestamps; they are cleared when the corresponding stop event arrives or when the participant leaves.
+`temp` 字段用于存储正在进行的计时器开始时间戳；当相应的停止事件到达或参与者离开时，这些字段会被清空。
 
-## Webhook Dashboard
+## Webhook 仪表板
 
-An admin dashboard is available at `/plugin/Bbb/webhook_dashboard.php`. It shows real-time and historical metrics per participant for a given meeting: connection time, talk time, camera time, message count, reaction count, and hand raises. Data can be exported as CSV.
+管理员仪表板可在 `/plugin/Bbb/webhook_dashboard.php` 访问。它显示给定会议中每个参与者的实时和历史指标：连接时间、发言时间、摄像头使用时间、消息数量、反应数量以及举手次数。数据可以导出为 CSV 格式。
 
-## Registering and Cleaning Up Hooks
+## 注册和清理钩子
 
-The `BbbLib` class provides methods for managing hook registration on the BBB server:
+`BbbLib` 类提供了在 BBB 服务器上管理钩子注册的方法：
 
-| Method | Description |
+| 方法 | 描述 |
 |---|---|
-| `ensureHookForMeeting($remoteId)` | Register (or confirm) a per-meeting hook after a user joins |
-| `ensureGlobalWebhook()` | Register a single global hook covering all meetings |
-| `cleanupWebhooks($meetingId)` | Delete Chamilo-registered hooks from the BBB server |
-| `BbbPlugin::checkWebhooksHealth()` | Validate that the BBB `hooks/list` endpoint is reachable |
+| `ensureHookForMeeting($remoteId)` | 在用户加入后为特定会议注册（或确认）钩子 |
+| `ensureGlobalWebhook()` | 注册一个覆盖所有会议的全局钩子 |
+| `cleanupWebhooks($meetingId)` | 从 BBB 服务器删除 Chamilo 注册的钩子 |
+| `BbbPlugin::checkWebhooksHealth()` | 验证 BBB `hooks/list` 端点是否可达 |
 
-## Extending to Other Event Sources
+## 扩展到其他事件源
 
-There is currently no generic outbound webhook system in Chamilo (i.e., no built-in way to POST to an external URL when a user enrolls or completes a course). If you need that behaviour, options include:
+目前 Chamilo 中没有通用的出站 webhook 系统（即没有内置的方式在用户注册或完成课程时向外部 URL 发送 POST 请求）。如果您需要此功能，可以考虑以下选项：
 
-- Writing a plugin that listens to Symfony events and dispatches HTTP calls (see [Plugins](../plugins/README.md) and [Event System](../events.md)).
-- Using the REST API to poll for state changes from an external system.
+- 编写一个插件，监听 Symfony 事件并分发 HTTP 调用（参见 [插件](../plugins/README.md) 和 [事件系统](../events.md)）。
+- 使用 REST API 从外部系统轮询状态变化。

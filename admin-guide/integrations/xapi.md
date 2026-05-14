@@ -1,37 +1,37 @@
 # xAPI
 
-**xAPI** (Experience API, also known as Tin Can API) is a standard for tracking learning experiences. Chamilo can both generate and consume xAPI statements.
+**xAPI**（体验API，也称为Tin Can API）是一种用于追踪学习体验的标准。Chamilo 既可以生成也可以消费 xAPI 语句。
 
-## What xAPI Does
+## xAPI 的功能
 
-xAPI tracks learning activities as **statements** in the format: "Actor did Verb on Object." For example:
+xAPI 以**语句**的形式追踪学习活动，格式为：“执行者对对象执行了动作。”例如：
 
-* "Jane completed Module 1"
-* "John scored 85% on the Final Exam"
-* "Maria watched the Introduction Video"
+* “Jane 完成了模块 1”
+* “John 在期末考试中得分 85%”
+* “Maria 观看了介绍视频”
 
-These statements are stored in a **Learning Record Store (LRS)**, providing a comprehensive record of learning activity.
+这些语句存储在**学习记录存储（LRS）**中，提供了学习活动的全面记录。
 
-## Configuration
+## 配置
 
-1. In the platform settings, configure the **LRS endpoint**:
-   * **LRS URL** — The address of your Learning Record Store
-   * **LRS authentication** — Credentials for sending data to the LRS
-2. Enable xAPI tracking for the desired activities
+1. 在平台设置中，配置 **LRS 端点**：
+   * **LRS URL** — 您的学习记录存储的地址
+   * **LRS 认证** — 向 LRS 发送数据所需的凭据
+2. 为所需活动启用 xAPI 追踪
 
-## What Chamilo Tracks via xAPI
+## Chamilo 通过 xAPI 追踪的内容
 
-Chamilo can generate xAPI statements for:
+Chamilo 可以为以下内容生成 xAPI 语句：
 
-* Course access and completion
-* Exercise attempts and scores
-* Learning path item progress
-* Portfolio items
+* 课程访问和完成情况
+* 练习尝试和得分
+* 学习路径项目的进度
+* 作品集项目
 
-Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
+其他工具（如文档和论坛）目前无法通过插件作为 xAPI 事件发出。
 
-## Use Cases
+## 使用场景
 
-* **Cross-platform tracking** — Track learning activity across multiple tools and platforms in a single LRS
-* **Advanced analytics** — Use LRS analytics tools to generate insights that go beyond Chamilo's built-in reporting
-* **Compliance reporting** — Generate audit trails of training completion for regulatory requirements
+* **跨平台追踪** — 在单个 LRS 中追踪多个工具和平台上的学习活动
+* **高级分析** — 使用 LRS 分析工具生成超出 Chamilo 内置报告的洞察
+* **合规性报告** — 为监管要求生成培训完成的审计追踪

@@ -1,57 +1,57 @@
-# Managing Courses
+# 课程管理
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+作为管理员，您可以管理平台上的所有课程，无论它们是由谁创建的。
 
-## Course List
+## 课程列表
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![课程列表显示所有课程的标题、代码、类别、注册用户和可见性状态](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+从管理面板中，点击**课程列表**查看所有课程。列表显示：
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* 课程标题和代码
+* 语言
+* 类别
+* 可见性状态
 
-Use the **Advanced search** tool to find specific courses.
+使用**高级搜索**工具查找特定课程。
 
-## Creating a Course
+## 创建课程
 
-As an administrator, you can create courses and assign them to any teacher:
+作为管理员，您可以创建课程并将其分配给任何教师：
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. 从管理面板中点击**添加课程**
+2. 填写课程详细信息（标题、代码、类别、语言）
+3. 为课程分配一名教师
+4. 保存
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+注意：在 Chamilo 1.11.x 版本中，课程代码作为课程 URL 的一部分显示，并且在课程创建后无法更改。这一行为在 2.x 版本中有所改变。课程代码不再在 URL 中显示，未来版本可能会允许教师在之后修改课程代码，因为它对平台的重要性降低了。
 
-## Managing an Existing Course
+## 管理现有课程
 
-Find a course in the list to access management options in the *Actions* column:
+在列表中找到课程，以访问*操作*列中的管理选项：
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **信息** — 显示课程的相关信息
+* **课程主页** — 直接将您带到课程的主页
+* **报告** — 查看参与度和表现数据
+* **编辑** — 更改课程标题、类别、可见性和其他设置
+* **创建备份** — 进入课程的维护部分，您可以在那里创建副本并执行其他操作
+* **添加到目录** — 将此课程添加到课程目录中
+* **删除** — 永久删除课程及其所有内容
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> 删除课程会永久删除所有内容、学习者数据、成绩和跟踪信息。请考虑在删除前先导出课程作为备份。
 
-## Bulk Operations
+## 批量操作
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+在列表中选择多个课程以执行批量操作，例如删除它们。要导出课程，请进入课程并使用**维护**工具 — 管理员课程列表中没有批量导出操作。
 
-## Course Visibility Settings
+## 课程可见性设置
 
-Administrators can override the visibility set by teachers:
+管理员可以覆盖教师设置的可见性：
 
-| Visibility | Effect |
-|-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| 可见性 | 效果 |
+|-------|------|
+| **公开** | 所有人均可访问，包括匿名访客 |
+| **开放** | 所有登录用户均可访问 |
+| **私有** | 只有注册用户可以访问课程 |
+| **关闭** | 无人可以访问课程（教师和管理员除外） |
+| **隐藏** | 无人可以查看或访问课程（管理员除外） |

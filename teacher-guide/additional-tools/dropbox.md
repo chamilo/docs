@@ -1,34 +1,34 @@
-# Dropbox
+# 文件共享箱
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+文件共享箱是一种文件交换工具，允许您和您的学生在课程内互相共享文件。
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> 要收集将用于评估的学生作业，[作业](../assessing-learners/assignments.md)工具通常更为合适，因为它包含评估和反馈功能。文件共享箱更适合用于非正式的文件共享。
 
-## Sending a File
+## 发送文件
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. 在课程首页打开**文件共享箱**工具
+2. 点击**共享新文件**
+3. 选择要发送的文件
+4. 选择**收件人**——一个或多个已注册用户或课程小组
+5. 发送
 
-## Receiving Files
+## 接收文件
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+当有人向您发送文件时，该文件会出现在您的文件共享箱收件箱中。您可以：
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* **下载**文件
+* **添加评论**到文件（在接收后）
+* **移动**文件到您的某个类别中
+* **删除**文件从您的收件箱中
 
-## Organizing files
+## 组织文件
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+发送和接收的文件都可以组织到自定义的**类别**（文件夹）中。使用文件共享箱工具栏中的类别控件创建类别，然后将文件移动到其中。如果平台设置中启用了“允许覆盖”选项，重新发送同名文件可以覆盖之前的版本。
 
-You can also batch-download selected files as a ZIP.
+您还可以将多个选定的文件下载为一个ZIP文件。
 
-## As a Teacher
+## 作为教师
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* 您可以向个别学生、学生小组或所有注册用户发送文件
+* 您可以查看学生发送给您的文件
+* 此工具适用于共享补充材料、提供个性化反馈文档或接收非正式提交内容

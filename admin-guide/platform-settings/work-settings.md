@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# 作业（作品）设置
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+**作业（学生作品）**工具的默认值和行为。
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 作业（作品）**下访问这些设置。此类别包含**12个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)全局更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**启用Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio是一种反作弊服务，它比较两次提交之间的文本，并报告内容（通常是作业）是否很可能不是原创的。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**启用我的作业页面**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[推测] 为学习者启用一个专用页面，以便查看和管理他们提交的作业。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**学生只能上传一次作业**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[推测] 限制学习者在每个活动中只能提交一次作业，防止多次提交。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**上传作业或添加评论后重定向到作业工具主页**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+在上传作业或添加评论后重定向到作业列表。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**防止作业重复上传**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[推测] 阻止学习者在同一作业提交中上传相同的文件。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**禁止在作业中添加文档**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[推测] 阻止学习者在提交作业时添加或附加文档。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**禁止编辑作业**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[推测] 阻止学习者在初次提交后修改或更新已提交的作业。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**禁止教师修改作业分数**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[推测] 阻止教师在记录作业分数后进行更改。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Compilatio设置**
 
-Configure the Compilatio connection details here.
+在此配置Compilatio连接详细信息。
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**为作业启用时间投入**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+这将允许教师为完成作业提供预计的时间投入（格式为hh:mm:ss）。在提交作业并得到教师批准（作业被评分）后，学习者将自动被分配相应的时间。
 
-*Default: `work_time`*
+*默认值：`work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**在上传作业前强制下载文档**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+强制用户在上传作业前下载作业定义中提供的文档。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**在我的课程页面显示“待完成”作业的链接**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[推测] 在学习者的“我的课程”页面上显示待完成作业的链接或数量，以便快速访问。
 
-*Default: `false`*
+*默认值：`false`*

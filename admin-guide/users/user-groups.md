@@ -1,41 +1,41 @@
-# Classes / User Groups
+# 班级 / 用户组
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+在管理面板中，班级是平台范围内的组，用于组织用户以便于管理。它们与课程级别的组（由教师在课程内创建）不同。
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> 用户组和[班级](../../admin-guide/sessions/classes.md)共享相同的界面。唯一的区别在于**组类型**设置：选择“班级”来创建班级（用于批量会话注册），或选择“用户组”来创建更具社交性质的组，这些组可以在内部社交网络中拥有自己的空间。有关会话注册的详细信息，请参见[班级](../../admin-guide/sessions/classes.md)。
 
-## Creating a Group
+## 创建组
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![用户组列表，显示可用组的名称、描述和成员数量](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. 从管理面板导航到**班级**
+2. 点击**添加班级**
+3. 输入**标题**和可选的**描述**
+4. 如果这是一个社交组，请勾选**社交组**。如果是班级，则不勾选。
+5. 添加可选的参考URL和图片/标志。
+6. 选择组的**权限**：
+   * **开放** — 任何用户都可以加入
+   * **封闭** — 用户必须由管理员添加
+7. 勾选是否允许成员自行离开班级。
+8. 保存。
 
-## Adding Members
+## 添加成员
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. 打开班级/用户组列表
+2. 点击用户图标**将用户订阅到班级**
+3. 按姓名、用户名或电子邮件搜索用户
+4. 使用右侧的箭头选择要添加的用户
+5. 点击确认按钮保存
 
-## Use Cases
+## 使用场景
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **部门组织** — 按部门或团队对用户进行分组
+* **批量注册** — 一次性将组内所有成员添加到课程或会话中
+* **定向沟通** — 向特定组发送公告
+* **报告** — 按组筛选查看培训进度
 
-## Managing Groups
+## 管理组
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **编辑** — 更改组名称、描述或可见性
+* **管理成员** — 添加或删除成员
+* **删除** — 删除组（不会删除成员账户）

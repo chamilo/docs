@@ -1,13 +1,13 @@
-# Assessing Learners
+# 学生评估
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamilo 提供了一套全面的工具，用于评估学生的知识水平并跟踪他们的表现。
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[练习](exercises.md)** — 创建问卷和测试，支持多种问题类型、自动评分和详细反馈
+* **[作业](assignments.md)** — 收集学生的家庭作业和项目，支持文件上传、同伴评审以及手动或AI辅助评分
+* **[调查](surveys.md)** — 通过可定制的问卷收集学生的反馈
+* **[出勤](attendance.md)** — 记录学生在课堂上的出勤情况
+* **[成绩簿](gradebook.md)** — 将练习、作业和其他活动的分数整合成统一的成绩，并颁发证书
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+**报告**工具仍然存在，但已移至课程主页顶部的教师视图中，作为一个小型图表图标。这是访问整个课程及学生进度信息的中心位置。
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+这些工具相互协作：练习分数和作业评分可以整合到成绩簿中，而成绩簿可以与证书生成和技能验证相关联。

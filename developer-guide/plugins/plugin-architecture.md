@@ -1,42 +1,42 @@
-# Plugin Architecture
+# 插件架构
 
-## Plugin Location
+## 插件位置
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+插件存储在 `public/plugin/` 目录中。每个插件都有自己的目录：
 
 ```
 public/plugin/
-├── Bbb/                    # BigBlueButton integration
-├── Zoom/                   # Zoom integration
-├── Onlyoffice/             # OnlyOffice document editing
+├── Bbb/                    # 与 BigBlueButton 集成
+├── Zoom/                   # 与 Zoom 集成
+├── Onlyoffice/             # 使用 OnlyOffice 编辑文档
 ├── XApi/                   # xAPI/Tin Can
-├── ...                     # bundled plugins ship under public/plugin/
+├── ...                     # 包含的插件存放在 public/plugin/ 中
 ```
 
-## Plugin Structure
+## 插件结构
 
-A typical plugin directory contains:
+一个典型的插件目录包含以下内容：
 
 ```
 public/plugin/MyPlugin/
-├── plugin.php              # REQUIRED — assigns $plugin_info
-├── install.php             # Installation script
-├── uninstall.php           # Uninstallation script
-├── index.php               # Region rendering entry point (if applicable)
-├── admin.php               # Admin interface (optional)
-├── lang/                   # Translation files (locale codes: en_US.php, fr_FR.php, …)
+├── plugin.php              # 必需 — 定义 $plugin_info
+├── install.php             # 安装脚本
+├── uninstall.php           # 卸载脚本
+├── index.php               # 区域渲染的入口点（如果适用）
+├── admin.php               # 管理界面（可选）
+├── lang/                   # 翻译文件（语言代码：en_US.php, fr_FR.php, …）
 ├── src/
-│   ├── MyPluginPlugin.php        # Main plugin class (extends Plugin)
-│   ├── Entity/                   # Doctrine entities (auto-discovered)
-│   ├── Repository/               # Doctrine repositories
-│   └── EventSubscriber/          # Symfony event subscribers (auto-registered)
-├── templates/              # Twig templates
-└── resources/              # CSS/JS assets
+│   ├── MyPluginPlugin.php        # 插件主类（继承 Plugin）
+│   ├── Entity/                   # Doctrine 实体（自动发现）
+│   ├── Repository/               # Doctrine 存储库
+│   └── EventSubscriber/          # Symfony 事件订阅者（自动注册）
+├── templates/              # Twig 模板
+└── resources/              # CSS/JS 资源
 ```
 
-## Plugin Class
+## 插件类
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+每个插件都继承基础类 `Plugin`（`public/main/inc/lib/plugin.class.php`）并遵循单例模式：
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### 类的主要属性
 
-| Property | Type | Effect |
-|----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| 属性 | 类型 | 作用 |
+|-------------|------|--------|
+| `$isCoursePlugin` | bool | 将插件注册为课程工具 |
+| `$isAdminPlugin` | bool | 添加管理界面页面 |
+| `$isMailPlugin` | bool | 与电子邮件系统集成 |
+| `$addCourseTool` | bool | 在课程首页添加图标 |
+| `$course_settings` | array | 定义课程配置字段 |
 
-## Plugin Lifecycle
+## 插件生命周期
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **安装** — 管理员激活插件，执行 `install.php`
+2. **配置** — 配置通过管理面板设置和管理；存储在 `access_url_rel_plugin` 中（支持多租户）
+3. **执行** — 插件在显示区域注入内容或对平台事件作出反应
+4. **停用** — 插件被停用，但其数据被保留
+5. **卸载** — 执行 `uninstall.php` 清理数据和表
 
-## Display Regions
+## 显示区域
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+插件通过重写 `renderRegion()` 在 Vue 前端的 18 个预定义区域中注入 HTML：
 
 ```php
 public function renderRegion(string $region): string
@@ -83,19 +83,19 @@ public function renderRegion(string $region): string
     if ('footer_left' !== $region) {
         return '';
     }
-    return '<p>My Plugin footer content</p>';
+    return '<p>我的插件页脚内容</p>';
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+可用区域：`content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`。
 
-## Symfony Integration
+## 与 Symfony 集成
 
-### Event Subscribers
+### 事件订阅者
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+位于 `src/EventSubscriber/` 中的以 `EventSubscriber.php` 结尾的文件通过 `PluginEventSubscriberPass` 自动注册。它们实现 `EventSubscriberInterface` 并对 `src/CoreBundle/Event/Events.php` 中定义的事件作出反应。
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+由于插件类（`MyPluginPlugin`）不是 Symfony 服务，因此无法自动注入到订阅者的构造函数中。请改用单例 `create()`：
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,13 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### Doctrine 实体
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+位于 `src/Entity/` 中的 Doctrine 实体通过 `PluginEntityPass` 自动发现。使用 PHP 8 属性进行映射。命名空间必须遵循 `Chamilo\PluginBundle\{PluginName}`。使用唯一的表名前缀（例如 `my_plugin_*`）以避免冲突。
 
-### PluginHelper Service
+### 服务 PluginHelper
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+要从 Symfony 的主要服务访问插件状态，请注入 `PluginHelper`，而不是直接实例化插件类：
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +133,23 @@ class SomeService
 }
 ```
 
-Available methods:
+可用方法：
 
-| Method | Purpose |
-|--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| 方法 | 用途 |
+|--------|------------|
+| `isPluginEnabled(string $name): bool` | 检查插件是否已安装并对当前访问的 URL 处于激活状态 |
+| `loadLegacyPlugin(string $name): ?object` | 实例化并返回插件的单例对象 |
+| `getPluginSetting(string $name, string $key): mixed` | 读取插件的单个配置值 |
+| `getPluginOverrides(string $name): array` | 获取插件的 `plugin.yaml` 中的覆盖设置（默认值 + 特定于访问 URL 的设置） |
 
-## Core File References
+## 主要文件参考
 
-| File | Purpose |
-|------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| 文件 | 用途 |
+|------|------------|
+| `public/main/inc/lib/plugin.class.php` | 插件基类 |
+| `public/main/inc/lib/plugin.lib.php` | 插件管理器 |
+| `src/CoreBundle/Entity/Plugin.php` | 插件的 Doctrine 实体 |
+| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper 服务 |
+| `src/CoreBundle/Event/Events.php` | 事件常量 |
+| `public/plugin/HelloWorld/` | 最小插件示例 |
+| `public/plugin/TopLinks/` | 简单插件示例 |

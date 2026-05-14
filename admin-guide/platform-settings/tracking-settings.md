@@ -1,73 +1,73 @@
-# Tracking Settings
+# 跟踪设置
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+跟踪相关的默认设置——记录的内容、公开的报告、时间计算规则。
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 跟踪**下访问这些设置。此类别包含**10个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**阻止访问“我的进度”页面**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+在特定实施场景（如在线考试）中，您可能希望阻止用户访问“我的进度”页面。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**页脚额外内容**
 
-You can add HTML code like meta tags
+您可以添加HTML代码，如元标签
 
 ### `header_extra_content`
 
-**Extra content in header**
+**页眉额外内容**
 
-You can add HTML code like meta tags
+您可以添加HTML代码，如元标签
 
 ### `meta_description`
 
-**Meta description**
+**元描述**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+这将在您网站的头部显示一个OpenGraph描述元标签（og:description）
 
 ### `meta_image_path`
 
-**Meta image path**
+**元图片路径**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+此元图片路径是您Chamilo目录内文件的路径（例如 home/image.png），当显示指向您LMS的链接时，应在Twitter卡片或OpenGraph卡片中显示。Twitter建议使用120 x 120像素的图片，有时可能会裁剪为120x90。
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**OpenGraph元标题**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+这将在您网站的头部显示一个OpenGraph标题元标签（og:title）
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Twitter创建者账户**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+Twitter创建者是一个代表创建网站的*个人*的Twitter账户（例如 @ywarnier）。此字段是可选的。
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Twitter站点账户**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+Twitter站点是一个与您的网站相关的Twitter账户（例如 @chamilo_news）。它通常比Twitter创建者账户更临时，或者代表一个实体（而不是个人）。如果您希望显示Twitter卡片元字段，此字段是必需的。
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**“我的进度”页面上的工具顺序**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+更改学习者在“我的进度”页面上显示的工具顺序。选项包括“测验”、“学习路径”和“技能”。
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**在学习者自我跟踪页面中跳过通用数据**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+如果“我的进度”页面加载时间过长，您可能希望移除用户的通用统计数据处理。在这种情况下启用此设置。
 
-*Default: `false`*
+*默认值：`false`*

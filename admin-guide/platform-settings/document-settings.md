@@ -1,247 +1,232 @@
-# Documents Settings
+# 文档设置
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+课程**文档**工具的行为设置——上传、允许的扩展名、共享和模板。
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+通过**管理 > 配置设置 > 文档**访问这些设置。此类别包含**29个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**启用特定URL文件**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+在多URL配置中启用此功能后，您可以访问主URL并为任何文件（在文档工具中）提供特定URL版本。从不同URL查看时，原始文件将被替代文件替换。这允许您进一步自定义每个URL，同时享受多次重复使用相同课程的优势。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**默认硬盘空间**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+课程的可用磁盘空间是多少？您可以通过以下路径为特定课程覆盖配额：平台管理 > 课程 > 修改
 
-*Default: `1000`*
-
+*默认值：`1000`*
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**小组可用磁盘空间**
 
-What is the default hard disk spacde available for a groups documents tool?
+小组文档工具的默认可用硬盘空间是多少？
 
-*Default: `250`*
-
+*默认值：`250`*
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**为云链接设置严格的主机列表**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+文档工具可以集成云端文件的链接。云服务列表限制在硬编码列表中，但您可以定义‘links’数组，其中包含您自己的服务/URL列表。此处定义的列表将替换默认列表。
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**课程中定义的文档可见性**
 
-The default document visibility for all courses
+所有课程的默认文档可见性
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**隐藏文档下载图标**
 
-In the documents tool, hide the download icon from users.
+在文档工具中，对用户隐藏下载图标。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**启用X-sendfile头**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+如果您在Web服务器级别启用了X-sendfile，并且希望为浏览器添加所需的头信息，请启用此选项。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**为小组类别内的文档启用共享选项**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+启用后，管理员可以按类别为文档小组设置文档访问和共享权限。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**为小组文档启用共享选项**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+启用后，可以在小组级别配置文档共享和访问权限。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**按课程启用水印定义**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+启用此选项后，教师可以为他们课程中的文档定义自己的水印。
 
-*Default: `false`*
-
+*默认值：`false`*
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**在PDF导出中启用水印**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+通过启用此选项，您可以上传图像或文本，这些图像或文本将自动作为水印添加到系统上所有文档的PDF导出中。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**PDF水印文本**
 
-This text will be added as a watermark to the documents exports as PDF.
+此文本将作为水印添加到文档的PDF导出中。
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**删除的文件无法恢复**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+在文档工具中删除文件将永久删除该文件。文件无法恢复。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**新目录的权限**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+定义分配给每个新创建目录的权限设置的能力让您可以提高安全性，防止黑客上传危险内容到您的门户网站。默认设置（0770）应该足以给您的服务器提供合理的保护级别。给定的格式使用UNIX术语，即Owner-Group-Others的读-写-执行权限。
 
-*Default: `0770`*
-
+*默认值：`0770`*
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**新文件的权限**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+定义分配给每个新创建文件的权限设置的能力让您可以提高安全性，防止黑客上传危险内容到您的门户网站。默认设置（0550）应该足以给您的服务器提供合理的保护级别。给定的格式使用UNIX术语，即Owner-Group-Others的读-写-执行权限。如果您使用Oogie，请注意启动LibreOffice的用户可以在课程文件夹中写入文件。
 
-*Default: `0660`*
-
+*默认值：`0660`*
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**添加文档时向学生发送通知**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+每当有人在文档工具中创建新项目时，向用户发送通知。
 
-*Default: `false`*
+*默认值：`false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**在文档工具中显示默认提供的包含多媒体资源的文件夹**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+多媒体文件文件夹包含按类别组织的默认提供的文件，包括视频、音频、图像和Flash动画，可在课程中使用。即使您在文档工具中将其设置为不可见，您仍然可以在平台网页编辑器中使用这些资源。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**显示文档预览**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+在文档工具中显示文档预览可以避免仅为显示文档而加载新页面，但在某些较旧的浏览器或较小宽度的屏幕上可能会导致不稳定。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**在文档工具中显示用户文件夹**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+此选项允许您向教师显示或隐藏系统为每个访问文档工具或通过网页编辑器发送文件的用户生成的文件夹。如果您向教师显示这些文件夹，他们可以选择是否对学习者可见，并允许每个学习者拥有课程中的特定空间，不仅可以存储文档，还可以创建和编辑网页并导出为PDF、制作绘图、创建个人网页模板、发送文件，以及创建、移动和删除目录和文件，并从他们的文件夹中制作安全副本。每个课程用户都拥有一个完整的文档管理器。此外，请记住，任何用户都可以将文档工具中任何文件夹（无论是否为所有者）中可见的文件复制到他/她的作品集或社交网络的个人文档区域，从而可以在其他课程中使用。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**允许学习者下载目录**
 
-Allow learners to pack and download a complete directory from the document tool
+允许学习者从文档工具中打包并下载整个目录。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**允许学习者在文档和Wiki工具中将网页文档导出为PDF格式**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+此功能默认启用，但在服务器过载滥用情况下，或在特定的学习环境中，您可能希望为所有课程禁用此功能。
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**课程进度PDF方向**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+在课程进度工具中，您可以打印不同元素的PDF。设置‘portrait’（纵向）或‘landscape’（横向）（技术术语）来更改方向。
 
-*Default: `landscape`*
-
+*默认值：`landscape`*
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**黑名单 - 设置**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+黑名单用于通过删除（或重命名）以下黑名单中列出的文件扩展名来过滤文件扩展名。扩展名应不带前导点（.），并以分号（;）分隔，例如：exe;com;bat;scr;php。没有扩展名的文件是可以接受的。字母大小写（大写/小写）无关紧要。
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**文档上传的过滤类型**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+您是希望使用黑名单还是白名单过滤。有关更多详细信息，请参见下面的黑名单或白名单描述。
 
-*Default: `blacklist`*
-
+*默认值：`blacklist`*
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**替换扩展名**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+输入您希望用来替换过滤器检测到的危险扩展名的扩展名。仅在您选择了按替换进行过滤时需要。
 
-*Default: `dangerous`*
-
+*默认值：`dangerous`*
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**过滤行为（跳过/重命名）**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+如果您选择跳过，通过黑名单或白名单过滤的文件将不会上传到系统。如果您选择重命名，它们的扩展名将被替换为扩展名替换设置中定义的扩展名。请注意，重命名并不能真正保护您，并且如果存在多个同名但扩展名不同的文件，可能会导致名称冲突。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**白名单 - 设置**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+白名单用于通过删除（或重命名）任何文件扩展名不在以下白名单中列出的文件来过滤文件扩展名。通常认为这是一种更安全但更具限制性的过滤方法。扩展名应不带前导点（.），并以分号（;）分隔，例如：htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw。没有扩展名的文件是可以接受的。字母大小写（大写/小写）无关紧要。
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**允许用户将课程中的文件复制到个人文件区域**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+允许用户将课程中的文件复制到个人文件区域，可通过社交网络或在课程外通过HTML编辑器查看。
 
-*Default: `true`*
-
+*默认值：`true`*
 
 ### `video_features`
 
-**Video features**
+**视频功能**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+您可以为Chamilo中的视频播放器启用的一系列额外功能。选项包括‘speed’，允许您更改视频的播放速度。

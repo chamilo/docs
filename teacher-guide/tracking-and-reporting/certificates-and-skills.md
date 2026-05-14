@@ -1,50 +1,50 @@
-# Certificates and Skills
+# 证书与技能
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo 允许您为达到特定成就标准的学习者颁发证书，并验证与这些成就相关的技能。
 
-## How Certificates Work
+## 证书如何运作
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+证书与**评估**（也称为成绩簿）相关联。当学习者的成绩达到或超过您定义的最低门槛时，他们可以下载证书。
 
-The workflow is:
+工作流程如下：
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. 设置[评估](../assessing-learners/gradebook.md)，包括您的练习、作业和其他评分活动
+2. 定义一个**最低认证分数**（例如，70%）
+3. 当学习者达到该分数时，他们可以下载证书（可以在评估工具内下载，或者如果您为学习路径配置了最后一步，也可以在学习路径中下载）。作为教师，您还可以在成绩簿中使用**生成证书**操作，为所有符合条件的学习者批量创建 PDF 证书。
 
-## Certificate Templates
+## 证书模板
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+证书使用由平台管理员定义的模板。模板通常包括：
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* 学习者的姓名
+* 课程名称
+* 完成日期
+* 所获分数
+* 用于在线验证的二维码或 URL
 
-## Skills
+## 技能
 
-Skills represent competencies that learners acquire. In Chamilo:
+技能代表学习者所获得的胜任能力。在 Chamilo 中：
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* 技能可以与成绩簿成就相关联
+* 当学习者获得证书时，任何相关技能都会自动得到验证
+* 技能会累积在学习者的个人资料中，形成胜任能力记录
+* 技能可以按层次组织（例如，“数据分析”属于“研究方法”之下）
+* 技能可以通过同伴进行进一步评估（360° 评估）
 
-## Viewing Certificate and Skill Status
+## 查看证书和技能状态
 
-As a teacher, you can see:
+作为教师，您可以看到：
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* 哪些学习者在您的课程中获得了证书
+* 哪些技能已得到验证
+* 学习者朝认证门槛的进展情况
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+学习者可以从他们的个人资料中查看自己的证书和已验证的技能，并可以访问技能轮图，查看组织中哪些技能是需求较高的。
 
-## Tips
+## 小贴士
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **设定明确期望** — 在课程开始时告知学习者他们需要达到什么标准才能获得证书
+* **使用有意义的技能名称** — 技能应描述学习者能做什么，而不仅仅是课程名称
+* **结合作品集使用** — 鼓励学习者将证书添加到他们的作品集中
+* **扩展证书功能** — 请您的管理员启用自定义证书插件，以释放更多证书模板功能

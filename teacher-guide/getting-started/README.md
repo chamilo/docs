@@ -1,40 +1,40 @@
-# Getting Started
+# 初步步骤
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+本节将帮助您熟悉 Chamilo 2.0。您将学习如何登录、浏览主界面以及设置您的个人资料。
 
-## Logging In
+## 登录
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+要访问 Chamilo，请打开您的浏览器，并前往您的机构提供的 URL（例如 `https://chamilo.yourschool.edu`）。在登录页面输入您的用户名和密码，然后点击 **进入**。
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+如果您的机构使用外部身份验证（如 Azure、Keycloak 或大学的单点登录系统），您可能会在标准登录表单下方看到额外的登录按钮。点击相应的按钮，通过您机构的身份提供商进行身份验证。
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> 如果您忘记了密码，请在登录页面点击 **忘记密码？** 链接。您将收到一封包含重置密码说明的电子邮件。
 
-## First Look
+## 初次印象
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+登录后，您将看到 Chamilo 的首页。界面主要分为三个区域：
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![Chamilo 首页显示系统公告和课程卡片](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **顶部栏** — 显示平台标志、您的消息收件箱（带有未读消息指示器）以及您的用户头像。点击您的头像可访问个人资料和账户设置。
+* **侧边栏** — 左侧导航面板提供快速访问您的课程、会话、日程、社交网络等功能。您可以通过点击边缘的切换按钮将其收起。
+* **主内容区域** — 这里显示当前页面的内容。在首页上，您将看到系统公告和您的特色课程。
 
-## Your Courses
+## 您的课程
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+在侧边栏中，点击 **我的课程** 查看您作为教师或学生注册的所有课程。每个课程以卡片形式显示，包含：
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![我的课程页面显示带有缩略图和快速访问操作的课程卡片](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* 课程图片或缩略图
+* 课程标题
+* 快速访问操作
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+如果您的机构使用 **会话**（限时培训周期），您还会在侧边栏中看到 **我的会话** 链接，按当前、过去和未来的会话进行组织。
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Chamilo 中的会话是一种在不同时间为不同学生群体提供相同课程的方式，而无需复制课程内容。可以将会话视为课程的一个版本或预定的班级。稍后会详细介绍此主题。
 
-## Next Steps
+## 下一步
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [了解界面](understanding-the-interface.md) — 深入了解 Chamilo 界面的每个部分
+* [您的个人资料](your-profile.md) — 如何管理您的个人信息和偏好设置

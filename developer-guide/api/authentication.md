@@ -1,10 +1,10 @@
-# Authentication
+# 认证
 
-The Chamilo API uses **JWT (JSON Web Tokens)** for authentication, implemented via `lexik/jwt-authentication-bundle`.
+Chamilo API 使用 **JWT (JSON Web Tokens)** 进行认证，通过 `lexik/jwt-authentication-bundle` 实现。
 
-## Obtaining a Token
+## 获取令牌
 
-Send a POST request to the authentication endpoint:
+向认证端点发送 POST 请求：
 
 ```
 POST /api/authentication_token
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 ```
 
-Response:
+响应：
 
 ```json
 {
@@ -24,37 +24,37 @@ Response:
 }
 ```
 
-## Using the Token
+## 使用令牌
 
-Include the token in the `Authorization` header of subsequent requests:
+在后续请求的 `Authorization` 头中包含令牌：
 
 ```
 GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
-## Token Lifecycle
+## 令牌生命周期
 
-* Tokens have a configurable expiration time
-* When a token expires, the client must request a new one
-* JWT keys are stored in `config/jwt/` (private and public keys)
+* 令牌具有可配置的过期时间
+* 当令牌过期时，客户端必须请求一个新的令牌
+* JWT 密钥存储在 `config/jwt/` 中（私钥和公钥）
 
-## Generating JWT Keys
+## 生成 JWT 密钥
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-This creates:
-* `config/jwt/private.pem` — Private key for signing tokens
-* `config/jwt/public.pem` — Public key for verifying tokens
+这将创建：
+* `config/jwt/private.pem` — 用于签名令牌的私钥
+* `config/jwt/public.pem` — 用于验证令牌的公钥
 
-Configure the passphrase in `.env`:
+在 `.env` 中配置 passphrase：
 
 ```env
 JWT_PASSPHRASE=your-passphrase
 ```
 
-## API Documentation
+## API 文档
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+当环境中设置了 `APP_ENABLE_API_ENTRYPOINT=1` 时，API 文档可在 `/api` 访问。这提供了一个交互式的 Swagger/OpenAPI 界面，用于探索和测试端点。

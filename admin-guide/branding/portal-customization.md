@@ -1,20 +1,20 @@
-# Portal Customization
+# 门户定制
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+自定义您的 Chamilo 平台的外观以及向用户显示的信息。
 
-## Platform Identity
+## 平台身份
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![显示平台身份设置的门户定制页面，包括名称、标志和机构信息](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+配置您的门户的基本身份信息：
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **平台名称** — 显示在浏览器标题和整个界面中的名称
+* **机构名称** — 您的组织名称
+* **机构网址** — 指向您组织网站的链接
+* **平台标志** — 上传您组织的标志（显示在顶部栏中）
 
-## Tips
+## 提示
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **保持首页简洁** — 首页内容过多可能会让人感到不知所措。重点放在重要公告和课程访问上。
+* **定期更新** — 保持系统公告的最新状态，删除过时的公告
+* **上传高质量标志** — 标志是最显眼的品牌元素之一。使用清晰、尺寸合适的图像。

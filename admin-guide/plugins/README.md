@@ -1,5 +1,5 @@
-# Plugins
+# 插件
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+插件可以在不修改核心代码的情况下扩展 Chamilo 的功能。Chamilo 2.0 提供了超过 50 个插件，可以根据需要进行激活。
 
-* **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[管理插件](managing-plugins.md)** — 安装、激活、配置和停用插件

@@ -1,78 +1,78 @@
-# Support Tickets
+# 支持工单
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+**工单**工具是一个内置的帮助台系统，允许用户提交支持请求并跟踪其解决情况。根据您平台的配置，您可以作为**请求者**（代表自己或您的学习者提交工单）或作为**支持代理**（响应分配到您类别的工单）使用它。
 
-## How the System Is Organized
+## 系统组织方式
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+工单属于**项目**，项目进一步划分为**类别**。每个类别可以分配一个或多个支持代理。当提交工单时，它会自动路由到所选类别中的可用代理。
 
-Default categories include:
+默认类别包括：
 
-| Category | Description |
+| 类别 | 描述 |
 |----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| 注册 | 关于课程或会话注册的问题和事项 |
+| 一般信息 | 平台的一般问题 |
+| 请求和文书工作 | 行政请求和文档 |
+| 学术事件 | 与考试、作业或任务相关的问题 |
+| 虚拟校园 | 平台的技术问题 |
+| 在线评估 | 与特定课程评估相关的问题（需要选择课程） |
 
-## Accessing the Ticket Tool
+## 访问工单工具
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+如果您的管理员启用了工单链接，顶部导航栏中会显示一个工单图标 <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="工单" data-size="line">。点击它可以直接进入工单提交表单。
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+您还可以通过主菜单下的**支持**或**工单**访问您的工单，具体取决于您的平台配置。
 
-## Submitting a Ticket
+## 提交工单
 
-To open a new support request:
+要开启新的支持请求：
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. 点击**新建工单**（或顶部栏中的工单图标）。
+2. 选择最符合您问题的**类别**。
+3. 如果类别要求（例如，在线评估），选择相关的**课程**。
+4. 输入**主题**——问题的简短摘要。
+5. 编写您的**消息**，详细描述问题。
+6. 可选地附加文件（截图、文档）以帮助支持代理理解问题。
+7. 点击**提交**。
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+工单将被分配一个ID并路由到支持代理。当代理回复时，您将收到通知。
 
-## Tracking Your Tickets
+## 跟踪您的工单
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+从工单列表中，您可以看到您提交的所有工单及其当前状态：
 
-| Status | Meaning |
+| 状态 | 含义 |
 |--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| 新建 | 刚刚提交，尚未审核 |
+| 待处理 | 正在由支持代理审核 |
+| 未确认 | 等待确认或额外信息 |
+| 已转发 | 转移到另一个团队或代理 |
+| 已关闭 | 已解决 |
 
-Click any ticket to read the full conversation thread and add a reply.
+点击任何工单可以阅读完整的对话线程并添加回复。
 
-## Replying to a Ticket
+## 回复工单
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+一旦工单开启，您和支持代理可以在同一线程内交换消息。要添加回复：
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. 从您的列表中打开工单。
+2. 滚动到底部的回复字段。
+3. 编写您的回复，如有需要可附加文件。
+4. 点击**发送**。
 
-Both parties receive notifications when a new message is added to the thread.
+当线程中添加新消息时，双方都会收到通知。
 
-## Handling Tickets as a Support Agent
+## 作为支持代理处理工单
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+如果您的管理员将您分配到一个或多个工单类别，您将看到来自学习者或同事的incoming工单在您的队列中。
 
-To respond to an assigned ticket:
+要响应分配的工单：
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. 打开您的工单列表——分配的工单会与您提交的工单一起显示。
+2. 点击工单阅读请求者的消息。
+3. 编写回复并点击**发送**。工单状态会自动更新。
+4. 当问题解决时，将状态更改为**已关闭**。
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+您还可以更改工单的**优先级**（低、正常、高）以帮助分类您的队列。
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> 对工单类别的访问权限由平台管理员控制。如果您需要被添加为某个类别的支持代理，请联系您的管理员。有关配置选项，请参见管理员指南的[工单设置](../admin-guide/platform-settings/ticket-settings.md)。

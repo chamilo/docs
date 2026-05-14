@@ -1,26 +1,26 @@
-# AI Media Generation
+# 人工智能媒体生成
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+在 **文档** 工具中编辑文档时，人工智能媒体生成功能允许您直接从富文本编辑器（WYSIWYG）生成 **图片** 或 **短视频** 来为段落添加插图，而无需离开文档。
 
-## Requirements
+## 要求
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* 平台级别已启用人工智能助手
+* 管理员已配置至少一个人工智能媒体提供商（图片或视频）
+* 您的课程已启用此功能（课程级别的权限必须已激活）
 
-## How to Generate an Image or Video
+## 如何生成图片或视频
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. 在 **文档** 工具中打开一个文档 <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="文档" data-size="line">（创建新的或编辑现有的）
+2. 在富文本编辑器中，将光标放置在您希望添加插图的段落内或附近
+3. 在编辑器工具栏中打开 **人工智能媒体生成** 对话框
+4. 描述您希望媒体展示的内容，或使用选定的段落作为提示
+5. 选择是生成 **图片** 还是 **视频**
+6. 点击 **生成** 并等待人工智能生成结果
+7. 预览生成的媒体，如果满意，点击 **插入** 将其嵌入文档中
 
-## Tips
+## 小贴士
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **编写清晰的提示** — 您的描述越具体，结果越相关。如果提供商支持，可以包含风格指示（例如，“图表”、“插图”、“逼真照片”）
+* **插入前始终进行审查** — 生成的媒体可能与您的意图不完全一致；如有必要，可重新生成或调整提示
+* **考虑文件大小** — 生成的图片和视频会占用课程的存储配额。如果空间有限，请从文档库中删除未使用的媒体
+* **视频生成耗时更长** — 生成短视频可能比生成图片耗时明显更长；如果临近截止日期，请合理规划时间

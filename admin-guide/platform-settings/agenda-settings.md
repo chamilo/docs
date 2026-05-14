@@ -1,90 +1,89 @@
-# Agenda Settings
+# 日程设置
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+**日程**工具（日历/事件）的默认设置和行为。
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在**管理 > 配置设置 > 日程**下访问这些设置。此类别包含**11个设置**，以下列出平台设置固定数据（`SettingsCurrentFixtures.php`）中提供的标题和注释。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 代码中的变量名以等宽字体显示。在通过API进行脚本编写或需要通过编辑[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全局级别更改这些设置时使用它。
 
-## Settings
+## 设置
 
 ### `agenda_colors`
 
-**Agenda colours**
+**日程颜色**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+为每种事件类型设置HTML代码颜色，以在显示事件时更改颜色。
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**日程颜色图例**
 
-Add a small text as legend describing the colours used for the events.
+添加小段文字作为图例，描述事件使用的颜色。
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**日程悬停信息**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+自定义光标悬停时的日程显示。显示日程评论和/或描述。
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**正式发送日程提醒的用户ID**
 
-Sets which user appears as the sender of agenda reminder emails.
+设置哪个用户作为日程提醒邮件的发送者。
 
-*Default: `0`*
+*默认值：`0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**允许HRM角色编辑或删除日程事件**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+这赋予HRM更多权限，允许他们在课程会话中编辑/删除日程事件。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**将全局日历事件与职业和晋升关联**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+启用后，全局日历事件可以与职业和晋升相关联，允许有针对性的调度。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**个人日程**
 
-Can the learner add personal events to the Agenda?
+学习者是否可以将个人事件添加到日程中？
 
-*Default: `true`*
+*默认值：`true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**默认日历显示模式**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+将其设置为dayGridMonth、basicWeek、agendaWeek或agendaDay以更改日历的默认视图。
 
-*Default: `month`*
+*默认值：`month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**日历自定义**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+日程的额外设置，允许您配置我们使用的特定日历库。
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**在个人日程中显示所有日程事件**
 
-Do not hide events from expired sessions.
+不隐藏已过期会话的事件。
 
-*Default: `false`*
+*默认值：`false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**在个人日程中显示会话占用情况**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+启用后，会话安排和占用情况将显示在用户的个人日历中。
 
-*Default: `false`*
-
+*默认值：`false`*

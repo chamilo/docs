@@ -1,61 +1,61 @@
-# Symfony Architecture
+# Symfony 架构
 
-## Bundles
+## 束（Bundles）
 
-Chamilo 2.0 is structured into three Symfony bundles:
+Chamilo 2.0 分为三个 Symfony 束：
 
 ### CoreBundle (`src/CoreBundle/`)
 
-The largest bundle, handling all platform-wide concerns:
+最大的束，处理平台范围内的所有事务：
 
-* **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
-* **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
-* **Administration** — Admin controllers for user, course, session, and plugin management
-* **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
-* **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
-* **Security** — Voters, access control, role hierarchy
-* **Tools** — course tool definitions registered through the tool system
+* **用户和认证** — 用户实体、角色、JWT 令牌、OAuth2 提供商
+* **资源系统** — ResourceNode 和 ResourceFile（统一的内容抽象）
+* **平台设置** — 位于 `src/CoreBundle/Settings/` 的设置模式，涵盖每个可配置的方面
+* **管理** — 用于用户、课程、会话和插件管理的管理员控制器
+* **AI 提供商** — 针对 OpenAI、Gemini、Mistral、DeepSeek、Grok 的工厂模式
+* **文件存储** — 基于 Flysystem 的存储适配器（本地、S3、Azure、GCS）
+* **安全** — 投票者、访问控制、角色层级
+* **工具** — 通过工具系统注册的课程工具定义
 
 ### CourseBundle (`src/CourseBundle/`)
 
-Everything specific to course content:
+与课程内容相关的所有内容：
 
-* **Content entities** — 101 entities for documents, exercises, learning paths, forums, glossaries, surveys, attendance, blogs, assignments, and more
-* **Course copy** — Import/export with Common Cartridge 1.3 and Moodle format support
-* **Course settings** — Course-level setting schemas
+* **内容实体** — 101 个实体，涵盖文档、练习、学习路径、论坛、词汇表、调查、考勤、博客、作业等
+* **课程复制** — 支持 Common Cartridge 1.3 和 Moodle 格式的导入/导出
+* **课程设置** — 课程级别的设置模式
 
 ### LtiBundle (`src/LtiBundle/`)
 
-LTI 1.3 standard implementation:
+LTI 1.3 标准实现：
 
-* **Platform and tool registration** — Manage external tool connections
-* **Launch handling** — LTI launch flow controllers
-* **Grade passback** — Return grades from external tools to Chamilo
+* **平台和工具注册** — 管理外部工具连接
+* **启动处理** — LTI 启动流程控制器
+* **成绩回传** — 将外部工具的成绩返回到 Chamilo
 
-## Service Container
+## 服务容器
 
-Chamilo uses Symfony's dependency injection container. Services are configured in:
+Chamilo 使用 Symfony 的依赖注入容器。服务配置在：
 
-* `config/services.yaml` — Global service definitions
-* Each bundle's `DependencyInjection/` directory — Bundle-specific services
+* `config/services.yaml` — 全局服务定义
+* 每个束的 `DependencyInjection/` 目录 — 特定束的服务
 
-## Security Architecture
+## 安全架构
 
-The security system is configured in `config/packages/security.yaml`:
+安全系统配置在 `config/packages/security.yaml` 中：
 
-* **Password hashing** — Supports bcrypt (default), with migration from legacy SHA1 and MD5
-* **Role hierarchy** — 18 roles organized hierarchically (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; additional roles include ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
-* **Context-sensitive roles** — Course-level roles (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) are computed per-request based on enrollment
-* **Firewall** — JWT authentication for API, session-based for web interface
-* **Voters** — Resource-level access control through Symfony voters
+* **密码哈希** — 支持 bcrypt（默认），并从旧版的 SHA1 和 MD5 迁移
+* **角色层级** — 18 个角色按层级组织（ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER；其他角色包括 ROLE_HR、ROLE_INVITEE、ROLE_STUDENT_BOSS、ROLE_SESSION_MANAGER、ROLE_QUESTION_MANAGER）
+* **上下文敏感角色** — 课程级别的角色（ROLE_CURRENT_COURSE_TEACHER、ROLE_CURRENT_COURSE_STUDENT）根据注册情况在每次请求时计算
+* **防火墙** — API 使用 JWT 认证，Web 界面使用基于会话的认证
+* **投票者** — 通过 Symfony 投票者实现资源级别的访问控制
 
-## Legacy Code
+## 遗留代码
 
-Some features still use legacy PHP code in `public/main/`:
+某些功能仍然使用位于 `public/main/` 的遗留 PHP 代码：
 
-* Exercise rendering and interaction
-* Learning path player
-* Some admin tools
+* 练习渲染和交互
+* 学习路径播放器
+* 一些管理工具
 
-These are progressively being migrated to the Symfony+Vue architecture. Legacy pages are served through a compatibility layer that bootstraps the Symfony kernel.
+这些功能正在逐步迁移到 Symfony+Vue 架构。遗留页面通过一个兼容层提供服务，该兼容层启动了 Symfony 内核。

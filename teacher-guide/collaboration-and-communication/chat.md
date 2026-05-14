@@ -1,34 +1,34 @@
-# Chat
+# 聊天
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+聊天工具提供了课程内的实时文本消息功能。它对于快速沟通、实时问答环节或非正式讨论非常有用。
 
-## Using the Chat
+## 使用聊天
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. 在课程首页打开**聊天**工具
+2. 在底部的文本框中输入您的消息
+3. 按下**回车键**或点击发送按钮发布消息
 
-All enrolled users who are currently in the chat room can see messages in real time.
+所有当前在聊天室中的注册用户都可以实时查看消息。
 
-## Chat Features
+## 聊天功能
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **实时消息** — 消息会立即显示给所有参与者
+* **消息历史记录** — 进入聊天时可以查看之前的消息
+* **用户在线状态** — 查看当前在聊天室中的人员
 
-## As a Teacher
+## 作为教师
 
-As the course teacher, you can:
+作为课程教师，您可以：
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **监控讨论** — 查看聊天历史记录以跟踪学生的参与情况
+* **在文档中查找聊天存档** — 聊天工具会自动将消息镜像保存为HTML文件，存储在文档工具中，按日期和范围（课程/会话/小组）组织，以便对话在实时会话结束后仍然保留
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+如果平台设置中启用了“限制聊天仅限导师”选项（由管理员设置），则只有导师可以与学生聊天；否则，课程中的所有注册用户都可以参与。
 
-## Tips for Using Chat Effectively
+## 有效使用聊天的建议
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **安排聊天时间** — 提前通知学生您将在何时在线进行实时聊天（使用日程工具）
+* **设定基本规则** — 制定尊重他人的沟通期望
+* **用于快速提问** — 聊天最适合用于简短交流；对于较长且结构化的讨论，请使用论坛
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> 如果您的平台配置了视频会议功能（BigBlueButton 或 Zoom），请考虑在需要语音和视频的实时会话中使用它。参见[视频会议](video-conferencing.md)。

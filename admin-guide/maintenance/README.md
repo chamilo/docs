@@ -1,7 +1,7 @@
-# Maintenance
+# 维护
 
-Regular maintenance keeps your Chamilo platform running smoothly.
+定期维护可以确保您的 Chamilo 平台平稳运行。
 
-* **[Backups](backups.md)** — Database and file backup strategies
-* **[System Status](system-status.md)** — Monitor server health and configuration
-* **[Archive Cleanup](archive-cleanup.md)** — Manage temporary files and free up disk space
+* **[备份](backups.md)** — 数据库和文件备份策略
+* **[系统状态](system-status.md)** — 监控服务器健康状况和配置
+* **[归档清理](archive-cleanup.md)** — 管理临时文件并释放磁盘空间

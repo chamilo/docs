@@ -1,12 +1,12 @@
-# Collaboration and Communication
+# 协作与沟通
 
-Chamilo provides several tools to enable interaction between you and your learners, and among learners themselves.
+Chamilo 提供了多种工具，以便于您与学生之间以及学生之间的互动。
 
-* **[Forums](forums.md)** — Threaded discussions organized by category and topic
-* **[Chat](chat.md)** — Real-time text messaging within a course
-* **[Groups](groups.md)** — Divide learners into working groups with their own shared tools
-* **[Wiki](wiki.md)** — Collaborative document editing
-* **[Blog](blog.md)** — Shared blogging within the course
-* **[Video Conferencing](video-conferencing.md)** — Live video sessions using BigBlueButton or Zoom
+* **[论坛](forums.md)** — 按类别和主题组织的讨论
+* **[聊天](chat.md)** — 课程内的实时文本消息
+* **[小组](groups.md)** — 将学生分成工作小组，拥有各自的共享工具
+* **[Wiki](wiki.md)** — 协作编辑文档
+* **[博客](blog.md)** — 课程内的共享博客
+* **[视频会议](video-conferencing.md)** — 使用 BigBlueButton 或 Zoom 进行实时视频会议
 
-These tools are available from the course homepage. Some may be hidden by default — you can make them visible from the tool grid (see [Course Homepage](../creating-your-course/course-homepage.md)).
+这些工具可在课程首页上找到。部分工具可能默认隐藏 — 您可以通过工具网格将其设置为可见（参见[课程首页](../creating-your-course/course-homepage.md)）。

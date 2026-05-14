@@ -1,29 +1,29 @@
-# Portfolio
+# 作品集
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+作品集工具允许学生在课程期间收集并展示他们的作品。它作为一个数字作品集，学生可以在其中汇编他们最好的作品、反思和成就。
 
-## How Portfolios Work
+## 作品集如何运作
 
-Each learner has a personal portfolio within the course where they can:
+每位学生在课程中拥有一个个人作品集，他们可以：
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **添加项目** — 使用富文本编辑器编写文本条目，并为每个项目附加一个或多个文件
+* **组织内容** — 为项目添加标签，以便按主题进行过滤
+* **选择性分享** — 设置每个项目的可见性：隐藏、对课程可见、仅对教师可见，或在启用高级共享时与选定用户共享
 
-## As a Teacher
+## 作为教师
 
-You can use portfolios for:
+您可以使用作品集来：
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **反思性学习** — 要求学生维护一个关于他们学习旅程的反思作品集
+* **展示能力** — 让学生收集技能和知识的证据
+* **评估** — 将作品集内容作为评估的一部分进行审查
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+要查看学生的作品集，请打开作品集工具并按用户过滤项目列表。
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+如果课程设置为允许，您可以为作品集项目和个别评论评分——这些评分随后可以整合到成绩单中。您还可以**突出显示**想要引起注意的项目，并将项目或评论标记为**模板**，以便您（或学生）可以将其作为新条目的起点重复使用。作品集可以导出为 **PDF** 或 **ZIP** 格式。
 
-## Tips
+## 小贴士
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **设定期望** — 告知学生应包含哪些类型的项目以及如何组织他们的作品集
+* **定期审查** — 定期检查作品集，而不仅仅是在课程结束时
+* **结合技能** — 将作品集与技能/证书系统结合使用，创建全面的能力记录

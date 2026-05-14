@@ -1,42 +1,42 @@
-# Templates
+# 模板
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo 使用模板来管理证书、文档和电子邮件。您可以自定义这些模板以符合您组织的品牌和需求。
 
-## Certificate Templates
+## 证书模板
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+证书模板定义了颁发给达到成绩簿门槛的学习者的证书的布局和内容。
 
-### Customizing a Certificate Template
+### 自定义证书模板
 
-Certificate templates use HTML and CSS with placeholder variables:
+证书模板使用 HTML 和 CSS，并包含占位符变量：
 
-| Variable | Replaced with |
+| 变量 | 替换为 |
 |----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| 学生姓名 | 学习者的全名 |
+| 课程名称 | 课程的名称 |
+| 日期 | 获得证书的日期 |
+| 得分 | 学习者的最终得分 |
+| 条形码 | 用于验证的条形码占位符 (`((certificate_barcode))`) |
 
-### Uploading a Template
+### 上传模板
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. 导航到证书模板管理
+2. 上传或编辑 HTML 模板
+3. 在需要显示动态内容的地方使用占位符变量
+4. 保存
 
-## Document Templates
+## 文档模板
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+教师在使用文档工具创建内容时可以使用文档模板。模板为常见文档类型提供了起始布局。
 
-### Managing Document Templates
+### 管理文档模板
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. 在管理面板中导航到模板管理
+2. 通过上传 HTML 文件添加新模板
+3. 模板将在教师创建新文档时变得可用
 
-## Tips
+## 提示
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **包含您的标志** — 在证书模板中添加您组织的标志以获得专业外观
+* **使用真实数据测试** — 在部署模板之前，使用实际学习者数据预览证书
+* **保持模板简洁** — 简洁的设计打印效果更好且看起来更专业

@@ -1,31 +1,31 @@
-# Developer Guide
+# 开发者指南
 
-Welcome to the Chamilo 2.0 Developer Guide. This guide is for developers who want to understand the Chamilo architecture, extend the platform with plugins, use the API, customize the interface, or contribute to the project.
+欢迎阅读 Chamilo 2.0 开发者指南。本指南面向希望了解 Chamilo 架构、通过插件扩展平台、使用 API、自定义界面或为项目做出贡献的开发者。
 
-## Architecture at a Glance
+## 架构概览
 
-Chamilo 2.0 is built on:
+Chamilo 2.0 基于以下技术构建：
 
-* **Backend**: Symfony 6.4 (PHP 8.2+) with Doctrine ORM and API Platform 3.0
-* **Frontend**: Vue 3 with PrimeVue, Pinia state management, and Vue Router
-* **Build system**: Webpack 5 via Symfony Webpack Encore, with Tailwind CSS
-* **Authentication**: JWT tokens (lexik/jwt-authentication-bundle)
-* **File storage**: Flysystem (supports local, AWS S3, Azure Blob, Google Cloud)
+* **后端**：Symfony 6.4 (PHP 8.2+)，使用 Doctrine ORM 和 API Platform 3.0
+* **前端**：Vue 3，搭配 PrimeVue、Pinia 状态管理和 Vue Router
+* **构建系统**：通过 Symfony Webpack Encore 使用 Webpack 5，结合 Tailwind CSS
+* **认证**：JWT 令牌 (lexik/jwt-authentication-bundle)
+* **文件存储**：Flysystem（支持本地、AWS S3、Azure Blob、Google Cloud）
 
-The codebase is organized into three Symfony bundles:
+代码库组织为三个 Symfony 包：
 
-| Bundle | Purpose |
+| 包名 | 用途 |
 |--------|---------|
-| **CoreBundle** | Platform core: users, settings, resources, admin, AI providers, security |
-| **CourseBundle** | Course-specific features: documents, exercises, learning paths, forums, etc. |
-| **LtiBundle** | LTI 1.3 integration for external learning tools |
+| **CoreBundle** | 平台核心：用户、设置、资源、管理、AI 提供商、安全 |
+| **CourseBundle** | 课程相关功能：文档、练习、学习路径、论坛等 |
+| **LtiBundle** | LTI 1.3 集成，用于外部学习工具 |
 
-## How This Guide Is Organized
+## 本指南的组织结构
 
-1. **Getting Started** — Tech stack, development setup, project structure
-2. **Backend** — Symfony architecture, entities, resource system, controllers, settings
-3. **API** — REST API via API Platform, JWT authentication, custom actions
-4. **Frontend** — Vue components, views, routing, state management, build system
-5. **Theming** — Color themes, CSS/Tailwind, Twig templates
-6. **Plugins** — Plugin architecture and development
-7. **Contributing** — Coding conventions, git workflow, testing
+1. **入门** — 技术栈、开发环境设置、项目结构
+2. **后端** — Symfony 架构、实体、资源系统、控制器、设置
+3. **API** — 通过 API Platform 实现的 REST API、JWT 认证、自定义操作
+4. **前端** — Vue 组件、视图、路由、状态管理、构建系统
+5. **主题定制** — 颜色主题、CSS/Tailwind、Twig 模板
+6. **插件** — 插件架构与开发
+7. **贡献** — 编码规范、git 工作流程、测试

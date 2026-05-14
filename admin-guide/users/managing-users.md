@@ -1,103 +1,103 @@
-# Managing Users
+# 用户管理
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+本页面涵盖了创建、编辑和管理用户账户的日常任务。
 
-## User List
+## 用户列表
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![用户列表显示账户信息，包括姓名、电子邮件、角色和状态列](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+从管理面板中，点击**用户列表**查看平台上的所有用户。列表显示：
 
-* Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* 头像
+* 姓名
+* 用户名
+* 电子邮件地址
+* 角色
+* 活跃/非活跃状态
+* 注册日期
+* 最后登录日期
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+使用**高级搜索**工具可以通过姓名、电子邮件、角色或其他条件查找特定用户。
 
-## Creating a User
+## 创建用户
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![用户创建表单，包含姓名、电子邮件、用户名、密码、角色和语言字段](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. 从管理面板中点击**添加用户**
+2. 填写必填字段：
+   * **名字**和**姓氏**
+   * **电子邮件** — 必须在平台上唯一
+   * **用户名** — 登录名称（必须唯一）
+   * **密码** — 设置初始密码
+   * **角色** — 选择用户的平台角色（学生、教师、管理员等）
+   * **语言** — 用户首选的界面语言
+3. 可选填写额外字段：
+   * 官方代码（例如组织中的唯一ID）
+   * 电话号码
+   * 到期日期 — 在指定日期后自动停用账户
+   * 活跃/非活跃状态
+   * 额外的个人资料字段（如果已配置）
+4. 保存
 
-## Importing Users
+## 导入用户
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![用户导入界面，用于上传包含用户数据的CSV或XML文件](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+对于批量创建用户，您可以从文件导入用户：
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. 从管理面板中点击**导入用户**
+2. 上传包含用户数据的**CSV**或**XML**文件
+3. 将文件列映射到Chamilo用户字段
+4. 选择如何处理现有用户（更新或跳过）
+5. 导入
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+导入文件至少应包含以下列：名字、姓氏、电子邮件、用户名和密码。
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+注意：**状态**列是**角色**的旧名称，仅接受少数值，例如1代表教师，5代表学生。角色的进一步调整只能稍后手动完成，编辑用户。
 
-## Exporting Users
+## 导出用户
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+点击**导出用户**以CSV或XML文件格式下载用户列表。您可以根据角色、注册日期或其他条件筛选要导出的用户。
 
-## Editing a User
+## 编辑用户
 
-Click on a user's name in the user list to edit their account. You can modify:
+在用户列表中点击用户的姓名以编辑其账户。您可以修改：
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* 个人信息（姓名、电子邮件、电话）
+* 角色
+* 密码（重置）
+* 活跃/非活跃状态
+* 到期日期
+* 额外的个人资料字段
 
-## Deleting a User
+## 删除用户
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+当删除在平台上创建了内容的用户（通常是教师）时，系统可能会阻止您永久删除用户，并显示警告消息，说明该用户仍与某些资源相关联。如果您确认删除，系统不会删除内容本身，而是将其附加到一个中立用户（我们称之为“备用用户”）以保持数据一致性。
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+为避免这种情况，请检查用户详细信息，逐一删除他们的课程，然后再删除用户。
 
-## User Actions
+## 用户操作
 
-| Action | Description |
+| 操作 | 描述 |
 |--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| **停用** | 禁用用户账户而不删除。用户无法登录，但其数据将被保留。 |
+| **激活** | 重新启用之前停用的账户。 |
+| **以该用户身份登录** | 以该用户身份登录平台（模拟）。用于故障排除很有用。 |
+| **匿名化** | 根据欧盟GDPR定义，擦除账户的所有个人信息。 |
+| **删除** | 软删除用户账户。使用**已删除用户**选项卡永久删除账户及相关数据。 |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **以该用户身份登录**是一项强大的功能。请负责任地使用，仅用于合法的支持目的。
 
-## Batch Operations
+## 批量操作
 
-Select multiple users in the user list to perform batch actions:
+在用户列表中选择多个用户以执行批量操作：
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* 一次性激活或停用多个用户
+* 删除多个用户
+* 将用户分配到课程或会话
 
-## Tips
+## 小贴士
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **使用CSV导入进行大规模注册** — 在培训计划开始时为大量用户注册时，准备一个CSV文件并批量导入
+* **设置到期日期** — 对于临时用户（研讨会参与者、试用用户），设置到期日期以自动停用他们的账户
+* **停用而非删除** — 当用户离开时，首先停用他们的账户。这将保留他们的培训记录。只有在确定不再需要数据时才删除。

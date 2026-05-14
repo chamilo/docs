@@ -1,55 +1,55 @@
-# Creating Your Course
+# 创建您的课程
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+本节将解释如何在Chamilo中创建一个新课程并根据您的需求进行设置。
 
-## Creating a New Course
+## 创建新课程
 
-To create a course:
+要创建课程，请按照以下步骤操作：
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. 在侧边栏中点击**我的课程**
+2. 点击**创建课程**按钮（通常是一个绿色的书本图标 <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="课程" data-size="line"> 带有+号）
+3. 填写课程创建表单：
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![课程创建表单，包含名称、类别、代码和语言字段](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| 字段 | 是否必填 | 描述 |
+|-------|-------------|-----------|
+| **课程名称** | 是 | 为您的课程设置一个简短且具有描述性的标题（例如，“创新管理”） |
+| **课程类别** | 否 | 选择一个类别以帮助在平台上组织课程 |
+| **课程代码** | 否 | 一个仅使用字母和数字的简短代码（最长40个字符）。如果留空，将根据课程名称自动生成代码 |
+| **语言** | 否 | 课程的主要语言。默认情况下，将使用您当前的语言 |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+如果启用，您还可以找到**默认教室**设置以及使用**课程模板**的可能性，以避免从头开始创建课程。
 
-4. Click **Create this course**
+4. 点击**创建此课程**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+您将被重定向到新课程的主页。屏幕上将显示确认消息：“课程创建成功。”
 
-## The Course Homepage
+## 课程主页
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+创建课程后，您将被带到课程主页。这是您课程的主要中心，您和您的学生可以在这里访问所有工具和内容。
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![课程主页工具网格，显示可用工具的图标和可见性切换](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+课程主页显示：
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **课程标题** — 您的课程名称，显示在顶部。
+* **课程简介** — 可选的描述或欢迎消息。点击**+ 课程简介**按钮添加简介，或点击顶部的**编辑简介**按钮 <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 进行修改。支持富文本格式，包括图片、链接和格式化。
+* **工具网格** — 显示课程所有可用工具的网格，每个工具以卡片形式展示，包含图标和名称。
 
-### Managing Tool Visibility
+### 管理工具可见性
 
-As a teacher, you can control which tools your learners can see:
+作为教师，您可以控制学生可以看到哪些工具：
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* 点击任何工具旁边的**眼睛图标** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见" data-size="line"> 将其对学生隐藏。隐藏的工具会显示一个**划线的眼睛** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="隐藏" data-size="line">，但您仍然可以访问。
+* 使用**全部显示**和**全部隐藏**按钮一次性更改所有工具的可见性
+* 点击**排序**启用通过拖放重新排列工具网格
 
-### Student View
+### 学生视图
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+点击**学生视图**按钮，可以查看学生看到课程主页的准确样子。这对于检查隐藏的工具和未发布的内容是否可见非常有用。再次点击该按钮可返回教师视图。
 
-## Next Steps
+## 下一步
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [课程设置](course-settings.md) — 配置课程级别的访问、注册和其他选项
+* [课程主页](course-homepage.md) — 自定义课程主页的详细指南

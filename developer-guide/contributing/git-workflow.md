@@ -1,105 +1,104 @@
-# Git Workflow
+# Git 工作流程
 
-## Repository
+## 代码库
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+Chamilo 源代码托管在 GitHub 上：[github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
-## Branching
+## 分支管理
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — 主要开发分支
+* 功能分支从 `master` 创建，用于新功能的开发
+* 发布分支为稳定版本创建
 
-## Contributing a Change
+## 提交更改
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. 在 GitHub 上 **Fork** 代码库
+2. 将你的 fork **克隆** 到本地
+3. 为你的更改 **创建分支**：`git checkout -b feature/my-feature`
+4. 按照编码规范 **进行更改**
+5. 使用清晰、描述性的提交信息 **提交** 更改
+6. **推送** 到你的 fork：`git push origin feature/my-feature`
+7. 针对 `master` 分支 **创建拉取请求**
 
-## Commit Messages
+## 提交信息
 
-Write clear commit messages that explain **what** and **why**:
-
-```
-Glossary: Add AI-assisted term generation
-
-Teachers can now generate glossary terms using configured AI
-providers. Supports configurable prompt and term count.
-```
-
-### Tool prefix convention
-
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
-
-Format: `<Prefix>: <Imperative summary in the present tense>`
-
-Examples:
+编写清晰的提交信息，解释 **内容** 和 **原因**：
 
 ```
-Document: Fix list for student view
-Exercise: Prevent duplicate question titles within a quiz
-Learnpath: Allow reordering chapters via drag and drop
-Internal: Refactor ResourceNode hydration in the API normalizer
-CI: Cache Composer downloads in the GitHub Actions workflow
+词汇表：添加 AI 辅助的术语生成
+
+教师现在可以使用配置的 AI 提供商生成词汇表术语。支持可配置的提示和术语数量。
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+### 工具前缀约定
 
-#### Allowed prefixes
+主题行以更改涉及的 **工具或区域** 作为前缀，后跟冒号。我们使用简短的共享术语，以便变更日志和 `git log --oneline` 能按工具快速浏览。前缀始终使用工具规范名称的 **单数** 形式。
 
-| Prefix               | Scope / notes                                                                        |
+格式：`<前缀>: <以现在时态的祈使句总结>`
+
+示例：
+
+```
+Document: 修复学生视图中的列表
+Exercise: 防止测验中出现重复的问题标题
+Learnpath: 允许通过拖放重新排序章节
+Internal: 重构 API 规范化器中的 ResourceNode 加载
+CI: 在 GitHub Actions 工作流程中缓存 Composer 下载
+```
+
+如果更改涉及多个工具，选择受影响最大的工具；仅涉及代码结构（不影响最终用户工具）的真正跨领域更改归类为 `Internal`。仅涉及文档的更改（本网站、变更日志、仅作为参考的内联文档块）归类为 `Documentation`。
+
+#### 允许的前缀
+
+| 前缀                 | 范围/备注                                                                            |
 |----------------------|--------------------------------------------------------------------------------------|
 | `Admin`              |                                                                                      |
 | `Announcement`       |                                                                                      |
 | `Attendance`         |                                                                                      |
 | `Authentication`     |                                                                                      |
 | `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
+| `Calendar`           | 不是“Agenda”                                                                        |
 | `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
+| `Catalogue`          | 课程和会话目录，包括首页上的“热门课程”                                              |
 | `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
+| `CI`                 | 持续集成，自动化测试等                                                              |
 | `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
+| `Course Progress`    | 不是“Thematic advance”                                                              |
 | `Course settings`    |                                                                                      |
 | `Cron`               |                                                                                      |
 | `Dashboard`          |                                                                                      |
 | `Display`            |                                                                                      |
 | `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
+| `Documentation`      | 任何与Chamilo或代码文档、变更日志等独家相关的文档内容                               |
 | `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
+| `Exercise`           | 不是“Quiz”                                                                          |
 | `Extra Fields`       |                                                                                      |
 | `Forum`              |                                                                                      |
 | `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
+| `Gradebook`          | 包括证书                                                                             |
+| `Group`              | 包括课程小组、全球小组和班级                                                        |
 | `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
+| `Hook`               | 用于内部钩子机制                                                                     |
+| `Install`            | 包括升级相关内容                                                                     |
+| `Internal`           | 针对主要影响代码本身或具有非常全局性质的更改和修复                                   |
 | `Language`           |                                                                                      |
 | `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
+| `Learnpath`          | 针对LP / 学习路径                                                                   |
+| `Maintenance`        | 课程维护工具：课程复制、备份、恢复等                                                |
 | `Message`            |                                                                                      |
 | `Notebook`           |                                                                                      |
 | `Optimization`       |                                                                                      |
 | `Portfolio`          |                                                                                      |
 | `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
+| `Script`             | 针对位于`tests/scripts/`中的内容                                                    |
+| `Search`             | 全文搜索                                                                             |
 | `Security`           |                                                                                      |
 | `Session`            |                                                                                      |
 | `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
+| `Social`             | 社交网络                                                                             |
+| `SSO`                | 单点登录方法                                                                         |
 | `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
+| `System`             | 主要与服务器级别的托管和微调相关的内容                                               |
 | `Template`           |                                                                                      |
 | `Ticket`             |                                                                                      |
 | `Tracking`           |                                                                                      |
@@ -110,14 +109,15 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `WYSIWYG`            |                                                                                      |
 | `XAPI`               |                                                                                      |
 
-## Code Review
+---
+## 代码审查
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+拉取请求将由维护团队进行审查。请准备好：
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+* 回应反馈并进行修订
+* 保持您的分支与 `master` 同步更新
+* 确保测试通过
 
-## Reporting Issues
+## 报告问题
 
-Report bugs and feature requests on the GitHub issue tracker.
+在 GitHub 问题跟踪器上报告错误和功能请求。

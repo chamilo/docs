@@ -1,7 +1,7 @@
-# Plugins
+# 插件
 
-Chamilo's plugin system lets you extend the platform without modifying core code. A set of plugins ships with the distribution under `public/plugin/`.
+Chamilo 的插件系统允许您在不修改核心代码的情况下扩展平台。发行版中包含一组插件，位于 `public/plugin/` 目录下。
 
-* **[Plugin Architecture](plugin-architecture.md)** — How plugins are structured
-* **[Creating a Plugin](creating-a-plugin.md)** — Step-by-step guide to building a plugin
-* **[Course Tool Plugins](course-tool-plugins.md)** — Plugins that add tools to courses
+* **[插件架构](plugin-architecture.md)** — 插件的结构方式
+* **[创建插件](creating-a-plugin.md)** — 构建插件的逐步指南
+* **[课程工具插件](course-tool-plugins.md)** — 为课程添加工具的插件

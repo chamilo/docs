@@ -1,34 +1,34 @@
-# Archive Cleanup
+# 归档清理
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+随着时间的推移，Chamilo 会在其缓存和归档目录中积累临时文件。定期清理可以防止磁盘空间问题。
 
-## What Can Be Cleaned
+## 可以清理的内容
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Symfony 缓存** — 编译后的模板、缓存的配置和路由数据
+* **临时文件** — 在导出、导入和其他操作期间生成的文件
+* **会话数据** — 已过期的 PHP 会话文件
+* **日志文件** — 不再需要的旧日志文件
 
-## Performing Cleanup
+## 执行清理
 
-### From the Administration Panel
+### 通过管理面板
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+在管理面板中导航到 **归档清理**。点击清理按钮以删除临时文件。
 
-### From the Command Line
+### 通过命令行
 
-For more control, use Symfony console commands:
+为了获得更多控制，可以使用 Symfony 控制台命令：
 
 ```bash
-# Clear the Symfony cache
+# 清除 Symfony 缓存
 php bin/console cache:clear
 
-# Clear only the production cache
+# 仅清除生产环境缓存
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## 小贴士
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **安排定期清理** — 设置每周或每月的 cron 任务来清除临时文件
+* **监控磁盘使用情况** — 关注 `var/` 目录的大小，因为它会随着缓存和日志文件的增加而增长
+* **谨慎处理日志** — 在删除日志文件之前，检查它们是否包含可能用于故障排除的信息

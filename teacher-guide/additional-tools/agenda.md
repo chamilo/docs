@@ -1,43 +1,43 @@
-# Agenda
+# 日程
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+日程工具允许您在课程中安排活动和截止日期。这些活动将显示在学生可以查看的日历中。
 
-## Viewing the Agenda
+## 查看日程
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+从课程首页打开**日程**工具 <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="日程" data-size="line">。您可以通过三种模式查看活动：
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![日程以日历视图显示课程活动和截止日期](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **日历视图** — 按月/周/日的视觉日历
+* **列表视图** — 按时间顺序显示的活动列表
+* **个人活动** — 筛选以仅查看与您相关的活动
 
-## Creating an Event
+## 创建活动
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. 点击**添加活动** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加活动" data-size="line">
+2. 填写活动详细信息：
+   * **标题** — 活动的简短名称
+   * **开始日期和时间**
+   * **结束日期和时间**
+   * **描述** — 额外详细信息（支持富文本）
+3. 选择**目标受众**：
+   * **所有学生** — 课程中所有注册的学生
+   * **特定用户或组** — 选择个别学生或组
+4. 可选地，设置**提醒** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="提醒" data-size="line">，以在活动前通过电子邮件发送通知（需要在门户网站上由管理员配置*cron*）
+5. 保存
 
-## Managing Events
+## 管理活动
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 点击活动以修改其详细信息
+* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从日历中移除活动
+* **拖放** — 在日历视图中，拖动活动以重新安排时间
 
-## Personal Agenda
+## 个人日程
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+您还可以通过侧边栏访问**个人日程**。个人日程将您所有课程的活动汇总到一个视图中。学生可以在此查看他们所注册的所有课程的综合日程安排。
 
-## Tips
+## 小贴士
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **设置截止日期** — 为作业提交日期和练习截止日期创建活动，以便学生可以在日历中查看
+* **使用提醒** — 为重要活动启用电子邮件提醒，帮助学生保持进度
+* **与会话协调** — 如果您在多个会话中授课，每个会话都有自己的活动，仅对该会话的学生可见。教师可以使用功能查看其会话中其他课程的活动（任务、 экскурсии 等），以避免给学生带来过重负担

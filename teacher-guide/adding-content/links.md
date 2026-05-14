@@ -1,43 +1,43 @@
-# Links
+# 链接
 
-The links tool lets you share useful URLs with your learners, organized by category.
+链接工具允许您与学生分享有用的URL，并按类别进行组织。
 
-## Adding a Link
+## 添加链接
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. 在课程首页上打开**链接**工具 <img src="/.gitbook/assets/icons/mdi-link.svg" alt="链接" data-size="line">
+2. 点击**添加链接** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="添加链接" data-size="line">
+3. 填写详细信息：
+   * **URL** — 网页地址（例如，`https://example.com/resource`）
+   * **链接名称** — 链接的描述性名称
+   * **描述** — 关于资源的可选说明
+   * **类别** — 将链接分配到一个类别以便组织
+   * **目标** — 链接打开的位置：`_self`（当前窗口）、`_blank`（新标签页）、`_parent` 或 `_top`
+   * **在课程首页显示链接** — 如果您希望将其作为工具图标显示在课程首页上
+4. 保存
 
-## Organizing with Categories
+## 使用类别进行组织
 
-Categories help you group related links together:
+类别有助于将相关链接分组：
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. 点击**添加类别**
+2. 输入**类别名称**和可选的描述
+3. 保存
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+同一类别内的链接会一起显示，方便学生找到相关资源。
 
-## Managing Links
+## 管理链接
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **链接验证** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="有效性" data-size="line"> — Chamilo 可以检查链接是否仍然有效或已失效
+* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新链接的URL、标题或描述
+* **可见性** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 对学生隐藏或显示链接
+* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 删除链接
 
-## Exporting Links
+## 导出链接
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+您可以将链接集合导出为PDF格式。在链接工具中查找**导出**选项。
 
-## Tips
+## 小贴士
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **按主题分类** — 为课程的每个模块或每周创建一个类别
+* **添加描述** — 帮助学生在点击链接前了解其相关性
+* **定期检查** — 网页链接可能会随时间变得过时或失效

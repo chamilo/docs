@@ -1,115 +1,115 @@
-# Learning Paths
+# 学习路径
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+学习路径允许您创建结构化的学习活动序列。学习路径以特定的顺序引导学生完成文档、练习、链接和其他资源，可选择设置前置条件并跟踪进度。
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+毫无疑问，这一工具是课程中使用最广泛的工具，因为它可以整合许多其他工具，实际上可能是面向学生的***唯一***工具。
 
-## Why Use Learning Paths?
+## 为什么使用学习路径？
 
-Learning paths are useful when you want to:
+学习路径在以下情况下非常有用：
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **控制内容顺序** — 确保学生在继续学习之前完成基础材料
+* **跟踪进度** — 准确查看每个学生在序列中的位置
+* **设置前置条件** — 要求学生通过某项练习才能访问下一部分
+* **授予完成证书** — 将学习路径的完成与成绩簿和证书挂钩
+* **打包内容** — 创建学生可以按自己的节奏学习的独立学习模块
 
-## Creating a Learning Path
+## 创建学习路径
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. 在课程首页打开**学习路径**工具 <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line">
+2. 点击**创建学习路径**
+3. 输入**标题**和可选的描述
+4. 保存 — 您将被带到学习路径编辑器
 
-## The Learning Path Editor
+## 学习路径编辑器
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![学习路径编辑器，左侧为项目树，右侧为内容预览](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+编辑器有两个主要区域：
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **左侧面板** — 学习路径中的项目（步骤）列表，以树状结构显示
+* **右侧面板** — 所选项目的内容
 
-### Adding Items
+### 添加项目
 
-Click **Add an item** and choose what to add:
+点击**添加项目**并选择要添加的内容：
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| 项目类型 | 描述 |
+|----------|------|
+| **章节** | 用于分组相关项目的标题（类似于章节标题）。章节本身不包含内容。 |
+| **文档** | 课程文档工具中的文件或网页 |
+| **练习** | 练习工具中的测验或测试 |
+| **链接** | 外部URL |
+| **作业** | 作业工具中的学生提交内容 |
+| **论坛** | 课程论坛的链接 |
+| **调查** | 调查链接 |
+| **证书** | 用于触发完成证书生成或授予能力的特殊页面 |
 
-### Organizing Items
+### 组织项目
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **拖放**项目以重新排序
+* **嵌套项目**，通过向右拖动将其放置在章节下
+* **删除**不再需要的项目
 
-### Setting Prerequisites
+### 设置前置条件
 
-Prerequisites ensure learners complete certain steps before accessing others:
+前置条件确保学生在访问其他步骤之前完成特定步骤：
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. 在学习路径中选择一个项目
+2. 打开**前置条件**设置
+3. 选择必须先完成的先前项目
+4. 对于练习，您可以要求达到**最低分数**（例如，“必须在测验1中获得至少70%的分数才能访问模块2”）
 
-## Learner Experience
+## 学生体验
 
-When a learner opens a learning path:
+当学生打开学习路径时：
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* 他们会在左侧面板看到项目列表
+* 已完成的项目会标有对勾
+* 未满足前置条件的项目将被锁定
+* 进度会自动跟踪 — 如果学生离开并返回，他们会从上次停止的地方继续
+* 进度条显示整体完成百分比
 
-## SCORM Content
+## SCORM内容
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Chamilo的学习路径工具可以导入**SCORM 1.2**包 — 这是最广泛使用的电子学习标准。上传SCORM ZIP文件，Chamilo将从中创建学习路径，并根据SCORM规范跟踪进度和分数。
 
-To import a SCORM package:
+要导入SCORM包：
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. 在学习路径工具中，打开操作菜单并点击**上传**
+2. 上传ZIP文件
+3. Chamilo会自动解压并创建学习路径
 
-### CMI5 / xAPI packages
+### CMI5 / xAPI包
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+通过**XApi**插件支持CMI5包（基于xAPI的SCORM现代继任者）。一旦管理员启用该插件，您可以导入CMI5包，学生可以从课程中启动它；他们的声明将被转发到配置的学习记录存储（Learning Record Store）。
 
-## Learning Path Settings
+## 学习路径设置
 
-Configure how the learning path behaves:
+配置学习路径的行为方式：
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| 设置项 | 描述 |
+|--------|------|
+| **可见性** | 隐藏或显示学习路径给学生 |
+| **前置条件** | 要求在完成此学习路径之前先完成其他学习路径 |
+| **自动开始** | 当学生进入课程时自动打开此学习路径 |
+| **SCORM累计时间** | 是否跨多个会话累计时间 |
 
-## Linking to the Gradebook
+## 关联到成绩簿
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+您可以将完成学习路径作为一项评估活动纳入成绩簿。这允许学习路径的进度计入学生的课程总成绩以及证书的资格条件。
 
-## Using AI
+## 使用人工智能
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+如果管理员已启用人工智能辅助生成学习路径的功能，您将在操作下拉菜单中找到一个人工智能生成器的选项。尽可能为人工智能提供您学习路径的精确上下文，指定页面数量和每页的大致字数，然后告知是否希望填充测试并发布。几分钟后，您将看到一个基于文本的完整学习路径。
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+编辑文档以使用更多人工智能生成插图，您只需进行少量修订即可与学生分享。
 
-## Tips
+## 小贴士
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **从大纲开始** — 在构建学习路径之前规划您的章节和项目
+* **将章节用作目录** — 将相关项目分组在章节标题下以提高清晰度
+* **为评估设置前置条件** — 要求学生在进行测试前学习内容
+* **混合内容类型** — 结合阅读材料、视频、互动练习和外部资源，创造引人入胜的学习体验
+* **检查学生视图** — 使用学生预览功能，像学生一样体验学习路径
+* **使用SCORM实现互动性** — 如果您有访问SCORM创作工具（如Articulate、iSpring或类似工具）的权限，创建丰富的互动内容并将其导入到Chamilo中

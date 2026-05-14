@@ -1,38 +1,38 @@
-# Video Conferencing
+# 视频会议
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+Chamilo 与视频会议平台集成，允许您直接在课程中进行实时会话。支持的平台包括 **BigBlueButton** 和 **Zoom**。
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> 视频会议功能需由平台管理员进行配置。如果您在课程中看不到视频会议工具，请联系管理员。
 
-## Starting a Video Session
+## 启动视频会话
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. 在课程首页（或侧边栏）中打开 **视频会议** 工具 <img src="/.gitbook/assets/icons/mdi-video.svg" alt="视频" data-size="line">
+2. 点击 **开始会议**（或类似按钮，具体取决于配置的平台）
+3. 一个新的视频会议室将在浏览器的新标签页中打开
 
-## Inviting Learners
+## 邀请学生
 
-Once a meeting is running, enrolled learners can join it by:
+一旦会议开始，已注册的学生可以加入：
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* 在他们的课程首页中点击相同的 **视频会议** 工具
+* 点击您通过公告或消息发送的参与链接
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+如果您的平台使用 BigBlueButton 插件，会议本身将在 BigBlueButton 中运行，其中提供常见的会议功能（音频/视频、屏幕共享、白板、会议期间聊天、分组讨论室）。Chamilo 插件特别增加了以下功能：
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **录音管理** — 如果管理员启用了录音功能，会话期间录制的视频将列在课程内，供学生回放
+* **预加载演示文档** — 为会议附加一个演示文件，以便在会议室打开时自动加载到 BigBlueButton
+* **日历集成** — 安排的会议将显示在课程日程中
+* **课程/小组/全局会议室** — 可以为整个课程设置一个会议室，为小组设置单独的会议室，或为整个平台设置一个会议室
 
-## Zoom Integration
+## 与 Zoom 集成
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+如果您的平台使用 Zoom，会议将通过 Zoom 界面创建和管理。Chamilo 提供集成点，允许直接从课程中启动和加入会议。
 
-## Tips
+## 小贴士
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **提前安排** — 使用日程工具安排视频会话并发送提醒
+* **测试您的设置** — 在会话前检查您的麦克风和摄像头
+* **为缺席学生录制** — 如果启用了录音功能，会话后分享录音链接给未能参加的学生
+* **结合其他工具使用** — 在会话前通过文档工具分享演示文件，并在会话后通过论坛进行讨论

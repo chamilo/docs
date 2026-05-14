@@ -1,11 +1,11 @@
 # CAS
 
-> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
+> **Chamilo 2.x 中的状态。** CAS 配置项（`cas_activate`、`cas_server`、`cas_server_uri`、`cas_port`、`cas_protocol`、`cas_add_user_activate`）作为 Chamilo 1.x 的遗留内容仍然存在于平台设置中，并且 CAS 仍然作为用户表单上的可选身份验证来源显示——但在 Chamilo 2.x 的安全管道中并未接入 CAS 身份验证器。通过 CAS 登录目前**无法开箱即用**。如果您需要在 Chamilo 2.x 上使用单点登录（SSO），请改用 [OAuth2](oauth2.md)（Azure / Keycloak / Generic）或 [LDAP](ldap.md)。
 
-## What CAS would do (1.x behaviour)
+## CAS 的功能（1.x 版本行为）
 
-CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
+CAS（中央认证服务）是一种常用于大学和研究机构的单点登录协议。在 Chamilo 1.x 中，点击“使用 CAS 登录”会将用户重定向到 CAS 服务器，验证返回的票据，并根据 CAS 属性创建或匹配本地账户。
 
-## Migration note
+## 迁移注意事项
 
-If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.
+如果您正在升级一个使用 CAS 的 Chamilo 1.x 门户网站，请计划暂时在 OAuth2 或 LDAP 的基础上重新实现该登录流程，直到 CAS 身份验证器在未来的 2.x 版本中恢复为止。

@@ -1,26 +1,26 @@
-# Branches and Rooms
+# 分支与教室
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamilo 包含一个基于物理位置的基本定位系统，该系统围绕两个概念构建：**分支**和**教室**。
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+一个**分支**代表一个物理地点或校区——例如，一个主办公室、一个区域培训中心或一栋大学建筑。分支可以嵌套（一栋建筑可以包含多个部门，一个城市可以包含多栋建筑）。每个分支可以包含一个或多个**教室**，这些教室代表该分支内的单个教室或实验室空间。
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+此功能目前仍处于初期阶段。目前，它的主要实际用途是允许您将物理位置标记与课程关联起来。
 
-## Assigning a Room to a Course
+## 为课程分配教室
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+在创建课程时，如果管理员已经配置了教室，课程创建表单中将出现一个**默认教室**字段。请选择课程将要进行的教室。
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+此信息仅供参考——它不会影响课程的行为或访问控制。它只是记录课程的物理举办地点，这可以帮助管理员管理教室调度并查看不同课程中教室的占用情况。
 
-If no rooms have been configured on your platform, the field will not appear.
+如果您的平台上尚未配置任何教室，则该字段不会显示。
 
-## What Administrators Can Do
+## 管理员可以做什么
 
-Branch and room management is handled entirely by administrators. They can:
+分支和教室的管理完全由管理员负责。他们可以：
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- 创建并组织分支，形成树状层次结构
+- 向分支添加教室，并可选择性地添加地理位置数据和IP范围
+- 查看分配到每个教室的课程
+- 根据考勤记录查看教室的占用日历
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+如果您需要创建教室或将您的课程移动到不同的教室，请联系您的平台管理员。

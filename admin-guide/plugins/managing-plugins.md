@@ -1,46 +1,46 @@
-# Managing Plugins
+# 管理插件
 
-## Accessing the Plugin Manager
+## 访问插件管理器
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![插件管理器显示可用插件列表，包含激活开关和配置选项](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+从管理面板中，点击**管理插件**查看可用插件列表。
 
-## Plugin States
+## 插件状态
 
-Each plugin has one of two states:
+每个插件有以下两种状态之一：
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **已激活** — 插件已启用，其功能在平台上可用
+* **未激活** — 插件已安装但被禁用
 
-## Activating a Plugin
+## 激活插件
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. 在列表中找到插件
+2. 点击**安装**，然后点击**启用**或切换到开启状态
+3. 配置插件设置（如果适用，找到**配置**按钮）
+4. 保存
+5. 如果在README中推荐，在特定的**区域**中启用它
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+一些插件会为课程添加工具、为平台添加新页面或为现有功能增加额外功能。
 
-## Configuring a Plugin
+## 配置插件
 
-Many plugins have configuration options. After activating a plugin:
+许多插件具有配置选项。激活插件后：
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. 点击插件旁边的**配置**按钮
+2. 填写所需的配置（API密钥、URL、选项等）
+3. 保存
 
-## Deactivating a Plugin
+## 停用插件
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. 在列表中找到插件
+2. 点击**禁用**或切换到关闭状态
+3. 插件的功能会立即从平台上移除，但插件仍然安装并保留其配置，直到您**卸载**它
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+禁用插件不会删除其数据。如果您稍后重新启用它，数据仍然可用。
 
-## Tips
+## 小贴士
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **仅激活您需要的插件** — 每个激活的插件都会增加一些开销。保持未使用的插件处于停用状态。
+* **在生产环境前测试** — 首先在测试环境中激活新插件
+* **检查兼容性** — 在升级Chamilo后，验证所有激活的插件是否仍然正常工作
