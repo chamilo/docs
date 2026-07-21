@@ -19,12 +19,19 @@ declare(strict_types=1);
  *   --fix-wrappers Scan all already-translated files and remove any leading/trailing
  *                  "---" wrapper lines that GitBook rejects. No API calls are made.
  *                  Combine with --dry-run to preview what would be changed.
+ *   --commit      After translating, for each language that produced output, check out
+ *                 its 2.x-<lang> branch, rsync the translated files in, and commit locally.
+ *                 Requires a clean working tree before it starts (nothing is stashed for
+ *                 you). Never pushes — review each branch and push manually when ready.
+ *                 A language with no matching branch, or whose translation produced no
+ *                 file changes, is skipped and reported, not treated as an error.
  *
  * Language codes (same as Chamilo .po convention): fr_FR, es, de, pt_BR, etc.
  * If no language codes are given, the script looks for existing 2.x-?? branches.
  *
  * Output:  translated/<lang_code>/ (mirrors the source tree)
  * Apply:   git checkout 2.x-fr && rsync -av translated/fr_FR/ ./ && git add -A
+ *          (done automatically per language when --commit is passed)
  *
  * Requires: config.php in the same directory (copy config.dist.php and fill in your key).
  */
@@ -41,10 +48,11 @@ if (!is_file($configFile)) {
 }
 require_once $configFile;
 
-$apiKey  = $translationAPIKey      ?? '';
-$apiUrl  = $translationAPIEndpoint ?? 'https://api.x.ai/v1/chat/completions';
+$apiKey   = $translationAPIKey      ?? '';
+$apiUrl   = $translationAPIEndpoint ?? 'https://api.x.ai/v1/chat/completions';
 //$model   = $translationModel       ?? 'grok-3';
-$model   = $translationModel       ?? 'grok-4-1-fast-non-reasoning';
+$model    = $translationModel       ?? 'grok-4-1-fast-non-reasoning';
+$repoRoot = dirname(__DIR__);
 
 // Target size (bytes) for each API request chunk.
 // Pages are split at heading boundaries so no line or section is ever broken.
@@ -64,6 +72,7 @@ $force        = false;
 $fromTag      = null;
 $singleFile   = null;
 $fixWrappers  = false;
+$commit       = false;
 $langCodes    = [];
 
 for ($i = 0, $n = count($args); $i < $n; $i++) {
@@ -74,6 +83,7 @@ for ($i = 0, $n = count($args); $i < $n; $i++) {
         case '--from':         $fromTag     = $args[++$i] ?? null;   break;
         case '--single-file':  $singleFile  = $args[++$i] ?? null;   break;
         case '--fix-wrappers': $fixWrappers = true;                  break;
+        case '--commit':       $commit      = true;                  break;
         default:               $langCodes[] = $args[$i];             break;
     }
 }
@@ -92,6 +102,24 @@ function run(string $cmd): array
 {
     exec($cmd, $output, $code);
     return ['lines' => $output, 'code' => $code];
+}
+
+/**
+ * Derive the translation branch name for a language code (e.g. "fr_FR" -> "2.x-fr").
+ */
+function branchForLang(string $lang): string
+{
+    return '2.x-' . strtolower(explode('_', $lang)[0]);
+}
+
+/**
+ * Run a git command relative to the repo root, returning whether it exited 0.
+ * Output lines are captured into $output by reference for callers that need them.
+ */
+function gitOk(string $repoRoot, string $cmd, ?array &$output = null): bool
+{
+    exec('git -C ' . escapeshellarg($repoRoot) . ' ' . $cmd . ' 2>&1', $output, $code);
+    return $code === 0;
 }
 
 /**
@@ -583,6 +611,29 @@ if ($fixWrappers) {
     exit(0);
 }
 
+// ── --commit preflight: fail fast, before spending any API calls ─────────────
+
+$originalBranch = null;
+
+if ($commit && !$dryRun) {
+    if (!gitOk($repoRoot, 'diff --quiet') || !gitOk($repoRoot, 'diff --cached --quiet')) {
+        eprintln('Error: uncommitted changes present. Commit or stash them before using --commit.');
+        exit(1);
+    }
+
+    $branchOutput = [];
+    if (!gitOk($repoRoot, 'symbolic-ref --short HEAD', $branchOutput) || empty($branchOutput)) {
+        eprintln('Error: could not determine the current branch (detached HEAD?). --commit requires a named branch to return to.');
+        exit(1);
+    }
+    $originalBranch = trim($branchOutput[0]);
+
+    if (!preg_match('/^\d+\.x$/', $originalBranch)) {
+        eprintln("Error: --commit must be run from the English source branch (e.g. 2.x), not '{$originalBranch}'.");
+        exit(1);
+    }
+}
+
 // ── Detect languages ──────────────────────────────────────────────────────────
 
 if (empty($langCodes)) {
@@ -614,8 +665,6 @@ if (empty($langCodes)) {
 }
 
 // ── Collect files to translate ────────────────────────────────────────────────
-
-$repoRoot = dirname(__DIR__);
 
 if ($fromTag !== null) {
     $res   = run("git -C " . escapeshellarg($repoRoot) . " diff " . escapeshellarg($fromTag) . "..HEAD --name-only --diff-filter=ACMR -- '*.md'");
@@ -746,6 +795,79 @@ foreach ($langCodes as $lang) {
     }
 }
 
+// ── Commit translations to their branches (--commit) ──────────────────────────
+
+// commitReport[lang] = ['status' => 'committed'|'no-changes'|'no-branch'|'error', 'detail' => string]
+$commitReport = [];
+
+if ($commit && !$dryRun) {
+    eprintln('');
+    eprintln(str_repeat('─', 60));
+    eprintln('Committing translations (--commit)');
+    eprintln(str_repeat('─', 60));
+
+    foreach ($langCodes as $lang) {
+        $lang = trim($lang);
+
+        if (empty($report[$lang]['ok'])) {
+            continue; // nothing was translated for this language; nothing to commit
+        }
+
+        $branch = branchForLang($lang);
+        $outDir = 'translated/' . $lang;
+
+        if (!gitOk($repoRoot, 'rev-parse --verify ' . escapeshellarg($branch))) {
+            eprintln("  {$lang}: SKIP — branch '{$branch}' does not exist locally.");
+            $commitReport[$lang] = ['status' => 'no-branch', 'detail' => $branch];
+            continue;
+        }
+
+        if (!gitOk($repoRoot, 'checkout ' . escapeshellarg($branch))) {
+            eprintln("  {$lang}: ERROR — could not check out '{$branch}'.");
+            $commitReport[$lang] = ['status' => 'error', 'detail' => "checkout {$branch} failed"];
+            continue;
+        }
+
+        exec('rsync -a ' . escapeshellarg($repoRoot . '/' . $outDir . '/') . ' ' . escapeshellarg($repoRoot . '/'), $_, $rsyncCode);
+        if ($rsyncCode !== 0) {
+            eprintln("  {$lang}: ERROR — rsync from {$outDir}/ failed (exit {$rsyncCode}).");
+            $commitReport[$lang] = ['status' => 'error', 'detail' => 'rsync failed'];
+            continue;
+        }
+
+        if (!gitOk($repoRoot, "add -A -- ':!translated/'")) {
+            eprintln("  {$lang}: ERROR — 'git add' failed.");
+            $commitReport[$lang] = ['status' => 'error', 'detail' => 'git add failed'];
+            continue;
+        }
+
+        if (gitOk($repoRoot, 'diff --cached --quiet')) {
+            eprintln("  {$lang}: no changes after sync — nothing to commit.");
+            $commitReport[$lang] = ['status' => 'no-changes', 'detail' => $branch];
+            continue;
+        }
+
+        $filesChanged = count(run("git -C " . escapeshellarg($repoRoot) . " diff --cached --name-only")['lines']);
+        $langName     = getLanguageName($lang);
+        $subject      = "Documentation: Sync {$langName} translation from {$originalBranch}";
+        $commitMsg    = escapeshellarg($subject);
+
+        if (!gitOk($repoRoot, "commit -m {$commitMsg}")) {
+            eprintln("  {$lang}: ERROR — 'git commit' failed.");
+            $commitReport[$lang] = ['status' => 'error', 'detail' => 'git commit failed'];
+            continue;
+        }
+
+        eprintln("  {$lang}: committed {$filesChanged} file(s) on {$branch} (not pushed).");
+        $commitReport[$lang] = ['status' => 'committed', 'detail' => "{$filesChanged} file(s) on {$branch}"];
+    }
+
+    // Always return to the branch we started from, even if something above failed.
+    if ($originalBranch !== null) {
+        gitOk($repoRoot, 'checkout ' . escapeshellarg($originalBranch));
+    }
+}
+
 // ── Final report ──────────────────────────────────────────────────────────────
 
 echo PHP_EOL;
@@ -787,10 +909,26 @@ foreach ($report as $lang => $data) {
 
     if (!$dryRun && $okCount > 0) {
         $outDir = 'translated/' . $lang;
-        $branch = '2.x-' . strtolower(explode('_', $lang)[0]);
+        $branch = branchForLang($lang);
         echo PHP_EOL . "Output: {$outDir}/" . PHP_EOL;
-        echo "Apply:  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'" . PHP_EOL;
+
+        if (isset($commitReport[$lang])) {
+            $c = $commitReport[$lang];
+            echo match ($c['status']) {
+                'committed'  => "Committed: {$c['detail']} (not pushed — review and push when ready)",
+                'no-changes' => "Committed: nothing to do — synced content was already up to date on {$c['detail']}",
+                'no-branch'  => "Not committed: branch '{$c['detail']}' does not exist locally.",
+                'error'      => "Not committed: {$c['detail']}. Apply manually:\n"
+                              . "  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'",
+            } . PHP_EOL;
+        } else {
+            echo "Apply:  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'" . PHP_EOL;
+        }
     }
+}
+
+if ($commit && !$dryRun) {
+    echo PHP_EOL . "(--commit was used: local commits only, nothing was pushed to any remote.)" . PHP_EOL;
 }
 
 echo PHP_EOL . str_repeat('═', 60) . PHP_EOL;
