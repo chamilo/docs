@@ -32,6 +32,10 @@ The admin dashboard is organized into functional blocks. Each block groups relat
 
 * **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
 
+### Security
+
+* **Activities audit**, **Login attempts**, **Simple IDS**, **Password strength checker**, **File integrity** — Security monitoring and auditing tools; see the [Security](../security/README.md) chapter for details
+
 ### Plugins
 
 * **Manage plugins** — Install, activate, configure, and deactivate platform plugins

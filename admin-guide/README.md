@@ -10,6 +10,7 @@ As a Chamilo administrator, you manage:
 * **Users** — Create, import, and manage user accounts, roles, and permissions
 * **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
 * **Platform settings** — Configure portal behavior, security, performance, and feature availability
+* **Security** — Monitor login attempts, review flagged intrusion attempts, check password strength, and verify file integrity
 * **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
 * **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
 * **Branding** — Customize the look and feel of the platform with themes and visual settings
@@ -23,12 +24,13 @@ As a Chamilo administrator, you manage:
 4. **Courses** — Managing courses, categories, and import/export
 5. **Sessions** — Organizing time-bound training cohorts
 6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+7. **Security** — Security monitoring and auditing tools
+8. **Authentication** — Setting up external authentication providers
+9. **Integrations** — Connecting third-party services
+10. **Plugins** — Managing platform extensions
+11. **Multi-URL** — Running multiple portals from a single installation
+12. **Maintenance** — Backups, system status, and cleanup
+13. **Branding** — Customizing the platform appearance
 
 ## Accessing the Administration Panel
 

@@ -48,6 +48,8 @@ Allows all users to add tickets not only the administrators.
 
 Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
 
+> This setting is mandatory for non-admin users: without a role mapping defined here, only administrators can access support tickets. To give any other role access to a ticket project, add its role ID to this setting's permissions for that project.
+
 ### `ticket_send_warning_to_all_admins`
 
 **Send ticket warning messages to administrators**

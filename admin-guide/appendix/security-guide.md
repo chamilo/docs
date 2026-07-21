@@ -2,6 +2,8 @@
 
 This guide covers security best practices for running a Chamilo 2.0 platform in production. Security is a shared responsibility between the platform software, your server configuration, and ongoing operational practices.
 
+For the built-in monitoring and auditing tools referenced throughout this guide (login attempt logs, intrusion detection, password strength scans, and file integrity checks), see the [Security](../security/README.md) chapter.
+
 ## Keep Chamilo Updated
 
 The most important security practice is keeping your Chamilo installation up to date.
@@ -52,6 +54,7 @@ Configure strong password requirements in [Security Settings](../platform-settin
 
 * Set **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) to a small value (for example 5).
 * Enable **CAPTCHA** on the login page. CAPTCHA is on/off — it is not switched on automatically after N failed logins. Pair it with **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) to lock out an account that keeps failing the CAPTCHA.
+* Review the [Login Attempts](../security/login-attempts.md) report periodically to spot brute-force patterns, and the [Simple IDS](../security/simple-ids.md) report for other flagged requests (XSS attempts, path traversal, and similar).
 
 ### Server Level
 
@@ -150,6 +153,7 @@ See [Backups](../maintenance/backups.md) for detailed instructions.
 * Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
 * Configure alerts for repeated authentication failures.
 * Periodically review user accounts for unauthorized or dormant accounts.
+* Enable [File Integrity](../security/file-integrity.md) checks (Chamilo 2.1+) to be notified when installed files change unexpectedly, and run the [Password Strength Checker](../security/password-strength-checker.md) periodically, especially after bulk user imports.
 
 ## Checklist
 
@@ -167,5 +171,6 @@ Use this checklist when deploying or auditing a Chamilo installation:
 - [ ] Session cookie flags set (secure, httponly, samesite)
 - [ ] Database user has minimal privileges
 - [ ] Automated backups scheduled and tested
+- [ ] File integrity checks enabled and baselined (Chamilo 2.1+)
 - [ ] Log monitoring in place
 - [ ] Chamilo version is current
