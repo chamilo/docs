@@ -13,7 +13,7 @@ The survey tool lets you create questionnaires to collect feedback from your lea
    * **Start date** — From when this survey will be open to participation
    * **End date** — Until when this survey will be open to participation
    * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
+   * **Results visibility** — Who can see the results (only tutor, tutor and students, everyone)
    * **Introduction** — A message shown to learners before they start the survey
    * **Thank you message** — A message shown after submission
 4. Save

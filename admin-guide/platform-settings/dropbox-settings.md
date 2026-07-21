@@ -50,17 +50,17 @@ Allow users to send documents to other users (peer 2 peer). Users might use this
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox: hide course tutor**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+Hide the session course tutor in Dropbox when a document is sent by the tutor to students
 
 *Default: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Hide general tutor in Dropbox**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+Hide the general tutor name in the Dropbox tool when the general tutor uploaded the file
 
 *Default: `false`*
 

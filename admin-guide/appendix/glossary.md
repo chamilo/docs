@@ -8,7 +8,7 @@ Key terms used in Chamilo 2.0 administration.
 |------|------------|
 | **Access URL** | In a multi-URL setup, each access URL is a separate virtual portal sharing the same Chamilo installation and database. Each URL can have its own branding, users, courses, and settings. |
 | **Course** | The fundamental content container in Chamilo. A course holds learning materials, exercises, forums, and other tools. Courses can exist independently or be assigned to sessions. |
-| **Session** | A time-bound instance of one or more courses. Sessions allow the same course content to be delivered to different groups of learners with separate tracking and independent coaches. |
+| **Session** | A time-bound instance of one or more courses. Sessions allow the same course content to be delivered to different groups of learners with separate tracking and independent tutors. |
 | **Learning path** | A structured sequence of content items (documents, exercises, links, SCORM modules) that guides learners through material in a defined order. |
 | **Gradebook** | An aggregation tool that combines scores from exercises, assignments, and other activities into a weighted final grade for a course. |
 | **Skill** | A competency or badge that can be awarded to learners upon completing specific courses, exercises, or achieving gradebook thresholds. |
@@ -26,7 +26,7 @@ Key terms used in Chamilo 2.0 administration.
 | **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
 | **Portal administrator** | Full access to all platform administration features. |
 | **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Coach/Tutor** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. All coaches references should be renamed to tutors in the long run. |
+| **Tutor** | A session-level role. Session tutors oversee all courses in a session; course tutors manage a specific course within a session. Called "coach" in Chamilo versions before 2.1. |
 
 ## Standards and Protocols
 

@@ -18,7 +18,7 @@ Users can chat with each other
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**Restrict course chat to tutors**
 
 Only allow students to talk to the tutors in the course (not other students).
 

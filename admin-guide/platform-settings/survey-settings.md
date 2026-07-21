@@ -10,9 +10,9 @@ Access these settings under **Administration > Configuration settings > Surveys*
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Extend rights for tutors on surveys**
 
-Activate this option will allow the coachs to create and edit surveys
+Enable this option to allow tutors to create and edit surveys
 
 *Default: `true`*
 
@@ -96,9 +96,9 @@ The survey duplication feature is oriented towards teachers and is meant to ask 
 
 **Survey e-mail sender (no-reply)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+Should survey invitations use the tutor e-mail address or the no-reply address defined in the main configuration section?
 
-*Default: `coach`*
+*Default: `coach`* (the "Course tutor email sender" choice — the stored value is unchanged from earlier Chamilo versions, but the option is labeled "tutor" in the interface)
 
 
 ### `survey_mark_question_as_required`

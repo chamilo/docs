@@ -18,9 +18,9 @@ When enabled, global announcements can be associated with careers and promotions
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**Allow tutors to always edit announcements**
 
-Allow coaches to always edit announcements inside active or past sessions.
+Allow tutors to always edit announcements inside active or past sessions.
 
 *Default: `false`*
 

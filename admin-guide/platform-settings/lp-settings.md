@@ -348,7 +348,7 @@ Make tests marked as 'invisible' in the tests tool appear when they are included
 
 **Display link to learning path on course home when invisible**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+If a learning path is set to invisible but the teacher/tutor decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
 
 *Default: `false`*
 

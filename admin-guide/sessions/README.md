@@ -18,7 +18,7 @@ This architecture means:
 * Teachers create content once in the course
 * Administrators create sessions to deliver that content to different cohorts
 * Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* The base course content is shared, but session tutors can customize certain elements
 
 ## When to Use Sessions
 
@@ -27,4 +27,4 @@ Use sessions when:
 * You deliver the same training multiple times (e.g., monthly onboarding sessions)
 * You have cohort-based programs (e.g., semester-based classes)
 * You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* You want different tutors to manage different editions of the same course

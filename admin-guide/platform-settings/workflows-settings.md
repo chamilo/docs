@@ -64,9 +64,9 @@ Avoid being too personal with users by using a 'bot' account to send e-mails to 
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Disable the ability to edit course tutors**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+When disabled, administrators do not have a link to quickly assign tutors to session courses on the course editing page.
 
 *Default: `false`*
 

@@ -10,7 +10,7 @@ These roles control access to platform-wide features:
 |------|------------|
 | **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
 | **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
+| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign tutors. Cannot access general platform settings. |
 | **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
 | **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
 | **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
@@ -35,7 +35,7 @@ Within a session, additional roles exist:
 | **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
 | **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+Note: This role was called "coach" in Chamilo versions before 2.1. As of Chamilo 2.1, "coach" has been replaced by "tutor" everywhere in the platform's interface and documentation — a tutor is a person who helps learners through a course, not a personal coach. The underlying setting names in `Configuration settings` still contain "coach" for backward compatibility (for example `add_users_by_coach`), but their labels now read "tutor".
 
 ## Assigning Roles
 
@@ -47,7 +47,7 @@ Higher-privileged roles inherit the capabilities of lower-privileged roles:
 
 * An administrator can do everything a teacher can do
 * A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* Session-level roles (tutor) provide additional capabilities only within their assigned session
 
 ## Tips
 

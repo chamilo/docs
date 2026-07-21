@@ -10,4 +10,4 @@ Chamilo tracks learner activity throughout the platform, giving you detailed ins
 
 From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Teachers see reporting data for courses they teach. Session tutors see data across all courses within their session.

@@ -38,9 +38,9 @@ Sessions introduce additional roles:
 | Role | Description |
 |------|-------------|
 | **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **Session tutor** | Oversees all courses within a session (can access tracking across courses) |
+| **Course tutor** | Teaches a specific course within a session |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+If you are assigned as a **course tutor** in a session, you can manage that course's content and track learner progress for the session's learners.
 
 > Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.

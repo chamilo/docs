@@ -23,7 +23,7 @@ As the course teacher, you can:
 * **Monitor discussions** — Review chat history to track learner engagement
 * **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+If the platform setting "Restrict course chat to tutors" is enabled by the administrator, only tutors can chat with learners; otherwise everyone enrolled in the course can participate.
 
 ## Tips for Using Chat Effectively
 

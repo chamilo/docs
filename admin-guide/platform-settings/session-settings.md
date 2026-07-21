@@ -1,6 +1,6 @@
 # Sessions Settings
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+Defaults and behaviour for **Sessions** — session lifecycle, tutor access windows, course visibility within a session, and similar.
 
 Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
@@ -10,9 +10,9 @@ Access these settings under **Administration > Configuration settings > Sessions
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**Allow tutors to register users**
 
-Coach users may create users to the platform and subscribe users to a session.
+Tutors may create users on the platform and subscribe users to a session.
 
 *Default: `false`*
 
@@ -35,9 +35,9 @@ If career diagrams are enabled, users can only see them (and only the diagrams t
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**Allow tutors to edit inside course sessions**
 
-Allow coaches to edit inside course sessions
+Allow tutors to edit inside course sessions
 
 *Default: `true`*
 
@@ -63,7 +63,7 @@ Session administrators can disable user accounts to prevent login while retainin
 
 **Allow tool visibility edition in sessions**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow tutors in session courses to adapt tool visibilities to their needs.
 
 *Default: `true`*
 
@@ -140,7 +140,7 @@ Teachers can create, edit and delete their own sessions.
 
 **Tutors can assign students to sessions**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+When enabled, course tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
 
 *Default: `false`*
 
@@ -249,9 +249,9 @@ Enable or disable automatic session replication. The related cron job must also 
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**Extend rights for tutors**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+Enable this option to give tutors the same permissions as trainers on authoring tools
 
 *Default: `false`*
 
@@ -389,9 +389,9 @@ Disable tab to add classes in session course for non-admins.
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**Sessions by duration always available to tutors**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+Otherwise, session tutors only have access to sessions by duration during the active duration.
 
 *Default: `false`*
 
@@ -436,15 +436,15 @@ Array of relationships between user extra fields and session extra fields, so th
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**Default tutor access days after session**
 
-Default number of days a coach can access his session after the official session end date
+Default number of days a tutor can access a session after the official session end date
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**Default tutor access days before session**
 
-Default number of days a coach can access his session before the official session start date
+Default number of days a tutor can access a session before the official session start date
 
 ### `session_import_settings`
 
@@ -507,9 +507,9 @@ If enabled, this option show all sessions of the user in calendar-based view.
 
 ### `show_session_coach`
 
-**Show session coach**
+**Show session tutor**
 
-Show the global session coach name in session title box in the courses list
+Show the general session tutor name in the session title box in the course list
 
 *Default: `false`*
 
@@ -533,7 +533,7 @@ Show the session description wherever this option is implemented (sessions track
 
 **Show simple session info**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+Add the tutor and dates to the session subtitle in the session list.
 
 *Default: `true`*
 

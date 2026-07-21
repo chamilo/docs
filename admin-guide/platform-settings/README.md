@@ -30,7 +30,7 @@ There are **39 configuration categories** in total, listed alphabetically below.
 ### Course and session lifecycle
 
 * **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
+* **[Sessions](session-settings.md)** (68) — Session lifecycle, tutor access windows, visibility.
 * **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
 * **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
 

@@ -16,9 +16,9 @@ Provide a list of courses and tests' IDs that will show the best score attempt f
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**Allow tutors to comment when reviewing exercises**
 
-Allow coaches to edit feedback during review of exercises
+Allow tutors to edit feedback when reviewing exercises
 
 *Default: `true`*
 
@@ -111,9 +111,9 @@ When using this option, an additional option will appear in the test's configura
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**Block sending test notifications to the general tutor**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+When learners complete a test, notifications are usually sent to tutors, including the general session tutor. Enable this option to omit the general tutor from these notifications.
 
 *Default: `false`*
 
@@ -465,7 +465,7 @@ Add the learner's score to the e-mail notification sent to the teacher after a t
 
 **Show test attempts from all sessions in pending tests report**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+Show test attempts from users in all sessions where the general tutor has access in the pending tests report.
 
 *Default: `false`*
 
