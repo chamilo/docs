@@ -153,7 +153,7 @@ See [Backups](../maintenance/backups.md) for detailed instructions.
 * Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
 * Configure alerts for repeated authentication failures.
 * Periodically review user accounts for unauthorized or dormant accounts.
-* Enable [File Integrity](../security/file-integrity.md) checks (Chamilo 2.1+) to be notified when installed files change unexpectedly, and run the [Password Strength Checker](../security/password-strength-checker.md) periodically, especially after bulk user imports.
+* Schedule [File Integrity](../security/file-integrity.md) checks (Chamilo 2.1+) in cron to be notified when installed files change unexpectedly, and run the [Password Strength Checker](../security/password-strength-checker.md) periodically, especially after bulk user imports.
 
 ## Checklist
 
@@ -171,6 +171,6 @@ Use this checklist when deploying or auditing a Chamilo installation:
 - [ ] Session cookie flags set (secure, httponly, samesite)
 - [ ] Database user has minimal privileges
 - [ ] Automated backups scheduled and tested
-- [ ] File integrity checks enabled and baselined (Chamilo 2.1+)
+- [ ] File integrity baseline established and scan scheduled in cron (Chamilo 2.1+)
 - [ ] Log monitoring in place
 - [ ] Chamilo version is current

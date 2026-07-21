@@ -44,13 +44,12 @@ php bin/console app:file-integrity:baseline
 php bin/console app:file-integrity:snooze
 ```
 
-`app:file-integrity:scan` does nothing if file integrity checking is disabled in settings (see below). If a pause is active, it re-baselines silently instead of alerting, matching the behavior of a scan triggered from the admin page.
+If a pause is active, `app:file-integrity:scan` re-baselines silently instead of alerting, matching the behavior of a scan triggered from the admin page.
 
 ## Settings
 
-Two related settings live in **Configuration settings > Security**:
+One related setting lives in **Configuration settings > Security**:
 
-* **`file_integrity_check_enabled`** — Turns the scheduled/cron check on or off (default: off)
 * **`file_integrity_check_notify_admins`** — A list of e-mail addresses to notify when drift is found; if left empty, every Global Administrator is notified
 
 ## SIEM Integration
@@ -69,6 +68,6 @@ Every scan also writes CEF (Common Event Format) log lines to `var/logs/security
 ## Recommended Use
 
 1. Establish a baseline right after installation, and again after every manual update or deployment
-2. Enable `file_integrity_check_enabled` and schedule `app:file-integrity:scan` in cron (for example, nightly)
-3. Before a planned maintenance window that will change files (an update, a migration), use **Pause for 1 hour** rather than disabling checks outright
+2. Schedule `app:file-integrity:scan` in cron (for example, nightly)
+3. Before a planned maintenance window that will change files (an update, a migration), use **Pause for 1 hour** rather than removing the cron job outright
 4. Feed `var/logs/security/file_integrity.log` into your existing log monitoring or SIEM if you have one
