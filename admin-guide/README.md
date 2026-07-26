@@ -10,10 +10,14 @@ As a Chamilo administrator, you manage:
 * **Users** — Create, import, and manage user accounts, roles, and permissions
 * **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
 * **Platform settings** — Configure portal behavior, security, performance, and feature availability
+* **Analytics** — Platform statistics, learning analytics, and corporate/HR reporting
+* **Skills** — Define competency badges and link them to gradebook results
+* **System** — Server maintenance tools, self-update, storage inspection, and branding
+* **Rooms** — Manage physical sites and bookable training rooms
 * **Security** — Monitor login attempts, review flagged intrusion attempts, check password strength, and verify file integrity
+* **Plugins** — Install, configure, and manage platform extensions
 * **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
 * **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
 * **Maintenance** — Perform backups, monitor system health, and manage storage
 
 ## How this guide is organized
@@ -24,13 +28,19 @@ As a Chamilo administrator, you manage:
 4. **Courses** — Managing courses, categories, and import/export
 5. **Sessions** — Organizing time-bound training cohorts
 6. **Platform Settings** — Configuring every aspect of the platform
-7. **Security** — Security monitoring and auditing tools
-8. **Authentication** — Setting up external authentication providers
-9. **Integrations** — Connecting third-party services
-10. **Plugins** — Managing platform extensions
-11. **Multi-URL** — Running multiple portals from a single installation
-12. **Maintenance** — Backups, system status, and cleanup
-13. **Branding** — Customizing the platform appearance
+7. **Analytics** — Statistics, learning analytics, and corporate/HR reporting
+8. **Skills** — Competency badges and gradebook-driven awards
+9. **System** — Server tools, self-update, storage inspection, and branding
+10. **Rooms** — Branches and bookable training rooms
+11. **Security** — Security monitoring and auditing tools
+12. **Plugins** — Managing platform extensions
+13. **Health Check** — Live configuration checks
+14. **Other Admin Blocks** — Chamilo.org links, version check, support, and news
+15. **Authentication** — Setting up external authentication providers
+16. **Integrations** — Connecting third-party services
+17. **Multi-URL** — Running multiple portals from a single installation
+18. **Performance Tuning** — Optimizing the platform for speed and scale
+19. **Maintenance** — Backups, system status, and cleanup
 
 ## Accessing the Administration Panel
 

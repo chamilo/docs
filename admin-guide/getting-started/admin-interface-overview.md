@@ -12,14 +12,17 @@ The admin dashboard is organized into functional blocks. Each block groups relat
 
 * **User list** — View, search, edit, and manage all users on the platform
 * **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
 * **Classes** — Manage user classes for bulk session enrollment
+
+See the [Users](../users/README.md) chapter for details.
 
 ### Courses
 
 * **Course list** — View and manage all courses on the platform
 * **Create a course** — Create a new course
 * **Course categories** — Organize courses into categories for the catalog
+
+See the [Courses](../courses/README.md) chapter for details.
 
 ### Sessions
 
@@ -28,9 +31,29 @@ The admin dashboard is organized into functional blocks. Each block groups relat
 * **Session categories** — Organize sessions into categories
 * **Careers and promotions** — Manage career paths and promotion workflows
 
+See the [Sessions](../sessions/README.md) chapter for details.
+
 ### Platform Settings
 
 * **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+
+See the [Platform Settings](../platform-settings/README.md) chapter for details.
+
+### Analytics
+
+* **Global statistics**, **Reports catalog**, **Learning analytics**, **Quarterly report**, **Teachers time report**, **Corporate report**, **Special exports**, **Tickets** — Platform statistics and reporting; see the [Analytics](../analytics/README.md) chapter for details
+
+### Skills
+
+* **Skills wheel**, **Skills import**, **Manage skills**, **Manage skills levels**, **Skills ranking**, **Skills and assessments** — Competency badges linked to gradebook results; see the [Skills](../skills/README.md) chapter for details
+
+### System
+
+* **Clean temporary files**, **System status**, **System update**, **Colors**, **File info**, **Resources by type**, **List icons** — Server maintenance, self-update, and branding; see the [System](../system/README.md) chapter for details
+
+### Rooms
+
+* **Branches**, **Rooms**, **Room availability finder** — Physical sites and bookable training rooms; see the [Rooms](../rooms/README.md) chapter for details
 
 ### Security
 
@@ -38,17 +61,15 @@ The admin dashboard is organized into functional blocks. Each block groups relat
 
 ### Plugins
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* Shortcuts to installed plugins that declare an admin menu page, plus general plugin management — see the [Plugins](../plugins/README.md) chapter for details
 
-### System
+### Health Check
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* Live pass/fail checks (mail settings, admin URL assignment, file permissions) — see the [Health Check](../health-check.md) page for details
 
-### Branding
+### Other Blocks
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **Chamilo.org**, **Version check**, **Professional support**, **News from Chamilo** — links and status panels pulling content from the Chamilo project; see [Other Admin Blocks](../other-admin-blocks/README.md) for details
 
 Each section is covered in detail in its corresponding chapter of this guide.
 
