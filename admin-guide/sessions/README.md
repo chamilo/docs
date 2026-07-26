@@ -2,6 +2,8 @@
 
 Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
 
+![The Sessions management block on the administration dashboard, listing Training sessions list, Add a training session, session categories, import/export tools, careers and promotions, and resource sequencing, among others](/.gitbook/assets/admin-sessions-block.png)
+
 * **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
 * **[Session Categories](session-categories.md)** — Organize sessions into categories
 * **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
