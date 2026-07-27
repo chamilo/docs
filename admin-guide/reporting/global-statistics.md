@@ -4,7 +4,7 @@ Global Statistics is the platform statistics hub — a menu of platform-wide rep
 
 ## Accessing Global Statistics
 
-From the administration panel, click **Analytics > Global statistics**.
+From the administration panel, click **Reporting > Global statistics**.
 
 ## How It's Organized
 

@@ -2,7 +2,7 @@
 
 Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
 
-This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, password strength scans, and file integrity checks), see [Security](../security/README.md).
+This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, and password strength scans), see [Security](../security/README.md).
 
 Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 

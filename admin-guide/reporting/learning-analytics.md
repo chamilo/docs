@@ -1,10 +1,10 @@
 # Learning Analytics
 
-Learning Analytics is Chamilo's classic tracking dashboard (historically known as "MySpace" or "Reporting"). It's the main drill-down tool for following learner, course, and session performance.
+Learning Analytics is Chamilo's classic tracking dashboard (historically known as "MySpace"). It's the main drill-down tool for following learner, course, and session performance.
 
 ## Accessing Learning Analytics
 
-From the administration panel, click **Analytics > Learning analytics**.
+From the administration panel, click **Reporting > Learning analytics**.
 
 ## What It Shows
 

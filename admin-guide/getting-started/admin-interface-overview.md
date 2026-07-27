@@ -37,9 +37,9 @@ See the [Sessions](../sessions/README.md) chapter for details.
 
 * **Configuration settings**, **Languages**, **Portal news**, **Global agenda**, **Pages**, **Extra fields**, **Mail templates**, **Contact form categories**, and more — see the [Platform](../platform/README.md) chapter for details. The "Configuration settings" link is the entry point to the separate [Platform Settings](../platform-settings/README.md) chapter.
 
-### Analytics
+### Reporting
 
-* **Global statistics**, **Reports catalog**, **Learning analytics**, **Quarterly report**, **Teachers time report**, **Corporate report**, **Special exports**, **Tickets** — Platform statistics and reporting; see the [Analytics](../analytics/README.md) chapter for details
+* **Global statistics**, **Reports catalog**, **Learning analytics**, **Quarterly report**, **Teachers time report**, **Corporate report**, **Special exports**, **Tickets** — Platform statistics and reporting; see the [Reporting](../reporting/README.md) chapter for details
 
 ### Skills
 
@@ -55,7 +55,7 @@ See the [Sessions](../sessions/README.md) chapter for details.
 
 ### Security
 
-* **Activities audit**, **Login attempts**, **Simple IDS**, **Password strength checker**, **File integrity** — Security monitoring and auditing tools; see the [Security](../security/README.md) chapter for details
+* **Activities audit**, **Login attempts**, **Simple IDS**, **Password strength checker** — Security monitoring and auditing tools; see the [Security](../security/README.md) chapter for details
 
 ### Plugins
 

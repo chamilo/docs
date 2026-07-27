@@ -1,10 +1,10 @@
 # Tickets
 
-The **Tickets** entry in the Analytics block is a shortcut into Chamilo's support ticket system — it opens directly on the ticket list, not a settings page.
+The **Tickets** entry in the Reporting block is a shortcut into Chamilo's support ticket system — it opens directly on the ticket list, not a settings page.
 
 ## Accessing Tickets
 
-From the administration panel, click **Analytics > Tickets**.
+From the administration panel, click **Reporting > Tickets**.
 
 ## What It Shows
 

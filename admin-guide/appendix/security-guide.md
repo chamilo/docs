@@ -2,7 +2,7 @@
 
 This guide covers security best practices for running a Chamilo 2.0 platform in production. Security is a shared responsibility between the platform software, your server configuration, and ongoing operational practices.
 
-For the built-in monitoring and auditing tools referenced throughout this guide (login attempt logs, intrusion detection, password strength scans, and file integrity checks), see the [Security](../security/README.md) chapter.
+For the built-in monitoring and auditing tools referenced throughout this guide (login attempt logs, intrusion detection, and password strength scans), see the [Security](../security/README.md) chapter.
 
 ## Keep Chamilo Updated
 
@@ -153,7 +153,7 @@ See [Backups](../maintenance/backups.md) for detailed instructions.
 * Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
 * Configure alerts for repeated authentication failures.
 * Periodically review user accounts for unauthorized or dormant accounts.
-* Schedule [File Integrity](../security/file-integrity.md) checks (Chamilo 2.1+) in cron to be notified when installed files change unexpectedly, and run the [Password Strength Checker](../security/password-strength-checker.md) periodically, especially after bulk user imports.
+* Run the [Password Strength Checker](../security/password-strength-checker.md) periodically, especially after bulk user imports.
 
 ## Checklist
 
@@ -171,6 +171,5 @@ Use this checklist when deploying or auditing a Chamilo installation:
 - [ ] Session cookie flags set (secure, httponly, samesite)
 - [ ] Database user has minimal privileges
 - [ ] Automated backups scheduled and tested
-- [ ] File integrity baseline established and scan scheduled in cron (Chamilo 2.1+)
 - [ ] Log monitoring in place
 - [ ] Chamilo version is current

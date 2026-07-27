@@ -4,7 +4,7 @@ The Reports Catalog isn't a report itself — it's a directory of every report r
 
 ## Accessing the Reports Catalog
 
-From the administration panel, click **Analytics > Reports catalog**.
+From the administration panel, click **Reporting > Reports catalog**.
 
 ## What It Shows
 
