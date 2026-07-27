@@ -155,6 +155,7 @@
     * [News from Chamilo](admin-guide/other-admin-blocks/news-from-chamilo.md)
   * [Authentication](admin-guide/authentication/README.md)
     * [OAuth2](admin-guide/authentication/oauth2.md)
+    * [Azure Entra ID](admin-guide/authentication/azure-entra-id.md)
     * [LDAP](admin-guide/authentication/ldap.md)
     * [CAS](admin-guide/authentication/cas.md)
     * [SCIM](admin-guide/authentication/scim.md)

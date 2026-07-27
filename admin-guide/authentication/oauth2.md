@@ -28,25 +28,7 @@ Enable the provider and supply its credentials. All providers share these common
 
 ### Azure AD (Microsoft Entra ID)
 
-```yaml
-authentication:
-  1:
-    oauth2:
-      azure:
-        enabled: true
-        title: "Sign in with Microsoft"
-        client_id: "<application-client-id>"
-        client_secret: "<client-secret>"
-        tenant: "<tenant-id>"
-        url_login: "https://login.microsoftonline.com"
-        path_authorize: "/<tenant-id>/oauth2/v2.0/authorize"
-        path_token: "/<tenant-id>/oauth2/v2.0/token"
-        url_api: "https://graph.microsoft.com"
-        allow_create_new_users: true
-        allow_update_user_info: true
-```
-
-Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
+Azure has its own dedicated page covering app registration, group-based role mapping, certificate authentication, and the account-provisioning sync commands — see [Azure Entra ID](azure-entra-id.md).
 
 ### Keycloak
 
@@ -112,5 +94,4 @@ Log out of Chamilo. The configured provider's button should appear on the login 
 ## Tips
 
 * Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
-* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
-* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.
+* Role assignment defaults to student; use group mapping (Azure) to promote users to teacher or admin roles automatically — see [Azure Entra ID](azure-entra-id.md) for details on that and on matching incoming users to existing accounts.
