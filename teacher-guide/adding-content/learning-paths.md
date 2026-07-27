@@ -84,6 +84,46 @@ To import a SCORM package:
 
 CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
 
+## Content Authoring with C-Studio
+
+*Available if your administrator has enabled the C-Studio plugin.*
+
+C-Studio adds a built-in, drag-and-drop visual editor for creating interactive content directly inside a learning path — an alternative to importing a SCORM package when you don't have (or don't want to learn) a separate authoring tool like Articulate or iSpring. You build the content page by page right in Chamilo, and it's stored and tracked like any other learning path item.
+
+### Starting a C-Studio Project
+
+When the plugin is active, the Learning Paths list shows an extra button next to the usual actions menu, marked with a "+" and a "Studio Tools" tooltip:
+
+![The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions menu](/.gitbook/assets/cstudio-lp-button.png)
+
+Click it to start. You'll be asked to create a new project from scratch or import an existing one:
+
+![The C-Studio start screen offering to create a new project or import an existing one](/.gitbook/assets/cstudio-start-screen.png)
+
+This particular screen is currently only available in French, regardless of your platform or course language — a known limitation of the plugin version in use. Give your project a title and it opens straight into the editor.
+
+### The Editor
+
+![The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project panel on the left](/.gitbook/assets/cstudio-editor.png)
+
+The editor is a page-by-page visual builder:
+
+* **Left panel** — your project's pages, with a "+" to add more, and a **Tools** section at the bottom (Clean data, Preview, Colors, Options, Quit)
+* **Center canvas** — the page you're building; click any element to edit it in place
+* **Right panel** — the component palette, dragged onto the canvas
+
+The palette covers basic building blocks (columns, images, audio, titles, text, buttons, cards) as well as several interactive exercise types: **Drag Drop**, **Fill text**, **Hotspot Img**, **Mark Words**, **Find Words**, and **Sort paragraphs**, plus an **iframe** block for embedding external content and a **Quiz** block.
+
+### Language
+
+C-Studio's own interface may default to French the first time you open it, independent of your Chamilo interface language or the course's language. If so, go to **File > UI language** and pick your language — the editor reloads immediately and remembers your choice afterward.
+
+![The File menu open, showing the "UI language" option](/.gitbook/assets/cstudio-file-menu.png)
+
+### Saving and Exporting
+
+Use **File > Save** as you work. **File > Export...** packages your project as a SCORM file you can download, back up, or reuse elsewhere via **Import...**. **File > Quit** returns you to the learning path list, where your C-Studio project now appears as a regular item.
+
 ## Learning Path Settings
 
 Configure how the learning path behaves:
@@ -112,4 +152,4 @@ Edit the documents to generate illustrations with more AI and you only have some
 * **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
 * **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
 * **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo. If your administrator has enabled the C-Studio plugin, you can build similar interactive content directly in Chamilo instead — see [Content Authoring with C-Studio](#content-authoring-with-c-studio) above
