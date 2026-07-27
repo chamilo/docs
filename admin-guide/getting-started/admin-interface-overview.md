@@ -33,11 +33,9 @@ See the [Courses](../courses/README.md) chapter for details.
 
 See the [Sessions](../sessions/README.md) chapter for details.
 
-### Platform Settings
+### Platform
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
-
-See the [Platform Settings](../platform-settings/README.md) chapter for details.
+* **Configuration settings**, **Languages**, **Portal news**, **Global agenda**, **Pages**, **Extra fields**, **Mail templates**, **Contact form categories**, and more — see the [Platform](../platform/README.md) chapter for details. The "Configuration settings" link is the entry point to the separate [Platform Settings](../platform-settings/README.md) chapter.
 
 ### Analytics
 

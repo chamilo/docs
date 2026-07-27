@@ -2,6 +2,8 @@
 
 **LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
 
+This tool is also reachable from the administration dashboard's [Platform](../platform/README.md) block, as **External tools (LTI)**.
+
 ## What LTI Allows
 
 With LTI, you can embed external tools within Chamilo courses. Examples:

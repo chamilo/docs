@@ -2,6 +2,8 @@
 
 Access URLs allow a single Chamilo installation to serve multiple separate portals.
 
+This tool is also reachable from the administration dashboard's [Platform](../platform/README.md) block, as **Configure multiple access URL**.
+
 
 ## Use Cases
 
