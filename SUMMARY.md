@@ -179,6 +179,7 @@
     * [Backups](admin-guide/maintenance/backups.md)
     * [System Status](admin-guide/maintenance/system-status.md)
     * [Archive Cleanup](admin-guide/maintenance/archive-cleanup.md)
+  * [MCP](admin-guide/mcp.md)
   * [Appendix](admin-guide/appendix/faq.md)
     * [FAQ](admin-guide/appendix/faq.md)
     * [Security Guide](admin-guide/appendix/security-guide.md)
