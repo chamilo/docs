@@ -29,7 +29,7 @@ External login buttons appear on the login page after the cache is refreshed.
 * **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, and generic OAuth2 providers
 * **[Azure Entra ID](azure-entra-id.md)** — Detailed Azure/Entra ID setup: app registration, group-based role mapping, certificate authentication, and user/group sync commands
 * **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 2.x)
+* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 3.x)
 * **[SCIM](scim.md)** — Automated user provisioning from external identity providers
 * **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
 

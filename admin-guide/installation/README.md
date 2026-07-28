@@ -1,8 +1,8 @@
 # Installation
 
-This section covers everything you need to install and configure Chamilo 2.0 on your server.
+This section covers everything you need to install and configure Chamilo 3.0 on your server.
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
+Chamilo 3.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
 
 ## Installation Steps
 

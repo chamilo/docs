@@ -8,11 +8,11 @@ Click **My courses** in the sidebar, then click on the course you want to open. 
 
 **Can my learners access the course from a mobile phone?**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Yes. Chamilo 3.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
 
 **What browsers are supported?**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 3.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
 
 ## Content and Courses
 

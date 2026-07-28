@@ -4,7 +4,7 @@ The **Security** block on the administration dashboard groups the platform's bui
 
 ![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, Password strength checker, and File integrity](/.gitbook/assets/admin-security-block.png)
 
-The block was introduced in Chamilo 2.0 with four tools and extended in Chamilo 2.1 with a fifth, **File integrity**.
+The block was introduced in Chamilo 2.0 with four tools and extended in Chamilo 3.0 with a fifth, **File integrity**.
 
 ## Accessing the Security Block
 
@@ -16,7 +16,7 @@ From the administration panel, the **Security** block appears alongside the othe
 * **[Login Attempts](login-attempts.md)** — Review failed and successful login attempts, with charts and a searchable log
 * **[Simple IDS](simple-ids.md)** — See requests flagged by Chamilo's built-in, lightweight intrusion detection system
 * **[Password Strength Checker](password-strength-checker.md)** — Scan active users for passwords that match a list of commonly used passwords
-* **[File Integrity](file-integrity.md)** *(new in Chamilo 2.1)* — Detect unexpected additions, modifications, deletions, or permission changes in the installed files
+* **[File Integrity](file-integrity.md)** *(new in Chamilo 3.0)* — Detect unexpected additions, modifications, deletions, or permission changes in the installed files
 
 ## Who Can Access It
 

@@ -1,6 +1,6 @@
 # Installation Wizard
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Chamilo 3.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
 
 ## Before You Start
 
@@ -25,7 +25,7 @@ If Chamilo detects an existing installation (for an upgrade), it will display th
 
 The wizard checks your server environment:
 
-* **PHP version** is 8.2 or superior
+* **PHP version** is 8.3, 8.4, or 8.5
 * **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
 * **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
 * **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server

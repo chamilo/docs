@@ -81,7 +81,7 @@ If the command completes without errors but the email is not received:
 2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
 3. Check your mail provider's sending logs for bounces or rejections.
 4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 3.0, will be soon).
 
 ## Experimental: Email Queue (Async Delivery)
 

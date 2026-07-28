@@ -1,6 +1,6 @@
 # Tech Stack
 
-The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+The following describes the tech stack for Chamilo 3.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
 
 Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
 
@@ -8,10 +8,10 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
-| PHP | 8.2+ | Runtime |
-| Symfony | 6.4.* | Framework |
-| Doctrine ORM | ^2.16 | Database abstraction |
-| API Platform | ^3.0 | REST API framework |
+| PHP | 8.3 – 8.5 | Runtime |
+| Symfony | 7.4.* | Framework |
+| Doctrine ORM | ^3.3 | Database abstraction |
+| API Platform | ^4.2 | REST API framework |
 | oneup/flysystem-bundle | ~4.0 | File storage abstraction |
 | vich/uploader-bundle | ^2.8 | File upload handling |
 | stof/doctrine-extensions-bundle | ^1.12 | Doctrine extensions (tree, timestampable, sluggable) |
@@ -30,24 +30,23 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | Vue.js | ^3.5 | UI framework |
 | PrimeVue | ^4.5 | Component library |
 | Pinia | ^3.0 | State management |
-| Vue Router | 5.0 | Client-side routing |
-| Vue I18n | 11.3 | Internationalization |
-| Axios | ^1.13 | HTTP client |
+| Vue Router | ^5.1 | Client-side routing |
+| Vue I18n | ^11.4 | Internationalization |
+| Axios | ^1.16 | HTTP client |
 | TinyMCE | ^5.10 | Rich text editor |
 | Chart.js | ^4.5 | Charts and visualizations |
 | FullCalendar | ^6.1 | Calendar component |
 | Uppy | ^4.5 | File upload widget |
-| PrimeFlex | ^4.0 | CSS utility framework |
 
 ## Build Tools
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
 | Composer | ^2.8 | PHP dependency manager |
-| Webpack | ^5.105 | Module bundler |
+| Webpack | ^5.107 | Module bundler |
 | Symfony Webpack Encore | ^5.3 | Webpack wrapper for Symfony |
 | Tailwind CSS | ^3.4 | Utility-first CSS framework |
-| Sass | ^1.98 | CSS preprocessor |
+| Sass | ^1.100 | CSS preprocessor |
 | TypeScript | ^5.9 | Type-safe JavaScript |
 | ESLint | ^10.0 | Linting |
 | Prettier | 3.8 | Code formatting |

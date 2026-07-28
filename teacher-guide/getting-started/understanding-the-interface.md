@@ -1,6 +1,6 @@
 # Understanding the Interface
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+Chamilo 3.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
 
 ## The Top Bar
 
@@ -57,7 +57,7 @@ As a teacher, you will see additional controls:
 
 ## Icon colors
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+This is still experimental and not entirely complete in Chamilo 3.0, but we're trying to use the following rules for all buttons and action icons in the interface:
 
 * **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
 * **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
@@ -67,7 +67,7 @@ This is still experimental and not entirely complete in Chamilo 2.0, but we're t
 
 ## Responsive Design
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+Chamilo 3.0 adapts to different screen sizes. On a mobile device or narrow browser window:
 
 * The sidebar is hidden by default and can be opened by tapping the menu icon
 * Course cards display in a single column instead of a grid

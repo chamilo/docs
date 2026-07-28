@@ -1,6 +1,6 @@
 # Getting Started
 
-This section helps you set up a development environment and understand the Chamilo 2.0 project structure.
+This section helps you set up a development environment and understand the Chamilo 3.0 project structure.
 
 * **[Tech Stack](tech-stack.md)** — All technologies and their versions
 * **[Development Setup](development-setup.md)** — How to get Chamilo running locally

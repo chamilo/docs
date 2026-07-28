@@ -1,6 +1,6 @@
 # AI Configuration
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 3.0 includes AI-powered features that require configuration before they become available to teachers and learners.
 
 ## Supported AI Providers
 

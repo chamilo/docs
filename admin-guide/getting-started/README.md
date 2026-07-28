@@ -1,6 +1,6 @@
 # Getting Started
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+This section introduces the Chamilo 3.0 administration interface and helps you get oriented.
 
 ## Who Is an Administrator?
 

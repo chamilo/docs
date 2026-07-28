@@ -1,6 +1,6 @@
 # Server Requirements
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+Before installing Chamilo 3.0, verify that your server meets the following requirements.
 
 ## Software Requirements
 
@@ -8,7 +8,7 @@ Before installing Chamilo 2.0, verify that your server meets the following requi
 
 | Requirement | Minimum | Recommended |
 |-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| **PHP version** | 8.3 | 8.5 |
 
 ### Required PHP Extensions
 

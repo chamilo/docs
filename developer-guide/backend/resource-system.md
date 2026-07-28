@@ -1,6 +1,6 @@
 # Resource System
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+The resource system is one of the most important architectural concepts in Chamilo 3.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
 
 ## Core Concept
 

@@ -12,7 +12,7 @@ From the administration panel, click **System status** (or **System information*
 
 ### PHP Configuration
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
+* **PHP version** — Chamilo 3.0 supports PHP 8.3, 8.4, and 8.5
 * **Required extensions** — Checks that all necessary PHP extensions are installed
 * **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
 

@@ -1,6 +1,6 @@
 # Configuration
 
-Chamilo 2.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
+Chamilo 3.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
 
 ## Environment Variables (.env)
 
@@ -55,7 +55,7 @@ Chamilo does not define any configuration in `config/packages/prod/` in the soft
 
 ## File Permissions
 
-We made efforts in 2.0+ to ensure that a single directory needed permissions. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
+We made efforts in 2.0+ to ensure that a single directory needed permissions, and this remains true in 3.0. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
 
 Set permissions appropriately under Debian-based systems:
 

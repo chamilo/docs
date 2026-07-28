@@ -4,7 +4,7 @@ Note: On this page, we use 2.0.0 as a strict version number and 2.x to identify 
 
 The upgrade process from 1.11.x to 2.x is described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
 The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
-Although we have made extensive tests on similar migrations, because some of the settings of 1.11.x were not yet supported in 2.0.0, we recommend waiting for version 2.1 before upgrading a 1.11.x system, or to be professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
+Although we have made extensive tests on similar migrations, because some of the settings of 1.11.x were not yet supported in 2.0.0, we recommend waiting for version 3.0 before upgrading a 1.11.x system, or to be professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
 
 ## Upgrading from 1.11.x to 2.x
 
@@ -24,15 +24,15 @@ Upgrading from Chamilo 1.11.x to 2.x is a **major migration**, not a simple upda
 
 | Area | Notes |
 |------|-------|
-| **Custom plugins** | 1.11.x plugins are not compatible with 2.x. They must be rewritten or replaced, which has been partially done in 2.0 and should be complete by 2.1 for official plugins. |
+| **Custom plugins** | 1.11.x plugins are not compatible with 2.x. They must be rewritten or replaced, which has been partially done in 2.0 and should be complete by 3.0 for official plugins. |
 | **Custom themes** | 1.11.x themes do not work in 2.x. Recreate your branding using the 2.x theming system. |
 | **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
 | **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
 | **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
 
-## Updating Chamilo 2.0.x
+## Updating Chamilo 3.0.x
 
-Minor updates within the 2.0 branch are more straightforward.
+Minor updates within the 3.0 branch are more straightforward.
 
 ### Update Process
 
@@ -40,13 +40,13 @@ Minor updates within the 2.0 branch are more straightforward.
 
 1. **Back up** the database and files.
 
-2. **Download the latest 2.0.x version** from [chamilo.org](https://chamilo.org/download):
+2. **Download the latest 3.0.x version** from [chamilo.org](https://chamilo.org/download):
 
 3. **Expand locally**
 
 For example (adapt to the downloaded version)
    ```bash
-   unzip chamilo-2.0.1.zip
+   unzip chamilo-3.0.1.zip
    ```
 
 4. **Copy the files over your existing Chamilo installation**
@@ -83,7 +83,7 @@ If you installed Chamilo using Git, you can follow these instructions instead.
 
 2. **Pull the latest code** (or download the new release):
    ```bash
-   git pull origin 2.0
+   git pull origin 3.0
    ```
 
 3. **Update PHP dependencies:**
@@ -125,7 +125,7 @@ For organizations that manage multiple Chamilo instances, consider scripting the
 set -e
 
 # Pull code
-git pull origin 2.0
+git pull origin 3.0
 
 # Dependencies
 composer install --no-dev --optimize-autoloader
@@ -147,4 +147,4 @@ echo "Update complete."
 * **Test on staging first** -- especially for the 1.11.x to 2.0 migration, which involves significant data transformation.
 * **Schedule upgrades during maintenance windows** when users are not actively using the platform.
 * **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
-* **Web updates** are not yet provided in Chamilo 2.0, but this is an ongoing project we hope to be releasing soon.
+* **Web updates** are not yet provided in Chamilo 3.0, but this is an ongoing project we hope to be releasing soon.

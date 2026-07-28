@@ -1,6 +1,6 @@
 # Administration Guide
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Welcome to the Chamilo 3.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
 
 ## What you can do as an Administrator
 

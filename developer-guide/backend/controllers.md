@@ -1,6 +1,6 @@
 # Controllers
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 3.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
 
 ## Controller Types
 
@@ -45,7 +45,7 @@ For read/write operations that don't need a dedicated HTTP controller — i.e. w
 
 ## API Platform State Providers & Processors
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+Not every API endpoint is backed by a controller. API Platform 4 splits the work between two interfaces:
 
 * **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
 * **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.

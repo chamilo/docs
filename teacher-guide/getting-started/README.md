@@ -1,6 +1,6 @@
 # Getting Started
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+This section helps you get oriented with Chamilo 3.0. You will learn how to log in, navigate the main interface, and configure your profile.
 
 ## Logging In
 

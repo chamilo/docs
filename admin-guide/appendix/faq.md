@@ -1,14 +1,14 @@
 # FAQ
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Frequently asked questions for Chamilo 3.0 administrators.
 
 ## Installation and Setup
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**Q: What PHP version does Chamilo 3.0 require?**
+A: PHP 8.3, 8.4, or 8.5. See [Server Requirements](../installation/server-requirements.md).
 
 **Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
+A: It is possible but not recommended. Chamilo 3.0 requires Composer, Node.js in development mode, and command
 -line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
 
 **Q: Which database should I use?**
@@ -80,8 +80,8 @@ A: As an administrator, edit the user account directly and set a new password. G
 
 ## Upgrades
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
+**Q: Can I upgrade directly from Chamilo 2.x to 3.0?**
 A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**Q: Will my plugins work after upgrading to 3.0?**
+A: No. Plugins from 2.x are not compatible with 3.0 and must be rewritten or replaced with equivalent 3.0 functionality.

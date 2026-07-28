@@ -1,6 +1,6 @@
 # Glossary
 
-Key terms used in Chamilo 2.0 administration.
+Key terms used in Chamilo 3.0 administration.
 
 ## Platform Concepts
 
@@ -26,7 +26,7 @@ Key terms used in Chamilo 2.0 administration.
 | **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
 | **Portal administrator** | Full access to all platform administration features. |
 | **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Tutor** | A session-level role. Session tutors oversee all courses in a session; course tutors manage a specific course within a session. Called "coach" in Chamilo versions before 2.1. |
+| **Tutor** | A session-level role. Session tutors oversee all courses in a session; course tutors manage a specific course within a session. Called "coach" in Chamilo versions before 3.0. |
 
 ## Standards and Protocols
 
@@ -46,7 +46,7 @@ Key terms used in Chamilo 2.0 administration.
 
 | Term | Definition |
 |------|------------|
-| **Symfony** | The PHP framework on which Chamilo 2.0 is built. Symfony provides routing, dependency injection, ORM (Doctrine), templating (Twig), and other infrastructure. |
+| **Symfony** | The PHP framework on which Chamilo 3.0 is built. Symfony provides routing, dependency injection, ORM (Doctrine), templating (Twig), and other infrastructure. |
 | **Doctrine** | The object-relational mapper (ORM) used by Chamilo to interact with the database. Doctrine maps PHP objects to database tables. |
 | **Twig** | The template engine used by Symfony and Chamilo for rendering HTML. |
 | **Flysystem** | A PHP filesystem abstraction layer. Chamilo uses Flysystem to support local storage, Amazon S3, Azure Blob, and Google Cloud Storage interchangeably. |

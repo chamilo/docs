@@ -1,6 +1,6 @@
 # Entities and Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 3.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
 
 ## Entity Organization
 

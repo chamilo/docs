@@ -9,7 +9,7 @@ Chamilo's styles are layered in this order:
 3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
 4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+PrimeFlex has been removed from `package.json` — Tailwind covers all utility needs.
 
 ## Main Stylesheet (`assets/css/app.scss`)
 

@@ -35,7 +35,7 @@ Within a session, additional roles exist:
 | **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
 | **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
 
-Note: This role was called "coach" in Chamilo versions before 2.1. As of Chamilo 2.1, "coach" has been replaced by "tutor" everywhere in the platform's interface and documentation — a tutor is a person who helps learners through a course, not a personal coach. The underlying setting names in `Configuration settings` still contain "coach" for backward compatibility (for example `add_users_by_coach`), but their labels now read "tutor".
+Note: This role was called "coach" in Chamilo versions before 3.0. As of Chamilo 3.0, "coach" has been replaced by "tutor" everywhere in the platform's interface and documentation — a tutor is a person who helps learners through a course, not a personal coach. The underlying setting names in `Configuration settings` still contain "coach" for backward compatibility (for example `add_users_by_coach`), but their labels now read "tutor".
 
 ## Assigning Roles
 
@@ -54,4 +54,4 @@ Higher-privileged roles inherit the capabilities of lower-privileged roles:
 * **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
 * **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
 * **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **Roles creation** — Chamilo 3.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).

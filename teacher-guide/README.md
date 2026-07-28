@@ -1,6 +1,6 @@
 # Teacher Guide
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Welcome to the Chamilo 3.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
 
 Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
 

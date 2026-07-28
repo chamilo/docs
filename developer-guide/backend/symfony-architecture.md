@@ -2,7 +2,7 @@
 
 ## Bundles
 
-Chamilo 2.0 is structured into three Symfony bundles:
+Chamilo 3.0 is structured into three Symfony bundles:
 
 ### CoreBundle (`src/CoreBundle/`)
 

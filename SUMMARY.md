@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Chamilo 2.0 Documentation](README.md)
+* [Chamilo 3.0 Documentation](README.md)
 
 ## Teacher Guide
 

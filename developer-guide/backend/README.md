@@ -1,6 +1,6 @@
 # Backend
 
-The Chamilo 2.0 backend is built on Symfony 6.4 with Doctrine ORM and API Platform.
+The Chamilo 3.0 backend is built on Symfony 7.4 with Doctrine ORM and API Platform.
 
 * **[Symfony Architecture](symfony-architecture.md)** — Bundles, services, and the overall backend structure
 * **[Entities and Doctrine](entities-and-doctrine.md)** — The Doctrine entity classes and how they relate

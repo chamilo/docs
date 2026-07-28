@@ -1,6 +1,6 @@
 # File Integrity
 
-*New in Chamilo 2.1.*
+*New in Chamilo 3.0.*
 
 File Integrity compares the files installed on your server against a trusted baseline, to detect additions, modifications, deletions, and permission changes you didn't expect — the kind of change a successful intrusion, a compromised dependency, or a mistaken manual edit would leave behind.
 

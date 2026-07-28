@@ -1,6 +1,6 @@
-# Chamilo 2.0 Documentation
+# Chamilo 3.0 Documentation
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+Welcome to the official documentation for **Chamilo 3.0**, the open-source e-learning platform.
 
 This documentation is organized into three guides, each tailored to a specific audience:
 
@@ -8,9 +8,9 @@ This documentation is organized into three guides, each tailored to a specific a
 * [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
 * [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
 
-## What's New in Chamilo 2.0
+## What's New in Chamilo 3.0
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 3.0 is a major release with a completely redesigned interface and many new features:
 
 * **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
 * **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading

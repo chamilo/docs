@@ -1,6 +1,6 @@
 # Plugins
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+Plugins extend Chamilo's functionality without modifying the core code. Chamilo 3.0 comes with over 50 plugins that can be activated as needed.
 
 ## The Plugins Block
 

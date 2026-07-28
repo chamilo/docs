@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
+* PHP 8.3, 8.4, or 8.5 with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
 * Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
 * MySQL 5.7+ or MariaDB 10.11+

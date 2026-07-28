@@ -6,7 +6,7 @@ Performance settings help optimize Chamilo for faster page loads and better reso
 
 ## Symfony Cache
 
-Chamilo 2.0 is built on Symfony, which uses a compiled cache for routing, dependency injection, and templates. Managing this cache is essential for performance.
+Chamilo 3.0 is built on Symfony, which uses a compiled cache for routing, dependency injection, and templates. Managing this cache is essential for performance.
 
 ### Clearing the Cache
 

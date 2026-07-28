@@ -3,7 +3,7 @@
 ## PHP
 
 * **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
+* **Type declarations**: Use PHP 8.3 type declarations (parameter types, return types, property types)
 * **Strict types**: All PHP files should declare `strict_types=1`
 * **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
 * **Symfony standards**: Follow Symfony's coding standards and best practices
