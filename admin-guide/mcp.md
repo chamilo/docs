@@ -39,11 +39,14 @@ This list is curated by the Chamilo core team, not user-extensible from within t
 
 Each user generates their own key under **Social network** > **MCP API key**:
 
-* Clicking **Generate** creates a key and displays it once — Chamilo only stores a masked version afterward, so the full key must be copied and stored securely immediately.
-* Generating a new key immediately revokes the previous one.
-* The page also shows the key's status (active/inactive), the MCP endpoint to configure in the client, and the creation and last-used dates.
+![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](/.gitbook/assets/admin-mcp-api-key.png)
 
-The user then configures their MCP client (e.g. Claude Desktop, or any client speaking the MCP HTTP transport) with the platform's `/mcp` endpoint and this key as a Bearer credential.
+* Clicking **Generate API key** creates a key and displays it once — Chamilo only stores a masked version afterward, so the full key must be copied and stored securely immediately.
+* Generating a new key immediately revokes the previous one.
+* The page shows the key's status (active/inactive), the MCP endpoint to configure in the client, and the creation and last-used dates.
+* The **Remote MCP connection** panel spells out exactly what to put in the MCP client: the endpoint URL and an `Authorization: Bearer <your MCP API key>` header.
+
+As the page itself notes, the key authenticates the client as that user's account — it does not grant any permission the account does not already have.
 
 ### OAuth 2.1 (remote clients and connectors)
 
