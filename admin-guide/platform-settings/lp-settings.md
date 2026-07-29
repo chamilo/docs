@@ -360,7 +360,7 @@ On the learning paths lists, display a visual element to show that other learnin
 
 *Default: `false`*
 
-### `student_follow_page_add_LP_acquisition_info`
+### `student_follow_page_add_lp_acquisition_info`
 
 **Add acquisition column in learner follow-up**
 
@@ -368,7 +368,7 @@ Add column to learner follow-up page to show acquisition status by a learner on 
 
 *Default: `false`*
 
-### `student_follow_page_add_LP_invisible_checkbox`
+### `student_follow_page_add_lp_invisible_checkbox`
 
 **Add visibility information for learning paths on learner follow-up page**
 

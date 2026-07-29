@@ -4,7 +4,7 @@ Login protection, password policy, content security headers, two-factor authenti
 
 This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, password strength scans, and file integrity checks), see [Security](../security/README.md).
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Security**. This category contains **32 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -85,6 +85,12 @@ Enable validation of the password requirements defined above during password cre
 
 *Default: `false`*
 
+
+### `file_integrity_check_notify_admins` **v3**
+
+**File integrity check notification recipients**
+
+Comma-separated list of e-mail addresses to notify when a file integrity scan detects a change. Leave empty to notify every global administrator instead.
 
 ### `filter_terms`
 

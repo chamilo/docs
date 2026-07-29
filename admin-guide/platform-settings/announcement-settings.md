@@ -2,7 +2,7 @@
 
 Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Announcements**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -69,6 +69,14 @@ Select 'Yes' to remove the button to delete all announcements, as this can be us
 **Hide 'sent to' in announcements**
 
 Select 'Yes' to avoid showing to whom an announcement has been sent.
+
+*Default: `false`*
+
+### `hide_global_announcements_when_not_connected` **v3**
+
+**Hide global announcements for anonymous**
+
+Hide platform announcements from anonymous users, and only show them to authenticated users.
 
 *Default: `false`*
 

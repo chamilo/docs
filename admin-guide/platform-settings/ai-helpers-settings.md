@@ -2,7 +2,7 @@
 
 Configuration of the AI helpers (text generation, image generation, video generation, AI tutor, AI grading). Each provider can be enabled per task type. See also [AI Configuration](../integrations/ai-configuration.md).
 
-Access these settings under **Administration > Configuration settings > AI Helpers**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > AI Helpers**. This category contains **14 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -109,4 +109,12 @@ Provides students with an AI-powered tutoring assistant.
 Generates videos based on prompts or content using AI (this might consume many tokens).
 
 *Default: `false`*
+
+### `wysiwyg_translation_all_languages` **v3**
+
+**Allow AI translation to all active languages in WYSIWYG editors**
+
+Allows teachers to generate translations for all active platform languages in one WYSIWYG action. This may consume a large number of AI tokens.
+
+*Default: `true`*
 

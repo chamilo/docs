@@ -2,7 +2,7 @@
 
 How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Display**. This category contains **28 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -56,6 +56,14 @@ The 'who is online' page (if enabled) will show a picture and a name for each us
 
 *Default: `false`*
 
+### `hide_home_top_when_connected` **v3**
+
+**Hide top content on homepage when logged in**
+
+On the platform homepage, this option allows you to hide the introduction block (to leave only the announcements, for example), for all users that are already logged in. The general introduction block will still appear to users not already logged in.
+
+*Default: `false`*
+
 ### `hide_logout_button`
 
 **Hide logout button**
@@ -101,6 +109,14 @@ Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png a
 Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
 
 *Default: `do_not_show`*
+
+### `show_administrator_data` **v3**
+
+**Platform Administrator Information in footer**
+
+Show the Information of the Platform Administrator in the footer?
+
+*Default: `true`*
 
 ### `show_back_link_on_top_of_tree`
 
@@ -168,6 +184,22 @@ Check the entrie you want to see appear in the main menu
 Define header tabs visibility per role.
 
 *Default: `{}`*
+
+### `show_teacher_data` **v3**
+
+**Show teacher information in footer**
+
+Show the teacher reference (name and e-mail if available) in the footer?
+
+*Default: `true`*
+
+### `show_tutor_data` **v3**
+
+**Session's tutor's data is shown in the footer.**
+
+Show the session's tutor reference (name and e-mail if available) in the footer?
+
+*Default: `true`*
 
 ### `showonline`
 

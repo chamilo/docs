@@ -2,7 +2,7 @@
 
 Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **64 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -417,6 +417,14 @@ Allow the teacher to rate the open, oral expression and annotation question type
 Block copy/paste/save/print keys and right-clicks in exercises.
 
 *Default: `false`*
+
+### `quiz_question_category_destinations` **v3**
+
+**Enable progressive adaptive tests by category destination**
+
+Enable progressive adaptive tests where each question category can redirect learners to another category depending on their score.
+
+*Default: `true`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
