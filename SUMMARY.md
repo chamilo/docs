@@ -11,6 +11,7 @@
   * [Creating Your Course](teacher-guide/creating-your-course/README.md)
     * [Course Settings](teacher-guide/creating-your-course/course-settings.md)
     * [Course Homepage](teacher-guide/creating-your-course/course-homepage.md)
+    * [Course Description](teacher-guide/creating-your-course/course-description.md)
   * [Adding Content](teacher-guide/adding-content/README.md)
     * [Documents](teacher-guide/adding-content/documents.md)
     * [Links](teacher-guide/adding-content/links.md)

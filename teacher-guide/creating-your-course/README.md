@@ -53,3 +53,4 @@ Click the **Student view** button to see the course homepage exactly as a learne
 
 * [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
 * [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [Course Description](course-description.md) — Write a structured description of your course for the course catalog
