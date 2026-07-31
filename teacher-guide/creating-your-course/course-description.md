@@ -2,6 +2,8 @@
 
 The **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool lets you write a structured, multi-section description of your course — its goals, methodology, materials, and more. Unlike the free-text **Course introduction** banner on your [course homepage](README.md#the-course-homepage), which only your enrolled learners see, the course description is what prospective learners see *before* they enroll, from the course catalog.
 
+Once enrolled, learners can still refer back to it from within the course — if you leave the tool visible to them, it is a convenient place for them to check practical information such as the general structure of the course or who the teachers are, without needing to ask you directly. Enrolled learners can view the sections you wrote but cannot add, edit, or delete them.
+
 ## Accessing the Tool
 
 Open the **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool from the course homepage tool grid.
