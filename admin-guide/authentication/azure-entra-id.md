@@ -36,9 +36,7 @@ authentication:
         client_id: "<application-client-id>"
         client_secret: "<client-secret>"
         tenant: "<tenant-id>"
-        url_login: "https://login.microsoftonline.com"
-        path_authorize: "/<tenant-id>/oauth2/v2.0/authorize"
-        path_token: "/<tenant-id>/oauth2/v2.0/token"
+        url_login: "https://login.microsoftonline.com/"
         url_api: "https://graph.microsoft.com"
         allow_create_new_users: true
         allow_update_user_info: true
