@@ -2,6 +2,7 @@
 
 Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
 
+* **[Subscribing Users](subscribing-users.md)** — Get learners into your course in the first place: administrator enrollment, self-enrollment, manual enrollment, or email invitations
 * **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
 * **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
 * **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires

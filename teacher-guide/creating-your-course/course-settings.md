@@ -48,6 +48,8 @@ Depending on your platform configuration, you may be able to control:
 * **Allow self-unsubscription** — Whether learners can leave the course on their own
 * **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
 
+These settings only cover self-enrollment. For the full picture — including enrolling an existing user yourself, or inviting someone who doesn't have a platform account yet — see [Subscribing Users](../assessing-learners/subscribing-users.md).
+
 ### Document Settings
 
 Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).

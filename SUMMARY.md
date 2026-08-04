@@ -19,6 +19,7 @@
     * [Glossary](teacher-guide/adding-content/glossary.md)
     * [Announcements](teacher-guide/adding-content/announcements.md)
   * [Assessing Learners](teacher-guide/assessing-learners/README.md)
+    * [Subscribing Users](teacher-guide/assessing-learners/subscribing-users.md)
     * [Exercises](teacher-guide/assessing-learners/exercises.md)
     * [Assignments](teacher-guide/assessing-learners/assignments.md)
     * [Surveys](teacher-guide/assessing-learners/surveys.md)

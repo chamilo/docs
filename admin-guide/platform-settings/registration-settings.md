@@ -2,7 +2,7 @@
 
 Self-registration policy and post-registration redirects — what new users are asked for and where they land.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Registration**. This category contains **21 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -22,6 +22,16 @@ Simply display a confirmation request on the registration page before going forw
 **Restrict fields shown during registration**
 
 If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+
+### `allow_invitation_registration` **v3**
+
+**Allow registration via course invitation links**
+
+When enabled, a teacher/admin can send a one-time invitation link from a course's Users tool that lets an unregistered person reach the registration form and register even while general self-registration (`allow_registration`) is disabled.
+
+*Default: `false`*
+
+See [Subscribing Users](../../teacher-guide/assessing-learners/subscribing-users.md#inviting-users-by-email) for the teacher-facing side of this feature.
 
 ### `allow_lostpassword`
 
