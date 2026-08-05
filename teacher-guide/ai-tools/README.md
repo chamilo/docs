@@ -12,6 +12,7 @@ Chamilo 3.0 introduces AI-powered tools that help you create content faster and 
 * **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
 * **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
 * **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[Course Picture Generator](course-picture-generator.md)** — Generate a course thumbnail image directly from the course settings screen
 
 ## How AI Tools Work
 
@@ -23,5 +24,6 @@ When AI tools are enabled, they appear in the relevant contexts:
 * The **AI Tutor** is available to learners within the course
 * The **Glossary Terms Generator** appears in the Glossary tool toolbar
 * The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* The **Course Picture Generator** appears next to the course picture field in Course Settings
 
 All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
