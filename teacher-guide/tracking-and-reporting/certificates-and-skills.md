@@ -47,4 +47,4 @@ Learners can view their own certificates and validated skills from their profile
 * **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
 * **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
 * **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **Extend certificates** — Ask your admin to enable the [Custom Certificate](../plugins/custom-certificate.md) plugin to unleash even more certificate templating power
