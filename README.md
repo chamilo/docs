@@ -6,7 +6,9 @@ You can access the more readable version of this documentation on https://docs.c
 
 This repository is organized in branches by version, by language and by role:
 
-* For 2 versions:
+* For 3.* versions
+  * branch 3.x for English
+* For 2.* versions:
   * branch 2.x for English
 * For 1.11 versions:
   * branch 1.11.x for English
