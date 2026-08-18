@@ -131,6 +131,8 @@ Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`
 
 Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
 
+Two requirements, or the subscriber is skipped silently: the class must be in the **global namespace** (the pass resolves it from the file name), and you must run `composer dump-autoload` after adding it (`public/plugin` is a classmap entry). Check the result with `php bin/console debug:event-dispatcher <event.name>`.
+
 ```php
 <?php
 // src/EventSubscriber/MyPluginEventSubscriber.php
@@ -167,6 +169,36 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
 See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
 
+### Cleaning up when a course, session or user is deleted
+
+If your plugin stores rows keyed on a course, session or user, subscribe to `Events::COURSE_DELETED`, `Events::SESSION_DELETED` or `Events::USER_DELETED`. These are the only way to clean up — the old `doWhenDeleting*` methods no longer exist. Three rules apply to these listeners:
+
+* **Act on `AbstractEvent::TYPE_PRE`** — the event fires before the row is removed, the only moment when your foreign key still resolves and the data is still readable. `USER_DELETED` also fires as `TYPE_POST`, so the check is not optional there.
+* **Guard on installed, not enabled** — use `AppPlugin::getInstance()->isInstalled($this->plugin->get_name())`. Your rows survive the plugin being deactivated, or being enabled only on another access URL, and their foreign key blocks the deletion either way.
+* **On `USER_DELETED`, check `$event->isHardDelete()`** — a soft delete keeps the user restorable, so its data must survive.
+
+```php
+public function onUserDeleted(UserDeletedEvent $event): void
+{
+    if (AbstractEvent::TYPE_PRE !== $event->getType() || !$event->isHardDelete()) {
+        return;
+    }
+
+    $userId = $event->getUser()?->getId();
+
+    if (empty($userId) || !AppPlugin::getInstance()->isInstalled($this->plugin->get_name())) {
+        return;
+    }
+
+    Database::getManager()->getConnection()->executeStatement(
+        'DELETE FROM my_plugin_table WHERE user_id = :userId',
+        ['userId' => $userId]
+    );
+}
+```
+
+The `StudentFollowUp` plugin is the reference for users; `Bbb`, `BuyCourses` and `EmbedRegistry` carry the course and session equivalents.
+
 ## Step 8: Lifecycle Hooks
 
 Override these methods in your plugin class to respond to platform actions:
@@ -178,9 +210,8 @@ Override these methods in your plugin class to respond to platform actions:
 | `performActionsAfterConfigure()` | Admin saves the config form |
 | `course_settings_updated(array $values)` | Course-level settings change |
 | `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+
+`doWhenDeletingUser()`, `doWhenDeletingCourse()` and `doWhenDeletingSession()` were removed, along with the `AppPlugin::performActionsWhenDeletingItem()` trigger that called them — overriding them now does nothing. Use the deletion events from [Step 7](#cleaning-up-when-a-course-session-or-user-is-deleted) instead.
 
 ## Step 9: Activate
 
@@ -191,4 +222,4 @@ Log in as administrator, navigate to **Manage plugins**, find your plugin, and c
 * **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
 * **Use translations** — Always use the `lang/` system for user-facing text
 * **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **Check enabled state** — In event subscribers, call `$this->plugin->isEnabled()` before executing logic. The exception is cleanup on deletion: guard on installed instead, since the rows outlive the plugin being disabled
