@@ -97,7 +97,7 @@ Implement the actual schema creation/deletion inside the class using Doctrine's 
 
 ## Step 5: Add Translations
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es.php`). The fallback is `en_US.php`.
 
 ```php
 <?php
@@ -113,19 +113,41 @@ Access translations via `$plugin->get_lang('key')`.
 
 ## Step 6: Inject Content via Display Regions
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+Plugins can inject HTML into 18 predefined regions of the interface. Which mechanism renders a region depends on which one it is:
 
-```php
-public function renderRegion(string $region): string
-{
-    if ('header_right' !== $region) {
-        return '';
-    }
-    return '<div class="my-plugin-widget">Hello!</div>';
-}
-```
+* **`course_tool_plugin`** is the only region rendered by overriding `renderRegion(string $region): string` in your plugin class. It is called (via `PluginRegionController`) only for a course-scoped plugin (`is_course_plugin`) while a course page is open:
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+  ```php
+  public function renderRegion(string $region): string
+  {
+      if ('course_tool_plugin' !== $region) {
+          return '';
+      }
+      return '<div class="my-plugin-widget">Hello!</div>';
+  }
+  ```
+
+* **The 16 general regions** — `content_bottom`, `content_top`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_bottom`, `menu_top`, `pre_footer` — are rendered by requiring the plugin's own `index.php`, not `renderRegion()`. The framework sets `$plugin_info['current_region']` before requiring that file, so it can either `echo` HTML directly for that region or declare Twig templates to render via `$plugin_info['templates']`:
+
+  ```php
+  <?php
+  // index.php
+  if (!class_exists('MyPluginPlugin', false)) {
+      require_once __DIR__.'/src/MyPluginPlugin.php';
+  }
+
+  $region = (string) ($plugin_info['current_region'] ?? '');
+
+  if ('header_right' === $region) {
+      echo '<div class="my-plugin-widget">Hello!</div>';
+  }
+  ```
+
+  `public/plugin/HelloWorld/index.php` is a complete working example — HelloWorld does not override `renderRegion()` at all; every region it fills goes through `index.php`.
+
+* **`menu_administrator`** is a special case reserved for admin-only links shown in the legacy administration dashboard, not the two mechanisms above. `Dashboard` and `CleanDeletedFiles` are real plugins that use it.
+
+Whichever mechanism you use, an administrator still has to turn the region(s) on for your plugin from the **Regions** button next to it on the **Manage plugins** page (see [Step 9](#step-9-activate)) — a plugin renders nothing in a region that hasn't been explicitly enabled there.
 
 ## Step 7: React to Platform Events (Optional)
 
@@ -215,7 +237,7 @@ Override these methods in your plugin class to respond to platform actions:
 
 ## Step 9: Activate
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+Log in as administrator and navigate to the administration dashboard's **Platform** block, then **Plugins** — this opens the **Manage plugins** page. Find your plugin and click **Install**; once installed, click **Enable** to activate it (an enabled plugin shows a **Disable** button instead).
 
 ## Tips
 
