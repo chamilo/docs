@@ -10,6 +10,18 @@ This repository is organized in branches by version, by language and by role:
   * branch 3.x for English
 * For 2.* versions:
   * branch 2.x for English
+  * branch 2.x-ar for Arabic
+  * branch 2.x-de for German
+  * branch 2.x-el for Greek
+  * branch 2.x-es for Spanish
+  * branch 2.x-fr for French
+  * branch 2.x-id for Bahasa Indonesia
+  * branch 2.x-it for Italian
+  * branch 2.x-ja for Japanese
+  * branch 2.x-nl for Dutch
+  * branch 2.x-pt for Portuguese
+  * branch 2.x-zh_CN for Simplified Chinese
+  * branch 2.x-zh_TW for Traditional Chinese
 * For 1.11 versions:
   * branch 1.11.x for English
   * branch 1.11.x-es for Spanish
