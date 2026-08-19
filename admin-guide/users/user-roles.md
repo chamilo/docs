@@ -13,7 +13,7 @@ These roles control access to platform-wide features:
 | **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign tutors. Cannot access general platform settings. |
 | **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
 | **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
+| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup — or, if registered on a non-root URL, scoped to just that URL's branch. See [Subtree Administrators](../multi-url/access-urls.md#subtree-administrators). |
 | **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
 
 ## Course-Level Roles
