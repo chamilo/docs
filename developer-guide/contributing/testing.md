@@ -46,51 +46,62 @@ php bin/phpunit --coverage-html var/coverage
 
 ### Test Location
 
-Tests are in the `tests/` directory:
+Tests are in the `tests/` directory, which is not included in packaged Chamilo downloads — it only comes with a `git clone`. `CoreBundle/` and `CourseBundle/` mirror the subdirectory layout of `src/CoreBundle/` and `src/CourseBundle/`:
 
 ```
 tests/
-├── CoreBundle/
-│   ├── Api/
-│   ├── Command/
-│   ├── Controller/
-│   ├── Migrations/
-│   ├── Repository/
-│   ├── Security/
-│   ├── Serializer/
-│   ├── Settings/
-│   ├── Tool/
-│   └── Twig/
-├── CourseBundle/
-│   ├── Repository/
-│   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── CoreBundle/           # Api/, Command/, Controller/, DataFixtures/, Entity/, Repository/, Security/, Settings/, Tool/, ...
+├── CourseBundle/         # Api/, Component/CourseCopy/, Repository/, Settings/
+├── playwright/           # Browser-level end-to-end tests (see below)
+├── AbstractApiTest.php   # Base class for API tests
+└── ChamiloTestTrait.php  # Shared test helpers
 ```
+
+See [Project Structure](../getting-started/project-structure.md) for the full `tests/` layout, including the non-test-suite folders (`datafiller/`, `history/`, `procedures/`, `scripts/`).
 
 ### Test Types
 
 * **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
 * **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Playwright tests** — Browser-level acceptance tests in `tests/playwright/` (see below)
 
-## Behat (End-to-End) Tests
+## Playwright (End-to-End) Tests
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo uses [Playwright](https://playwright.dev/), driven through [playwright-bdd](https://vitalets.github.io/playwright-bdd/) so scenarios stay plain Gherkin. This replaced the old Behat suite; Behat's scenarios remain in git history and are worth consulting when adding coverage for an area it once tested (`git ls-tree -r --name-only 98c77757ea6 tests/behat`), but treat them only as a hint of which flows matter — the selectors have rotted, so verify against the live app.
 
-```bash
-# From the tests/behat/ directory:
-../../vendor/behat/behat/bin/behat features/actionInstall.feature
-../../vendor/behat/behat/bin/behat features/createUser.feature
-../../vendor/behat/behat/bin/behat features/createCourse.feature
-
-# Or run all features:
-../../vendor/behat/behat/bin/behat
+```
+tests/playwright/
+├── features/             # Gherkin scenarios (*.feature)
+├── steps/common.steps.ts # Step definitions (TypeScript)
+├── fixtures/             # Test files used by scenarios (e.g. spreadsheets)
+├── scripts/              # Supporting scripts (e.g. check-results.mjs)
+└── playwright.config.ts  # Base URL and browser options
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Before the first run, seed the fixtures most scenarios assume exist, in this order:
+
+```bash
+yarn test:playwright:seed                 # the fixed test users
+yarn test:playwright:seed-course          # the TEMP course
+yarn test:playwright:seed-private-course  # the TEMPPRIVATE course
+yarn test:playwright:seed-settings        # settings some scenarios need enabled
+```
+
+Then run the suite (the seeds and the installer scenario are excluded from it):
+
+```bash
+yarn test:playwright                                              # everything
+yarn test:playwright tests/playwright/features/toolForum.feature  # a single file
+yarn test:playwright:ui                                           # interactive runner
+```
+
+`yarn test:playwright:install` covers the web installer itself. It recreates the database, so it is CI-only — never run it against an installation you care about.
+
+After editing a `.feature` file or anything under `tests/playwright/steps/`, regenerate the compiled specs before trusting a run:
+
+```bash
+node_modules/.bin/bddgen --config=tests/playwright/playwright.config.ts
+```
 
 ## Frontend Checks
 
@@ -141,5 +152,5 @@ Pull requests are automatically checked by four GitHub Actions workflows:
 |----------|-------------|
 | `phpunit.yml` | PHPUnit test suite |
 | `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| `php_analysis.yml` | Psalm, Doctrine schema validation, dependency requirements checker |
+| `playwright.yml` | Playwright end-to-end tests (installs Chamilo via the web installer, then runs the suite) |

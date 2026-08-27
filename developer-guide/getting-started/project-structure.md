@@ -170,6 +170,41 @@ config/
 
 Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
 
+## Tests (`tests/`)
+
+`tests/` is **not included in packaged Chamilo downloads** (release ZIPs/tarballs) — it is stripped out because it has no purpose at runtime and some of its scripts could pose a risk if left on a production server. It is only present when the project is obtained via `git clone`.
+
+```
+tests/
+├── CoreBundle/       # PHPUnit tests, mirroring src/CoreBundle/'s subdirectory layout
+├── CourseBundle/     # PHPUnit tests, mirroring src/CourseBundle/'s subdirectory layout
+├── datafiller/       # Scripts that seed a test installation with demo courses/users/content
+├── history/          # Snapshots of what Chamilo looked like at past versions
+├── phpstan/          # Bootstrap file used by PHPStan when analyzing Doctrine ORM code
+├── playwright/       # Browser-driven end-to-end tests (Gherkin + playwright-bdd)
+├── procedures/       # Spreadsheets used as a base for manual QA of features
+├── scripts/          # Standalone maintenance/fix/migration scripts for existing portals
+├── AbstractApiTest.php                        # Base class for API Platform test cases
+├── ApplicationAvailabilityFunctionalTest.php   # Smoke test asserting core pages load
+├── ChamiloTestTrait.php                        # Shared fixtures/auth/request helpers
+├── bootstrap.php                               # PHPUnit bootstrap
+├── deprecations.baseline.json                  # Accepted deprecation warnings, excluded from failing the suite
+└── README.md                                   # Setup instructions for PHPUnit and Playwright
+```
+
+| Directory | Contents |
+|-----------|----------|
+| `CoreBundle/` | PHPUnit tests mirroring `src/CoreBundle/`: `Api/`, `ApiResource/`, `Command/`, `Controller/`, `DataFixtures/`, `Entity/`, `Event/`, `EventListener/`, `Filter/`, `fixtures/`, `Helpers/`, `Mcp/`, `Migrations/`, `Repository/`, `Security/`, `Serializer/`, `Service/`, `Settings/`, `State/`, `Tool/`, `Traits/`, `Twig/` |
+| `CourseBundle/` | PHPUnit tests mirroring `src/CourseBundle/`: `Api/`, `Component/CourseCopy/`, `Repository/`, `Settings/` |
+| `datafiller/` | Scripts that fill a test installation with demo content: `data_courses.php`, `data_users.php`, `fill_courses.php`, `fill_users.php`, `fill_many_users.php`, `fill_whoisonline.php`, `generate_users.php`, `fill_all.php` (runs the others), plus `images/` and a large CSV user-import example |
+| `history/` | Snapshots documenting Chamilo's structure at past releases (`1.8.8.2`, `1.9.0`, `1.10.0`, `1.11.0`, `2.0`) |
+| `phpstan/` | `doctrine-orm-bootstrap.php`, loaded by PHPStan when analyzing Doctrine ORM code |
+| `playwright/` | End-to-end browser tests: `features/*.feature` (Gherkin scenarios run via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)), `steps/common.steps.ts` (TypeScript step definitions), `fixtures/` (test files, e.g. spreadsheets), `scripts/check-results.mjs`, `playwright.config.ts`, and the generated `.features-gen/` output. Replaces the old Behat suite, whose scenarios remain in git history for reference |
+| `procedures/` | Spreadsheets (currently `spanish/`) used as a checklist base for manual quality review of features |
+| `scripts/` | One-off maintenance/fix/migration scripts for existing Chamilo portals (mostly targeting older versions), plus `git-hooks/`, `img/`, `lang/`, and `packaging/` subfolders |
+
+See [Testing](../contributing/testing.md) for how to set up the test database and run the PHPUnit and Playwright suites.
+
 ## Build Configuration
 
 | File | Purpose |
