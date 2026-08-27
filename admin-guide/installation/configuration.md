@@ -31,6 +31,8 @@ E-mail sending configuration is presented during installation, but can be modifi
 
 Symfony-level configuration lives in the `config/` directory. These YAML files control framework behavior, service definitions, and package-specific settings.
 
+The entire `config/` directory ships with every Chamilo package and every update — unlike, say, `.env`, it is not excluded or preserved specially during an upgrade. **Any change made directly to a file under `config/` or `config/packages/` will be silently overwritten the next time you update Chamilo.** See [Environment-Specific Overrides](#environment-specific-overrides) below for the supported way to customize configuration without losing your changes.
+
 It is not frequent to have to modify those files, and changing them can render your portal inoperative, so please do not attempt to modify those if you must ensure the system's availability.
 
 ### Key Configuration Files
@@ -51,7 +53,9 @@ Symfony supports per-environment configuration. Files in `config/packages/prod/`
 
 For example, `config/packages/prod/monolog.yaml` typically configures less verbose logging than the development equivalent.
 
-Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize setting from `config/packages/*.yaml`, just create a copy of the yaml file inside that directory and change the settings there.
+Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize a setting from `config/packages/*.yaml`, **do not edit the base file** — create a same-named file inside `config/packages/prod/` (or `dev/`/`test/`, matching the environment you want to affect) containing only the keys you want to override, and put your changes there instead.
+
+This matters because the base `config/packages/*.yaml` files are part of the Chamilo package: every update ships them again and overwrites whatever is there, so edits made directly to them do not survive an upgrade. Since Chamilo never ships anything under `config/packages/prod/` (or `dev/`/`test/`), that directory is safe from being overwritten by an update and is the supported place to keep local customizations.
 
 ## File Permissions
 
