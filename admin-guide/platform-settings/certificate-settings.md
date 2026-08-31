@@ -96,3 +96,7 @@ If enabled, session administrators can download certificates even if they are no
 
 *Default: `false`*
 
+## See Also
+
+Certificates can now be given a validity period and an expiry date, with automated or manual expiry reminders. This isn't configured here — the validity period is a teacher-facing gradebook setting, and the reminder cron's on/off switch lives in the **Cron Jobs** category. See [Certificates and Skills](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) and [Cron Jobs Settings](crons-settings.md#certificate-expiry-reminders).
+

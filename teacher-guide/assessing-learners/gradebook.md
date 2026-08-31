@@ -67,7 +67,11 @@ To enable certificate generation:
 2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
 3. The certificate is generated from a template configured by the platform administrator
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+Once **Generate certificates** is enabled on the root category, a **Certificate validity (days)** field appears. Leave it at `0` for certificates that never expire, or set a number of days after which the certificate expires — Chamilo can then remind learners as that expiry date approaches, either automatically (cron, admin-configured) or manually from the certificates list.
+
+![The category edit dialog with Generate certificates enabled and the Certificate validity (days) field set to 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+
+See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) for more details.
 
 ## Linking to Skills
 
