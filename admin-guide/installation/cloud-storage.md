@@ -101,7 +101,12 @@ php bin/console chamilo:remote-storage:upload-themes
 
 Files already present on the themes filesystem are kept unless `--overwrite` is given, so re-running the command never discards the logos or color themes an administrator uploaded through **Administration > Configuration > Colors**. When the themes filesystem is the local `var/themes` directory the command detects it and does nothing, so it is safe to run on any installation.
 
-Run it again after every upgrade that changes the bundled themes, otherwise the cloud container keeps serving the theme files of the previous release.
+Chamilo runs this command on its own at the end of the installation wizard and again after a successful database migration when upgrading, so new theme files reach the cloud storage without any manual step.
+
+Two cases still need you to run it by hand:
+
+* **Switching an existing platform to cloud storage**, since no installation or upgrade happens at that point.
+* **Refreshing theme files that changed in a new release**, with `--overwrite`. The automatic runs never overwrite, precisely so they cannot revert a logo an administrator uploaded into a bundled theme; the price is that a `colors.css` or `tiny-settings.js` shipped by the new release does not replace the copy already in the container.
 
 ## Migrating Existing Files
 
