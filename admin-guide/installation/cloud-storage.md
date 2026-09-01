@@ -15,7 +15,7 @@ Chamilo 3.0 supports cloud storage backends for user-uploaded files through **Fl
 |----------|-------------------|
 | **Amazon S3** | `league/flysystem-aws-s3-v3` |
 | **Google Cloud Storage** | `league/flysystem-google-cloud-storage` |
-| **Azure Blob Storage** | `league/flysystem-azure-blob-storage` |
+| **Azure Blob Storage** | `azure-oss/storage-blob-flysystem` |
 | **MinIO** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
 | **Local filesystem** | Default, no additional packages needed |
 
@@ -31,7 +31,7 @@ league/flysystem-aws-s3-v3
 league/flysystem-google-cloud-storage
 
 # Azure Blob Storage
-league/flysystem-azure-blob-storage
+azure-oss/storage-blob-flysystem
 ```
 
 ## Configuration

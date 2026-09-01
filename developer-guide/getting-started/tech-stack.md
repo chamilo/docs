@@ -70,5 +70,5 @@ Via Flysystem adapters:
 
 * Local filesystem (default)
 * AWS S3 (`league/flysystem-aws-s3-v3`)
-* Azure Blob Storage (`league/flysystem-azure-blob-storage`)
+* Azure Blob Storage (`azure-oss/storage-blob-flysystem`)
 * Google Cloud Storage (`league/flysystem-google-cloud-storage`)
