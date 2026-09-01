@@ -84,13 +84,33 @@ MinIO works through the S3 adapter with a custom endpoint and path-style address
 
 > The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
 
+## Themes
+
+The **themes** mount behaves differently from the others: the themes shipped with Chamilo (`chamilo`, `chamilo3`) are part of the code and live in `var/themes`, which is exactly the directory the default local adapter serves. When you point the themes mount at a cloud container, that container starts out empty, so logos, colors and theme images are missing and the interface renders unstyled.
+
+Upload the bundled themes to the configured storage with:
+
+```bash
+php bin/console chamilo:remote-storage:upload-themes
+```
+
+| Option | Effect |
+|--------|--------|
+| `--dry-run` | Report what would be uploaded, without writing anything |
+| `--overwrite` | Replace files that already exist on the remote storage |
+
+Files already present on the themes filesystem are kept unless `--overwrite` is given, so re-running the command never discards the logos or color themes an administrator uploaded through **Administration > Configuration > Colors**. When the themes filesystem is the local `var/themes` directory the command detects it and does nothing, so it is safe to run on any installation.
+
+Run it again after every upgrade that changes the bundled themes, otherwise the cloud container keeps serving the theme files of the previous release.
+
 ## Migrating Existing Files
 
 If you are switching from local storage to cloud storage on an existing platform, you must migrate the existing files:
 
 1. Configure the new storage adapter as described above.
 2. Copy existing files from the local `var/upload/` directory to your cloud storage bucket, preserving the directory structure.
-3. Verify that files are accessible through the platform after migration.
+3. Run `php bin/console chamilo:remote-storage:upload-themes` to upload the bundled themes, as described above.
+4. Verify that files are accessible through the platform after migration.
 
 ## Permissions and Access
 
