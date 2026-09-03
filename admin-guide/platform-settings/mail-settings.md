@@ -2,7 +2,7 @@
 
 How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Mail**. This category contains **17 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -88,12 +88,6 @@ In case you need to define the charset to use when sending those e-mails. Leave 
 
 *Default: `UTF-8`*
 
-
-### `mailer_xoauth2`
-
-**Mail: XOAuth2 options**
-
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
 
 ### `messages_hide_mail_content`
 
