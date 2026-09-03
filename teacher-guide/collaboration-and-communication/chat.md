@@ -5,16 +5,17 @@ The chat tool provides real-time text messaging within a course. It is useful fo
 ## Using the Chat
 
 1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+2. In the **Users** panel, pick a specific online user to message them directly, or use the **All** tab to address the whole group
+3. Type your message in the text field at the bottom and press **Enter** to send (**Shift+Enter** for a new line without sending)
 
-All enrolled users who are currently in the chat room can see messages in real time.
+A **Preview** option lets you check formatting before sending, and **Reset** clears the current draft.
 
 ## Chat Features
 
-* **Real-time messaging** — Messages appear instantly for all participants
+* **Real-time messaging** — Messages appear instantly for the recipient(s)
 * **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **User presence** — The Users panel shows who is currently online in the course
+* **Direct or group** — Message one learner at a time, or broadcast to everyone via the **All** tab
 
 ## As a Teacher
 

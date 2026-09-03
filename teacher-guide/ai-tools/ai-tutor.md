@@ -1,6 +1,9 @@
 # AI Tutor
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to get instant, AI-generated responses. It works in two contexts, with a different focus in each:
+
+* **Inside a course** — the AI Tutor is focused on that course: answering questions about its content, explaining concepts it covers, and guiding learners through the material.
+* **Outside a course** (on the general platform) — the AI Tutor instead handles generic platform-use questions, such as how to find something or use a feature, rather than course content.
 
 ## How It Works
 
@@ -10,7 +13,7 @@ When the AI Tutor is enabled for a course, learners see a chat interface where t
 * **Get explanations** of concepts covered in the course
 * **Receive guidance** without waiting for the teacher to respond
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+Inside a course, the AI Tutor uses that course's context to provide relevant answers. It is designed to supplement your teaching, not replace it.
 
 ## Enabling the AI Tutor
 
@@ -33,7 +36,7 @@ The chat interface shows the exchange between the learner and the AI in a famili
 
 ## Important Behavior
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
+* **Scoped to where it's opened** — Inside a course, the AI Tutor only answers about that course; opened from outside any course, it switches to general platform-use questions instead. The platform-wide (outside-course) mode is a separate toggle your administrator controls independently of the per-course one.
 * **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
 * **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
 * **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working

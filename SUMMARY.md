@@ -209,6 +209,32 @@
     * [Security Guide](admin-guide/appendix/security-guide.md)
     * [Glossary](admin-guide/appendix/glossary.md)
 
+## Student Guide
+
+* [Student Guide](student-guide/README.md)
+  * [Getting Started](student-guide/getting-started/README.md)
+    * [Creating an Account](student-guide/getting-started/creating-an-account.md)
+    * [Understanding the Interface](student-guide/getting-started/understanding-the-interface.md)
+  * [Courses](student-guide/courses/README.md)
+    * [Subscribing to a Course](student-guide/courses/subscribing-to-a-course.md)
+    * [Finding Your Way Around a Course](student-guide/courses/course-tools-overview.md)
+    * [Following a Learning Path](student-guide/courses/following-a-learning-path.md)
+    * [Taking Tests](student-guide/courses/taking-tests.md)
+    * [Submitting an Assignment](student-guide/courses/submitting-an-assignment.md)
+    * [Using the Forum](student-guide/courses/using-the-forum.md)
+    * [Using the Chat Tool](student-guide/courses/using-the-chat-tool.md)
+    * [AI Tutor Chatbot](student-guide/courses/ai-tutor.md)
+  * [Inbox](student-guide/inbox.md)
+  * [Social Network](student-guide/social-network.md)
+  * [My Progress](student-guide/my-progress.md)
+  * [Account and Security](student-guide/account-and-security/README.md)
+    * [Resetting Your Password](student-guide/account-and-security/resetting-your-password.md)
+    * [Two-Factor Authentication](student-guide/account-and-security/two-factor-authentication.md)
+    * [CAPTCHA](student-guide/account-and-security/captcha.md)
+  * [Appendix](student-guide/appendix/faq.md)
+    * [FAQ](student-guide/appendix/faq.md)
+    * [Glossary](student-guide/appendix/glossary.md)
+
 ## Developer Guide
 
 * [Developer Guide](developer-guide/README.md)
