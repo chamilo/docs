@@ -54,7 +54,7 @@ Enter a JSON array of your DKIM configuration settings (see example).
 
 **Mail DSN**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/7.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/7.4/mailer.html#using-a-3rd-party-transport. For Microsoft 365, where SMTP with basic authentication is being retired, send through the Microsoft Graph API instead with `microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@default?tenantId=TENANT_ID` (URL-encode any special character in the client secret). This requires an Entra ID application registration granted the `Mail.Send` application permission — see [Email Configuration](../installation/email-configuration.md).
 
 *Default: `null://null`*
 
