@@ -17,6 +17,7 @@ Chamilo 3.0 supports cloud storage backends for user-uploaded files through **Fl
 | **Google Cloud Storage** | `league/flysystem-google-cloud-storage` |
 | **Azure Blob Storage** | `azure-oss/storage-blob-flysystem` |
 | **MinIO** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
+| **DigitalOcean Spaces** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
 | **Local filesystem** | Default, no additional packages needed |
 
 ## Installation
@@ -82,6 +83,10 @@ Configure GCS the same way as S3, using GCS-specific environment variables and o
 
 MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
 
+### DigitalOcean Spaces (S3-Compatible)
+
+DigitalOcean Spaces is a separate, hosted service from MinIO — it is not MinIO under the hood, but it exposes the same S3-compatible API, so it also works through the S3 adapter: set `AWS_S3_STORAGE_*` as for S3, and point `AWS_S3_STORAGE_ENDPOINT` (or the bundle's equivalent endpoint variable) at your Space's regional endpoint, e.g. `https://<region>.digitaloceanspaces.com`.
+
 > The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
 
 ## Themes
@@ -126,5 +131,6 @@ For S3, use a bucket policy that restricts access to the IAM credentials configu
 ## Tips
 
 * **Test with MinIO locally** before deploying to a cloud provider -- MinIO is a free, S3-compatible server you can run on your own machine.
+* **DigitalOcean Spaces** is a hosted S3-compatible alternative to Amazon S3, confirmed to work with Chamilo's S3 adapter.
 * **Use a dedicated bucket** for Chamilo rather than sharing a bucket with other applications.
 * **Set up lifecycle policies** on your cloud bucket to manage storage costs (e.g., move old files to cheaper storage tiers).
