@@ -18,6 +18,7 @@
     * [Learning Paths](teacher-guide/adding-content/learning-paths.md)
     * [Glossary](teacher-guide/adding-content/glossary.md)
     * [Announcements](teacher-guide/adding-content/announcements.md)
+    * [Math Formulas](teacher-guide/adding-content/math-formulas.md)
   * [Assessing Learners](teacher-guide/assessing-learners/README.md)
     * [Subscribing Users](teacher-guide/assessing-learners/subscribing-users.md)
     * [Exercises](teacher-guide/assessing-learners/exercises.md)
