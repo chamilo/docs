@@ -8,12 +8,14 @@ This feature only appears if your administrator has enabled it platform-wide. If
 
 1. Open your **avatar menu** and click **My profile**.
 2. Click **Change password**.
-3. Check the box **Enable two-factor authentication (2FA)**.
-4. A QR code appears. Scan it with an authenticator app on your phone (any TOTP-compatible app works, such as Google Authenticator, Microsoft Authenticator, or Authy).
-5. Enter the 6-digit code your app now shows into the **2FA code** field that appears.
-6. Submit the form. You'll see a confirmation that 2FA has been activated.
+3. Enter your **current password**, check the box **Enable two-factor authentication (2FA)**, and click **Update settings**.
+4. The page reloads with a QR code and the message "Scan the QR code to enable 2FA." Scan it with an authenticator app on your phone (any TOTP-compatible app works, such as Google Authenticator, Microsoft Authenticator, or Authy).
 
-You need your **current password** to make this change, whether you're turning 2FA on or off.
+![The Change Password form after submitting, showing the QR code to scan and the 2FA code field](/.gitbook/assets/student-2fa-qr-code.png)
+
+5. Enter your current password again, along with the 6-digit code your app now shows, in the **2FA code** field, and click **Update settings** once more. You'll see a confirmation that 2FA has been activated.
+
+Checking the box alone doesn't reveal the QR code — you only see it after that first submission, and your password fields are cleared each time the page reloads, so you'll need to re-enter your current password on this second submission too.
 
 ## Signing In With 2FA Enabled
 
