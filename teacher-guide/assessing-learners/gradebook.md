@@ -59,6 +59,20 @@ The assessment shows a table with:
 
 You can sort by any column to quickly identify top performers or struggling learners.
 
+### Score Distribution Charts
+
+Below the table, and on the **Graphical view** page, the assessment draws one bar
+chart per activity plus one for the total. Each chart is a column chart: the
+horizontal axis lists your score ranges from the lowest to the highest, and the
+height of each bar is the number of learners in that range.
+
+The **Total** chart also marks the class average. A red point sits on the range
+that holds the average, and the legend gives the exact percentage.
+
+These charts appear only when the score display rules are set. If you see the
+message *To view graph score rule must be enabled*, define your ranges first
+under the assessment's scoring settings.
+
 ## Certificates
 
 To enable certificate generation:
