@@ -54,6 +54,35 @@ brevo+api://API_KEY@default
 
 The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
 
+### Microsoft 365 / Outlook (Microsoft Graph API)
+
+Microsoft is retiring SMTP with basic authentication in Exchange Online, so a plain `smtp://user:password@smtp.office365.com:587` DSN only works while your tenant administrator keeps "Authenticated SMTP" explicitly enabled on that specific mailbox. Send through the Microsoft Graph API instead — it does not use SMTP at all:
+
+```bash
+microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@default?tenantId=TENANT_ID
+```
+
+The Symfony Microsoft Graph transport comes embedded into Chamilo. No additional install required.
+
+To obtain those three values, in the [Microsoft Entra admin center](https://entra.microsoft.com):
+
+1. Register an application. Its **Application (client) ID** and **Directory (tenant) ID** are `CLIENT_ID` and `TENANT_ID`.
+2. Under *API permissions*, add the Microsoft Graph **application** permission `Mail.Send` (not the delegated one), then grant admin consent.
+3. Under *Certificates & secrets*, create a client secret. Its **value** (not its ID) is `CLIENT_SECRET`.
+
+Notes:
+
+* URL-encode any character with a special meaning in a URL that appears in the client secret (`@` as `%40`, `+` as `%2B`, `/` as `%2F`, and so on).
+* The address configured in **Send all e-mails from this e-mail address** must be a real mailbox inside your tenant, otherwise Microsoft rejects the message.
+* Add `&noSave=true` to the DSN if you do not want a copy of every platform email stored in the sender's *Sent Items* folder.
+* For national clouds, point the DSN at the right endpoints, without the `https://` prefix: `microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@microsoftgraph.chinacloudapi.cn?tenantId=TENANT_ID&authEndpoint=login.partner.microsoftonline.cn`.
+
+**Security warning:** the `Mail.Send` *application* permission lets the registered application send email as **any** mailbox in the tenant, not only the one Chamilo uses. Restrict it to the sender mailbox with an Exchange Online application access policy:
+
+```powershell
+New-ApplicationAccessPolicy -AppId CLIENT_ID -PolicyScopeGroupId no-reply@yourdomain.com -AccessRight RestrictAccess -Description "Restrict Chamilo to its sender mailbox"
+```
+
 ### Gmail (Development/Small Platforms)
 
 ```bash

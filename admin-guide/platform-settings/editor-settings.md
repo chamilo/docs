@@ -90,7 +90,7 @@ This allows you to embed on your webpages your favorite videos and applications 
 
 **Enable MathJax**
 
-Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
+Enable the MathJax library to visualize mathematical formulas. This adds a formula button to the editor toolbar, where formulas are written in LaTeX. See [Math Formulas](../../teacher-guide/adding-content/math-formulas.md).
 
 ### `enabled_support_svg`
 

@@ -2,7 +2,7 @@
 
 How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Mail**. This category contains **17 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -54,7 +54,7 @@ Enter a JSON array of your DKIM configuration settings (see example).
 
 **Mail DSN**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/7.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/7.4/mailer.html#using-a-3rd-party-transport. For Microsoft 365, where SMTP with basic authentication is being retired, send through the Microsoft Graph API instead with `microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@default?tenantId=TENANT_ID` (URL-encode any special character in the client secret). This requires an Entra ID application registration granted the `Mail.Send` application permission — see [Email Configuration](../installation/email-configuration.md).
 
 *Default: `null://null`*
 
@@ -88,12 +88,6 @@ In case you need to define the charset to use when sending those e-mails. Leave 
 
 *Default: `UTF-8`*
 
-
-### `mailer_xoauth2`
-
-**Mail: XOAuth2 options**
-
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
 
 ### `messages_hide_mail_content`
 
