@@ -24,7 +24,9 @@ Enable the provider and supply its credentials. All providers share these common
 | `client_secret` | From your identity provider |
 | `allow_create_new_users` | Auto-create a Chamilo account on first login |
 | `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Disable other methods and force this one |
+| `force_as_login_method` | Hide the other methods, and show this provider's button alone |
+| `force_redirect` | Send an anonymous visitor to this provider automatically, with no button to click |
+| `skip_force_redirect_in` | List of URL fragments that `force_redirect` leaves alone |
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -83,6 +85,54 @@ authentication:
 
 Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
 
+## Optional — Send every visitor to the provider automatically
+
+Two keys control how much of the login page a visitor still sees. They are independent, and they answer different needs:
+
+| Key | What the visitor sees |
+|-----|-----------------------|
+| `force_as_login_method: true` | The login page, reduced to this provider's button. The visitor clicks it. |
+| `force_redirect: true` | No login page at all. The browser goes to the provider on its own. |
+
+Use `force_redirect` when the identity provider owns every account, and the local login form has no purpose:
+
+```yaml
+authentication:
+  1:
+    oauth2:
+      keycloak:
+        enabled: true
+        title: "Sign in with Keycloak"
+        force_redirect: true
+        skip_force_redirect_in: ['/catalogue']
+```
+
+Only one provider can force the redirect. If several declare it, the first enabled one wins. LDAP cannot declare it, because it authenticates through the local form.
+
+The redirect applies to a page the browser displays, and to nothing else. These requests always stay where they are:
+
+* An API, SCIM, MCP or XHR call, which cannot follow a handshake meant for a browser.
+* An image, a stylesheet or a file download.
+* Any write (POST, PUT, DELETE), because a browser replays a redirected write as a GET and drops the body.
+* The provider handshake itself (`/connect/...`) and `/logout`, which would otherwise build an endless loop.
+* A visitor who already has a session, including the anonymous account of a public course.
+
+Add a URL fragment to `skip_force_redirect_in` for each public area that must stay open, such as a course catalogue.
+
+### The escape hatch
+
+An unreachable provider would lock every account out, the local administrator included. Append `skipForcedRedirect=1` to any URL to reach the local login form anyway:
+
+```
+https://your-chamilo-url/login?skipForcedRedirect=1
+```
+
+The choice stays in the session, so the pages that follow keep showing the form. It also cancels `force_as_login_method` for that session, which puts every login method back on the page. To give the platform back to the provider, use `?skipForcedRedirect=0`, or close the browser session.
+
+The parameter belongs to `force_redirect` alone. While no provider declares that key, the parameter does nothing at all, and `force_as_login_method` keeps its single button.
+
+Keep this URL with your recovery notes. Test it before you enable `force_redirect` in production.
+
 ## Step 3 — Clear cache and test
 
 ```bash
@@ -93,5 +143,5 @@ Log out of Chamilo. The configured provider's button should appear on the login 
 
 ## Tips
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
+* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues. If you set `force_redirect`, learn the `?skipForcedRedirect=1` URL instead: it is the only way back to that form.
 * Role assignment defaults to student; use group mapping (Azure) to promote users to teacher or admin roles automatically — see [Azure Entra ID](azure-entra-id.md) for details on that and on matching incoming users to existing accounts.
