@@ -24,7 +24,16 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
    * **All learners** — Everyone enrolled in the course
    * **Specific users or groups** — Select individual learners or groups
 4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+5. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
+
+   ![The color picker in the event creation form](/.gitbook/assets/agenda-event-color-picker.png)
+6. Save
+
+The chosen color is then reflected wherever the event appears in the calendar:
+
+![An event displayed in its chosen color in the week view](/.gitbook/assets/agenda-event-color-result.png)
+
+By default, new events get a color based on their context (course, session, personal or global), but you can override it with any color you like.
 
 ## Managing Events
 
