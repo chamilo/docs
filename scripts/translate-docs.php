@@ -30,7 +30,7 @@ declare(strict_types=1);
  * If no language codes are given, the script looks for existing 2.x-?? branches.
  *
  * Output:  translated/<lang_code>/ (mirrors the source tree)
- * Apply:   git checkout 2.x-fr && rsync -av translated/fr_FR/ ./ && git add -A
+ * Apply:   git checkout 3.x-fr && rsync -av translated/fr_FR/ ./ && git add -A
  *          (done automatically per language when --commit is passed)
  *
  * Requires: config.php in the same directory (copy config.dist.php and fill in your key).
@@ -54,11 +54,25 @@ $apiUrl   = $translationAPIEndpoint ?? 'https://api.x.ai/v1/chat/completions';
 $model    = $translationModel       ?? 'grok-4-1-fast-non-reasoning';
 $repoRoot = dirname(__DIR__);
 
+// Reasoning-capable models (e.g. grok-4.6) default to reasoning_effort=high,
+// which costs ~30-45s of time-to-first-token per request and was causing chunk
+// requests to hit the cURL timeout. We therefore send reasoning_effort=low
+// (overridable in config.php) and use a longer cURL timeout than PHP's 30s default.
+$reasoningEffort = $translationReasoningEffort ?? 'low';
+$timeoutSeconds  = (int) ($translationTimeoutSeconds ?? 180);
+if ($timeoutSeconds < 30) {
+    $timeoutSeconds = 30;
+}
+
 // Target size (bytes) for each API request chunk.
 // Pages are split at heading boundaries so no line or section is ever broken.
 // Adjacent small sections are greedily batched together up to this limit.
 // A single section that already exceeds this size is sent as its own chunk.
-const CHUNK_TARGET = 5_000;
+$chunkTargetBytes = (int) ($translationChunkTarget ?? 5_000);
+if ($chunkTargetBytes < 1) {
+    $chunkTargetBytes = 5_000;
+}
+define('CHUNK_TARGET', $chunkTargetBytes);
 
 // Max attempts per page (or chunk) before giving up and keeping original English.
 const MAX_ATTEMPTS = 2;
@@ -109,7 +123,7 @@ function run(string $cmd): array
  */
 function branchForLang(string $lang): string
 {
-    return '2.x-' . strtolower(explode('_', $lang)[0]);
+    return '3.x-' . strtolower(explode('_', $lang)[0]);
 }
 
 /**
@@ -323,6 +337,8 @@ function checkIntegrity(string $source, string $translation): array
 
 /**
  * Call the Grok API to translate one chunk of Markdown.
+ * Transient errors (timeout, 429, 5xx) are retried with backoff. Other
+ * errors (bad request, malformed response structure) throw immediately.
  * Returns the translated text, or throws on unrecoverable error.
  */
 function callGrokTranslateChunk(
@@ -334,7 +350,9 @@ function callGrokTranslateChunk(
     string $filename,
     string $guideType,
     string $audience,
-    string $markdownChunk
+    string $markdownChunk,
+    int $timeoutSeconds = 180,
+    string $reasoningEffort = 'low'
 ): string {
     $systemPrompt = <<<PROMPT
         You are an expert technical translator for Chamilo LMS (Learning Management System) documentation.
@@ -400,41 +418,81 @@ function callGrokTranslateChunk(
         ],
         'temperature' => 0.1, // Low: we want consistent, literal translation
     ];
-
-    $ch = curl_init($apiUrl);
-    if ($ch === false) {
-        throw new RuntimeException('Failed to initialise cURL.');
+    if ($reasoningEffort !== '') {
+        $payload['reasoning_effort'] = $reasoningEffort;
     }
 
-    curl_setopt_array($ch, [
-        CURLOPT_POST           => true,
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER     => [
-            'Content-Type: application/json',
-            'Accept: application/json',
-            'Authorization: Bearer ' . $apiKey,
-        ],
-        CURLOPT_POSTFIELDS => json_encode($payload, JSON_UNESCAPED_UNICODE),
-        CURLOPT_TIMEOUT    => 120,
-    ]);
+    $payloadJson = json_encode($payload, JSON_UNESCAPED_UNICODE);
+    if ($payloadJson === false) {
+        throw new RuntimeException('Failed to encode Grok request payload as JSON.');
+    }
 
-    $body = curl_exec($ch);
+    $maxAttempts = 3;
+    $lastError   = null;
+    $body        = null;
+    $httpCode    = 0;
 
-    if ($body === false) {
-        $err   = curl_error($ch);
-        $errno = curl_errno($ch);
+    for ($attempt = 1; $attempt <= $maxAttempts; $attempt++) {
+        $ch = curl_init($apiUrl);
+        if ($ch === false) {
+            throw new RuntimeException('Failed to initialise cURL.');
+        }
+
+        curl_setopt_array($ch, [
+            CURLOPT_POST           => true,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HTTPHEADER     => [
+                'Content-Type: application/json',
+                'Accept: application/json',
+                'Authorization: Bearer ' . $apiKey,
+                'x-grok-conv-id: chamilo-docs-translate-v1',
+            ],
+            CURLOPT_POSTFIELDS     => $payloadJson,
+            CURLOPT_CONNECTTIMEOUT => 15,
+            CURLOPT_TIMEOUT        => $timeoutSeconds,
+        ]);
+
+        $startedAt = microtime(true);
+        $body      = curl_exec($ch);
+        $elapsed   = round(microtime(true) - $startedAt, 1);
+        $httpCode  = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+        if ($body === false) {
+            $err   = curl_error($ch);
+            $errno = curl_errno($ch);
+            curl_close($ch);
+            $lastError = "cURL error ({$errno}): {$err} after {$elapsed}s";
+            if ($attempt < $maxAttempts && in_array($errno, [CURLE_OPERATION_TIMEDOUT, CURLE_COULDNT_CONNECT, CURLE_RECV_ERROR], true)) {
+                $sleep = $attempt * 2;
+                eprintln("    [Grok] {$lastError} - retrying in {$sleep}s (attempt {$attempt}/{$maxAttempts}).", true);
+                sleep($sleep);
+                continue;
+            }
+            throw new RuntimeException($lastError);
+        }
+
         curl_close($ch);
-        throw new RuntimeException("cURL error ({$errno}): {$err}");
-    }
 
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
+        if ($httpCode === 429 || $httpCode >= 500) {
+            $snippet   = mb_substr($body, 0, 300);
+            $lastError = "Grok API HTTP error {$httpCode} after {$elapsed}s: {$snippet}";
+            if ($attempt < $maxAttempts) {
+                $sleep = $attempt * 3;
+                eprintln("    [Grok] {$lastError} - retrying in {$sleep}s (attempt {$attempt}/{$maxAttempts}).", true);
+                sleep($sleep);
+                continue;
+            }
+            throw new RuntimeException($lastError);
+        }
+
+        break; // got a non-retryable response (2xx or a non-429/5xx error) — stop retrying
+    }
 
     if ($httpCode < 200 || $httpCode >= 300) {
-        throw new RuntimeException("Grok API HTTP {$httpCode}: " . mb_substr($body, 0, 300));
+        throw new RuntimeException("Grok API HTTP {$httpCode}: " . mb_substr((string) $body, 0, 300));
     }
 
-    $data = json_decode($body, true);
+    $data = json_decode((string) $body, true);
     if (json_last_error() !== JSON_ERROR_NONE) {
         throw new RuntimeException('Invalid JSON in API response: ' . json_last_error_msg());
     }
@@ -442,6 +500,18 @@ function callGrokTranslateChunk(
     if (!isset($data['choices'][0]['message']['content'])) {
         throw new RuntimeException('Unexpected API response structure (missing choices/content).');
     }
+
+    $usage            = $data['usage'] ?? [];
+    $promptTokens     = $usage['prompt_tokens'] ?? '?';
+    $completionTokens = $usage['completion_tokens'] ?? '?';
+    $reasoningTokens   = $usage['completion_tokens_details']['reasoning_tokens']
+        ?? $usage['reasoning_tokens']
+        ?? '?';
+    eprintln(
+        "    [Grok] HTTP {$httpCode} in {$elapsed}s"
+        . " (prompt={$promptTokens}, completion={$completionTokens}, reasoning={$reasoningTokens}).",
+        true
+    );
 
     $content = trim($data['choices'][0]['message']['content']);
 
@@ -467,7 +537,9 @@ function translatePage(
     string $langCode,
     string $langName,
     string $relPath,
-    string $content
+    string $content,
+    int $timeoutSeconds = 180,
+    string $reasoningEffort = 'low'
 ): array {
     ['type' => $guideType, 'audience' => $audience] = guideContext($relPath);
     $filename = basename($relPath);
@@ -492,7 +564,8 @@ function translatePage(
                     $apiUrl, $apiKey, $model,
                     $langCode, $langName,
                     $filename . $chunkLabel, $guideType, $audience,
-                    $chunk
+                    $chunk,
+                    $timeoutSeconds, $reasoningEffort
                 );
                 break; // success
             } catch (Throwable $e) {
@@ -714,6 +787,12 @@ if ($apiKey === '' || $apiKey === '{your_api_key}') {
     }
 }
 
+eprintln(
+    "Grok client: model={$model} reasoning_effort={$reasoningEffort}"
+    . " timeout={$timeoutSeconds}s chunk_target=" . CHUNK_TARGET . 'B.',
+    true
+);
+
 // ── Per-language translation loop ─────────────────────────────────────────────
 
 // report[lang] = ['ok'=>[], 'warnings'=>[file=>[msgs]], 'failed'=>[file=>reason]]
@@ -758,7 +837,10 @@ foreach ($langCodes as $lang) {
             continue;
         }
 
-        $result = translatePage($apiUrl, $apiKey, $model, $lang, $langName, $relPath, $source);
+        $result = translatePage(
+            $apiUrl, $apiKey, $model, $lang, $langName, $relPath, $source,
+            $timeoutSeconds, $reasoningEffort
+        );
 
         if ($result['error'] !== null) {
             eprintln("    FAILED: " . $result['error']);
