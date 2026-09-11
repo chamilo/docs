@@ -92,5 +92,5 @@ The `var/` directory needs to remain writeable by the web server.
 
 * Set `APP_ENV=dev` and `APP_DEBUG=1` in `.env` for detailed error messages
 * The Symfony debug toolbar appears at the bottom of pages in development mode
-* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=1`
+* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=true` (after a cache clear — see [Configuration](../../admin-guide/installation/configuration.md#enable-the-api-documentation))
 * Use `yarn encore dev --watch` to automatically rebuild frontend changes

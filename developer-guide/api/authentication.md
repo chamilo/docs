@@ -57,4 +57,6 @@ JWT_PASSPHRASE=your-passphrase
 
 ## API Documentation
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+When `APP_ENABLE_API_ENTRYPOINT=true` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+
+Setting the variable isn't enough on its own — the Symfony cache must be cleared for the change to take effect. See [Environment Variables (.env)](../../admin-guide/installation/configuration.md#enable-the-api-documentation) in the Admin Guide.

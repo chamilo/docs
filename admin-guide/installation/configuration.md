@@ -20,6 +20,7 @@ A default `.env.dist` file ships with Chamilo and contains documented defaults. 
 | `DATABASE_USER` | The database username, as given by you to the installation wizard. | See below. |
 | `DATABASE_PASSWORD` | The database user's password, as given by you to the installation wizard. | See below. |
 | `TRUSTED_PROXIES` | (Optional) If you are hosting Chamilo behind a reverse proxy, you need to provide the IP(s) of the reverse proxy here for Chamilo to be able to interpret calls and generate responses correctly. | |
+| `APP_ENABLE_API_ENTRYPOINT` | (Optional) Exposes the interactive API documentation (Swagger/OpenAPI) at `/api`. Off by default. Requires a cache clear to take effect — see [Enable the API Documentation](#enable-the-api-documentation) below. | `true` |
 
 Other settings in .env are relatively rarely modified.
 
@@ -85,6 +86,21 @@ Then clear and warm the cache:
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
+
+### Enable the API Documentation
+
+```bash
+# In .env
+APP_ENABLE_API_ENTRYPOINT=true
+```
+
+Then clear the cache so the change takes effect:
+
+```bash
+php bin/console cache:clear
+```
+
+The interactive API documentation (Swagger/OpenAPI) is then available at `/api`. Editing `.env` alone is not enough: the resolved value is baked into Symfony's compiled cache, so `/api` keeps returning its previous state (enabled or not) until the cache is cleared. The **System > Clean temporary files** action in the administration panel does *not* do this — see [System Tools](../system/system-tools.md#clean-temporary-files) for why — so this specific change requires shell access to run `cache:clear`.
 
 ### Configure Trusted Proxies
 

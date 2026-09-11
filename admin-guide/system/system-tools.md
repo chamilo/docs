@@ -6,6 +6,8 @@ This page covers the System block's maintenance and inspection utilities.
 
 **System > Clean temporary files** shows how many temporary upload files exist and how much space they use, then lets you purge them — either everything, or only files older than a configurable age. A dry-run mode lets you preview what would be deleted first. The same action also clears stale legacy build files and regenerates compiled CSS assets.
 
+This action deliberately skips Symfony's own cache directories (`var/cache/dev`, `var/cache/prod`, `var/cache/test`, and cache pools) — it only cleans stray files that ended up elsewhere under `var/cache/`. It will **not** pick up a change you made in `.env` or under `config/` (for example, enabling the API documentation — see [Enable the API Documentation](../installation/configuration.md#enable-the-api-documentation)). For that, you need shell access to run `php bin/console cache:clear`.
+
 ## System Update
 
 **System > System update** runs Chamilo's self-update workflow directly from the admin panel, as a sequence of discrete, resumable steps:
