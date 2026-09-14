@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-This is the **Chamilo 2.0 documentation site** — a GitBook Markdown project. It is *not* the Chamilo application. There is no build step, no test suite, no `package.json` or `composer.json` here. The Chamilo LMS itself lives in a separate repo ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)); pages under `developer-guide/contributing/` (PHPUnit, PHPStan, Composer commands, coding conventions) describe **that** codebase and are not runnable here.
+This is the **Chamilo 3 documentation site** — a GitBook Markdown project. It is *not* the Chamilo application. There is no build step, no test suite, no `package.json` or `composer.json` here. The Chamilo LMS itself lives in a separate repo ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)); pages under `developer-guide/contributing/` (PHPUnit, PHPStan, Composer commands, coding conventions) describe **that** codebase and are not runnable here.
 
 GitBook renders the site from the committed Markdown; the only executable code is the two PHP scripts in `scripts/`.
 
@@ -19,16 +19,17 @@ GitBook renders the site from the committed Markdown; the only executable code i
 
 ## Branch model
 
-* **`2.x`** — the English *source* branch. All authoring and editing happens here. This is the active working branch.
-* **`2.x-<lang>`** — per-language translation branches (e.g. `2.x-fr`, `2.x-es`, `2.x-de`, `2.x-zh_CN`). They mirror the same tree, translated. Sync status is tracked via matching tags (`2.x-fr` carries `2.x-fr-vN` to show how far behind it is).
-* **`1.9.x` / `1.10.x` / `1.11.x`** — older Chamilo doc series with their own translation branches. Don't touch these for 2.0 work.
-* **`master`** — the historical default branch; 2.0 work is on `2.x`.
+* **`3.x`** — the English *source* branch. All authoring and editing happens here. This is the active working branch.
+* **`2.x`** — the previous English source branch. It is where the `2.x-<lang>` translations were cut from. Don't author new pages here.
+* **`2.x-<lang>`** — per-language translation branches (e.g. `2.x-fr`, `2.x-es`, `2.x-de`, `2.x-zh_CN`). They mirror the same tree, translated. Sync status is tracked via matching tags (`2.x-fr` carries `2.x-fr-vN` to show how far behind it is). **No `3.x-<lang>` branch exists yet**, and no `3.x-*` tag either.
+* **`1.9.x` / `1.10.x` / `1.11.x`** — older Chamilo doc series with their own translation branches. Don't touch these for 3.0 work.
+* **`master`** — the historical default branch; 3.0 work is on `3.x`.
 
 ## Common commands
 
 ### Tagging a release
 
-Run **only from a clean `2.x` checkout** (it checks for uncommitted changes). Creates the next `2.x-vN` git tag, prepends an entry to `CHANGELOG.md` (pages changed + commit list), commits, tags, then reports how far behind each translation branch is:
+Run **only from a clean checkout of the source branch** (it checks for uncommitted changes). The branch check accepts any `N.x` name and derives the tag series from it, so on `3.x` it creates the next `3.x-vN` tag. It prepends an entry to `CHANGELOG.md` (pages changed + commit list), commits, tags, then reports how far behind each translation branch is:
 
 ```bash
 php scripts/tag-release.php --dry-run   # preview the entry + tag
@@ -63,6 +64,13 @@ git checkout 2.x-fr && rsync -av translated/fr_FR/ ./ && git add -A -- ':!transl
 ```
 
 Language codes follow Chamilo's `.po` convention (`fr_FR`, `es`, `pt_BR`, `zh_CN`, …). Short branch suffixes (`2.x-fr`) map to full codes internally.
+
+**Translation targets are `3.x-<lang>`, and none of those branches exists yet.** `branchForLang()`
+in `scripts/translate-docs.php` returns `'3.x-' . $lang`, so an apply step points at a branch you
+still have to create. Language auto-detection is a separate matter: with no language argument the
+script lists local `*.x-??` branches, which today are the `2.x-<lang>` ones, so it would pick those
+languages while writing for `3.x-<lang>`. Pass the language codes explicitly until the `3.x`
+translation branches exist. Several comments in that file still say `2.x`; the code does not.
 
 ## How the translation pipeline constrains authoring
 
