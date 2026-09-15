@@ -7,5 +7,6 @@ This section covers the tools you use to add learning content to your course. Ch
 * **[Learning Paths](learning-paths.md)** — Build structured sequences of content with prerequisites and progress tracking
 * **[Glossary](glossary.md)** — Define key terms that learners can reference throughout the course
 * **[Announcements](announcements.md)** — Send messages and updates to your enrolled learners
+* **[Multi-Language Content](multi-language-content.md)** — Write several language versions of the same content and let each learner see only their own
 
 Each tool is accessible from the course homepage tool grid. Click the tool's icon to open it.
