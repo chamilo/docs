@@ -7,6 +7,7 @@ site:
       title: Chamilo 3
       path: chamilo-3
       default: true
+      draft: true
       content:
         directory: ./chamilo-3
         language: en
