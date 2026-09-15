@@ -10,7 +10,7 @@ It involves three different people, each seeing a different side of it:
 
 ## Enabling the Feature
 
-This is an administrator task, not a teacher one. Under **Administration > Configuration settings > Editor**, the **Support multi-language HTML content** setting (`translate_html`) must be enabled. If you don't see the **Lang ISO** button described below in your editor toolbar, this is almost certainly why — ask your administrator. See [Editor Settings](../../admin-guide/platform-settings/editor-settings.md) for the full settings reference.
+This is an administrator task, not a teacher one. Under **Administration > Configuration settings > Editor**, the **Support multi-language HTML content** setting (`translate_html`) must be enabled. If you don't see the **Lang ISO** button described below in your editor toolbar, this is almost certainly why — ask your administrator. See [Editor Settings](../../admin-guide/platform-settings/editor-settings.md) for the full settings reference. From v3.0.0, this setting is enabled by default (it was not the case prior to this version) unless you have upgraded your version from a previous one where the setting was disabled.
 
 Turning this setting off again does not delete or break any content already written this way — see [What Learners See](#what-learners-see) below.
 
