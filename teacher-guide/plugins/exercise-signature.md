@@ -1,23 +1,23 @@
-# Exercise Signature
+# Signature d’exercice
 
-Exercise Signature <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Exercise Signature" data-size="line"> adds an electronic-signature step after a student finishes a test attempt, so their completion can be authenticated — useful for compliance or certification contexts. It does not touch scores, answers, or gradebook data; it only records a signature alongside the attempt.
+Exercise Signature <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Signature d’exercice" data-size="line"> ajoute une étape de signature électronique après qu’un étudiant a terminé une tentative de test, afin que son achèvement puisse être authentifié — utile dans des contextes de conformité ou de certification. Elle n’affecte ni les scores, ni les réponses, ni les données du carnet de notes ; elle n’enregistre qu’une signature associée à la tentative.
 
-## Turning It On for a Test
+## L’activer pour un test
 
-Open the test's settings, where two checkboxes appear:
+Ouvrez les paramètres du test, où deux cases à cocher apparaissent :
 
-* **Signature activated** — Adds the signature step to this test
-* **Signature mandatory** — Requires the signature before the attempt is considered complete
+* **Signature activated** — Ajoute l’étape de signature à ce test
+* **Signature mandatory** — Exige la signature avant que la tentative soit considérée comme terminée
 
-## What Students See
+## Ce que voient les étudiants
 
-After submitting the test, the student sees a **Sign** button opening a signature pad (draw, clear, or cancel). Each attempt can only be signed once, and only by the student who owns it, after the attempt is complete.
+Après avoir soumis le test, l’étudiant voit un bouton **Sign** ouvrant un pavé de signature (dessiner, effacer ou annuler). Chaque tentative ne peut être signée qu’une seule fois, et uniquement par l’étudiant qui en est le propriétaire, une fois la tentative terminée.
 
-## What You See
+## Ce que vous voyez
 
-When you open a signed attempt's result page to review it, the student's stored signature image is shown automatically alongside their submission.
+Lorsque vous ouvrez la page de résultats d’une tentative signée pour la consulter, l’image de signature stockée de l’étudiant s’affiche automatiquement à côté de sa soumission.
 
-## Tips
+## Conseils
 
-* **Make it mandatory for anything that needs authentication** — Otherwise a student can skip signing, and you'll have some signed and some unsigned attempts to sort out
-* **It's a signature, not a re-verification** — This plugin does not verify identity by itself; combine it with other measures (e.g. Exercise Monitoring) if identity assurance is the goal
+* **Rendez-la obligatoire pour tout ce qui nécessite une authentification** — Sinon un étudiant peut omettre de signer, et vous aurez des tentatives signées et d’autres non signées à démêler
+* **C’est une signature, pas une revérification** — Ce plugin ne vérifie pas l’identité à lui seul ; combinez-le avec d’autres mesures (par ex. Exercise Monitoring) si l’assurance d’identité est l’objectif

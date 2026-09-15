@@ -1,20 +1,20 @@
-# Global Agenda
+# Agenda globale
 
-The Global Agenda is the same calendar tool used for course and personal agendas, opened in a platform-wide mode: events created here have no course or session attached, which is exactly what makes them visible to every logged-in user rather than just a course or session's members.
+L’agenda globale est le même outil de calendrier que celui utilisé pour les agendas de cours et personnels, ouvert en mode plateforme : les événements créés ici n’ont ni cours ni session rattachés, ce qui les rend visibles pour tout utilisateur connecté plutôt que seulement pour les membres d’un cours ou d’une session.
 
-## Accessing the Global Agenda
+## Accéder à l’agenda globale
 
-From the administration panel, click **Platform > Global agenda**.
+Depuis le panneau d’administration, cliquez sur **Plateforme > Agenda globale**.
 
-## How It Differs from Course and Session Agendas
+## Différences avec les agendas de cours et de session
 
-A calendar event's scope comes from whether it's linked to a course or session resource:
+La portée d’un événement de calendrier dépend de son lien éventuel avec une ressource de cours ou de session :
 
-* **Course/session events** stay restricted to that course's or session's enrolled members
-* **Global events** have no such link, so any logged-in user can see them
+* **Événements de cours/session** restent limités aux membres inscrits de ce cours ou de cette session
+* **Événements globaux** n’ont pas un tel lien, de sorte que tout utilisateur connecté peut les voir
 
-Aside from that scoping difference, global events support the same features as course events: **recurrence** (repeat on a schedule), **file attachments**, and **reminders**.
+Hormis cette différence de portée, les événements globaux prennent en charge les mêmes fonctionnalités que les événements de cours : **récurrence** (répétition selon un planning), **pièces jointes** et **rappels**.
 
-## Use Cases
+## Cas d’usage
 
-Use the Global Agenda for platform-wide dates that aren't tied to any specific course — maintenance windows, organization-wide deadlines, holidays, or company-wide events — rather than duplicating the same event across every course's agenda.
+Utilisez l’agenda globale pour les dates à l’échelle de la plateforme qui ne sont liées à aucun cours particulier — fenêtres de maintenance, échéances organisationnelles, jours fériés ou événements d’entreprise — plutôt que de dupliquer le même événement dans l’agenda de chaque cours.

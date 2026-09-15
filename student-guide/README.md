@@ -1,30 +1,30 @@
-# Student Guide
+# Guide de l'étudiant
 
-Welcome to the Chamilo 3.0 Student Guide. This guide is designed for learners — anyone taking courses through a Chamilo platform, whether as part of a school, a company training program, or an open online course.
+Bienvenue dans le Guide de l'étudiant de Chamilo 3.0. Ce guide s'adresse aux apprenants — toute personne suivant des cours via une plateforme Chamilo, que ce soit dans le cadre d'une école, d'un programme de formation en entreprise ou d'un cours en ligne ouvert.
 
-Whether this is your first time on Chamilo or you are already enrolled in several courses, this guide will help you get around, join courses, and keep your account secure.
+Que ce soit votre première visite sur Chamilo ou que vous soyez déjà inscrit à plusieurs cours, ce guide vous aidera à vous orienter, à rejoindre des cours et à sécuriser votre compte.
 
-## What You Can Do as a Student
+## Ce que vous pouvez faire en tant qu'étudiant
 
-As a learner in Chamilo, you can:
+En tant qu'apprenant dans Chamilo, vous pouvez :
 
-* **Create an account** (if your platform allows self-registration) and sign in
-* **Join courses** — through a public catalog, an invitation, or enrollment by an administrator or teacher
-* **Work through course tools** — read documents, follow learning paths, take exercises, submit assignments, and more
-* **Communicate** — use forums, chat, and groups to interact with teachers and other learners
-* **Track your own progress** — see your scores, completion status, and certificates
-* **Get help from an AI Tutor**, if your platform has enabled it
-* **Keep your account secure** — reset a forgotten password and enable two-factor authentication
+* **Créer un compte** (si votre plateforme autorise l'auto-inscription) et vous connecter
+* **Rejoindre des cours** — via un catalogue public, une invitation, ou une inscription par un administrateur ou un enseignant
+* **Utiliser les outils de cours** — lire des documents, suivre des parcours d'apprentissage, passer des exercices, déposer des devoirs, et plus encore
+* **Communiquer** — utiliser les forums, le chat et les groupes pour interagir avec les enseignants et les autres apprenants
+* **Suivre votre propre progression** — consulter vos scores, votre statut d'achèvement et vos certificats
+* **Obtenir de l'aide d'un tuteur IA**, si votre plateforme l'a activé
+* **Sécuriser votre compte** — réinitialiser un mot de passe oublié et activer l'authentification à deux facteurs
 
-## How This Guide Is Organized
+## Organisation de ce guide
 
-1. **Getting Started** — Create your account (or log in), and understand the general interface
-2. **Courses** — Subscribe to a course, work through its tools (learning paths, tests, assignments, forum, chat), and use the AI Tutor
-3. **Inbox** — Send and receive private messages with other platform users
-4. **Social Network** — Connect with other users, if your administrator has enabled this feature
-5. **My Progress** — Get a quick overview of your own activity and results across all your courses
-6. **Account and Security** — Reset your password, enable two-factor authentication, and understand CAPTCHA
+1. **Premiers pas** — Créez votre compte (ou connectez-vous) et comprenez l'interface générale
+2. **Cours** — Inscrivez-vous à un cours, utilisez ses outils (parcours d'apprentissage, tests, devoirs, forum, chat) et utilisez le tuteur IA
+3. **Boîte de réception** — Envoyez et recevez des messages privés avec les autres utilisateurs de la plateforme
+4. **Réseau social** — Connectez-vous avec d'autres utilisateurs, si votre administrateur a activé cette fonctionnalité
+5. **Ma progression** — Obtenez un aperçu rapide de votre activité et de vos résultats dans l'ensemble de vos cours
+6. **Compte et sécurité** — Réinitialisez votre mot de passe, activez l'authentification à deux facteurs et comprenez le CAPTCHA
 
-This guide covers the essentials to get you started. It will grow to cover more topics over time.
+Ce guide couvre l'essentiel pour vous lancer. Il s'enrichira progressivement pour aborder davantage de sujets.
 
-Let's get started.
+Commençons.

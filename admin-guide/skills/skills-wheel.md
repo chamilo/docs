@@ -1,23 +1,23 @@
-# Skills Wheel
+# Roue des compétences
 
-The Skills Wheel is a zoomable, wheel-shaped diagram of the entire skill tree — a visual alternative to browsing the flat list in [Managing Skills](managing-skills.md).
+La Roue des compétences est un diagramme zoomable en forme de roue de l’arbre complet des compétences — une alternative visuelle à la consultation de la liste plate dans [Gestion des compétences](managing-skills.md).
 
-## Accessing the Skills Wheel
+## Accéder à la Roue des compétences
 
-From the administration panel, click **Skills > Skills wheel**.
+Depuis le panneau d’administration, cliquez sur **Skills > Skills wheel**.
 
-![The Skills wheel page, showing the search sidebar, legend, and the full skill tree as a segmented wheel](/.gitbook/assets/admin-skills-wheel.png)
+![La page Roue des compétences, montrant la barre latérale de recherche, la légende et l’arbre complet des compétences sous forme de roue segmentée](/.gitbook/assets/admin-skills-wheel.png)
 
-## What It Shows
+## Ce qu’elle affiche
 
-Each segment of the wheel is a skill, expandable into its child skills. A segment indicates whether the skill has a linked gradebook (see [Skills and Assessments](skills-assessments.md)) and, when viewing a specific user, whether that user has already achieved it.
+Chaque segment de la roue est une compétence, extensible vers ses compétences enfants. Un segment indique si la compétence a un carnet de notes lié (voir [Compétences et évaluations](skills-assessments.md)) et, lors de la consultation d’un utilisateur spécifique, si cet utilisateur l’a déjà acquise.
 
-Click a segment to zoom into it and reveal its child skills; click the center circle to zoom back out.
+Cliquez sur un segment pour zoomer dessus et révéler ses compétences enfants ; cliquez sur le cercle central pour dézoomer.
 
-![The wheel zoomed into the "Idiomas" branch, showing its language sub-skills](/.gitbook/assets/admin-skills-wheel-zoom.png)
+![La roue zoomée sur la branche « Idiomas », montrant ses sous-compétences linguistiques](/.gitbook/assets/admin-skills-wheel-zoom.png)
 
-Right-click a segment to open its details: description, parent skill, and the courses (if any) that award it. From this dialog, administrators can also edit the skill, create a child skill under it, or add it to the profile search described below.
+Cliquez avec le bouton droit sur un segment pour ouvrir ses détails : description, compétence parente et les cours (le cas échéant) qui la délivrent. Depuis cette boîte de dialogue, les administrateurs peuvent également modifier la compétence, créer une compétence enfant sous celle-ci, ou l’ajouter à la recherche de profil décrite ci-dessous.
 
-![The skill detail dialog for "Conflict Management", showing its description and the Edit, Create child skill, and Add skill to search profile actions](/.gitbook/assets/admin-skills-wheel-detail.png)
+![La boîte de dialogue de détail de compétence pour « Conflict Management », montrant sa description et les actions Modifier, Créer une compétence enfant et Ajouter la compétence au profil de recherche](/.gitbook/assets/admin-skills-wheel-detail.png)
 
-Administrators and Human Resources Manager users also get a profile search here: skills can be grouped into "profiles" (sets of skills expected for a given role or job description), and this page lets you search for users whose acquired skills match a given profile — useful for identifying who's ready for a role, or where the gaps are across a team.
+Les administrateurs et les utilisateurs Human Resources Manager disposent également ici d’une recherche de profil : les compétences peuvent être regroupées en « profils » (ensembles de compétences attendues pour un rôle ou une description de poste donné), et cette page permet de rechercher les utilisateurs dont les compétences acquises correspondent à un profil donné — utile pour identifier qui est prêt pour un rôle, ou où se situent les écarts au sein d’une équipe.

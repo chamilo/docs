@@ -1,46 +1,46 @@
 # Plugins
 
-Beyond the tools built into Chamilo, your platform administrator can install and enable **plugins** — optional features that add new tools, settings, or behavior to your courses. Plugins are off by default; each one only appears once your administrator has turned it on, and some only take effect after you also enable them for a specific course.
+Au-delà des outils intégrés à Chamilo, l’administrateur de votre plateforme peut installer et activer des **plugins** — des fonctionnalités optionnelles qui ajoutent de nouveaux outils, paramètres ou comportements à vos cours. Les plugins sont désactivés par défaut ; chacun n’apparaît qu’une fois que votre administrateur l’a activé, et certains ne prennent effet qu’après que vous les ayez également activés pour un cours donné.
 
-This section documents the plugins that change something a **teacher** interacts with directly. If you don't see a plugin described here in your own courses, it likely isn't enabled on your platform — ask your administrator.
+Cette section documente les plugins qui modifient quelque chose avec lequel un **enseignant** interagit directement. Si vous ne voyez pas dans vos propres cours un plugin décrit ici, il n’est probablement pas activé sur votre plateforme — demandez à votre administrateur.
 
-## Assessment & Testing
+## Évaluation et tests
 
-* **[Exercise Focused](exercise-focused.md)** — Detect when a student leaves the exam window during a test, with an on-screen warning and optional auto-submit
-* **[Exercise Monitoring](exercise-monitoring.md)** — Capture webcam photos of a student and their ID during a monitored test attempt
-* **[Exercise Signature](exercise-signature.md)** — Require students to sign electronically after completing a test
-* **[Question Options Evaluation](question-options-evaluation.md)** — Apply a negative-marking (penalty) scoring formula to a test instead of Chamilo's default scoring
-* **[Positioning](positioning.md)** — Compare a learner's before/after scores on an initial and a final test with a radar chart
-* **[Test to PDF](test-to-pdf.md)** — Export a test's questions and/or answers to a printable PDF
+* **[Exercise Focused](exercise-focused.md)** — Détecter lorsqu’un étudiant quitte la fenêtre d’examen pendant un test, avec un avertissement à l’écran et une soumission automatique optionnelle
+* **[Exercise Monitoring](exercise-monitoring.md)** — Capturer des photos webcam d’un étudiant et de sa pièce d’identité pendant une tentative de test surveillée
+* **[Exercise Signature](exercise-signature.md)** — Exiger des étudiants qu’ils signent électroniquement après avoir terminé un test
+* **[Question Options Evaluation](question-options-evaluation.md)** — Appliquer une formule de notation avec points négatifs (pénalité) à un test, à la place de la notation par défaut de Chamilo
+* **[Positioning](positioning.md)** — Comparer les scores avant/après d’un apprenant sur un test initial et un test final à l’aide d’un graphique radar
+* **[Test to PDF](test-to-pdf.md)** — Exporter les questions et/ou les réponses d’un test vers un PDF imprimable
 
-## Content & Authoring
+## Contenu et création
 
-* **[C-Studio Content Editor](cstudio.md)** — Build interactive learning path pages (quizzes, drag-and-drop, hotspot images, and more) with a visual editor, without writing HTML
-* **[H5P Import](h5p-import.md)** — Upload H5P interactive-content packages into a course or a learning path
-* **ONLYOFFICE** — Create and co-edit real Word, Excel, and PowerPoint documents from the Documents tool; already covered in [Documents](../adding-content/documents.md#onlyoffice-integration)
+* **[C-Studio Content Editor](cstudio.md)** — Concevoir des pages de parcours d’apprentissage interactives (quiz, glisser-déposer, images à zones sensibles, et plus) avec un éditeur visuel, sans écrire de HTML
+* **[H5P Import](h5p-import.md)** — Téléverser des paquets de contenu interactif H5P dans un cours ou un parcours d’apprentissage
+* **ONLYOFFICE** — Créer et coéditer de vrais documents Word, Excel et PowerPoint depuis l’outil Documents ; déjà traité dans [Documents](../adding-content/documents.md#onlyoffice-integration)
 
-## Communication & Conferencing
+## Communication et visioconférence
 
-* **Videoconferencing (BigBlueButton)** and **Zoom Videoconferencing** — Run live video sessions from your course; covered in [Video Conferencing](../collaboration-and-communication/video-conferencing.md)
-* **[Notify in Course Home](notify-in-course-home.md)** — Show a one-time popup notice to everyone who visits your course homepage
+* **Visioconférence (BigBlueButton)** et **Zoom Videoconferencing** — Animer des sessions vidéo en direct depuis votre cours ; traité dans [Visioconférence](../collaboration-and-communication/video-conferencing.md)
+* **[Notify in Course Home](notify-in-course-home.md)** — Afficher une notification contextuelle unique à toute personne qui visite la page d’accueil de votre cours
 
-## Certificates & Compliance
+## Certificats et conformité
 
-* **[Custom Certificate](custom-certificate.md)** — Replace the standard gradebook certificate with your own design, logos, and signatures
-* **[Course Legal Agreement](course-legal-agreement.md)** — Require students to accept a terms/legal notice before accessing your course
+* **[Custom Certificate](custom-certificate.md)** — Remplacer le certificat standard du carnet de notes par votre propre conception, logos et signatures
+* **[Course Legal Agreement](course-legal-agreement.md)** — Exiger des étudiants qu’ils acceptent des conditions / un avis juridique avant d’accéder à votre cours
 
-## Tracking & Follow-up
+## Suivi et accompagnement
 
-* **[Student Follow-up](student-follow-up.md)** — Keep private or shared timestamped notes about a learner's progress and difficulties
-* **[Learning Calendar](learning-calendar.md)** — Plan busy/exam/free days for learners in blended or apprenticeship-style courses
-* **[Teacher Notes](teacher-notes.md)** — Keep private notes about specific learners in a course, visible only to the teaching team
+* **[Student Follow-up](student-follow-up.md)** — Conserver des notes horodatées, privées ou partagées, sur la progression et les difficultés d’un apprenant
+* **[Learning Calendar](learning-calendar.md)** — Planifier les jours occupés / d’examen / libres pour les apprenants dans des cours hybrides ou de type apprentissage
+* **[Teacher Notes](teacher-notes.md)** — Conserver des notes privées sur des apprenants spécifiques dans un cours, visibles uniquement par l’équipe pédagogique
 
-## Integrations
+## Intégrations
 
-* **[IMS/LTI Client](ims-lti.md)** — Launch an external tool or content provider from inside your course
-* **[LTI 1.3 Advantage Provider](lti-1-3-advantage-provider.md)** — Let an external LMS launch one of your exercises or learning paths (admin-configured, nothing for teachers to set up)
+* **[IMS/LTI Client](ims-lti.md)** — Lancer un outil externe ou un fournisseur de contenu depuis l’intérieur de votre cours
+* **[LTI 1.3 Advantage Provider](lti-1-3-advantage-provider.md)** — Permettre à un LMS externe de lancer l’un de vos exercices ou parcours d’apprentissage (configuré par l’administrateur, rien à paramétrer pour les enseignants)
 
-## Survey Exports
+## Exports d’enquêtes
 
-* **[Survey Export CSV](survey-export-csv.md)** — Export a survey's results to a compact CSV file
-* **[Survey Export TXT](survey-export-txt.md)** — Export a survey's results to a human-readable text file
+* **[Survey Export CSV](survey-export-csv.md)** — Exporter les résultats d’une enquête vers un fichier CSV compact
+* **[Survey Export TXT](survey-export-txt.md)** — Exporter les résultats d’une enquête vers un fichier texte lisible par un humain

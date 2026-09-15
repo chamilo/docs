@@ -1,13 +1,13 @@
-# Skills and Assessments
+# Compétences et évaluations
 
-This is where skills connect to the gradebook: it's the bridge between assessment results and automatic skill awards.
+C’est ici que les compétences se relient au carnet de notes : c’est le pont entre les résultats d’évaluation et l’attribution automatique des compétences.
 
-## Accessing Skills and Assessments
+## Accéder à Compétences et évaluations
 
-From the administration panel, click **Skills > Skills and assessments**.
+Depuis le panneau d’administration, cliquez sur **Compétences > Compétences et évaluations**.
 
-## What It Shows
+## Ce qu’il affiche
 
-A list of gradebook categories, with controls to link each one to a skill. Once linked, any learner who reaches that gradebook category's passing threshold is automatically awarded the associated skill — no manual step required.
+Une liste des catégories du carnet de notes, avec des commandes pour lier chacune d’elles à une compétence. Une fois le lien établi, tout apprenant qui atteint le seuil de réussite de cette catégorie du carnet de notes se voit automatiquement attribuer la compétence associée — aucune étape manuelle n’est requise.
 
-This is the recommended way to award skills at scale: rather than assigning skills to users one by one, link the relevant gradebook category once, and let it apply to every learner who qualifies. See [Gradebook (Assessments)](../platform-settings/gradebook-settings.md) for how gradebook categories and thresholds are configured in the first place.
+C’est la méthode recommandée pour attribuer des compétences à grande échelle : plutôt que d’assigner les compétences aux utilisateurs un par un, liez une seule fois la catégorie pertinente du carnet de notes, et laissez-la s’appliquer à chaque apprenant qui y satisfait. Voir [Carnet de notes (évaluations)](../platform-settings/gradebook-settings.md) pour la configuration initiale des catégories du carnet de notes et des seuils.

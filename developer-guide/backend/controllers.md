@@ -1,71 +1,71 @@
-# Controllers
+# Contrôleurs
 
-Chamilo 3.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 3.0 utilise un grand nombre de contrôleurs (de l’ordre de plusieurs dizaines) répartis dans les bundles. Le décompte exact varie d’une version à l’autre — considérez les noms ci-dessous comme illustratifs, et non exhaustifs.
 
-## Controller Types
+## Types de contrôleurs
 
-### Admin Controllers
+### Contrôleurs d’administration
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+Situés dans `src/CoreBundle/Controller/Admin/`. Ils gèrent l’administration de la plateforme :
 
-* `AdminController` — Dashboard, file info, email testing
-* `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `AdminController` — Tableau de bord, informations sur les fichiers, test d’e-mail
+* `UserListController` — CRUD des utilisateurs
+* `CourseListController` — Gestion des cours
+* `SessionAdminController` — Gestion des sessions
+* `SettingsController` — Paramètres de la plateforme
+* `SecurityController` — Tentatives de connexion, événements IDS
+* `PluginsController` — Gestion des plugins
+* `RoomController` — Gestion des salles
 
-### API Action Controllers
+### Contrôleurs d’actions API
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+Actions API Platform personnalisées dans `src/CoreBundle/Controller/Api/` :
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+Elles étendent le CRUD intégré d’API Platform avec une logique métier spécifique. Exemples :
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — Téléversement de fichiers pour les documents
+* `CreateStudentPublicationFileAction` — Téléversement de soumission de devoir
+* `UpdateVisibilityDocument` — Basculer la visibilité d’un document
+* `ExportCGlossaryAction` — Exporter un glossaire
+* `MoveDocumentAction` — Déplacer un document vers un autre dossier
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+Pour les opérations de lecture/écriture qui n’ont pas besoin d’un contrôleur HTTP dédié — c’est-à-dire lorsque vous souhaitez seulement modifier *la façon* dont un élément ou une collection est récupéré ou persisté — préférez un **State Provider** ou un **State Processor** (voir ci-dessous). Les contrôleurs d’actions API sont à réserver aux points de terminaison qui nécessitent réellement une logique au niveau de la requête (téléversements de fichiers, formats de réponse personnalisés, flux en plusieurs étapes).
 
-### AI Controller
+### Contrôleur IA
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+`src/CoreBundle/Controller/AiController.php` est le point d’entrée des points de terminaison liés à l’IA (génération de questions Aiken, génération de parcours d’apprentissage, génération d’images/vidéos, notation de réponses ouvertes, analyse de documents…). L’ensemble exact des routes évolue rapidement — consultez les attributs `#[Route]` du contrôleur pour la liste à jour plutôt que de vous fier à une copie ici.
 
-### Chat Controller
+### Contrôleur de chat
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` gère le chat en temps réel et le tuteur IA :
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* Messagerie d’utilisateur à utilisateur
+* Chat du tuteur IA (panneau de chat ancré)
+* Historique des messages et interrogation périodique (polling)
 
-## API Platform State Providers & Processors
+## State Providers et Processors d’API Platform
 
-Not every API endpoint is backed by a controller. API Platform 4 splits the work between two interfaces:
+Tous les points de terminaison API ne s’appuient pas sur un contrôleur. API Platform 4 répartit le travail entre deux interfaces :
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — renvoient les données pour les opérations `GET` (un élément unique ou une collection).
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — gèrent les écritures pour les opérations `POST`, `PUT`, `PATCH` et `DELETE`.
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Les implémentations de Chamilo se trouvent dans `src/CoreBundle/State/` (environ 35 classes ou plus). Elles sont reliées aux entités via les arguments `provider:` et `processor:` des opérations `#[ApiResource]` plutôt que via des routes.
 
-### When to use them
+### Quand les utiliser
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+Optez pour un provider/processor — plutôt qu’un contrôleur d’action API — lorsque :
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* Le point de terminaison suit la forme REST standard (liste / lecture / création / mise à jour / suppression) mais nécessite un assemblage de données ou une logique de persistance personnalisés.
+* Vous devez filtrer, dénormaliser ou enrichir le résultat d’une lecture de collection ou d’élément (par ex. en respectant l’Access URL courant, le contexte de cours ou les règles de visibilité).
+* Vous devez exécuter des effets de bord à l’écriture (journaux d’audit, génération de fichiers, mises à jour d’entités liées) tout en conservant le pipeline de normalisation, de validation et de pagination d’API Platform.
+* Vous souhaitez que l’opération reste découvrable dans le schéma OpenAPI / Hydra sans enregistrer de route personnalisée.
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+Si le point de terminaison nécessite au contraire un accès brut à `Request`, renvoie une charge utile non ressource (téléchargement de fichier, CSV, redirection) ou orchestre un flux en plusieurs étapes, un contrôleur d’action API dans `src/CoreBundle/Controller/Api/` convient mieux.
 
-### Wiring on the entity
+### Câblage sur l’entité
 
-Reference the class on the operation:
+Référencez la classe sur l’opération :
 
 ```php
 #[ApiResource(
@@ -77,9 +77,9 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+### Exemple de provider
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+`src/CoreBundle/State/DocumentProvider.php` résout un `CDocument` par variable d’URI et lève `NotFoundHttpException` lorsqu’il est introuvable :
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +99,9 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+### Exemple de processeur
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+`src/CoreBundle/State/ColorThemeStateProcessor.php` délègue au `persistProcessor` Doctrine par défaut, puis exécute des effets de bord (génère un fichier CSS sur le système de fichiers Flysystem des thèmes, associe le thème à l’Access URL courante) :
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -127,16 +127,16 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 }
 ```
 
-### Patterns to know
+### Modèles à connaître
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **Composer avec le processeur par défaut.** Décorer `ProcessorInterface $persistProcessor` (celui intégré à Doctrine) afin que la logique spécifique à Chamilo s’exécute *autour* de la persistance standard, et non à sa place.
+* **Les fournisseurs de collections gèrent leur propre pagination.** Lorsqu’un fournisseur de collection construit une requête personnalisée, il doit respecter `?page`, `?itemsPerPage` et les filtres de recherche — le paginateur automatique d’API Platform n’intervient que pour le fournisseur de collection Doctrine par défaut.
+* **Une classe par ressource + type d’opération est courant**, mais un fournisseur peut desservir plusieurs opérations (voir `UsergroupStateProvider`, réutilisé pour quatre opérations sur `Usergroup`).
+* **Convention de nommage** : `<Entity>StateProvider` / `<Entity>StateProcessor` pour les gestionnaires à l’échelle de la ressource ; `<Entity><Action>Processor` (par ex. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) pour les opérations plus ciblées.
 
-## Routing
+## Routage
 
-Controllers use **PHP 8 attributes** for route definitions:
+Les contrôleurs utilisent des **attributs PHP 8** pour les définitions de routes :
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +147,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+Les ressources API Platform utilisent des attributs `#[ApiResource]` sur les entités, les opérations personnalisées pointant vers des actions de contrôleur.
 
 ## Traits
 
-Controllers use shared traits for common functionality:
+Les contrôleurs utilisent des traits partagés pour les fonctionnalités communes :
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — Accès aux paramètres, au sérialiseur et aux services communs
+* `CourseControllerTrait` — Aides au contexte de cours
+* `ResourceControllerTrait` — Opérations sur les nœuds de ressource

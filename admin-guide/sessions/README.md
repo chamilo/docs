@@ -1,32 +1,32 @@
 # Sessions
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+Les sessions constituent l’une des fonctionnalités les plus puissantes de Chamilo. Elles permettent de proposer les mêmes cours à différents groupes d’apprenants à des moments distincts, sans dupliquer le contenu des cours.
 
-![The Sessions management block on the administration dashboard, listing Training sessions list, Add a training session, session categories, import/export tools, careers and promotions, and resource sequencing, among others](/.gitbook/assets/admin-sessions-block.png)
+![Le bloc de gestion des sessions sur le tableau de bord d’administration, listant la liste des sessions de formation, Ajouter une session de formation, les catégories de sessions, les outils d’import/export, les filières et promotions, et le séquençage des ressources, entre autres](/.gitbook/assets/admin-sessions-block.png)
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[Gestion des sessions](managing-sessions.md)** — Créer, configurer et gérer les sessions de formation
+* **[Catégories de sessions](session-categories.md)** — Organiser les sessions en catégories
+* **[Filières et promotions](careers-and-promotions.md)** — Définir des parcours de carrière et des flux de promotion
+* **[Classes](classes.md)** — Gérer les classes d’apprenants pour une inscription en masse
 
-## Understanding Sessions
+## Comprendre les sessions
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+Les sessions sont **facultatives**. Vous pouvez faire fonctionner votre portail en n’utilisant que des cours, mais nous recommandons **vivement** d’envisager la complexité supplémentaire des sessions comme un moyen d’alléger le travail de gestion à long terme.
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+Un **cours** contient le contenu (documents, exercices, parcours d’apprentissage). Une **session** attribue ce cours (ou plusieurs cours) à un groupe spécifique d’apprenants *pour une période donnée*.
 
-This architecture means:
+Cette architecture implique que :
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session tutors can customize certain elements
+* Les enseignants créent le contenu une seule fois dans le cours
+* Les administrateurs créent des sessions pour diffuser ce contenu à différentes cohortes
+* Chaque session possède ses propres inscriptions, données de suivi et résultats
+* Le contenu de base du cours est partagé, mais les tuteurs de session peuvent personnaliser certains éléments
 
-## When to Use Sessions
+## Quand utiliser les sessions
 
-Use sessions when:
+Utilisez les sessions lorsque :
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different tutors to manage different editions of the same course
+* Vous dispenserez la même formation plusieurs fois (par ex. des sessions d’intégration mensuelles)
+* Vous avez des programmes par cohorte (par ex. des classes semestrielles)
+* Vous avez besoin d’un suivi distinct par groupe d’apprenants
+* Vous souhaitez que des tuteurs différents gèrent des éditions distinctes du même cours

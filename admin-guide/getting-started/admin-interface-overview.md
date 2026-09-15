@@ -1,74 +1,74 @@
-# Admin Interface Overview
+# Aperçu de l’interface d’administration
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+Le panneau d’administration est votre centre de commande pour gérer la plateforme Chamilo. Accédez-y en cliquant sur **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> dans la barre latérale.
 
-## Administration Dashboard
+## Tableau de bord d’administration
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![Le tableau de bord d’administration affichant les blocs fonctionnels Utilisateurs, Cours, Sessions et Paramètres](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+Le tableau de bord d’administration est organisé en blocs fonctionnels. Chaque bloc regroupe des outils de gestion connexes :
 
-### Users
+### Utilisateurs
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **Classes** — Manage user classes for bulk session enrollment
+* **Liste des utilisateurs** — Consulter, rechercher, modifier et gérer tous les utilisateurs de la plateforme
+* **Ajouter un utilisateur** — Créer des comptes utilisateurs individuels
+* **Classes** — Gérer les classes d’utilisateurs pour l’inscription groupée aux sessions
 
-See the [Users](../users/README.md) chapter for details.
+Consultez le chapitre [Utilisateurs](../users/README.md) pour plus de détails.
 
-### Courses
+### Cours
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **Liste des cours** — Consulter et gérer tous les cours de la plateforme
+* **Créer un cours** — Créer un nouveau cours
+* **Catégories de cours** — Organiser les cours en catégories pour le catalogue
 
-See the [Courses](../courses/README.md) chapter for details.
+Consultez le chapitre [Cours](../courses/README.md) pour plus de détails.
 
 ### Sessions
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **Liste des sessions** — Consulter et gérer les sessions de formation
+* **Créer une session** — Configurer une nouvelle session avec des cours et des inscriptions
+* **Catégories de sessions** — Organiser les sessions en catégories
+* **Parcours et promotions** — Gérer les parcours professionnels et les flux de promotion
 
-See the [Sessions](../sessions/README.md) chapter for details.
+Consultez le chapitre [Sessions](../sessions/README.md) pour plus de détails.
 
-### Platform
+### Plateforme
 
-* **Configuration settings**, **Languages**, **Portal news**, **Global agenda**, **Pages**, **Extra fields**, **Mail templates**, **Contact form categories**, and more — see the [Platform](../platform/README.md) chapter for details. The "Configuration settings" link is the entry point to the separate [Platform Settings](../platform-settings/README.md) chapter.
+* **Paramètres de configuration**, **Langues**, **Actualités du portail**, **Agenda global**, **Pages**, **Champs supplémentaires**, **Modèles de courriel**, **Catégories du formulaire de contact**, et plus encore — consultez le chapitre [Plateforme](../platform/README.md) pour plus de détails. Le lien « Paramètres de configuration » est le point d’entrée vers le chapitre distinct [Paramètres de la plateforme](../platform-settings/README.md).
 
-### Analytics
+### Analytique
 
-* **Global statistics**, **Reports catalog**, **Learning analytics**, **Quarterly report**, **Teachers time report**, **Corporate report**, **Special exports**, **Tickets** — Platform statistics and reporting; see the [Analytics](../analytics/README.md) chapter for details
+* **Statistiques globales**, **Catalogue de rapports**, **Analytique de l’apprentissage**, **Rapport trimestriel**, **Rapport du temps des enseignants**, **Rapport d’entreprise**, **Exports spéciaux**, **Tickets** — Statistiques et rapports de la plateforme ; consultez le chapitre [Analytique](../analytics/README.md) pour plus de détails
 
-### Skills
+### Compétences
 
-* **Skills wheel**, **Skills import**, **Manage skills**, **Manage skills levels**, **Skills ranking**, **Skills and assessments** — Competency badges linked to gradebook results; see the [Skills](../skills/README.md) chapter for details
+* **Roue des compétences**, **Import des compétences**, **Gérer les compétences**, **Gérer les niveaux de compétences**, **Classement des compétences**, **Compétences et évaluations** — Badges de compétences liés aux résultats du carnet de notes ; consultez le chapitre [Compétences](../skills/README.md) pour plus de détails
 
-### System
+### Système
 
-* **Clean temporary files**, **System status**, **System update**, **Colors**, **File info**, **Resources by type**, **List icons** — Server maintenance, self-update, and branding; see the [System](../system/README.md) chapter for details
+* **Nettoyer les fichiers temporaires**, **État du système**, **Mise à jour du système**, **Couleurs**, **Informations sur les fichiers**, **Ressources par type**, **Liste des icônes** — Maintenance du serveur, auto-mise à jour et habillage ; consultez le chapitre [Système](../system/README.md) pour plus de détails
 
-### Rooms
+### Salles
 
-* **Branches**, **Rooms**, **Room availability finder** — Physical sites and bookable training rooms; see the [Rooms](../rooms/README.md) chapter for details
+* **Sites**, **Salles**, **Recherche de disponibilité des salles** — Sites physiques et salles de formation réservables ; consultez le chapitre [Salles](../rooms/README.md) pour plus de détails
 
-### Security
+### Sécurité
 
-* **Activities audit**, **Login attempts**, **Simple IDS**, **Password strength checker**, **File integrity** — Security monitoring and auditing tools; see the [Security](../security/README.md) chapter for details
+* **Audit des activités**, **Tentatives de connexion**, **IDS simple**, **Vérificateur de robustesse des mots de passe**, **Intégrité des fichiers** — Outils de surveillance et d’audit de la sécurité ; consultez le chapitre [Sécurité](../security/README.md) pour plus de détails
 
 ### Plugins
 
-* Shortcuts to installed plugins that declare an admin menu page, plus general plugin management — see the [Plugins](../plugins/README.md) chapter for details
+* Raccourcis vers les plugins installés qui déclarent une page de menu d’administration, ainsi que la gestion générale des plugins — consultez le chapitre [Plugins](../plugins/README.md) pour plus de détails
 
-### Health Check
+### Contrôle de santé
 
-* Live pass/fail checks (mail settings, admin URL assignment, file permissions) — see the [Health Check](../health-check.md) page for details
+* Contrôles en direct de type réussite/échec (paramètres de messagerie, attribution de l’URL d’administration, permissions des fichiers) — consultez la page [Contrôle de santé](../health-check.md) pour plus de détails
 
-### Other Blocks
+### Autres blocs
 
-* **Chamilo.org**, **Version check**, **Professional support**, **News from Chamilo** — links and status panels pulling content from the Chamilo project; see [Other Admin Blocks](../other-admin-blocks/README.md) for details
+* **Chamilo.org**, **Vérification de version**, **Support professionnel**, **Actualités de Chamilo** — liens et panneaux d’état récupérant du contenu du projet Chamilo ; consultez [Autres blocs d’administration](../other-admin-blocks/README.md) pour plus de détails
 
-Each section is covered in detail in its corresponding chapter of this guide.
+Chaque section est traitée en détail dans le chapitre correspondant de ce guide.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+Les méthodes d’authentification telles que OAuth2, LDAP, CAS et les autres fournisseurs d’authentification externe ne se configurent pas dans le tableau de bord d’administration, mais dans `config/authentication.yaml`.

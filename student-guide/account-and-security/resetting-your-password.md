@@ -1,38 +1,38 @@
-# Resetting Your Password
+# Réinitialiser votre mot de passe
 
-If you've forgotten your password — or just want to change it — here's how, in both situations: before you're logged in, and while you're already signed in.
+Si vous avez oublié votre mot de passe — ou si vous souhaitez simplement le modifier — voici comment procéder, dans les deux situations : avant de vous connecter, et lorsque vous êtes déjà connecté.
 
-## Before You're Signed In
+## Avant d'être connecté
 
-On the login page, click **Forgot your password?**. If this link isn't there, your administrator has disabled this feature — contact them directly to regain access.
+Sur la page de connexion, cliquez sur **Mot de passe oublié ?**. Si ce lien n'est pas présent, votre administrateur a désactivé cette fonctionnalité — contactez-le directement pour retrouver l'accès.
 
-![The "I lost my password" form, with a single field for your username or e-mail address](/.gitbook/assets/student-lost-password.png)
+![Le formulaire « J'ai perdu mon mot de passe », avec un seul champ pour votre nom d'utilisateur ou votre adresse e-mail](/.gitbook/assets/student-lost-password.png)
 
-1. Enter your **username or e-mail address** in the single field on the form.
-2. If a CAPTCHA challenge appears, solve it (see [CAPTCHA](captcha.md)).
-3. Click **Send message**.
+1. Saisissez votre **nom d'utilisateur ou adresse e-mail** dans le champ unique du formulaire.
+2. Si un défi CAPTCHA s'affiche, résolvez-le (voir [CAPTCHA](captcha.md)).
+3. Cliquez sur **Envoyer le message**.
 
-What happens next depends on how your administrator has configured this feature:
+La suite dépend de la configuration de cette fonctionnalité par votre administrateur :
 
-* **You receive a link by e-mail.** Click it to open a password-reset form with **Password** and **Confirm password** fields — pick a new password yourself and submit. This link is single-use and expires after a limited time (one hour by default, though your administrator can change this); if it has expired, the reset page tells you so and you'll need to request a new one.
-* **You receive a new password directly by e-mail.** On some platforms, instead of letting you choose your own password, the system generates one for you and sends it in the e-mail. Log in with it, then consider changing it to something memorable (see below).
+* **Vous recevez un lien par e-mail.** Cliquez dessus pour ouvrir un formulaire de réinitialisation du mot de passe avec les champs **Mot de passe** et **Confirmer le mot de passe** — choisissez vous-même un nouveau mot de passe et validez. Ce lien est à usage unique et expire après un délai limité (une heure par défaut, bien que votre administrateur puisse le modifier) ; s'il a expiré, la page de réinitialisation vous l'indique et vous devrez en demander un nouveau.
+* **Vous recevez directement un nouveau mot de passe par e-mail.** Sur certaines plateformes, au lieu de vous laisser choisir votre propre mot de passe, le système en génère un pour vous et l'envoie dans l'e-mail. Connectez-vous avec celui-ci, puis envisagez de le remplacer par quelque chose de mémorisable (voir ci-dessous).
 
-If you use external authentication (single sign-on through your institution), password resets aren't handled by Chamilo at all — use your institution's own "forgot password" process instead.
+Si vous utilisez une authentification externe (authentification unique via votre établissement), les réinitialisations de mot de passe ne sont pas gérées par Chamilo — utilisez plutôt le processus « mot de passe oublié » de votre établissement.
 
-## While You're Signed In
+## Lorsque vous êtes connecté
 
-You can change your password anytime, without waiting to forget it:
+Vous pouvez modifier votre mot de passe à tout moment, sans attendre de l'oublier :
 
-1. Open your **avatar menu** (top-right corner) and click **My profile**.
-2. Click **Change password**.
-3. Enter your current password, then your new password twice, and submit.
+1. Ouvrez votre **menu d'avatar** (coin supérieur droit) et cliquez sur **Mon profil**.
+2. Cliquez sur **Changer le mot de passe**.
+3. Saisissez votre mot de passe actuel, puis votre nouveau mot de passe deux fois, et validez.
 
-![The Change Password form, with fields for your current password and a new password](/.gitbook/assets/student-change-password.png)
+![Le formulaire Changer le mot de passe, avec des champs pour votre mot de passe actuel et un nouveau mot de passe](/.gitbook/assets/student-change-password.png)
 
-This is the same page where you can enable [Two-Factor Authentication](two-factor-authentication.md), if your platform supports it — in that case, you'll also see an "Enable two-factor authentication" checkbox here, not shown above since it isn't active on every platform.
+Il s'agit de la même page où vous pouvez activer l'[authentification à deux facteurs](two-factor-authentication.md), si votre plateforme la prend en charge — dans ce cas, vous verrez également une case à cocher « Activer l'authentification à deux facteurs » ici, non représentée ci-dessus car elle n'est pas active sur toutes les plateformes.
 
-## Tips
+## Conseils
 
-* **Check your spam folder** if a reset e-mail doesn't arrive within a few minutes.
-* **Act quickly on reset links** — they expire, and platforms commonly set that expiry to as little as an hour.
-* **Still stuck?** If self-service reset isn't enabled or isn't working, your platform administrator can always reset your account manually.
+* **Vérifiez votre dossier de courrier indésirable** si un e-mail de réinitialisation n'arrive pas en quelques minutes.
+* **Agissez rapidement sur les liens de réinitialisation** — ils expirent, et les plateformes fixent souvent cette expiration à une heure seulement.
+* **Toujours bloqué ?** Si la réinitialisation en libre-service n'est pas activée ou ne fonctionne pas, l'administrateur de votre plateforme peut toujours réinitialiser votre compte manuellement.

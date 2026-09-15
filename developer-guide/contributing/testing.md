@@ -1,12 +1,12 @@
-# Testing
+# Tests
 
-## PHP Testing
+## Tests PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo utilise **PHPUnit** pour les tests backend.
 
-### Test Database Setup
+### Configuration de la base de données de test
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+Les tests nécessitent une base de données dédiée. Créez `.env.test.local` avec les identifiants de votre base de données de test :
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Puis initialisez la base de données de test :
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,13 +25,13 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Pour réinitialiser après des modifications de schéma :
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Exécution des tests
 
 ```bash
 # Run all tests
@@ -44,9 +44,9 @@ php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Emplacement des tests
 
-Tests are in the `tests/` directory, which is not included in packaged Chamilo downloads — it only comes with a `git clone`. `CoreBundle/` and `CourseBundle/` mirror the subdirectory layout of `src/CoreBundle/` and `src/CourseBundle/`:
+Les tests se trouvent dans le répertoire `tests/`, qui n’est pas inclus dans les téléchargements empaquetés de Chamilo — il n’est fourni qu’avec un `git clone`. `CoreBundle/` et `CourseBundle/` reproduisent l’arborescence des sous-répertoires de `src/CoreBundle/` et `src/CourseBundle/` :
 
 ```
 tests/
@@ -57,17 +57,17 @@ tests/
 └── ChamiloTestTrait.php  # Shared test helpers
 ```
 
-See [Project Structure](../getting-started/project-structure.md) for the full `tests/` layout, including the non-test-suite folders (`datafiller/`, `history/`, `procedures/`, `scripts/`).
+Consultez [Structure du projet](../getting-started/project-structure.md) pour l’arborescence complète de `tests/`, y compris les dossiers hors suite de tests (`datafiller/`, `history/`, `procedures/`, `scripts/`).
 
-### Test Types
+### Types de tests
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Playwright tests** — Browser-level acceptance tests in `tests/playwright/` (see below)
+* **Tests unitaires/d’intégration** — tests PHPUnit dans `CoreBundle/` et `CourseBundle/` ; la plupart interrogent une vraie base de données (via `dama/doctrine-test-bundle`)
+* **Tests fonctionnels (API)** — étendent `AbstractApiTest` et testent les points de terminaison HTTP de bout en bout
+* **Tests Playwright** — tests d’acceptation au niveau du navigateur dans `tests/playwright/` (voir ci-dessous)
 
-## Playwright (End-to-End) Tests
+## Tests Playwright (de bout en bout)
 
-Chamilo uses [Playwright](https://playwright.dev/), driven through [playwright-bdd](https://vitalets.github.io/playwright-bdd/) so scenarios stay plain Gherkin. This replaced the old Behat suite; Behat's scenarios remain in git history and are worth consulting when adding coverage for an area it once tested (`git ls-tree -r --name-only 98c77757ea6 tests/behat`), but treat them only as a hint of which flows matter — the selectors have rotted, so verify against the live app.
+Chamilo utilise [Playwright](https://playwright.dev/), piloté via [playwright-bdd](https://vitalets.github.io/playwright-bdd/) afin que les scénarios restent du Gherkin simple. Cela a remplacé l’ancienne suite Behat ; les scénarios Behat restent dans l’historique git et méritent d’être consultés lors de l’ajout de couverture pour un domaine qu’ils testaient autrefois (`git ls-tree -r --name-only 98c77757ea6 tests/behat`), mais ne les considérez que comme une indication des flux importants — les sélecteurs ont vieilli, vérifiez donc par rapport à l’application réelle.
 
 ```
 tests/playwright/
@@ -78,7 +78,7 @@ tests/playwright/
 └── playwright.config.ts  # Base URL and browser options
 ```
 
-Before the first run, seed the fixtures most scenarios assume exist, in this order:
+Avant la première exécution, semez les fixtures que la plupart des scénarios supposent existantes, dans cet ordre :
 
 ```bash
 yarn test:playwright:seed                 # the fixed test users
@@ -87,7 +87,7 @@ yarn test:playwright:seed-private-course  # the TEMPPRIVATE course
 yarn test:playwright:seed-settings        # settings some scenarios need enabled
 ```
 
-Then run the suite (the seeds and the installer scenario are excluded from it):
+Puis exécutez la suite (les seeds et le scénario d’installateur en sont exclus) :
 
 ```bash
 yarn test:playwright                                              # everything
@@ -95,15 +95,15 @@ yarn test:playwright tests/playwright/features/toolForum.feature  # a single fil
 yarn test:playwright:ui                                           # interactive runner
 ```
 
-`yarn test:playwright:install` covers the web installer itself. It recreates the database, so it is CI-only — never run it against an installation you care about.
+`yarn test:playwright:install` couvre l’installateur web lui-même. Il recrée la base de données, il est donc réservé à la CI — ne l’exécutez jamais contre une installation qui vous importe.
 
-After editing a `.feature` file or anything under `tests/playwright/steps/`, regenerate the compiled specs before trusting a run:
+Après modification d’un fichier `.feature` ou de tout élément sous `tests/playwright/steps/`, régénérez les spécifications compilées avant de faire confiance à une exécution :
 
 ```bash
 node_modules/.bin/bddgen --config=tests/playwright/playwright.config.ts
 ```
 
-## Frontend Checks
+## Contrôles frontend
 
 ```bash
 # Lint JavaScript/Vue (ESLint with Prettier)
@@ -116,9 +116,9 @@ yarn tsc --noEmit
 yarn build
 ```
 
-## PHP Code Quality
+## Qualité du code PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo utilise **ECS** (Easy Coding Standard), **PHPStan** et **Psalm** pour la qualité du code. Des raccourcis Composer sont disponibles pour chacun :
 
 ```bash
 # Check code style (ECS — Easy Coding Standard)
@@ -138,19 +138,20 @@ vendor/bin/phpstan analyse
 
 # Static analysis with Psalm
 composer psalm
-# or directly:
+
+# ou directement :
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Remarque : il n’y a pas de `php-cs-fixer` dans ce projet. ECS (`symplify/easy-coding-standard`) est l’outil de style de code.
 
-## Continuous Integration
+## Intégration continue
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Les demandes de fusion (pull requests) sont automatiquement vérifiées par quatre workflows GitHub Actions :
 
-| Workflow | What it runs |
+| Workflow | Ce qu’il exécute |
 |----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, dependency requirements checker |
-| `playwright.yml` | Playwright end-to-end tests (installs Chamilo via the web installer, then runs the suite) |
+| `phpunit.yml` | Suite de tests PHPUnit |
+| `format_code.yml` | Contrôle du style de code ECS |
+| `php_analysis.yml` | Psalm, validation du schéma Doctrine, vérificateur des exigences de dépendances |
+| `playwright.yml` | Tests de bout en bout Playwright (installe Chamilo via l’installateur web, puis exécute la suite) |

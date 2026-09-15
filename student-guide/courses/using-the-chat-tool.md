@@ -1,31 +1,31 @@
-# Using the Chat Tool
+# Utiliser l'outil Chat
 
-Some courses include a **Chat** tool — real-time text messaging tied to that specific course, useful for quick exchanges or live Q&A while a teacher is around.
+Certains cours incluent un outil **Chat** — une messagerie textuelle en temps réel liée à ce cours spécifique, utile pour des échanges rapides ou des questions-réponses en direct lorsque un enseignant est présent.
 
-## Sending Messages
+## Envoyer des messages
 
-Open the **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> tool from the course homepage. You'll see a **Users** list of everyone currently online in the course, each with their own **Chat** button, plus an **All** tab for the whole group:
+Ouvrez l'outil **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> depuis la page d'accueil du cours. Vous verrez une liste **Utilisateurs** de toutes les personnes actuellement en ligne dans le cours, chacune avec son propre bouton **Chat**, ainsi qu'un onglet **Tous** pour l'ensemble du groupe :
 
-![The course Chat tool, showing the list of online users and a message composer](/.gitbook/assets/student-course-chat.png)
+![L'outil Chat du cours, montrant la liste des utilisateurs en ligne et un champ de composition de message](/.gitbook/assets/student-course-chat.png)
 
-Pick a person (or **All**) and type your message in the box at the bottom. Press **Enter** to send it, or **Shift+Enter** to start a new line without sending. A **Preview** option lets you check formatting before sending, and **Reset** clears what you've typed.
+Choisissez une personne (ou **Tous**) et saisissez votre message dans la zone en bas. Appuyez sur **Enter** pour l'envoyer, ou **Shift+Enter** pour commencer une nouvelle ligne sans envoyer. Une option **Aperçu** vous permet de vérifier la mise en forme avant l'envoi, et **Réinitialiser** efface ce que vous avez saisi.
 
-## If Chat Is Restricted to Tutors
+## Si le Chat est réservé aux tuteurs
 
-Your administrator can restrict course chat so that only your teacher (or other course tutors) can post — in that case, everyone else can read but not participate directly. If you find you can't send a message in a course's chat, this setting is the most likely reason, not a bug.
+Votre administrateur peut restreindre le chat du cours de sorte que seul votre enseignant (ou d'autres tuteurs du cours) puisse publier — dans ce cas, tous les autres peuvent lire mais ne pas participer directement. Si vous constatez que vous ne pouvez pas envoyer de message dans le chat d'un cours, ce paramètre en est la raison la plus probable, et non un bogue.
 
-## Not to Be Confused With
+## À ne pas confondre avec
 
-Chamilo has three different features that all involve messaging, and it's easy to mix them up:
+Chamilo propose trois fonctionnalités distinctes qui impliquent toutes de la messagerie, et il est facile de les confondre :
 
-* **This course Chat tool** — real-time, tied to one specific course, only reachable from that course's homepage.
-* **[Inbox](../inbox.md)** — private, asynchronous messages with anyone on the platform, unrelated to any specific course.
-* **The floating chat panel** (bottom of the screen, available almost everywhere) — used for direct messaging and for the [AI Tutor](ai-tutor.md), independent of this course tool.
+* **Cet outil Chat du cours** — en temps réel, lié à un cours spécifique, accessible uniquement depuis la page d'accueil de ce cours.
+* **[Boîte de réception](../inbox.md)** — messages privés, asynchrones, avec n'importe qui sur la plateforme, sans lien avec un cours particulier.
+* **Le panneau de chat flottant** (en bas de l'écran, disponible presque partout) — utilisé pour la messagerie directe et pour l'[AI Tutor](ai-tutor.md), indépendamment de cet outil de cours.
 
-If you're looking for one of the other two, see their respective pages.
+Si vous recherchez l'une des deux autres, consultez leurs pages respectives.
 
-## Tips
+## Conseils
 
-* **Use it for live, in-the-moment exchanges** — for anything you'll want to find again later, use the [Forum](using-the-forum.md) instead.
-* **Check if a live chat session is scheduled** — teachers sometimes announce specific times they'll be available in course chat, often through the Agenda.
-* **If your course has video conferencing set up**, your teacher may prefer that for live sessions instead of text chat.
+* **Utilisez-le pour des échanges en direct, dans l'instant** — pour tout ce que vous voudrez retrouver plus tard, utilisez plutôt le [Forum](using-the-forum.md).
+* **Vérifiez si une session de chat en direct est prévue** — les enseignants annoncent parfois des horaires précis auxquels ils seront disponibles dans le chat du cours, souvent via l'Agenda.
+* **Si votre cours dispose d'une visioconférence**, votre enseignant peut préférer celle-ci pour les sessions en direct plutôt que le chat textuel.

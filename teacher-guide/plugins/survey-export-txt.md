@@ -1,17 +1,17 @@
-# Survey Export TXT
+# Export d’enquête TXT
 
-Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Survey Export TXT" data-size="line"> exports a survey's results to a human-readable plain-text file — one block per respondent, listing each question, the chosen answer(s), and any open-text response, instead of a CSV's rows and columns.
+Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Export d’enquête TXT" data-size="line"> exporte les résultats d’une enquête vers un fichier texte brut lisible — un bloc par répondant, listant chaque question, la ou les réponses choisies et toute réponse en texte libre, au lieu des lignes et colonnes d’un CSV.
 
-## Exporting a Survey
+## Exporter une enquête
 
-Once enabled, your course's **Survey** tool list gets an **Export** icon on each survey row. Click it to download the results as a `.txt` file.
+Une fois activé, la liste de l’outil **Enquête** de votre cours affiche une icône **Exporter** sur chaque ligne d’enquête. Cliquez dessus pour télécharger les résultats sous forme de fichier `.txt`.
 
-## What's in the File
+## Contenu du fichier
 
-* Anonymous surveys show "Anonymous" instead of identity details; non-anonymous surveys include the respondent's name and username
-* Each respondent's answers are separated by a divider line, making the file easy to read top to bottom
-* If no responses qualify for export, the file simply says so instead of failing
+* Les enquêtes anonymes affichent « Anonymous » à la place des informations d’identité ; les enquêtes non anonymes incluent le nom et le nom d’utilisateur du répondant
+* Les réponses de chaque répondant sont séparées par une ligne de séparation, ce qui rend le fichier facile à lire de haut en bas
+* Si aucune réponse n’est éligible à l’export, le fichier l’indique simplement au lieu d’échouer
 
-## Tips
+## Conseils
 
-* **Better for reading, CSV for analysis** — Use this format when you want to read through responses directly; use [Survey Export CSV](survey-export-csv.md) if you plan to open the results in a spreadsheet
+* **Mieux pour la lecture, CSV pour l’analyse** — Utilisez ce format lorsque vous souhaitez parcourir les réponses directement ; utilisez [Export d’enquête CSV](survey-export-csv.md) si vous prévoyez d’ouvrir les résultats dans un tableur

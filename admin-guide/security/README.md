@@ -1,23 +1,23 @@
-# Security
+# Sécurité
 
-The **Security** block on the administration dashboard groups the platform's built-in security monitoring and auditing tools. It is separate from [Security Settings](../platform-settings/security-settings.md), which configures security *policy* (password rules, CAPTCHA, HTTP security headers, and so on) — this block gives you the *reports and tools* that watch the platform for suspicious activity and unwanted changes.
+Le bloc **Sécurité** du tableau de bord d'administration regroupe les outils intégrés de surveillance et d'audit de la sécurité de la plateforme. Il est distinct des [Paramètres de sécurité](../platform-settings/security-settings.md), qui configurent la *politique* de sécurité (règles de mot de passe, CAPTCHA, en-têtes de sécurité HTTP, etc.) — ce bloc vous fournit les *rapports et outils* qui surveillent la plateforme à la recherche d'activités suspectes et de modifications indésirables.
 
-![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, Password strength checker, and File integrity](/.gitbook/assets/admin-security-block.png)
+![Le bloc Sécurité du tableau de bord d'administration, listant Audit des activités, Tentatives de connexion, Simple IDS, Vérificateur de force des mots de passe et Intégrité des fichiers](/.gitbook/assets/admin-security-block.png)
 
-The block was introduced in Chamilo 2.0 with four tools and extended in Chamilo 3.0 with a fifth, **File integrity**.
+Le bloc a été introduit dans Chamilo 2.0 avec quatre outils et étendu dans Chamilo 3.0 avec un cinquième, **Intégrité des fichiers**.
 
-## Accessing the Security Block
+## Accéder au bloc Sécurité
 
-From the administration panel, the **Security** block appears alongside the other dashboard blocks (Users, Courses, Platform management, System, and so on). Click any of its links to open the corresponding tool.
+Depuis le panneau d'administration, le bloc **Sécurité** apparaît aux côtés des autres blocs du tableau de bord (Utilisateurs, Cours, Gestion de la plateforme, Système, etc.). Cliquez sur l'un de ses liens pour ouvrir l'outil correspondant.
 
-## What's in the Block
+## Contenu du bloc
 
-* **[Activities Audit](activities-audit.md)** — Browse important administrative and platform events (user, course, session, and other changes) by event type
-* **[Login Attempts](login-attempts.md)** — Review failed and successful login attempts, with charts and a searchable log
-* **[Simple IDS](simple-ids.md)** — See requests flagged by Chamilo's built-in, lightweight intrusion detection system
-* **[Password Strength Checker](password-strength-checker.md)** — Scan active users for passwords that match a list of commonly used passwords
-* **[File Integrity](file-integrity.md)** *(new in Chamilo 3.0)* — Detect unexpected additions, modifications, deletions, or permission changes in the installed files
+* **[Audit des activités](activities-audit.md)** — Parcourir les événements administratifs et de plateforme importants (modifications d'utilisateurs, de cours, de sessions et autres) par type d'événement
+* **[Tentatives de connexion](login-attempts.md)** — Consulter les tentatives de connexion échouées et réussies, avec des graphiques et un journal consultable
+* **[Simple IDS](simple-ids.md)** — Voir les requêtes signalées par le système de détection d'intrusion intégré et léger de Chamilo
+* **[Vérificateur de force des mots de passe](password-strength-checker.md)** — Analyser les utilisateurs actifs à la recherche de mots de passe correspondant à une liste de mots de passe couramment utilisés
+* **[Intégrité des fichiers](file-integrity.md)** *(nouveau dans Chamilo 3.0)* — Détecter les ajouts, modifications, suppressions ou changements de permissions inattendus dans les fichiers installés
 
-## Who Can Access It
+## Qui peut y accéder
 
-All five tools require **Portal Administrator** access. File integrity's scan, pause, and re-baseline actions additionally require **Global Administrator** access, and pausing alerts or establishing a new baseline requires re-entering your own password — see [File Integrity](file-integrity.md#actions) for details.
+Les cinq outils nécessitent un accès **Administrateur du portail**. Les actions d'analyse, de pause et de nouvelle ligne de base de l'intégrité des fichiers nécessitent en outre un accès **Administrateur global**, et la mise en pause des alertes ou l'établissement d'une nouvelle ligne de base exige de ressaisir votre propre mot de passe — voir [Intégrité des fichiers](file-integrity.md#actions) pour plus de détails.

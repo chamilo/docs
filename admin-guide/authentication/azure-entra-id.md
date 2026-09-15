@@ -1,30 +1,30 @@
 # Azure Entra ID
 
-Microsoft rebranded Azure Active Directory (Azure AD) as **Microsoft Entra ID** in 2023 — they're the same service, and Chamilo's code and configuration still refer to it as `azure`. This page covers the Azure-specific parts of the integration: app registration, group-based role mapping, certificate authentication, and the dedicated user/group sync commands. For the configuration keys shared by every provider (`enabled`, `title`, `allow_create_new_users`, and so on) and the general `authentication.yaml` structure, see [OAuth2](oauth2.md).
+Microsoft a renommé Azure Active Directory (Azure AD) en **Microsoft Entra ID** en 2023 — il s’agit du même service, et le code ainsi que la configuration de Chamilo y font toujours référence sous le nom `azure`. Cette page couvre les aspects spécifiques à Azure de l’intégration : enregistrement de l’application, mappage des rôles basé sur les groupes, authentification par certificat et les commandes dédiées de synchronisation des utilisateurs/groupes. Pour les clés de configuration partagées par tous les fournisseurs (`enabled`, `title`, `allow_create_new_users`, etc.) et la structure générale de `authentication.yaml`, voir [OAuth2](oauth2.md).
 
-## Registering Chamilo in Microsoft Entra ID
+## Enregistrer Chamilo dans Microsoft Entra ID
 
-1. In the Entra admin center, create an **App registration** for Chamilo.
-2. Set the redirect URI (platform type **Web**) to:
+1. Dans le centre d’administration Entra, créez un **App registration** pour Chamilo.
+2. Définissez l’URI de redirection (type de plateforme **Web**) sur :
 
    ```
    https://your-chamilo-url/connect/azure/check
    ```
 
-3. Note the **Application (client) ID** and **Directory (tenant) ID** — you'll need both.
-4. Under **Certificates & secrets**, create either a client secret or upload a certificate (see [Certificate Authentication](#certificate-authentication) below).
-5. Under **API permissions**, add the Microsoft Graph permissions below and grant admin consent.
+3. Notez l’**Application (client) ID** et le **Directory (tenant) ID** — vous aurez besoin des deux.
+4. Sous **Certificates & secrets**, créez soit un secret client, soit chargez un certificat (voir [Authentification par certificat](#certificate-authentication) ci-dessous).
+5. Sous **API permissions**, ajoutez les autorisations Microsoft Graph ci-dessous et accordez le consentement administrateur.
 
-| Permission | Type | Needed for |
+| Permission | Type | Nécessaire pour |
 |------------|------|-------------|
-| `User.Read` | Delegated | Basic sign-in |
-| `GroupMember.Read.All` | Delegated | Group-based role mapping at login |
+| `User.Read` | Delegated | Connexion de base |
+| `GroupMember.Read.All` | Delegated | Mappage des rôles basé sur les groupes à la connexion |
 | `User.Read.All` | Application | `app:azure-sync-users` |
-| `GroupMember.Read.All` or `Group.Read.All` | Application | `app:azure-sync-users` and `app:azure-sync-usergroups` |
+| `GroupMember.Read.All` ou `Group.Read.All` | Application | `app:azure-sync-users` et `app:azure-sync-usergroups` |
 
-Application permissions require admin consent and are only used by the sync console commands (via the `client_credentials` grant), never by an interactive user's login.
+Les autorisations d’application nécessitent le consentement administrateur et ne sont utilisées que par les commandes de synchronisation en console (via le grant `client_credentials`), jamais par la connexion interactive d’un utilisateur.
 
-## Basic Configuration
+## Configuration de base
 
 ```yaml
 authentication:
@@ -44,45 +44,45 @@ authentication:
         allow_update_user_info: true
 ```
 
-### Multi-tenant vs. single-tenant
+### Multi-tenant vs. mono-tenant
 
-The `tenant` value must match how the app registration's "supported account types" were set:
+La valeur de `tenant` doit correspondre à la façon dont les « types de comptes pris en charge » de l’enregistrement d’application ont été définis :
 
-* A specific tenant GUID — single-tenant, only that organization's accounts can sign in
-* `organizations` — any Entra ID tenant
-* `common` — any Entra ID tenant plus personal Microsoft accounts
+* Un GUID de tenant spécifique — mono-tenant, seuls les comptes de cette organisation peuvent se connecter
+* `organizations` — n’importe quel tenant Entra ID
+* `common` — n’importe quel tenant Entra ID plus les comptes Microsoft personnels
 
-## Required User Attributes
+## Attributs utilisateur requis
 
-Every Entra ID user who needs to log in to Chamilo must have `mail` and `mailNickname` populated — login throws an error if either is empty (along with the immutable Entra object ID, which is always present). Field mapping from Microsoft Graph to Chamilo is **fixed** for Azure (unlike the generic OAuth2 provider, which lets you configure field mapping):
+Chaque utilisateur Entra ID qui doit se connecter à Chamilo doit avoir `mail` et `mailNickname` renseignés — la connexion génère une erreur si l’un des deux est vide (ainsi que l’identifiant d’objet Entra immuable, qui est toujours présent). Le mappage des champs de Microsoft Graph vers Chamilo est **fixe** pour Azure (contrairement au fournisseur OAuth2 générique, qui permet de configurer le mappage des champs) :
 
-| Chamilo field | Microsoft Graph source |
+| Champ Chamilo | Source Microsoft Graph |
 |---------------|------------------------|
-| First name | `givenName` |
-| Last name | `surname` |
+| Prénom | `givenName` |
+| Nom | `surname` |
 | E-mail | `mail` |
-| Username | `userPrincipalName` |
-| Phone | `telephoneNumber`, then `businessPhones[0]`, then `mobilePhone` |
-| Active | `accountEnabled` |
-| Interface language | `preferredLanguage` (matched to an installed Chamilo language, falling back to the platform default) |
+| Nom d’utilisateur | `userPrincipalName` |
+| Téléphone | `telephoneNumber`, puis `businessPhones[0]`, puis `mobilePhone` |
+| Actif | `accountEnabled` |
+| Langue de l’interface | `preferredLanguage` (mis en correspondance avec une langue Chamilo installée, avec repli sur la langue par défaut de la plateforme) |
 
-Three extra fields are also written on every successful login: `organisationemail` (= `mail`), `azure_id` (= `mailNickname`), and `azure_uid` (= the Entra object ID). These back the account-matching logic below.
+Trois champs supplémentaires sont également écrits à chaque connexion réussie : `organisationemail` (= `mail`), `azure_id` (= `mailNickname`) et `azure_uid` (= l’identifiant d’objet Entra). Ils sous-tendent la logique de correspondance des comptes ci-dessous.
 
-## Matching Logins to Existing Chamilo Accounts
+## Faire correspondre les connexions aux comptes Chamilo existants
 
-Set `existing_user_verification_order` to a comma-separated list of the digits `1`–`3` to control how an incoming Entra ID login is matched to an existing Chamilo account:
+Définissez `existing_user_verification_order` sur une liste de chiffres `1`–`3` séparés par des virgules pour contrôler la façon dont une connexion Entra ID entrante est mise en correspondance avec un compte Chamilo existant :
 
-| Value | Matches against |
+| Valeur | Correspondance avec |
 |-------|------------------|
-| `1` | Extra field `organisationemail` == Entra `mail` |
-| `2` | Extra field `azure_id` == Entra `mailNickname` |
-| `3` | Extra field `azure_uid` == Entra object ID |
+| `1` | Champ extra `organisationemail` == `mail` Entra |
+| `2` | Champ extra `azure_id` == `mailNickname` Entra |
+| `3` | Champ extra `azure_uid` == identifiant d’objet Entra |
 
-Positions are tried in the order listed; the first active (not soft-deleted) match wins. An invalid or empty value defaults to `1,2,3`. If none of the configured positions match — which is always the case the very first time a given user logs in, since those extra fields are only populated *after* a successful login — Chamilo falls back to matching Chamilo's own `email` field against Entra `mail`, then `username` against `userPrincipalName`, regardless of what you configured.
+Les positions sont essayées dans l’ordre indiqué ; la première correspondance active (non supprimée logiquement) l’emporte. Une valeur invalide ou vide revient par défaut à `1,2,3`. Si aucune des positions configurées ne correspond — ce qui est toujours le cas la toute première fois qu’un utilisateur donné se connecte, puisque ces champs extra ne sont renseignés *qu’après* une connexion réussie — Chamilo se rabat sur la correspondance du champ `email` de Chamilo avec `mail` Entra, puis de `username` avec `userPrincipalName`, indépendamment de ce que vous avez configuré.
 
-## Group-Based Role Mapping
+## Correspondance des rôles basée sur les groupes
 
-Map Entra ID security groups to Chamilo roles with their Object IDs (GUIDs):
+Faites correspondre les groupes de sécurité Entra ID aux rôles Chamilo à l’aide de leurs identifiants d’objet (GUID) :
 
 ```yaml
 authentication:
@@ -95,11 +95,11 @@ authentication:
           teacher: "<entra-group-object-id>"
 ```
 
-On every login, Chamilo calls Microsoft Graph `/v1.0/me/memberOf` with the user's own access token and checks the returned groups against these three IDs, in the order **admin → session_admin → teacher**. The first match wins — a user in both the admin and teacher groups is promoted to admin only. Anyone not in any configured group keeps their existing role (or the default student role, on first login). This requires the delegated `GroupMember.Read.All` permission listed above.
+À chaque connexion, Chamilo interroge Microsoft Graph `/v1.0/me/memberOf` avec le jeton d’accès de l’utilisateur et compare les groupes renvoyés à ces trois identifiants, dans l’ordre **admin → session_admin → teacher**. La première correspondance l’emporte — un utilisateur présent à la fois dans les groupes admin et teacher n’est promu qu’administrateur. Quiconque n’appartient à aucun groupe configuré conserve son rôle existant (ou le rôle étudiant par défaut, lors de la première connexion). Cela nécessite l’autorisation déléguée `GroupMember.Read.All` indiquée plus haut.
 
-## Certificate Authentication
+## Authentification par certificat
 
-As an alternative to `client_secret`, authenticate with a certificate instead:
+En alternative à `client_secret`, authentifiez-vous avec un certificat :
 
 ```yaml
 authentication:
@@ -110,35 +110,35 @@ authentication:
         client_certificate_thumbprint: "<hex SHA1 thumbprint>"
 ```
 
-Upload the matching public certificate under **Certificates & secrets** in the app registration, and copy its thumbprint (shown in hex in the portal) into `client_certificate_thumbprint`. When both keys are set, Chamilo builds a signed JWT client assertion (RS256) instead of sending `client_secret` — this applies to interactive logins and to the sync commands' app-only authentication alike.
+Téléversez le certificat public correspondant sous **Certificates & secrets** dans l’enregistrement de l’application, et copiez son empreinte (affichée en hexadécimal dans le portail) dans `client_certificate_thumbprint`. Lorsque les deux clés sont définies, Chamilo construit une assertion client JWT signée (RS256) au lieu d’envoyer `client_secret` — cela s’applique aussi bien aux connexions interactives qu’à l’authentification application seule des commandes de synchronisation.
 
-## Syncing Users and Groups from Entra ID
+## Synchronisation des utilisateurs et des groupes depuis Entra ID
 
-Two console commands provision and maintain Chamilo accounts directly from Entra ID, independent of anyone logging in interactively. Both authenticate app-only (`client_credentials`), so they need the **application** Graph permissions listed above, and both are meant to be scheduled in cron rather than run manually.
+Deux commandes de console provisionnent et maintiennent les comptes Chamilo directement depuis Entra ID, indépendamment de toute connexion interactive. Les deux s’authentifient en mode application seule (`client_credentials`) : elles ont donc besoin des autorisations Graph **application** listées plus haut, et sont destinées à être planifiées dans cron plutôt qu’exécutées manuellement.
 
 ### `app:azure-sync-users`
 
-Pulls users from Microsoft Graph and provisions/updates the matching Chamilo accounts using the same field mapping and account-matching logic as an interactive login.
+Récupère les utilisateurs depuis Microsoft Graph et provisionne/met à jour les comptes Chamilo correspondants en utilisant le même mappage de champs et la même logique de correspondance de comptes qu’une connexion interactive.
 
-* By default it pulls the full user list (`/v1.0/users`, paged). Set `script_users_delta: true` to use `/v1.0/users/delta` instead — Chamilo persists the delta link between runs, so subsequent runs only fetch what changed.
-* Set `deactivate_nonexisting_users: true` to deactivate Chamilo accounts (with auth source Azure) that no longer appear in the Entra ID pull. This only works in full-pull mode — delta mode never returns the complete user list, so this setting is ignored when `script_users_delta` is enabled.
-* Group role mapping (above) is re-applied for every synced user during this run, not just at login.
+* Par défaut, elle récupère la liste complète des utilisateurs (`/v1.0/users`, paginée). Définissez `script_users_delta: true` pour utiliser `/v1.0/users/delta` à la place — Chamilo persiste le lien delta entre les exécutions, de sorte que les exécutions suivantes ne récupèrent que ce qui a changé.
+* Définissez `deactivate_nonexisting_users: true` pour désactiver les comptes Chamilo (dont la source d’authentification est Azure) qui n’apparaissent plus dans l’extraction Entra ID. Cela ne fonctionne qu’en mode extraction complète — le mode delta ne renvoie jamais la liste complète des utilisateurs, donc ce paramètre est ignoré lorsque `script_users_delta` est activé.
+* La correspondance des rôles par groupe (ci-dessus) est réappliquée pour chaque utilisateur synchronisé lors de cette exécution, et pas seulement à la connexion.
 
 ### `app:azure-sync-usergroups`
 
-Pulls Entra ID groups and mirrors them as Chamilo classes (`Usergroup`).
+Récupère les groupes Entra ID et les reflète sous forme de classes Chamilo (`Usergroup`).
 
-* Pulls the full group list (`/v1.0/groups`) or, with `script_usergroups_delta: true`, the delta endpoint, with its own separately-tracked delta link.
-* `group_filter_regex` restricts which groups are synced, matched against the group's display name.
-* **Every run clears all existing members of the matching Chamilo class first**, then re-subscribes whichever members Graph currently returns. Members are matched to *existing* Chamilo users only, using the same [account-matching logic](#matching-logins-to-existing-chamilo-accounts) as login — this command never creates new user accounts, and any group member it can't match to an existing Chamilo account is silently skipped.
+* Récupère la liste complète des groupes (`/v1.0/groups`) ou, avec `script_usergroups_delta: true`, le point de terminaison delta, avec son propre lien delta suivi séparément.
+* `group_filter_regex` restreint les groupes synchronisés, en les faisant correspondre au nom d’affichage du groupe.
+* **Chaque exécution vide d’abord tous les membres existants de la classe Chamilo correspondante**, puis réinscrit les membres que Graph renvoie actuellement. Les membres ne sont associés qu’aux utilisateurs Chamilo *existants*, selon la même [logique de correspondance des comptes](#matching-logins-to-existing-chamilo-accounts) que pour la connexion — cette commande ne crée jamais de nouveaux comptes utilisateur, et tout membre de groupe qu’elle ne peut pas associer à un compte Chamilo existant est ignoré silencieusement.
 
-## Known Limitations
+## Limitations connues
 
-* **No single logout.** Signing out of Chamilo does not sign the user out of Entra ID or other connected applications. A `force_logout` configuration key exists in `authentication.yaml` but is not currently implemented — treat it as reserved, not functional.
-* **Password reset is meaningless for Azure accounts.** Since authentication happens entirely through Entra ID, Chamilo does not maintain a usable local password for these accounts.
+* **Pas de déconnexion unique.** Se déconnecter de Chamilo ne déconnecte pas l’utilisateur d’Entra ID ni des autres applications connectées. Une clé de configuration `force_logout` existe dans `authentication.yaml` mais n’est pas implémentée actuellement — considérez-la comme réservée, non fonctionnelle.
+* **La réinitialisation du mot de passe n’a pas de sens pour les comptes Azure.** L’authentification passant entièrement par Entra ID, Chamilo ne conserve pas de mot de passe local utilisable pour ces comptes.
 
-## Troubleshooting
+## Dépannage
 
-* Login failures (missing required attributes, Graph API errors) surface to the user as a flash message on the login page.
-* The sync commands log problems per-record with warnings and continue processing the rest of the batch rather than aborting on the first error — check the command's console output (or wherever your cron captures it) after each run.
-* Keep the standard Chamilo login form enabled so administrators always have a way in if the Entra ID integration misbehaves.
+* Les échecs de connexion (attributs requis manquants, erreurs de l’API Graph) s’affichent à l’utilisateur sous forme de message flash sur la page de connexion.
+* Les commandes de synchronisation consignent les problèmes par enregistrement avec des avertissements et poursuivent le traitement du reste du lot plutôt que d’abandonner à la première erreur — consultez la sortie console de la commande (ou l’endroit où votre cron la capture) après chaque exécution.
+* Conservez le formulaire de connexion Chamilo standard activé afin que les administrateurs aient toujours un moyen d’entrer si l’intégration Entra ID se comporte mal.

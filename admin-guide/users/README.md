@@ -1,10 +1,10 @@
-# Users
+# Utilisateurs
 
-This section covers how to manage user accounts on your Chamilo platform — creating users, assigning roles, organizing users into groups, and managing profiles.
+Cette section décrit comment gérer les comptes utilisateurs sur votre plateforme Chamilo — création d'utilisateurs, attribution de rôles, organisation des utilisateurs en groupes et gestion des profils.
 
-![The User management block on the administration dashboard, listing User list, Add a user, Export/Import users list, Edit users list, Anonymise users list, Profiling, and Classes](/.gitbook/assets/admin-users-block.png)
+![Le bloc Gestion des utilisateurs sur le tableau de bord d'administration, listant Liste des utilisateurs, Ajouter un utilisateur, Exporter/Importer la liste des utilisateurs, Modifier la liste des utilisateurs, Anonymiser la liste des utilisateurs, Profilage et Classes](/.gitbook/assets/admin-users-block.png)
 
-* **[User Roles](user-roles.md)** — Understanding the different user roles and their permissions
-* **[Managing Users](managing-users.md)** — Creating, editing, importing, and exporting user accounts
-* **[User Groups](user-groups.md)** — Organizing users into platform-wide groups
-* **[User Profiling](user-profiling.md)** — Configuring extra profile fields and user metadata
+* **[Rôles utilisateurs](user-roles.md)** — Comprendre les différents rôles utilisateurs et leurs permissions
+* **[Gestion des utilisateurs](managing-users.md)** — Création, modification, importation et exportation des comptes utilisateurs
+* **[Groupes d'utilisateurs](user-groups.md)** — Organisation des utilisateurs en groupes à l'échelle de la plateforme
+* **[Profilage des utilisateurs](user-profiling.md)** — Configuration des champs de profil supplémentaires et des métadonnées utilisateurs

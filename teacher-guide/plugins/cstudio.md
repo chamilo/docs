@@ -1,21 +1,21 @@
-# C-Studio Content Editor
+# Éditeur de contenu C-Studio
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> is a visual, drag-and-drop content editor for Learning Paths. It lets you build interactive pages — text blocks, quizzes, drag-and-drop activities, fill-in-the-blank, hotspot images, tables, audio, and video — without writing any HTML, and export the result as a SCORM package.
+C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> est un éditeur de contenu visuel, par glisser-déposer, destiné aux parcours d’apprentissage. Il vous permet de concevoir des pages interactives — blocs de texte, quiz, activités de glisser-déposer, textes à trous, images à zones cliquables, tableaux, audio et vidéo — sans écrire de HTML, et d’exporter le résultat sous forme de paquet SCORM.
 
-## Accessing the Editor
+## Accéder à l’éditeur
 
-Once enabled, C-Studio appears as an additional content type when you add a new item to a **Learning Path**. Selecting it opens the visual editor instead of Chamilo's regular content forms.
+Une fois activé, C-Studio apparaît comme un type de contenu supplémentaire lorsque vous ajoutez un nouvel élément à un **parcours d’apprentissage**. Le sélectionner ouvre l’éditeur visuel à la place des formulaires de contenu habituels de Chamilo.
 
-## What You Can Do
+## Ce que vous pouvez faire
 
-* Design pages with drag-and-drop blocks and a visual theme/color picker
-* Add interactive elements: quizzes, drag-and-drop, hotspot images, tables, audio and video
-* Use built-in AI helpers to generate text, images, or quiz questions for a page
-* Control navigation behavior for the page (hide menu, disable the top button, restart on each attempt)
-* Export the finished content as a SCORM package, or publish it directly as a learning path item
+* Concevoir des pages avec des blocs en glisser-déposer et un sélecteur visuel de thème/couleurs
+* Ajouter des éléments interactifs : quiz, glisser-déposer, images à zones cliquables, tableaux, audio et vidéo
+* Utiliser les assistants IA intégrés pour générer du texte, des images ou des questions de quiz pour une page
+* Contrôler le comportement de navigation de la page (masquer le menu, désactiver le bouton supérieur, recommencer à chaque tentative)
+* Exporter le contenu terminé sous forme de paquet SCORM, ou le publier directement comme élément de parcours d’apprentissage
 
-## Tips
+## Conseils
 
-* **Clean traces without losing content** — The editor's "Clean traces" action removes saved learner progress for a C-Studio page; it does not delete the page or its content
-* **Preview before publishing** — Use the editor's preview to check interactive elements behave as expected before learners see them
-* **Review AI-generated content** — Like other AI-assisted tools in Chamilo, generated text, images, and quiz questions are suggestions to review and edit, not final content
+* **Nettoyer les traces sans perdre le contenu** — L’action « Nettoyer les traces » de l’éditeur supprime la progression enregistrée des apprenants pour une page C-Studio ; elle ne supprime ni la page ni son contenu
+* **Prévisualiser avant de publier** — Utilisez l’aperçu de l’éditeur pour vérifier que les éléments interactifs se comportent comme prévu avant que les apprenants ne les voient
+* **Relire le contenu généré par l’IA** — Comme pour les autres outils assistés par l’IA dans Chamilo, les textes, images et questions de quiz générés sont des suggestions à relire et à modifier, et non un contenu définitif

@@ -1,227 +1,225 @@
-# User Profile Settings
+# Paramètres du profil utilisateur
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+Quels champs apparaissent sur le profil utilisateur, lesquels l’utilisateur peut modifier, et les préférences associées.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Profil utilisateur**. Cette catégorie contient **29 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est indiqué en monospace. Utilisez-le lors d’un script via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `account_valid_duration`
 
-**Account validity**
+**Validité du compte**
 
-A user account is valid for this number of days after creation
+Un compte utilisateur est valide pendant ce nombre de jours après sa création
 
 *Default: `3660`*
 
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**Préremplir le courriel avec les informations utilisateur et cours dans le contact du pied de page**
 
-Add subject and body in the mailto: footer.
+Ajouter un objet et un corps dans le mailto: du pied de page.
 
 *Default: `false`*
 
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**Autoriser l’affichage de l’URL LinkedIn de l’utilisateur**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+Ajouter un lien sur le bloc social de l’utilisateur, permettant de visiter le profil LinkedIn de l’utilisateur
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**Autoriser l’affichage du compte Skype de l’utilisateur**
 
-Add a link on the user social block allowing start a chat by Skype
+Ajouter un lien sur le bloc social de l’utilisateur permettant de démarrer une conversation par Skype
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**Géolocalisation des utilisateurs sur une carte**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+Activer l’affichage d’une carte dans le réseau social permettant de localiser d’autres utilisateurs. Cela inclut plusieurs positions (actuelle et de destination) qui doivent être définies comme adresses ou coordonnées dans des champs extra distincts. Les champs extra doivent être définis ici sous forme de tableau.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**Autoriser les enseignants à gérer les classes**
 
-Enables teachers to manage class groups and their membership within the system.
+Permet aux enseignants de gérer les groupes de classe et leurs membres au sein du système.
 
 *Default: `false`*
 
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**Autoriser le profilage des utilisateurs dans les cours**
 
-Can a teacher define learner profile fields to retrieve additional information?
+Un enseignant peut-il définir des champs de profil apprenant pour collecter des informations supplémentaires ?
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**Autoriser les utilisateurs à changer d’e-mail sans mot de passe**
 
-When changing the account information
+Lors de la modification des informations du compte
 
 *Default: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**Champs que les utilisateurs sont autorisés à modifier dans leur profil**
 
-Select the fields users will be able to change on their profile page.
+Sélectionnez les champs que les utilisateurs pourront modifier sur leur page de profil.
 
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**Activer la géolocalisation de l’utilisateur**
 
-Enable user's address field and show it on a map using geolocalization features
+Activer le champ d’adresse de l’utilisateur et l’afficher sur une carte à l’aide des fonctionnalités de géolocalisation
 
 ### `extended_profile`
 
 **Portfolio**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+Si ce paramètre est activé, un utilisateur peut renseigner les champs (facultatifs) suivants : « Mon espace personnel ouvert », « Mes compétences », « Mes diplômes », « Ce que je suis capable d’enseigner »
 
 *Default: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**Masquer le nom d’utilisateur dans le chat du cours**
 
-In the course chat, hide the username. Only display people's names.
+Dans le chat du cours, masquer le nom d’utilisateur. N’afficher que les noms des personnes.
 
 *Default: `false`*
 
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**Masquer le nom d’utilisateur lorsque le nom complet est déjà affiché**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+Certaines fonctions internes renvoient le nom d’utilisateur lorsqu’elles renvoient le nom complet de l’utilisateur. Avec cette option activée, vous vous assurez que le nom d’utilisateur n’apparaîtra pas.
 
 *Default: `false`*
 
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**ID d’organisation LinkedIn**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+Lors du partage d’un badge sur LinkedIn, LinkedIn vous permet de définir un identifiant d’organisation qui pointera vers la page LinkedIn de votre organisation (pour lier l’organisation attribuant le badge).
 
 *Default: `false`*
 
 
 ### `login_is_email`
 
-**Use the email as username**
+**Utiliser l’e-mail comme nom d’utilisateur**
 
-Use the email in order to login to the system
+Utiliser l’e-mail pour se connecter au système
 
 *Default: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**Nombre d’éléments par page par défaut dans mySpace**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+Nombre d’enregistrements affichés par page dans les sections de suivi MySpace (utilisateurs, statistiques de travaux, liste des étudiants).
 
 *Default: `10`*
 
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**Page personnalisée pour le rappel de mot de passe**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+Définissez votre propre URL vers une page de réinitialisation de mot de passe. Utile lors de l’utilisation d’un système fédéré de gestion des comptes.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**Champs visibles sur la page de profil**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+Tableau de champs et indication (booléen) de leur visibilité ou non sur la page de profil de l’utilisateur (fonctionne également avec les libellés des champs extra).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**Ajouter une aide pour saisir deux noms à l’inscription**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+Ajouter un texte d’aide pour que les utilisateurs saisissent deux noms dans le formulaire d’inscription lorsque les doubles noms de famille sont courants.
 
 *Default: `false`*
 
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**Envoyer un courriel à l’administrateur lors de la création d’un utilisateur**
 
-Send email notification to admin when a user is created.
+Envoyer une notification par e-mail à l’administrateur lorsqu’un utilisateur est créé.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**Afficher des conditions d’inscription spécifiques**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+Afficher plusieurs conditions à l’utilisateur pendant le processus d’inscription. Fournir un tableau dont chaque élément contient « variable » (nom interne du champ extra), « display_text » (texte simple pour une case à cocher), « text_area » (texte long des conditions).
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**Code officiel sur « Qui est en ligne »**
 
-Show official code on the 'Who is online' page, below the username.
+Afficher le code officiel sur la page « Qui est en ligne », sous le nom d’utilisateur.
 
 *Default: `false`*
 
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**Conditions d'utilisation uniquement si le profil est complet**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+En activant cette option, les conditions d'utilisation ne seront disponibles pour l'utilisateur que lorsque les champs de profil supplémentaires commençant par « terms_ » et définis comme visibles sont renseignés.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**Diviser le répertoire de téléversement des utilisateurs**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+Sur les portails à forte charge, où de nombreux utilisateurs sont inscrits et envoient leurs photos, le répertoire de téléversement (main/upload/users/) peut contenir trop de fichiers pour que le système de fichiers les gère (cela a été signalé avec plus de 36 000 fichiers sur un serveur Debian). Modifier cette option activera une division à un niveau des répertoires dans le répertoire de téléversement. 9 répertoires seront utilisés dans le répertoire de base et tous les répertoires d'utilisateurs suivants seront stockés dans l'un de ces 9 répertoires. Le changement de cette option n'affectera pas la structure des répertoires sur le disque, mais affectera le comportement du code de Chamilo, donc si vous changez cette option, vous devez créer les nouveaux répertoires et déplacer les répertoires existants vous-même sur le serveur. Sachez que lors de la création et du déplacement de ces répertoires, vous devrez déplacer les répertoires des utilisateurs 1 à 9 dans des sous-répertoires du même nom. Si vous n'êtes pas sûr de cette option, il est préférable de ne pas l'activer.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**Activer les fuseaux horaires des utilisateurs**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+Active la possibilité pour les utilisateurs de sélectionner leur propre fuseau horaire. Une fois configuré, les utilisateurs pourront voir les échéances des devoirs et d'autres références temporelles dans leur propre fuseau horaire, ce qui réduira les erreurs au moment de la remise.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `user_import_settings`
 
-**Options for user import**
+**Options pour l'import d'utilisateurs**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+Tableau d'options à appliquer comme paramètres par défaut lors de l'import d'utilisateurs CSV/XML.
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**Rechercher les utilisateurs par champs supplémentaires dans la liste des utilisateurs pour les administrateurs**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+Inclut naturellement les champs supplémentaires indiqués (tableau d'étiquettes de champs supplémentaires) dans les recherches d'utilisateurs.
 
 ### `user_selected_theme`
 
-**User theme selection**
+**Sélection du thème par l'utilisateur**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+Permet aux utilisateurs de sélectionner leur propre thème visuel dans leur profil. Cela changera l'apparence de Chamilo pour eux, mais laissera intact le style par défaut du portail. Si un cours ou une session spécifique a un thème spécifique assigné, il aura priorité sur les thèmes définis par l'utilisateur.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**Liste des champs visibles dans le profil**
 
-Controls which profile fields are visible to users and others.
-
-
+Contrôle quels champs de profil sont visibles pour les utilisateurs et les autres.

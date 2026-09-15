@@ -1,97 +1,97 @@
-# Subscribing Users
+# Inscrire des utilisateurs
 
-Before you can assess a learner, they need to be subscribed to your course. Chamilo offers four ways to get someone in, depending on who is doing the subscribing and whether the person already has a platform account.
+Avant de pouvoir évaluer un apprenant, celui-ci doit être inscrit à votre cours. Chamilo propose quatre façons d’y parvenir, selon la personne qui effectue l’inscription et selon que l’intéressé dispose déjà d’un compte sur la plateforme.
 
-| Method | Who does it | Needs an existing account? |
+| Méthode | Qui l’effectue | Compte existant requis ? |
 |--------|-------------|------------------------------|
-| [Administrator Enrollment](#administrator-enrollment) | Platform administrator | Yes |
-| [Self-Enrollment via the Course Catalog](#self-enrollment-via-the-course-catalog) | The learner, themselves | Yes |
-| [Manual Enrollment via the Users Tool](#manual-enrollment-via-the-users-tool) | Teacher (or course admin) | Yes |
-| [Inviting Users by Email](#inviting-users-by-email) | Teacher (or course admin) | **No** |
+| [Inscription par l’administrateur](#administrator-enrollment) | Administrateur de la plateforme | Oui |
+| [Auto-inscription via le catalogue de cours](#self-enrollment-via-the-course-catalog) | L’apprenant lui-même | Oui |
+| [Inscription manuelle via l’outil Utilisateurs](#manual-enrollment-via-the-users-tool) | Enseignant (ou administrateur du cours) | Oui |
+| [Invitation d’utilisateurs par e-mail](#inviting-users-by-email) | Enseignant (ou administrateur du cours) | **Non** |
 
-## Administrator Enrollment
+## Inscription par l’administrateur
 
-A platform administrator can subscribe any existing user to any course directly from the administration panel — useful for bulk onboarding (e.g. importing a class list) or when a teacher doesn't have the rights to manage enrollment themselves. See the [Courses](../../admin-guide/courses/README.md) section of the Administration Guide.
+Un administrateur de la plateforme peut inscrire n’importe quel utilisateur existant à n’importe quel cours directement depuis le panneau d’administration — utile pour l’intégration en masse (par exemple l’importation d’une liste de classe) ou lorsqu’un enseignant n’a pas les droits pour gérer lui-même les inscriptions. Consultez la section [Cours](../../admin-guide/courses/README.md) du Guide d’administration.
 
-## Self-Enrollment via the Course Catalog
+## Auto-inscription via le catalogue de cours
 
-If your course's [visibility](../creating-your-course/course-settings.md#course-visibility) allows it, learners with a platform account can subscribe themselves by finding your course in **Explore more courses** and clicking to join — no action needed from you. Whether this is available, and whether it requires a password, is controlled by the **Enrollment Settings** in [Course Settings](../creating-your-course/course-settings.md#enrollment-settings).
+Si la [visibilité](../creating-your-course/course-settings.md#course-visibility) de votre cours le permet, les apprenants disposant d’un compte sur la plateforme peuvent s’inscrire eux-mêmes en trouvant votre cours dans **Explorer plus de cours** et en cliquant pour le rejoindre — aucune action n’est requise de votre part. La disponibilité de cette option, et le fait qu’un mot de passe soit exigé ou non, sont contrôlés par les **Paramètres d’inscription** dans [Paramètres du cours](../creating-your-course/course-settings.md#enrollment-settings).
 
-## Manual Enrollment via the Users Tool
+## Inscription manuelle via l’outil Utilisateurs
 
-To subscribe someone who already has a platform account but hasn't joined on their own, open your course's **Users** tool and click the **Add users** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Add users" data-size="line"> icon.
+Pour inscrire une personne qui possède déjà un compte sur la plateforme mais ne s’est pas inscrite d’elle-même, ouvrez l’outil **Utilisateurs** de votre cours et cliquez sur l’icône **Ajouter des utilisateurs** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Ajouter des utilisateurs" data-size="line">.
 
-1. Search for the person by name, username, e-mail, or official code
-2. Click **Register** on their row, or select several with the checkboxes and use the **Action** menu to register them all at once
+1. Recherchez la personne par nom, identifiant, e-mail ou code officiel
+2. Cliquez sur **Inscrire** sur sa ligne, ou sélectionnez plusieurs personnes à l’aide des cases à cocher et utilisez le menu **Action** pour les inscrire toutes en une fois
 
-![Search results in the Enroll users to course screen, showing a matching learner and a Register button](/.gitbook/assets/course-users-subscribe-search.png)
+![Résultats de recherche dans l’écran Inscrire des utilisateurs au cours, montrant un apprenant correspondant et un bouton Inscrire](/.gitbook/assets/course-users-subscribe-search.png)
 
-Only users who aren't already subscribed to the course appear in the results.
+Seuls les utilisateurs qui ne sont pas déjà inscrits au cours apparaissent dans les résultats.
 
-> This icon is available to teachers by default. A platform administrator can restrict it to administrators only via the **Allow User Course Subscription By Course Administrator** setting (`allow_user_course_subscription_by_course_admin`) — if you don't see the **Add users** icon, ask your administrator.
+> Cette icône est disponible par défaut pour les enseignants. Un administrateur de la plateforme peut la réserver aux seuls administrateurs via le paramètre **Autoriser l’inscription d’utilisateurs au cours par l’administrateur du cours** (`allow_user_course_subscription_by_course_admin`) — si vous ne voyez pas l’icône **Ajouter des utilisateurs**, demandez à votre administrateur.
 
-## Inviting Users by Email
+## Invitation d’utilisateurs par e-mail
 
-The three methods above all assume the person already has a platform account. **Course invitations** cover the case where they don't: you send an invitation to an email address, and Chamilo emails that person a one-time link. Opening the link lets them create an account, and as soon as they finish registering they are automatically subscribed to your course — no separate enrollment step needed.
+Les trois méthodes ci-dessus supposent toutes que la personne possède déjà un compte sur la plateforme. Les **invitations de cours** couvrent le cas où ce n’est pas le cas : vous envoyez une invitation à une adresse e-mail, et Chamilo envoie à cette personne un lien à usage unique. L’ouverture du lien lui permet de créer un compte, et dès qu’elle a terminé son inscription, elle est automatiquement inscrite à votre cours — aucune étape d’inscription distincte n’est nécessaire.
 
-### Accessing the Tool
+### Accéder à l’outil
 
-Open your course's **Users** tool, then click the **Invite by email** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Invite by email" data-size="line"> icon in the toolbar, next to **Add users**:
+Ouvrez l’outil **Utilisateurs** de votre cours, puis cliquez sur l’icône **Inviter par e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter par e-mail" data-size="line"> dans la barre d’outils, à côté de **Ajouter des utilisateurs** :
 
-![The Users tool toolbar, showing the Add users icon and the Invite by email icon](/.gitbook/assets/course-users-invite-icon.png)
+![La barre d’outils de l’outil Utilisateurs, montrant l’icône Ajouter des utilisateurs et l’icône Inviter par e-mail](/.gitbook/assets/course-users-invite-icon.png)
 
-This opens the **Course invitations** page.
+Cela ouvre la page **Invitations de cours**.
 
-### Who Can Send Invitations
+### Qui peut envoyer des invitations
 
-* Platform administrators, always.
-* In a plain course (not opened in a session): teachers and other users with edit rights on the course.
-* In a session: the session's general coach, or a session administrator — not the broader set of course coaches, since sending an invitation here subscribes to the *entire session*, not just this one course.
+* Les administrateurs de la plateforme, toujours.
+* Dans un cours simple (non ouvert dans une session) : les enseignants et les autres utilisateurs disposant de droits d’édition sur le cours.
+* Dans une session : le coach général de la session, ou un administrateur de session — pas l’ensemble plus large des coachs de cours, car l’envoi d’une invitation ici inscrit à la *session entière*, et non seulement à ce cours.
 
-### Sending an Invitation
+### Envoi d’une invitation
 
-1. Enter the recipient's e-mail address in the **Invite by email** form
-2. Click **Send invitation**
+1. Saisissez l’adresse e-mail du destinataire dans le formulaire **Inviter par e-mail**
+2. Cliquez sur **Envoyer l’invitation**
 
-![The Course invitations page: the invite-by-email form and a table of sent invitations with their status](/.gitbook/assets/course-invitations-list.png)
+![La page Invitations au cours : le formulaire d’invitation par e-mail et un tableau des invitations envoyées avec leur statut](/.gitbook/assets/course-invitations-list.png)
 
-Every invitation you've sent for this course appears below the form, with its status:
+Toutes les invitations que vous avez envoyées pour ce cours apparaissent sous le formulaire, avec leur statut :
 
-| Status | Meaning |
+| Statut | Signification |
 |--------|---------|
-| **Pending** | Sent, not yet used. Still within its validity period. |
-| **Accepted** | The recipient registered and was subscribed. |
-| **Revoked** | You cancelled it before it was used. |
+| **En attente** | Envoyée, pas encore utilisée. Toujours dans sa période de validité. |
+| **Acceptée** | Le destinataire s’est inscrit et a été abonné. |
+| **Révoquée** | Vous l’avez annulée avant qu’elle ne soit utilisée. |
 
-For a still-pending invitation, the **Actions** column offers:
+Pour une invitation encore en attente, la colonne **Actions** propose :
 
-* **Copy** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copy" data-size="line"> — copies the invitation link, in case you'd rather share it yourself (chat, in person) instead of relying on the email.
-* **Revoke** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revoke" data-size="line"> — cancels the invitation immediately; the link stops working. An already-accepted invitation cannot be revoked.
+* **Copier** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copier" data-size="line"> — copie le lien d’invitation, au cas où vous préféreriez le partager vous-même (messagerie, en personne) plutôt que de compter sur l’e-mail.
+* **Révoquer** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Révoquer" data-size="line"> — annule l’invitation immédiatement ; le lien cesse de fonctionner. Une invitation déjà acceptée ne peut pas être révoquée.
 
-> **The invited email address must not already have an account on this platform.** If it does, sending the invitation fails with a message asking you to enroll that existing user directly instead — through [Manual Enrollment via the Users Tool](#manual-enrollment-via-the-users-tool) above.
+> **L’adresse e-mail invitée ne doit pas déjà posséder de compte sur cette plateforme.** Si c’est le cas, l’envoi de l’invitation échoue avec un message vous demandant d’inscrire directement cet utilisateur existant — via [Inscription manuelle via l’outil Utilisateurs](#manual-enrollment-via-the-users-tool) ci-dessus.
 
-### Invitations in a Session
+### Invitations dans une session
 
-If you open the Users tool from a course that is running inside a session, the page shows a reminder that the invitation applies to the whole session, not just this course:
+Si vous ouvrez l’outil Utilisateurs depuis un cours qui s’exécute à l’intérieur d’une session, la page affiche un rappel indiquant que l’invitation s’applique à toute la session, et pas seulement à ce cours :
 
-> *This course is opened in a session. Sending an invitation here will subscribe the recipient to the entire session, not just this course.*
+> *Ce cours est ouvert dans une session. L’envoi d’une invitation ici abonnera le destinataire à l’ensemble de la session, et pas seulement à ce cours.*
 
-This mirrors how enrollment works elsewhere in Chamilo: you subscribe someone to a session as a whole, or to a standalone course, but never to "this one course inside this session" as a separate action.
+Cela reflète le fonctionnement de l’inscription ailleurs dans Chamilo : vous abonnez quelqu’un à une session dans son ensemble, ou à un cours autonome, mais jamais à « ce seul cours à l’intérieur de cette session » comme action distincte.
 
-### What the Invited Person Sees
+### Ce que voit la personne invitée
 
-The email contains a link to the registration page. Opening it:
+L’e-mail contient un lien vers la page d’inscription. En l’ouvrant :
 
-* Pre-fills and locks the e-mail field to the address you invited — they can't register under a different address with that link.
-* Lets them complete registration **even if self-registration is currently disabled platform-wide** — provided your administrator has turned on the **Allow registration via course invitation links** setting (see below). Without it, an invitation link only helps once self-registration is otherwise open.
-* Immediately subscribes them to your course (or the session) once they submit the form, and signs them in.
+* Le champ e-mail est prérempli et verrouillé sur l’adresse que vous avez invitée — ils ne peuvent pas s’inscrire sous une autre adresse avec ce lien.
+* Ils peuvent terminer l’inscription **même si l’auto-inscription est actuellement désactivée à l’échelle de la plateforme** — à condition que votre administrateur ait activé le paramètre **Autoriser l’inscription via les liens d’invitation au cours** (voir ci-dessous). Sans cela, un lien d’invitation n’aide que si l’auto-inscription est par ailleurs ouverte.
+* Ils sont immédiatement abonnés à votre cours (ou à la session) une fois le formulaire soumis, et connectés.
 
-The link is one-time use and expires after 7 days. If it expires or its target invitation is revoked, opening it behaves as if the link never existed.
+Le lien est à usage unique et expire au bout de 7 jours. S’il expire ou si l’invitation cible est révoquée, l’ouvrir se comporte comme si le lien n’avait jamais existé.
 
-> The platform-wide **Allow registration via course invitation links** setting (`registration.allow_invitation_registration`) governs whether your invitation link can open registration when general self-registration is turned off. Ask your administrator if invitations don't seem to work on an otherwise closed platform.
+> Le paramètre **Autoriser l’inscription via les liens d’invitation au cours** à l’échelle de la plateforme (`registration.allow_invitation_registration`) détermine si votre lien d’invitation peut ouvrir l’inscription lorsque l’auto-inscription générale est désactivée. Demandez à votre administrateur si les invitations ne semblent pas fonctionner sur une plateforme par ailleurs fermée.
 
-## Tips
+## Conseils
 
-* **Match the method to the situation** — administrator or self-enrollment for people already using the platform, manual enrollment for a known existing user, invitations for external guests, reviewers, or anyone who doesn't have an account yet.
-* **Revoke invitations you no longer need** — an old pending invitation is still a valid, unused link; revoke it if the intended recipient no longer needs access, or if you're unsure whether it reached them.
-* **Check with your administrator if a method seems unavailable** — several of these flows (manual enrollment, invitations, self-enrollment) can be restricted or disabled platform-wide.
+* **Adaptez la méthode à la situation** — administrateur ou auto-inscription pour les personnes qui utilisent déjà la plateforme, inscription manuelle pour un utilisateur existant connu, invitations pour les invités externes, les relecteurs, ou quiconque n’a pas encore de compte.
+* **Révoquez les invitations dont vous n’avez plus besoin** — une ancienne invitation en attente reste un lien valide et inutilisé ; révoquez-la si le destinataire prévu n’a plus besoin d’accès, ou si vous n’êtes pas sûr qu’elle lui soit parvenue.
+* **Vérifiez auprès de votre administrateur si une méthode semble indisponible** — plusieurs de ces flux (inscription manuelle, invitations, auto-inscription) peuvent être restreints ou désactivés à l’échelle de la plateforme.

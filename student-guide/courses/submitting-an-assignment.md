@@ -1,37 +1,37 @@
-# Submitting an Assignment
+# Remise d’un devoir
 
-The **Assignments** tool (sometimes called "student publications" or "work") is where you turn in essays, projects, reports, or any other file-based or text-based work for your teacher to grade.
+L’outil **Devoirs** (parfois appelé « publications des étudiants » ou « travaux ») est l’endroit où vous déposez des dissertations, des projets, des rapports ou tout autre travail sous forme de fichier ou de texte, afin que votre enseignant puisse le noter.
 
-## Submitting Your Work
+## Remettre votre travail
 
-Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage, then open the specific assignment. Read the description carefully — it contains your teacher's instructions on what to submit and how it will be evaluated. Then:
+Ouvrez l’outil **Devoirs** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Devoirs" data-size="line"> depuis la page d’accueil du cours, puis ouvrez le devoir concerné. Lisez attentivement la description — elle contient les consignes de votre enseignant sur ce qu’il faut remettre et sur la façon dont le travail sera évalué. Ensuite :
 
-1. Click **Upload file** (or the submission button)
-2. Depending on how your teacher configured the assignment, either select a file from your computer, write your submission as text directly, or both
-3. Add an optional comment for your teacher
-4. Submit
+1. Cliquez sur **Téléverser un fichier** (ou sur le bouton de remise)
+2. Selon la configuration du devoir par votre enseignant, sélectionnez un fichier depuis votre ordinateur, rédigez votre remise sous forme de texte, ou les deux
+3. Ajoutez éventuellement un commentaire destiné à votre enseignant
+4. Remettez
 
-Once submitted, you can see confirmation that your work went through. If your teacher allows it, you can update your submission later — otherwise, your first submission is final, so double-check before submitting.
+Une fois la remise effectuée, vous pouvez voir la confirmation que votre travail a bien été transmis. Si votre enseignant l’autorise, vous pourrez mettre à jour votre remise plus tard — sinon, votre première remise est définitive : vérifiez donc bien avant de valider.
 
-## Deadlines
+## Échéances
 
-Assignments can have two different dates:
+Les devoirs peuvent comporter deux dates distinctes :
 
-* A **deadline** — after this date, your submission is still accepted, but flagged as late to your teacher
-* A **hard cutoff** — after this date, submitting is no longer possible at all
+* Une **échéance** — après cette date, votre remise est encore acceptée, mais signalée comme en retard à votre enseignant
+* Une **date limite ferme** — après cette date, toute remise devient impossible
 
-If an assignment is visible in the Agenda, that's usually its deadline — worth checking there too if you're unsure when something is due.
+Si un devoir apparaît dans l’Agenda, il s’agit généralement de son échéance — il est utile de le consulter également si vous n’êtes pas sûr de la date de rendu.
 
-## Getting Your Grade and Feedback
+## Consulter votre note et les commentaires
 
-Once your teacher reviews your submission, you'll see your **score** and any **feedback comments** they've written. Some teachers also attach a **corrected file** — an annotated version of what you submitted — so check for a downloadable attachment alongside your grade. If the assignment is linked to the gradebook, your score also counts toward your overall course grade.
+Lorsque votre enseignant a examiné votre remise, vous verrez votre **score** et les **commentaires** qu’il a rédigés. Certains enseignants joignent également un **fichier corrigé** — une version annotée de ce que vous avez remis — : vérifiez donc s’il y a une pièce jointe téléchargeable à côté de votre note. Si le devoir est lié au carnet de notes, votre score compte également dans votre note globale du cours.
 
-## Seeing Other Submissions
+## Voir les autres remises
 
-By default, your submission is only visible to you and your teacher. Some teachers choose to make submissions visible to the whole course — if so, you may be able to see your classmates' work too (and they, yours).
+Par défaut, votre remise n’est visible que par vous et votre enseignant. Certains enseignants choisissent de rendre les remises visibles pour tout le cours — dans ce cas, vous pourrez éventuellement consulter le travail de vos camarades (et eux, le vôtre).
 
-## Tips
+## Conseils
 
-* **Submit before the deadline, not the hard cutoff** — a late submission is still recorded as late even if it's accepted.
-* **Check back after the due date** for your grade and feedback — grading isn't necessarily instant.
-* **If you can't submit at all**, the hard cutoff for that assignment has likely passed — contact your teacher if you believe this is an error.
+* **Remettez avant l’échéance, et non à la date limite ferme** — une remise tardive est enregistrée comme telle même si elle est acceptée.
+* **Revenez après la date de rendu** pour consulter votre note et les commentaires — la notation n’est pas nécessairement instantanée.
+* **Si vous ne pouvez plus du tout remettre**, la date limite ferme de ce devoir est probablement dépassée — contactez votre enseignant si vous pensez qu’il s’agit d’une erreur.

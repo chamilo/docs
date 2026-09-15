@@ -1,37 +1,37 @@
-# File Integrity
+# Intégrité des fichiers
 
-*New in Chamilo 3.0.*
+*Nouveau dans Chamilo 3.0.*
 
-File Integrity compares the files installed on your server against a trusted baseline, to detect additions, modifications, deletions, and permission changes you didn't expect — the kind of change a successful intrusion, a compromised dependency, or a mistaken manual edit would leave behind.
+L’intégrité des fichiers compare les fichiers installés sur votre serveur à une référence de confiance, afin de détecter les ajouts, modifications, suppressions et changements de permissions inattendus — le type de traces qu’une intrusion réussie, une dépendance compromise ou une modification manuelle erronée laisseraient derrière elles.
 
-## Accessing File Integrity
+## Accéder à l’intégrité des fichiers
 
-From the administration panel, click **Security > File integrity**.
+Depuis le panneau d’administration, cliquez sur **Sécurité > Intégrité des fichiers**.
 
-## What It Shows
+## Ce qu’elle affiche
 
-![The File integrity page showing last scan information, panels for Added, Modified, Deleted and Permissions changed files, an Alert history list, and Actions to run a scan, pause alerts, or establish a new baseline](/.gitbook/assets/admin-security-file-integrity.png)
+![La page Intégrité des fichiers montrant les informations du dernier scan, les panneaux pour les fichiers Ajoutés, Modifiés, Supprimés et dont les Permissions ont changé, une liste d’Historique des alertes, et des Actions pour lancer un scan, mettre les alertes en pause ou établir une nouvelle référence](/.gitbook/assets/admin-security-file-integrity.png)
 
-* **Last scan** — When the most recent scan ran and how many files it checked
-* **Added / Modified / Deleted** — Files that differ from the baseline, identified by comparing SHA-256 checksums (each list is capped at 500 paths, with a note if the full list is longer — see the CEF log below for the complete list)
-* **Permissions changed** — Files whose permissions differ from the baseline. On Linux, this compares POSIX mode bits directly (for example, a file becoming world-writable is flagged); on Windows, only the read-only attribute is tracked, since `fileperms()` doesn't reflect real NTFS ACLs
-* **Alert history** — A durable, append-only log of every scan that found something (up to the last 50). Unlike the report above, this list is never cleared by a clean scan or a new baseline, so past alerts stay visible even after the drift they flagged has been resolved
+* **Dernier scan** — Date et heure du scan le plus récent et nombre de fichiers contrôlés
+* **Ajoutés / Modifiés / Supprimés** — Fichiers qui diffèrent de la référence, identifiés par comparaison des sommes de contrôle SHA-256 (chaque liste est limitée à 500 chemins, avec une mention si la liste complète est plus longue — consultez le journal CEF ci-dessous pour la liste complète)
+* **Permissions modifiées** — Fichiers dont les permissions diffèrent de la référence. Sous Linux, cela compare directement les bits de mode POSIX (par exemple, un fichier devenu accessible en écriture pour tout le monde est signalé) ; sous Windows, seul l’attribut lecture seule est suivi, car `fileperms()` ne reflète pas les ACL NTFS réelles
+* **Historique des alertes** — Journal durable, en ajout seulement, de chaque scan ayant trouvé quelque chose (jusqu’aux 50 derniers). Contrairement au rapport ci-dessus, cette liste n’est jamais effacée par un scan propre ou une nouvelle référence, de sorte que les alertes passées restent visibles même après que la dérive signalée a été résolue
 
-The check walks the entire installed file tree except the `var/` and `.git/` directories — with one exception: `.git/config` is still watched individually, specifically to catch a Git remote being silently repointed to a hostile server. Symbolic links are never followed, to avoid traversal loops or escaping the installation directory.
+Le contrôle parcourt l’arbre de fichiers installé dans son ensemble, à l’exception des répertoires `var/` et `.git/` — avec une exception : `.git/config` reste surveillé individuellement, précisément pour détecter qu’un dépôt distant Git a été silencieusement redirigé vers un serveur hostile. Les liens symboliques ne sont jamais suivis, afin d’éviter les boucles de parcours ou de sortir du répertoire d’installation.
 
-Because a full scan of a large installation can take several minutes, the walk is chunked (one top-level directory at a time) and its progress is tracked in a lock file — so the page can safely be reloaded to check progress, and a crashed or killed scan is never mistaken for one still running.
+Comme un scan complet d’une installation volumineuse peut prendre plusieurs minutes, le parcours est découpé (un répertoire de premier niveau à la fois) et sa progression est suivie dans un fichier de verrouillage — ainsi la page peut être rechargée en toute sécurité pour vérifier l’avancement, et un scan interrompu ou tué n’est jamais pris pour un scan encore en cours.
 
 ## Actions
 
-* **Run a scan now** — Compares the current file tree to the baseline immediately
-* **Pause for 1 hour** — Temporarily suspends alerting (for example, while you deploy an update). Requires re-entering your own password. While paused, a scan silently adopts the current tree as the new baseline instead of alerting, so the pause window closes without leftover alerts. The maximum pause is 24 hours
-* **Establish new baseline** — Adopts the current file tree as the new trusted reference. Requires re-entering your own password
+* **Lancer un scan maintenant** — Compare immédiatement l’arbre de fichiers actuel à la référence
+* **Pause d’1 heure** — Suspend temporairement les alertes (par exemple pendant le déploiement d’une mise à jour). Exige de ressaisir votre propre mot de passe. Pendant la pause, un scan adopte silencieusement l’arbre actuel comme nouvelle référence au lieu d’alerter, de sorte que la fenêtre de pause se ferme sans alertes résiduelles. La pause maximale est de 24 heures
+* **Établir une nouvelle référence** — Adopte l’arbre de fichiers actuel comme nouvelle référence de confiance. Exige de ressaisir votre propre mot de passe
 
-Pausing alerts or establishing a new baseline can hide an ongoing intrusion, which is why both require your password again — a hijacked admin session alone is not enough to silence detection while files are being tampered with.
+Mettre les alertes en pause ou établir une nouvelle référence peut masquer une intrusion en cours, c’est pourquoi les deux exigent à nouveau votre mot de passe — une session d’administrateur détournée ne suffit pas à elle seule à faire taire la détection pendant que des fichiers sont altérés.
 
-## Running from Cron
+## Exécution depuis Cron
 
-The same checks are available as console commands, intended to be scheduled with cron rather than run from the admin page on a schedule:
+Les mêmes contrôles sont disponibles sous forme de commandes console, destinées à être planifiées avec cron plutôt qu’exécutées depuis la page d’administration selon un calendrier :
 
 ```bash
 # Scan for drift and alert admins if anything changed
@@ -44,30 +44,30 @@ php bin/console app:file-integrity:baseline
 php bin/console app:file-integrity:snooze
 ```
 
-If a pause is active, `app:file-integrity:scan` re-baselines silently instead of alerting, matching the behavior of a scan triggered from the admin page.
+Si une pause est active, `app:file-integrity:scan` rétablit silencieusement la référence au lieu d’alerter, conformément au comportement d’un scan déclenché depuis la page d’administration.
 
-## Settings
+## Paramètres
 
-One related setting lives in **Configuration settings > Security**:
+Un paramètre associé se trouve dans **Paramètres de configuration > Sécurité** :
 
-* **`file_integrity_check_notify_admins`** — A list of e-mail addresses to notify when drift is found; if left empty, every Global Administrator is notified
+* **`file_integrity_check_notify_admins`** — Une liste d’adresses e-mail à notifier lorsqu’une dérive est détectée ; si elle est laissée vide, chaque administrateur global est notifié
 
-## SIEM Integration
+## Intégration SIEM
 
-Every scan also writes CEF (Common Event Format) log lines to `var/logs/security/file_integrity.log`, suitable for ingestion by a SIEM (Wazuh, Splunk, QRadar, ArcSight, Elastic/Filebeat, and similar tools). Each line is tagged with a signature ID identifying the kind of change:
+Chaque scan écrit également des lignes de journal CEF (Common Event Format) dans `var/logs/security/file_integrity.log`, adaptées à l’ingestion par un SIEM (Wazuh, Splunk, QRadar, ArcSight, Elastic/Filebeat et outils similaires). Chaque ligne est étiquetée avec un identifiant de signature indiquant le type de changement :
 
-| Signature | Meaning |
+| Signature | Signification |
 |-----------|---------|
-| `FIM-ADDED` | A new file appeared |
-| `FIM-MODIFIED` | A file's contents changed |
-| `FIM-DELETED` | A file disappeared |
-| `FIM-GITCONFIG` | `.git/config` changed (possible hijacked remote) |
-| `FIM-PERMS` | A file's permissions changed |
-| `FIM-TRUNCATED` | The report for a category was capped; consult the log for the full list |
+| `FIM-ADDED` | Un nouveau fichier est apparu |
+| `FIM-MODIFIED` | Le contenu d’un fichier a changé |
+| `FIM-DELETED` | Un fichier a disparu |
+| `FIM-GITCONFIG` | `.git/config` a changé (dépôt distant éventuellement détourné) |
+| `FIM-PERMS` | Les permissions d’un fichier ont changé |
+| `FIM-TRUNCATED` | Le rapport d’une catégorie a été plafonné ; consultez le journal pour la liste complète |
 
-## Recommended Use
+## Utilisation recommandée
 
-1. Establish a baseline right after installation, and again after every manual update or deployment
-2. Schedule `app:file-integrity:scan` in cron (for example, nightly)
-3. Before a planned maintenance window that will change files (an update, a migration), use **Pause for 1 hour** rather than removing the cron job outright
-4. Feed `var/logs/security/file_integrity.log` into your existing log monitoring or SIEM if you have one
+1. Établissez une référence de base juste après l’installation, puis à nouveau après chaque mise à jour manuelle ou déploiement
+2. Planifiez `app:file-integrity:scan` dans cron (par exemple, toutes les nuits)
+3. Avant une fenêtre de maintenance planifiée qui modifiera des fichiers (une mise à jour, une migration), utilisez **Pause for 1 hour** plutôt que de supprimer complètement la tâche cron
+4. Intégrez `var/logs/security/file_integrity.log` à votre surveillance des journaux ou à votre SIEM existant, si vous en disposez d’un

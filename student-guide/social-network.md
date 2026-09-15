@@ -1,33 +1,33 @@
-# Social Network
+# Réseau social
 
-Chamilo includes a built-in social network for connecting with other users on the platform — separate from any specific course. Whether you have access to it depends entirely on your administrator: it's on by default, but can be turned off platform-wide.
+Chamilo intègre un réseau social permettant de se connecter avec d’autres utilisateurs de la plateforme — indépendamment de tout cours particulier. L’accès dépend entièrement de votre administrateur : il est activé par défaut, mais peut être désactivé à l’échelle de la plateforme.
 
-## Whether You Have Access
+## Accès ou non
 
-Click **Social network** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> in the sidebar to expand it, then click **Home**. If this option isn't there at all, your administrator has disabled it for your platform — there's nothing missing on your end.
+Cliquez sur **Réseau social** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Réseau social" data-size="line"> dans la barre latérale pour le développer, puis cliquez sur **Accueil**. Si cette option n’apparaît pas du tout, votre administrateur l’a désactivée pour votre plateforme — rien ne manque de votre côté.
 
-The same expanded section also lists **Messages**, **My friends**, **Social groups** — and, a little unexpectedly, **My files** (your personal file storage) and **Personal data** (an export of the personal data the platform holds about you). Those last two aren't social features; they're just grouped into this part of the sidebar.
+La même section développée liste également **Messages**, **Mes amis**, **Groupes sociaux** — et, de façon un peu inattendue, **Mes fichiers** (votre stockage de fichiers personnel) et **Données personnelles** (un export des données personnelles que la plateforme détient à votre sujet). Ces deux derniers éléments ne sont pas des fonctionnalités sociales ; ils sont simplement regroupés dans cette partie de la barre latérale.
 
-## Your Social Wall
+## Votre mur social
 
-Once inside, your **wall** shows a feed of activity from you and the people you're connected with. You can post updates, and — if enabled by your administrator — like or dislike, and comment on, posts from your connections.
+Une fois à l’intérieur, votre **mur** affiche un fil d’activité provenant de vous et des personnes avec lesquelles vous êtes connecté. Vous pouvez publier des actualités et — si votre administrateur l’a activé — aimer ou ne pas aimer, et commenter, les publications de vos connexions.
 
-![The social wall, with a post composer and panels for communities, friends, and skills](/.gitbook/assets/student-social-wall.png)
+![Le mur social, avec un composeur de publication et des panneaux pour les communautés, les amis et les compétences](/.gitbook/assets/student-social-wall.png)
 
-## Connecting With Others
+## Se connecter avec les autres
 
-You can search for other users and send them a connection request. As a **learner, you can only connect with other learners** — you cannot send a connection request to a teacher. A teacher, on the other hand, can send one to you. On some platforms, your administrator configures teachers to automatically appear as friends to every learner, without either side having to request it — if you see teachers already listed as connections without asking, this is why.
+Vous pouvez rechercher d’autres utilisateurs et leur envoyer une demande de connexion. En tant qu’**apprenant, vous ne pouvez vous connecter qu’avec d’autres apprenants** — vous ne pouvez pas envoyer de demande de connexion à un enseignant. Un enseignant, en revanche, peut vous en envoyer une. Sur certaines plateformes, votre administrateur configure les enseignants pour qu’ils apparaissent automatiquement comme amis de chaque apprenant, sans que l’une ou l’autre partie n’ait à en faire la demande — si vous voyez des enseignants déjà listés comme connexions sans les avoir demandés, c’est pour cette raison.
 
-## Messaging From the Social Network
+## Messagerie depuis le réseau social
 
-Posts and connections are the social side; sending someone a private message is handled by the platform's separate [Inbox](inbox.md) — the social network links into it rather than having its own separate messaging system.
+Les publications et les connexions relèvent du volet social ; l’envoi d’un message privé à quelqu’un est géré par la [Boîte de réception](inbox.md) distincte de la plateforme — le réseau social y renvoie plutôt que de disposer de son propre système de messagerie.
 
-## Social Groups
+## Groupes sociaux
 
-You can join existing **social groups** built around shared interests, and — if your administrator allows learners to create groups — start your own. Social groups are platform-wide and unrelated to a course's own **Groups** tool (see [Finding Your Way Around a Course](courses/course-tools-overview.md)); joining or posting in a social group has no effect on any course you're enrolled in.
+Vous pouvez rejoindre des **groupes sociaux** existants construits autour d’intérêts communs et — si votre administrateur autorise les apprenants à créer des groupes — en créer un vous-même. Les groupes sociaux sont à l’échelle de la plateforme et n’ont aucun lien avec l’outil **Groupes** d’un cours (voir [Se repérer dans un cours](courses/course-tools-overview.md)) ; rejoindre un groupe social ou y publier n’a aucun effet sur un cours auquel vous êtes inscrit.
 
-## Tips
+## Conseils
 
-* **Don't expect to add a teacher as a friend yourself** — it only works the other way around, unless your administrator has configured automatic connections.
-* **Social groups and course groups are unrelated** — don't confuse a course project group with a social-network group of the same name.
-* **Not seeing likes or dislikes?** Your administrator can enable, or partially disable (keeping only "like"), that feature platform-wide.
+* **N’espérez pas ajouter vous-même un enseignant comme ami** — cela ne fonctionne que dans l’autre sens, sauf si votre administrateur a configuré des connexions automatiques.
+* **Les groupes sociaux et les groupes de cours n’ont aucun lien** — ne confondez pas un groupe de projet de cours avec un groupe du réseau social portant le même nom.
+* **Vous ne voyez pas les j’aime ou je n’aime pas ?** Votre administrateur peut activer, ou désactiver partiellement (en ne conservant que « j’aime »), cette fonctionnalité à l’échelle de la plateforme.

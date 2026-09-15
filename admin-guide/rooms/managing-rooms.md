@@ -1,34 +1,34 @@
-# Managing Rooms
+# Gestion des salles
 
-Rooms in Chamilo are organized under branches: a branch is a physical site, and each room belongs to exactly one branch.
+Les salles dans Chamilo sont organisées sous des sites : un site est un lieu physique, et chaque salle appartient à exactement un site.
 
-## Branches
+## Sites
 
-**Rooms > Branches** manages your organization's physical sites — a building, campus, or office. Branches can be nested (a branch can have child branches), so you can model something like "Main Campus > Building A."
+**Salles > Sites** gère les sites physiques de votre organisation — un bâtiment, un campus ou un bureau. Les sites peuvent être imbriqués (un site peut avoir des sites enfants), de sorte que vous pouvez modéliser quelque chose comme « Campus principal > Bâtiment A ».
 
-Fields you can set for a branch:
+Champs que vous pouvez définir pour un site :
 
-* **Title** and **Description**
-* **Parent branch** — For organizing branches hierarchically
-* **IP address** — Optional, for network-based identification
-* **Latitude / Longitude** — For mapping
-* **Download / Upload speed** and **Delay** — Optional network-quality metadata
-* **Administrator e-mail, name, and phone** — Contact details for whoever manages that site
+* **Titre** et **Description**
+* **Site parent** — Pour organiser les sites de manière hiérarchique
+* **Adresse IP** — Facultatif, pour une identification basée sur le réseau
+* **Latitude / Longitude** — Pour la cartographie
+* **Vitesse de téléchargement / envoi** et **Délai** — Métadonnées facultatives sur la qualité du réseau
+* **E-mail, nom et téléphone de l'administrateur** — Coordonnées de la personne qui gère ce site
 
-## Rooms
+## Salles
 
-**Rooms > Rooms** manages the actual bookable spaces within a branch — typically a classroom or training room. Every room must belong to a branch.
+**Salles > Salles** gère les espaces réellement réservables au sein d'un site — généralement une salle de classe ou une salle de formation. Chaque salle doit appartenir à un site.
 
-Fields you can set for a room:
+Champs que vous pouvez définir pour une salle :
 
-* **Title** and **Description**
-* **Branch** — Which branch this room belongs to (required)
-* **Floor number**
-* **Capacity** — Must be a positive number
-* **Geolocation**, **IP address**, and **IP mask** — Optional advanced fields
+* **Titre** et **Description**
+* **Site** — Le site auquel cette salle appartient (obligatoire)
+* **Numéro d'étage**
+* **Capacité** — Doit être un nombre positif
+* **Géolocalisation**, **Adresse IP** et **Masque IP** — Champs avancés facultatifs
 
-Each room also has an "Occupation" calendar view showing its bookings, and a count of the courses using it.
+Chaque salle dispose également d'une vue calendrier « Occupation » montrant ses réservations, ainsi que d'un décompte des cours qui l'utilisent.
 
-## Related
+## Voir aussi
 
-To find a free room for a specific time slot rather than browsing the list, see [Room Availability Finder](room-availability-finder.md).
+Pour trouver une salle libre pour un créneau horaire donné plutôt que de parcourir la liste, consultez [Recherche de disponibilité des salles](room-availability-finder.md).

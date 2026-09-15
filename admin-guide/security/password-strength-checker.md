@@ -1,32 +1,32 @@
-# Password Strength Checker
+# Vérificateur de robustesse des mots de passe
 
-The Password Strength Checker scans active users' stored password hashes against a short list of commonly used passwords (`123456`, `password`, `qwerty123`, and similar). It never displays or transmits the passwords themselves — only whether a user's current password matches one of the known-weak candidates.
+Le vérificateur de robustesse des mots de passe compare les hachages de mots de passe stockés des utilisateurs actifs à une courte liste de mots de passe couramment utilisés (`123456`, `password`, `qwerty123`, et similaires). Il n’affiche ni ne transmet jamais les mots de passe eux-mêmes — uniquement si le mot de passe actuel d’un utilisateur correspond à l’un des candidats connus comme faibles.
 
-## Accessing the Password Strength Checker
+## Accéder au vérificateur de robustesse des mots de passe
 
-From the administration panel, click **Security > Password strength checker**.
+Depuis le panneau d’administration, cliquez sur **Sécurité > Vérificateur de robustesse des mots de passe**.
 
-## Running a Scan
+## Lancer une analyse
 
-![The Password strength checker page, with a field for user IDs to scan and a button to run the scan](/.gitbook/assets/admin-security-password-strength.png)
+![La page du vérificateur de robustesse des mots de passe, avec un champ pour les identifiants d’utilisateurs à analyser et un bouton pour lancer l’analyse](/.gitbook/assets/admin-security-password-strength.png)
 
-* Leave **User IDs to scan** empty to scan every active user, or enter a comma-separated list of user IDs to check a subset
-* Click **Run password strength scan**
+* Laissez **Identifiants d’utilisateurs à analyser** vide pour analyser tous les utilisateurs actifs, ou saisissez une liste d’identifiants d’utilisateurs séparés par des virgules pour vérifier un sous-ensemble
+* Cliquez sur **Lancer l’analyse de robustesse des mots de passe**
 
-The scan runs asynchronously in the background so it does not freeze the page, showing live progress (verified users so far, out of the total, and how many weak passwords have been found). Because every candidate password has to be checked against every selected user's hash, scanning all users on a large platform can take a while — the candidate list is kept intentionally short to limit this cost.
+L’analyse s’exécute de manière asynchrone en arrière-plan afin de ne pas figer la page, et affiche la progression en direct (utilisateurs vérifiés jusqu’à présent, sur le total, et nombre de mots de passe faibles trouvés). Comme chaque mot de passe candidat doit être comparé au hachage de chaque utilisateur sélectionné, l’analyse de tous les utilisateurs sur une grande plateforme peut prendre un certain temps — la liste des candidats est volontairement courte afin de limiter ce coût.
 
-## Acting on Results
+## Agir sur les résultats
 
-![The completed scan results, listing a flagged user with Name, Username, and E-mail columns, and per-row actions to request a password change or force a password reset](/.gitbook/assets/admin-security-password-strength-results.png)
+![Les résultats de l’analyse terminée, listant un utilisateur signalé avec les colonnes Nom, Nom d’utilisateur et E-mail, et des actions par ligne pour demander un changement de mot de passe ou forcer une réinitialisation de mot de passe](/.gitbook/assets/admin-security-password-strength-results.png)
 
-Once the scan finishes, flagged users are listed with two available actions, either per user or as a bulk action for all selected users:
+Une fois l’analyse terminée, les utilisateurs signalés sont listés avec deux actions disponibles, soit par utilisateur, soit en action groupée pour tous les utilisateurs sélectionnés :
 
-* **Request password change** (envelope icon) — Sends the user an e-mail asking them to change their password
-* **Force password reset** (reset icon) — Immediately invalidates the user's current password and e-mails them a new one
+* **Demander un changement de mot de passe** (icône d’enveloppe) — Envoie à l’utilisateur un e-mail lui demandant de changer son mot de passe
+* **Forcer la réinitialisation du mot de passe** (icône de réinitialisation) — Invalide immédiatement le mot de passe actuel de l’utilisateur et lui envoie par e-mail un nouveau mot de passe
 
-Both actions re-verify the selected users against the weak-password list before acting, so a stale or tampered request cannot be used to reset an account that no longer has a weak password.
+Les deux actions revérifient les utilisateurs sélectionnés par rapport à la liste des mots de passe faibles avant d’agir, de sorte qu’une requête obsolète ou altérée ne puisse pas servir à réinitialiser un compte qui n’a plus de mot de passe faible.
 
-## Recommended Use
+## Utilisation recommandée
 
-* Run this scan periodically, especially after a bulk user import (imported accounts sometimes ship with simple default passwords)
-* Pair it with the **Minimal password syntax requirements** and **Password rotation interval** settings in [Security Settings](../platform-settings/security-settings.md) to prevent weak passwords from being set in the first place, rather than only catching them after the fact
+* Exécutez cette analyse périodiquement, en particulier après une importation groupée d’utilisateurs (les comptes importés sont parfois livrés avec des mots de passe par défaut simples)
+* Associez-la aux paramètres **Exigences minimales de syntaxe des mots de passe** et **Intervalle de rotation des mots de passe** dans [Paramètres de sécurité](../platform-settings/security-settings.md) afin d’empêcher la définition de mots de passe faibles dès le départ, plutôt que de seulement les détecter après coup

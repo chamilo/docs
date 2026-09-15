@@ -1,34 +1,34 @@
-# Platform Tools
+# Outils de la plateforme
 
-This page covers the remaining, smaller items in the Platform management block.
+Cette page couvre les éléments restants, plus modestes, du bloc de gestion de la plateforme.
 
 ## Extra Fields
 
-**Platform > Extra fields** is a type selector, not a field list itself — it shows every object type that supports custom fields, and clicking one takes you to that type's own field editor. Available types include: user, course, session, question, learning path (and learning path item/view), skill, assignment (work), career, user certificate, survey, terms and conditions, forum category, forum post, exercise, exercise tracking, course announcement, message, document, attendance calendar, glossary, work correction comment, calendar event, and portfolio (plus scheduled announcements, if that feature is enabled).
+**Platform > Extra fields** est un sélecteur de type, et non une liste de champs en soi — il affiche chaque type d’objet prenant en charge des champs personnalisés, et un clic sur l’un d’eux mène à l’éditeur de champs propre à ce type. Les types disponibles comprennent : user, course, session, question, learning path (ainsi que learning path item/view), skill, assignment (work), career, user certificate, survey, terms and conditions, forum category, forum post, exercise, exercise tracking, course announcement, message, document, attendance calendar, glossary, work correction comment, calendar event et portfolio (plus scheduled announcements, si cette fonctionnalité est activée).
 
-For the most commonly used case — custom user profile fields — see [User Profiling](../users/user-profiling.md), which covers the same underlying feature from the user-management side.
+Pour le cas le plus courant — les champs personnalisés du profil utilisateur — voir [Profilage des utilisateurs](../users/user-profiling.md), qui couvre la même fonctionnalité sous-jacente du côté de la gestion des utilisateurs.
 
 ## Mail Templates
 
-**Platform > Mail templates** lets you override the wording of specific system e-mails (registration confirmation, subscription notifications, and similar) without touching server files. Each template has a title, a **type** matching the specific built-in e-mail it overrides, the template body itself (plain text/Twig, not a rich editor), and a "set as default" flag — only one template per type can be the active default. Templates are scoped per access URL; there's no separate per-language field, so language handling for these e-mails is whatever the surrounding code already does.
+**Platform > Mail templates** vous permet de remplacer le libellé de certains e-mails système (confirmation d’inscription, notifications d’abonnement, et similaires) sans toucher aux fichiers du serveur. Chaque modèle possède un titre, un **type** correspondant à l’e-mail intégré précis qu’il remplace, le corps du modèle lui-même (texte brut/Twig, pas un éditeur riche) et un indicateur « définir par défaut » — un seul modèle par type peut être le défaut actif. Les modèles sont limités par URL d’accès ; il n’y a pas de champ distinct par langue, donc la gestion linguistique de ces e-mails est celle que le code environnant applique déjà.
 
-Templates render through a **sandboxed** Twig environment for security: only a small set of tags and filters is allowed, and the only data available is the recipient's `User` object, referenced as `user.getEmail()`, `user.getFirstname()`, and similar getters (`getId`, `getUsername`, `getLastname`, `getStatus`, `getOfficialCode`, `getPhone`). Anything outside that allowlist doesn't error loudly — it silently renders empty, which then falls back to the original built-in template. Keep your custom templates simple and test them (using a real registration or notification trigger) after editing.
+Les modèles sont rendus via un environnement Twig **sandboxé** pour la sécurité : seul un petit ensemble de balises et de filtres est autorisé, et les seules données disponibles sont l’objet `User` du destinataire, référencé par `user.getEmail()`, `user.getFirstname()` et des accesseurs similaires (`getId`, `getUsername`, `getLastname`, `getStatus`, `getOfficialCode`, `getPhone`). Tout ce qui sort de cette liste blanche ne produit pas d’erreur visible — il est rendu silencieusement vide, ce qui ramène alors au modèle intégré d’origine. Conservez vos modèles personnalisés simples et testez-les (en déclenchant une véritable inscription ou notification) après modification.
 
 ## Contact Form Categories
 
-**Platform > Contact form categories** manages the dropdown shown on your portal's public **Contact us** form. Each category is just a title and a destination e-mail address — whichever category a visitor picks determines which inbox their message is routed to. Use this to route different topics (support, sales, admissions) to different teams without building separate forms.
+**Platform > Contact form categories** gère la liste déroulante affichée sur le formulaire public **Contact us** de votre portail. Chaque catégorie n’est qu’un titre et une adresse e-mail de destination — la catégorie choisie par un visiteur détermine la boîte de réception vers laquelle son message est acheminé. Utilisez ceci pour diriger différents sujets (support, ventes, admissions) vers différentes équipes sans créer de formulaires séparés.
 
-## Settings-Category Shortcuts
+## Raccourcis vers les catégories de paramètres
 
-A few block items are simply direct links into specific categories of [Platform Settings](../platform-settings/README.md), rather than separate tools:
+Quelques éléments du bloc sont simplement des liens directs vers des catégories précises des [Paramètres de la plateforme](../platform-settings/README.md), plutôt que des outils distincts :
 
-* **Plugins** and **System templates** open Configuration Settings pre-filtered to those categories
-* **Regions** does the same, for platform region settings
+* **Plugins** et **System templates** ouvrent les paramètres de configuration préfiltrés sur ces catégories
+* **Regions** fait de même, pour les paramètres de régions de la plateforme
 
-## Occasionally-Visible Items
+## Éléments visibles occasionnellement
 
-A handful of items only appear when the relevant setting or plugin is active, so you may not see them on your installation:
+Quelques éléments n’apparaissent que lorsque le paramètre ou le plugin concerné est actif, de sorte que vous pourriez ne pas les voir sur votre installation :
 
-* **Terms and Conditions** — appears when **Allow terms and conditions** is enabled, for managing the text users must accept
-* **Notifications** — appears when the platform notification-events feature is enabled
-* **CMS**, **Dictionary**, **Justification** — each tied to its own optional plugin being installed and enabled
+* **Terms and Conditions** — apparaît lorsque **Allow terms and conditions** est activé, pour gérer le texte que les utilisateurs doivent accepter
+* **Notifications** — apparaît lorsque la fonctionnalité d’événements de notification de la plateforme est activée
+* **CMS**, **Dictionary**, **Justification** — chacun lié à son propre plugin optionnel installé et activé

@@ -1,29 +1,29 @@
 # Pages
 
-Pages is Chamilo's built-in, CMS-like tool for the content blocks that make up your portal's public-facing areas — the homepage, footer, navigation menus, and similar placements — without needing to touch a template file.
+Pages est l’outil intégré de Chamilo, de type CMS, destiné aux blocs de contenu qui composent les zones publiques de votre portail — la page d’accueil, le pied de page, les menus de navigation et des emplacements similaires — sans avoir à modifier un fichier de modèle.
 
-## Accessing Pages
+## Accéder à Pages
 
-From the administration panel, click **Platform > Pages**.
+Depuis le panneau d’administration, cliquez sur **Plateforme > Pages**.
 
-## How Pages Work
+## Fonctionnement de Pages
 
-Each page has:
+Chaque page possède :
 
-* **Title** and rich-text **content**
-* A **slug**, generated automatically from the title
-* **Enabled** — whether the page is currently visible
-* **Position** — drag-and-drop ordering within its category
-* **Locale** — content is per-language: the same placement can hold one page per language, and the site falls back to the platform's default language if no page exists for a visitor's language
-* A **category** — this is what determines *where* the page is rendered (for example `index`, `home`, `footer_public`, or `menu_links`); Chamilo creates the categories it needs automatically
+* un **titre** et un **contenu** en texte enrichi
+* un **slug**, généré automatiquement à partir du titre
+* **Activée** — indique si la page est actuellement visible
+* **Position** — ordonnancement par glisser-déposer au sein de sa catégorie
+* **Locale** — le contenu est propre à chaque langue : le même emplacement peut contenir une page par langue, et le site se rabat sur la langue par défaut de la plateforme si aucune page n’existe pour la langue d’un visiteur
+* une **catégorie** — c’est elle qui détermine *où* la page est affichée (par exemple `index`, `home`, `footer_public` ou `menu_links`) ; Chamilo crée automatiquement les catégories dont il a besoin
 
-On a multi-URL (multi-portal) install, pages are also scoped per access URL, so each portal manages its own content.
+Sur une installation multi-URL (multi-portail), les pages sont également limitées par URL d’accès, de sorte que chaque portail gère son propre contenu.
 
-## The Registration Intro Page
+## La page d’introduction à l’inscription
 
-**Platform > Setting the registration page** is a shortcut into this same Pages system for one specific placement: the introductory text shown above the public sign-up form. It's restricted to Portal Administrators. Clicking it either:
+**Plateforme > Définir la page d’inscription** est un raccourci vers ce même système Pages pour un emplacement précis : le texte d’introduction affiché au-dessus du formulaire public d’inscription. Il est réservé aux administrateurs de portail. En cliquant dessus, vous :
 
-* Opens the existing intro page for editing, if one already exists for your access URL and language, or
-* Creates the placement on the fly and takes you straight to creating its content
+* ouvrez la page d’introduction existante pour la modifier, si une page existe déjà pour votre URL d’accès et votre langue, ou
+* créez l’emplacement à la volée et passez directement à la création de son contenu
 
-Whatever you save here is rendered as an info box directly above the registration form — a natural place for instructions, terms specific to your organization, or context prospective users should read before signing up. Leave it disabled (or never create it) to show the plain registration form with no intro text.
+Tout ce que vous enregistrez ici s’affiche sous forme d’encadré d’information directement au-dessus du formulaire d’inscription — un emplacement naturel pour des consignes, des conditions propres à votre organisation, ou un contexte que les utilisateurs potentiels devraient lire avant de s’inscrire. Laissez-la désactivée (ou ne la créez jamais) pour afficher le formulaire d’inscription simple, sans texte d’introduction.

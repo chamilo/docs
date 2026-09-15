@@ -1,17 +1,17 @@
-# System
+# Système
 
-The **System** block on the administration dashboard groups server-level maintenance tools, the self-update workflow, storage/resource inspection utilities, and platform branding.
+Le bloc **Système** du tableau de bord d’administration regroupe les outils de maintenance au niveau du serveur, le flux de mise à jour automatique, les utilitaires d’inspection du stockage et des ressources, ainsi que l’identité visuelle de la plateforme.
 
-![The System block on the administration dashboard, listing Clean temporary files, System status, System update, Colors, File info, Resources by type, and List icons](/.gitbook/assets/admin-system-block.png)
+![Le bloc Système du tableau de bord d’administration, listant Nettoyer les fichiers temporaires, État du système, Mise à jour du système, Couleurs, Informations sur les fichiers, Ressources par type et Liste des icônes](/.gitbook/assets/admin-system-block.png)
 
-## Accessing the System Block
+## Accéder au bloc Système
 
-From the administration panel, the **System** block appears alongside the other dashboard blocks. Click any of its links to open the corresponding tool.
+Depuis le panneau d’administration, le bloc **Système** apparaît aux côtés des autres blocs du tableau de bord. Cliquez sur l’un de ses liens pour ouvrir l’outil correspondant.
 
-## What's in the Block
+## Contenu du bloc
 
-* **[System Tools](system-tools.md)** — Clean temporary files, run the self-update workflow, inspect stored files and resources, and browse the built-in icon set
-* **System status** — Covered in [System Status](../maintenance/system-status.md), under Maintenance
-* **[Branding](branding/README.md)** — Color themes (the block's "Colors" link opens the same Color Themes page), portal customization, and templates
+* **[Outils système](system-tools.md)** — Nettoyer les fichiers temporaires, exécuter le flux de mise à jour automatique, inspecter les fichiers et ressources stockés, et parcourir le jeu d’icônes intégré
+* **État du système** — Traité dans [État du système](../maintenance/system-status.md), sous Maintenance
+* **[Identité visuelle](branding/README.md)** — Thèmes de couleurs (le lien « Couleurs » du bloc ouvre la même page Thèmes de couleurs), personnalisation du portail et modèles
 
-Two additional items — **Data filler** and **E-mail tester** — only appear when the server has a `tests/` directory present, which is a development/QA setup, not a production one. They won't appear on a typical production install; see [System Tools](system-tools.md#development-only-tools) for what they do when present.
+Deux éléments supplémentaires — **Data filler** et **E-mail tester** — n’apparaissent que lorsque le serveur comporte un répertoire `tests/`, ce qui correspond à une configuration de développement/AQ, et non de production. Ils n’apparaissent pas sur une installation de production typique ; voir [Outils système](system-tools.md#development-only-tools) pour ce qu’ils font lorsqu’ils sont présents.

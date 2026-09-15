@@ -1,26 +1,26 @@
-# Getting Started
+# Premiers pas
 
-This section helps you get oriented with Chamilo 3.0 as a learner. You will learn how to create an account (if needed), log in, and find your way around the main interface.
+Cette section vous aide à vous orienter dans Chamilo 3.0 en tant qu’apprenant. Vous y apprendrez comment créer un compte (si nécessaire), vous connecter et vous repérer dans l’interface principale.
 
-## Logging In
+## Connexion
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Pour accéder à Chamilo, ouvrez votre navigateur et saisissez l’URL fournie par votre établissement (par exemple, `https://chamilo.yourschool.edu`). Saisissez votre nom d’utilisateur et votre mot de passe sur la page de connexion, puis cliquez sur **Sign in**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+Si votre établissement utilise une authentification externe (telle qu’Azure, Keycloak ou un système d’authentification unique universitaire), vous pouvez voir des boutons de connexion supplémentaires sous le formulaire de connexion standard. Cliquez sur le bouton approprié pour vous authentifier via le fournisseur d’identité de votre établissement.
 
-If you don't have an account yet, see [Creating an Account](creating-an-account.md).
+Si vous n’avez pas encore de compte, consultez [Créer un compte](creating-an-account.md).
 
-> If you have forgotten your password, click the **Forgot your password?** link on the login page. See [Resetting Your Password](../account-and-security/resetting-your-password.md) for the full process.
+> Si vous avez oublié votre mot de passe, cliquez sur le lien **Forgot your password?** de la page de connexion. Consultez [Réinitialiser votre mot de passe](../account-and-security/resetting-your-password.md) pour le processus complet.
 
-## First Look
+## Premier aperçu
 
-After logging in, you will see the Chamilo home page, organized into three main areas: a top bar, a sidebar, and a main content area. These are described in detail in [Understanding the Interface](understanding-the-interface.md).
+Après la connexion, vous verrez la page d’accueil de Chamilo, organisée en trois zones principales : une barre supérieure, une barre latérale et une zone de contenu principal. Celles-ci sont décrites en détail dans [Comprendre l’interface](understanding-the-interface.md).
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in. Each course appears as a card showing its image, title, and quick-access actions.
+Depuis la barre latérale, cliquez sur **My courses** pour voir tous les cours auxquels vous êtes inscrit. Chaque cours apparaît sous forme de carte affichant son image, son titre et des actions d’accès rapide.
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions. A session is a scheduled edition or cohort of one or more courses — the same course content delivered to a specific group of learners over a specific period.
+Si votre établissement utilise des **sessions** (périodes de formation limitées dans le temps), vous verrez également un lien **My sessions** dans la barre latérale, organisé en sessions en cours, passées et à venir. Une session est une édition planifiée ou une cohorte d’un ou plusieurs cours — le même contenu de cours dispensé à un groupe spécifique d’apprenants pendant une période donnée.
 
-## Next Steps
+## Étapes suivantes
 
-* [Creating an Account](creating-an-account.md) — How the self-registration form works, and why it only creates learner accounts
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface as a learner sees it
+* [Créer un compte](creating-an-account.md) — Fonctionnement du formulaire d’auto-inscription, et pourquoi il ne crée que des comptes apprenant
+* [Comprendre l’interface](understanding-the-interface.md) — Un examen détaillé de chaque partie de l’interface Chamilo telle que la voit un apprenant

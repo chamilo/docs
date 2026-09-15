@@ -1,18 +1,18 @@
-# H5P Import
+# Import H5P
 
-H5P Import <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P Import" data-size="line"> lets you bring standard `.h5p` interactive-content packages (interactive video, quizzes, presentations, and other H5P content types) into a course, with learner attempts and progress tracked similarly to a Chamilo test.
+L’import H5P <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="Import H5P" data-size="line"> vous permet d’intégrer dans un cours des paquets de contenu interactif standard `.h5p` (vidéo interactive, quiz, présentations et autres types de contenu H5P), les tentatives et la progression des apprenants étant suivies de manière similaire à un test Chamilo.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, an **H5P import** tool appears on your course homepage, showing a table of the course's H5P packages with title, description, and how many times each has been launched.
+Une fois activé, un outil **Import H5P** apparaît sur la page d’accueil de votre cours, affichant un tableau des paquets H5P du cours avec le titre, la description et le nombre de fois que chacun a été lancé.
 
-## Adding Content
+## Ajouter du contenu
 
-* Click **Upload** and choose an `.h5p` file, with a title and description, to add it to the course's list
-* From a **Learning Path**, use the resource panel's H5P entry to insert one of the course's uploaded packages directly as a learning path item
+* Cliquez sur **Téléverser** et choisissez un fichier `.h5p`, avec un titre et une description, pour l’ajouter à la liste du cours
+* Depuis un **parcours d’apprentissage**, utilisez l’entrée H5P du panneau de ressources pour insérer directement l’un des paquets téléversés du cours comme élément de parcours
 
-## Tips
+## Conseils
 
-* **Design content before uploading** — You cannot edit an H5P package once it's uploaded; fix it in your H5P authoring tool and re-upload if you need to make a change
-* **Everything in the tool's list is visible to every student by default** — If you want to control visibility item by item, add packages through a Learning Path instead, where you can manage each item's visibility individually
-* **This is a beta feature** — Treat it as usable but still maturing, and keep a copy of your source `.h5p` files in case you need to re-upload
+* **Concevez le contenu avant le téléversement** — Vous ne pouvez pas modifier un paquet H5P une fois téléversé ; corrigez-le dans votre outil d’auteur H5P et téléversez-le à nouveau si vous devez apporter un changement
+* **Tout ce qui figure dans la liste de l’outil est visible par défaut pour chaque étudiant** — Si vous souhaitez contrôler la visibilité élément par élément, ajoutez les paquets via un parcours d’apprentissage, où vous pouvez gérer individuellement la visibilité de chaque élément
+* **Il s’agit d’une fonctionnalité bêta** — Considérez-la comme utilisable mais encore en cours de maturation, et conservez une copie de vos fichiers sources `.h5p` au cas où vous auriez besoin de les téléverser à nouveau

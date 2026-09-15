@@ -1,6 +1,6 @@
-# Project Structure
+# Structure du projet
 
-## Top-Level Directories
+## Répertoires de premier niveau
 
 ```
 chamilo/
@@ -23,47 +23,47 @@ chamilo/
 └── translations/    # Translation files
 ```
 
-## Source Code (`src/`)
+## Code source (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+Le plus volumineux des bundles. Sous-répertoires notables :
 
-| Directory | Contents |
+| Répertoire | Contenu |
 |-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| `Entity/` | Entités Doctrine (User, Course, Session, ResourceNode, etc.) |
+| `Controller/` | Contrôleurs d’administration, d’actions API et de pages (le sous-dossier Api/ contient les actions API Platform personnalisées) |
+| `Settings/` | Fichiers de schéma des paramètres (configuration de la plateforme) |
+| `Repository/` | Dépôts Doctrine |
+| `AiProvider/` | Implémentations de fournisseurs d’IA (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
+| `Tool/` | Définitions des outils de cours |
+| `Security/` | Voters, authentificateurs, autorisation |
+| `EventListener/` | Écouteurs d’événements |
+| `EventSubscriber/` | Abonnés aux événements |
+| `Command/` | Commandes de la console Symfony |
+| `Migrations/` | Migrations de base de données |
+| `Twig/` | Extensions Twig |
+| `Storage/` | Adaptateurs de stockage Flysystem |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+Entités et logique spécifiques aux cours :
 
-| Directory | Contents |
+| Répertoire | Contenu |
 |-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| `Entity/` | Entités de contenu de cours (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
+| `Controller/` | Contrôleurs de cours |
+| `Settings/` | Schémas des paramètres au niveau du cours |
+| `Component/CourseCopy/` | Import/export de cours (Common Cartridge, Moodle) |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+Intégration LTI 1.3 :
 
-| Directory | Contents |
+| Répertoire | Contenu |
 |-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| `Entity/` | Entités de plateforme, d’outil et de déploiement LTI |
+| `Controller/` | Points de terminaison de lancement et de configuration LTI |
 
 ## Frontend (`assets/vue/`)
 
@@ -168,11 +168,11 @@ config/
 └── jwt-test/            # JWT keys for the test environment
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Symfony fusionne automatiquement les fichiers de base `packages/*.yaml` avec ceux du sous-répertoire d’environnement correspondant (`dev/`, `prod/` ou `test/`) ; les fichiers spécifiques à un environnement n’ont donc à surcharger que les valeurs qui diffèrent.
 
 ## Tests (`tests/`)
 
-`tests/` is **not included in packaged Chamilo downloads** (release ZIPs/tarballs) — it is stripped out because it has no purpose at runtime and some of its scripts could pose a risk if left on a production server. It is only present when the project is obtained via `git clone`.
+`tests/` **n’est pas inclus dans les téléchargements empaquetés de Chamilo** (ZIP/tarballs de version) — il est retiré car il n’a aucune utilité à l’exécution et certains de ses scripts pourraient présenter un risque s’ils restaient sur un serveur de production. Il n’est présent que lorsque le projet est obtenu via `git clone`.
 
 ```
 tests/
@@ -192,45 +192,45 @@ tests/
 └── README.md                                   # Setup instructions for PHPUnit and Playwright
 ```
 
-| Directory | Contents |
+| Répertoire | Contenu |
 |-----------|----------|
-| `CoreBundle/` | PHPUnit tests mirroring `src/CoreBundle/`: `Api/`, `ApiResource/`, `Command/`, `Controller/`, `DataFixtures/`, `Entity/`, `Event/`, `EventListener/`, `Filter/`, `fixtures/`, `Helpers/`, `Mcp/`, `Migrations/`, `Repository/`, `Security/`, `Serializer/`, `Service/`, `Settings/`, `State/`, `Tool/`, `Traits/`, `Twig/` |
-| `CourseBundle/` | PHPUnit tests mirroring `src/CourseBundle/`: `Api/`, `Component/CourseCopy/`, `Repository/`, `Settings/` |
-| `datafiller/` | Scripts that fill a test installation with demo content: `data_courses.php`, `data_users.php`, `fill_courses.php`, `fill_users.php`, `fill_many_users.php`, `fill_whoisonline.php`, `generate_users.php`, `fill_all.php` (runs the others), plus `images/` and a large CSV user-import example |
-| `history/` | Snapshots documenting Chamilo's structure at past releases (`1.8.8.2`, `1.9.0`, `1.10.0`, `1.11.0`, `2.0`) |
-| `phpstan/` | `doctrine-orm-bootstrap.php`, loaded by PHPStan when analyzing Doctrine ORM code |
-| `playwright/` | End-to-end browser tests: `features/*.feature` (Gherkin scenarios run via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)), `steps/common.steps.ts` (TypeScript step definitions), `fixtures/` (test files, e.g. spreadsheets), `scripts/check-results.mjs`, `playwright.config.ts`, and the generated `.features-gen/` output. Replaces the old Behat suite, whose scenarios remain in git history for reference |
-| `procedures/` | Spreadsheets (currently `spanish/`) used as a checklist base for manual quality review of features |
-| `scripts/` | One-off maintenance/fix/migration scripts for existing Chamilo portals (mostly targeting older versions), plus `git-hooks/`, `img/`, `lang/`, and `packaging/` subfolders |
+| `CoreBundle/` | Tests PHPUnit calqués sur `src/CoreBundle/` : `Api/`, `ApiResource/`, `Command/`, `Controller/`, `DataFixtures/`, `Entity/`, `Event/`, `EventListener/`, `Filter/`, `fixtures/`, `Helpers/`, `Mcp/`, `Migrations/`, `Repository/`, `Security/`, `Serializer/`, `Service/`, `Settings/`, `State/`, `Tool/`, `Traits/`, `Twig/` |
+| `CourseBundle/` | Tests PHPUnit calqués sur `src/CourseBundle/` : `Api/`, `Component/CourseCopy/`, `Repository/`, `Settings/` |
+| `datafiller/` | Scripts qui remplissent une installation de test avec du contenu de démonstration : `data_courses.php`, `data_users.php`, `fill_courses.php`, `fill_users.php`, `fill_many_users.php`, `fill_whoisonline.php`, `generate_users.php`, `fill_all.php` (exécute les autres), plus `images/` et un large exemple CSV d’import d’utilisateurs |
+| `history/` | Instantanés documentant la structure de Chamilo aux versions passées (`1.8.8.2`, `1.9.0`, `1.10.0`, `1.11.0`, `2.0`) |
+| `phpstan/` | `doctrine-orm-bootstrap.php`, chargé par PHPStan lors de l’analyse du code Doctrine ORM |
+| `playwright/` | Tests de bout en bout dans le navigateur : `features/*.feature` (scénarios Gherkin exécutés via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)), `steps/common.steps.ts` (définitions d’étapes TypeScript), `fixtures/` (fichiers de test, p. ex. tableurs), `scripts/check-results.mjs`, `playwright.config.ts`, et la sortie générée `.features-gen/`. Remplace l’ancienne suite Behat, dont les scénarios restent dans l’historique git à titre de référence |
+| `procedures/` | Tableurs (actuellement `spanish/`) servant de base de liste de contrôle pour la revue qualité manuelle des fonctionnalités |
+| `scripts/` | Scripts ponctuels de maintenance/correction/migration pour des portails Chamilo existants (visant surtout d’anciennes versions), plus les sous-dossiers `git-hooks/`, `img/`, `lang/` et `packaging/` |
 
-See [Testing](../contributing/testing.md) for how to set up the test database and run the PHPUnit and Playwright suites.
+Voir [Tests](../contributing/testing.md) pour la configuration de la base de données de test et l’exécution des suites PHPUnit et Playwright.
 
-## Build Configuration
+## Configuration de compilation
 
-| File | Purpose |
+| Fichier | Rôle |
 |------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| `webpack.config.js` | Configuration Webpack Encore (entrées, chargeurs, plugins) |
+| `tailwind.config.js` | Configuration Tailwind CSS (chemins de contenu, extensions de thème, plugins) |
+| `tsconfig.json` | Configuration TypeScript |
+| `eslint.config.mjs` | Règles ESLint (configuration plate) |
+| `.prettierrc.json` | Règles de formatage Prettier |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+Tous les fichiers se trouvent à la racine du projet. Les plugins PostCSS (Tailwind + Autoprefixer) sont configurés en ligne dans `webpack.config.js` via `enablePostCssLoader()` — il n’existe pas de `postcss.config.js` autonome. `webpack.config.js` lit `tailwind.config.js` indirectement via PostCSS, de sorte que les modifications des sections `content` ou `theme` de Tailwind prennent effet au prochain lancement de `yarn encore dev` / `yarn encore production`.
 
-## Webpack Entry Points
+## Points d’entrée Webpack
 
-The build produces these bundles:
+La compilation produit ces bundles :
 
-**JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+**JavaScript :**
+* `vue` — Application principale Vue 3 (`assets/vue/main.js`)
+* `vue_installer` — Assistant d’installation (`assets/vue/main_installer.js`)
+* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — JS héritée pour les pages non encore migrées vers Vue
 
-**CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+**CSS :**
+* `app` — Feuille de styles principale (`assets/css/app.scss`)
+* Plus des feuilles spécialisées : `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
 
-## CSS Structure (`assets/css/`)
+## Structure CSS (`assets/css/`)
 
 ```
 assets/css/
@@ -259,13 +259,13 @@ assets/css/
 
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+Tailwind est intégré via PostCSS. `assets/css/_tailwind.scss` émet les couches base, component et utility ; `assets/css/app.scss` l’importe en premier afin que les utilitaires Tailwind soient disponibles dans tous les autres partiels. La configuration Tailwind — chemins de contenu pour le purging, extensions de thème et plugins — se trouve dans `tailwind.config.js` à la racine du projet (`/var/www/chamilo/tailwind.config.js`).
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+Les classes utilitaires et les classes de composants personnalisées définies avec `@layer` (visibles dans `app.scss`) suivent la convention de superposition de Tailwind, de sorte que les classes définies par l’utilisateur respectent les mêmes règles de spécificité que les utilitaires générés.
 
-### Color Themes
+### Thèmes de couleurs
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Chamilo prend en charge un système de thèmes de couleurs configurable directement depuis l’interface d’administration (**Administration > Thèmes de couleurs**). Chaque thème enregistré écrit ses fichiers dans un répertoire dédié sous `var/themes/` :
 
 ```
 var/themes/
@@ -281,7 +281,7 @@ var/themes/
         └── ...          # Background images, admin block images, etc.
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+`colors.css` définit des propriétés CSS personnalisées sous forme de triplets de canaux RGB séparés par des espaces plutôt que de valeurs `rgb()`, ce qui permet à Tailwind de composer des variantes d’opacité (par ex. `bg-primary/50`) sans configuration supplémentaire :
 
 ```css
 :root {
@@ -291,4 +291,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+La couche de thème se superpose au bundle Tailwind/SCSS compilé : le navigateur charge `colors.css` après la feuille de style principale, de sorte que les changements de thème prennent effet immédiatement, sans étape de compilation.

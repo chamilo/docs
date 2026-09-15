@@ -1,11 +1,11 @@
-# Professional Support
+# Support professionnel
 
-Professional Support is a small read-only panel describing official Chamilo support services — useful if your organization needs paid help beyond community support.
+Le Support professionnel est un petit panneau en lecture seule décrivant les services officiels de support Chamilo — utile si votre organisation a besoin d’une aide payante au-delà du support communautaire.
 
-## What It Shows and Where It Comes From
+## Ce qu’il affiche et d’où cela provient
 
-The panel fetches content from `version.chamilo.org/c/support/latest.php`, requesting it in your platform's interface language. The only thing your platform sends is that language code — nothing about your platform's usage or configuration.
+Le panneau récupère le contenu depuis `version.chamilo.org/c/support/latest.php`, en le demandant dans la langue d’interface de votre plateforme. La seule information envoyée par votre plateforme est ce code de langue — rien concernant l’utilisation ou la configuration de votre plateforme.
 
-## Purpose
+## Objectif
 
-This panel is informational and promotional: it points administrators toward Chamilo's official service providers (consulting, hosting, custom development, and certified support) for organizations that want a contracted, certified partner rather than relying solely on community forums. See also [Chamilo.org Links](chamilo-org-links.md), which links directly to the official providers list.
+Ce panneau est informatif et promotionnel : il oriente les administrateurs vers les prestataires de services officiels de Chamilo (conseil, hébergement, développement sur mesure et support certifié) pour les organisations qui souhaitent un partenaire contractuel et certifié plutôt que de s’appuyer uniquement sur les forums communautaires. Voir également [Liens Chamilo.org](chamilo-org-links.md), qui renvoie directement vers la liste officielle des prestataires.

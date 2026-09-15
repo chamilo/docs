@@ -1,107 +1,101 @@
-# Assessments
+# Évaluations
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+Les évaluations (auparavant *gradebook*) agrègent les scores des exercices, des travaux et des autres activités notées en une vue unifiée des performances de chaque apprenant. Elles contrôlent également la génération des certificats.
 
-## How the Assessments Work
+## Fonctionnement des évaluations
 
-The assessments are weighted scoring systems. You define:
+Les évaluations sont des systèmes de notation pondérés. Vous définissez :
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **Quelles activités** contribuent à la note (exercices, travaux, assiduité, etc.)
+2. **Le poids** de chaque activité (sa contribution à la note finale)
+3. **Le score minimal de certification** (le seuil pour obtenir un certificat)
+4. **Un score minimal par activité** — Chaque activité du carnet de notes peut avoir son propre **Score minimal**. Les apprenants qui obtiennent un score inférieur à ce minimum sur une activité clé peuvent se voir empêchés d’atteindre les objectifs et d’obtenir le certificat, même si leur total pondéré global est par ailleurs suffisant.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+Les activités peuvent être de 2 types :
+* **Activité en présentiel** (ou activité en classe), dont les notes doivent être importées depuis une autre source
+* **Activité en ligne** sélectionnée dans le cours, dont les notes sont obtenues par la réalisation de l’activité dans le cours
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo calcule la note globale de chaque apprenant à partir de ces poids.
 
-## Setting Up the Assessment
+## Configuration de l’évaluation
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. Ouvrez l’outil **Évaluations** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> depuis la page d’accueil du cours
+2. Vous verrez la vue d’ensemble des évaluations, initialement vide
 
-### Adding Activities
+### Ajout d’activités
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. Cliquez sur **Ajouter une activité en ligne**
+2. Choisissez le type :
+   * **Test** — Lier un exercice spécifique du cours
+   * **Travail** — Lier un dossier de publications d’étudiants
+   * **Parcours d’apprentissage** — Lier l’achèvement d’un parcours d’apprentissage
+   * **Assiduité** — Lier une feuille de présence
+   * **Fil de forum** — Lier un fil de forum (qui doit être noté manuellement)
+   * **Enquête** — Lier une enquête
+3. Sélectionnez l’activité spécifique dans le type choisi
+4. Définissez le **Poids** de cette activité (par ex. 30 % pour l’examen de mi-parcours, 40 % pour le projet final)
+5. Définissez le **Score minimal** le cas échéant
+6. Enregistrez
 
-The total weight of all activities should add up to 100%.
+Le poids total de toutes les activités doit atteindre 100 %.
 
-### Sub-Categories
+### Sous-catégories
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+Pour des schémas de notation complexes, vous pouvez créer des **sous-catégories** afin de regrouper des activités liées :
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **Exemple** : une sous-catégorie « Devoirs » (poids : 30 %) contenant cinq travaux individuels valant chacun 20 % de la sous-catégorie
+* Les sous-catégories permettent d’organiser l’évaluation de façon hiérarchique tout en conservant un calcul global simple
 
-## Viewing Grades
+## Consultation des notes
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![Le tableau d’ensemble du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+L’évaluation affiche un tableau avec :
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* Le nom de chaque apprenant
+* Les scores de chaque activité
+* Le total pondéré
+* Si l’apprenant est éligible à un certificat
 
-You can sort by any column to quickly identify top performers or struggling learners.
+Vous pouvez trier par n’importe quelle colonne pour identifier rapidement les meilleurs résultats ou les apprenants en difficulté.
 
-### Score Distribution Charts
+### Graphiques de distribution des scores
 
-Below the table, and on the **Graphical view** page, the assessment draws one bar
-chart per activity plus one for the total. Each chart is a column chart: the
-horizontal axis lists your score ranges from the lowest to the highest, and the
-height of each bar is the number of learners in that range.
+Sous le tableau, et sur la page **Vue graphique**, l’évaluation dessine un diagramme en barres par activité plus un pour le total. Chaque graphique est un diagramme en colonnes : l’axe horizontal liste vos plages de scores du plus bas au plus élevé, et la hauteur de chaque barre est le nombre d’apprenants dans cette plage.
 
-The **Total** chart also marks the class average. A red point sits on the range
-that holds the average, and the legend gives the exact percentage.
+Le graphique **Total** marque également la moyenne de la classe. Un point rouge se situe sur la plage qui contient la moyenne, et la légende donne le pourcentage exact.
 
-These charts appear only when the score display rules are set. If you see the
-message *To view graph score rule must be enabled*, define your ranges first
-under the assessment's scoring settings.
+Ces graphiques n’apparaissent que lorsque les règles d’affichage des scores sont définies. Si vous voyez le message *To view graph score rule must be enabled*, définissez d’abord vos plages dans les paramètres de notation de l’évaluation.
 
-## Certificates
+## Certificats
 
-To enable certificate generation:
+Pour activer la génération de certificats :
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. Dans les paramètres de l’évaluation, définissez un **score minimal de certification** (par ex. 70 %)
+2. Lorsqu’un apprenant atteint ou dépasse ce seuil avec son total pondéré (et qu’il n’a échoué à aucun score minimal par activité), il peut télécharger son certificat
+3. Le certificat est généré à partir d’un modèle configuré par l’administrateur de la plateforme
 
-Once **Generate certificates** is enabled on the root category, a **Certificate validity (days)** field appears. Leave it at `0` for certificates that never expire, or set a number of days after which the certificate expires — Chamilo can then remind learners as that expiry date approaches, either automatically (cron, admin-configured) or manually from the certificates list.
+Une fois **Générer les certificats** activé sur la catégorie racine, un champ **Validité du certificat (jours)** apparaît. Laissez-le à `0` pour des certificats qui n’expirent jamais, ou définissez un nombre de jours au-delà duquel le certificat expire — Chamilo peut alors rappeler aux apprenants l’approche de cette date d’expiration, soit automatiquement (cron, configuré par l’administrateur), soit manuellement depuis la liste des certificats.
 
-![The category edit dialog with Generate certificates enabled and the Certificate validity (days) field set to 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![La boîte de dialogue d’édition de catégorie avec Générer les certificats activé et le champ Validité du certificat (jours) défini à 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) for more details.
+Voir [Certificats et compétences](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) pour plus de détails.
 
-## Linking to Skills
+## Liaison aux compétences
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+Vous pouvez associer des **compétences** (*skills*) à l’évaluation. Lorsqu’un apprenant atteint les objectifs fixés pour terminer l’évaluation, il peut obtenir un certificat, une compétence, ou les deux. Les compétences sont visibles sur son profil dans l’espace réseau social. Cela constitue un dossier de compétences au fil du temps.
 
-## Exporting Grades
+## Exportation des notes
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Cliquez sur le bouton **Exporter** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de tableur. Cela est utile pour :
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* Partager les notes avec des systèmes administratifs
+* Effectuer des analyses complémentaires en dehors de Chamilo
+* Conserver des archives hors ligne
 
-## Tips
+## Conseils
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **Planifiez vos pondérations dès le début** — Définissez le barème de notation au commencement du cours afin que les apprenants sachent à quoi s’attendre
+* **Utilisez des sous-catégories pour les cours complexes** — Regroupez les devoirs, les quiz et la participation dans des catégories claires
+* **Fixez des seuils de réussite pertinents** — Le score de certification doit refléter une véritable compétence, et non seulement la participation
+* **Vérifiez régulièrement** — Consultez périodiquement le carnet de notes pour vous assurer que toutes les activités sont correctement liées et que les scores sont bien enregistrés

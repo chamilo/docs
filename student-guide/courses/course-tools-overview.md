@@ -1,51 +1,51 @@
-# Finding Your Way Around a Course
+# Se repérer dans un cours
 
-Once you open a course, you'll see its homepage with a grid of tool icons. This page explains what each tool means for you as a learner, and links to where the underlying feature is described in more detail.
+Une fois un cours ouvert, vous voyez sa page d’accueil avec une grille d’icônes d’outils. Cette page explique ce que chaque outil signifie pour vous en tant qu’apprenant, et renvoie vers l’endroit où la fonctionnalité sous-jacente est décrite plus en détail.
 
-Only tools your teacher has made visible to learners appear in your grid — your teacher may see additional, hidden tools that aren't shown to you. If a tool you expect isn't there, it may simply be hidden, or disabled for the whole course; ask your teacher.
+Seuls les outils que votre enseignant a rendus visibles aux apprenants apparaissent dans votre grille — votre enseignant peut voir des outils supplémentaires, masqués, qui ne vous sont pas montrés. Si un outil que vous attendez n’est pas là, il peut simplement être masqué, ou désactivé pour l’ensemble du cours ; demandez à votre enseignant.
 
-![A course homepage tool grid as seen by a learner](/.gitbook/assets/student-course-tool-grid.png)
+![Une grille d’outils de la page d’accueil d’un cours telle que vue par un apprenant](/.gitbook/assets/student-course-tool-grid.png)
 
-## The Tool Grid
+## La grille d’outils
 
-| Tool | Icon | What it means for you | Learn more |
+| Outil | Icône | Ce que cela signifie pour vous | En savoir plus |
 |------|------|------------------------|------------|
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Read and download files your teacher has uploaded | [Documents](../../teacher-guide/adding-content/documents.md) |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Follow a guided sequence of activities in order, tracking your own progress as you go | [Learning Paths](../../teacher-guide/adding-content/learning-paths.md) |
-| Links | <img src="/.gitbook/assets/icons/mdi-file-link.svg" alt="Links" data-size="line"> | Open external resources your teacher has curated | [Links](../../teacher-guide/adding-content/links.md) |
-| Tests (Exercises) | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> | Take quizzes and exams; some are graded automatically, some by your teacher | [Exercises](../../teacher-guide/assessing-learners/exercises.md) |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Read important updates posted by your teacher | [Announcements](../../teacher-guide/adding-content/announcements.md) |
-| Assessments (Gradebook) | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Assessments" data-size="line"> | See your own scores across the course's graded activities, and any certificate you've earned | [Gradebook](../../teacher-guide/assessing-learners/gradebook.md) |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Look up key terms defined for the course | [Glossary](../../teacher-guide/adding-content/glossary.md) |
-| Attendances | <img src="/.gitbook/assets/icons/mdi-av-timer.svg" alt="Attendances" data-size="line"> | See your own recorded attendance, if your teacher tracks it | [Attendance](../../teacher-guide/assessing-learners/attendance.md) |
-| Course progress | <img src="/.gitbook/assets/icons/mdi-progress-upload.svg" alt="Course progress" data-size="line"> | See a summary of how far you've advanced through the course | [Course Progress](../../teacher-guide/additional-tools/course-progress.md) |
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | See course-specific events and deadlines | — |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> | Read and post in threaded discussions with your teacher and classmates | [Forums](../../teacher-guide/collaboration-and-communication/forums.md) |
-| Dropbox | <img src="/.gitbook/assets/icons/mdi-dropbox.svg" alt="Dropbox" data-size="line"> | Exchange files privately with your teacher or classmates | [Dropbox](../../teacher-guide/additional-tools/dropbox.md) |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Users" data-size="line"> | See who else is enrolled in the course | — |
-| Groups | <img src="/.gitbook/assets/icons/mdi-account-group.svg" alt="Groups" data-size="line"> | Work within a smaller group assigned by your teacher, with its own shared tools | [Groups](../../teacher-guide/collaboration-and-communication/groups.md) |
-| Chat | <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> | Message your teacher or classmates in real time | [Chat](../../teacher-guide/collaboration-and-communication/chat.md) |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Submit files or text for your teacher to review and grade | [Assignments](../../teacher-guide/assessing-learners/assignments.md) |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Answer questionnaires, sometimes anonymously | [Surveys](../../teacher-guide/assessing-learners/surveys.md) |
-| Wiki | <img src="/.gitbook/assets/icons/mdi-view-dashboard-edit.svg" alt="Wiki" data-size="line"> | Collaboratively write and edit shared pages | [Wiki](../../teacher-guide/collaboration-and-communication/wiki.md) |
-| Notebook | <img src="/.gitbook/assets/icons/mdi-note.svg" alt="Notebook" data-size="line"> | Keep your own private notes within the course | [Notebook](../../teacher-guide/additional-tools/notebook.md) |
-| Portfolio | <img src="/.gitbook/assets/icons/mdi-briefcase.svg" alt="Portfolio" data-size="line"> | Build a personal collection of work to showcase or submit | [Portfolio](../../teacher-guide/additional-tools/portfolio.md) |
-| Reporting | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Nothing, for you — see below | — |
+| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Lire et télécharger les fichiers que votre enseignant a déposés | [Documents](../../teacher-guide/adding-content/documents.md) |
+| Parcours | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Suivre une séquence guidée d’activités dans l’ordre, en suivant votre propre progression | [Parcours](../../teacher-guide/adding-content/learning-paths.md) |
+| Liens | <img src="/.gitbook/assets/icons/mdi-file-link.svg" alt="Links" data-size="line"> | Ouvrir les ressources externes sélectionnées par votre enseignant | [Liens](../../teacher-guide/adding-content/links.md) |
+| Tests (Exercices) | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> | Passer des quiz et des examens ; certains sont notés automatiquement, d’autres par votre enseignant | [Exercices](../../teacher-guide/assessing-learners/exercises.md) |
+| Annonces | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Lire les mises à jour importantes publiées par votre enseignant | [Annonces](../../teacher-guide/adding-content/announcements.md) |
+| Évaluations (Carnet de notes) | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Assessments" data-size="line"> | Consulter vos propres scores pour les activités notées du cours, ainsi que tout certificat obtenu | [Carnet de notes](../../teacher-guide/assessing-learners/gradebook.md) |
+| Glossaire | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Consulter les termes clés définis pour le cours | [Glossaire](../../teacher-guide/adding-content/glossary.md) |
+| Présences | <img src="/.gitbook/assets/icons/mdi-av-timer.svg" alt="Attendances" data-size="line"> | Consulter vos présences enregistrées, si votre enseignant les suit | [Présences](../../teacher-guide/assessing-learners/attendance.md) |
+| Progression du cours | <img src="/.gitbook/assets/icons/mdi-progress-upload.svg" alt="Course progress" data-size="line"> | Consulter un résumé de votre avancement dans le cours | [Progression du cours](../../teacher-guide/additional-tools/course-progress.md) |
+| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Consulter les événements et échéances propres au cours | — |
+| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> | Lire et publier dans des discussions hiérarchisées avec votre enseignant et vos camarades | [Forums](../../teacher-guide/collaboration-and-communication/forums.md) |
+| Dropbox | <img src="/.gitbook/assets/icons/mdi-dropbox.svg" alt="Dropbox" data-size="line"> | Échanger des fichiers en privé avec votre enseignant ou vos camarades | [Dropbox](../../teacher-guide/additional-tools/dropbox.md) |
+| Utilisateurs | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Users" data-size="line"> | Voir qui d’autre est inscrit au cours | — |
+| Groupes | <img src="/.gitbook/assets/icons/mdi-account-group.svg" alt="Groups" data-size="line"> | Travailler au sein d’un groupe plus restreint constitué par votre enseignant, avec ses propres outils partagés | [Groupes](../../teacher-guide/collaboration-and-communication/groups.md) |
+| Chat | <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> | Envoyer des messages en temps réel à votre enseignant ou à vos camarades | [Chat](../../teacher-guide/collaboration-and-communication/chat.md) |
+| Travaux | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Déposer des fichiers ou du texte pour que votre enseignant les examine et les note | [Travaux](../../teacher-guide/assessing-learners/assignments.md) |
+| Enquêtes | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Répondre à des questionnaires, parfois de façon anonyme | [Enquêtes](../../teacher-guide/assessing-learners/surveys.md) |
+| Wiki | <img src="/.gitbook/assets/icons/mdi-view-dashboard-edit.svg" alt="Wiki" data-size="line"> | Rédiger et modifier collectivement des pages partagées | [Wiki](../../teacher-guide/collaboration-and-communication/wiki.md) |
+| Carnet | <img src="/.gitbook/assets/icons/mdi-note.svg" alt="Notebook" data-size="line"> | Tenir vos propres notes privées au sein du cours | [Carnet](../../teacher-guide/additional-tools/notebook.md) |
+| Portfolio | <img src="/.gitbook/assets/icons/mdi-briefcase.svg" alt="Portfolio" data-size="line"> | Constituer une collection personnelle de travaux à présenter ou à déposer | [Portfolio](../../teacher-guide/additional-tools/portfolio.md) |
+| Rapports | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Rien, pour vous — voir ci-dessous | — |
 
-## Tools You Won't See — and One That Won't Work
+## Outils que vous ne verrez pas — et un qui ne fonctionnera pas
 
-A few entries exist only for teachers and course administrators to configure the course itself — course settings, course maintenance (backup/import/export), the course homepage editor, and (on most platforms) the Blog tool live in a "More actions" menu that only appears to people with edit rights on the course. As a learner, you won't see this menu at all.
+Quelques éléments n’existent que pour que les enseignants et les administrateurs de cours configurent le cours lui-même — les paramètres du cours, la maintenance du cours (sauvegarde/importation/exportation), l’éditeur de la page d’accueil du cours, et (sur la plupart des plateformes) l’outil Blog se trouvent dans un menu « Plus d’actions » qui n’apparaît qu’aux personnes disposant de droits d’édition sur le cours. En tant qu’apprenant, vous ne verrez pas ce menu du tout.
 
-The **Reporting** tile is a special case: it does appear in your grid, but it opens the whole-class tracking view meant for teachers, so clicking it gets you an access-denied message rather than anything useful:
+La tuile **Reporting** est un cas particulier : elle apparaît bien dans votre grille, mais elle ouvre la vue de suivi de toute la classe destinée aux enseignants, si bien qu’un clic produit un message d’accès refusé plutôt que quelque chose d’utile :
 
-![Clicking the Reporting tile as a learner results in an access-denied message](/.gitbook/assets/student-course-reporting-denied.png)
+![Cliquer sur la tuile Reporting en tant qu’apprenant produit un message d’accès refusé](/.gitbook/assets/student-course-reporting-denied.png)
 
-Don't worry — your own progress is available elsewhere: from **My Progress** in the main sidebar (see [Understanding the Interface](../getting-started/understanding-the-interface.md) and [My Progress](../my-progress.md)), and from the **Course progress** and **Assessments** tools above, both of which show your own data.
+Ne vous inquiétez pas — votre propre progression est disponible ailleurs : depuis **My Progress** dans la barre latérale principale (voir [Comprendre l’interface](../getting-started/understanding-the-interface.md) et [My Progress](../my-progress.md)), ainsi que depuis les outils **Course progress** et **Assessments** ci-dessus, qui affichent tous deux vos propres données.
 
-If your course has AI features enabled, you may also notice that a teacher's "AI analyzer" option (used to pre-train the AI Tutor on the course's own content) is different from the learner-facing **AI Tutor** chat — see [AI Tutor Chatbot](ai-tutor.md).
+Si les fonctionnalités d’IA sont activées dans votre cours, vous remarquerez peut-être aussi qu’une option « AI analyzer » destinée à l’enseignant (utilisée pour pré-entraîner l’AI Tutor sur le contenu du cours) est différente du chat **AI Tutor** destiné à l’apprenant — voir [Chatbot AI Tutor](ai-tutor.md).
 
-## Tips
+## Conseils
 
-* **Missing a tool?** Ask your teacher — it's most likely hidden or disabled rather than broken.
-* **Course description and announcements** can be turned off entirely by your teacher; if so, they won't appear for anyone, teacher included.
-* **Everything here can vary by course** — your teacher decides which tools are active and visible for each course individually.
+* **Un outil manque ?** Demandez à votre enseignant — il est très probablement masqué ou désactivé plutôt que défectueux.
+* **La description du cours et les annonces** peuvent être entièrement désactivées par votre enseignant ; le cas échéant, elles n’apparaîtront pour personne, enseignant compris.
+* **Tout ici peut varier d’un cours à l’autre** — votre enseignant décide quels outils sont actifs et visibles pour chaque cours individuellement.

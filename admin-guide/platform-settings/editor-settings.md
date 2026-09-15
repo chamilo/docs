@@ -1,187 +1,186 @@
-# Editor Settings
+# Paramètres de l’éditeur
 
-Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
+Configuration de l’éditeur de texte enrichi (TinyMCE) utilisé sur l’ensemble de la plateforme — barres d’outils, plugins, assistants d’IA dans l’éditeur.
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Éditeur**. Cette catégorie contient **26 paramètres**, listés ci-dessous avec le titre et le commentaire livrés dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est indiqué en monospace. Utilisez-le lors d’un script via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_email_editor`
 
-**Online e-mail editor enabled**
+**Éditeur de courriel en ligne activé**
 
-If this option is activated, clicking on an e-mail address will open an online editor.
+Si cette option est activée, un clic sur une adresse électronique ouvrira un éditeur en ligne.
 
 ### `allow_spellcheck`
 
-**Spell check**
+**Vérification orthographique**
 
-Enable spell check
+Activer la vérification orthographique
 
 ### `block_copy_paste_for_students`
 
-**Block learners copy and paste**
+**Bloquer le copier-coller pour les apprenants**
 
-Block learners the ability to copy and paste into the WYSIWYG editor
+Empêcher les apprenants de copier et coller dans l’éditeur WYSIWYG
 
 ### `editor_block_image_copy_paste`
 
-**Prevent copy-pasting images in WYSIWYG editor**
+**Empêcher le copier-coller d’images dans l’éditeur WYSIWYG**
 
-Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+Empêcher l’utilisation du copier-coller d’images en base64 dans l’éditeur afin d’éviter de remplir la base de données d’images.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `editor_driver_list`
 
-**List of WYSIWYG files drivers**
+**Liste des pilotes de fichiers WYSIWYG**
 
-Array containing the names of the drivers for files access from the WYSIWYG editor.
+Tableau contenant les noms des pilotes pour l’accès aux fichiers depuis l’éditeur WYSIWYG.
 
 ### `editor_settings`
 
-**WYSIWYG editor settings**
+**Paramètres de l’éditeur WYSIWYG**
 
-Generic configuration array to reconfigure the WYSIWYG editor globally.
+Tableau de configuration générique pour reconfigurer globalement l’éditeur WYSIWYG.
 
 ### `enable_iframe_inclusion`
 
-**Allow iframes in HTML Editor**
+**Autoriser les iframes dans l’éditeur HTML**
 
-Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilities of the users, but it can represent a security risk. Please make sure you can rely on your users (i.e. you know who they are) before enabling this feature.
+Autoriser des iframes arbitraires dans l’éditeur HTML renforcera les capacités d’édition des utilisateurs, mais cela peut représenter un risque de sécurité. Veuillez vous assurer de pouvoir faire confiance à vos utilisateurs (c’est-à-dire que vous savez qui ils sont) avant d’activer cette fonctionnalité.
 
 ### `enable_uploadimage_editor`
 
-**Allow images drag&drop in WYSIWYG editor**
+**Autoriser le glisser-déposer d’images dans l’éditeur WYSIWYG**
 
-Enable image upload as file when doing a copy in the content or a drag and drop.
+Activer le téléversement d’images en tant que fichier lors d’un copier dans le contenu ou d’un glisser-déposer.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `enabled_asciisvg`
 
-**Enable AsciiSVG**
+**Activer AsciiSVG**
 
-Enable the AsciiSVG plugin in the WYSIWYG editor to draw charts from mathematical functions.
+Activer le plugin AsciiSVG dans l’éditeur WYSIWYG pour dessiner des graphiques à partir de fonctions mathématiques.
 
 ### `enabled_googlemaps`
 
-**Activate Google maps**
+**Activer Google maps**
 
-Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key.
+Activer le bouton d’insertion de Google maps. L’activation n’est pas pleinement réalisée si le fichier main/inc/lib/fckeditor/myconfig.php n’a pas été préalablement modifié et qu’une clé d’API Google maps n’y a pas été ajoutée.
 
 ### `enabled_imgmap`
 
-**Activate Image maps**
+**Activer les cartes d’images**
 
-Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots.
+Activer le bouton d’insertion de cartes d’images. Cela permet d’associer des URL à des zones d’une image, en créant des zones cliquables.
 
 ### `enabled_insertHtml`
 
-**Allow insertion of widgets**
+**Autoriser l’insertion de widgets**
 
-This allows you to embed on your webpages your favorite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets
+Cela vous permet d’intégrer dans vos pages web vos vidéos et applications favorites telles que vimeo ou slideshare, ainsi que toutes sortes de widgets et gadgets
 
 ### `enabled_mathjax`
 
-**Enable MathJax**
+**Activer MathJax**
 
-Enable the MathJax library to visualize mathematical formulas. This adds a formula button to the editor toolbar, where formulas are written in LaTeX. See [Math Formulas](../../teacher-guide/adding-content/math-formulas.md).
+Activer la bibliothèque MathJax pour visualiser les formules mathématiques. Cela ajoute un bouton de formule à la barre d’outils de l’éditeur, où les formules sont écrites en LaTeX. Voir [Formules mathématiques](../../teacher-guide/adding-content/math-formulas.md).
 
 ### `enabled_support_svg`
 
-**Create and edit SVG files**
+**Créer et modifier des fichiers SVG**
 
-This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to png format images.
+Cette option vous permet de créer et de modifier des fichiers SVG (Scalable Vector Graphics) multicouches en ligne, ainsi que de les exporter en images au format png.
 
 ### `enabled_wiris`
 
-**WIRIS mathematical editor**
+**Éditeur mathématique WIRIS**
 
-Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+Activer l’éditeur mathématique WIRIS. En installant ce plugin, vous obtenez l’éditeur WIRIS et WIRIS CAS.<br/>Cette activation n’est pas pleinement réalisée à moins d’avoir préalablement téléchargé le <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>plugin PHP pour CKeditor WIRIS</a> et d’avoir décompressé son contenu dans le répertoire de Chamilo main/inc/lib/javascript/ckeditor/plugins/.<br/>Cela est nécessaire car Wiris est un logiciel propriétaire et ses services sont <a href='http://www.wiris.com/store/who-pays' target='_blank'>commerciaux</a>. Pour ajuster le plugin, modifiez le fichier configuration.ini ou remplacez son contenu par le fichier configuration.ini.default livré avec Chamilo.
 
 ### `force_wiki_paste_as_plain_text`
 
-**Forcing pasting as plain text in the wiki**
+**Forcer le collage en texte brut dans le wiki**
 
-This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing.
+Cela empêchera de nombreux balises cachées, incorrectes ou non standard, copiées depuis d’autres textes, de corrompre le texte du Wiki après de nombreux problèmes ; mais certaines fonctionnalités seront perdues lors de l’édition.
 
 ### `full_editor_toolbar_set`
 
-**Full WYSIWYG editor toolbar**
+**Barre d’outils complète de l’éditeur WYSIWYG**
 
-Show the full toolbar in all WYSIWYG editor boxes around the platform.
+Afficher la barre d’outils complète dans toutes les zones d’éditeur WYSIWYG de la plateforme.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `htmlpurifier_wiki`
 
-**HTMLPurifier in Wiki**
+**HTMLPurifier dans le Wiki**
 
-Enable HTML purifier in the wiki tool (will increase security but reduce style features)
+Activer HTML purifier dans l’outil wiki (augmentera la sécurité mais réduira les fonctionnalités de style)
 
 ### `include_asciimathml_script`
 
-**Load the Mathjax library in all the system pages**
+**Charger la bibliothèque Mathjax dans toutes les pages du système**
 
-Activate this setting if you want to show MathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the 'Documents' tool, but elsewhere in the system.
+Activez ce paramètre si vous souhaitez afficher des formules mathématiques basées sur MathML et des graphiques mathématiques basés sur ASCIIsvg non seulement dans l’outil « Documents », mais ailleurs dans le système.
 
 ### `math_asciimathML`
 
-**ASCIIMathML mathematical editor**
+**Éditeur mathématique ASCIIMathML**
 
-Enable ASCIIMathML mathematical editor
+Activer l’éditeur mathématique ASCIIMathML
 
 ### `more_buttons_maximized_mode`
 
-**Buttons bar extended**
+**Barre de boutons étendue**
 
-Enable button bars extended when the WYSIWYG editor is maximized
+Activer les barres de boutons étendues lorsque l’éditeur WYSIWYG est maximisé
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `save_titles_as_html`
 
-**Save titles as HTML**
+**Enregistrer les titres en HTML**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions. It also lets those specific title fields use the same per-language tagging as `translate_html` below, which plain-text titles otherwise can't hold.
+Permettre aux utilisateurs d’inclure du HTML dans les champs de titre à plusieurs endroits. Cela autorise une certaine mise en forme des titres, notamment dans les questions de test. Cela permet également à ces champs de titre spécifiques d’utiliser le même balisage par langue que `translate_html` ci-dessous, ce que les titres en texte brut ne peuvent pas contenir.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `translate_html`
 
-**Support multi-language HTML content**
+**Prise en charge du contenu HTML multilingue**
 
-If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
+Si cette option est activée, elle permet aux utilisateurs d’utiliser un attribut « lang » dans les éléments HTML pour indiquer la langue dans laquelle le contenu de cet élément est rédigé. Activez plusieurs éléments avec des attributs « lang » différents et Chamilo n’affichera le contenu que dans la langue de l’utilisateur.
 
-*Default: `false`*
+*Par défaut : `false`*
 
-See [Multi-Language Content](../../teacher-guide/adding-content/multi-language-content.md) in the Teacher Guide for the full teacher-facing walkthrough of this feature.
+Voir [Contenu multilingue](../../teacher-guide/adding-content/multi-language-content.md) dans le Guide de l’enseignant pour le tutoriel complet destiné aux enseignants sur cette fonctionnalité.
 
 
 ### `video_context_menu_hidden`
 
-**Hide the context menu on video player**
+**Masquer le menu contextuel du lecteur vidéo**
 
-When enabled, the right-click context menu on HTML5 video players is disabled.
+Lorsque cette option est activée, le menu contextuel (clic droit) des lecteurs vidéo HTML5 est désactivé.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `video_player_renderers`
 
-**Video player renderers**
+**Moteurs de rendu du lecteur vidéo**
 
-Enable player renderers for YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
+Activer les moteurs de rendu du lecteur pour les médias YouTube, Vimeo, Facebook, DailyMotion, Twitch
 
 ### `youtube_for_students`
 
-**Allow learners to insert videos from YouTube**
+**Autoriser les apprenants à insérer des vidéos YouTube**
 
-Enable the possibility that learners can insert Youtube videos
-
+Activer la possibilité pour les apprenants d’insérer des vidéos Youtube

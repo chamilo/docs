@@ -1,30 +1,30 @@
 # CAPTCHA
 
-CAPTCHA is a simple challenge — usually typing the letters shown in a distorted image — used to confirm that a real person, not automated software, is filling in a form. If your administrator has enabled it, you may encounter it on the **login**, **registration**, and **lost-password** forms.
+Le CAPTCHA est un défi simple — généralement la saisie des lettres affichées dans une image déformée — utilisé pour confirmer qu’une personne réelle, et non un logiciel automatisé, remplit un formulaire. Si votre administrateur l’a activé, vous pouvez le rencontrer sur les formulaires de **connexion**, d’**inscription** et de **mot de passe oublié**.
 
-## What It Protects
+## Ce qu’il protège
 
-CAPTCHA exists to stop automated scripts from abusing these forms:
+Le CAPTCHA existe pour empêcher les scripts automatisés d’abuser de ces formulaires :
 
-* On the **login form**, it slows down "password hammering" — a script rapidly guessing passwords to break into an account.
-* On the **registration form**, it prevents bots from mass-creating fake accounts.
-* On the **lost-password form**, it prevents automated abuse of the password-reset e-mail system.
+* Sur le **formulaire de connexion**, il ralentit le « martelage de mots de passe » — un script qui tente rapidement de deviner des mots de passe pour s’introduire dans un compte.
+* Sur le **formulaire d’inscription**, il empêche les robots de créer en masse de faux comptes.
+* Sur le **formulaire de mot de passe oublié**, il empêche l’abus automatisé du système d’e-mails de réinitialisation de mot de passe.
 
-In short, it's there to protect your account — and your personal data behind it — from automated attacks, not to make life difficult for real users.
+En résumé, il est là pour protéger votre compte — et les données personnelles qui s’y rattachent — contre les attaques automatisées, et non pour compliquer la vie des utilisateurs réels.
 
-## What You'll See
+## Ce que vous verrez
 
-A small image containing distorted letters, with:
+Une petite image contenant des lettres déformées, avec :
 
-* A hint that you can click the image to load a new one if you can't read it.
-* A text field below it, labeled to enter the letters you see.
+* Une indication que vous pouvez cliquer sur l’image pour en charger une nouvelle si vous ne parvenez pas à la lire.
+* Un champ de texte en dessous, destiné à saisir les lettres que vous voyez.
 
-If your entry doesn't match, you'll be asked to try again with a new image.
+Si votre saisie ne correspond pas, il vous sera demandé de réessayer avec une nouvelle image.
 
-## Repeated Mistakes
+## Erreurs répétées
 
-Your administrator can configure a limit on how many CAPTCHA mistakes are allowed before an account is temporarily locked, and for how long. If you find yourself locked out after several failed attempts, wait for the lockout period to pass, or contact your administrator if you need access sooner.
+Votre administrateur peut configurer une limite au nombre d’erreurs de CAPTCHA autorisées avant qu’un compte ne soit temporairement verrouillé, ainsi que la durée de ce verrouillage. Si vous vous retrouvez bloqué après plusieurs tentatives infructueuses, attendez la fin de la période de verrouillage, ou contactez votre administrateur si vous avez besoin d’un accès plus rapide.
 
-## If You Don't See It
+## Si vous ne le voyez pas
 
-CAPTCHA is optional and platform-wide — if your administrator hasn't enabled it, you simply won't encounter it anywhere, even on platforms otherwise similar to yours.
+Le CAPTCHA est optionnel et s’applique à l’ensemble de la plateforme — si votre administrateur ne l’a pas activé, vous ne le rencontrerez tout simplement nulle part, même sur des plateformes par ailleurs similaires à la vôtre.

@@ -1,10 +1,10 @@
-# Authentication
+# Authentification
 
-Chamilo supports multiple authentication methods, from the built-in username/password system to enterprise single sign-on solutions.
+Chamilo prend en charge plusieurs méthodes d’authentification, du système intégré identifiant/mot de passe aux solutions d’authentification unique d’entreprise.
 
-## Configuration file
+## Fichier de configuration
 
-All external authentication methods are configured in `config/authentication.yaml`. A template is provided at `config/authentication.dist.yaml`. The general structure is:
+Toutes les méthodes d’authentification externe sont configurées dans `config/authentication.yaml`. Un modèle est fourni dans `config/authentication.dist.yaml`. La structure générale est :
 
 ```yaml
 parameters:
@@ -15,28 +15,28 @@ parameters:
           <config_key>: <value>
 ```
 
-After editing the file, clear and warm the cache:
+Après modification du fichier, videz et préchauffez le cache :
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-External login buttons appear on the login page after the cache is refreshed.
+Les boutons de connexion externe apparaissent sur la page de connexion une fois le cache actualisé.
 
-## Supported methods
+## Méthodes prises en charge
 
-* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, and generic OAuth2 providers
-* **[Azure Entra ID](azure-entra-id.md)** — Detailed Azure/Entra ID setup: app registration, group-based role mapping, certificate authentication, and user/group sync commands
-* **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 3.x)
-* **[SCIM](scim.md)** — Automated user provisioning from external identity providers
-* **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
+* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook et fournisseurs OAuth2 génériques
+* **[Azure Entra ID](azure-entra-id.md)** — Configuration détaillée Azure/Entra ID : enregistrement d’application, mapping des rôles par groupes, authentification par certificat et commandes de synchronisation utilisateurs/groupes
+* **[LDAP](ldap.md)** — Authentification auprès d’un serveur LDAP ou Active Directory
+* **[CAS](cas.md)** — Central Authentication Service (héritage, non fonctionnel en 3.x)
+* **[SCIM](scim.md)** — Provisionnement automatisé des utilisateurs depuis des fournisseurs d’identité externes
+* **[Configuration SSO](sso-configuration.md)** — Dépannage et notes transversales aux méthodes
 
-## Default authentication
+## Authentification par défaut
 
-By default, Chamilo uses its own internal system — users log in with a username and password stored in the Chamilo database. External methods are additive: the standard login form stays available alongside any configured providers.
+Par défaut, Chamilo utilise son propre système interne — les utilisateurs se connectent avec un identifiant et un mot de passe stockés dans la base de données Chamilo. Les méthodes externes sont additives : le formulaire de connexion standard reste disponible aux côtés des fournisseurs configurés.
 
-## Further reference
+## Référence complémentaire
 
-For full parameter reference and advanced scenarios, see the [External Authentication configuration wiki page](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Pour la référence complète des paramètres et les scénarios avancés, consultez la [page wiki de configuration de l’authentification externe](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

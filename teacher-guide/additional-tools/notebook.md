@@ -1,23 +1,23 @@
-# Notebook
+# Carnet
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Le carnet est un outil personnel de prise de notes destiné aux apprenants. Chaque apprenant dispose de son propre carnet privé au sein du cours.
 
-## How It Works
+## Fonctionnement
 
-The notebook is a simple tool where learners can:
+Le carnet est un outil simple grâce auquel les apprenants peuvent :
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Créer des notes** — Rédiger et enregistrer des notes personnelles liées au contenu du cours
+* **Organiser les notes** — Consulter, modifier et supprimer leurs notes
+* **Les garder privées** — Les notes ne sont visibles que par l’apprenant qui les a créées
 
-## As a Teacher
+## En tant qu’enseignant
 
-As a teacher, you should be aware that:
+En tant qu’enseignant, vous devez savoir que :
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Le carnet est un **outil personnel** — vous ne pouvez pas voir les notes de vos apprenants
+* Il est utile comme **outil de réflexion** — encouragez les apprenants à prendre des notes pendant qu’ils étudient
+* Les notes sont stockées au sein du cours — elles ne sont pas partagées d’un cours à l’autre
 
-## Enabling the Notebook
+## Activer le carnet
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+L’outil carnet apparaît sur la page d’accueil du cours s’il est activé. Si vous ne le voyez pas, vérifiez qu’il n’est pas masqué (recherchez les outils masqués sur la page d’accueil du cours).

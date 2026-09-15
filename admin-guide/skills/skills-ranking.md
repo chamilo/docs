@@ -1,16 +1,16 @@
-# Skills Ranking
+# Classement des compétences
 
-Skills Ranking is a leaderboard of users ordered by how many skills they've acquired.
+Le classement des compétences est un tableau de classement des utilisateurs, ordonné selon le nombre de compétences qu’ils ont acquises.
 
-## Accessing Skills Ranking
+## Accéder au classement des compétences
 
-From the administration panel, click **Skills > Skills ranking**.
+Depuis le panneau d’administration, cliquez sur **Compétences > Classement des compétences**.
 
-## What It Shows
+## Ce qu’il affiche
 
-For every active user, the ranking shows:
+Pour chaque utilisateur actif, le classement affiche :
 
-* **Skills acquired** — Total count of issued skills, used to sort the leaderboard (highest first)
-* **Currently learning** — The number of skills tied, through the gradebook, to courses the user is currently enrolled in (directly or through a session)
+* **Compétences acquises** — Nombre total de compétences délivrées, utilisé pour trier le tableau de classement (du plus élevé au plus bas)
+* **En cours d’apprentissage** — Le nombre de compétences liées, via le carnet de notes, aux cours auxquels l’utilisateur est actuellement inscrit (directement ou via une session)
 
-Use this page to spot your most accomplished learners at a glance, or to gauge overall skill-acquisition activity across the platform.
+Utilisez cette page pour repérer d’un coup d’œil vos apprenants les plus accomplis, ou pour évaluer l’activité globale d’acquisition de compétences sur la plateforme.

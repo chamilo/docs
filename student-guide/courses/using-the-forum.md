@@ -1,36 +1,36 @@
-# Using the Forum
+# Utiliser le forum
 
-The **Forum** tool hosts structured, threaded discussions within a course — a good place for questions and conversations that benefit from staying organized and searchable, unlike the real-time [Chat](using-the-chat-tool.md).
+L’outil **Forum** accueille des discussions structurées et arborescentes au sein d’un cours — un bon endroit pour les questions et les échanges qui gagnent à rester organisés et consultables, contrairement au [Chat](using-the-chat-tool.md) en temps réel.
 
-## Finding Your Way Around
+## S’orienter
 
-Open the **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> tool from the course homepage. Forums are organized in three levels:
+Ouvrez l’outil **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> depuis la page d’accueil du cours. Les forums sont organisés sur trois niveaux :
 
-1. **Categories** — broad groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — individual discussion boards within a category
-3. **Topics (threads)** — individual conversations within a forum, each with its own chain of replies
+1. **Catégories** — regroupements larges (par ex. « Discussions générales », « Questions du module 1 »)
+2. **Forums** — espaces de discussion individuels au sein d’une catégorie
+3. **Sujets (fils)** — conversations individuelles au sein d’un forum, chacune avec sa propre chaîne de réponses
 
-## Posting
+## Publier
 
-Open a forum and click to start a **new topic**, or open an existing topic to **reply**. Depending on how your teacher set up that particular forum:
+Ouvrez un forum et cliquez pour démarrer un **nouveau sujet**, ou ouvrez un sujet existant pour **répondre**. Selon la configuration définie par l’enseignant pour ce forum :
 
-* You may or may not be allowed to start new topics yourself — some forums are reply-only
-* You may or may not be able to edit your own posts after submitting them
-* Posts may need to be approved by a teacher before becoming visible (a **moderated** forum) — if so, your post won't appear immediately, and that's expected
-* On courses fully open to the public, a forum may allow **anonymous posting** — otherwise your posts are always attributed to you
+* Vous pouvez ou non être autorisé à créer vous-même de nouveaux sujets — certains forums sont en mode réponse uniquement
+* Vous pouvez ou non modifier vos propres messages après les avoir envoyés
+* Les messages peuvent devoir être approuvés par un enseignant avant d’être visibles (forum **modéré**) — dans ce cas, votre message n’apparaît pas immédiatement, et c’est normal
+* Sur les cours entièrement ouverts au public, un forum peut autoriser la **publication anonyme** — sinon vos messages vous sont toujours attribués
 
-Threads can be shown **flat**, **threaded**, or **nested**, depending on the forum's display setting — this only changes how replies are laid out, not what you can do.
+Les fils peuvent s’afficher de façon **plate**, **arborescente** ou **imbriquée**, selon le paramètre d’affichage du forum — cela ne change que la présentation des réponses, pas ce que vous pouvez faire.
 
-## Staying Notified
+## Rester informé
 
-Look for a **Notify me** toggle on a forum or on an individual topic to subscribe to e-mail notifications when someone posts there. This is a personal subscription — turning it on doesn't notify anyone else, and you can turn it off again at any time.
+Recherchez un interrupteur **Me notifier** sur un forum ou sur un sujet individuel pour vous abonner aux notifications par e-mail lorsqu’une personne y publie. Il s’agit d’un abonnement personnel — l’activer n’avertit personne d’autre, et vous pouvez le désactiver à tout moment.
 
-## Group and Scored Forums
+## Forums de groupe et notés
 
-A forum may be tied to a specific course **group** rather than the whole course — if so, only that group's members (or, depending on configuration, any course member) can read and post in it. Some threads are also **graded**: your teacher sets a maximum score for participation in that thread, which can count toward your course grade. A small number of threads may even be **peer-scored**, where your score depends partly on ratings from at least two other learners.
+Un forum peut être lié à un **groupe** de cours spécifique plutôt qu’à l’ensemble du cours — dans ce cas, seuls les membres de ce groupe (ou, selon la configuration, tout membre du cours) peuvent y lire et y publier. Certains fils sont également **notés** : l’enseignant définit une note maximale pour la participation à ce fil, qui peut compter dans votre note de cours. Un petit nombre de fils peut même être **évalué par les pairs**, votre note dépendant en partie des notes attribuées par au moins deux autres apprenants.
 
-## Tips
+## Conseils
 
-* **Use the forum for anything worth keeping** — unlike chat, forum posts stay organized by topic and are easy to find again later.
-* **Subscribe to threads you care about** rather than checking back manually.
-* **A missing "new topic" button** usually means that forum is reply-only, not that something's broken.
+* **Utilisez le forum pour tout ce qui mérite d’être conservé** — contrairement au chat, les messages du forum restent organisés par sujet et sont faciles à retrouver plus tard.
+* **Abonnez-vous aux fils qui vous intéressent** plutôt que de revenir les consulter manuellement.
+* **L’absence d’un bouton « nouveau sujet »** signifie généralement que ce forum est en mode réponse uniquement, et non qu’il y a un dysfonctionnement.

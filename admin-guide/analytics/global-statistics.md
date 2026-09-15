@@ -1,53 +1,53 @@
-# Global Statistics
+# Statistiques globales
 
-Global Statistics is the platform statistics hub — a menu of platform-wide reports grouped by topic, rather than a single report.
+Les statistiques globales constituent le hub des statistiques de la plateforme — un menu de rapports à l’échelle de la plateforme, regroupés par thème, plutôt qu’un rapport unique.
 
-## Accessing Global Statistics
+## Accéder aux statistiques globales
 
-From the administration panel, click **Analytics > Global statistics**.
+Depuis le panneau d’administration, cliquez sur **Analytique > Statistiques globales**.
 
-## How It's Organized
+## Organisation
 
-Opening the page with no report selected shows a menu of available statistics, grouped into Courses, Users, System, Social, and Session. Selecting a menu entry loads that specific report on the same page. Each is a platform-wide, admin-only view — there is no course or session scoping here; for that, see [Learning Analytics](learning-analytics.md).
+L’ouverture de la page sans rapport sélectionné affiche un menu des statistiques disponibles, regroupées en Cours, Utilisateurs, Système, Social et Session. La sélection d’une entrée de menu charge ce rapport spécifique sur la même page. Chacun est une vue à l’échelle de la plateforme, réservée aux administrateurs — il n’y a ici aucun filtrage par cours ou par session ; pour cela, consultez [Analytique d’apprentissage](learning-analytics.md).
 
-## Courses
+## Cours
 
-* **Courses** — Total number of courses, broken down by course category
-* **Tools access** — Platform-wide count of tool access events (announcements, documents, forums, quizzes, chat, and so on)
-* **Tool-based resource count** — Pick one or more tools and see every course/session using them, with a resource count and last-updated date, sorted by usage
-* **Latest access** — Courses with their date of last access, limited to those visited within a configurable number of days (60 by default)
-* **Number of courses by language** — Courses grouped by their interface language
-* **Courses usage** — Visit counts per course across rolling periods (today, this week, this month, 6 months, 1 year, 2 years, all-time), split between visits inside and outside sessions
+* **Cours** — Nombre total de cours, ventilé par catégorie de cours
+* **Accès aux outils** — Comptage à l’échelle de la plateforme des événements d’accès aux outils (annonces, documents, forums, quiz, chat, etc.)
+* **Nombre de ressources par outil** — Choisissez un ou plusieurs outils et voyez chaque cours/session qui les utilise, avec un nombre de ressources et une date de dernière mise à jour, triés par usage
+* **Dernier accès** — Cours avec leur date de dernier accès, limités à ceux visités dans un nombre de jours configurable (60 par défaut)
+* **Nombre de cours par langue** — Cours regroupés par langue d’interface
+* **Usage des cours** — Nombre de visites par cours sur des périodes glissantes (aujourd’hui, cette semaine, ce mois, 6 mois, 1 an, 2 ans, depuis toujours), réparti entre visites à l’intérieur et à l’extérieur des sessions
 
-## Users
+## Utilisateurs
 
-* **Number of users** — Total trainers and learners platform-wide, and the same breakdown per course category
-* **Logins** — Login counts for today, the last 7 days, the last 31 days, and all-time, for both total logins and distinct users; can be filtered to a minimum session duration
-* **Logins (Month)** — The same login data totaled per calendar month across all history
-* **Logins (Day)** — Login totals per weekday, plus a separate breakdown for the last 7 days only
-* **Logins (Hour)** — Login totals per hour of day, plus a separate breakdown for the last 24 hours only
-* **Number of users (Picture)** — How many active accounts have uploaded a profile picture versus how many haven't
-* **Logins by date** — Each user's total connected time (login to logout) over a chosen date range, exportable to XLS
-* **Not logged in for some time** — How many users haven't logged in within trailing windows (today, 7 days, 31 days, 6 months), and how many have never logged in at all
-* **Zombies** — Accounts whose last login is on or before a cutoff date you choose (there's no fixed threshold — you pick the date each time), optionally restricted to active accounts, with buttons to activate, deactivate, or delete the listed accounts directly
-* **Users statistics** — Users registered within a chosen date range, with full profile details and summary charts, exportable to XLS
-* **Users online** — Live counts of users currently online and users currently taking a quiz, each shown across four time windows (3, 5, 30, and 120 minutes)
-* **New users registrations** — New registrations over a chosen date range (daily if the range is a month or less, monthly with drill-down otherwise), plus a breakdown of who created each account
-* **Course/Session subscriptions by day** — Subscriptions versus unsubscriptions per day over a chosen date range
-* **Duplicate users** — Finds accounts sharing the same name, e-mail, or a chosen profile field value; lets you disable, enable, or unify (merge) duplicates — merging permanently deletes the accounts folded into the one you keep
+* **Nombre d’utilisateurs** — Total des formateurs et des apprenants à l’échelle de la plateforme, et la même ventilation par catégorie de cours
+* **Connexions** — Nombre de connexions pour aujourd’hui, les 7 derniers jours, les 31 derniers jours et depuis toujours, pour le total des connexions et les utilisateurs distincts ; filtrable selon une durée minimale de session
+* **Connexions (mois)** — Les mêmes données de connexion totalisées par mois calendaire sur tout l’historique
+* **Connexions (jour)** — Totaux de connexions par jour de la semaine, plus une ventilation séparée pour les 7 derniers jours uniquement
+* **Connexions (heure)** — Totaux de connexions par heure de la journée, plus une ventilation séparée pour les 24 dernières heures uniquement
+* **Nombre d’utilisateurs (photo)** — Combien de comptes actifs ont téléversé une photo de profil versus combien n’en ont pas
+* **Connexions par date** — Temps de connexion total de chaque utilisateur (connexion à déconnexion) sur une plage de dates choisie, exportable en XLS
+* **Non connectés depuis un certain temps** — Combien d’utilisateurs ne se sont pas connectés dans des fenêtres glissantes (aujourd’hui, 7 jours, 31 jours, 6 mois), et combien ne se sont jamais connectés
+* **Zombies** — Comptes dont la dernière connexion est antérieure ou égale à une date limite que vous choisissez (il n’y a pas de seuil fixe — vous choisissez la date à chaque fois), éventuellement restreints aux comptes actifs, avec des boutons pour activer, désactiver ou supprimer directement les comptes listés
+* **Statistiques des utilisateurs** — Utilisateurs inscrits dans une plage de dates choisie, avec les détails complets du profil et des graphiques de synthèse, exportable en XLS
+* **Utilisateurs en ligne** — Comptages en direct des utilisateurs actuellement en ligne et des utilisateurs actuellement en train de passer un quiz, chacun affiché sur quatre fenêtres temporelles (3, 5, 30 et 120 minutes)
+* **Nouvelles inscriptions d’utilisateurs** — Nouvelles inscriptions sur une plage de dates choisie (quotidiennes si la plage est d’un mois ou moins, mensuelles avec drill-down sinon), plus une ventilation de qui a créé chaque compte
+* **Inscriptions cours/session par jour** — Inscriptions versus désinscriptions par jour sur une plage de dates choisie
+* **Utilisateurs en double** — Trouve les comptes partageant le même nom, e-mail ou une valeur de champ de profil choisie ; permet de désactiver, activer ou unifier (fusionner) les doublons — la fusion supprime définitivement les comptes fusionnés dans celui que vous conservez
 
-## System
+## Système
 
-* **Portal user session stats** — A grid of user counts broken down by access URL (on multi-URL portals), session, and course, for a chosen date range, exportable to XLS
+* **Statistiques de session utilisateur du portail** — Une grille de nombres d’utilisateurs ventilée par URL d’accès (sur les portails multi-URL), session et cours, pour une plage de dates choisie, exportable en XLS
 
-The **Quarterly report** entry that also appears under System is covered separately in [Corporate Reports](corporate-reports.md).
+L’entrée **Rapport trimestriel** qui apparaît également sous Système est traitée séparément dans [Rapports d’entreprise](corporate-reports.md).
 
 ## Social
 
-* **Number of messages received** — Internal messages received, per user
-* **Number of messages sent** — Internal messages sent, per user
-* **Contacts count** — Social network contacts per user (excluding HR/supervisor-type relationships)
+* **Nombre de messages reçus** — Messages internes reçus, par utilisateur
+* **Nombre de messages envoyés** — Messages internes envoyés, par utilisateur
+* **Nombre de contacts** — Contacts du réseau social par utilisateur (hors relations de type RH/superviseur)
 
 ## Session
 
-* **Sessions by date** — Sessions starting or ending within a chosen date range (optionally filtered by status): count, average sessions per week, average users per session, average sessions per tutor, breakdowns by category/language/status, and a per-course session count table
+* **Sessions par date** — Sessions commençant ou se terminant dans une plage de dates choisie (éventuellement filtrées par statut) : nombre, moyenne de sessions par semaine, moyenne d’utilisateurs par session, moyenne de sessions par tuteur, ventilations par catégorie/langue/statut, et un tableau du nombre de sessions par cours

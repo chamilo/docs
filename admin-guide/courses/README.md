@@ -1,9 +1,9 @@
-# Courses
+# Cours
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+Cette section couvre la gestion des cours du point de vue de l'administrateur : supervision du catalogue de cours, gestion des catégories et traitement des importations et exportations.
 
-![The Course management block on the administration dashboard, listing Course list, Add course, Export/Import courses list, Course categories, Add a user to a course, Manage extra fields for courses, Questions, and Resources sequencing](/.gitbook/assets/admin-courses-block.png)
+![Le bloc Gestion des cours sur le tableau de bord d'administration, listant Liste des cours, Ajouter un cours, Exporter/Importer la liste des cours, Catégories de cours, Ajouter un utilisateur à un cours, Gérer les champs supplémentaires pour les cours, Questions et Séquençage des ressources](/.gitbook/assets/admin-courses-block.png)
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Gestion des cours](managing-courses.md)** — Consulter, créer, modifier et supprimer des cours
+* **[Catégories de cours](course-categories.md)** — Organiser le catalogue de cours avec des catégories
+* **[Importation et exportation de cours](course-import-export.md)** — Importer et exporter des cours entre plateformes

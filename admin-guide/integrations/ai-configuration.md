@@ -1,76 +1,76 @@
-# AI Configuration
+# Configuration de l’IA
 
-Chamilo 3.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 3.0 inclut des fonctionnalités basées sur l’IA qui nécessitent une configuration avant d’être disponibles pour les enseignants et les apprenants.
 
-## Supported AI Providers
+## Fournisseurs d’IA pris en charge
 
-Chamilo supports multiple AI providers:
+Chamilo prend en charge plusieurs fournisseurs d’IA :
 
-| Provider | Capabilities |
+| Fournisseur | Capacités |
 |----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| **DeepSeek** | Génération de texte |
+| **Google Gemini** | Génération de texte, d’images et de vidéos |
+| **Grok** | Génération de texte, d’images et de vidéos |
+| **Mistral** | Génération de texte |
+| **OpenAI** | Génération de texte, d’images et de vidéos |
 
-Each provider can be configured for different types of AI tasks:
+Chaque fournisseur peut être configuré pour différents types de tâches d’IA :
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **Texte** — Utilisé pour la génération d’exercices, la génération de parcours d’apprentissage, la notation par IA et le tuteur IA
+* **Image** — Utilisé pour la génération d’images par IA
+* **Vidéo** — Utilisé pour la génération de vidéos par IA (lorsque c’est pris en charge)
+* **Document** — Utilisé pour l’analyse de documents par IA
 
-## Configuration Steps
+## Étapes de configuration
 
-### 1. Obtain API Keys
+### 1. Obtenir des clés API
 
-Register for an account with your chosen AI provider and obtain an API key:
+Créez un compte auprès du fournisseur d’IA choisi et obtenez une clé API :
 
-* **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
-* **Grok**: [console.x.ai](https://console.x.ai/)
-* **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
-* **OpenAI**: [platform.openai.com](https://platform.openai.com/)
+* **DeepSeek** : [platform.deepseek.com](https://platform.deepseek.com/)
+* **Google Gemini** : Google AI Studio ou Google Cloud
+* **Grok** : [console.x.ai](https://console.x.ai/)
+* **Mistral** : [console.mistral.ai](https://console.mistral.ai/)
+* **OpenAI** : [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Configurer les fournisseurs dans Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![La page de configuration des assistants IA affichant les paramètres du fournisseur avec les champs clé API, modèle et point de terminaison](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+Dans les paramètres de la plateforme, accédez à la section **Assistants IA** :
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **Activer les assistants IA** — Activer globalement les fonctionnalités d’IA
+2. **Configurer les fournisseurs d’IA** — Ajouter un ou plusieurs fournisseurs avec :
+   * **Nom du fournisseur** (deepseek, gemini, grok, mistral, openai)
+   * **Clé API** — Votre clé API pour le fournisseur
+   * **Modèle** — Le modèle spécifique à utiliser (par ex. `gpt-4`, `gemini-pro`, `mistral-large`)
+   * **URL de l’API** — L’URL du point de terminaison (préconfigurée pour les fournisseurs standard)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+Vous pouvez configurer plusieurs fournisseurs. Le premier fournisseur de la configuration devient le fournisseur par défaut.
 
-### 3. Enable Features Per Course
+### 3. Activer les fonctionnalités par cours
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+Les fonctionnalités d’IA peuvent être activées ou désactivées au niveau du cours. Les enseignants peuvent activer ou désactiver :
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **Chatbot tuteur IA** — L’assistant IA pour les apprenants
+* **Correcteur de devoirs** — Recommandation de notation générée par l’IA
+* **Générateur d’exercices** — Questions de quiz générées par l’IA
+* **Générateur de parcours d’apprentissage** — Séquences d’apprentissage générées par l’IA
+* **Générateur d’images/vidéos** — Images et vidéos générées par l’IA dans les documents
 
-This allows different courses to use different AI configurations based on their needs.
+Cela permet à différents cours d’utiliser des configurations d’IA différentes selon leurs besoins.
 
-## Cost Considerations
+## Considérations relatives aux coûts
 
-AI API calls have costs associated with them. Consider:
+Les appels API d’IA engendrent des coûts. Tenez compte des points suivants :
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **Définir des limites d’utilisation** — Surveiller et limiter l’utilisation de l’API d’IA afin de maîtriser les coûts
+* **Choisir les modèles avec discernement** — Des modèles plus petits et moins coûteux peuvent suffire pour de nombreuses tâches éducatives
+* **Suivre l’utilisation** — Chamilo consigne les requêtes d’IA afin de vous aider à surveiller la consommation
 
-## Tips
+## Conseils
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **Commencer avec un seul fournisseur** — Configurer et tester un fournisseur avant d’en ajouter d’autres
+* **Tester avec un cours** — Activer d’abord les fonctionnalités d’IA dans un cours de test afin de vérifier qu’elles fonctionnent comme prévu
+* **Communiquer avec les enseignants** — Informer les enseignants des fonctionnalités d’IA disponibles et de la manière de les utiliser
+* **Surveiller la qualité** — Examiner régulièrement le contenu généré par l’IA afin de garantir qu’il répond à vos normes pédagogiques

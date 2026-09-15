@@ -1,28 +1,28 @@
-# Custom Certificate
+# Certificat personnalisé
 
-The Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Custom Certificate" data-size="line"> plugin lets you replace the standard [gradebook certificate](../assessing-learners/gradebook.md) with your own design — logos, a seal, up to four signature images with captions, a background image, margins, and content built from placeholder tags.
+Le plugin Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Certificat personnalisé" data-size="line"> vous permet de remplacer le [certificat du carnet de notes](../assessing-learners/gradebook.md) standard par votre propre conception — logos, un sceau, jusqu’à quatre images de signature avec légendes, une image d’arrière-plan, des marges, et un contenu construit à partir de balises d’espace réservé.
 
-## Turning It On for Your Course
+## Activation pour votre cours
 
-After your administrator enables the plugin and sets a default template, turn it on per course from **Course Settings**:
+Une fois que votre administrateur a activé le plugin et défini un modèle par défaut, activez-le par cours depuis **Paramètres du cours** :
 
-* **Custom certificate enable in course** — Activates the feature for this course
-* **Use default custom certificate** — Uses the platform's default template instead of designing your own (these two options are mutually exclusive; Chamilo warns you if you try to enable both)
+* **Custom certificate enable in course** — Active la fonctionnalité pour ce cours
+* **Use default custom certificate** — Utilise le modèle par défaut de la plateforme au lieu de concevoir le vôtre (ces deux options s’excluent mutuellement ; Chamilo vous avertit si vous tentez d’activer les deux)
 
-This makes a **Certificate setting** tool available in your course, where you design or edit the template.
+Cela rend disponible un outil **Paramètres du certificat** dans votre cours, où vous concevez ou modifiez le modèle.
 
-## Designing the Certificate
+## Conception du certificat
 
-The certificate editor uses tags that get replaced with real data when a learner's certificate is generated, for example `((user_firstname))`, `((course_title))`, `((gradebook_grade))`, and `((date_certificate))`. Beyond content, you can set:
+L’éditeur de certificat utilise des balises qui sont remplacées par des données réelles lors de la génération du certificat d’un apprenant, par exemple `((user_firstname))`, `((course_title))`, `((gradebook_grade))` et `((date_certificate))`. Au-delà du contenu, vous pouvez définir :
 
-* Up to three logos, a seal image, and a background image
-* Up to four signature images, each with its own caption
-* Margins and the delivery/expedition date and place shown on the certificate
+* Jusqu’à trois logos, une image de sceau et une image d’arrière-plan
+* Jusqu’à quatre images de signature, chacune avec sa propre légende
+* Les marges ainsi que la date et le lieu de délivrance/expédition affichés sur le certificat
 
-Use **Certificate** to preview your design, or **Delete certificate** to remove a course's custom template.
+Utilisez **Certificate** pour prévisualiser votre conception, ou **Delete certificate** pour supprimer le modèle personnalisé d’un cours.
 
-## Tips
+## Conseils
 
-* **Students see nothing different** — They still download their certificate the normal way from the Gradebook; it just uses your template
-* **Preview before relying on it** — Check the preview with real placeholder data to catch layout issues before learners start generating certificates
-* **Coordinate with your administrator** — If you want a platform-wide default template rather than a one-off per course, that's set up by your administrator first
+* **Les étudiants ne voient rien de différent** — Ils téléchargent toujours leur certificat de la manière habituelle depuis le carnet de notes ; il utilise simplement votre modèle
+* **Prévisualisez avant de vous y fier** — Vérifiez l’aperçu avec de vraies données d’espace réservé afin de détecter les problèmes de mise en page avant que les apprenants ne commencent à générer des certificats
+* **Coordonnez-vous avec votre administrateur** — Si vous souhaitez un modèle par défaut à l’échelle de la plateforme plutôt qu’un modèle ponctuel par cours, cela est d’abord configuré par votre administrateur

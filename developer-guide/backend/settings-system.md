@@ -1,39 +1,39 @@
-# Settings System
+# Système de paramètres
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+La configuration de Chamilo est gérée par un ensemble de schémas de paramètres (environ 40, selon les versions) qui définissent chaque aspect configurable de la plateforme. Ils se trouvent dans `src/CoreBundle/Settings/` — la liste exacte qui s’y trouve constitue la source de vérité.
 
-## How It Works
+## Fonctionnement
 
-Settings are:
+Les paramètres sont :
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Définis** dans des classes de schéma (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Stockés** en base de données (table `settings_current`)
+3. **Consultés** via le service `SettingsManager`
+4. **Gérés** via l’interface d’administration web
 
-## Settings Schemas
+## Schémas de paramètres
 
-Each schema file defines a category of settings. Key schemas:
+Chaque fichier de schéma définit une catégorie de paramètres. Schémas principaux :
 
 | Schema | Purpose |
 |--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| `PlatformSettingsSchema` | Informations de l’établissement, fuseau horaire, type de serveur, fonctionnalités du portail |
+| `SecuritySettingsSchema` | Tentatives de connexion, CAPTCHA, politique de mots de passe, en-têtes HTTP, 2FA |
+| `RegistrationSettingsSchema` | Auto-inscription, champs obligatoires, abonnement automatique |
+| `CourseSettingsSchema` | Valeurs par défaut de création de cours, outils, catalogue |
+| `SessionSettingsSchema` | Valeurs par défaut des sessions, visibilité |
+| `MailSettingsSchema` | Configuration e-mail, DKIM, notifications |
+| `AiHelpersSettingsSchema` | Fournisseurs d’IA, activation des fonctionnalités par outil d’IA |
+| `ExerciseSettingsSchema` | Notation des quiz, rétroaction, options des questions |
+| `LearningPathSettingsSchema` | Affichage des parcours, prérequis, paramètres SCORM |
+| `DocumentSettingsSchema` | Limites de téléversement, types de fichiers autorisés, stockage |
+| `DisplaySettingsSchema` | Onglets de l’interface, éléments de la barre latérale, thème |
+| `LanguageSettingsSchema` | Langues disponibles, locale par défaut |
+| `AdminSettingsSchema` | E-mail de l’administrateur, options spécifiques à l’administration |
 
-## Accessing Settings
+## Accès aux paramètres
 
-In PHP code:
+En code PHP :
 
 ```php
 // Via SettingsManager service
@@ -43,7 +43,7 @@ $value = $settingsManager->getSetting('platform.site_name');
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+Dans les templates :
 
 ```twig
 {# Read a single setting #}
@@ -58,32 +58,32 @@ In templates:
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Structure d’un paramètre
 
-Each setting has:
+Chaque paramètre possède :
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Namespace** — La catégorie du schéma (par ex. `platform`, `security`, `ai_helpers`)
+* **Variable** — Le nom du paramètre (par ex. `site_name`, `allow_registration`)
+* **Value** — La valeur actuelle
+* **Type** — Le type de données (chaîne, booléen, tableau, etc.)
 
-## Course-Level Settings
+## Paramètres au niveau du cours
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Certains paramètres peuvent être surchargés au niveau du cours. Ils sont définis dans `src/CourseBundle/Settings/` et comprennent :
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Paramètres des exercices par cours
+* Paramètres des devoirs par cours
+* Activation des fonctionnalités d’IA par cours
 
-## Multi-URL Settings
+## Paramètres multi-URL
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+Dans les installations multi-URL, certains paramètres peuvent être personnalisés par URL d’accès, ce qui permet des configurations de portail différentes à partir d’une même installation.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Ces paramètres apparaissent plusieurs fois dans la table `settings`, avec des valeurs `access_url` différentes. Par défaut, tous les paramètres sont associés à `access_url=1`.
 
-## Adding a New Setting
+## Ajouter un nouveau paramètre
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Ajouter la définition du paramètre à la classe de schéma appropriée
+2. Fournir une valeur par défaut
+3. Exécuter les migrations de base de données si nécessaire
+4. Accéder au paramètre via `SettingsManager`

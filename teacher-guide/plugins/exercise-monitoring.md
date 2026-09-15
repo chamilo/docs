@@ -1,17 +1,17 @@
-# Exercise Monitoring
+# Suivi des exercices
 
-Exercise Monitoring <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Exercise Monitoring" data-size="line"> uses a student's webcam to capture identity photos during a test attempt — a photo of an ID document and a photo of the student's face — for exam-integrity purposes.
+Le suivi des exercices <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Suivi des exercices" data-size="line"> utilise la webcam de l’étudiant pour capturer des photos d’identité pendant une tentative de test — une photo d’un document d’identité et une photo du visage de l’étudiant — à des fins d’intégrité des examens.
 
-## Flagging a Test
+## Marquer un test
 
-Open the test's settings and check the **Exercise Monitoring** option. Once flagged, students attempting that test see a small floating webcam widget and are prompted to capture the two photos before or during their attempt.
+Ouvrez les paramètres du test et cochez l’option **Exercise Monitoring**. Une fois marqué, les étudiants qui tentent ce test voient un petit widget webcam flottant et sont invités à capturer les deux photos avant ou pendant leur tentative.
 
-## Reviewing Captures
+## Examiner les captures
 
-[inferred] Captured photos are reviewed through the reporting screen added by the **[Exercise Focused](exercise-focused.md)** plugin, which this plugin was built alongside — if your platform only has Exercise Monitoring enabled and not Exercise Focused, ask your administrator how captured photos are meant to be reviewed on your installation.
+[inféré] Les photos capturées sont examinées via l’écran de rapports ajouté par le plugin **[Exercise Focused](exercise-focused.md)**, avec lequel ce plugin a été conçu — si votre plateforme n’a que Exercise Monitoring activé et non Exercise Focused, demandez à votre administrateur comment les photos capturées sont censées être examinées sur votre installation.
 
-## Things to Know
+## Points à connaître
 
-* **This handles sensitive personal data** — ID document photos are a category of data many institutions and privacy regulations treat with extra care. Confirm with your administrator that this plugin's use fits your institution's data protection obligations before relying on it
-* **Photos are retained temporarily** — Your administrator sets a retention period, after which captured photos are automatically deleted
-* **This is an early-stage feature** — Expect rough edges; verify the capture flow works as expected in a test run before using it for a real exam
+* **Cela concerne des données personnelles sensibles** — les photos de documents d’identité relèvent d’une catégorie de données que de nombreuses institutions et réglementations sur la vie privée traitent avec un soin particulier. Confirmez auprès de votre administrateur que l’utilisation de ce plugin est conforme aux obligations de protection des données de votre institution avant de vous y fier
+* **Les photos sont conservées temporairement** — Votre administrateur définit une période de conservation, après laquelle les photos capturées sont automatiquement supprimées
+* **Il s’agit d’une fonctionnalité encore précoce** — Attendez-vous à quelques aspérités ; vérifiez que le flux de capture fonctionne comme prévu lors d’un essai avant de l’utiliser pour un examen réel

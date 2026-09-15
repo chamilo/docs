@@ -1,18 +1,18 @@
-# Room Availability Finder
+# Recherche de disponibilité des salles
 
-The Room Availability Finder is a scheduling tool: pick a start and end date/time, and it tells you which rooms are free and which are already booked for that window.
+Le Recherche de disponibilité des salles est un outil de planification : choisissez une date/heure de début et de fin, et il vous indique quelles salles sont libres et lesquelles sont déjà réservées pour cette plage.
 
-## Accessing the Room Availability Finder
+## Accéder au Recherche de disponibilité des salles
 
-From the administration panel, click **Rooms > Room availability finder**.
+Depuis le panneau d’administration, cliquez sur **Salles > Recherche de disponibilité des salles**.
 
-## What It Shows
+## Ce qu’il affiche
 
-After choosing a start and end date/time, every room on the current portal is checked against existing bookings and split into two lists:
+Après avoir choisi une date/heure de début et de fin, chaque salle du portail courant est comparée aux réservations existantes et répartie en deux listes :
 
-* **Available rooms** — Free for the requested slot, shown with their title, branch, floor, and capacity
-* **Occupied rooms** — Already booked, with the conflicting booking's title and time range
+* **Salles disponibles** — Libres pour le créneau demandé, affichées avec leur titre, leur antenne, leur étage et leur capacité
+* **Salles occupées** — Déjà réservées, avec le titre et la plage horaire de la réservation en conflit
 
-A room becomes "occupied" because it has been assigned to an attendance-tracking calendar entry, a course, or a specific session-course pairing for that time window — in other words, this checks real bookings made through the attendance and session tools, not a separate reservation calendar. This makes it a conflict-checker for physical rooms used in classroom or blended (in-person) session-based courses.
+Une salle devient « occupée » parce qu’elle a été attribuée à une entrée de calendrier de suivi de présence, à un cours, ou à un appariement spécifique session-cours pour cette plage horaire — autrement dit, cela vérifie les réservations réelles effectuées via les outils de présence et de session, et non un calendrier de réservation distinct. Cela en fait un vérificateur de conflits pour les salles physiques utilisées dans les cours en présentiel ou hybrides (en personne) basés sur des sessions.
 
-To assign a room to a course from the teacher side, see [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) in the Teacher Guide.
+Pour attribuer une salle à un cours du côté enseignant, consultez [Antennes et salles](../../teacher-guide/branches-and-rooms.md) dans le Guide enseignant.

@@ -1,19 +1,19 @@
-# Corporate Reports
+# Rapports d'entreprise
 
-This page covers four related dashboard entries aimed at organizational reporting rather than day-to-day teaching: quarterly summaries, teacher workload, HR-oriented course reporting, and bulk document exports.
+Cette page couvre quatre entrées de tableau de bord connexes destinées au reporting organisationnel plutôt qu'à l'enseignement au quotidien : les synthèses trimestrielles, la charge de travail des enseignants, le reporting de cours orienté RH et les exports de documents en masse.
 
-## Quarterly Report
+## Rapport trimestriel
 
-**Analytics > Quarterly report** presents a set of summary cards for a given quarter: users registered and connected, courses that exist versus courses actually used, hours of training delivered, certificates generated, sessions by duration, and total disk usage (disk usage only appears on the main portal in a multi-URL setup). Each card loads independently, so the page stays responsive even on a platform with a lot of history.
+**Analytique > Rapport trimestriel** présente un ensemble de cartes de synthèse pour un trimestre donné : utilisateurs inscrits et connectés, cours existants par rapport aux cours effectivement utilisés, heures de formation dispensées, certificats générés, sessions par durée et utilisation totale du disque (l'utilisation du disque n'apparaît que sur le portail principal dans une configuration multi-URL). Chaque carte se charge indépendamment, de sorte que la page reste réactive même sur une plateforme disposant d'un historique important.
 
-## Teachers Time Report
+## Rapport du temps des enseignants
 
-**Analytics > Teachers time report** lets you filter by course, session, teacher, and date range to see how much time each teacher has spent. It's meant to track teaching workload and hours — filter it down to a single course or session, or leave it unfiltered for a platform-wide view.
+**Analytique > Rapport du temps des enseignants** permet de filtrer par cours, session, enseignant et plage de dates afin de voir le temps passé par chaque enseignant. Il est destiné au suivi de la charge de travail pédagogique et des heures — affinez-le à un seul cours ou une seule session, ou laissez-le sans filtre pour une vue à l'échelle de la plateforme.
 
-## Corporate Report
+## Rapport d'entreprise
 
-**Analytics > Corporate report** is built specifically for HR audiences — it's the one report in this chapter also available to the **Human Resources Manager** and **Student Boss** roles, not just administrators. It lists, per course and per user: e-mail address, hours spent, whether a certificate was generated, completed learning paths, and course progress. It can be scoped to a single session or left platform-wide.
+**Analytique > Rapport d'entreprise** est conçu spécifiquement pour les publics RH — c'est le seul rapport de ce chapitre également disponible pour les rôles **Gestionnaire des ressources humaines** et **Responsable d'étudiants**, et pas uniquement pour les administrateurs. Il liste, par cours et par utilisateur : l'adresse e-mail, les heures passées, si un certificat a été généré, les parcours d'apprentissage terminés et la progression dans le cours. Il peut être limité à une seule session ou laissé à l'échelle de la plateforme.
 
-## Special Exports
+## Exports spéciaux
 
-**Analytics > Special exports** is a bulk-export tool, not a report: it zips up course documents platform-wide, or for a selected subset of courses (including their session-specific documents). This is a heavy operation on a platform with a lot of course content — it's best run outside peak hours.
+**Analytique > Exports spéciaux** est un outil d'export en masse, et non un rapport : il archive en ZIP les documents de cours à l'échelle de la plateforme, ou pour un sous-ensemble de cours sélectionné (y compris leurs documents spécifiques aux sessions). Il s'agit d'une opération lourde sur une plateforme contenant beaucoup de contenu de cours — il est préférable de l'exécuter en dehors des heures de pointe.

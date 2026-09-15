@@ -1,22 +1,22 @@
-# Health Check
+# Contrôle de santé
 
-Health Check is a small block on the administration dashboard that runs a handful of live checks on your installation and flags anything that needs attention — no need to dig through configuration files to spot common misconfigurations.
+Le contrôle de santé (Health Check) est un petit bloc du tableau de bord d’administration qui exécute quelques vérifications en direct sur votre installation et signale tout ce qui nécessite une attention — sans avoir à parcourir les fichiers de configuration pour détecter les erreurs de paramétrage courantes.
 
-![The Health check block on the administration dashboard, showing pass/fail status for e-mail settings, admin URL assignment, and file permission checks](/.gitbook/assets/admin-health-check-block.png)
+![Le bloc Contrôle de santé du tableau de bord d’administration, affichant le statut réussite/échec pour les paramètres de messagerie, l’affectation d’URL d’administration et les vérifications des permissions de fichiers](/.gitbook/assets/admin-health-check-block.png)
 
-## Accessing Health Check
+## Accéder au contrôle de santé
 
-From the administration panel, the **Health check** block appears alongside the other dashboard blocks — no click needed, the results are shown directly.
+Depuis le panneau d’administration, le bloc **Contrôle de santé** apparaît aux côtés des autres blocs du tableau de bord — aucun clic n’est nécessaire, les résultats s’affichent directement.
 
-## The Checks
+## Les vérifications
 
-* **E-mail settings** — Verifies that a mailer connection string and a "from" e-mail/name are configured. If not, links to Mail settings to fix it.
-* **All URLs have at least one admin assigned** — On a multi-URL install, checks that every access URL has at least one administrator who can manage it. If one doesn't, links to the access URL/user assignment page.
-* **`.env` is not writable** — `.env` holds secrets and should not be writable by the web server after installation. Flagged as an error if it is; links to the Security Guide.
-* **`config/` is not writable** — Same reasoning as `.env`: this directory should not be web-writable in normal operation. Links to the Security Guide.
-* **`var/cache` is writable** — The opposite check: Symfony needs to write to its cache directory, so this one is flagged as an error if it *isn't* writable. Links to the Performance Tuning / optimization guide.
-* **Install folder is not present** — The `public/main/install` folder is only needed during installation and should be removed afterward. This is flagged as a warning (not a hard error) if it still exists, since it's a lower-severity risk than the two writability checks above. Links to the Security Guide.
+* **Paramètres de messagerie** — Vérifie qu’une chaîne de connexion du mailer et une adresse/nom d’expéditeur (« from ») sont configurés. Dans le cas contraire, un lien vers les paramètres de messagerie permet de corriger.
+* **Toutes les URL ont au moins un administrateur affecté** — Sur une installation multi-URL, vérifie que chaque URL d’accès dispose d’au moins un administrateur pouvant la gérer. Si ce n’est pas le cas, un lien mène vers la page d’affectation URL d’accès/utilisateur.
+* **`.env` n’est pas accessible en écriture** — `.env` contient des secrets et ne doit pas être accessible en écriture par le serveur web après l’installation. Signalé comme une erreur s’il l’est ; lien vers le Guide de sécurité.
+* **`config/` n’est pas accessible en écriture** — Même logique que pour `.env` : ce répertoire ne doit pas être accessible en écriture par le web en fonctionnement normal. Lien vers le Guide de sécurité.
+* **`var/cache` est accessible en écriture** — Vérification inverse : Symfony doit pouvoir écrire dans son répertoire de cache, donc celle-ci est signalée comme une erreur s’il *n’est pas* accessible en écriture. Lien vers le guide d’optimisation / Performance Tuning.
+* **Le dossier d’installation n’est pas présent** — Le dossier `public/main/install` n’est nécessaire que pendant l’installation et doit être supprimé ensuite. Ceci est signalé comme un avertissement (et non une erreur bloquante) s’il existe encore, car le risque est moins grave que les deux vérifications d’écriture ci-dessus. Lien vers le Guide de sécurité.
 
-## What to Do About It
+## Que faire
 
-Each check links directly to where you'd fix the underlying issue — either a settings page or the relevant guide. Run through this list right after installation, and periodically afterward (for example, after a manual file transfer or permissions change), since a passing check today doesn't guarantee it stays that way. For a broader production hardening checklist beyond these six checks, see the [Security Guide](appendix/security-guide.md).
+Chaque vérification renvoie directement vers l’endroit où corriger le problème sous-jacent — une page de paramètres ou le guide concerné. Parcourez cette liste juste après l’installation, puis périodiquement (par exemple après un transfert manuel de fichiers ou un changement de permissions), car une vérification réussie aujourd’hui ne garantit pas qu’elle le restera. Pour une liste de durcissement en production plus large que ces six vérifications, consultez le [Guide de sécurité](appendix/security-guide.md).

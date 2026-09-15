@@ -1,164 +1,164 @@
-# Exercises
+# Exercices
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+L’outil Exercices (également appelé « tests ») permet de créer des quiz et des examens avec notation automatique. Chamilo prend en charge une grande variété de types de questions, du simple choix multiple aux questions interactives de type hotspot.
 
-## Creating an Exercise
+## Créer un exercice
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. Ouvrez l’outil **Exercices** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercices" data-size="line"> depuis la page d’accueil du cours
+2. Cliquez sur **Nouvel exercice**
+3. Saisissez un **titre** et, éventuellement, une **description**
+4. Configurez les paramètres de l’exercice (voir ci-dessous)
+5. Enregistrez, puis ajoutez des questions
 
-## Exercise Settings
+## Paramètres de l’exercice
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![Le panneau des paramètres de l’exercice avec les options d’affichage, de temps, de tentatives et de rétroaction](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### Affichage et navigation
 
-| Setting | Options | Description |
+| Paramètre | Options | Description |
 |---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| **Disposition des questions** | Toutes sur une page / Une par page | Afficher toutes les questions à la fois ou une à la fois |
+| **Masquer les titres des questions** | Oui / Non | Indique si les titres des questions sont affichés aux apprenants |
+| **Afficher le bouton précédent** | Oui / Non | Autoriser les apprenants à revenir aux questions précédentes |
+| **Empêcher la navigation vers l’arrière** | Oui / Non | Obliger les apprenants à répondre dans l’ordre sans revenir en arrière |
 
-### Time and Availability
+### Temps et disponibilité
 
-| Setting | Description |
+| Paramètre | Description |
 |---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| **Limite de temps** | Temps maximal (en minutes) pour terminer l’exercice. Un compte à rebours est affiché à l’apprenant |
+| **Date de début** | Moment à partir duquel l’exercice devient disponible pour les apprenants |
+| **Date de fin** | Moment à partir duquel l’exercice n’est plus disponible |
 
-### Attempts and Scoring
+### Tentatives et notation
 
-| Setting | Description |
+| Paramètre | Description |
 |---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| **Nombre maximal de tentatives** | Nombre de fois qu’un apprenant peut passer l’exercice (0 = illimité) |
+| **Pourcentage de réussite** | Score minimal pour réussir (par ex. 70 %). Les apprenants qui n’atteignent pas ce seuil voient un message d’échec |
+| **Propager la notation négative** | Indique si les points négatifs sur des questions individuelles peuvent faire descendre le score total en dessous de zéro |
 
-### Feedback
+### Rétroaction
 
-| Setting | Options |
+| Paramètre | Options |
 |---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| **À la fin** | Afficher les résultats et les réponses correctes après la soumission par l’apprenant |
+| **Immédiate** | Afficher la rétroaction après chaque question (utile pour les exercices d’apprentissage) |
+| **Mode examen** | N’afficher aucune rétroaction ni aucun résultat |
 
-### Results Display
+### Affichage des résultats
 
-Control what learners see after completing the exercise:
+Contrôlez ce que les apprenants voient après avoir terminé l’exercice :
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* Afficher le score et les réponses attendues
+* Afficher uniquement le score
+* Afficher le score avec la répartition par catégorie
+* Afficher le classement parmi les autres apprenants
+* Afficher uniquement à la dernière tentative
+* Afficher une visualisation en diagramme radar
 
-### Completion Messages
+### Messages de fin
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **Message de réussite** — Texte personnalisé affiché lorsque l’apprenant réussit
+* **Message d’échec** — Texte personnalisé affiché lorsque l’apprenant n’atteint pas le pourcentage de réussite
 
-### Question Randomization
+### Randomisation des questions
 
-| Setting | Description |
+| Paramètre | Description |
 |---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| **Ordre aléatoire des questions** | Mélanger l’ordre des questions à chaque tentative |
+| **Réponses aléatoires** | Mélanger les options de réponse au sein de chaque question |
+| **Aléatoire par catégorie** | Sélectionner des questions aléatoires dans chaque catégorie de questions |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+Vous pouvez également configurer des stratégies de sélection avancées combinant catégories et randomisation.
 
-## Question Types
+## Types de questions
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![Aperçu des types de questions disponibles dans l’interface de création d’exercice](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Chamilo propose un ensemble riche de types de questions organisés en plusieurs catégories :
 
-### Single Choice
+### Choix unique
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **Choix multiple (réponse unique)** — L’apprenant sélectionne une seule réponse correcte dans une liste d’options
+* **Réponse unique avec images** — Identique au précédent, mais les options de réponse sont affichées sous forme d’images
 
-### Multiple Choice
+### Choix multiple
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **Réponses multiples** — L’apprenant sélectionne une ou plusieurs réponses correctes
+* **Réponses multiples (liste déroulante)** — Les options de réponse sont présentées sous forme de menus déroulants
+* **Vrai/Faux** — Une série d’affirmations que l’apprenant marque comme vraies ou fausses
+* **Vrai/Faux avec degré de certitude** — Vrai/faux avec un niveau de confiance supplémentaire, permettant une notation plus nuancée
 
-### Fill in the Blanks
+### Texte à trous
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **Texte à trous** — L’apprenant complète les mots manquants dans un texte. Vous définissez les blancs et les réponses acceptées lors de la création de la question.
 
-### Matching
+### Appariement
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **Appariement** — L’apprenant relie des éléments de deux colonnes
+* **Appariement (glisser-déposer)** — Même principe, mais avec une interface de glisser-déposer
+* **Glisser-déposer** — Faire glisser des éléments vers les positions correctes
 
-### Open-Ended
+### Questions ouvertes
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **Réponse libre (dissertation)** — L’apprenant rédige une réponse textuelle. Nécessite une notation manuelle (ou une notation assistée par IA si elle est configurée)
+* **Expression orale** — L’apprenant enregistre une réponse audio à l’aide de son microphone
+* **Réponse par téléversement** — L’apprenant téléverse un fichier comme réponse
 
 ### Hotspot
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **Hotspot** — L’apprenant clique sur des zones précises d’une image pour répondre
+* **Délimitation hotspot** — L’apprenant dessine des contours autour de zones sur une image
 
-### Calculated
+### Calculée
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **Réponse calculée** — Questions numériques avec une formule et une plage de tolérance. Utile pour les cours de mathématiques et de sciences.
 
-### Special
+### Spécial
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+* **Compréhension écrite** — Tests fondés sur la lecture d’un passage
+* **Annotation** — L’enseignant téléverse une image et l’apprenant l’annote
+* **Réponse dans un document Office** — Lorsque le plugin OnlyOffice est activé, l’apprenant répond à la question en éditant un document Office intégré (Word, Excel, PowerPoint). Sa réponse est enregistrée sous forme de fichier distinct rattaché à l’exercice, afin de pouvoir être examinée avec le reste de sa tentative.
 
-## Adding Questions to an Exercise
+## Ajouter des questions à un exercice
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+1. Ouvrez l’exercice et cliquez sur **Ajouter une question**
+2. Sélectionnez le type de question
+3. Saisissez le **texte de la question** (prend en charge le texte enrichi avec images et mise en forme)
+4. Définissez les **réponses** et leur notation :
+   * Pour chaque option de réponse, indiquez si elle est correcte et le nombre de points qu’elle vaut
+   * Vous pouvez attribuer des points négatifs aux mauvaises réponses afin de décourager les réponses au hasard
+5. Ajoutez éventuellement un **feedback** — explications affichées à l’apprenant après sa réponse
+6. Définissez le **niveau de difficulté** et la **catégorie** (utile pour la sélection aléatoire et les rapports)
+7. Enregistrez
 
-## Question Categories
+## Catégories de questions
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+Vous pouvez organiser les questions en catégories (par ex. « Module 1 », « Vocabulaire », « Avancé »). Les catégories sont utiles pour :
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+* Organiser de grandes banques de questions
+* Activer la sélection aléatoire par catégorie (par ex. « 5 questions du Module 1, 3 du Module 2 »)
+* Consulter les scores détaillés par catégorie dans les rapports
 
-## Question Reuse
+## Réutilisation des questions
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+Les questions peuvent être réutilisées d’un exercice à l’autre au sein du même cours. Lors de l’ajout d’une question, vous pouvez choisir d’en créer une nouvelle ou de sélectionner une question existante dans la banque de questions.
 
-## Importing Exercises
+## Importer des exercices
 
-Chamilo supports importing exercises from external formats:
+Chamilo prend en charge l’importation d’exercices depuis des formats externes :
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+* **IMS QTI / Common Cartridge** — Le format standard de quiz e-learning
+* **Format Moodle** — Importer des quiz à partir d’exports Moodle
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+Pour importer, recherchez l’option **Importer** dans l’outil exercices et téléversez votre fichier.
 
-## Tips
+## Conseils
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+* **Mélangez les types de questions** — Combinez questions à choix multiples, textes à trous et questions ouvertes pour une évaluation complète
+* **Utilisez les catégories** — Organisez les questions par thème afin d’activer une sélection aléatoire ciblée
+* **Définissez un pourcentage de réussite** — Donnez aux apprenants un objectif clair et reliez-le à la génération de certificats via le carnet de notes
+* **Utilisez le feedback immédiat pour l’entraînement** — Créez des exercices d’entraînement non notés avec feedback immédiat pour aider les apprenants à apprendre de leurs erreurs
+* **Randomisez pour l’intégrité** — Activez l’ordre aléatoire des questions et des réponses afin de réduire les risques de copie

@@ -1,46 +1,46 @@
-# Subscribing to a Course
+# S'inscrire à un cours
 
-Before you can access a course's content, you need to be subscribed (enrolled) to it. Depending on your platform, this can happen in a few different ways — most of them require no action from you at all.
+Avant de pouvoir accéder au contenu d'un cours, vous devez y être inscrit. Selon votre plateforme, cela peut se faire de plusieurs manières — la plupart d'entre elles ne nécessitent aucune action de votre part.
 
-| How it happens | What you need to do |
+| Comment cela se passe | Ce que vous devez faire |
 |-----------------|----------------------|
-| An administrator enrolls you | Nothing — the course appears in **My courses** once it's done |
-| A teacher enrolls you manually | Nothing — same as above |
-| You self-enroll via the course catalog | Browse **Explore more courses**, then click to join |
-| You receive a course invitation by e-mail | Click the link; register if you don't already have an account |
+| Un administrateur vous inscrit | Rien — le cours apparaît dans **Mes cours** une fois l'opération effectuée |
+| Un enseignant vous inscrit manuellement | Rien — comme ci-dessus |
+| Vous vous inscrivez vous-même via le catalogue de cours | Parcourez **Explorer plus de cours**, puis cliquez pour rejoindre |
+| Vous recevez une invitation à un cours par e-mail | Cliquez sur le lien ; inscrivez-vous si vous n'avez pas encore de compte |
 
-## Checking Your Courses
+## Consulter vos cours
 
-Click **My courses** in the sidebar at any time to see everything you're currently enrolled in. If a course you expect isn't listed, you haven't been subscribed to it yet — use one of the methods below, or contact your teacher or administrator.
+Cliquez sur **Mes cours** dans la barre latérale à tout moment pour voir tout ce auquel vous êtes actuellement inscrit. Si un cours que vous attendez n'est pas listé, vous n'y êtes pas encore inscrit — utilisez l'une des méthodes ci-dessous, ou contactez votre enseignant ou administrateur.
 
-## Self-Enrollment via the Course Catalog
+## Auto-inscription via le catalogue de cours
 
-If a course's visibility allows it, you can subscribe yourself without waiting for anyone else:
+Si la visibilité d'un cours le permet, vous pouvez vous y inscrire vous-même sans attendre personne :
 
-1. Click **Explore more courses** in the sidebar to open the course catalog.
-2. Browse or search for the course you want to join.
-3. Click the course to open its details, then click the button to join it.
+1. Cliquez sur **Explorer plus de cours** dans la barre latérale pour ouvrir le catalogue de cours.
+2. Parcourez ou recherchez le cours que vous souhaitez rejoindre.
+3. Cliquez sur le cours pour ouvrir ses détails, puis cliquez sur le bouton pour le rejoindre.
 
-![The course catalogue, with a Subscribe button on each course card](/.gitbook/assets/student-course-catalogue.png)
+![Le catalogue de cours, avec un bouton S'inscrire sur chaque carte de cours](/.gitbook/assets/student-course-catalogue.png)
 
-A course you're already enrolled in shows **Go to the course** instead of a subscribe button.
+Un cours auquel vous êtes déjà inscrit affiche **Aller au cours** au lieu d'un bouton d'inscription.
 
-Some courses require a password to self-enroll — your teacher will have shared it with you separately if so. If a course doesn't offer a join button at all, self-enrollment isn't open for it; ask the teacher or an administrator to subscribe you instead.
+Certains cours exigent un mot de passe pour l'auto-inscription — votre enseignant vous l'aura communiqué séparément le cas échéant. Si un cours n'offre aucun bouton pour rejoindre, l'auto-inscription n'y est pas ouverte ; demandez à l'enseignant ou à un administrateur de vous y inscrire.
 
-If your platform uses **sessions**, the same idea applies to **My sessions** — some sessions may be open for self-enrollment through the catalog, though this is more commonly managed by an administrator or session tutor, since subscribing to a session subscribes you to every course inside it.
+Si votre plateforme utilise des **sessions**, le même principe s'applique à **Mes sessions** — certaines sessions peuvent être ouvertes à l'auto-inscription via le catalogue, bien que cela soit plus souvent géré par un administrateur ou un tuteur de session, car s'inscrire à une session vous inscrit à tous les cours qu'elle contient.
 
-## Accepting a Course Invitation
+## Accepter une invitation à un cours
 
-Instead of a catalog listing, a teacher may send you a **course invitation** by e-mail — this is the one method that doesn't require you to already have a platform account. Opening the link in the e-mail:
+Au lieu d'une fiche dans le catalogue, un enseignant peut vous envoyer une **invitation à un cours** par e-mail — c'est la seule méthode qui ne nécessite pas que vous ayez déjà un compte sur la plateforme. Ouvrir le lien dans l'e-mail :
 
-* Pre-fills and locks the e-mail field on the registration form to your invited address.
-* Lets you register even if general self-registration is currently closed on the platform.
-* Automatically subscribes you to the course (or the whole session, if the course is opened in one) as soon as you finish registering, and signs you in.
+* Préremplit et verrouille le champ e-mail du formulaire d'inscription avec l'adresse invitée.
+* Vous permet de vous inscrire même si l'auto-inscription générale est actuellement fermée sur la plateforme.
+* Vous inscrit automatiquement au cours (ou à toute la session, si le cours est ouvert dans une session) dès que vous terminez l'inscription, et vous connecte.
 
-The link is one-time use and expires after 7 days — if it stops working, ask the teacher who invited you to send a new one. See [What the Invited Person Sees](../../teacher-guide/assessing-learners/subscribing-users.md#what-the-invited-person-sees) for more detail on this flow, and [Creating an Account](../getting-started/creating-an-account.md) for what the registration form itself looks like.
+Le lien est à usage unique et expire après 7 jours — s'il cesse de fonctionner, demandez à l'enseignant qui vous a invité d'en envoyer un nouveau. Consultez [Ce que voit la personne invitée](../../teacher-guide/assessing-learners/subscribing-users.md#what-the-invited-person-sees) pour plus de détails sur ce flux, et [Créer un compte](../getting-started/creating-an-account.md) pour l'apparence du formulaire d'inscription lui-même.
 
-## Tips
+## Conseils
 
-* **Check "Explore more courses" before asking** — many platforms leave course self-enrollment open, so you may be able to join immediately without waiting on anyone.
-* **Keep an eye on your inbox** — both course invitations and account-approval notifications arrive by e-mail.
-* **Still can't get in?** Enrollment methods can be restricted or disabled platform-wide, so if none of the above work, your teacher or administrator can always subscribe you directly.
+* **Consultez « Explorer plus de cours » avant de demander** — de nombreuses plateformes laissent l'auto-inscription aux cours ouverte, vous pourrez donc peut-être rejoindre immédiatement sans attendre personne.
+* **Surveillez votre boîte de réception** — les invitations aux cours et les notifications d'approbation de compte arrivent par e-mail.
+* **Toujours impossible d'accéder ?** Les méthodes d'inscription peuvent être restreintes ou désactivées à l'échelle de la plateforme ; si aucune des solutions ci-dessus ne fonctionne, votre enseignant ou administrateur peut toujours vous inscrire directement.

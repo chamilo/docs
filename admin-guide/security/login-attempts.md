@@ -1,30 +1,30 @@
-# Login Attempts
+# Tentatives de connexion
 
-The Login Attempts report shows a record of failed login attempts, with charts to help you spot brute-force or credential-stuffing patterns.
+Le rapport Tentatives de connexion présente un historique des tentatives de connexion échouées, avec des graphiques pour vous aider à détecter des schémas de force brute ou de credential stuffing.
 
-## Accessing Login Attempts
+## Accéder aux tentatives de connexion
 
-From the administration panel, click **Security > Login attempts**.
+Depuis le panneau d’administration, cliquez sur **Sécurité > Tentatives de connexion**.
 
-## What It Shows
+## Contenu affiché
 
-![The Login attempts page showing charts for attempts by day, top IPs, failed attempts by month, success vs failed logins, attempts by hour, and unique IPs per day, followed by a table of failed login attempts](/.gitbook/assets/admin-security-login-attempts.png)
+![La page Tentatives de connexion présentant des graphiques des tentatives par jour, des principales adresses IP, des tentatives échouées par mois, des connexions réussies par rapport aux échecs, des tentatives par heure et des adresses IP uniques par jour, suivis d’un tableau des tentatives de connexion échouées](/.gitbook/assets/admin-security-login-attempts.png)
 
-* **Attempts by day (last 7 days)** — Daily count of failed attempts
-* **Top IPs (last 30 days)** — Which IP addresses generated the most attempts
-* **Failed attempts by month (last 12 months)** — Longer-term trend
-* **Success vs failed (last 30 days)** — Daily breakdown of successful versus failed logins
-* **Attempts by hour (last 7 days)** — Time-of-day distribution, useful for spotting automated/scripted attempts
-* **Unique IPs per day (last 30 days)** — How many distinct IPs attempted logins each day
-* **Failed login attempts table** — Every failed attempt, with date, IP address, and username tried
+* **Tentatives par jour (7 derniers jours)** — Nombre quotidien de tentatives échouées
+* **Principales adresses IP (30 derniers jours)** — Adresses IP à l’origine du plus grand nombre de tentatives
+* **Tentatives échouées par mois (12 derniers mois)** — Tendance à plus long terme
+* **Réussites vs échecs (30 derniers jours)** — Répartition quotidienne des connexions réussies et échouées
+* **Tentatives par heure (7 derniers jours)** — Répartition selon l’heure de la journée, utile pour repérer les tentatives automatisées ou scriptées
+* **Adresses IP uniques par jour (30 derniers jours)** — Nombre d’adresses IP distinctes ayant tenté de se connecter chaque jour
+* **Tableau des tentatives de connexion échouées** — Chaque tentative échouée, avec la date, l’adresse IP et le nom d’utilisateur essayé
 
-Use the **Username**, **IP**, and date-range fields above the charts to filter the report.
+Utilisez les champs **Nom d’utilisateur**, **IP** et plage de dates au-dessus des graphiques pour filtrer le rapport.
 
-## Related Settings
+## Paramètres associés
 
-This report is a monitoring tool; the actual brute-force protections are configured in [Security Settings](../platform-settings/security-settings.md):
+Ce rapport est un outil de surveillance ; les protections réelles contre la force brute se configurent dans [Paramètres de sécurité](../platform-settings/security-settings.md) :
 
-* **Max login attempts before lockdown** (`login_max_attempt_before_blocking_account`) — Locks an account after too many failed attempts
-* **CAPTCHA** (`allow_captcha`) and **CAPTCHA mistakes allowance** (`captcha_number_mistakes_to_block_account`) — Slows down automated attempts and locks accounts that keep failing the CAPTCHA
+* **Nombre maximal de tentatives de connexion avant verrouillage** (`login_max_attempt_before_blocking_account`) — Verrouille un compte après trop de tentatives échouées
+* **CAPTCHA** (`allow_captcha`) et **Tolérance d’erreurs CAPTCHA** (`captcha_number_mistakes_to_block_account`) — Ralentit les tentatives automatisées et verrouille les comptes qui échouent de façon répétée au CAPTCHA
 
-See also the [Security Guide](../appendix/security-guide.md) for server-level brute-force protection (fail2ban).
+Consultez également le [Guide de sécurité](../appendix/security-guide.md) pour la protection contre la force brute au niveau du serveur (fail2ban).

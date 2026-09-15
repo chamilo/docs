@@ -1,93 +1,93 @@
-# Assignments
+# Travaux
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+L'outil Travaux (également appelé « publications des apprenants ») vous permet de collecter le travail des apprenants — dissertations, projets, rapports ou tout dépôt sous forme de fichier — et de le noter.
 
-## Creating an Assignment
+## Créer un travail
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. Ouvrez l'outil **Travaux** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Travaux" data-size="line"> depuis la page d'accueil du cours
+2. Cliquez sur **Créer un travail**
+3. Renseignez les informations :
+   * **Nom du travail** — Le nom du travail (par ex. « Rapport de projet final »)
+   * **Description** — Consignes destinées aux apprenants, y compris ce qu'il faut déposer et comment le travail sera évalué (texte enrichi pris en charge)
+   * **Note maximale** — Sur quel total le travail sera noté
+   * **Ajouter au carnet de notes** — Ajouter comme élément évalué dans l'outil d'évaluation (carnet de notes), afin qu'il puisse contribuer à l'atteinte des objectifs du cours
+   * **Date limite** — La date et l'heure officielles (publiées) après lesquelles les dépôts sont signalés comme en retard (les envois restent acceptés)
+   * **Se termine le (complètement fermé)** — La date et l'heure de coupure définitive après lesquelles aucun envoi n'est possible
+   * **Ajouter au calendrier** — Créer un événement pour indiquer la date de dépôt de ce travail
+   * **Type de dépôt** — Choisissez entre **Autoriser uniquement le texte**, **Autoriser uniquement les fichiers**, ou **Autoriser les fichiers ou le texte en ligne**
+4. Enregistrez
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+Une fois le travail créé, vous pouvez également :
+* Téléverser des documents modèles depuis la page de détail du travail
+* Attribuer le travail à des utilisateurs spécifiques (plutôt qu'à tous les utilisateurs du cours)
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+Et une fois que les apprenants ont déposé leurs travaux, vous pouvez :
+* Exporter une liste PDF des dépôts
+* Afficher une liste des seuls apprenants qui n'ont pas déposé leur travail
+* Télécharger tous les travaux dans une grande archive ZIP
+* Téléverser toutes les corrections dans une grande archive ZIP
+* Supprimer toutes les corrections que vous avez envoyées (cela ne supprime pas les dépôts des apprenants)
 
-## How Learners Submit
+## Comment les apprenants déposent
 
-Learners open the assignment and:
+Les apprenants ouvrent le travail et :
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. Cliquent sur **Téléverser un fichier** ou sur le bouton de dépôt
+2. Sélectionnent un fichier depuis leur ordinateur (ou rédigent du texte directement, selon la configuration)
+3. Ajoutent un commentaire facultatif
+4. Envoient
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+Les apprenants peuvent voir s'ils ont déjà déposé et, si cela est autorisé, mettre à jour leur dépôt.
 
-## Reviewing Submissions
+## Examiner les dépôts
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![La liste des dépôts de travaux affichant les noms des étudiants, les dates, les fichiers et l'état de notation](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+En tant qu'enseignant, ouvrez un travail pour voir la liste de tous les dépôts :
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **Nom de l'étudiant** — Qui a déposé
+* **Date de dépôt** — Quand le travail a été déposé
+* **Fichier** — Télécharger le fichier déposé
+* **Statut** — Si le dépôt a été noté
+* **Commentaires** — Tout commentaire laissé par l'apprenant ou par vous
 
-### Grading a Submission
+### Noter un dépôt
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![La vue de notation d'un travail avec saisie de la note, champ de rétroaction et téléversement du fichier corrigé](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. Cliquez sur un dépôt pour l'ouvrir
+2. Examinez le fichier déposé
+3. Saisissez une **note**
+4. Rédigez des **commentaires de rétroaction** pour l'apprenant
+5. Téléversez éventuellement un **fichier corrigé** en pièce jointe
+6. Enregistrez
 
-### AI-Assisted Grading
+### Notation assistée par IA
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+Si des outils d'IA sont configurés sur votre plateforme, vous pouvez voir une option **Notation IA** lors de l'examen des dépôts. Celle-ci utilise un modèle d'IA pour proposer une note et une rétroaction pour les travaux ouverts. Voir [Notation IA](../ai-tools/ai-grading.md) pour plus de détails.
 
-## Managing Submissions
+## Gérer les dépôts
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+Actions de groupe :
+* **Télécharger le paquet de travaux** — Télécharger tous les dépôts dans un seul fichier ZIP pour un examen hors ligne
+* **Téléverser le paquet de corrections** — Si vous avez téléchargé tous les dépôts dans un seul fichier ZIP, modifié les fichiers sur place sur votre ordinateur puis les avez de nouveau compressés, vous pouvez envoyer le zip comme paquet de corrections. Ne changez pas les noms de fichiers, sinon cela ne fonctionnera pas.
+* **Dépôts en retard** — Les dépôts après la date limite sont signalés mais peuvent encore être acceptés selon vos paramètres
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+Actions sur un dépôt individuel :
+* **Téléverser une correction** — Téléverser une correction pour un apprenant 
+* **Télécharger** — Télécharger le dépôt d'un apprenant
+* **Corriger et noter** — Ajouter une correction et une note au dépôt de l'apprenant 
+* **Modifier** — Modifier le titre du document ou la rétroaction précédente sur le dépôt
+* **Déplacer** — Transférer un dépôt entre dossiers de travaux (par ex. si l'étudiant a déposé dans le mauvais travail)
+* **Visibilité** — Contrôler si les apprenants peuvent voir les dépôts des autres
 
-## Linking to the Gradebook
+## Lien avec le carnet de notes
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+Les notes des travaux peuvent être incluses dans le carnet de notes du cours (outil « Évaluations »). Cela permet aux notes des travaux de contribuer à la note globale de l'apprenant et à l'éligibilité au certificat. Voir [Carnet de notes](gradebook.md) pour plus de détails.
 
-## Tips
+## Conseils
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **Soyez précis dans les consignes** — Décrivez clairement ce que les apprenants doivent remettre, le format attendu et les critères d’évaluation
+* **Fixez des échéances réalistes** — Utilisez l’outil Agenda pour rendre les échéances visibles dans le calendrier du cours
+* **Utilisez la fonctionnalité de fichier corrigé** — Déposez des versions annotées des travaux des étudiants afin qu’ils puissent voir vos corrections précises
+* **Activez la visibilité entre pairs avec prudence** — Permettre aux apprenants de voir les travaux des autres peut favoriser l’apprentissage, mais cela n’est pas forcément adapté à tous les devoirs

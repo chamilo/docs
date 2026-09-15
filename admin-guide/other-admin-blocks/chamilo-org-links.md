@@ -1,23 +1,23 @@
-# Chamilo.org Links
+# Liens Chamilo.org
 
-The **Chamilo.org** block is a static list of outbound links to official Chamilo resources — nothing more. It sends no data anywhere; every link either opens an external Chamilo site or a local documentation page shipped with your install.
+Le bloc **Chamilo.org** est une liste statique de liens sortants vers les ressources officielles de Chamilo — rien de plus. Il n’envoie aucune donnée nulle part ; chaque lien ouvre soit un site Chamilo externe, soit une page de documentation locale livrée avec votre installation.
 
-## What's in the Block
+## Contenu du bloc
 
-| Link | Destination |
+| Lien | Destination |
 |------|-------------|
-| Chamilo homepage | `chamilo.org` |
-| User guides | `docs.chamilo.org` |
-| Chamilo forum | GitHub Discussions for chamilo-lms |
-| Installation guide | Local, `/documentation/installation_guide.html` |
-| Changes in last version | Local, `/documentation/changelog.html` |
-| Contributors list | Local, `/documentation/credits.html` |
-| Security guide | Local, `/documentation/security.html` |
-| Optimization guide | Local, `/documentation/optimization.html` |
-| Chamilo official services providers | `chamilo.org/providers` |
+| Page d’accueil Chamilo | `chamilo.org` |
+| Guides utilisateur | `docs.chamilo.org` |
+| Forum Chamilo | GitHub Discussions pour chamilo-lms |
+| Guide d’installation | Local, `/documentation/installation_guide.html` |
+| Modifications de la dernière version | Local, `/documentation/changelog.html` |
+| Liste des contributeurs | Local, `/documentation/credits.html` |
+| Guide de sécurité | Local, `/documentation/security.html` |
+| Guide d’optimisation | Local, `/documentation/optimization.html` |
+| Prestataires de services officiels Chamilo | `chamilo.org/providers` |
 
-The "local" links point to documentation files bundled with your Chamilo installation itself, so they load from your own server, not from chamilo.org.
+Les liens « locaux » pointent vers des fichiers de documentation fournis avec votre installation Chamilo elle-même ; ils se chargent donc depuis votre propre serveur, et non depuis chamilo.org.
 
-## Purpose
+## Objectif
 
-This block exists purely for convenience — quick access to the project's official documentation, community discussion space, and list of vetted service providers, without needing to search for them.
+Ce bloc existe uniquement pour des raisons de commodité — un accès rapide à la documentation officielle du projet, à l’espace de discussion de la communauté et à la liste des prestataires de services validés, sans avoir à les rechercher.

@@ -1,57 +1,57 @@
-# Creating an Account
+# Création d’un compte
 
-Whether you can create your own account depends on how your platform is configured. This page covers what to expect from the self-registration form, and what happens if it isn't available to you.
+La possibilité de créer vous-même votre compte dépend de la configuration de votre plateforme. Cette page décrit ce à quoi s’attendre du formulaire d’auto-inscription, et ce qui se passe s’il n’est pas disponible.
 
-## If Self-Registration Isn't Available
+## Si l’auto-inscription n’est pas disponible
 
-Not every Chamilo platform allows visitors to sign themselves up — a school or company will often prefer to create accounts for its members directly, or restrict registration to people who received a specific invitation. If you don't see a **Sign up** (or **Register**) link on the login page, this is why. In that case:
+Toutes les plateformes Chamilo ne permettent pas aux visiteurs de s’inscrire eux-mêmes — une école ou une entreprise préférera souvent créer les comptes de ses membres directement, ou limiter l’inscription aux personnes ayant reçu une invitation spécifique. Si vous ne voyez pas de lien **S’inscrire** (ou **Register**) sur la page de connexion, c’est pour cette raison. Dans ce cas :
 
-* Ask your institution or platform administrator to create an account for you, or
-* Ask your teacher for a **course invitation** — a one-time link sent to your e-mail address that lets you register directly, even on a platform where general registration is closed, and immediately subscribes you to that teacher's course once you finish. See [What the Invited Person Sees](../../teacher-guide/assessing-learners/subscribing-users.md#what-the-invited-person-sees) for how this looks from your side.
+* Demandez à votre établissement ou à l’administrateur de la plateforme de créer un compte pour vous, ou
+* Demandez à votre enseignant une **invitation au cours** — un lien à usage unique envoyé à votre adresse e-mail qui vous permet de vous inscrire directement, même sur une plateforme où l’inscription générale est fermée, et vous inscrit immédiatement au cours de cet enseignant une fois l’opération terminée. Voir [Ce que voit la personne invitée](../../teacher-guide/assessing-learners/subscribing-users.md#what-the-invited-person-sees) pour l’apparence de cette procédure de votre côté.
 
-## Filling In the Registration Form
+## Remplir le formulaire d’inscription
 
-If self-registration is enabled, click **Sign up** on the login page. The form asks for some combination of the following, depending on what your administrator has configured:
+Si l’auto-inscription est activée, cliquez sur **S’inscrire** sur la page de connexion. Le formulaire demande une combinaison des éléments suivants, selon ce que votre administrateur a configuré :
 
-* E-mail address and/or username
-* First and last name
-* Password (with a strength indicator as you type)
-* Phone number, language, official code, or date of birth
-* Additional profile fields specific to your platform
+* Adresse e-mail et/ou nom d’utilisateur
+* Prénom et nom
+* Mot de passe (avec un indicateur de force au fur et à mesure de la saisie)
+* Numéro de téléphone, langue, code officiel ou date de naissance
+* Champs de profil supplémentaires propres à votre plateforme
 
-You don't need to worry if your form looks different from this list — administrators can show, hide, or require individual fields.
+Ne vous inquiétez pas si votre formulaire diffère de cette liste — les administrateurs peuvent afficher, masquer ou rendre obligatoires des champs individuels.
 
-## This Form Only Creates Learner Accounts
+## Ce formulaire ne crée que des comptes apprenant
 
-By default, the public registration form has no option to register as a teacher at all — every account created through it is a learner account. There is no dropdown, checkbox, or disabled option hinting at a teacher role; the choice simply isn't part of the form.
+Par défaut, le formulaire d’inscription public n’offre aucune option pour s’inscrire en tant qu’enseignant — chaque compte créé par ce biais est un compte apprenant. Il n’y a ni liste déroulante, ni case à cocher, ni option désactivée indiquant un rôle enseignant ; ce choix ne fait simplement pas partie du formulaire.
 
-Some platforms do enable a **"What do you want to do?"** step with two cards — **Follow courses** and **Teach courses** — but this only appears if your administrator has specifically turned on registration as a teacher. Even then, choosing to teach may require your account to be approved before you get teacher rights.
+Certaines plateformes activent une étape **« Que souhaitez-vous faire ? »** avec deux cartes — **Suivre des cours** et **Enseigner des cours** — mais celle-ci n’apparaît que si votre administrateur a spécifiquement activé l’inscription en tant qu’enseignant. Même dans ce cas, le choix d’enseigner peut exiger que votre compte soit approuvé avant que vous n’obteniez les droits d’enseignant.
 
-![The registration form on a platform with teacher self-registration enabled, showing the "Follow courses" / "Teach courses" role picker](/.gitbook/assets/student-registration-form.png)
+![Le formulaire d’inscription sur une plateforme avec auto-inscription enseignant activée, montrant le sélecteur de rôle « Suivre des cours » / « Enseigner des cours »](/.gitbook/assets/student-registration-form.png)
 
-If you need a teacher account and don't see this option, ask your platform administrator to create one for you or upgrade your existing account.
+Si vous avez besoin d’un compte enseignant et que vous ne voyez pas cette option, demandez à l’administrateur de votre plateforme d’en créer un pour vous ou de mettre à niveau votre compte existant.
 
-## Terms and Conditions and CAPTCHA
+## Conditions générales et CAPTCHA
 
-Depending on your platform's configuration, the form may also include:
+Selon la configuration de votre plateforme, le formulaire peut également inclure :
 
-* A **Terms and Conditions** checkbox near the bottom of the form ("I have read and agree to the Terms and Conditions"), with the full text shown in a scrollable box above it.
-* A **CAPTCHA** challenge at the end of the form, asking you to type the letters shown in an image. See [CAPTCHA](../account-and-security/captcha.md) for why this is there.
+* Une case **Conditions générales** près du bas du formulaire (« J’ai lu et j’accepte les conditions générales »), le texte intégral étant affiché dans une zone défilante au-dessus.
+* Un défi **CAPTCHA** à la fin du formulaire, vous demandant de saisir les lettres affichées dans une image. Voir [CAPTCHA](../account-and-security/captcha.md) pour en comprendre la raison.
 
-On some platforms, submitting the form shows you a confirmation step ("You confirm that you really want to subscribe to this platform.") before your account is actually created — this is a safeguard against accidental submissions, not an extra approval step.
+Sur certaines plateformes, l’envoi du formulaire affiche une étape de confirmation (« Vous confirmez que vous souhaitez réellement vous inscrire à cette plateforme. ») avant que votre compte ne soit réellement créé — il s’agit d’une protection contre les envois accidentels, et non d’une étape d’approbation supplémentaire.
 
-## What Happens After You Submit
+## Ce qui se passe après l’envoi
 
-Depending on how your administrator configured registration, one of three things happens:
+Selon la configuration de l’inscription par votre administrateur, l’une des trois situations suivantes se produit :
 
-* **You're signed in immediately** — the most common setup, especially for open platforms.
-* **Your account needs approval** — your account is created but disabled until an administrator manually approves it. You'll be notified once that happens.
-* **You need to confirm your e-mail address** — you'll receive a confirmation link by e-mail; your account is disabled until you click it.
+* **Vous êtes connecté immédiatement** — la configuration la plus courante, en particulier pour les plateformes ouvertes.
+* **Votre compte nécessite une approbation** — votre compte est créé mais désactivé jusqu’à ce qu’un administrateur l’approuve manuellement. Vous serez notifié une fois que ce sera fait.
+* **Vous devez confirmer votre adresse e-mail** — vous recevrez un lien de confirmation par e-mail ; votre compte est désactivé jusqu’à ce que vous cliquiez dessus.
 
-If you're not sure which applies to you and nothing seems to happen after registering, check your inbox (including spam) for a message from the platform, or contact your administrator.
+Si vous n’êtes pas sûr de ce qui s’applique à vous et que rien ne semble se passer après l’inscription, vérifiez votre boîte de réception (y compris les indésirables) pour un message de la plateforme, ou contactez votre administrateur.
 
-## Tips
+## Conseils
 
-* **Use an e-mail address you check regularly** — it's how you'll receive password resets, course invitations, and account confirmations.
-* **Choose a strong password** — the strength indicator on the form gives you real-time feedback as you type.
-* **Can't register at all?** Reach out to whoever manages your platform — self-registration being closed is a deliberate choice on many institutional and corporate platforms.
+* **Utilisez une adresse e-mail que vous consultez régulièrement** — c’est par ce moyen que vous recevrez les réinitialisations de mot de passe, les invitations aux cours et les confirmations de compte.
+* **Choisissez un mot de passe fort** — l’indicateur de force du formulaire vous donne un retour en temps réel au fur et à mesure de la saisie.
+* **Impossible de s’inscrire ?** Contactez la personne qui gère votre plateforme — la fermeture de l’auto-inscription est un choix délibéré sur de nombreuses plateformes institutionnelles et d’entreprise.

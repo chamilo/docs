@@ -1,81 +1,81 @@
-# Certificates and Skills
+# Certificats et compétences
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo vous permet d’attribuer des certificats aux apprenants qui remplissent des critères de réussite spécifiques, et de valider les compétences associées à ces réussites.
 
-## How Certificates Work
+## Fonctionnement des certificats
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+Les certificats sont liés aux **évaluations** (également appelées carnet de notes). Lorsque la note d’un apprenant atteint ou dépasse le seuil minimal que vous définissez, un certificat devient disponible au téléchargement.
 
-The workflow is:
+Le déroulement est le suivant :
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. Configurez les [évaluations](../assessing-learners/gradebook.md) avec vos exercices, devoirs et autres activités notées
+2. Définissez un **score minimal de certification** (par ex. 70 %)
+3. Lorsqu’un apprenant atteint ce score, il peut télécharger son certificat (soit depuis l’outil Évaluations lui-même, soit depuis un parcours d’apprentissage si vous avez configuré l’étape finale à cet effet). En tant qu’enseignant, vous pouvez également utiliser l’action **Générer les certificats** dans le carnet de notes pour créer les PDF en lot pour tous les apprenants éligibles.
 
-## Certificate Templates
+## Modèles de certificats
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+Les certificats utilisent des modèles définis par l’administrateur de la plateforme. Le modèle comprend généralement :
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* Le nom de l’apprenant
+* Le nom du cours
+* La date d’achèvement
+* Le score obtenu
+* Un code QR ou une URL pour la vérification en ligne
 
-## Certificate Validity and Expiry
+## Validité et expiration des certificats
 
-Certificates can be set to expire after a given number of days. In the [Assessments](../assessing-learners/gradebook.md) settings for the root category, once **Generate certificates** is enabled, a **Certificate validity (days)** field appears. Leave it at `0` (the default) for certificates that never expire, or set a number of days for a certificate to expire that many days after it was issued.
+Les certificats peuvent être configurés pour expirer après un nombre de jours donné. Dans les paramètres des [évaluations](../assessing-learners/gradebook.md) de la catégorie racine, une fois **Générer les certificats** activé, un champ **Validité du certificat (jours)** apparaît. Laissez-le à `0` (valeur par défaut) pour des certificats qui n’expirent jamais, ou définissez un nombre de jours pour qu’un certificat expire autant de jours après son émission.
 
-Each certificate's own expiry date is computed automatically from that setting when it is generated (or regenerated) — you do not set it certificate by certificate. The **Certificates** list shows an **Expiry date** column for each learner, reading **Never expires** when no validity period applies.
+La date d’expiration de chaque certificat est calculée automatiquement à partir de ce paramètre lors de sa génération (ou régénération) — vous ne la définissez pas certificat par certificat. La liste **Certificats** affiche une colonne **Date d’expiration** pour chaque apprenant, indiquant **N’expire jamais** lorsqu’aucune période de validité ne s’applique.
 
-If the category has no validity period configured, you can still set (or change) an individual learner's expiry date by hand: click the pencil **Edit expiry date** button next to their entry and pick a date. This button is only available when the category itself has no validity period — once a validity period is set, expiry dates are managed automatically and can no longer be edited certificate by certificate.
+Si la catégorie n’a aucune période de validité configurée, vous pouvez tout de même définir (ou modifier) manuellement la date d’expiration d’un apprenant : cliquez sur le bouton crayon **Modifier la date d’expiration** à côté de son entrée et choisissez une date. Ce bouton n’est disponible que lorsque la catégorie elle-même n’a pas de période de validité — une fois une période de validité définie, les dates d’expiration sont gérées automatiquement et ne peuvent plus être modifiées certificat par certificat.
 
-![The Certificate list showing the Expiry date column for three learners](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![La liste des certificats affichant la colonne Date d’expiration pour trois apprenants](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
-### Reminding Learners of an Upcoming or Past Expiry
+### Rappeler aux apprenants une expiration imminente ou passée
 
-Open the **Certificates** list for your assessment and click the **Expiring certificates** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Expiring certificates" data-size="line"> button to see which learners' certificates have expired or are about to. The page shows, per learner: the certificate's **Expiry date**, its **Status** (**Expired** or **Expiring soon**), and when a reminder about it was **Last reminder sent** (or **Never**). Use **Days ahead** to widen or narrow how far into the future "expiring soon" looks.
+Ouvrez la liste **Certificats** de votre évaluation et cliquez sur le bouton **Certificats expirant** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificats expirant" data-size="line"> pour voir quels certificats d’apprenants ont expiré ou sont sur le point d’expirer. La page affiche, pour chaque apprenant : la **Date d’expiration** du certificat, son **Statut** (**Expiré** ou **Expire bientôt**), et la date du **Dernier rappel envoyé** (ou **Jamais**). Utilisez **Jours d’avance** pour élargir ou réduire l’horizon de « expire bientôt ».
 
-![The Expiring certificates page listing one expired and one soon-to-expire certificate](/.gitbook/assets/gradebook-certificate-expirations.png)
+![La page Certificats expirant listant un certificat expiré et un certificat bientôt expiré](/.gitbook/assets/gradebook-certificate-expirations.png)
 
-To notify learners yourself:
+Pour notifier vous-même les apprenants :
 
-1. Select the learners you want to remind (or select all)
-2. Click **Send notification**
-3. Review the preview of the e-mail that will be sent — separate previews are shown for the "expiring soon" and "expired" wording, depending on which of your selected learners fall into each case
-4. Confirm by clicking **Send notification** again in the dialog
+1. Sélectionnez les apprenants à qui vous souhaitez envoyer un rappel (ou sélectionnez tous)
+2. Cliquez sur **Envoyer une notification**
+3. Vérifiez l’aperçu de l’e-mail qui sera envoyé — des aperçus distincts sont affichés pour les formulations « expire bientôt » et « expiré », selon le cas de chacun des apprenants sélectionnés
+4. Confirmez en cliquant à nouveau sur **Envoyer une notification** dans la boîte de dialogue
 
-![The Send notification confirmation dialog previewing the expiring and expired e-mail wording](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![La boîte de dialogue de confirmation Envoyer une notification prévisualisant les formulations d’e-mail pour expiration imminente et expirée](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
-Each learner is notified in their own configured language, both by e-mail and by an internal Chamilo message. Sending again for the same certificate and the same expiry date is safe — Chamilo tracks what was already sent per certificate and won't spam a learner with duplicate reminders unless you explicitly resend.
+Chaque apprenant est notifié dans sa langue configurée, à la fois par e-mail et par un message interne Chamilo. Renvoyer pour le même certificat et la même date d’expiration est sans risque — Chamilo suit ce qui a déjà été envoyé par certificat et n’enverra pas de rappels en double à un apprenant, sauf si vous renvoyez explicitement.
 
-Administrators can also schedule these same reminders automatically, on a recurring basis, without a teacher having to trigger them by hand — see [Cron Jobs Settings](../../admin-guide/platform-settings/crons-settings.md#certificate-expiry-reminders).
+Les administrateurs peuvent également planifier ces mêmes rappels automatiquement, de façon récurrente, sans qu’un enseignant ait à les déclencher manuellement — voir [Paramètres des tâches cron](../../admin-guide/platform-settings/crons-settings.md#certificate-expiry-reminders).
 
-## Skills
+## Compétences
 
-Skills represent competencies that learners acquire. In Chamilo:
+Les compétences représentent les savoir-faire que les apprenants acquièrent. Dans Chamilo :
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* Les compétences peuvent être liées aux réussites du carnet de notes
+* Lorsqu’un apprenant obtient un certificat, les compétences associées sont automatiquement validées
+* Les compétences s’accumulent sur le profil de l’apprenant, constituant un dossier de compétences
+* Les compétences peuvent être organisées de façon hiérarchique (par ex. « Analyse de données » sous « Méthodes de recherche »)
+* Les compétences peuvent être évaluées plus avant par les pairs (évaluation 360°)
 
-## Viewing Certificate and Skill Status
+## Consultation du statut des certificats et des compétences
 
-As a teacher, you can see:
+En tant qu’enseignant, vous pouvez voir :
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
-* Which certificates have expired or are expiring soon, and whether a reminder was already sent for them
+* Quels apprenants ont obtenu des certificats dans votre cours
+* Quelles compétences ont été validées
+* La progression des apprenants vers le seuil de certification
+* Quels certificats ont expiré ou vont bientôt expirer, et si un rappel a déjà été envoyé pour ceux-ci
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+Les apprenants peuvent consulter leurs propres certificats et compétences validées depuis leur profil, et accéder à la Roue des compétences pour vérifier quelles compétences sont demandées dans leur organisation.
 
-## Tips
+## Conseils
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the [Custom Certificate](../plugins/custom-certificate.md) plugin to unleash even more certificate templating power
-* **Set a validity period for compliance-driven certifications** — If a certification needs periodic renewal (e.g. safety training), set **Certificate validity (days)** so learners get reminded before it lapses
+* **Fixez des attentes claires** — Indiquez aux apprenants dès le début du cours ce qu’ils doivent accomplir pour obtenir un certificat
+* **Utilisez des noms de compétences parlants** — Les compétences doivent décrire ce que l’apprenant est capable de faire, et non seulement le nom du cours
+* **Associez-les aux portfolios** — Encouragez les apprenants à ajouter leurs certificats à leur portfolio
+* **Enrichissez les certificats** — Demandez à votre administrateur d’activer le plugin [Custom Certificate](../plugins/custom-certificate.md) pour disposer d’une puissance encore plus grande de création de modèles de certificats
+* **Définissez une période de validité pour les certifications liées à la conformité** — Si une certification doit être renouvelée périodiquement (par ex. une formation à la sécurité), définissez **Validité du certificat (jours)** afin que les apprenants soient rappelés avant son expiration

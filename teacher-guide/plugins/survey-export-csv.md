@@ -1,18 +1,18 @@
-# Survey Export CSV
+# Export CSV des enquêtes
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Survey Export CSV" data-size="line"> adds a one-click export of a survey's results to a compact CSV file, with one row per respondent and one column per question.
+Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Export CSV des enquêtes" data-size="line"> ajoute un export en un clic des résultats d’une enquête vers un fichier CSV compact, avec une ligne par répondant et une colonne par question.
 
-## Exporting a Survey
+## Exporter une enquête
 
-Once enabled, your course's **Survey** tool list gets an **Export** column with a CSV icon on each survey row. Click it to download the results immediately — no extra steps.
+Une fois activé, la liste de l’outil **Enquête** de votre cours comporte une colonne **Export** avec une icône CSV sur chaque ligne d’enquête. Cliquez dessus pour télécharger immédiatement les résultats — sans étapes supplémentaires.
 
-## What's in the File
+## Contenu du fichier
 
-* Anonymous surveys are exported without identity columns
-* Non-anonymous surveys include the respondent's identity alongside their answers
-* Whether incomplete (unfinished) responses are included is controlled by your administrator, not from this export button
+* Les enquêtes anonymes sont exportées sans colonnes d’identité
+* Les enquêtes non anonymes incluent l’identité du répondant aux côtés de ses réponses
+* L’inclusion ou non des réponses incomplètes (non terminées) est contrôlée par votre administrateur, et non depuis ce bouton d’export
 
-## Tips
+## Conseils
 
-* **Large surveys may take a moment** — Very large response sets can be slower to export; this is a database performance consideration your administrator can tune if needed
-* **Combine with Survey Export TXT** — If you also have the [Survey Export TXT](survey-export-txt.md) plugin enabled, you'll see two export icons; pick whichever format suits how you plan to use the data
+* **Les enquêtes volumineuses peuvent prendre un moment** — Les jeux de réponses très importants peuvent être plus lents à exporter ; il s’agit d’une question de performance de la base de données que votre administrateur peut ajuster si nécessaire
+* **Combiner avec Survey Export TXT** — Si le plugin [Survey Export TXT](survey-export-txt.md) est également activé, vous verrez deux icônes d’export ; choisissez le format qui convient à l’usage prévu des données

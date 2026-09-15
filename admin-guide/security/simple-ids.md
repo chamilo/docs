@@ -1,36 +1,36 @@
 # Simple IDS
 
-Chamilo includes a lightweight, in-application intrusion detection system (IDS). On every request, it scans the URL query parameters, the request path, and a couple of headers (`User-Agent`, `Referer`) for common attack signatures — for example XSS payloads or path-traversal patterns — and logs anything suspicious. The Simple IDS page lets you review what it has flagged.
+Chamilo intègre un système de détection d’intrusion (IDS) léger, au sein de l’application. À chaque requête, il analyse les paramètres de requête de l’URL, le chemin de la requête et quelques en-têtes (`User-Agent`, `Referer`) à la recherche de signatures d’attaque courantes — par exemple des charges XSS ou des motifs de traversée de chemin — et consigne tout élément suspect. La page Simple IDS vous permet d’examiner ce qui a été signalé.
 
-Request **bodies** are intentionally not scanned, to avoid false positives from rich-text editor content (course text legitimately contains HTML/JavaScript-like markup).
+Les **corps** de requête ne sont volontairement pas analysés, afin d’éviter les faux positifs provenant du contenu des éditeurs de texte enrichi (le texte des cours contient légitimement du balisage de type HTML/JavaScript).
 
-## Accessing Simple IDS
+## Accéder à Simple IDS
 
-From the administration panel, click **Security > Simple IDS**.
+Depuis le panneau d’administration, cliquez sur **Sécurité > Simple IDS**.
 
-## What It Shows
+## Ce qu’elle affiche
 
-![The Simple IDS page showing charts for events by day, events by type, and top attacking IPs, followed by a table of flagged IDS events with date, IP, detection type, parameter, URI, and detail](/.gitbook/assets/admin-security-simple-ids.png)
+![La page Simple IDS présentant des graphiques des événements par jour, des événements par type et des principales adresses IP attaquantes, suivis d’un tableau des événements IDS signalés avec la date, l’adresse IP, le type de détection, le paramètre, l’URI et le détail](/.gitbook/assets/admin-security-simple-ids.png)
 
-* **Events by day (last 7 days)**, **Events by type (last 30 days)**, and **Top attacking IPs (last 30 days)** — Summary charts
-* **Flagged IDS events table** — Each entry shows the date, source IP, detection type (for example `XSS`), the affected parameter, the request URI, and a short description of what was detected
+* **Événements par jour (7 derniers jours)**, **Événements par type (30 derniers jours)** et **Principales adresses IP attaquantes (30 derniers jours)** — Graphiques de synthèse
+* **Tableau des événements IDS signalés** — Chaque entrée indique la date, l’adresse IP source, le type de détection (par exemple `XSS`), le paramètre concerné, l’URI de la requête et une brève description de ce qui a été détecté
 
-Use the **IP**, event type, and date-range filters above the charts to narrow the results.
+Utilisez les filtres **IP**, type d’événement et plage de dates au-dessus des graphiques pour affiner les résultats.
 
-## How It Works
+## Fonctionnement
 
-* Every request is scanned on the way in; matches are appended to `var/logs/ids/ids_events.log`
-* On the way out, the same subscriber adds OWASP-recommended security headers to the response
-* If blocking is enabled, a request that matches a signature is stopped immediately with an HTTP 400 response instead of reaching your application code
+* Chaque requête est analysée à l’entrée ; les correspondances sont ajoutées à `var/logs/ids/ids_events.log`
+* À la sortie, le même abonné ajoute les en-têtes de sécurité recommandés par l’OWASP à la réponse
+* Si le blocage est activé, une requête correspondant à une signature est interrompue immédiatement par une réponse HTTP 400, sans atteindre le code de l’application
 
 ## Configuration
 
-Simple IDS is controlled by environment variables, set in `config/packages/chamilo_ids.yaml`:
+Simple IDS est contrôlé par des variables d’environnement, définies dans `config/packages/chamilo_ids.yaml` :
 
-| Variable | Purpose |
+| Variable | Objet |
 |----------|---------|
-| `IDS_ENABLED` | Turns request scanning and logging on or off |
-| `IDS_BLOCK` | When enabled, a detected request is rejected (HTTP 400) instead of only logged |
-| `IDS_SECURITY_HEADERS` | Controls whether the OWASP-recommended response headers are added |
+| `IDS_ENABLED` | Active ou désactive l’analyse des requêtes et la journalisation |
+| `IDS_BLOCK` | Lorsqu’elle est activée, une requête détectée est rejetée (HTTP 400) au lieu d’être seulement consignée |
+| `IDS_SECURITY_HEADERS` | Contrôle l’ajout des en-têtes de réponse recommandés par l’OWASP |
 
-This is a lightweight, best-effort detector meant to catch obvious scanning and exploitation attempts — it does not replace a dedicated web application firewall (WAF) for high-risk deployments.
+Il s’agit d’un détecteur léger, de type « meilleur effort », destiné à intercepter les tentatives évidentes de balayage et d’exploitation — il ne remplace pas un pare-feu d’application web (WAF) dédié pour les déploiements à haut risque.

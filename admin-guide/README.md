@@ -1,49 +1,49 @@
-# Administration Guide
+# Guide d'administration
 
-Welcome to the Chamilo 3.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Bienvenue dans le Guide d'administration de Chamilo 3.0. Ce guide s'adresse aux administrateurs de plateforme chargés d'installer, de configurer et de gérer une instance Chamilo.
 
-## What you can do as an Administrator
+## Ce que vous pouvez faire en tant qu'administrateur
 
-As a Chamilo administrator, you manage:
+En tant qu'administrateur Chamilo, vous gérez :
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform** — Languages, portal news, the global agenda, and the Pages CMS tool
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Analytics** — Platform statistics, learning analytics, and corporate/HR reporting
-* **Skills** — Define competency badges and link them to gradebook results
-* **System** — Server maintenance tools, self-update, storage inspection, and branding
-* **Rooms** — Manage physical sites and bookable training rooms
-* **Security** — Monitor login attempts, review flagged intrusion attempts, check password strength, and verify file integrity
-* **Plugins** — Install, configure, and manage platform extensions
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **Installation et configuration** — Installer Chamilo sur votre serveur, configurer le stockage, l'e-mail et les paramètres d'environnement
+* **Utilisateurs** — Créer, importer et gérer les comptes utilisateurs, les rôles et les permissions
+* **Cours et sessions** — Superviser la création des cours, gérer le catalogue de cours et configurer les sessions de formation
+* **Plateforme** — Langues, actualités du portail, agenda global et outil Pages CMS
+* **Paramètres de la plateforme** — Configurer le comportement du portail, la sécurité, les performances et la disponibilité des fonctionnalités
+* **Analytique** — Statistiques de la plateforme, analytique de l'apprentissage et reporting entreprise/RH
+* **Compétences** — Définir des badges de compétences et les lier aux résultats du carnet de notes
+* **Système** — Outils de maintenance serveur, mise à jour automatique, inspection du stockage et habillage
+* **Salles** — Gérer les sites physiques et les salles de formation réservables
+* **Sécurité** — Surveiller les tentatives de connexion, examiner les tentatives d'intrusion signalées, vérifier la robustesse des mots de passe et l'intégrité des fichiers
+* **Plugins** — Installer, configurer et gérer les extensions de la plateforme
+* **Authentification** — Mettre en place des systèmes de connexion externes (OAuth2, LDAP, CAS, SCIM)
+* **Intégrations** — Connecter Chamilo à la visioconférence, aux outils LTI, aux fournisseurs d'IA, et plus encore
+* **Maintenance** — Effectuer des sauvegardes, surveiller l'état du système et gérer le stockage
 
-## How this guide is organized
+## Organisation de ce guide
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform** — Languages, portal news, the global agenda, and the Pages CMS tool
-7. **Platform Settings** — Configuring every aspect of the platform
-8. **Analytics** — Statistics, learning analytics, and corporate/HR reporting
-9. **Skills** — Competency badges and gradebook-driven awards
-10. **System** — Server tools, self-update, storage inspection, and branding
-11. **Rooms** — Branches and bookable training rooms
-12. **Security** — Security monitoring and auditing tools
-13. **Plugins** — Managing platform extensions
-14. **Health Check** — Live configuration checks
-15. **Other Admin Blocks** — Chamilo.org links, version check, support, and news
-16. **Authentication** — Setting up external authentication providers
-17. **Integrations** — Connecting third-party services
-18. **Multi-URL** — Running multiple portals from a single installation
-19. **Performance Tuning** — Optimizing the platform for speed and scale
-20. **Maintenance** — Backups, system status, and cleanup
+1. **Premiers pas** — Vue d'ensemble de l'interface d'administration
+2. **Installation** — Prérequis serveur, assistant d'installation et configuration initiale
+3. **Utilisateurs** — Gestion des comptes utilisateurs, des rôles, des groupes et des profils
+4. **Cours** — Gestion des cours, des catégories et de l'import/export
+5. **Sessions** — Organisation de cohortes de formation limitées dans le temps
+6. **Plateforme** — Langues, actualités du portail, agenda global et outil Pages CMS
+7. **Paramètres de la plateforme** — Configuration de tous les aspects de la plateforme
+8. **Analytique** — Statistiques, analytique de l'apprentissage et reporting entreprise/RH
+9. **Compétences** — Badges de compétences et récompenses basées sur le carnet de notes
+10. **Système** — Outils serveur, mise à jour automatique, inspection du stockage et habillage
+11. **Salles** — Sites et salles de formation réservables
+12. **Sécurité** — Outils de surveillance et d'audit de la sécurité
+13. **Plugins** — Gestion des extensions de la plateforme
+14. **Contrôle de santé** — Vérifications de configuration en direct
+15. **Autres blocs d'administration** — Liens Chamilo.org, vérification de version, support et actualités
+16. **Authentification** — Configuration des fournisseurs d'authentification externes
+17. **Intégrations** — Connexion de services tiers
+18. **Multi-URL** — Exploitation de plusieurs portails à partir d'une seule installation
+19. **Optimisation des performances** — Optimiser la plateforme pour la vitesse et la montée en charge
+20. **Maintenance** — Sauvegardes, état du système et nettoyage
 
-## Accessing the Administration Panel
+## Accéder au panneau d'administration
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+Après vous être connecté en tant qu'administrateur, cliquez sur **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> dans la barre latérale pour accéder au panneau d'administration.

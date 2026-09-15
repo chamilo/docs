@@ -1,13 +1,13 @@
 # Tickets
 
-The **Tickets** entry in the Analytics block is a shortcut into Chamilo's support ticket system — it opens directly on the ticket list, not a settings page.
+L'entrée **Tickets** du bloc Analytics est un raccourci vers le système de tickets de support de Chamilo — elle ouvre directement la liste des tickets, et non une page de paramètres.
 
-## Accessing Tickets
+## Accéder aux tickets
 
-From the administration panel, click **Analytics > Tickets**.
+Depuis le panneau d'administration, cliquez sur **Analytics > Tickets**.
 
-## What It Shows
+## Ce qu'elle affiche
 
-The ticket list where support requests are tracked and answered — the same ticket system covered from a support-agent perspective in the Teacher Guide's [Support Tickets](../../teacher-guide/tickets.md) page.
+La liste des tickets où les demandes de support sont suivies et traitées — le même système de tickets abordé du point de vue d'un agent de support dans la page [Tickets de support](../../teacher-guide/tickets.md) du Guide de l'enseignant.
 
-To configure the ticket system itself (categories, priorities, assigned staff), see [Ticket Settings](../platform-settings/ticket-settings.md) under Configuration Settings.
+Pour configurer le système de tickets lui-même (catégories, priorités, personnel assigné), consultez [Paramètres des tickets](../platform-settings/ticket-settings.md) dans les paramètres de configuration.

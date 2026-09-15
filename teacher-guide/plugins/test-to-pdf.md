@@ -1,12 +1,12 @@
 # Test to PDF
 
-Test to PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> exports a course test's questions to a printable PDF — questions only, answers only, or both together — useful for a paper version of a test.
+Test to PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> exporte les questions d’un test de cours vers un PDF imprimable — questions uniquement, réponses uniquement, ou les deux ensemble — utile pour une version papier d’un test.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, a **Test to PDF** tool appears on your course homepage, listing every test in the course (or session). Each row offers three actions: **Download questions**, **Download answers**, and **Download all**.
+Une fois activé, un outil **Test to PDF** apparaît sur la page d’accueil de votre cours et liste tous les tests du cours (ou de la session). Chaque ligne propose trois actions : **Télécharger les questions**, **Télécharger les réponses** et **Tout télécharger**.
 
-## Tips
+## Conseils
 
-* **Not every question type is supported** — Only a subset of Chamilo's question types (multiple choice, true/false, and similar closed formats) export cleanly; open-ended or more complex question types may not appear correctly, if at all
-* **Check the output before printing a full batch** — Review the generated PDF for one test before mass-printing for an exam session
+* **Tous les types de questions ne sont pas pris en charge** — Seul un sous-ensemble des types de questions de Chamilo (choix multiple, vrai/faux et formats fermés similaires) s’exporte correctement ; les questions ouvertes ou plus complexes peuvent ne pas s’afficher correctement, voire pas du tout
+* **Vérifiez le résultat avant d’imprimer un lot complet** — Examinez le PDF généré pour un test avant d’imprimer en masse pour une session d’examen

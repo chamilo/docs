@@ -1,38 +1,38 @@
-# Announcements
+# Annonces
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+L'outil Annonces vous permet d'envoyer des messages à tous les apprenants inscrits à votre cours, ou à des personnes ou groupes spécifiques.
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+Les messages envoyés via les annonces sont transmis aux apprenants à la fois par courriel *et* dans leur boîte de réception Chamilo.
 
-## Creating an Announcement
+## Créer une annonce
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. Ouvrez l'outil **Annonces** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line"> depuis la page d'accueil du cours
+2. Cliquez à nouveau sur l'icône **Ajouter une annonce** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line">
+3. Renseignez :
+   * **Destinataires** — Choisissez qui reçoit l'annonce :
+     * Tous les apprenants inscrits
+     * Des apprenants spécifiques
+     * Des groupes spécifiques
+   * **Sujet** — Une ligne d'objet pour l'annonce
+   * **Description** — Le corps du message (prend en charge le texte enrichi avec mise en forme, liens et images)
+   * **Pièce jointe** — Une pièce jointe facultative envoyée avec le courriel
+   * **Options d'envoi** — Les annonces sont envoyées par courriel par défaut, mais vous pouvez également choisir (si vous en avez les droits) de l'envoyer via toutes les sessions qui incluent ce cours, de vous en envoyer une copie ou d'associer cette annonce à un événement du calendrier du cours.
+4. Enregistrez
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+Le bouton **Tags** vous permet d'identifier une série de marqueurs qui seront remplacés dynamiquement dans le **Contenu** de l'annonce. Ils sont relativement intuitifs, aussi nous vous laissons deviner ce qu'ils font.
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+Le bouton **Aperçu** n'est pas très intuitif : il vous permet de voir à qui cette annonce sera envoyée. Cela sert de confirmation de la sélection des destinataires effectuée ci-dessus.
 
-## Managing Announcements
+## Gérer les annonces
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Modifier une annonce existante
+* **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer une annonce
+* **Visibilité** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> — Masquer ou afficher les annonces
 
-Announcements are displayed in reverse chronological order (newest first).
+Les annonces s'affichent par ordre chronologique inverse (les plus récentes en premier).
 
-## Tips
+## Conseils
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **Message de bienvenue** — Créez une annonce au début du cours pour accueillir les apprenants et fournir une orientation
+* **Utiliser l'envoi par courriel** — Pour les annonces urgentes, activez l'option courriel afin que les apprenants reçoivent le message même s'ils ne sont pas actuellement connectés à la plateforme
+* **Annonces ciblées** — Envoyez des annonces spécifiques à des groupes ou à des personnes lorsque le message n'est pas pertinent pour toute la classe

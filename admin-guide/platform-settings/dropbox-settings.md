@@ -1,75 +1,74 @@
-# Dropbox Settings
+# Paramètres de la Dropbox
 
-Behaviour of the **Dropbox** file-exchange tool.
+Comportement de l’outil d’échange de fichiers **Dropbox**.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Dropbox**. Cette catégorie contient **8 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est indiqué en monospace. Utilisez-le pour scripter via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox : autoriser les groupes**
 
-Users can send files to groups
+Les utilisateurs peuvent envoyer des fichiers aux groupes
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox : téléverser vers son propre espace Dropbox ?**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+Autoriser les formateurs et les utilisateurs à téléverser des documents dans leur Dropbox sans s’envoyer les documents à eux-mêmes
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox : autoriser le publipostage**
 
-With the mailing functionality you can send each learner a personal document
+Grâce à la fonctionnalité de publipostage, vous pouvez envoyer à chaque apprenant un document personnel
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox : les documents peuvent-ils être écrasés**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+Le document original peut-il être écrasé lorsqu’un utilisateur ou un formateur téléverse un document portant le nom d’un document déjà existant ? Si vous répondez oui, vous perdez le mécanisme de versionnage.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox : Apprenant <-> Apprenant**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+Autoriser les utilisateurs à envoyer des documents à d’autres utilisateurs (pair à pair). Les utilisateurs pourraient également s’en servir pour des documents moins pertinents (mp3, solutions de tests, …). Si vous désactivez cette option, les utilisateurs ne pourront envoyer des documents qu’au formateur.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course tutor**
+**Dropbox : masquer le tuteur du cours**
 
-Hide the session course tutor in Dropbox when a document is sent by the tutor to students
+Masquer le tuteur de cours de la session dans la Dropbox lorsqu’un document est envoyé par le tuteur aux étudiants
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general tutor in Dropbox**
+**Masquer le tuteur général dans la Dropbox**
 
-Hide the general tutor name in the Dropbox tool when the general tutor uploaded the file
+Masquer le nom du tuteur général dans l’outil Dropbox lorsque le tuteur général a téléversé le fichier
 
-*Default: `false`*
+*Par défaut : `false`*
 
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox : taille maximale d’un document**
 
-How big (in MB) can a dropbox document be?
+Quelle taille (en Mo) un document de la Dropbox peut-il atteindre ?
 
-*Default: `100000000`*
-
+*Par défaut : `100000000`*

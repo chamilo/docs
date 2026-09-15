@@ -1,28 +1,28 @@
-# Skills
+# Compétences
 
-The **Skills** block on the administration dashboard groups the tools for defining, organizing, and tracking competency badges ("skills") across the platform. A skill can be awarded automatically when a learner reaches a gradebook threshold, completes specific courses, or manually by a teacher, and can carry a badge-style icon and a level (for example Bronze/Silver/Gold).
+Le bloc **Compétences** du tableau de bord d’administration regroupe les outils permettant de définir, d’organiser et de suivre les badges de compétences (« skills ») sur l’ensemble de la plateforme. Une compétence peut être attribuée automatiquement lorsqu’un apprenant atteint un seuil du carnet de notes, termine des cours spécifiques, ou manuellement par un enseignant, et peut s’accompagner d’une icône de type badge ainsi que d’un niveau (par exemple Bronze/Argent/Or).
 
-![The Skills block on the administration dashboard, listing Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking, and Skills and assessments](/.gitbook/assets/admin-skills-block.png)
+![Le bloc Compétences du tableau de bord d’administration, listant Roue des compétences, Importation des compétences, Gérer les compétences, Gérer les niveaux de compétences, Classement des compétences, et Compétences et évaluations](/.gitbook/assets/admin-skills-block.png)
 
-The entire block only appears if the **Enable skills tool** setting (`skill.allow_skills_tool`, under Configuration Settings > Skills) is turned on — it is enabled by default.
+L’ensemble du bloc n’apparaît que si le paramètre **Activer l’outil compétences** (`skill.allow_skills_tool`, sous Paramètres de configuration > Compétences) est activé — il l’est par défaut.
 
-## Accessing the Skills Block
+## Accéder au bloc Compétences
 
-From the administration panel, the **Skills** block appears alongside the other dashboard blocks. Click any of its links to open the corresponding tool.
+Depuis le panneau d’administration, le bloc **Compétences** apparaît aux côtés des autres blocs du tableau de bord. Cliquez sur l’un de ses liens pour ouvrir l’outil correspondant.
 
-## What's in the Block
+## Contenu du bloc
 
-* **[Managing Skills](managing-skills.md)** — Create skills, import them in bulk, and assign each one to a level scale
-* **[Skills Wheel](skills-wheel.md)** — A zoomable visual map of the whole skill tree
-* **[Skills Ranking](skills-ranking.md)** — A leaderboard of users by skills acquired
-* **[Skills and Assessments](skills-assessments.md)** — Link gradebook categories to the skills they award
+* **[Gérer les compétences](managing-skills.md)** — Créer des compétences, les importer en masse et attribuer chacune à une échelle de niveaux
+* **[Roue des compétences](skills-wheel.md)** — Une carte visuelle zoomable de l’arbre complet des compétences
+* **[Classement des compétences](skills-ranking.md)** — Un classement des utilisateurs selon les compétences acquises
+* **[Compétences et évaluations](skills-assessments.md)** — Relier les catégories du carnet de notes aux compétences qu’elles attribuent
 
-## Related Settings
+## Paramètres associés
 
-A few other settings under Configuration Settings > Skills change who can do what with this block:
+Quelques autres paramètres sous Paramètres de configuration > Compétences modifient qui peut faire quoi avec ce bloc :
 
-* **Allow HR skills management** (`allow_hr_skills_management`) — Lets Human Resources Manager users manage skills alongside administrators
-* **Allow private skills** (`allow_private_skills`)
-* **Teachers can assign skills** (`skills_teachers_can_assign_skills`)
-* **Hide skill levels** (`hide_skill_levels`)
-* **Show full skill name on skill wheel** (`show_full_skill_name_on_skill_wheel`)
+* **Autoriser la gestion des compétences RH** (`allow_hr_skills_management`) — Permet aux utilisateurs Gestionnaire des ressources humaines de gérer les compétences aux côtés des administrateurs
+* **Autoriser les compétences privées** (`allow_private_skills`)
+* **Les enseignants peuvent attribuer des compétences** (`skills_teachers_can_assign_skills`)
+* **Masquer les niveaux de compétences** (`hide_skill_levels`)
+* **Afficher le nom complet de la compétence sur la roue des compétences** (`show_full_skill_name_on_skill_wheel`)

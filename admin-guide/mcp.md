@@ -1,85 +1,85 @@
 # MCP (Model Context Protocol)
 
-Chamilo 3.0 exposes an MCP server so AI assistants and agents (Claude, ChatGPT connectors, or any MCP-compatible client) can act inside the platform on behalf of an authenticated user, using that user's own permissions — there is no separate service account or elevated access.
+Chamilo 3.0 expose un serveur MCP afin que les assistants et agents d’IA (Claude, connecteurs ChatGPT, ou tout client compatible MCP) puissent agir dans la plateforme au nom d’un utilisateur authentifié, en utilisant les permissions de cet utilisateur — il n’existe ni compte de service distinct ni accès élevé.
 
-## What MCP Adds to Chamilo
+## Ce que MCP apporte à Chamilo
 
-MCP (Model Context Protocol) is an open standard that lets AI clients call a defined set of "tools" exposed by a server. Chamilo's MCP server is reachable at a single endpoint, `/mcp`, and exposes a curated set of teacher-facing course-management tools rather than the entire API surface.
+MCP (Model Context Protocol) est une norme ouverte qui permet aux clients d’IA d’appeler un ensemble défini d’« outils » exposés par un serveur. Le serveur MCP de Chamilo est accessible à un unique point de terminaison, `/mcp`, et expose un ensemble sélectionné d’outils de gestion de cours destinés aux enseignants, plutôt que l’intégralité de la surface de l’API.
 
-## Available Capabilities
+## Capacités disponibles
 
-Every call runs as the connected user, so a tool only ever sees and modifies courses that user manages. The current tool set:
+Chaque appel s’exécute en tant qu’utilisateur connecté, de sorte qu’un outil ne voit et ne modifie jamais que les cours que cet utilisateur gère. L’ensemble d’outils actuel :
 
-| Tool | What it does |
+| Outil | Fonction |
 |------|---------------|
-| Current user | Return the identity and roles of the authenticated user |
-| Teacher courses | List courses the user manages as a teacher |
-| Course overview | Return base-course information and resource counts |
-| Create course | Create a new course using the platform's course-creation rules |
-| Create course assignment | Create a draft or published assignment with a description and maximum score |
-| Create course test | Create an AI-assisted multiple-choice test from a topic description or an existing document |
-| Get course test response status | Report which students have answered, are in progress, or are pending on a test |
-| Get user course test score | Return a student's latest and best completed scores on a test |
-| Create training satisfaction survey | Create a seven-question satisfaction survey |
-| Create course learning path | Create a learning path from pages supplied by the MCP client |
-| List documents | List the documents in a course's Documents tool |
-| Read course document | Return the HTML content, title, and metadata of an editable document |
-| Edit course document | Replace the full HTML content of an existing editable document |
-| Create course document | Create an AI-assisted HTML document in the root Documents folder |
-| Create course illustration | Generate an AI illustration for a topic and save it as a document |
-| Illustrate document paragraph | Insert an existing image or video before or after a paragraph in a document |
-| Find recent course forum activity | Find recent, visible forum posts related to a topic |
-| Review course quality | Analyze a course's learning paths, documents, tests, assignments, and surveys, and return improvement recommendations |
+| Current user | Renvoie l’identité et les rôles de l’utilisateur authentifié |
+| Teacher courses | Liste les cours que l’utilisateur gère en tant qu’enseignant |
+| Course overview | Renvoie les informations de base du cours et les décomptes de ressources |
+| Create course | Crée un nouveau cours selon les règles de création de cours de la plateforme |
+| Create course assignment | Crée un devoir en brouillon ou publié, avec une description et une note maximale |
+| Create course test | Crée un test à choix multiples assisté par l’IA à partir d’une description de sujet ou d’un document existant |
+| Get course test response status | Indique quels étudiants ont répondu, sont en cours ou sont en attente sur un test |
+| Get user course test score | Renvoie les scores les plus récents et les meilleurs scores obtenus par un étudiant sur un test |
+| Create training satisfaction survey | Crée une enquête de satisfaction à sept questions |
+| Create course learning path | Crée un parcours d’apprentissage à partir de pages fournies par le client MCP |
+| List documents | Liste les documents de l’outil Documents d’un cours |
+| Read course document | Renvoie le contenu HTML, le titre et les métadonnées d’un document modifiable |
+| Edit course document | Remplace l’intégralité du contenu HTML d’un document modifiable existant |
+| Create course document | Crée un document HTML assisté par l’IA dans le dossier Documents racine |
+| Create course illustration | Génère une illustration IA pour un sujet et l’enregistre comme document |
+| Illustrate document paragraph | Insère une image ou une vidéo existante avant ou après un paragraphe d’un document |
+| Find recent course forum activity | Trouve les messages de forum récents et visibles liés à un sujet |
+| Review course quality | Analyse les parcours d’apprentissage, documents, tests, devoirs et enquêtes d’un cours, et renvoie des recommandations d’amélioration |
 
-This list is curated by the Chamilo core team, not user-extensible from within the platform — teachers cannot add their own tools.
+Cette liste est établie par l’équipe cœur de Chamilo ; elle n’est pas extensible par l’utilisateur depuis la plateforme — les enseignants ne peuvent pas ajouter leurs propres outils.
 
-## How Users Connect
+## Comment les utilisateurs se connectent
 
-### Personal MCP API key
+### Clé API MCP personnelle
 
-Each user generates their own key under **Social network** > **MCP API key**:
+Chaque utilisateur génère sa propre clé sous **Réseau social** > **Clé API MCP** :
 
-![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](/.gitbook/assets/admin-mcp-api-key.png)
+![La page de la clé API MCP, montrant une clé inactive, le bouton Générer une clé API, et le bloc Connexion MCP distante avec l’URL du point de terminaison et le format de l’en-tête Authorization](/.gitbook/assets/admin-mcp-api-key.png)
 
-* Clicking **Generate API key** creates a key and displays it once — Chamilo only stores a masked version afterward, so the full key must be copied and stored securely immediately.
-* Generating a new key immediately revokes the previous one.
-* The page shows the key's status (active/inactive), the MCP endpoint to configure in the client, and the creation and last-used dates.
-* The **Remote MCP connection** panel spells out exactly what to put in the MCP client: the endpoint URL and an `Authorization: Bearer <your MCP API key>` header.
+* Un clic sur **Générer une clé API** crée une clé et l’affiche une seule fois — Chamilo ne conserve ensuite qu’une version masquée, de sorte que la clé complète doit être copiée et stockée de façon sécurisée immédiatement.
+* La génération d’une nouvelle clé révoque immédiatement la précédente.
+* La page affiche l’état de la clé (active/inactive), le point de terminaison MCP à configurer dans le client, ainsi que les dates de création et de dernière utilisation.
+* Le panneau **Connexion MCP distante** indique précisément ce qu’il faut renseigner dans le client MCP : l’URL du point de terminaison et un en-tête `Authorization: Bearer <your MCP API key>`.
 
-As the page itself notes, the key authenticates the client as that user's account — it does not grant any permission the account does not already have.
+Comme le précise la page elle-même, la clé authentifie le client en tant que compte de cet utilisateur — elle n’accorde aucune permission que le compte n’a pas déjà.
 
-### OAuth 2.1 (remote clients and connectors)
+### OAuth 2.1 (clients distants et connecteurs)
 
-For MCP clients that support OAuth discovery and dynamic client registration (rather than a manually pasted key), Chamilo also acts as an OAuth 2.1 authorization server: the client discovers Chamilo's endpoints, registers itself, and redirects the user to `/oauth/authorize` to approve access. Approved applications appear under **Social network** > **Authorized applications**, where the user can revoke any they no longer use or recognize.
+Pour les clients MCP qui prennent en charge la découverte OAuth et l’enregistrement dynamique de clients (plutôt qu’une clé collée manuellement), Chamilo agit également comme serveur d’autorisation OAuth 2.1 : le client découvre les points de terminaison de Chamilo, s’enregistre, et redirige l’utilisateur vers `/oauth/authorize` pour approuver l’accès. Les applications approuvées apparaissent sous **Réseau social** > **Applications autorisées**, où l’utilisateur peut révoquer celles qu’il n’utilise plus ou ne reconnaît pas.
 
-## Security Considerations
+## Considérations de sécurité
 
-* **No privilege escalation.** Every MCP tool call and every OAuth-authorized app runs with the connecting user's own Chamilo permissions — a personal API key or an authorized app can never do more than that user could already do by hand.
-* **Bearer-only, rate-limited.** `/mcp` accepts only a Bearer credential — a personal MCP API key, an OAuth access token, or (in development) a JWT. Authentication attempts are rate-limited per IP address to slow down credential-guessing.
-* **Narrow public surface.** The only unauthenticated traffic `/mcp` accepts is the `OPTIONS` preflight; every actual call requires `ROLE_USER`. The OAuth discovery, dynamic client registration, and token endpoints are intentionally public, as required by the OAuth 2.1 / MCP specifications — this does not grant access by itself, it only lets a client learn how to start the authorization flow.
-* **DNS-rebinding protection is deliberately disabled for `/mcp`.** The bundle that implements MCP normally restricts the endpoint to `localhost` unless a static list of allowed hostnames is configured — a poor fit for a multi-URL Chamilo portal reachable under many hostnames. Chamilo disables that check because it is redundant here: every `/mcp` request already requires a Bearer credential regardless of its `Host`/`Origin` header, and a DNS-rebinding attack (which relies on ambient, cookie-style authentication riding along with a spoofed Host) cannot forge a bearer token it doesn't already have.
+* **Aucune élévation de privilèges.** Chaque appel d’outil MCP et chaque application autorisée par OAuth s’exécute avec les propres permissions Chamilo de l’utilisateur connecté — une clé API personnelle ou une application autorisée ne peut jamais faire plus que ce que cet utilisateur pourrait déjà faire manuellement.
+* **Bearer uniquement, avec limitation de débit.** `/mcp` n’accepte qu’un identifiant Bearer — une clé API MCP personnelle, un jeton d’accès OAuth, ou (en développement) un JWT. Les tentatives d’authentification sont limitées en débit par adresse IP afin de ralentir les essais de devinette d’identifiants.
+* **Surface publique restreinte.** Le seul trafic non authentifié que `/mcp` accepte est le prévol `OPTIONS` ; chaque appel réel exige `ROLE_USER`. Les points de terminaison de découverte OAuth, d’enregistrement dynamique de client et de jeton sont volontairement publics, comme l’exigent les spécifications OAuth 2.1 / MCP — cela n’accorde pas d’accès en soi, cela permet seulement à un client d’apprendre comment démarrer le flux d’autorisation.
+* **La protection contre le DNS-rebinding est volontairement désactivée pour `/mcp`.** Le bundle qui implémente MCP restreint normalement le point de terminaison à `localhost` sauf si une liste statique de noms d’hôte autorisés est configurée — ce qui convient mal à un portail Chamilo multi-URL accessible sous de nombreux noms d’hôte. Chamilo désactive ce contrôle car il est redondant ici : chaque requête `/mcp` exige déjà un identifiant Bearer indépendamment de son en-tête `Host`/`Origin`, et une attaque par DNS-rebinding (qui s’appuie sur une authentification ambiante de type cookie voyageant avec un Host usurpée) ne peut pas forger un jeton bearer qu’elle ne possède pas déjà.
 
-## Configuring the MCP Server
+## Configuration du serveur MCP
 
-Unlike most integrations in this guide, MCP has no admin-panel settings page — it is configured at the file level, in `config/packages/mcp.yaml`, and requires shell access to the server:
+Contrairement à la plupart des intégrations de ce guide, MCP n’a pas de page de paramètres dans le panneau d’administration — il se configure au niveau des fichiers, dans `config/packages/mcp.yaml`, et nécessite un accès shell au serveur :
 
-| Key | Purpose |
+| Clé | Objet |
 |-----|---------|
-| `app`, `version`, `description` | Identity Chamilo reports to connecting MCP clients |
-| `client_transports.stdio` / `client_transports.http` | Which transports are active; Chamilo enables both by default |
-| `http.path` | The MCP HTTP endpoint (`/mcp` by default) |
-| `http.allowed_hosts` | DNS-rebinding host allowlist — set to `false` on Chamilo (see Security Considerations above) |
-| `http.session.store`, `.directory`, `.ttl` | Where MCP session state is persisted and for how long |
+| `app`, `version`, `description` | Identité que Chamilo communique aux clients MCP qui se connectent |
+| `client_transports.stdio` / `client_transports.http` | Quels transports sont actifs ; Chamilo active les deux par défaut |
+| `http.path` | Le point de terminaison HTTP MCP (`/mcp` par défaut) |
+| `http.allowed_hosts` | Liste d’hôtes autorisés pour le DNS-rebinding — définie à `false` sur Chamilo (voir Considérations de sécurité ci-dessus) |
+| `http.session.store`, `.directory`, `.ttl` | Où l’état de session MCP est persisté et pendant combien de temps |
 
-To disable the MCP server entirely, set `client_transports.http: false` (and `stdio: false` if the CLI transport should also be turned off) and clear the cache:
+Pour désactiver entièrement le serveur MCP, définissez `client_transports.http: false` (et `stdio: false` si le transport CLI doit également être désactivé) et videz le cache :
 
 ```bash
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-## Tips
+## Conseils
 
-* Treat an MCP API key like a password — anyone holding it can act as that user through any MCP client.
-* Encourage users to periodically review **Authorized applications** and revoke anything they don't recognize.
-* See [AI Configuration](integrations/ai-configuration.md) for the AI providers that back the content-generation tools (test creation, document creation, illustrations) listed above.
+* Traitez une clé API MCP comme un mot de passe — quiconque la détient peut agir en tant que cet utilisateur via n’importe quel client MCP.
+* Encouragez les utilisateurs à examiner périodiquement les **Applications autorisées** et à révoquer tout ce qu’ils ne reconnaissent pas.
+* Consultez [Configuration de l’IA](integrations/ai-configuration.md) pour les fournisseurs d’IA qui alimentent les outils de génération de contenu (création de tests, création de documents, illustrations) listés ci-dessus.

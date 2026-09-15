@@ -1,47 +1,47 @@
-# Math Formulas
+# Formules mathématiques
 
-The rich-text editor can typeset mathematical formulas. You write a formula in LaTeX, and learners see it rendered wherever the content is displayed: documents, announcements, exercises, forums, wiki pages, and any other tool that uses the editor.
+L’éditeur de texte enrichi peut composer des formules mathématiques. Vous saisissez une formule en LaTeX, et les apprenants la voient rendue partout où le contenu s’affiche : documents, annonces, exercices, forums, pages wiki, et tout autre outil qui utilise l’éditeur.
 
-Formulas are stored inside the content itself, so they travel with the course when you copy or export it.
+Les formules sont stockées dans le contenu lui-même, de sorte qu’elles voyagent avec le cours lorsque vous le copiez ou l’exportez.
 
-## Enabling the Feature
+## Activation de la fonctionnalité
 
-The formula button is off by default. A platform administrator turns it on under **Administration > Configuration settings > Editor > Enable MathJax** ([`enabled_mathjax`](../../admin-guide/platform-settings/editor-settings.md)).
+Le bouton de formule est désactivé par défaut. Un administrateur de la plateforme l’active sous **Administration > Paramètres de configuration > Éditeur > Activer MathJax** ([`enabled_mathjax`](../../admin-guide/platform-settings/editor-settings.md)).
 
-Once the setting is on, the button appears in every editor on the platform. No per-course configuration is needed.
+Une fois le paramètre activé, le bouton apparaît dans chaque éditeur de la plateforme. Aucune configuration par cours n’est nécessaire.
 
-## Inserting a Formula
+## Insertion d’une formule
 
-1. Place the cursor where the formula belongs
-2. Click the **Insert formula** button in the editor toolbar (the Σ icon)
-3. Type the formula in **LaTeX code**
-4. Check the rendered result in the preview box below the field
-5. Click **Insert**
+1. Placez le curseur à l’endroit où la formule doit figurer
+2. Cliquez sur le bouton **Insérer une formule** dans la barre d’outils de l’éditeur (l’icône Σ)
+3. Saisissez la formule en **code LaTeX**
+4. Vérifiez le résultat rendu dans la zone d’aperçu sous le champ
+5. Cliquez sur **Insérer**
 
-The preview updates while you type, so you can correct a mistake before you insert anything.
+L’aperçu se met à jour pendant que vous tapez, ce qui vous permet de corriger une erreur avant d’insérer quoi que ce soit.
 
-## Editing a Formula
+## Modification d’une formule
 
-Click the formula in the editor. The same dialog opens again, with your original LaTeX code in the field. Change it and click **Insert** to replace the formula.
+Cliquez sur la formule dans l’éditeur. Le même dialogue s’ouvre à nouveau, avec votre code LaTeX d’origine dans le champ. Modifiez-le et cliquez sur **Insérer** pour remplacer la formule.
 
-To delete a formula, select it in the editor and press <kbd>Delete</kbd>, as with any other element.
+Pour supprimer une formule, sélectionnez-la dans l’éditeur et appuyez sur <kbd>Delete</kbd>, comme pour tout autre élément.
 
-## Writing LaTeX
+## Écrire du LaTeX
 
-The formula field takes standard LaTeX math notation. A few examples:
+Le champ de formule accepte la notation mathématique LaTeX standard. Quelques exemples :
 
-| What you type | What learners see |
+| Ce que vous tapez | Ce que voient les apprenants |
 | --- | --- |
-| `x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}` | The quadratic formula |
-| `\sum_{i=1}^{n} i = \frac{n(n+1)}{2}` | A sum with limits |
-| `\int_{0}^{\infty} e^{-x} dx = 1` | A definite integral |
-| `\alpha + \beta = \gamma` | Greek letters |
-| `\begin{matrix} a & b \\ c & d \end{matrix}` | A matrix |
+| `x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}` | La formule quadratique |
+| `\sum_{i=1}^{n} i = \frac{n(n+1)}{2}` | Une somme avec bornes |
+| `\int_{0}^{\infty} e^{-x} dx = 1` | Une intégrale définie |
+| `\alpha + \beta = \gamma` | Lettres grecques |
+| `\begin{matrix} a & b \\ c & d \end{matrix}` | Une matrice |
 
-You can also type the raw delimiters `\(...\)`, `\[...\]` or `$$...$$` straight into the editor. The editor converts them into formulas when it loads the content.
+Vous pouvez également saisir les délimiteurs bruts `\(...\)`, `\[...\]` ou `$$...$$` directement dans l’éditeur. L’éditeur les convertit en formules lors du chargement du contenu.
 
-## Notes
+## Remarques
 
-* The formula library is loaded only on pages that actually contain a formula, so pages without one are not slowed down.
-* Everything is rendered in the learner's browser. The platform needs no external service, and works on an installation with no access to the internet.
-* A formula keeps its LaTeX source. You can always reopen it and read what you wrote, even years later.
+* La bibliothèque de formules n’est chargée que sur les pages qui contiennent effectivement une formule, de sorte que les pages sans formule ne sont pas ralenties.
+* Tout est rendu dans le navigateur de l’apprenant. La plateforme n’a besoin d’aucun service externe et fonctionne sur une installation sans accès à Internet.
+* Une formule conserve sa source LaTeX. Vous pouvez toujours la rouvrir et relire ce que vous avez écrit, même des années plus tard.

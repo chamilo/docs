@@ -1,35 +1,35 @@
-# Inbox
+# Boîte de réception
 
-The **Inbox** is Chamilo's private messaging system — asynchronous, e-mail-like messages between you and other users on the platform, independent of any specific course.
+La **Boîte de réception** est le système de messagerie privée de Chamilo — des messages asynchrones, de type courriel, entre vous et d’autres utilisateurs de la plateforme, indépendants de tout cours particulier.
 
-## Accessing Your Inbox
+## Accéder à votre boîte de réception
 
-Click the **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> icon in the top bar. A red badge shows how many unread messages you have. If this icon isn't there at all, your administrator has disabled platform messaging.
+Cliquez sur l’icône **Boîte de réception** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> dans la barre supérieure. Un badge rouge indique le nombre de messages non lus. Si cette icône n’apparaît pas du tout, votre administrateur a désactivé la messagerie de la plateforme.
 
-## Reading and Replying
+## Lire et répondre
 
-Your inbox lists received messages, showing which are unread. Open one to read it, and use **Reply** to respond — you can include several recipients in a reply at once, useful for keeping a small group of people in the loop without setting up a formal course or social group.
+Votre boîte de réception liste les messages reçus et indique lesquels sont non lus. Ouvrez-en un pour le lire, puis utilisez **Répondre** pour y répondre — vous pouvez inclure plusieurs destinataires dans une même réponse, ce qui est utile pour tenir un petit groupe informé sans créer un cours formel ni un groupe social.
 
-![The Inbox, with Inbox / Unread / Sent tabs and a table of received messages](/.gitbook/assets/student-inbox.png)
+![La boîte de réception, avec les onglets Boîte de réception / Non lus / Envoyés et un tableau des messages reçus](/.gitbook/assets/student-inbox.png)
 
-## Composing a New Message
+## Rédiger un nouveau message
 
-Click the **new message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> button, choose one or more recipients, write a subject and body, and send. Just like a reply, a new message can go to multiple people at once.
+Cliquez sur le bouton **nouveau message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line">, choisissez un ou plusieurs destinataires, rédigez un objet et un corps, puis envoyez. Comme pour une réponse, un nouveau message peut être adressé à plusieurs personnes à la fois.
 
-## Tabs and Actions
+## Onglets et actions
 
-Besides your **Inbox**, a tab shows just your **Unread** messages, and another shows **Sent** — what you've sent, for your own reference. A search box lets you find a message by keyword. The buttons above the list let you compose a new message, refresh, delete selected messages, and mark selected messages as read.
+Outre votre **Boîte de réception**, un onglet affiche uniquement vos messages **Non lus**, et un autre affiche les **Envoyés** — ce que vous avez envoyé, pour votre propre référence. Un champ de recherche vous permet de trouver un message par mot-clé. Les boutons au-dessus de la liste permettent de rédiger un nouveau message, d’actualiser, de supprimer les messages sélectionnés et de marquer les messages sélectionnés comme lus.
 
-## Message Tags
+## Étiquettes de messages
 
-If your platform uses message tags, you'll see a tag list in your inbox you can click to filter messages by that tag — handy for keeping related conversations easy to find as your inbox grows.
+Si votre plateforme utilise des étiquettes de messages, vous verrez dans votre boîte de réception une liste d’étiquettes sur lesquelles cliquer pour filtrer les messages par étiquette — pratique pour retrouver facilement les conversations liées à mesure que votre boîte de réception s’agrandit.
 
-## Relationship to Other Messaging Features
+## Lien avec les autres fonctionnalités de messagerie
 
-The Inbox is independent of the course [Chat](courses/using-the-chat-tool.md) tool and of the floating chat panel used for direct messaging and the [AI Tutor](courses/ai-tutor.md) — each is a genuinely separate feature, even though they all involve exchanging messages. The [Social Network](social-network.md), if enabled, uses this same Inbox for private messaging rather than having its own.
+La boîte de réception est indépendante de l’outil [Chat](courses/using-the-chat-tool.md) du cours et du panneau de discussion flottant utilisé pour la messagerie directe et le [Tuteur IA](courses/ai-tutor.md) — chacune est une fonctionnalité réellement distincte, même si toutes impliquent l’échange de messages. Le [Réseau social](social-network.md), s’il est activé, utilise cette même boîte de réception pour la messagerie privée plutôt que d’en avoir une propre.
 
-## Tips
+## Conseils
 
-* **Check the badge on the Inbox icon** — it's the quickest way to notice new messages without opening the page.
-* **Use the Inbox for anything that isn't tied to a single course** — course-specific discussion generally belongs in that course's Forum or Chat instead.
-* **The Social Network's "Messages" link goes to this same Inbox** — you're not missing a separate mailbox if you reach it from there instead of the top bar.
+* **Surveillez le badge de l’icône Boîte de réception** — c’est le moyen le plus rapide de remarquer de nouveaux messages sans ouvrir la page.
+* **Utilisez la boîte de réception pour tout ce qui n’est pas lié à un seul cours** — les discussions propres à un cours relèvent généralement du Forum ou du Chat de ce cours.
+* **Le lien « Messages » du Réseau social mène à cette même boîte de réception** — vous ne manquez pas une boîte aux lettres distincte si vous y accédez depuis là plutôt que depuis la barre supérieure.

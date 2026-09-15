@@ -1,45 +1,45 @@
-# My Progress
+# Ma progression
 
-**My Progress** gives you a single, quick overview of your activity and results across every course you're enrolled in — no need to open each course separately to check where you stand.
+**Ma progression** vous offre une vue d’ensemble unique et rapide de votre activité et de vos résultats dans tous les cours auxquels vous êtes inscrit — sans avoir à ouvrir chaque cours séparément pour savoir où vous en êtes.
 
-## Accessing It
+## Y accéder
 
-Click **Reporting** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> in the sidebar to expand it, then click **Progress**. This is your own, personal view — it only ever shows your own data, not your classmates'.
+Cliquez sur **Rapports** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapports" data-size="line"> dans la barre latérale pour la développer, puis cliquez sur **Progression**. Il s’agit de votre vue personnelle — elle n’affiche jamais que vos propres données, pas celles de vos camarades.
 
-## What You See
+## Ce que vous voyez
 
-A table listing every course you're in, with:
+Un tableau listant chaque cours auquel vous participez, avec :
 
-* **Time spent in the course**
-* **Progress** — your learning path completion percentage
-* **Best score in learning path** and **best score not in learning path** — your top results, split by whether they came from a test embedded in a learning path or a standalone one
-* **Latest login** — the last time you accessed that course
+* **Temps passé dans le cours**
+* **Progression** — votre pourcentage d’achèvement des parcours d’apprentissage
+* **Meilleur score dans un parcours d’apprentissage** et **meilleur score hors parcours d’apprentissage** — vos meilleurs résultats, selon qu’ils proviennent d’un test intégré à un parcours d’apprentissage ou d’un test autonome
+* **Dernière connexion** — la dernière fois que vous avez accédé à ce cours
 
-![The My Progress table, listing every enrolled course with time spent, progress, and best scores](/.gitbook/assets/student-my-progress.png)
+![Le tableau Ma progression, listant chaque cours inscrit avec le temps passé, la progression et les meilleurs scores](/.gitbook/assets/student-my-progress.png)
 
-Click the **Details** button next to any course to expand three sub-tables without leaving the page:
+Cliquez sur le bouton **Détails** à côté de n’importe quel cours pour développer trois sous-tableaux sans quitter la page :
 
-* **Tests** — your attempts, best score, and ranking among classmates (if your teacher shows rankings)
-* **Learning paths** — time spent, progress, and score for each one
-* **Skills acquired** — any competency badges you've earned in that course
+* **Tests** — vos tentatives, votre meilleur score et votre classement parmi vos camarades (si votre enseignant affiche les classements)
+* **Parcours d’apprentissage** — temps passé, progression et score pour chacun d’eux
+* **Compétences acquises** — les badges de compétence que vous avez obtenus dans ce cours
 
-## Your Certificates
+## Vos certificats
 
-Certificates aren't part of this page — find them under **My certificates**, in your avatar menu at the top-right of the screen. It lists every course and session where you've earned a certificate, with the score, the date, and buttons to **view** or **download** it.
+Les certificats ne font pas partie de cette page — retrouvez-les sous **Mes certificats**, dans le menu de votre avatar en haut à droite de l’écran. Il liste chaque cours et chaque session pour lesquels vous avez obtenu un certificat, avec le score, la date, et des boutons pour **voir** ou **télécharger** celui-ci.
 
-![The My Certificates page, with separate tables for course certificates and session certificates](/.gitbook/assets/student-my-certificates.png)
+![La page Mes certificats, avec des tableaux distincts pour les certificats de cours et les certificats de session](/.gitbook/assets/student-my-certificates.png)
 
-Your avatar menu also has a **My skills** link, listing the competency badges you've been awarded — separate from both of the pages above.
+Le menu de votre avatar comporte également un lien **Mes compétences**, listant les badges de compétence qui vous ont été attribués — distinct des deux pages ci-dessus.
 
-## Elsewhere in a Course
+## Ailleurs dans un cours
 
-A couple of related figures live inside the course itself rather than here:
+Quelques indicateurs connexes se trouvent dans le cours lui-même plutôt qu’ici :
 
-* The **Assessments** (gradebook) tool shows your own score for that course, and sometimes your ranking, best score, and the class average, if your teacher has enabled that level of detail.
-* From your gradebook results, you may also find an **Export badges** option for any skills you've earned.
+* L’outil **Évaluations** (carnet de notes) affiche votre propre score pour ce cours, et parfois votre classement, le meilleur score et la moyenne de la classe, si votre enseignant a activé ce niveau de détail.
+* À partir de vos résultats du carnet de notes, vous pouvez également trouver une option **Exporter les badges** pour les compétences que vous avez obtenues.
 
-## Tips
+## Conseils
 
-* **Check "My Progress" before a check-in with a teacher** — it's the fastest way to see your standing across all your courses at once.
-* **Time spent and progress aren't the same thing** — you can spend a lot of time without much progress, or vice versa; use both together to judge how you're doing.
-* **Certificates live in a different menu** — remember to check your avatar's "My certificates" link, not this page, when looking for a certificate.
+* **Consultez « Ma progression » avant un rendez-vous avec un enseignant** — c’est le moyen le plus rapide de voir votre situation dans tous vos cours à la fois.
+* **Le temps passé et la progression ne sont pas la même chose** — vous pouvez passer beaucoup de temps sans beaucoup progresser, ou l’inverse ; utilisez les deux ensemble pour juger de votre avancement.
+* **Les certificats se trouvent dans un autre menu** — pensez à consulter le lien « Mes certificats » de votre avatar, et non cette page, lorsque vous cherchez un certificat.

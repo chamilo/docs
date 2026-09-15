@@ -1,15 +1,15 @@
-# Reports Catalog
+# Catalogue des rapports
 
-The Reports Catalog isn't a report itself — it's a directory of every report registered on the platform, useful for understanding what's available and who can see it.
+Le catalogue des rapports n’est pas un rapport en soi — c’est un répertoire de tous les rapports enregistrés sur la plateforme, utile pour comprendre ce qui est disponible et qui peut le consulter.
 
-## Accessing the Reports Catalog
+## Accéder au catalogue des rapports
 
-From the administration panel, click **Analytics > Reports catalog**.
+Depuis le panneau d’administration, cliquez sur **Analytique > Catalogue des rapports**.
 
-## What It Shows
+## Ce qu’il affiche
 
-* **Report list** — Every registered report's title, description, and both its canonical and legacy URL
-* **Role matrix** — A view showing which roles (Portal Administrator, Global Administrator, Session Administrator, Teacher, Human Resources Manager, Student Boss...) can access each report
-* **Permission categories** — The permission groups reports are organized into (for example `reports.platform`, `reports.learning_analytics`, `reports.export`, `reports.security`)
+* **Liste des rapports** — Le titre, la description et les URL canonique et héritée de chaque rapport enregistré
+* **Matrice des rôles** — Une vue indiquant quels rôles (administrateur du portail, administrateur global, administrateur de session, enseignant, responsable des ressources humaines, responsable d’étudiants…) peuvent accéder à chaque rapport
+* **Catégories de permissions** — Les groupes de permissions dans lesquels les rapports sont organisés (par exemple `reports.platform`, `reports.learning_analytics`, `reports.export`, `reports.security`)
 
-Use this page when you're trying to figure out where a specific report lives, or whether a given role (for example, a Human Resources Manager) has access to it, without having to check each report individually.
+Utilisez cette page lorsque vous cherchez à déterminer où se trouve un rapport donné, ou si un rôle donné (par exemple un responsable des ressources humaines) y a accès, sans avoir à vérifier chaque rapport individuellement.

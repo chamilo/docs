@@ -1,8 +1,8 @@
-# Tech Stack
+# Pile technologique
 
-The following describes the tech stack for Chamilo 3.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+Ce qui suit décrit la pile technologique de Chamilo 3.0. Toutes les versions indiquées ici sont susceptibles d’évoluer à mesure que de nouvelles versions de Chamilo sont publiées. Les numéros de version utilisent [la notation des versions de Composer](https://getcomposer.org/doc/articles/versions.md), qui définit des règles permettant une certaine souplesse autour des versions.
 
-Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+En incluant les dépendances hiérarchiques, Chamilo utilise plusieurs centaines de bibliothèques de logiciels libres. Cette liste ne reprend que celles que nous utilisons le plus et qui sont susceptibles d’affecter le travail d’un développeur Chamilo chaque semaine ou presque. Nous sommes reconnaissants à tous les autres développeurs de logiciels libres qui rendent notre travail plus facile, plus maintenable et plus sûr.
 
 ## Backend
 
@@ -38,7 +38,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | FullCalendar | ^6.1 | Calendar component |
 | Uppy | ^4.5 | File upload widget |
 
-## Build Tools
+## Outils de build
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -51,24 +51,24 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | ESLint | ^10.0 | Linting |
 | Prettier | 3.8 | Code formatting |
 
-## Icons
+## Icônes
 
 | Library | Version | Usage |
 |---------|---------|-------|
 | @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
 
-## Database
+## Base de données
 
-Chamilo supports:
+Chamilo prend en charge :
 
 * MySQL 5.7+
 * MariaDB 10.11.2+
 
-## Cloud Storage
+## Stockage cloud
 
-Via Flysystem adapters:
+Via les adaptateurs Flysystem :
 
-* Local filesystem (default)
+* Système de fichiers local (par défaut)
 * AWS S3 (`league/flysystem-aws-s3-v3`)
 * Azure Blob Storage (`azure-oss/storage-blob-flysystem`)
 * Google Cloud Storage (`league/flysystem-google-cloud-storage`)

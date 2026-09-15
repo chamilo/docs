@@ -1,30 +1,30 @@
-# Activities Audit
+# Audit des activités
 
-The Activities Audit report lets you browse important administrative and platform activities, filtered by event type. It is the same underlying report previously reachable from **Tracking > Administrative activity auditing**; it is now also linked directly from the Security block, since it is primarily a security and accountability tool.
+Le rapport Audit des activités vous permet de parcourir les activités administratives et de plateforme importantes, filtrées par type d’événement. Il s’agit du même rapport sous-jacent auparavant accessible depuis **Suivi > Audit des activités administratives** ; il est désormais également lié directement depuis le bloc Sécurité, car il s’agit principalement d’un outil de sécurité et de responsabilisation.
 
-## Accessing Activities Audit
+## Accéder à l’audit des activités
 
-From the administration panel, click **Security > Activities audit**.
+Depuis le panneau d’administration, cliquez sur **Sécurité > Audit des activités**.
 
-## What It Shows
+## Ce qu’il affiche
 
-![The Activities audit page listing event type categories such as Course, Session, User, Social, Message, Resource, Wiki, and Other, each expandable into individual event types](/.gitbook/assets/admin-security-activities-audit.png)
+![La page Audit des activités listant des catégories de types d’événements telles que Cours, Session, Utilisateur, Social, Message, Ressource, Wiki et Autre, chacune extensible en types d’événements individuels](/.gitbook/assets/admin-security-activities-audit.png)
 
-Events are grouped into categories:
+Les événements sont regroupés en catégories :
 
-* **Course** — Course creation, deletion, and settings changes
-* **Session** — Session and session-category creation, deletion, and enrollment changes
-* **User** — Account creation, deletion, password updates, field changes, and more
-* **Social** — Social group creation, deletion, and membership changes
-* **Message** — Message data changes and deletions
-* **Resource** — Resource and resource-link creation and deletion
-* **Wiki** — Wiki page views
-* **Other** — Everything else, including plugin activity, gradebook locking, exercise attempt deletions, forced login attempts, and platform-level settings changes
+* **Cours** — Création, suppression et modifications des paramètres de cours
+* **Session** — Création, suppression et modifications d’inscription des sessions et des catégories de sessions
+* **Utilisateur** — Création de comptes, suppression, mises à jour de mot de passe, modifications de champs, et plus encore
+* **Social** — Création, suppression et modifications d’appartenance des groupes sociaux
+* **Message** — Modifications et suppressions de données de messages
+* **Ressource** — Création et suppression de ressources et de liens de ressources
+* **Wiki** — Consultations de pages wiki
+* **Autre** — Tout le reste, y compris l’activité des plugins, le verrouillage du carnet de notes, les suppressions de tentatives d’exercices, les tentatives de connexion forcée et les modifications des paramètres au niveau de la plateforme
 
-Click an event type chip (for example **Attempted Forced Login**) to filter the report down to a table of matching entries. You can also search directly by keyword using the **Search** field above the event type list.
+Cliquez sur une pastille de type d’événement (par exemple **Tentative de connexion forcée**) pour filtrer le rapport jusqu’à un tableau des entrées correspondantes. Vous pouvez également rechercher directement par mot-clé à l’aide du champ **Recherche** au-dessus de la liste des types d’événements.
 
-## Use Cases
+## Cas d’usage
 
-* Investigate who deleted a course, session, or user account, and when
-* Confirm whether a specific administrative change (a settings update, a plugin install) was made by an expected administrator
-* Follow up on **Attempted Forced Login** events alongside the [Login Attempts](login-attempts.md) report
+* Enquêter sur qui a supprimé un cours, une session ou un compte utilisateur, et quand
+* Confirmer si une modification administrative spécifique (une mise à jour des paramètres, une installation de plugin) a été effectuée par un administrateur attendu
+* Assurer le suivi des événements **Tentative de connexion forcée** en parallèle du rapport [Tentatives de connexion](login-attempts.md)

@@ -1,13 +1,13 @@
-# News from Chamilo
+# Actualités de Chamilo
 
-News from Chamilo is a small read-only panel that pulls official announcements from the Chamilo Association — this is where you'd learn about a new release or, importantly, a security patch you should apply.
+Actualités de Chamilo est un petit panneau en lecture seule qui récupère les annonces officielles de l’Association Chamilo — c’est là que vous apprendrez l’existence d’une nouvelle version ou, plus important encore, d’un correctif de sécurité à appliquer.
 
-## What It Shows and Where It Comes From
+## Ce qu’il affiche et d’où cela vient
 
-The panel fetches content from `version.chamilo.org/c/news/latest.php`, requesting it in your platform's interface language. The only thing your platform sends is that language code — no platform details, usage data, or contact information leave your server for this feature.
+Le panneau récupère le contenu depuis `version.chamilo.org/c/news/latest.php`, en le demandant dans la langue d’interface de votre plateforme. La seule information envoyée par votre plateforme est ce code de langue — aucun détail de plateforme, donnée d’usage ou information de contact ne quitte votre serveur pour cette fonctionnalité.
 
-## Purpose
+## Objectif
 
-This is Chamilo's channel for reaching administrators directly about things that matter operationally: new version releases, and — most importantly — **security patches**. Since applying security patches promptly is one of the most effective things you can do to keep your platform safe (see the [Security Guide](../appendix/security-guide.md)), it's worth glancing at this panel periodically rather than only checking when you happen to remember.
+Il s’agit du canal par lequel Chamilo s’adresse directement aux administrateurs pour les sujets qui comptent sur le plan opérationnel : les nouvelles versions et — surtout — les **correctifs de sécurité**. Comme l’application rapide des correctifs de sécurité est l’une des mesures les plus efficaces pour protéger votre plateforme (voir le [Guide de sécurité](../appendix/security-guide.md)), il vaut la peine de consulter ce panneau périodiquement plutôt que seulement lorsque vous y pensez.
 
-This feed loads independently of [Version Check](version-check.md) — you don't need to register your platform to see it.
+Ce flux se charge indépendamment de [Vérification de version](version-check.md) — vous n’avez pas besoin d’enregistrer votre plateforme pour le voir.

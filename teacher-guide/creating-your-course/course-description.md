@@ -1,50 +1,50 @@
-# Course Description
+# Description du cours
 
-The **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool lets you write a structured, multi-section description of your course — its goals, methodology, materials, and more. Unlike the free-text **Course introduction** banner on your [course homepage](README.md#the-course-homepage), which only your enrolled learners see, the course description is what prospective learners see *before* they enroll, from the course catalog.
+L’outil **Description du cours** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> vous permet de rédiger une description structurée, en plusieurs sections, de votre cours — ses objectifs, sa méthodologie, ses supports, et plus encore. Contrairement à la bannière en texte libre **Introduction du cours** sur votre [page d’accueil du cours](README.md#the-course-homepage), que seuls vos apprenants inscrits voient, la description du cours est ce que les apprenants potentiels voient *avant* de s’inscrire, depuis le catalogue des cours.
 
-Once enrolled, learners can still refer back to it from within the course — if you leave the tool visible to them, it is a convenient place for them to check practical information such as the general structure of the course or who the teachers are, without needing to ask you directly. Enrolled learners can view the sections you wrote but cannot add, edit, or delete them.
+Une fois inscrits, les apprenants peuvent encore s’y reporter depuis l’intérieur du cours — si vous laissez l’outil visible pour eux, c’est un endroit pratique pour consulter des informations pratiques telles que la structure générale du cours ou qui sont les enseignants, sans avoir à vous interroger directement. Les apprenants inscrits peuvent consulter les sections que vous avez rédigées mais ne peuvent ni les ajouter, ni les modifier, ni les supprimer.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Open the **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool from the course homepage tool grid.
+Ouvrez l’outil **Description du cours** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> depuis la grille d’outils de la page d’accueil du cours.
 
-## The Eight Sections
+## Les huit sections
 
-A course description is made of up to eight independent sections. Each one is optional — fill in only the ones relevant to your course:
+Une description de cours se compose de jusqu’à huit sections indépendantes. Chacune est facultative — ne renseignez que celles qui concernent votre cours :
 
-| Section | Guiding question |
+| Section | Question d’orientation |
 |---------|-------------------|
-| **Description** | What is the goal of the course? Are there prerequisites? How is this training connected to other courses? |
-| **Objectives** | What should the end results be when the learner has completed the course? What are the activities performed during the course? |
-| **Topics** | How does the course progress? Where should the learner pay special care? Are there identifiable problems in understanding different areas? How much time should one dedicate to the different areas of the course? |
-| **Methodology** | What methods and activities help achieve the objectives of the course? What would the schedule be? |
-| **Course material** | Is there a course book, a collection of papers, a bibliography, a list of links on the internet? |
-| **Resources** | Consider the courses, tutors, a technical helpdesk, teachers, and/or materials available. |
-| **Assessment** | How will learners be assessed? Are there strategies to develop in order to master the topic? |
-| **Other** | Anything that doesn't fit the categories above. You can add as many **Other** sections as you need, each with its own custom title. |
+| **Description** | Quel est l’objectif du cours ? Y a-t-il des prérequis ? Comment cette formation est-elle liée à d’autres cours ? |
+| **Objectifs** | Quels devraient être les résultats finaux lorsque l’apprenant a terminé le cours ? Quelles sont les activités réalisées pendant le cours ? |
+| **Thèmes** | Comment le cours progresse-t-il ? Où l’apprenant doit-il porter une attention particulière ? Y a-t-il des difficultés identifiables de compréhension dans différents domaines ? Combien de temps faut-il consacrer aux différents domaines du cours ? |
+| **Méthodologie** | Quelles méthodes et activités aident à atteindre les objectifs du cours ? Quel serait le calendrier ? |
+| **Supports de cours** | Y a-t-il un manuel, un recueil d’articles, une bibliographie, une liste de liens sur Internet ? |
+| **Ressources** | Prenez en compte les cours, les tuteurs, un service d’assistance technique, les enseignants et/ou les supports disponibles. |
+| **Évaluation** | Comment les apprenants seront-ils évalués ? Y a-t-il des stratégies à développer pour maîtriser le sujet ? |
+| **Autre** | Tout ce qui ne rentre pas dans les catégories ci-dessus. Vous pouvez ajouter autant de sections **Autre** que nécessaire, chacune avec son propre titre personnalisé. |
 
-## Adding a Section
+## Ajouter une section
 
-1. In the tool's toolbar, click the icon for the section type you want to write
-2. Chamilo shows a **Help** box with the guiding question for that section — use it to decide what to write
-3. Write your content in the rich text editor (supports formatting, images, links, embedded video, and other rich content). If your platform has it enabled, you can also write several language versions of the same section and have each learner automatically see only their own — see [Multi-Language Content](../adding-content/multi-language-content.md).
-4. Save
+1. Dans la barre d’outils de l’outil, cliquez sur l’icône du type de section que vous souhaitez rédiger
+2. Chamilo affiche une boîte **Aide** avec la question d’orientation pour cette section — utilisez-la pour décider de ce que vous allez écrire
+3. Rédigez votre contenu dans l’éditeur de texte enrichi (prend en charge la mise en forme, les images, les liens, la vidéo intégrée et d’autres contenus riches). Si votre plateforme l’a activé, vous pouvez également rédiger plusieurs versions linguistiques de la même section et faire en sorte que chaque apprenant ne voie automatiquement que la sienne — voir [Contenu multilingue](../adding-content/multi-language-content.md).
+4. Enregistrer
 
-Each section you add appears as its own card in the tool. Use the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> and **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> icons on a card to update or remove it later.
+Chaque section que vous ajoutez apparaît sous forme de carte distincte dans l’outil. Utilisez les icônes **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> et **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> sur une carte pour la mettre à jour ou la retirer plus tard.
 
-## Link to the Course Catalog
+## Lien avec le catalogue des cours
 
-This is the main reason to fill in a course description: it feeds directly into the **Explore more courses** catalog that visitors and prospective learners browse.
+C’est la principale raison de renseigner une description de cours : elle alimente directement le catalogue **Explorer plus de cours** que consultent les visiteurs et les apprenants potentiels.
 
-* A course with **no** description sections filled in shows as a plain card in the catalog.
-* A course with **at least one** description section becomes clickable — clicking its image, title, or info button opens a detailed popup listing every section you wrote, in the same order shown above.
+* Un cours **sans** aucune section de description renseignée s’affiche comme une carte simple dans le catalogue.
+* Un cours avec **au moins une** section de description devient cliquable — un clic sur son image, son titre ou le bouton d’information ouvre une fenêtre contextuelle détaillée listant chaque section que vous avez rédigée, dans le même ordre que ci-dessus.
 
-This gives prospective learners a real basis to decide whether to enroll, instead of just a title and a thumbnail.
+Cela donne aux apprenants potentiels une véritable base pour décider de s’inscrire, au lieu de seulement un titre et une miniature.
 
-> Whether this popup is available at all depends on a platform-wide setting. If your descriptions don't appear to prospective learners in the catalog, ask your administrator to check the **Show Course Descriptions** setting (`show_courses_descriptions_in_catalog`) under **Administration > Configuration settings > Course Catalog**.
+> La disponibilité de cette fenêtre contextuelle dépend d’un paramètre à l’échelle de la plateforme. Si vos descriptions n’apparaissent pas aux apprenants potentiels dans le catalogue, demandez à votre administrateur de vérifier le paramètre **Afficher les descriptions de cours** (`show_courses_descriptions_in_catalog`) sous **Administration > Paramètres de configuration > Catalogue des cours**.
 
-## Tips
+## Conseils
 
-* **Prioritize the Description and Objectives sections** — these are what most prospective learners read first when deciding whether to enroll.
-* **Keep it current** — update your course description whenever the course content changes significantly, so the catalog always reflects what learners will actually get.
-* **Use rich content sparingly** — images and formatting help readability, but a long, cluttered popup can be harder to scan than a few clear paragraphs.
+* **Priorisez les sections Description et Objectifs** — ce sont celles que la plupart des apprenants potentiels lisent en premier pour décider de s’inscrire.
+* **Tenez-la à jour** — mettez à jour la description de votre cours chaque fois que le contenu du cours change de façon significative, afin que le catalogue reflète toujours ce que les apprenants obtiendront réellement.
+* **Utilisez le contenu enrichi avec parcimonie** — les images et la mise en forme aident la lisibilité, mais une fenêtre contextuelle longue et encombrée peut être plus difficile à parcourir que quelques paragraphes clairs.

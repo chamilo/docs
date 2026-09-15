@@ -1,42 +1,42 @@
-# Taking Tests
+# Passer les tests
 
-The **Tests** (Exercises) tool is where you take the quizzes and exams your teacher has set up. What exactly you experience depends heavily on how your teacher configured each test — this page walks through the possibilities.
+L’outil **Tests** (Exercices) est l’endroit où vous passez les quiz et examens mis en place par votre enseignant. Ce que vous vivez exactement dépend fortement de la configuration de chaque test par votre enseignant — cette page parcourt les possibilités.
 
-## Starting a Test
+## Démarrer un test
 
-Open the **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> tool from the course homepage and click on a test to start it. A test may not be available yet, or may no longer be available, if your teacher set a start or end date on it.
+Ouvrez l’outil **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> depuis la page d’accueil du cours et cliquez sur un test pour le démarrer. Un test peut ne pas être encore disponible, ou ne plus l’être, si votre enseignant a défini une date de début ou de fin.
 
-## Answering Questions
+## Répondre aux questions
 
-Depending on how your teacher configured the test, you'll see either:
+Selon la configuration du test par votre enseignant, vous verrez soit :
 
-* **All questions on one page** — answer everything, then submit at once, or
-* **One question per page** — answer and move to the next, possibly without being able to go back (if "prevent backwards navigation" is on)
+* **Toutes les questions sur une seule page** — répondez à tout, puis soumettez en une fois, ou
+* **Une question par page** — répondez et passez à la suivante, éventuellement sans pouvoir revenir en arrière (si « empêcher la navigation vers l’arrière » est activé)
 
-You may encounter any of a wide range of question types: single or multiple choice, true/false, fill in the blanks, matching, drag-and-drop, hotspot (clicking on parts of an image), calculated (numeric) answers, free-text essay answers, an audio recording, or a file upload as your answer. Read each question's instructions carefully — some question types (like matching or hotspot) work quite differently from a typical multiple-choice question.
+Vous pouvez rencontrer un large éventail de types de questions : choix unique ou multiple, vrai/faux, textes à trous, appariement, glisser-déposer, hotspot (cliquer sur des parties d’une image), réponses calculées (numériques), réponses rédigées en texte libre, un enregistrement audio, ou un téléversement de fichier comme réponse. Lisez attentivement les consignes de chaque question — certains types de questions (comme l’appariement ou le hotspot) fonctionnent de manière assez différente d’une question à choix multiples typique.
 
-If a **time limit** is set, a countdown timer is shown on screen. When it runs out, your test is submitted automatically with whatever answers you've given so far — so keep an eye on it.
+Si une **limite de temps** est définie, un compte à rebours s’affiche à l’écran. Lorsqu’il expire, votre test est soumis automatiquement avec les réponses que vous avez données jusqu’alors — surveillez-le donc.
 
-## Submitting
+## Soumission
 
-Once you've answered (or reached the end, in one-page-at-a-time mode), submit the test. What you see immediately after depends on your teacher's feedback setting:
+Une fois que vous avez répondu (ou atteint la fin, en mode une page à la fois), soumettez le test. Ce que vous voyez immédiatement après dépend du paramètre de rétroaction de votre enseignant :
 
-* **Immediate feedback** — you see whether each answer was correct as you go
-* **At the end** — you see your results and the correct answers only after submitting the whole test
-* **Exam mode** — you see no feedback or results at all; your teacher reviews them instead
+* **Rétroaction immédiate** — vous voyez si chaque réponse est correcte au fur et à mesure
+* **À la fin** — vous voyez vos résultats et les bonnes réponses uniquement après avoir soumis l’ensemble du test
+* **Mode examen** — vous ne voyez aucune rétroaction ni aucun résultat ; votre enseignant les examine à votre place
 
-Depending on the "results display" setting, what you see afterward can range from just a score, to a full breakdown by category, to a comparison against other learners' results.
+Selon le paramètre « affichage des résultats », ce que vous voyez ensuite peut aller d’un simple score à une ventilation complète par catégorie, jusqu’à une comparaison avec les résultats des autres apprenants.
 
-## Retaking a Test
+## Repasser un test
 
-If your teacher allowed more than one attempt, you'll see an option to start a new attempt after finishing (or a message telling you how many attempts you have left, if limited). Where results from multiple attempts are shown depends on the "show only on last attempt" setting — some tests only ever show your most recent result, others let you compare across attempts.
+Si votre enseignant a autorisé plus d’une tentative, vous verrez une option pour démarrer une nouvelle tentative après avoir terminé (ou un message indiquant combien de tentatives il vous reste, si le nombre est limité). L’endroit où s’affichent les résultats de plusieurs tentatives dépend du paramètre « afficher uniquement à la dernière tentative » — certains tests n’affichent jamais que votre résultat le plus récent, d’autres vous permettent de comparer d’une tentative à l’autre.
 
-## Open-Ended Questions and Grading
+## Questions ouvertes et notation
 
-Essay-style, audio, file-upload, and Office-document answers can't be graded automatically — your teacher grades these manually (or with AI assistance, if your platform has AI grading enabled). Your score for these questions may not appear right away; check back after your teacher has had a chance to review them.
+Les réponses de type dissertation, audio, téléversement de fichier et document Office ne peuvent pas être notées automatiquement — votre enseignant les note manuellement (ou avec l’aide de l’IA, si la notation par IA est activée sur votre plateforme). Votre score pour ces questions peut ne pas apparaître tout de suite ; revenez plus tard une fois que votre enseignant a eu le temps de les examiner.
 
-## Tips
+## Conseils
 
-* **Read the settings shown before you start** — a visible time limit or attempt count tells you what you're working with before you commit.
-* **Don't refresh or navigate away mid-test** if backwards navigation is disabled — you may not be able to return to a question you've already passed.
-* **If a test disappears or won't open**, its availability window may have closed — ask your teacher rather than assuming something is broken.
+* **Lisez les paramètres affichés avant de commencer** — une limite de temps ou un nombre de tentatives visible vous indique les conditions avant de vous engager.
+* **Ne rafraîchissez pas la page et ne quittez pas le test en cours** si la navigation vers l’arrière est désactivée — vous pourriez ne pas pouvoir revenir à une question déjà passée.
+* **Si un test disparaît ou ne s’ouvre pas**, sa fenêtre de disponibilité est peut-être close — demandez à votre enseignant plutôt que de supposer qu’il y a un dysfonctionnement.

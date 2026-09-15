@@ -1,9 +1,9 @@
-# Account and Security
+# Compte et sécurité
 
-Your Chamilo account gives access to your courses, your grades, and your personal data — it's worth keeping it secure. This section covers the account-protection features you may encounter as a learner.
+Votre compte Chamilo donne accès à vos cours, à vos notes et à vos données personnelles — il mérite d’être bien protégé. Cette section présente les fonctionnalités de protection du compte que vous pouvez rencontrer en tant qu’apprenant.
 
-* **[Resetting Your Password](resetting-your-password.md)** — What to do if you forget your password, or want to change it
-* **[Two-Factor Authentication](two-factor-authentication.md)** — Add a second layer of protection to your account, if your administrator has enabled it
-* **[CAPTCHA](captcha.md)** — Why you might be asked to prove you're human on the login, registration, or lost-password forms
+* **[Réinitialiser votre mot de passe](resetting-your-password.md)** — Que faire si vous avez oublié votre mot de passe, ou si vous souhaitez le modifier
+* **[Authentification à deux facteurs](two-factor-authentication.md)** — Ajouter une seconde couche de protection à votre compte, si votre administrateur l’a activée
+* **[CAPTCHA](captcha.md)** — Pourquoi il peut vous être demandé de prouver que vous êtes humain sur les formulaires de connexion, d’inscription ou de mot de passe oublié
 
-Not every feature described here is necessarily active on your platform — administrators can turn each of them on or off. If something described in this section doesn't appear for you, it likely hasn't been enabled.
+Toutes les fonctionnalités décrites ici ne sont pas nécessairement actives sur votre plateforme — les administrateurs peuvent les activer ou les désactiver individuellement. Si un élément décrit dans cette section n’apparaît pas chez vous, il n’a probablement pas été activé.

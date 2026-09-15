@@ -1,70 +1,69 @@
-# Cron Jobs Settings
+# Paramètres des tâches cron
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Configuration des tâches planifiées (tâches cron) livrées avec Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Tâches cron**. Cette catégorie contient **5 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de scripts via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Cron de rappel d’expiration de cours**
 
-Enable the Remind Course Expiration cron
+Activer le cron de rappel d’expiration de cours
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Fréquence du cron de rappel d’expiration de cours**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Nombre de jours avant l’expiration du cours à prendre en compte pour l’envoi du courriel de rappel
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Envoyer une notification de fin de cours**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Indique s’il faut envoyer un courriel aux apprenants lorsque leur cours (session) est terminé. Cela nécessite que les tâches cron soient configurées (voir le répertoire main/cron/).
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `cron_certificate_expiry_reminder_activate`
 
-**Certificate expiry reminder cron**
+**Cron de rappel d’expiration des certificats**
 
-Enable the `app:send-certificate-expiry-reminders` cron, which reminds learners whose certificates have expired or are about to expire.
+Activer le cron `app:send-certificate-expiry-reminders`, qui rappelle aux apprenants dont les certificats ont expiré ou sont sur le point d’expirer.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `cron_certificate_expiry_reminder_days`
 
-**Certificate expiry reminder window (days)**
+**Fenêtre de rappel d’expiration des certificats (jours)**
 
-Default number of days ahead to scan for certificates about to expire, used unless the cron is run with `--days-ahead`.
+Nombre de jours par défaut à l’avance pour rechercher les certificats sur le point d’expirer, utilisé sauf si le cron est exécuté avec `--days-ahead`.
 
-*Default: `30`*
+*Par défaut : `30`*
 
-## Certificate Expiry Reminders
+## Rappels d’expiration des certificats
 
-Gradebook certificates can be given a validity period (in days), configured per gradebook category — see [Certificates and Skills](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md). Once a certificate has an expiry date, Chamilo can remind the learner by e-mail and internal message as it approaches (or after it passes) that expiry date.
+Les certificats du carnet de notes peuvent se voir attribuer une période de validité (en jours), configurée par catégorie de carnet de notes — voir [Certificats et compétences](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md). Une fois qu’un certificat a une date d’expiration, Chamilo peut rappeler à l’apprenant par courriel et message interne à l’approche (ou après le dépassement) de cette date d’expiration.
 
-Enabling `cron_certificate_expiry_reminder_activate` above only turns on the *feature*; the reminder is actually sent by a console command that you still need to schedule at the OS level (e.g. via `crontab`), since Chamilo does not run its own background scheduler:
+L’activation de `cron_certificate_expiry_reminder_activate` ci-dessus n’active que la *fonctionnalité* ; le rappel est en réalité envoyé par une commande console que vous devez encore planifier au niveau du système d’exploitation (par ex. via `crontab`), car Chamilo n’exécute pas son propre planificateur en arrière-plan :
 
 ```bash
 php bin/console app:send-certificate-expiry-reminders
 ```
 
-Useful options:
+Options utiles :
 
-| Option | Effect |
+| Option | Effet |
 |--------|--------|
-| `--days-ahead=N` | How many days ahead of expiry to include (defaults to `cron_certificate_expiry_reminder_days`) |
-| `--force` | Actually send the reminders. Without it, the command only reports what it *would* send — safe to run to check before wiring it into cron |
-| `--resend` | Re-send reminders even for a certificate/expiry-date pair already notified |
-| `--access-url-id=N` | Restrict the scan to one portal (multi-URL installations) |
-| `--include-unsubscribed-users` | Also notify learners who unsubscribed from platform e-mails |
+| `--days-ahead=N` | Nombre de jours avant l’expiration à inclure (par défaut `cron_certificate_expiry_reminder_days`) |
+| `--force` | Envoie réellement les rappels. Sans cette option, la commande se contente de signaler ce qu’elle *enverrait* — sans danger pour vérifier avant de l’intégrer au cron |
+| `--resend` | Renvoyer les rappels même pour une paire certificat/date d’expiration déjà notifiée |
+| `--access-url-id=N` | Restreindre l’analyse à un portail (installations multi-URL) |
+| `--include-unsubscribed-users` | Notifier également les apprenants qui se sont désinscrits des courriels de la plateforme |
 
-Teachers can send the same reminders manually, without needing this cron — see [Certificates and Skills](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry).
-
+Les enseignants peuvent envoyer les mêmes rappels manuellement, sans avoir besoin de ce cron — voir [Certificats et compétences](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry).

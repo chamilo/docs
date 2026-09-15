@@ -1,14 +1,14 @@
-# Assessing Learners
+# Évaluer les apprenants
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamilo propose un ensemble complet d’outils pour évaluer les connaissances de vos apprenants et suivre leurs performances.
 
-* **[Subscribing Users](subscribing-users.md)** — Get learners into your course in the first place: administrator enrollment, self-enrollment, manual enrollment, or email invitations
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Inscrire des utilisateurs](subscribing-users.md)** — Faire entrer les apprenants dans votre cours : inscription par l’administrateur, auto-inscription, inscription manuelle ou invitations par e-mail
+* **[Exercices](exercises.md)** — Créer des quiz et des tests avec divers types de questions, notation automatique et retours détaillés
+* **[Travaux](assignments.md)** — Recueillir les devoirs et projets des apprenants, avec prise en charge des téléversements de fichiers, de l’évaluation par les pairs et d’une notation manuelle ou assistée par l’IA
+* **[Enquêtes](surveys.md)** — Recueillir les retours des apprenants au moyen de questionnaires personnalisables
+* **[Présence](attendance.md)** — Suivre la présence des apprenants aux séances de cours
+* **[Carnet de notes](gradebook.md)** — Combiner les scores des exercices, des travaux et d’autres activités en une note unifiée, et délivrer des certificats
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+L’outil **Reporting** est toujours présent, mais déplacé en haut de la page d’accueil du cours pour l’enseignant, sous la forme d’une petite icône de graphique. C’est le lieu central pour consulter les informations de progression de l’ensemble du cours et de ses étudiants.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+Ces outils fonctionnent ensemble : les scores des exercices et les notes des travaux peuvent alimenter le Gradebook, qui peut être lié à la génération de certificats et à la validation des compétences.

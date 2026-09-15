@@ -1,30 +1,30 @@
-# Portal News
+# Actualités du portail
 
-Despite the dashboard label "Portal news," this tool manages **system announcements** — platform-wide messages that can be scheduled, targeted by role, and optionally e-mailed out.
+Malgré l’intitulé « Actualités du portail » du tableau de bord, cet outil gère les **annonces système** — des messages à l’échelle de la plateforme qui peuvent être planifiés, ciblés par rôle et éventuellement envoyés par courriel.
 
-## Accessing Portal News
+## Accéder aux actualités du portail
 
-From the administration panel, click **Platform > Portal news**.
+Depuis le panneau d’administration, cliquez sur **Plateforme > Actualités du portail**.
 
-## Creating an Announcement
+## Créer une annonce
 
-Each announcement has:
+Chaque annonce comporte :
 
-* **Title** and rich-text **content**
-* **Start and end dates** — defaults to today through 7 days later; the announcement is only visible while the current date falls in this range
-* **Language** — a specific language, or all languages
-* **Roles (audience)** — including logged-out visitors, so you can target announcements at anonymous users, specific logged-in roles, or a mix of both
-* **User group** — optionally restrict the announcement to a specific user group
-* **Career** — if the **Link global announcements with careers and promotions** setting is enabled, you can also scope an announcement to a specific career/promotion path
+* un **titre** et un **contenu** en texte enrichi
+* des **dates de début et de fin** — par défaut d’aujourd’hui jusqu’à 7 jours plus tard ; l’annonce n’est visible que lorsque la date actuelle se situe dans cet intervalle
+* une **langue** — une langue précise, ou toutes les langues
+* des **rôles (audience)** — y compris les visiteurs non connectés, afin de cibler les annonces vers les utilisateurs anonymes, des rôles connectés spécifiques, ou un mélange des deux
+* un **groupe d’utilisateurs** — possibilité de restreindre l’annonce à un groupe d’utilisateurs donné
+* une **filière** — si le paramètre **Lier les annonces globales aux filières et promotions** est activé, vous pouvez également limiter une annonce à une filière/un parcours de promotion spécifique
 
-## Sending by E-mail
+## Envoi par courriel
 
-Beyond just displaying the announcement, you can:
+Au-delà de l’affichage de l’annonce, vous pouvez :
 
-* **Send mail** — E-mails the announcement out to everyone in its target audience
-* **Send a test e-mail to myself** — Preview what recipients will receive before committing
-* **Add to calendar** — Available when creating an announcement, links it into the calendar as well
+* **Envoyer un courriel** — envoie l’annonce par courriel à toutes les personnes de l’audience cible
+* **M’envoyer un courriel de test** — prévisualise ce que les destinataires recevront avant de valider
+* **Ajouter au calendrier** — disponible lors de la création d’une annonce, l’y relie également
 
-## Scope and Visibility
+## Portée et visibilité
 
-Announcements are scoped per access URL — on a multi-URL (multi-portal) install, each portal manages its own news independently. The admin list shows an active/inactive indicator per announcement, computed from its date range, and you can edit or delete announcements individually or in bulk.
+Les annonces sont limitées par URL d’accès — sur une installation multi-URL (multi-portail), chaque portail gère ses propres actualités de manière indépendante. La liste d’administration affiche un indicateur actif/inactif pour chaque annonce, calculé à partir de sa plage de dates, et vous pouvez modifier ou supprimer les annonces individuellement ou en lot.

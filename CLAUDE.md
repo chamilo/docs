@@ -1,44 +1,44 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Ce fichier fournit des indications à Claude Code (claude.ai/code) lors du travail sur le code de ce dépôt.
 
-## What this repository is
+## Nature de ce dépôt
 
-This is the **Chamilo 3 documentation site** — a GitBook Markdown project. It is *not* the Chamilo application. There is no build step, no test suite, no `package.json` or `composer.json` here. The Chamilo LMS itself lives in a separate repo ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)); pages under `developer-guide/contributing/` (PHPUnit, PHPStan, Composer commands, coding conventions) describe **that** codebase and are not runnable here.
+Il s’agit du **site de documentation de Chamilo 3** — un projet Markdown GitBook. Ce n’est *pas* l’application Chamilo. Il n’y a pas d’étape de compilation, pas de suite de tests, pas de `package.json` ni de `composer.json` ici. Le LMS Chamilo lui-même se trouve dans un dépôt distinct ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)) ; les pages sous `developer-guide/contributing/` (PHPUnit, PHPStan, commandes Composer, conventions de codage) décrivent **ce** code source et ne sont pas exécutables ici.
 
-GitBook renders the site from the committed Markdown; the only executable code is the two PHP scripts in `scripts/`.
+GitBook génère le site à partir du Markdown versionné ; le seul code exécutable est constitué des deux scripts PHP dans `scripts/`.
 
-## Layout
+## Organisation
 
-* `SUMMARY.md` — the single source of truth for GitBook's table of contents. Adding/removing a page requires editing this file or the page won't appear in the book.
-* `teacher-guide/`, `admin-guide/`, `developer-guide/` — the three authored guides, each a nested directory tree of `.md` pages with per-section `README.md` index pages.
-* `.gitbook/assets/` — all screenshots referenced as `/.gitbook/assets/<name>.png` (note the leading slash, repo-root-relative).
-* `CHANGELOG.md` — one entry per documentation tag (`2.x-vN`).
-* `scripts/` — release tagging + AI translation tooling.
-* `translated/` — **gitignored** output of the translation script (per-language mirrors of the source tree).
+* `SUMMARY.md` — la source unique de vérité pour la table des matières GitBook. Ajouter ou retirer une page exige de modifier ce fichier, sinon la page n’apparaîtra pas dans le livre.
+* `teacher-guide/`, `admin-guide/`, `developer-guide/` — les trois guides rédigés, chacun un arbre de répertoires imbriqués de pages `.md` avec des pages d’index `README.md` par section.
+* `.gitbook/assets/` — toutes les captures d’écran référencées sous `/.gitbook/assets/<name>.png` (noter la barre oblique initiale, relative à la racine du dépôt).
+* `CHANGELOG.md` — une entrée par étiquette de documentation (`2.x-vN`).
+* `scripts/` — outillage d’étiquetage des versions et de traduction par IA.
+* `translated/` — sortie **ignorée par git** du script de traduction (miroirs par langue de l’arbre source).
 
-## Branch model
+## Modèle de branches
 
-* **`3.x`** — the English *source* branch. All authoring and editing happens here. This is the active working branch.
-* **`2.x`** — the previous English source branch. It is where the `2.x-<lang>` translations were cut from. Don't author new pages here.
-* **`2.x-<lang>`** — per-language translation branches (e.g. `2.x-fr`, `2.x-es`, `2.x-de`, `2.x-zh_CN`). They mirror the same tree, translated. Sync status is tracked via matching tags (`2.x-fr` carries `2.x-fr-vN` to show how far behind it is). **No `3.x-<lang>` branch exists yet**, and no `3.x-*` tag either.
-* **`1.9.x` / `1.10.x` / `1.11.x`** — older Chamilo doc series with their own translation branches. Don't touch these for 3.0 work.
-* **`master`** — the historical default branch; 3.0 work is on `3.x`.
+* **`3.x`** — la branche *source* anglaise. Toute la rédaction et l’édition s’y font. C’est la branche de travail active.
+* **`2.x`** — la précédente branche source anglaise. C’est à partir d’elle que les traductions `2.x-<lang>` ont été extraites. N’y rédigez pas de nouvelles pages.
+* **`2.x-<lang>`** — branches de traduction par langue (p. ex. `2.x-fr`, `2.x-es`, `2.x-de`, `2.x-zh_CN`). Elles reflètent le même arbre, traduit. L’état de synchronisation est suivi via des étiquettes correspondantes (`2.x-fr` porte `2.x-fr-vN` pour indiquer le retard). **Aucune branche `3.x-<lang>` n’existe encore**, ni aucune étiquette `3.x-*`.
+* **`1.9.x` / `1.10.x` / `1.11.x`** — anciennes séries de documentation Chamilo avec leurs propres branches de traduction. Ne les touchez pas pour le travail 3.0.
+* **`master`** — la branche par défaut historique ; le travail 3.0 se fait sur `3.x`.
 
-## Common commands
+## Commandes courantes
 
-### Tagging a release
+### Étiqueter une version
 
-Run **only from a clean checkout of the source branch** (it checks for uncommitted changes). The branch check accepts any `N.x` name and derives the tag series from it, so on `3.x` it creates the next `3.x-vN` tag. It prepends an entry to `CHANGELOG.md` (pages changed + commit list), commits, tags, then reports how far behind each translation branch is:
+À exécuter **uniquement depuis une copie de travail propre de la branche source** (le script vérifie l’absence de modifications non validées). La vérification de branche accepte tout nom `N.x` et en déduit la série d’étiquettes, donc sur `3.x` elle crée la prochaine étiquette `3.x-vN`. Elle ajoute une entrée en tête de `CHANGELOG.md` (pages modifiées + liste des commits), valide, étiquette, puis indique le retard de chaque branche de traduction :
 
 ```bash
 php scripts/tag-release.php --dry-run   # preview the entry + tag
 php scripts/tag-release.php             # apply
 ```
 
-### Translating pages (Grok API)
+### Traduire des pages (API Grok)
 
-Translates Markdown pages into one or more languages, writing into `translated/<lang>/`. Requires `scripts/config.php` (copy from `scripts/config.dist.php` and add an x.ai key — **this file is gitignored because it holds a live API key; never commit it**).
+Traduit des pages Markdown vers une ou plusieurs langues, en écrivant dans `translated/<lang>/`. Nécessite `scripts/config.php` (copier depuis `scripts/config.dist.php` et y ajouter une clé x.ai — **ce fichier est ignoré par git car il contient une clé API active ; ne le validez jamais**).
 
 ```bash
 # Translate everything that changed since the last tag (incremental)
@@ -57,29 +57,29 @@ php scripts/translate-docs.php --fix-wrappers fr_FR
 php scripts/translate-docs.php --dry-run
 ```
 
-Applying translations to a branch (the script prints this at the end):
+Application des traductions à une branche (le script l’affiche à la fin) :
 
 ```bash
 git checkout 2.x-fr && rsync -av translated/fr_FR/ ./ && git add -A -- ':!translated/'
 ```
 
-Language codes follow Chamilo's `.po` convention (`fr_FR`, `es`, `pt_BR`, `zh_CN`, …). Short branch suffixes (`2.x-fr`) map to full codes internally.
+Les codes de langue suivent la convention `.po` de Chamilo (`fr_FR`, `es`, `pt_BR`, `zh_CN`, …). Les suffixes courts de branche (`2.x-fr`) sont mappés en interne vers les codes complets.
 
-**Translation targets are `3.x-<lang>`, and none of those branches exists yet.** `branchForLang()`
-in `scripts/translate-docs.php` returns `'3.x-' . $lang`, so an apply step points at a branch you
-still have to create. Language auto-detection is a separate matter: with no language argument the
-script lists local `*.x-??` branches, which today are the `2.x-<lang>` ones, so it would pick those
-languages while writing for `3.x-<lang>`. Pass the language codes explicitly until the `3.x`
-translation branches exist. Several comments in that file still say `2.x`; the code does not.
+**Les cibles de traduction sont `3.x-<lang>`, et aucune de ces branches n’existe encore.** `branchForLang()`
+dans `scripts/translate-docs.php` renvoie `'3.x-' . $lang`, donc une étape d’application pointe vers une branche
+qu’il vous reste à créer. La détection automatique des langues est un autre sujet : sans argument de langue, le
+script liste les branches locales `*.x-??`, qui aujourd’hui sont les `2.x-<lang>`, donc il choisirait ces
+langues tout en écrivant pour `3.x-<lang>`. Passez les codes de langue explicitement jusqu’à ce que les branches
+de traduction `3.x` existent. Plusieurs commentaires dans ce fichier mentionnent encore `2.x` ; le code, lui, non.
 
-## How the translation pipeline constrains authoring
+## Comment le pipeline de traduction contraint la rédaction
 
-`translate-docs.php` splits each page at heading boundaries into ~5 KB chunks, sends each to the model, then runs `checkIntegrity()` comparing source vs. translation. It asserts **heading count, code-fence count, image-reference count, and image paths all match exactly**. To keep translations clean and these checks passing:
+`translate-docs.php` découpe chaque page aux limites de titres en fragments d’environ 5 Ko, les envoie au modèle, puis exécute `checkIntegrity()` en comparant la source et la traduction. Il vérifie que **le nombre de titres, le nombre de blocs de code, le nombre de références d’images et les chemins d’images correspondent exactement**. Pour que les traductions restent propres et que ces contrôles réussissent :
 
-* Keep heading levels consistent and intentional — the translator is instructed never to add/demote headings, and mismatches surface as warnings.
-* Keep image paths verbatim (`/.gitbook/assets/...`) — altered paths are flagged.
-* Code blocks and inline code are passed through untranslated; they must be balanced.
+* Conservez des niveaux de titres cohérents et intentionnels — le traducteur a pour consigne de ne jamais ajouter ni rétrograder de titres, et les écarts apparaissent sous forme d’avertissements.
+* Conservez les chemins d’images tels quels (`/.gitbook/assets/...`) — les chemins modifiés sont signalés.
+* Les blocs de code et le code en ligne sont transmis sans traduction ; ils doivent être équilibrés.
 
-## Commit messages
+## Messages de commit
 
-Follow the `<Prefix>: <imperative summary>` convention from `developer-guide/contributing/git-workflow.md`. The prefix is the **singular** canonical tool name (e.g. `Exercise:`, `Learnpath:`, `Gradebook:`). Changes that touch **only this documentation site** use the `Documentation:` prefix. The full prefix table lives in that git-workflow page.
+Suivez la convention `<Prefix>: <imperative summary>` décrite dans `developer-guide/contributing/git-workflow.md`. Le préfixe est le nom canonique **singulier** de l’outil (par ex. `Exercise:`, `Learnpath:`, `Gradebook:`). Les modifications qui concernent **uniquement ce site de documentation** utilisent le préfixe `Documentation:`. Le tableau complet des préfixes se trouve sur cette page git-workflow.

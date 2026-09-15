@@ -1,30 +1,30 @@
-# Course Legal Agreement
+# Accord juridique du cours
 
-The Course Legal Agreement <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Course Legal Agreement" data-size="line"> plugin requires students to accept a terms/legal notice before they can access your course — useful for consent forms, usage policies, or any notice you need learners to formally agree to.
+Le plugin Accord juridique du cours <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Accord juridique du cours" data-size="line"> exige que les étudiants acceptent des conditions / un avis juridique avant de pouvoir accéder à votre cours — utile pour les formulaires de consentement, les politiques d’utilisation, ou tout avis que vous souhaitez que les apprenants acceptent formellement.
 
-## Turning It On for Your Course
+## L’activer pour votre cours
 
-Enabling the plugin platform-wide doesn't do anything by itself — you still need to switch it on for each course where you want it:
+Activer le plugin à l’échelle de la plateforme ne suffit pas à lui seul — vous devez encore l’activer pour chaque cours où vous le souhaitez :
 
-1. Open your course's **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line">
-2. In the course access section, check **Enable legal terms**
+1. Ouvrez les **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours
+2. Dans la section d’accès au cours, cochez **Activer les conditions juridiques**
 
-This adds a **Course legal agreement** tool to your course.
+Cela ajoute un outil **Accord juridique du cours** à votre cours.
 
-## Writing the Agreement
+## Rédiger l’accord
 
-Open the **Course legal agreement** tool to:
+Ouvrez l’outil **Accord juridique du cours** pour :
 
-* Write the notice text (rich text editor)
-* Optionally attach a downloadable file
-* Choose what happens on save: **Do not send notification**, **Notify all users by email**, or **Notify all users by email and send them the attachment**
+* Rédiger le texte de l’avis (éditeur de texte enrichi)
+* Joindre éventuellement un fichier téléchargeable
+* Choisir ce qui se passe à l’enregistrement : **Ne pas envoyer de notification**, **Notifier tous les utilisateurs par e-mail**, ou **Notifier tous les utilisateurs par e-mail et leur envoyer la pièce jointe**
 
-## Reviewing Acceptance
+## Consulter les acceptations
 
-The tool's **User list** shows every student and whether they've accepted the agreement (via the web or by email), with actions to resend the agreement link or remove a user's recorded acceptance.
+La **Liste des utilisateurs** de l’outil affiche chaque étudiant et s’il a accepté l’accord (via le web ou par e-mail), avec des actions pour renvoyer le lien de l’accord ou supprimer l’acceptation enregistrée d’un utilisateur.
 
-## Tips
+## Conseils
 
-* **Set the course to Private** — This plugin is meant to gate access; a Public or Open course visibility works against that intent
-* **Update deliberately** — Changing the agreement text doesn't automatically invalidate prior acceptances; use **Remove all previous user agreements** if you need everyone to accept the new version
-* **Keep the notice short** — A long legal text is more likely to be skimmed than read; link out to a full policy document if you have one
+* **Définissez le cours comme Privé** — Ce plugin est destiné à contrôler l’accès ; une visibilité de cours Public ou Ouvert va à l’encontre de cette intention
+* **Mettez à jour de façon délibérée** — Modifier le texte de l’accord n’invalide pas automatiquement les acceptations antérieures ; utilisez **Supprimer tous les accords utilisateurs précédents** si vous avez besoin que tout le monde accepte la nouvelle version
+* **Gardez l’avis court** — Un long texte juridique a plus de chances d’être parcouru que lu ; renvoyez vers un document de politique complet si vous en avez un

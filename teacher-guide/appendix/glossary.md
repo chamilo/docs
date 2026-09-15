@@ -1,25 +1,25 @@
-# Glossary
+# Glossaire
 
-Key terms used throughout this guide.
+Principaux termes utilisés tout au long de ce guide.
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
-| **Assessment** | See **Gradebook** below |
-| **Assignment** | A task where learners submit files or text for teacher review and grading. Also known as "student publication" or "work". |
-| **Auto-launch** | A feature that automatically opens a specific tool when a learner enters a course. |
-| **Certificate** | A document automatically generated when a learner meets the minimum score defined in the gradebook. |
-| **Course** | A container for learning content and tools. A course can include documents, exercises, forums, learning paths, and more. |
-| **Course tutor** | A teacher role specific to sessions. A course tutor manages one course within a session. Called "course coach" in Chamilo versions before 3.0. |
-| **Disk quota** | The maximum storage space allocated to a course for uploaded files. |
-| **Enrollment** | The process of registering a user in a course or session, giving them access to its content. Also known as "subscription". |
-| **Exercise** | A quiz or test containing one or more questions. Also referred to as a "test" in some contexts. |
-| **Forum** | A discussion tool with threaded conversations organized into categories and topics. |
-| **Gradebook** | A tool that aggregates scores from exercises, assignments, and other activities into a unified grade for each learner. |
-| **Learning path** | A structured sequence of learning activities (documents, exercises, links) that learners follow in a defined order, optionally with prerequisites. |
-| **LTI** | Learning Tools Interoperability — a standard that allows external learning tools to be embedded within Chamilo. |
-| **SCORM** | Sharable Content Object Reference Model — a standard for e-learning content packages. Chamilo can import and play SCORM packages within learning paths. |
-| **Session** | A time-bound edition of one or more courses assigned to a specific group of learners. Sessions allow reusing the same course content for different cohorts. |
-| **Session tutor** | A supervisory role that oversees all courses within a session. Called "session coach" in Chamilo versions before 3.0. |
-| **Skill** | A competency that can be linked to gradebook achievements. When a learner earns a certificate, associated skills are validated. |
-| **Survey** | A questionnaire tool for collecting feedback, with various question types and anonymous response options. |
-| **Visibility** | A setting that controls whether a tool, document, or activity is visible to learners. Teachers can always see hidden items. |
+| **Évaluation** | Voir **Carnet de notes** ci-dessous |
+| **Devoir** | Une tâche dans laquelle les apprenants déposent des fichiers ou du texte pour relecture et notation par l’enseignant. Également appelé « publication d’étudiant » ou « travail ». |
+| **Lancement automatique** | Une fonctionnalité qui ouvre automatiquement un outil spécifique lorsqu’un apprenant entre dans un cours. |
+| **Certificat** | Un document généré automatiquement lorsqu’un apprenant atteint le score minimal défini dans le carnet de notes. |
+| **Cours** | Un conteneur pour les contenus d’apprentissage et les outils. Un cours peut inclure des documents, des exercices, des forums, des parcours d’apprentissage, et davantage. |
+| **Tuteur de cours** | Un rôle d’enseignant spécifique aux sessions. Un tuteur de cours gère un cours au sein d’une session. Appelé « coach de cours » dans les versions de Chamilo antérieures à 3.0. |
+| **Quota disque** | L’espace de stockage maximal alloué à un cours pour les fichiers téléversés. |
+| **Inscription** | Le processus d’enregistrement d’un utilisateur dans un cours ou une session, lui donnant accès à son contenu. Également appelé « souscription ». |
+| **Exercice** | Un quiz ou un test contenant une ou plusieurs questions. Également désigné comme « test » dans certains contextes. |
+| **Forum** | Un outil de discussion avec des conversations en fils organisées en catégories et sujets. |
+| **Carnet de notes** | Un outil qui agrège les scores des exercices, devoirs et autres activités en une note unifiée pour chaque apprenant. |
+| **Parcours d’apprentissage** | Une séquence structurée d’activités d’apprentissage (documents, exercices, liens) que les apprenants suivent dans un ordre défini, éventuellement avec des prérequis. |
+| **LTI** | Learning Tools Interoperability — une norme qui permet d’intégrer des outils d’apprentissage externes dans Chamilo. |
+| **SCORM** | Sharable Content Object Reference Model — une norme pour les paquets de contenu e-learning. Chamilo peut importer et lire des paquets SCORM au sein des parcours d’apprentissage. |
+| **Session** | Une édition limitée dans le temps d’un ou plusieurs cours attribuée à un groupe spécifique d’apprenants. Les sessions permettent de réutiliser le même contenu de cours pour différentes cohortes. |
+| **Tuteur de session** | Un rôle de supervision qui encadre tous les cours d’une session. Appelé « coach de session » dans les versions de Chamilo antérieures à 3.0. |
+| **Compétence** | Une compétence pouvant être liée aux acquis du carnet de notes. Lorsqu’un apprenant obtient un certificat, les compétences associées sont validées. |
+| **Enquête** | Un outil de questionnaire pour recueillir des retours, avec divers types de questions et des options de réponses anonymes. |
+| **Visibilité** | Un paramètre qui contrôle si un outil, un document ou une activité est visible pour les apprenants. Les enseignants peuvent toujours voir les éléments masqués. |

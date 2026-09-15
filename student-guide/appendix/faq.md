@@ -1,63 +1,63 @@
 # FAQ
 
-## Account and Registration
+## Compte et inscription
 
-**I don't see a "Sign up" link on the login page. How do I get an account?**
+**Je ne vois pas de lien « S'inscrire » sur la page de connexion. Comment obtenir un compte ?**
 
-Self-registration may be disabled on your platform. Ask your institution or platform administrator to create an account for you, or ask a teacher for a course invitation link, which lets you register even when general self-registration is closed.
+L'auto-inscription peut être désactivée sur votre plateforme. Demandez à votre établissement ou à l'administrateur de la plateforme de créer un compte pour vous, ou demandez à un enseignant un lien d'invitation à un cours, qui vous permet de vous inscrire même lorsque l'auto-inscription générale est fermée.
 
-**Can I register as a teacher?**
+**Puis-je m'inscrire en tant qu'enseignant ?**
 
-Only if your administrator has specifically enabled that option. By default, the public registration form has no way to request a teacher role — every self-registered account is a learner account. Ask your administrator if you need a teacher account.
+Uniquement si votre administrateur a spécifiquement activé cette option. Par défaut, le formulaire d'inscription publique ne permet pas de demander un rôle d'enseignant — chaque compte auto-inscrit est un compte apprenant. Demandez à votre administrateur si vous avez besoin d'un compte enseignant.
 
-**I never received my registration or password-reset e-mail. What now?**
+**Je n'ai jamais reçu l'e-mail d'inscription ou de réinitialisation du mot de passe. Que faire ?**
 
-Check your spam folder first. If it's still not there, contact your platform administrator — they can verify your e-mail address on file and, if needed, act on your account directly.
+Vérifiez d'abord votre dossier de courrier indésirable. S'il n'y est toujours pas, contactez l'administrateur de votre plateforme — il peut vérifier l'adresse e-mail enregistrée et, si nécessaire, agir directement sur votre compte.
 
-## Courses
+## Cours
 
-**I can't find a course I know exists. Why?**
+**Je ne trouve pas un cours dont je sais qu'il existe. Pourquoi ?**
 
-It may not be open for self-enrollment, or you may not have been subscribed to it yet. Check **Explore more courses** in the sidebar, and if it's not listed there either, ask the teacher or your administrator to enroll you.
+Il se peut qu'il ne soit pas ouvert à l'auto-inscription, ou que vous n'y soyez pas encore inscrit. Consultez **Explorer plus de cours** dans la barre latérale et, s'il n'y figure pas non plus, demandez à l'enseignant ou à votre administrateur de vous y inscrire.
 
-**A tool is missing from my course. Where did it go?**
+**Un outil manque dans mon cours. Où est-il passé ?**
 
-Your teacher controls which tools are visible to learners in each course, and can hide or disable individual tools. If you expect a tool that isn't there, ask your teacher — it may be intentionally hidden, or disabled at the platform level.
+Votre enseignant contrôle quels outils sont visibles pour les apprenants dans chaque cours, et peut masquer ou désactiver des outils individuels. Si vous attendez un outil qui n'est pas présent, demandez à votre enseignant — il peut être intentionnellement masqué, ou désactivé au niveau de la plateforme.
 
-**Why can't I see the Reporting tool inside my course?**
+**Pourquoi ne vois-je pas l'outil Reporting dans mon cours ?**
 
-The in-course "Reporting" tool that tracks the whole class is teacher-only. Your own progress and certificates are always available from the **Reporting** link in the main sidebar instead, and from the **Course progress** and **Assessments** tools inside the course.
+L'outil « Reporting » dans le cours, qui suit toute la classe, est réservé aux enseignants. Vos propres progrès et certificats sont toujours disponibles depuis le lien **Reporting** dans la barre latérale principale, ainsi que depuis les outils **Progression du cours** et **Évaluations** à l'intérieur du cours.
 
-## Password and Security
+## Mot de passe et sécurité
 
-**I forgot my password. What do I do?**
+**J'ai oublié mon mot de passe. Que dois-je faire ?**
 
-Click **Forgot your password?** on the login page and follow the instructions. See [Resetting Your Password](../account-and-security/resetting-your-password.md).
+Cliquez sur **Mot de passe oublié ?** sur la page de connexion et suivez les instructions. Voir [Réinitialiser votre mot de passe](../account-and-security/resetting-your-password.md).
 
-**I lost access to my authenticator app for two-factor authentication. What now?**
+**J'ai perdu l'accès à mon application d'authentification pour l'authentification à deux facteurs. Que faire ?**
 
-Chamilo doesn't generate backup codes for 2FA — contact your platform administrator, who can disable 2FA on your account so you can sign in again.
+Chamilo ne génère pas de codes de secours pour la 2FA — contactez l'administrateur de votre plateforme, qui peut désactiver la 2FA sur votre compte afin que vous puissiez vous reconnecter.
 
-**Why am I being asked to solve a CAPTCHA?**
+**Pourquoi me demande-t-on de résoudre un CAPTCHA ?**
 
-Your administrator has enabled CAPTCHA to protect the login, registration, and lost-password forms from automated abuse. See [CAPTCHA](../account-and-security/captcha.md).
+Votre administrateur a activé le CAPTCHA pour protéger les formulaires de connexion, d'inscription et de mot de passe oublié contre les abus automatisés. Voir [CAPTCHA](../account-and-security/captcha.md).
 
-## AI Tutor
+## Tuteur IA
 
-**Why don't I see the AI Tutor button?**
+**Pourquoi ne vois-je pas le bouton Tuteur IA ?**
 
-It requires two separate settings to be enabled: one at the platform level (by your administrator) and one at the course level (by your teacher). If either is off, the AI Tutor won't appear for that course.
+Il faut que deux paramètres distincts soient activés : l'un au niveau de la plateforme (par votre administrateur) et l'autre au niveau du cours (par votre enseignant). Si l'un des deux est désactivé, le Tuteur IA n'apparaîtra pas pour ce cours.
 
-**Why is the AI Tutor unavailable while I'm taking a test?**
+**Pourquoi le Tuteur IA est-il indisponible pendant que je passe un test ?**
 
-It's automatically disabled during exercises and assignments, to keep assessments fair.
+Il est automatiquement désactivé pendant les exercices et les devoirs, afin de garantir l'équité des évaluations.
 
-## Technical Issues
+## Problèmes techniques
 
-**Can I use Chamilo on my phone?**
+**Puis-je utiliser Chamilo sur mon téléphone ?**
 
-Yes. Chamilo 3.0 has a responsive interface that adapts to phones, tablets, and computers using any modern web browser.
+Oui. Chamilo 3.0 dispose d'une interface responsive qui s'adapte aux téléphones, tablettes et ordinateurs avec n'importe quel navigateur web moderne.
 
-**What browsers are supported?**
+**Quels navigateurs sont pris en charge ?**
 
-All major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Tous les principaux navigateurs modernes : Chrome, Firefox, Safari et Edge. Pour une expérience optimale, utilisez la dernière version de votre navigateur.

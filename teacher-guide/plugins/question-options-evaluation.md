@@ -1,22 +1,22 @@
-# Question Options Evaluation
+# Évaluation des options de question
 
-Question Options Evaluation <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Question Options Evaluation" data-size="line"> lets you apply a negative-marking (penalty) formula to a test's scoring, instead of Chamilo's default behavior of simply summing correct answers.
+Évaluation des options de question <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Évaluation des options de question" data-size="line"> vous permet d’appliquer une formule de notation négative (pénalité) au barème d’un test, au lieu du comportement par défaut de Chamilo qui consiste simplement à additionner les réponses correctes.
 
-## Setting a Formula
+## Définir une formule
 
-Once enabled, an extra icon appears next to each test in the course's **Tests** tool list. Clicking it opens a small form where you choose one of:
+Une fois activée, une icône supplémentaire apparaît à côté de chaque test dans la liste de l’outil **Tests** du cours. En cliquant dessus, un petit formulaire s’ouvre dans lequel vous choisissez l’une des options suivantes :
 
-* **No formula** — Chamilo's normal scoring (default)
-* **Recalculate question scores** — Redistributes option weighting without a penalty
-* **Successes − Failures**
-* **Successes − Failures / 2**
-* **Successes − Failures / 3**
+* **Aucune formule** — notation normale de Chamilo (par défaut)
+* **Recalculer les scores des questions** — redistribue la pondération des options sans pénalité
+* **Réussites − Échecs**
+* **Réussites − Échecs / 2**
+* **Réussites − Échecs / 3**
 
-The chosen formula applies only to that specific test.
+La formule choisie s’applique uniquement à ce test spécifique.
 
-> This setting does not change the question or answer weights themselves — it changes how the final score is computed. If the plugin is disabled, or no formula is selected, Chamilo falls back to its original scoring.
+> Ce paramètre ne modifie pas les pondérations des questions ou des réponses elles-mêmes — il change la façon dont le score final est calculé. Si le plugin est désactivé, ou si aucune formule n’est sélectionnée, Chamilo revient à sa notation d’origine.
 
-## Tips
+## Conseils
 
-* **Test on a copy first** — Changing a formula can change the scores students end up with on that test; try it on a duplicate test before applying it to a live one
-* **Explain the change to students** — A penalty formula can be surprising if learners are used to simple correct-answer scoring; mention it in your instructions
+* **Testez d’abord sur une copie** — Modifier une formule peut changer les scores obtenus par les étudiants pour ce test ; essayez-la sur un test dupliqué avant de l’appliquer à un test en production
+* **Expliquez le changement aux étudiants** — Une formule de pénalité peut surprendre si les apprenants sont habitués à une simple notation des réponses correctes ; mentionnez-la dans vos consignes

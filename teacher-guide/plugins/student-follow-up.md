@@ -1,23 +1,23 @@
-# Student Follow-up
+# Suivi des étudiants
 
-Student Follow-up <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Student Follow-up" data-size="line"> lets you keep timestamped, tagged notes about a learner's progress and difficulties — a lightweight case-note system for tracking how a student is doing over time.
+Le suivi des étudiants <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Suivi des étudiants" data-size="line"> vous permet de consigner des notes horodatées et étiquetées sur les progrès et les difficultés d’un apprenant — un système léger de notes de dossier pour suivre l’évolution d’un étudiant dans le temps.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, a **Student Follow-up** entry appears in **My Space** (your reporting area), showing a searchable list of learners. Opening a learner's detail page and selecting their follow-up timeline shows every note recorded about them, in order.
+Une fois activé, une entrée **Suivi des étudiants** apparaît dans **Mon espace** (votre zone de rapports), affichant une liste d’apprenants consultable. L’ouverture de la page de détail d’un apprenant et la sélection de sa chronologie de suivi affichent toutes les notes enregistrées à son sujet, dans l’ordre.
 
-> This tool is only available to course coaches, HR/training managers (DRH), and platform administrators — not necessarily every teacher role.
+> Cet outil n’est disponible que pour les coachs de cours, les responsables RH/formation (DRH) et les administrateurs de la plateforme — pas nécessairement pour tous les rôles d’enseignant.
 
-## Adding a Note
+## Ajouter une note
 
-From a learner's follow-up timeline, click **Add follow-up note** and fill in:
+Depuis la chronologie de suivi d’un apprenant, cliquez sur **Ajouter une note de suivi** et renseignez :
 
-* A title and rich-text content
-* Comma-separated tags, to help you find related notes later
-* **Private note** — restricts visibility to admins and other authorized caretakers, instead of the whole teaching team
+* Un titre et un contenu en texte enrichi
+* Des étiquettes séparées par des virgules, pour vous aider à retrouver plus tard les notes connexes
+* **Note privée** — restreint la visibilité aux administrateurs et aux autres personnes autorisées, au lieu de toute l’équipe pédagogique
 
-## Tips
+## Conseils
 
-* **Use tags consistently** — A short, consistent set of tags (e.g. "attendance", "motivation", "technical-issue") makes a learner's timeline much easier to scan later
-* **Mark sensitive notes private** — Use the private option for anything that shouldn't be visible to the whole teaching team
-* **This is an early-stage feature** — Expect it to be less polished than core Chamilo tools, and to change as it matures
+* **Utilisez les étiquettes de façon cohérente** — Un ensemble court et cohérent d’étiquettes (par ex. « attendance », « motivation », « technical-issue ») rend la chronologie d’un apprenant beaucoup plus facile à parcourir par la suite
+* ** marquez les notes sensibles comme privées** — Utilisez l’option privée pour tout ce qui ne doit pas être visible par toute l’équipe pédagogique
+* **Il s’agit d’une fonctionnalité encore jeune** — Attendez-vous à ce qu’elle soit moins aboutie que les outils centraux de Chamilo, et à ce qu’elle évolue au fil de sa maturation

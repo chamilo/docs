@@ -1,29 +1,29 @@
-# Positioning
+# Positionnement
 
-Positioning <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positioning" data-size="line"> adds a before/after self-assessment workflow: pick one test as the **initial test** and another as the **final test** (often a copy of the same test), and Chamilo shows each learner's score change between the two on a radar chart.
+Le positionnement <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionnement" data-size="line"> ajoute un flux d’auto-évaluation avant/après : choisissez un test comme **test initial** et un autre comme **test final** (souvent une copie du même test), et Chamilo affiche l’évolution du score de chaque apprenant entre les deux sur un graphique radar.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, a **Positioning** tool appears on your course homepage. It lists the course's eligible tests with **Select as initial test** / **Select as final test** buttons, a shortcut into each test's results, and the radar chart comparing average initial vs. final scores.
+Une fois activé, un outil **Positionnement** apparaît sur la page d’accueil de votre cours. Il liste les tests éligibles du cours avec les boutons **Sélectionner comme test initial** / **Sélectionner comme test final**, un raccourci vers les résultats de chaque test, et le graphique radar comparant les scores moyens initial et final.
 
-## Which Tests Are Eligible
+## Quels tests sont éligibles
 
-Only tests that meet all three of these criteria appear as selectable:
+Seuls les tests qui satisfont ces trois critères apparaissent comme sélectionnables :
 
-* At least 3 question categories
-* The test's result-page type is set to **radar**
-* Exactly one attempt is allowed
+* Au moins 3 catégories de questions
+* Le type de page de résultats du test est défini sur **radar**
+* Exactement une tentative est autorisée
 
-If a test you expect to see is missing from the list, check these three settings on that test first.
+Si un test que vous attendez ne figure pas dans la liste, vérifiez d’abord ces trois paramètres sur ce test.
 
-## Enforcing the Order
+## Imposer l’ordre
 
-Your administrator can additionally configure, platform-wide:
+Votre administrateur peut en outre configurer, à l’échelle de la plateforme :
 
-* **Block other course tools** until the learner has completed the initial test
-* An **End test unlock threshold** — a minimum average learning-path completion percentage required before the final test unlocks
+* **Bloquer les autres outils du cours** jusqu’à ce que l’apprenant ait terminé le test initial
+* Un **seuil de déverrouillage du test final** — un pourcentage moyen minimal d’achèvement des parcours d’apprentissage requis avant que le test final ne se déverrouille
 
-## Tips
+## Conseils
 
-* **Set up the radar result type early** — Since eligibility depends on test settings made when you build the test, plan for Positioning before you finalize your test's categories and result-page type, not after
-* **Use a genuine copy for the final test** — Comparing a test against itself doesn't tell you much; the final test should cover the same categories so the radar chart is meaningful
+* **Définissez tôt le type de résultat radar** — L’éligibilité dépend des paramètres du test définis lors de sa création ; prévoyez le positionnement avant de finaliser les catégories et le type de page de résultats du test, et non après
+* **Utilisez une véritable copie pour le test final** — Comparer un test à lui-même n’apporte pas grand-chose ; le test final doit couvrir les mêmes catégories afin que le graphique radar soit pertinent

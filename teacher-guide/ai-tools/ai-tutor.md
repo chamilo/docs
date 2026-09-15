@@ -1,56 +1,56 @@
-# AI Tutor
+# Tuteur IA
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to get instant, AI-generated responses. It works in two contexts, with a different focus in each:
+Le tuteur IA est un chatbot intégré à Chamilo avec lequel les apprenants peuvent interagir pour obtenir des réponses instantanées générées par l’IA. Il fonctionne dans deux contextes, avec un objectif différent dans chacun :
 
-* **Inside a course** — the AI Tutor is focused on that course: answering questions about its content, explaining concepts it covers, and guiding learners through the material.
-* **Outside a course** (on the general platform) — the AI Tutor instead handles generic platform-use questions, such as how to find something or use a feature, rather than course content.
+* **À l’intérieur d’un cours** — le tuteur IA se concentre sur ce cours : il répond aux questions sur son contenu, explique les concepts abordés et guide les apprenants dans le matériel.
+* **En dehors d’un cours** (sur la plateforme générale) — le tuteur IA traite plutôt des questions génériques d’utilisation de la plateforme, par exemple comment trouver quelque chose ou utiliser une fonctionnalité, plutôt que le contenu des cours.
 
-## How It Works
+## Fonctionnement
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Lorsque le tuteur IA est activé pour un cours, les apprenants voient une interface de discussion dans laquelle ils peuvent :
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Poser des questions** sur le contenu du cours
+* **Obtenir des explications** des concepts abordés dans le cours
+* **Recevoir des conseils** sans attendre la réponse de l’enseignant
 
-Inside a course, the AI Tutor uses that course's context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+À l’intérieur d’un cours, le tuteur IA utilise le contexte de ce cours pour fournir des réponses pertinentes. Il est conçu pour compléter votre enseignement, non pour le remplacer.
 
-## Enabling the AI Tutor
+## Activation du tuteur IA
 
-The AI Tutor requires two levels of configuration:
+Le tuteur IA nécessite deux niveaux de configuration :
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Niveau plateforme** — L’administrateur doit activer les assistants IA et configurer au moins un fournisseur d’IA (voir [Configuration de l’IA](../../admin-guide/integrations/ai-configuration.md))
+2. **Niveau cours** — Le tuteur IA doit être activé dans les paramètres du cours (un simple interrupteur marche/arrêt). Le fournisseur utilisé pour le chat est celui configuré par l’administrateur.
 
-## The Chat Interface
+## L’interface de discussion
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![L’interface de discussion du tuteur IA montrant une conversation entre un apprenant et l’IA](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+Le tuteur IA apparaît sous la forme d’un **panneau de discussion ancré** dans le cours. Les apprenants peuvent :
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Saisir des messages et recevoir des réponses générées par l’IA
+* Consulter l’historique de leur conversation
+* Réinitialiser la conversation pour recommencer à zéro
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+L’interface de discussion affiche l’échange entre l’apprenant et l’IA dans un format de messagerie familier.
 
-## Important Behavior
+## Comportement important
 
-* **Scoped to where it's opened** — Inside a course, the AI Tutor only answers about that course; opened from outside any course, it switches to general platform-use questions instead. The platform-wide (outside-course) mode is a separate toggle your administrator controls independently of the per-course one.
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Limité au lieu d’ouverture** — À l’intérieur d’un cours, le tuteur IA ne répond que sur ce cours ; ouvert en dehors de tout cours, il bascule vers des questions générales d’utilisation de la plateforme. Le mode plateforme (hors cours) est un interrupteur distinct que votre administrateur contrôle indépendamment de celui par cours.
+* **Désactivé pendant les examens** — Le tuteur IA est automatiquement désactivé lorsqu’un apprenant passe un exercice, afin d’éviter la triche
+* **Conversation par apprenant** — Chaque apprenant a sa propre conversation privée avec le tuteur IA, et le contexte du prompt n’inclut que les messages les plus récents
+* **Basculement de fournisseur** — Si le fournisseur configuré échoue, Chamilo bascule vers un autre fournisseur disponible afin que le chat continue de fonctionner
 
-## As a Teacher
+## En tant qu’enseignant
 
-You should be aware that:
+Vous devez savoir que :
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* Le tuteur IA ne donne pas toujours des réponses parfaites — encouragez les apprenants à vérifier les informations importantes
+* Vous pouvez consulter l’utilisation du tuteur IA via le suivi de la plateforme
+* Le tuteur IA est un complément à votre enseignement, non un substitut. Utilisez-le en parallèle des forums, des annonces et de la messagerie directe pour un accompagnement complet des apprenants.
 
-## Tips
+## Conseils
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Fixez les attentes** — Indiquez aux apprenants dès le début du cours qu’un tuteur IA est disponible et expliquez comment l’utiliser de manière appropriée
+* **Encouragez l’esprit critique** — Rappelez aux apprenants de réfléchir de manière critique aux réponses générées par l’IA
+* **Utilisez-le pour les questions fréquentes** — Le tuteur IA est particulièrement utile pour traiter les questions courantes auxquelles vous répondriez autrement de façon répétée

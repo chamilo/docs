@@ -1,25 +1,25 @@
-# Exercise Focused
+# Exercice ciblé
 
-Exercise Focused <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> is an anti-cheating aid for exams. If a student's browser loses focus during a flagged test — switching to another tab or window — Chamilo shows a full-screen warning telling them to return, and can automatically submit their attempt if they don't.
+Exercice ciblé <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercice ciblé" data-size="line"> est une aide anti-triche pour les examens. Si le navigateur d’un étudiant perd le focus pendant un test marqué — passage à un autre onglet ou une autre fenêtre — Chamilo affiche un avertissement en plein écran lui demandant de revenir, et peut soumettre automatiquement sa tentative s’il ne le fait pas.
 
-## Flagging a Test
+## Marquer un test
 
-Open the test's settings and check the **Exercise Focused** option. Once flagged, every attempt on that test is monitored for focus loss, and each event is logged.
+Ouvrez les paramètres du test et cochez l’option **Exercice ciblé**. Une fois marqué, chaque tentative sur ce test est surveillée pour une perte de focus, et chaque événement est consigné.
 
-## What Students See
+## Ce que voient les étudiants
 
-When a monitored student leaves the exam window, an overlay appears telling them to return and complete the test. Depending on how your administrator has configured the plugin, this can also start a countdown that auto-submits the attempt, and/or auto-submit after a set number of focus-loss events.
+Lorsqu’un étudiant surveillé quitte la fenêtre d’examen, une superposition s’affiche lui indiquant de revenir et de terminer le test. Selon la configuration du plugin par votre administrateur, cela peut aussi lancer un compte à rebours qui soumet automatiquement la tentative, et/ou soumettre automatiquement après un nombre défini d’événements de perte de focus.
 
-## Reviewing Results
+## Consulter les résultats
 
-A flagged test gets a reporting icon opening a three-tab report:
+Un test marqué obtient une icône de reporting ouvrant un rapport à trois onglets :
 
-* A summary by attempt
-* A filterable, searchable view with Excel export
-* A random-sampling tab for spot-checking attempts
+* Un résumé par tentative
+* Une vue filtrable et interrogeable avec export Excel
+* Un onglet d’échantillonnage aléatoire pour le contrôle ponctuel des tentatives
 
-## Tips
+## Conseils
 
-* **The behavior itself is platform-wide** — As a teacher, you only choose which tests are flagged; the warning countdown length and the number of allowed focus-loss events before auto-submit are set once by your administrator
-* **Tell students in advance** — Let learners know a test is monitored this way before they start, so a browser notification or an accidental click doesn't cost them their attempt
-* **It only covers the standard test-taking screen** — If your platform delivers tests through a different route, focus-loss detection may not apply there
+* **Le comportement lui-même est à l’échelle de la plateforme** — En tant qu’enseignant, vous choisissez uniquement quels tests sont marqués ; la durée du compte à rebours d’avertissement et le nombre d’événements de perte de focus autorisés avant soumission automatique sont définis une seule fois par votre administrateur
+* **Informez les étudiants à l’avance** — Faites savoir aux apprenants qu’un test est surveillé de cette façon avant qu’ils ne commencent, afin qu’une notification du navigateur ou un clic accidentel ne leur fasse pas perdre leur tentative
+* **Cela ne couvre que l’écran standard de passation du test** — Si votre plateforme délivre les tests par une autre voie, la détection de perte de focus peut ne pas s’y appliquer

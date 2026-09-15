@@ -1,98 +1,98 @@
-# Upgrading
+# Mise à niveau
 
-Note: On this page, we use 3.0.0 as a strict version number and 3.x to identify all versions that start with the number 3 (3.0.0, 3.0.1, 3.1.0, etc). The same convention applies to 2.x.
+Note : Sur cette page, nous utilisons 3.0.0 comme numéro de version strict et 3.x pour identifier toutes les versions commençant par le chiffre 3 (3.0.0, 3.0.1, 3.1.0, etc.). La même convention s’applique à 2.x.
 
-The upgrade process from 1.11.x is also described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
-The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
+Le processus de mise à niveau depuis 1.11.x est également décrit dans votre fichier `public/documentation/installation_guide.html`, à l’intérieur du code de Chamilo.
+Les informations présentées ici sont largement redondantes. Vous pouvez les consulter en ligne à l’adresse `https://campus.chamilo.net/documentation/installation_guide.html`.
 
-**Upgrade to 3.0, not to 2.x.** Version 3.0 is the current release, and some 1.11.x settings had no equivalent yet in 2.0.0. A 1.11.x system therefore goes straight to 3.0. We have tested similar migrations extensively, but every platform carries its own history: try it on a test environment first, and consider being professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
+**Mettez à niveau vers 3.0, et non vers 2.x.** La version 3.0 est la version actuelle, et certains paramètres de 1.11.x n’avaient pas encore d’équivalent dans 2.0.0. Un système 1.11.x passe donc directement à 3.0. Nous avons testé de manière approfondie des migrations similaires, mais chaque plateforme a son propre historique : essayez d’abord sur un environnement de test, et envisagez d’être accompagné professionnellement par les [fournisseurs officiels Chamilo](https://chamilo.org/providers) dans cette démarche.
 
-## Upgrading from 1.11.x to 3.0
+## Mise à niveau de 1.11.x vers 3.0
 
-Upgrading from Chamilo 1.11.x to 3.0 is a **major migration**, not a simple update. Chamilo 2.0 was rebuilt on the Symfony framework with a restructured database schema, new API, and different file organization, and 3.0 continues that line. Plan this migration carefully and try it out on a test environment before rolling out in production.
+La mise à niveau de Chamilo 1.11.x vers 3.0 est une **migration majeure**, et non une simple mise à jour. Chamilo 2.0 a été reconstruit sur le framework Symfony avec un schéma de base de données restructuré, une nouvelle API et une organisation des fichiers différente, et 3.0 poursuit cette lignée. Planifiez cette migration avec soin et testez-la sur un environnement de test avant de la déployer en production.
 
-### Before You Begin
+### Avant de commencer
 
-1. **Read the release notes** for Chamilo 3.x to understand what has changed, what is new, and what features from 1.11.x may not yet be available.
-2. **Back up everything**:
-   - Full database dump (`mysqldump` or equivalent).
-   - All files in the Chamilo 1.11.x installation directory, especially `app/upload/`, `app/courses/`, and `main/`.
-   - Your `configuration.php` file.
-3. **Test on a staging server first.** Never run the migration directly on your production server.
-4. **Verify server requirements.** Chamilo 3.x has different requirements than 1.11.x (notably, PHP 8.3 or later — the installer refuses anything older). See [Server Requirements](server-requirements.md).
-5. **Delete the `version` table from the 1.11.x database.** This step is mandatory. Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns. If you leave the 1.11.x table in place, the upgrade stops immediately. The table is not necessary for Chamilo 1.11.x to work.
-6. **Unpack the new code in a new directory.** The 1.11.x files stay where they are. The installer reads them as the source of your courses and uploads, and writes the result into the new tree.
+1. **Lisez les notes de version** de Chamilo 3.x pour comprendre ce qui a changé, ce qui est nouveau, et quelles fonctionnalités de 1.11.x peuvent ne pas encore être disponibles.
+2. **Sauvegardez tout** :
+   - Un dump complet de la base de données (`mysqldump` ou équivalent).
+   - Tous les fichiers du répertoire d’installation de Chamilo 1.11.x, en particulier `app/upload/`, `app/courses/` et `main/`.
+   - Votre fichier `configuration.php`.
+3. **Testez d’abord sur un serveur de préproduction.** Ne lancez jamais la migration directement sur votre serveur de production.
+4. **Vérifiez les prérequis serveur.** Chamilo 3.x a des prérequis différents de 1.11.x (notamment PHP 8.3 ou ultérieur — l’installateur refuse toute version plus ancienne). Voir [Prérequis serveur](server-requirements.md).
+5. **Supprimez la table `version` de la base de données 1.11.x.** Cette étape est obligatoire. Chamilo 2.x et versions ultérieures stockent l’historique des migrations Doctrine dans une table de ce nom, avec d’autres colonnes. Si vous laissez la table 1.11.x en place, la mise à niveau s’arrête immédiatement. Cette table n’est pas nécessaire au fonctionnement de Chamilo 1.11.x.
+6. **Décompressez le nouveau code dans un nouveau répertoire.** Les fichiers 1.11.x restent où ils sont. L’installateur les lit comme source de vos cours et téléversements, et écrit le résultat dans la nouvelle arborescence.
 
-### Running the Upgrade
+### Exécution de la mise à niveau
 
-You can run the upgrade through the web wizard or through the command line.
+Vous pouvez exécuter la mise à niveau via l’assistant web ou via la ligne de commande.
 
-#### Web wizard
+#### Assistant web
 
-1. Point the `DocumentRoot` of your virtual host to the `public/` subdirectory of the new tree.
-2. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
-3. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
-4. Follow the wizard to the end.
+1. Pointez le `DocumentRoot` de votre hôte virtuel vers le sous-répertoire `public/` de la nouvelle arborescence.
+2. Ouvrez votre URL. L’assistant démarre, car la nouvelle arborescence n’a pas encore de fichier `.env`.
+3. À l’étape 2, sélectionnez l’option de mise à niveau et indiquez le chemin racine de votre installation 1.11.x.
+4. Suivez l’assistant jusqu’à la fin.
 
-#### Command line
+#### Ligne de commande
 
-Set `UPDATE_PATH` to the root of your 1.11.x installation, then run the migrations:
+Définissez `UPDATE_PATH` sur la racine de votre installation 1.11.x, puis exécutez les migrations :
 
 ```bash
 UPDATE_PATH=/path/to/chamilo-1.11 php bin/console doctrine:migrations:migrate --no-interaction
 ```
 
-Raise `memory_limit` and `max_execution_time` first. The migration reads every course file, so it needs far more than the defaults.
+Augmentez d’abord `memory_limit` et `max_execution_time`. La migration lit chaque fichier de cours, elle a donc besoin de bien plus que les valeurs par défaut.
 
-#### How long it takes
+#### Durée
 
-The duration follows the size of your database and of your course files. As one reference point, a 1.11.28 platform with 238 tables, 11 courses, 63 users and 1489 course files took **6 minutes** and 1.7 GB of memory, and ran 393 migrations. A large production platform takes hours. Plan a maintenance window, and read the [Chamilo forum](https://chamilo.org) or contact an [official provider](https://chamilo.org/providers) before you run it on production.
+La durée dépend de la taille de votre base de données et de vos fichiers de cours. À titre de référence, une plateforme 1.11.28 avec 238 tables, 11 cours, 63 utilisateurs et 1489 fichiers de cours a pris **6 minutes** et 1,7 Go de mémoire, et a exécuté 393 migrations. Une grande plateforme de production prend des heures. Prévoyez une fenêtre de maintenance, et consultez le [forum Chamilo](https://chamilo.org) ou contactez un [fournisseur officiel](https://chamilo.org/providers) avant de l’exécuter en production.
 
-### What May Require Manual Attention
+### Éléments pouvant nécessiter une attention manuelle
 
-| Area | Notes |
+| Domaine | Remarques |
 |------|-------|
-| **Custom plugins** | 1.11.x plugins do not work in 2.x or 3.x. They must be rewritten or replaced. The official ones have been ported progressively since 2.0 — check the plugin list of your version to see which are available. |
-| **Custom themes** | 1.11.x themes do not work in 2.x or 3.x. Recreate your branding using the 3.x theming system. |
-| **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
-| **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
-| **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
+| **Plugins personnalisés** | Les plugins 1.11.x ne fonctionnent pas en 2.x ni en 3.x. Ils doivent être réécrits ou remplacés. Les plugins officiels ont été portés progressivement depuis 2.0 — consultez la liste des plugins de votre version pour voir lesquels sont disponibles. |
+| **Thèmes personnalisés** | Les thèmes 1.11.x ne fonctionnent pas en 2.x ni en 3.x. Recréez votre identité visuelle avec le système de thèmes 3.x. |
+| **Modifications personnalisées de la base de données** | Toute modification directe de la base de données en dehors de Chamilo peut ne pas être migrée. |
+| **Paquets SCORM** | Le contenu SCORM devrait migrer, mais testez les paquets individuellement pour vérifier la lecture. |
+| **Intégrations externes** | Toute intégration utilisant l’API ou les services web 1.11.x doit être mise à jour pour utiliser l’API exclusivement REST de 2.x via [API Platform](https://github.com/api-platform/api-platform). |
 
-## Upgrading from 2.x to 3.0
+## Mise à niveau de 2.x vers 3.0
 
-This upgrade keeps your existing directory and your existing database. You copy the new code over the old tree, then run the migrations, either through the web wizard or through the command line.
+Cette mise à niveau conserve votre répertoire existant et votre base de données existante. Vous copiez le nouveau code par-dessus l’ancienne arborescence, puis vous exécutez les migrations, soit via l’assistant web, soit via la ligne de commande.
 
-### Seed the migration history first
+### Amorcer d’abord l’historique des migrations
 
-Chamilo installs the database schema directly from the entity definitions, so an installation created by the installer holds the final schema but an **empty migration history**. Installations created before Chamilo 3.0 were never given that history. Two things depend on it:
+Chamilo installe le schéma de base de données directement à partir des définitions d’entités, de sorte qu’une installation créée par l’installateur possède le schéma final mais un **historique de migrations vide**. Les installations créées avant Chamilo 3.0 n’ont jamais reçu cet historique. Deux éléments en dépendent :
 
-* `doctrine:migrations:migrate` decides what to run from it. With an empty history it tries to replay every migration from the beginning over a schema that is already current.
-* The web installer decides from it whether an upgrade is pending. With an empty history it refuses the request, because nothing proves that an upgrade is due.
+* `doctrine:migrations:migrate` décide de ce qu’il faut exécuter à partir de cet historique. Avec un historique vide, il tente de rejouer toutes les migrations depuis le début sur un schéma déjà à jour.
+* L’installateur web s’en sert pour décider si une mise à niveau est en attente. Avec un historique vide, il refuse la requête, car rien ne prouve qu’une mise à niveau est due.
 
-So seed it once, and observe the order below.
+Amorcez-le donc une seule fois, et respectez l’ordre ci-dessous.
 
-> **Warning: seed the history before you copy the new code.** The commands mark every migration that the **deployed** code carries as already executed. If you run them after you copy the 3.0 code, they also mark the 3.0 migrations, and your upgrade never runs.
+> **Avertissement : amorcer l’historique avant de copier le nouveau code.** Les commandes marquent comme déjà exécutée chaque migration que le code **déployé** transporte. Si vous les exécutez après avoir copié le code 3.0, elles marquent aussi les migrations 3.0, et votre mise à niveau ne s’exécute jamais.
 
-With your current version still in place, run:
+Avec votre version actuelle encore en place, exécutez :
 
 ```bash
 php bin/console doctrine:migrations:sync-metadata-storage --no-interaction
 php bin/console doctrine:migrations:version --add --all --no-interaction
 ```
 
-The first command creates the history table. The second marks the migrations of your current version. `doctrine:migrations:version` fails on its own if the table does not exist yet, so do not skip the first one.
+La première commande crée la table d’historique. La seconde marque les migrations de votre version actuelle. `doctrine:migrations:version` échoue à elle seule si la table n’existe pas encore, ne sautez donc pas la première.
 
-Check the result:
+Vérifiez le résultat :
 
 ```bash
 php bin/console doctrine:migrations:status
 ```
 
-`Executed` must equal `Available`, and `New` must be 0. Now copy the 3.0 code.
+`Executed` doit être égal à `Available`, et `New` doit valoir 0. Copiez maintenant le code 3.0.
 
-### Run the upgrade
+### Exécuter la mise à niveau
 
-Copy the new code, then either open your URL and follow the wizard, or run the migrations from the command line:
+Copiez le nouveau code, puis ouvrez votre URL et suivez l’assistant, ou exécutez les migrations en ligne de commande :
 
 ```bash
 php bin/console doctrine:migrations:migrate --no-interaction
@@ -100,97 +100,97 @@ php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-The web wizard opens only while migrations are pending. Once the upgrade finishes, it answers `409 Conflict` again, which is what protects it: the wizard has no login of its own.
+L’assistant web ne s’ouvre que tant que des migrations sont en attente. Une fois la mise à niveau terminée, il répond à nouveau `409 Conflict`, ce qui le protège : l’assistant n’a pas de connexion propre.
 
-## Updating Chamilo 3.0.x
+## Mise à jour de Chamilo 3.0.x
 
-Minor updates within the 3.0 branch are more straightforward.
+Les mises à jour mineures au sein de la branche 3.0 sont plus simples.
 
-### Update Process
+### Processus de mise à jour
 
-#### Using a package
+#### À l’aide d’un paquet
 
-1. **Back up** the database and files.
+1. **Sauvegardez** la base de données et les fichiers.
 
-2. **Download the latest 3.0.x version** from [chamilo.org](https://chamilo.org/download):
+2. **Téléchargez la dernière version 3.0.x** depuis [chamilo.org](https://chamilo.org/download) :
 
-3. **Expand locally**
+3. **Décompressez localement**
 
-For example (adapt to the downloaded version)
+Par exemple (adaptez à la version téléchargée)
    ```bash
    unzip chamilo-3.0.1.zip
    ```
 
-4. **Copy the files over your existing Chamilo installation**
+4. **Copiez les fichiers par-dessus votre installation Chamilo existante**
    ```bash
    cp -r chamilo/* [your-chamilo-installation-path]/
    cp -r chamilo/.* [your-chamilo-installation-path]/
    ```
 
-5. **Run database migrations:**
+5. **Exécutez les migrations de base de données :**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Videz le cache :**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Modifiez les permissions**
 
-Adapt to your web server user:
+Adaptez à l’utilisateur de votre serveur web :
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Vérifiez** que la plateforme se charge correctement et contrôlez par sondage les fonctionnalités clés.
 
-#### Using Git
+#### À l’aide de Git
 
-If you installed Chamilo using Git, you can follow these instructions instead.
+Si vous avez installé Chamilo avec Git, vous pouvez suivre ces instructions à la place.
 
-1. **Back up** the database and files.
+1. **Sauvegardez** la base de données et les fichiers.
 
-2. **Pull the latest code** (or download the new release):
+2. **Récupérez le dernier code** (ou téléchargez la nouvelle version) :
    ```bash
    git pull origin 3.0
    ```
 
-3. **Update PHP dependencies:**
+3. **Mettez à jour les dépendances PHP :**
    ```bash
    composer install --no-dev --optimize-autoloader
    ```
 
-4. **Update JavaScript dependencies and rebuild assets:**
+4. **Mettez à jour les dépendances JavaScript et reconstruisez les assets :**
    ```bash
    yarn install && yarn build
    ```
 
-5. **Run database migrations:**
+5. **Exécutez les migrations de base de données :**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Videz le cache :**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Modifiez les permissions**
 
-Adapt to your web server user:
+Adaptez à l’utilisateur de votre serveur web :
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Vérifiez** que la plateforme se charge correctement et contrôlez par sondage les fonctionnalités clés.
 
-### Automating Updates
+### Automatiser les mises à jour
 
-For organizations that manage multiple Chamilo instances, consider scripting the update process:
+Pour les organisations qui gèrent plusieurs instances Chamilo, envisagez de scripter le processus de mise à jour :
 
 ```bash
 #!/bin/bash
@@ -213,11 +213,11 @@ php bin/console cache:warmup --env=prod
 echo "Update complete."
 ```
 
-## Tips
+## Conseils
 
-* **Always back up before upgrading.** Database migrations are not reversible through the Chamilo interface.
-* **Test on staging first** -- especially for the 1.11.x to 3.0 migration, which involves significant data transformation.
-* **Schedule upgrades during maintenance windows** when users are not actively using the platform.
-* **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
-* **If the wizard answers `Chamilo is already installed`**, it found no pending migration. Run `php bin/console doctrine:migrations:status` to check. If `Executed` is 0 on a platform that works, your migration history was never seeded — see [Seed the migration history first](#seed-the-migration-history-first).
-* **Automatic download of new versions** is not yet provided in Chamilo 3.0, but this is an ongoing project we hope to be releasing soon. The upgrade itself already runs from the web wizard.
+* **Effectuez toujours une sauvegarde avant de mettre à niveau.** Les migrations de base de données ne sont pas réversibles via l’interface de Chamilo.
+* **Testez d’abord sur un environnement de préproduction** -- en particulier pour la migration de 1.11.x vers 3.0, qui implique une transformation importante des données.
+* **Planifiez les mises à niveau pendant des fenêtres de maintenance** lorsque les utilisateurs n’utilisent pas activement la plateforme.
+* **Abonnez-vous aux versions GitHub** sur [Github](https://github.com/chamilo/chamilo-lms/releases) à l’aide de l’icône en forme de cloche pour être informé des nouvelles versions et des correctifs de sécurité.
+* **Si l’assistant répond `Chamilo is already installed`**, il n’a trouvé aucune migration en attente. Exécutez `php bin/console doctrine:migrations:status` pour vérifier. Si `Executed` vaut 0 sur une plateforme qui fonctionne, l’historique des migrations n’a jamais été initialisé — voir [Initialiser d’abord l’historique des migrations](#seed-the-migration-history-first).
+* **Le téléchargement automatique des nouvelles versions** n’est pas encore proposé dans Chamilo 3.0, mais il s’agit d’un projet en cours que nous espérons publier prochainement. La mise à niveau elle-même s’exécute déjà depuis l’assistant web.

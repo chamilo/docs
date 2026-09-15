@@ -1,52 +1,52 @@
 # Agenda
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+L'outil Agenda vous permet de planifier des événements et des échéances au sein de votre cours. Les événements apparaissent sur un calendrier que vos apprenants peuvent consulter.
 
-## Viewing the Agenda
+## Consulter l'agenda
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Ouvrez l'outil **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> depuis la page d'accueil du cours. Vous pouvez afficher les événements selon trois modes :
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![L'agenda en vue calendrier affichant les événements et échéances du cours](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **Vue calendrier** — Un calendrier visuel mensuel/hebdomadaire/quotidien
+* **Vue liste** — Les événements présentés sous forme de liste chronologique
+* **Événements personnels** — Filtrer pour n'afficher que les événements qui vous concernent
 
-## Creating an Event
+## Créer un événement
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
+1. Cliquez sur **Ajouter un événement** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ajouter un événement" data-size="line">
+2. Renseignez les détails de l'événement :
+   * **Titre** — Un nom court pour l'événement
+   * **Date et heure de début**
+   * **Date et heure de fin**
+   * **Description** — Informations complémentaires (prise en charge du texte enrichi)
+3. Choisissez le **public** :
+   * **Tous les apprenants** — Toutes les personnes inscrites au cours
+   * **Utilisateurs ou groupes spécifiques** — Sélectionnez des apprenants ou des groupes individuels
+4. Définissez éventuellement un **rappel** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Rappel" data-size="line"> pour envoyer des notifications par e-mail avant l'événement (configuration *cron* du portail requise par un administrateur)
+5. Choisissez une **couleur** pour l'événement en cliquant sur l'échantillon de couleur. Cette couleur sert à mettre en évidence l'événement dans tout le calendrier (vues mois, semaine et jour), ce qui permet de distinguer facilement les événements d'un coup d'œil — par exemple pour différencier les échéances des séances ordinaires, ou les événements de différents cours dans votre agenda personnel.
 
-   ![The color picker in the event creation form](/.gitbook/assets/agenda-event-color-picker.png)
-6. Save
+   ![Le sélecteur de couleur dans le formulaire de création d'événement](/.gitbook/assets/agenda-event-color-picker.png)
+6. Enregistrez
 
-The chosen color is then reflected wherever the event appears in the calendar:
+La couleur choisie se reflète ensuite partout où l'événement apparaît dans le calendrier :
 
-![An event displayed in its chosen color in the week view](/.gitbook/assets/agenda-event-color-result.png)
+![Un événement affiché dans la couleur choisie en vue semaine](/.gitbook/assets/agenda-event-color-result.png)
 
-By default, new events get a color based on their context (course, session, personal or global), but you can override it with any color you like.
+Par défaut, les nouveaux événements reçoivent une couleur selon leur contexte (cours, session, personnel ou global), mais vous pouvez la remplacer par n'importe quelle couleur de votre choix.
 
-## Managing Events
+## Gérer les événements
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Cliquez sur un événement pour en modifier les détails
+* **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer un événement du calendrier
+* **Glisser-déposer** — En vue calendrier, faites glisser les événements pour les replanifier
 
-## Personal Agenda
+## Agenda personnel
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+Vous disposez également d'un **agenda personnel** accessible depuis la barre latérale. L'agenda personnel regroupe les événements de tous vos cours dans une vue unique. C'est là que les apprenants voient leur emploi du temps combiné pour l'ensemble des cours auxquels ils sont inscrits.
 
-## Tips
+## Conseils
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **Définir des échéances** — Créez des événements pour les dates de rendu des devoirs et les dates limites des exercices afin que les apprenants les voient dans leur calendrier
+* **Utiliser les rappels** — Activez les rappels par e-mail pour les événements importants afin d'aider les apprenants à rester à jour
+* **Coordonner avec les sessions** — Si vous enseignez dans plusieurs sessions, chaque session a ses propres événements, visibles uniquement par les apprenants de cette session. Les enseignants disposent d'une fonctionnalité pour voir les événements (devoirs, sorties, etc.) des autres cours de leurs sessions afin d'éviter de surcharger les étudiants.

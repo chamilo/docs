@@ -1,42 +1,42 @@
-# AI Tutor Chatbot
+# Chatbot Tuteur IA
 
-If your platform and your course both have it enabled, you have access to an **AI Tutor** — a chat assistant you can ask questions and get instant, context-aware answers from, without waiting for your teacher to respond.
+Si votre plateforme et votre cours l’ont tous deux activé, vous avez accès à un **Tuteur IA** — un assistant de discussion auquel vous pouvez poser des questions et obtenir des réponses instantanées, adaptées au contexte, sans attendre la réponse de votre enseignant.
 
-## Whether You Have Access
+## Accès ou non
 
-The AI Tutor depends on configuration at two levels, both outside your control:
+Le Tuteur IA dépend d’une configuration à deux niveaux, tous deux hors de votre contrôle :
 
-* **Platform level** — Your administrator must enable AI helpers and configure an AI provider.
-* **Course level** — Your teacher must turn the AI Tutor on for that specific course.
+* **Niveau plateforme** — Votre administrateur doit activer les assistants IA et configurer un fournisseur d’IA.
+* **Niveau cours** — Votre enseignant doit activer le Tuteur IA pour ce cours précis.
 
-See [AI Tutor](../../teacher-guide/ai-tools/ai-tutor.md) in the Teacher Guide for how this is set up on the teacher's side. If you don't see the option described below anywhere, it hasn't been enabled for you — either at all, or not for the course you're currently in.
+Consultez [Tuteur IA](../../teacher-guide/ai-tools/ai-tutor.md) dans le Guide de l’enseignant pour savoir comment cela se configure côté enseignant. Si vous ne voyez nulle part l’option décrite ci-dessous, elle n’a pas été activée pour vous — soit pas du tout, soit pas pour le cours dans lequel vous vous trouvez actuellement.
 
-Some platforms also enable the AI Tutor **outside of any course** — if so, it switches focus there: instead of answering about a specific course, it helps with generic platform-use questions, like how to find or use a feature. This platform-wide mode is a separate toggle from the per-course one, so one can be on without the other.
+Certaines plateformes activent aussi le Tuteur IA **en dehors de tout cours** — le cas échéant, il change alors de focus : au lieu de répondre à propos d’un cours précis, il aide pour des questions génériques d’utilisation de la plateforme, par exemple comment trouver ou utiliser une fonctionnalité. Ce mode à l’échelle de la plateforme est un interrupteur distinct de celui par cours, de sorte que l’un peut être activé sans l’autre.
 
-## Opening the Chat
+## Ouvrir la discussion
 
-Look for the chat button (a floating speech-bubble icon) at the bottom of the screen. Opening it shows your contacts plus, if enabled, a dedicated **AI Tutor** entry with a robot icon and an "online" dot — click it to start or continue your conversation with the AI.
+Cherchez le bouton de discussion (une icône flottante en bulle de parole) en bas de l’écran. L’ouvrir affiche vos contacts ainsi que, s’il est activé, une entrée dédiée **Tuteur IA** avec une icône de robot et un point « en ligne » — cliquez dessus pour démarrer ou poursuivre votre conversation avec l’IA.
 
-![The chat panel's contact list, with an AI Tutor entry above your regular contacts](/.gitbook/assets/student-docked-chat-contacts.png)
+![La liste de contacts du panneau de discussion, avec une entrée Tuteur IA au-dessus de vos contacts habituels](/.gitbook/assets/student-docked-chat-contacts.png)
 
-Type your question and press **Enter** to send it (**Shift+Enter** inserts a line break instead of sending). The AI Tutor formats its answers with headings, lists, bold text, and code blocks where useful, so longer explanations stay readable.
+Saisissez votre question et appuyez sur **Entrée** pour l’envoyer (**Maj+Entrée** insère un saut de ligne au lieu d’envoyer). Le Tuteur IA met en forme ses réponses avec des titres, des listes, du texte en gras et des blocs de code lorsque c’est utile, afin que les explications plus longues restent lisibles.
 
-![An open conversation with the AI Tutor, with the message composer at the bottom](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Une conversation ouverte avec le Tuteur IA, avec le champ de saisie des messages en bas](/.gitbook/assets/student-ai-tutor-conversation.png)
 
-## Asking About Something You're Reading
+## Poser une question sur ce que vous lisez
 
-While viewing a Document, Forum post, Wiki page, Portfolio entry, or Learning path step, you can select a piece of text on the page before asking your question. A small "Selection" chip appears above the message box — send your message and that selected text is included as context, so the AI Tutor can answer specifically about the passage you highlighted. Click the chip's **×** to drop the selection if you don't want to include it.
+Pendant que vous consultez un document, un message de forum, une page wiki, une entrée de portfolio ou une étape de parcours d’apprentissage, vous pouvez sélectionner un passage de texte sur la page avant de poser votre question. Une petite pastille « Sélection » apparaît au-dessus de la zone de message — envoyez votre message et ce texte sélectionné est inclus comme contexte, afin que le Tuteur IA puisse répondre spécifiquement au passage que vous avez mis en évidence. Cliquez sur le **×** de la pastille pour abandonner la sélection si vous ne souhaitez pas l’inclure.
 
-## Starting Over
+## Recommencer
 
-If a conversation gets off track, use the **Reset** option in the chat composer to clear it and start fresh. This only clears your conversation with the AI Tutor — it doesn't affect your regular messages with your teacher or classmates.
+Si une conversation s’égare, utilisez l’option **Réinitialiser** dans le champ de saisie du chat pour l’effacer et repartir de zéro. Cela n’efface que votre conversation avec le Tuteur IA — cela n’affecte pas vos messages habituels avec votre enseignant ou vos camarades.
 
-## When It's Not Available
+## Quand il n’est pas disponible
 
-The AI Tutor is turned off automatically while you're taking a test or working on an assignment, so it can't be used to get answers during an assessment. It also won't appear if the underlying AI provider is temporarily unavailable — Chamilo tries to fail over to another configured provider automatically, but if none are reachable, the AI Tutor may be briefly unavailable.
+Le Tuteur IA est désactivé automatiquement pendant que vous passez un test ou travaillez sur un devoir, afin qu’il ne puisse pas servir à obtenir des réponses pendant une évaluation. Il n’apparaîtra pas non plus si le fournisseur d’IA sous-jacent est temporairement indisponible — Chamilo tente de basculer automatiquement vers un autre fournisseur configuré, mais si aucun n’est joignable, le Tuteur IA peut être brièvement indisponible.
 
-## Tips
+## Conseils
 
-* **Use it for quick clarifications** — it's especially useful for questions you'd otherwise wait on a reply for.
-* **Still verify important information** — like any AI system, it can make mistakes. Cross-check anything critical with your course material or your teacher.
-* **It's a complement, not a replacement** — for anything requiring real judgment from your teacher (grading disputes, extensions, personal circumstances), reach out to them directly instead.
+* **Utilisez-le pour des éclaircissements rapides** — il est particulièrement utile pour les questions auxquelles vous attendriez autrement une réponse.
+* **Vérifiez tout de même les informations importantes** — comme tout système d’IA, il peut se tromper. Recoupez tout élément critique avec le matériel de votre cours ou votre enseignant.
+* **C’est un complément, pas un substitut** — pour tout ce qui exige un véritable jugement de votre enseignant (contestations de notes, prolongations, circonstances personnelles), contactez-le directement.

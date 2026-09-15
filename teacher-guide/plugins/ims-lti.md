@@ -1,24 +1,24 @@
-# IMS/LTI Client
+# Client IMS/LTI
 
-IMS/LTI Client <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI Client" data-size="line"> lets you launch an external tool or content provider from inside your course using the LTI standard (versions 1.1 and 1.3) — for example, a publisher's interactive textbook, a specialized simulation tool, or another platform that supports LTI. Chamilo acts as the launching platform; the external service is the "tool."
+Le client IMS/LTI <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="Client IMS/LTI" data-size="line"> vous permet de lancer un outil externe ou un fournisseur de contenu depuis l’intérieur de votre cours en utilisant le standard LTI (versions 1.1 et 1.3) — par exemple, un manuel interactif d’un éditeur, un outil de simulation spécialisé, ou une autre plateforme qui prend en charge LTI. Chamilo agit comme plateforme de lancement ; le service externe est l’« outil ».
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, a **Configure external tools** button appears in your course's **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line">. From there you can either:
+Une fois activé, un bouton **Configurer les outils externes** apparaît dans les **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours. À partir de là, vous pouvez soit :
 
-* **Add a new external tool** — Register one yourself: name, launch URL, LTI version, and the credentials the external service gave you (client ID/keys for LTI 1.3, or a consumer key and secret for LTI 1.1)
-* **Add an existing global tool** — If your administrator has already registered a platform-wide tool, add it to your course instead of creating your own connection
+* **Ajouter un nouvel outil externe** — Enregistrer vous-même un outil : nom, URL de lancement, version LTI, et les identifiants que le service externe vous a fournis (ID client/clés pour LTI 1.3, ou une clé consommateur et un secret pour LTI 1.1)
+* **Ajouter un outil global existant** — Si votre administrateur a déjà enregistré un outil à l’échelle de la plateforme, l’ajouter à votre cours au lieu de créer votre propre connexion
 
-Once added, the tool appears as a regular tool/shortcut on your course homepage.
+Une fois ajouté, l’outil apparaît comme un outil/raccourci habituel sur la page d’accueil de votre cours.
 
-## What You Can Configure
+## Ce que vous pouvez configurer
 
-For a tool you registered yourself: whether it opens in an iframe or a new window, whether the learner's name, email, and picture are shared with the external service, custom launch parameters, and (for LTI 1.3) Deep Linking support. If the tool supports the Assignment and Grades Service, you can also create a linked gradebook column so scores it reports back feed your Chamilo gradebook.
+Pour un outil que vous avez enregistré vous-même : s’il s’ouvre dans une iframe ou une nouvelle fenêtre, si le nom, l’e-mail et la photo de l’apprenant sont partagés avec le service externe, les paramètres de lancement personnalisés, et (pour LTI 1.3) la prise en charge du Deep Linking. Si l’outil prend en charge le service Assignment and Grades, vous pouvez également créer une colonne de carnet de notes liée afin que les scores qu’il renvoie alimentent le carnet de notes Chamilo.
 
-For a tool added from a platform-wide "global" definition, you can only adjust these course-level presentation and privacy options — the connection credentials themselves belong to whoever registered the base tool (usually your administrator).
+Pour un outil ajouté à partir d’une définition « globale » à l’échelle de la plateforme, vous ne pouvez ajuster que ces options de présentation et de confidentialité au niveau du cours — les identifiants de connexion eux-mêmes appartiennent à la personne qui a enregistré l’outil de base (généralement votre administrateur).
 
-## Tips
+## Conseils
 
-* **Get credentials from the tool provider first** — You'll need the launch URL and either LTI 1.3 client/key details or an LTI 1.1 consumer key and secret before you can register a new tool
-* **Be deliberate about what you share** — Only enable sharing a learner's name, email, or picture with an external service if the tool actually needs it
-* **Ask your administrator about global tools** — If the same external tool is used across many courses, a platform-wide registration avoids every teacher configuring their own connection separately
+* **Obtenez d’abord les identifiants auprès du fournisseur de l’outil** — Vous aurez besoin de l’URL de lancement et soit des détails client/clé LTI 1.3, soit d’une clé consommateur et d’un secret LTI 1.1 avant de pouvoir enregistrer un nouvel outil
+* **Soyez volontaire quant à ce que vous partagez** — N’activez le partage du nom, de l’e-mail ou de la photo d’un apprenant avec un service externe que si l’outil en a réellement besoin
+* **Demandez à votre administrateur des outils globaux** — Si le même outil externe est utilisé dans de nombreux cours, un enregistrement à l’échelle de la plateforme évite que chaque enseignant configure sa propre connexion séparément

@@ -1,18 +1,18 @@
-# Notify in Course Home
+# Notifier sur la page d’accueil du cours
 
-Notify in Course Home <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notify in Course Home" data-size="line"> lets you show a popup notice to everyone who visits your course homepage — useful for an announcement, a required-reading notice, or a "click here to continue" gate.
+Notifier sur la page d’accueil du cours <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notifier sur la page d’accueil du cours" data-size="line"> vous permet d’afficher une fenêtre contextuelle à toute personne qui visite la page d’accueil de votre cours — utile pour une annonce, un avis de lecture obligatoire ou un passage obligatoire du type « cliquez ici pour continuer ».
 
-## Setting a Notification
+## Définir une notification
 
-Once enabled, your course's **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> gains a **Set one notification on home page** button. It opens a form where you write the notice (rich text) and optionally set an **Expiration link**.
+Une fois l’option activée, les **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours proposent un bouton **Définir une notification sur la page d’accueil**. Il ouvre un formulaire dans lequel vous rédigez l’avis (texte enrichi) et, éventuellement, définissez un **Lien d’expiration**.
 
-* **With an expiration link** — The popup shows a button pointing to that link and keeps reappearing until a learner clicks it
-* **Without one** — The notice reappears to every visitor, every time they open the course home page
+* **Avec un lien d’expiration** — La fenêtre affiche un bouton pointant vers ce lien et continue de réapparaître jusqu’à ce qu’un apprenant clique dessus
+* **Sans lien** — L’avis réapparaît pour chaque visiteur, à chaque ouverture de la page d’accueil du cours
 
-Use **Delete notification on course home page** to remove it.
+Utilisez **Supprimer la notification de la page d’accueil du cours** pour la retirer.
 
-## Tips
+## Conseils
 
-* **Only one notice per course** — Creating a new one replaces whatever was there before; there's no way to queue several
-* **Preview your formatting** — The notice is shown as raw HTML in a popup, so check that rich text renders the way you expect before publishing it
-* **Use the expiration link for anything time-sensitive** — Without it, the same notice keeps popping up indefinitely, which can get repetitive for returning learners
+* **Un seul avis par cours** — La création d’un nouvel avis remplace celui qui existait ; il n’est pas possible d’en mettre plusieurs en file d’attente
+* **Prévisualisez la mise en forme** — L’avis s’affiche en HTML brut dans une fenêtre contextuelle : vérifiez que le texte enrichi s’affiche comme prévu avant de le publier
+* **Utilisez le lien d’expiration pour tout ce qui est limité dans le temps** — Sans ce lien, le même avis continue de s’afficher indéfiniment, ce qui peut devenir répétitif pour les apprenants qui reviennent

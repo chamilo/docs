@@ -1,26 +1,26 @@
-# Languages
+# Langues
 
-This tool manages which interface languages users can choose from — it does not manage translation strings themselves (those come from the language packs shipped with Chamilo, not from anything editable here).
+Cet outil gère les langues d’interface parmi lesquelles les utilisateurs peuvent choisir — il ne gère pas les chaînes de traduction elles-mêmes (celles-ci proviennent des packs linguistiques livrés avec Chamilo, et non d’éléments modifiables ici).
 
-## Accessing Languages
+## Accéder aux langues
 
-From the administration panel, click **Platform > Languages**.
+Depuis le panneau d’administration, cliquez sur **Plateforme > Langues**.
 
-## What You Can Do
+## Ce que vous pouvez faire
 
-* **Toggle availability** — Enable or disable each of the shipped languages as a choice on the login page and in user profile settings, with a simple on/off switch per row
-* **Set the platform default** — Choose which language is used when no user preference applies; the current default is marked with its own icon and can't be hidden
-* **Disable all except the default** — A single bulk action to strip the language picker down to just your platform's default language
-* **Edit the native name** — Adjust how a language's own name is displayed (its "original name") in the picker
+* **Activer ou désactiver la disponibilité** — Activer ou désactiver chacune des langues livrées comme choix sur la page de connexion et dans les paramètres du profil utilisateur, à l’aide d’un simple interrupteur marche/arrêt par ligne
+* **Définir la langue par défaut de la plateforme** — Choisir la langue utilisée lorsqu’aucune préférence utilisateur ne s’applique ; la langue par défaut actuelle est marquée d’une icône dédiée et ne peut pas être masquée
+* **Tout désactiver sauf la langue par défaut** — Une action groupée unique pour réduire le sélecteur de langue à la seule langue par défaut de votre plateforme
+* **Modifier le nom natif** — Ajuster la façon dont le nom propre d’une langue est affiché (son « nom original ») dans le sélecteur
 
-## Disabling a Language in Use
+## Désactiver une langue en cours d’utilisation
 
-If you disable a language that active users have already selected as their interface language, Chamilo asks for confirmation and — if you confirm — migrates every affected user to the platform default language. There's no partial state where a user is left with a now-hidden language selected.
+Si vous désactivez une langue que des utilisateurs actifs ont déjà choisie comme langue d’interface, Chamilo demande une confirmation et — si vous confirmez — migre tous les utilisateurs concernés vers la langue par défaut de la plateforme. Il n’existe pas d’état intermédiaire dans lequel un utilisateur resterait avec une langue désormais masquée sélectionnée.
 
-## Right-to-Left Languages
+## Langues de droite à gauche
 
-Right-to-left languages (such as Arabic, Hebrew, or Persian) automatically switch the interface to a right-to-left layout when selected — there's nothing to configure here or elsewhere for this to happen. RTL support has been substantially improved in recent versions.
+Les langues de droite à gauche (telles que l’arabe, l’hébreu ou le persan) basculent automatiquement l’interface vers une disposition de droite à gauche lorsqu’elles sont sélectionnées — rien n’est à configurer ici ni ailleurs pour que cela se produise. La prise en charge RTL a été nettement améliorée dans les versions récentes.
 
-## Sub-Languages
+## Sous-langues
 
-If the **Allow sub-languages** setting is enabled, additional actions appear for creating "sub-languages" — partial overrides of a parent language, historically used for regional dialects or organization-specific terminology tweaks. This is a legacy feature; most installations won't need it.
+Si le paramètre **Autoriser les sous-langues** est activé, des actions supplémentaires apparaissent pour créer des « sous-langues » — des surcharges partielles d’une langue parente, historiquement utilisées pour des dialectes régionaux ou des ajustements de terminologie propres à une organisation. Il s’agit d’une fonctionnalité héritée ; la plupart des installations n’en auront pas besoin.

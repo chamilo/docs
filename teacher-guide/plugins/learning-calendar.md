@@ -1,20 +1,20 @@
-# Learning Calendar
+# Calendrier d'apprentissage
 
-Learning Calendar <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Learning Calendar" data-size="line"> helps plan blended or apprenticeship-style training that mixes classroom time with off-site practice. You build a calendar marking each day as **Busy**, **Exam**, or **Free**, assign learners to it, and their personal agenda then shows those planned days.
+Le calendrier d'apprentissage <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendrier d'apprentissage" data-size="line"> aide à planifier une formation mixte ou de type apprentissage, combinant temps en présentiel et pratique hors site. Vous construisez un calendrier en marquant chaque jour comme **Occupé**, **Examen** ou **Libre**, y affectez des apprenants, et leur agenda personnel affiche alors ces jours planifiés.
 
-## Accessing the Tool
+## Accéder à l'outil
 
-Once enabled, a **Learning calendar** icon appears in **My Space** (your reporting area). It opens a list of calendars you've created, with options to add, edit, copy, delete, and assign learners to each one.
+Une fois activé, une icône **Calendrier d'apprentissage** apparaît dans **Mon espace** (votre zone de reporting). Elle ouvre une liste des calendriers que vous avez créés, avec des options pour ajouter, modifier, copier, supprimer et affecter des apprenants à chacun d'eux.
 
-## Building a Calendar
+## Construire un calendrier
 
-1. Create a new calendar
-2. Click a day to cycle it through **Busy → Exam → Free → clear**
-3. Assign the learners who should follow this calendar
+1. Créer un nouveau calendrier
+2. Cliquer sur un jour pour le faire cycler **Occupé → Examen → Libre → effacer**
+3. Affecter les apprenants qui doivent suivre ce calendrier
 
-Assigned learners see their planned days on their own agenda, and reporting compares planned days against their actual learning-path completion.
+Les apprenants affectés voient leurs jours planifiés dans leur propre agenda, et le reporting compare les jours planifiés à l'achèvement réel de leur parcours d'apprentissage.
 
-## Tips
+## Conseils
 
-* **One calendar per learner at a time** — A learner can only be assigned to a single calendar, so plan around cohorts rather than trying to layer multiple calendars on one person
-* **This is an early-stage feature** — It's independent of any single course, so don't expect the same polish as core Chamilo tools; verify it fits your training format before relying on it for a real cohort
+* **Un calendrier par apprenant à la fois** — Un apprenant ne peut être affecté qu'à un seul calendrier, planifiez donc par cohortes plutôt que d'essayer de superposer plusieurs calendriers sur une même personne
+* **Il s'agit d'une fonctionnalité encore précoce** — Elle est indépendante de tout cours unique, n'attendez donc pas le même niveau de finition que les outils centraux de Chamilo ; vérifiez qu'elle correspond à votre format de formation avant de vous y fier pour une vraie cohorte

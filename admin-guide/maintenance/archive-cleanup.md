@@ -1,25 +1,25 @@
-# Archive Cleanup
+# Nettoyage des archives
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+Au fil du temps, Chamilo accumule des fichiers temporaires dans ses répertoires de cache et d’archives. Un nettoyage régulier permet d’éviter les problèmes d’espace disque.
 
-## What Can Be Cleaned
+## Éléments pouvant être nettoyés
 
-* **Temporary upload files** — Files generated during export, import, and other operations, plus stale legacy frontend build files
-* **Symfony application cache** — Compiled container, cached configuration, and routing data. This is *not* covered by the administration panel action below — see [From the Command Line](#from-the-command-line).
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Fichiers temporaires de téléversement** — Fichiers générés lors des opérations d’export, d’import et autres, ainsi que les fichiers de compilation du frontend hérités devenus obsolètes
+* **Cache de l’application Symfony** — Conteneur compilé, configuration mise en cache et données de routage. Ceci n’est *pas* couvert par l’action du panneau d’administration ci-dessous — voir [Depuis la ligne de commande](#from-the-command-line).
+* **Données de session** — Fichiers de session PHP expirés
+* **Fichiers journaux** — Anciens fichiers journaux qui ne sont plus nécessaires
 
-## Performing Cleanup
+## Effectuer le nettoyage
 
-### From the Administration Panel
+### Depuis le panneau d’administration
 
-Navigate to **System > Clean temporary files** in the administration panel (see [System Tools](../system/system-tools.md#clean-temporary-files)). It reports how many temporary files exist and how much space they use, then lets you purge everything or only files older than a chosen age, with a dry-run preview. It also clears stale legacy build files and regenerates compiled CSS assets.
+Accédez à **Système > Nettoyer les fichiers temporaires** dans le panneau d’administration (voir [Outils système](../system/system-tools.md#clean-temporary-files)). L’outil indique le nombre de fichiers temporaires existants et l’espace qu’ils occupent, puis vous permet de tout purger ou uniquement les fichiers plus anciens qu’un âge choisi, avec un aperçu en mode simulation. Il supprime également les fichiers de compilation hérités obsolètes et régénère les ressources CSS compilées.
 
-This action deliberately excludes Symfony's own cache directories (`var/cache/dev`, `var/cache/prod`, `var/cache/test`, and cache pools), so it will not make a `.env` or `config/` change take effect — use the command line for that.
+Cette action exclut volontairement les répertoires de cache propres à Symfony (`var/cache/dev`, `var/cache/prod`, `var/cache/test` et les pools de cache), de sorte qu’elle ne fera pas prendre effet une modification de `.env` ou de `config/` — utilisez la ligne de commande pour cela.
 
-### From the Command Line
+### Depuis la ligne de commande
 
-For more control, and to actually clear the Symfony application cache, use Symfony console commands:
+Pour un contrôle plus fin, et pour réellement vider le cache de l’application Symfony, utilisez les commandes de la console Symfony :
 
 ```bash
 # Clear the Symfony cache
@@ -29,8 +29,8 @@ php bin/console cache:clear
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## Conseils
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **Planifier des nettoyages réguliers** — Configurez une tâche cron hebdomadaire ou mensuelle pour vider les fichiers temporaires
+* **Surveiller l’utilisation du disque** — Surveillez la taille du répertoire `var/`, car elle augmente avec le cache et les fichiers journaux
+* **Être prudent avec les journaux** — Avant de supprimer des fichiers journaux, vérifiez s’ils contiennent des informations dont vous pourriez avoir besoin pour le dépannage

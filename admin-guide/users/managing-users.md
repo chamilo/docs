@@ -1,103 +1,103 @@
-# Managing Users
+# Gestion des utilisateurs
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+Cette page couvre les tâches quotidiennes de création, de modification et de gestion des comptes utilisateurs.
 
-## User List
+## Liste des utilisateurs
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![La liste des utilisateurs affichant les comptes avec les colonnes nom, e-mail, rôle et statut](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+Depuis le panneau d’administration, cliquez sur **Liste des utilisateurs** pour voir tous les utilisateurs de la plateforme. La liste affiche :
 
 * Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* Nom
+* Identifiant
+* Adresse e-mail
+* Rôles
+* Statut actif/inactif
+* Date d’inscription
+* Date de dernière connexion
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+Utilisez l’outil **Recherche avancée** pour trouver des utilisateurs spécifiques par nom, e-mail, rôle ou d’autres critères.
 
-## Creating a User
+## Création d’un utilisateur
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![Le formulaire de création d’utilisateur avec les champs nom, e-mail, identifiant, mot de passe, rôle et langue](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. Cliquez sur **Ajouter un utilisateur** depuis le panneau d’administration
+2. Renseignez les champs obligatoires :
+   * **Prénom** et **Nom**
+   * **E-mail** — Doit être unique sur la plateforme
+   * **Identifiant** — Le nom de connexion (doit être unique)
+   * **Mot de passe** — Définissez un mot de passe initial
+   * **Rôles** — Sélectionnez le ou les rôles de l’utilisateur sur la plateforme (étudiant, enseignant, administrateur, etc.)
+   * **Langue** — La langue d’interface préférée de l’utilisateur
+3. Renseignez éventuellement des champs supplémentaires :
+   * Code officiel (p. ex. identifiant unique dans l’organisation)
+   * Numéro de téléphone
+   * Date d’expiration — Désactive automatiquement le compte après une date
+   * Statut actif/inactif
+   * Champs de profil supplémentaires (s’ils sont configurés)
+4. Enregistrer
 
-## Importing Users
+## Importation d’utilisateurs
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![L’interface d’importation d’utilisateurs pour le téléversement de fichiers CSV ou XML contenant les données utilisateurs](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+Pour une création d’utilisateurs en masse, vous pouvez importer des utilisateurs à partir d’un fichier :
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. Cliquez sur **Importer des utilisateurs** depuis le panneau d’administration
+2. Téléversez un fichier **CSV** ou **XML** contenant les données utilisateurs
+3. Faites correspondre les colonnes du fichier aux champs utilisateur de Chamilo
+4. Choisissez comment traiter les utilisateurs existants (mettre à jour ou ignorer)
+5. Importer
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+Le fichier d’importation doit contenir au moins les colonnes suivantes : prénom, nom, e-mail, identifiant et mot de passe.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+Remarque : La colonne **Status** est le nom historique de **Rôle** et n’accepte que quelques valeurs, comme 1 pour enseignant, 5 pour étudiant. Un réglage plus fin des rôles ne peut être effectué que manuellement par la suite, en modifiant l’utilisateur.
 
-## Exporting Users
+## Exportation d’utilisateurs
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+Cliquez sur **Exporter des utilisateurs** pour télécharger la liste des utilisateurs au format CSV ou XML. Vous pouvez filtrer les utilisateurs à exporter par rôle, date d’inscription ou d’autres critères.
 
-## Editing a User
+## Modification d’un utilisateur
 
-Click on a user's name in the user list to edit their account. You can modify:
+Cliquez sur le nom d’un utilisateur dans la liste des utilisateurs pour modifier son compte. Vous pouvez modifier :
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* Les informations personnelles (nom, e-mail, téléphone)
+* Les rôles
+* Le mot de passe (réinitialisation)
+* Le statut actif/inactif
+* La date d’expiration
+* Les champs de profil supplémentaires
 
-## Deleting a User
+## Suppression d’un utilisateur
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+Lors de la suppression d’utilisateurs (généralement des enseignants) qui ont créé du contenu sur la plateforme, le système peut vous empêcher de les supprimer définitivement et afficher un message d’avertissement indiquant que l’utilisateur est encore rattaché à certaines ressources. Si vous confirmez la suppression, le système ne supprimera pas le contenu lui-même, mais le rattachera à un utilisateur neutre (appelé « utilisateur de repli » ou *Fallback user*) pour des raisons de cohérence des données.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+Pour l’éviter, consultez les détails de l’utilisateur, supprimez chacun de ses cours un par un, puis supprimez l’utilisateur.
 
-## User Actions
+## Actions sur les utilisateurs
 
 | Action | Description |
 |--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| **Désactiver** | Désactive le compte d’un utilisateur sans le supprimer. L’utilisateur ne peut plus se connecter, mais ses données sont conservées. |
+| **Activer** | Réactive un compte précédemment désactivé. |
+| **Se connecter en tant que** | Se connecter à la plateforme en tant que cet utilisateur (usurpation d’identité). Utile pour le dépannage. |
+| **Anonymiser** | Efface toutes les informations personnelles du compte, conformément au RGPD de l’UE. |
+| **Supprimer** | Suppression logique du compte utilisateur. Utilisez l’onglet **Utilisateurs supprimés** pour supprimer définitivement le compte et les données associées. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **Se connecter en tant que** est une fonctionnalité puissante. Utilisez-la de manière responsable et uniquement à des fins d’assistance légitimes.
 
-## Batch Operations
+## Opérations par lots
 
-Select multiple users in the user list to perform batch actions:
+Sélectionnez plusieurs utilisateurs dans la liste des utilisateurs pour effectuer des actions par lots :
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* Activer ou désactiver plusieurs utilisateurs à la fois
+* Supprimer plusieurs utilisateurs
+* Affecter des utilisateurs à un cours ou à une session
 
-## Tips
+## Conseils
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **Utilisez l’importation CSV pour les inscriptions nombreuses** — Lors de l’accueil de nombreux utilisateurs au début d’un programme de formation, préparez un fichier CSV et importez-le en masse
+* **Définissez des dates d’expiration** — Pour les utilisateurs temporaires (participants à un atelier, utilisateurs d’essai), définissez une date d’expiration afin de désactiver automatiquement leurs comptes
+* **Désactivez plutôt que de supprimer** — Lorsqu’un utilisateur part, désactivez d’abord son compte. Cela préserve ses historiques de formation. Ne supprimez que si vous êtes certain que les données ne sont plus nécessaires.

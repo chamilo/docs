@@ -1,36 +1,36 @@
 # OAuth2
 
-OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
+L’authentification OAuth2 se configure dans `config/authentication.yaml`. Chamilo prend nativement en charge Azure AD, Keycloak, Facebook, ainsi que tout fournisseur générique conforme à OAuth2.
 
-## Step 1 — Register Chamilo in your identity provider
+## Étape 1 — Enregistrer Chamilo dans votre fournisseur d’identité
 
-Create an application in your provider's admin panel and set the **redirect URI** to:
+Créez une application dans le panneau d’administration de votre fournisseur et définissez l’**URI de redirection** sur :
 
 ```
 https://your-chamilo-url/connect/<provider>/check
 ```
 
-Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
+Où `<provider>` vaut `azure`, `keycloak`, `facebook`, ou le nom que vous donnez à un fournisseur générique. Notez l’**ID client** et le **secret client**.
 
-## Step 2 — Configure authentication.yaml
+## Étape 2 — Configurer authentication.yaml
 
-Enable the provider and supply its credentials. All providers share these common keys:
+Activez le fournisseur et renseignez ses identifiants. Tous les fournisseurs partagent ces clés communes :
 
-| Key | Description |
+| Clé | Description |
 |-----|-------------|
-| `enabled` | `true` to activate |
-| `title` | Label shown on the login button |
-| `client_id` | From your identity provider |
-| `client_secret` | From your identity provider |
-| `allow_create_new_users` | Auto-create a Chamilo account on first login |
-| `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Hide the other methods, and show this provider's button alone |
-| `force_redirect` | Send an anonymous visitor to this provider automatically, with no button to click |
-| `skip_force_redirect_in` | List of URL fragments that `force_redirect` leaves alone |
+| `enabled` | `true` pour activer |
+| `title` | Libellé affiché sur le bouton de connexion |
+| `client_id` | Fourni par votre fournisseur d’identité |
+| `client_secret` | Fourni par votre fournisseur d’identité |
+| `allow_create_new_users` | Créer automatiquement un compte Chamilo à la première connexion |
+| `allow_update_user_info` | Synchroniser les données utilisateur à chaque connexion |
+| `force_as_login_method` | Masquer les autres méthodes et n’afficher que le bouton de ce fournisseur |
+| `force_redirect` | Envoyer automatiquement un visiteur anonyme vers ce fournisseur, sans bouton à cliquer |
+| `skip_force_redirect_in` | Liste des fragments d’URL que `force_redirect` laisse inchangés |
 
 ### Azure AD (Microsoft Entra ID)
 
-Azure has its own dedicated page covering app registration, group-based role mapping, certificate authentication, and the account-provisioning sync commands — see [Azure Entra ID](azure-entra-id.md).
+Azure dispose d’une page dédiée couvrant l’enregistrement de l’application, le mappage des rôles basé sur les groupes, l’authentification par certificat et les commandes de synchronisation du provisionnement des comptes — voir [Azure Entra ID](azure-entra-id.md).
 
 ### Keycloak
 
@@ -63,9 +63,9 @@ authentication:
         allow_create_new_users: true
 ```
 
-### Generic OAuth2
+### OAuth2 générique
 
-Use this for Google, GitLab, or any OAuth2-compliant provider:
+Utilisez cette configuration pour Google, GitLab ou tout fournisseur conforme à OAuth2 :
 
 ```yaml
 authentication:
@@ -83,18 +83,18 @@ authentication:
         allow_create_new_users: true
 ```
 
-Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
+Le mappage des champs (comment les attributs du fournisseur correspondent à `firstname`, `lastname`, `email`, etc. de Chamilo) et le mappage des rôles sont également configurables. Consultez le [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) pour la liste complète des clés de mappage.
 
-## Optional — Send every visitor to the provider automatically
+## Optionnel — Envoyer automatiquement chaque visiteur vers le fournisseur
 
-Two keys control how much of the login page a visitor still sees. They are independent, and they answer different needs:
+Deux clés contrôlent la part de la page de connexion encore visible pour le visiteur. Elles sont indépendantes et répondent à des besoins distincts :
 
-| Key | What the visitor sees |
+| Clé | Ce que voit le visiteur |
 |-----|-----------------------|
-| `force_as_login_method: true` | The login page, reduced to this provider's button. The visitor clicks it. |
-| `force_redirect: true` | No login page at all. The browser goes to the provider on its own. |
+| `force_as_login_method: true` | La page de connexion, réduite au bouton de ce fournisseur. Le visiteur clique dessus. |
+| `force_redirect: true` | Aucune page de connexion. Le navigateur se dirige de lui-même vers le fournisseur. |
 
-Use `force_redirect` when the identity provider owns every account, and the local login form has no purpose:
+Utilisez `force_redirect` lorsque le fournisseur d’identité possède tous les comptes et que le formulaire de connexion local n’a plus d’utilité :
 
 ```yaml
 authentication:
@@ -107,41 +107,41 @@ authentication:
         skip_force_redirect_in: ['/catalogue']
 ```
 
-Only one provider can force the redirect. If several declare it, the first enabled one wins. LDAP cannot declare it, because it authenticates through the local form.
+Un seul fournisseur peut forcer la redirection. Si plusieurs la déclarent, le premier activé l’emporte. LDAP ne peut pas la déclarer, car il s’authentifie via le formulaire local.
 
-The redirect applies to a page the browser displays, and to nothing else. These requests always stay where they are:
+La redirection s’applique à une page affichée par le navigateur, et à rien d’autre. Ces requêtes restent toujours à leur place :
 
-* An API, SCIM, MCP or XHR call, which cannot follow a handshake meant for a browser.
-* An image, a stylesheet or a file download.
-* Any write (POST, PUT, DELETE), because a browser replays a redirected write as a GET and drops the body.
-* The provider handshake itself (`/connect/...`) and `/logout`, which would otherwise build an endless loop.
-* A visitor who already has a session, including the anonymous account of a public course.
+* Un appel API, SCIM, MCP ou XHR, qui ne peut pas suivre une poignée de main destinée à un navigateur.
+* Une image, une feuille de style ou un téléchargement de fichier.
+* Toute écriture (POST, PUT, DELETE), car un navigateur rejoue une écriture redirigée en GET et abandonne le corps.
+* La poignée de main du fournisseur elle-même (`/connect/...`) et `/logout`, qui formeraient autrement une boucle infinie.
+* Un visiteur qui a déjà une session, y compris le compte anonyme d’un cours public.
 
-Add a URL fragment to `skip_force_redirect_in` for each public area that must stay open, such as a course catalogue.
+Ajoutez un fragment d’URL à `skip_force_redirect_in` pour chaque zone publique qui doit rester accessible, par exemple un catalogue de cours.
 
-### The escape hatch
+### La trappe de secours
 
-An unreachable provider would lock every account out, the local administrator included. Append `skipForcedRedirect=1` to any URL to reach the local login form anyway:
+Un fournisseur inaccessible verrouillerait tous les comptes, y compris celui de l’administrateur local. Ajoutez `skipForcedRedirect=1` à n’importe quelle URL pour atteindre tout de même le formulaire de connexion local :
 
 ```
 https://your-chamilo-url/login?skipForcedRedirect=1
 ```
 
-The choice stays in the session, so the pages that follow keep showing the form. It also cancels `force_as_login_method` for that session, which puts every login method back on the page. To give the platform back to the provider, use `?skipForcedRedirect=0`, or close the browser session.
+Le choix reste dans la session, de sorte que les pages suivantes continuent d’afficher le formulaire. Cela annule également `force_as_login_method` pour cette session, ce qui replace toutes les méthodes de connexion sur la page. Pour rendre la plateforme au fournisseur, utilisez `?skipForcedRedirect=0`, ou fermez la session du navigateur.
 
-The parameter belongs to `force_redirect` alone. While no provider declares that key, the parameter does nothing at all, and `force_as_login_method` keeps its single button.
+Le paramètre appartient uniquement à `force_redirect`. Tant qu’aucun fournisseur ne déclare cette clé, le paramètre ne fait rien du tout, et `force_as_login_method` conserve son bouton unique.
 
-Keep this URL with your recovery notes. Test it before you enable `force_redirect` in production.
+Conservez cette URL avec vos notes de récupération. Testez-la avant d’activer `force_redirect` en production.
 
-## Step 3 — Clear cache and test
+## Étape 3 — Vider le cache et tester
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
+Déconnectez-vous de Chamilo. Le bouton du fournisseur configuré doit apparaître sur la page de connexion. Testez avec un compte dédié avant de déployer auprès de tous les utilisateurs.
 
-## Tips
+## Conseils
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues. If you set `force_redirect`, learn the `?skipForcedRedirect=1` URL instead: it is the only way back to that form.
-* Role assignment defaults to student; use group mapping (Azure) to promote users to teacher or admin roles automatically — see [Azure Entra ID](azure-entra-id.md) for details on that and on matching incoming users to existing accounts.
+* Conservez le formulaire de connexion standard activé afin que les administrateurs puissent toujours se connecter en cas de problème avec OAuth2. Si vous définissez `force_redirect`, apprenez plutôt l’URL `?skipForcedRedirect=1` : c’est le seul moyen de revenir à ce formulaire.
+* L’attribution des rôles est par défaut celle d’étudiant ; utilisez le mappage de groupes (Azure) pour promouvoir automatiquement les utilisateurs vers les rôles enseignant ou administrateur — voir [Azure Entra ID](azure-entra-id.md) pour les détails à ce sujet et pour faire correspondre les utilisateurs entrants aux comptes existants.

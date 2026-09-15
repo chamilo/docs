@@ -1,7 +1,7 @@
-# Theming
+# Thématisation
 
-Chamilo 3.0 supports visual customization through color themes, CSS/Tailwind, and Twig templates.
+Chamilo 3.0 prend en charge la personnalisation visuelle via les thèmes de couleurs, CSS/Tailwind et les modèles Twig.
 
-* **[Color Themes](color-themes.md)** — The color theme system
-* **[CSS and Tailwind](css-and-tailwind.md)** — Styling architecture
-* **[Twig Templates](twig-templates.md)** — Server-side template structure
+* **[Thèmes de couleurs](color-themes.md)** — Le système de thèmes de couleurs
+* **[CSS et Tailwind](css-and-tailwind.md)** — Architecture de style
+* **[Modèles Twig](twig-templates.md)** — Structure des modèles côté serveur

@@ -1,88 +1,88 @@
-# Access URLs
+# URLs d’accès
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+Les URLs d’accès permettent à une seule installation Chamilo de desservir plusieurs portails distincts.
 
-This tool is also reachable from the administration dashboard's [Platform](../platform/README.md) block, as **Configure multiple access URL**.
+Cet outil est également accessible depuis le bloc [Plateforme](../platform/README.md) du tableau de bord d’administration, sous **Configurer plusieurs URL d’accès**.
 
 
-## Use Cases
+## Cas d’usage
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+* **Déploiements multi-locataires** — Héberger des portails de formation distincts pour différentes organisations sur un seul serveur
+* **Portails départementaux** — Offrir à chaque département son propre portail habillé (par ex. `hr.training.company.com`, `it.training.company.com`)
+* **Portails régionaux** — Portails séparés pour différentes régions ou langues
 
-## How It Works
+## Fonctionnement
 
-Each access URL is a separate entry point to the same Chamilo installation:
+Chaque URL d’accès est un point d’entrée distinct vers la même installation Chamilo :
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+* Les utilisateurs peuvent être affectés à une ou plusieurs URLs d’accès
+* Les cours et les sessions appartiennent à des URLs d’accès spécifiques
+* Les paramètres de la plateforme peuvent être personnalisés par URL d’accès
+* L’habillage et les thèmes peuvent différer selon l’URL
+* Les utilisateurs d’un portail ne voient pas les utilisateurs ni les cours d’un autre (sauf partage explicite)
 
 ## Configuration
 
-### Enabling Multi-URL
+### Activation du multi-URL
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+Le multi-URL doit être activé dans la configuration Chamilo (généralement dans les paramètres d’environnement). Cela se fait habituellement lors de l’installation initiale.
 
-### Creating an Access URL
+### Création d’une URL d’accès
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`) and a description
-4. Optionally pick a **Parent URL** to nest this URL under another one — see [URL Hierarchy](#url-hierarchy) below
-5. Save
+1. Depuis le panneau d’administration, accédez à **URLs d’accès**
+2. Cliquez sur **Ajouter une URL**
+3. Saisissez l’URL (par ex. `https://portal2.yoursite.com`) et une description
+4. Choisissez éventuellement une **URL parente** pour imbriquer cette URL sous une autre — voir [Hiérarchie des URLs](#url-hierarchy) ci-dessous
+5. Enregistrez
 
-### Assigning Users and Courses
+### Affectation des utilisateurs et des cours
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+* **Utilisateurs** — Affectez les utilisateurs à des URLs d’accès spécifiques. Un utilisateur peut appartenir à plusieurs URLs.
+* **Cours** — Affectez les cours à des URLs d’accès spécifiques
+* **Sessions** — Affectez les sessions à des URLs d’accès spécifiques
 
-### Per-URL Settings
+### Paramètres par URL
 
-Each access URL can have its own:
+Chaque URL d’accès peut disposer de ses propres :
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+* **Thème de couleurs** — Habillage visuel distinct
+* **Nom de plateforme et logo** — Identité personnalisée
+* **Surcharges de paramètres** — Certains paramètres de la plateforme peuvent être personnalisés par URL
 
-## URL Hierarchy
+## Hiérarchie des URLs
 
-Access URLs can be organized into a parent/child tree instead of a flat list. When creating or editing a URL, an unrestricted Global Administrator (see [Subtree Administrators](#subtree-administrators) below) can pick any other URL as its **Parent URL**:
+Les URLs d’accès peuvent être organisées en arborescence parent/enfant plutôt qu’en liste plate. Lors de la création ou de la modification d’une URL, un administrateur global non restreint (voir [Administrateurs de sous-arbre](#subtree-administrators) ci-dessous) peut choisir n’importe quelle autre URL comme **URL parente** :
 
-![Edit URL dialog with the Parent URL dropdown open, listing the other access URLs available as a parent](/.gitbook/assets/admin-access-url-parent-select.png)
+![Boîte de dialogue de modification d’URL avec la liste déroulante URL parente ouverte, listant les autres URLs d’accès disponibles comme parent](/.gitbook/assets/admin-access-url-parent-select.png)
 
-* The dropdown never offers the URL being edited, or any of its own descendants, as a possible parent — this prevents creating a cycle. The backend re-validates this regardless of what the interface shows.
-* If a URL is created without picking a parent, it defaults to the **login-only URL** if one exists (see [Per-URL Settings](#per-url-settings) above), or otherwise to the first access URL — the same default behavior as before this feature existed.
-* The topmost URL of a tree — the one with no parent — is that tree's **root**. A single Chamilo installation can host more than one independent tree.
+* La liste déroulante ne propose jamais l’URL en cours de modification, ni aucun de ses propres descendants, comme parent possible — cela empêche de créer un cycle. Le backend revalide cette contrainte indépendamment de ce que l’interface affiche.
+* Si une URL est créée sans choisir de parent, elle prend par défaut l’**URL de connexion uniquement** s’il en existe une (voir [Paramètres par URL](#per-url-settings) ci-dessus), ou sinon la première URL d’accès — le même comportement par défaut qu’avant l’existence de cette fonctionnalité.
+* L’URL la plus haute d’un arbre — celle qui n’a pas de parent — est la **racine** de cet arbre. Une même installation Chamilo peut héberger plusieurs arbres indépendants.
 
-Wherever access URLs are listed — the Multi-URL dashboard and the Access URLs management page — the tree is shown through indentation, a parent immediately followed by its own children (siblings sorted alphabetically), instead of a separate "Parent" column:
+Partout où les URLs d’accès sont listées — le tableau de bord multi-URL et la page de gestion des URLs d’accès — l’arbre est représenté par une indentation, un parent immédiatement suivi de ses propres enfants (frères et sœurs triés par ordre alphabétique), au lieu d’une colonne « Parent » séparée :
 
-![Access URLs list showing a root URL with two child URLs, one of which has its own child URL, indented to reflect the hierarchy](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste des URLs d’accès montrant une URL racine avec deux URLs enfants, dont l’une a sa propre URL enfant, indentées pour refléter la hiérarchie](/.gitbook/assets/admin-access-url-hierarchy-list.png)
 
-## Subtree Administrators
+## Administrateurs de sous-arbre
 
-The URL hierarchy also determines what a [Global Administrator](../users/user-roles.md) can manage:
+La hiérarchie des URLs détermine également ce qu’un [administrateur global](../users/user-roles.md) peut gérer :
 
-* One registered on the **root** URL of a tree is **unrestricted**: they manage every access URL, exactly as before this feature existed.
-* One registered only on a **non-root** URL is **scoped**: the Multi-URL and Access URLs pages only show that URL and its descendants, and the logins chart on the Multi-URL dashboard reads "Logins (your URLs)" instead of "Logins (all URLs combined)".
+* Un administrateur enregistré sur l’URL **racine** d’un arbre est **non restreint** : il gère toutes les URLs d’accès, exactement comme avant l’existence de cette fonctionnalité.
+* Un administrateur enregistré uniquement sur une URL **non racine** est **limité** : les pages Multi-URL et URLs d’accès n’affichent que cette URL et ses descendants, et le graphique des connexions du tableau de bord multi-URL indique « Connexions (vos URLs) » au lieu de « Connexions (toutes les URLs combinées) ».
 
-Regardless of scope, the following stay reserved to an **unrestricted** Global Administrator — a scoped administrator cannot perform them even for URLs within their own subtree:
+Quel que soit le périmètre, les actions suivantes restent réservées à un administrateur global **non restreint** — un administrateur limité ne peut pas les effectuer, même pour les URLs de son propre sous-arbre :
 
-* Creating a new access URL
-* Editing an access URL's own URL, description, or parent
-* Activating or deactivating an access URL
-* Deleting an access URL (the root URL of the whole installation can never be deleted, by anyone)
-* Registering themselves into every access URL at once
+* Créer une nouvelle URL d’accès
+* Modifier l’URL, la description ou le parent d’une URL d’accès
+* Activer ou désactiver une URL d’accès
+* Supprimer une URL d’accès (l’URL racine de l’installation entière ne peut jamais être supprimée, par quiconque)
+* S’enregistrer eux-mêmes dans toutes les URLs d’accès à la fois
 
-A scoped administrator can still manage everything *assigned to* the URLs in their subtree — users, courses, sessions, branding, and settings — just not the access URL entries themselves.
+Un administrateur limité peut néanmoins gérer tout ce qui est *affecté* aux URLs de son sous-arbre — utilisateurs, cours, sessions, habillage et paramètres — mais pas les entrées d’URL d’accès elles-mêmes.
 
-## Tips
+## Conseils
 
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs. To delegate management of just one branch instead, register the administrator on a non-root URL — see [Subtree Administrators](#subtree-administrators)
+* **Décidez tôt** — Si vous optez pour une configuration multi-URL, vous devez le faire dès le début de votre projet Chamilo, car cela nécessite de laisser la première URL relativement vide de contenu. Activer le multi-URL a posteriori est plus délicat (nécessite des modifications manuelles des bases de données).
+* **Planifiez la structure des URL** — Décidez de votre schéma d'URL avant de créer les URL d'accès, car modifier les URL plus tard affecte tous les liens et favoris existants
+* **Configuration DNS** — Chaque URL d'accès doit résoudre vers le même serveur Chamilo. Configurez les enregistrements DNS en conséquence.
+* **Administrateur global** — Utilisez le rôle d'administrateur global pour gérer l'ensemble des URL d'accès. Pour déléguer la gestion d'une seule branche, inscrivez l'administrateur sur une URL non racine — voir [Administrateurs de sous-arbre](#subtree-administrators)

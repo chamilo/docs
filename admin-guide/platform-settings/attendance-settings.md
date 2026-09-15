@@ -1,50 +1,49 @@
-# Attendance Settings
+# Paramètres de présence
 
-Defaults and behaviour of the **Attendance** tool.
+Valeurs par défaut et comportement de l’outil **Attendance**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Attendance**. Cette catégorie contient **5 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est indiqué en monospace. Utilisez-le pour les scripts via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Présences : activer la suppression**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Le comportement par défaut de Chamilo consiste à masquer les feuilles de présence plutôt qu’à les supprimer, au cas où l’enseignant le ferait par erreur. Activez cette option pour autoriser les enseignants à *vraiment* supprimer les feuilles de présence.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Autoriser les commentaires dans les feuilles de présence**
 
-Teachers and students can comment on each individual attendance (to justify).
+Les enseignants et les étudiants peuvent commenter chaque présence individuelle (pour justifier).
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `attendance_calendar_set_duration` **v3**
 
-**Duration of attendance events**
+**Durée des événements de présence**
 
-Option to define the duration for an event in attendance sheet.
+Option permettant de définir la durée d’un événement dans la feuille de présence.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Signature des présences**
 
-Enable taking signatures to confirm one's attendance.
+Activer la prise de signatures pour confirmer sa présence.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Activer la notation multiniveau des présences**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Permet de noter les présences selon plusieurs niveaux au lieu d’un simple système présent/absent.
 
-*Default: `false`*
-
+*Par défaut : `false`*

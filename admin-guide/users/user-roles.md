@@ -1,57 +1,57 @@
-# User Roles
+# Rôles utilisateurs
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamilo utilise un système de permissions fondé sur les rôles. Chaque utilisateur se voit attribuer un rôle qui détermine ce qu’il peut voir et faire sur la plateforme.
 
-## Platform-Level Roles
+## Rôles au niveau de la plateforme
 
-These roles control access to platform-wide features:
+Ces rôles contrôlent l’accès aux fonctionnalités à l’échelle de la plateforme :
 
-| Role |  Description |
+| Rôle |  Description |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign tutors. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup — or, if registered on a non-root URL, scoped to just that URL's branch. See [Subtree Administrators](../multi-url/access-urls.md#subtree-administrators). |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **Apprenant (étudiant)** | Le rôle par défaut. Peut s’inscrire aux cours, accéder au contenu pédagogique, rendre des devoirs et passer des exercices. |
+| **Enseignant (formateur)** | Peut créer et gérer des cours, ajouter du contenu, noter les étudiants et consulter les rapports au niveau du cours. |
+| **Administrateur de sessions** | Peut créer et gérer des sessions (c’est-à-dire des ensembles de cours limités dans le temps), inscrire des utilisateurs aux sessions et affecter des tuteurs. Ne peut pas accéder aux paramètres généraux de la plateforme. |
+| **Responsable des ressources humaines (RRH)** | Peut consulter les données de suivi et de reporting pour les utilisateurs qui lui sont assignés. Destiné aux superviseurs qui doivent suivre la formation des employés sans gérer le contenu ni la plateforme. |
+| **Administrateur de portail** | Accès complet à toutes les fonctionnalités d’administration de la plateforme. Peut gérer les utilisateurs, les cours, les sessions, les plugins et tous les paramètres. |
+| **Administrateur global** | Identique à l’administrateur de portail, mais avec un accès à toutes les URL d’accès dans une configuration multi-URL (c’est-à-dire multi-locataire) — ou, s’il est enregistré sur une URL non racine, limité à la branche de cette URL. Voir [Administrateurs de sous-arbre](../multi-url/access-urls.md#subtree-administrators). |
+| **Anonyme** | Un rôle spécial pour les visiteurs non connectés. Peut accéder aux cours et contenus publics si cette option est activée. |
 
-## Course-Level Roles
+## Rôles au niveau du cours
 
-Within a course, users have specific roles:
+Au sein d’un cours, les utilisateurs ont des rôles spécifiques :
 
-| Role | Description |
+| Rôle | Description |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **Étudiant** | Rôle de cours par défaut. Peut accéder au contenu, passer des exercices, rendre des devoirs. |
+| **Assistant de cours** | Dispose de permissions de gestion limitées au sein du cours. Peut aider à gérer le contenu et modérer les forums. |
+| **Enseignant** | Contrôle total du cours : gestion du contenu, des outils, des paramètres et des inscriptions. |
 
-## Session-Level Roles
+## Rôles au niveau de la session
 
-Within a session, additional roles exist:
+Au sein d’une session, des rôles supplémentaires existent :
 
-| Role | Description |
+| Rôle | Description |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Tuteur de session** | Supervise tous les cours d’une session. Peut consulter le suivi sur l’ensemble des cours de la session. |
+| **Tuteur de cours** | Enseigne un cours spécifique au sein d’une session. Peut gérer le contenu et suivre les apprenants pour ce cours dans cette session. |
 
-Note: This role was called "coach" in Chamilo versions before 3.0. As of Chamilo 3.0, "coach" has been replaced by "tutor" everywhere in the platform's interface and documentation — a tutor is a person who helps learners through a course, not a personal coach. The underlying setting names in `Configuration settings` still contain "coach" for backward compatibility (for example `add_users_by_coach`), but their labels now read "tutor".
+Remarque : Ce rôle s’appelait « coach » dans les versions de Chamilo antérieures à 3.0. À partir de Chamilo 3.0, « coach » a été remplacé par « tuteur » partout dans l’interface et la documentation de la plateforme — un tuteur est une personne qui accompagne les apprenants dans un cours, et non un coach personnel. Les noms de paramètres sous-jacents dans `Configuration settings` contiennent encore « coach » pour des raisons de compatibilité ascendante (par exemple `add_users_by_coach`), mais leurs libellés indiquent désormais « tuteur ».
 
-## Assigning Roles
+## Attribution des rôles
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+Lors de la création ou de la modification d’un compte utilisateur dans le panneau d’administration, vous sélectionnez son rôle au niveau de la plateforme. Les rôles de cours et de session sont attribués lors de l’inscription des utilisateurs aux cours ou aux sessions.
 
-## Role Hierarchy
+## Hiérarchie des rôles
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+Les rôles plus privilégiés héritent des capacités des rôles moins privilégiés :
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (tutor) provide additional capabilities only within their assigned session
+* Un administrateur peut faire tout ce qu’un enseignant peut faire
+* Un enseignant peut faire tout ce qu’un étudiant peut faire
+* Les rôles au niveau de la session (tuteur) offrent des capacités supplémentaires uniquement au sein de la session qui leur est assignée
 
-## Tips
+## Conseils
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 3.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **Appliquez le principe du moindre privilège** — Attribuez aux utilisateurs le rôle minimal dont ils ont besoin pour accomplir leurs tâches
+* **Utilisez les administrateurs de sessions pour une gestion déléguée** — Si vous avez des collaborateurs qui doivent gérer des sessions de formation sans administrer l’ensemble de la plateforme, donnez-leur le rôle Administrateur de sessions plutôt qu’un accès administrateur complet
+* **Utilisez le RRH pour les superviseurs** — Les responsables des ressources humaines peuvent suivre la progression de la formation sans avoir accès à la modification des cours ou des paramètres de la plateforme
+* **Création de rôles** — Chamilo 3.x dispose de la structure interne prête pour la création de nouveaux rôles, mais la fonctionnalité nécessite davantage de tests avant une diffusion large. Elle peut être activée via les [fournisseurs officiels de Chamilo](https://chamilo.org/providers).

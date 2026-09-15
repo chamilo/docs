@@ -1,88 +1,87 @@
-# Announcements Settings
+# Paramètres des annonces
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+Comportement de l’outil **Annonces** du cours — envoi et planification des annonces.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Annonces**. Cette catégorie contient **10 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est indiqué en monospace. Utilisez-le pour scripter via l’API ou pour modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**Lier les annonces globales aux filières et promotions**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+Lorsque cette option est activée, les annonces globales peuvent être associées à des filières et des promotions pour une diffusion ciblée.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow tutors to always edit announcements**
+**Autoriser les tuteurs à toujours modifier les annonces**
 
-Allow tutors to always edit announcements inside active or past sessions.
+Autoriser les tuteurs à toujours modifier les annonces dans les sessions actives ou passées.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**Activer les annonces planifiées dans les sessions**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+Permet aux gestionnaires de sessions de définir des annonces qui seront déclenchées à des dates précises ou un certain nombre de jours avant/après le début/la fin de la session. L’activation de cette fonctionnalité nécessite la configuration d’une tâche cron.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**Masquer l’option d’envoi des annonces aux utilisateurs RH**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+Supprime la case à cocher permettant d’envoyer les annonces aux utilisateurs ayant des rôles RH (une confirmation reste nécessaire dans l’outil Annonces).
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**Annonces basées sur la date**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+Permet aux enseignants de configurer des annonces qui seront envoyées à des dates précises. Cela nécessite la configuration d’une tâche cron sur cron/course_announcement.php s’exécutant au moins une fois par jour.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**Désactiver les pièces jointes aux annonces**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+Même si, dans cette version, les pièces jointes sont gérées de manière élégante et ne se multiplient pas sur le disque, vous pouvez souhaiter les désactiver entièrement pour éviter les excès.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**Désactiver le bouton de suppression de toutes les annonces**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+Sélectionnez « Oui » pour retirer le bouton de suppression de toutes les annonces, car il peut être utilisé par erreur par les enseignants.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**Masquer « envoyé à » dans les annonces**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+Sélectionnez « Oui » pour ne pas afficher à qui une annonce a été envoyée.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_global_announcements_when_not_connected` **v3**
 
-**Hide global announcements for anonymous**
+**Masquer les annonces globales pour les anonymes**
 
-Hide platform announcements from anonymous users, and only show them to authenticated users.
+Masque les annonces de la plateforme aux utilisateurs anonymes et ne les affiche qu’aux utilisateurs authentifiés.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**Masquer l’option d’envoi d’une copie de l’annonce au RH**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+Dans le formulaire des annonces, une option apparaît normalement pour permettre aux enseignants d’envoyer une copie de l’annonce au responsable RH de l’utilisateur. Réglez cette option sur « Oui » pour retirer l’option (et *ne pas* envoyer la copie).

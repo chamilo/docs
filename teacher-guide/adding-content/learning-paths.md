@@ -1,155 +1,155 @@
-# Learning Paths
+# Parcours d'apprentissage
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Les parcours d'apprentissage vous permettent de créer des séquences structurées d'activités d'apprentissage. Un parcours guide vos apprenants à travers un ordre précis de documents, d'exercices, de liens et d'autres ressources, avec des prérequis optionnels et un suivi de la progression.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Cet outil est sans doute l'outil de cours le plus utilisé, car il agit comme un compositeur pour de nombreux autres outils et peut très bien être le ***seul*** outil auquel les apprenants sont confrontés.
 
-## Why Use Learning Paths?
+## Pourquoi utiliser les parcours d'apprentissage ?
 
-Learning paths are useful when you want to:
+Les parcours d'apprentissage sont utiles lorsque vous souhaitez :
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Contrôler l'ordre** de consultation du contenu — garantir que les apprenants terminent le matériel de base avant d'avancer
+* **Suivre la progression** — voir exactement où se trouve chaque apprenant dans la séquence
+* **Définir des prérequis** — exiger que les apprenants réussissent un exercice avant d'accéder à la section suivante
+* **Attribuer une achèvement** — lier l'achèvement du parcours au carnet de notes et aux certificats
+* **Conditionner le contenu** — créer des modules d'apprentissage autonomes que les apprenants peuvent parcourir à leur rythme
 
-## Creating a Learning Path
+## Créer un parcours d'apprentissage
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Ouvrez l'outil **Parcours d'apprentissage** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d'apprentissage" data-size="line"> depuis la page d'accueil du cours
+2. Cliquez sur **Créer un parcours d'apprentissage**
+3. Saisissez un **titre** et une description facultative
+4. Enregistrez — vous serez dirigé vers l'éditeur de parcours d'apprentissage
 
-## The Learning Path Editor
+## L'éditeur de parcours d'apprentissage
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![L'éditeur de parcours d'apprentissage avec l'arbre des éléments à gauche et l'aperçu du contenu à droite](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+L'éditeur comporte deux zones principales :
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Panneau de gauche** — La liste des éléments (étapes) du parcours d'apprentissage, présentée sous forme d'arborescence
+* **Panneau de droite** — Le contenu de l'élément sélectionné
 
-### Adding Items
+### Ajouter des éléments
 
-Click **Add an item** and choose what to add:
+Cliquez sur **Ajouter un élément** et choisissez ce que vous souhaitez ajouter :
 
-| Item type | Description |
+| Type d'élément | Description |
 |-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| **Section** | Un titre qui regroupe des éléments liés (comme un titre de chapitre). Les sections ne contiennent pas de contenu elles-mêmes. |
+| **Document** | Un fichier ou une page web provenant de l'outil Documents de votre cours |
+| **Exercice** | Un quiz ou un test provenant de l'outil Exercices |
+| **Lien** | Une URL externe |
+| **Travail** | Une publication d'étudiant provenant de l'outil Travaux |
+| **Forum** | Un lien vers un forum du cours |
+| **Enquête** | Un lien vers une enquête |
+| **Certificat** | Une page spéciale pour déclencher la génération d'un certificat d'achèvement ou l'attribution de compétences |
 
-### Organizing Items
+### Organiser les éléments
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Glissez-déposez** les éléments pour les réordonner
+* **Imbriquez les éléments** sous des sections en les faisant glisser vers la droite
+* **Supprimez** les éléments dont vous n'avez plus besoin
 
-### Setting Prerequisites
+### Définir des prérequis
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Les prérequis garantissent que les apprenants terminent certaines étapes avant d'accéder à d'autres :
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Sélectionnez un élément dans le parcours d'apprentissage
+2. Ouvrez ses paramètres de **prérequis**
+3. Choisissez le ou les éléments précédents qui doivent d'abord être terminés
+4. Pour les exercices, vous pouvez exiger un **score minimum** (par ex. « Doit obtenir au moins 70 % au Quiz 1 avant d'accéder au Module 2 »)
 
-## Learner Experience
+## Expérience de l'apprenant
 
-When a learner opens a learning path:
+Lorsqu'un apprenant ouvre un parcours d'apprentissage :
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Il voit la liste des éléments dans le panneau de gauche
+* Les éléments terminés sont marqués d'une coche
+* Les éléments dont les prérequis ne sont pas remplis sont verrouillés
+* La progression est suivie automatiquement — si un apprenant quitte puis revient, il reprend là où il s'était arrêté
+* Une barre de progression indique le pourcentage d'achèvement global
 
-## SCORM Content
+## Contenu SCORM
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+L'outil de parcours d'apprentissage de Chamilo peut importer des paquets **SCORM 1.2** — le standard e-learning le plus largement utilisé. Téléversez un fichier ZIP SCORM et Chamilo créera un parcours d'apprentissage à partir de celui-ci, en suivant la progression et les scores conformément à la spécification SCORM.
 
-To import a SCORM package:
+Pour importer un paquet SCORM :
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Dans l'outil Parcours d'apprentissage, ouvrez le menu d'actions et cliquez sur **Téléverser**
+2. Téléversez le fichier ZIP
+3. Chamilo décompresse et crée le parcours d'apprentissage automatiquement
 
-### CMI5 / xAPI packages
+### Paquets CMI5 / xAPI
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+Les paquets CMI5 (le successeur moderne de SCORM basé sur xAPI) sont pris en charge via le plugin **XApi**. Une fois le plugin activé par votre administrateur, vous pouvez importer un paquet CMI5 et les apprenants peuvent le lancer depuis le cours ; leurs statements sont transmis au Learning Record Store configuré.
 
-## Content Authoring with C-Studio
+## Création de contenu avec C-Studio
 
-*Available if your administrator has enabled the C-Studio plugin.*
+*Disponible si votre administrateur a activé le plugin C-Studio.*
 
-C-Studio adds a built-in, drag-and-drop visual editor for creating interactive content directly inside a learning path — an alternative to importing a SCORM package when you don't have (or don't want to learn) a separate authoring tool like Articulate or iSpring. You build the content page by page right in Chamilo, and it's stored and tracked like any other learning path item.
+C-Studio ajoute un éditeur visuel intégré, par glisser-déposer, pour créer du contenu interactif directement dans un parcours d'apprentissage — une alternative à l'importation d'un paquet SCORM lorsque vous n'avez pas (ou ne souhaitez pas apprendre) un outil-auteur distinct comme Articulate ou iSpring. Vous construisez le contenu page par page directement dans Chamilo, et il est stocké et suivi comme n'importe quel autre élément de parcours d'apprentissage.
 
-### Starting a C-Studio Project
+### Démarrer un projet C-Studio
 
-When the plugin is active, the Learning Paths list shows an extra button next to the usual actions menu, marked with a "+" and a "Studio Tools" tooltip:
+Lorsque le plugin est actif, la liste des parcours d’apprentissage affiche un bouton supplémentaire à côté du menu d’actions habituel, marqué d’un « + » et d’une infobulle « Studio Tools » :
 
-![The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions menu](/.gitbook/assets/cstudio-lp-button.png)
+![La liste des parcours d’apprentissage affichant le bouton C-Studio « Studio Tools » à côté du menu d’actions standard](/.gitbook/assets/cstudio-lp-button.png)
 
-Click it to start. You'll be asked to create a new project from scratch or import an existing one:
+Cliquez dessus pour commencer. Il vous sera demandé de créer un nouveau projet à partir de zéro ou d’importer un projet existant :
 
-![The C-Studio start screen offering to create a new project or import an existing one](/.gitbook/assets/cstudio-start-screen.png)
+![L’écran de démarrage de C-Studio proposant de créer un nouveau projet ou d’importer un projet existant](/.gitbook/assets/cstudio-start-screen.png)
 
-This particular screen is currently only available in French, regardless of your platform or course language — a known limitation of the plugin version in use. Give your project a title and it opens straight into the editor.
+Cet écran particulier n’est actuellement disponible qu’en français, quelle que soit la langue de votre plateforme ou de votre cours — une limitation connue de la version du plugin utilisée. Donnez un titre à votre projet : il s’ouvre directement dans l’éditeur.
 
-### The Editor
+### L’éditeur
 
-![The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project panel on the left](/.gitbook/assets/cstudio-editor.png)
+![L’éditeur visuel C-Studio, montrant le canevas de page, la palette d’outils à droite et le panneau du projet à gauche](/.gitbook/assets/cstudio-editor.png)
 
-The editor is a page-by-page visual builder:
+L’éditeur est un constructeur visuel page par page :
 
-* **Left panel** — your project's pages, with a "+" to add more, and a **Tools** section at the bottom (Clean data, Preview, Colors, Options, Quit)
-* **Center canvas** — the page you're building; click any element to edit it in place
-* **Right panel** — the component palette, dragged onto the canvas
+* **Panneau de gauche** — les pages de votre projet, avec un « + » pour en ajouter, et une section **Tools** en bas (Clean data, Preview, Colors, Options, Quit)
+* **Canevas central** — la page que vous construisez ; cliquez sur n’importe quel élément pour le modifier sur place
+* **Panneau de droite** — la palette de composants, à faire glisser sur le canevas
 
-The palette covers basic building blocks (columns, images, audio, titles, text, buttons, cards) as well as several interactive exercise types: **Drag Drop**, **Fill text**, **Hotspot Img**, **Mark Words**, **Find Words**, and **Sort paragraphs**, plus an **iframe** block for embedding external content and a **Quiz** block.
+La palette couvre les blocs de construction de base (colonnes, images, audio, titres, texte, boutons, cartes) ainsi que plusieurs types d’exercices interactifs : **Drag Drop**, **Fill text**, **Hotspot Img**, **Mark Words**, **Find Words** et **Sort paragraphs**, plus un bloc **iframe** pour intégrer du contenu externe et un bloc **Quiz**.
 
-### Language
+### Langue
 
-C-Studio's own interface may default to French the first time you open it, independent of your Chamilo interface language or the course's language. If so, go to **File > UI language** and pick your language — the editor reloads immediately and remembers your choice afterward.
+L’interface propre de C-Studio peut s’afficher par défaut en français la première fois que vous l’ouvrez, indépendamment de la langue de l’interface Chamilo ou de la langue du cours. Le cas échéant, allez dans **File > UI language** et choisissez votre langue — l’éditeur se recharge immédiatement et mémorise ensuite votre choix.
 
-![The File menu open, showing the "UI language" option](/.gitbook/assets/cstudio-file-menu.png)
+![Le menu File ouvert, affichant l’option « UI language »](/.gitbook/assets/cstudio-file-menu.png)
 
-### Saving and Exporting
+### Enregistrement et exportation
 
-Use **File > Save** as you work. **File > Export...** packages your project as a SCORM file you can download, back up, or reuse elsewhere via **Import...**. **File > Quit** returns you to the learning path list, where your C-Studio project now appears as a regular item.
+Utilisez **File > Save** au fur et à mesure. **File > Export...** empaquette votre projet sous forme de fichier SCORM que vous pouvez télécharger, sauvegarder ou réutiliser ailleurs via **Import...**. **File > Quit** vous ramène à la liste des parcours d’apprentissage, où votre projet C-Studio apparaît désormais comme un élément ordinaire.
 
-## Learning Path Settings
+## Paramètres du parcours d’apprentissage
 
-Configure how the learning path behaves:
+Configurez le comportement du parcours d’apprentissage :
 
-| Setting | Description |
+| Paramètre | Description |
 |---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| **Visibility** | Masquer ou afficher le parcours d’apprentissage aux apprenants |
+| **Prerequisites** | Exiger l’achèvement d’autres parcours d’apprentissage avant celui-ci |
+| **Auto-launch** | Ouvrir automatiquement ce parcours d’apprentissage lorsque les apprenants entrent dans le cours |
+| **Accumulated SCORM time** | Indique s’il faut cumuler le temps sur plusieurs sessions |
 
-## Linking to the Gradebook
+## Liaison au carnet de notes
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+Vous pouvez inclure l’achèvement du parcours d’apprentissage comme activité notée dans le carnet de notes. Cela permet à la progression du parcours de contribuer à la note globale de l’apprenant et à l’éligibilité au certificat.
 
-## Using AI
+## Utilisation de l’IA
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Si l’administrateur a activé la génération de parcours d’apprentissage assistée par l’IA, vous trouverez une option de générateur IA dans le menu déroulant des actions. Donnez à l’IA un contexte aussi précis que vous le souhaitez pour votre parcours, demandez un nombre de pages et un nombre approximatif de mots par page, puis indiquez si vous voulez le peupler de tests et lancez. Quelques minutes plus tard, vous avez sous les yeux un parcours d’apprentissage complet, basé sur du texte.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Modifiez les documents pour générer des illustrations avec davantage d’IA : il ne vous reste plus qu’une relecture avant de le partager avec vos apprenants.
 
-## Tips
+## Conseils
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo. If your administrator has enabled the C-Studio plugin, you can build similar interactive content directly in Chamilo instead — see [Content Authoring with C-Studio](#content-authoring-with-c-studio) above
+* **Commencez par un plan** — Planifiez vos sections et vos éléments avant de construire le parcours
+* **Utilisez les sections comme chapitres** — Regroupez les éléments liés sous des titres de section pour plus de clarté
+* **Définissez des prérequis pour les évaluations** — Exigez que les apprenants étudient le contenu avant de passer un quiz
+* **Mélangez les types de contenu** — Combinez supports de lecture, vidéos, exercices interactifs et ressources externes pour une expérience d’apprentissage engageante
+* **Vérifiez la vue apprenant** — Utilisez la fonctionnalité Vue étudiant pour parcourir le parcours comme le ferait un apprenant
+* **Utilisez SCORM pour l’interactivité** — Si vous avez accès à des outils d’auteur SCORM (comme Articulate, iSpring ou similaires), créez du contenu interactif riche et importez-le dans Chamilo. Si votre administrateur a activé le plugin C-Studio, vous pouvez construire un contenu interactif similaire directement dans Chamilo — voir [Création de contenu avec C-Studio](#content-authoring-with-c-studio) ci-dessus

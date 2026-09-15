@@ -1,36 +1,36 @@
-# Two-Factor Authentication
+# Authentification à deux facteurs
 
-Two-factor authentication (2FA) adds a second step to signing in — a 6-digit code from an app on your phone, in addition to your password — so that knowing your password alone isn't enough to access your account.
+L’authentification à deux facteurs (2FA) ajoute une seconde étape à la connexion — un code à 6 chiffres provenant d’une application sur votre téléphone, en plus de votre mot de passe — de sorte que la seule connaissance de votre mot de passe ne suffit pas à accéder à votre compte.
 
-This feature only appears if your administrator has enabled it platform-wide. If you don't see it on your account page, it hasn't been turned on for your platform.
+Cette fonctionnalité n’apparaît que si votre administrateur l’a activée pour l’ensemble de la plateforme. Si vous ne la voyez pas sur la page de votre compte, elle n’a pas été activée pour votre plateforme.
 
-## Enabling 2FA
+## Activer la 2FA
 
-1. Open your **avatar menu** and click **My profile**.
-2. Click **Change password**.
-3. Enter your **current password**, check the box **Enable two-factor authentication (2FA)**, and click **Update settings**.
-4. The page reloads with a QR code and the message "Scan the QR code to enable 2FA." Scan it with an authenticator app on your phone (any TOTP-compatible app works, such as Google Authenticator, Microsoft Authenticator, or Authy).
+1. Ouvrez votre **menu de l’avatar** et cliquez sur **Mon profil**.
+2. Cliquez sur **Modifier le mot de passe**.
+3. Saisissez votre **mot de passe actuel**, cochez la case **Activer l’authentification à deux facteurs (2FA)**, puis cliquez sur **Mettre à jour les paramètres**.
+4. La page se recharge avec un QR code et le message « Scannez le QR code pour activer la 2FA ». Scannez-le avec une application d’authentification sur votre téléphone (toute application compatible TOTP convient, comme Google Authenticator, Microsoft Authenticator ou Authy).
 
-![The Change Password form after submitting, showing the QR code to scan and the 2FA code field](/.gitbook/assets/student-2fa-qr-code.png)
+![Le formulaire Modifier le mot de passe après envoi, affichant le QR code à scanner et le champ de code 2FA](/.gitbook/assets/student-2fa-qr-code.png)
 
-5. Enter your current password again, along with the 6-digit code your app now shows, in the **2FA code** field, and click **Update settings** once more. You'll see a confirmation that 2FA has been activated.
+5. Saisissez à nouveau votre mot de passe actuel, ainsi que le code à 6 chiffres que votre application affiche désormais, dans le champ **Code 2FA**, puis cliquez une nouvelle fois sur **Mettre à jour les paramètres**. Vous verrez une confirmation indiquant que la 2FA a été activée.
 
-Checking the box alone doesn't reveal the QR code — you only see it after that first submission, and your password fields are cleared each time the page reloads, so you'll need to re-enter your current password on this second submission too.
+Cocher la case ne suffit pas à afficher le QR code — vous ne le voyez qu’après ce premier envoi, et les champs de mot de passe sont vidés à chaque rechargement de la page, vous devrez donc aussi ressaisir votre mot de passe actuel lors de ce second envoi.
 
-## Signing In With 2FA Enabled
+## Se connecter avec la 2FA activée
 
-After entering your username and password as usual, the login form shows an extra **2FA code** field in the same screen — enter the current 6-digit code from your authenticator app and submit (the button reads **Submit code** instead of **Sign in** at this point).
+Après avoir saisi votre identifiant et votre mot de passe comme d’habitude, le formulaire de connexion affiche un champ supplémentaire **Code 2FA** sur le même écran — saisissez le code à 6 chiffres actuel de votre application d’authentification et validez (le bouton indique **Envoyer le code** au lieu de **Se connecter** à ce stade).
 
-## If You Lose Access to Your Authenticator App
+## Si vous perdez l’accès à votre application d’authentification
 
-Chamilo does not generate backup or recovery codes for 2FA. If you lose the device with your authenticator app, you won't be able to produce a valid code yourself — contact your platform administrator, who can disable 2FA on your account so you can sign in again and, if you want, set it up on a new device.
+Chamilo ne génère pas de codes de sauvegarde ou de récupération pour la 2FA. Si vous perdez l’appareil contenant votre application d’authentification, vous ne pourrez pas produire vous-même un code valide — contactez l’administrateur de votre plateforme, qui pourra désactiver la 2FA sur votre compte afin que vous puissiez vous reconnecter et, si vous le souhaitez, la configurer sur un nouvel appareil.
 
-## Disabling 2FA
+## Désactiver la 2FA
 
-Go back to **Change password**, uncheck **Enable two-factor authentication (2FA)**, enter your current password, and submit.
+Retournez à **Modifier le mot de passe**, décochez **Activer l’authentification à deux facteurs (2FA)**, saisissez votre mot de passe actuel et validez.
 
-## Tips
+## Conseils
 
-* **Set it up before you need it** — enabling 2FA takes a minute and meaningfully protects your account.
-* **Keep your authenticator app accessible** — losing it means depending on your administrator to get back in, since there are no backup codes.
-* **Don't share your 2FA codes** — anyone with your password and a valid code can sign in as you.
+* **Configurez-la avant d’en avoir besoin** — activer la 2FA ne prend qu’une minute et protège réellement votre compte.
+* **Gardez votre application d’authentification accessible** — la perdre signifie dépendre de votre administrateur pour retrouver l’accès, car il n’existe pas de codes de sauvegarde.
+* **Ne partagez pas vos codes 2FA** — quiconque possède votre mot de passe et un code valide peut se connecter à votre place.

@@ -1,20 +1,20 @@
-# Rooms
+# Salles
 
-The **Rooms** block on the administration dashboard manages the physical locations Chamilo can track for in-person or blended training: branches (sites), the rooms within them, and a tool to find which rooms are free at a given time.
+Le bloc **Salles** du tableau de bord d’administration gère les lieux physiques que Chamilo peut suivre pour les formations en présentiel ou hybrides : les sites (branches), les salles qu’ils contiennent, et un outil pour trouver quelles salles sont libres à un moment donné.
 
-![The Rooms block on the administration dashboard, listing Branches, Rooms, and Room availability finder](/.gitbook/assets/admin-rooms-block.png)
+![Le bloc Salles du tableau de bord d’administration, listant Sites, Salles et Recherche de disponibilité des salles](/.gitbook/assets/admin-rooms-block.png)
 
-This chapter covers the admin-side management of branches and rooms. For the teacher-facing side — assigning a room to a course session — see [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) in the Teacher Guide.
+Ce chapitre traite de la gestion côté administrateur des sites et des salles. Pour le côté enseignant — l’attribution d’une salle à une session de cours — voir [Sites et salles](../../teacher-guide/branches-and-rooms.md) dans le Guide de l’enseignant.
 
-## Accessing the Rooms Block
+## Accéder au bloc Salles
 
-From the administration panel, the **Rooms** block appears alongside the other dashboard blocks. Click any of its links to open the corresponding tool.
+Depuis le panneau d’administration, le bloc **Salles** apparaît aux côtés des autres blocs du tableau de bord. Cliquez sur l’un de ses liens pour ouvrir l’outil correspondant.
 
-## What's in the Block
+## Contenu du bloc
 
-* **[Managing Rooms](managing-rooms.md)** — Create and organize branches (sites), and the rooms within each one
-* **[Room Availability Finder](room-availability-finder.md)** — Check which rooms are free for a given date and time range
+* **[Gestion des salles](managing-rooms.md)** — Créer et organiser les sites (branches), ainsi que les salles de chacun d’eux
+* **[Recherche de disponibilité des salles](room-availability-finder.md)** — Vérifier quelles salles sont libres pour une date et une plage horaire données
 
-## Multi-URL Note
+## Note sur le multi-URL
 
-On a multi-URL (multi-tenant) install, branches and rooms are scoped to a single access URL each — they are never shared across portals.
+Sur une installation multi-URL (multi-tenant), les sites et les salles sont limités à une seule URL d’accès chacun — ils ne sont jamais partagés entre portails.

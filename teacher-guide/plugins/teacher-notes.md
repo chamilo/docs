@@ -1,21 +1,21 @@
-# Teacher Notes
+# Notes enseignant
 
-Teacher Notes <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Teacher Notes" data-size="line"> gives your course's teaching team a private notebook for jotting notes about specific learners — progress observations, reminders, anything you'd rather not put in a public tool. Students never see this tool or its contents.
+Notes enseignant <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Notes enseignant" data-size="line"> offre à l’équipe pédagogique de votre cours un carnet privé pour consigner des notes concernant des apprenants spécifiques — observations de progression, rappels, tout ce que vous préférez ne pas placer dans un outil public. Les étudiants ne voient jamais cet outil ni son contenu.
 
-> Not to be confused with the [Notebook](../additional-tools/notebook.md) tool — that one is a personal notebook for learners; Teacher Notes is a separate, teacher-only tool.
+> À ne pas confondre avec l’outil [Notebook](../additional-tools/notebook.md) — celui-ci est un carnet personnel pour les apprenants ; Notes enseignant est un outil distinct, réservé aux enseignants.
 
-## Accessing the Tool
+## Accéder à l’outil
 
-Once enabled, a **Teacher notes** tool appears on your course homepage, available to teachers and course admins (and DRH).
+Une fois activé, un outil **Notes enseignant** apparaît sur la page d’accueil de votre cours, accessible aux enseignants et aux administrateurs de cours (ainsi qu’au DRH).
 
-## Using It
+## Utilisation
 
-* Filter notes by student, or view **All students**
-* **Add new note in my personal notebook**, optionally linking it to a specific learner
-* Edit or delete your own notes
-* Sort notes by creation date, update date, or title
+* Filtrer les notes par étudiant, ou afficher **Tous les étudiants**
+* **Ajouter une nouvelle note dans mon carnet personnel**, en la liant éventuellement à un apprenant spécifique
+* Modifier ou supprimer vos propres notes
+* Trier les notes par date de création, date de mise à jour ou titre
 
-## Tips
+## Conseils
 
-* **Link notes to a learner when relevant** — Notes without an assigned student are easy to lose track of; tie a note to a learner whenever it's about them specifically
-* **Coordinate with co-teachers** — Since the notebook is shared across the teaching team, agree on a light convention (e.g. sign off with your name) so notes stay easy to attribute
+* **Lier les notes à un apprenant lorsque c’est pertinent** — Les notes sans étudiant assigné sont faciles à perdre de vue ; associez une note à un apprenant dès qu’elle le concerne spécifiquement
+* **Coordonnez-vous avec les co-enseignants** — Le carnet étant partagé au sein de l’équipe pédagogique, convenez d’une convention légère (par ex. signer de votre nom) afin que les notes restent faciles à attribuer
