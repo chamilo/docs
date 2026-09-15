@@ -17,3 +17,10 @@ site:
       content:
         directory: ./chamilo-2
         language: en
+    - type: space
+      key: space-1
+      title: Chamilo 1.11
+      path: chamilo-1.11
+      content:
+        directory: ./chamilo-1.11
+        language: en
