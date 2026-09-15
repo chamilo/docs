@@ -1,0 +1,29 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Chamilo 3.0 Documentation
+  structure:
+    - type: space
+      key: space-teacher-guide
+      title: Teacher Guide
+      path: teacher-guide
+      default: true
+      content:
+        directory: ./teacher-guide
+    - type: space
+      key: space-admin-guide
+      title: Administration Guide
+      path: admin-guide
+      content:
+        directory: ./admin-guide
+    - type: space
+      key: space-student-guide
+      title: Student Guide
+      path: student-guide
+      content:
+        directory: ./student-guide
+    - type: space
+      key: space-developer-guide
+      title: Developer Guide
+      path: developer-guide
+      content:
+        directory: ./developer-guide
