@@ -3,16 +3,10 @@ site:
   title: Chamilo 3.0 Documentation
   structure:
     - type: space
-      key: space-teacher-guide
-      title: Teacher Guide
-      path: teacher-guide
-      default: true
-      content:
-        directory: ./teacher-guide
-    - type: space
       key: space-admin-guide
       title: Administration Guide
       path: admin-guide
+      default: true
       content:
         directory: ./admin-guide
     - type: space
@@ -35,3 +29,11 @@ site:
       content:
         directory: ./chamilo-3-francais
         language: fr
+    - type: space
+      key: space-2
+      title: Chamilo 3
+      path: chamilo-3
+      draft: true
+      content:
+        directory: ./chamilo-3
+        language: en
