@@ -10,11 +10,3 @@ site:
       content:
         directory: ./chamilo-3
         language: en
-    - type: space
-      key: space-1
-      title: Chamilo 3 - Français
-      path: chamilo-3-francais
-      draft: true
-      content:
-        directory: ./chamilo-3-francais
-        language: fr
