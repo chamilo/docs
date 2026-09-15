@@ -3,28 +3,10 @@ site:
   title: Chamilo 3.0 Documentation
   structure:
     - type: space
-      key: space-admin-guide
-      title: Administration Guide
-      path: admin-guide
-      default: true
-      content:
-        directory: ./admin-guide
-    - type: space
-      key: space-student-guide
-      title: Student Guide
-      path: student-guide
-      content:
-        directory: ./student-guide
-    - type: space
-      key: space-developer-guide
-      title: Developer Guide
-      path: developer-guide
-      content:
-        directory: ./developer-guide
-    - type: space
       key: space-1
       title: Chamilo 3 - Français
       path: chamilo-3-francais
+      default: true
       draft: true
       content:
         directory: ./chamilo-3-francais
