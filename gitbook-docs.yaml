@@ -20,8 +20,7 @@ site:
     - type: space
       key: space-3
       title: Chamilo 2
-      path: chamilo-2
-      draft: true
+      path: 2.x
       content:
         directory: ./chamilo-2
         language: en
