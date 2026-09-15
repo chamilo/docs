@@ -5,7 +5,7 @@ site:
     - type: space
       key: space-2
       title: Chamilo 3
-      path: chamilo-3
+      path: 3.x
       default: true
       content:
         directory: ./
@@ -14,7 +14,6 @@ site:
       key: space-1
       title: Chamilo 3 - Français
       path: chamilo-3-francais
-      draft: true
       content:
         directory: ./chamilo-3-francais
         language: fr
