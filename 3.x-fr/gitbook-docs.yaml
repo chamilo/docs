@@ -19,7 +19,6 @@ site:
       key: space-22
       title: Chamilo 3 - Français
       path: 3.x-fr
-      draft: true
       content:
         directory: ./chamilo-3-francais
         language: fr
