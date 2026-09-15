@@ -17,3 +17,11 @@ site:
       content:
         directory: ./chamilo-3-francais
         language: fr
+    - type: space
+      key: space-3
+      title: Chamilo 2
+      path: chamilo-2
+      draft: true
+      content:
+        directory: ./chamilo-2
+        language: en
