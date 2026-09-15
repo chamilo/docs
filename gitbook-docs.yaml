@@ -16,13 +16,6 @@ site:
         directory: ./3.x
         language: en
     - type: space
-      key: space-22
-      title: Chamilo 3 - Français
-      path: 3.x-fr
-      content:
-        directory: ./chamilo-3-francais
-        language: fr
-    - type: space
       key: space-9
       title: Chamilo 2
       path: 2.x
