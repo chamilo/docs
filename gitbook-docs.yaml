@@ -1,33 +1,177 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: "Documentation Chamilo 3.0"
+  title: Chamilo
   structure:
+    - type: section-group
+      key: section-group-1
+      title: "2.0"
+      icon: "2"
+      children: []
     - type: space
-      key: space-teacher-guide
-      title: "Guide de l'enseignant"
-      path: teacher-guide
+      key: space-21
+      title: Chamilo 3
+      path: 3.x
       default: true
       content:
-        directory: ./teacher-guide
+        directory: ./3.x
+        language: en
+    - type: space
+      key: space-9
+      title: Chamilo 2
+      path: 2.x
+      content:
+        directory: ./2.x
+        language: en
+    - type: space
+      key: space-10
+      title: Chamilo 2 - Français
+      path: 2.x-fr
+      content:
+        directory: ./2.x-fr
         language: fr
     - type: space
-      key: space-admin-guide
-      title: "Guide d'administration"
-      path: admin-guide
+      key: space-11
+      title: Chamilo 2 - Español
+      path: 2.x-es
       content:
-        directory: ./admin-guide
+        directory: ./2.x-es
+        language: es
+    - type: space
+      key: space-13
+      title: Chamilo 2 - Deutsch
+      path: 2.x-de
+      content:
+        directory: ./2.x-de
+        language: de
+    - type: space
+      key: space-12
+      title: Chamilo 2 - Nederlands
+      path: 2.x-nl
+      content:
+        directory: ./2.x-nl
+        language: nl
+    - type: space
+      key: space-14
+      title: Chamilo 2 - Portuguese
+      path: 2.x-pt
+      content:
+        directory: ./2.x-pt
+        language: pt
+    - type: space
+      key: space-15
+      title: Chamilo 2 - Simplified Chinese
+      path: 2.x-zh-cn
+      content:
+        directory: ./2.x-zh-cn
+        language: zh
+    - type: space
+      key: space-19
+      title: Chamilo 2 - Arabic
+      path: 2.x-ar
+      content:
+        directory: ./2.x-ar
+        language: ar
+    - type: space
+      key: space-17
+      title: Chamilo 2 - Indonesian
+      path: 2.x-id
+      content:
+        directory: ./2.x-id
+        language: id
+    - type: space
+      key: space-18
+      title: Chamilo 2 - Japanese
+      path: 2.x-ja
+      content:
+        directory: ./2.x-ja
+        language: ja
+    - type: space
+      key: space-20
+      title: Chamilo 2 - Greek
+      path: 2.x-el
+      content:
+        directory: ./2.x-el
+        language: el
+    - type: space
+      key: space-16
+      title: Chamilo 2 - Traditional Chinese
+      path: 2.x-zh-tw
+      content:
+        directory: ./2.x-zh-tw
+        language: zh-tw
+    - type: space
+      key: space-7
+      title: Chamilo 1.11 - English
+      path: 1.11.x
+      content:
+        directory: ./1.11.x
+        language: en
+    - type: section-group
+      key: section-group-2
+      title: "1.10"
+      icon: "0"
+      children: []
+    - type: space
+      key: space-2
+      title: Chamilo 1.11 - Español
+      path: 1.11.x-es
+      content:
+        directory: ./1.11.x-es
+        language: es
+    - type: space
+      key: space-5
+      title: Chamilo 1.11 - Français
+      path: 1.11.x-fr
+      content:
+        directory: ./1.11.x-fr
         language: fr
     - type: space
-      key: space-student-guide
-      title: "Guide de l'étudiant"
-      path: student-guide
+      key: space-6
+      title: Chamilo 1.11 - Deutsch
+      path: 1.11.x-de
       content:
-        directory: ./student-guide
-        language: fr
+        directory: ./1.11.x-de
+        language: de
     - type: space
-      key: space-developer-guide
-      title: "Guide du développeur"
-      path: developer-guide
+      key: space-4
+      title: Chamilo 1.11 - Portugués (BR)
+      path: 1.11.x-pt_br
       content:
-        directory: ./developer-guide
+        directory: ./1.11.x-pt_br
+        language: pt
+    - type: space
+      key: space-1
+      title: Chamilo 1.11 - Nederlands
+      path: 1.11.x-nl
+      content:
+        directory: ./1.11.x-nl
+        language: nl
+    - type: section-group
+      key: section-group-3
+      title: 1.11.x
+      children: []
+    - type: section-group
+      key: section-group-4
+      title: 2.x
+      children: []
+    - type: space
+      key: space-8
+      title: Chamilo 1.11 - Gallego
+      path: 1.11.x-ga
+      content:
+        directory: ./1.11.x-ga
+    - type: space
+      key: space-3
+      title: Chamilo 1.10
+      path: 1.10.x
+      content:
+        directory: ./1.10.x
+        language: en
+    - type: space
+      key: space-22
+      title: Chamilo 3 - Français
+      path: chamilo-3-francais
+      draft: true
+      content:
+        directory: ./chamilo-3-francais
         language: fr
