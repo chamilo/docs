@@ -13,7 +13,7 @@ site:
     - type: space
       key: space-1
       title: Chamilo 2
-      path: chamilo-2
+      path: 2.x
       draft: true
       content:
         directory: ./chamilo-2
