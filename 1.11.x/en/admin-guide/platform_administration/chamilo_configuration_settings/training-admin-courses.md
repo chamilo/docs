@@ -1,0 +1,2 @@
+# Training \(admin/courses\)
+

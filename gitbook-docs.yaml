@@ -1,0 +1,218 @@
+# Site-wide Git Sync config for the `all` branch, which holds every Chamilo
+# documentation version and language as its own space, laid out on disk as
+# <version>/<language>/ (e.g. `2.x/fr/`, `3.x/en/`). Each such directory is a
+# self-contained GitBook space with its own `.gitbook.yaml`, `README.md` and
+# `SUMMARY.md` - see that directory's `.gitbook.yaml` for its own settings.
+#
+# `.gitbook/assets/` lives INSIDE each space directory (e.g. `2.x/fr/.gitbook/assets/`).
+# GitBook does not support a shared/central assets folder across mapped space
+# directories, so each space carries its own copy - this is why the same
+# screenshot can appear once per language under a given version.
+#
+# Do not add a `content.directory` that lives outside this branch's own tree.
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Chamilo Documentation
+  structure:
+    - type: section
+      key: section-1.11.x
+      title: 1.11.x
+      path: 1.11.x
+      children:
+        - type: space
+          key: space-1.11.x-en
+          title: English
+          path: en
+          default: true
+          content:
+            directory: ./1.11.x/en
+            language: en
+        - type: space
+          key: space-1.11.x-fr
+          title: Français
+          path: fr
+          content:
+            directory: ./1.11.x/fr
+            language: fr
+        - type: space
+          key: space-1.11.x-es
+          title: Español
+          path: es
+          content:
+            directory: ./1.11.x/es
+            language: es
+        - type: space
+          key: space-1.11.x-de
+          title: Deutsch
+          path: de
+          content:
+            directory: ./1.11.x/de
+            language: de
+        - type: space
+          key: space-1.11.x-nl
+          title: Nederlands
+          path: nl
+          content:
+            directory: ./1.11.x/nl
+            language: nl
+        - type: space
+          key: space-1.11.x-ga
+          title: Galego
+          path: ga
+          content:
+            directory: ./1.11.x/ga
+            # Galician has no code in GitBook's supported language list,
+            # so `language` is intentionally left unset for this space.
+        - type: space
+          key: space-1.11.x-pt-br
+          title: Português (Brasil)
+          path: pt-br
+          content:
+            directory: ./1.11.x/pt-br
+            language: pt-br
+    - type: section
+      key: section-2.x
+      title: 2.x
+      path: 2.x
+      children:
+        - type: space
+          key: space-2.x-en
+          title: English
+          path: en
+          default: true
+          content:
+            directory: ./2.x/en
+            language: en
+        - type: space
+          key: space-2.x-fr
+          title: Français
+          path: fr
+          content:
+            directory: ./2.x/fr
+            language: fr
+        - type: space
+          key: space-2.x-es
+          title: Español
+          path: es
+          content:
+            directory: ./2.x/es
+            language: es
+        - type: space
+          key: space-2.x-de
+          title: Deutsch
+          path: de
+          content:
+            directory: ./2.x/de
+            language: de
+        - type: space
+          key: space-2.x-nl
+          title: Nederlands
+          path: nl
+          content:
+            directory: ./2.x/nl
+            language: nl
+        - type: space
+          key: space-2.x-pt
+          title: Português
+          path: pt
+          content:
+            directory: ./2.x/pt
+            language: pt
+        - type: space
+          key: space-2.x-it
+          title: Italiano
+          path: it
+          content:
+            directory: ./2.x/it
+            language: it
+        - type: space
+          key: space-2.x-ar
+          title: العربية
+          path: ar
+          content:
+            directory: ./2.x/ar
+            language: ar
+        - type: space
+          key: space-2.x-el
+          title: Ελληνικά
+          path: el
+          content:
+            directory: ./2.x/el
+            language: el
+        - type: space
+          key: space-2.x-id
+          title: Bahasa Indonesia
+          path: id
+          content:
+            directory: ./2.x/id
+            language: id
+        - type: space
+          key: space-2.x-ja
+          title: 日本語
+          path: ja
+          content:
+            directory: ./2.x/ja
+            language: ja
+        - type: space
+          key: space-2.x-zh
+          title: 简体中文
+          path: zh
+          content:
+            directory: ./2.x/zh
+            language: zh
+        - type: space
+          key: space-2.x-zh-tw
+          title: 繁體中文
+          path: zh-tw
+          content:
+            directory: ./2.x/zh-tw
+            language: zh-tw
+        - type: space
+          key: space-2.x-pt-br
+          title: Português (Brasil)
+          path: pt-br
+          content:
+            directory: ./2.x/pt-br
+            language: pt-br
+    - type: section
+      key: section-3.x
+      title: 3.x
+      path: 3.x
+      default: true
+      children:
+        - type: space
+          key: space-3.x-en
+          title: English
+          path: en
+          default: true
+          content:
+            directory: ./3.x/en
+            language: en
+        - type: space
+          key: space-3.x-fr
+          title: Français
+          path: fr
+          content:
+            directory: ./3.x/fr
+            language: fr
+        - type: space
+          key: space-3.x-de
+          title: Deutsch
+          path: de
+          content:
+            directory: ./3.x/de
+            language: de
+        - type: space
+          key: space-3.x-es
+          title: Español
+          path: es
+          content:
+            directory: ./3.x/es
+            language: es
+        - type: space
+          key: space-3.x-nl
+          title: Nederlands
+          path: nl
+          content:
+            directory: ./3.x/nl
+            language: nl

@@ -1,0 +1,50 @@
+# Chat Settings
+
+Behaviour of the course **Chat** tool.
+
+Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+
+> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+
+## Settings
+
+### `allow_global_chat`
+
+**Allow global chat**
+
+Users can chat with each other
+
+*Default: `false`*
+
+### `course_chat_restrict_to_coach`
+
+**Restrict course chat to tutors**
+
+Only allow students to talk to the tutors in the course (not other students).
+
+*Default: `false`*
+
+### `hide_chat_video`
+
+**Hide videochat option in global chat**
+
+When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+
+*Default: `true`*
+
+### `save_private_conversations_in_documents`
+
+**Save private conversations in documents**
+
+If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+
+*Default: `false`*
+
+### `show_chat_folder`
+
+**Show the history folder of chat conversations**
+
+This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+
+*Default: `true`*
+

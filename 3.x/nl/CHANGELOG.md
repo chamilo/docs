@@ -1,0 +1,361 @@
+# Documentation Changelog
+
+## 3.x-v1 -- 2026-09-10
+
+**262 page(s) updated (initial snapshot)**
+
+### Pages changed
+- .claude/commands/document-feature.md
+- CLAUDE.md
+- README.md
+- SUMMARY.md
+- admin-guide/README.md
+- admin-guide/analytics/README.md
+- admin-guide/analytics/corporate-reports.md
+- admin-guide/analytics/global-statistics.md
+- admin-guide/analytics/learning-analytics.md
+- admin-guide/analytics/reports-catalog.md
+- admin-guide/analytics/tickets.md
+- admin-guide/appendix/faq.md
+- admin-guide/appendix/glossary.md
+- admin-guide/appendix/security-guide.md
+- admin-guide/authentication/README.md
+- admin-guide/authentication/azure-entra-id.md
+- admin-guide/authentication/cas.md
+- admin-guide/authentication/ldap.md
+- admin-guide/authentication/oauth2.md
+- admin-guide/authentication/scim.md
+- admin-guide/authentication/sso-configuration.md
+- admin-guide/courses/README.md
+- admin-guide/courses/course-categories.md
+- admin-guide/courses/course-import-export.md
+- admin-guide/courses/managing-courses.md
+- admin-guide/getting-started/README.md
+- admin-guide/getting-started/admin-interface-overview.md
+- admin-guide/health-check.md
+- admin-guide/installation/README.md
+- admin-guide/installation/cloud-storage.md
+- admin-guide/installation/configuration.md
+- admin-guide/installation/email-configuration.md
+- admin-guide/installation/installation-wizard.md
+- admin-guide/installation/server-requirements.md
+- admin-guide/installation/upgrading.md
+- admin-guide/integrations/README.md
+- admin-guide/integrations/ai-configuration.md
+- admin-guide/integrations/lti.md
+- admin-guide/integrations/onlyoffice.md
+- admin-guide/integrations/video-conferencing.md
+- admin-guide/integrations/xapi.md
+- admin-guide/maintenance/README.md
+- admin-guide/maintenance/archive-cleanup.md
+- admin-guide/maintenance/backups.md
+- admin-guide/maintenance/system-status.md
+- admin-guide/mcp.md
+- admin-guide/multi-url/README.md
+- admin-guide/multi-url/access-urls.md
+- admin-guide/other-admin-blocks/README.md
+- admin-guide/other-admin-blocks/chamilo-org-links.md
+- admin-guide/other-admin-blocks/news-from-chamilo.md
+- admin-guide/other-admin-blocks/professional-support.md
+- admin-guide/other-admin-blocks/version-check.md
+- admin-guide/performance-tuning.md
+- admin-guide/platform-settings/README.md
+- admin-guide/platform-settings/admin-settings.md
+- admin-guide/platform-settings/agenda-settings.md
+- admin-guide/platform-settings/ai-helpers-settings.md
+- admin-guide/platform-settings/announcement-settings.md
+- admin-guide/platform-settings/attendance-settings.md
+- admin-guide/platform-settings/cas-settings.md
+- admin-guide/platform-settings/catalog-settings.md
+- admin-guide/platform-settings/certificate-settings.md
+- admin-guide/platform-settings/chat-settings.md
+- admin-guide/platform-settings/course-settings.md
+- admin-guide/platform-settings/crons-settings.md
+- admin-guide/platform-settings/display-settings.md
+- admin-guide/platform-settings/document-settings.md
+- admin-guide/platform-settings/dropbox-settings.md
+- admin-guide/platform-settings/editor-settings.md
+- admin-guide/platform-settings/exercise-settings.md
+- admin-guide/platform-settings/forum-settings.md
+- admin-guide/platform-settings/glossary-settings.md
+- admin-guide/platform-settings/gradebook-settings.md
+- admin-guide/platform-settings/group-settings.md
+- admin-guide/platform-settings/language-settings.md
+- admin-guide/platform-settings/lp-settings.md
+- admin-guide/platform-settings/mail-settings.md
+- admin-guide/platform-settings/message-settings.md
+- admin-guide/platform-settings/platform-settings.md
+- admin-guide/platform-settings/privacy-settings.md
+- admin-guide/platform-settings/profile-settings.md
+- admin-guide/platform-settings/registration-settings.md
+- admin-guide/platform-settings/search-settings.md
+- admin-guide/platform-settings/security-settings.md
+- admin-guide/platform-settings/session-settings.md
+- admin-guide/platform-settings/skill-settings.md
+- admin-guide/platform-settings/social-settings.md
+- admin-guide/platform-settings/survey-settings.md
+- admin-guide/platform-settings/ticket-settings.md
+- admin-guide/platform-settings/tracking-settings.md
+- admin-guide/platform-settings/webservice-settings.md
+- admin-guide/platform-settings/work-settings.md
+- admin-guide/platform-settings/workflows-settings.md
+- admin-guide/platform/README.md
+- admin-guide/platform/global-agenda.md
+- admin-guide/platform/languages.md
+- admin-guide/platform/pages.md
+- admin-guide/platform/platform-tools.md
+- admin-guide/platform/portal-news.md
+- admin-guide/plugins/README.md
+- admin-guide/plugins/managing-plugins.md
+- admin-guide/rooms/README.md
+- admin-guide/rooms/managing-rooms.md
+- admin-guide/rooms/room-availability-finder.md
+- admin-guide/security/README.md
+- admin-guide/security/activities-audit.md
+- admin-guide/security/file-integrity.md
+- admin-guide/security/login-attempts.md
+- admin-guide/security/password-strength-checker.md
+- admin-guide/security/simple-ids.md
+- admin-guide/sessions/README.md
+- admin-guide/sessions/careers-and-promotions.md
+- admin-guide/sessions/classes.md
+- admin-guide/sessions/managing-sessions.md
+- admin-guide/sessions/session-categories.md
+- admin-guide/skills/README.md
+- admin-guide/skills/managing-skills.md
+- admin-guide/skills/skills-assessments.md
+- admin-guide/skills/skills-ranking.md
+- admin-guide/skills/skills-wheel.md
+- admin-guide/system/README.md
+- admin-guide/system/branding/README.md
+- admin-guide/system/branding/color-themes.md
+- admin-guide/system/branding/portal-customization.md
+- admin-guide/system/branding/templates.md
+- admin-guide/system/system-tools.md
+- admin-guide/users/README.md
+- admin-guide/users/managing-users.md
+- admin-guide/users/user-groups.md
+- admin-guide/users/user-profiling.md
+- admin-guide/users/user-roles.md
+- developer-guide/README.md
+- developer-guide/api/README.md
+- developer-guide/api/authentication.md
+- developer-guide/api/custom-actions.md
+- developer-guide/api/endpoints-reference.md
+- developer-guide/api/webhooks.md
+- developer-guide/appendix/database-schema.md
+- developer-guide/appendix/glossary.md
+- developer-guide/backend/README.md
+- developer-guide/backend/controllers.md
+- developer-guide/backend/entities-and-doctrine.md
+- developer-guide/backend/events-and-listeners.md
+- developer-guide/backend/resource-system.md
+- developer-guide/backend/settings-system.md
+- developer-guide/backend/symfony-architecture.md
+- developer-guide/contributing/README.md
+- developer-guide/contributing/coding-conventions.md
+- developer-guide/contributing/git-workflow.md
+- developer-guide/contributing/testing.md
+- developer-guide/frontend/README.md
+- developer-guide/frontend/build-system.md
+- developer-guide/frontend/state-management.md
+- developer-guide/frontend/views-and-routing.md
+- developer-guide/frontend/vue-components.md
+- developer-guide/getting-started/README.md
+- developer-guide/getting-started/development-setup.md
+- developer-guide/getting-started/project-structure.md
+- developer-guide/getting-started/tech-stack.md
+- developer-guide/plugins/README.md
+- developer-guide/plugins/course-tool-plugins.md
+- developer-guide/plugins/creating-a-plugin.md
+- developer-guide/plugins/plugin-architecture.md
+- developer-guide/theming/README.md
+- developer-guide/theming/color-themes.md
+- developer-guide/theming/css-and-tailwind.md
+- developer-guide/theming/twig-templates.md
+- student-guide/README.md
+- student-guide/account-and-security/README.md
+- student-guide/account-and-security/captcha.md
+- student-guide/account-and-security/resetting-your-password.md
+- student-guide/account-and-security/two-factor-authentication.md
+- student-guide/appendix/faq.md
+- student-guide/appendix/glossary.md
+- student-guide/courses/README.md
+- student-guide/courses/ai-tutor.md
+- student-guide/courses/course-tools-overview.md
+- student-guide/courses/following-a-learning-path.md
+- student-guide/courses/submitting-an-assignment.md
+- student-guide/courses/subscribing-to-a-course.md
+- student-guide/courses/taking-tests.md
+- student-guide/courses/using-the-chat-tool.md
+- student-guide/courses/using-the-forum.md
+- student-guide/getting-started/README.md
+- student-guide/getting-started/creating-an-account.md
+- student-guide/getting-started/understanding-the-interface.md
+- student-guide/inbox.md
+- student-guide/my-progress.md
+- student-guide/social-network.md
+- teacher-guide/README.md
+- teacher-guide/adding-content/README.md
+- teacher-guide/adding-content/announcements.md
+- teacher-guide/adding-content/documents.md
+- teacher-guide/adding-content/glossary.md
+- teacher-guide/adding-content/learning-paths.md
+- teacher-guide/adding-content/links.md
+- teacher-guide/adding-content/math-formulas.md
+- teacher-guide/additional-tools/README.md
+- teacher-guide/additional-tools/agenda.md
+- teacher-guide/additional-tools/course-progress.md
+- teacher-guide/additional-tools/dropbox.md
+- teacher-guide/additional-tools/notebook.md
+- teacher-guide/additional-tools/portfolio.md
+- teacher-guide/ai-tools/README.md
+- teacher-guide/ai-tools/ai-grading.md
+- teacher-guide/ai-tools/ai-media-generation.md
+- teacher-guide/ai-tools/ai-tutor.md
+- teacher-guide/ai-tools/course-picture-generator.md
+- teacher-guide/ai-tools/exercise-generator.md
+- teacher-guide/ai-tools/glossary-generator.md
+- teacher-guide/ai-tools/learning-path-generator.md
+- teacher-guide/appendix/faq.md
+- teacher-guide/appendix/glossary.md
+- teacher-guide/assessing-learners/README.md
+- teacher-guide/assessing-learners/assignments.md
+- teacher-guide/assessing-learners/attendance.md
+- teacher-guide/assessing-learners/exercises.md
+- teacher-guide/assessing-learners/gradebook.md
+- teacher-guide/assessing-learners/subscribing-users.md
+- teacher-guide/assessing-learners/surveys.md
+- teacher-guide/branches-and-rooms.md
+- teacher-guide/collaboration-and-communication/README.md
+- teacher-guide/collaboration-and-communication/blog.md
+- teacher-guide/collaboration-and-communication/chat.md
+- teacher-guide/collaboration-and-communication/forums.md
+- teacher-guide/collaboration-and-communication/groups.md
+- teacher-guide/collaboration-and-communication/video-conferencing.md
+- teacher-guide/collaboration-and-communication/wiki.md
+- teacher-guide/creating-your-course/README.md
+- teacher-guide/creating-your-course/course-description.md
+- teacher-guide/creating-your-course/course-homepage.md
+- teacher-guide/creating-your-course/course-settings.md
+- teacher-guide/getting-started/README.md
+- teacher-guide/getting-started/understanding-the-interface.md
+- teacher-guide/getting-started/your-profile.md
+- teacher-guide/plugins/README.md
+- teacher-guide/plugins/course-legal-agreement.md
+- teacher-guide/plugins/cstudio.md
+- teacher-guide/plugins/custom-certificate.md
+- teacher-guide/plugins/exercise-focused.md
+- teacher-guide/plugins/exercise-monitoring.md
+- teacher-guide/plugins/exercise-signature.md
+- teacher-guide/plugins/h5p-import.md
+- teacher-guide/plugins/ims-lti.md
+- teacher-guide/plugins/learning-calendar.md
+- teacher-guide/plugins/lti-1-3-advantage-provider.md
+- teacher-guide/plugins/notify-in-course-home.md
+- teacher-guide/plugins/positioning.md
+- teacher-guide/plugins/question-options-evaluation.md
+- teacher-guide/plugins/student-follow-up.md
+- teacher-guide/plugins/survey-export-csv.md
+- teacher-guide/plugins/survey-export-txt.md
+- teacher-guide/plugins/teacher-notes.md
+- teacher-guide/plugins/test-to-pdf.md
+- teacher-guide/sessions.md
+- teacher-guide/social-network.md
+- teacher-guide/tickets.md
+- teacher-guide/tracking-and-reporting/README.md
+- teacher-guide/tracking-and-reporting/certificates-and-skills.md
+- teacher-guide/tracking-and-reporting/course-reports.md
+- teacher-guide/tracking-and-reporting/learner-tracking.md
+
+### Commits
+- b89d1b48 Documentation: describe force_redirect for OAuth2 providers
+- 36b1a19e Documentation: Describe the assessment score distribution charts
+- d54a5c09 Student guide: Add 2FA process precision
+- 1dbeb32a Documentation: Add a page on writing math formulas in the editor
+- a0592ba9 Documentation: Remove the unused mailer_xoauth2 mail setting
+- 7e57e2b1 Documentation: Add Microsoft 365 email configuration through the Microsoft Graph API
+- 829d3e63 Admin guide: Add mention of S3-compatible DigitalOcean spaces
+- 9d1bfc30 Student guide: Initial student guide version
+- d561aaac Documentation: Note that install and update upload the bundled themes
+- bdb4b659 Documentation: Fix the Azure Blob Storage adapter package name
+- 0de55684 Documentation: Document uploading bundled themes to remote storage
+- 45634fa5 Add certificate expiries documentation
+- 01132cbc Developer: Add tests/ subdir
+- 85c15aa5 Admin: Add skills management illustrations
+- 4b89da6a Admin: Update configuration and requirements
+- 48c9f810 Dev guide: Fix plugin development guide inconsistencies
+- 185b0c12 Admin guide: Document hierarchical multi-tenant
+- dc7fc89f Replace the doWhenDeleting* plugin hooks with the deletion events in the plugin creation guide
+- 4b9788be Teacher guide: Add plugins section to inform teachers about extended possibilities
+- a1cfd642 Add GenAI thumbnail generator to documentation
+- bdc32789 Add AI command to generate documentation for a feature
+- 6e13dba6 Add Subscribing Users section
+- 2feaeac2 Teacher guide: Add details to course description tool
+- 50c90d69 Teacher guide: Add course description tool
+- 1246d234 Admin guide: Update configuration settings list for v3
+- 7f890edd Admin guide: Add MCP API key screenshot
+- 2aefeefc Admin guide: Add MCP entry
+- c3363834 Update documentation for v3
+- 342e3292 Admin guide: Update distribution of platform block
+- 0db51c6c Add Azure authentication
+- d094753d Teacher guide: Add section about C-Studio
+- 68387f9b Update admin guide, analytic reports description page
+- 39c235e0 Update admin guide to show one entry per admin dashboard block
+- 4efd3e3e Update main admin block entry pages with screenshot
+- 9f672227 Update coach term to tutor - see 61ef856 or #8390 in Chamilo
+- 80af3747 Admin: Add security section update
+- 5ae77a75 Admin: Add security section
+- 2cf23960 Internal: Add CLAUDE.md to help with the documentation process
+- fa437233 Add tool prefix convention to commit message guidelines
+- 8ddfb70a Expand and reorganize Base components documentation
+
+This changelog tracks significant updates to the Chamilo 2.0 documentation.
+Each entry corresponds to a Git tag on the `2.x` branch (e.g. `2.x-v1`).
+Translation branches (`2.x-fr`, `2.x-es`, …) carry matching tags to indicate which version they are synced to.
+
+---
+
+## 2.x-v1 — 2026-05-12
+
+Initial release of the Chamilo 2.0 documentation (179 pages across three guides).
+
+### Teacher Guide (49 pages)
+
+Complete documentation for day-to-day course management:
+
+- Getting started: interface overview and user profile
+- Course creation: settings, homepage layout
+- Adding content: documents, links, learning paths, glossary, announcements
+- Assessing learners: exercises, assignments, surveys, attendance, gradebook
+- Tracking and reporting: learner tracking, course reports, certificates and skills
+- Collaboration: forums, chat, wiki, blogs, groups, video conferencing
+- AI tools: tutor chatbot, exercise generator, learning path generator, AI grading, media generation, glossary generator
+- Additional tools: agenda, dropbox, notebook, portfolio, course progress
+- Sessions, branches and rooms, social network, tickets, appendix
+
+### Admin Guide (62 pages)
+
+Complete reference for platform administration:
+
+- Installation: server requirements, installation wizard, configuration, email, cloud storage, upgrades
+- User management: roles, user groups, profiling
+- Course and session management: categories, import/export, sessions, careers, promotions, classes
+- Platform settings: 40+ configurable feature areas documented individually
+- Authentication: LDAP, CAS, OAuth2 (Azure, Facebook, Keycloak), SCIM, SSO
+- Branding: color themes, portal customization, templates
+- Integrations: AI providers, LTI 1.3, OnlyOffice, video conferencing, xAPI
+- Multi-URL setup, performance tuning, plugins (56 available), maintenance
+
+### Developer Guide (36 pages)
+
+Architecture and extension reference for developers:
+
+- Tech stack: Symfony 6.4, API Platform 3.0, Doctrine ORM, Vue 3, PrimeVue, Tailwind CSS
+- Backend: Symfony architecture, controllers, entities, events/listeners, resource system, settings system
+- Frontend: Vue 3 components, views and routing, state management, build system
+- REST API: JWT authentication, endpoints reference, custom actions, webhooks
+- Theming: color themes, CSS and Tailwind, Twig templates
+- Plugins: architecture, creating a plugin, course tool plugins
+- Contributing: coding conventions, Git workflow, testing
+- Appendix: database schema, glossary

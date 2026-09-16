@@ -4,82 +4,62 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-This is the **Chamilo 3 documentation site** — a GitBook Markdown project. It is *not* the Chamilo application. There is no build step, no test suite, no `package.json` or `composer.json` here. The Chamilo LMS itself lives in a separate repo ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)); pages under `developer-guide/contributing/` (PHPUnit, PHPStan, Composer commands, coding conventions) describe **that** codebase and are not runnable here.
+This is the **Chamilo documentation site** — a GitBook Markdown project. It is *not* the Chamilo application. There is no build step, no test suite, no `package.json` or `composer.json` here. The Chamilo LMS itself lives in a separate repo ([github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)); pages under `<version>/<language>/developer-guide/contributing/` (PHPUnit, PHPStan, Composer commands, coding conventions) describe **that** codebase and are not runnable here.
 
 GitBook renders the site from the committed Markdown; the only executable code is the two PHP scripts in `scripts/`.
 
 ## Layout
 
-* `SUMMARY.md` — the single source of truth for GitBook's table of contents. Adding/removing a page requires editing this file or the page won't appear in the book.
-* `teacher-guide/`, `admin-guide/`, `developer-guide/` — the three authored guides, each a nested directory tree of `.md` pages with per-section `README.md` index pages.
-* `.gitbook/assets/` — all screenshots referenced as `/.gitbook/assets/<name>.png` (note the leading slash, repo-root-relative).
-* `CHANGELOG.md` — one entry per documentation tag (`2.x-vN`).
-* `scripts/` — release tagging + AI translation tooling.
-* `translated/` — **gitignored** output of the translation script (per-language mirrors of the source tree).
+This branch (`all`) holds every documented version and every language as one
+GitBook site, mapped from a single `gitbook-docs.yaml` at the repository
+root:
 
-## Branch model
-
-* **`3.x`** — the English *source* branch. All authoring and editing happens here. This is the active working branch.
-* **`2.x`** — the previous English source branch. It is where the `2.x-<lang>` translations were cut from. Don't author new pages here.
-* **`2.x-<lang>`** — per-language translation branches (e.g. `2.x-fr`, `2.x-es`, `2.x-de`, `2.x-zh_CN`). They mirror the same tree, translated. Sync status is tracked via matching tags (`2.x-fr` carries `2.x-fr-vN` to show how far behind it is). **No `3.x-<lang>` branch exists yet**, and no `3.x-*` tag either.
-* **`1.9.x` / `1.10.x` / `1.11.x`** — older Chamilo doc series with their own translation branches. Don't touch these for 3.0 work.
-* **`master`** — the historical default branch; 3.0 work is on `3.x`.
-
-## Common commands
-
-### Tagging a release
-
-Run **only from a clean checkout of the source branch** (it checks for uncommitted changes). The branch check accepts any `N.x` name and derives the tag series from it, so on `3.x` it creates the next `3.x-vN` tag. It prepends an entry to `CHANGELOG.md` (pages changed + commit list), commits, tags, then reports how far behind each translation branch is:
-
-```bash
-php scripts/tag-release.php --dry-run   # preview the entry + tag
-php scripts/tag-release.php             # apply
+```
+<version>/<language>/
 ```
 
-### Translating pages (Grok API)
+e.g. `3.x/en/`, `3.x/fr/`, `2.x/es/`, `1.11.x/de/`. Each such directory is
+one GitBook **space** — a self-contained book with its own:
 
-Translates Markdown pages into one or more languages, writing into `translated/<lang>/`. Requires `scripts/config.php` (copy from `scripts/config.dist.php` and add an x.ai key — **this file is gitignored because it holds a live API key; never commit it**).
+* `.gitbook.yaml` — space-level config (content root, first page, nav file)
+* `README.md` — the space's front page
+* `SUMMARY.md` — the space's table of contents (GitBook's source of truth for that space's navigation — see `developer-guide/contributing` pages under each language for authoring conventions)
+* `.gitbook/assets/` — screenshots referenced from that space's pages as `/.gitbook/assets/<name>.png` or `../../.gitbook/assets/<name>.png`, depending on the version. **Assets are not shared across spaces** — GitBook has no central/shared assets mechanism for a monorepo-style site, so the same screenshot is duplicated once per language directory that needs it. Never point a page at another space's `.gitbook/assets/`.
+* the guide folders themselves (`teacher-guide/`, `admin-guide/`, `developer-guide/`, `student-guide/` for `3.x`; equivalent translated folder names for older versions/languages, e.g. `manual-del-profesor/` for `1.11.x/es/`)
 
-```bash
-# Translate everything that changed since the last tag (incremental)
-php scripts/translate-docs.php --from 2.x-v2 fr_FR es
+`scripts/` (release tagging + AI translation tooling) lives once at the
+repository root — it's tooling, not per-space content, so it isn't
+duplicated into every version/language directory.
 
-# Smoke-test one file in one language
-php scripts/translate-docs.php --test --single-file admin-guide/installation/configuration.md fr_FR
+Versions included in this structure: `1.11.x`, `2.x`, `3.x`. Older versions
+(`1.9.x`, `1.10.x`) predate the GitBook Markdown format entirely (`.odt`
+files and an HTML export, no `SUMMARY.md`) and are **not** part of this
+branch; they remain on their own legacy branches as an archive.
 
-# Re-translate an existing file from scratch
-php scripts/translate-docs.php --single-file <path> --force fr_FR
+## Branch model (superseded)
 
-# Repair files the model wrapped in stray "---" lines (GitBook rejects these)
-php scripts/translate-docs.php --fix-wrappers fr_FR
+Before this branch existed, each version+language combination lived on its
+own branch (`3.x`, `3.x-fr`, `2.x`, `2.x-fr`, ...), because GitBook's older
+Git Sync connected one space to one branch. GitBook's Git Sync now expects a
+single site-wide `gitbook-docs.yaml` mapping every space to a **directory**
+within **one** branch — a branch can no longer stand in for "one language of
+one version." Those old branches still exist (useful as history / fallback)
+but are no longer where documentation changes should be made; edit here, in
+`all`, going forward.
 
-# No-arg run auto-detects languages from the 2.x-* branches and translates all .md
-php scripts/translate-docs.php --dry-run
-```
+## Known follow-up work
 
-Applying translations to a branch (the script prints this at the end):
-
-```bash
-git checkout 2.x-fr && rsync -av translated/fr_FR/ ./ && git add -A -- ':!translated/'
-```
-
-Language codes follow Chamilo's `.po` convention (`fr_FR`, `es`, `pt_BR`, `zh_CN`, …). Short branch suffixes (`2.x-fr`) map to full codes internally.
-
-**Translation targets are `3.x-<lang>`, and none of those branches exists yet.** `branchForLang()`
-in `scripts/translate-docs.php` returns `'3.x-' . $lang`, so an apply step points at a branch you
-still have to create. Language auto-detection is a separate matter: with no language argument the
-script lists local `*.x-??` branches, which today are the `2.x-<lang>` ones, so it would pick those
-languages while writing for `3.x-<lang>`. Pass the language codes explicitly until the `3.x`
-translation branches exist. Several comments in that file still say `2.x`; the code does not.
-
-## How the translation pipeline constrains authoring
-
-`translate-docs.php` splits each page at heading boundaries into ~5 KB chunks, sends each to the model, then runs `checkIntegrity()` comparing source vs. translation. It asserts **heading count, code-fence count, image-reference count, and image paths all match exactly**. To keep translations clean and these checks passing:
-
-* Keep heading levels consistent and intentional — the translator is instructed never to add/demote headings, and mismatches surface as warnings.
-* Keep image paths verbatim (`/.gitbook/assets/...`) — altered paths are flagged.
-* Code blocks and inline code are passed through untranslated; they must be balanced.
+`scripts/tag-release.php` and `scripts/translate-docs.php` were written
+against the old one-branch-per-version-per-language layout (they operate on
+the repository root and on other branches by name). They have **not** been
+updated for the `<version>/<language>/` directory structure yet, and will
+need changes before they can be used as-is against this branch — check their
+current behavior before relying on them here.
 
 ## Commit messages
 
-Follow the `<Prefix>: <imperative summary>` convention from `developer-guide/contributing/git-workflow.md`. The prefix is the **singular** canonical tool name (e.g. `Exercise:`, `Learnpath:`, `Gradebook:`). Changes that touch **only this documentation site** use the `Documentation:` prefix. The full prefix table lives in that git-workflow page.
+Follow the `<Prefix>: <imperative summary>` convention from
+`3.x/en/developer-guide/contributing/git-workflow.md`. The prefix is the
+**singular** canonical tool name (e.g. `Exercise:`, `Learnpath:`,
+`Gradebook:`). Changes that touch only this documentation site use the
+`Documentation:` prefix.

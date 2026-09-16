@@ -1,0 +1,2 @@
+# Fonctionnalités globales
+

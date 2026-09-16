@@ -1,0 +1,155 @@
+# Learning Paths
+
+Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+
+This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+
+## Why Use Learning Paths?
+
+Learning paths are useful when you want to:
+
+* **Control the order** of content consumption — ensure learners complete foundational material before advancing
+* **Track progress** — see exactly where each learner is in the sequence
+* **Set prerequisites** — require learners to pass an exercise before accessing the next section
+* **Award completion** — link learning path completion to the gradebook and certificates
+* **Package content** — create self-contained learning modules that learners can work through at their own pace
+
+## Creating a Learning Path
+
+1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
+2. Click **Create a learning path**
+3. Enter a **title** and optional description
+4. Save — you will be taken to the learning path editor
+
+## The Learning Path Editor
+
+![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+
+The editor has two main areas:
+
+* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
+* **Right panel** — The content of the selected item
+
+### Adding Items
+
+Click **Add an item** and choose what to add:
+
+| Item type | Description |
+|-----------|-------------|
+| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
+| **Document** | A file or web page from your course's Documents tool |
+| **Exercise** | A quiz or test from the Exercises tool |
+| **Link** | An external URL |
+| **Assignment** | A student publication from the Assignments tool |
+| **Forum** | A link to a course forum |
+| **Survey** | A link to a survey |
+| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+
+### Organizing Items
+
+* **Drag and drop** items to reorder them
+* **Nest items** under sections by dragging them to the right
+* **Delete** items you no longer need
+
+### Setting Prerequisites
+
+Prerequisites ensure learners complete certain steps before accessing others:
+
+1. Select an item in the learning path
+2. Open its **prerequisites** settings
+3. Choose which preceding item(s) must be completed first
+4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+
+## Learner Experience
+
+When a learner opens a learning path:
+
+* They see the list of items in the left panel
+* Completed items are marked with a checkmark
+* Items with unmet prerequisites are locked
+* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
+* A progress bar shows overall completion percentage
+
+## SCORM Content
+
+Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+
+To import a SCORM package:
+
+1. In the Learning paths tool, open the actions menu and click **Upload**
+2. Upload the ZIP file
+3. Chamilo unpacks and creates the learning path automatically
+
+### CMI5 / xAPI packages
+
+CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+
+## Content Authoring with C-Studio
+
+*Available if your administrator has enabled the C-Studio plugin.*
+
+C-Studio adds a built-in, drag-and-drop visual editor for creating interactive content directly inside a learning path — an alternative to importing a SCORM package when you don't have (or don't want to learn) a separate authoring tool like Articulate or iSpring. You build the content page by page right in Chamilo, and it's stored and tracked like any other learning path item.
+
+### Starting a C-Studio Project
+
+When the plugin is active, the Learning Paths list shows an extra button next to the usual actions menu, marked with a "+" and a "Studio Tools" tooltip:
+
+![The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions menu](/.gitbook/assets/cstudio-lp-button.png)
+
+Click it to start. You'll be asked to create a new project from scratch or import an existing one:
+
+![The C-Studio start screen offering to create a new project or import an existing one](/.gitbook/assets/cstudio-start-screen.png)
+
+This particular screen is currently only available in French, regardless of your platform or course language — a known limitation of the plugin version in use. Give your project a title and it opens straight into the editor.
+
+### The Editor
+
+![The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project panel on the left](/.gitbook/assets/cstudio-editor.png)
+
+The editor is a page-by-page visual builder:
+
+* **Left panel** — your project's pages, with a "+" to add more, and a **Tools** section at the bottom (Clean data, Preview, Colors, Options, Quit)
+* **Center canvas** — the page you're building; click any element to edit it in place
+* **Right panel** — the component palette, dragged onto the canvas
+
+The palette covers basic building blocks (columns, images, audio, titles, text, buttons, cards) as well as several interactive exercise types: **Drag Drop**, **Fill text**, **Hotspot Img**, **Mark Words**, **Find Words**, and **Sort paragraphs**, plus an **iframe** block for embedding external content and a **Quiz** block.
+
+### Language
+
+C-Studio's own interface may default to French the first time you open it, independent of your Chamilo interface language or the course's language. If so, go to **File > UI language** and pick your language — the editor reloads immediately and remembers your choice afterward.
+
+![The File menu open, showing the "UI language" option](/.gitbook/assets/cstudio-file-menu.png)
+
+### Saving and Exporting
+
+Use **File > Save** as you work. **File > Export...** packages your project as a SCORM file you can download, back up, or reuse elsewhere via **Import...**. **File > Quit** returns you to the learning path list, where your C-Studio project now appears as a regular item.
+
+## Learning Path Settings
+
+Configure how the learning path behaves:
+
+| Setting | Description |
+|---------|-------------|
+| **Visibility** | Hide or show the learning path to learners |
+| **Prerequisites** | Require completion of other learning paths before this one |
+| **Auto-launch** | Automatically open this learning path when learners enter the course |
+| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+
+## Linking to the Gradebook
+
+You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+
+## Using AI
+
+If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+
+Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+
+## Tips
+
+* **Start with an outline** — Plan your sections and items before building the path
+* **Use sections as chapters** — Group related items under section headings for clarity
+* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
+* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
+* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
+* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo. If your administrator has enabled the C-Studio plugin, you can build similar interactive content directly in Chamilo instead — see [Content Authoring with C-Studio](#content-authoring-with-c-studio) above

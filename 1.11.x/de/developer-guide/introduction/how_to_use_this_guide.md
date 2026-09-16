@@ -1,0 +1,9 @@
+# Wie benutzt man diesen Leitfaden?
+
+Dieser Referenzleitfaden soll progressiv komplex sein und am Ende nur äußerst verblüffend komplexe Themen erreichen. Es wird davon ausgegangen, dass die letzten Kapitel nur das Interesse einiger weniger wecken werden, aber wir machen uns darüber keine Sorgen. Was uns wichtig ist, ist, dass SIE die relevanten Informationen schnell finden. Aus diesem Grund haben Sie am Ende des Handbuchs auch einen allgemeinen Index \(zumindest in den ODT- und PDF-Versionen\), mit dem Sie einen Begriff finden und schnell herausfinden können, auf welcher Seite wir ihn verwendet haben.
+
+Wenn Sie weitere Fragen zur Verwendung von Chamilo haben, können Sie das Chamilo-Forum \([http://www.chamilo.org/forum](http://www.chamilo.org/forum)\) besuchen, in dem Ihnen zahlreiche andere Benutzer, Lehrer, Administratoren und Softwareentwickler gerne helfen, die Antworten zu finden.
+
+Wenn Sie technische Fragen dazu haben, wie Sie zu Chamilo beitragen können, können Sie unseren [Slack channel](https://chamilo.slack.com) verwenden. Sie müssen eingeladen werden \(es gibt keine andere Möglichkeit, um akzeptiert zu werden\), also senden Sie bitte eine E-Mail an ywarnier -at- chamilo _dot_ org, in der Sie um eine Einladung gebeten werden.
+
+Wenn Sie komplexere Anforderungen haben, sollten Sie sich an einen unserer offiziellen Anbieter wenden \([http://www.chamilo.org/en/providers](http://www.chamilo.org/en/providers)\), eine Gruppe von Unternehmen und Institutionen, die professionelle Dienstleistungen anbieten, die Chamilo unterstützen. Die offiziellen Anbieter verfügen über eine bewährte und nachgewiesene ernsthafte Beteiligung an dem Projekt und verpflichten sich, ihr kollaboratives Modell aufrechtzuerhalten. Mit der Einstellung unterstützen Sie bereits das Chamilo-Projekt.
