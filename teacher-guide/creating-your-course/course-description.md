@@ -27,7 +27,7 @@ A course description is made of up to eight independent sections. Each one is op
 
 1. In the tool's toolbar, click the icon for the section type you want to write
 2. Chamilo shows a **Help** box with the guiding question for that section — use it to decide what to write
-3. Write your content in the rich text editor (supports formatting, images, links, embedded video, and other rich content)
+3. Write your content in the rich text editor (supports formatting, images, links, embedded video, and other rich content). If your platform has it enabled, you can also write several language versions of the same section and have each learner automatically see only their own — see [Multi-Language Content](../adding-content/multi-language-content.md).
 4. Save
 
 Each section you add appears as its own card in the tool. Use the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> and **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> icons on a card to update or remove it later.

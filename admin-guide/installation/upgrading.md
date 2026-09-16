@@ -34,6 +34,8 @@ You can run the upgrade through the web wizard or through the command line.
 3. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
 4. Follow the wizard to the end.
 
+No `UPGRADE_ENABLED` file is needed here. That file authorises an upgrade of an **installed** platform; a new tree with no `.env` is not one yet.
+
 #### Command line
 
 Set `UPDATE_PATH` to the root of your 1.11.x installation, then run the migrations:
@@ -90,6 +92,21 @@ php bin/console doctrine:migrations:status
 
 `Executed` must equal `Available`, and `New` must be 0. Now copy the 3.0 code.
 
+### Enable the upgrade
+
+The installer has no login of its own, so it refuses to upgrade an installed platform until you authorise it on the server. Create an empty `UPGRADE_ENABLED` file in the project root, next to `.env`:
+
+```bash
+cd /var/www/chamilo
+touch UPGRADE_ENABLED
+```
+
+It goes in the project root, not in `public/`: from there nobody can ask over HTTP whether your platform is currently open for upgrading. Without it the installer answers **"No UPGRADE_ENABLED found in the project root"**.
+
+The installer deletes the file when the upgrade finishes. If your project root is read-only it says so instead, and you delete it by hand — until you do, the installer stays open.
+
+This applies to the **web wizard only**. An upgrade run from the command line needs no flag: whoever has a shell already has full access to the server.
+
 ### Run the upgrade
 
 Copy the new code, then either open your URL and follow the wizard, or run the migrations from the command line:
@@ -100,7 +117,7 @@ php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-The web wizard opens only while migrations are pending. Once the upgrade finishes, it answers `409 Conflict` again, which is what protects it: the wizard has no login of its own.
+The web wizard opens only while migrations are pending **and** the flag file is there. Once the upgrade finishes it answers `409 Conflict` again, which is what protects it.
 
 ## Updating Chamilo 3.0.x
 

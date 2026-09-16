@@ -17,6 +17,10 @@ From the administration panel, click **Platform > Languages**.
 
 If you disable a language that active users have already selected as their interface language, Chamilo asks for confirmation and — if you confirm — migrates every affected user to the platform default language. There's no partial state where a user is left with a now-hidden language selected.
 
+## Right-to-Left Languages
+
+Right-to-left languages (such as Arabic, Hebrew, or Persian) automatically switch the interface to a right-to-left layout when selected — there's nothing to configure here or elsewhere for this to happen. RTL support has been substantially improved in recent versions.
+
 ## Sub-Languages
 
 If the **Allow sub-languages** setting is enabled, additional actions appear for creating "sub-languages" — partial overrides of a parent language, historically used for regional dialects or organization-specific terminology tweaks. This is a legacy feature; most installations won't need it.

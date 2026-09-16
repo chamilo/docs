@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Chamilo Documentation
+  structure:
+    - type: space
+      key: space-2
+      title: Chamilo 3
+      path: 3.x
+      default: true
+      content:
+        directory: ./
+        language: en

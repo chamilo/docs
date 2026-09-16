@@ -149,7 +149,7 @@ Enable button bars extended when the WYSIWYG editor is maximized
 
 **Save titles as HTML**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions. It also lets those specific title fields use the same per-language tagging as `translate_html` below, which plain-text titles otherwise can't hold.
 
 *Default: `false`*
 
@@ -160,6 +160,8 @@ Allow users to include HTML in title fields in several places. This allows for s
 If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
 
 *Default: `false`*
+
+See [Multi-Language Content](../../teacher-guide/adding-content/multi-language-content.md) in the Teacher Guide for the full teacher-facing walkthrough of this feature.
 
 
 ### `video_context_menu_hidden`
