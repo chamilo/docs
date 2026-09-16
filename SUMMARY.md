@@ -204,6 +204,8 @@
     * [Backups](admin-guide/maintenance/backups.md)
     * [System Status](admin-guide/maintenance/system-status.md)
     * [Archive Cleanup](admin-guide/maintenance/archive-cleanup.md)
+    * [Achievement Certificates](admin-guide/maintenance/achievement-certificates.md)
+    * [Completing Stuck Learning Path Final Items](admin-guide/maintenance/learning-path-final-items.md)
   * [MCP](admin-guide/mcp.md)
   * [Appendix](admin-guide/appendix/faq.md)
     * [FAQ](admin-guide/appendix/faq.md)

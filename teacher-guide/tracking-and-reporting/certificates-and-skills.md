@@ -22,6 +22,8 @@ Certificates use templates defined by the platform administrator. The template t
 * The score achieved
 * A QR code or URL for online verification
 
+The first time you open the certificate template manager for a course's Assessments (the **Attach certificate** icon in the gradebook), Chamilo automatically duplicates the platform's default certificate template into the course, so you never land on an empty page — the copy is yours to customize freely from there. If you later detach it (**Use the system default certificate instead**), reopening the manager does not recreate it a second time; only a course that has genuinely never had a certificate document attached gets one generated automatically.
+
 ## Certificate Validity and Expiry
 
 Certificates can be set to expire after a given number of days. In the [Assessments](../assessing-learners/gradebook.md) settings for the root category, once **Generate certificates** is enabled, a **Certificate validity (days)** field appears. Leave it at `0` (the default) for certificates that never expire, or set a number of days for a certificate to expire that many days after it was issued.
