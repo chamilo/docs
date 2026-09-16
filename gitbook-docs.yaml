@@ -1,6 +1,6 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: Chamilo 3.0 Documentation
+  title: Chamilo Documentation
   structure:
     - type: space
       key: space-2
