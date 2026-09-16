@@ -3,34 +3,48 @@
 declare(strict_types=1);
 
 /**
- * translate-docs.php — Translates Chamilo 2.0 documentation Markdown pages using the Grok API.
+ * translate-docs.php — Translates Chamilo documentation Markdown pages using the Grok API.
+ *
+ * All versions and languages live in one branch (`all`), as <version>/<language>/
+ * directories (e.g. `3.x/en/`, `3.x/fr/`) — see gitbook-docs.yaml at the repo root.
+ * This script always translates FROM <version>/en/ INTO one or more <version>/<lang>/
+ * directories.
  *
  * Usage:
- *   php scripts/translate-docs.php [options] [lang1] [lang2] ...
+ *   php scripts/translate-docs.php --version <version> [options] [lang1] [lang2] ...
  *
  * Options:
- *   --from TAG    Only translate files changed since TAG (e.g. 2.x-v1).
- *                 Without this, all .md files are translated.
+ *   --version VER  Required (except with --fix-wrappers). The version directory to
+ *                  translate, e.g. 3.x, 2.x, 1.11.x.
+ *   --from TAG    Only translate files changed since TAG (e.g. 3.x-v1).
+ *                 Without this, all .md files under <version>/en/ are translated.
  *   --force       Re-translate files that already exist in the output directory.
  *   --dry-run     Show what would be done without making any API calls.
  *   --test        Translate only the first file per language (for smoke-testing).
- *   --single-file  Translate the given file, not all others.
+ *   --single-file  Translate the given file (relative to <version>/en/), not all others.
  *                  Use with --force to force the re-translation from scratch.
- *   --fix-wrappers Scan all already-translated files and remove any leading/trailing
- *                  "---" wrapper lines that GitBook rejects. No API calls are made.
+ *   --fix-wrappers Scan already-translated files under translated/ and remove any
+ *                  leading/trailing "---" wrapper lines that GitBook rejects. No API
+ *                  calls are made. Scoped to --version if given, otherwise all versions.
  *                  Combine with --dry-run to preview what would be changed.
- *   --commit      After translating, for each language that produced output, check out
- *                 its 2.x-<lang> branch, rsync the translated files in, and commit locally.
- *                 Requires a clean working tree before it starts (nothing is stashed for
- *                 you). Never pushes — review each branch and push manually when ready.
- *                 A language with no matching branch, or whose translation produced no
- *                 file changes, is skipped and reported, not treated as an error.
+ *   --commit      After translating, for each language that produced output, rsync
+ *                 translated/<version>/<lang>/ into <version>/<lang>/ (creating it, with
+ *                 a .gitbook.yaml and a copy of CHANGELOG.md, if it doesn't exist yet) and
+ *                 commit locally. Requires a clean working tree before it starts (nothing
+ *                 is stashed for you) and a named branch checked out (not detached HEAD).
+ *                 Never pushes — review and push manually when ready. Also tags
+ *                 <version>-<lang>-vN to match the current <version>-vN release tag, so
+ *                 `tag-release.php`'s "Translation sync status" reflects the sync.
+ *                 A language with no translated output, or whose sync produced no file
+ *                 changes, is skipped and reported, not treated as an error.
  *
- * Language codes (same as Chamilo .po convention): fr_FR, es, de, pt_BR, etc.
- * If no language codes are given, the script looks for existing 2.x-?? branches.
+ * Language codes: GitBook's codes (fr, es, de, pt, pt-br, zh, zh-tw, ...) — the same
+ * codes used as directory names under <version>/ and as `content.language` in
+ * gitbook-docs.yaml. If no language codes are given, the script looks for existing
+ * <version>/<lang>/ directories (besides en/).
  *
- * Output:  translated/<lang_code>/ (mirrors the source tree)
- * Apply:   git checkout 3.x-fr && rsync -av translated/fr_FR/ ./ && git add -A
+ * Output:  translated/<version>/<lang>/ (mirrors the <version>/en/ tree)
+ * Apply:   rsync -av translated/3.x/fr/ 3.x/fr/ && git add 3.x/fr
  *          (done automatically per language when --commit is passed)
  *
  * Requires: config.php in the same directory (copy config.dist.php and fill in your key).
@@ -87,6 +101,7 @@ $fromTag      = null;
 $singleFile   = null;
 $fixWrappers  = false;
 $commit       = false;
+$version      = null;
 $langCodes    = [];
 
 for ($i = 0, $n = count($args); $i < $n; $i++) {
@@ -98,8 +113,18 @@ for ($i = 0, $n = count($args); $i < $n; $i++) {
         case '--single-file':  $singleFile  = $args[++$i] ?? null;   break;
         case '--fix-wrappers': $fixWrappers = true;                  break;
         case '--commit':       $commit      = true;                  break;
+        case '--version':      $version     = $args[++$i] ?? null;   break;
         default:               $langCodes[] = $args[$i];             break;
     }
+}
+
+if (!$fixWrappers && $version === null) {
+    fwrite(STDERR, "Error: --version is required (e.g. --version 3.x).\n");
+    exit(1);
+}
+if ($version !== null && (!preg_match('/^\d+(\.\d+)*\.x$/', $version) || !is_dir("$repoRoot/$version/en"))) {
+    fwrite(STDERR, "Error: '$version/en' not found. Pass the version directory name, e.g. --version 3.x.\n");
+    exit(1);
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -119,14 +144,6 @@ function run(string $cmd): array
 }
 
 /**
- * Derive the translation branch name for a language code (e.g. "fr_FR" -> "2.x-fr").
- */
-function branchForLang(string $lang): string
-{
-    return '3.x-' . strtolower(explode('_', $lang)[0]);
-}
-
-/**
  * Run a git command relative to the repo root, returning whether it exited 0.
  * Output lines are captured into $output by reference for callers that need them.
  */
@@ -137,51 +154,53 @@ function gitOk(string $repoRoot, string $cmd, ?array &$output = null): bool
 }
 
 /**
- * @return array<string> Sorted list of human-readable language names keyed by code.
+ * @return string Human-readable English name for a GitBook language code.
  */
 function getLanguageName(string $code): string
 {
     static $map = [
-        'ar'    => 'Arabic',
-        'bg'    => 'Bulgarian',
-        'ca_ES' => 'Catalan',
-        'cs_CZ' => 'Czech',
-        'da'    => 'Danish',
+        'en'    => 'English',
+        'fr'    => 'French',
         'de'    => 'German',
-        'el'    => 'Greek',
         'es'    => 'Spanish',
-        'es_MX' => 'Spanish (Mexico)',
-        'eu_ES' => 'Basque',
-        'fa_IR' => 'Persian',
-        'fi_FI' => 'Finnish',
-        'fr_FR' => 'French',
-        'he_IL' => 'Hebrew',
-        'hi'    => 'Hindi',
-        'hr_HR' => 'Croatian',
-        'hu_HU' => 'Hungarian',
-        'id_ID' => 'Indonesian',
         'it'    => 'Italian',
+        'pt'    => 'Portuguese',
+        'pt-br' => 'Brazilian Portuguese',
+        'ru'    => 'Russian',
         'ja'    => 'Japanese',
-        'ko_KR' => 'Korean',
-        'lt_LT' => 'Lithuanian',
-        'ms_MY' => 'Malay',
+        'zh'    => 'Simplified Chinese',
+        'zh-tw' => 'Traditional Chinese',
+        'yue'   => 'Cantonese',
+        'ko'    => 'Korean',
+        'ar'    => 'Arabic',
+        'hi'    => 'Hindi',
         'nl'    => 'Dutch',
-        'pl_PL' => 'Polish',
-        'pt_BR' => 'Brazilian Portuguese',
-        'pt_PT' => 'Portuguese',
-        'ro_RO' => 'Romanian',
-        'ru_RU' => 'Russian',
-        'sk_SK' => 'Slovak',
-        'sl_SI' => 'Slovenian',
-        'sq'    => 'Albanian',
-        'sr_RS' => 'Serbian',
-        'sv_SE' => 'Swedish',
-        'th'    => 'Thai',
+        'pl'    => 'Polish',
         'tr'    => 'Turkish',
-        'uk_UA' => 'Ukrainian',
-        'vi_VN' => 'Vietnamese',
-        'zh_CN' => 'Simplified Chinese',
-        'zh_TW' => 'Traditional Chinese',
+        'sv'    => 'Swedish',
+        'no'    => 'Norwegian',
+        'da'    => 'Danish',
+        'fi'    => 'Finnish',
+        'el'    => 'Greek',
+        'cs'    => 'Czech',
+        'hu'    => 'Hungarian',
+        'ro'    => 'Romanian',
+        'th'    => 'Thai',
+        'vi'    => 'Vietnamese',
+        'id'    => 'Indonesian',
+        'ms'    => 'Malay',
+        'he'    => 'Hebrew',
+        'uk'    => 'Ukrainian',
+        'sk'    => 'Slovak',
+        'bg'    => 'Bulgarian',
+        'hr'    => 'Croatian',
+        'lt'    => 'Lithuanian',
+        'lv'    => 'Latvian',
+        'et'    => 'Estonian',
+        'sl'    => 'Slovenian',
+        // Not a GitBook site-structure language code (no content.language value
+        // exists for it), but used as a directory name on 1.11.x/ga/.
+        'ga'    => 'Galician',
     ];
     return $map[$code] ?? $code;
 }
@@ -626,28 +645,29 @@ function translatePage(
 if ($fixWrappers) {
     $repoRoot = dirname(__DIR__);
 
-    // Resolve languages: explicit args, or scan translated/ subdirectories
-    if (empty($langCodes)) {
-        foreach (glob($repoRoot . '/translated/*/') ?: [] as $dir) {
-            $langCodes[] = basename($dir);
+    // Resolve version/language pairs to scan: translated/<version>/<lang>/,
+    // scoped to --version if given, otherwise every version found.
+    $targets = [];
+    $versionDirs = $version !== null ? [$version] : array_map(
+        'basename',
+        glob($repoRoot . '/translated/*', GLOB_ONLYDIR) ?: []
+    );
+    foreach ($versionDirs as $v) {
+        foreach (glob($repoRoot . '/translated/' . $v . '/*', GLOB_ONLYDIR) ?: [] as $dir) {
+            $targets[] = ['version' => $v, 'lang' => basename($dir), 'dir' => $dir];
         }
     }
-    if (empty($langCodes)) {
-        eprintln('No languages specified and no translated/ subdirectories found.');
+
+    if (empty($targets)) {
+        eprintln('No translated/<version>/<lang>/ directories found' . ($version !== null ? " under translated/{$version}/" : '') . '.');
         exit(1);
     }
 
     $totalFixed = 0;
 
-    foreach ($langCodes as $lang) {
-        $lang    = trim($lang);
-        $outDir  = $repoRoot . '/translated/' . $lang;
+    foreach ($targets as $target) {
+        ['version' => $v, 'lang' => $lang, 'dir' => $outDir] = $target;
         $fixedIn = 0;
-
-        if (!is_dir($outDir)) {
-            eprintln("{$lang}: translated/{$lang}/ not found — skipping.");
-            continue;
-        }
 
         $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($outDir));
         foreach ($iterator as $file) {
@@ -674,19 +694,17 @@ if ($fixWrappers) {
         }
 
         $label = $dryRun ? 'would fix' : 'fixed';
-        eprintln("{$lang}: {$label} {$fixedIn} file(s).");
+        eprintln("{$v}/{$lang}: {$label} {$fixedIn} file(s).");
         $totalFixed += $fixedIn;
     }
 
     $label = $dryRun ? 'would be fixed' : 'fixed';
     eprintln('');
-    eprintln("Done. {$totalFixed} file(s) {$label} across " . count($langCodes) . " language(s).");
+    eprintln("Done. {$totalFixed} file(s) {$label} across " . count($targets) . " version/language director(y/ies).");
     exit(0);
 }
 
 // ── --commit preflight: fail fast, before spending any API calls ─────────────
-
-$originalBranch = null;
 
 if ($commit && !$dryRun) {
     if (!gitOk($repoRoot, 'diff --quiet') || !gitOk($repoRoot, 'diff --cached --quiet')) {
@@ -696,13 +714,7 @@ if ($commit && !$dryRun) {
 
     $branchOutput = [];
     if (!gitOk($repoRoot, 'symbolic-ref --short HEAD', $branchOutput) || empty($branchOutput)) {
-        eprintln('Error: could not determine the current branch (detached HEAD?). --commit requires a named branch to return to.');
-        exit(1);
-    }
-    $originalBranch = trim($branchOutput[0]);
-
-    if (!preg_match('/^\d+\.x$/', $originalBranch)) {
-        eprintln("Error: --commit must be run from the English source branch (e.g. 2.x), not '{$originalBranch}'.");
+        eprintln('Error: HEAD is detached. --commit needs a named branch checked out to commit onto.');
         exit(1);
     }
 }
@@ -710,50 +722,52 @@ if ($commit && !$dryRun) {
 // ── Detect languages ──────────────────────────────────────────────────────────
 
 if (empty($langCodes)) {
-    // Auto-detect from existing translation branches (e.g. 2.x-fr → fr)
-    $branchRes = run("git branch --list '*.x-??' '*.x-???'");
-    foreach ($branchRes['lines'] as $b) {
-        $b = trim($b, ' *');
-        if (preg_match('/^\d+\.x-(.+)$/', $b, $m)) {
-            // Map short branch suffix to a lang code in our map
-            $suffix = $m[1]; // e.g. "fr"
-            // Find a matching full lang code (fr_FR, es, de, ...)
-            foreach (array_keys((new ReflectionFunction('getLanguageName'))->getStaticVariables()['map'] ?? []) as $code) {
-                if (strtolower(explode('_', $code)[0]) === strtolower($suffix)) {
-                    $langCodes[] = $code;
-                    break;
-                }
-            }
-            if (!in_array($suffix, $langCodes, true)) {
-                $langCodes[] = $suffix; // fallback: use suffix directly
-            }
+    // Auto-detect from existing <version>/<lang>/ directories (besides en/)
+    foreach (glob("{$repoRoot}/{$version}/*", GLOB_ONLYDIR) ?: [] as $dir) {
+        $lang = basename($dir);
+        if ($lang !== 'en') {
+            $langCodes[] = $lang;
         }
     }
     if (empty($langCodes)) {
-        eprintln('No languages specified and no translation branches detected.');
-        eprintln('Usage: php scripts/translate-docs.php [--from TAG] fr_FR es de ...');
+        eprintln("No languages specified and no {$version}/<lang>/ directories detected.");
+        eprintln('Usage: php scripts/translate-docs.php --version ' . $version . ' [--from TAG] fr es de ...');
         exit(1);
     }
-    eprintln('Auto-detected languages from branches: ' . implode(', ', $langCodes));
+    eprintln('Auto-detected languages from existing directories: ' . implode(', ', $langCodes));
 }
 
-// ── Collect files to translate ────────────────────────────────────────────────
+// ── Collect files to translate, scoped to <version>/en/ ──────────────────────
+
+$sourceRoot = "{$version}/en";
+
+function stripSourceRoot(string $file, string $root): string
+{
+    return str_starts_with($file, "$root/") ? substr($file, strlen($root) + 1) : $file;
+}
 
 if ($fromTag !== null) {
-    $res   = run("git -C " . escapeshellarg($repoRoot) . " diff " . escapeshellarg($fromTag) . "..HEAD --name-only --diff-filter=ACMR -- '*.md'");
-    $files = array_filter($res['lines'], fn($f) => $f !== 'CHANGELOG.md' && trim($f) !== '');
+    $res   = run("git -C " . escapeshellarg($repoRoot) . " diff " . escapeshellarg($fromTag) . "..HEAD --name-only --diff-filter=ACMR -- " . escapeshellarg("{$sourceRoot}/*.md"));
+    $files = array_filter(
+        array_map(fn($f) => stripSourceRoot($f, $sourceRoot), $res['lines']),
+        fn($f) => $f !== 'CHANGELOG.md' && trim($f) !== '',
+    );
 } else {
-    $res   = run("git -C " . escapeshellarg($repoRoot) . " ls-files '*.md'");
-    $files = array_filter($res['lines'], fn($f) => $f !== 'CHANGELOG.md' && trim($f) !== '');
+    $res   = run("git -C " . escapeshellarg($repoRoot) . " ls-files " . escapeshellarg("{$sourceRoot}/*.md"));
+    $files = array_filter(
+        array_map(fn($f) => stripSourceRoot($f, $sourceRoot), $res['lines']),
+        fn($f) => $f !== 'CHANGELOG.md' && trim($f) !== '',
+    );
 }
 
 $files = array_values($files);
 
 if ($singleFile !== null) {
-    // Normalise: strip leading ./ if the user typed it
+    // Normalise: strip leading ./ and a redundant <version>/en/ prefix if the user typed it
     $singleFile = ltrim($singleFile, './');
+    $singleFile = stripSourceRoot($singleFile, $sourceRoot);
     if (!in_array($singleFile, $files, true)) {
-        eprintln("Error: '{$singleFile}' not found in the file list (check the path is relative to the repo root).");
+        eprintln("Error: '{$singleFile}' not found under {$sourceRoot}/ (path should be relative to that directory).");
         eprintln('Known files matching that name:');
         foreach ($files as $f) {
             if (str_contains($f, basename($singleFile))) {
@@ -766,7 +780,7 @@ if ($singleFile !== null) {
 }
 
 if (empty($files)) {
-    eprintln($fromTag ? "No Markdown files changed since {$fromTag}." : 'No Markdown files found.');
+    eprintln($fromTag ? "No Markdown files changed under {$sourceRoot}/ since {$fromTag}." : "No Markdown files found under {$sourceRoot}/.");
     exit(0);
 }
 
@@ -801,17 +815,17 @@ $report = [];
 foreach ($langCodes as $lang) {
     $lang     = trim($lang);
     $langName = getLanguageName($lang);
-    $outDir   = $repoRoot . '/translated/' . $lang;
+    $outDir   = "{$repoRoot}/translated/{$version}/{$lang}";
 
     eprintln('');
-    eprintln("── {$lang} ({$langName}) " . str_repeat('─', max(0, 50 - strlen($lang) - strlen($langName))));
+    eprintln("── {$version}/{$lang} ({$langName}) " . str_repeat('─', max(0, 50 - strlen($version) - strlen($lang) - strlen($langName))));
 
     $report[$lang] = ['ok' => [], 'warnings' => [], 'failed' => []];
     $fileList      = $testMode ? array_slice($files, 0, 1) : $files;
 
     foreach ($fileList as $idx => $relPath) {
-        $srcPath = $repoRoot . '/' . $relPath;
-        $dstPath = $outDir . '/' . $relPath;
+        $srcPath = "{$repoRoot}/{$sourceRoot}/{$relPath}";
+        $dstPath = "{$outDir}/{$relPath}";
         $progress = sprintf('[%d/%d]', $idx + 1, count($fileList));
 
         if (!$force && !$dryRun && is_file($dstPath)) {
@@ -877,9 +891,9 @@ foreach ($langCodes as $lang) {
     }
 }
 
-// ── Commit translations to their branches (--commit) ──────────────────────────
+// ── Commit translations directly into <version>/<lang>/ (--commit) ───────────
 
-// commitReport[lang] = ['status' => 'committed'|'no-changes'|'no-branch'|'error', 'detail' => string]
+// commitReport[lang] = ['status' => 'committed'|'no-changes'|'error', 'detail' => string]
 $commitReport = [];
 
 if ($commit && !$dryRun) {
@@ -888,6 +902,19 @@ if ($commit && !$dryRun) {
     eprintln('Committing translations (--commit)');
     eprintln(str_repeat('─', 60));
 
+    // Standard per-space boilerplate for a brand-new <version>/<lang>/ directory.
+    $gitbookYamlTemplate = "root: ./\n\nstructure:\n  readme: README.md\n  summary: SUMMARY.md\n";
+
+    // Current release tag number for this version, if any — used to tag sync status.
+    $currentTagRes = run("git -C " . escapeshellarg($repoRoot) . " tag --list " . escapeshellarg("{$version}-v*") . " --sort=-version:refname");
+    $currentTagNum = null;
+    foreach ($currentTagRes['lines'] as $t) {
+        if (preg_match('/^' . preg_quote($version, '/') . '-v(\d+)$/', trim($t), $m)) {
+            $currentTagNum = (int) $m[1];
+            break;
+        }
+    }
+
     foreach ($langCodes as $lang) {
         $lang = trim($lang);
 
@@ -895,58 +922,66 @@ if ($commit && !$dryRun) {
             continue; // nothing was translated for this language; nothing to commit
         }
 
-        $branch = branchForLang($lang);
-        $outDir = 'translated/' . $lang;
+        $srcDir  = "translated/{$version}/{$lang}";
+        $destDir = "{$version}/{$lang}";
+        $isNew   = !is_dir("{$repoRoot}/{$destDir}");
 
-        if (!gitOk($repoRoot, 'rev-parse --verify ' . escapeshellarg($branch))) {
-            eprintln("  {$lang}: SKIP — branch '{$branch}' does not exist locally.");
-            $commitReport[$lang] = ['status' => 'no-branch', 'detail' => $branch];
-            continue;
+        if ($isNew) {
+            @mkdir("{$repoRoot}/{$destDir}", 0755, true);
+            file_put_contents("{$repoRoot}/{$destDir}/.gitbook.yaml", $gitbookYamlTemplate);
+            $changelogSrc = "{$repoRoot}/{$sourceRoot}/CHANGELOG.md";
+            if (is_file($changelogSrc)) {
+                copy($changelogSrc, "{$repoRoot}/{$destDir}/CHANGELOG.md");
+            }
+            eprintln("  {$lang}: new space — seeded .gitbook.yaml" . (is_file($changelogSrc) ? ' and CHANGELOG.md' : ''));
         }
 
-        if (!gitOk($repoRoot, 'checkout ' . escapeshellarg($branch))) {
-            eprintln("  {$lang}: ERROR — could not check out '{$branch}'.");
-            $commitReport[$lang] = ['status' => 'error', 'detail' => "checkout {$branch} failed"];
-            continue;
-        }
-
-        exec('rsync -a ' . escapeshellarg($repoRoot . '/' . $outDir . '/') . ' ' . escapeshellarg($repoRoot . '/'), $_, $rsyncCode);
+        exec('rsync -a ' . escapeshellarg("{$repoRoot}/{$srcDir}/") . ' ' . escapeshellarg("{$repoRoot}/{$destDir}/"), $_, $rsyncCode);
         if ($rsyncCode !== 0) {
-            eprintln("  {$lang}: ERROR — rsync from {$outDir}/ failed (exit {$rsyncCode}).");
+            eprintln("  {$lang}: ERROR — rsync from {$srcDir}/ failed (exit {$rsyncCode}).");
             $commitReport[$lang] = ['status' => 'error', 'detail' => 'rsync failed'];
             continue;
         }
 
-        if (!gitOk($repoRoot, "add -A -- ':!translated/'")) {
-            eprintln("  {$lang}: ERROR — 'git add' failed.");
+        if (!gitOk($repoRoot, 'add ' . escapeshellarg($destDir))) {
+            eprintln("  {$lang}: ERROR — 'git add {$destDir}' failed.");
             $commitReport[$lang] = ['status' => 'error', 'detail' => 'git add failed'];
             continue;
         }
 
-        if (gitOk($repoRoot, 'diff --cached --quiet')) {
+        if (gitOk($repoRoot, 'diff --cached --quiet -- ' . escapeshellarg($destDir))) {
             eprintln("  {$lang}: no changes after sync — nothing to commit.");
-            $commitReport[$lang] = ['status' => 'no-changes', 'detail' => $branch];
+            $commitReport[$lang] = ['status' => 'no-changes', 'detail' => $destDir];
             continue;
         }
 
-        $filesChanged = count(run("git -C " . escapeshellarg($repoRoot) . " diff --cached --name-only")['lines']);
+        $filesChanged = count(run("git -C " . escapeshellarg($repoRoot) . " diff --cached --name-only -- " . escapeshellarg($destDir))['lines']);
         $langName     = getLanguageName($lang);
-        $subject      = "Documentation: Sync {$langName} translation from {$originalBranch}";
+        $subject      = "Documentation: Sync {$langName} translation for {$version}";
         $commitMsg    = escapeshellarg($subject);
 
-        if (!gitOk($repoRoot, "commit -m {$commitMsg}")) {
+        if (!gitOk($repoRoot, "commit -m {$commitMsg} -- " . escapeshellarg($destDir))) {
             eprintln("  {$lang}: ERROR — 'git commit' failed.");
             $commitReport[$lang] = ['status' => 'error', 'detail' => 'git commit failed'];
             continue;
         }
 
-        eprintln("  {$lang}: committed {$filesChanged} file(s) on {$branch} (not pushed).");
-        $commitReport[$lang] = ['status' => 'committed', 'detail' => "{$filesChanged} file(s) on {$branch}"];
-    }
+        eprintln("  {$lang}: committed {$filesChanged} file(s) in {$destDir} (not pushed).");
+        $detail = "{$filesChanged} file(s) in {$destDir}";
 
-    // Always return to the branch we started from, even if something above failed.
-    if ($originalBranch !== null) {
-        gitOk($repoRoot, 'checkout ' . escapeshellarg($originalBranch));
+        if ($currentTagNum !== null) {
+            $syncTag = "{$version}-{$lang}-v{$currentTagNum}";
+            if (gitOk($repoRoot, 'rev-parse --verify ' . escapeshellarg("refs/tags/{$syncTag}"))) {
+                eprintln("  {$lang}: tag {$syncTag} already exists — leaving it as is.");
+            } elseif (gitOk($repoRoot, 'tag ' . escapeshellarg($syncTag))) {
+                eprintln("  {$lang}: tagged {$syncTag} (in sync with {$version}-v{$currentTagNum}).");
+                $detail .= ", tagged {$syncTag}";
+            } else {
+                eprintln("  {$lang}: WARNING — could not create tag {$syncTag}.");
+            }
+        }
+
+        $commitReport[$lang] = ['status' => 'committed', 'detail' => $detail];
     }
 }
 
@@ -954,7 +989,7 @@ if ($commit && !$dryRun) {
 
 echo PHP_EOL;
 echo str_repeat('═', 60) . PHP_EOL;
-echo '  ['.date('H:i:s').']  TRANSLATION REPORT' . PHP_EOL;
+echo '  ['.date('H:i:s').']  TRANSLATION REPORT — ' . $version . PHP_EOL;
 echo str_repeat('═', 60) . PHP_EOL;
 
 foreach ($report as $lang => $data) {
@@ -990,21 +1025,20 @@ foreach ($report as $lang => $data) {
     }
 
     if (!$dryRun && $okCount > 0) {
-        $outDir = 'translated/' . $lang;
-        $branch = branchForLang($lang);
-        echo PHP_EOL . "Output: {$outDir}/" . PHP_EOL;
+        $srcDir  = "translated/{$version}/{$lang}";
+        $destDir = "{$version}/{$lang}";
+        echo PHP_EOL . "Output: {$srcDir}/" . PHP_EOL;
 
         if (isset($commitReport[$lang])) {
             $c = $commitReport[$lang];
             echo match ($c['status']) {
                 'committed'  => "Committed: {$c['detail']} (not pushed — review and push when ready)",
-                'no-changes' => "Committed: nothing to do — synced content was already up to date on {$c['detail']}",
-                'no-branch'  => "Not committed: branch '{$c['detail']}' does not exist locally.",
+                'no-changes' => "Committed: nothing to do — synced content was already up to date in {$c['detail']}",
                 'error'      => "Not committed: {$c['detail']}. Apply manually:\n"
-                              . "  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'",
+                              . "  rsync -av {$srcDir}/ {$destDir}/ && git add {$destDir}",
             } . PHP_EOL;
         } else {
-            echo "Apply:  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'" . PHP_EOL;
+            echo "Apply:  rsync -av {$srcDir}/ {$destDir}/ && git add {$destDir}" . PHP_EOL;
         }
     }
 }
