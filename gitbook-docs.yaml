@@ -10,11 +10,3 @@ site:
       content:
         directory: ./
         language: en
-    - type: space
-      key: space-1
-      title: Chamilo 2
-      path: 2.x
-      draft: true
-      content:
-        directory: ./chamilo-2
-        language: en
