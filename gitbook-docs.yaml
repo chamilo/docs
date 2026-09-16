@@ -216,3 +216,66 @@ site:
           content:
             directory: ./3.x/nl
             language: nl
+        - type: space
+          key: space-3.x-pt
+          title: Português
+          path: pt
+          content:
+            directory: ./3.x/pt
+            language: pt
+        - type: space
+          key: space-3.x-it
+          title: Italiano
+          path: it
+          content:
+            directory: ./3.x/it
+            language: it
+        - type: space
+          key: space-3.x-ar
+          title: العربية
+          path: ar
+          content:
+            directory: ./3.x/ar
+            language: ar
+        - type: space
+          key: space-3.x-el
+          title: Ελληνικά
+          path: el
+          content:
+            directory: ./3.x/el
+            language: el
+        - type: space
+          key: space-3.x-id
+          title: Bahasa Indonesia
+          path: id
+          content:
+            directory: ./3.x/id
+            language: id
+        - type: space
+          key: space-3.x-ja
+          title: 日本語
+          path: ja
+          content:
+            directory: ./3.x/ja
+            language: ja
+        - type: space
+          key: space-3.x-zh
+          title: 简体中文
+          path: zh
+          content:
+            directory: ./3.x/zh
+            language: zh
+        - type: space
+          key: space-3.x-zh-tw
+          title: 繁體中文
+          path: zh-tw
+          content:
+            directory: ./3.x/zh-tw
+            language: zh-tw
+        - type: space
+          key: space-3.x-pt-br
+          title: Português (Brasil)
+          path: pt-br
+          content:
+            directory: ./3.x/pt-br
+            language: pt-br
