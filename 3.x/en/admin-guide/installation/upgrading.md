@@ -20,7 +20,7 @@ Upgrading from Chamilo 1.11.x to 3.0 is a **major migration**, not a simple upda
    - Your `configuration.php` file.
 3. **Test on a staging server first.** Never run the migration directly on your production server.
 4. **Verify server requirements.** Chamilo 3.x has different requirements than 1.11.x (notably, PHP 8.3 or later — the installer refuses anything older). See [Server Requirements](server-requirements.md).
-5. **Delete the `version` table from the 1.11.x database.** This step is mandatory. Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns. If you leave the 1.11.x table in place, the upgrade stops immediately. The table is not necessary for Chamilo 1.11.x to work.
+5. **Decide what happens to the `version` table of the 1.11.x database.** Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns, so the two cannot coexist. The web wizard handles this for you: it renames the 1.11.x table to `version_1_11` before it runs the first migration. The command line does not, so **delete or rename that table yourself before you run `doctrine:migrations:migrate`**. The table is not necessary for Chamilo 1.11.x to work.
 6. **Unpack the new code in a new directory.** The 1.11.x files stay where they are. The installer reads them as the source of your courses and uploads, and writes the result into the new tree.
 
 ### Running the Upgrade
@@ -33,6 +33,10 @@ You can run the upgrade through the web wizard or through the command line.
 2. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
 3. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
 4. Follow the wizard to the end.
+
+The wizard has no login of its own, so an installed platform only reaches it with an authorisation on the server: an empty `UPGRADE_ENABLED` file in the project root, next to `.env` and `composer.json`. Your new tree is not installed yet when you start, so you have nothing to create: the wizard writes that file itself on the database step, and deletes it when the upgrade finishes.
+
+If your project root is read-only, the wizard can neither write nor delete the file. Create it by hand before you start, and delete it by hand at the end. While it is there, the installer stays open, and the administration page reports it under the platform health checks.
 
 #### Command line
 
@@ -89,6 +93,17 @@ php bin/console doctrine:migrations:status
 ```
 
 `Executed` must equal `Available`, and `New` must be 0. Now copy the 3.0 code.
+
+### Authorise the upgrade, if you use the web wizard
+
+Your platform is already installed, so the wizard refuses it until you authorise the upgrade on the server. The authorisation is an empty file named `UPGRADE_ENABLED`, in the project root, next to `.env` and `composer.json`:
+
+```bash
+cd /var/www/chamilo
+touch UPGRADE_ENABLED
+```
+
+It goes in the project root, not in `public/`: from there nobody can ask over HTTP whether your platform is currently open for upgrading. Without it the wizard answers `No UPGRADE_ENABLED found in the project root`. The installer deletes the file when the upgrade finishes; on a read-only project root it says so instead, and you delete it by hand. The command line needs no such file.
 
 ### Run the upgrade
 
