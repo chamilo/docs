@@ -22,7 +22,7 @@ Upgrading from Chamilo 1.11.x to 3.0 is a **major migration**, not a simple upda
 4. **Verify server requirements.** Chamilo 3.x has different requirements than 1.11.x (notably, PHP 8.3 or later — the installer refuses anything older). See [Server Requirements](server-requirements.md).
 5. **Decide what happens to the `version` table of the 1.11.x database.** Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns, so the two cannot coexist. The web wizard handles this for you: it renames the 1.11.x table to `version_1_11` before it runs the first migration. The command line does not, so **delete or rename that table yourself before you run `doctrine:migrations:migrate`**. The table is not necessary for Chamilo 1.11.x to work.
 6. **Unpack the new code in a new directory.** The 1.11.x files stay where they are. The installer reads them as the source of your courses and uploads, and writes the result into the new tree.
-7. **If you used sublanguages, make `assets/locales/` writeable by the web server too.** The upgrade converts your sublanguages and writes one translation file per language into that folder. Without the permission the upgrade still finishes and reports the failure in the server log, but your sublanguages stay untranslated.
+7. **If you used sublanguages, nothing extra is required.** The upgrade converts them and writes their terms into `var/translations/`, which your web server already needs to write. The interface reads them from there, with no rebuild.
 
 ### Running the Upgrade
 
@@ -51,18 +51,6 @@ UPDATE_PATH=/path/to/chamilo-1.11 php bin/console doctrine:migrations:migrate --
 ```
 
 Raise `memory_limit` and `max_execution_time` first. The migration reads every course file, so it needs far more than the defaults.
-
-#### Sublanguages: rebuild the assets afterwards
-
-If you used sublanguages in 1.11.x, one step is left after the upgrade, whichever way you ran it. Rebuild the assets by hand:
-
-```bash
-cd /var/www/chamilo
-yarn install
-yarn build
-```
-
-The list of languages the interface offers is fixed when the assets are built, so the translation files the upgrade wrote reach your users only after this step. Until you run it, a user on a sublanguage sees its parent language instead.
 
 #### How long it takes
 
