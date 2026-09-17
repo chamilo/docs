@@ -30,13 +30,16 @@ You can run the upgrade through the web wizard or through the command line.
 #### Web wizard
 
 1. Point the `DocumentRoot` of your virtual host to the `public/` subdirectory of the new tree.
-2. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
-3. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
-4. Follow the wizard to the end.
+2. Create an empty `UPGRADE_ENABLED` file in the project root, next to `.env` and `composer.json` — see below.
+3. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
+4. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
+5. Follow the wizard to the end.
 
-The wizard has no login of its own, so an installed platform only reaches it with an authorisation on the server: an empty `UPGRADE_ENABLED` file in the project root, next to `.env` and `composer.json`. Your new tree is not installed yet when you start, so you have nothing to create: the wizard writes that file itself on the database step, and deletes it when the upgrade finishes.
+The wizard has no login of its own, so an upgrade needs an authorisation on the server: that `UPGRADE_ENABLED` file. **Only you create it.** The wizard never writes it for itself, because the file's whole value is that its presence proves a person decided on the server.
 
-If your project root is read-only, the wizard can neither write nor delete the file. Create it by hand before you start, and delete it by hand at the end. While it is there, the installer stays open, and the administration page reports it under the platform health checks.
+Your new tree has no `.env` yet, so the wizard does open without the file. It asks for it on the requirements step, when you choose the upgrade and before it asks for your database. Create the file then and continue; you do not restart the wizard.
+
+The installer deletes the file when the upgrade finishes. If your project root is read-only, it says so instead, and you delete the file by hand. While it is there, the installer stays open, and the administration page reports it under the platform health checks.
 
 #### Command line
 
