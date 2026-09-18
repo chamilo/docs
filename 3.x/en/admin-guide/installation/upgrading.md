@@ -90,6 +90,8 @@ php bin/console doctrine:migrations:version --add --all --no-interaction
 
 The first command creates the history table. The second marks the migrations of your current version. `doctrine:migrations:version` fails on its own if the table does not exist yet, so do not skip the first one.
 
+**No shell on your hosting?** The administration page does the same thing: the **No migration history: click to fix** item of the platform health checks. It does not need the order above, because it reads your schema instead of the code on disk: it records only the migration namespaces your database proves it already carries, and leaves the newer ones pending. So you may copy the 3.0 code first and use the link afterwards — see *If you already copied the 3.0 code* below.
+
 Check the result:
 
 ```bash
@@ -97,6 +99,39 @@ php bin/console doctrine:migrations:status
 ```
 
 `Executed` must equal `Available`, and `New` must be 0. Now copy the 3.0 code.
+
+### If you already copied the 3.0 code
+
+Two symptoms identify this case. The web wizard answers **"Chamilo is already installed"** although your platform is a 2.x one, and `doctrine:migrations:status` reports `Executed` 0.
+
+Your history is still empty, and the code on disk is no longer the code that created your database. So do **not** seed it with `--add --all` from here: that marks every migration the deployed code carries, which records the migrations your upgrade still needs as already done. They then never run, and nothing warns you afterwards — your database simply lacks the columns they create.
+
+There are two ways out, and the first one needs no shell.
+
+**Way one, from the administration page.** Open the platform health checks and use the **No migration history: click to fix** item. It reads your schema, records only the namespaces your database proves it already carries, and leaves the newer migrations pending. The notification reports both counts: for a 2.0.x database under the 3.0 code, 347 recorded and 46 still pending. Then run the upgrade as described below.
+
+**Way two, from a shell.** Seed everything, then remove from the history the namespaces your previous version did not carry.
+
+Every 2.0.x release, from 2.0.0 to 2.0.3, carries the same **344** migrations, all of them in the `V200` namespace. Chamilo 3.0.0 carries **393**: the `V210` and `V300` namespaces, plus three `V200` migrations. Those three are dated copies of migrations that also live in `V210` and `V300`, added so the 1.11.x path creates their columns early, and each one checks the schema before it acts. So recording the whole `V200` namespace loses nothing — their twins stay pending and do the work.
+
+```bash
+php bin/console doctrine:migrations:sync-metadata-storage --no-interaction
+php bin/console doctrine:migrations:version --add --all --no-interaction
+```
+
+Then, in your database, remove the migrations that must still run:
+
+```sql
+DELETE FROM version WHERE version LIKE '%V210%' OR version LIKE '%V300%';
+```
+
+Check the result:
+
+```bash
+php bin/console doctrine:migrations:status
+```
+
+For a 2.0.x source and Chamilo 3.0.0, `Executed` must be 347, `Available` 393 and `New` 46. Now continue with the upgrade below.
 
 ### Authorise the upgrade, if you use the web wizard
 
