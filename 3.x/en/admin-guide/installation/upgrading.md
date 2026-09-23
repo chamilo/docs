@@ -20,8 +20,9 @@ Upgrading from Chamilo 1.11.x to 3.0 is a **major migration**, not a simple upda
    - Your `configuration.php` file.
 3. **Test on a staging server first.** Never run the migration directly on your production server.
 4. **Verify server requirements.** Chamilo 3.x has different requirements than 1.11.x (notably, PHP 8.3 or later — the installer refuses anything older). See [Server Requirements](server-requirements.md).
-5. **Delete the `version` table from the 1.11.x database.** This step is mandatory. Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns. If you leave the 1.11.x table in place, the upgrade stops immediately. The table is not necessary for Chamilo 1.11.x to work.
+5. **Decide what happens to the `version` table of the 1.11.x database.** Chamilo 2.x and later store the Doctrine migration history in a table of that name, with other columns, so the two cannot coexist. The web wizard handles this for you: it renames the 1.11.x table to `version_1_11` before it runs the first migration. The command line does not, so **delete or rename that table yourself before you run `doctrine:migrations:migrate`**. The table is not necessary for Chamilo 1.11.x to work.
 6. **Unpack the new code in a new directory.** The 1.11.x files stay where they are. The installer reads them as the source of your courses and uploads, and writes the result into the new tree.
+7. **If you used sublanguages, nothing extra is required.** The upgrade converts them and writes their terms into `var/translations/`, which your web server already needs to write. The interface reads them from there, with no rebuild.
 
 ### Running the Upgrade
 
@@ -30,9 +31,16 @@ You can run the upgrade through the web wizard or through the command line.
 #### Web wizard
 
 1. Point the `DocumentRoot` of your virtual host to the `public/` subdirectory of the new tree.
-2. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
-3. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
-4. Follow the wizard to the end.
+2. Create an empty `UPGRADE_ENABLED` file in the project root, next to `.env` and `composer.json` — see below.
+3. Open your URL. The wizard starts, because the new tree has no `.env` file yet.
+4. On step 2, select the upgrade option and give the root path of your 1.11.x installation.
+5. Follow the wizard to the end.
+
+The wizard has no login of its own, so an upgrade needs an authorisation on the server: that `UPGRADE_ENABLED` file. **Only you create it.** The wizard never writes it for itself, because the file's whole value is that its presence proves a person decided on the server.
+
+Your new tree has no `.env` yet, so the wizard does open without the file. It asks for it on the requirements step, when you choose the upgrade and before it asks for your database. Create the file then and continue; you do not restart the wizard.
+
+The installer deletes the file when the upgrade finishes. If your project root is read-only, it says so instead, and you delete the file by hand. While it is there, the installer stays open, and the administration page reports it under the platform health checks.
 
 #### Command line
 
@@ -82,6 +90,8 @@ php bin/console doctrine:migrations:version --add --all --no-interaction
 
 The first command creates the history table. The second marks the migrations of your current version. `doctrine:migrations:version` fails on its own if the table does not exist yet, so do not skip the first one.
 
+**No shell on your hosting?** The administration page does the same thing: the **No migration history: click to fix** item of the platform health checks. It does not need the order above, because it reads your schema instead of the code on disk: it records only the migration namespaces your database proves it already carries, and leaves the newer ones pending. So you may copy the 3.0 code first and use the link afterwards — see *If you already copied the 3.0 code* below.
+
 Check the result:
 
 ```bash
@@ -89,6 +99,50 @@ php bin/console doctrine:migrations:status
 ```
 
 `Executed` must equal `Available`, and `New` must be 0. Now copy the 3.0 code.
+
+### If you already copied the 3.0 code
+
+Two symptoms identify this case. The web wizard answers **"Chamilo is already installed"** although your platform is a 2.x one, and `doctrine:migrations:status` reports `Executed` 0.
+
+Your history is still empty, and the code on disk is no longer the code that created your database. So do **not** seed it with `--add --all` from here: that marks every migration the deployed code carries, which records the migrations your upgrade still needs as already done. They then never run, and nothing warns you afterwards — your database simply lacks the columns they create.
+
+There are two ways out, and the first one needs no shell.
+
+**Way one, from the administration page.** Open the platform health checks and use the **No migration history: click to fix** item. It reads your schema, records only the namespaces your database proves it already carries, and leaves the newer migrations pending. The notification reports both counts: for a 2.0.x database under the 3.0 code, 347 recorded and 46 still pending. Then run the upgrade as described below.
+
+**Way two, from a shell.** Seed everything, then remove from the history the namespaces your previous version did not carry.
+
+Every 2.0.x release, from 2.0.0 to 2.0.3, carries the same **344** migrations, all of them in the `V200` namespace. Chamilo 3.0.0 carries **393**: the `V210` and `V300` namespaces, plus three `V200` migrations. Those three are dated copies of migrations that also live in `V210` and `V300`, added so the 1.11.x path creates their columns early, and each one checks the schema before it acts. So recording the whole `V200` namespace loses nothing — their twins stay pending and do the work.
+
+```bash
+php bin/console doctrine:migrations:sync-metadata-storage --no-interaction
+php bin/console doctrine:migrations:version --add --all --no-interaction
+```
+
+Then, in your database, remove the migrations that must still run:
+
+```sql
+DELETE FROM version WHERE version LIKE '%V210%' OR version LIKE '%V300%';
+```
+
+Check the result:
+
+```bash
+php bin/console doctrine:migrations:status
+```
+
+For a 2.0.x source and Chamilo 3.0.0, `Executed` must be 347, `Available` 393 and `New` 46. Now continue with the upgrade below.
+
+### Authorise the upgrade, if you use the web wizard
+
+Your platform is already installed, so the wizard refuses it until you authorise the upgrade on the server. The authorisation is an empty file named `UPGRADE_ENABLED`, in the project root, next to `.env` and `composer.json`:
+
+```bash
+cd /var/www/chamilo
+touch UPGRADE_ENABLED
+```
+
+It goes in the project root, not in `public/`: from there nobody can ask over HTTP whether your platform is currently open for upgrading. Without it the wizard answers `No UPGRADE_ENABLED found in the project root`. The installer deletes the file when the upgrade finishes; on a read-only project root it says so instead, and you delete it by hand. The command line needs no such file.
 
 ### Run the upgrade
 
