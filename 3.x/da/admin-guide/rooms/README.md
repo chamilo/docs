@@ -2,7 +2,7 @@
 
 Blokken **Lokaler** på administrationsdashboardet administrerer de fysiske steder, Chamilo kan registrere til fremmøde- eller blended undervisning: afdelinger (sites), lokalerne i dem og et værktøj til at finde, hvilke lokaler der er ledige på et givet tidspunkt.
 
-![Blokken Lokaler på administrationsdashboardet, der viser Afdelinger, Lokaler og Find ledighed for lokaler](/.gitbook/assets/admin-rooms-block.png)
+![Blokken Lokaler på administrationsdashboardet, der viser Afdelinger, Lokaler og Find ledighed for lokaler](../../.gitbook/assets/admin-rooms-block.png)
 
 Dette kapitel dækker administrationen af afdelinger og lokaler på administratorsiden. For den lærerrettede side — tildeling af et lokale til en kursussession — se [Afdelinger og lokaler](../../teacher-guide/branches-and-rooms.md) i Lærervejledningen.
 

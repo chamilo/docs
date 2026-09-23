@@ -1,6 +1,6 @@
 # 教师笔记
 
-教师笔记 <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="教师笔记" data-size="line"> 为课程教学团队提供一本私密笔记本，用于记录关于特定学习者的笔记——进度观察、提醒事项，以及任何你不愿放在公开工具中的内容。学生永远看不到此工具及其内容。
+教师笔记 <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="教师笔记" data-size="line"> 为课程教学团队提供一本私密笔记本，用于记录关于特定学习者的笔记——进度观察、提醒事项，以及任何你不愿放在公开工具中的内容。学生永远看不到此工具及其内容。
 
 > 请勿与 [笔记本](../additional-tools/notebook.md) 工具混淆——后者是供学习者使用的个人笔记本；教师笔记是独立的、仅供教师使用的工具。
 

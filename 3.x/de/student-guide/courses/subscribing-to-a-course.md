@@ -21,7 +21,7 @@ Wenn die Sichtbarkeit eines Kurses es zulässt, können Sie sich selbst anmelden
 2. Durchsuchen oder suchen Sie den Kurs, dem Sie beitreten möchten.
 3. Klicken Sie auf den Kurs, um die Details zu öffnen, und klicken Sie dann auf die Schaltfläche zum Beitreten.
 
-![Der Kurskatalog mit einer Schaltfläche „Anmelden“ auf jeder Kurskarte](/.gitbook/assets/student-course-catalogue.png)
+![Der Kurskatalog mit einer Schaltfläche „Anmelden“ auf jeder Kurskarte](../../.gitbook/assets/student-course-catalogue.png)
 
 Bei einem Kurs, für den Sie bereits eingeschrieben sind, erscheint **Zum Kurs gehen** statt einer Anmelde-Schaltfläche.
 

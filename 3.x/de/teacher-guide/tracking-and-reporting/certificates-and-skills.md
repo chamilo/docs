@@ -30,13 +30,13 @@ Das individuelle Ablaufdatum jedes Zertifikats wird beim Erzeugen (oder erneuten
 
 Wenn für die Kategorie keine Gültigkeitsdauer konfiguriert ist, können Sie das Ablaufdatum eines einzelnen Lernenden trotzdem manuell setzen (oder ändern): klicken Sie neben dem Eintrag auf die Schaltfläche mit dem Stift **Ablaufdatum bearbeiten** und wählen Sie ein Datum. Diese Schaltfläche ist nur verfügbar, wenn die Kategorie selbst keine Gültigkeitsdauer hat — sobald eine Gültigkeitsdauer festgelegt ist, werden Ablaufdaten automatisch verwaltet und können nicht mehr Zertifikat für Zertifikat bearbeitet werden.
 
-![Die Zertifikatsliste mit der Spalte Ablaufdatum für drei Lernende](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![Die Zertifikatsliste mit der Spalte Ablaufdatum für drei Lernende](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Lernende an bevorstehenden oder vergangenen Ablauf erinnern
 
-Öffnen Sie die Liste **Zertifikate** für Ihre Bewertung und klicken Sie auf die Schaltfläche **Ablaufende Zertifikate** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Ablaufende Zertifikate" data-size="line">, um zu sehen, welche Zertifikate von Lernenden abgelaufen sind oder bald ablaufen. Die Seite zeigt je Lernendem: das **Ablaufdatum** des Zertifikats, den **Status** (**Abgelaufen** oder **Läuft bald ab**) sowie, wann zuletzt eine Erinnerung dazu **Letzte Erinnerung gesendet** wurde (oder **Nie**). Mit **Tage im Voraus** können Sie festlegen, wie weit in die Zukunft „läuft bald ab“ reicht.
+Öffnen Sie die Liste **Zertifikate** für Ihre Bewertung und klicken Sie auf die Schaltfläche **Ablaufende Zertifikate** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Ablaufende Zertifikate" data-size="line">, um zu sehen, welche Zertifikate von Lernenden abgelaufen sind oder bald ablaufen. Die Seite zeigt je Lernendem: das **Ablaufdatum** des Zertifikats, den **Status** (**Abgelaufen** oder **Läuft bald ab**) sowie, wann zuletzt eine Erinnerung dazu **Letzte Erinnerung gesendet** wurde (oder **Nie**). Mit **Tage im Voraus** können Sie festlegen, wie weit in die Zukunft „läuft bald ab“ reicht.
 
-![Die Seite Ablaufende Zertifikate mit einem abgelaufenen und einem bald ablaufenden Zertifikat](/.gitbook/assets/gradebook-certificate-expirations.png)
+![Die Seite Ablaufende Zertifikate mit einem abgelaufenen und einem bald ablaufenden Zertifikat](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Um Lernende selbst zu benachrichtigen:
 
@@ -45,7 +45,7 @@ Um Lernende selbst zu benachrichtigen:
 3. Prüfen Sie die Vorschau der E-Mail, die gesendet wird — es werden getrennte Vorschauen für die Formulierungen „läuft bald ab“ und „abgelaufen“ angezeigt, je nachdem, welche der ausgewählten Lernenden in welchen Fall fallen
 4. Bestätigen Sie, indem Sie im Dialog erneut auf **Benachrichtigung senden** klicken
 
-![Der Bestätigungsdialog Benachrichtigung senden mit Vorschau der E-Mail-Formulierungen für bald ablaufende und abgelaufene Zertifikate](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Der Bestätigungsdialog Benachrichtigung senden mit Vorschau der E-Mail-Formulierungen für bald ablaufende und abgelaufene Zertifikate](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Jeder Lernende wird in seiner konfigurierten Sprache benachrichtigt, sowohl per E-Mail als auch durch eine interne Chamilo-Nachricht. Erneutes Senden für dasselbe Zertifikat und dasselbe Ablaufdatum ist unbedenklich — Chamilo merkt sich, was pro Zertifikat bereits gesendet wurde, und sendet einem Lernenden keine doppelten Erinnerungen, es sei denn, Sie senden ausdrücklich erneut.
 

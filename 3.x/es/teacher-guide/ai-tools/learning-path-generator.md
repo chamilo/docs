@@ -14,7 +14,7 @@ Busque la sección **Generador de IA** en la interfaz de creación de itinerario
 
 ## Cómo generar un itinerario de aprendizaje
 
-![Formulario del generador de itinerarios de aprendizaje con IA, con campos para tema, objetivos y número de secciones](/.gitbook/assets/ai-learning-path-generator.png)
+![Formulario del generador de itinerarios de aprendizaje con IA, con campos para tema, objetivos y número de secciones](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Abra el formulario del generador de IA
 2. Configure los parámetros:

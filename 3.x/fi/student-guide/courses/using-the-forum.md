@@ -4,7 +4,7 @@
 
 ## Orientoituminen
 
-Avaa **Foorumi** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foorumi" data-size="line"> -työkalu kurssin etusivulta. Foorumit on järjestetty kolmelle tasolle:
+Avaa **Foorumi** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foorumi" data-size="line"> -työkalu kurssin etusivulta. Foorumit on järjestetty kolmelle tasolle:
 
 1. **Kategoriat** — laajat ryhmittelyt (esim. "Yleiset keskustelut", "Moduulin 1 kysymykset")
 2. **Foorumit** — yksittäiset keskustelualueet kategorian sisällä

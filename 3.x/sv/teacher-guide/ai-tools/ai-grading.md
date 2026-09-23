@@ -9,11 +9,11 @@ AI-bedömning finns i två sammanhang:
 * **Öppna övningsfrågor** — När du manuellt bedömer fria svar i en övning
 * **Uppgiftsinlämningar** — När du granskar och poängsätter studenters publikationer i verktyget Uppgifter
 
-Leta efter knappen **AI-bedömning** (markerad med en robotikon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) i bedömningsgränssnittet.
+Leta efter knappen **AI-bedömning** (markerad med en robotikon <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) i bedömningsgränssnittet.
 
 ## Så fungerar det
 
-![Gränssnittet för AI-bedömning som visar en studentinlämning med föreslagen poäng och återkoppling](/.gitbook/assets/ai-grading-interface.png)
+![Gränssnittet för AI-bedömning som visar en studentinlämning med föreslagen poäng och återkoppling](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Öppna en inlämning eller ett svar som behöver bedömas
 2. Klicka på knappen **AI-bedömning**

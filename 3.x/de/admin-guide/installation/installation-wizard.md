@@ -13,7 +13,7 @@ Stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 ## Schritt 1: Installationssprache
 
-![Installationsassistent Schritt 1 — Sprachauswahl](/.gitbook/assets/install-step1-language.png)
+![Installationsassistent Schritt 1 — Sprachauswahl](../../.gitbook/assets/install-step1-language.png)
 
 Im ersten Schritt wählen Sie die Sprache für den Installationsvorgang. Wählen Sie Ihre bevorzugte Sprache aus der Dropdown-Liste.
 
@@ -21,7 +21,7 @@ Wenn Chamilo eine bestehende Installation erkennt (für ein Upgrade), wird der M
 
 ## Schritt 2: Anforderungsprüfung
 
-![Installationsassistent Schritt 2 — Anforderungsprüfung mit PHP-Version, Erweiterungen und Verzeichnisberechtigungen](/.gitbook/assets/install-step2-requirements.png)
+![Installationsassistent Schritt 2 — Anforderungsprüfung mit PHP-Version, Erweiterungen und Verzeichnisberechtigungen](../../.gitbook/assets/install-step2-requirements.png)
 
 Der Assistent prüft Ihre Serverumgebung:
 
@@ -34,7 +34,7 @@ Wenn Anforderungen nicht erfüllt sind, zeigt der Assistent Warnungen oder Fehle
 
 ## Schritt 3: Lizenz
 
-![Installationsassistent Schritt 3 — Lizenzannahme](/.gitbook/assets/install-step3-license.png)
+![Installationsassistent Schritt 3 — Lizenzannahme](../../.gitbook/assets/install-step3-license.png)
 
 Dieser Schritt zeigt die GNU/GPLv3-Lizenz. Sie müssen das Kontrollkästchen **„I accept“** aktivieren, um fortzufahren.
 
@@ -42,7 +42,7 @@ Optional können Sie den Abschnitt **Contact information** aufklappen, um Angabe
 
 ## Schritt 4: Datenbankeinstellungen
 
-![Installationsassistent Schritt 4 — Konfiguration der Datenbankverbindung](/.gitbook/assets/install-step4-database.png)
+![Installationsassistent Schritt 4 — Konfiguration der Datenbankverbindung](../../.gitbook/assets/install-step4-database.png)
 
 Geben Sie Ihre Datenbankverbindungsdaten ein:
 
@@ -58,7 +58,7 @@ Klicken Sie auf **Check database connection**, um zu testen. Der Assistent läss
 
 ## Schritt 5: Konfigurationseinstellungen
 
-![Installationsassistent Schritt 5 — Administratorkonto, Portaleinstellungen und E-Mail-Konfiguration](/.gitbook/assets/install-step5-config.png)
+![Installationsassistent Schritt 5 — Administratorkonto, Portaleinstellungen und E-Mail-Konfiguration](../../.gitbook/assets/install-step5-config.png)
 
 Dieser Schritt kombiniert die Erstellung des Administratorkontos, Portaleinstellungen und die E-Mail-Konfiguration.
 
@@ -95,7 +95,7 @@ Alle diese Einstellungen können später im Administrationsbereich geändert wer
 
 ## Schritt 6: Letzte Prüfung vor der Installation
 
-![Installationsassistent Schritt 6 — Überprüfung aller Einstellungen vor der Installation](/.gitbook/assets/install-step6-review.png)
+![Installationsassistent Schritt 6 — Überprüfung aller Einstellungen vor der Installation](../../.gitbook/assets/install-step6-review.png)
 
 Dieser Schritt zeigt eine Zusammenfassung aller eingegebenen Angaben zur Überprüfung:
 
@@ -107,7 +107,7 @@ Prüfen Sie alles sorgfältig und klicken Sie anschließend auf **Install Chamil
 
 ## Schritt 7: Installation abgeschlossen
 
-![Installationsassistent Schritt 7 — Abschluss mit Sicherheitshinweisen und Portal-Link](/.gitbook/assets/install-step7-complete.png)
+![Installationsassistent Schritt 7 — Abschluss mit Sicherheitshinweisen und Portal-Link](../../.gitbook/assets/install-step7-complete.png)
 
 Nach erfolgreichem Abschluss der Installation zeigt der Assistent:
 

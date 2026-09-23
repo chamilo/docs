@@ -9,11 +9,11 @@ A Avaliação por IA está disponível em dois contextos:
 * **Questões de exercícios abertos** — Quando você corrige manualmente perguntas de resposta livre em um exercício
 * **Submissões de tarefas** — Quando você revisa e pontua publicações de estudantes na ferramenta de Tarefas
 
-Procure pelo botão **Avaliação por IA** (indicado por um ícone de robô <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) na interface de correção.
+Procure pelo botão **Avaliação por IA** (indicado por um ícone de robô <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) na interface de correção.
 
 ## Como Funciona
 
-![A interface de avaliação por IA mostrando uma submissão de estudante com pontuação sugerida e feedback](/.gitbook/assets/ai-grading-interface.png)
+![A interface de avaliação por IA mostrando uma submissão de estudante com pontuação sugerida e feedback](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Abra uma submissão ou resposta que precisa ser avaliada
 2. Clique no botão **Avaliação por IA**

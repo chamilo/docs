@@ -19,12 +19,12 @@ Si la [visibilidad](../creating-your-course/course-settings.md#course-visibility
 
 ## Inscripción manual a través de la herramienta Usuarios
 
-Para suscribir a alguien que ya tiene una cuenta en la plataforma pero no se ha unido por sí mismo, abra la herramienta **Usuarios** de su curso y haga clic en el icono **Añadir usuarios** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Añadir usuarios" data-size="line">.
+Para suscribir a alguien que ya tiene una cuenta en la plataforma pero no se ha unido por sí mismo, abra la herramienta **Usuarios** de su curso y haga clic en el icono **Añadir usuarios** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Añadir usuarios" data-size="line">.
 
 1. Busque a la persona por nombre, nombre de usuario, correo electrónico o código oficial
 2. Haga clic en **Registrar** en su fila, o seleccione varias con las casillas de verificación y use el menú **Acción** para registrarlas todas a la vez
 
-![Resultados de búsqueda en la pantalla Inscribir usuarios al curso, que muestra un alumno coincidente y un botón Registrar](/.gitbook/assets/course-users-subscribe-search.png)
+![Resultados de búsqueda en la pantalla Inscribir usuarios al curso, que muestra un alumno coincidente y un botón Registrar](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Solo aparecen en los resultados los usuarios que aún no están suscritos al curso.
 
@@ -36,9 +36,9 @@ Los tres métodos anteriores asumen que la persona ya tiene una cuenta en la pla
 
 ### Acceso a la herramienta
 
-Abra la herramienta **Usuarios** de su curso y, a continuación, haga clic en el icono **Invitar por correo electrónico** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Invitar por correo electrónico" data-size="line"> de la barra de herramientas, junto a **Añadir usuarios**:
+Abra la herramienta **Usuarios** de su curso y, a continuación, haga clic en el icono **Invitar por correo electrónico** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Invitar por correo electrónico" data-size="line"> de la barra de herramientas, junto a **Añadir usuarios**:
 
-![La barra de herramientas de la herramienta Usuarios, que muestra el icono Añadir usuarios y el icono Invitar por correo electrónico](/.gitbook/assets/course-users-invite-icon.png)
+![La barra de herramientas de la herramienta Usuarios, que muestra el icono Añadir usuarios y el icono Invitar por correo electrónico](../../.gitbook/assets/course-users-invite-icon.png)
 
 Esto abre la página **Invitaciones al curso**.
 
@@ -53,7 +53,7 @@ Esto abre la página **Invitaciones al curso**.
 1. Introduzca la dirección de correo electrónico del destinatario en el formulario **Invitar por correo electrónico**
 2. Haga clic en **Enviar invitación**
 
-![La página de invitaciones del curso: el formulario de invitación por correo electrónico y una tabla de invitaciones enviadas con su estado](/.gitbook/assets/course-invitations-list.png)
+![La página de invitaciones del curso: el formulario de invitación por correo electrónico y una tabla de invitaciones enviadas con su estado](../../.gitbook/assets/course-invitations-list.png)
 
 Todas las invitaciones que haya enviado para este curso aparecen debajo del formulario, con su estado:
 
@@ -65,8 +65,8 @@ Todas las invitaciones que haya enviado para este curso aparecen debajo del form
 
 Para una invitación aún pendiente, la columna **Acciones** ofrece:
 
-* **Copiar** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copiar" data-size="line"> — copia el enlace de la invitación, por si prefiere compartirlo usted mismo (chat, en persona) en lugar de depender del correo electrónico.
-* **Revocar** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revocar" data-size="line"> — cancela la invitación de inmediato; el enlace deja de funcionar. Una invitación ya aceptada no se puede revocar.
+* **Copiar** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Copiar" data-size="line"> — copia el enlace de la invitación, por si prefiere compartirlo usted mismo (chat, en persona) en lugar de depender del correo electrónico.
+* **Revocar** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revocar" data-size="line"> — cancela la invitación de inmediato; el enlace deja de funcionar. Una invitación ya aceptada no se puede revocar.
 
 > **La dirección de correo electrónico invitada no debe tener ya una cuenta en esta plataforma.** Si la tiene, el envío de la invitación falla con un mensaje que le pide inscribir directamente a ese usuario existente — a través de [Inscripción manual mediante la herramienta Usuarios](#manual-enrollment-via-the-users-tool) más arriba.
 

@@ -1,6 +1,6 @@
 # H5P-tuonti
 
-H5P-tuonti <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-tuonti" data-size="line"> mahdollistaa standardien `.h5p`-interaktiivisten sisältöpakettien (interaktiivinen video, visailut, esitykset ja muut H5P-sisältötyypit) tuomisen kurssille. Oppijoiden yritykset ja edistyminen seurataan samalla tavalla kuin Chamilo-testissä.
+H5P-tuonti <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-tuonti" data-size="line"> mahdollistaa standardien `.h5p`-interaktiivisten sisältöpakettien (interaktiivinen video, visailut, esitykset ja muut H5P-sisältötyypit) tuomisen kurssille. Oppijoiden yritykset ja edistyminen seurataan samalla tavalla kuin Chamilo-testissä.
 
 ## Työkalun avaaminen
 

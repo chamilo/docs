@@ -4,7 +4,7 @@
 
 ## 繳交您的作業
 
-從課程首頁開啟 **作業** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> 工具，然後開啟特定作業。請仔細閱讀說明——其中包含教師關於應繳交內容及評分方式的指示。接著：
+從課程首頁開啟 **作業** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> 工具，然後開啟特定作業。請仔細閱讀說明——其中包含教師關於應繳交內容及評分方式的指示。接著：
 
 1. 點選 **上傳檔案**（或繳交按鈕）
 2. 視教師如何設定該作業而定，從電腦選取檔案、直接以文字撰寫繳交內容，或兩者皆可

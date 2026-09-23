@@ -10,7 +10,7 @@ Saat menyunting dokumen di alat **Documents**, fitur pembuatan media AI memungki
 
 ## Cara Menghasilkan Gambar atau Video
 
-1. Buka dokumen di alat **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (buat yang baru atau sunting yang sudah ada)
+1. Buka dokumen di alat **Documents** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (buat yang baru atau sunting yang sudah ada)
 2. Di editor teks kaya, letakkan kursor di dalam atau dekat paragraf yang ingin Anda ilustrasikan
 3. Buka dialog **Generate AI media** dari bilah alat editor
 4. Deskripsikan apa yang ingin ditampilkan media, atau gunakan paragraf yang dipilih sebagai prompt

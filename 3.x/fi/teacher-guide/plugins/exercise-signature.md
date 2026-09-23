@@ -1,6 +1,6 @@
 # Tenttiallekirjoitus
 
-Tenttiallekirjoitus <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Tenttiallekirjoitus" data-size="line"> lisää sähköisen allekirjoituksen vaiheen sen jälkeen, kun opiskelija on suorittanut tenttiyrityksen, jotta suorituksen voi todentaa — hyödyllistä vaatimustenmukaisuus- tai sertifiointitilanteissa. Se ei koske pisteitä, vastauksia eikä arviointikirjan tietoja; se tallentaa vain allekirjoituksen yrityksen yhteyteen.
+Tenttiallekirjoitus <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Tenttiallekirjoitus" data-size="line"> lisää sähköisen allekirjoituksen vaiheen sen jälkeen, kun opiskelija on suorittanut tenttiyrityksen, jotta suorituksen voi todentaa — hyödyllistä vaatimustenmukaisuus- tai sertifiointitilanteissa. Se ei koske pisteitä, vastauksia eikä arviointikirjan tietoja; se tallentaa vain allekirjoituksen yrityksen yhteyteen.
 
 ## Käyttöönotto tentissä
 

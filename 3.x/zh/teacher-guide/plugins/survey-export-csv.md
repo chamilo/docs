@@ -1,6 +1,6 @@
 # 问卷导出 CSV
 
-问卷导出 CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="问卷导出 CSV" data-size="line"> 可一键将问卷结果导出为紧凑的 CSV 文件，每位作答者一行，每道题目一列。
+问卷导出 CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="问卷导出 CSV" data-size="line"> 可一键将问卷结果导出为紧凑的 CSV 文件，每位作答者一行，每道题目一列。
 
 ## 导出问卷
 

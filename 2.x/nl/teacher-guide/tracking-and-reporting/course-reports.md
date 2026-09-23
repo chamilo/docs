@@ -4,9 +4,9 @@ Cursusrapporten bieden u een overzicht van de activiteit en prestaties van alle 
 
 ## Toegang tot Cursusrapporten
 
-Open de **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool vanaf de cursusstartpagina en selecteer de weergave van cursusniveau-rapporten.
+Open de **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool vanaf de cursusstartpagina en selecteer de weergave van cursusniveau-rapporten.
 
-![Het overzicht van cursustracking met betrokkenheidsstatistieken en samenvatting van leerlingactiviteit](/.gitbook/assets/tracking-course-overview.png)
+![Het overzicht van cursustracking met betrokkenheidsstatistieken en samenvatting van leerlingactiviteit](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Beschikbare Rapporten
 
@@ -43,7 +43,7 @@ Voor elke opdracht:
 
 ## Gegevens Exporteren
 
-U kunt tracking- en rapportgegevens exporteren voor verdere analyse. Zoek naar de **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> optie om gegevens te downloaden in een formaat dat compatibel is met spreadsheets.
+U kunt tracking- en rapportgegevens exporteren voor verdere analyse. Zoek naar de **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> optie om gegevens te downloaden in een formaat dat compatibel is met spreadsheets.
 
 ## Sessierapporten
 

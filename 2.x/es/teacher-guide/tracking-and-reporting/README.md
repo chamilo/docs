@@ -8,6 +8,6 @@ Chamilo realiza un seguimiento de la actividad de los estudiantes a lo largo de 
 
 ## Acceso a los Informes
 
-Desde tu curso, haz clic en la herramienta **Seguimiento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> en la página principal del curso. También puedes acceder a los informes desde el enlace **Informes** en la barra lateral para obtener una visión general de varios cursos.
+Desde tu curso, haz clic en la herramienta **Seguimiento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> en la página principal del curso. También puedes acceder a los informes desde el enlace **Informes** en la barra lateral para obtener una visión general de varios cursos.
 
 Los profesores ven los datos de informes de los cursos que imparten. Los entrenadores de sesiones ven los datos de todos los cursos dentro de su sesión.

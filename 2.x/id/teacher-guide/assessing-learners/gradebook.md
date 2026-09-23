@@ -19,7 +19,7 @@ Chamilo menghitung nilai keseluruhan setiap peserta didik berdasarkan bobot ini.
 
 ## Menyiapkan Penilaian
 
-1. Buka alat **Penilaian** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Buku Nilai" data-size="line"> dari beranda kursus
+1. Buka alat **Penilaian** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Buku Nilai" data-size="line"> dari beranda kursus
 2. Anda akan melihat gambaran umum penilaian, yang awalnya kosong
 
 ### Menambahkan Aktivitas
@@ -48,7 +48,7 @@ Untuk skema penilaian yang kompleks, Anda dapat membuat **sub-kategori** untuk m
 
 ## Melihat Nilai
 
-![Tabel gambaran umum buku nilai yang menunjukkan nama peserta didik, skor aktivitas, dan total bobot](/.gitbook/assets/gradebook-overview.png)
+![Tabel gambaran umum buku nilai yang menunjukkan nama peserta didik, skor aktivitas, dan total bobot](../../.gitbook/assets/gradebook-overview.png)
 
 Penilaian menampilkan tabel dengan:
 
@@ -75,7 +75,7 @@ Anda dapat mengaitkan **keterampilan** dengan penilaian. Ketika peserta didik me
 
 ## Mengekspor Nilai
 
-Klik tombol **Ekspor** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Ekspor" data-size="line"> untuk mengunduh nilai sebagai spreadsheet. Ini berguna untuk:
+Klik tombol **Ekspor** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Ekspor" data-size="line"> untuk mengunduh nilai sebagai spreadsheet. Ini berguna untuk:
 
 * Berbagi nilai dengan sistem administrasi
 * Melakukan analisis tambahan di luar Chamilo

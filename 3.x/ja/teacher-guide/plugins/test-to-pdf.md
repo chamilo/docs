@@ -1,6 +1,6 @@
 # テストのPDF出力
 
-テストのPDF出力 <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="テストのPDF出力" data-size="line"> は、コース内テストの設問を印刷可能なPDFとして書き出します。設問のみ、解答のみ、またはその両方をまとめて出力でき、テストの紙版として役立ちます。
+テストのPDF出力 <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="テストのPDF出力" data-size="line"> は、コース内テストの設問を印刷可能なPDFとして書き出します。設問のみ、解答のみ、またはその両方をまとめて出力でき、テストの紙版として役立ちます。
 
 ## ツールへのアクセス
 

@@ -27,7 +27,7 @@ Oletuksena julkisessa rekisteröintilomakkeessa ei ole lainkaan vaihtoehtoa reki
 
 Joillakin alustoilla on käytössä **"What do you want to do?"** -vaihe kahdella kortilla — **Follow courses** ja **Teach courses** — mutta tämä näkyy vain, jos ylläpitäjä on nimenomaan ottanut käyttöön rekisteröitymisen opettajaksi. Silloinkin opettajaksi valitseminen voi edellyttää tilin hyväksyntää, ennen kuin saat opettajan oikeudet.
 
-![Rekisteröintilomake alustalla, jossa opettajan itseilmoittautuminen on käytössä, ja jossa näkyy "Follow courses" / "Teach courses" -roolinvalitsin](/.gitbook/assets/student-registration-form.png)
+![Rekisteröintilomake alustalla, jossa opettajan itseilmoittautuminen on käytössä, ja jossa näkyy "Follow courses" / "Teach courses" -roolinvalitsin](../../.gitbook/assets/student-registration-form.png)
 
 Jos tarvitset opettajatilin etkä näe tätä vaihtoehtoa, pyydä alustan ylläpitäjää luomaan tili sinulle tai päivittämään olemassa oleva tilisi.
 

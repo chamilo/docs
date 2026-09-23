@@ -1,10 +1,10 @@
 # Ikhtisar Antarmuka Admin
 
-Panel administrasi adalah pusat kendali Anda untuk mengelola platform Chamilo. Akses dengan mengklik **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi.
+Panel administrasi adalah pusat kendali Anda untuk mengelola platform Chamilo. Akses dengan mengklik **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi.
 
 ## Dasbor Administrasi
 
-![Dasbor administrasi yang menampilkan blok fungsional untuk Users, Courses, Sessions, dan Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![Dasbor administrasi yang menampilkan blok fungsional untuk Users, Courses, Sessions, dan Settings](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Dasbor admin disusun dalam blok-blok fungsional. Setiap blok mengelompokkan alat pengelolaan yang terkait:
 

@@ -24,7 +24,7 @@ De AI-tutor vereist configuratie op twee niveaus:
 
 ## De chatinterface
 
-![De chatinterface van de AI-tutor met een gesprek tussen een cursist en de AI](/.gitbook/assets/ai-tutor-chat.png)
+![De chatinterface van de AI-tutor met een gesprek tussen een cursist en de AI](../../.gitbook/assets/ai-tutor-chat.png)
 
 De AI-tutor verschijnt als een **vastgezet chatpaneel** binnen de cursus. Cursisten kunnen:
 

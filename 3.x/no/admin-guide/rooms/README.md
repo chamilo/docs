@@ -2,7 +2,7 @@
 
 Blokken **Rom** på administrasjonspanelet administrerer de fysiske stedene Chamilo kan spore for opplæring på stedet eller blandet opplæring: avdelinger (steder), rommene i dem, og et verktøy for å finne hvilke rom som er ledige på et gitt tidspunkt.
 
-![Blokken Rom på administrasjonspanelet, med Avdelinger, Rom og Romtilgjengelighetssøker](/.gitbook/assets/admin-rooms-block.png)
+![Blokken Rom på administrasjonspanelet, med Avdelinger, Rom og Romtilgjengelighetssøker](../../.gitbook/assets/admin-rooms-block.png)
 
 Dette kapittelet dekker administrasjonssiden for avdelinger og rom. For lærerens side — tildeling av et rom til en kursøkt — se [Avdelinger og rom](../../teacher-guide/branches-and-rooms.md) i Lærerveiledningen.
 

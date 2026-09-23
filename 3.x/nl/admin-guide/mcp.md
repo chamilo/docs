@@ -39,7 +39,7 @@ Deze lijst wordt samengesteld door het Chamilo-kernteam en is vanuit het platfor
 
 Elke gebruiker genereert een eigen sleutel onder **Sociaal netwerk** > **MCP API-sleutel**:
 
-![De pagina MCP API-sleutel, met een inactieve sleutel, de knop API-sleutel genereren en het blok Remote MCP-verbinding met de endpoint-URL en het formaat van de Authorization-header](/.gitbook/assets/admin-mcp-api-key.png)
+![De pagina MCP API-sleutel, met een inactieve sleutel, de knop API-sleutel genereren en het blok Remote MCP-verbinding met de endpoint-URL en het formaat van de Authorization-header](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Door op **API-sleutel genereren** te klikken wordt een sleutel aangemaakt en eenmaal getoond — Chamilo slaat daarna alleen een gemaskeerde versie op, dus de volledige sleutel moet onmiddellijk worden gekopieerd en veilig worden bewaard.
 * Het genereren van een nieuwe sleutel trekt de vorige onmiddellijk in.

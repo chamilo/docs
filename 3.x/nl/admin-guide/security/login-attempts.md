@@ -8,7 +8,7 @@ Klik in het beheerpaneel op **Beveiliging > Inlogpogingen**.
 
 ## Wat het toont
 
-![De pagina Inlogpogingen met grafieken voor pogingen per dag, top-IP's, mislukte pogingen per maand, geslaagde versus mislukte logins, pogingen per uur en unieke IP's per dag, gevolgd door een tabel met mislukte inlogpogingen](/.gitbook/assets/admin-security-login-attempts.png)
+![De pagina Inlogpogingen met grafieken voor pogingen per dag, top-IP's, mislukte pogingen per maand, geslaagde versus mislukte logins, pogingen per uur en unieke IP's per dag, gevolgd door een tabel met mislukte inlogpogingen](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Pogingen per dag (laatste 7 dagen)** — Dagelijks aantal mislukte pogingen
 * **Top-IP's (laatste 30 dagen)** — Welke IP-adressen de meeste pogingen genereerden

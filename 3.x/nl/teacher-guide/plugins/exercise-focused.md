@@ -1,6 +1,6 @@
 # Exercise Focused
 
-Exercise Focused <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> is een hulpmiddel tegen spieken bij examens. Als de browser van een student de focus verliest tijdens een gemarkeerde toets — door naar een ander tabblad of venster te schakelen — toont Chamilo een waarschuwing op volledig scherm die hen vraagt terug te keren, en kan de poging automatisch indienen als ze dat niet doen.
+Exercise Focused <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> is een hulpmiddel tegen spieken bij examens. Als de browser van een student de focus verliest tijdens een gemarkeerde toets — door naar een ander tabblad of venster te schakelen — toont Chamilo een waarschuwing op volledig scherm die hen vraagt terug te keren, en kan de poging automatisch indienen als ze dat niet doen.
 
 ## Een toets markeren
 

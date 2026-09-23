@@ -4,7 +4,7 @@
 
 ## 演習の作成
 
-1. コースのホームページから**演習** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="演習" data-size="line"> ツールを開く
+1. コースのホームページから**演習** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="演習" data-size="line"> ツールを開く
 2. **新しい演習**をクリック
 3. **タイトル**と任意の**説明**を入力
 4. 演習の設定を構成（以下参照）
@@ -12,7 +12,7 @@
 
 ## 演習の設定
 
-![表示、時間、試行回数、フィードバックのオプションが含まれる演習設定パネル](/.gitbook/assets/exercise-settings.png)
+![表示、時間、試行回数、フィードバックのオプションが含まれる演習設定パネル](../../.gitbook/assets/exercise-settings.png)
 
 ### 表示とナビゲーション
 
@@ -75,7 +75,7 @@
 
 ## 問題の種類
 
-![演習作成インターフェースで利用可能な問題タイプの概要](/.gitbook/assets/exercise-question-types.png)
+![演習作成インターフェースで利用可能な問題タイプの概要](../../.gitbook/assets/exercise-question-types.png)
 
 Chamiloでは、複数のカテゴリに分類された豊富な問題タイプを提供しています：
 

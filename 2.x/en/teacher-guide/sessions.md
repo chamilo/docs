@@ -15,7 +15,7 @@ A **course** is a container of content and tools. A **session** assigns that cou
 
 From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![The My Sessions page showing current, past, and upcoming session views](../.gitbook/assets/my-sessions-list.png)
 
 * **Current sessions** — Sessions that are currently active
 * **Past sessions** — Sessions that have ended

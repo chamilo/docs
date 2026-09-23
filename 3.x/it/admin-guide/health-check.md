@@ -2,7 +2,7 @@
 
 Il Controllo di integrità è un piccolo blocco nella dashboard di amministrazione che esegue una manciata di verifiche in tempo reale sull'installazione e segnala tutto ciò che richiede attenzione — senza bisogno di esaminare i file di configurazione per individuare le configurazioni errate più comuni.
 
-![Il blocco Controllo di integrità nella dashboard di amministrazione, che mostra lo stato superato/non superato per le impostazioni e-mail, l'assegnazione dell'URL amministratore e i controlli sui permessi dei file](/.gitbook/assets/admin-health-check-block.png)
+![Il blocco Controllo di integrità nella dashboard di amministrazione, che mostra lo stato superato/non superato per le impostazioni e-mail, l'assegnazione dell'URL amministratore e i controlli sui permessi dei file](../.gitbook/assets/admin-health-check-block.png)
 
 ## Accesso al Controllo di integrità
 

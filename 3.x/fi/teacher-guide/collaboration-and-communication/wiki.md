@@ -26,7 +26,7 @@ Jos haluat linkitt채채 toiseen wiki-sivuun editorista, luo linkki k채ytt채m채ll�
 Kuka tahansa, jolla on muokkausoikeudet, voi muuttaa wiki-sivua:
 
 1. Avaa sivu, jota haluat muokata
-2. Napsauta **Edit**-painiketta <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line">
+2. Napsauta **Edit**-painiketta <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line">
 3. Tee muutokset editorissa
 4. Lis채채 valinnainen **Comments**-merkint채, jossa kuvailet, mit채 muutit
 5. Tallenna

@@ -4,7 +4,7 @@ Halaman ini membahas tugas sehari-hari membuat, mengedit, dan mengelola akun pen
 
 ## Daftar Pengguna
 
-![Daftar pengguna yang menampilkan akun dengan kolom nama, email, peran, dan status](/.gitbook/assets/admin-user-list.png)
+![Daftar pengguna yang menampilkan akun dengan kolom nama, email, peran, dan status](../../.gitbook/assets/admin-user-list.png)
 
 Dari panel administrasi, klik **Daftar pengguna** untuk melihat semua pengguna di platform. Daftar tersebut menampilkan:
 
@@ -21,7 +21,7 @@ Gunakan alat **Pencarian lanjutan** untuk menemukan pengguna tertentu berdasarka
 
 ## Membuat Pengguna
 
-![Formulir pembuatan pengguna dengan kolom nama, email, username, kata sandi, peran, dan bahasa](/.gitbook/assets/admin-user-create-form.png)
+![Formulir pembuatan pengguna dengan kolom nama, email, username, kata sandi, peran, dan bahasa](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klik **Tambah pengguna** dari panel administrasi
 2. Isi kolom yang wajib:
@@ -41,7 +41,7 @@ Gunakan alat **Pencarian lanjutan** untuk menemukan pengguna tertentu berdasarka
 
 ## Mengimpor Pengguna
 
-![Antarmuka impor pengguna untuk mengunggah berkas CSV atau XML berisi data pengguna](/.gitbook/assets/admin-user-import.png)
+![Antarmuka impor pengguna untuk mengunggah berkas CSV atau XML berisi data pengguna](../../.gitbook/assets/admin-user-import.png)
 
 Untuk pembuatan pengguna secara massal, Anda dapat mengimpor pengguna dari berkas:
 

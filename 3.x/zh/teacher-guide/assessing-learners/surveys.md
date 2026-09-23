@@ -4,7 +4,7 @@
 
 ## 创建调查问卷
 
-1. 从课程主页打开 **调查问卷** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="调查问卷" data-size="line"> 工具
+1. 从课程主页打开 **调查问卷** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="调查问卷" data-size="line"> 工具
 2. 点击 **创建调查问卷**
 3. 填写调查问卷详细信息：
    * **代码** — 调查问卷的唯一代码。将用于邮件和链接。
@@ -65,7 +65,7 @@
 
 ## 查看结果
 
-![各题目的图表及百分比分解的调查问卷结果](/.gitbook/assets/survey-results-charts.png)
+![各题目的图表及百分比分解的调查问卷结果](../../.gitbook/assets/survey-results-charts.png)
 
 学习者作答后：
 

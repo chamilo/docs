@@ -8,7 +8,7 @@ Klicken Sie im Administrationsbereich auf **Systemstatus** (oder **Systeminforma
 
 ## Was angezeigt wird
 
-![Die Seite Systemstatus mit PHP-Konfiguration, Datenbankstatus, Dateiberechtigungen und Serverinformationen](/.gitbook/assets/admin-system-status.png)
+![Die Seite Systemstatus mit PHP-Konfiguration, Datenbankstatus, Dateiberechtigungen und Serverinformationen](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP-Konfiguration
 

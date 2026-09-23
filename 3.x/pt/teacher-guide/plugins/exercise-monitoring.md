@@ -1,6 +1,6 @@
 # Monitorização de Exercícios
 
-A Monitorização de Exercícios <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Monitorização de Exercícios" data-size="line"> utiliza a câmara web do estudante para capturar fotografias de identidade durante uma tentativa de teste — uma fotografia de um documento de identificação e uma fotografia do rosto do estudante — para fins de integridade do exame.
+A Monitorização de Exercícios <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Monitorização de Exercícios" data-size="line"> utiliza a câmara web do estudante para capturar fotografias de identidade durante uma tentativa de teste — uma fotografia de um documento de identificação e uma fotografia do rosto do estudante — para fins de integridade do exame.
 
 ## Sinalizar um Teste
 

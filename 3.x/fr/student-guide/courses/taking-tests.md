@@ -4,7 +4,7 @@ L’outil **Tests** (Exercices) est l’endroit où vous passez les quiz et exam
 
 ## Démarrer un test
 
-Ouvrez l’outil **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> depuis la page d’accueil du cours et cliquez sur un test pour le démarrer. Un test peut ne pas être encore disponible, ou ne plus l’être, si votre enseignant a défini une date de début ou de fin.
+Ouvrez l’outil **Tests** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> depuis la page d’accueil du cours et cliquez sur un test pour le démarrer. Un test peut ne pas être encore disponible, ou ne plus l’être, si votre enseignant a défini une date de début ou de fin.
 
 ## Répondre aux questions
 

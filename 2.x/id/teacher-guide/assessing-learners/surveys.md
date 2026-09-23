@@ -4,7 +4,7 @@ Alat survei memungkinkan Anda membuat kuesioner untuk mengumpulkan umpan balik d
 
 ## Membuat Survei
 
-1. Buka alat **Survei** di halaman utama kursus <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Survei" data-size="line">
+1. Buka alat **Survei** di halaman utama kursus <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Survei" data-size="line">
 2. Klik **Buat Survei**
 3. Isi detail survei:
    * **Kode** — Ini adalah kode unik untuk survei, yang akan digunakan dalam email dan tautan.
@@ -65,7 +65,7 @@ Di bagian bawah halaman penerbitan terdapat tautan yang dapat digunakan untuk me
 
 ## Melihat Hasil
 
-![Hasil survei, berisi grafik dan persentase untuk setiap pertanyaan](/.gitbook/assets/survey-results-charts.png)
+![Hasil survei, berisi grafik dan persentase untuk setiap pertanyaan](../../.gitbook/assets/survey-results-charts.png)
 
 Setelah siswa menjawab:
 

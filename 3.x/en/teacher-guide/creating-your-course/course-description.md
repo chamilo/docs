@@ -1,12 +1,12 @@
 # Course Description
 
-The **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool lets you write a structured, multi-section description of your course — its goals, methodology, materials, and more. Unlike the free-text **Course introduction** banner on your [course homepage](README.md#the-course-homepage), which only your enrolled learners see, the course description is what prospective learners see *before* they enroll, from the course catalog.
+The **Course description** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool lets you write a structured, multi-section description of your course — its goals, methodology, materials, and more. Unlike the free-text **Course introduction** banner on your [course homepage](README.md#the-course-homepage), which only your enrolled learners see, the course description is what prospective learners see *before* they enroll, from the course catalog.
 
 Once enrolled, learners can still refer back to it from within the course — if you leave the tool visible to them, it is a convenient place for them to check practical information such as the general structure of the course or who the teachers are, without needing to ask you directly. Enrolled learners can view the sections you wrote but cannot add, edit, or delete them.
 
 ## Accessing the Tool
 
-Open the **Course description** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool from the course homepage tool grid.
+Open the **Course description** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Course description" data-size="line"> tool from the course homepage tool grid.
 
 ## The Eight Sections
 
@@ -30,7 +30,7 @@ A course description is made of up to eight independent sections. Each one is op
 3. Write your content in the rich text editor (supports formatting, images, links, embedded video, and other rich content). If your platform has it enabled, you can also write several language versions of the same section and have each learner automatically see only their own — see [Multi-Language Content](../adding-content/multi-language-content.md).
 4. Save
 
-Each section you add appears as its own card in the tool. Use the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> and **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> icons on a card to update or remove it later.
+Each section you add appears as its own card in the tool. Use the **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> and **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> icons on a card to update or remove it later.
 
 ## Link to the Course Catalog
 

@@ -19,7 +19,7 @@ Chamilo crea 3 categorie predefinite: *Competenze linguistiche*, *Competenze inf
 
 ## Gerarchia delle Categorie
 
-![La pagina di gestione delle categorie dei corsi che mostra un albero nidificato di categorie](/.gitbook/assets/admin-course-categories.png)
+![La pagina di gestione delle categorie dei corsi che mostra un albero nidificato di categorie](../../.gitbook/assets/admin-course-categories.png)
 
 Le categorie possono essere nidificate per creare una struttura ad albero:
 

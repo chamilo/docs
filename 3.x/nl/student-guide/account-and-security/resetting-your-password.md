@@ -6,7 +6,7 @@ Als je je wachtwoord bent vergeten — of het gewoon wilt wijzigen — lees je h
 
 Klik op de inlogpagina op **Wachtwoord vergeten?**. Als deze link er niet is, heeft je beheerder deze functie uitgeschakeld — neem rechtstreeks contact met hen op om weer toegang te krijgen.
 
-![Het formulier "Ik ben mijn wachtwoord kwijt", met één veld voor je gebruikersnaam of e-mailadres](/.gitbook/assets/student-lost-password.png)
+![Het formulier "Ik ben mijn wachtwoord kwijt", met één veld voor je gebruikersnaam of e-mailadres](../../.gitbook/assets/student-lost-password.png)
 
 1. Voer je **gebruikersnaam of e-mailadres** in het enige veld op het formulier in.
 2. Als er een CAPTCHA-uitdaging verschijnt, los die dan op (zie [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Je kunt je wachtwoord op elk moment wijzigen, zonder te wachten tot je het verge
 2. Klik op **Wachtwoord wijzigen**.
 3. Voer je huidige wachtwoord in, daarna twee keer je nieuwe wachtwoord, en dien in.
 
-![Het formulier Wachtwoord wijzigen, met velden voor je huidige wachtwoord en een nieuw wachtwoord](/.gitbook/assets/student-change-password.png)
+![Het formulier Wachtwoord wijzigen, met velden voor je huidige wachtwoord en een nieuw wachtwoord](../../.gitbook/assets/student-change-password.png)
 
 Dit is dezelfde pagina waar je [tweefactorauthenticatie](two-factor-authentication.md) kunt inschakelen, als je platform dat ondersteunt — in dat geval zie je hier ook een selectievakje "Tweefactorauthenticatie inschakelen", dat hierboven niet wordt getoond omdat het niet op elk platform actief is.
 

@@ -26,7 +26,7 @@ Per collegare un'altra pagina wiki dall'interno dell'editor, crea un link utiliz
 Chiunque abbia i permessi di modifica può alterare una pagina wiki:
 
 1. Apri la pagina che desideri modificare
-2. Clicca sul pulsante **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line">
+2. Clicca sul pulsante **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line">
 3. Apporta le tue modifiche nell'editor
 4. Aggiungi un'opzionale voce **Commenti** che descriva cosa hai cambiato
 5. Salva

@@ -4,7 +4,7 @@ O Chamilo registra a atividade dos alunos em toda a plataforma, oferecendo a voc
 
 ## Acessando o acompanhamento de alunos
 
-Abra a ferramenta **Acompanhamento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> na página inicial do curso ou clique em **Relatórios** na barra lateral.
+Abra a ferramenta **Acompanhamento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> na página inicial do curso ou clique em **Relatórios** na barra lateral.
 
 ## O que é registrado
 
@@ -22,7 +22,7 @@ Detalhes de acesso por recurso (quais documentos ou páginas específicas um alu
 
 ## Visualizando os dados de um aluno individual
 
-![Visualização detalhada do acompanhamento do aluno mostrando progresso, pontuações e linha do tempo de atividade](/.gitbook/assets/tracking-learner-detail.png)
+![Visualização detalhada do acompanhamento do aluno mostrando progresso, pontuações e linha do tempo de atividade](../../.gitbook/assets/tracking-learner-detail.png)
 
 Clique no nome de um aluno para ver o relatório detalhado de atividade. Isso mostra:
 

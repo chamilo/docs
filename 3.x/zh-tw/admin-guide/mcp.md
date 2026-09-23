@@ -39,7 +39,7 @@ MCP（Model Context Protocol）是開放標準，讓 AI 用戶端能呼叫伺服
 
 每位使用者可在 **社群網路** > **MCP API 金鑰** 下產生自己的金鑰：
 
-![MCP API 金鑰頁面，顯示未啟用的金鑰、「產生 API 金鑰」按鈕，以及含端點 URL 與 Authorization 標頭格式的遠端 MCP 連線區塊](/.gitbook/assets/admin-mcp-api-key.png)
+![MCP API 金鑰頁面，顯示未啟用的金鑰、「產生 API 金鑰」按鈕，以及含端點 URL 與 Authorization 標頭格式的遠端 MCP 連線區塊](../.gitbook/assets/admin-mcp-api-key.png)
 
 * 點選 **產生 API 金鑰** 會建立金鑰並只顯示一次——之後 Chamilo 只儲存遮罩版本，因此必須立即複製並安全保存完整金鑰。
 * 產生新金鑰會立即撤銷前一組金鑰。

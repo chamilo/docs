@@ -1,6 +1,6 @@
 # 問卷匯出 CSV
 
-問卷匯出 CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="問卷匯出 CSV" data-size="line"> 可一鍵將問卷結果匯出為精簡的 CSV 檔，每位受訪者一列、每道題目一欄。
+問卷匯出 CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="問卷匯出 CSV" data-size="line"> 可一鍵將問卷結果匯出為精簡的 CSV 檔，每位受訪者一列、每道題目一欄。
 
 ## 匯出問卷
 

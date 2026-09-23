@@ -26,7 +26,7 @@ Wiki 是一組互相連結的網頁，凡具有權限者皆可編輯。在 Chami
 凡具有編輯權限者皆可修改 wiki 頁面：
 
 1. 開啟欲編輯的頁面
-2. 點選 **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
+2. 點選 **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
 3. 在編輯器中進行修改
 4. 可選擇填寫 **Comments**，說明您變更的內容
 5. 儲存

@@ -1,6 +1,6 @@
 # Avaliação de Opções de Questão
 
-Avaliação de Opções de Questão <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Avaliação de Opções de Questão" data-size="line"> permite aplicar uma fórmula de marcação negativa (penalidade) à pontuação de um teste, em vez do comportamento padrão do Chamilo de simplesmente somar as respostas corretas.
+Avaliação de Opções de Questão <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Avaliação de Opções de Questão" data-size="line"> permite aplicar uma fórmula de marcação negativa (penalidade) à pontuação de um teste, em vez do comportamento padrão do Chamilo de simplesmente somar as respostas corretas.
 
 ## Definir uma Fórmula
 

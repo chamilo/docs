@@ -4,7 +4,7 @@ Chamilo 允許您定義自訂剖析欄位（額外欄位），以擷取標準姓
 
 ## 額外剖析欄位
 
-![額外剖析欄位清單，顯示自訂欄位的名稱、類型與可見性設定](/.gitbook/assets/admin-extra-fields-list.png)
+![額外剖析欄位清單，顯示自訂欄位的名稱、類型與可見性設定](../../.gitbook/assets/admin-extra-fields-list.png)
 
 額外欄位可讓您儲存組織專屬的中繼資料，例如：
 

@@ -14,7 +14,7 @@ Grup memungkinkan Anda membagi peserta didik ke dalam tim yang lebih kecil untuk
 
 ## Alat Grup
 
-![Ikhtisar grup yang menampilkan alat grup yang tersedia dan jumlah anggota](/.gitbook/assets/groups-overview.png)
+![Ikhtisar grup yang menampilkan alat grup yang tersedia dan jumlah anggota](../../.gitbook/assets/groups-overview.png)
 
 Setiap grup dapat memiliki akses ke subset alat kursus yang hanya dibagikan di antara anggota grup:
 

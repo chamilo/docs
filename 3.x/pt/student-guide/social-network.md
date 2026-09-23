@@ -4,7 +4,7 @@ O Chamilo inclui uma rede social integrada para se ligar a outros utilizadores n
 
 ## Se Tem Acesso
 
-Clique em **Rede social** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Rede social" data-size="line"> na barra lateral para a expandir e, em seguida, clique em **Início**. Se esta opção não existir de todo, o seu administrador desativou-a na sua plataforma — não falta nada do seu lado.
+Clique em **Rede social** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Rede social" data-size="line"> na barra lateral para a expandir e, em seguida, clique em **Início**. Se esta opção não existir de todo, o seu administrador desativou-a na sua plataforma — não falta nada do seu lado.
 
 A mesma secção expandida lista também **Mensagens**, **Os meus amigos**, **Grupos sociais** — e, de forma um pouco inesperada, **Os meus ficheiros** (o seu armazenamento pessoal de ficheiros) e **Dados pessoais** (uma exportação dos dados pessoais que a plataforma detém sobre si). Estes dois últimos não são funcionalidades sociais; estão simplesmente agrupados nesta parte da barra lateral.
 
@@ -12,7 +12,7 @@ A mesma secção expandida lista também **Mensagens**, **Os meus amigos**, **Gr
 
 Uma vez no interior, o seu **mural** mostra um feed de atividade sua e das pessoas com quem está ligado. Pode publicar atualizações e — se o administrador o permitir — gostar ou não gostar, e comentar, publicações das suas ligações.
 
-![O mural social, com um compositor de publicações e painéis para comunidades, amigos e competências](/.gitbook/assets/student-social-wall.png)
+![O mural social, com um compositor de publicações e painéis para comunidades, amigos e competências](../.gitbook/assets/student-social-wall.png)
 
 ## Ligar-se a Outros
 

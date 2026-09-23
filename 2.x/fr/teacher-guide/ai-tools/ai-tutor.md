@@ -21,7 +21,7 @@ Le Tuteur IA nécessite deux niveaux de configuration :
 
 ## Interface de Chat
 
-![Interface de chat du Tuteur IA montrant une conversation entre un apprenant et l’IA](/.gitbook/assets/ai-tutor-chat.png)
+![Interface de chat du Tuteur IA montrant une conversation entre un apprenant et l’IA](../../.gitbook/assets/ai-tutor-chat.png)
 
 Le Tuteur IA apparaît sous la forme d’un **panneau de chat ancré** au sein du cours. Les apprenants peuvent :
 

@@ -4,7 +4,7 @@ Alat forum memungkinkan Anda menyelenggarakan diskusi terstruktur di dalam kursu
 
 ## Struktur Forum
 
-![Daftar kategori forum yang menampilkan kategori, forum, dan jumlah topik](/.gitbook/assets/forum-category-list.png)
+![Daftar kategori forum yang menampilkan kategori, forum, dan jumlah topik](../../.gitbook/assets/forum-category-list.png)
 
 Forum di Chamilo disusun dalam tiga tingkat:
 
@@ -14,7 +14,7 @@ Forum di Chamilo disusun dalam tiga tingkat:
 
 ## Membuat Kategori Forum
 
-1. Buka alat **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> dari beranda kursus Anda
+1. Buka alat **Forums** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> dari beranda kursus Anda
 2. Klik **Add a forum category**
 3. Masukkan **Category name** dan deskripsi opsional
 4. Simpan

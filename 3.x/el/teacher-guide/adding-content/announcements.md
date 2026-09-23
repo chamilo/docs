@@ -6,8 +6,8 @@
 
 ## Δημιουργία ανακοίνωσης
 
-1. Ανοίξτε το εργαλείο **Ανακοινώσεις** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line"> από την αρχική σελίδα του μαθήματος
-2. Κάντε κλικ ξανά στο εικονίδιο **Προσθήκη ανακοίνωσης** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line">
+1. Ανοίξτε το εργαλείο **Ανακοινώσεις** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ ξανά στο εικονίδιο **Προσθήκη ανακοίνωσης** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line">
 3. Συμπληρώστε:
    * **Παραλήπτες** — Επιλέξτε ποιος λαμβάνει την ανακοίνωση:
      * Όλοι οι εγγεγραμμένοι εκπαιδευόμενοι
@@ -25,9 +25,9 @@
 
 ## Διαχείριση ανακοινώσεων
 
-* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Τροποποίηση υπάρχουσας ανακοίνωσης
-* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση μιας ανακοίνωσης
-* **Ορατότητα** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Απόκρυψη ή εμφάνιση ανακοινώσεων
+* **Επεξεργασία** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Τροποποίηση υπάρχουσας ανακοίνωσης
+* **Διαγραφή** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση μιας ανακοίνωσης
+* **Ορατότητα** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Απόκρυψη ή εμφάνιση ανακοινώσεων
 
 Οι ανακοινώσεις εμφανίζονται σε αντίστροφη χρονολογική σειρά (οι νεότερες πρώτα).
 

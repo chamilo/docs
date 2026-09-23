@@ -8,7 +8,7 @@ Färgteman definierar paletten som används i hela Chamilo-gränssnittet — pri
 
 ## Att tillämpa ett tema
 
-![Sidan för färgteman som visar tillgängliga teman med förhandsvisningsrutor och en knappen Tillämpa](/.gitbook/assets/admin-color-themes.png)
+![Sidan för färgteman som visar tillgängliga teman med förhandsvisningsrutor och en knappen Tillämpa](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Från administrationspanelen, gå till **Färgteman**
 2. Bläddra bland de tillgängliga temana

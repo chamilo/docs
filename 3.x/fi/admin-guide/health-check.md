@@ -2,7 +2,7 @@
 
 Terveystarkistus on hallintapaneelin pieni lohko, joka suorittaa muutaman reaaliaikaisen tarkistuksen asennuksellesi ja merkitsee kaiken, mikä vaatii huomiota — yleisiä virhekonfiguraatioita ei tarvitse etsiä konfiguraatiotiedostoista.
 
-![Terveystarkistus-lohko hallintapaneelissa, jossa näkyy sähköpostiasetusten, ylläpitäjän URL-määrityksen ja tiedostooikeustarkistusten onnistuminen/epäonnistuminen](/.gitbook/assets/admin-health-check-block.png)
+![Terveystarkistus-lohko hallintapaneelissa, jossa näkyy sähköpostiasetusten, ylläpitäjän URL-määrityksen ja tiedostooikeustarkistusten onnistuminen/epäonnistuminen](../.gitbook/assets/admin-health-check-block.png)
 
 ## Terveystarkistuksen avaaminen
 

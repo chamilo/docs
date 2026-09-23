@@ -20,7 +20,7 @@ Närvaroverktyget låter dig följa upp elevers närvaro vid schemalagda lektion
 Varje närvaroprotokoll innehåller ett eller flera datum (tillfällen) där du registrerar närvaro:
 
 1. Öppna ett närvaroprotokoll eller fortsätt med skapandeprocessen
-2. Klicka på **Lägg till ett datum** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Lägg till datum" data-size="line">
+2. Klicka på **Lägg till ett datum** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Lägg till datum" data-size="line">
 3. Välj datum och tid
 4. Markera valfritt **Upprepa datum** för att välja en upprepningslogik
 5. Ange en **Varaktighet** i minuter för tillfället (standard är 60 minuter)
@@ -44,7 +44,7 @@ Obs: Administratörer kan ändra portalens konfiguration så att du kan välja m
 
 ## Visa närvarorapporter
 
-![Närvaroprotokollet som visar en sammanfattningstabell med elever, datum och närvaroindikatorer](/.gitbook/assets/attendance-sheet.png)
+![Närvaroprotokollet som visar en sammanfattningstabell med elever, datum och närvaroindikatorer](../../.gitbook/assets/attendance-sheet.png)
 
 Närvaroverktyget visar:
 

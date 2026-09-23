@@ -4,7 +4,7 @@ Mukauta Chamilo-alustasi ulkoasua ja sitä, mitä tietoja käyttäjille näytet�
 
 ## Alustan identiteetti
 
-![Portaalin mukauttamissivu, jossa näkyvät alustan identiteetin asetukset nimelle, logolle ja organisaatiolle](/.gitbook/assets/admin-portal-customization.png)
+![Portaalin mukauttamissivu, jossa näkyvät alustan identiteetin asetukset nimelle, logolle ja organisaatiolle](../../../.gitbook/assets/admin-portal-customization.png)
 
 Määritä portaalin perusidentiteetti:
 

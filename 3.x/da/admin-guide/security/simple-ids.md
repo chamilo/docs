@@ -10,7 +10,7 @@ Fra administrationspanelet skal du klikke på **Sikkerhed > Simpel IDS**.
 
 ## Hvad den viser
 
-![Siden Simpel IDS, der viser diagrammer for hændelser pr. dag, hændelser efter type og de mest angribende IP-adresser, efterfulgt af en tabel over markerede IDS-hændelser med dato, IP, detektionstype, parameter, URI og detalje](/.gitbook/assets/admin-security-simple-ids.png)
+![Siden Simpel IDS, der viser diagrammer for hændelser pr. dag, hændelser efter type og de mest angribende IP-adresser, efterfulgt af en tabel over markerede IDS-hændelser med dato, IP, detektionstype, parameter, URI og detalje](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Hændelser pr. dag (sidste 7 dage)**, **Hændelser efter type (sidste 30 dage)** og **Mest angribende IP-adresser (sidste 30 dage)** — Oversigtsdiagrammer
 * **Tabel over markerede IDS-hændelser** — Hver post viser dato, kilde-IP, detektionstype (for eksempel `XSS`), den berørte parameter, forespørgslens URI og en kort beskrivelse af, hvad der blev detekteret

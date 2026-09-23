@@ -30,13 +30,13 @@ Varje certifikats eget utgångsdatum beräknas automatiskt utifrån den inställ
 
 Om kategorin inte har någon giltighetsperiod konfigurerad kan du ändå ange (eller ändra) en enskild deltagares utgångsdatum för hand: klicka på pennknappen **Redigera utgångsdatum** bredvid deras post och välj ett datum. Den här knappen är bara tillgänglig när kategorin själv inte har någon giltighetsperiod — när en giltighetsperiod är inställd hanteras utgångsdatum automatiskt och kan inte längre redigeras certifikat för certifikat.
 
-![Certifikatlistan som visar kolumnen Utgångsdatum för tre deltagare](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![Certifikatlistan som visar kolumnen Utgångsdatum för tre deltagare](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Påminna deltagare om kommande eller passerad utgång
 
-Öppna listan **Certifikat** för din bedömning och klicka på knappen **Utgående certifikat** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Utgående certifikat" data-size="line"> för att se vilka deltagares certifikat som har upphört eller är på väg att upphöra. Sidan visar, per deltagare: certifikatets **Utgångsdatum**, dess **Status** (**Utgånget** eller **Utgår snart**) och när en påminnelse om det **Senast skickad påminnelse** (eller **Aldrig**). Använd **Dagar i förväg** för att vidga eller begränsa hur långt in i framtiden "utgår snart" tittar.
+Öppna listan **Certifikat** för din bedömning och klicka på knappen **Utgående certifikat** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Utgående certifikat" data-size="line"> för att se vilka deltagares certifikat som har upphört eller är på väg att upphöra. Sidan visar, per deltagare: certifikatets **Utgångsdatum**, dess **Status** (**Utgånget** eller **Utgår snart**) och när en påminnelse om det **Senast skickad påminnelse** (eller **Aldrig**). Använd **Dagar i förväg** för att vidga eller begränsa hur långt in i framtiden "utgår snart" tittar.
 
-![Sidan Utgående certifikat som listar ett utgånget och ett snart utgående certifikat](/.gitbook/assets/gradebook-certificate-expirations.png)
+![Sidan Utgående certifikat som listar ett utgånget och ett snart utgående certifikat](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 För att meddela deltagarna själv:
 
@@ -45,7 +45,7 @@ För att meddela deltagarna själv:
 3. Granska förhandsvisningen av e-postmeddelandet som kommer att skickas — separata förhandsvisningar visas för formuleringarna "utgår snart" och "utgånget", beroende på vilka av dina valda deltagare som faller i varje fall
 4. Bekräfta genom att klicka på **Skicka avisering** igen i dialogrutan
 
-![Bekräftelsedialogen Skicka avisering som förhandsvisar e-postformuleringarna för utgående och utgångna](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Bekräftelsedialogen Skicka avisering som förhandsvisar e-postformuleringarna för utgående och utgångna](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Varje deltagare meddelas på sitt eget konfigurerade språk, både via e-post och via ett internt Chamilo-meddelande. Att skicka igen för samma certifikat och samma utgångsdatum är säkert — Chamilo spårar vad som redan skickats per certifikat och skickar inte skräppost till en deltagare med duplicerade påminnelser om du inte uttryckligen skickar om.
 

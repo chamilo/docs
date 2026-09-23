@@ -2,7 +2,7 @@
 
 Kurseinstellungen ermöglichen es Ihnen, das Verhalten Ihres Kurses zu steuern – wer darauf zugreifen kann, wie er angezeigt wird und welche Funktionen aktiviert sind.
 
-Um auf die Kurseinstellungen zuzugreifen, betreten Sie Ihren Kurs und klicken Sie auf das Symbol **Einstellungen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line"> neben der Schaltfläche **Zur Studentenansicht wechseln**.
+Um auf die Kurseinstellungen zuzugreifen, betreten Sie Ihren Kurs und klicken Sie auf das Symbol **Einstellungen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line"> neben der Schaltfläche **Zur Studentenansicht wechseln**.
 
 ## Allgemeine Einstellungen
 
@@ -29,7 +29,7 @@ Jeder Kurs hat eine Speicherbegrenzung (Speicherplatzquote) für hochgeladene Da
 
 ### Kurs-Sichtbarkeit
 
-![Die Einstellungen zur Kurs-Sichtbarkeit mit den Optionen öffentlich, offen, registriert und geschlossen](/.gitbook/assets/course-settings-visibility.png)
+![Die Einstellungen zur Kurs-Sichtbarkeit mit den Optionen öffentlich, offen, registriert und geschlossen](../../.gitbook/assets/course-settings-visibility.png)
 
 Steuern Sie, wer auf Ihren Kurs zugreifen kann:
 
@@ -83,7 +83,7 @@ Steuern Sie das Verhalten im Forum-Tool dieses Kurses.
 ---
 ### Autostart-Einstellungen
 
-Ein Kurs kann so eingestellt werden, dass er ein Autostart-Verhalten aufweist, wodurch der Weg der Lernenden zu den wichtigen Teilen Ihres Kurses verkürzt wird. Wenn diese Option aktiviert ist, werden die Lernenden, die Ihren Kurs betreten, direkt zum ausgewählten Werkzeug weitergeleitet und sehen die Kurs-Startseite nicht als Zwischenschritt. Sie können sogar spezifische Lernpfade oder Übungen auswählen, die beim Betreten des Kurses gestartet werden sollen. In diesem Fall müssen Sie hier die entsprechende Option auswählen und dann zur Liste der Lernpfade oder Übungen gehen und auf das Raketen-Symbol <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autostart" data-size="line"> des gewünschten Elements klicken.
+Ein Kurs kann so eingestellt werden, dass er ein Autostart-Verhalten aufweist, wodurch der Weg der Lernenden zu den wichtigen Teilen Ihres Kurses verkürzt wird. Wenn diese Option aktiviert ist, werden die Lernenden, die Ihren Kurs betreten, direkt zum ausgewählten Werkzeug weitergeleitet und sehen die Kurs-Startseite nicht als Zwischenschritt. Sie können sogar spezifische Lernpfade oder Übungen auswählen, die beim Betreten des Kurses gestartet werden sollen. In diesem Fall müssen Sie hier die entsprechende Option auswählen und dann zur Liste der Lernpfade oder Übungen gehen und auf das Raketen-Symbol <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autostart" data-size="line"> des gewünschten Elements klicken.
 
 ### Einstellungen für KI-Assistenten
 

@@ -2,7 +2,7 @@
 
 Il blocco **Analytics** nella dashboard di amministrazione raggruppa le statistiche a livello di piattaforma, le learning analytics, i report aziendali/HR e gli strumenti di esportazione in blocco. A seconda della versione di Chamilo, questo blocco può essere etichettato **"Tracking"** sulla dashboard stessa — si tratta comunque dello stesso blocco. Questa guida lo chiama Analytics in tutto il testo per evitare confusione con [Tracking Settings](../platform-settings/tracking-settings.md), la categoria di impostazioni distinta che controlla cosa viene registrato piuttosto che i report stessi.
 
-![Il blocco Analytics nella dashboard di amministrazione (etichettato "Tracking" in questa schermata), con Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports e Tickets](/.gitbook/assets/admin-analytics-block.png)
+![Il blocco Analytics nella dashboard di amministrazione (etichettato "Tracking" in questa schermata), con Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports e Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Accesso ad Analytics
 

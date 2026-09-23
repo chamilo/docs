@@ -1,12 +1,12 @@
 # Kursbeschreibung
 
-Das Tool **Kursbeschreibung** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeschreibung" data-size="line"> ermöglicht es Ihnen, eine strukturierte, mehrteilige Beschreibung Ihres Kurses zu verfassen — Ziele, Methodik, Materialien und mehr. Im Gegensatz zum Freitext-Banner **Kurseinführung** auf Ihrer [Kursstartseite](README.md#the-course-homepage), das nur Ihre eingeschriebenen Lernenden sehen, ist die Kursbeschreibung das, was Interessierte *vor* der Einschreibung im Kurskatalog sehen.
+Das Tool **Kursbeschreibung** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeschreibung" data-size="line"> ermöglicht es Ihnen, eine strukturierte, mehrteilige Beschreibung Ihres Kurses zu verfassen — Ziele, Methodik, Materialien und mehr. Im Gegensatz zum Freitext-Banner **Kurseinführung** auf Ihrer [Kursstartseite](README.md#the-course-homepage), das nur Ihre eingeschriebenen Lernenden sehen, ist die Kursbeschreibung das, was Interessierte *vor* der Einschreibung im Kurskatalog sehen.
 
 Nach der Einschreibung können Lernende weiterhin darauf zugreifen — sofern Sie das Tool für sie sichtbar lassen, ist es ein praktischer Ort, um organisatorische Informationen wie den allgemeinen Kursaufbau oder die Lehrenden nachzuschlagen, ohne Sie direkt fragen zu müssen. Eingeschriebene Lernende können die von Ihnen verfassten Abschnitte einsehen, sie aber nicht hinzufügen, bearbeiten oder löschen.
 
 ## Zugriff auf das Tool
 
-Öffnen Sie das Tool **Kursbeschreibung** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeschreibung" data-size="line"> über das Tool-Raster auf der Kursstartseite.
+Öffnen Sie das Tool **Kursbeschreibung** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeschreibung" data-size="line"> über das Tool-Raster auf der Kursstartseite.
 
 ## Die acht Abschnitte
 
@@ -30,7 +30,7 @@ Eine Kursbeschreibung besteht aus bis zu acht unabhängigen Abschnitten. Jeder i
 3. Verfassen Sie Ihren Inhalt im Rich-Text-Editor (unterstützt Formatierung, Bilder, Links, eingebettetes Video und andere Rich-Inhalte). Wenn Ihre Plattform dies aktiviert hat, können Sie auch mehrere Sprachversionen desselben Abschnitts schreiben und jeder Lernende sieht automatisch nur die eigene — siehe [Mehrsprachige Inhalte](../adding-content/multi-language-content.md).
 4. Speichern
 
-Jeder hinzugefügte Abschnitt erscheint als eigene Karte im Tool. Nutzen Sie die Symbole **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> und **Löschen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> auf einer Karte, um sie später zu aktualisieren oder zu entfernen.
+Jeder hinzugefügte Abschnitt erscheint als eigene Karte im Tool. Nutzen Sie die Symbole **Bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> und **Löschen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> auf einer Karte, um sie später zu aktualisieren oder zu entfernen.
 
 ## Verknüpfung mit dem Kurskatalog
 

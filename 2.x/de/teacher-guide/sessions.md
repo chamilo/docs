@@ -15,7 +15,7 @@ Ein **Kurs** ist ein Container für Inhalte und Werkzeuge. Eine **Sitzung** weis
 
 Klicken Sie in der Seitenleiste auf **Meine Sitzungen**, um Ihre Sitzungen anzuzeigen. Sie sind in drei Ansichten organisiert:
 
-![Die Seite "Meine Sitzungen" zeigt aktuelle, vergangene und kommende Sitzungsansichten](/.gitbook/assets/my-sessions-list.png)
+![Die Seite "Meine Sitzungen" zeigt aktuelle, vergangene und kommende Sitzungsansichten](../.gitbook/assets/my-sessions-list.png)
 
 - **Aktuelle Sitzungen** — Sitzungen, die derzeit aktiv sind
 - **Vergangene Sitzungen** — Sitzungen, die beendet sind

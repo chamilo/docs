@@ -4,7 +4,7 @@ L'outil de travaux (devoirs) vous permet de collecter les travaux des apprenants
 
 ## Créer un travail
 
-1. Ouvrez l'outil **Travaux** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Travaux" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Travaux** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Travaux" data-size="line"> depuis la page d'accueil du cours
 2. Cliquez sur **Créer un travail**
 3. Remplissez les détails :
    * **Nom du travail** — Le nom du travail (par exemple, "Rapport de projet final")
@@ -41,7 +41,7 @@ Les apprenants peuvent voir s'ils ont déjà soumis leur travail et, si cela est
 
 ## Examiner les soumissions
 
-![La liste des soumissions de travaux affichant les noms des étudiants, les dates, les fichiers et l'état de la notation](/.gitbook/assets/assignments-submissions-list.png)
+![La liste des soumissions de travaux affichant les noms des étudiants, les dates, les fichiers et l'état de la notation](../../.gitbook/assets/assignments-submissions-list.png)
 
 En tant qu'enseignant, ouvrez un travail pour voir la liste de toutes les soumissions :
 
@@ -53,7 +53,7 @@ En tant qu'enseignant, ouvrez un travail pour voir la liste de toutes les soumis
 
 ### Noter une soumission
 
-![La vue de notation des travaux avec saisie du score, champ de retour d'information et téléversement de fichier corrigé](/.gitbook/assets/assignment-grading-view.png)
+![La vue de notation des travaux avec saisie du score, champ de retour d'information et téléversement de fichier corrigé](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Cliquez sur une soumission pour l'ouvrir
 2. Examinez le fichier soumis

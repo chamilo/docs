@@ -6,8 +6,8 @@ As mensagens enviadas por meio de avisos são enviadas aos alunos tanto por e-ma
 
 ## Criar um aviso
 
-1. Abra a ferramenta **Avisos** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Avisos" data-size="line"> na página inicial do curso
-2. Clique novamente no ícone **Adicionar um aviso** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Avisos" data-size="line">
+1. Abra a ferramenta **Avisos** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Avisos" data-size="line"> na página inicial do curso
+2. Clique novamente no ícone **Adicionar um aviso** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Avisos" data-size="line">
 3. Preencha:
    * **Destinatários** — Escolha quem recebe o aviso:
      * Todos os alunos inscritos
@@ -25,9 +25,9 @@ O botão **Pré-visualizar** não é muito intuitivo: ele permite ver para quem 
 
 ## Gerenciar avisos
 
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Modificar um aviso existente
-* **Excluir** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remover um aviso
-* **Visibilidade** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou exibir avisos
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Modificar um aviso existente
+* **Excluir** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remover um aviso
+* **Visibilidade** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou exibir avisos
 
 Os avisos são exibidos em ordem cronológica inversa (os mais recentes primeiro).
 

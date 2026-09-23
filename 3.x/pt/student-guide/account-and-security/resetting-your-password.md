@@ -6,7 +6,7 @@ Se se esqueceu da sua palavra-passe — ou simplesmente a quiser alterar — eis
 
 Na página de início de sessão, clique em **Esqueceu-se da sua palavra-passe?**. Se esta hiperligação não estiver presente, o administrador desativou esta funcionalidade — contacte-o diretamente para recuperar o acesso.
 
-![O formulário "Perdi a minha palavra-passe", com um único campo para o nome de utilizador ou endereço de e-mail](/.gitbook/assets/student-lost-password.png)
+![O formulário "Perdi a minha palavra-passe", com um único campo para o nome de utilizador ou endereço de e-mail](../../.gitbook/assets/student-lost-password.png)
 
 1. Introduza o seu **nome de utilizador ou endereço de e-mail** no único campo do formulário.
 2. Se aparecer um desafio CAPTCHA, resolva-o (consulte [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Pode alterar a sua palavra-passe a qualquer momento, sem esperar por se esquecer
 2. Clique em **Alterar palavra-passe**.
 3. Introduza a palavra-passe atual, depois a nova palavra-passe duas vezes, e submeta.
 
-![O formulário Alterar palavra-passe, com campos para a palavra-passe atual e uma nova palavra-passe](/.gitbook/assets/student-change-password.png)
+![O formulário Alterar palavra-passe, com campos para a palavra-passe atual e uma nova palavra-passe](../../.gitbook/assets/student-change-password.png)
 
 Esta é a mesma página onde pode ativar a [autenticação de dois fatores](two-factor-authentication.md), se a sua plataforma a suportar — nesse caso, verá também uma caixa de verificação «Ativar autenticação de dois fatores» aqui, não mostrada acima porque não está ativa em todas as plataformas.
 

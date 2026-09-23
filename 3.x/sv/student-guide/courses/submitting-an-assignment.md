@@ -4,7 +4,7 @@ Verktyget **Uppgifter** (ibland kallat "studentpublikationer" eller "arbete") ä
 
 ## Lämna in ditt arbete
 
-Öppna verktyget **Uppgifter** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Uppgifter" data-size="line"> från kurssidan och öppna sedan den specifika uppgiften. Läs beskrivningen noggrant — den innehåller din lärares instruktioner om vad du ska lämna in och hur det kommer att bedömas. Därefter:
+Öppna verktyget **Uppgifter** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Uppgifter" data-size="line"> från kurssidan och öppna sedan den specifika uppgiften. Läs beskrivningen noggrant — den innehåller din lärares instruktioner om vad du ska lämna in och hur det kommer att bedömas. Därefter:
 
 1. Klicka på **Ladda upp fil** (eller knappen för inlämning)
 2. Beroende på hur din lärare har konfigurerat uppgiften väljer du antingen en fil från din dator, skriver din inlämning som text direkt, eller båda

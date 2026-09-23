@@ -4,7 +4,7 @@ Chamilo har et omfattende konfigurationssystem med indstillinger organiseret i k
 
 Tilgå platformindstillinger fra administrationspanelet ved at klikke på **Konfigurationsindstillinger**.
 
-![Siden med platformindstillinger, der viser konfigurationskategorier organiseret efter funktionelt område](/.gitbook/assets/admin-settings-categories.png)
+![Siden med platformindstillinger, der viser konfigurationskategorier organiseret efter funktionelt område](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Alle kategorier
 

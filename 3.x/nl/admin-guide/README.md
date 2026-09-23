@@ -46,4 +46,4 @@ Als Chamilo-beheerder beheert u:
 
 ## Toegang tot het beheerpaneel
 
-Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om het beheerpaneel te openen.
+Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om het beheerpaneel te openen.

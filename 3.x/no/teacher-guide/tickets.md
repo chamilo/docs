@@ -19,7 +19,7 @@ Standardkategorier omfatter:
 
 ## Tilgang til billettverktøyet
 
-Hvis administratoren har aktivert billettlenken, vises et billettikon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Billett" data-size="line"> i den øverste navigasjonslinjen. Klikk på det for å gå direkte til skjemaet for innsending av billett.
+Hvis administratoren har aktivert billettlenken, vises et billettikon <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Billett" data-size="line"> i den øverste navigasjonslinjen. Klikk på det for å gå direkte til skjemaet for innsending av billett.
 
 Du kan også nå billettene dine fra hovedmenyen under **Support** eller **Tickets**, avhengig av plattformkonfigurasjonen.
 

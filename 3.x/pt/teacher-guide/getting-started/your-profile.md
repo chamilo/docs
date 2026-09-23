@@ -6,7 +6,7 @@ O seu perfil no Chamilo contém as suas informações pessoais e preferências. 
 
 Clique no seu **avatar** no canto superior direito da barra superior e, em seguida, selecione **Profile** no menu pendente. Também pode aceder-lhe a partir da secção **Social network** da barra lateral.
 
-![O menu pendente do avatar do utilizador, com as opções de perfil, definições da conta e terminar sessão](/.gitbook/assets/user-avatar-dropdown.png)
+![O menu pendente do avatar do utilizador, com as opções de perfil, definições da conta e terminar sessão](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Informações do Perfil
 

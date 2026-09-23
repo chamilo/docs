@@ -2,7 +2,7 @@
 
 Blok **Analytics** pada dasbor administrasi mengelompokkan statistik di seluruh platform, analitik pembelajaran, pelaporan korporat/SDM, dan alat ekspor massal. Tergantung pada versi Chamilo Anda, blok ini mungkin berlabel **"Tracking"** pada dasbor itu sendiri — keduanya adalah blok yang sama. Panduan ini menyebutnya Analytics di seluruh dokumen untuk menghindari kebingungan dengan [Pengaturan Tracking](../platform-settings/tracking-settings.md), kategori pengaturan terpisah yang mengontrol apa yang dicatat, bukan laporan itu sendiri.
 
-![Blok Analytics pada dasbor administrasi (berlabel "Tracking" pada tangkapan layar ini), yang mencantumkan Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, dan Tickets](/.gitbook/assets/admin-analytics-block.png)
+![Blok Analytics pada dasbor administrasi (berlabel "Tracking" pada tangkapan layar ini), yang mencantumkan Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, dan Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Mengakses Analytics
 

@@ -1,6 +1,6 @@
 # Övningssignatur
 
-Övningssignatur <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Övningssignatur" data-size="line"> lägger till ett steg för elektronisk signatur efter att en student har avslutat ett testförsök, så att slutförandet kan autentiseras — användbart i sammanhang som rör efterlevnad eller certifiering. Det påverkar inte poäng, svar eller data i betygsboken; det registrerar endast en signatur tillsammans med försöket.
+Övningssignatur <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Övningssignatur" data-size="line"> lägger till ett steg för elektronisk signatur efter att en student har avslutat ett testförsök, så att slutförandet kan autentiseras — användbart i sammanhang som rör efterlevnad eller certifiering. Det påverkar inte poäng, svar eller data i betygsboken; det registrerar endast en signatur tillsammans med försöket.
 
 ## Aktivera det för ett test
 

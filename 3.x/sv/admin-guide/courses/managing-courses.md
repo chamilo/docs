@@ -4,7 +4,7 @@ Som administratör kan du hantera alla kurser på plattformen oavsett vem som sk
 
 ## Kurslista
 
-![Kurslistan som visar alla kurser med titel, kod, kategori, inskrivna användare och synlighetsstatus](/.gitbook/assets/admin-course-list.png)
+![Kurslistan som visar alla kurser med titel, kod, kategori, inskrivna användare och synlighetsstatus](../../.gitbook/assets/admin-course-list.png)
 
 Från administrationspanelen klickar du på **Kurslista** för att se alla kurser. Listan visar:
 

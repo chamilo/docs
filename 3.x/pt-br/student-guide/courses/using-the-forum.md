@@ -4,7 +4,7 @@ A ferramenta **Forum** hospeda discussões estruturadas e em tópicos dentro de 
 
 ## Orientando-se
 
-Abra a ferramenta **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fórum" data-size="line"> a partir da página inicial do curso. Os fóruns são organizados em três níveis:
+Abra a ferramenta **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fórum" data-size="line"> a partir da página inicial do curso. Os fóruns são organizados em três níveis:
 
 1. **Categories** — agrupamentos amplos (por exemplo, "Discussões gerais", "Perguntas do Módulo 1")
 2. **Forums** — quadros de discussão individuais dentro de uma categoria

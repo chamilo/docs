@@ -2,7 +2,7 @@
 
 La configuración del curso te permite controlar cómo se comporta tu curso: quién puede acceder a él, cómo se muestra y qué funciones están habilitadas.
 
-Para acceder a la configuración del curso, ingresa a tu curso y haz clic en el ícono de **Configuración** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> junto al botón **Cambiar a vista de estudiante**.
+Para acceder a la configuración del curso, ingresa a tu curso y haz clic en el ícono de **Configuración** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> junto al botón **Cambiar a vista de estudiante**.
 
 ## Configuraciones Generales
 
@@ -29,7 +29,7 @@ Cada curso tiene un límite de almacenamiento (cuota de disco) para los archivos
 
 ### Visibilidad del Curso
 
-![Las configuraciones de visibilidad del curso mostrando las opciones público, abierto, registrado y cerrado](/.gitbook/assets/course-settings-visibility.png)
+![Las configuraciones de visibilidad del curso mostrando las opciones público, abierto, registrado y cerrado](../../.gitbook/assets/course-settings-visibility.png)
 
 Controla quién puede acceder a tu curso:
 
@@ -83,7 +83,7 @@ Controla el comportamiento en la herramienta de foro de este curso.
 ---
 ### Configuración de Lanzamiento Automático
 
-Un curso puede configurarse para tener un comportamiento de lanzamiento automático, lo que acortará el camino de los estudiantes para llegar a las partes importantes de su curso. Si está habilitado, los estudiantes que ingresen a su curso serán dirigidos directamente a la herramienta seleccionada y no verán la página de inicio del curso como un paso intermedio. Incluso puede seleccionar rutas de aprendizaje o ejercicios específicos para que se lancen al llegar al curso. En este caso, debe seleccionar la opción aquí, luego ir a la lista de rutas de aprendizaje o ejercicios y hacer clic en el ícono de cohete <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Lanzamiento automático" data-size="line"> en el elemento seleccionado.
+Un curso puede configurarse para tener un comportamiento de lanzamiento automático, lo que acortará el camino de los estudiantes para llegar a las partes importantes de su curso. Si está habilitado, los estudiantes que ingresen a su curso serán dirigidos directamente a la herramienta seleccionada y no verán la página de inicio del curso como un paso intermedio. Incluso puede seleccionar rutas de aprendizaje o ejercicios específicos para que se lancen al llegar al curso. En este caso, debe seleccionar la opción aquí, luego ir a la lista de rutas de aprendizaje o ejercicios y hacer clic en el ícono de cohete <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Lanzamiento automático" data-size="line"> en el elemento seleccionado.
 
 ### Configuración de Asistentes de IA
 

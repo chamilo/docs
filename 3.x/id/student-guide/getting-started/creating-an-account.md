@@ -27,7 +27,7 @@ Secara default, formulir pendaftaran publik tidak memiliki opsi untuk mendaftar 
 
 Beberapa platform mengaktifkan langkah **"Apa yang ingin Anda lakukan?"** dengan dua kartu — **Mengikuti kursus** dan **Mengajar kursus** — tetapi ini hanya muncul jika administrator Anda secara khusus mengaktifkan pendaftaran sebagai guru. Bahkan kemudian, memilih untuk mengajar mungkin mengharuskan akun Anda disetujui sebelum Anda mendapatkan hak guru.
 
-![Formulir pendaftaran pada platform dengan pendaftaran mandiri guru diaktifkan, menampilkan pemilih peran "Mengikuti kursus" / "Mengajar kursus"](/.gitbook/assets/student-registration-form.png)
+![Formulir pendaftaran pada platform dengan pendaftaran mandiri guru diaktifkan, menampilkan pemilih peran "Mengikuti kursus" / "Mengajar kursus"](../../.gitbook/assets/student-registration-form.png)
 
 Jika Anda memerlukan akun guru dan tidak melihat opsi ini, minta administrator platform Anda untuk membuatnya bagi Anda atau meningkatkan akun yang sudah ada.
 

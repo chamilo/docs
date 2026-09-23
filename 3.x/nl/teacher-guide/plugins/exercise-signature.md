@@ -1,6 +1,6 @@
 # Oefeningshandtekening
 
-Oefeningshandtekening <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Oefeningshandtekening" data-size="line"> voegt een stap voor elektronische handtekening toe nadat een student een toets poging heeft afgerond, zodat de afronding kan worden geauthenticeerd — nuttig in contexten van compliance of certificering. Het raakt scores, antwoorden of cijferboekgegevens niet aan; het legt alleen een handtekening vast bij de poging.
+Oefeningshandtekening <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Oefeningshandtekening" data-size="line"> voegt een stap voor elektronische handtekening toe nadat een student een toets poging heeft afgerond, zodat de afronding kan worden geauthenticeerd — nuttig in contexten van compliance of certificering. Het raakt scores, antwoorden of cijferboekgegevens niet aan; het legt alleen een handtekening vast bij de poging.
 
 ## Inschakelen voor een toets
 

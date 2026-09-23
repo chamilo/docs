@@ -6,7 +6,7 @@ Chamilo integreert met videoconferentieplatforms zodat u live sessies rechtstree
 
 ## Een videosessie starten
 
-1. Open de tool **Videoconferentie** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> vanaf de cursushomepage (of vanuit de zijbalk)
+1. Open de tool **Videoconferentie** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> vanaf de cursushomepage (of vanuit de zijbalk)
 2. Klik op **Start a meeting** (of een vergelijkbare knop, afhankelijk van het geconfigureerde platform)
 3. Er wordt een nieuwe videoconferentieruimte geopend in een nieuw browsertabblad
 

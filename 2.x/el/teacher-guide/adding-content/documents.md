@@ -4,13 +4,13 @@
 
 ## Πρόσβαση στο Εργαλείο Εγγράφων
 
-Ανοίξτε το εργαλείο **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> από την αρχική σελίδα του μαθήματος. Θα δείτε έναν περιηγητή αρχείων που εμφανίζει τον ρίζα φάκελο της βιβλιοθήκης εγγράφων του μαθήματός σας.
+Ανοίξτε το εργαλείο **Documents** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> από την αρχική σελίδα του μαθήματος. Θα δείτε έναν περιηγητή αρχείων που εμφανίζει τον ρίζα φάκελο της βιβλιοθήκης εγγράφων του μαθήματός σας.
 
-![Ο περιηγητής αρχείων εγγράφων που εμφανίζει φακέλους και αρχεία με εικονίδια ενεργειών](/.gitbook/assets/documents-file-browser.png)
+![Ο περιηγητής αρχείων εγγράφων που εμφανίζει φακέλους και αρχεία με εικονίδια ενεργειών](../../.gitbook/assets/documents-file-browser.png)
 
 ## Ανέβασμα Αρχείων
 
-1. Κάντε κλικ στο κουμπί **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
+1. Κάντε κλικ στο κουμπί **Upload** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
 2. Επιλέξτε ένα ή περισσότερα αρχεία από τον υπολογιστή σας (μπορείτε να σύρετε και να αποθέσετε αρχεία στην περιοχή ανεβάσματος)
 3. Τα αρχεία ανεβαίνουν και εμφανίζονται στον τρέχοντα φάκελο
 
@@ -52,7 +52,7 @@
 
 Διατηρήστε τη βιβλιοθήκη εγγράφων σας οργανωμένη χρησιμοποιώντας φακέλους:
 
-1. Κάντε κλικ στο **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
+1. Κάντε κλικ στο **New folder** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
 2. Εισαγάγετε ένα όνομα φακέλου
 3. Αποθηκεύστε
 
@@ -61,7 +61,7 @@
 ### Μετακίνηση Αρχείων
 
 * Εντοπίστε το αρχείο σας στη λίστα
-* Κάντε κλικ στο **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
+* Κάντε κλικ στο **Move** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
 * Επιλέξτε τον φάκελο προορισμού
 * Επιβεβαιώστε
 
@@ -71,12 +71,12 @@
 
 | Ενέργεια | Εικονίδιο | Περιγραφή |
 |----------|-----------|-----------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Μετονομασία του αρχείου ή επεξεργασία του περιεχομένου του (για ιστοσελίδες) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Διαγραφή του αρχείου ή φακέλου |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Λήψη του αρχείου στον υπολογιστή σας |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Απόκρυψη ή εμφάνιση του αρχείου στους μαθητές |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Αντικατάσταση του αρχείου με ενημερωμένη έκδοση |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Μετακίνηση σε διαφορετικό φάκελο |
+| **Edit** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Μετονομασία του αρχείου ή επεξεργασία του περιεχομένου του (για ιστοσελίδες) |
+| **Delete** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Διαγραφή του αρχείου ή φακέλου |
+| **Download** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Λήψη του αρχείου στον υπολογιστή σας |
+| **Visibility** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Απόκρυψη ή εμφάνιση του αρχείου στους μαθητές |
+| **Replace** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Αντικατάσταση του αρχείου με ενημερωμένη έκδοση |
+| **Move** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Μετακίνηση σε διαφορετικό φάκελο |
 
 Η αντικατάσταση ενός αρχείου είναι σημαντικό χαρακτηριστικό όταν χρησιμοποιείτε έγγραφα για να χτίσετε μονοπάτια μάθησης, καθώς η αντικατάσταση του εγγράφου θα επιτρέψει την ανανέωση του εγγράφου χωρίς οι μαθητές να χάσουν την πρόοδο που έχουν αποθηκεύσει για αυτό το έγγραφο.
 
@@ -87,7 +87,7 @@
 ---
 ## OnlyOffice Integration
 
-Εάν ο διαχειριστής σας έχει ρυθμίσει το πρόσθετο **OnlyOffice**, μπορείτε να επεξεργαστείτε αρχεία Word, Excel και PowerPoint (ή LibreOffice) απευθείας στον περιηγητή χωρίς να τα κατεβάσετε. Αναζητήστε την επιλογή **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> κατά την προβολή ενός υποστηριζόμενου αρχείου.
+Εάν ο διαχειριστής σας έχει ρυθμίσει το πρόσθετο **OnlyOffice**, μπορείτε να επεξεργαστείτε αρχεία Word, Excel και PowerPoint (ή LibreOffice) απευθείας στον περιηγητή χωρίς να τα κατεβάσετε. Αναζητήστε την επιλογή **Edit with OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> κατά την προβολή ενός υποστηριζόμενου αρχείου.
 
 Τα έγγραφα αποθηκεύονται στο Chamilo, το OnlyOffice χρησιμοποιείται μόνο για **προβολή** ή επεξεργασία των εγγράφων στον περιηγητή, χωρίς την ανάγκη για οποιοδήποτε επιπλέον εργαλείο.
 

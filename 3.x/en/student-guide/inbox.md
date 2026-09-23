@@ -4,17 +4,17 @@ The **Inbox** is Chamilo's private messaging system — asynchronous, e-mail-lik
 
 ## Accessing Your Inbox
 
-Click the **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> icon in the top bar. A red badge shows how many unread messages you have. If this icon isn't there at all, your administrator has disabled platform messaging.
+Click the **Inbox** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> icon in the top bar. A red badge shows how many unread messages you have. If this icon isn't there at all, your administrator has disabled platform messaging.
 
 ## Reading and Replying
 
 Your inbox lists received messages, showing which are unread. Open one to read it, and use **Reply** to respond — you can include several recipients in a reply at once, useful for keeping a small group of people in the loop without setting up a formal course or social group.
 
-![The Inbox, with Inbox / Unread / Sent tabs and a table of received messages](/.gitbook/assets/student-inbox.png)
+![The Inbox, with Inbox / Unread / Sent tabs and a table of received messages](../.gitbook/assets/student-inbox.png)
 
 ## Composing a New Message
 
-Click the **new message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> button, choose one or more recipients, write a subject and body, and send. Just like a reply, a new message can go to multiple people at once.
+Click the **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> button, choose one or more recipients, write a subject and body, and send. Just like a reply, a new message can go to multiple people at once.
 
 ## Tabs and Actions
 

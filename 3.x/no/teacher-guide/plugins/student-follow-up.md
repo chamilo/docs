@@ -1,6 +1,6 @@
 # Studentoppfølging
 
-Studentoppfølging <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Studentoppfølging" data-size="line"> lar deg føre tidsstemplede, taggede notater om en lærendes fremgang og vanskeligheter — et lettvekts saksnotesystem for å følge hvordan en student gjør det over tid.
+Studentoppfølging <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Studentoppfølging" data-size="line"> lar deg føre tidsstemplede, taggede notater om en lærendes fremgang og vanskeligheter — et lettvekts saksnotesystem for å følge hvordan en student gjør det over tid.
 
 ## Tilgang til verktøyet
 

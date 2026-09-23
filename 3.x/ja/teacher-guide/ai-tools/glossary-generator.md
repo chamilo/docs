@@ -9,7 +9,7 @@ AI用語集用語ジェネレーターは、トピックや主題領域から用
 1. プラットフォームレベルでAIヘルパーが有効になっていること
 2. 少なくとも1つのAIテキストプロバイダーが設定されていること
 
-コースホームページから **用語集** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> ツールを開き、ツールバーの **AIで生成** ボタンを探します。
+コースホームページから **用語集** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> ツールを開き、ツールバーの **AIで生成** ボタンを探します。
 
 ## 用語の生成方法
 

@@ -1,6 +1,6 @@
 # LTI 1.3 Advantage Provider
 
-LTI 1.3 Advantage Provider <img src="/.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> toimii päinvastoin kuin [IMS/LTI-asiakas](ims-lti.md): sen sijaan, että Chamilo käynnistäisi ulkoisen työkalun, se antaa **ulkoisen LMS:n** (esimerkiksi toisen Chamilo-portaalin tai toisen alustan, kuten Moodlen) käynnistää yhden harjoituksistasi tai oppimispoluistasi ikään kuin se olisi työkalu tuossa toisessa järjestelmässä, ja arvosanat palautetaan Chamiloon.
+LTI 1.3 Advantage Provider <img src="../../.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> toimii päinvastoin kuin [IMS/LTI-asiakas](ims-lti.md): sen sijaan, että Chamilo käynnistäisi ulkoisen työkalun, se antaa **ulkoisen LMS:n** (esimerkiksi toisen Chamilo-portaalin tai toisen alustan, kuten Moodlen) käynnistää yhden harjoituksistasi tai oppimispoluistasi ikään kuin se olisi työkalu tuossa toisessa järjestelmässä, ja arvosanat palautetaan Chamiloon.
 
 ## Mitä tämä merkitsee sinulle
 

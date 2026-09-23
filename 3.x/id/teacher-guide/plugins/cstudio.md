@@ -1,6 +1,6 @@
 # Editor Konten C-Studio
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> adalah editor konten visual seret-dan-lepas untuk Learning Path. Editor ini memungkinkan Anda membangun halaman interaktif — blok teks, kuis, aktivitas seret-dan-lepas, isian rumpang, gambar hotspot, tabel, audio, dan video — tanpa menulis HTML sama sekali, lalu mengekspor hasilnya sebagai paket SCORM.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> adalah editor konten visual seret-dan-lepas untuk Learning Path. Editor ini memungkinkan Anda membangun halaman interaktif — blok teks, kuis, aktivitas seret-dan-lepas, isian rumpang, gambar hotspot, tabel, audio, dan video — tanpa menulis HTML sama sekali, lalu mengekspor hasilnya sebagai paket SCORM.
 
 ## Mengakses Editor
 

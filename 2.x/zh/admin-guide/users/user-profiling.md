@@ -4,7 +4,7 @@ Chamilo 允许您定义自定义档案字段（额外字段），以便在标准
 
 ## 额外档案字段
 
-![显示自定义字段的额外档案字段列表，包括名称、类型和可见性设置](/.gitbook/assets/admin-extra-fields-list.png)
+![显示自定义字段的额外档案字段列表，包括名称、类型和可见性设置](../../.gitbook/assets/admin-extra-fields-list.png)
 
 额外字段让您可以存储特定于您组织的数据，例如：
 

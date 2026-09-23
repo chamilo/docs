@@ -4,7 +4,7 @@ Alat tugas (juga disebut "publikasi siswa") memungkinkan Anda mengumpulkan peker
 
 ## Membuat Tugas
 
-1. Buka alat **Tugas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tugas" data-size="line"> dari beranda kursus
+1. Buka alat **Tugas** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tugas" data-size="line"> dari beranda kursus
 2. Klik **Buat tugas**
 3. Isi rinciannya:
    * **Nama tugas** — Nama tugas (misalnya, "Laporan Proyek Akhir")
@@ -41,7 +41,7 @@ Peserta didik dapat melihat apakah mereka sudah mengirim, dan jika diizinkan, me
 
 ## Meninjau Kiriman
 
-![Daftar kiriman tugas yang menampilkan nama siswa, tanggal, berkas, dan status penilaian](/.gitbook/assets/assignments-submissions-list.png)
+![Daftar kiriman tugas yang menampilkan nama siswa, tanggal, berkas, dan status penilaian](../../.gitbook/assets/assignments-submissions-list.png)
 
 Sebagai pengajar, buka tugas untuk melihat daftar semua kiriman:
 
@@ -53,7 +53,7 @@ Sebagai pengajar, buka tugas untuk melihat daftar semua kiriman:
 
 ### Menilai Kiriman
 
-![Tampilan penilaian tugas dengan input skor, bidang umpan balik, dan unggahan berkas yang dikoreksi](/.gitbook/assets/assignment-grading-view.png)
+![Tampilan penilaian tugas dengan input skor, bidang umpan balik, dan unggahan berkas yang dikoreksi](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klik kiriman untuk membukanya
 2. Tinjau berkas yang dikirim

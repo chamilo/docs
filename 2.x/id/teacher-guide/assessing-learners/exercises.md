@@ -4,7 +4,7 @@ Alat latihan (juga disebut "tes") memungkinkan Anda membuat kuis dan ujian denga
 
 ## Membuat Latihan
 
-1. Buka alat **Latihan** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Latihan" data-size="line"> dari halaman utama kursus
+1. Buka alat **Latihan** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Latihan" data-size="line"> dari halaman utama kursus
 2. Klik **Latihan baru**
 3. Masukkan **judul** dan **deskripsi** opsional
 4. Konfigurasikan pengaturan latihan (lihat di bawah)
@@ -12,7 +12,7 @@ Alat latihan (juga disebut "tes") memungkinkan Anda membuat kuis dan ujian denga
 
 ## Pengaturan Latihan
 
-![Panel pengaturan latihan dengan opsi untuk tampilan, waktu, percobaan, dan umpan balik](/.gitbook/assets/exercise-settings.png)
+![Panel pengaturan latihan dengan opsi untuk tampilan, waktu, percobaan, dan umpan balik](../../.gitbook/assets/exercise-settings.png)
 
 ### Tampilan dan Navigasi
 
@@ -75,7 +75,7 @@ Anda juga dapat mengonfigurasi strategi pemilihan lanjutan yang menggabungkan ka
 
 ## Jenis Pertanyaan
 
-![Gambaran umum jenis pertanyaan yang tersedia di antarmuka pembuatan latihan](/.gitbook/assets/exercise-question-types.png)
+![Gambaran umum jenis pertanyaan yang tersedia di antarmuka pembuatan latihan](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo menawarkan berbagai jenis pertanyaan yang diorganisasi ke dalam beberapa kategori:
 

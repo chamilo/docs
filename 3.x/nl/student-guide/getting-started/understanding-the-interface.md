@@ -7,11 +7,11 @@ Chamilo 3.0 heeft een overzichtelijke, moderne interface die is ontworpen om nav
 De bovenbalk is altijd zichtbaar bovenaan elke pagina. Deze bevat:
 
 * **Platformlogo** — Klik erop om op elk moment terug te keren naar de startpagina.
-* **Inboxpictogram** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Toont uw berichten. Een rood badge geeft ongelezen berichten aan. Klik om uw [Inbox](../inbox.md) te openen.
-* **Supportticketpictogram** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Indien ingeschakeld door uw beheerder, geeft dit u toegang tot het supportticketsysteem. Niet elk platform schakelt dit in, dus u ziet mogelijk alleen het inboxpictogram en uw avatar.
+* **Inboxpictogram** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Toont uw berichten. Een rood badge geeft ongelezen berichten aan. Klik om uw [Inbox](../inbox.md) te openen.
+* **Supportticketpictogram** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Indien ingeschakeld door uw beheerder, geeft dit u toegang tot het supportticketsysteem. Niet elk platform schakelt dit in, dus u ziet mogelijk alleen het inboxpictogram en uw avatar.
 * **Uw avatar** — Een cirkelvormige afbeelding in de rechterbovenhoek. Klik erop om een vervolgkeuzemenu te openen:
 
-![Uw avatarmenu, met koppelingen naar Mijn profiel, Mijn certificaten, Mijn vaardigheden en Afmelden](/.gitbook/assets/student-avatar-menu.png)
+![Uw avatarmenu, met koppelingen naar Mijn profiel, Mijn certificaten, Mijn vaardigheden en Afmelden](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Mijn profiel** — Bewerk uw persoonlijke gegevens, wijzig uw wachtwoord en (indien ingeschakeld) stel tweefactorauthenticatie in
 * **Mijn certificaten** — Elk certificaat dat u hebt behaald, in al uw cursussen
@@ -26,18 +26,18 @@ De zijbalk bevat de volgende koppelingen (sommige kunnen verborgen zijn, afhanke
 
 | Menu-item | Pictogram | Beschrijving |
 |-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Keert terug naar het hoofddashboard |
-| **Mijn cursussen** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Toont alle cursussen waarin u bent ingeschreven |
-| **Mijn sessies** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Toont uw trainingssessies (huidig, verleden, komend) |
-| **Meer cursussen verkennen** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Blader door de cursuscatalogus om nieuwe cursussen te vinden en uzelf in te schrijven |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Uw persoonlijke en cursuskalender |
-| **Rapportage** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Vouwt uit naar **Voortgang** — uw eigen overzicht [Mijn voortgang](../my-progress.md) |
-| **Sociaal netwerk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Vouwt uit naar het [Sociaal netwerk](../social-network.md) en gerelateerde koppelingen, indien ingeschakeld |
-| **Videoconferentie** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Toegang tot live videosessies (indien geconfigureerd) |
+| **Home** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Keert terug naar het hoofddashboard |
+| **Mijn cursussen** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Toont alle cursussen waarin u bent ingeschreven |
+| **Mijn sessies** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Toont uw trainingssessies (huidig, verleden, komend) |
+| **Meer cursussen verkennen** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Blader door de cursuscatalogus om nieuwe cursussen te vinden en uzelf in te schrijven |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Uw persoonlijke en cursuskalender |
+| **Rapportage** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Vouwt uit naar **Voortgang** — uw eigen overzicht [Mijn voortgang](../my-progress.md) |
+| **Sociaal netwerk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Vouwt uit naar het [Sociaal netwerk](../social-network.md) en gerelateerde koppelingen, indien ingeschakeld |
+| **Videoconferentie** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Toegang tot live videosessies (indien geconfigureerd) |
 
 **Rapportage** en **Sociaal netwerk** zijn geen gewone koppelingen — als u erop klikt, wordt in de zijbalk een kleine lijst met subitems uitgevouwen:
 
-![De zijbalk met Rapportage en Sociaal netwerk uitgevouwen, met hun subitems](/.gitbook/assets/student-sidebar-expanded.png)
+![De zijbalk met Rapportage en Sociaal netwerk uitgevouwen, met hun subitems](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Onder **Rapportage**: alleen **Voortgang**, waarmee u naar [Mijn voortgang](../my-progress.md) gaat.
 * Onder **Sociaal netwerk**: **Home** (de sociale muur), **Berichten** (een snelkoppeling naar uw [Inbox](../inbox.md)), **Mijn vrienden**, **Sociale groepen** — en, enigszins onverwacht hier ook gegroepeerd, **Mijn bestanden** (uw persoonlijke bestandsopslag) en **Persoonlijke gegevens** (een export van de persoonlijke gegevens die het platform over u bijhoudt). Deze laatste twee zijn niet echt "sociale" functies; ze staan gewoon in dit deel van de zijbalk.

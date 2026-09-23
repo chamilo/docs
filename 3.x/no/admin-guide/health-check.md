@@ -2,7 +2,7 @@
 
 Helsesjekk er en liten blokk på administrasjonsoversikten som kjører noen få sanntidssjekker av installasjonen din og flagger alt som trenger oppmerksomhet — uten at du trenger å grave i konfigurasjonsfiler for å oppdage vanlige feilkonfigurasjoner.
 
-![Helsesjekk-blokken på administrasjonsoversikten, som viser bestått/ikke bestått-status for e-postinnstillinger, tildeling av admin-URL og sjekker av filrettigheter](/.gitbook/assets/admin-health-check-block.png)
+![Helsesjekk-blokken på administrasjonsoversikten, som viser bestått/ikke bestått-status for e-postinnstillinger, tildeling av admin-URL og sjekker av filrettigheter](../.gitbook/assets/admin-health-check-block.png)
 
 ## Tilgang til Helsesjekk
 

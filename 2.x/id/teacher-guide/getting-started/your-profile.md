@@ -6,7 +6,7 @@ Profil Anda di Chamilo berisi informasi pribadi dan preferensi Anda. Pengguna la
 
 Klik **avatar** Anda di sudut kanan atas bilah atas, kemudian pilih **Profil** dari menu tarik-turun. Anda juga dapat mengaksesnya dari bagian **Jaringan sosial** di bilah sisi.
 
-![Menu tarik-turun avatar pengguna yang menampilkan profil, pengaturan akun, dan opsi keluar](/.gitbook/assets/user-avatar-dropdown.png)
+![Menu tarik-turun avatar pengguna yang menampilkan profil, pengaturan akun, dan opsi keluar](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Informasi Profil
 

@@ -1,6 +1,6 @@
 # Suivi des étudiants
 
-Le suivi des étudiants <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Suivi des étudiants" data-size="line"> vous permet de consigner des notes horodatées et étiquetées sur les progrès et les difficultés d’un apprenant — un système léger de notes de dossier pour suivre l’évolution d’un étudiant dans le temps.
+Le suivi des étudiants <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Suivi des étudiants" data-size="line"> vous permet de consigner des notes horodatées et étiquetées sur les progrès et les difficultés d’un apprenant — un système léger de notes de dossier pour suivre l’évolution d’un étudiant dans le temps.
 
 ## Accéder à l’outil
 

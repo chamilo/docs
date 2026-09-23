@@ -4,7 +4,7 @@
 
 ## 平台身份
 
-![显示平台身份设置的门户定制页面，包括名称、标志和机构信息](/.gitbook/assets/admin-portal-customization.png)
+![显示平台身份设置的门户定制页面，包括名称、标志和机构信息](../../.gitbook/assets/admin-portal-customization.png)
 
 配置您的门户的基本身份信息：
 

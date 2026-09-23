@@ -4,7 +4,7 @@ Chamilo dispose d’un système de configuration étendu, avec des paramètres o
 
 Accédez aux paramètres de la plateforme depuis le panneau d’administration en cliquant sur **Paramètres de configuration**.
 
-![La page des paramètres de la plateforme affichant les catégories de configuration organisées par domaine fonctionnel](/.gitbook/assets/admin-settings-categories.png)
+![La page des paramètres de la plateforme affichant les catégories de configuration organisées par domaine fonctionnel](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Toutes les catégories
 

@@ -14,7 +14,7 @@ AIを活用した学習経路ジェネレーターは、構造化された学習
 
 ## 学習経路の生成方法
 
-![トピック、目標、セクション数を入力するフィールドを含むAI学習経路ジェネレーターフォーム](/.gitbook/assets/ai-learning-path-generator.png)
+![トピック、目標、セクション数を入力するフィールドを含むAI学習経路ジェネレーターフォーム](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. AIジェネレーターフォームを開く
 2. パラメータを設定する：

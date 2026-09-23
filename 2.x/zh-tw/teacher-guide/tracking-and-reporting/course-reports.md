@@ -4,9 +4,9 @@
 
 ## 存取課程報告
 
-從課程首頁開啟 **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具，並選擇課程層級的報告視圖。
+從課程首頁開啟 **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具，並選擇課程層級的報告視圖。
 
-![顯示參與度指標和學習者活動摘要的課程追蹤概覽](/.gitbook/assets/tracking-course-overview.png)
+![顯示參與度指標和學習者活動摘要的課程追蹤概覽](../../.gitbook/assets/tracking-course-overview.png)
 
 ## 可用報告
 
@@ -43,7 +43,7 @@
 
 ## 匯出資料
 
-您可以匯出追蹤和報告資料以進行進一步分析。尋找 **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line"> 選項，以下載試算表相容格式的資料。
+您可以匯出追蹤和報告資料以進行進一步分析。尋找 **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line"> 選項，以下載試算表相容格式的資料。
 
 ## 工作階段報告
 

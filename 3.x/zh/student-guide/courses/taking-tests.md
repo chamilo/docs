@@ -4,7 +4,7 @@
 
 ## 开始测验
 
-从课程主页打开 **测验** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="测验" data-size="line"> 工具，点击某份测验即可开始。若教师设置了开始或结束日期，测验可能尚未开放，或已不再可用。
+从课程主页打开 **测验** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="测验" data-size="line"> 工具，点击某份测验即可开始。若教师设置了开始或结束日期，测验可能尚未开放，或已不再可用。
 
 ## 作答
 

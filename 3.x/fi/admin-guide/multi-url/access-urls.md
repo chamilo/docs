@@ -53,7 +53,7 @@ Kullakin käyttö-URL:lla voi olla omat:
 
 Käyttö-URL:t voidaan järjestää ylä-/alatason puuksi tasaisen luettelon sijaan. URL:ia luotaessa tai muokattaessa rajoittamaton globaali ylläpitäjä (katso [Alipuun ylläpitäjät](#subtree-administrators) alla) voi valita minkä tahansa muun URL:n sen **Ylä-URL:ksi**:
 
-![Muokkaa URL:ia -valintaikkuna, jossa Ylä-URL-pudotusvalikko on auki ja listaa muut käyttö-URL:t mahdollisina ylä-URL:ina](/.gitbook/assets/admin-access-url-parent-select.png)
+![Muokkaa URL:ia -valintaikkuna, jossa Ylä-URL-pudotusvalikko on auki ja listaa muut käyttö-URL:t mahdollisina ylä-URL:ina](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Pudotusvalikko ei koskaan tarjoa muokattavana olevaa URL:ia eikä sen omia jälkeläisiä mahdolliseksi ylä-URL:ksi — näin estetään silmukan syntyminen. Taustajärjestelmä tarkistaa tämän uudelleen riippumatta siitä, mitä käyttöliittymä näyttää.
 * Jos URL luodaan valitsematta ylä-URL:ia, oletuksena käytetään **vain kirjautumiseen tarkoitettua URL:ia**, jos sellainen on olemassa (katso [URL-kohtaiset asetukset](#per-url-settings) yllä), tai muuten ensimmäistä käyttö-URL:ia — sama oletuskäyttäytyminen kuin ennen tämän ominaisuuden olemassaoloa.
@@ -61,7 +61,7 @@ Käyttö-URL:t voidaan järjestää ylä-/alatason puuksi tasaisen luettelon sij
 
 Kaikkialla, missä käyttö-URL:t listataan — Usean URL:n hallintapaneelissa ja Käyttö-URL:t -hallintasivulla — puu näytetään sisennyksellä, ylä-URL heti omien lastensa edellä (sisarukset aakkosjärjestyksessä), erillisen "Ylä"-sarakkeen sijaan:
 
-![Käyttö-URL-luettelo, jossa juuri-URL ja kaksi lapsi-URL:ia, joista yhdellä on oma lapsi-URL, sisennettynä hierarkian mukaisesti](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Käyttö-URL-luettelo, jossa juuri-URL ja kaksi lapsi-URL:ia, joista yhdellä on oma lapsi-URL, sisennettynä hierarkian mukaisesti](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Alipuun ylläpitäjät
 

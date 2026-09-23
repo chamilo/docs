@@ -1,6 +1,6 @@
 # Positionierung
 
-Positionierung <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionierung" data-size="line"> fügt einen Vorher-/Nachher-Selbstbewertungsablauf hinzu: Wählen Sie einen Test als **Anfangstest** und einen anderen als **Abschlusstest** (häufig eine Kopie desselben Tests), und Chamilo zeigt die Punktzahländerung jedes Lernenden zwischen den beiden Tests in einem Netzdiagramm an.
+Positionierung <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionierung" data-size="line"> fügt einen Vorher-/Nachher-Selbstbewertungsablauf hinzu: Wählen Sie einen Test als **Anfangstest** und einen anderen als **Abschlusstest** (häufig eine Kopie desselben Tests), und Chamilo zeigt die Punktzahländerung jedes Lernenden zwischen den beiden Tests in einem Netzdiagramm an.
 
 ## Zugriff auf das Werkzeug
 

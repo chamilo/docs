@@ -1,10 +1,10 @@
 # Melden op de startpagina van de cursus
 
-Melden op de startpagina van de cursus <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Melden op de startpagina van de cursus" data-size="line"> laat u een pop-upmelding tonen aan iedereen die de startpagina van uw cursus bezoekt — nuttig voor een aankondiging, een melding over verplichte lectuur, of een poort van het type "klik hier om verder te gaan".
+Melden op de startpagina van de cursus <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Melden op de startpagina van de cursus" data-size="line"> laat u een pop-upmelding tonen aan iedereen die de startpagina van uw cursus bezoekt — nuttig voor een aankondiging, een melding over verplichte lectuur, of een poort van het type "klik hier om verder te gaan".
 
 ## Een melding instellen
 
-Zodra dit is ingeschakeld, krijgt **Instellingen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus een knop **Eén melding op de startpagina instellen**. Die opent een formulier waarin u de melding schrijft (opgemaakte tekst) en optioneel een **Vervaldatumlink** instelt.
+Zodra dit is ingeschakeld, krijgt **Instellingen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus een knop **Eén melding op de startpagina instellen**. Die opent een formulier waarin u de melding schrijft (opgemaakte tekst) en optioneel een **Vervaldatumlink** instelt.
 
 * **Met een vervaldatumlink** — De pop-up toont een knop die naar die link wijst en blijft opnieuw verschijnen tot een cursist erop klikt
 * **Zonder** — De melding verschijnt opnieuw voor iedere bezoeker, telkens wanneer die de startpagina van de cursus opent

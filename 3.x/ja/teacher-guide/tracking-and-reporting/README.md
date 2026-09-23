@@ -8,6 +8,6 @@ Chamilo はプラットフォーム全体で学習者の活動を追跡し、学
 
 ## レポートへのアクセス
 
-コースから、コースホームページの **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> ツールをクリックします。サイドバーの **Reporting** リンクから、複数コースを横断した概要のレポートにアクセスすることもできます。
+コースから、コースホームページの **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> ツールをクリックします。サイドバーの **Reporting** リンクから、複数コースを横断した概要のレポートにアクセスすることもできます。
 
 教師は担当コースのレポートデータを閲覧できます。セッションチューターは、担当セッション内の全コースにわたるデータを閲覧できます。

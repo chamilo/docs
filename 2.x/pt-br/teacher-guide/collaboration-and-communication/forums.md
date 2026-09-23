@@ -4,7 +4,7 @@ A ferramenta de fórum permite que você hospede discussões estruturadas dentro
 
 ## Estrutura do Fórum
 
-![Lista de categorias de fórum mostrando categorias, fóruns e contagem de tópicos](/.gitbook/assets/forum-category-list.png)
+![Lista de categorias de fórum mostrando categorias, fóruns e contagem de tópicos](../../.gitbook/assets/forum-category-list.png)
 
 Os fóruns no Chamilo são organizados em três níveis:
 
@@ -14,7 +14,7 @@ Os fóruns no Chamilo são organizados em três níveis:
 
 ## Criando uma Categoria de Fórum
 
-1. Abra a ferramenta **Fóruns** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fóruns" data-size="line"> na página inicial do seu curso
+1. Abra a ferramenta **Fóruns** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fóruns" data-size="line"> na página inicial do seu curso
 2. Clique em **Adicionar uma categoria de fórum**
 3. Insira um **Nome da categoria** e uma descrição opcional
 4. Salve

@@ -1,12 +1,12 @@
 # Acuerdo legal del curso
 
-El plugin Acuerdo legal del curso <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Acuerdo legal del curso" data-size="line"> exige que los estudiantes acepten un aviso de términos/legal antes de poder acceder a su curso: resulta útil para formularios de consentimiento, políticas de uso o cualquier aviso que necesite que los alumnos acepten formalmente.
+El plugin Acuerdo legal del curso <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Acuerdo legal del curso" data-size="line"> exige que los estudiantes acepten un aviso de términos/legal antes de poder acceder a su curso: resulta útil para formularios de consentimiento, políticas de uso o cualquier aviso que necesite que los alumnos acepten formalmente.
 
 ## Activarlo en su curso
 
 Habilitar el plugin en toda la plataforma no tiene efecto por sí solo: aún debe activarlo en cada curso en el que lo desee:
 
-1. Abra la **Configuración** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> de su curso
+1. Abra la **Configuración** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> de su curso
 2. En la sección de acceso al curso, marque **Habilitar términos legales**
 
 Esto añade una herramienta **Acuerdo legal del curso** a su curso.

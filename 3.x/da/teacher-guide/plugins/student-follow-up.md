@@ -1,6 +1,6 @@
 # Elevopfølgning
 
-Elevopfølgning <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Elevopfølgning" data-size="line"> lader dig føre tidsstemplede, taggede noter om en lærendes fremgang og vanskeligheder — et letvægts sagsnotesystem til at følge, hvordan en elev klarer sig over tid.
+Elevopfølgning <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Elevopfølgning" data-size="line"> lader dig føre tidsstemplede, taggede noter om en lærendes fremgang og vanskeligheder — et letvægts sagsnotesystem til at følge, hvordan en elev klarer sig over tid.
 
 ## Adgang til værktøjet
 

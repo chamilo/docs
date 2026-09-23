@@ -9,7 +9,7 @@
 1. Οι βοηθοί Τεχνητής Νοημοσύνης είναι ενεργοποιημένοι σε επίπεδο πλατφόρμας
 2. Έχει ρυθμιστεί τουλάχιστον ένας πάροχος κειμένου Τεχνητής Νοημοσύνης
 
-Ανοίξτε το εργαλείο **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> από την αρχική σελίδα του μαθήματος και αναζητήστε το κουμπί **Generate with AI** στη γραμμή εργαλείων.
+Ανοίξτε το εργαλείο **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> από την αρχική σελίδα του μαθήματος και αναζητήστε το κουμπί **Generate with AI** στη γραμμή εργαλείων.
 
 ## Πώς να Γεννήσετε Όρους
 

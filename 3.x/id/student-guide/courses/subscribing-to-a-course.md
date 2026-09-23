@@ -21,7 +21,7 @@ Jika visibilitas suatu kursus mengizinkannya, Anda dapat berlangganan sendiri ta
 2. Telusuri atau cari kursus yang ingin Anda ikuti.
 3. Klik kursus untuk membuka detailnya, lalu klik tombol untuk bergabung.
 
-![Katalog kursus, dengan tombol Berlangganan pada setiap kartu kursus](/.gitbook/assets/student-course-catalogue.png)
+![Katalog kursus, dengan tombol Berlangganan pada setiap kartu kursus](../../.gitbook/assets/student-course-catalogue.png)
 
 Kursus yang sudah Anda ikuti menampilkan **Buka kursus** alih-alih tombol berlangganan.
 

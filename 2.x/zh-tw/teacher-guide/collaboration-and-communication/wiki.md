@@ -26,7 +26,7 @@
 具備編輯權限的任何人皆可修改維基頁面：
 
 1. 開啟欲編輯的頁面
-2. 點擊**編輯** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
+2. 點擊**編輯** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
 3. 在編輯器中進行變更
 4. 選擇性新增描述變更內容的**評論**
 5. 儲存

@@ -4,7 +4,7 @@
 
 ## Tentin aloittaminen
 
-Avaa **Tentit**-työkalu <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tentit" data-size="line"> kurssin etusivulta ja napsauta tenttiä aloittaaksesi sen. Tentti ei välttämättä ole vielä saatavilla tai se ei ole enää saatavilla, jos opettajasi on asettanut sille alku- tai päättymispäivän.
+Avaa **Tentit**-työkalu <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tentit" data-size="line"> kurssin etusivulta ja napsauta tenttiä aloittaaksesi sen. Tentti ei välttämättä ole vielä saatavilla tai se ei ole enää saatavilla, jos opettajasi on asettanut sille alku- tai päättymispäivän.
 
 ## Kysymyksiin vastaaminen
 

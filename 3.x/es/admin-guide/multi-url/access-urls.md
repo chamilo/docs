@@ -53,7 +53,7 @@ Cada URL de acceso puede tener los suyos:
 
 Las URLs de acceso pueden organizarse en un árbol padre/hijo en lugar de una lista plana. Al crear o editar una URL, un administrador global sin restricciones (véase [Administradores de subárbol](#subtree-administrators) más abajo) puede elegir cualquier otra URL como **URL padre**:
 
-![Diálogo de edición de URL con el desplegable URL padre abierto, que enumera las demás URLs de acceso disponibles como padre](/.gitbook/assets/admin-access-url-parent-select.png)
+![Diálogo de edición de URL con el desplegable URL padre abierto, que enumera las demás URLs de acceso disponibles como padre](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * El desplegable nunca ofrece la URL que se está editando, ni ninguno de sus propios descendientes, como posible padre — esto evita crear un ciclo. El backend vuelve a validarlo con independencia de lo que muestre la interfaz.
 * Si se crea una URL sin elegir un padre, se asigna por defecto a la **URL solo de inicio de sesión** si existe (véase [Ajustes por URL](#per-url-settings) más arriba), o en caso contrario a la primera URL de acceso — el mismo comportamiento por defecto que existía antes de esta funcionalidad.
@@ -61,7 +61,7 @@ Las URLs de acceso pueden organizarse en un árbol padre/hijo en lugar de una li
 
 Donde se listan las URLs de acceso — el panel de múltiples URL y la página de gestión de URLs de acceso — el árbol se muestra mediante sangría, un padre seguido inmediatamente de sus propios hijos (hermanos ordenados alfabéticamente), en lugar de una columna «Padre» independiente:
 
-![Lista de URLs de acceso que muestra una URL raíz con dos URLs hijas, una de las cuales tiene su propia URL hija, sangradas para reflejar la jerarquía](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Lista de URLs de acceso que muestra una URL raíz con dos URLs hijas, una de las cuales tiene su propia URL hija, sangradas para reflejar la jerarquía](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administradores de subárbol
 

@@ -19,7 +19,7 @@ Chamilo berechnet die Gesamtnote jedes Lernenden auf Grundlage dieser Gewichte.
 
 ## Einrichten der Bewertung
 
-1. Öffnen Sie das Werkzeug **Bewertungen** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> auf der Kursstartseite
+1. Öffnen Sie das Werkzeug **Bewertungen** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> auf der Kursstartseite
 2. Sie sehen die Bewertungsübersicht, die zunächst leer ist
 
 ### Aktivitäten hinzufügen
@@ -48,7 +48,7 @@ Für komplexe Bewertungsschemata können Sie **Unterkategorien** anlegen, um zus
 
 ## Noten anzeigen
 
-![Die Übersichtstabelle des Notenbuchs mit Namen der Lernenden, Aktivitätspunktzahlen und gewichteten Gesamtwerten](/.gitbook/assets/gradebook-overview.png)
+![Die Übersichtstabelle des Notenbuchs mit Namen der Lernenden, Aktivitätspunktzahlen und gewichteten Gesamtwerten](../../.gitbook/assets/gradebook-overview.png)
 
 Die Bewertung zeigt eine Tabelle mit:
 
@@ -77,7 +77,7 @@ So aktivieren Sie die Zertifikatsvergabe:
 
 Sobald **Zertifikate erzeugen** in der Stammkategorie aktiviert ist, erscheint das Feld **Gültigkeit des Zertifikats (Tage)**. Lassen Sie es auf `0` für Zertifikate, die nie ablaufen, oder setzen Sie eine Anzahl von Tagen, nach denen das Zertifikat abläuft — Chamilo kann Lernende dann an das nahende Ablaufdatum erinnern, entweder automatisch (Cron, vom Administrator konfiguriert) oder manuell aus der Zertifikatsliste.
 
-![Der Dialog zum Bearbeiten der Kategorie mit aktivierter Option Zertifikate erzeugen und dem Feld Gültigkeit des Zertifikats (Tage) auf 365 gesetzt](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Der Dialog zum Bearbeiten der Kategorie mit aktivierter Option Zertifikate erzeugen und dem Feld Gültigkeit des Zertifikats (Tage) auf 365 gesetzt](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Weitere Einzelheiten finden Sie unter [Zertifikate und Kompetenzen](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry).
 
@@ -87,7 +87,7 @@ Sie können der Bewertung **Kompetenzen** (*skills*) zuordnen. Wenn ein Lernende
 
 ## Noten exportieren
 
-Klicken Sie auf die Schaltfläche **Exportieren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Noten als Tabellenkalkulation herunterzuladen. Dies ist nützlich für:
+Klicken Sie auf die Schaltfläche **Exportieren** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Noten als Tabellenkalkulation herunterzuladen. Dies ist nützlich für:
 
 * den Austausch von Noten mit Verwaltungssystemen
 * zusätzliche Analysen außerhalb von Chamilo

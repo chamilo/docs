@@ -19,7 +19,7 @@ Chamilo crée 3 catégories par défaut : *Language skills*, *PC Skills* et *Pro
 
 ## Hiérarchie des catégories
 
-![La page de gestion des catégories de cours affichant une arborescence imbriquée de catégories](/.gitbook/assets/admin-course-categories.png)
+![La page de gestion des catégories de cours affichant une arborescence imbriquée de catégories](../../.gitbook/assets/admin-course-categories.png)
 
 Les catégories peuvent être imbriquées pour créer une structure arborescente :
 

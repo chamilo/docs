@@ -53,7 +53,7 @@ Hver tilgangs-URL kan ha sine egne:
 
 Tilgangs-URL-er kan organiseres i et overordnet/underordnet tre i stedet for en flat liste. Når du oppretter eller redigerer en URL, kan en urestrikt Global Administrator (se [Administratorer for undertrær](#subtree-administrators) nedenfor) velge en hvilken som helst annen URL som **Overordnet URL**:
 
-![Rediger URL-dialog med nedtrekkslisten Overordnet URL åpen, som viser de andre tilgangs-URL-ene som er tilgjengelige som overordnet](/.gitbook/assets/admin-access-url-parent-select.png)
+![Rediger URL-dialog med nedtrekkslisten Overordnet URL åpen, som viser de andre tilgangs-URL-ene som er tilgjengelige som overordnet](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Nedtrekkslisten tilbyr aldri URL-en som redigeres, eller noen av dens egne etterkommere, som mulig overordnet — dette forhindrer at det opprettes en syklus. Backend validerer dette på nytt uavhengig av hva grensesnittet viser.
 * Hvis en URL opprettes uten at det velges en overordnet, settes den som standard til **kun-innlogging-URL-en** hvis en slik finnes (se [Innstillinger per URL](#per-url-settings) ovenfor), eller ellers til den første tilgangs-URL-en — samme standardatferd som før denne funksjonen fantes.
@@ -61,7 +61,7 @@ Tilgangs-URL-er kan organiseres i et overordnet/underordnet tre i stedet for en 
 
 Der tilgangs-URL-er vises — dashbordet for flere URL-er og administrasjonssiden for tilgangs-URL-er — vises treet gjennom innrykk, en overordnet umiddelbart etterfulgt av sine egne underordnede (søsken sortert alfabetisk), i stedet for en egen «Overordnet»-kolonne:
 
-![Liste over tilgangs-URL-er som viser en rot-URL med to underordnede URL-er, hvorav én har sin egen underordnede URL, innrykket for å gjenspeile hierarkiet](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste over tilgangs-URL-er som viser en rot-URL med to underordnede URL-er, hvorav én har sin egen underordnede URL, innrykket for å gjenspeile hierarkiet](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administratorer for undertrær
 

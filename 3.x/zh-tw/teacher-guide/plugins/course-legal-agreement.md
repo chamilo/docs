@@ -1,12 +1,12 @@
 # 課程法律協議
 
-課程法律協議 <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="課程法律協議" data-size="line"> 外掛要求學生在存取您的課程前先接受條款／法律聲明——適用於同意書、使用政策，或任何您需要學習者正式同意的通知。
+課程法律協議 <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="課程法律協議" data-size="line"> 外掛要求學生在存取您的課程前先接受條款／法律聲明——適用於同意書、使用政策，或任何您需要學習者正式同意的通知。
 
 ## 為您的課程開啟此功能
 
 即使已在平台層級啟用此外掛，本身也不會產生作用——您仍需在每個想使用的課程中另行開啟：
 
-1. 開啟課程的 **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line">
+1. 開啟課程的 **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line">
 2. 在課程存取區段中，勾選 **啟用法律條款**
 
 這會在您的課程中新增 **課程法律協議** 工具。

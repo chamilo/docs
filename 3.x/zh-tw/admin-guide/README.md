@@ -46,4 +46,4 @@
 
 ## 存取管理面板
 
-以管理員身分登入後，請在側邊欄點選 **管理** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 以進入管理面板。
+以管理員身分登入後，請在側邊欄點選 **管理** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 以進入管理面板。

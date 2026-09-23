@@ -30,13 +30,13 @@ Chamilo 可讓您向達到特定成就條件的學習者頒發證書，並驗證
 
 若該類別未設定有效期，您仍可手動設定（或變更）個別學習者的到期日：點選其項目旁的鉛筆**編輯到期日**按鈕並選擇日期。此按鈕僅在類別本身沒有有效期時可用——一旦設定有效期，到期日即由系統自動管理，無法再逐份編輯。
 
-![顯示三位學習者到期日欄的證書清單](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![顯示三位學習者到期日欄的證書清單](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### 提醒學習者即將到期或已過期
 
-開啟評量的**證書**清單，並點選**即將到期的證書** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="即將到期的證書" data-size="line"> 按鈕，以查看哪些學習者的證書已過期或即將到期。頁面會依學習者顯示：證書的**到期日**、其**狀態**（**已過期**或**即將到期**），以及相關提醒的**上次傳送提醒**時間（或**從未**）。使用**提前天數**可擴大或縮小「即將到期」所涵蓋的未來範圍。
+開啟評量的**證書**清單，並點選**即將到期的證書** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="即將到期的證書" data-size="line"> 按鈕，以查看哪些學習者的證書已過期或即將到期。頁面會依學習者顯示：證書的**到期日**、其**狀態**（**已過期**或**即將到期**），以及相關提醒的**上次傳送提醒**時間（或**從未**）。使用**提前天數**可擴大或縮小「即將到期」所涵蓋的未來範圍。
 
-![列出一份已過期與一份即將到期證書的即將到期證書頁面](/.gitbook/assets/gradebook-certificate-expirations.png)
+![列出一份已過期與一份即將到期證書的即將到期證書頁面](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 若要自行通知學習者：
 
@@ -45,7 +45,7 @@ Chamilo 可讓您向達到特定成就條件的學習者頒發證書，並驗證
 3. 檢視即將傳送的電子郵件預覽——會依所選學習者分別屬於「即將到期」或「已過期」情況，顯示對應文案的獨立預覽
 4. 在對話方塊中再次點選**傳送通知**以確認
 
-![預覽即將到期與已過期電子郵件文案的傳送通知確認對話方塊](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![預覽即將到期與已過期電子郵件文案的傳送通知確認對話方塊](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 每位學習者會以其自身設定的語言收到通知，同時透過電子郵件與 Chamilo 站內訊息。針對同一份證書與同一到期日再次傳送是安全的——Chamilo 會追蹤每份證書已傳送的內容，除非您明確重新傳送，否則不會以重複提醒騷擾學習者。
 

@@ -4,7 +4,7 @@ Als Administrator können Sie alle Kurse auf der Plattform verwalten, unabhängi
 
 ## Kursliste
 
-![Die Kursliste mit allen Kursen, Titel, Code, Kategorie, eingeschriebenen Nutzern und Sichtbarkeitsstatus](/.gitbook/assets/admin-course-list.png)
+![Die Kursliste mit allen Kursen, Titel, Code, Kategorie, eingeschriebenen Nutzern und Sichtbarkeitsstatus](../../.gitbook/assets/admin-course-list.png)
 
 Klicken Sie im Administrationsbereich auf **Kursliste**, um alle Kurse anzuzeigen. Die Liste zeigt:
 

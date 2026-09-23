@@ -1,6 +1,6 @@
 # Tilpasset sertifikat
 
-Programtillegget Tilpasset sertifikat <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Tilpasset sertifikat" data-size="line"> lar deg erstatte det vanlige [karakterboksertifikatet](../assessing-learners/gradebook.md) med ditt eget design — logoer, et segl, opptil fire signaturbilder med bildetekster, et bakgrunnsbilde, marger og innhold bygget av plassholdermerker.
+Programtillegget Tilpasset sertifikat <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Tilpasset sertifikat" data-size="line"> lar deg erstatte det vanlige [karakterboksertifikatet](../assessing-learners/gradebook.md) med ditt eget design — logoer, et segl, opptil fire signaturbilder med bildetekster, et bakgrunnsbilde, marger og innhold bygget av plassholdermerker.
 
 ## Slå det på for kurset ditt
 

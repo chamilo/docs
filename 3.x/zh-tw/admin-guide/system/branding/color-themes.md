@@ -8,7 +8,7 @@ Chamilo 2.0 導入了色彩主題系統，讓您自訂平台的視覺外觀。
 
 ## 套用主題
 
-![色彩主題頁面，顯示可用主題、預覽色塊與「套用」按鈕](/.gitbook/assets/admin-color-themes.png)
+![色彩主題頁面，顯示可用主題、預覽色塊與「套用」按鈕](../../../.gitbook/assets/admin-color-themes.png)
 
 1. 從管理面板前往 **色彩主題**
 2. 瀏覽可用主題

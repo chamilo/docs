@@ -1,6 +1,6 @@
 # Exportação de Pesquisa CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportação de Pesquisa CSV" data-size="line"> adiciona a exportação com um clique dos resultados de uma pesquisa para um arquivo CSV compacto, com uma linha por respondente e uma coluna por pergunta.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportação de Pesquisa CSV" data-size="line"> adiciona a exportação com um clique dos resultados de uma pesquisa para um arquivo CSV compacto, com uma linha por respondente e uma coluna por pergunta.
 
 ## Exportando uma Pesquisa
 

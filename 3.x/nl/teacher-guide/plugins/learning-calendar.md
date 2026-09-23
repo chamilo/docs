@@ -1,6 +1,6 @@
 # Leeragenda
 
-Leeragenda <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Leeragenda" data-size="line"> helpt bij het plannen van blended of duale opleidingen die klassikale tijd combineren met praktijk op locatie. U bouwt een agenda waarin elke dag als **Bezet**, **Examen** of **Vrij** wordt gemarkeerd, wijst cursisten eraan toe, en hun persoonlijke agenda toont vervolgens die geplande dagen.
+Leeragenda <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Leeragenda" data-size="line"> helpt bij het plannen van blended of duale opleidingen die klassikale tijd combineren met praktijk op locatie. U bouwt een agenda waarin elke dag als **Bezet**, **Examen** of **Vrij** wordt gemarkeerd, wijst cursisten eraan toe, en hun persoonlijke agenda toont vervolgens die geplande dagen.
 
 ## De tool openen
 

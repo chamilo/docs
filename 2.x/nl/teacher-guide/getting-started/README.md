@@ -14,7 +14,7 @@ Als uw instelling gebruikmaakt van externe authenticatie (zoals Azure, Keycloak 
 
 Na het inloggen ziet u de startpagina van Chamilo. De interface is onderverdeeld in drie hoofdgebieden:
 
-![De startpagina van Chamilo met systeemmeldingen en cursuskaarten](/.gitbook/assets/home-page-teacher.png)
+![De startpagina van Chamilo met systeemmeldingen en cursuskaarten](../../.gitbook/assets/home-page-teacher.png)
 
 * **Bovenbalk** — Toont het platformlogo, uw berichteninbox (met een badge die ongelezen berichten aangeeft) en uw gebruikersavatar. Klik op uw avatar om toegang te krijgen tot uw profiel en accountinstellingen.
 * **Zijbalk** — Het navigatiepaneel aan de linkerkant geeft u snelle toegang tot uw cursussen, sessies, agenda, sociaal netwerk en meer. U kunt het inklappen door op de schakelaar aan de rand te klikken.
@@ -24,7 +24,7 @@ Na het inloggen ziet u de startpagina van Chamilo. De interface is onderverdeeld
 
 Klik in de zijbalk op **Mijn cursussen** om alle cursussen te zien waarin u bent ingeschreven als docent of student. Elke cursus wordt weergegeven als een kaart met:
 
-![De pagina Mijn cursussen met cursuskaarten, miniaturen en snelle toegang acties](/.gitbook/assets/my-courses-list.png)
+![De pagina Mijn cursussen met cursuskaarten, miniaturen en snelle toegang acties](../../.gitbook/assets/my-courses-list.png)
 
 * De cursusafbeelding of miniatuur
 * De cursustitel

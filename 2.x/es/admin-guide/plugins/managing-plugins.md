@@ -2,7 +2,7 @@
 
 ## Acceso al Gestor de Complementos
 
-![El gestor de complementos mostrando una lista de complementos disponibles con interruptores de activación y opciones de configuración](/.gitbook/assets/admin-plugin-manager.png)
+![El gestor de complementos mostrando una lista de complementos disponibles con interruptores de activación y opciones de configuración](../../.gitbook/assets/admin-plugin-manager.png)
 
 Desde el panel de administración, haz clic en **Gestionar complementos** para ver la lista de complementos disponibles.
 

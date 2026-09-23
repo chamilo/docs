@@ -4,22 +4,22 @@
 
 ## Πρόσβαση στη Γεννήτρια
 
-Το κουμπί **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> είναι διαθέσιμο δίπλα στο πεδίο **Course picture**, εφόσον:
+Το κουμπί **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> είναι διαθέσιμο δίπλα στο πεδίο **Course picture**, εφόσον:
 
 1. Οι βοηθοί ΤΝ είναι ενεργοποιημένοι σε επίπεδο πλατφόρμας
 2. Τουλάχιστον ένας πάροχος ΤΝ που έχει ρυθμιστεί στην πλατφόρμα σας υποστηρίζει δημιουργία εικόνων
 3. Η λειτουργία επιτρέπεται στο μάθημά σας (βλ. **AI Helpers Settings** στις [Ρυθμίσεις Μαθήματος](../creating-your-course/course-settings.md))
 
-Ανοίξτε τις **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> του μαθήματός σας και μετακινηθείτε στο πεδίο **Course picture**:
+Ανοίξτε τις **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> του μαθήματός σας και μετακινηθείτε στο πεδίο **Course picture**:
 
-![Το πεδίο Course picture στις Ρυθμίσεις Μαθήματος, με κουμπί Choose File και κουμπί Generate with AI από κάτω](/.gitbook/assets/course-picture-ai-button.png)
+![Το πεδίο Course picture στις Ρυθμίσεις Μαθήματος, με κουμπί Choose File και κουμπί Generate with AI από κάτω](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Πώς να Δημιουργήσετε μια Εικόνα
 
 1. Κάντε κλικ στο **Generate with AI**
 2. Ανοίγει ένα παράθυρο διαλόγου με ένα πεδίο **Prompt** προγεμισμένο με μια προεπιλεγμένη περιγραφή· επεξεργαστείτε το για να περιγράψετε την εικονογράφηση που θέλετε, ή αφήστε την προεπιλογή ως έχει
 
-![Το παράθυρο διαλόγου Generate with AI που εμφανίζει το πεδίο Prompt με το προεπιλεγμένο κείμενό του, και τα κουμπιά Cancel/Generate](/.gitbook/assets/course-picture-ai-modal.png)
+![Το παράθυρο διαλόγου Generate with AI που εμφανίζει το πεδίο Prompt με το προεπιλεγμένο κείμενό του, και τα κουμπιά Cancel/Generate](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Κάντε κλικ στο **Generate** και περιμένετε — η δημιουργία εικόνας μπορεί να διαρκέσει μερικά δευτερόλεπτα
 4. Η παραγόμενη εικόνα τοποθετείται αυτόματα στο πεδίο **Course picture**, αντικαθιστώντας οτιδήποτε είχατε επιλέξει εκεί

@@ -16,14 +16,14 @@ As trilhas de aprendizagem são úteis quando você deseja:
 
 ## Criando uma trilha de aprendizagem
 
-1. Abra a ferramenta **Trilhas de aprendizagem** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Trilhas de aprendizagem" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Trilhas de aprendizagem** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Trilhas de aprendizagem" data-size="line"> na página inicial do curso
 2. Clique em **Criar uma trilha de aprendizagem**
 3. Informe um **título** e uma descrição opcional
 4. Salve — você será levado ao editor da trilha de aprendizagem
 
 ## O editor da trilha de aprendizagem
 
-![O editor da trilha de aprendizagem com a árvore de itens à esquerda e a pré-visualização do conteúdo à direita](/.gitbook/assets/learning-path-editor.png)
+![O editor da trilha de aprendizagem com a árvore de itens à esquerda e a pré-visualização do conteúdo à direita](../../.gitbook/assets/learning-path-editor.png)
 
 O editor tem duas áreas principais:
 
@@ -94,17 +94,17 @@ O C-Studio adiciona um editor visual integrado, do tipo arrastar e soltar, para 
 
 Quando o plugin está ativo, a lista de Percursos de Aprendizagem exibe um botão extra ao lado do menu de ações usual, marcado com um "+" e com a dica de ferramenta "Studio Tools":
 
-![A lista de percursos de aprendizagem mostrando o botão "Studio Tools" do C-Studio ao lado do menu de ações padrão](/.gitbook/assets/cstudio-lp-button.png)
+![A lista de percursos de aprendizagem mostrando o botão "Studio Tools" do C-Studio ao lado do menu de ações padrão](../../.gitbook/assets/cstudio-lp-button.png)
 
 Clique nele para começar. Será solicitado que você crie um novo projeto do zero ou importe um existente:
 
-![A tela inicial do C-Studio oferecendo criar um novo projeto ou importar um existente](/.gitbook/assets/cstudio-start-screen.png)
+![A tela inicial do C-Studio oferecendo criar um novo projeto ou importar um existente](../../.gitbook/assets/cstudio-start-screen.png)
 
 Esta tela em particular está disponível atualmente apenas em francês, independentemente do idioma da sua plataforma ou do curso — uma limitação conhecida da versão do plugin em uso. Dê um título ao seu projeto e ele abre diretamente no editor.
 
 ### O Editor
 
-![O editor visual do C-Studio, mostrando a tela da página, a paleta de ferramentas à direita e o painel do projeto à esquerda](/.gitbook/assets/cstudio-editor.png)
+![O editor visual do C-Studio, mostrando a tela da página, a paleta de ferramentas à direita e o painel do projeto à esquerda](../../.gitbook/assets/cstudio-editor.png)
 
 O editor é um construtor visual página a página:
 
@@ -118,7 +118,7 @@ A paleta cobre blocos de construção básicos (colunas, imagens, áudio, títul
 
 A própria interface do C-Studio pode iniciar em francês na primeira vez que você a abrir, independentemente do idioma da interface do Chamilo ou do idioma do curso. Se isso ocorrer, vá em **File > UI language** e escolha o seu idioma — o editor recarrega imediatamente e lembra da sua escolha depois.
 
-![O menu File aberto, mostrando a opção "UI language"](/.gitbook/assets/cstudio-file-menu.png)
+![O menu File aberto, mostrando a opção "UI language"](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Salvando e Exportando
 

@@ -4,7 +4,7 @@ Das Tool **Tests** (Übungen) ist der Ort, an dem Sie die Quizze und Prüfungen 
 
 ## Einen Test starten
 
-Öffnen Sie das Tool **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> von der Kursstartseite und klicken Sie auf einen Test, um ihn zu starten. Ein Test ist möglicherweise noch nicht verfügbar oder nicht mehr verfügbar, wenn Ihre Lehrkraft ein Start- oder Enddatum festgelegt hat.
+Öffnen Sie das Tool **Tests** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> von der Kursstartseite und klicken Sie auf einen Test, um ihn zu starten. Ein Test ist möglicherweise noch nicht verfügbar oder nicht mehr verfügbar, wenn Ihre Lehrkraft ein Start- oder Enddatum festgelegt hat.
 
 ## Fragen beantworten
 

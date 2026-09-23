@@ -1,6 +1,6 @@
 # 定位
 
-定位 <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="定位" data-size="line"> 增加一套前测/后测自我评估流程：将一份测验选为**初始测验**，将另一份选为**最终测验**（通常是同一份测验的副本），Chamilo 会在雷达图上展示每位学习者两次测验之间的成绩变化。
+定位 <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="定位" data-size="line"> 增加一套前测/后测自我评估流程：将一份测验选为**初始测验**，将另一份选为**最终测验**（通常是同一份测验的副本），Chamilo 会在雷达图上展示每位学习者两次测验之间的成绩变化。
 
 ## 访问该工具
 

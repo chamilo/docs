@@ -4,9 +4,9 @@ Un **percorso di apprendimento** (*learning path*) ti guida attraverso una seque
 
 ## Aprire un percorso di apprendimento
 
-Apri lo strumento **Percorsi di apprendimento** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi di apprendimento" data-size="line"> dalla homepage del corso e fai clic su uno per iniziare. Se il docente ha abilitato l’**avvio automatico**, il percorso di apprendimento potrebbe aprirsi automaticamente non appena entri nel corso.
+Apri lo strumento **Percorsi di apprendimento** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi di apprendimento" data-size="line"> dalla homepage del corso e fai clic su uno per iniziare. Se il docente ha abilitato l’**avvio automatico**, il percorso di apprendimento potrebbe aprirsi automaticamente non appena entri nel corso.
 
-![L’elenco dei percorsi di apprendimento di un corso, ciascuno con il proprio avanzamento](/.gitbook/assets/student-learning-paths-list.png)
+![L’elenco dei percorsi di apprendimento di un corso, ciascuno con il proprio avanzamento](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Spostarsi nel percorso
 

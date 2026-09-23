@@ -17,11 +17,11 @@ Beberapa platform juga mengaktifkan AI Tutor **di luar kursus mana pun** — jik
 
 Cari tombol obrolan (ikon gelembung percakapan mengambang) di bagian bawah layar. Membukanya menampilkan kontak Anda plus, jika diaktifkan, entri **AI Tutor** khusus dengan ikon robot dan titik "online" — klik untuk memulai atau melanjutkan percakapan Anda dengan AI.
 
-![Daftar kontak panel obrolan, dengan entri AI Tutor di atas kontak biasa Anda](/.gitbook/assets/student-docked-chat-contacts.png)
+![Daftar kontak panel obrolan, dengan entri AI Tutor di atas kontak biasa Anda](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Ketik pertanyaan Anda dan tekan **Enter** untuk mengirimkannya (**Shift+Enter** menyisipkan jeda baris alih-alih mengirim). AI Tutor memformat jawabannya dengan heading, daftar, teks tebal, dan blok kode jika berguna, sehingga penjelasan yang lebih panjang tetap mudah dibaca.
 
-![Percakapan terbuka dengan AI Tutor, dengan penyusun pesan di bagian bawah](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Percakapan terbuka dengan AI Tutor, dengan penyusun pesan di bagian bawah](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Bertanya Tentang Sesuatu yang Sedang Anda Baca
 

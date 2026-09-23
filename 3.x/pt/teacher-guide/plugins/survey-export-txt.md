@@ -1,6 +1,6 @@
 # Exportação de Inquérito TXT
 
-A Exportação de Inquérito TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Exportação de Inquérito TXT" data-size="line"> exporta os resultados de um inquérito para um ficheiro de texto simples legível — um bloco por respondente, listando cada pergunta, a(s) resposta(s) escolhida(s) e qualquer resposta em texto livre, em vez das linhas e colunas de um CSV.
+A Exportação de Inquérito TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Exportação de Inquérito TXT" data-size="line"> exporta os resultados de um inquérito para um ficheiro de texto simples legível — um bloco por respondente, listando cada pergunta, a(s) resposta(s) escolhida(s) e qualquer resposta em texto livre, em vez das linhas e colunas de um CSV.
 
 ## Exportar um Inquérito
 

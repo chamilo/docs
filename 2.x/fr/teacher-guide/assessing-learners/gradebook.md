@@ -19,7 +19,7 @@ Chamilo calcule la note globale de chaque apprenant en fonction de ces poids.
 
 ## Configuration des Évaluations
 
-1. Ouvrez l'outil **Évaluations** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Carnet de notes" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Évaluations** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Carnet de notes" data-size="line"> depuis la page d'accueil du cours
 2. Vous verrez un aperçu des évaluations, initialement vide
 
 ### Ajout d'Activités
@@ -48,7 +48,7 @@ Pour des schémas de notation complexes, vous pouvez créer des **sous-catégori
 
 ## Consultation des Notes
 
-![Tableau d'aperçu du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](/.gitbook/assets/gradebook-overview.png)
+![Tableau d'aperçu du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](../../.gitbook/assets/gradebook-overview.png)
 
 L'évaluation affiche un tableau avec :
 
@@ -75,7 +75,7 @@ Vous pouvez associer des **compétences** à l'évaluation. Lorsqu'un apprenant 
 
 ## Exportation des Notes
 
-Cliquez sur le bouton **Exporter** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de feuille de calcul. Cela est utile pour :
+Cliquez sur le bouton **Exporter** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de feuille de calcul. Cela est utile pour :
 
 * Partager les notes avec des systèmes administratifs
 * Effectuer des analyses supplémentaires en dehors de Chamilo

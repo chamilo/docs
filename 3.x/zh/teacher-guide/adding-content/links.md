@@ -4,8 +4,8 @@
 
 ## 添加链接
 
-1. 从课程主页打开 **链接** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="链接" data-size="line"> 工具
-2. 点击 **添加链接** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="添加链接" data-size="line">
+1. 从课程主页打开 **链接** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="链接" data-size="line"> 工具
+2. 点击 **添加链接** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="添加链接" data-size="line">
 3. 填写详细信息：
    * **URL** — 网址（例如 `https://example.com/resource`）
    * **链接名称** — 该链接的描述性名称
@@ -27,10 +27,10 @@
 
 ## 管理链接
 
-* **链接检查** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="有效性" data-size="line">  — Chamilo 可验证链接是否仍然有效或已失效
-* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新链接的 URL、标题或描述
-* **可见性** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 对学习者隐藏或显示该链接
-* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 移除该链接
+* **链接检查** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="有效性" data-size="line">  — Chamilo 可验证链接是否仍然有效或已失效
+* **编辑** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新链接的 URL、标题或描述
+* **可见性** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 对学习者隐藏或显示该链接
+* **删除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 移除该链接
 
 ## 导出链接
 

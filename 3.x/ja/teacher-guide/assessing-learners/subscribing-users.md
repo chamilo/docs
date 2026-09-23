@@ -19,12 +19,12 @@
 
 ## ユーザーツールからの手動登録
 
-すでにプラットフォームアカウントを持っているが、自ら参加していない人を登録するには、コースの **ユーザー** ツールを開き、**ユーザーを追加** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="ユーザーを追加" data-size="line"> アイコンをクリックします。
+すでにプラットフォームアカウントを持っているが、自ら参加していない人を登録するには、コースの **ユーザー** ツールを開き、**ユーザーを追加** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="ユーザーを追加" data-size="line"> アイコンをクリックします。
 
 1. 氏名、ユーザー名、メールアドレス、または公式コードで対象者を検索します
 2. その行の **登録** をクリックするか、チェックボックスで複数選択し、**操作** メニューですべてを一度に登録します
 
-![コースにユーザーを登録する画面の検索結果。一致する学習者と登録ボタンが表示されている](/.gitbook/assets/course-users-subscribe-search.png)
+![コースにユーザーを登録する画面の検索結果。一致する学習者と登録ボタンが表示されている](../../.gitbook/assets/course-users-subscribe-search.png)
 
 検索結果には、まだコースに登録されていないユーザーのみが表示されます。
 
@@ -36,9 +36,9 @@
 
 ### ツールへのアクセス
 
-コースの **ユーザー** ツールを開き、ツールバーの **ユーザーを追加** の隣にある **メールで招待** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="メールで招待" data-size="line"> アイコンをクリックします。
+コースの **ユーザー** ツールを開き、ツールバーの **ユーザーを追加** の隣にある **メールで招待** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="メールで招待" data-size="line"> アイコンをクリックします。
 
-![ユーザーツールのツールバー。ユーザーを追加アイコンとメールで招待アイコンが表示されている](/.gitbook/assets/course-users-invite-icon.png)
+![ユーザーツールのツールバー。ユーザーを追加アイコンとメールで招待アイコンが表示されている](../../.gitbook/assets/course-users-invite-icon.png)
 
 **コース招待** ページが開きます。
 
@@ -53,7 +53,7 @@
 1. **メールで招待** フォームに受信者のメールアドレスを入力します
 2. **招待を送信** をクリックします
 
-![コース招待ページ：メール招待フォームと、送信済み招待とそのステータスの表](/.gitbook/assets/course-invitations-list.png)
+![コース招待ページ：メール招待フォームと、送信済み招待とそのステータスの表](../../.gitbook/assets/course-invitations-list.png)
 
 このコースについて送信したすべての招待は、フォームの下にステータス付きで表示されます。
 
@@ -65,8 +65,8 @@
 
 まだ保留中の招待では、**操作** 列で次の操作ができます。
 
-* **コピー** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="コピー" data-size="line"> — 招待リンクをコピーします。メールに頼らず、自分で（チャットや対面で）共有したい場合に使います。
-* **取り消し** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="取り消し" data-size="line"> — 招待を直ちにキャンセルし、リンクは無効になります。すでに承諾された招待は取り消せません。
+* **コピー** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="コピー" data-size="line"> — 招待リンクをコピーします。メールに頼らず、自分で（チャットや対面で）共有したい場合に使います。
+* **取り消し** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="取り消し" data-size="line"> — 招待を直ちにキャンセルし、リンクは無効になります。すでに承諾された招待は取り消せません。
 
 > **招待するメールアドレスは、このプラットフォームにまだアカウントを持っていない必要があります。** すでにアカウントがある場合、招待の送信は失敗し、既存ユーザーを直接登録するよう求めるメッセージが表示されます — 上記の [ユーザーツールによる手動登録](#manual-enrollment-via-the-users-tool) から行ってください。
 

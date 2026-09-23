@@ -4,8 +4,8 @@ Værktøjet Links lader dig dele nyttige URL'er med dine kursister, organiseret 
 
 ## Tilføjelse af et link
 
-1. Åbn værktøjet **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> fra kursets startside
-2. Klik på **Tilføj et link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Tilføj link" data-size="line">
+1. Åbn værktøjet **Links** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> fra kursets startside
+2. Klik på **Tilføj et link** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Tilføj link" data-size="line">
 3. Udfyld oplysningerne:
    * **URL** — Webadressen (f.eks. `https://example.com/resource`)
    * **Linknavn** — Et beskrivende navn til linket
@@ -27,10 +27,10 @@ Links inden for en kategori vises samlet, så det er nemt for kursisterne at fin
 
 ## Administration af links
 
-* **Linkkontrol** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Gyldighed" data-size="line">  — Chamilo kan kontrollere, om links stadig er aktive eller ødelagte
-* **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Opdater linkets URL, titel eller beskrivelse
-* **Synlighed** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> — Skjul eller vis linket for kursisterne
-* **Slet** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern linket
+* **Linkkontrol** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Gyldighed" data-size="line">  — Chamilo kan kontrollere, om links stadig er aktive eller ødelagte
+* **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Opdater linkets URL, titel eller beskrivelse
+* **Synlighed** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> — Skjul eller vis linket for kursisterne
+* **Slet** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern linket
 
 ## Eksport af links
 

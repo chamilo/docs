@@ -19,7 +19,7 @@
 
 ## Ρύθμιση της Αξιολόγησης
 
-1. Ανοίξτε το εργαλείο **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> από την αρχική σελίδα του μαθήματος
+1. Ανοίξτε το εργαλείο **Assessments** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> από την αρχική σελίδα του μαθήματος
 2. Θα δείτε μια επισκόπηση των αξιολογήσεων, αρχικά κενή
 
 ### Πρόσθεση Δραστηριοτήτων
@@ -48,7 +48,7 @@
 
 ## Προβολή Βαθμών
 
-![Ο πίνακας επισκόπησης του gradebook που δείχνει ονόματα εκπαιδευομένων, βαθμούς δραστηριοτήτων και βάρη συνολικών](/.gitbook/assets/gradebook-overview.png)
+![Ο πίνακας επισκόπησης του gradebook που δείχνει ονόματα εκπαιδευομένων, βαθμούς δραστηριοτήτων και βάρη συνολικών](../../.gitbook/assets/gradebook-overview.png)
 
 Η αξιολόγηση δείχνει έναν πίνακα με:
 
@@ -75,7 +75,7 @@
 
 ## Εξαγωγή Βαθμών
 
-Κάντε κλικ στο κουμπί **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> για να κατεβάσετε τους βαθμούς ως υπολογιστικό φύλλο. Αυτό είναι χρήσιμο για:
+Κάντε κλικ στο κουμπί **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> για να κατεβάσετε τους βαθμούς ως υπολογιστικό φύλλο. Αυτό είναι χρήσιμο για:
 
 * Μοιράζοντας βαθμούς με διοικητικά συστήματα
 * Εκτέλεση επιπλέον ανάλυσης εκτός Chamilo

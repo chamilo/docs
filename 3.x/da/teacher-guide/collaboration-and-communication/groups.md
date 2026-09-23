@@ -14,7 +14,7 @@ Grupper giver dig mulighed for at inddele dine kursister i mindre hold til samar
 
 ## Gruppeværktøjer
 
-![Oversigten over grupper, der viser tilgængelige gruppeværktøjer og antal medlemmer](/.gitbook/assets/groups-overview.png)
+![Oversigten over grupper, der viser tilgængelige gruppeværktøjer og antal medlemmer](../../.gitbook/assets/groups-overview.png)
 
 Hver gruppe kan have adgang til et udsnit af kursusværktøjer, der kun deles blandt gruppens medlemmer:
 

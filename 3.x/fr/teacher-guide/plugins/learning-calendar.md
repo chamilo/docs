@@ -1,6 +1,6 @@
 # Calendrier d'apprentissage
 
-Le calendrier d'apprentissage <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendrier d'apprentissage" data-size="line"> aide à planifier une formation mixte ou de type apprentissage, combinant temps en présentiel et pratique hors site. Vous construisez un calendrier en marquant chaque jour comme **Occupé**, **Examen** ou **Libre**, y affectez des apprenants, et leur agenda personnel affiche alors ces jours planifiés.
+Le calendrier d'apprentissage <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendrier d'apprentissage" data-size="line"> aide à planifier une formation mixte ou de type apprentissage, combinant temps en présentiel et pratique hors site. Vous construisez un calendrier en marquant chaque jour comme **Occupé**, **Examen** ou **Libre**, y affectez des apprenants, et leur agenda personnel affiche alors ces jours planifiés.
 
 ## Accéder à l'outil
 

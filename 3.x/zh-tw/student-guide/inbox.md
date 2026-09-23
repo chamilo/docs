@@ -4,17 +4,17 @@
 
 ## 存取您的收件匣
 
-點選頂端列中的 **收件匣** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="收件匣" data-size="line"> 圖示。紅色徽章會顯示您有多少則未讀訊息。若完全沒有此圖示，表示管理員已停用平台訊息功能。
+點選頂端列中的 **收件匣** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="收件匣" data-size="line"> 圖示。紅色徽章會顯示您有多少則未讀訊息。若完全沒有此圖示，表示管理員已停用平台訊息功能。
 
 ## 閱讀與回覆
 
 收件匣會列出已收到的訊息，並標示哪些尚未閱讀。開啟一則即可閱讀，並使用 **回覆** 來回應——您可以一次在回覆中加入多位收件人，適合讓一小群人持續掌握進度，而無須另外建立正式課程或社群群組。
 
-![收件匣，含收件匣／未讀／已傳送分頁以及已收訊息表格](/.gitbook/assets/student-inbox.png)
+![收件匣，含收件匣／未讀／已傳送分頁以及已收訊息表格](../.gitbook/assets/student-inbox.png)
 
 ## 撰寫新訊息
 
-點選 **新訊息** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新訊息" data-size="line"> 按鈕，選擇一位或多位收件人，撰寫主旨與內文後傳送。與回覆相同，新訊息也可一次傳送給多人。
+點選 **新訊息** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新訊息" data-size="line"> 按鈕，選擇一位或多位收件人，撰寫主旨與內文後傳送。與回覆相同，新訊息也可一次傳送給多人。
 
 ## 分頁與操作
 

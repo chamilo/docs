@@ -6,7 +6,7 @@ Din profil i Chamilo indeholder dine personlige oplysninger og præferencer. And
 
 Klik på dit **avatar** i øverste højre hjørne af den øverste bjælke, og vælg derefter **Profil** i rullemenuen. Du kan også tilgå den fra sektionen **Socialt netværk** i sidebjælken.
 
-![Rullemenuen for brugerens avatar, der viser profil, kontoindstillinger og log ud-muligheder](/.gitbook/assets/user-avatar-dropdown.png)
+![Rullemenuen for brugerens avatar, der viser profil, kontoindstillinger og log ud-muligheder](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profiloplysninger
 

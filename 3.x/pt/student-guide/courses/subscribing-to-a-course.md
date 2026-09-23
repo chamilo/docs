@@ -21,7 +21,7 @@ Se a visibilidade de um curso o permitir, pode inscrever-se a si próprio sem es
 2. Navegue ou procure o curso ao qual pretende aderir.
 3. Clique no curso para abrir os respetivos detalhes e, em seguida, clique no botão para aderir.
 
-![O catálogo de cursos, com um botão Inscrever em cada cartão de curso](/.gitbook/assets/student-course-catalogue.png)
+![O catálogo de cursos, com um botão Inscrever em cada cartão de curso](../../.gitbook/assets/student-course-catalogue.png)
 
 Um curso no qual já está inscrito mostra **Ir para o curso** em vez de um botão de inscrição.
 

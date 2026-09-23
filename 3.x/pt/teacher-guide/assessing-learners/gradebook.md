@@ -19,7 +19,7 @@ O Chamilo calcula a nota global de cada formando com base nestes pesos.
 
 ## Configurar a Avaliação
 
-1. Abra a ferramenta **Avaliações** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> a partir da página inicial do curso
+1. Abra a ferramenta **Avaliações** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> a partir da página inicial do curso
 2. Verá a vista geral das avaliações, inicialmente vazia
 
 ### Adicionar Atividades
@@ -48,7 +48,7 @@ Para esquemas de classificação complexos, pode criar **subcategorias** para ag
 
 ## Visualizar Notas
 
-![A tabela de vista geral do livro de notas mostrando nomes dos formandos, pontuações das atividades e totais ponderados](/.gitbook/assets/gradebook-overview.png)
+![A tabela de vista geral do livro de notas mostrando nomes dos formandos, pontuações das atividades e totais ponderados](../../.gitbook/assets/gradebook-overview.png)
 
 A avaliação mostra uma tabela com:
 
@@ -83,7 +83,7 @@ Para ativar a geração de certificados:
 
 Quando **Gerar certificados** está ativado na categoria raiz, aparece um campo **Validade do certificado (dias)**. Deixe-o em `0` para certificados que nunca expiram, ou defina um número de dias após o qual o certificado expira — o Chamilo pode então lembrar os formandos à medida que essa data de expiração se aproxima, automaticamente (cron, configurado pelo administrador) ou manualmente a partir da lista de certificados.
 
-![O diálogo de edição da categoria com Gerar certificados ativado e o campo Validade do certificado (dias) definido para 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![O diálogo de edição da categoria com Gerar certificados ativado e o campo Validade do certificado (dias) definido para 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Consulte [Certificados e Competências](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) para mais pormenores.
 
@@ -93,7 +93,7 @@ Pode associar **competências** (*skills*) à avaliação. Quando um formando at
 
 ## Exportação de Notas
 
-Clique no botão **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descarregar as notas como uma folha de cálculo. Isto é útil para:
+Clique no botão **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descarregar as notas como uma folha de cálculo. Isto é útil para:
 
 * Partilhar notas com sistemas administrativos
 * Realizar análises adicionais fora do Chamilo

@@ -7,10 +7,10 @@ Deze sectie legt uit hoe u een nieuwe cursus in Chamilo kunt aanmaken en configu
 Om een cursus aan te maken:
 
 1. Klik op **Mijn cursussen** in de zijbalk
-2. Klik op de knop **Cursus aanmaken** (meestal een groen boek <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursussen" data-size="line"> pictogram met een + teken)
+2. Klik op de knop **Cursus aanmaken** (meestal een groen boek <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursussen" data-size="line"> pictogram met een + teken)
 3. Vul het formulier voor het aanmaken van een cursus in:
 
-![Het formulier voor het aanmaken van een cursus met velden voor naam, categorie, code en taal](/.gitbook/assets/course-creation-form.png)
+![Het formulier voor het aanmaken van een cursus met velden voor naam, categorie, code en taal](../../.gitbook/assets/course-creation-form.png)
 
 | Veld | Verplicht | Beschrijving |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ U wordt doorgestuurd naar de startpagina van uw nieuwe cursus. Er verschijnt een
 
 Zodra uw cursus is aangemaakt, komt u terecht op de startpagina ervan. Dit is het centrale punt van uw cursus, waar u en uw leerlingen toegang hebben tot alle tools en inhoud.
 
-![Het raster met tools op de startpagina van de cursus, met beschikbare cursustools, pictogrammen en zichtbaarheidsschakelaars](/.gitbook/assets/course-homepage-tool-grid.png)
+![Het raster met tools op de startpagina van de cursus, met beschikbare cursustools, pictogrammen en zichtbaarheidsschakelaars](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 De startpagina toont:
 
 * **Cursustitel** — De naam van uw cursus, bovenaan weergegeven.
-* **Cursusintroductie** — Een optionele beschrijving of welkomstbericht. Klik op de knop **+ Cursusintroductie** om er een toe te voegen, of op de knop **Introductie bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> bovenaan om deze aan te passen. Dit ondersteunt rijk opgemaakte tekst met afbeeldingen, links en opmaak.
+* **Cursusintroductie** — Een optionele beschrijving of welkomstbericht. Klik op de knop **+ Cursusintroductie** om er een toe te voegen, of op de knop **Introductie bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> bovenaan om deze aan te passen. Dit ondersteunt rijk opgemaakte tekst met afbeeldingen, links en opmaak.
 * **Toolraster** — Een raster van alle beschikbare cursustools, elk weergegeven als een kaart met een pictogram en naam.
 
 ### Zichtbaarheid van tools beheren
 
 Als docent kunt u bepalen welke tools uw leerlingen kunnen zien:
 
-* Klik op het **oogpictogram** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaar" data-size="line"> naast een tool om deze te verbergen voor leerlingen. Verborgen tools tonen een **doorgestreept oog** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Verborgen" data-size="line"> en blijven voor u toegankelijk.
+* Klik op het **oogpictogram** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaar" data-size="line"> naast een tool om deze te verbergen voor leerlingen. Verborgen tools tonen een **doorgestreept oog** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Verborgen" data-size="line"> en blijven voor u toegankelijk.
 * Gebruik de knoppen **Alles tonen** en **Alles verbergen** om alle tools in één keer aan te passen
 * Klik op **Sorteren** om het raster van tools te kunnen herschikken via slepen en neerzetten
 

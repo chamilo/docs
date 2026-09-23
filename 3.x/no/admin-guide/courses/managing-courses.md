@@ -4,7 +4,7 @@ Som administrator kan du administrere alle kurs på plattformen uavhengig av hve
 
 ## Kursliste
 
-![Kurslisten som viser alle kurs med tittel, kode, kategori, påmeldte brukere og synlighetsstatus](/.gitbook/assets/admin-course-list.png)
+![Kurslisten som viser alle kurs med tittel, kode, kategori, påmeldte brukere og synlighetsstatus](../../.gitbook/assets/admin-course-list.png)
 
 Fra administrasjonspanelet klikker du **Kursliste** for å se alle kurs. Listen viser:
 

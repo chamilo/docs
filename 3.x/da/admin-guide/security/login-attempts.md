@@ -8,7 +8,7 @@ Fra administrationspanelet skal du klikke på **Sikkerhed > Login-forsøg**.
 
 ## Hvad den viser
 
-![Siden Login-forsøg med diagrammer for forsøg pr. dag, top-IP'er, mislykkede forsøg pr. måned, succesfulde vs. mislykkede logins, forsøg pr. time og unikke IP'er pr. dag, efterfulgt af en tabel over mislykkede login-forsøg](/.gitbook/assets/admin-security-login-attempts.png)
+![Siden Login-forsøg med diagrammer for forsøg pr. dag, top-IP'er, mislykkede forsøg pr. måned, succesfulde vs. mislykkede logins, forsøg pr. time og unikke IP'er pr. dag, efterfulgt af en tabel over mislykkede login-forsøg](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Forsøg pr. dag (sidste 7 dage)** — Dagligt antal mislykkede forsøg
 * **Top-IP'er (sidste 30 dage)** — Hvilke IP-adresser der genererede flest forsøg

@@ -2,7 +2,7 @@
 
 The **Reporting** block on the administration dashboard groups platform-wide statistics, learning analytics, corporate/HR reporting, and bulk export tools. This is a different tool from [Tracking Settings](../platform-settings/tracking-settings.md), the separate settings category that controls what gets recorded rather than the reports themselves.
 
-![The Reporting block on the administration dashboard, listing Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, and Tickets](/.gitbook/assets/admin-reporting-block.png)
+![The Reporting block on the administration dashboard, listing Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, and Tickets](../../.gitbook/assets/admin-reporting-block.png)
 
 ## Accessing Reporting
 

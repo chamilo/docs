@@ -4,7 +4,7 @@
 
 ## 平台識別
 
-![顯示平台識別設定的門戶自訂頁面，包括名稱、標誌和機構](/.gitbook/assets/admin-portal-customization.png)
+![顯示平台識別設定的門戶自訂頁面，包括名稱、標誌和機構](../../.gitbook/assets/admin-portal-customization.png)
 
 設定您的門戶基本識別：
 

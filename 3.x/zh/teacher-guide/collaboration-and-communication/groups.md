@@ -14,7 +14,7 @@
 
 ## 小组工具
 
-![显示可用小组工具及成员人数的小组概览](/.gitbook/assets/groups-overview.png)
+![显示可用小组工具及成员人数的小组概览](../../.gitbook/assets/groups-overview.png)
 
 每个小组都可以使用一部分仅在组员之间共享的课程工具：
 

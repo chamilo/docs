@@ -4,7 +4,7 @@ Opgaveværktøjet (også kaldet "studenterpublikationer") lader dig indsamle arb
 
 ## Oprette en opgave
 
-1. Åbn værktøjet **Opgaver** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opgaver" data-size="line"> fra kursets startside
+1. Åbn værktøjet **Opgaver** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opgaver" data-size="line"> fra kursets startside
 2. Klik på **Opret en opgave**
 3. Udfyld oplysningerne:
    * **Opgavenavn** — Navnet på opgaven (f.eks. "Afsluttende projektrapport")
@@ -41,7 +41,7 @@ Kursister kan se, om de allerede har afleveret, og, hvis det er tilladt, opdater
 
 ## Gennemgå afleveringer
 
-![Listen over opgaveafleveringer, der viser kursistnavne, datoer, filer og bedømmelsesstatus](/.gitbook/assets/assignments-submissions-list.png)
+![Listen over opgaveafleveringer, der viser kursistnavne, datoer, filer og bedømmelsesstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Som underviser åbner du en opgave for at se listen over alle afleveringer:
 
@@ -53,7 +53,7 @@ Som underviser åbner du en opgave for at se listen over alle afleveringer:
 
 ### Bedømme en aflevering
 
-![Opgavens bedømmelsesvisning med scorefelt, feedbackfelt og upload af rettet fil](/.gitbook/assets/assignment-grading-view.png)
+![Opgavens bedømmelsesvisning med scorefelt, feedbackfelt og upload af rettet fil](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klik på en aflevering for at åbne den
 2. Gennemgå den afleverede fil

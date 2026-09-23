@@ -1,6 +1,6 @@
 # Umfrageexport TXT
 
-Umfrageexport TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Umfrageexport TXT" data-size="line"> exportiert die Ergebnisse einer Umfrage in eine menschenlesbare Klartextdatei — ein Block pro Befragtem, mit jeder Frage, den gewählten Antwort(en) und etwaigen Freitextantworten, anstelle der Zeilen und Spalten einer CSV-Datei.
+Umfrageexport TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Umfrageexport TXT" data-size="line"> exportiert die Ergebnisse einer Umfrage in eine menschenlesbare Klartextdatei — ein Block pro Befragtem, mit jeder Frage, den gewählten Antwort(en) und etwaigen Freitextantworten, anstelle der Zeilen und Spalten einer CSV-Datei.
 
 ## Eine Umfrage exportieren
 

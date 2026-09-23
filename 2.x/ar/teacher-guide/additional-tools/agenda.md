@@ -4,9 +4,9 @@
 
 ## عرض جدول الأعمال
 
-افتح أداة **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> من الصفحة الرئيسية للمساق. يمكنك عرض الأحداث في ثلاثة أنماط:
+افتح أداة **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> من الصفحة الرئيسية للمساق. يمكنك عرض الأحداث في ثلاثة أنماط:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![The agenda in calendar view showing course events and deadlines](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **عرض التقويم** — تقويم شهري/أسبوعي/يومي بصري
 * **عرض القائمة** — الأحداث المعروضة كقائمة زمنية
@@ -14,7 +14,7 @@
 
 ## إنشاء حدث
 
-1. انقر على **إضافة حدث** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
+1. انقر على **إضافة حدث** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
 2. املأ تفاصيل الحدث:
    * **العنوان** — اسم قصير للحدث
    * **تاريخ وبداية الوقت**
@@ -23,13 +23,13 @@
 3. اختر **الجمهور**:
    * **جميع المتعلمين** — الجميع المسجلون في المساق
    * **مستخدمون أو مجموعات محددة** — اختر متعلمين فرديين أو مجموعات
-4. اختياريًا، قم بتعيين **تذكير** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> لإرسال إشعارات بريد إلكتروني قبل الحدث (*cron* إعداد مطلوب للبوابة من قبل مدير النظام)
+4. اختياريًا، قم بتعيين **تذكير** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> لإرسال إشعارات بريد إلكتروني قبل الحدث (*cron* إعداد مطلوب للبوابة من قبل مدير النظام)
 5. احفظ
 
 ## إدارة الأحداث
 
-* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — انقر على حدث لتعديل تفاصيله
-* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — إزالة حدث من التقويم
+* **تعديل** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — انقر على حدث لتعديل تفاصيله
+* **حذف** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — إزالة حدث من التقويم
 * **سحب وإفلات** — في عرض التقويم، اسحب الأحداث لإعادة جدولتها
 
 ## جدول الأعمال الشخصي

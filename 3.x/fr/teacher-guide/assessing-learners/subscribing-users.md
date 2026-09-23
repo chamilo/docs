@@ -19,12 +19,12 @@ Si la [visibilité](../creating-your-course/course-settings.md#course-visibility
 
 ## Inscription manuelle via l’outil Utilisateurs
 
-Pour inscrire une personne qui possède déjà un compte sur la plateforme mais ne s’est pas inscrite d’elle-même, ouvrez l’outil **Utilisateurs** de votre cours et cliquez sur l’icône **Ajouter des utilisateurs** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Ajouter des utilisateurs" data-size="line">.
+Pour inscrire une personne qui possède déjà un compte sur la plateforme mais ne s’est pas inscrite d’elle-même, ouvrez l’outil **Utilisateurs** de votre cours et cliquez sur l’icône **Ajouter des utilisateurs** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Ajouter des utilisateurs" data-size="line">.
 
 1. Recherchez la personne par nom, identifiant, e-mail ou code officiel
 2. Cliquez sur **Inscrire** sur sa ligne, ou sélectionnez plusieurs personnes à l’aide des cases à cocher et utilisez le menu **Action** pour les inscrire toutes en une fois
 
-![Résultats de recherche dans l’écran Inscrire des utilisateurs au cours, montrant un apprenant correspondant et un bouton Inscrire](/.gitbook/assets/course-users-subscribe-search.png)
+![Résultats de recherche dans l’écran Inscrire des utilisateurs au cours, montrant un apprenant correspondant et un bouton Inscrire](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Seuls les utilisateurs qui ne sont pas déjà inscrits au cours apparaissent dans les résultats.
 
@@ -36,9 +36,9 @@ Les trois méthodes ci-dessus supposent toutes que la personne possède déjà u
 
 ### Accéder à l’outil
 
-Ouvrez l’outil **Utilisateurs** de votre cours, puis cliquez sur l’icône **Inviter par e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter par e-mail" data-size="line"> dans la barre d’outils, à côté de **Ajouter des utilisateurs** :
+Ouvrez l’outil **Utilisateurs** de votre cours, puis cliquez sur l’icône **Inviter par e-mail** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter par e-mail" data-size="line"> dans la barre d’outils, à côté de **Ajouter des utilisateurs** :
 
-![La barre d’outils de l’outil Utilisateurs, montrant l’icône Ajouter des utilisateurs et l’icône Inviter par e-mail](/.gitbook/assets/course-users-invite-icon.png)
+![La barre d’outils de l’outil Utilisateurs, montrant l’icône Ajouter des utilisateurs et l’icône Inviter par e-mail](../../.gitbook/assets/course-users-invite-icon.png)
 
 Cela ouvre la page **Invitations de cours**.
 
@@ -53,7 +53,7 @@ Cela ouvre la page **Invitations de cours**.
 1. Saisissez l’adresse e-mail du destinataire dans le formulaire **Inviter par e-mail**
 2. Cliquez sur **Envoyer l’invitation**
 
-![La page Invitations au cours : le formulaire d’invitation par e-mail et un tableau des invitations envoyées avec leur statut](/.gitbook/assets/course-invitations-list.png)
+![La page Invitations au cours : le formulaire d’invitation par e-mail et un tableau des invitations envoyées avec leur statut](../../.gitbook/assets/course-invitations-list.png)
 
 Toutes les invitations que vous avez envoyées pour ce cours apparaissent sous le formulaire, avec leur statut :
 
@@ -65,8 +65,8 @@ Toutes les invitations que vous avez envoyées pour ce cours apparaissent sous l
 
 Pour une invitation encore en attente, la colonne **Actions** propose :
 
-* **Copier** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copier" data-size="line"> — copie le lien d’invitation, au cas où vous préféreriez le partager vous-même (messagerie, en personne) plutôt que de compter sur l’e-mail.
-* **Révoquer** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Révoquer" data-size="line"> — annule l’invitation immédiatement ; le lien cesse de fonctionner. Une invitation déjà acceptée ne peut pas être révoquée.
+* **Copier** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Copier" data-size="line"> — copie le lien d’invitation, au cas où vous préféreriez le partager vous-même (messagerie, en personne) plutôt que de compter sur l’e-mail.
+* **Révoquer** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Révoquer" data-size="line"> — annule l’invitation immédiatement ; le lien cesse de fonctionner. Une invitation déjà acceptée ne peut pas être révoquée.
 
 > **L’adresse e-mail invitée ne doit pas déjà posséder de compte sur cette plateforme.** Si c’est le cas, l’envoi de l’invitation échoue avec un message vous demandant d’inscrire directement cet utilisateur existant — via [Inscription manuelle via l’outil Utilisateurs](#manual-enrollment-via-the-users-tool) ci-dessus.
 

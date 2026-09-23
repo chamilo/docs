@@ -4,9 +4,9 @@
 
 ## Oppimispolun avaaminen
 
-Avaa **Oppimispolut**-työkalu <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Oppimispolut" data-size="line"> kurssin etusivulta ja napsauta yhtä aloittaaksesi. Jos opettajasi on ottanut käyttöön **automaattisen käynnistyksen**, oppimispolku voi avautua automaattisesti heti, kun siirryt kurssille.
+Avaa **Oppimispolut**-työkalu <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Oppimispolut" data-size="line"> kurssin etusivulta ja napsauta yhtä aloittaaksesi. Jos opettajasi on ottanut käyttöön **automaattisen käynnistyksen**, oppimispolku voi avautua automaattisesti heti, kun siirryt kurssille.
 
-![Kurssin oppimispolkujen luettelo, jokaisessa näkyy oma edistyminen](/.gitbook/assets/student-learning-paths-list.png)
+![Kurssin oppimispolkujen luettelo, jokaisessa näkyy oma edistyminen](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Polulla eteneminen
 

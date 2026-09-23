@@ -2,7 +2,7 @@
 
 Der Block **Kompetenzen** auf dem Administrations-Dashboard gruppiert die Werkzeuge zum Definieren, Organisieren und Nachverfolgen von Kompetenzabzeichen („Skills“) auf der gesamten Plattform. Eine Kompetenz kann automatisch vergeben werden, wenn ein Lernender eine Schwelle im Notenbuch erreicht, bestimmte Kurse abschließt, oder manuell durch eine Lehrkraft, und kann ein abzeichenartiges Symbol sowie eine Stufe tragen (zum Beispiel Bronze/Silber/Gold).
 
-![Der Block Kompetenzen auf dem Administrations-Dashboard mit den Einträgen Kompetenzrad, Kompetenzen importieren, Kompetenzen verwalten, Kompetenzstufen verwalten, Kompetenzranking sowie Kompetenzen und Bewertungen](/.gitbook/assets/admin-skills-block.png)
+![Der Block Kompetenzen auf dem Administrations-Dashboard mit den Einträgen Kompetenzrad, Kompetenzen importieren, Kompetenzen verwalten, Kompetenzstufen verwalten, Kompetenzranking sowie Kompetenzen und Bewertungen](../../.gitbook/assets/admin-skills-block.png)
 
 Der gesamte Block erscheint nur, wenn die Einstellung **Kompetenzwerkzeug aktivieren** (`skill.allow_skills_tool`, unter Konfigurationseinstellungen > Kompetenzen) eingeschaltet ist — sie ist standardmäßig aktiviert.
 

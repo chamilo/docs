@@ -21,11 +21,11 @@ Chamilo 讓您能在**同一個欄位中撰寫同一份內容的多種語言版�
 1. 照常以您的預設語言撰寫（或貼上）內容。
 2. 選取該段文字，然後點選編輯器工具列中的 **Lang ISO** 按鈕。
 
-![富文字編輯器工具列，靠近開頭處可見「Lang ISO」按鈕](/.gitbook/assets/teacher-multilang-editor.png)
+![富文字編輯器工具列，靠近開頭處可見「Lang ISO」按鈕](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. 從選單中選擇您剛才撰寫所用的語言——清單涵蓋平台上所有已啟用的語言。若所需語言未列出，請使用底部的 **Custom Chamilo ISO code...** 並自行輸入（例如 `en_US`、`fr_FR`、`es`）。
 
-![已開啟的「Lang ISO」選單，列出所有已啟用的平台語言，以及「Add translation to...」與自訂代碼選項](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![已開啟的「Lang ISO」選單，列出所有已啟用的平台語言，以及「Add translation to...」與自訂代碼選項](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo 會以該語言標籤包住您的選取範圍。接著在其後方撰寫（或貼上）下一種語言的版本，選取它，再以不同語言重複相同步驟。
 
@@ -43,17 +43,17 @@ Chamilo 讓您能在**同一個欄位中撰寫同一份內容的多種語言版�
 
 以下是同一段課程說明區塊，由三位介面語言不同的學習者所見——這三張截圖之間，課程本身沒有任何其他變更，只有檢視者自身的語言不同：
 
-![介面語言為英語的學習者所見的同一段課程說明區塊](/.gitbook/assets/teacher-multilang-en.png)
+![介面語言為英語的學習者所見的同一段課程說明區塊](../../.gitbook/assets/teacher-multilang-en.png)
 
-![介面語言為法語的學習者所見的同一區塊](/.gitbook/assets/teacher-multilang-fr.png)
+![介面語言為法語的學習者所見的同一區塊](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![介面語言為西班牙語的學習者所見的同一區塊](/.gitbook/assets/teacher-multilang-es.png)
+![介面語言為西班牙語的學習者所見的同一區塊](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### 幕後運作原理
 
 若您曾開啟多語系欄位的**原始碼**檢視（編輯器工具列中的 `<>` 按鈕），會看到每個語言版本以如下方式包覆：
 
-![原始碼檢視，顯示以 lang="en_US" class="mce-translatehtml" 開頭的區塊](/.gitbook/assets/teacher-multilang-source-view.png)
+![原始碼檢視，顯示以 lang="en_US" class="mce-translatehtml" 開頭的區塊](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 每個版本會包在 `<div class="mce-translatehtml" lang="...">` 之中（若是短的行內片語而非整段區塊，則為 `<span>`）——Chamilo 正是依此 `lang` 屬性比對檢視者的語言，以決定要顯示的內容。若您正在檢查頁面原始碼或排查顯示異常的內容，值得認得這個特定的 class 名稱：**`mce-translatehtml`** 就是要尋找的標記。
 

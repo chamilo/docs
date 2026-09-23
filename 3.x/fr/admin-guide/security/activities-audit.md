@@ -8,7 +8,7 @@ Depuis le panneau d’administration, cliquez sur **Sécurité > Audit des activ
 
 ## Ce qu’il affiche
 
-![La page Audit des activités listant des catégories de types d’événements telles que Cours, Session, Utilisateur, Social, Message, Ressource, Wiki et Autre, chacune extensible en types d’événements individuels](/.gitbook/assets/admin-security-activities-audit.png)
+![La page Audit des activités listant des catégories de types d’événements telles que Cours, Session, Utilisateur, Social, Message, Ressource, Wiki et Autre, chacune extensible en types d’événements individuels](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Les événements sont regroupés en catégories :
 

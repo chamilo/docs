@@ -2,7 +2,7 @@
 
 Les paramètres du cours vous permettent de contrôler le comportement de votre cours — qui peut y accéder, comment il apparaît et quelles fonctionnalités sont activées.
 
-Pour accéder aux paramètres du cours, entrez dans votre cours et cliquez sur l’icône **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> à côté du bouton **Passer en vue apprenant**.
+Pour accéder aux paramètres du cours, entrez dans votre cours et cliquez sur l’icône **Paramètres** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> à côté du bouton **Passer en vue apprenant**.
 
 ## Paramètres généraux
 
@@ -29,7 +29,7 @@ Chaque cours dispose d’une limite de stockage (quota disque) pour les fichiers
 
 ### Visibilité du cours
 
-![Les paramètres de visibilité du cours montrant les options public, ouvert, inscrit et fermé](/.gitbook/assets/course-settings-visibility.png)
+![Les paramètres de visibilité du cours montrant les options public, ouvert, inscrit et fermé](../../.gitbook/assets/course-settings-visibility.png)
 
 Contrôlez qui peut accéder à votre cours :
 
@@ -84,7 +84,7 @@ Contrôlez le comportement de l’outil forum de ce cours.
 
 ### Paramètres de lancement automatique
 
-Un cours peut être configuré pour un comportement de lancement automatique, ce qui raccourcira le chemin des apprenants vers les parties importantes de votre cours. Si cette option est activée, les apprenants qui entrent dans votre cours seront envoyés directement vers l'outil sélectionné et ne verront pas la page d'accueil du cours comme étape intermédiaire. Vous pouvez même sélectionner des parcours d'apprentissage ou des exercices spécifiques à lancer à l'arrivée dans le cours. Dans ce cas, vous devez sélectionner l'option ici, puis aller à la liste des parcours d'apprentissage ou des exercices et cliquer sur l'icône fusée <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Lancement automatique" data-size="line"> sur l'élément sélectionné.
+Un cours peut être configuré pour un comportement de lancement automatique, ce qui raccourcira le chemin des apprenants vers les parties importantes de votre cours. Si cette option est activée, les apprenants qui entrent dans votre cours seront envoyés directement vers l'outil sélectionné et ne verront pas la page d'accueil du cours comme étape intermédiaire. Vous pouvez même sélectionner des parcours d'apprentissage ou des exercices spécifiques à lancer à l'arrivée dans le cours. Dans ce cas, vous devez sélectionner l'option ici, puis aller à la liste des parcours d'apprentissage ou des exercices et cliquer sur l'icône fusée <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Lancement automatique" data-size="line"> sur l'élément sélectionné.
 
 ### Paramètres des assistants IA
 

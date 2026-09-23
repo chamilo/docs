@@ -10,7 +10,7 @@ Hallintapaneelista valitse **Turvallisuus > Tiedostojen eheys**.
 
 ## Mitä näkymä näyttää
 
-![Tiedostojen eheyden sivu, jossa näkyvät viimeisimmän tarkistuksen tiedot, paneelit Lisätyt, Muutetut, Poistetut ja Käyttöoikeudet muuttuneet -tiedostoille, Hälytyshistoria-luettelo sekä Toiminnot tarkistuksen suorittamiseen, hälytysten keskeyttämiseen tai uuden perustilan asettamiseen](/.gitbook/assets/admin-security-file-integrity.png)
+![Tiedostojen eheyden sivu, jossa näkyvät viimeisimmän tarkistuksen tiedot, paneelit Lisätyt, Muutetut, Poistetut ja Käyttöoikeudet muuttuneet -tiedostoille, Hälytyshistoria-luettelo sekä Toiminnot tarkistuksen suorittamiseen, hälytysten keskeyttämiseen tai uuden perustilan asettamiseen](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Viimeisin tarkistus** — Milloin viimeisin tarkistus suoritettiin ja kuinka monta tiedostoa se tarkisti
 * **Lisätyt / Muutetut / Poistetut** — Tiedostot, jotka poikkeavat perustilasta, tunnistettu vertaamalla SHA-256-tarkistussummia (kukin luettelo on rajattu 500 polkuun, ja huomautus annetaan, jos täydellinen luettelo on pidempi — katso täydellinen luettelo alla olevasta CEF-lokista)

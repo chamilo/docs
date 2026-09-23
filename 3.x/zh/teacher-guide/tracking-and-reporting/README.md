@@ -8,6 +8,6 @@ Chamilo 会全程跟踪学习者在平台上的活动，帮助您深入了解学
 
 ## 访问报告
 
-在课程中，点击课程主页上的 **跟踪** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具。您也可以通过侧边栏中的 **报告** 链接访问报告，以获得跨课程总览。
+在课程中，点击课程主页上的 **跟踪** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具。您也可以通过侧边栏中的 **报告** 链接访问报告，以获得跨课程总览。
 
 教师可查看其所授课程的报告数据。会话辅导教师可查看其所负责会话中全部课程的数据。

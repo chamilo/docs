@@ -19,12 +19,12 @@ Als de [zichtbaarheid](../creating-your-course/course-settings.md#course-visibil
 
 ## Handmatige inschrijving via de tool Gebruikers
 
-Om iemand in te schrijven die al een platformaccount heeft maar zichzelf nog niet heeft aangesloten, opent u de tool **Gebruikers** van uw cursus en klikt u op het pictogram **Gebruikers toevoegen** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Gebruikers toevoegen" data-size="line">.
+Om iemand in te schrijven die al een platformaccount heeft maar zichzelf nog niet heeft aangesloten, opent u de tool **Gebruikers** van uw cursus en klikt u op het pictogram **Gebruikers toevoegen** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Gebruikers toevoegen" data-size="line">.
 
 1. Zoek de persoon op naam, gebruikersnaam, e-mail of officiële code
 2. Klik op **Inschrijven** in hun rij, of selecteer er meerdere met de selectievakjes en gebruik het menu **Actie** om ze allemaal tegelijk in te schrijven
 
-![Zoekresultaten in het scherm Gebruikers inschrijven voor de cursus, met een overeenkomende cursist en een knop Inschrijven](/.gitbook/assets/course-users-subscribe-search.png)
+![Zoekresultaten in het scherm Gebruikers inschrijven voor de cursus, met een overeenkomende cursist en een knop Inschrijven](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Alleen gebruikers die nog niet voor de cursus zijn ingeschreven, verschijnen in de resultaten.
 
@@ -36,9 +36,9 @@ De drie bovenstaande methoden gaan ervan uit dat de persoon al een platformaccou
 
 ### De tool openen
 
-Open de tool **Gebruikers** van uw cursus en klik vervolgens op het pictogram **Uitnodigen per e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Uitnodigen per e-mail" data-size="line"> in de werkbalk, naast **Gebruikers toevoegen**:
+Open de tool **Gebruikers** van uw cursus en klik vervolgens op het pictogram **Uitnodigen per e-mail** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Uitnodigen per e-mail" data-size="line"> in de werkbalk, naast **Gebruikers toevoegen**:
 
-![De werkbalk van de tool Gebruikers, met het pictogram Gebruikers toevoegen en het pictogram Uitnodigen per e-mail](/.gitbook/assets/course-users-invite-icon.png)
+![De werkbalk van de tool Gebruikers, met het pictogram Gebruikers toevoegen en het pictogram Uitnodigen per e-mail](../../.gitbook/assets/course-users-invite-icon.png)
 
 Dit opent de pagina **Cursusuitnodigingen**.
 
@@ -53,7 +53,7 @@ Dit opent de pagina **Cursusuitnodigingen**.
 1. Voer het e-mailadres van de ontvanger in in het formulier **Uitnodigen per e-mail**
 2. Klik op **Uitnodiging versturen**
 
-![De pagina Cursusuitnodigingen: het formulier uitnodigen-per-e-mail en een tabel met verstuurde uitnodigingen en hun status](/.gitbook/assets/course-invitations-list.png)
+![De pagina Cursusuitnodigingen: het formulier uitnodigen-per-e-mail en een tabel met verstuurde uitnodigingen en hun status](../../.gitbook/assets/course-invitations-list.png)
 
 Elke uitnodiging die u voor deze cursus hebt verstuurd, verschijnt onder het formulier, met de status:
 
@@ -65,8 +65,8 @@ Elke uitnodiging die u voor deze cursus hebt verstuurd, verschijnt onder het for
 
 Voor een nog openstaande uitnodiging biedt de kolom **Actions**:
 
-* **Copy** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiëren" data-size="line"> — kopieert de uitnodigingslink, voor het geval u die liever zelf deelt (chat, persoonlijk) in plaats van te vertrouwen op de e-mail.
-* **Revoke** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Intrekken" data-size="line"> — annuleert de uitnodiging onmiddellijk; de link werkt niet meer. Een al geaccepteerde uitnodiging kan niet worden ingetrokken.
+* **Copy** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiëren" data-size="line"> — kopieert de uitnodigingslink, voor het geval u die liever zelf deelt (chat, persoonlijk) in plaats van te vertrouwen op de e-mail.
+* **Revoke** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Intrekken" data-size="line"> — annuleert de uitnodiging onmiddellijk; de link werkt niet meer. Een al geaccepteerde uitnodiging kan niet worden ingetrokken.
 
 > **Het uitgenodigde e-mailadres mag nog geen account op dit platform hebben.** Als dat wel het geval is, mislukt het versturen van de uitnodiging met een bericht waarin u wordt gevraagd die bestaande gebruiker rechtstreeks in te schrijven — via [Handmatige inschrijving via de tool Gebruikers](#manual-enrollment-via-the-users-tool) hierboven.
 

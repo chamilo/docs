@@ -1,6 +1,6 @@
 # Seguimiento de estudiantes
 
-El seguimiento de estudiantes <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Seguimiento de estudiantes" data-size="line"> le permite conservar notas con marca de tiempo y etiquetas sobre el progreso y las dificultades de un alumno: un sistema ligero de notas de caso para registrar cómo evoluciona un estudiante a lo largo del tiempo.
+El seguimiento de estudiantes <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Seguimiento de estudiantes" data-size="line"> le permite conservar notas con marca de tiempo y etiquetas sobre el progreso y las dificultades de un alumno: un sistema ligero de notas de caso para registrar cómo evoluciona un estudiante a lo largo del tiempo.
 
 ## Acceso a la herramienta
 

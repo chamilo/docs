@@ -13,7 +13,7 @@
 
 لتحرير المقدمة:
 
-1. انقر زر **تحرير المقدمة** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line">
+1. انقر زر **تحرير المقدمة** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line">
 2. استخدم محرر النص الغني لكتابة محتواك
 3. احفظ تغييراتك
 
@@ -21,7 +21,7 @@
 
 ## شبكة الأدوات
 
-![شبكة أدوات الصفحة الرئيسية للمقرر تعرض أدوات المقرر المتاحة مع الأيقونات ومفاتيح إظهار الرؤية](/.gitbook/assets/course-homepage-tool-grid.png)
+![شبكة أدوات الصفحة الرئيسية للمقرر تعرض أدوات المقرر المتاحة مع الأيقونات ومفاتيح إظهار الرؤية](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 أسفل المقدمة، تُعرض أدوات المقرر في تخطيط شبكي. تظهر كل أداة كبطاقة تتضمن:
 
@@ -32,18 +32,18 @@
 
 | الأداة | الأيقونة | الغرض |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | جدولة الأحداث والمواعيد النهائية |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | إرسال رسائل إلى المتعلمين المسجّلين |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | جمع أعمال الطلاب وتقييمها |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | رفع الملفات والمحتوى وتنظيمها |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | إنشاء اختبارات قصيرة واختبارات |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | استضافة النقاشات |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | تعريف المصطلحات الأساسية |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | إدارة الدرجات والشهادات |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | بناء تسلسلات تعلم منظمة |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | مشاركة عناوين URL مفيدة |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | عرض المستخدمين المسجّلين وإدارتهم |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | إنشاء الاستبيانات وتوزيعها |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | جدولة الأحداث والمواعيد النهائية |
+| Announcements | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | إرسال رسائل إلى المتعلمين المسجّلين |
+| Assignments | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | جمع أعمال الطلاب وتقييمها |
+| Documents | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | رفع الملفات والمحتوى وتنظيمها |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | إنشاء اختبارات قصيرة واختبارات |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | استضافة النقاشات |
+| Glossary | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | تعريف المصطلحات الأساسية |
+| Assessments | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | إدارة الدرجات والشهادات |
+| Learning paths | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | بناء تسلسلات تعلم منظمة |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | مشاركة عناوين URL مفيدة |
+| Users | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | عرض المستخدمين المسجّلين وإدارتهم |
+| Surveys | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | إنشاء الاستبيانات وتوزيعها |
 
 > قد لا تظهر بعض الأدوات إذا عطّلها المسؤول على مستوى المنصة أو إذا أخفيتها أنت.
 
@@ -65,7 +65,7 @@
 * استخدم **إظهار الكل** أو **إخفاء الكل** للتغييرات الجماعية
 * تبقى الأدوات المخفية متاحة لك كمعلم — فهي مخفية عن المتعلمين فقط
 
-![الصفحة الرئيسية للمقرر كما يراها الطالب، دون ظهور الأدوات المخفية](/.gitbook/assets/course-homepage-student-view.png)
+![الصفحة الرئيسية للمقرر كما يراها الطالب، دون ظهور الأدوات المخفية](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## ميزات التشغيل التلقائي
 

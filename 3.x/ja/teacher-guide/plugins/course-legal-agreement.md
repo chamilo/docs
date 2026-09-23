@@ -1,12 +1,12 @@
 # コース法的同意
 
-コース法的同意 <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="コース法的同意" data-size="line"> プラグインは、学生がコースにアクセスする前に利用規約／法的通知への同意を求めます。同意書、利用ポリシー、または学習者に正式な同意を求めるあらゆる通知に役立ちます。
+コース法的同意 <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="コース法的同意" data-size="line"> プラグインは、学生がコースにアクセスする前に利用規約／法的通知への同意を求めます。同意書、利用ポリシー、または学習者に正式な同意を求めるあらゆる通知に役立ちます。
 
 ## コースで有効にする
 
 プラグインをプラットフォーム全体で有効にしても、それだけでは何も起こりません。使用したい各コースで個別にオンにする必要があります。
 
-1. コースの **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> を開く
+1. コースの **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> を開く
 2. コースアクセスのセクションで、**法的条項を有効にする** にチェックを入れる
 
 これにより、コースに **コース法的同意** ツールが追加されます。

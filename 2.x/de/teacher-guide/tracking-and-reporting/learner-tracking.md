@@ -4,7 +4,7 @@ Chamilo verfolgt die Aktivitäten der Lernenden auf der gesamten Plattform und b
 
 ## Zugriff auf die Lernendenverfolgung
 
-Öffnen Sie das Werkzeug **Verfolgung** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Verfolgung" data-size="line"> über die Kursstartseite oder klicken Sie auf **Berichterstattung** in der Seitenleiste.
+Öffnen Sie das Werkzeug **Verfolgung** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Verfolgung" data-size="line"> über die Kursstartseite oder klicken Sie auf **Berichterstattung** in der Seitenleiste.
 
 ## Was wird verfolgt
 
@@ -22,7 +22,7 @@ Detaillierte Zugriffsinformationen pro Ressource (welche spezifischen Dokumente 
 
 ## Anzeige individueller Lernendendaten
 
-![Detaillierte Ansicht der Lernendenverfolgung mit Fortschritt, Punktzahlen und Aktivitätszeitleiste](/.gitbook/assets/tracking-learner-detail.png)
+![Detaillierte Ansicht der Lernendenverfolgung mit Fortschritt, Punktzahlen und Aktivitätszeitleiste](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klicken Sie auf den Namen eines Lernenden, um den detaillierten Aktivitätsbericht anzuzeigen. Dieser zeigt:
 

@@ -2,7 +2,7 @@
 
 课程设置用于控制课程的行为——谁可以访问、如何显示，以及启用哪些功能。
 
-要访问课程设置，请进入课程，然后点击 **切换到学生视图** 按钮旁的 **设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 图标。
+要访问课程设置，请进入课程，然后点击 **切换到学生视图** 按钮旁的 **设置** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 图标。
 
 ## 常规设置
 
@@ -29,7 +29,7 @@
 
 ### 课程可见性
 
-![课程可见性设置，显示公开、开放、已注册和关闭选项](/.gitbook/assets/course-settings-visibility.png)
+![课程可见性设置，显示公开、开放、已注册和关闭选项](../../.gitbook/assets/course-settings-visibility.png)
 
 控制谁可以访问您的课程：
 
@@ -84,7 +84,7 @@
 
 ### 自动启动设置
 
-课程可设置为具有自动启动行为，从而缩短学习者到达课程重要部分的路径。若启用，进入课程的学习者将直接被导向所选工具，而不会将课程主页作为中间步骤。您甚至可以选择在到达课程时启动特定的学习路径或测验。此时，您需先在此处选择该选项，然后前往学习路径或测验列表，并点击所选项目上的火箭 <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自动启动" data-size="line"> 图标。
+课程可设置为具有自动启动行为，从而缩短学习者到达课程重要部分的路径。若启用，进入课程的学习者将直接被导向所选工具，而不会将课程主页作为中间步骤。您甚至可以选择在到达课程时启动特定的学习路径或测验。此时，您需先在此处选择该选项，然后前往学习路径或测验列表，并点击所选项目上的火箭 <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自动启动" data-size="line"> 图标。
 
 ### AI 助手设置
 

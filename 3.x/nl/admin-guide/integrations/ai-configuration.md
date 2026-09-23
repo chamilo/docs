@@ -35,7 +35,7 @@ Registreer een account bij de gekozen AI-provider en verkrijg een API-sleutel:
 
 ### 2. Providers configureren in Chamilo
 
-![De configuratiepagina voor AI-helpers met providerinstellingen met velden voor API-sleutel, model en eindpunt](/.gitbook/assets/admin-ai-helpers-config.png)
+![De configuratiepagina voor AI-helpers met providerinstellingen met velden voor API-sleutel, model en eindpunt](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Ga in de platforminstellingen naar de sectie **AI Helpers**:
 

@@ -4,13 +4,13 @@
 
 ## شريط الأعلى
 
-![شريط الأعلى مع عناصر مشروحة تشمل الشعار والصندوق الوارد والتذكرة الداعمة وصورة المستخدم](/.gitbook/assets/top-bar-annotated.png)
+![شريط الأعلى مع عناصر مشروحة تشمل الشعار والصندوق الوارد والتذكرة الداعمة وصورة المستخدم](../../.gitbook/assets/top-bar-annotated.png)
 
 يظهر شريط الأعلى دائمًا في أعلى كل صفحة. ويحتوي على:
 
 * **شعار المنصة** — انقر عليه للعودة إلى الصفحة الرئيسية في أي وقت.
-* **أيقونة الصندوق الوارد** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — تعرض رسائلك. يشير شارة حمراء إلى الرسائل غير المقروءة. انقر لفتح صندوقك الوارد.
-* **أيقونة تذكرة الدعم** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — إذا قام مديرك بتفعيلها، فإنها تمنحك الوصول إلى نظام تذاكر الدعم.
+* **أيقونة الصندوق الوارد** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — تعرض رسائلك. يشير شارة حمراء إلى الرسائل غير المقروءة. انقر لفتح صندوقك الوارد.
+* **أيقونة تذكرة الدعم** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — إذا قام مديرك بتفعيلها، فإنها تمنحك الوصول إلى نظام تذاكر الدعم.
 * **صورة ملفك الشخصي** — صورة دائرية في الزاوية العلوية اليمنى. انقر عليها لفتح قائمة منسدلة تحتوي على روابط إلى ملفك الشخصي وإعدادات الحساب وتسجيل الخروج.
 
 ## الشريط الجانبي
@@ -19,19 +19,19 @@
 
 يحتوي الشريط الجانبي على الروابط التالية (قد تكون بعضها مخفية حسب تكوين المنصة):
 
-![لوحة التنقل الجانبية في حالتها الموسعة تظهر جميع عناصر القائمة](/.gitbook/assets/sidebar-expanded.png)
+![لوحة التنقل الجانبية في حالتها الموسعة تظهر جميع عناصر القائمة](../../.gitbook/assets/sidebar-expanded.png)
 
 | عنصر القائمة | الأيقونة | الوصف |
 |---------------|----------|-------|
-| **الرئيسية** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | العودة إلى لوحة التحكم الرئيسية |
-| **دوراتي** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | قائمة بجميع الدورات المسجل فيها |
-| **جلساتي** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | قائمة بجلسات التدريب الخاصة بك (حالية، سابقة، قادمة) |
-| **استكشاف المزيد من الدورات** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | تصفح كتالوج الدورات للعثور على دورات جديدة |
-| **جدول الأعمال** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | تقويمك الشخصي وتقويم الدورة |
-| **التقارير** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | الوصول إلى تتبع المتعلمين وتقارير الدورة |
-| **الشبكة الاجتماعية** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | التواصل مع المستخدمين الآخرين، إرسال الرسائل، الانضمام إلى المجموعات |
-| **المؤتمر الافتراضي** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | الوصول إلى جلسات الفيديو الحية (إذا تم تكوينها) |
-| **الإدارة** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | إدارة المنصة (مرئية فقط للمشرفين) |
+| **الرئيسية** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | العودة إلى لوحة التحكم الرئيسية |
+| **دوراتي** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | قائمة بجميع الدورات المسجل فيها |
+| **جلساتي** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | قائمة بجلسات التدريب الخاصة بك (حالية، سابقة، قادمة) |
+| **استكشاف المزيد من الدورات** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | تصفح كتالوج الدورات للعثور على دورات جديدة |
+| **جدول الأعمال** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | تقويمك الشخصي وتقويم الدورة |
+| **التقارير** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | الوصول إلى تتبع المتعلمين وتقارير الدورة |
+| **الشبكة الاجتماعية** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | التواصل مع المستخدمين الآخرين، إرسال الرسائل، الانضمام إلى المجموعات |
+| **المؤتمر الافتراضي** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | الوصول إلى جلسات الفيديو الحية (إذا تم تكوينها) |
+| **الإدارة** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | إدارة المنصة (مرئية فقط للمشرفين) |
 
 في أسفل الشريط الجانبي تمامًا، ستجد خيار **تسجيل الخروج** لتسجيل الخروج بسرعة عند الانتهاء. هذا الخيار متاح أيضًا من قائمة الصقر المنسدلة لأيقونة صورة ملفك الشخصي في الزاوية العلوية اليمنى.
 إذا كانت المنصة تُدار من خلال طرق مصادقة خارجية، فقد لا تكون خيارات تسجيل الخروج هذه متاحة.
@@ -50,8 +50,8 @@
 
 كمعلم، سترى عناصر تحكم إضافية:
 
-* **عرض الطالب** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — قم بتبديل هذا لترى الدورة كما يراها الطالب
-* **تحرير المقدمة** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — تحرير نص مقدمة الدورة
+* **عرض الطالب** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — قم بتبديل هذا لترى الدورة كما يراها الطالب
+* **تحرير المقدمة** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — تحرير نص مقدمة الدورة
 * **إظهار الكل / إخفاء الكل** — تغيير رؤية جميع الأدوات للطلاب بسرعة
 * **ترتيب** — تفعيل السحب والإفلات لإعادة ترتيب الأدوات في الصفحة الرئيسية
 

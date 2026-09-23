@@ -6,7 +6,7 @@ Chamilo integrates with video conferencing platforms to let you run live session
 
 ## Starting a Video Session
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
+1. Open the **Video conference** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
 2. Click **Start a meeting** (or a similar button depending on the configured platform)
 3. A new video conferencing room will open in a new browser tab
 

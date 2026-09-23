@@ -8,6 +8,6 @@ Chamilo sporer kursisternes aktivitet på hele platformen og giver dig detaljere
 
 ## Adgang til rapporter
 
-Fra dit kursus klikker du på værktøjet **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> på kursets startside. Du kan også få adgang til rapportering via linket **Reporting** i sidepanelet for et overblik på tværs af kurser.
+Fra dit kursus klikker du på værktøjet **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> på kursets startside. Du kan også få adgang til rapportering via linket **Reporting** i sidepanelet for et overblik på tværs af kurser.
 
 Undervisere ser rapporteringsdata for de kurser, de underviser i. Sessionsvejledere ser data på tværs af alle kurser i deres session.

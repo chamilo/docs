@@ -9,7 +9,7 @@ De generator is beschikbaar vanuit de tool **Glossarium**, mits:
 1. AI-helpers op platformniveau zijn ingeschakeld
 2. Ten minste één AI-tekstprovider is geconfigureerd
 
-Open de tool **Glossarium** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossarium" data-size="line"> vanaf de startpagina van de cursus en zoek naar de knop **Genereren met AI** in de werkbalk.
+Open de tool **Glossarium** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossarium" data-size="line"> vanaf de startpagina van de cursus en zoek naar de knop **Genereren met AI** in de werkbalk.
 
 ## Termen genereren
 

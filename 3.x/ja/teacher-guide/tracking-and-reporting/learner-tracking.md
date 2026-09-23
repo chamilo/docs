@@ -4,7 +4,7 @@ Chamilo はプラットフォーム全体で学習者の活動を追跡し、各
 
 ## 学習者トラッキングへのアクセス
 
-コースホームページから **トラッキング** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="トラッキング" data-size="line"> ツールを開くか、サイドバーの **レポート** をクリックします。
+コースホームページから **トラッキング** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="トラッキング" data-size="line"> ツールを開くか、サイドバーの **レポート** をクリックします。
 
 ## 追跡される内容
 
@@ -22,7 +22,7 @@ Chamilo はプラットフォーム全体で学習者の活動を追跡し、各
 
 ## 個別の学習者データの表示
 
-![進捗、得点、活動タイムラインを示す詳細な学習者トラッキング画面](/.gitbook/assets/tracking-learner-detail.png)
+![進捗、得点、活動タイムラインを示す詳細な学習者トラッキング画面](../../.gitbook/assets/tracking-learner-detail.png)
 
 学習者の名前をクリックすると、詳細な活動レポートが表示されます。内容は次のとおりです。
 

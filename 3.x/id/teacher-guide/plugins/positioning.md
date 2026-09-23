@@ -1,6 +1,6 @@
 # Positioning
 
-Positioning <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positioning" data-size="line"> menambahkan alur kerja asesmen diri sebelum/sesudah: pilih satu tes sebagai **tes awal** dan tes lain sebagai **tes akhir** (sering kali salinan dari tes yang sama), dan Chamilo menampilkan perubahan skor setiap peserta didik di antara keduanya pada grafik radar.
+Positioning <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positioning" data-size="line"> menambahkan alur kerja asesmen diri sebelum/sesudah: pilih satu tes sebagai **tes awal** dan tes lain sebagai **tes akhir** (sering kali salinan dari tes yang sama), dan Chamilo menampilkan perubahan skor setiap peserta didik di antara keduanya pada grafik radar.
 
 ## Mengakses Alat
 

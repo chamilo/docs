@@ -4,9 +4,9 @@ L'outil Agenda vous permet de planifier des événements et des échéances au s
 
 ## Consultation de l'Agenda
 
-Ouvrez l'outil **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> depuis la page d'accueil du cours. Vous pouvez visualiser les événements sous trois modes différents :
+Ouvrez l'outil **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> depuis la page d'accueil du cours. Vous pouvez visualiser les événements sous trois modes différents :
 
-![L'agenda en vue calendrier affichant les événements et échéances du cours](/.gitbook/assets/agenda-calendar-view.png)
+![L'agenda en vue calendrier affichant les événements et échéances du cours](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Vue calendrier** — Un calendrier visuel mensuel/hebdomadaire/quotidien
 * **Vue liste** — Les événements affichés sous forme de liste chronologique
@@ -14,7 +14,7 @@ Ouvrez l'outil **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg
 
 ## Création d'un Événement
 
-1. Cliquez sur **Ajouter un événement** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ajouter un événement" data-size="line">
+1. Cliquez sur **Ajouter un événement** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ajouter un événement" data-size="line">
 2. Remplissez les détails de l'événement :
    * **Titre **` — Un nom court pour l'événement
    * **Date et heure de début**
@@ -23,13 +23,13 @@ Ouvrez l'outil **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg
 3. Choisissez le **public cible** :
    * **Tous les apprenants** — Tous les inscrits au cours
    * **Utilisateurs ou groupes spécifiques** — Sélectionnez des apprenants ou des groupes individuels
-4. Définissez éventuellement un **rappel** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Rappel" data-size="line"> pour envoyer des notifications par courriel avant l'événement (configuration de *cron* pour le portail requise par un administrateur)
+4. Définissez éventuellement un **rappel** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Rappel" data-size="line"> pour envoyer des notifications par courriel avant l'événement (configuration de *cron* pour le portail requise par un administrateur)
 5. Enregistrez
 
 ## Gestion des Événements
 
-* **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Cliquez sur un événement pour en modifier les détails
-* **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer un événement du calendrier
+* **Modifier** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Cliquez sur un événement pour en modifier les détails
+* **Supprimer** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer un événement du calendrier
 * **Glisser-déposer** — En vue calendrier, déplacez les événements pour les reprogrammer
 
 ## Agenda Personnel

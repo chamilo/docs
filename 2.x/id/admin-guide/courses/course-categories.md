@@ -19,7 +19,7 @@ Chamilo membuat 3 kategori secara default: *Keterampilan Bahasa*, *Keterampilan 
 
 ## Hierarki Kategori
 
-![Halaman manajemen kategori kursus yang menunjukkan struktur pohon bersarang dari kategori](/.gitbook/assets/admin-course-categories.png)
+![Halaman manajemen kategori kursus yang menunjukkan struktur pohon bersarang dari kategori](../../.gitbook/assets/admin-course-categories.png)
 
 Kategori dapat disusun secara bersarang untuk membuat struktur pohon:
 

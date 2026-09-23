@@ -4,9 +4,9 @@ Kursberichte bieten Ihnen eine aggregierte Übersicht über Aktivitäten und Lei
 
 ## Zugriff auf Kursberichte
 
-Öffnen Sie das Werkzeug **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> auf der Kurs-Startseite und wählen Sie die Ansicht für Kursberichte aus.
+Öffnen Sie das Werkzeug **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> auf der Kurs-Startseite und wählen Sie die Ansicht für Kursberichte aus.
 
-![Die Kurs-Tracking-Übersicht mit Engagement-Metriken und Zusammenfassung der Lernendenaktivitäten](/.gitbook/assets/tracking-course-overview.png)
+![Die Kurs-Tracking-Übersicht mit Engagement-Metriken und Zusammenfassung der Lernendenaktivitäten](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Verfügbare Berichte
 
@@ -43,7 +43,7 @@ Für jede Aufgabe:
 
 ## Exportieren von Daten
 
-Sie können Tracking- und Berichtsdaten für weitere Analysen exportieren. Suchen Sie nach der Option **Exportieren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Daten in einem tabellenkalkulationskompatiblen Format herunterzuladen.
+Sie können Tracking- und Berichtsdaten für weitere Analysen exportieren. Suchen Sie nach der Option **Exportieren** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Daten in einem tabellenkalkulationskompatiblen Format herunterzuladen.
 
 ## Sitzungsberichte
 

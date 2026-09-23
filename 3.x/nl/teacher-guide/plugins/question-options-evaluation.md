@@ -1,6 +1,6 @@
 # Vraagopties-evaluatie
 
-Vraagopties-evaluatie <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Vraagopties-evaluatie" data-size="line"> laat u een formule voor negatieve scoring (strafpunten) toepassen op de scoring van een toets, in plaats van het standaardgedrag van Chamilo waarbij eenvoudigweg de juiste antwoorden worden opgeteld.
+Vraagopties-evaluatie <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Vraagopties-evaluatie" data-size="line"> laat u een formule voor negatieve scoring (strafpunten) toepassen op de scoring van een toets, in plaats van het standaardgedrag van Chamilo waarbij eenvoudigweg de juiste antwoorden worden opgeteld.
 
 ## Een formule instellen
 

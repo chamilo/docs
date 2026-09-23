@@ -4,7 +4,7 @@
 
 ## Como acessar
 
-Clique em **Relatórios** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Relatórios" data-size="line"> na barra lateral para expandi-la e, em seguida, clique em **Progresso**. Esta é a sua visão pessoal — ela mostra apenas os seus próprios dados, nunca os dos colegas.
+Clique em **Relatórios** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Relatórios" data-size="line"> na barra lateral para expandi-la e, em seguida, clique em **Progresso**. Esta é a sua visão pessoal — ela mostra apenas os seus próprios dados, nunca os dos colegas.
 
 ## O que você vê
 
@@ -15,7 +15,7 @@ Uma tabela listando todos os cursos em que você está, com:
 * **Melhor pontuação no percurso de aprendizagem** e **melhor pontuação fora do percurso de aprendizagem** — os seus melhores resultados, separados conforme tenham vindo de um teste incorporado a um percurso de aprendizagem ou de um teste avulso
 * **Último acesso** — a última vez em que você acessou aquele curso
 
-![A tabela Meu Progresso, listando todos os cursos inscritos com tempo gasto, progresso e melhores pontuações](/.gitbook/assets/student-my-progress.png)
+![A tabela Meu Progresso, listando todos os cursos inscritos com tempo gasto, progresso e melhores pontuações](../.gitbook/assets/student-my-progress.png)
 
 Clique no botão **Detalhes** ao lado de qualquer curso para expandir três subtabelas sem sair da página:
 
@@ -27,7 +27,7 @@ Clique no botão **Detalhes** ao lado de qualquer curso para expandir três subt
 
 Os certificados não fazem parte desta página — encontre-os em **Meus certificados**, no menu do avatar no canto superior direito da tela. A lista inclui todos os cursos e sessões em que você obteve um certificado, com a pontuação, a data e botões para **visualizar** ou **baixar**.
 
-![A página Meus certificados, com tabelas separadas para certificados de curso e certificados de sessão](/.gitbook/assets/student-my-certificates.png)
+![A página Meus certificados, com tabelas separadas para certificados de curso e certificados de sessão](../.gitbook/assets/student-my-certificates.png)
 
 O menu do avatar também tem um link **Minhas competências**, que lista os distintivos de competência que você recebeu — separado das duas páginas acima.
 

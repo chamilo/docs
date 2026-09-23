@@ -4,7 +4,7 @@ The **Forum** tool hosts structured, threaded discussions within a course — a 
 
 ## Finding Your Way Around
 
-Open the **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> tool from the course homepage. Forums are organized in three levels:
+Open the **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> tool from the course homepage. Forums are organized in three levels:
 
 1. **Categories** — broad groupings (e.g., "General Discussions", "Module 1 Questions")
 2. **Forums** — individual discussion boards within a category

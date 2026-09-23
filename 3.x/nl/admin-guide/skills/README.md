@@ -2,7 +2,7 @@
 
 Het blok **Skills** op het beheerdashboard groepeert de tools voor het definiëren, organiseren en volgen van competentiebadges ("skills") op het hele platform. Een skill kan automatisch worden toegekend wanneer een leerling een drempel in het cijferboek bereikt, specifieke cursussen voltooit, of handmatig door een docent, en kan een badge-achtig pictogram en een niveau dragen (bijvoorbeeld Brons/Zilver/Goud).
 
-![Het blok Skills op het beheerdashboard, met Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking en Skills and assessments](/.gitbook/assets/admin-skills-block.png)
+![Het blok Skills op het beheerdashboard, met Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking en Skills and assessments](../../.gitbook/assets/admin-skills-block.png)
 
 Het hele blok verschijnt alleen als de instelling **Enable skills tool** (`skill.allow_skills_tool`, onder Configuration Settings > Skills) is ingeschakeld — deze is standaard ingeschakeld.
 

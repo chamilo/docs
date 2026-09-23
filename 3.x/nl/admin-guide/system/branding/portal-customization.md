@@ -4,7 +4,7 @@ Pas aan hoe uw Chamilo-platform eruitziet en welke informatie aan gebruikers wor
 
 ## Platformidentiteit
 
-![De pagina voor portaalaanpassing met instellingen voor platformidentiteit: naam, logo en instelling](/.gitbook/assets/admin-portal-customization.png)
+![De pagina voor portaalaanpassing met instellingen voor platformidentiteit: naam, logo en instelling](../../../.gitbook/assets/admin-portal-customization.png)
 
 Configureer de basisidentiteit van uw portaal:
 

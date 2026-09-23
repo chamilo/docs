@@ -8,7 +8,7 @@ Fare clic su **Rete sociale** nella barra laterale per accedere alle funzionalit
 
 ## Il proprio muro sociale
 
-![Il muro sociale che mostra un feed di post, like e commenti dalle connessioni](/.gitbook/assets/social-wall.png)
+![Il muro sociale che mostra un feed di post, like e commenti dalle connessioni](../.gitbook/assets/social-wall.png)
 
 Il muro sociale mostra un feed di attività proprie e delle proprie connessioni. È possibile:
 
@@ -30,9 +30,9 @@ Il muro sociale mostra un feed di attività proprie e delle proprie connessioni.
 
 La rete sociale si integra con il sistema di messaggistica della piattaforma:
 
-* **Inviare messaggi** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuovo messaggio" data-size="line"> — Scrivere messaggi diretti ad altri utenti
-* **Posta in arrivo** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posta in arrivo" data-size="line"> — Leggere e rispondere ai messaggi ricevuti
-* **Messaggi inviati** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Inviati" data-size="line"> — Rivedere i messaggi inviati
+* **Inviare messaggi** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuovo messaggio" data-size="line"> — Scrivere messaggi diretti ad altri utenti
+* **Posta in arrivo** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Posta in arrivo" data-size="line"> — Leggere e rispondere ai messaggi ricevuti
+* **Messaggi inviati** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Inviati" data-size="line"> — Rivedere i messaggi inviati
 
 ### Composizione e risposta
 

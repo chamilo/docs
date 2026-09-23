@@ -6,7 +6,7 @@ Chamilo integreres med videokonferanseplattformer slik at du kan holde live-økt
 
 ## Starte en videoøkt
 
-1. Åpne verktøyet **Videokonferanse** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> fra kursets hjemmeside (eller fra sidemenyen)
+1. Åpne verktøyet **Videokonferanse** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> fra kursets hjemmeside (eller fra sidemenyen)
 2. Klikk **Start et møte** (eller en tilsvarende knapp avhengig av den konfigurerte plattformen)
 3. Et nytt videokonferanserom åpnes i en ny nettleserfane
 

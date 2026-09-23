@@ -16,14 +16,14 @@ Jalur pembelajaran berguna ketika Anda ingin:
 
 ## Membuat Jalur Pembelajaran
 
-1. Buka alat **Jalur Pembelajaran** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Jalur Pembelajaran" data-size="line"> dari halaman utama kursus
+1. Buka alat **Jalur Pembelajaran** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Jalur Pembelajaran" data-size="line"> dari halaman utama kursus
 2. Klik **Buat jalur pembelajaran**
 3. Masukkan **judul** dan deskripsi opsional
 4. Simpan — Anda akan dibawa ke editor jalur pembelajaran
 
 ## Editor Jalur Pembelajaran
 
-![Editor jalur pembelajaran dengan pohon item di sebelah kiri dan pratinjau konten di sebelah kanan](/.gitbook/assets/learning-path-editor.png)
+![Editor jalur pembelajaran dengan pohon item di sebelah kiri dan pratinjau konten di sebelah kanan](../../.gitbook/assets/learning-path-editor.png)
 
 Editor memiliki dua area utama:
 

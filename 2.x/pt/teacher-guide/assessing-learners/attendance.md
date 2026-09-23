@@ -20,7 +20,7 @@ A ferramenta de presença permite que você acompanhe a participação dos aluno
 Cada folha de presença contém uma ou mais datas (sessões) nas quais você registra a presença:
 
 1. Abra uma folha de presença ou continue com o processo de criação
-2. Clique em **Adicionar uma data** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
+2. Clique em **Adicionar uma data** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
 3. Selecione a data e o horário
 4. Opcionalmente, marque **Repetir data** para escolher uma lógica de repetição
 5. Defina uma **Duração** em minutos para o evento (o padrão é 60 minutos)
@@ -44,7 +44,7 @@ Nota: Os administradores podem modificar a configuração do portal para permiti
 
 ## Visualizando Relatórios de Presença
 
-![A folha de presença mostrando uma tabela de resumo com alunos, datas e indicadores de presença](/.gitbook/assets/attendance-sheet.png)
+![A folha de presença mostrando uma tabela de resumo com alunos, datas e indicadores de presença](../../.gitbook/assets/attendance-sheet.png)
 
 A ferramenta de presença exibe:
 

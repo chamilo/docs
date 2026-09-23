@@ -10,7 +10,7 @@
 
 ## كيفية توليد صورة أو فيديو
 
-1. افتح مستندًا في أداة **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (أنشئ واحدًا جديدًا أو حرر واحدًا موجودًا)
+1. افتح مستندًا في أداة **Documents** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (أنشئ واحدًا جديدًا أو حرر واحدًا موجودًا)
 2. في محرر النصوص الغنية، ضع مؤشرك داخل الفقرة أو بالقرب منها التي تريد توضيحها
 3. افتح مربع حوار **Generate AI media** من شريط أدوات المحرر
 4. صف ما تريد أن يظهره الوسائط، أو استخدم الفقرة المحددة كنص تلقيمي

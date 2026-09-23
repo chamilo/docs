@@ -2,7 +2,7 @@
 
 Kursinnstillinger lar deg styre hvordan kurset ditt oppfører seg — hvem som kan få tilgang, hvordan det vises, og hvilke funksjoner som er aktivert.
 
-For å åpne kursinnstillinger går du inn i kurset og klikker på ikonet **Innstillinger** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line"> ved siden av knappen **Bytt til studentvisning**.
+For å åpne kursinnstillinger går du inn i kurset og klikker på ikonet **Innstillinger** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line"> ved siden av knappen **Bytt til studentvisning**.
 
 ## Generelle innstillinger
 
@@ -29,7 +29,7 @@ Hvert kurs har en lagringsgrense (diskkvote) for opplastede filer. Kvoten settes
 
 ### Kurssynlighet
 
-![Kursinnstillinger for synlighet som viser alternativene offentlig, åpen, registrert og stengt](/.gitbook/assets/course-settings-visibility.png)
+![Kursinnstillinger for synlighet som viser alternativene offentlig, åpen, registrert og stengt](../../.gitbook/assets/course-settings-visibility.png)
 
 Styr hvem som kan få tilgang til kurset ditt:
 
@@ -84,7 +84,7 @@ Styr atferden i forumverktøyet i dette kurset.
 
 ### Autolanseringsinnstillinger
 
-Et kurs kan settes opp med autolanseringsatferd, som forkorter veien for lærende til de viktige delene av kurset ditt. Hvis dette er aktivert, sendes lærende som går inn i kurset ditt, direkte til det valgte verktøyet og ser ikke kursets hjemmeside som et mellomtrinn. Du kan til og med velge bestemte læringsstier eller øvelser som skal lanseres ved ankomst til kurset. I så fall må du velge alternativet her, og deretter gå til listen over læringsstier eller øvelser og klikke på rakettikonet <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolansering" data-size="line"> på det valgte elementet.
+Et kurs kan settes opp med autolanseringsatferd, som forkorter veien for lærende til de viktige delene av kurset ditt. Hvis dette er aktivert, sendes lærende som går inn i kurset ditt, direkte til det valgte verktøyet og ser ikke kursets hjemmeside som et mellomtrinn. Du kan til og med velge bestemte læringsstier eller øvelser som skal lanseres ved ankomst til kurset. I så fall må du velge alternativet her, og deretter gå til listen over læringsstier eller øvelser og klikke på rakettikonet <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolansering" data-size="line"> på det valgte elementet.
 
 ### Innstillinger for AI-hjelpere
 

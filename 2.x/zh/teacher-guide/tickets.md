@@ -19,7 +19,7 @@
 
 ## 访问工单工具
 
-如果您的管理员启用了工单链接，顶部导航栏中会显示一个工单图标 <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="工单" data-size="line">。点击它可以直接进入工单提交表单。
+如果您的管理员启用了工单链接，顶部导航栏中会显示一个工单图标 <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="工单" data-size="line">。点击它可以直接进入工单提交表单。
 
 您还可以通过主菜单下的**支持**或**工单**访问您的工单，具体取决于您的平台配置。
 

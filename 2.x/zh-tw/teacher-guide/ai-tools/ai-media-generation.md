@@ -10,7 +10,7 @@
 
 ## How to Generate an Image or Video
 
-1. 在 **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> 工具中開啟文件（建立新文件或編輯現有文件）
+1. 在 **Documents** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> 工具中開啟文件（建立新文件或編輯現有文件）
 2. 在富文本編輯器中，將游標置於您要圖解的段落內或附近
 3. 從編輯器工具列開啟 **Generate AI media** 對話框
 4. 描述您希望媒體呈現的內容，或使用選取的段落作為提示

@@ -10,7 +10,7 @@ Wanneer u een document bewerkt in de tool **Documenten**, kunt u met de functie 
 
 ## Een afbeelding of video genereren
 
-1. Open een document in de tool **Documenten** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenten" data-size="line"> (maak een nieuw document of bewerk een bestaand document)
+1. Open een document in de tool **Documenten** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenten" data-size="line"> (maak een nieuw document of bewerk een bestaand document)
 2. Plaats in de rich-texteditor de cursor in of bij de alinea die u wilt illustreren
 3. Open het dialoogvenster **AI-media genereren** via de editorwerkbalk
 4. Beschrijf wat de media moet tonen, of gebruik de geselecteerde alinea als prompt

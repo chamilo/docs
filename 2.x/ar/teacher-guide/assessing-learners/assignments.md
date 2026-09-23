@@ -4,7 +4,7 @@
 
 ## إنشاء واجب
 
-1. افتح أداة **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> من الصفحة الرئيسية للمقرر
+1. افتح أداة **Assignments** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> من الصفحة الرئيسية للمقرر
 2. انقر على **Create an assignment**
 3. املأ التفاصيل:
    * **Assignment name** — اسم الواجب (مثل "تقرير المشروع النهائي")
@@ -41,7 +41,7 @@
 
 ## مراجعة التقديمات
 
-![قائمة تقديمات الواجب التي تظهر أسماء الطلاب، التواريخ، الملفات، وحالة التقييم](/.gitbook/assets/assignments-submissions-list.png)
+![قائمة تقديمات الواجب التي تظهر أسماء الطلاب، التواريخ، الملفات، وحالة التقييم](../../.gitbook/assets/assignments-submissions-list.png)
 
 كمعلم، افتح واجبًا لرؤية قائمة جميع التقديمات:
 
@@ -53,7 +53,7 @@
 
 ### تقييم تقديم
 
-![عرض تقييم الواجب مع إدخال الدرجة، حقل الملاحظات، وتحميل الملف المصحح](/.gitbook/assets/assignment-grading-view.png)
+![عرض تقييم الواجب مع إدخال الدرجة، حقل الملاحظات، وتحميل الملف المصحح](../../.gitbook/assets/assignment-grading-view.png)
 
 1. انقر على تقديم لفتحه
 2. راجع الملف المقدم

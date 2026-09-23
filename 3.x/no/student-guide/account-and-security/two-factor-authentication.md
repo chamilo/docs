@@ -11,7 +11,7 @@ Denne funksjonen vises bare hvis administratoren har slått den på for hele pla
 3. Skriv inn **gjeldende passord**, merk av for **Aktiver tofaktorautentisering (2FA)**, og klikk **Oppdater innstillinger**.
 4. Siden lastes på nytt med en QR-kode og meldingen «Skann QR-koden for å aktivere 2FA.» Skann den med en autentiseringsapp på telefonen (enhver TOTP-kompatibel app fungerer, for eksempel Google Authenticator, Microsoft Authenticator eller Authy).
 
-![Skjemaet Endre passord etter innsending, som viser QR-koden som skal skannes og feltet for 2FA-kode](/.gitbook/assets/student-2fa-qr-code.png)
+![Skjemaet Endre passord etter innsending, som viser QR-koden som skal skannes og feltet for 2FA-kode](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Skriv inn gjeldende passord på nytt, sammen med den 6-sifrede koden appen nå viser, i feltet **2FA-kode**, og klikk **Oppdater innstillinger** én gang til. Du vil se en bekreftelse på at 2FA er aktivert.
 

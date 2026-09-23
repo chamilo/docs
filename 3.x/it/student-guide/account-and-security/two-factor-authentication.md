@@ -11,7 +11,7 @@ Questa funzionalità compare solo se l'amministratore l'ha abilitata a livello d
 3. Inserisci la **password attuale**, seleziona la casella **Abilita autenticazione a due fattori (2FA)** e fai clic su **Aggiorna impostazioni**.
 4. La pagina si ricarica con un codice QR e il messaggio "Scansiona il codice QR per abilitare la 2FA." Scansionarlo con un'app autenticatore sul telefono (funziona qualsiasi app compatibile TOTP, come Google Authenticator, Microsoft Authenticator o Authy).
 
-![Il modulo Cambia password dopo l'invio, che mostra il codice QR da scansionare e il campo del codice 2FA](/.gitbook/assets/student-2fa-qr-code.png)
+![Il modulo Cambia password dopo l'invio, che mostra il codice QR da scansionare e il campo del codice 2FA](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Inserisci di nuovo la password attuale, insieme al codice di 6 cifre che l'app mostra ora, nel campo **Codice 2FA**, e fai clic ancora una volta su **Aggiorna impostazioni**. Vedrai una conferma che la 2FA è stata attivata.
 

@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Järjestelmä**-lohko kokoaa palvelintason ylläpitotyökalut, itsepäivitystyönkulun, tallennus- ja resurssitarkastustyökalut sekä alustan brändäyksen.
 
-![Hallintapaneelin Järjestelmä-lohko, jossa näkyvät Kohteet: Puhdista väliaikaiset tiedostot, Järjestelmän tila, Järjestelmäpäivitys, Värit, Tiedostotiedot, Resurssit tyypin mukaan ja Listaa kuvakkeet](/.gitbook/assets/admin-system-block.png)
+![Hallintapaneelin Järjestelmä-lohko, jossa näkyvät Kohteet: Puhdista väliaikaiset tiedostot, Järjestelmän tila, Järjestelmäpäivitys, Värit, Tiedostotiedot, Resurssit tyypin mukaan ja Listaa kuvakkeet](../../.gitbook/assets/admin-system-block.png)
 
 ## Järjestelmä-lohkon avaaminen
 

@@ -35,7 +35,7 @@ Register for an account with your chosen AI provider and obtain an API key:
 
 ### 2. Configure Providers in Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 In the platform settings, navigate to the **AI Helpers** section:
 

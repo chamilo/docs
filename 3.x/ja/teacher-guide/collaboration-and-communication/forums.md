@@ -4,7 +4,7 @@
 
 ## フォーラムの構造
 
-![カテゴリ、フォーラム、トピック数を示すフォーラムカテゴリ一覧](/.gitbook/assets/forum-category-list.png)
+![カテゴリ、フォーラム、トピック数を示すフォーラムカテゴリ一覧](../../.gitbook/assets/forum-category-list.png)
 
 Chamilo のフォーラムは次の3つのレベルで構成されます。
 
@@ -14,7 +14,7 @@ Chamilo のフォーラムは次の3つのレベルで構成されます。
 
 ## フォーラムカテゴリの作成
 
-1. コースホームページから **フォーラム** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> ツールを開きます
+1. コースホームページから **フォーラム** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> ツールを開きます
 2. **フォーラムカテゴリを追加** をクリックします
 3. **カテゴリ名** と任意の説明を入力します
 4. 保存します

@@ -1,6 +1,6 @@
 # Export d’enquête TXT
 
-Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Export d’enquête TXT" data-size="line"> exporte les résultats d’une enquête vers un fichier texte brut lisible — un bloc par répondant, listant chaque question, la ou les réponses choisies et toute réponse en texte libre, au lieu des lignes et colonnes d’un CSV.
+Survey Export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Export d’enquête TXT" data-size="line"> exporte les résultats d’une enquête vers un fichier texte brut lisible — un bloc par répondant, listant chaque question, la ou les réponses choisies et toute réponse en texte libre, au lieu des lignes et colonnes d’un CSV.
 
 ## Exporter une enquête
 

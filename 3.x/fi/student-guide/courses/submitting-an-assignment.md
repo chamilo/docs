@@ -4,7 +4,7 @@
 
 ## Työsi palauttaminen
 
-Avaa **Tehtävät**-työkalu <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tehtävät" data-size="line"> kurssin etusivulta ja avaa sitten kyseinen tehtävä. Lue kuvaus huolellisesti — se sisältää opettajasi ohjeet siitä, mitä palautetaan ja miten työ arvioidaan. Sen jälkeen:
+Avaa **Tehtävät**-työkalu <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tehtävät" data-size="line"> kurssin etusivulta ja avaa sitten kyseinen tehtävä. Lue kuvaus huolellisesti — se sisältää opettajasi ohjeet siitä, mitä palautetaan ja miten työ arvioidaan. Sen jälkeen:
 
 1. Napsauta **Lataa tiedosto** (tai palautuspainiketta)
 2. Riippuen siitä, miten opettajasi on määrittänyt tehtävän, valitse tiedosto tietokoneeltasi, kirjoita palautuksesi suoraan tekstinä tai tee molemmat

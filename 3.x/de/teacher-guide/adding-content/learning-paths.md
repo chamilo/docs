@@ -16,14 +16,14 @@ Lernpfade sind nützlich, wenn Sie Folgendes möchten:
 
 ## Einen Lernpfad erstellen
 
-1. Öffnen Sie das Werkzeug **Lernpfade** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> von der Kursstartseite
+1. Öffnen Sie das Werkzeug **Lernpfade** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> von der Kursstartseite
 2. Klicken Sie auf **Einen Lernpfad erstellen**
 3. Geben Sie einen **Titel** und optional eine Beschreibung ein
 4. Speichern — Sie gelangen zum Lernpfad-Editor
 
 ## Der Lernpfad-Editor
 
-![Der Lernpfad-Editor mit dem Elementbaum links und der Inhaltsvorschau rechts](/.gitbook/assets/learning-path-editor.png)
+![Der Lernpfad-Editor mit dem Elementbaum links und der Inhaltsvorschau rechts](../../.gitbook/assets/learning-path-editor.png)
 
 Der Editor hat zwei Hauptbereiche:
 
@@ -94,17 +94,17 @@ C-Studio fügt einen integrierten visuellen Drag-and-Drop-Editor hinzu, um inter
 
 Wenn das Plugin aktiv ist, zeigt die Liste der Lernpfade neben dem üblichen Aktionsmenü eine zusätzliche Schaltfläche, gekennzeichnet mit einem „+“ und dem Tooltip „Studio Tools“:
 
-![Die Liste der Lernpfade mit der C-Studio-Schaltfläche „Studio Tools“ neben dem Standard-Aktionsmenü](/.gitbook/assets/cstudio-lp-button.png)
+![Die Liste der Lernpfade mit der C-Studio-Schaltfläche „Studio Tools“ neben dem Standard-Aktionsmenü](../../.gitbook/assets/cstudio-lp-button.png)
 
 Klicken Sie darauf, um zu starten. Sie werden aufgefordert, ein neues Projekt von Grund auf zu erstellen oder ein vorhandenes zu importieren:
 
-![Der C-Studio-Startbildschirm mit der Möglichkeit, ein neues Projekt zu erstellen oder ein vorhandenes zu importieren](/.gitbook/assets/cstudio-start-screen.png)
+![Der C-Studio-Startbildschirm mit der Möglichkeit, ein neues Projekt zu erstellen oder ein vorhandenes zu importieren](../../.gitbook/assets/cstudio-start-screen.png)
 
 Dieser Bildschirm ist derzeit nur auf Französisch verfügbar, unabhängig von Ihrer Plattform- oder Kurssprache — eine bekannte Einschränkung der verwendeten Plugin-Version. Geben Sie Ihrem Projekt einen Titel, und es öffnet sich direkt im Editor.
 
 ### Der Editor
 
-![Der visuelle C-Studio-Editor mit der Seitenleinwand, der Werkzeugpalette rechts und dem Projektbereich links](/.gitbook/assets/cstudio-editor.png)
+![Der visuelle C-Studio-Editor mit der Seitenleinwand, der Werkzeugpalette rechts und dem Projektbereich links](../../.gitbook/assets/cstudio-editor.png)
 
 Der Editor ist ein visueller Builder Seite für Seite:
 
@@ -118,7 +118,7 @@ Die Palette umfasst grundlegende Bausteine (Spalten, Bilder, Audio, Titel, Text,
 
 Die eigene Oberfläche von C-Studio kann beim ersten Öffnen standardmäßig auf Französisch stehen, unabhängig von Ihrer Chamilo-Oberflächensprache oder der Kurssprache. Gehen Sie in diesem Fall zu **File > UI language** und wählen Sie Ihre Sprache — der Editor wird sofort neu geladen und merkt sich Ihre Wahl danach.
 
-![Das geöffnete Dateimenü mit der Option „UI language“](/.gitbook/assets/cstudio-file-menu.png)
+![Das geöffnete Dateimenü mit der Option „UI language“](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Speichern und Exportieren
 

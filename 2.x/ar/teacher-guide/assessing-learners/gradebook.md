@@ -19,7 +19,7 @@
 
 ## إعداد التقييم
 
-1. افتح أداة **التقييمات** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> من الصفحة الرئيسية للدورة
+1. افتح أداة **التقييمات** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> من الصفحة الرئيسية للدورة
 2. سترى نظرة عامة على التقييمات، فارغة في البداية
 
 ### إضافة الأنشطة
@@ -48,7 +48,7 @@
 
 ## عرض الدرجات
 
-![جدول نظرة عامة على الـ gradebook يظهر أسماء المتعلمين، درجات الأنشطة، والإجماليات المرجحة](/.gitbook/assets/gradebook-overview.png)
+![جدول نظرة عامة على الـ gradebook يظهر أسماء المتعلمين، درجات الأنشطة، والإجماليات المرجحة](../../.gitbook/assets/gradebook-overview.png)
 
 يعرض التقييم جدولًا يحتوي على:
 
@@ -75,7 +75,7 @@
 
 ## تصدير الدرجات
 
-انقر على زر **التصدير** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> لتنزيل الدرجات كجدول بيانات. هذا مفيد لـ:
+انقر على زر **التصدير** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> لتنزيل الدرجات كجدول بيانات. هذا مفيد لـ:
 
 * مشاركة الدرجات مع الأنظمة الإدارية
 * إجراء تحليل إضافي خارج Chamilo

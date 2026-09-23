@@ -14,7 +14,7 @@ I gruppi consentono di suddividere gli studenti in team più piccoli per il lavo
 
 ## Strumenti di gruppo
 
-![Panoramica dei gruppi con gli strumenti di gruppo disponibili e il numero di membri](/.gitbook/assets/groups-overview.png)
+![Panoramica dei gruppi con gli strumenti di gruppo disponibili e il numero di membri](../../.gitbook/assets/groups-overview.png)
 
 Ogni gruppo può accedere a un sottoinsieme di strumenti del corso condivisi solo tra i membri del gruppo:
 

@@ -2,7 +2,7 @@
 
 El bloque **Gestión de la plataforma** del panel de administración agrupa las herramientas de configuración y comunicación a nivel de portal: desde el panel completo de ajustes hasta los idiomas, los anuncios públicos, el calendario global y el sistema de Páginas, similar a un CMS, que construye parte del contenido público de su portal.
 
-![El bloque Gestión de la plataforma en el panel de administración, que enumera Ajustes de configuración, Idiomas, Plugins, Regiones, Noticias del portal, Agenda global, Páginas, Configuración de la página de registro, Campos extra, Configurar URL de acceso múltiple, Plantillas de correo, Herramientas externas (LTI), Categorías del formulario de contacto y Plantillas del sistema](/.gitbook/assets/admin-platform-block.png)
+![El bloque Gestión de la plataforma en el panel de administración, que enumera Ajustes de configuración, Idiomas, Plugins, Regiones, Noticias del portal, Agenda global, Páginas, Configuración de la página de registro, Campos extra, Configurar URL de acceso múltiple, Plantillas de correo, Herramientas externas (LTI), Categorías del formulario de contacto y Plantillas del sistema](../../.gitbook/assets/admin-platform-block.png)
 
 ## Acceso al bloque Plataforma
 

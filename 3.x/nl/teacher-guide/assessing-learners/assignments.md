@@ -4,7 +4,7 @@ De opdrachttentool (ook wel "studentenpublicaties" genoemd) laat u werk van curs
 
 ## Een opdracht aanmaken
 
-1. Open de tool **Opdrachten** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de startpagina van de cursus
+1. Open de tool **Opdrachten** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de startpagina van de cursus
 2. Klik op **Een opdracht aanmaken**
 3. Vul de gegevens in:
    * **Opdrachtnaam** — De naam van de opdracht (bijv. "Eindprojectverslag")
@@ -41,7 +41,7 @@ Cursisten kunnen zien of ze al hebben ingeleverd en, indien toegestaan, hun inle
 
 ## Inleveringen beoordelen
 
-![De lijst met opdrachtinleveringen met namen van studenten, datums, bestanden en beoordelingsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![De lijst met opdrachtinleveringen met namen van studenten, datums, bestanden en beoordelingsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Als docent opent u een opdracht om de lijst van alle inleveringen te zien:
 
@@ -53,7 +53,7 @@ Als docent opent u een opdracht om de lijst van alle inleveringen te zien:
 
 ### Een inlevering beoordelen
 
-![De beoordelingsweergave van de opdracht met scoreveld, feedbackveld en upload van een gecorrigeerd bestand](/.gitbook/assets/assignment-grading-view.png)
+![De beoordelingsweergave van de opdracht met scoreveld, feedbackveld en upload van een gecorrigeerd bestand](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klik op een inlevering om deze te openen
 2. Bekijk het ingeleverde bestand

@@ -1,6 +1,6 @@
 # Anpassat certifikat
 
-Tillägget Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Anpassat certifikat" data-size="line"> låter dig ersätta det vanliga [betygsbokscertifikatet](../assessing-learners/gradebook.md) med din egen design — logotyper, ett sigill, upp till fyra signaturbilder med bildtexter, en bakgrundsbild, marginaler och innehåll uppbyggt av platshållartaggar.
+Tillägget Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Anpassat certifikat" data-size="line"> låter dig ersätta det vanliga [betygsbokscertifikatet](../assessing-learners/gradebook.md) med din egen design — logotyper, ett sigill, upp till fyra signaturbilder med bildtexter, en bakgrundsbild, marginaler och innehåll uppbyggt av platshållartaggar.
 
 ## Aktivera det för din kurs
 

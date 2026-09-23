@@ -6,8 +6,8 @@ As mensagens enviadas através de anúncios são enviadas aos alunos tanto por e
 
 ## Criar um anúncio
 
-1. Abra a ferramenta **Anúncios** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Anúncios" data-size="line"> a partir da página inicial do curso
-2. Clique novamente no ícone **Adicionar um anúncio** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Anúncios" data-size="line">
+1. Abra a ferramenta **Anúncios** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Anúncios" data-size="line"> a partir da página inicial do curso
+2. Clique novamente no ícone **Adicionar um anúncio** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Anúncios" data-size="line">
 3. Preencha:
    * **Destinatários** — Escolha quem recebe o anúncio:
      * Todos os alunos inscritos
@@ -25,9 +25,9 @@ O botão **Pré-visualizar** não é muito intuitivo: permite-lhe ver a quem est
 
 ## Gerir anúncios
 
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Modificar um anúncio existente
-* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Remover um anúncio
-* **Visibilidade** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou mostrar anúncios
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Modificar um anúncio existente
+* **Eliminar** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Remover um anúncio
+* **Visibilidade** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou mostrar anúncios
 
 Os anúncios são apresentados por ordem cronológica inversa (os mais recentes primeiro).
 

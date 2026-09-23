@@ -8,6 +8,6 @@ Chamilo spårar deltagarnas aktivitet i hela plattformen och ger dig detaljerad 
 
 ## Åtkomst till rapporter
 
-Från din kurs klickar du på verktyget **Spårning** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Spårning" data-size="line"> på kursens startsida. Du kan också nå rapportering via länken **Rapportering** i sidofältet för en översikt över flera kurser.
+Från din kurs klickar du på verktyget **Spårning** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Spårning" data-size="line"> på kursens startsida. Du kan också nå rapportering via länken **Rapportering** i sidofältet för en översikt över flera kurser.
 
 Lärare ser rapporteringsdata för de kurser de undervisar. Sessionshandledare ser data för alla kurser inom sin session.

@@ -7,11 +7,11 @@ Chamilo 3.0 verfügt über eine klare, moderne Oberfläche, die die Navigation e
 Die obere Leiste ist oben auf jeder Seite immer sichtbar. Sie enthält:
 
 * **Plattformlogo** — Klicken Sie darauf, um jederzeit zur Startseite zurückzukehren.
-* **Posteingang-Symbol** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Zeigt Ihre Nachrichten. Ein rotes Abzeichen weist auf ungelesene Nachrichten hin. Klicken Sie, um Ihren [Posteingang](../inbox.md) zu öffnen.
-* **Support-Ticket-Symbol** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Sofern von Ihrem Administrator aktiviert, erhalten Sie darüber Zugang zum Support-Ticket-System. Nicht jede Plattform aktiviert es, daher sehen Sie möglicherweise nur das Posteingang-Symbol und Ihren Avatar.
+* **Posteingang-Symbol** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Zeigt Ihre Nachrichten. Ein rotes Abzeichen weist auf ungelesene Nachrichten hin. Klicken Sie, um Ihren [Posteingang](../inbox.md) zu öffnen.
+* **Support-Ticket-Symbol** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Sofern von Ihrem Administrator aktiviert, erhalten Sie darüber Zugang zum Support-Ticket-System. Nicht jede Plattform aktiviert es, daher sehen Sie möglicherweise nur das Posteingang-Symbol und Ihren Avatar.
 * **Ihr Avatar** — Ein kreisförmiges Bild in der oberen rechten Ecke. Klicken Sie darauf, um ein Dropdown-Menü zu öffnen:
 
-![Ihr Avatar-Menü mit Links zu Mein Profil, Meine Zertifikate, Meine Kompetenzen und Abmelden](/.gitbook/assets/student-avatar-menu.png)
+![Ihr Avatar-Menü mit Links zu Mein Profil, Meine Zertifikate, Meine Kompetenzen und Abmelden](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Mein Profil** — Bearbeiten Sie Ihre persönlichen Daten, ändern Sie Ihr Passwort und richten Sie (falls aktiviert) die Zwei-Faktor-Authentifizierung ein
 * **Meine Zertifikate** — Jedes Zertifikat, das Sie in all Ihren Kursen erworben haben
@@ -26,18 +26,18 @@ Die Seitenleiste enthält die folgenden Links (einige können je nach Konfigurat
 
 | Menüpunkt | Symbol | Beschreibung |
 |-----------|------|-------------|
-| **Startseite** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Startseite" data-size="line"> | Kehrt zum Hauptdashboard zurück |
-| **Meine Kurse** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line"> | Listet alle Kurse auf, in die Sie eingeschrieben sind |
-| **Meine Sitzungen** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sitzungen" data-size="line"> | Listet Ihre Trainingssitzungen auf (aktuell, vergangen, bevorstehend) |
-| **Weitere Kurse entdecken** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Durchsuchen Sie den Kurskatalog, um neue Kurse zu finden und sich selbst einzuschreiben |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ihr persönlicher und kursbezogener Kalender |
-| **Berichte** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Berichte" data-size="line"> | Erweitert sich zu **Fortschritt** — Ihrer eigenen Übersicht [Mein Fortschritt](../my-progress.md) |
-| **Soziales Netzwerk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line"> | Erweitert sich zum [Sozialen Netzwerk](../social-network.md) und zugehörigen Links, sofern aktiviert |
-| **Videokonferenz** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Zugang zu Live-Videositzungen (falls konfiguriert) |
+| **Startseite** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Startseite" data-size="line"> | Kehrt zum Hauptdashboard zurück |
+| **Meine Kurse** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line"> | Listet alle Kurse auf, in die Sie eingeschrieben sind |
+| **Meine Sitzungen** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sitzungen" data-size="line"> | Listet Ihre Trainingssitzungen auf (aktuell, vergangen, bevorstehend) |
+| **Weitere Kurse entdecken** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Durchsuchen Sie den Kurskatalog, um neue Kurse zu finden und sich selbst einzuschreiben |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ihr persönlicher und kursbezogener Kalender |
+| **Berichte** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Berichte" data-size="line"> | Erweitert sich zu **Fortschritt** — Ihrer eigenen Übersicht [Mein Fortschritt](../my-progress.md) |
+| **Soziales Netzwerk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line"> | Erweitert sich zum [Sozialen Netzwerk](../social-network.md) und zugehörigen Links, sofern aktiviert |
+| **Videokonferenz** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Zugang zu Live-Videositzungen (falls konfiguriert) |
 
 **Berichte** und **Soziales Netzwerk** sind keine einfachen Links — ein Klick darauf öffnet direkt in der Seitenleiste eine kleine Liste von Unterpunkten:
 
-![Die Seitenleiste mit erweiterten Einträgen Berichte und Soziales Netzwerk und deren Unterpunkten](/.gitbook/assets/student-sidebar-expanded.png)
+![Die Seitenleiste mit erweiterten Einträgen Berichte und Soziales Netzwerk und deren Unterpunkten](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Unter **Berichte**: nur **Fortschritt**, der Sie zu [Mein Fortschritt](../my-progress.md) führt.
 * Unter **Soziales Netzwerk**: **Startseite** (die soziale Pinnwand), **Nachrichten** (eine Verknüpfung zu Ihrem [Posteingang](../inbox.md)), **Meine Freunde**, **Soziale Gruppen** — und, etwas unerwartet ebenfalls hier gruppiert, **Meine Dateien** (Ihr persönlicher Dateispeicher) und **Persönliche Daten** (ein Export der personenbezogenen Daten, die die Plattform über Sie speichert). Diese letzten beiden sind keine wirklich „sozialen“ Funktionen; sie befinden sich lediglich in diesem Bereich der Seitenleiste.

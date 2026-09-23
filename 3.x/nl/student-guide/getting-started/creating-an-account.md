@@ -27,7 +27,7 @@ Standaard heeft het openbare registratieformulier helemaal geen optie om zich al
 
 Sommige platforms schakelen wel een stap **"Wat wilt u doen?"** in met twee kaarten — **Cursussen volgen** en **Cursussen geven** — maar dit verschijnt alleen als uw beheerder specifiek registratie als docent heeft ingeschakeld. Zelfs dan kan het kiezen voor lesgeven vereisen dat uw account wordt goedgekeurd voordat u docentenrechten krijgt.
 
-![Het registratieformulier op een platform met zelfregistratie voor docenten ingeschakeld, met de rollenkiezer "Cursussen volgen" / "Cursussen geven"](/.gitbook/assets/student-registration-form.png)
+![Het registratieformulier op een platform met zelfregistratie voor docenten ingeschakeld, met de rollenkiezer "Cursussen volgen" / "Cursussen geven"](../../.gitbook/assets/student-registration-form.png)
 
 Als u een docentenaccount nodig hebt en deze optie niet ziet, vraag dan uw platformbeheerder om er een voor u aan te maken of om uw bestaande account te upgraden.
 

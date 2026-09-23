@@ -4,23 +4,23 @@
 
 ## إضافة مصطلح
 
-1. افتح أداة **القاموس** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="قاموس المصطلحات" data-size="line"> من الصفحة الرئيسية للدورة
+1. افتح أداة **القاموس** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="قاموس المصطلحات" data-size="line"> من الصفحة الرئيسية للدورة
 2. انقر على **إضافة مصطلح قاموس جديد**
 3. أدخل **المصطلح** و**تعريفه** (يدعم التعريف تنسيق النص الغني)
 4. احفظ
 
 ## إدارة المصطلحات
 
-* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تحديث مصطلح أو تعريفه
-* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة مصطلح من القاموس
-* **بحث** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="بحث" data-size="line"> — استخدام وظيفة البحث للعثور على مصطلحات محددة بسرعة
+* **تعديل** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تحديث مصطلح أو تعريفه
+* **حذف** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة مصطلح من القاموس
+* **بحث** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="بحث" data-size="line"> — استخدام وظيفة البحث للعثور على مصطلحات محددة بسرعة
 
 ## الاستيراد والتصدير
 
 يمكنك بناء قاموسك بشكل أسرع باستخدام الاستيراد/التصدير:
 
-* **استيراد** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="استيراد" data-size="line"> — تحميل قائمة من المصطلحات والتعريفات من ملف CSV أو XLS. يمكنك أيضًا تحديد "تحديث المصطلحات الموجودة" للكتابة فوق التعريفات للمصطلحات الموجودة بالفعل في القاموس.
-* **تصدير** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="تصدير" data-size="line"> — تنزيل القاموس كـ CSV، أو Excel (XLS)، أو PDF لاستخدامه في دورة أخرى أو للرجوع إليه دون اتصال
+* **استيراد** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="استيراد" data-size="line"> — تحميل قائمة من المصطلحات والتعريفات من ملف CSV أو XLS. يمكنك أيضًا تحديد "تحديث المصطلحات الموجودة" للكتابة فوق التعريفات للمصطلحات الموجودة بالفعل في القاموس.
+* **تصدير** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="تصدير" data-size="line"> — تنزيل القاموس كـ CSV، أو Excel (XLS)، أو PDF لاستخدامه في دورة أخرى أو للرجوع إليه دون اتصال
 
 ## خيارات العرض
 

@@ -8,7 +8,7 @@ Klikk **Sosialt nettverk** i sidemenyen for å få tilgang til de sosiale funksj
 
 ## Din sosiale vegg
 
-![Den sosiale veggen som viser en strøm av innlegg, likerklikk og kommentarer fra kontakter](/.gitbook/assets/social-wall.png)
+![Den sosiale veggen som viser en strøm av innlegg, likerklikk og kommentarer fra kontakter](../.gitbook/assets/social-wall.png)
 
 Den sosiale veggen viser en strøm av aktivitet fra deg og dine kontakter. Du kan:
 
@@ -30,9 +30,9 @@ Du kan knytte kontakt med andre brukere på plattformen:
 
 Det sosiale nettverket er integrert med plattformens meldingssystem:
 
-* **Send meldinger** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny melding" data-size="line"> — Skriv direktemeldinger til andre brukere
-* **Innboks** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> — Les og svar på mottatte meldinger
-* **Sendte meldinger** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sendt" data-size="line"> — Se gjennom meldinger du har sendt
+* **Send meldinger** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny melding" data-size="line"> — Skriv direktemeldinger til andre brukere
+* **Innboks** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> — Les og svar på mottatte meldinger
+* **Sendte meldinger** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Sendt" data-size="line"> — Se gjennom meldinger du har sendt
 
 ### Skrive og svare
 

@@ -1,6 +1,6 @@
 # Docentennotities
 
-Docentennotities <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Docentennotities" data-size="line"> geeft het onderwijsteam van uw cursus een privénotitieboek om aantekeningen te maken over specifieke cursisten — observaties over voortgang, herinneringen, alles wat u liever niet in een openbaar hulpmiddel zet. Cursisten zien dit hulpmiddel of de inhoud ervan nooit.
+Docentennotities <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Docentennotities" data-size="line"> geeft het onderwijsteam van uw cursus een privénotitieboek om aantekeningen te maken over specifieke cursisten — observaties over voortgang, herinneringen, alles wat u liever niet in een openbaar hulpmiddel zet. Cursisten zien dit hulpmiddel of de inhoud ervan nooit.
 
 > Niet te verwarren met het hulpmiddel [Notitieboek](../additional-tools/notebook.md) — dat is een persoonlijk notitieboek voor cursisten; Docentennotities is een afzonderlijk, alleen voor docenten bestemd hulpmiddel.
 

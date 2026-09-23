@@ -1,6 +1,6 @@
 # Exercise Signature
 
-Exercise Signature <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Exercise Signature" data-size="line"> adds an electronic-signature step after a student finishes a test attempt, so their completion can be authenticated — useful for compliance or certification contexts. It does not touch scores, answers, or gradebook data; it only records a signature alongside the attempt.
+Exercise Signature <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Exercise Signature" data-size="line"> adds an electronic-signature step after a student finishes a test attempt, so their completion can be authenticated — useful for compliance or certification contexts. It does not touch scores, answers, or gradebook data; it only records a signature alongside the attempt.
 
 ## Turning It On for a Test
 

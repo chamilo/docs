@@ -8,7 +8,7 @@ Hallintapaneelista valitse **Tietoturva > Toimintojen auditointi**.
 
 ## Mitä se näyttää
 
-![Toimintojen auditointisivu, jossa on tapahtumatyyppikategorioita, kuten Kurssi, Istunto, Käyttäjä, Sosiaalinen, Viesti, Resurssi, Wiki ja Muu, joista kukin on laajennettavissa yksittäisiksi tapahtumatyypeiksi](/.gitbook/assets/admin-security-activities-audit.png)
+![Toimintojen auditointisivu, jossa on tapahtumatyyppikategorioita, kuten Kurssi, Istunto, Käyttäjä, Sosiaalinen, Viesti, Resurssi, Wiki ja Muu, joista kukin on laajennettavissa yksittäisiksi tapahtumatyypeiksi](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Tapahtumat on ryhmitelty kategorioihin:
 

@@ -4,9 +4,9 @@
 
 ## 傳送訊息
 
-從課程首頁開啟 **聊天** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="聊天" data-size="line"> 工具。您會看到目前在該課程中上線的所有人的 **使用者** 清單，每人各有自己的 **聊天** 按鈕，以及供全體使用的 **全部** 分頁：
+從課程首頁開啟 **聊天** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="聊天" data-size="line"> 工具。您會看到目前在該課程中上線的所有人的 **使用者** 清單，每人各有自己的 **聊天** 按鈕，以及供全體使用的 **全部** 分頁：
 
-![課程聊天工具，顯示線上使用者清單與訊息撰寫區](/.gitbook/assets/student-course-chat.png)
+![課程聊天工具，顯示線上使用者清單與訊息撰寫區](../../.gitbook/assets/student-course-chat.png)
 
 選擇某人（或 **全部**），在底部方塊中輸入訊息。按 **Enter** 傳送，或按 **Shift+Enter** 換行而不傳送。**預覽** 選項可讓您在傳送前檢查格式，**重設** 則會清除您已輸入的內容。
 

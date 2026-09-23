@@ -20,7 +20,7 @@
 各出席シートには、出席を記録する日付（セッション）を1つ以上含めます。
 
 1. 出席シートを開くか、作成手順を続けます
-2. **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="日付を追加" data-size="line"> をクリックします
+2. **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="日付を追加" data-size="line"> をクリックします
 3. 日付と時刻を選択します
 4. 必要に応じて **Repeat date** をオンにし、繰り返しのルールを選びます
 5. イベントの **Duration** を分単位で指定します（既定値は60分です）
@@ -44,7 +44,7 @@
 
 ## 出席レポートの表示
 
-![学習者、日付、出席インジケーターを含むサマリーテーブルを表示する出席シート](/.gitbook/assets/attendance-sheet.png)
+![学習者、日付、出席インジケーターを含むサマリーテーブルを表示する出席シート](../../.gitbook/assets/attendance-sheet.png)
 
 出席ツールには次が表示されます。
 

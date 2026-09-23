@@ -1,6 +1,6 @@
 # Éditeur de contenu C-Studio
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> est un éditeur de contenu visuel, par glisser-déposer, destiné aux parcours d’apprentissage. Il vous permet de concevoir des pages interactives — blocs de texte, quiz, activités de glisser-déposer, textes à trous, images à zones cliquables, tableaux, audio et vidéo — sans écrire de HTML, et d’exporter le résultat sous forme de paquet SCORM.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> est un éditeur de contenu visuel, par glisser-déposer, destiné aux parcours d’apprentissage. Il vous permet de concevoir des pages interactives — blocs de texte, quiz, activités de glisser-déposer, textes à trous, images à zones cliquables, tableaux, audio et vidéo — sans écrire de HTML, et d’exporter le résultat sous forme de paquet SCORM.
 
 ## Accéder à l’éditeur
 

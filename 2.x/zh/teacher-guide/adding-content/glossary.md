@@ -4,23 +4,23 @@
 
 ## 添加术语
 
-1. 在课程首页打开**词汇表**工具 <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">
+1. 在课程首页打开**词汇表**工具 <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">
 2. 点击**添加新术语到词汇表**
 3. 输入**术语**及其**定义**（定义支持富文本格式）
 4. 保存
 
 ## 管理术语
 
-* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新术语或其定义
-* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从词汇表中移除术语
-* **搜索** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="搜索" data-size="line"> — 使用搜索功能快速找到特定术语
+* **编辑** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 更新术语或其定义
+* **删除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从词汇表中移除术语
+* **搜索** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="搜索" data-size="line"> — 使用搜索功能快速找到特定术语
 
 ## 导入和导出
 
 您可以使用导入/导出功能更快地构建词汇表：
 
-* **导入** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="导入" data-size="line"> — 从CSV或XLS文件上传术语和定义列表。您还可以勾选“更新现有术语”以覆盖词汇表中已存在的术语定义。
-* **导出** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="导出" data-size="line"> — 将词汇表下载为CSV、Excel (XLS) 或 PDF 格式，以便在其他课程中使用或离线参考
+* **导入** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="导入" data-size="line"> — 从CSV或XLS文件上传术语和定义列表。您还可以勾选“更新现有术语”以覆盖词汇表中已存在的术语定义。
+* **导出** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="导出" data-size="line"> — 将词汇表下载为CSV、Excel (XLS) 或 PDF 格式，以便在其他课程中使用或离线参考
 
 ## 显示选项
 

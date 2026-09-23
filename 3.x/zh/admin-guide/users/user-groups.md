@@ -6,7 +6,7 @@
 
 ## 创建群组
 
-![用户组列表，显示可用群组的名称、描述和成员数量](/.gitbook/assets/admin-user-groups-list.png)
+![用户组列表，显示可用群组的名称、描述和成员数量](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. 从管理面板导航至 **班级**
 2. 点击 **添加班级**

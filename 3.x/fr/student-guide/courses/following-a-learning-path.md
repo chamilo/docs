@@ -4,9 +4,9 @@ Un **parcours d’apprentissage** vous guide à travers une séquence structuré
 
 ## Ouvrir un parcours d’apprentissage
 
-Ouvrez l’outil **Parcours d’apprentissage** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d’apprentissage" data-size="line"> depuis la page d’accueil du cours et cliquez sur l’un d’eux pour commencer. Si votre enseignant a activé le **lancement automatique**, le parcours d’apprentissage peut s’ouvrir automatiquement dès que vous entrez dans le cours.
+Ouvrez l’outil **Parcours d’apprentissage** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d’apprentissage" data-size="line"> depuis la page d’accueil du cours et cliquez sur l’un d’eux pour commencer. Si votre enseignant a activé le **lancement automatique**, le parcours d’apprentissage peut s’ouvrir automatiquement dès que vous entrez dans le cours.
 
-![La liste des parcours d’apprentissage d’un cours, chacun affichant sa propre progression](/.gitbook/assets/student-learning-paths-list.png)
+![La liste des parcours d’apprentissage d’un cours, chacun affichant sa propre progression](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Avancer dans le parcours
 

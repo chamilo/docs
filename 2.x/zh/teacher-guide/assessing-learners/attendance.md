@@ -20,7 +20,7 @@
 每张出勤表包含一个或多个日期（课程），您可以在这些日期上记录出勤情况：
 
 1. 打开一张出勤表或继续创建过程
-2. 点击**添加日期** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加日期" data-size="line">
+2. 点击**添加日期** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加日期" data-size="line">
 3. 选择日期和时间
 4. 可选地，勾选**重复日期**以选择重复逻辑
 5. 为活动设置**持续时间**（以分钟为单位，默认值为60分钟）
@@ -44,7 +44,7 @@
 
 ## 查看出勤报告
 
-![出勤表显示包含学生、日期和出勤指标的汇总表](/.gitbook/assets/attendance-sheet.png)
+![出勤表显示包含学生、日期和出勤指标的汇总表](../../.gitbook/assets/attendance-sheet.png)
 
 出勤工具显示：
 

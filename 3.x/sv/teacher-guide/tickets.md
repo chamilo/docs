@@ -19,7 +19,7 @@ Standardkategorier inkluderar:
 
 ## Åtkomst till ärendeverktyget
 
-Om din administratör har aktiverat ärendelänken visas en ärendeikon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ärende" data-size="line"> i den övre navigeringslisten. Klicka på den för att gå direkt till formuläret för att skicka in ärenden.
+Om din administratör har aktiverat ärendelänken visas en ärendeikon <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ärende" data-size="line"> i den övre navigeringslisten. Klicka på den för att gå direkt till formuläret för att skicka in ärenden.
 
 Du kan också nå dina ärenden från huvudmenyn under **Support** eller **Tickets**, beroende på plattformens konfiguration.
 

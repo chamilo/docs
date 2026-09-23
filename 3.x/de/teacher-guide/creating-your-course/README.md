@@ -7,10 +7,10 @@ Dieser Abschnitt erklärt, wie Sie in Chamilo einen neuen Kurs anlegen und ihn a
 So erstellen Sie einen Kurs:
 
 1. Klicken Sie in der Seitenleiste auf **Meine Kurse**
-2. Klicken Sie auf die Schaltfläche **Kurs erstellen** (meist ein grünes Buch <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line">-Symbol mit einem +-Zeichen)
+2. Klicken Sie auf die Schaltfläche **Kurs erstellen** (meist ein grünes Buch <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line">-Symbol mit einem +-Zeichen)
 3. Füllen Sie das Formular zur Kurserstellung aus:
 
-![Das Formular zur Kurserstellung mit Feldern für Name, Kategorie, Code und Sprache](/.gitbook/assets/course-creation-form.png)
+![Das Formular zur Kurserstellung mit Feldern für Name, Kategorie, Code und Sprache](../../.gitbook/assets/course-creation-form.png)
 
 | Feld | Pflichtfeld | Beschreibung |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Sie werden zur Startseite Ihres neuen Kurses weitergeleitet. Es erscheint eine B
 
 Nach der Erstellung gelangen Sie auf die Startseite des Kurses. Das ist die zentrale Anlaufstelle, über die Sie und Ihre Lernenden auf alle Werkzeuge und Inhalte zugreifen.
 
-![Das Werkzeugraster der Kursstartseite mit verfügbaren Kurswerkzeugen, Symbolen und Sichtbarkeitsschaltern](/.gitbook/assets/course-homepage-tool-grid.png)
+![Das Werkzeugraster der Kursstartseite mit verfügbaren Kurswerkzeugen, Symbolen und Sichtbarkeitsschaltern](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Die Startseite zeigt:
 
 * **Kurstitel** — Der Name Ihres Kurses, oben angezeigt.
-* **Kurzeinführung** — Eine optionale Beschreibung oder Willkommensnachricht. Klicken Sie auf die Schaltfläche **+ Kurseinführung**, um eine hinzuzufügen, oder oben auf **Einführung bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">, um sie zu ändern. Unterstützt wird Rich Text mit Bildern, Links und Formatierung.
+* **Kurzeinführung** — Eine optionale Beschreibung oder Willkommensnachricht. Klicken Sie auf die Schaltfläche **+ Kurseinführung**, um eine hinzuzufügen, oder oben auf **Einführung bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">, um sie zu ändern. Unterstützt wird Rich Text mit Bildern, Links und Formatierung.
 * **Werkzeugraster** — Ein Raster aller verfügbaren Kurswerkzeuge, jeweils als Karte mit Symbol und Namen.
 
 ### Sichtbarkeit der Werkzeuge steuern
 
 Als Lehrende können Sie steuern, welche Werkzeuge Ihre Lernenden sehen:
 
-* Klicken Sie neben einem Werkzeug auf das **Augensymbol** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbar" data-size="line">, um es vor Lernenden zu verbergen. Ausgeblendete Werkzeuge zeigen ein **durchgestrichenes Auge** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Ausgeblendet" data-size="line"> und bleiben für Sie zugänglich.
+* Klicken Sie neben einem Werkzeug auf das **Augensymbol** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbar" data-size="line">, um es vor Lernenden zu verbergen. Ausgeblendete Werkzeuge zeigen ein **durchgestrichenes Auge** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Ausgeblendet" data-size="line"> und bleiben für Sie zugänglich.
 * Nutzen Sie die Schaltflächen **Alle anzeigen** und **Alle ausblenden**, um alle Werkzeuge auf einmal zu ändern
 * Klicken Sie auf **Sortieren**, um das Werkzeugraster per Drag-and-Drop neu anzuordnen
 

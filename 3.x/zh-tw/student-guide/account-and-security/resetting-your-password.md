@@ -6,7 +6,7 @@
 
 在登入頁面上，點選 **Forgot your password?**。若沒有此連結，表示管理員已停用此功能——請直接聯絡管理員以恢復存取。
 
-![「我忘記密碼」表單，僅有一個欄位供輸入使用者名稱或電子郵件地址](/.gitbook/assets/student-lost-password.png)
+![「我忘記密碼」表單，僅有一個欄位供輸入使用者名稱或電子郵件地址](../../.gitbook/assets/student-lost-password.png)
 
 1. 在表單的單一欄位中輸入您的 **使用者名稱或電子郵件地址**。
 2. 若出現 CAPTCHA 挑戰，請完成驗證（請參閱 [CAPTCHA](captcha.md)）。
@@ -27,7 +27,7 @@
 2. 點選 **Change password**。
 3. 輸入目前密碼，再輸入兩次新密碼，然後送出。
 
-![變更密碼表單，含目前密碼與新密碼欄位](/.gitbook/assets/student-change-password.png)
+![變更密碼表單，含目前密碼與新密碼欄位](../../.gitbook/assets/student-change-password.png)
 
 這也是您可以啟用 [雙因素驗證](two-factor-authentication.md) 的同一頁面（若平台支援）——在此情況下，您還會看到「Enable two-factor authentication」核取方塊；上圖未顯示，因為並非每個平台都啟用此功能。
 

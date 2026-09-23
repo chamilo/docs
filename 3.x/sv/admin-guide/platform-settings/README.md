@@ -4,7 +4,7 @@ Chamilo har ett omfattande konfigurationssystem med inställningar organiserade 
 
 Öppna plattformsinställningarna från administrationspanelen genom att klicka på **Konfigurationsinställningar**.
 
-![Sidan för plattformsinställningar som visar konfigurationskategorier organiserade efter funktionsområde](/.gitbook/assets/admin-settings-categories.png)
+![Sidan för plattformsinställningar som visar konfigurationskategorier organiserade efter funktionsområde](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Alla kategorier
 

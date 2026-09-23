@@ -1,10 +1,10 @@
 # IMS/LTI 客户端
 
-IMS/LTI 客户端 <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI 客户端" data-size="line"> 可让您通过 LTI 标准（1.1 与 1.3 版本）从课程内部启动外部工具或内容提供方——例如出版商的交互式教材、专用仿真工具，或其他支持 LTI 的平台。Chamilo 作为启动平台；外部服务即为“工具”。
+IMS/LTI 客户端 <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI 客户端" data-size="line"> 可让您通过 LTI 标准（1.1 与 1.3 版本）从课程内部启动外部工具或内容提供方——例如出版商的交互式教材、专用仿真工具，或其他支持 LTI 的平台。Chamilo 作为启动平台；外部服务即为“工具”。
 
 ## 访问该工具
 
-启用后，课程的 **设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 中会出现 **配置外部工具** 按钮。您可以：
+启用后，课程的 **设置** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 中会出现 **配置外部工具** 按钮。您可以：
 
 * **添加新的外部工具** — 自行注册：名称、启动 URL、LTI 版本，以及外部服务提供给您的凭据（LTI 1.3 的客户端 ID/密钥，或 LTI 1.1 的消费者密钥与密钥）
 * **添加已有的全局工具** — 若管理员已注册平台级工具，可将其添加到课程中，而无需自行创建连接

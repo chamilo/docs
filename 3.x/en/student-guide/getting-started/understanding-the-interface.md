@@ -7,11 +7,11 @@ Chamilo 3.0 has a clean, modern interface designed to keep navigation simple. Th
 The top bar is always visible at the top of every page. It contains:
 
 * **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your [Inbox](../inbox.md).
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system. Not every platform enables it, so you may only see the inbox icon and your avatar.
+* **Inbox icon** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your [Inbox](../inbox.md).
+* **Support ticket icon** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system. Not every platform enables it, so you may only see the inbox icon and your avatar.
 * **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu:
 
-![Your avatar menu, with links to My profile, My certificates, My skills, and Sign out](/.gitbook/assets/student-avatar-menu.png)
+![Your avatar menu, with links to My profile, My certificates, My skills, and Sign out](../../.gitbook/assets/student-avatar-menu.png)
 
 * **My profile** — Edit your personal information, change your password, and (if enabled) set up two-factor authentication
 * **My certificates** — Every certificate you've earned, across all your courses
@@ -26,18 +26,18 @@ The sidebar contains the following links (some may be hidden depending on your p
 
 | Menu item | Icon | Description |
 |-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find and self-enroll in new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Expands to **Progress** — your own [My Progress](../my-progress.md) overview |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Expands to the [Social Network](../social-network.md) and related links, if enabled |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
+| **Home** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
+| **My courses** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
+| **My sessions** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
+| **Explore more courses** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find and self-enroll in new courses |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
+| **Reporting** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Expands to **Progress** — your own [My Progress](../my-progress.md) overview |
+| **Social network** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Expands to the [Social Network](../social-network.md) and related links, if enabled |
+| **Videoconference** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
 
 **Reporting** and **Social network** aren't plain links — clicking them expands a small list of sub-items right in the sidebar:
 
-![The sidebar with Reporting and Social network expanded, showing their sub-items](/.gitbook/assets/student-sidebar-expanded.png)
+![The sidebar with Reporting and Social network expanded, showing their sub-items](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Under **Reporting**: just **Progress**, taking you to [My Progress](../my-progress.md).
 * Under **Social network**: **Home** (the social wall), **Messages** (a shortcut to your [Inbox](../inbox.md)), **My friends**, **Social groups** — and, somewhat unexpectedly grouped in here too, **My files** (your personal file storage) and **Personal data** (an export of the personal data the platform holds about you). These last two aren't really "social" features; they just live in this part of the sidebar.

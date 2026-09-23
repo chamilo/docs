@@ -19,12 +19,12 @@ Se a [visibilidade](../creating-your-course/course-settings.md#course-visibility
 
 ## Inscrição Manual pela Ferramenta Usuários
 
-Para inscrever alguém que já possui conta na plataforma, mas ainda não entrou por conta própria, abra a ferramenta **Usuários** do seu curso e clique no ícone **Adicionar usuários** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Adicionar usuários" data-size="line">.
+Para inscrever alguém que já possui conta na plataforma, mas ainda não entrou por conta própria, abra a ferramenta **Usuários** do seu curso e clique no ícone **Adicionar usuários** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Adicionar usuários" data-size="line">.
 
 1. Pesquise a pessoa por nome, nome de usuário, e-mail ou código oficial
 2. Clique em **Registrar** na linha correspondente ou selecione várias com as caixas de seleção e use o menu **Ação** para registrá-las todas de uma vez
 
-![Resultados da pesquisa na tela Inscrever usuários no curso, mostrando um aluno correspondente e um botão Registrar](/.gitbook/assets/course-users-subscribe-search.png)
+![Resultados da pesquisa na tela Inscrever usuários no curso, mostrando um aluno correspondente e um botão Registrar](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Somente usuários que ainda não estão inscritos no curso aparecem nos resultados.
 
@@ -36,9 +36,9 @@ Os três métodos acima pressupõem que a pessoa já possui uma conta na platafo
 
 ### Acessando a Ferramenta
 
-Abra a ferramenta **Usuários** do seu curso e clique no ícone **Convidar por e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Convidar por e-mail" data-size="line"> na barra de ferramentas, ao lado de **Adicionar usuários**:
+Abra a ferramenta **Usuários** do seu curso e clique no ícone **Convidar por e-mail** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Convidar por e-mail" data-size="line"> na barra de ferramentas, ao lado de **Adicionar usuários**:
 
-![A barra de ferramentas da ferramenta Usuários, mostrando o ícone Adicionar usuários e o ícone Convidar por e-mail](/.gitbook/assets/course-users-invite-icon.png)
+![A barra de ferramentas da ferramenta Usuários, mostrando o ícone Adicionar usuários e o ícone Convidar por e-mail](../../.gitbook/assets/course-users-invite-icon.png)
 
 Isso abre a página **Convites de curso**.
 
@@ -53,7 +53,7 @@ Isso abre a página **Convites de curso**.
 1. Digite o endereço de e-mail do destinatário no formulário **Convidar por e-mail**
 2. Clique em **Enviar convite**
 
-![A página de convites do curso: o formulário de convite por e-mail e uma tabela de convites enviados com o respectivo status](/.gitbook/assets/course-invitations-list.png)
+![A página de convites do curso: o formulário de convite por e-mail e uma tabela de convites enviados com o respectivo status](../../.gitbook/assets/course-invitations-list.png)
 
 Todos os convites que você enviou para este curso aparecem abaixo do formulário, com o respectivo status:
 
@@ -65,8 +65,8 @@ Todos os convites que você enviou para este curso aparecem abaixo do formulári
 
 Para um convite ainda pendente, a coluna **Ações** oferece:
 
-* **Copiar** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copiar" data-size="line"> — copia o link do convite, caso você prefira compartilhá-lo você mesmo (chat, pessoalmente) em vez de depender do e-mail.
-* **Revogar** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revogar" data-size="line"> — cancela o convite imediatamente; o link deixa de funcionar. Um convite já aceito não pode ser revogado.
+* **Copiar** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Copiar" data-size="line"> — copia o link do convite, caso você prefira compartilhá-lo você mesmo (chat, pessoalmente) em vez de depender do e-mail.
+* **Revogar** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revogar" data-size="line"> — cancela o convite imediatamente; o link deixa de funcionar. Um convite já aceito não pode ser revogado.
 
 > **O endereço de e-mail convidado não deve já ter uma conta nesta plataforma.** Se tiver, o envio do convite falha com uma mensagem pedindo que você inscreva esse usuário existente diretamente — por meio da [Inscrição manual via a ferramenta Usuários](#manual-enrollment-via-the-users-tool) acima.
 

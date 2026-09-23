@@ -8,7 +8,7 @@ Fra administrasjonspanelet klikker du **Systemstatus** (eller **Systeminformasjo
 
 ## Hva den viser
 
-![Siden for systemstatus som viser PHP-konfigurasjon, databasestatus, filrettigheter og serverinformasjon](/.gitbook/assets/admin-system-status.png)
+![Siden for systemstatus som viser PHP-konfigurasjon, databasestatus, filrettigheter og serverinformasjon](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP-konfigurasjon
 

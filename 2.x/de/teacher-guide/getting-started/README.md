@@ -14,7 +14,7 @@ Falls Ihre Institution eine externe Authentifizierung verwendet (wie Azure, Keyc
 
 Nach dem Einloggen sehen Sie die Startseite von Chamilo. Die Benutzeroberfläche ist in drei Hauptbereiche unterteilt:
 
-![Die Chamilo-Startseite mit Systemankündigungen und Kurskarten](/.gitbook/assets/home-page-teacher.png)
+![Die Chamilo-Startseite mit Systemankündigungen und Kurskarten](../../.gitbook/assets/home-page-teacher.png)
 
 * **Obere Leiste** — Zeigt das Plattform-Logo, Ihren Nachrichten-Eingang (mit einem Hinweis auf ungelesene Nachrichten) und Ihr Benutzer-Avatar. Klicken Sie auf Ihr Avatar, um auf Ihr Profil und Ihre Kontoeinstellungen zuzugreifen.
 * **Seitenleiste** — Das linke Navigationspanel bietet schnellen Zugriff auf Ihre Kurse, Sitzungen, den Kalender, das soziale Netzwerk und mehr. Sie können es durch Klicken auf den Schalter am Rand ein- und ausklappen.
@@ -24,7 +24,7 @@ Nach dem Einloggen sehen Sie die Startseite von Chamilo. Die Benutzeroberfläche
 
 Klicken Sie in der Seitenleiste auf **Meine Kurse**, um alle Kurse zu sehen, in denen Sie als Lehrer oder Student eingeschrieben sind. Jeder Kurs wird als Karte angezeigt, die Folgendes zeigt:
 
-![Die Seite "Meine Kurse" mit Kurskarten, Vorschaubildern und Schnellzugriffsaktionen](/.gitbook/assets/my-courses-list.png)
+![Die Seite "Meine Kurse" mit Kurskarten, Vorschaubildern und Schnellzugriffsaktionen](../../.gitbook/assets/my-courses-list.png)
 
 * Das Kursbild oder Vorschaubild
 * Den Kurstitel

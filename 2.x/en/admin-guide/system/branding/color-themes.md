@@ -8,7 +8,7 @@ Color themes define the palette used across the Chamilo interface — primary co
 
 ## Applying a Theme
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![The color themes page showing available themes with preview swatches and an Apply button](../../../.gitbook/assets/admin-color-themes.png)
 
 1. From the administration panel, navigate to **Color themes**
 2. Browse the available themes

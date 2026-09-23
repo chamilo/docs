@@ -1,12 +1,12 @@
 # Kursusbeskrivelse
 
-Værktøjet **Kursusbeskrivelse** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursusbeskrivelse" data-size="line"> lader dig skrive en struktureret beskrivelse af dit kursus i flere afsnit — dets mål, metode, materialer og mere. I modsætning til banneret med fritekst **Kursusintroduktion** på din [kursushjemmeside](README.md#the-course-homepage), som kun dine tilmeldte kursister ser, er kursusbeskrivelsen det, som potentielle kursister ser *før* de tilmelder sig, fra kursuskataloget.
+Værktøjet **Kursusbeskrivelse** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursusbeskrivelse" data-size="line"> lader dig skrive en struktureret beskrivelse af dit kursus i flere afsnit — dets mål, metode, materialer og mere. I modsætning til banneret med fritekst **Kursusintroduktion** på din [kursushjemmeside](README.md#the-course-homepage), som kun dine tilmeldte kursister ser, er kursusbeskrivelsen det, som potentielle kursister ser *før* de tilmelder sig, fra kursuskataloget.
 
 Når de er tilmeldt, kan kursisterne stadig slå den op inde fra kurset — hvis du lader værktøjet være synligt for dem, er det et praktisk sted for dem at tjekke praktiske oplysninger som kursets overordnede struktur eller hvem underviserne er, uden at skulle spørge dig direkte. Tilmeldte kursister kan se de afsnit, du har skrevet, men kan ikke tilføje, redigere eller slette dem.
 
 ## Adgang til værktøjet
 
-Åbn værktøjet **Kursusbeskrivelse** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursusbeskrivelse" data-size="line"> fra værktøjsgitteret på kursushjemmesiden.
+Åbn værktøjet **Kursusbeskrivelse** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursusbeskrivelse" data-size="line"> fra værktøjsgitteret på kursushjemmesiden.
 
 ## De otte afsnit
 
@@ -30,7 +30,7 @@ En kursusbeskrivelse består af op til otte uafhængige afsnit. Hvert afsnit er 
 3. Skriv dit indhold i rich text-editoren (understøtter formatering, billeder, links, indlejret video og andet rigt indhold). Hvis din platform har det aktiveret, kan du også skrive flere sprogversioner af det samme afsnit og lade hver kursist automatisk kun se sin egen — se [Flersproget indhold](../adding-content/multi-language-content.md).
 4. Gem
 
-Hvert afsnit, du tilføjer, vises som sit eget kort i værktøjet. Brug ikonerne **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> og **Slet** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> på et kort for senere at opdatere eller fjerne det.
+Hvert afsnit, du tilføjer, vises som sit eget kort i værktøjet. Brug ikonerne **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> og **Slet** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> på et kort for senere at opdatere eller fjerne det.
 
 ## Link til kursuskataloget
 

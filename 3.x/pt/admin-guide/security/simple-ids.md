@@ -10,7 +10,7 @@ No painel de administração, clique em **Segurança > Simple IDS**.
 
 ## O que mostra
 
-![A página Simple IDS a mostrar gráficos de eventos por dia, eventos por tipo e IPs atacantes principais, seguida de uma tabela de eventos IDS assinalados com data, IP, tipo de deteção, parâmetro, URI e detalhe](/.gitbook/assets/admin-security-simple-ids.png)
+![A página Simple IDS a mostrar gráficos de eventos por dia, eventos por tipo e IPs atacantes principais, seguida de uma tabela de eventos IDS assinalados com data, IP, tipo de deteção, parâmetro, URI e detalhe](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Eventos por dia (últimos 7 dias)**, **Eventos por tipo (últimos 30 dias)** e **IPs atacantes principais (últimos 30 dias)** — Gráficos de resumo
 * **Tabela de eventos IDS assinalados** — Cada entrada mostra a data, o IP de origem, o tipo de deteção (por exemplo `XSS`), o parâmetro afetado, o URI do pedido e uma breve descrição do que foi detetado

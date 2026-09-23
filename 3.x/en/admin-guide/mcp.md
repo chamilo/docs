@@ -39,7 +39,7 @@ This list is curated by the Chamilo core team, not user-extensible from within t
 
 Each user generates their own key under **Social network** > **MCP API key**:
 
-![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](/.gitbook/assets/admin-mcp-api-key.png)
+![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Clicking **Generate API key** creates a key and displays it once — Chamilo only stores a masked version afterward, so the full key must be copied and stored securely immediately.
 * Generating a new key immediately revokes the previous one.

@@ -2,7 +2,7 @@
 
 Le bloc **Système** du tableau de bord d’administration regroupe les outils de maintenance au niveau du serveur, le flux de mise à jour automatique, les utilitaires d’inspection du stockage et des ressources, ainsi que l’identité visuelle de la plateforme.
 
-![Le bloc Système du tableau de bord d’administration, listant Nettoyer les fichiers temporaires, État du système, Mise à jour du système, Couleurs, Informations sur les fichiers, Ressources par type et Liste des icônes](/.gitbook/assets/admin-system-block.png)
+![Le bloc Système du tableau de bord d’administration, listant Nettoyer les fichiers temporaires, État du système, Mise à jour du système, Couleurs, Informations sur les fichiers, Ressources par type et Liste des icônes](../../.gitbook/assets/admin-system-block.png)
 
 ## Accéder au bloc Système
 

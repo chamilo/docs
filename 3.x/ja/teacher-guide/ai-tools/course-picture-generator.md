@@ -4,22 +4,22 @@ AIコース画像ジェネレーターを使うと、自分で画像を探した
 
 ## ジェネレーターへのアクセス
 
-**AIで生成** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AIで生成" data-size="line"> ボタンは、**コース画像**フィールドの横に表示されます。ただし、次の条件を満たす必要があります。
+**AIで生成** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AIで生成" data-size="line"> ボタンは、**コース画像**フィールドの横に表示されます。ただし、次の条件を満たす必要があります。
 
 1. プラットフォームレベルでAIヘルパーが有効になっている
 2. プラットフォームに設定されたAIプロバイダーのうち、少なくとも1つが画像生成に対応している
 3. コースでこの機能が許可されている（[コース設定](../creating-your-course/course-settings.md)の **AIヘルパー設定** を参照）
 
-コースの **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> を開き、**コース画像**フィールドまでスクロールします。
+コースの **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> を開き、**コース画像**フィールドまでスクロールします。
 
-![コース設定のコース画像フィールド。その下にファイルを選択ボタンとAIで生成ボタンがある](/.gitbook/assets/course-picture-ai-button.png)
+![コース設定のコース画像フィールド。その下にファイルを選択ボタンとAIで生成ボタンがある](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## 画像の生成方法
 
 1. **AIで生成** をクリックします
 2. ダイアログが開き、**プロンプト**フィールドにデフォルトの説明があらかじめ入力されています。希望するイラストを説明するよう編集するか、デフォルトのままにします
 
-![デフォルトテキストが入ったプロンプトフィールドと、キャンセル／生成ボタンが表示された「AIで生成」ダイアログ](/.gitbook/assets/course-picture-ai-modal.png)
+![デフォルトテキストが入ったプロンプトフィールドと、キャンセル／生成ボタンが表示された「AIで生成」ダイアログ](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. **生成** をクリックして待ちます。画像生成には数秒かかることがあります
 4. 生成された画像は自動的に **コース画像** フィールドに配置され、それまで選択していた内容は置き換えられます

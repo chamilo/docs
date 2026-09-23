@@ -2,7 +2,7 @@
 
 ## Skapa en session
 
-![Formuläret för att skapa session med fält för namn, datum, handledare, kategori och synlighet](/.gitbook/assets/admin-session-create-form.png)
+![Formuläret för att skapa session med fält för namn, datum, handledare, kategori och synlighet](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Klicka på **Skapa en session** i administrationspanelen
 2. Fyll i sessionsuppgifterna:
@@ -30,7 +30,7 @@ Detta gör att du kan förbereda sessionen innan deltagarna kommer och hålla ha
 
 ## Sessionslista
 
-![Sessionslistan som visar alla sessioner med namn, datum, antal kurser, antal deltagare och status](/.gitbook/assets/admin-session-list.png)
+![Sessionslistan som visar alla sessioner med namn, datum, antal kurser, antal deltagare och status](../../.gitbook/assets/admin-session-list.png)
 
 Sessionslistan visar alla sessioner med:
 
@@ -52,7 +52,7 @@ Klicka på en session för att redigera:
 
 ## Registrera användare
 
-![Gränssnittet för sessionsregistrering för att lägga till enskilda användare, klasser eller importera via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Gränssnittet för sessionsregistrering för att lägga till enskilda användare, klasser eller importera via CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Du kan registrera användare i en session genom:
 

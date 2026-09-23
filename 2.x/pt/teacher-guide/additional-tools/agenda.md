@@ -4,9 +4,9 @@ A ferramenta de agenda permite que você agende eventos e prazos dentro do seu c
 
 ## Visualizando a Agenda
 
-Abra a ferramenta **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> a partir da página inicial do curso. Você pode visualizar os eventos em três modos:
+Abra a ferramenta **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> a partir da página inicial do curso. Você pode visualizar os eventos em três modos:
 
-![A agenda na visualização de calendário mostrando eventos e prazos do curso](/.gitbook/assets/agenda-calendar-view.png)
+![A agenda na visualização de calendário mostrando eventos e prazos do curso](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Visualização de calendário** — Um calendário visual mensal/semanal/diário
 * **Visualização de lista** — Eventos exibidos como uma lista cronológica
@@ -14,7 +14,7 @@ Abra a ferramenta **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.
 
 ## Criando um Evento
 
-1. Clique em **Adicionar evento** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar evento" data-size="line">
+1. Clique em **Adicionar evento** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar evento" data-size="line">
 2. Preencha os detalhes do evento:
    * **Título** — Um nome curto para o evento
    * **Data e hora de início**
@@ -23,13 +23,13 @@ Abra a ferramenta **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.
 3. Escolha o **público-alvo**:
    * **Todos os alunos** — Todos inscritos no curso
    * **Usuários ou grupos específicos** — Selecione alunos ou grupos individuais
-4. Opcionalmente, defina um **lembrete** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Lembrete" data-size="line"> para enviar notificações por e-mail antes do evento (configuração de *cron* no portal necessária por um administrador)
+4. Opcionalmente, defina um **lembrete** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Lembrete" data-size="line"> para enviar notificações por e-mail antes do evento (configuração de *cron* no portal necessária por um administrador)
 5. Salve
 
 ## Gerenciando Eventos
 
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Clique em um evento para modificar seus detalhes
-* **Excluir** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remova um evento do calendário
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Clique em um evento para modificar seus detalhes
+* **Excluir** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remova um evento do calendário
 * **Arrastar e soltar** — Na visualização de calendário, arraste eventos para reagendá-los
 
 ## Agenda Pessoal

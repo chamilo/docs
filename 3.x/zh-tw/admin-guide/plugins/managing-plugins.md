@@ -2,7 +2,7 @@
 
 ## 存取外掛程式管理員
 
-![外掛程式管理員顯示可用外掛程式清單，含啟用開關與設定選項](/.gitbook/assets/admin-plugin-manager.png)
+![外掛程式管理員顯示可用外掛程式清單，含啟用開關與設定選項](../../.gitbook/assets/admin-plugin-manager.png)
 
 在管理面板中，點選 **Manage plugins** 即可查看可用外掛程式清單。
 

@@ -1,6 +1,6 @@
 # Lernkalender
 
-Der Lernkalender <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Lernkalender" data-size="line"> unterstützt die Planung von Blended Learning oder ausbildungsähnlichen Formaten, die Präsenzzeiten mit praxisbezogenen Phasen außerhalb des Unterrichts kombinieren. Sie erstellen einen Kalender, in dem jeder Tag als **Belegt**, **Prüfung** oder **Frei** gekennzeichnet wird, weisen Lernende zu, und deren persönliche Agenda zeigt anschließend diese geplanten Tage an.
+Der Lernkalender <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Lernkalender" data-size="line"> unterstützt die Planung von Blended Learning oder ausbildungsähnlichen Formaten, die Präsenzzeiten mit praxisbezogenen Phasen außerhalb des Unterrichts kombinieren. Sie erstellen einen Kalender, in dem jeder Tag als **Belegt**, **Prüfung** oder **Frei** gekennzeichnet wird, weisen Lernende zu, und deren persönliche Agenda zeigt anschließend diese geplanten Tage an.
 
 ## Zugriff auf das Werkzeug
 

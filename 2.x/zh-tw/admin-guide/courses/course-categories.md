@@ -19,7 +19,7 @@ Chamilo 預設建立了 3 個類別：*語言技能*、*電腦技能* 和 *專�
 
 ## 類別層級結構
 
-![課程類別管理頁面顯示嵌套的類別樹狀結構](/.gitbook/assets/admin-course-categories.png)
+![課程類別管理頁面顯示嵌套的類別樹狀結構](../../.gitbook/assets/admin-course-categories.png)
 
 類別可以嵌套以建立樹狀結構：
 

@@ -2,7 +2,7 @@
 
 Il blocco **Skills** nella dashboard di amministrazione raggruppa gli strumenti per definire, organizzare e tracciare i badge di competenza («skills») sull'intera piattaforma. Una competenza può essere assegnata automaticamente quando un discente raggiunge una soglia nel gradebook, completa corsi specifici, oppure manualmente da un docente, e può includere un'icona in stile badge e un livello (ad esempio Bronzo/Argento/Oro).
 
-![Il blocco Skills nella dashboard di amministrazione, con Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking e Skills and assessments](/.gitbook/assets/admin-skills-block.png)
+![Il blocco Skills nella dashboard di amministrazione, con Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking e Skills and assessments](../../.gitbook/assets/admin-skills-block.png)
 
 L'intero blocco compare solo se l'impostazione **Enable skills tool** (`skill.allow_skills_tool`, in Configuration Settings > Skills) è attivata — è abilitata per impostazione predefinita.
 

@@ -1,6 +1,6 @@
 # Undersøkelse – eksport til TXT
 
-Undersøkelse – eksport til TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Undersøkelse – eksport til TXT" data-size="line"> eksporterer resultatene fra en undersøkelse til en lesbar ren tekstfil — én blokk per respondent, med hver spørsmål, valgt(e) svar og eventuell fritekst, i stedet for rader og kolonner som i CSV.
+Undersøkelse – eksport til TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Undersøkelse – eksport til TXT" data-size="line"> eksporterer resultatene fra en undersøkelse til en lesbar ren tekstfil — én blokk per respondent, med hver spørsmål, valgt(e) svar og eventuell fritekst, i stedet for rader og kolonner som i CSV.
 
 ## Eksportere en undersøkelse
 

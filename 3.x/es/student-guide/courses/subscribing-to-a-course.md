@@ -21,7 +21,7 @@ Si la visibilidad de un curso lo permite, puede inscribirse usted mismo sin espe
 2. Explore o busque el curso al que desea unirse.
 3. Pulse el curso para abrir sus detalles y, a continuación, pulse el botón para unirse.
 
-![El catálogo de cursos, con un botón Inscribirse en cada tarjeta de curso](/.gitbook/assets/student-course-catalogue.png)
+![El catálogo de cursos, con un botón Inscribirse en cada tarjeta de curso](../../.gitbook/assets/student-course-catalogue.png)
 
 Un curso en el que ya está inscrito muestra **Ir al curso** en lugar de un botón de inscripción.
 

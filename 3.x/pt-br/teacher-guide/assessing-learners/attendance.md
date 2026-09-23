@@ -20,7 +20,7 @@ A ferramenta de frequência permite registrar a presença dos alunos nas sessõe
 Cada folha de frequência contém uma ou mais datas (sessões) nas quais você registra a presença:
 
 1. Abra uma folha de frequência ou continue o processo de criação
-2. Clique em **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
+2. Clique em **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
 3. Selecione a data e a hora
 4. Opcionalmente, marque **Repeat date** para escolher uma lógica de repetição
 5. Informe uma **Duration** em minutos para o evento (o padrão é 60 minutos)
@@ -44,7 +44,7 @@ Observação: os administradores podem alterar a configuração do portal para p
 
 ## Visualizando Relatórios de Frequência
 
-![A folha de frequência mostrando uma tabela-resumo com alunos, datas e indicadores de presença](/.gitbook/assets/attendance-sheet.png)
+![A folha de frequência mostrando uma tabela-resumo com alunos, datas e indicadores de presença](../../.gitbook/assets/attendance-sheet.png)
 
 A ferramenta de frequência mostra:
 

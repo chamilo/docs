@@ -6,7 +6,7 @@ Seu perfil no Chamilo contém suas informações pessoais e preferências. Outro
 
 Clique no seu **avatar** no canto superior direito da barra superior e, em seguida, selecione **Perfil** no menu suspenso. Você também pode acessá-lo a partir da seção **Rede social** da barra lateral.
 
-![Menu suspenso do avatar do usuário mostrando opções de perfil, configurações de conta e sair](/.gitbook/assets/user-avatar-dropdown.png)
+![Menu suspenso do avatar do usuário mostrando opções de perfil, configurações de conta e sair](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Informações do Perfil
 

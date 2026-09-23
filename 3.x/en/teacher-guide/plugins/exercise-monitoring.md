@@ -1,6 +1,6 @@
 # Exercise Monitoring
 
-Exercise Monitoring <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Exercise Monitoring" data-size="line"> uses a student's webcam to capture identity photos during a test attempt — a photo of an ID document and a photo of the student's face — for exam-integrity purposes.
+Exercise Monitoring <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Exercise Monitoring" data-size="line"> uses a student's webcam to capture identity photos during a test attempt — a photo of an ID document and a photo of the student's face — for exam-integrity purposes.
 
 ## Flagging a Test
 

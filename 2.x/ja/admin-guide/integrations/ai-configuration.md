@@ -35,7 +35,7 @@ Chamiloは複数のAIプロバイダをサポートしています：
 
 ### 2. Chamiloでのプロバイダ設定
 
-![AIヘルパー設定ページ。APIキー、モデル、エンドポイントフィールドを含むプロバイダ設定が表示されています](/.gitbook/assets/admin-ai-helpers-config.png)
+![AIヘルパー設定ページ。APIキー、モデル、エンドポイントフィールドを含むプロバイダ設定が表示されています](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 プラットフォーム設定で、**AIヘルパー**セクションに移動します：
 

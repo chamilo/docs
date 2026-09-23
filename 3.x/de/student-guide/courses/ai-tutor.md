@@ -17,11 +17,11 @@ Manche Plattformen aktivieren den KI-Tutor auch **außerhalb jedes Kurses** – 
 
 Suchen Sie nach der Chat-Schaltfläche (einem schwebenden Sprechblasen-Symbol) am unteren Bildschirmrand. Beim Öffnen sehen Sie Ihre Kontakte und, sofern aktiviert, einen eigenen Eintrag **KI-Tutor** mit Robotersymbol und einem „online“-Punkt – klicken Sie darauf, um das Gespräch mit der KI zu beginnen oder fortzusetzen.
 
-![Die Kontaktliste des Chat-Bereichs, mit einem KI-Tutor-Eintrag oberhalb Ihrer normalen Kontakte](/.gitbook/assets/student-docked-chat-contacts.png)
+![Die Kontaktliste des Chat-Bereichs, mit einem KI-Tutor-Eintrag oberhalb Ihrer normalen Kontakte](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Geben Sie Ihre Frage ein und drücken Sie **Enter**, um sie zu senden (**Shift+Enter** fügt stattdessen einen Zeilenumbruch ein, ohne zu senden). Der KI-Tutor formatiert seine Antworten mit Überschriften, Listen, Fettdruck und Codeblöcken, wo das sinnvoll ist, sodass längere Erklärungen lesbar bleiben.
 
-![Ein geöffnetes Gespräch mit dem KI-Tutor, mit dem Nachrichtenfeld unten](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Ein geöffnetes Gespräch mit dem KI-Tutor, mit dem Nachrichtenfeld unten](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Zu etwas fragen, das Sie gerade lesen
 

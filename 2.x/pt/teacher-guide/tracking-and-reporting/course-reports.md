@@ -4,9 +4,9 @@ Os relatórios do curso oferecem uma visão agregada da atividade e do desempenh
 
 ## Acessando os Relatórios do Curso
 
-Abra a ferramenta **Rastreamento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rastreamento" data-size="line"> na página inicial do curso e selecione a visualização de relatórios no nível do curso.
+Abra a ferramenta **Rastreamento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rastreamento" data-size="line"> na página inicial do curso e selecione a visualização de relatórios no nível do curso.
 
-![Visão geral do rastreamento do curso mostrando métricas de engajamento e resumo da atividade dos alunos](/.gitbook/assets/tracking-course-overview.png)
+![Visão geral do rastreamento do curso mostrando métricas de engajamento e resumo da atividade dos alunos](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Relatórios Disponíveis
 
@@ -43,7 +43,7 @@ Para cada tarefa:
 
 ## Exportando Dados
 
-Você pode exportar dados de rastreamento e relatórios para análise adicional. Procure pela opção **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar os dados em um formato compatível com planilhas.
+Você pode exportar dados de rastreamento e relatórios para análise adicional. Procure pela opção **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar os dados em um formato compatível com planilhas.
 
 ## Relatórios de Sessão
 

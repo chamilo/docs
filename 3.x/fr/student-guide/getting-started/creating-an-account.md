@@ -27,7 +27,7 @@ Par défaut, le formulaire d’inscription public n’offre aucune option pour s
 
 Certaines plateformes activent une étape **« Que souhaitez-vous faire ? »** avec deux cartes — **Suivre des cours** et **Enseigner des cours** — mais celle-ci n’apparaît que si votre administrateur a spécifiquement activé l’inscription en tant qu’enseignant. Même dans ce cas, le choix d’enseigner peut exiger que votre compte soit approuvé avant que vous n’obteniez les droits d’enseignant.
 
-![Le formulaire d’inscription sur une plateforme avec auto-inscription enseignant activée, montrant le sélecteur de rôle « Suivre des cours » / « Enseigner des cours »](/.gitbook/assets/student-registration-form.png)
+![Le formulaire d’inscription sur une plateforme avec auto-inscription enseignant activée, montrant le sélecteur de rôle « Suivre des cours » / « Enseigner des cours »](../../.gitbook/assets/student-registration-form.png)
 
 Si vous avez besoin d’un compte enseignant et que vous ne voyez pas cette option, demandez à l’administrateur de votre plateforme d’en créer un pour vous ou de mettre à niveau votre compte existant.
 

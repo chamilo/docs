@@ -27,7 +27,7 @@
 
 部分平台會啟用 **「您想做什麼？」** 步驟，並顯示兩張卡片——**Follow courses** 與 **Teach courses**——但這僅在管理員特別開啟教師註冊時才會出現。即便如此，選擇授課可能需要帳號先經核准，您才會獲得教師權限。
 
-![已啟用教師自助註冊的平台上的註冊表單，顯示「Follow courses」／「Teach courses」角色選擇器](/.gitbook/assets/student-registration-form.png)
+![已啟用教師自助註冊的平台上的註冊表單，顯示「Follow courses」／「Teach courses」角色選擇器](../../.gitbook/assets/student-registration-form.png)
 
 若您需要教師帳號卻看不到此選項，請向平台管理員申請為您建立一個，或升級您現有的帳號。
 

@@ -8,7 +8,7 @@ Chamilo 2.0 引入了颜色主题系统，让您可以自定义平台的视觉�
 
 ## 应用主题
 
-![颜色主题页面，显示可用主题的预览色样和应用按钮](/.gitbook/assets/admin-color-themes.png)
+![颜色主题页面，显示可用主题的预览色样和应用按钮](../../.gitbook/assets/admin-color-themes.png)
 
 1. 从管理面板中，导航到 **颜色主题**
 2. 浏览可用的主题

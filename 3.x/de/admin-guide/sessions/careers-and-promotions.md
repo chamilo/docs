@@ -4,7 +4,7 @@ Chamilo umfasst ein Karrieremanagementsystem, mit dem Sie Ausbildungswege defini
 
 ## Karrieren
 
-![Die Karrierenliste mit definierten Karrierewegen, Name und Beschreibung](/.gitbook/assets/admin-careers-list.png)
+![Die Karrierenliste mit definierten Karrierewegen, Name und Beschreibung](../../.gitbook/assets/admin-careers-list.png)
 
 Eine **Karriere** stellt einen strukturierten Ausbildungsweg dar — eine Abfolge von Ausbildungsschritten, die ein Lernender durchläuft, um ein berufliches Ziel zu erreichen.
 

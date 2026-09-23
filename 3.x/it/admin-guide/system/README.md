@@ -2,7 +2,7 @@
 
 Il blocco **Sistema** nella dashboard di amministrazione raggruppa gli strumenti di manutenzione a livello server, il flusso di auto-aggiornamento, le utilità di ispezione di archiviazione/risorse e il branding della piattaforma.
 
-![Il blocco Sistema nella dashboard di amministrazione, con Elenco pulizia file temporanei, Stato del sistema, Aggiornamento di sistema, Colori, Informazioni sui file, Risorse per tipo e Elenco icone](/.gitbook/assets/admin-system-block.png)
+![Il blocco Sistema nella dashboard di amministrazione, con Elenco pulizia file temporanei, Stato del sistema, Aggiornamento di sistema, Colori, Informazioni sui file, Risorse per tipo e Elenco icone](../../.gitbook/assets/admin-system-block.png)
 
 ## Accesso al blocco Sistema
 

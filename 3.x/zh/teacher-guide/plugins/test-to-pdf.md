@@ -1,6 +1,6 @@
 # 测验转 PDF
 
-测验转 PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="测验转 PDF" data-size="line"> 可将课程测验中的题目导出为可打印的 PDF——仅题目、仅答案，或题目与答案一并导出——便于制作纸质版测验。
+测验转 PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="测验转 PDF" data-size="line"> 可将课程测验中的题目导出为可打印的 PDF——仅题目、仅答案，或题目与答案一并导出——便于制作纸质版测验。
 
 ## 访问该工具
 

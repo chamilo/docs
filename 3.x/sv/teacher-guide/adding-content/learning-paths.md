@@ -16,14 +16,14 @@ Inlärningsvägar är användbara när du vill:
 
 ## Skapa en inlärningsväg
 
-1. Öppna verktyget **Inlärningsvägar** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Inlärningsvägar" data-size="line"> från kursens startsida
+1. Öppna verktyget **Inlärningsvägar** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Inlärningsvägar" data-size="line"> från kursens startsida
 2. Klicka på **Skapa en inlärningsväg**
 3. Ange en **titel** och valfri beskrivning
 4. Spara — du tas till redigeraren för inlärningsvägen
 
 ## Redigeraren för inlärningsvägar
 
-![Redigeraren för inlärningsvägar med objektträdet till vänster och förhandsgranskning av innehållet till höger](/.gitbook/assets/learning-path-editor.png)
+![Redigeraren för inlärningsvägar med objektträdet till vänster och förhandsgranskning av innehållet till höger](../../.gitbook/assets/learning-path-editor.png)
 
 Redigeraren har två huvudområden:
 
@@ -94,17 +94,17 @@ C-Studio lägger till en inbyggd visuell redigerare med dra-och-släpp för att 
 
 När insticksprogrammet är aktivt visar listan över lärstigar en extra knapp bredvid den vanliga åtgärdsmenyn, märkt med ett "+" och ett verktygstips "Studio Tools":
 
-![Listan över lärstigar som visar knappen C-Studio "Studio Tools" bredvid den vanliga åtgärdsmenyn](/.gitbook/assets/cstudio-lp-button.png)
+![Listan över lärstigar som visar knappen C-Studio "Studio Tools" bredvid den vanliga åtgärdsmenyn](../../.gitbook/assets/cstudio-lp-button.png)
 
 Klicka på den för att börja. Du ombeds skapa ett nytt projekt från grunden eller importera ett befintligt:
 
-![Startskärmen i C-Studio som erbjuder att skapa ett nytt projekt eller importera ett befintligt](/.gitbook/assets/cstudio-start-screen.png)
+![Startskärmen i C-Studio som erbjuder att skapa ett nytt projekt eller importera ett befintligt](../../.gitbook/assets/cstudio-start-screen.png)
 
 Denna skärm är för närvarande endast tillgänglig på franska, oavsett plattformens eller kursens språk — en känd begränsning i den insticksprogramversion som används. Ge projektet en titel så öppnas det direkt i redigeraren.
 
 ### Redigeraren
 
-![Den visuella redigeraren i C-Studio, som visar sidarbetsytan, verktygspaletten till höger och projektpanelen till vänster](/.gitbook/assets/cstudio-editor.png)
+![Den visuella redigeraren i C-Studio, som visar sidarbetsytan, verktygspaletten till höger och projektpanelen till vänster](../../.gitbook/assets/cstudio-editor.png)
 
 Redigeraren är en visuell sid-för-sid-byggare:
 
@@ -118,7 +118,7 @@ Paletten täcker grundläggande byggstenar (kolumner, bilder, ljud, titlar, text
 
 C-Studios eget gränssnitt kan som standard vara franska första gången du öppnar det, oberoende av Chamilo-gränssnittets språk eller kursens språk. Om så är fallet, gå till **File > UI language** och välj ditt språk — redigeraren läses om omedelbart och kommer ihåg ditt val därefter.
 
-![Menyn File öppen, som visar alternativet "UI language"](/.gitbook/assets/cstudio-file-menu.png)
+![Menyn File öppen, som visar alternativet "UI language"](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Spara och exportera
 

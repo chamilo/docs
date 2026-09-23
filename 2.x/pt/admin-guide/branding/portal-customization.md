@@ -4,7 +4,7 @@ Personalize a aparência da sua plataforma Chamilo e as informações exibidas a
 
 ## Identidade da Plataforma
 
-![A página de personalização do portal mostrando as configurações de identidade da plataforma para nome, logotipo e instituição](/.gitbook/assets/admin-portal-customization.png)
+![A página de personalização do portal mostrando as configurações de identidade da plataforma para nome, logotipo e instituição](../../.gitbook/assets/admin-portal-customization.png)
 
 Configure a identidade básica do seu portal:
 

@@ -6,7 +6,7 @@ If you've forgotten your password — or just want to change it — here's how, 
 
 On the login page, click **Forgot your password?**. If this link isn't there, your administrator has disabled this feature — contact them directly to regain access.
 
-![The "I lost my password" form, with a single field for your username or e-mail address](/.gitbook/assets/student-lost-password.png)
+![The "I lost my password" form, with a single field for your username or e-mail address](../../.gitbook/assets/student-lost-password.png)
 
 1. Enter your **username or e-mail address** in the single field on the form.
 2. If a CAPTCHA challenge appears, solve it (see [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ You can change your password anytime, without waiting to forget it:
 2. Click **Change password**.
 3. Enter your current password, then your new password twice, and submit.
 
-![The Change Password form, with fields for your current password and a new password](/.gitbook/assets/student-change-password.png)
+![The Change Password form, with fields for your current password and a new password](../../.gitbook/assets/student-change-password.png)
 
 This is the same page where you can enable [Two-Factor Authentication](two-factor-authentication.md), if your platform supports it — in that case, you'll also see an "Enable two-factor authentication" checkbox here, not shown above since it isn't active on every platform.
 

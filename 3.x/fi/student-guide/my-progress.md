@@ -4,7 +4,7 @@
 
 ## Miten sinne pääsee
 
-Napsauta sivupalkissa **Raportointi** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Raportointi" data-size="line"> laajentaaksesi sen ja napsauta sitten **Edistyminen**. Tämä on oma, henkilökohtainen näkymäsi — se näyttää aina vain omat tietosi, ei kurssitovereidesi tietoja.
+Napsauta sivupalkissa **Raportointi** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Raportointi" data-size="line"> laajentaaksesi sen ja napsauta sitten **Edistyminen**. Tämä on oma, henkilökohtainen näkymäsi — se näyttää aina vain omat tietosi, ei kurssitovereidesi tietoja.
 
 ## Mitä näet
 
@@ -15,7 +15,7 @@ Taulukko, jossa on lueteltu jokainen kurssi, jolla olet, ja seuraavat tiedot:
 * **Paras pistemäärä oppimispolussa** ja **paras pistemäärä oppimispolun ulkopuolella** — parhaat tuloksesi jaoteltuna sen mukaan, tulivatko ne oppimispolkuun upotetusta testistä vai erillisestä testistä
 * **Viimeisin kirjautuminen** — viimeinen kerta, kun avasit kyseisen kurssin
 
-![Oma edistyminen -taulukko, jossa on lueteltu jokainen ilmoittautunut kurssi sekä vietetty aika, edistyminen ja parhaat pistemäärät](/.gitbook/assets/student-my-progress.png)
+![Oma edistyminen -taulukko, jossa on lueteltu jokainen ilmoittautunut kurssi sekä vietetty aika, edistyminen ja parhaat pistemäärät](../.gitbook/assets/student-my-progress.png)
 
 Napsauta minkä tahansa kurssin vieressä olevaa **Tiedot**-painiketta laajentaaksesi kolme alataulukkoa poistumatta sivulta:
 
@@ -27,7 +27,7 @@ Napsauta minkä tahansa kurssin vieressä olevaa **Tiedot**-painiketta laajentaa
 
 Todistukset eivät ole tällä sivulla — löydät ne kohdasta **Omat todistukset**, näytön oikeassa yläkulmassa olevasta avatar-valikosta. Siinä on lueteltu jokainen kurssi ja sessio, jossa olet ansainnut todistuksen, sekä pistemäärä, päivämäärä ja painikkeet sen **katseluun** tai **lataamiseen**.
 
-![Omat todistukset -sivu, jossa on erilliset taulukot kurssitodistuksille ja sessiotoistuksille](/.gitbook/assets/student-my-certificates.png)
+![Omat todistukset -sivu, jossa on erilliset taulukot kurssitodistuksille ja sessiotoistuksille](../.gitbook/assets/student-my-certificates.png)
 
 Avatar-valikossa on myös **Omat taidot** -linkki, jossa on lueteltu myönnetyt osaamismerkkisi — erillään molemmista yllä olevista sivuista.
 

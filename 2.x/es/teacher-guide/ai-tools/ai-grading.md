@@ -9,11 +9,11 @@ La Calificación con IA está disponible en dos contextos:
 * **Preguntas de ejercicios de respuesta abierta** — Cuando calificas manualmente preguntas de respuesta libre en un ejercicio
 * **Entregas de tareas** — Cuando revisas y calificas las publicaciones de los estudiantes en la herramienta de Tareas
 
-Busca el botón de **Calificación con IA** (indicado por un ícono de robot <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) en la interfaz de calificación.
+Busca el botón de **Calificación con IA** (indicado por un ícono de robot <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) en la interfaz de calificación.
 
 ## Cómo funciona
 
-![La interfaz de calificación con IA mostrando una entrega de estudiante con puntuación sugerida y retroalimentación](/.gitbook/assets/ai-grading-interface.png)
+![La interfaz de calificación con IA mostrando una entrega de estudiante con puntuación sugerida y retroalimentación](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Abre una entrega o respuesta que necesite ser calificada
 2. Haz clic en el botón de **Calificación con IA**

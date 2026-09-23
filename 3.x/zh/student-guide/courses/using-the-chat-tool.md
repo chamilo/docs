@@ -4,9 +4,9 @@
 
 ## 发送消息
 
-从课程主页打开 **聊天** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="聊天" data-size="line"> 工具。您会看到当前在该课程中在线的所有人的 **用户** 列表，每人旁都有各自的 **聊天** 按钮，另外还有面向全体的 **全部** 选项卡：
+从课程主页打开 **聊天** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="聊天" data-size="line"> 工具。您会看到当前在该课程中在线的所有人的 **用户** 列表，每人旁都有各自的 **聊天** 按钮，另外还有面向全体的 **全部** 选项卡：
 
-![课程聊天工具，显示在线用户列表和消息编辑框](/.gitbook/assets/student-course-chat.png)
+![课程聊天工具，显示在线用户列表和消息编辑框](../../.gitbook/assets/student-course-chat.png)
 
 选择某人（或 **全部**），在底部输入框中输入消息。按 **Enter** 发送，或按 **Shift+Enter** 换行而不发送。**预览** 选项可在发送前检查格式，**重置** 会清空已输入内容。
 

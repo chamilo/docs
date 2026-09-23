@@ -9,7 +9,7 @@ AI 詞彙表詞條產生器可根據主題或學科領域自動產生詞條定�
 1. 平台層級已啟用 AI 輔助功能
 2. 至少已設定一個 AI 文字提供者
 
-從課程首頁開啟 **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> 工具，並在工具列中尋找 **Generate with AI** 按鈕。
+從課程首頁開啟 **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> 工具，並在工具列中尋找 **Generate with AI** 按鈕。
 
 ## 如何產生詞條
 

@@ -21,7 +21,7 @@
 2. 瀏覽或搜尋您想加入的課程。
 3. 點選課程以開啟其詳細資料，然後點選加入按鈕。
 
-![課程目錄，每張課程卡片上皆有訂閱按鈕](/.gitbook/assets/student-course-catalogue.png)
+![課程目錄，每張課程卡片上皆有訂閱按鈕](../../.gitbook/assets/student-course-catalogue.png)
 
 您已註冊的課程會顯示 **前往課程**，而非訂閱按鈕。
 

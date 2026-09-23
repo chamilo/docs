@@ -2,7 +2,7 @@
 
 The **System** block on the administration dashboard groups server-level maintenance tools, the self-update workflow, storage/resource inspection utilities, and platform branding.
 
-![The System block on the administration dashboard, listing Clean temporary files, System status, System update, Colors, File info, Resources by type, and List icons](/.gitbook/assets/admin-system-block.png)
+![The System block on the administration dashboard, listing Clean temporary files, System status, System update, Colors, File info, Resources by type, and List icons](../../.gitbook/assets/admin-system-block.png)
 
 ## Accessing the System Block
 

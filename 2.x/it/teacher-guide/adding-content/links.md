@@ -4,8 +4,8 @@ Lo strumento dei collegamenti ti permette di condividere URL utili con i tuoi st
 
 ## Aggiungere un Collegamento
 
-1. Apri lo strumento **Collegamenti** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Collegamenti" data-size="line"> dalla homepage del corso
-2. Clicca su **Aggiungi un collegamento** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Aggiungi collegamento" data-size="line">
+1. Apri lo strumento **Collegamenti** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Collegamenti" data-size="line"> dalla homepage del corso
+2. Clicca su **Aggiungi un collegamento** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Aggiungi collegamento" data-size="line">
 3. Compila i dettagli:
    * **URL** — L'indirizzo web (ad esempio, `https://example.com/resource`)
    * **Nome del collegamento** — Un nome descrittivo per il collegamento
@@ -27,10 +27,10 @@ I collegamenti all'interno di una categoria vengono visualizzati insieme, renden
 
 ## Gestire i Collegamenti
 
-* **Verifica dei collegamenti** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validità" data-size="line"> — Chamilo può verificare se i collegamenti sono ancora attivi o non funzionanti
-* **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Aggiorna l'URL, il titolo o la descrizione del collegamento
-* **Visibilità** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondi o mostra il collegamento agli studenti
-* **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi il collegamento
+* **Verifica dei collegamenti** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validità" data-size="line"> — Chamilo può verificare se i collegamenti sono ancora attivi o non funzionanti
+* **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Aggiorna l'URL, il titolo o la descrizione del collegamento
+* **Visibilità** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondi o mostra il collegamento agli studenti
+* **Elimina** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi il collegamento
 
 ## Esportare i Collegamenti
 

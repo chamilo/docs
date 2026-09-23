@@ -2,7 +2,7 @@
 
 ## Öppna tilläggshanteraren
 
-![Tilläggshanteraren som visar en lista över tillgängliga tillägg med aktiveringsreglage och konfigurationsalternativ](/.gitbook/assets/admin-plugin-manager.png)
+![Tilläggshanteraren som visar en lista över tillgängliga tillägg med aktiveringsreglage och konfigurationsalternativ](../../.gitbook/assets/admin-plugin-manager.png)
 
 Från administrationspanelen klickar du på **Hantera tillägg** för att se listan över tillgängliga tillägg.
 

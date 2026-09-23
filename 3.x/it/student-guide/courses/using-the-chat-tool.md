@@ -4,9 +4,9 @@ Alcuni corsi includono uno strumento **Chat** — messaggistica di testo in temp
 
 ## Invio dei messaggi
 
-Apri lo strumento **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> dalla homepage del corso. Vedrai un elenco **Utenti** di tutti coloro che sono attualmente online nel corso, ciascuno con il proprio pulsante **Chat**, più una scheda **Tutti** per l'intero gruppo:
+Apri lo strumento **Chat** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> dalla homepage del corso. Vedrai un elenco **Utenti** di tutti coloro che sono attualmente online nel corso, ciascuno con il proprio pulsante **Chat**, più una scheda **Tutti** per l'intero gruppo:
 
-![Lo strumento Chat del corso, che mostra l'elenco degli utenti online e un compositore di messaggi](/.gitbook/assets/student-course-chat.png)
+![Lo strumento Chat del corso, che mostra l'elenco degli utenti online e un compositore di messaggi](../../.gitbook/assets/student-course-chat.png)
 
 Scegli una persona (o **Tutti**) e digita il messaggio nella casella in basso. Premi **Invio** per inviarlo, oppure **Maiusc+Invio** per andare a capo senza inviare. Un'opzione **Anteprima** consente di controllare la formattazione prima dell'invio, e **Reimposta** cancella quanto hai digitato.
 

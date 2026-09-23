@@ -4,7 +4,7 @@ Chamilo intègre un réseau social permettant de se connecter avec d’autres ut
 
 ## Accès ou non
 
-Cliquez sur **Réseau social** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Réseau social" data-size="line"> dans la barre latérale pour le développer, puis cliquez sur **Accueil**. Si cette option n’apparaît pas du tout, votre administrateur l’a désactivée pour votre plateforme — rien ne manque de votre côté.
+Cliquez sur **Réseau social** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Réseau social" data-size="line"> dans la barre latérale pour le développer, puis cliquez sur **Accueil**. Si cette option n’apparaît pas du tout, votre administrateur l’a désactivée pour votre plateforme — rien ne manque de votre côté.
 
 La même section développée liste également **Messages**, **Mes amis**, **Groupes sociaux** — et, de façon un peu inattendue, **Mes fichiers** (votre stockage de fichiers personnel) et **Données personnelles** (un export des données personnelles que la plateforme détient à votre sujet). Ces deux derniers éléments ne sont pas des fonctionnalités sociales ; ils sont simplement regroupés dans cette partie de la barre latérale.
 
@@ -12,7 +12,7 @@ La même section développée liste également **Messages**, **Mes amis**, **Gro
 
 Une fois à l’intérieur, votre **mur** affiche un fil d’activité provenant de vous et des personnes avec lesquelles vous êtes connecté. Vous pouvez publier des actualités et — si votre administrateur l’a activé — aimer ou ne pas aimer, et commenter, les publications de vos connexions.
 
-![Le mur social, avec un composeur de publication et des panneaux pour les communautés, les amis et les compétences](/.gitbook/assets/student-social-wall.png)
+![Le mur social, avec un composeur de publication et des panneaux pour les communautés, les amis et les compétences](../.gitbook/assets/student-social-wall.png)
 
 ## Se connecter avec les autres
 

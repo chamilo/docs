@@ -4,7 +4,7 @@ Verktøyet **Oppgaver** (noen ganger kalt «studentpublikasjoner» eller «arbei
 
 ## Innlevering av arbeidet ditt
 
-Åpne verktøyet **Oppgaver** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Oppgaver" data-size="line"> fra kursets startside, og åpne deretter den aktuelle oppgaven. Les beskrivelsen nøye — den inneholder lærerens instruksjoner om hva du skal levere og hvordan det vil bli vurdert. Deretter:
+Åpne verktøyet **Oppgaver** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Oppgaver" data-size="line"> fra kursets startside, og åpne deretter den aktuelle oppgaven. Les beskrivelsen nøye — den inneholder lærerens instruksjoner om hva du skal levere og hvordan det vil bli vurdert. Deretter:
 
 1. Klikk **Last opp fil** (eller innleveringsknappen)
 2. Avhengig av hvordan læreren har konfigurert oppgaven, velger du enten en fil fra datamaskinen, skriver innleveringen som tekst direkte, eller begge deler

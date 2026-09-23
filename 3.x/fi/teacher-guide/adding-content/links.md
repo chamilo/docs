@@ -4,8 +4,8 @@ Linkkityökalulla voit jakaa oppijoille hyödyllisiä URL-osoitteita luokittain 
 
 ## Linkin lisääminen
 
-1. Avaa **Linkit**-työkalu <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Linkit" data-size="line"> kurssin etusivulta
-2. Napsauta **Lisää linkki** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Lisää linkki" data-size="line">
+1. Avaa **Linkit**-työkalu <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Linkit" data-size="line"> kurssin etusivulta
+2. Napsauta **Lisää linkki** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Lisää linkki" data-size="line">
 3. Täytä tiedot:
    * **URL** — Verkko-osoite (esim. `https://example.com/resource`)
    * **Linkin nimi** — Kuvaava nimi linkille
@@ -27,10 +27,10 @@ Saman luokan linkit näytetään yhdessä, jolloin oppijoiden on helppo löytä�
 
 ## Linkkien hallinta
 
-* **Linkkien tarkistus** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Kelvollisuus" data-size="line">  — Chamilo voi tarkistaa, ovatko linkit edelleen aktiivisia vai rikki
-* **Muokkaa** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> — Päivitä linkin URL, otsikko tai kuvaus
-* **Näkyvyys** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> — Piilota tai näytä linkki oppijoille
-* **Poista** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> — Poista linkki
+* **Linkkien tarkistus** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Kelvollisuus" data-size="line">  — Chamilo voi tarkistaa, ovatko linkit edelleen aktiivisia vai rikki
+* **Muokkaa** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> — Päivitä linkin URL, otsikko tai kuvaus
+* **Näkyvyys** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> — Piilota tai näytä linkki oppijoille
+* **Poista** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> — Poista linkki
 
 ## Linkkien vienti
 

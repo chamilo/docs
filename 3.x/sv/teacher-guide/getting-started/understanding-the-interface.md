@@ -4,13 +4,13 @@ Chamilo 3.0 har ett rent, modernt gränssnitt utformat för att hålla navigerin
 
 ## Det övre fältet
 
-![Det övre fältet med annoterade element inklusive logotyp, inkorg, supportärende och användaravatar](/.gitbook/assets/top-bar-annotated.png)
+![Det övre fältet med annoterade element inklusive logotyp, inkorg, supportärende och användaravatar](../../.gitbook/assets/top-bar-annotated.png)
 
 Det övre fältet är alltid synligt högst upp på varje sida. Det innehåller:
 
 * **Plattformens logotyp** — Klicka på den för att när som helst återgå till startsidan.
-* **Inkorgsikon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Visar dina meddelanden. Ett rött märke indikerar olästa meddelanden. Klicka för att öppna inkorgen.
-* **Ikon för supportärende** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Om den är aktiverad av din administratör ger den dig åtkomst till systemet för supportärenden.
+* **Inkorgsikon** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Visar dina meddelanden. Ett rött märke indikerar olästa meddelanden. Klicka för att öppna inkorgen.
+* **Ikon för supportärende** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Om den är aktiverad av din administratör ger den dig åtkomst till systemet för supportärenden.
 * **Din avatar** — En cirkulär bild i det övre högra hörnet. Klicka på den för att öppna en rullgardinsmeny med länkar till din profil, kontoinställningar och utloggning.
 
 ## Sidofältet
@@ -19,19 +19,19 @@ Sidofältet till vänster är din huvudsakliga navigering. Det kan fällas ihop 
 
 Sidofältet innehåller följande länkar (vissa kan vara dolda beroende på plattformens konfiguration):
 
-![Sidofältets navigeringspanel i expanderat läge som visar alla menyalternativ](/.gitbook/assets/sidebar-expanded.png)
+![Sidofältets navigeringspanel i expanderat läge som visar alla menyalternativ](../../.gitbook/assets/sidebar-expanded.png)
 
 | Menyobjekt | Ikon | Beskrivning |
 |-----------|------|-------------|
-| **Hem** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Återgår till huvudöversikten |
-| **Mina kurser** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Listar alla kurser du är registrerad på |
-| **Mina sessioner** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Listar dina utbildningssessioner (pågående, tidigare, kommande) |
-| **Utforska fler kurser** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Bläddra i kurskatalogen för att hitta nya kurser |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personliga kalender och kurskalender |
-| **Rapportering** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Åtkomst till deltagaruppföljning och kursrapporter |
-| **Socialt nätverk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Anslut till andra användare, skicka meddelanden, gå med i grupper |
-| **Videokonferens** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Åtkomst till livesessioner med video (om det är konfigurerat) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformsadministration (synlig endast för administratörer) |
+| **Hem** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Återgår till huvudöversikten |
+| **Mina kurser** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Listar alla kurser du är registrerad på |
+| **Mina sessioner** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Listar dina utbildningssessioner (pågående, tidigare, kommande) |
+| **Utforska fler kurser** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Bläddra i kurskatalogen för att hitta nya kurser |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personliga kalender och kurskalender |
+| **Rapportering** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Åtkomst till deltagaruppföljning och kursrapporter |
+| **Socialt nätverk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Anslut till andra användare, skicka meddelanden, gå med i grupper |
+| **Videokonferens** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Åtkomst till livesessioner med video (om det är konfigurerat) |
+| **Administration** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformsadministration (synlig endast för administratörer) |
 
 Längst ned i sidofältet hittar du ett alternativ för **Logga ut** för att snabbt logga ut när du är klar. Det här alternativet finns också i rullgardinsmenyn från din avatarikon i det övre högra hörnet.
 Om plattformen hanteras via externa autentiseringsmetoder kanske dessa utloggningsalternativ inte är tillgängliga.
@@ -50,8 +50,8 @@ När du går in i en kurs ser du **kursens startsida**. Detta behandlas i detalj
 
 Som lärare ser du ytterligare kontroller:
 
-* **Elevvy** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Växla detta för att se kursen som en elev skulle se den
-* **Redigera introduktion** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Redigera kursens introduktionstext
+* **Elevvy** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Växla detta för att se kursen som en elev skulle se den
+* **Redigera introduktion** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Redigera kursens introduktionstext
 * **Visa alla / Dölj alla** — Ändra snabbt synligheten för alla verktyg för elever
 * **Sortera** — Aktivera dra och släpp för att ändra ordningen på verktygen på startsidan
 

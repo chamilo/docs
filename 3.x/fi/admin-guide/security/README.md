@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Tietoturva**-lohko kokoaa alustan sisäänrakennetut tietoturvan valvonta- ja auditointityökalut. Se on erillinen [Tietoturva-asetuksista](../platform-settings/security-settings.md), jotka määrittävät tietoturva*käytännön* (salasanasäännöt, CAPTCHA, HTTP-tietoturvaotsakkeet ja niin edelleen) — tämä lohko tarjoaa *raportit ja työkalut*, jotka valvovat alustaa epäilyttävän toiminnan ja ei-toivottujen muutosten varalta.
 
-![Hallintapaneelin Tietoturva-lohko, jossa luetellaan Tapahtumien auditointi, Kirjautumisyritykset, Simple IDS, Salasanan vahvuuden tarkistus ja Tiedostojen eheys](/.gitbook/assets/admin-security-block.png)
+![Hallintapaneelin Tietoturva-lohko, jossa luetellaan Tapahtumien auditointi, Kirjautumisyritykset, Simple IDS, Salasanan vahvuuden tarkistus ja Tiedostojen eheys](../../.gitbook/assets/admin-security-block.png)
 
 Lohko otettiin käyttöön Chamilo 2.0:ssa neljällä työkalulla ja laajennettiin Chamilo 3.0:ssa viidennellä, **Tiedostojen eheys**.
 

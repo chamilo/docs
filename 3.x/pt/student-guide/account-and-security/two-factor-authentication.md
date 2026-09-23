@@ -11,7 +11,7 @@ Esta funcionalidade só aparece se o administrador a tiver ativado em toda a pla
 3. Introduza a **palavra-passe atual**, marque a caixa **Ativar autenticação de dois fatores (2FA)** e clique em **Atualizar definições**.
 4. A página recarrega com um código QR e a mensagem "Scan the QR code to enable 2FA." Digitalize-o com uma aplicação autenticadora no seu telemóvel (qualquer aplicação compatível com TOTP funciona, como Google Authenticator, Microsoft Authenticator ou Authy).
 
-![O formulário Alterar palavra-passe após o envio, mostrando o código QR a digitalizar e o campo do código 2FA](/.gitbook/assets/student-2fa-qr-code.png)
+![O formulário Alterar palavra-passe após o envio, mostrando o código QR a digitalizar e o campo do código 2FA](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Introduza novamente a palavra-passe atual, juntamente com o código de 6 dígitos que a aplicação agora mostra, no campo **Código 2FA**, e clique outra vez em **Atualizar definições**. Verá uma confirmação de que a 2FA foi ativada.
 

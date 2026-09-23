@@ -19,7 +19,7 @@ Chamilo erstellt standardmäßig 3 Kategorien: *Sprachkenntnisse*, *PC-Kenntniss
 
 ## Kategoriehierarchie
 
-![Die Verwaltungsseite für Kurskategorien zeigt einen verschachtelten Baum von Kategorien](/.gitbook/assets/admin-course-categories.png)
+![Die Verwaltungsseite für Kurskategorien zeigt einen verschachtelten Baum von Kategorien](../../.gitbook/assets/admin-course-categories.png)
 
 Kategorien können verschachtelt werden, um eine Baumstruktur zu erstellen:
 

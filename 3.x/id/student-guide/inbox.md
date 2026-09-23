@@ -4,17 +4,17 @@
 
 ## Mengakses Kotak Masuk Anda
 
-Klik ikon **Kotak Masuk** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Kotak Masuk" data-size="line"> di bilah atas. Lencana merah menunjukkan berapa banyak pesan yang belum dibaca. Jika ikon ini sama sekali tidak ada, administrator Anda telah menonaktifkan pesan platform.
+Klik ikon **Kotak Masuk** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Kotak Masuk" data-size="line"> di bilah atas. Lencana merah menunjukkan berapa banyak pesan yang belum dibaca. Jika ikon ini sama sekali tidak ada, administrator Anda telah menonaktifkan pesan platform.
 
 ## Membaca dan Membalas
 
 Kotak masuk Anda menampilkan daftar pesan yang diterima, termasuk yang belum dibaca. Buka salah satunya untuk membacanya, lalu gunakan **Balas** untuk merespons — Anda dapat menyertakan beberapa penerima sekaligus dalam satu balasan, berguna untuk menjaga sekelompok kecil orang tetap terinformasi tanpa membuat kursus formal atau grup sosial.
 
-![Kotak Masuk, dengan tab Kotak Masuk / Belum dibaca / Terkirim dan tabel pesan yang diterima](/.gitbook/assets/student-inbox.png)
+![Kotak Masuk, dengan tab Kotak Masuk / Belum dibaca / Terkirim dan tabel pesan yang diterima](../.gitbook/assets/student-inbox.png)
 
 ## Menyusun Pesan Baru
 
-Klik tombol **pesan baru** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Pesan baru" data-size="line">, pilih satu atau lebih penerima, tulis subjek dan isi, lalu kirim. Sama seperti balasan, pesan baru dapat dikirim ke beberapa orang sekaligus.
+Klik tombol **pesan baru** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Pesan baru" data-size="line">, pilih satu atau lebih penerima, tulis subjek dan isi, lalu kirim. Sama seperti balasan, pesan baru dapat dikirim ke beberapa orang sekaligus.
 
 ## Tab dan Tindakan
 

@@ -4,7 +4,7 @@ Chamilo consente di definire campi di profilo personalizzati (campi extra) per r
 
 ## Campi di Profilo Extra
 
-![Elenco dei campi di profilo extra che mostra i campi personalizzati con nome, tipo e impostazioni di visibilità](/.gitbook/assets/admin-extra-fields-list.png)
+![Elenco dei campi di profilo extra che mostra i campi personalizzati con nome, tipo e impostazioni di visibilità](../../.gitbook/assets/admin-extra-fields-list.png)
 
 I campi extra permettono di memorizzare metadati specifici per la tua organizzazione, come ad esempio:
 

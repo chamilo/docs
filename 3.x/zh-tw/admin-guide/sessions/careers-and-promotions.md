@@ -4,7 +4,7 @@ Chamilo 內建職涯管理系統，可讓您定義培訓路徑，並透過結構
 
 ## 職涯
 
-![職涯清單，顯示已定義的職涯路徑及其名稱與說明](/.gitbook/assets/admin-careers-list.png)
+![職涯清單，顯示已定義的職涯路徑及其名稱與說明](../../.gitbook/assets/admin-careers-list.png)
 
 **職涯**代表一條結構化的培訓路徑——學習者為達成專業目標所依循的一連串培訓步驟。
 

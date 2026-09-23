@@ -4,22 +4,22 @@ Il generatore di immagini del corso basato su IA consente di creare un'immagine 
 
 ## Accesso al generatore
 
-Il pulsante **Genera con IA** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Genera con IA" data-size="line"> è disponibile accanto al campo **Immagine del corso**, a condizione che:
+Il pulsante **Genera con IA** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Genera con IA" data-size="line"> è disponibile accanto al campo **Immagine del corso**, a condizione che:
 
 1. Gli assistenti IA siano abilitati a livello di piattaforma
 2. Almeno un provider IA configurato sulla piattaforma supporti la generazione di immagini
 3. La funzionalità sia consentita nel corso (vedere **Impostazioni degli assistenti IA** in [Impostazioni del corso](../creating-your-course/course-settings.md))
 
-Aprire le **Impostazioni** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Impostazioni" data-size="line"> del corso e scorrere fino al campo **Immagine del corso**:
+Aprire le **Impostazioni** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Impostazioni" data-size="line"> del corso e scorrere fino al campo **Immagine del corso**:
 
-![Il campo Immagine del corso in Impostazioni del corso, con un pulsante Scegli file e un pulsante Genera con IA sotto di esso](/.gitbook/assets/course-picture-ai-button.png)
+![Il campo Immagine del corso in Impostazioni del corso, con un pulsante Scegli file e un pulsante Genera con IA sotto di esso](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Come generare un'immagine
 
 1. Fare clic su **Genera con IA**
 2. Si apre una finestra di dialogo con un campo **Prompt** precompilato con una descrizione predefinita; modificarlo per descrivere l'illustrazione desiderata, oppure lasciare il valore predefinito così com'è
 
-![La finestra di dialogo Genera con IA che mostra il campo Prompt con il testo predefinito e i pulsanti Annulla/Genera](/.gitbook/assets/course-picture-ai-modal.png)
+![La finestra di dialogo Genera con IA che mostra il campo Prompt con il testo predefinito e i pulsanti Annulla/Genera](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Fare clic su **Genera** e attendere — la generazione dell'immagine può richiedere alcuni secondi
 4. L'immagine generata viene automaticamente inserita nel campo **Immagine del corso**, sostituendo qualsiasi selezione precedente

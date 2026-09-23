@@ -1,6 +1,6 @@
 # Esportazione sondaggio TXT
 
-Esportazione sondaggio TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Esportazione sondaggio TXT" data-size="line"> esporta i risultati di un sondaggio in un file di testo semplice leggibile — un blocco per rispondente, con l’elenco di ciascuna domanda, la/e risposta/e scelta/e e qualsiasi risposta in testo libero, invece delle righe e colonne di un CSV.
+Esportazione sondaggio TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Esportazione sondaggio TXT" data-size="line"> esporta i risultati di un sondaggio in un file di testo semplice leggibile — un blocco per rispondente, con l’elenco di ciascuna domanda, la/e risposta/e scelta/e e qualsiasi risposta in testo libero, invece delle righe e colonne di un CSV.
 
 ## Esportare un sondaggio
 

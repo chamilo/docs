@@ -14,7 +14,7 @@ Leta efter avsnittet **AI Generator** i gränssnittet för att skapa lärstigar.
 
 ## Så här genererar du en lärstig
 
-![Formuläret för AI-generatorn för lärstigar med fält för ämne, mål och antal avsnitt](/.gitbook/assets/ai-learning-path-generator.png)
+![Formuläret för AI-generatorn för lärstigar med fält för ämne, mål och antal avsnitt](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Öppna formuläret AI Generator
 2. Konfigurera parametrarna:

@@ -1,6 +1,6 @@
 # C-Studio Content Editor
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> is a visual, drag-and-drop content editor for Learning Paths. It lets you build interactive pages — text blocks, quizzes, drag-and-drop activities, fill-in-the-blank, hotspot images, tables, audio, and video — without writing any HTML, and export the result as a SCORM package.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> is a visual, drag-and-drop content editor for Learning Paths. It lets you build interactive pages — text blocks, quizzes, drag-and-drop activities, fill-in-the-blank, hotspot images, tables, audio, and video — without writing any HTML, and export the result as a SCORM package.
 
 ## Accessing the Editor
 

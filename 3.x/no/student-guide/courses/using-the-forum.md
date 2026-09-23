@@ -4,7 +4,7 @@ Verktøyet **Forum** huser strukturerte, trådede diskusjoner i et kurs — et g
 
 ## Finne frem
 
-Åpne verktøyet **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> fra kursets hjemmeside. Forum er organisert i tre nivåer:
+Åpne verktøyet **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> fra kursets hjemmeside. Forum er organisert i tre nivåer:
 
 1. **Kategorier** — brede grupperinger (f.eks. «Generelle diskusjoner», «Spørsmål til modul 1»)
 2. **Forum** — individuelle diskusjonstavler innenfor en kategori

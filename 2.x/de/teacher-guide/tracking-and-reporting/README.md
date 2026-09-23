@@ -8,6 +8,6 @@ Chamilo verfolgt die Aktivitäten der Lernenden auf der gesamten Plattform und b
 
 ## Zugriff auf Berichte
 
-Klicken Sie in Ihrem Kurs auf das Werkzeug **Nachverfolgung** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Nachverfolgung" data-size="line"> auf der Kurs-Startseite. Sie können auch über den Link **Berichterstattung** in der Seitenleiste auf eine kursübergreifende Übersicht zugreifen.
+Klicken Sie in Ihrem Kurs auf das Werkzeug **Nachverfolgung** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Nachverfolgung" data-size="line"> auf der Kurs-Startseite. Sie können auch über den Link **Berichterstattung** in der Seitenleiste auf eine kursübergreifende Übersicht zugreifen.
 
 Lehrkräfte sehen Berichtsdaten für die Kurse, die sie unterrichten. Sitzungscoaches sehen Daten über alle Kurse innerhalb ihrer Sitzung.

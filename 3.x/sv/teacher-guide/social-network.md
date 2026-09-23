@@ -8,7 +8,7 @@ Klicka på **Socialt nätverk** i sidofältet för att komma åt de sociala funk
 
 ## Din sociala vägg
 
-![Den sociala väggen som visar ett flöde av inlägg, gillanden och kommentarer från kontakter](/.gitbook/assets/social-wall.png)
+![Den sociala väggen som visar ett flöde av inlägg, gillanden och kommentarer från kontakter](../.gitbook/assets/social-wall.png)
 
 Den sociala väggen visar ett flöde av aktivitet från dig och dina kontakter. Du kan:
 
@@ -30,9 +30,9 @@ Du kan knyta kontakt med andra användare på plattformen:
 
 Det sociala nätverket är integrerat med plattformens meddelandesystem:
 
-* **Skicka meddelanden** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nytt meddelande" data-size="line"> — Skriv direktmeddelanden till andra användare
-* **Inkorg** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inkorg" data-size="line"> — Läs och svara på mottagna meddelanden
-* **Skickade meddelanden** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Skickat" data-size="line"> — Granska meddelanden du har skickat
+* **Skicka meddelanden** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nytt meddelande" data-size="line"> — Skriv direktmeddelanden till andra användare
+* **Inkorg** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inkorg" data-size="line"> — Läs och svara på mottagna meddelanden
+* **Skickade meddelanden** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Skickat" data-size="line"> — Granska meddelanden du har skickat
 
 ### Att skriva och svara
 

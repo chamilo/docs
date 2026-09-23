@@ -4,7 +4,7 @@ A ferramenta de tarefas (também chamada de "publicações dos alunos") permite 
 
 ## Criando uma Tarefa
 
-1. Abra a ferramenta **Tarefas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tarefas" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Tarefas** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tarefas" data-size="line"> na página inicial do curso
 2. Clique em **Criar uma tarefa**
 3. Preencha os detalhes:
    * **Nome da tarefa** — O nome da tarefa (por exemplo, "Relatório do Projeto Final")
@@ -41,7 +41,7 @@ Os aprendizes podem ver se já enviaram e, se permitido, atualizar o envio.
 
 ## Revisando Envios
 
-![A lista de envios da tarefa mostrando nomes dos alunos, datas, arquivos e status de avaliação](/.gitbook/assets/assignments-submissions-list.png)
+![A lista de envios da tarefa mostrando nomes dos alunos, datas, arquivos e status de avaliação](../../.gitbook/assets/assignments-submissions-list.png)
 
 Como professor, abra uma tarefa para ver a lista de todos os envios:
 
@@ -53,7 +53,7 @@ Como professor, abra uma tarefa para ver a lista de todos os envios:
 
 ### Avaliando um Envio
 
-![A visualização de avaliação da tarefa com campo de pontuação, campo de feedback e envio de arquivo corrigido](/.gitbook/assets/assignment-grading-view.png)
+![A visualização de avaliação da tarefa com campo de pontuação, campo de feedback e envio de arquivo corrigido](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Clique em um envio para abri-lo
 2. Revise o arquivo enviado

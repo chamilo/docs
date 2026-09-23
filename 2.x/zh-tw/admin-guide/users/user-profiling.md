@@ -4,7 +4,7 @@ Chamilo 允許您定義自訂設定檔欄位（額外欄位），以擷取使用
 
 ## 額外設定檔欄位
 
-![顯示自訂欄位名稱、類型和可見度設定的額外設定檔欄位清單](/.gitbook/assets/admin-extra-fields-list.png)
+![顯示自訂欄位名稱、類型和可見度設定的額外設定檔欄位清單](../../.gitbook/assets/admin-extra-fields-list.png)
 
 額外欄位可讓您儲存特定於您組織的中繼資料，例如：
 

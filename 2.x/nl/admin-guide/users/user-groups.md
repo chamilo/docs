@@ -6,7 +6,7 @@ Klassen in het beheerpaneel zijn platformbrede groepen die worden gebruikt om ge
 
 ## Een Groep Aanmaken
 
-![De lijst met gebruikersgroepen toont beschikbare groepen met naam, beschrijving en aantal leden](/.gitbook/assets/admin-user-groups-list.png)
+![De lijst met gebruikersgroepen toont beschikbare groepen met naam, beschrijving en aantal leden](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Navigeer vanuit het beheerpaneel naar **Klassen**
 2. Klik op **Klassen toevoegen**

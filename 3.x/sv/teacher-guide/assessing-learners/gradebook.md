@@ -19,7 +19,7 @@ Chamilo beräknar varje deltagares samlade betyg utifrån dessa vikter.
 
 ## Konfigurera bedömningen
 
-1. Öppna verktyget **Bedömningar** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> från kursens startsida
+1. Öppna verktyget **Bedömningar** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> från kursens startsida
 2. Du ser översikten över bedömningar, som inledningsvis är tom
 
 ### Lägga till aktiviteter
@@ -48,7 +48,7 @@ För komplexa betygsscheman kan du skapa **underkategorier** för att gruppera r
 
 ## Visa betyg
 
-![Översiktstabellen i betygsboken som visar deltagarnamn, aktivitetspoäng och viktade totaler](/.gitbook/assets/gradebook-overview.png)
+![Översiktstabellen i betygsboken som visar deltagarnamn, aktivitetspoäng och viktade totaler](../../.gitbook/assets/gradebook-overview.png)
 
 Bedömningen visar en tabell med:
 
@@ -77,7 +77,7 @@ För att aktivera generering av intyg:
 
 När **Generera intyg** är aktiverat på rotkategorin visas fältet **Intygets giltighet (dagar)**. Lämna det på `0` för intyg som aldrig går ut, eller ange ett antal dagar efter vilka intyget upphör att gälla — Chamilo kan då påminna deltagare när utgångsdatumet närmar sig, antingen automatiskt (cron, administratörskonfigurerat) eller manuellt från intygslistan.
 
-![Dialogrutan för redigering av kategori med Generera intyg aktiverat och fältet Intygets giltighet (dagar) inställt på 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Dialogrutan för redigering av kategori med Generera intyg aktiverat och fältet Intygets giltighet (dagar) inställt på 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Se [Intyg och färdigheter](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) för mer information.
 
@@ -87,7 +87,7 @@ Du kan koppla **färdigheter** till bedömningen. När en deltagare når de upps
 
 ## Exportera betyg
 
-Klicka på knappen **Exportera** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportera" data-size="line"> för att ladda ner betygen som ett kalkylblad. Detta är användbart för att:
+Klicka på knappen **Exportera** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportera" data-size="line"> för att ladda ner betygen som ett kalkylblad. Detta är användbart för att:
 
 * Dela betyg med administrativa system
 * Utföra ytterligare analys utanför Chamilo

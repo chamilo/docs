@@ -1,6 +1,6 @@
 # LTI 1.3 Advantage Provider
 
-LTI 1.3 Advantage Provider <img src="/.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> bekerja dengan cara yang berlawanan dari [IMS/LTI Client](ims-lti.md): alih-alih Chamilo meluncurkan alat eksternal, fitur ini memungkinkan **LMS eksternal** (misalnya, portal Chamilo lain, atau platform lain seperti Moodle) meluncurkan salah satu latihan atau jalur pembelajaran Anda seolah-olah itu adalah alat di dalam sistem lain tersebut, dengan nilai yang dikirim kembali ke Chamilo.
+LTI 1.3 Advantage Provider <img src="../../.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> bekerja dengan cara yang berlawanan dari [IMS/LTI Client](ims-lti.md): alih-alih Chamilo meluncurkan alat eksternal, fitur ini memungkinkan **LMS eksternal** (misalnya, portal Chamilo lain, atau platform lain seperti Moodle) meluncurkan salah satu latihan atau jalur pembelajaran Anda seolah-olah itu adalah alat di dalam sistem lain tersebut, dengan nilai yang dikirim kembali ke Chamilo.
 
 ## Apa Artinya Hal Ini bagi Anda
 

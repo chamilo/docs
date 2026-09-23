@@ -1,6 +1,6 @@
 # Lernenden-Nachverfolgung
 
-Lernenden-Nachverfolgung <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Lernenden-Nachverfolgung" data-size="line"> ermöglicht zeitgestempelte, mit Tags versehene Notizen zum Fortschritt und zu Schwierigkeiten einer lernenden Person — ein schlankes Fallnotizen-System, um den Verlauf über die Zeit festzuhalten.
+Lernenden-Nachverfolgung <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Lernenden-Nachverfolgung" data-size="line"> ermöglicht zeitgestempelte, mit Tags versehene Notizen zum Fortschritt und zu Schwierigkeiten einer lernenden Person — ein schlankes Fallnotizen-System, um den Verlauf über die Zeit festzuhalten.
 
 ## Zugriff auf das Werkzeug
 

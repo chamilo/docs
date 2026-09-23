@@ -35,7 +35,7 @@ Daftarkan akun pada penyedia AI yang Anda pilih dan dapatkan kunci API:
 
 ### 2. Konfigurasikan Penyedia di Chamilo
 
-![Halaman konfigurasi AI helpers yang menampilkan pengaturan penyedia dengan kolom kunci API, model, dan endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
+![Halaman konfigurasi AI helpers yang menampilkan pengaturan penyedia dengan kolom kunci API, model, dan endpoint](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Di pengaturan platform, buka bagian **AI Helpers**:
 

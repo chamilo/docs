@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Taidot**-lohko kokoaa työkalut, joilla määritellään, järjestetään ja seurataan osaamismerkkejä ("taitoja") koko alustalla. Taito voidaan myöntää automaattisesti, kun oppija saavuttaa arviointikirjan kynnysarvon, suorittaa tiettyjä kursseja, tai manuaalisesti opettajan toimesta, ja siihen voi liittyä merkkityylinen kuvake sekä taso (esimerkiksi Pronssi/Hopea/Kulta).
 
-![Hallintapaneelin Taidot-lohko, jossa näkyvät Taitopyörä, Taitojen tuonti, Hallitse taitoja, Hallitse taitotasoja, Taitojen sijoitus sekä Taidot ja arvioinnit](/.gitbook/assets/admin-skills-block.png)
+![Hallintapaneelin Taidot-lohko, jossa näkyvät Taitopyörä, Taitojen tuonti, Hallitse taitoja, Hallitse taitotasoja, Taitojen sijoitus sekä Taidot ja arvioinnit](../../.gitbook/assets/admin-skills-block.png)
 
 Koko lohko näkyy vain, jos asetus **Ota taitotyökalu käyttöön** (`skill.allow_skills_tool`, kohdassa Configuration Settings > Skills) on päällä — se on oletuksena käytössä.
 

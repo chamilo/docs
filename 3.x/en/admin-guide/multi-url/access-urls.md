@@ -53,7 +53,7 @@ Each access URL can have its own:
 
 Access URLs can be organized into a parent/child tree instead of a flat list. When creating or editing a URL, an unrestricted Global Administrator (see [Subtree Administrators](#subtree-administrators) below) can pick any other URL as its **Parent URL**:
 
-![Edit URL dialog with the Parent URL dropdown open, listing the other access URLs available as a parent](/.gitbook/assets/admin-access-url-parent-select.png)
+![Edit URL dialog with the Parent URL dropdown open, listing the other access URLs available as a parent](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * The dropdown never offers the URL being edited, or any of its own descendants, as a possible parent — this prevents creating a cycle. The backend re-validates this regardless of what the interface shows.
 * If a URL is created without picking a parent, it defaults to the **login-only URL** if one exists (see [Per-URL Settings](#per-url-settings) above), or otherwise to the first access URL — the same default behavior as before this feature existed.
@@ -61,7 +61,7 @@ Access URLs can be organized into a parent/child tree instead of a flat list. Wh
 
 Wherever access URLs are listed — the Multi-URL dashboard and the Access URLs management page — the tree is shown through indentation, a parent immediately followed by its own children (siblings sorted alphabetically), instead of a separate "Parent" column:
 
-![Access URLs list showing a root URL with two child URLs, one of which has its own child URL, indented to reflect the hierarchy](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Access URLs list showing a root URL with two child URLs, one of which has its own child URL, indented to reflect the hierarchy](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Subtree Administrators
 

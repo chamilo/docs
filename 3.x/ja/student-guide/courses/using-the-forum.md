@@ -4,7 +4,7 @@
 
 ## 画面の見方
 
-コースホームページから **フォーラム** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> ツールを開きます。フォーラムは次の3階層で構成されます。
+コースホームページから **フォーラム** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> ツールを開きます。フォーラムは次の3階層で構成されます。
 
 1. **カテゴリ** — 広いグループ分け（例：「一般的な議論」「モジュール1の質問」）
 2. **フォーラム** — カテゴリ内の個々の掲示板

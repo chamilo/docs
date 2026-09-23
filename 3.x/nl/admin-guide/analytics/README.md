@@ -2,7 +2,7 @@
 
 Het blok **Analytics** op het beheerdashboard groepeert platformbrede statistieken, learning analytics, corporate/HR-rapportage en tools voor bulksgewijze export. Afhankelijk van uw Chamilo-versie kan dit blok op het dashboard zelf als **"Tracking"** zijn gelabeld — het is in beide gevallen hetzelfde blok. Deze gids noemt het overal Analytics om verwarring te voorkomen met [Tracking Settings](../platform-settings/tracking-settings.md), de aparte instellingencategorie die bepaalt wat wordt vastgelegd, en niet de rapporten zelf.
 
-![Het blok Analytics op het beheerdashboard (in dit scherm gelabeld als "Tracking"), met Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports en Tickets](/.gitbook/assets/admin-analytics-block.png)
+![Het blok Analytics op het beheerdashboard (in dit scherm gelabeld als "Tracking"), met Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports en Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Analytics openen
 

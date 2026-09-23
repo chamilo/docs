@@ -4,7 +4,7 @@ Lo strumento **Test** (Esercizi) è il luogo in cui si svolgono i quiz e gli esa
 
 ## Avviare un test
 
-Aprire lo strumento **Test** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Test" data-size="line"> dalla homepage del corso e fare clic su un test per avviarlo. Un test potrebbe non essere ancora disponibile, o non esserlo più, se il docente ha impostato una data di inizio o di fine.
+Aprire lo strumento **Test** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Test" data-size="line"> dalla homepage del corso e fare clic su un test per avviarlo. Un test potrebbe non essere ancora disponibile, o non esserlo più, se il docente ha impostato una data di inizio o di fine.
 
 ## Rispondere alle domande
 

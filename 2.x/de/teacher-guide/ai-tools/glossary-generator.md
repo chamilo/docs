@@ -9,7 +9,7 @@ Der Generator ist über das **Glossar**-Tool verfügbar, vorausgesetzt:
 1. KI-Helfer sind auf Plattformebene aktiviert
 2. Mindestens ein KI-Textanbieter ist konfiguriert
 
-Öffnen Sie das **Glossar**-Tool <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossar" data-size="line"> über die Kursstartseite und suchen Sie nach der Schaltfläche **Mit KI generieren** in der Werkzeugleiste.
+Öffnen Sie das **Glossar**-Tool <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossar" data-size="line"> über die Kursstartseite und suchen Sie nach der Schaltfläche **Mit KI generieren** in der Werkzeugleiste.
 
 ## Wie man Begriffe generiert
 

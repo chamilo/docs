@@ -32,4 +32,4 @@ En tant qu'administrateur Chamilo, vous gérez :
 
 ## Accéder au panneau d'administration
 
-Après vous être connecté en tant qu'administrateur, cliquez sur **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> dans la barre latérale pour accéder au panneau d'administration.
+Après vous être connecté en tant qu'administrateur, cliquez sur **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> dans la barre latérale pour accéder au panneau d'administration.

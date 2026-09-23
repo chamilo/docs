@@ -1,12 +1,12 @@
 # Juridisk avtale for kurs
 
-Tillegget Juridisk avtale for kurs <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridisk avtale for kurs" data-size="line"> krever at studentene godtar vilkår/en juridisk merknad før de kan få tilgang til kurset ditt — nyttig for samtykkeskjemaer, bruksregler eller enhver merknad du trenger at lærende formelt godtar.
+Tillegget Juridisk avtale for kurs <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridisk avtale for kurs" data-size="line"> krever at studentene godtar vilkår/en juridisk merknad før de kan få tilgang til kurset ditt — nyttig for samtykkeskjemaer, bruksregler eller enhver merknad du trenger at lærende formelt godtar.
 
 ## Slå det på for kurset ditt
 
 Å aktivere tillegget på plattformnivå gjør ingenting i seg selv — du må fortsatt slå det på for hvert kurs der du vil bruke det:
 
-1. Åpne kursets **Innstillinger** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line">
+1. Åpne kursets **Innstillinger** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line">
 2. I delen for kurstilgang merker du av **Aktiver juridiske vilkår**
 
 Dette legger til verktøyet **Juridisk avtale for kurs** i kurset ditt.

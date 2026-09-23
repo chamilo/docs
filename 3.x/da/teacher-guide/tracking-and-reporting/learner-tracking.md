@@ -4,7 +4,7 @@ Chamilo sporer elevaktivitet på hele platformen og giver dig detaljeret indsigt
 
 ## Adgang til elevsporing
 
-Åbn værktøjet **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> fra kursets startside, eller klik på **Rapportering** i sidepanelet.
+Åbn værktøjet **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> fra kursets startside, eller klik på **Rapportering** i sidepanelet.
 
 ## Hvad der spores
 
@@ -22,7 +22,7 @@ Adgangsdetaljer pr. ressource (hvilke specifikke dokumenter eller sider en elev 
 
 ## Visning af individuelle elevdata
 
-![Detaljeret elevsporingsvisning med fremskridt, point og aktivitetstidslinje](/.gitbook/assets/tracking-learner-detail.png)
+![Detaljeret elevsporingsvisning med fremskridt, point og aktivitetstidslinje](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klik på en elevs navn for at se den detaljerede aktivitetsrapport. Den viser:
 

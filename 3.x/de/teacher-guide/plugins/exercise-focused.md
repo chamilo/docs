@@ -1,6 +1,6 @@
 # Exercise Focused
 
-Exercise Focused <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> ist eine Hilfsfunktion gegen Betrug bei Prüfungen. Verliert der Browser einer Lernenden Person während eines gekennzeichneten Tests den Fokus — etwa durch Wechsel zu einem anderen Tab oder Fenster —, zeigt Chamilo eine vollflächige Warnung mit der Aufforderung zur Rückkehr und kann den Versuch automatisch abgeben, wenn dies nicht geschieht.
+Exercise Focused <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> ist eine Hilfsfunktion gegen Betrug bei Prüfungen. Verliert der Browser einer Lernenden Person während eines gekennzeichneten Tests den Fokus — etwa durch Wechsel zu einem anderen Tab oder Fenster —, zeigt Chamilo eine vollflächige Warnung mit der Aufforderung zur Rückkehr und kann den Versuch automatisch abgeben, wenn dies nicht geschieht.
 
 ## Einen Test kennzeichnen
 

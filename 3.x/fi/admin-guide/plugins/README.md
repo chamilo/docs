@@ -6,7 +6,7 @@ Lisäosat laajentavat Chamilon toiminnallisuutta muuttamatta ydinohjelmistoa. Ch
 
 Hallintapaneelissa on myös oma **Lisäosat**-lohko, joka on erillinen tämän luvun yleisestä lisäosien hallinnasta. Se ei luettele jokaista asennettua lisäosaa — vain niitä, joiden määrityksissä on ilmoitettu, että niiden tulee näkyä hallintavalikon alueella. Näin kullekin tällaiselle lisäosalle tarjotaan suora pikakuvake sen omalle hallintasivulle suoraan hallintapaneelissa.
 
-![Hallintapaneelin Lisäosat-lohko, jossa on pikakuvakkeita asennettuihin lisäosiin, jotka on määritetty näkymään hallintavalikossa](/.gitbook/assets/admin-plugins-block.png)
+![Hallintapaneelin Lisäosat-lohko, jossa on pikakuvakkeita asennettuihin lisäosiin, jotka on määritetty näkymään hallintavalikossa](../../.gitbook/assets/admin-plugins-block.png)
 
 Jos aktivoimasi lisäosa ei näy täällä, se on odotettua — se tarkoittaa, ettei kyseinen lisäosa ole ilmoittanut itseään hallintavalikon alueelle, ei sitä, että jokin olisi rikki. Katso [Lisäosien hallinta](managing-plugins.md) saadaksesi täydellisen luettelon asennetuista lisäosista riippumatta siitä, näkyvätkö ne hallintapaneelissa.
 

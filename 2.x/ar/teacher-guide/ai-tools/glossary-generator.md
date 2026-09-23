@@ -9,7 +9,7 @@
 1. تكون مساعدات الذكاء الاصطناعي مفعلة على مستوى المنصة
 2. يكون على الأقل مزود نص ذكاء اصطناعي واحد مُهيأ
 
-افتح أداة **المصطلحات** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> من صفحة المساق الرئيسية وابحث عن زر **Generate with AI** في شريط الأدوات.
+افتح أداة **المصطلحات** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> من صفحة المساق الرئيسية وابحث عن زر **Generate with AI** في شريط الأدوات.
 
 ## كيفية إنشاء المصطلحات
 

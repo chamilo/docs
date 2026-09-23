@@ -4,13 +4,13 @@ Lo strumento Documenti è il repository di file del tuo corso. Puoi caricare fil
 
 ## Accesso allo Strumento Documenti
 
-Apri lo strumento **Documenti** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenti" data-size="line"> dalla homepage del corso. Vedrai un browser di file che mostra la cartella principale della libreria di documenti del tuo corso.
+Apri lo strumento **Documenti** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenti" data-size="line"> dalla homepage del corso. Vedrai un browser di file che mostra la cartella principale della libreria di documenti del tuo corso.
 
-![Il browser di file dei documenti che mostra cartelle e file con icone di azione](/.gitbook/assets/documents-file-browser.png)
+![Il browser di file dei documenti che mostra cartelle e file con icone di azione](../../.gitbook/assets/documents-file-browser.png)
 
 ## Caricamento di File
 
-1. Fai clic sul pulsante **Carica** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Carica" data-size="line">
+1. Fai clic sul pulsante **Carica** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Carica" data-size="line">
 2. Seleziona uno o più file dal tuo computer (puoi trascinare e rilasciare i file nell'area di caricamento)
 3. I file vengono caricati e appaiono nella cartella corrente
 
@@ -52,7 +52,7 @@ Se il tuo browser lo supporta, puoi registrare audio direttamente nello strument
 
 Mantieni organizzata la tua libreria di documenti utilizzando le cartelle:
 
-1. Fai clic su **Nuova cartella** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nuova cartella" data-size="line">
+1. Fai clic su **Nuova cartella** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nuova cartella" data-size="line">
 2. Inserisci un nome per la cartella
 3. Salva
 
@@ -61,7 +61,7 @@ Puoi creare cartelle nidificate per costruire una gerarchia logica dei contenuti
 ### Spostamento di File
 
 * Individua il tuo file nell'elenco
-* Fai clic su **Sposta** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Sposta" data-size="line">
+* Fai clic su **Sposta** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Sposta" data-size="line">
 * Seleziona la cartella di destinazione
 * Conferma
 
@@ -71,12 +71,12 @@ Per ogni file o cartella, puoi:
 
 | Azione | Icona | Descrizione |
 |--------|-------|-------------|
-| **Modifica** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> | Rinominare il file o modificarne il contenuto (per le pagine web) |
-| **Elimina** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> | Rimuovere il file o la cartella |
-| **Scarica** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Scarica" data-size="line"> | Scaricare il file sul tuo computer |
-| **Visibilità** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> | Nascondere o mostrare il file agli studenti |
-| **Sostituisci** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Sostituisci" data-size="line"> | Sostituire il file con una versione aggiornata |
-| **Sposta** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Sposta" data-size="line"> | Spostare in una cartella diversa |
+| **Modifica** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> | Rinominare il file o modificarne il contenuto (per le pagine web) |
+| **Elimina** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> | Rimuovere il file o la cartella |
+| **Scarica** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Scarica" data-size="line"> | Scaricare il file sul tuo computer |
+| **Visibilità** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> | Nascondere o mostrare il file agli studenti |
+| **Sostituisci** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Sostituisci" data-size="line"> | Sostituire il file con una versione aggiornata |
+| **Sposta** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Sposta" data-size="line"> | Spostare in una cartella diversa |
 
 Sostituire un file è una funzionalità importante quando utilizzi i documenti per costruire percorsi di apprendimento, poiché sostituire il documento permetterà di aggiornarlo senza che gli studenti perdano i progressi salvati per quel documento.
 
@@ -87,7 +87,7 @@ Seleziona più file utilizzando le caselle di controllo, quindi utilizza la barr
 ---
 ## Integrazione con OnlyOffice
 
-Se il tuo amministratore ha configurato il plugin **OnlyOffice**, puoi modificare file Word, Excel e PowerPoint (o LibreOffice) direttamente nel browser senza scaricarli. Cerca l'opzione **Modifica con OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> quando visualizzi un file supportato.
+Se il tuo amministratore ha configurato il plugin **OnlyOffice**, puoi modificare file Word, Excel e PowerPoint (o LibreOffice) direttamente nel browser senza scaricarli. Cerca l'opzione **Modifica con OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> quando visualizzi un file supportato.
 
 I documenti sono archiviati in Chamilo; OnlyOffice viene utilizzato solo per **visualizzare** o modificare i documenti nel browser, senza la necessità di strumenti aggiuntivi.
 

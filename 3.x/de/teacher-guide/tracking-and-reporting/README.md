@@ -8,6 +8,6 @@ Chamilo erfasst die Lernendenaktivität auf der gesamten Plattform und gibt Ihne
 
 ## Zugriff auf Berichte
 
-Klicken Sie in Ihrem Kurs auf der Kursstartseite auf das Werkzeug **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line">. Sie können Berichte auch über den Link **Reporting** in der Seitenleiste für eine kursübergreifende Übersicht aufrufen.
+Klicken Sie in Ihrem Kurs auf der Kursstartseite auf das Werkzeug **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line">. Sie können Berichte auch über den Link **Reporting** in der Seitenleiste für eine kursübergreifende Übersicht aufrufen.
 
 Lehrende sehen Berichtsdaten für die Kurse, die sie unterrichten. Sitzungstutoren sehen Daten über alle Kurse innerhalb ihrer Sitzung.

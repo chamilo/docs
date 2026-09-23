@@ -4,7 +4,7 @@ Das Forum-Werkzeug ermöglicht strukturierte Diskussionen innerhalb Ihres Kurses
 
 ## Forenstruktur
 
-![Die Forenkategorieliste mit Kategorien, Foren und Themenanzahlen](/.gitbook/assets/forum-category-list.png)
+![Die Forenkategorieliste mit Kategorien, Foren und Themenanzahlen](../../.gitbook/assets/forum-category-list.png)
 
 Foren in Chamilo sind in drei Ebenen organisiert:
 
@@ -14,7 +14,7 @@ Foren in Chamilo sind in drei Ebenen organisiert:
 
 ## Eine Forenkategorie anlegen
 
-1. Öffnen Sie das Werkzeug **Foren** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> auf Ihrer Kursstartseite
+1. Öffnen Sie das Werkzeug **Foren** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> auf Ihrer Kursstartseite
 2. Klicken Sie auf **Forenkategorie hinzufügen**
 3. Geben Sie einen **Kategorienamen** und optional eine Beschreibung ein
 4. Speichern

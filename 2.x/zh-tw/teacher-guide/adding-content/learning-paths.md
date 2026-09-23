@@ -18,14 +18,14 @@
 
 ## 建立學習路徑
 
-1. 從課程首頁開啟 **學習路徑** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具
+1. 從課程首頁開啟 **學習路徑** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具
 2. 點擊 **建立學習路徑**
 3. 輸入**標題**和選填的描述
 4. 儲存 — 您將被帶至學習路徑編輯器
 
 ## 學習路徑編輯器
 
-![學習路徑編輯器，左側顯示項目樹狀圖，右側顯示內容預覽](/.gitbook/assets/learning-path-editor.png)
+![學習路徑編輯器，左側顯示項目樹狀圖，右側顯示內容預覽](../../.gitbook/assets/learning-path-editor.png)
 
 編輯器有兩個主要區域：
 

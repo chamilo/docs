@@ -27,7 +27,7 @@ By default, the public registration form has no option to register as a teacher 
 
 Some platforms do enable a **"What do you want to do?"** step with two cards — **Follow courses** and **Teach courses** — but this only appears if your administrator has specifically turned on registration as a teacher. Even then, choosing to teach may require your account to be approved before you get teacher rights.
 
-![The registration form on a platform with teacher self-registration enabled, showing the "Follow courses" / "Teach courses" role picker](/.gitbook/assets/student-registration-form.png)
+![The registration form on a platform with teacher self-registration enabled, showing the "Follow courses" / "Teach courses" role picker](../../.gitbook/assets/student-registration-form.png)
 
 If you need a teacher account and don't see this option, ask your platform administrator to create one for you or upgrade your existing account.
 

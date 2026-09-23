@@ -4,7 +4,7 @@ La herramienta de foros le permite alojar debates estructurados dentro de su cur
 
 ## Estructura de los foros
 
-![La lista de categorías de foros que muestra categorías, foros y recuentos de temas](/.gitbook/assets/forum-category-list.png)
+![La lista de categorías de foros que muestra categorías, foros y recuentos de temas](../../.gitbook/assets/forum-category-list.png)
 
 Los foros en Chamilo se organizan en tres niveles:
 
@@ -14,7 +14,7 @@ Los foros en Chamilo se organizan en tres niveles:
 
 ## Crear una categoría de foro
 
-1. Abra la herramienta **Foros** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foros" data-size="line"> desde la página de inicio de su curso
+1. Abra la herramienta **Foros** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foros" data-size="line"> desde la página de inicio de su curso
 2. Haga clic en **Añadir una categoría de foro**
 3. Introduzca un **Nombre de categoría** y una descripción opcional
 4. Guarde

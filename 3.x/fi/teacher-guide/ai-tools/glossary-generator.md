@@ -9,7 +9,7 @@ Generaattori on käytettävissä **Sanasto**-työkalusta, edellyttäen että:
 1. Tekoälyavustajat on otettu käyttöön alustatasolla
 2. Vähintään yksi tekoälytekstipalveluntarjoaja on määritetty
 
-Avaa **Sanasto** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Sanasto" data-size="line"> -työkalu kurssin etusivulta ja etsi työkalupalkista **Luo tekoälyllä** -painike.
+Avaa **Sanasto** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Sanasto" data-size="line"> -työkalu kurssin etusivulta ja etsi työkalupalkista **Luo tekoälyllä** -painike.
 
 ## Termien luominen
 

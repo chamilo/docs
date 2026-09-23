@@ -8,7 +8,7 @@ Fra administrasjonspanelet klikker du **Sikkerhet > Aktivitetsrevisjon**.
 
 ## Hva den viser
 
-![Siden Aktivitetsrevisjon som lister kategorier for hendelsestyper som Kurs, Økt, Bruker, Sosialt, Melding, Ressurs, Wiki og Annet, hver utvidbar til individuelle hendelsestyper](/.gitbook/assets/admin-security-activities-audit.png)
+![Siden Aktivitetsrevisjon som lister kategorier for hendelsestyper som Kurs, Økt, Bruker, Sosialt, Melding, Ressurs, Wiki og Annet, hver utvidbar til individuelle hendelsestyper](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Hendelser er gruppert i kategorier:
 

@@ -13,7 +13,7 @@
 
 要编辑简介：
 
-1. 点击 **编辑简介** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 按钮
+1. 点击 **编辑简介** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 按钮
 2. 使用富文本编辑器撰写内容
 3. 保存更改
 
@@ -21,7 +21,7 @@
 
 ## 工具网格
 
-![课程主页工具网格，显示可用的课程工具及其图标和可见性开关](/.gitbook/assets/course-homepage-tool-grid.png)
+![课程主页工具网格，显示可用的课程工具及其图标和可见性开关](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 在简介下方，课程工具以网格布局显示。每个工具以卡片形式呈现，包含：
 
@@ -32,18 +32,18 @@
 
 | 工具 | 图标 | 用途 |
 |------|------|---------|
-| 日程 | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 安排活动与截止日期 |
-| 公告 | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | 向已注册学习者发送消息 |
-| 作业 | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | 收集并批改学生作业 |
-| 文档 | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | 上传并组织文件与内容 |
-| 测验 | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | 创建测验与考试 |
-| 论坛 | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | 主持讨论 |
-| 术语表 | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | 定义关键术语 |
-| 评估 | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | 管理成绩与证书 |
-| 学习路径 | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | 构建结构化学习序列 |
-| 链接 | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | 分享有用的 URL |
-| 用户 | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | 查看并管理已注册用户 |
-| 调查 | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | 创建并分发调查 |
+| 日程 | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 安排活动与截止日期 |
+| 公告 | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | 向已注册学习者发送消息 |
+| 作业 | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | 收集并批改学生作业 |
+| 文档 | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | 上传并组织文件与内容 |
+| 测验 | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | 创建测验与考试 |
+| 论坛 | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | 主持讨论 |
+| 术语表 | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | 定义关键术语 |
+| 评估 | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | 管理成绩与证书 |
+| 学习路径 | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | 构建结构化学习序列 |
+| 链接 | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | 分享有用的 URL |
+| 用户 | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | 查看并管理已注册用户 |
+| 调查 | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | 创建并分发调查 |
 
 > 如果管理员已在平台级别禁用某些工具，或您已将其隐藏，则这些工具可能不会显示。
 
@@ -65,7 +65,7 @@
 * 使用 **全部显示** 或 **全部隐藏** 进行批量更改
 * 隐藏的工具对您作为教师仍然可访问——它们仅对学习者隐藏
 
-![学生看到的课程主页，隐藏的工具不可见](/.gitbook/assets/course-homepage-student-view.png)
+![学生看到的课程主页，隐藏的工具不可见](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## 自动启动功能
 

@@ -8,7 +8,7 @@ Klik in het beheerpaneel op **Systeemstatus** (of **Systeeminformatie**).
 
 ## Wat het toont
 
-![De pagina systeemstatus met PHP-configuratie, databasestatus, bestandsrechten en serverinformatie](/.gitbook/assets/admin-system-status.png)
+![De pagina systeemstatus met PHP-configuratie, databasestatus, bestandsrechten en serverinformatie](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP-configuratie
 

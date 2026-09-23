@@ -4,7 +4,7 @@ Chamilo stelt u in staat om aangepaste profielvelden (extra velden) te definiër
 
 ## Extra Profielvelden
 
-![De lijst met extra profielvelden toont aangepaste velden met naam, type en zichtbaarheidsinstellingen](/.gitbook/assets/admin-extra-fields-list.png)
+![De lijst met extra profielvelden toont aangepaste velden met naam, type en zichtbaarheidsinstellingen](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Extra velden stellen u in staat om metadata op te slaan die specifiek zijn voor uw organisatie, zoals:
 

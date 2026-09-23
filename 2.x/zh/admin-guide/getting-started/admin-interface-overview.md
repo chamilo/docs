@@ -1,10 +1,10 @@
 # 管理界面概览
 
-管理面板是您管理Chamilo平台的指挥中心。通过点击侧边栏中的**Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line">进入。
+管理面板是您管理Chamilo平台的指挥中心。通过点击侧边栏中的**Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line">进入。
 
 ## 管理仪表板
 
-![管理仪表板显示用户、课程、会话和设置的功能模块](/.gitbook/assets/admin-dashboard-overview.png)
+![管理仪表板显示用户、课程、会话和设置的功能模块](../../.gitbook/assets/admin-dashboard-overview.png)
 
 管理仪表板按功能模块组织。每个模块将相关的管理工具分组：
 

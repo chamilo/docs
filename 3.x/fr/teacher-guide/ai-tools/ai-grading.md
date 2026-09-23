@@ -9,11 +9,11 @@ La notation par IA est disponible dans deux contextes :
 * **Questions d’exercice ouvertes** — Lorsque vous notez manuellement des questions à réponse libre dans un exercice
 * **Remises de devoirs** — Lorsque vous examinez et notez les publications des étudiants dans l’outil Devoirs
 
-Recherchez le bouton **Notation par IA** (indiqué par une icône de robot <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) dans l’interface de notation.
+Recherchez le bouton **Notation par IA** (indiqué par une icône de robot <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) dans l’interface de notation.
 
 ## Fonctionnement
 
-![L’interface de notation par IA affichant une remise d’étudiant avec une note suggérée et des commentaires](/.gitbook/assets/ai-grading-interface.png)
+![L’interface de notation par IA affichant une remise d’étudiant avec une note suggérée et des commentaires](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Ouvrez une remise ou une réponse à noter
 2. Cliquez sur le bouton **Notation par IA**

@@ -13,7 +13,7 @@ AIを活用した演習ジェネレーターは、人工知能を使用してク
 
 ## 質問の生成方法
 
-![トピックと質問数のフィールドを持つAI演習ジェネレーターフォーム](/.gitbook/assets/ai-exercise-generator.png)
+![トピックと質問数のフィールドを持つAI演習ジェネレーターフォーム](../../.gitbook/assets/ai-exercise-generator.png)
 
 ジェネレーターには2つのモードがあり、タブとして利用可能です：
 
@@ -32,7 +32,7 @@ AIを活用した演習ジェネレーターは、人工知能を使用してク
 
 ## 確認と編集
 
-![編集、承認、削除のオプションとともに表示されるAI生成の質問](/.gitbook/assets/ai-exercise-generator-results.png)
+![編集、承認、削除のオプションとともに表示されるAI生成の質問](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 生成された質問は **提案** として表示されます。以下の作業を行う必要があります：
 

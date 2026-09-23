@@ -4,7 +4,7 @@ De oefeningentool (ook wel "toetsen" genoemd) laat u quizzen en examens maken me
 
 ## Een oefening maken
 
-1. Open de tool **Oefeningen** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Oefeningen" data-size="line"> vanaf de startpagina van de cursus
+1. Open de tool **Oefeningen** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Oefeningen" data-size="line"> vanaf de startpagina van de cursus
 2. Klik op **Nieuwe oefening**
 3. Voer een **titel** en optionele **beschrijving** in
 4. Configureer de oefeninginstellingen (zie hieronder)
@@ -12,7 +12,7 @@ De oefeningentool (ook wel "toetsen" genoemd) laat u quizzen en examens maken me
 
 ## Oefeninginstellingen
 
-![Het paneel met oefeninginstellingen met opties voor weergave, tijd, pogingen en feedback](/.gitbook/assets/exercise-settings.png)
+![Het paneel met oefeninginstellingen met opties voor weergave, tijd, pogingen en feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Weergave en navigatie
 
@@ -75,7 +75,7 @@ U kunt ook geavanceerde selectiestrategieën configureren die categorieën en ra
 
 ## Vraagtypen
 
-![Overzicht van beschikbare vraagtypen in de interface voor het maken van oefeningen](/.gitbook/assets/exercise-question-types.png)
+![Overzicht van beschikbare vraagtypen in de interface voor het maken van oefeningen](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo biedt een rijke set vraagtypen, ingedeeld in verschillende categorieën:
 

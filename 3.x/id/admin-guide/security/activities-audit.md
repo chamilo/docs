@@ -8,7 +8,7 @@ Dari panel administrasi, klik **Keamanan > Audit aktivitas**.
 
 ## Apa yang Ditampilkan
 
-![Halaman Audit aktivitas yang mencantumkan kategori jenis peristiwa seperti Course, Session, User, Social, Message, Resource, Wiki, dan Other, masing-masing dapat diperluas menjadi jenis peristiwa individual](/.gitbook/assets/admin-security-activities-audit.png)
+![Halaman Audit aktivitas yang mencantumkan kategori jenis peristiwa seperti Course, Session, User, Social, Message, Resource, Wiki, dan Other, masing-masing dapat diperluas menjadi jenis peristiwa individual](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Peristiwa dikelompokkan ke dalam kategori:
 

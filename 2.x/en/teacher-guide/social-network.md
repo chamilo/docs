@@ -8,7 +8,7 @@ Click **Social network** in the sidebar to access the social features. If you do
 
 ## Your Social Wall
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![The social wall showing a feed of posts, likes, and comments from connections](../.gitbook/assets/social-wall.png)
 
 The social wall shows a feed of activity from you and your connections. You can:
 
@@ -30,9 +30,9 @@ You can connect with other users on the platform:
 
 The social network integrates with the platform's messaging system:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Send messages** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
+* **Inbox** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
+* **Sent messages** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
 
 ### Composing and Replying
 

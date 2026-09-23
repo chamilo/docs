@@ -1,10 +1,10 @@
 # 在課程首頁通知
 
-在課程首頁通知 <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="在課程首頁通知" data-size="line"> 可讓您向造訪課程首頁的所有人顯示彈出式通知——適用於公告、必讀提醒，或「按此繼續」的閘道。
+在課程首頁通知 <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="在課程首頁通知" data-size="line"> 可讓您向造訪課程首頁的所有人顯示彈出式通知——適用於公告、必讀提醒，或「按此繼續」的閘道。
 
 ## 設定通知
 
-啟用後，課程的 **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 會新增 **在首頁設定一則通知** 按鈕。它會開啟表單，供您撰寫通知（富文本），並可選擇設定 **到期連結**。
+啟用後，課程的 **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 會新增 **在首頁設定一則通知** 按鈕。它會開啟表單，供您撰寫通知（富文本），並可選擇設定 **到期連結**。
 
 * **有到期連結** — 彈出視窗會顯示指向該連結的按鈕，並持續重複出現，直到學習者點選為止
 * **沒有到期連結** — 每次造訪者開啟課程首頁時，通知都會再次出現

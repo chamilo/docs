@@ -19,7 +19,7 @@ Le categorie predefinite includono:
 
 ## Accesso allo strumento Ticket
 
-Se l'amministratore ha abilitato il collegamento ai ticket, un'icona ticket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> compare nella barra di navigazione superiore. Fare clic su di essa per accedere direttamente al modulo di invio del ticket.
+Se l'amministratore ha abilitato il collegamento ai ticket, un'icona ticket <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> compare nella barra di navigazione superiore. Fare clic su di essa per accedere direttamente al modulo di invio del ticket.
 
 È inoltre possibile accedere ai propri ticket dal menu principale sotto **Supporto** o **Ticket**, a seconda della configurazione della piattaforma.
 

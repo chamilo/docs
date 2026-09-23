@@ -26,7 +26,7 @@ Untuk menautkan ke halaman Wiki lain di editor, gunakan judul halaman tujuan unt
 Siapa saja yang memiliki izin mengedit dapat memodifikasi halaman Wiki:
 
 1. Buka halaman yang ingin Anda edit
-2. Klik tombol **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line">
+2. Klik tombol **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line">
 3. Lakukan perubahan di editor
 4. Secara opsional, tambahkan catatan di **Komentar** yang menjelaskan apa yang Anda ubah
 5. Simpan

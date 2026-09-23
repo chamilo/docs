@@ -4,8 +4,8 @@ De koppelingentool laat u nuttige URL's met uw cursisten delen, georganiseerd pe
 
 ## Een koppeling toevoegen
 
-1. Open de tool **Koppelingen** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Koppelingen" data-size="line"> vanaf de startpagina van de cursus
-2. Klik op **Een koppeling toevoegen** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Koppeling toevoegen" data-size="line">
+1. Open de tool **Koppelingen** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Koppelingen" data-size="line"> vanaf de startpagina van de cursus
+2. Klik op **Een koppeling toevoegen** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Koppeling toevoegen" data-size="line">
 3. Vul de gegevens in:
    * **URL** — Het webadres (bijv. `https://example.com/resource`)
    * **Naam van de koppeling** — Een beschrijvende naam voor de koppeling
@@ -27,10 +27,10 @@ Koppelingen binnen een categorie worden samen weergegeven, zodat cursisten relev
 
 ## Koppelingen beheren
 
-* **Koppelingen controleren** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Geldigheid" data-size="line">  — Chamilo kan controleren of koppelingen nog actief of verbroken zijn
-* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk de URL, titel of beschrijving van de koppeling bij
-* **Zichtbaarheid** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Verberg of toon de koppeling voor cursisten
-* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder de koppeling
+* **Koppelingen controleren** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Geldigheid" data-size="line">  — Chamilo kan controleren of koppelingen nog actief of verbroken zijn
+* **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk de URL, titel of beschrijving van de koppeling bij
+* **Zichtbaarheid** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Verberg of toon de koppeling voor cursisten
+* **Verwijderen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder de koppeling
 
 ## Koppelingen exporteren
 

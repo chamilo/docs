@@ -30,13 +30,13 @@ Kunkin todistuksen oma vanhenemispäivä lasketaan automaattisesti tästä asetu
 
 Jos kategorialle ei ole määritetty voimassaoloaikaa, voit silti asettaa (tai muuttaa) yksittäisen oppijan vanhenemispäivän käsin: napsauta kynäkuvaketta **Muokkaa vanhenemispäivää** hänen rivinsä vieressä ja valitse päivämäärä. Tämä painike on käytettävissä vain, kun kategorialla itsellään ei ole voimassaoloaikaa — kun voimassaoloaika on asetettu, vanhenemispäiviä hallitaan automaattisesti eikä niitä voi enää muokata todistuskohtaisesti.
 
-![Todistusluettelo, jossa näkyy Vanhenemispäivä-sarake kolmelle oppijalle](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![Todistusluettelo, jossa näkyy Vanhenemispäivä-sarake kolmelle oppijalle](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Oppijoiden muistuttaminen tulevasta tai menneestä vanhenemisesta
 
-Avaa arviointisi **Todistukset**-luettelo ja napsauta painiketta **Vanhenevat todistukset** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Vanhenevat todistukset" data-size="line"> nähdäksesi, kenen oppijoiden todistukset ovat vanhentuneet tai ovat vanhenemassa. Sivu näyttää oppijakohtaisesti: todistuksen **Vanhenemispäivän**, sen **Tilan** (**Vanhentunut** tai **Vanhenee pian**) sekä milloin siitä lähetettiin **Viimeisin muistutus** (tai **Ei koskaan**). Käytä **Päiviä eteenpäin** laajentaaksesi tai kaventaaaksesi, kuinka pitkälle tulevaisuuteen ”vanhenee pian” ulottuu.
+Avaa arviointisi **Todistukset**-luettelo ja napsauta painiketta **Vanhenevat todistukset** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Vanhenevat todistukset" data-size="line"> nähdäksesi, kenen oppijoiden todistukset ovat vanhentuneet tai ovat vanhenemassa. Sivu näyttää oppijakohtaisesti: todistuksen **Vanhenemispäivän**, sen **Tilan** (**Vanhentunut** tai **Vanhenee pian**) sekä milloin siitä lähetettiin **Viimeisin muistutus** (tai **Ei koskaan**). Käytä **Päiviä eteenpäin** laajentaaksesi tai kaventaaaksesi, kuinka pitkälle tulevaisuuteen ”vanhenee pian” ulottuu.
 
-![Vanhenevat todistukset -sivu, jossa on yksi vanhentunut ja yksi pian vanheneva todistus](/.gitbook/assets/gradebook-certificate-expirations.png)
+![Vanhenevat todistukset -sivu, jossa on yksi vanhentunut ja yksi pian vanheneva todistus](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Ilmoittaaksesi oppijoille itse:
 
@@ -45,7 +45,7 @@ Ilmoittaaksesi oppijoille itse:
 3. Tarkista esikatselu lähetettävästä sähköpostista — ”vanhenee pian” ja ”vanhentunut” -sanoituksille näytetään erilliset esikatselut sen mukaan, kumpaan tapaukseen valitsemasi oppijat kuuluvat
 4. Vahvista napsauttamalla **Lähetä ilmoitus** uudelleen valintaikkunassa
 
-![Lähetä ilmoitus -vahvistusikkuna, jossa esikatsellaan vanhenevan ja vanhentuneen sähköpostin sanoitusta](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Lähetä ilmoitus -vahvistusikkuna, jossa esikatsellaan vanhenevan ja vanhentuneen sähköpostin sanoitusta](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Kukin oppija saa ilmoituksen omalla määritetyllä kielellään sekä sähköpostitse että Chamilon sisäisellä viestillä. Uudelleenlähetys samalle todistukselle ja samalle vanhenemispäivälle on turvallista — Chamilo seuraa, mitä kullekin todistukselle on jo lähetetty, eikä spämmää oppijaa päällekkäisillä muistutuksilla, ellet nimenomaisesti lähetä uudelleen.
 

@@ -4,7 +4,7 @@
 
 ## 建立問卷調查
 
-1. 從課程首頁開啟 **問卷調查** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="問卷調查" data-size="line"> 工具
+1. 從課程首頁開啟 **問卷調查** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="問卷調查" data-size="line"> 工具
 2. 點選 **建立問卷調查**
 3. 填寫問卷調查詳細資料：
    * **代碼** — 此為問卷調查的唯一代碼。將用於郵件與連結。
@@ -65,7 +65,7 @@
 
 ## 檢視結果
 
-![各題的圖表與百分比明細之問卷調查結果](/.gitbook/assets/survey-results-charts.png)
+![各題的圖表與百分比明細之問卷調查結果](../../.gitbook/assets/survey-results-charts.png)
 
 學習者回應後：
 

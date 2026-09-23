@@ -46,4 +46,4 @@ Som Chamilo-administrator administrerer du:
 
 ## Adgang til administrationspanelet
 
-Når du er logget ind som administrator, skal du klikke på **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> i sidebjælken for at åbne administrationspanelet.
+Når du er logget ind som administrator, skal du klikke på **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> i sidebjælken for at åbne administrationspanelet.

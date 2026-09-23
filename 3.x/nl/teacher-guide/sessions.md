@@ -15,7 +15,7 @@ Een **cursus** is een container van inhoud en tools. Een **sessie** wijst die cu
 
 Klik in de zijbalk op **Mijn sessies** om uw sessies te bekijken. Ze zijn georganiseerd in drie weergaven:
 
-![De pagina Mijn sessies met weergaven van huidige, afgelopen en aankomende sessies](/.gitbook/assets/my-sessions-list.png)
+![De pagina Mijn sessies met weergaven van huidige, afgelopen en aankomende sessies](../.gitbook/assets/my-sessions-list.png)
 
 * **Huidige sessies** — Sessies die momenteel actief zijn
 * **Afgelopen sessies** — Sessies die zijn afgelopen

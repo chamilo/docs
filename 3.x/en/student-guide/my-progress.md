@@ -4,7 +4,7 @@
 
 ## Accessing It
 
-Click **Reporting** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> in the sidebar to expand it, then click **Progress**. This is your own, personal view — it only ever shows your own data, not your classmates'.
+Click **Reporting** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> in the sidebar to expand it, then click **Progress**. This is your own, personal view — it only ever shows your own data, not your classmates'.
 
 ## What You See
 
@@ -15,7 +15,7 @@ A table listing every course you're in, with:
 * **Best score in learning path** and **best score not in learning path** — your top results, split by whether they came from a test embedded in a learning path or a standalone one
 * **Latest login** — the last time you accessed that course
 
-![The My Progress table, listing every enrolled course with time spent, progress, and best scores](/.gitbook/assets/student-my-progress.png)
+![The My Progress table, listing every enrolled course with time spent, progress, and best scores](../.gitbook/assets/student-my-progress.png)
 
 Click the **Details** button next to any course to expand three sub-tables without leaving the page:
 
@@ -27,7 +27,7 @@ Click the **Details** button next to any course to expand three sub-tables witho
 
 Certificates aren't part of this page — find them under **My certificates**, in your avatar menu at the top-right of the screen. It lists every course and session where you've earned a certificate, with the score, the date, and buttons to **view** or **download** it.
 
-![The My Certificates page, with separate tables for course certificates and session certificates](/.gitbook/assets/student-my-certificates.png)
+![The My Certificates page, with separate tables for course certificates and session certificates](../.gitbook/assets/student-my-certificates.png)
 
 Your avatar menu also has a **My skills** link, listing the competency badges you've been awarded — separate from both of the pages above.
 

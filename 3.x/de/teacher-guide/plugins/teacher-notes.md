@@ -1,6 +1,6 @@
 # Lehrer-Notizen
 
-Lehrer-Notizen <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Lehrer-Notizen" data-size="line"> bietet dem Lehrteam Ihres Kurses ein privates Notizbuch, um Notizen zu einzelnen Lernenden festzuhalten — Beobachtungen zum Lernfortschritt, Erinnerungen, alles, was Sie lieber nicht in einem öffentlichen Werkzeug ablegen möchten. Lernende sehen dieses Werkzeug und seine Inhalte niemals.
+Lehrer-Notizen <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Lehrer-Notizen" data-size="line"> bietet dem Lehrteam Ihres Kurses ein privates Notizbuch, um Notizen zu einzelnen Lernenden festzuhalten — Beobachtungen zum Lernfortschritt, Erinnerungen, alles, was Sie lieber nicht in einem öffentlichen Werkzeug ablegen möchten. Lernende sehen dieses Werkzeug und seine Inhalte niemals.
 
 > Nicht zu verwechseln mit dem Werkzeug [Notizbuch](../additional-tools/notebook.md) — jenes ist ein persönliches Notizbuch für Lernende; Lehrer-Notizen ist ein eigenständiges, nur für Lehrende bestimmtes Werkzeug.
 

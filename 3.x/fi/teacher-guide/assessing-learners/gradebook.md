@@ -19,7 +19,7 @@ Chamilo laskee kunkin oppijan kokonaisarvosanan näiden painojen perusteella.
 
 ## Arvioinnin määrittäminen
 
-1. Avaa **Arvioinnit**-työkalu <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Arviointi" data-size="line"> kurssin etusivulta
+1. Avaa **Arvioinnit**-työkalu <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Arviointi" data-size="line"> kurssin etusivulta
 2. Näet arviointien yleiskatsauksen, aluksi tyhjänä
 
 ### Aktiviteettien lisääminen
@@ -48,7 +48,7 @@ Monimutkaisissa arviointimalleissa voit luoda **alakategorioita** liittyvien akt
 
 ## Arvosanojen tarkastelu
 
-![Arvioinnin yleiskatsaustaulukko, jossa näkyvät oppijoiden nimet, aktiviteettipisteet ja painotetut kokonaissummat](/.gitbook/assets/gradebook-overview.png)
+![Arvioinnin yleiskatsaustaulukko, jossa näkyvät oppijoiden nimet, aktiviteettipisteet ja painotetut kokonaissummat](../../.gitbook/assets/gradebook-overview.png)
 
 Arviointi näyttää taulukon, jossa on:
 
@@ -77,7 +77,7 @@ Todistusten luonnin ottaminen käyttöön:
 
 Kun **Luo todistuksia** on käytössä juurikategoriassa, näkyviin tulee kenttä **Todistuksen voimassaolo (päivää)**. Jätä se arvoon `0` todistuksille, jotka eivät vanhene, tai aseta päivien määrä, jonka jälkeen todistus vanhenee — Chamilo voi sen jälkeen muistuttaa oppijoita vanhenemispäivän lähestyessä, joko automaattisesti (cron, ylläpitäjän määrittämä) tai manuaalisesti todistuslistasta.
 
-![Kategorian muokkausikkuna, jossa Luo todistuksia on käytössä ja Todistuksen voimassaolo (päivää) -kenttä on asetettu arvoon 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Kategorian muokkausikkuna, jossa Luo todistuksia on käytössä ja Todistuksen voimassaolo (päivää) -kenttä on asetettu arvoon 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Katso lisätietoja kohdasta [Todistukset ja taidot](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry).
 
@@ -87,7 +87,7 @@ Voit liittää **taitoja** arviointiin. Kun oppija saavuttaa asetetut tavoitteet
 
 ## Arvosanojen vieminen
 
-Napsauta **Vie**-painiketta <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Vie" data-size="line"> ladataksesi arvosanat taulukkolaskentatiedostona. Tämä on hyödyllistä, kun:
+Napsauta **Vie**-painiketta <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Vie" data-size="line"> ladataksesi arvosanat taulukkolaskentatiedostona. Tämä on hyödyllistä, kun:
 
 * Jaetaan arvosanoja hallintojärjestelmien kanssa
 * Tehdään lisäanalyysiä Chamilon ulkopuolella

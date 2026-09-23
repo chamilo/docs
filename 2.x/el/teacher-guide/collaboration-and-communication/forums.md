@@ -4,7 +4,7 @@
 
 ## Δομή Forum
 
-![Η λίστα κατηγοριών forum που εμφανίζει κατηγορίες, forums και αριθμό θεμάτων](/.gitbook/assets/forum-category-list.png)
+![Η λίστα κατηγοριών forum που εμφανίζει κατηγορίες, forums και αριθμό θεμάτων](../../.gitbook/assets/forum-category-list.png)
 
 Τα forums στο Chamilo οργανώνονται σε τρία επίπεδα:
 
@@ -14,7 +14,7 @@
 
 ## Δημιουργία Κατηγορίας Forum
 
-1. Ανοίξτε το εργαλείο **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> από την αρχική σελίδα του μαθήματός σας
+1. Ανοίξτε το εργαλείο **Forums** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> από την αρχική σελίδα του μαθήματός σας
 2. Κάντε κλικ στο **Προσθήκη κατηγορίας forum**
 3. Εισαγάγετε ένα **Όνομα κατηγορίας** και προαιρετική περιγραφή
 4. Αποθήκευση

@@ -19,7 +19,7 @@ Chamilo maakt standaard 3 categorieën aan: *Taalvaardigheden*, *Computervaardig
 
 ## Categoriehiërarchie
 
-![De beheerpagina voor cursuscategorieën met een geneste boomstructuur van categorieën](/.gitbook/assets/admin-course-categories.png)
+![De beheerpagina voor cursuscategorieën met een geneste boomstructuur van categorieën](../../.gitbook/assets/admin-course-categories.png)
 
 Categorieën kunnen worden genest om een boomstructuur te creëren:
 

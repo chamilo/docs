@@ -2,7 +2,7 @@
 
 **Sikkerhet**-blokken på administrasjonsoversikten samler plattformens innebygde verktøy for sikkerhetsovervåking og revisjon. Den er atskilt fra [Sikkerhetsinnstillinger](../platform-settings/security-settings.md), som konfigurerer sikkerhets*policy* (passordregler, CAPTCHA, HTTP-sikkerhetshoder og så videre) — denne blokken gir deg *rapportene og verktøyene* som overvåker plattformen for mistenkelig aktivitet og uønskede endringer.
 
-![Sikkerhet-blokken på administrasjonsoversikten, med Aktivitetsrevisjon, Innloggingsforsøk, Enkel IDS, Passordstyrkesjekker og Filintegritet](/.gitbook/assets/admin-security-block.png)
+![Sikkerhet-blokken på administrasjonsoversikten, med Aktivitetsrevisjon, Innloggingsforsøk, Enkel IDS, Passordstyrkesjekker og Filintegritet](../../.gitbook/assets/admin-security-block.png)
 
 Blokken ble introdusert i Chamilo 2.0 med fire verktøy og utvidet i Chamilo 3.0 med et femte, **Filintegritet**.
 

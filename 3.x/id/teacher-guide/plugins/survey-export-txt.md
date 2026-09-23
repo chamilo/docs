@@ -1,6 +1,6 @@
 # Survey Export TXT
 
-Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Survey Export TXT" data-size="line"> mengekspor hasil survei ke berkas teks biasa yang mudah dibaca manusia — satu blok per responden, mencantumkan setiap pertanyaan, jawaban yang dipilih, dan setiap respons teks terbuka, alih-alih baris dan kolom CSV.
+Survey Export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Survey Export TXT" data-size="line"> mengekspor hasil survei ke berkas teks biasa yang mudah dibaca manusia — satu blok per responden, mencantumkan setiap pertanyaan, jawaban yang dipilih, dan setiap respons teks terbuka, alih-alih baris dan kolom CSV.
 
 ## Mengekspor Survei
 

@@ -24,7 +24,7 @@ AI 导师需要两级配置：
 
 ## 聊天界面
 
-![显示学习者与 AI 对话的 AI 导师聊天界面](/.gitbook/assets/ai-tutor-chat.png)
+![显示学习者与 AI 对话的 AI 导师聊天界面](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI 导师在课程中以**停靠式聊天面板**的形式出现。学习者可以：
 

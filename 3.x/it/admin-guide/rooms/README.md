@@ -2,7 +2,7 @@
 
 Il blocco **Aule** nella dashboard di amministrazione gestisce le sedi fisiche che Chamilo può tracciare per la formazione in presenza o blended: le filiali (siti), le aule al loro interno e uno strumento per individuare quali aule sono libere in un dato momento.
 
-![Il blocco Aule nella dashboard di amministrazione, con l'elenco di Filiali, Aule e Ricerca disponibilità aule](/.gitbook/assets/admin-rooms-block.png)
+![Il blocco Aule nella dashboard di amministrazione, con l'elenco di Filiali, Aule e Ricerca disponibilità aule](../../.gitbook/assets/admin-rooms-block.png)
 
 Questo capitolo copre la gestione lato amministratore di filiali e aule. Per il lato rivolto al docente — l'assegnazione di un'aula a una sessione di corso — si veda [Filiali e aule](../../teacher-guide/branches-and-rooms.md) nella Guida per il docente.
 

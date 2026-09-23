@@ -4,7 +4,7 @@ Chamilo includes a career management system that lets you define training paths 
 
 ## Careers
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![The careers list showing defined career paths with name and description](../../.gitbook/assets/admin-careers-list.png)
 
 A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
 

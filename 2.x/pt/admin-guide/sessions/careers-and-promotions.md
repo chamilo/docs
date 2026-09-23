@@ -4,7 +4,7 @@ O Chamilo inclui um sistema de gestão de carreiras que permite definir caminhos
 
 ## Carreiras
 
-![Lista de carreiras mostrando os caminhos de formação definidos com nome e descrição](/.gitbook/assets/admin-careers-list.png)
+![Lista de carreiras mostrando os caminhos de formação definidos com nome e descrição](../../.gitbook/assets/admin-careers-list.png)
 
 Uma **carreira** representa um caminho de formação estruturado — uma sequência de etapas de treinamento que um aluno segue para alcançar um objetivo profissional.
 

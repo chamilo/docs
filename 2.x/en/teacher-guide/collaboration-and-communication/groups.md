@@ -14,7 +14,7 @@ Groups allow you to divide your learners into smaller teams for collaborative wo
 
 ## Group Tools
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![The groups overview showing available group tools and member counts](../../.gitbook/assets/groups-overview.png)
 
 Each group can have access to a subset of course tools that are shared only among group members:
 

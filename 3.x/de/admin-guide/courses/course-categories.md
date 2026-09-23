@@ -19,7 +19,7 @@ Chamilo legt standardmäßig 3 Kategorien an: *Language skills*, *PC Skills* und
 
 ## Kategoriehierarchie
 
-![Die Verwaltungsseite der Kurskategorien mit einem verschachtelten Kategoriebaum](/.gitbook/assets/admin-course-categories.png)
+![Die Verwaltungsseite der Kurskategorien mit einem verschachtelten Kategoriebaum](../../.gitbook/assets/admin-course-categories.png)
 
 Kategorien können verschachtelt werden, um eine Baumstruktur zu erzeugen:
 

@@ -53,7 +53,7 @@ Varje åtkomst-URL kan ha sina egna:
 
 Åtkomst-URL:er kan organiseras i ett överordnat/underordnat träd i stället för en platt lista. När en URL skapas eller redigeras kan en obegränsad global administratör (se [Underträdsadministratörer](#subtree-administrators) nedan) välja vilken som helst annan URL som dess **Överordnad URL**:
 
-![Dialogrutan Redigera URL med rullgardinsmenyn Överordnad URL öppen, som listar de andra åtkomst-URL:erna som kan väljas som överordnad](/.gitbook/assets/admin-access-url-parent-select.png)
+![Dialogrutan Redigera URL med rullgardinsmenyn Överordnad URL öppen, som listar de andra åtkomst-URL:erna som kan väljas som överordnad](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Rullgardinsmenyn erbjuder aldrig den URL som redigeras, eller någon av dess egna ättlingar, som möjlig överordnad — detta förhindrar att en cykel skapas. Backend validerar detta på nytt oavsett vad gränssnittet visar.
 * Om en URL skapas utan att en överordnad väljs, standardinställs den till **endast-inloggnings-URL:en** om en sådan finns (se [Inställningar per URL](#per-url-settings) ovan), eller annars till den första åtkomst-URL:en — samma standardbeteende som innan den här funktionen fanns.
@@ -61,7 +61,7 @@ Varje åtkomst-URL kan ha sina egna:
 
 Överallt där åtkomst-URL:er listas — Multi-URL-instrumentpanelen och sidan för hantering av åtkomst-URL:er — visas trädet genom indragning, en överordnad omedelbart följd av sina egna barn (syskon sorterade alfabetiskt), i stället för en separat kolumn "Överordnad":
 
-![Lista över åtkomst-URL:er som visar en rot-URL med två underordnade URL:er, varav en har sin egen underordnade URL, indragen för att återspegla hierarkin](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Lista över åtkomst-URL:er som visar en rot-URL med två underordnade URL:er, varav en har sin egen underordnade URL, indragen för att återspegla hierarkin](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Underträdsadministratörer
 

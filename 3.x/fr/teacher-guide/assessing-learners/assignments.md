@@ -4,7 +4,7 @@ L'outil Travaux (également appelé « publications des apprenants ») vous perm
 
 ## Créer un travail
 
-1. Ouvrez l'outil **Travaux** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Travaux" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Travaux** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Travaux" data-size="line"> depuis la page d'accueil du cours
 2. Cliquez sur **Créer un travail**
 3. Renseignez les informations :
    * **Nom du travail** — Le nom du travail (par ex. « Rapport de projet final »)
@@ -41,7 +41,7 @@ Les apprenants peuvent voir s'ils ont déjà déposé et, si cela est autorisé,
 
 ## Examiner les dépôts
 
-![La liste des dépôts de travaux affichant les noms des étudiants, les dates, les fichiers et l'état de notation](/.gitbook/assets/assignments-submissions-list.png)
+![La liste des dépôts de travaux affichant les noms des étudiants, les dates, les fichiers et l'état de notation](../../.gitbook/assets/assignments-submissions-list.png)
 
 En tant qu'enseignant, ouvrez un travail pour voir la liste de tous les dépôts :
 
@@ -53,7 +53,7 @@ En tant qu'enseignant, ouvrez un travail pour voir la liste de tous les dépôts
 
 ### Noter un dépôt
 
-![La vue de notation d'un travail avec saisie de la note, champ de rétroaction et téléversement du fichier corrigé](/.gitbook/assets/assignment-grading-view.png)
+![La vue de notation d'un travail avec saisie de la note, champ de rétroaction et téléversement du fichier corrigé](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Cliquez sur un dépôt pour l'ouvrir
 2. Examinez le fichier déposé

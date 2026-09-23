@@ -4,7 +4,7 @@ Tehtävätyökalu (kutsutaan myös nimellä "opiskelijoiden julkaisut") mahdolli
 
 ## Tehtävän luominen
 
-1. Avaa **Tehtävät**-työkalu <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tehtävät" data-size="line"> kurssin etusivulta
+1. Avaa **Tehtävät**-työkalu <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tehtävät" data-size="line"> kurssin etusivulta
 2. Napsauta **Luo tehtävä**
 3. Täytä tiedot:
    * **Tehtävän nimi** — Tehtävän nimi (esim. "Lopputyön raportti")
@@ -41,7 +41,7 @@ Oppijat näkevät, ovatko he jo palauttaneet, ja voivat tarvittaessa päivittä�
 
 ## Palautusten tarkistaminen
 
-![Tehtävien palautusluettelo, jossa näkyvät opiskelijoiden nimet, päivämäärät, tiedostot ja arvioinnin tila](/.gitbook/assets/assignments-submissions-list.png)
+![Tehtävien palautusluettelo, jossa näkyvät opiskelijoiden nimet, päivämäärät, tiedostot ja arvioinnin tila](../../.gitbook/assets/assignments-submissions-list.png)
 
 Opettajana avaa tehtävä nähdäksesi luettelon kaikista palautuksista:
 
@@ -53,7 +53,7 @@ Opettajana avaa tehtävä nähdäksesi luettelon kaikista palautuksista:
 
 ### Palautuksen arviointi
 
-![Tehtävän arviointinäkymä, jossa on pistemäärän syöttö, palautekenttä ja korjatun tiedoston lataus](/.gitbook/assets/assignment-grading-view.png)
+![Tehtävän arviointinäkymä, jossa on pistemäärän syöttö, palautekenttä ja korjatun tiedoston lataus](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Napsauta palautusta avataksesi sen
 2. Tarkista palautettu tiedosto

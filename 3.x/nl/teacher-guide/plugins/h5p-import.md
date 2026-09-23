@@ -1,6 +1,6 @@
 # H5P-import
 
-H5P-import <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-import" data-size="line"> laat u standaard `.h5p`-pakketten met interactieve inhoud (interactieve video, toetsen, presentaties en andere H5P-inhoudstypen) in een cursus brengen, waarbij pogingen en voortgang van cursisten vergelijkbaar worden bijgehouden als bij een Chamilo-toets.
+H5P-import <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-import" data-size="line"> laat u standaard `.h5p`-pakketten met interactieve inhoud (interactieve video, toetsen, presentaties en andere H5P-inhoudstypen) in een cursus brengen, waarbij pogingen en voortgang van cursisten vergelijkbaar worden bijgehouden als bij een Chamilo-toets.
 
 ## De tool openen
 

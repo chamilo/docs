@@ -20,7 +20,7 @@ The attendance tool lets you track learner presence for scheduled class sessions
 Each attendance sheet contains one or more dates (sessions) where you record presence:
 
 1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
+2. Click **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
 3. Select the date and time
 4. Optionally, check **Repeat date** to choose a repetition logic
 5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
@@ -44,7 +44,7 @@ Note: Admins can modify the portal configuration to allow you to choose more ext
 
 ## Viewing Attendance Reports
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![The attendance sheet showing a summary table with learners, dates, and presence indicators](../../.gitbook/assets/attendance-sheet.png)
 
 The attendance tool shows:
 

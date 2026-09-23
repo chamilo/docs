@@ -8,7 +8,7 @@ Dari panel administrasi, klik **Keamanan > Percobaan login**.
 
 ## Apa yang Ditampilkan
 
-![Halaman Percobaan login yang menampilkan grafik untuk percobaan per hari, IP teratas, percobaan gagal per bulan, login berhasil vs gagal, percobaan per jam, dan IP unik per hari, diikuti tabel percobaan login yang gagal](/.gitbook/assets/admin-security-login-attempts.png)
+![Halaman Percobaan login yang menampilkan grafik untuk percobaan per hari, IP teratas, percobaan gagal per bulan, login berhasil vs gagal, percobaan per jam, dan IP unik per hari, diikuti tabel percobaan login yang gagal](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Percobaan per hari (7 hari terakhir)** — Jumlah harian percobaan yang gagal
 * **IP teratas (30 hari terakhir)** — Alamat IP mana yang menghasilkan percobaan terbanyak

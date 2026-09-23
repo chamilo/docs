@@ -4,9 +4,9 @@ Some courses include a **Chat** tool — real-time text messaging tied to that s
 
 ## Sending Messages
 
-Open the **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> tool from the course homepage. You'll see a **Users** list of everyone currently online in the course, each with their own **Chat** button, plus an **All** tab for the whole group:
+Open the **Chat** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> tool from the course homepage. You'll see a **Users** list of everyone currently online in the course, each with their own **Chat** button, plus an **All** tab for the whole group:
 
-![The course Chat tool, showing the list of online users and a message composer](/.gitbook/assets/student-course-chat.png)
+![The course Chat tool, showing the list of online users and a message composer](../../.gitbook/assets/student-course-chat.png)
 
 Pick a person (or **All**) and type your message in the box at the bottom. Press **Enter** to send it, or **Shift+Enter** to start a new line without sending. A **Preview** option lets you check formatting before sending, and **Reset** clears what you've typed.
 

@@ -4,7 +4,7 @@ Chamilo seuraa oppijan toimintaa koko alustalla ja antaa yksityiskohtaista tieto
 
 ## Oppijan seurantaan pääsy
 
-Avaa **Seuranta**-työkalu <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seuranta" data-size="line"> kurssin etusivulta tai napsauta sivupalkissa **Raportointi**.
+Avaa **Seuranta**-työkalu <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Seuranta" data-size="line"> kurssin etusivulta tai napsauta sivupalkissa **Raportointi**.
 
 ## Mitä seurataan
 
@@ -22,7 +22,7 @@ Resurssikohtaiset käyttötiedot (mitkä tietyt asiakirjat tai sivut oppija avas
 
 ## Yksittäisen oppijan tietojen tarkastelu
 
-![Yksityiskohtainen oppijan seurantanäkymä, jossa näkyvät edistyminen, pisteet ja toimintojen aikajana](/.gitbook/assets/tracking-learner-detail.png)
+![Yksityiskohtainen oppijan seurantanäkymä, jossa näkyvät edistyminen, pisteet ja toimintojen aikajana](../../.gitbook/assets/tracking-learner-detail.png)
 
 Napsauta oppijan nimeä nähdäksesi hänen yksityiskohtaisen toimintaraporttinsa. Siinä näkyvät:
 

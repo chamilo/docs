@@ -8,7 +8,7 @@ No painel de administração, clique em **Segurança > Verificador de força de 
 
 ## Executando uma verificação
 
-![A página do verificador de força de senha, com um campo para IDs de usuário a verificar e um botão para executar a verificação](/.gitbook/assets/admin-security-password-strength.png)
+![A página do verificador de força de senha, com um campo para IDs de usuário a verificar e um botão para executar a verificação](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Deixe **IDs de usuário a verificar** vazio para verificar todos os usuários ativos, ou informe uma lista de IDs de usuário separados por vírgula para verificar um subconjunto
 * Clique em **Executar verificação de força de senha**
@@ -17,7 +17,7 @@ A verificação é executada de forma assíncrona em segundo plano para não con
 
 ## Agindo sobre os resultados
 
-![Os resultados da verificação concluída, listando um usuário sinalizado com as colunas Nome, Nome de usuário e E-mail, e ações por linha para solicitar alteração de senha ou forçar redefinição de senha](/.gitbook/assets/admin-security-password-strength-results.png)
+![Os resultados da verificação concluída, listando um usuário sinalizado com as colunas Nome, Nome de usuário e E-mail, e ações por linha para solicitar alteração de senha ou forçar redefinição de senha](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Quando a verificação termina, os usuários sinalizados são listados com duas ações disponíveis, por usuário ou como ação em massa para todos os usuários selecionados:
 

@@ -1,6 +1,6 @@
 # Certificato personalizzato
 
-Il plugin Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Certificato personalizzato" data-size="line"> consente di sostituire il [certificato del libretto dei voti](../assessing-learners/gradebook.md) standard con un proprio design — loghi, un sigillo, fino a quattro immagini di firma con didascalie, un'immagine di sfondo, i margini e contenuti costruiti a partire da tag segnaposto.
+Il plugin Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Certificato personalizzato" data-size="line"> consente di sostituire il [certificato del libretto dei voti](../assessing-learners/gradebook.md) standard con un proprio design — loghi, un sigillo, fino a quattro immagini di firma con didascalie, un'immagine di sfondo, i margini e contenuti costruiti a partire da tag segnaposto.
 
 ## Attivazione per il corso
 

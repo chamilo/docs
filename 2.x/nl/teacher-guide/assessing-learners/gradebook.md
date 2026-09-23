@@ -19,7 +19,7 @@ Chamilo berekent het totale cijfer van elke leerling op basis van deze gewichten
 
 ## Het Instellen van de Beoordeling
 
-1. Open het **Beoordelingen** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Beoordeling" data-size="line"> hulpmiddel vanaf de cursusstartpagina
+1. Open het **Beoordelingen** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Beoordeling" data-size="line"> hulpmiddel vanaf de cursusstartpagina
 2. U ziet het beoordelingsoverzicht, aanvankelijk leeg
 
 ### Activiteiten Toevoegen
@@ -48,7 +48,7 @@ Voor complexe beoordelingsschema's kunt u **subcategorieën** maken om gerelatee
 
 ## Cijfers Bekijken
 
-![Het beoordelingsoverzichtstabel met namen van leerlingen, scores per activiteit en gewogen totalen](/.gitbook/assets/gradebook-overview.png)
+![Het beoordelingsoverzichtstabel met namen van leerlingen, scores per activiteit en gewogen totalen](../../.gitbook/assets/gradebook-overview.png)
 
 De beoordeling toont een tabel met:
 
@@ -75,7 +75,7 @@ U kunt **vaardigheden** koppelen aan de beoordeling. Wanneer een leerling de ges
 
 ## Cijfers Exporteren
 
-Klik op de **Exporteren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporteren" data-size="line"> knop om cijfers als spreadsheet te downloaden. Dit is nuttig voor:
+Klik op de **Exporteren** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporteren" data-size="line"> knop om cijfers als spreadsheet te downloaden. Dit is nuttig voor:
 
 * Het delen van cijfers met administratieve systemen
 * Het uitvoeren van aanvullende analyses buiten Chamilo

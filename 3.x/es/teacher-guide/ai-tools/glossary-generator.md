@@ -9,7 +9,7 @@ El generador está disponible desde la herramienta **Glosario**, siempre que:
 1. Los asistentes de IA estén habilitados a nivel de plataforma
 2. Esté configurado al menos un proveedor de texto de IA
 
-Abra la herramienta **Glosario** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página de inicio del curso y busque el botón **Generar con IA** en la barra de herramientas.
+Abra la herramienta **Glosario** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página de inicio del curso y busque el botón **Generar con IA** en la barra de herramientas.
 
 ## Cómo generar términos
 

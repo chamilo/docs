@@ -2,7 +2,7 @@
 
 Sessies zijn een van de krachtigste functies van Chamilo. Ze stellen u in staat dezelfde cursussen aan verschillende groepen lerenden op verschillende momenten aan te bieden, zonder de cursusinhoud te dupliceren.
 
-![Het blok Sessiebeheer op het beheerdersdashboard, met onder andere de lijst met trainingssessies, Een trainingssessie toevoegen, sessiecategorieën, import-/exporttools, carrières en promoties, en resourcensequentie](/.gitbook/assets/admin-sessions-block.png)
+![Het blok Sessiebeheer op het beheerdersdashboard, met onder andere de lijst met trainingssessies, Een trainingssessie toevoegen, sessiecategorieën, import-/exporttools, carrières en promoties, en resourcensequentie](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Sessies beheren](managing-sessions.md)** — Trainingssessies aanmaken, configureren en beheren
 * **[Sessiecategorieën](session-categories.md)** — Sessies indelen in categorieën

@@ -4,7 +4,7 @@ Passen Sie das Erscheinungsbild Ihrer Chamilo-Plattform an und bestimmen Sie, we
 
 ## Plattform-Identität
 
-![Die Portal-Anpassungsseite mit den Einstellungen zur Plattform-Identität für Name, Logo und Institution](/.gitbook/assets/admin-portal-customization.png)
+![Die Portal-Anpassungsseite mit den Einstellungen zur Plattform-Identität für Name, Logo und Institution](../../.gitbook/assets/admin-portal-customization.png)
 
 Konfigurieren Sie die grundlegende Identität Ihres Portals:
 

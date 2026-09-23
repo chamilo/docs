@@ -53,7 +53,7 @@ Hver adgangs-URL kan have sine egne:
 
 Adgangs-URL'er kan organiseres i et overordnet/underordnet træ i stedet for en flad liste. Når du opretter eller redigerer en URL, kan en urestriktet Global Administrator (se [Undertræsadministratorer](#subtree-administrators) nedenfor) vælge en hvilken som helst anden URL som dens **Overordnet URL**:
 
-![Rediger URL-dialog med rullelisten Overordnet URL åben, der viser de øvrige adgangs-URL'er, der kan vælges som overordnet](/.gitbook/assets/admin-access-url-parent-select.png)
+![Rediger URL-dialog med rullelisten Overordnet URL åben, der viser de øvrige adgangs-URL'er, der kan vælges som overordnet](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Rullelisten tilbyder aldrig den URL, der redigeres, eller nogen af dens egne efterkommere, som mulig overordnet — dette forhindrer, at der oprettes en cyklus. Backend validerer dette igen uanset, hvad grænsefladen viser.
 * Hvis en URL oprettes uden at der vælges en overordnet, falder den som standard tilbage til **login-only URL**, hvis en sådan findes (se [Indstillinger pr. URL](#per-url-settings) ovenfor), eller ellers til den første adgangs-URL — samme standardadfærd som før denne funktion fandtes.
@@ -61,7 +61,7 @@ Adgangs-URL'er kan organiseres i et overordnet/underordnet træ i stedet for en 
 
 Overalt hvor adgangs-URL'er vises — Multi-URL-dashboardet og administrationssiden for adgangs-URL'er — vises træet ved indrykning, hvor en overordnet umiddelbart efterfølges af sine egne underordnede (søskende sorteret alfabetisk), i stedet for en separat kolonne "Overordnet":
 
-![Liste over adgangs-URL'er, der viser en rod-URL med to underordnede URL'er, hvoraf den ene har sin egen underordnede URL, indrykket for at afspejle hierarkiet](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste over adgangs-URL'er, der viser en rod-URL med to underordnede URL'er, hvoraf den ene har sin egen underordnede URL, indrykket for at afspejle hierarkiet](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Undertræsadministratorer
 

@@ -4,23 +4,23 @@
 
 ## Προσθήκη Όρου
 
-1. Ανοίξτε το εργαλείο **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Γλωσσάριο" data-size="line"> από την αρχική σελίδα του μαθήματος
+1. Ανοίξτε το εργαλείο **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Γλωσσάριο" data-size="line"> από την αρχική σελίδα του μαθήματος
 2. Κάντε κλικ στο **Add new glossary term**
 3. Εισαγάγετε τον **όρο** και τον **ορισμό** του (ο ορισμός υποστηρίζει μορφοποίηση πλούσιου κειμένου)
 4. Αποθήκευση
 
 ## Διαχείριση Όρων
 
-* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημέρωση ενός όρου ή του ορισμού του
-* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση ενός όρου από το γλωσσάριο
-* **Αναζήτηση** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Αναζήτηση" data-size="line"> — Χρήση της λειτουργίας αναζήτησης για να βρείτε συγκεκριμένους όρους γρήγορα
+* **Επεξεργασία** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημέρωση ενός όρου ή του ορισμού του
+* **Διαγραφή** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση ενός όρου από το γλωσσάριο
+* **Αναζήτηση** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="Αναζήτηση" data-size="line"> — Χρήση της λειτουργίας αναζήτησης για να βρείτε συγκεκριμένους όρους γρήγορα
 
 ## Εισαγωγή και Εξαγωγή
 
 Μπορείτε να δημιουργήσετε το γλωσσάριό σας πιο γρήγορα χρησιμοποιώντας εισαγωγή/εξαγωγή:
 
-* **Εισαγωγή** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Εισαγωγή" data-size="line"> — Ανεβάστε μια λίστα όρων και ορισμών από αρχείο CSV ή XLS. Μπορείτε επίσης να επιλέξετε "Update existing terms" για να αντικαταστήσετε ορισμούς για όρους που υπάρχουν ήδη στο γλωσσάριο.
-* **Εξαγωγή** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Εξαγωγή" data-size="line"> — Κατεβάστε το γλωσσάριο ως CSV, Excel (XLS) ή PDF για χρήση σε άλλο μάθημα ή για εκτός σύνδεσης αναφορά
+* **Εισαγωγή** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Εισαγωγή" data-size="line"> — Ανεβάστε μια λίστα όρων και ορισμών από αρχείο CSV ή XLS. Μπορείτε επίσης να επιλέξετε "Update existing terms" για να αντικαταστήσετε ορισμούς για όρους που υπάρχουν ήδη στο γλωσσάριο.
+* **Εξαγωγή** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="Εξαγωγή" data-size="line"> — Κατεβάστε το γλωσσάριο ως CSV, Excel (XLS) ή PDF για χρήση σε άλλο μάθημα ή για εκτός σύνδεσης αναφορά
 
 ## Επιλογές Εμφάνισης
 

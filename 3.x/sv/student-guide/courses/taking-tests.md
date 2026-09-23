@@ -4,7 +4,7 @@ Verktyget **Tester** (Exercises) är där du gör de quiz och examinationer som 
 
 ## Starta ett test
 
-Öppna verktyget **Tester** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tester" data-size="line"> från kurssidan och klicka på ett test för att starta det. Ett test kanske inte är tillgängligt ännu, eller kanske inte längre är tillgängligt, om din lärare har angett ett start- eller slutdatum för det.
+Öppna verktyget **Tester** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tester" data-size="line"> från kurssidan och klicka på ett test för att starta det. Ett test kanske inte är tillgängligt ännu, eller kanske inte längre är tillgängligt, om din lärare har angett ett start- eller slutdatum för det.
 
 ## Besvara frågor
 

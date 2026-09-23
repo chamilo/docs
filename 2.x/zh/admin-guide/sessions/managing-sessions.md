@@ -2,7 +2,7 @@
 
 ## 创建会话
 
-![会话创建表单，包含名称、日期、教练、类别和可见性字段](/.gitbook/assets/admin-session-create-form.png)
+![会话创建表单，包含名称、日期、教练、类别和可见性字段](../../.gitbook/assets/admin-session-create-form.png)
 
 1. 从管理面板中，点击**创建会话**
 2. 填写会话详细信息：
@@ -30,7 +30,7 @@
 
 ## 会话列表
 
-![会话列表，显示所有会话的名称、日期、课程数量、学习者数量和状态](/.gitbook/assets/admin-session-list.png)
+![会话列表，显示所有会话的名称、日期、课程数量、学习者数量和状态](../../.gitbook/assets/admin-session-list.png)
 
 会话列表显示所有会话，包括：
 
@@ -52,7 +52,7 @@
 
 ## 注册用户
 
-![会话注册界面，用于添加单个用户、班级或通过CSV导入](/.gitbook/assets/admin-session-enrollment.png)
+![会话注册界面，用于添加单个用户、班级或通过CSV导入](../../.gitbook/assets/admin-session-enrollment.png)
 
 您可以通过以下方式将会话注册用户：
 

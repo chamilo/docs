@@ -4,13 +4,13 @@ Chamilo 2.0 擁有乾淨、現代化的介面，設計目的是讓導航簡單�
 
 ## 上方工具列
 
-![上方工具列帶註解元素，包括標誌、收件匣、支援票證和使用者頭像](/.gitbook/assets/top-bar-annotated.png)
+![上方工具列帶註解元素，包括標誌、收件匣、支援票證和使用者頭像](../../.gitbook/assets/top-bar-annotated.png)
 
 上方工具列始終顯示在每個頁面的頂部。它包含：
 
 * **平台標誌** — 隨時點擊即可返回首頁。
-* **收件匣圖示** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 顯示您的訊息。紅色徽章表示未讀訊息。點擊即可開啟收件匣。
-* **支援票證圖示** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 如果由管理員啟用，此功能可讓您存取支援票證系統。
+* **收件匣圖示** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 顯示您的訊息。紅色徽章表示未讀訊息。點擊即可開啟收件匣。
+* **支援票證圖示** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 如果由管理員啟用，此功能可讓您存取支援票證系統。
 * **您的頭像** — 位於右上角的圓形圖像。點擊即可開啟下拉選單，包含連結至您的個人檔案、帳戶設定和登出。
 
 ## 側邊欄
@@ -19,19 +19,19 @@ Chamilo 2.0 擁有乾淨、現代化的介面，設計目的是讓導航簡單�
 
 側邊欄包含以下連結（某些連結可能因平台設定而隱藏）：
 
-![側邊欄導航面板處於展開狀態，顯示所有選單項目](/.gitbook/assets/sidebar-expanded.png)
+![側邊欄導航面板處於展開狀態，顯示所有選單項目](../../.gitbook/assets/sidebar-expanded.png)
 
 | 選單項目 | 圖示 | 描述 |
 |----------|------|------|
-| **首頁** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主要儀表板 |
-| **我的課程** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已註冊的所有課程 |
-| **我的工作坊** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的工作坊（目前、過去、即將開始） |
-| **探索更多課程** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 瀏覽課程目錄以尋找新課程 |
-| **行事曆** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的個人和課程行事曆 |
-| **報告** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 存取學習者追蹤和課程報告 |
-| **社群網路** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 與其他使用者連結、傳送訊息、加入群組 |
-| **視訊會議** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 存取即時視訊工作坊（如果已設定） |
-| **管理** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | 平台管理（僅管理員可見） |
+| **首頁** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主要儀表板 |
+| **我的課程** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已註冊的所有課程 |
+| **我的工作坊** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的工作坊（目前、過去、即將開始） |
+| **探索更多課程** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 瀏覽課程目錄以尋找新課程 |
+| **行事曆** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的個人和課程行事曆 |
+| **報告** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 存取學習者追蹤和課程報告 |
+| **社群網路** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 與其他使用者連結、傳送訊息、加入群組 |
+| **視訊會議** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 存取即時視訊工作坊（如果已設定） |
+| **管理** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | 平台管理（僅管理員可見） |
 
 在側邊欄的最底部，您會找到**登出**選項，以便在完成時快速登出。此選項也可在右上角頭像圖示的下拉選單中使用。
 如果平台透過外部認證方式管理，這些登出選項可能無法使用。
@@ -50,8 +50,8 @@ Chamilo 2.0 擁有乾淨、現代化的介面，設計目的是讓導航簡單�
 
 身為教師，您會看到額外的控制項目：
 
-* **學生檢視** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — 切換此項以查看學生會看到的課程樣貌
-* **編輯簡介** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 編輯課程簡介文字
+* **學生檢視** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — 切換此項以查看學生會看到的課程樣貌
+* **編輯簡介** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 編輯課程簡介文字
 * **顯示全部 / 隱藏全部** — 快速變更所有工具對學生的可見性
 * **排序** — 啟用拖放以重新排序首頁上的工具
 

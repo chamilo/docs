@@ -4,7 +4,7 @@ Chamilo lar deg definere egendefinerte profilfelt (ekstrafelt) for å fange opp 
 
 ## Ekstra profilfelt
 
-![Listen over ekstra profilfelt som viser egendefinerte felt med navn, type og synlighetsinnstillinger](/.gitbook/assets/admin-extra-fields-list.png)
+![Listen over ekstra profilfelt som viser egendefinerte felt med navn, type og synlighetsinnstillinger](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Ekstrafelt lar deg lagre metadata som er spesifikke for organisasjonen din, for eksempel:
 

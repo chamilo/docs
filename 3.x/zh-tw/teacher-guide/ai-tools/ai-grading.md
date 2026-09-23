@@ -9,11 +9,11 @@ AI 評分可用於兩種情境：
 * **開放式練習題** — 當您在練習中手動評分自由作答題時
 * **作業繳交** — 當您在作業工具中檢視並評分學生的繳交內容時
 
-請在評分介面中尋找 **AI 評分** 按鈕（以機器人圖示 <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> 標示）。
+請在評分介面中尋找 **AI 評分** 按鈕（以機器人圖示 <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> 標示）。
 
 ## 運作方式
 
-![顯示學生繳交內容以及建議分數與回饋的 AI 評分介面](/.gitbook/assets/ai-grading-interface.png)
+![顯示學生繳交內容以及建議分數與回饋的 AI 評分介面](../../.gitbook/assets/ai-grading-interface.png)
 
 1. 開啟需要評分的繳交內容或作答
 2. 點選 **AI 評分** 按鈕

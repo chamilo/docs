@@ -15,7 +15,7 @@ Istunnot Chamilossa ovat tapa tarjota sama kurssi eri oppijaryhmille eri aikoina
 
 Napsauta sivupalkista **Omat istunnot** nähdäksesi istuntosi. Ne on järjestetty kolmeen näkymään:
 
-![Omat istunnot -sivu, jossa näkyvät nykyisten, menneiden ja tulevien istuntojen näkymät](/.gitbook/assets/my-sessions-list.png)
+![Omat istunnot -sivu, jossa näkyvät nykyisten, menneiden ja tulevien istuntojen näkymät](../.gitbook/assets/my-sessions-list.png)
 
 * **Nykyiset istunnot** — Istunnot, jotka ovat tällä hetkellä aktiivisia
 * **Menneet istunnot** — Istunnot, jotka ovat päättyneet

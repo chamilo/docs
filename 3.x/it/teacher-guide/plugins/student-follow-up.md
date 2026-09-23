@@ -1,6 +1,6 @@
 # Follow-up studente
 
-Follow-up studente <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Follow-up studente" data-size="line"> consente di tenere note con data e ora e tag sul progresso e sulle difficoltà di un discente — un sistema leggero di note di caso per tracciare nel tempo come sta andando uno studente.
+Follow-up studente <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Follow-up studente" data-size="line"> consente di tenere note con data e ora e tag sul progresso e sulle difficoltà di un discente — un sistema leggero di note di caso per tracciare nel tempo come sta andando uno studente.
 
 ## Accesso allo strumento
 

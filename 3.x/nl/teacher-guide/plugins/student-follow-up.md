@@ -1,6 +1,6 @@
 # Student Follow-up
 
-Student Follow-up <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Student Follow-up" data-size="line"> laat u tijdgestempelde, getagde notities bijhouden over de voortgang en moeilijkheden van een lerende — een lichtgewicht systeem van casusnotities om te volgen hoe een student het in de loop van de tijd doet.
+Student Follow-up <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Student Follow-up" data-size="line"> laat u tijdgestempelde, getagde notities bijhouden over de voortgang en moeilijkheden van een lerende — een lichtgewicht systeem van casusnotities om te volgen hoe een student het in de loop van de tijd doet.
 
 ## Toegang tot de tool
 

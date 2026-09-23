@@ -4,7 +4,7 @@ Das Umfrage-Tool ermöglicht es Ihnen, Fragebögen zu erstellen, um Rückmeldung
 
 ## Eine Umfrage erstellen
 
-1. Öffnen Sie das Tool **Umfragen** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Umfragen" data-size="line"> von der Kursstartseite aus
+1. Öffnen Sie das Tool **Umfragen** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Umfragen" data-size="line"> von der Kursstartseite aus
 2. Klicken Sie auf **Umfrage erstellen**
 3. Füllen Sie die Umfragedetails aus:
    * **Code** — Dies ist ein eindeutiger Code für die Umfrage. Er wird in E-Mails und Links verwendet.
@@ -65,7 +65,7 @@ Am unteren Rand der Veröffentlichungsseite steht ein Link zur Verfügung, um no
 
 ## Ergebnisse anzeigen
 
-![Umfrageergebnisse mit Diagrammen und prozentualen Aufschlüsselungen für jede Frage](/.gitbook/assets/survey-results-charts.png)
+![Umfrageergebnisse mit Diagrammen und prozentualen Aufschlüsselungen für jede Frage](../../.gitbook/assets/survey-results-charts.png)
 
 Nachdem Lernende geantwortet haben:
 

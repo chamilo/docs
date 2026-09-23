@@ -13,7 +13,7 @@ AI 練習產生器可協助您運用人工智慧自動建立測驗題目。您�
 
 ## 如何產生題目
 
-![含主題與題目數量欄位的 AI 練習產生器表單](/.gitbook/assets/ai-exercise-generator.png)
+![含主題與題目數量欄位的 AI 練習產生器表單](../../.gitbook/assets/ai-exercise-generator.png)
 
 產生器提供兩種模式，以分頁呈現：
 
@@ -32,7 +32,7 @@ AI 練習產生器可協助您運用人工智慧自動建立測驗題目。您�
 
 ## 檢視與編輯
 
-![供檢視的 AI 產生題目，可對每一題進行編輯、接受或移除](/.gitbook/assets/ai-exercise-generator-results.png)
+![供檢視的 AI 產生題目，可對每一題進行編輯、接受或移除](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 產生的題目會以**建議**形式呈現。您應：
 

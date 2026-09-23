@@ -8,7 +8,7 @@ Os temas de cores definem a paleta utilizada em toda a interface do Chamilo — 
 
 ## Aplicar um Tema
 
-![A página de temas de cores a mostrar os temas disponíveis com amostras de pré-visualização e um botão Aplicar](/.gitbook/assets/admin-color-themes.png)
+![A página de temas de cores a mostrar os temas disponíveis com amostras de pré-visualização e um botão Aplicar](../../../.gitbook/assets/admin-color-themes.png)
 
 1. No painel de administração, navegue até **Temas de cores**
 2. Percorra os temas disponíveis

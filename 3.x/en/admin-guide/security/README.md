@@ -2,7 +2,7 @@
 
 The **Security** block on the administration dashboard groups the platform's built-in security monitoring and auditing tools. It is separate from [Security Settings](../platform-settings/security-settings.md), which configures security *policy* (password rules, CAPTCHA, HTTP security headers, and so on) — this block gives you the *reports and tools* that watch the platform for suspicious activity and unwanted changes.
 
-![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, Password strength checker, and File integrity](/.gitbook/assets/admin-security-block.png)
+![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, Password strength checker, and File integrity](../../.gitbook/assets/admin-security-block.png)
 
 The block was introduced in Chamilo 2.0 with four tools and extended in Chamilo 3.0 with a fifth, **File integrity**.
 

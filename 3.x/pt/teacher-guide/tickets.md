@@ -19,7 +19,7 @@ As categorias predefinidas incluem:
 
 ## Aceder à ferramenta de tickets
 
-Se o administrador tiver ativado a hiperligação de tickets, um ícone de ticket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> aparece na barra de navegação superior. Clique nele para ir diretamente para o formulário de submissão de tickets.
+Se o administrador tiver ativado a hiperligação de tickets, um ícone de ticket <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> aparece na barra de navegação superior. Clique nele para ir diretamente para o formulário de submissão de tickets.
 
 Também pode aceder aos seus tickets a partir do menu principal em **Support** ou **Tickets**, consoante a configuração da plataforma.
 

@@ -17,11 +17,11 @@ Some platforms also enable the AI Tutor **outside of any course** — if so, it 
 
 Look for the chat button (a floating speech-bubble icon) at the bottom of the screen. Opening it shows your contacts plus, if enabled, a dedicated **AI Tutor** entry with a robot icon and an "online" dot — click it to start or continue your conversation with the AI.
 
-![The chat panel's contact list, with an AI Tutor entry above your regular contacts](/.gitbook/assets/student-docked-chat-contacts.png)
+![The chat panel's contact list, with an AI Tutor entry above your regular contacts](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Type your question and press **Enter** to send it (**Shift+Enter** inserts a line break instead of sending). The AI Tutor formats its answers with headings, lists, bold text, and code blocks where useful, so longer explanations stay readable.
 
-![An open conversation with the AI Tutor, with the message composer at the bottom](/.gitbook/assets/student-ai-tutor-conversation.png)
+![An open conversation with the AI Tutor, with the message composer at the bottom](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Asking About Something You're Reading
 

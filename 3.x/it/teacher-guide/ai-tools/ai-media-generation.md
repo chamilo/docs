@@ -10,7 +10,7 @@ Quando si modifica un documento nello strumento **Documenti**, la funzione di ge
 
 ## Come generare un'immagine o un video
 
-1. Aprire un documento nello strumento **Documenti** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenti" data-size="line"> (crearne uno nuovo o modificarne uno esistente)
+1. Aprire un documento nello strumento **Documenti** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenti" data-size="line"> (crearne uno nuovo o modificarne uno esistente)
 2. Nell'editor di testo avanzato, posizionare il cursore nel paragrafo che si desidera illustrare o nelle sue vicinanze
 3. Aprire la finestra di dialogo **Genera media con l'IA** dalla barra degli strumenti dell'editor
 4. Descrivere ciò che si desidera che il media mostri, oppure usare il paragrafo selezionato come prompt

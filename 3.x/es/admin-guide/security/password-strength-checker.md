@@ -8,7 +8,7 @@ Desde el panel de administración, haga clic en **Seguridad > Comprobador de for
 
 ## Ejecución de un análisis
 
-![La página del comprobador de fortaleza de contraseñas, con un campo para los ID de usuario que se van a analizar y un botón para ejecutar el análisis](/.gitbook/assets/admin-security-password-strength.png)
+![La página del comprobador de fortaleza de contraseñas, con un campo para los ID de usuario que se van a analizar y un botón para ejecutar el análisis](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Deje **ID de usuario que analizar** vacío para analizar a todos los usuarios activos, o introduzca una lista de ID de usuario separados por comas para comprobar un subconjunto
 * Haga clic en **Ejecutar análisis de fortaleza de contraseñas**
@@ -17,7 +17,7 @@ El análisis se ejecuta de forma asíncrona en segundo plano para no bloquear la
 
 ## Actuación sobre los resultados
 
-![Los resultados del análisis completado, con un usuario marcado que muestra las columnas Nombre, Nombre de usuario y Correo electrónico, y acciones por fila para solicitar un cambio de contraseña o forzar un restablecimiento de contraseña](/.gitbook/assets/admin-security-password-strength-results.png)
+![Los resultados del análisis completado, con un usuario marcado que muestra las columnas Nombre, Nombre de usuario y Correo electrónico, y acciones por fila para solicitar un cambio de contraseña o forzar un restablecimiento de contraseña](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Cuando el análisis termina, los usuarios marcados se listan con dos acciones disponibles, ya sea por usuario o como acción masiva para todos los usuarios seleccionados:
 

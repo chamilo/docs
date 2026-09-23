@@ -1,6 +1,6 @@
 # Pemantauan Latihan
 
-Pemantauan Latihan <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Pemantauan Latihan" data-size="line"> menggunakan webcam siswa untuk mengambil foto identitas selama percobaan tes — foto dokumen identitas dan foto wajah siswa — untuk keperluan integritas ujian.
+Pemantauan Latihan <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Pemantauan Latihan" data-size="line"> menggunakan webcam siswa untuk mengambil foto identitas selama percobaan tes — foto dokumen identitas dan foto wajah siswa — untuk keperluan integritas ujian.
 
 ## Menandai Tes
 

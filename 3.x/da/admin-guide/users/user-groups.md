@@ -6,7 +6,7 @@ Klasser i administrationspanelet er platformsdækkende grupper, der bruges til a
 
 ## Oprettelse af en gruppe
 
-![Listen over brugergrupper, der viser tilgængelige grupper med navn, beskrivelse og antal medlemmer](/.gitbook/assets/admin-user-groups-list.png)
+![Listen over brugergrupper, der viser tilgængelige grupper med navn, beskrivelse og antal medlemmer](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Fra administrationspanelet skal du gå til **Klasser**
 2. Klik på **Tilføj klasser**

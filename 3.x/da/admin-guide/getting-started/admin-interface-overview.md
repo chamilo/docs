@@ -1,10 +1,10 @@
 # Oversigt over administrationsgrænsefladen
 
-Administrationspanelet er dit kommandocenter til at administrere Chamilo-platformen. Åbn det ved at klikke på **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> i sidepanelet.
+Administrationspanelet er dit kommandocenter til at administrere Chamilo-platformen. Åbn det ved at klikke på **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> i sidepanelet.
 
 ## Administrationsdashboard
 
-![Administrationsdashboardet med funktionelle blokke til Brugere, Kurser, Sessioner og Indstillinger](/.gitbook/assets/admin-dashboard-overview.png)
+![Administrationsdashboardet med funktionelle blokke til Brugere, Kurser, Sessioner og Indstillinger](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Administrationsdashboardet er inddelt i funktionelle blokke. Hver blok samler relaterede administrationsværktøjer:
 

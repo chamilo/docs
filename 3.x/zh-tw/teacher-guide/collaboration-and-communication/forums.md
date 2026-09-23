@@ -4,7 +4,7 @@
 
 ## 討論區結構
 
-![顯示類別、討論區與主題數量的討論區類別清單](/.gitbook/assets/forum-category-list.png)
+![顯示類別、討論區與主題數量的討論區類別清單](../../.gitbook/assets/forum-category-list.png)
 
 Chamilo 中的討論區分為三個層級：
 
@@ -14,7 +14,7 @@ Chamilo 中的討論區分為三個層級：
 
 ## 建立討論區類別
 
-1. 從課程首頁開啟 **討論區** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="討論區" data-size="line"> 工具
+1. 從課程首頁開啟 **討論區** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="討論區" data-size="line"> 工具
 2. 點選 **新增討論區類別**
 3. 輸入 **類別名稱** 及選填的說明
 4. 儲存

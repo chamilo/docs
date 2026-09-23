@@ -1,6 +1,6 @@
 # Editor de contenido C-Studio
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> es un editor visual de contenido, de arrastrar y soltar, para itinerarios de aprendizaje. Permite crear páginas interactivas — bloques de texto, cuestionarios, actividades de arrastrar y soltar, completar huecos, imágenes con puntos calientes, tablas, audio y vídeo — sin escribir HTML, y exportar el resultado como un paquete SCORM.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> es un editor visual de contenido, de arrastrar y soltar, para itinerarios de aprendizaje. Permite crear páginas interactivas — bloques de texto, cuestionarios, actividades de arrastrar y soltar, completar huecos, imágenes con puntos calientes, tablas, audio y vídeo — sin escribir HTML, y exportar el resultado como un paquete SCORM.
 
 ## Acceso al editor
 

@@ -2,7 +2,7 @@
 
 Blocket **Plattformshantering** på administrationspanelen samlar konfigurations- och kommunikationsverktyg för hela portalen — allt från den fullständiga inställningspanelen till språk, publika meddelanden, den globala kalendern och det CMS-liknande sidssystemet som bygger delar av portalens publika innehåll.
 
-![Blocket Plattformshantering på administrationspanelen, med Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories och System templates](/.gitbook/assets/admin-platform-block.png)
+![Blocket Plattformshantering på administrationspanelen, med Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories och System templates](../../.gitbook/assets/admin-platform-block.png)
 
 ## Åtkomst till plattformsblocket
 

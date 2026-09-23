@@ -4,7 +4,7 @@ Diese Seite behandelt die täglichen Aufgaben der Erstellung, Bearbeitung und Ve
 
 ## Benutzerliste
 
-![Die Benutzerliste mit Spalten für Name, E-Mail, Rolle und Status](/.gitbook/assets/admin-user-list.png)
+![Die Benutzerliste mit Spalten für Name, E-Mail, Rolle und Status](../../.gitbook/assets/admin-user-list.png)
 
 Klicken Sie im Verwaltungsbereich auf **Benutzerliste**, um alle Benutzer der Plattform anzuzeigen. Die Liste zeigt:
 
@@ -21,7 +21,7 @@ Verwenden Sie das Werkzeug **Erweiterte Suche**, um bestimmte Benutzer nach Name
 
 ## Benutzer erstellen
 
-![Das Benutzererstellungsformular mit Feldern für Name, E-Mail, Benutzername, Passwort, Rolle und Sprache](/.gitbook/assets/admin-user-create-form.png)
+![Das Benutzererstellungsformular mit Feldern für Name, E-Mail, Benutzername, Passwort, Rolle und Sprache](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klicken Sie im Verwaltungsbereich auf **Benutzer hinzufügen**
 2. Füllen Sie die erforderlichen Felder aus:
@@ -41,7 +41,7 @@ Verwenden Sie das Werkzeug **Erweiterte Suche**, um bestimmte Benutzer nach Name
 
 ## Benutzer importieren
 
-![Die Benutzerimportoberfläche zum Hochladen von CSV- oder XML-Dateien mit Benutzerdaten](/.gitbook/assets/admin-user-import.png)
+![Die Benutzerimportoberfläche zum Hochladen von CSV- oder XML-Dateien mit Benutzerdaten](../../.gitbook/assets/admin-user-import.png)
 
 Für die Massenerstellung von Benutzern können Sie Benutzer aus einer Datei importieren:
 

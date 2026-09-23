@@ -13,7 +13,7 @@ Die Kurseinführung ist ein Rich-Text-Bereich, der oben auf der Startseite über
 
 So bearbeiten Sie die Einführung:
 
-1. Klicken Sie auf die Schaltfläche **Einführung bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">
+1. Klicken Sie auf die Schaltfläche **Einführung bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">
 2. Verwenden Sie den Rich-Text-Editor, um Ihren Inhalt zu verfassen
 3. Speichern Sie Ihre Änderungen
 
@@ -21,7 +21,7 @@ Wenn noch keine Einführung erstellt wurde, sehen Sie eine Schaltfläche zum **E
 
 ## Werkzeugraster
 
-![Das Werkzeugraster der Kursstartseite mit verfügbaren Kurswerkzeugen, Symbolen und Sichtbarkeitsschaltern](/.gitbook/assets/course-homepage-tool-grid.png)
+![Das Werkzeugraster der Kursstartseite mit verfügbaren Kurswerkzeugen, Symbolen und Sichtbarkeitsschaltern](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Unterhalb der Einführung werden die Kurswerkzeuge in einem Rasterlayout angezeigt. Jedes Werkzeug erscheint als Karte mit:
 
@@ -32,18 +32,18 @@ Die in Ihrem Kurs verfügbaren Werkzeuge können umfassen:
 
 | Werkzeug | Symbol | Zweck |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ereignisse und Fristen planen |
-| Ankündigungen | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line"> | Nachrichten an eingeschriebene Lernende senden |
-| Aufgaben | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> | Studierendenarbeiten entgegennehmen und bewerten |
-| Dokumente | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumente" data-size="line"> | Dateien und Inhalte hochladen und organisieren |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Übungen" data-size="line"> | Quizze und Tests erstellen |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> | Diskussionen führen |
-| Glossar | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossar" data-size="line"> | Schlüsselbegriffe definieren |
-| Bewertungen | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Notenbuch" data-size="line"> | Noten und Zertifikate verwalten |
-| Lernpfade | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> | Strukturierte Lernsequenzen aufbauen |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Nützliche URLs teilen |
-| Benutzer | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Mitglieder" data-size="line"> | Eingeschriebene Benutzer anzeigen und verwalten |
-| Umfragen | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Umfragen" data-size="line"> | Umfragen erstellen und verteilen |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ereignisse und Fristen planen |
+| Ankündigungen | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line"> | Nachrichten an eingeschriebene Lernende senden |
+| Aufgaben | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> | Studierendenarbeiten entgegennehmen und bewerten |
+| Dokumente | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumente" data-size="line"> | Dateien und Inhalte hochladen und organisieren |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Übungen" data-size="line"> | Quizze und Tests erstellen |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> | Diskussionen führen |
+| Glossar | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossar" data-size="line"> | Schlüsselbegriffe definieren |
+| Bewertungen | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Notenbuch" data-size="line"> | Noten und Zertifikate verwalten |
+| Lernpfade | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> | Strukturierte Lernsequenzen aufbauen |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Nützliche URLs teilen |
+| Benutzer | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Mitglieder" data-size="line"> | Eingeschriebene Benutzer anzeigen und verwalten |
+| Umfragen | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Umfragen" data-size="line"> | Umfragen erstellen und verteilen |
 
 > Einige Werkzeuge erscheinen möglicherweise nicht, wenn Ihr Administrator sie auf Plattformebene deaktiviert hat oder wenn Sie sie ausgeblendet haben.
 
@@ -65,7 +65,7 @@ Außerdem wurden die Werkzeuge **Tracking** und **Wartung** an den oberen Rand d
 * Verwenden Sie **Alle anzeigen** oder **Alle ausblenden** für Sammeländerungen
 * Ausgeblendete Werkzeuge bleiben für Sie als Lehrende zugänglich — sie sind nur für Lernende ausgeblendet
 
-![Die Kursstartseite aus Sicht eines Studierenden, ohne ausgeblendete Werkzeuge](/.gitbook/assets/course-homepage-student-view.png)
+![Die Kursstartseite aus Sicht eines Studierenden, ohne ausgeblendete Werkzeuge](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## Auto-Launch-Funktionen
 

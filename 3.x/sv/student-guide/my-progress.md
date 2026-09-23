@@ -4,7 +4,7 @@
 
 ## Så kommer du dit
 
-Klicka på **Rapportering** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidofältet för att expandera det, och klicka sedan på **Framsteg**. Detta är din egen, personliga vy — den visar alltid bara dina egna data, inte dina klasskamraters.
+Klicka på **Rapportering** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidofältet för att expandera det, och klicka sedan på **Framsteg**. Detta är din egen, personliga vy — den visar alltid bara dina egna data, inte dina klasskamraters.
 
 ## Vad du ser
 
@@ -15,7 +15,7 @@ En tabell som listar varje kurs du deltar i, med:
 * **Bästa poäng i lärstig** och **bästa poäng inte i lärstig** — dina högsta resultat, uppdelade efter om de kom från ett test inbäddat i en lärstig eller ett fristående test
 * **Senaste inloggning** — senast du gick in i den kursen
 
-![Tabellen Min framsteg, som listar varje registrerad kurs med tid spenderad, framsteg och bästa poäng](/.gitbook/assets/student-my-progress.png)
+![Tabellen Min framsteg, som listar varje registrerad kurs med tid spenderad, framsteg och bästa poäng](../.gitbook/assets/student-my-progress.png)
 
 Klicka på knappen **Detaljer** bredvid valfri kurs för att expandera tre undertabeller utan att lämna sidan:
 
@@ -27,7 +27,7 @@ Klicka på knappen **Detaljer** bredvid valfri kurs för att expandera tre under
 
 Certifikat ingår inte på den här sidan — hitta dem under **Mina certifikat**, i din avatar-meny längst upp till höger på skärmen. Där listas varje kurs och session där du har fått ett certifikat, med poäng, datum och knappar för att **visa** eller **ladda ner** det.
 
-![Sidan Mina certifikat, med separata tabeller för kurs-certifikat och sessions-certifikat](/.gitbook/assets/student-my-certificates.png)
+![Sidan Mina certifikat, med separata tabeller för kurs-certifikat och sessions-certifikat](../.gitbook/assets/student-my-certificates.png)
 
 Din avatar-meny har också en länk **Mina färdigheter**, som listar de kompetensmärken du har tilldelats — separat från båda sidorna ovan.
 

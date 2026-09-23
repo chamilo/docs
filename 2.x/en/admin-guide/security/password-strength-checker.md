@@ -8,7 +8,7 @@ From the administration panel, click **Security > Password strength checker**.
 
 ## Running a Scan
 
-![The Password strength checker page, with a field for user IDs to scan and a button to run the scan](/.gitbook/assets/admin-security-password-strength.png)
+![The Password strength checker page, with a field for user IDs to scan and a button to run the scan](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Leave **User IDs to scan** empty to scan every active user, or enter a comma-separated list of user IDs to check a subset
 * Click **Run password strength scan**
@@ -17,7 +17,7 @@ The scan runs asynchronously in the background so it does not freeze the page, s
 
 ## Acting on Results
 
-![The completed scan results, listing a flagged user with Name, Username, and E-mail columns, and per-row actions to request a password change or force a password reset](/.gitbook/assets/admin-security-password-strength-results.png)
+![The completed scan results, listing a flagged user with Name, Username, and E-mail columns, and per-row actions to request a password change or force a password reset](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Once the scan finishes, flagged users are listed with two available actions, either per user or as a bulk action for all selected users:
 

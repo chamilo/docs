@@ -8,7 +8,7 @@
 
 ## 显示内容
 
-![活动审计页面列出课程、学期、用户、社交、消息、资源、Wiki 及其他等事件类型类别，每一类均可展开为具体事件类型](/.gitbook/assets/admin-security-activities-audit.png)
+![活动审计页面列出课程、学期、用户、社交、消息、资源、Wiki 及其他等事件类型类别，每一类均可展开为具体事件类型](../../.gitbook/assets/admin-security-activities-audit.png)
 
 事件按类别分组：
 

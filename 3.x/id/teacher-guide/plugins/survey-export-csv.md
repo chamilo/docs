@@ -1,6 +1,6 @@
 # Ekspor Survei CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Ekspor Survei CSV" data-size="line"> menambahkan ekspor sekali klik hasil survei ke berkas CSV yang ringkas, dengan satu baris per responden dan satu kolom per pertanyaan.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Ekspor Survei CSV" data-size="line"> menambahkan ekspor sekali klik hasil survei ke berkas CSV yang ringkas, dengan satu baris per responden dan satu kolom per pertanyaan.
 
 ## Mengekspor Survei
 

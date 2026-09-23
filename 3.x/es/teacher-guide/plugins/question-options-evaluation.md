@@ -1,6 +1,6 @@
 # Evaluación de opciones de pregunta
 
-Evaluación de opciones de pregunta <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluación de opciones de pregunta" data-size="line"> le permite aplicar una fórmula de puntuación negativa (penalización) a la calificación de un examen, en lugar del comportamiento predeterminado de Chamilo de simplemente sumar las respuestas correctas.
+Evaluación de opciones de pregunta <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluación de opciones de pregunta" data-size="line"> le permite aplicar una fórmula de puntuación negativa (penalización) a la calificación de un examen, en lugar del comportamiento predeterminado de Chamilo de simplemente sumar las respuestas correctas.
 
 ## Configurar una fórmula
 

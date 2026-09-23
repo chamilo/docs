@@ -1,6 +1,6 @@
 # Aangepast certificaat
 
-De plugin Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Aangepast certificaat" data-size="line"> laat u het standaard [cijferboekcertificaat](../assessing-learners/gradebook.md) vervangen door uw eigen ontwerp — logo's, een zegel, tot vier handtekeningafbeeldingen met bijschriften, een achtergrondafbeelding, marges en inhoud opgebouwd uit plaatshoudertags.
+De plugin Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Aangepast certificaat" data-size="line"> laat u het standaard [cijferboekcertificaat](../assessing-learners/gradebook.md) vervangen door uw eigen ontwerp — logo's, een zegel, tot vier handtekeningafbeeldingen met bijschriften, een achtergrondafbeelding, marges en inhoud opgebouwd uit plaatshoudertags.
 
 ## Inschakelen voor uw cursus
 

@@ -21,11 +21,11 @@ De functie is beschikbaar overal waar u de volledige rich-text-editor hebt: sect
 1. Schrijf (of plak) de inhoud in uw standaardtaal, zoals gewoonlijk.
 2. Selecteer die tekst en klik vervolgens op de knop **Lang ISO** in de werkbalk van de editor.
 
-![De werkbalk van de rich-text-editor, met de knop "Lang ISO" zichtbaar nabij het begin](/.gitbook/assets/teacher-multilang-editor.png)
+![De werkbalk van de rich-text-editor, met de knop "Lang ISO" zichtbaar nabij het begin](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. Kies in het menu de taal waarin u zojuist hebt geschreven — de lijst omvat elke taal die op uw platform actief is. Als de taal die u nodig hebt niet in de lijst staat, gebruik dan **Custom Chamilo ISO code...** onderaan en typ die in (bijv. `en_US`, `fr_FR`, `es`).
 
-![Het menu "Lang ISO" geopend, met elke actieve platformtaal plus "Add translation to..." en een optie voor een aangepaste code](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![Het menu "Lang ISO" geopend, met elke actieve platformtaal plus "Add translation to..." en een optie voor een aangepaste code](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo omhult uw selectie met die taaltag. Schrijf (of plak) nu de versie in de volgende taal er pal achter, selecteer die en herhaal het met een andere taal.
 
@@ -43,17 +43,17 @@ Elke cursist ziet precies één taalversie: Chamilo probeert eerst de eigen inte
 
 Hier is dezelfde sectie van de cursusbeschrijving, zoals gezien door drie cursisten met verschillende interfacetalen — verder is er niets aan de cursus veranderd tussen deze drie schermafbeeldingen, alleen de taal van de kijker:
 
-![Dezelfde sectie van de cursusbeschrijving zoals gezien door een cursist met Engels als interfacetaal](/.gitbook/assets/teacher-multilang-en.png)
+![Dezelfde sectie van de cursusbeschrijving zoals gezien door een cursist met Engels als interfacetaal](../../.gitbook/assets/teacher-multilang-en.png)
 
-![Dezelfde sectie zoals gezien door een cursist met Frans als interfacetaal](/.gitbook/assets/teacher-multilang-fr.png)
+![Dezelfde sectie zoals gezien door een cursist met Frans als interfacetaal](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![Dezelfde sectie zoals gezien door een cursist met Spaans als interfacetaal](/.gitbook/assets/teacher-multilang-es.png)
+![Dezelfde sectie zoals gezien door een cursist met Spaans als interfacetaal](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### Onder de motorkap
 
 Als u ooit de weergave **Broncode** van een meertalig veld opent (de knop `<>` in de werkbalk van de editor), ziet u elke taalversie als volgt omwikkeld:
 
-![De weergave Broncode, met een blok dat opent met lang="en_US" class="mce-translatehtml"](/.gitbook/assets/teacher-multilang-source-view.png)
+![De weergave Broncode, met een blok dat opent met lang="en_US" class="mce-translatehtml"](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 Elke versie is omwikkeld in een `<div class="mce-translatehtml" lang="...">` (of `<span>`, voor een korte inline-frase in plaats van een heel blok) — dat attribuut `lang` is wat Chamilo afstemt op de taal van de kijker om te beslissen wat er getoond wordt. Het is de moeite waard om deze specifieke klassenaam te herkennen als u ooit de paginabron inspecteert of inhoud oplost die er verkeerd uitziet: **`mce-translatehtml`** is de markering waarnaar u moet zoeken.
 

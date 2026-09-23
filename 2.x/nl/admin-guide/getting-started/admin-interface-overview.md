@@ -1,10 +1,10 @@
 # Overzicht van de Beheerdersinterface
 
-Het beheerderspaneel is uw controlecentrum voor het beheren van het Chamilo-platform. U krijgt toegang door te klikken op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk.
+Het beheerderspaneel is uw controlecentrum voor het beheren van het Chamilo-platform. U krijgt toegang door te klikken op **Beheer** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk.
 
 ## Beheerdersdashboard
 
-![Het beheerdersdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](/.gitbook/assets/admin-dashboard-overview.png)
+![Het beheerdersdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Het beheerdersdashboard is georganiseerd in functionele blokken. Elk blok groepeert gerelateerde beheertools:
 

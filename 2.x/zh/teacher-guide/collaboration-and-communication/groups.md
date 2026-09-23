@@ -14,7 +14,7 @@
 
 ## 群组工具
 
-![群组概览显示可用工具和成员数量](/.gitbook/assets/groups-overview.png)
+![群组概览显示可用工具和成员数量](../../.gitbook/assets/groups-overview.png)
 
 每个群组可以访问课程工具的子集，这些工具仅在群组成员之间共享：
 

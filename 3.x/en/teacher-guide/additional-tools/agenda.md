@@ -4,9 +4,9 @@ The agenda tool lets you schedule events and deadlines within your course. Event
 
 ## Viewing the Agenda
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![The agenda in calendar view showing course events and deadlines](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Calendar view** — A visual monthly/weekly/daily calendar
 * **List view** — Events shown as a chronological list
@@ -14,7 +14,7 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
 
 ## Creating an Event
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
+1. Click **Add event** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
 2. Fill in the event details:
    * **Title** — A short name for the event
    * **Start date and time**
@@ -23,22 +23,22 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
 3. Choose the **audience**:
    * **All learners** — Everyone enrolled in the course
    * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
+4. Optionally set a **reminder** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
 5. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
 
-   ![The color picker in the event creation form](/.gitbook/assets/agenda-event-color-picker.png)
+   ![The color picker in the event creation form](../../.gitbook/assets/agenda-event-color-picker.png)
 6. Save
 
 The chosen color is then reflected wherever the event appears in the calendar:
 
-![An event displayed in its chosen color in the week view](/.gitbook/assets/agenda-event-color-result.png)
+![An event displayed in its chosen color in the week view](../../.gitbook/assets/agenda-event-color-result.png)
 
 By default, new events get a color based on their context (course, session, personal or global), but you can override it with any color you like.
 
 ## Managing Events
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
+* **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
+* **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
 * **Drag and drop** — In calendar view, drag events to reschedule them
 
 ## Personal Agenda

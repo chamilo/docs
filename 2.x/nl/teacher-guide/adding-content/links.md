@@ -4,8 +4,8 @@ Met de tool Links kunt u nuttige URL's delen met uw leerlingen, georganiseerd pe
 
 ## Een link toevoegen
 
-1. Open de tool **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> vanaf de cursusstartpagina
-2. Klik op **Een link toevoegen** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Link toevoegen" data-size="line">
+1. Open de tool **Links** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> vanaf de cursusstartpagina
+2. Klik op **Een link toevoegen** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Link toevoegen" data-size="line">
 3. Vul de details in:
    * **URL** — Het webadres (bijv. `https://example.com/resource`)
    * **Linknaam** — Een beschrijvende naam voor de link
@@ -27,10 +27,10 @@ Links binnen een categorie worden samen weergegeven, waardoor het voor leerlinge
 
 ## Links beheren
 
-* **Linkcontrole** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Geldigheid" data-size="line"> — Chamilo kan controleren of links nog actief zijn of niet werken
-* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk de URL, titel of beschrijving van de link bij
-* **Zichtbaarheid** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Verberg of toon de link voor leerlingen
-* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder de link
+* **Linkcontrole** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Geldigheid" data-size="line"> — Chamilo kan controleren of links nog actief zijn of niet werken
+* **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk de URL, titel of beschrijving van de link bij
+* **Zichtbaarheid** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Verberg of toon de link voor leerlingen
+* **Verwijderen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder de link
 
 ## Links exporteren
 

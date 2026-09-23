@@ -1,6 +1,6 @@
 # Catatan Pengajar
 
-Catatan Pengajar <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Catatan Pengajar" data-size="line"> memberikan tim pengajar kursus Anda sebuah buku catatan pribadi untuk mencatat catatan tentang peserta didik tertentu — observasi kemajuan, pengingat, apa pun yang lebih baik tidak diletakkan di alat publik. Siswa tidak pernah melihat alat ini atau isinya.
+Catatan Pengajar <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Catatan Pengajar" data-size="line"> memberikan tim pengajar kursus Anda sebuah buku catatan pribadi untuk mencatat catatan tentang peserta didik tertentu — observasi kemajuan, pengingat, apa pun yang lebih baik tidak diletakkan di alat publik. Siswa tidak pernah melihat alat ini atau isinya.
 
 > Jangan dikelirukan dengan alat [Notebook](../additional-tools/notebook.md) — alat itu adalah buku catatan pribadi untuk peserta didik; Catatan Pengajar adalah alat terpisah yang hanya untuk pengajar.
 

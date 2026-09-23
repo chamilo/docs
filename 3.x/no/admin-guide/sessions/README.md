@@ -2,7 +2,7 @@
 
 Sesjoner er en av Chamilos mest kraftfulle funksjoner. De lar deg levere de samme kursene til ulike grupper av lærende til ulike tidspunkter, uten å duplisere kursinnhold.
 
-![Blokken for sesjonsadministrasjon på administrasjonsoversikten, som viser liste over opplæringssesjoner, Legg til en opplæringssesjon, sesjonskategorier, import-/eksportverktøy, karrierer og opprykk, og ressurssekvensering, blant annet](/.gitbook/assets/admin-sessions-block.png)
+![Blokken for sesjonsadministrasjon på administrasjonsoversikten, som viser liste over opplæringssesjoner, Legg til en opplæringssesjon, sesjonskategorier, import-/eksportverktøy, karrierer og opprykk, og ressurssekvensering, blant annet](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Administrere sesjoner](managing-sessions.md)** — Opprett, konfigurer og administrer opplæringssesjoner
 * **[Sesjonskategorier](session-categories.md)** — Organiser sesjoner i kategorier

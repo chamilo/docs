@@ -10,7 +10,7 @@ Al editar un documento en la herramienta **Documentos**, la función de generaci
 
 ## Cómo generar una imagen o un vídeo
 
-1. Abra un documento en la herramienta **Documentos** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> (cree uno nuevo o edite uno existente)
+1. Abra un documento en la herramienta **Documentos** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> (cree uno nuevo o edite uno existente)
 2. En el editor de texto enriquecido, sitúe el cursor en el párrafo que desea ilustrar o cerca de él
 3. Abra el diálogo **Generar medios con IA** desde la barra de herramientas del editor
 4. Describa lo que desea que muestre el medio, o use el párrafo seleccionado como indicación (prompt)

@@ -1,6 +1,6 @@
 # Lærernotater
 
-Lærernotater <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Lærernotater" data-size="line"> gir kursets undervisningsteam en privat notatbok for å notere ned notater om spesifikke lærende — observasjoner av fremgang, påminnelser, alt du heller ikke vil legge i et offentlig verktøy. Studenter ser aldri dette verktøyet eller innholdet i det.
+Lærernotater <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Lærernotater" data-size="line"> gir kursets undervisningsteam en privat notatbok for å notere ned notater om spesifikke lærende — observasjoner av fremgang, påminnelser, alt du heller ikke vil legge i et offentlig verktøy. Studenter ser aldri dette verktøyet eller innholdet i det.
 
 > Må ikke forveksles med verktøyet [Notatbok](../additional-tools/notebook.md) — det er en personlig notatbok for lærende; Lærernotater er et separat verktøy kun for lærere.
 

@@ -4,7 +4,7 @@ A ferramenta **Tarefas** (às vezes chamada de "publicações de alunos" ou "tra
 
 ## Enviando o seu trabalho
 
-Abra a ferramenta **Tarefas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tarefas" data-size="line"> na página inicial do curso e, em seguida, abra a tarefa específica. Leia a descrição com atenção — ela contém as instruções do professor sobre o que enviar e como o trabalho será avaliado. Depois:
+Abra a ferramenta **Tarefas** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tarefas" data-size="line"> na página inicial do curso e, em seguida, abra a tarefa específica. Leia a descrição com atenção — ela contém as instruções do professor sobre o que enviar e como o trabalho será avaliado. Depois:
 
 1. Clique em **Upload file** (ou no botão de envio)
 2. Conforme a configuração definida pelo professor, selecione um arquivo no computador, redija o envio diretamente como texto, ou ambos

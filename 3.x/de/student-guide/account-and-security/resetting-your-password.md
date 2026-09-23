@@ -6,7 +6,7 @@ Wenn Sie Ihr Passwort vergessen haben — oder es einfach ändern möchten — e
 
 Klicken Sie auf der Anmeldeseite auf **Passwort vergessen?**. Falls dieser Link nicht vorhanden ist, hat Ihr Administrator diese Funktion deaktiviert — wenden Sie sich direkt an ihn, um wieder Zugang zu erhalten.
 
-![Das Formular „Ich habe mein Passwort verloren“ mit einem einzigen Feld für Ihren Benutzernamen oder Ihre E-Mail-Adresse](/.gitbook/assets/student-lost-password.png)
+![Das Formular „Ich habe mein Passwort verloren“ mit einem einzigen Feld für Ihren Benutzernamen oder Ihre E-Mail-Adresse](../../.gitbook/assets/student-lost-password.png)
 
 1. Geben Sie Ihren **Benutzernamen oder Ihre E-Mail-Adresse** in das einzige Feld des Formulars ein.
 2. Falls eine CAPTCHA-Abfrage erscheint, lösen Sie sie (siehe [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Sie können Ihr Passwort jederzeit ändern, ohne darauf zu warten, es zu vergess
 2. Klicken Sie auf **Passwort ändern**.
 3. Geben Sie Ihr aktuelles Passwort ein, dann zweimal Ihr neues Passwort, und senden Sie das Formular ab.
 
-![Das Formular „Passwort ändern“ mit Feldern für Ihr aktuelles Passwort und ein neues Passwort](/.gitbook/assets/student-change-password.png)
+![Das Formular „Passwort ändern“ mit Feldern für Ihr aktuelles Passwort und ein neues Passwort](../../.gitbook/assets/student-change-password.png)
 
 Dies ist dieselbe Seite, auf der Sie die [Zwei-Faktor-Authentifizierung](two-factor-authentication.md) aktivieren können, sofern Ihre Plattform sie unterstützt — in diesem Fall sehen Sie hier außerdem ein Kontrollkästchen „Zwei-Faktor-Authentifizierung aktivieren“, das oben nicht dargestellt ist, da es nicht auf jeder Plattform aktiv ist.
 

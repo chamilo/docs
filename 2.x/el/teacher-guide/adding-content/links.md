@@ -4,8 +4,8 @@
 
 ## Προσθήκη Συνδέσμου
 
-1. Ανοίξτε το εργαλείο **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Σύνδεσμοι" data-size="line"> από την αρχική σελίδα του μαθήματος
-2. Κάντε κλικ στο **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Προσθήκη συνδέσμου" data-size="line">
+1. Ανοίξτε το εργαλείο **Links** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Σύνδεσμοι" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Add a link** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Προσθήκη συνδέσμου" data-size="line">
 3. Συμπληρώστε τις λεπτομέρειες:
    * **URL** — Η διαδικτυακή διεύθυνση (π.χ., `https://example.com/resource`)
    * **Link name** — Ένα περιγραφικό όνομα για τον σύνδεσμο
@@ -27,10 +27,10 @@
 
 ## Διαχείριση Συνδέσμων
 
-* **Έλεγχος συνδέσμου** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Εγκυρότητα" data-size="line">  — Το Chamilo μπορεί να ελέγξει αν οι σύνδεσμοι είναι ακόμα ενεργοί ή σπασμένοι
-* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημερώστε το URL, τον τίτλο ή την περιγραφή του συνδέσμου
-* **Ορατότητα** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Εκκρύψτε ή εμφανίστε τον σύνδεσμο στους μαθητές
-* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαιρέστε τον σύνδεσμο
+* **Έλεγχος συνδέσμου** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Εγκυρότητα" data-size="line">  — Το Chamilo μπορεί να ελέγξει αν οι σύνδεσμοι είναι ακόμα ενεργοί ή σπασμένοι
+* **Επεξεργασία** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημερώστε το URL, τον τίτλο ή την περιγραφή του συνδέσμου
+* **Ορατότητα** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Εκκρύψτε ή εμφανίστε τον σύνδεσμο στους μαθητές
+* **Διαγραφή** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαιρέστε τον σύνδεσμο
 
 ## Εξαγωγή Συνδέσμων
 

@@ -35,7 +35,7 @@ Registrera ett konto hos den valda AI-leverantören och skaffa en API-nyckel:
 
 ### 2. Konfigurera leverantörer i Chamilo
 
-![Konfigurationssidan för AI-hjälpare som visar leverantörsinställningar med fält för API-nyckel, modell och slutpunkt](/.gitbook/assets/admin-ai-helpers-config.png)
+![Konfigurationssidan för AI-hjälpare som visar leverantörsinställningar med fält för API-nyckel, modell och slutpunkt](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 I plattformsinställningarna, gå till avsnittet **AI Helpers**:
 

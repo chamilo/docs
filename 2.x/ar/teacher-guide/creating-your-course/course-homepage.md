@@ -13,7 +13,7 @@
 
 لتعديل المقدمة:
 
-1. انقر على زر **تعديل المقدمة** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line">
+1. انقر على زر **تعديل المقدمة** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line">
 2. استخدم محرر النص الغني لكتابة المحتوى
 3. احفظ التغييرات
 
@@ -21,7 +21,7 @@
 
 ## شبكة الأدوات
 
-![شبكة أدوات صفحة رئيسية الدورة التي تظهر الأدوات المتاحة في الدورة مع الأيقونات ومفاتيح التبديل للرؤية](/.gitbook/assets/course-homepage-tool-grid.png)
+![شبكة أدوات صفحة رئيسية الدورة التي تظهر الأدوات المتاحة في الدورة مع الأيقونات ومفاتيح التبديل للرؤية](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 تحت المقدمة، تعرض أدوات الدورة في تخطيط شبكي. تظهر كل أداة كبطاقة تحتوي على:
 
@@ -32,18 +32,18 @@
 
 | الأداة | الأيقونة | الغرض |
 |--------|----------|--------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | جدولة الأحداث والمواعيد النهائية |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | إرسال رسائل إلى المتعلمين المسجلين |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | جمع وتقييم أعمال الطلاب |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | رفع وتنظيم الملفات والمحتوى |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="اختبارات" data-size="line"> | إنشاء اختبارات واختبارات |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="منتديات" data-size="line"> | استضافة المناقشات |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="قاموس" data-size="line"> | تعريف المصطلحات الرئيسية |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="دفتر الدرجات" data-size="line"> | إدارة الدرجات والشهادات |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="مسارات التعلم" data-size="line"> | بناء تسلسلات تعلم منظمة |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="روابط" data-size="line"> | مشاركة عناوين URL مفيدة |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="الأعضاء" data-size="line"> | عرض وإدارة المستخدمين المسجلين |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="استطلاعات" data-size="line"> | إنشاء وتوزيع استطلاعات |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | جدولة الأحداث والمواعيد النهائية |
+| Announcements | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | إرسال رسائل إلى المتعلمين المسجلين |
+| Assignments | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | جمع وتقييم أعمال الطلاب |
+| Documents | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | رفع وتنظيم الملفات والمحتوى |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="اختبارات" data-size="line"> | إنشاء اختبارات واختبارات |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="منتديات" data-size="line"> | استضافة المناقشات |
+| Glossary | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="قاموس" data-size="line"> | تعريف المصطلحات الرئيسية |
+| Assessments | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="دفتر الدرجات" data-size="line"> | إدارة الدرجات والشهادات |
+| Learning paths | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="مسارات التعلم" data-size="line"> | بناء تسلسلات تعلم منظمة |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="روابط" data-size="line"> | مشاركة عناوين URL مفيدة |
+| Users | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="الأعضاء" data-size="line"> | عرض وإدارة المستخدمين المسجلين |
+| Surveys | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="استطلاعات" data-size="line"> | إنشاء وتوزيع استطلاعات |
 
 > قد لا تظهر بعض الأدوات إذا قام المسؤول عن إيقافها على مستوى المنصة أو إذا قمت بإخفائها.
 
@@ -65,7 +65,7 @@
 * استخدم **إظهار الكل** أو **إخفاء الكل** للتغييرات الجماعية
 * الأدوات المخفية تبقى متاحة لك كمعلم — إنها مخفية فقط عن المتعلمين
 
-![صفحة رئيسية الدورة كما يراها الطالب، مع الأدوات المخفية غير مرئية](/.gitbook/assets/course-homepage-student-view.png)
+![صفحة رئيسية الدورة كما يراها الطالب، مع الأدوات المخفية غير مرئية](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## ميزات الإطلاق التلقائي
 

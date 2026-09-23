@@ -14,7 +14,7 @@ Etsi **AI Generator** -osio oppimispolun luontikäyttöliittymästä.
 
 ## Oppimispolun luominen
 
-![Tekoälypohjaisen oppimispolun generaattorin lomake, jossa on kentät aiheelle, tavoitteille ja osioiden määrälle](/.gitbook/assets/ai-learning-path-generator.png)
+![Tekoälypohjaisen oppimispolun generaattorin lomake, jossa on kentät aiheelle, tavoitteille ja osioiden määrälle](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Avaa AI Generator -lomake
 2. Määritä parametrit:

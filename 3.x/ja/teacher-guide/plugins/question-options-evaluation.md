@@ -1,6 +1,6 @@
 # 設問オプション評価
 
-設問オプション評価 <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="設問オプション評価" data-size="line"> では、正解を単純に合計する Chamilo の既定の動作ではなく、テストの採点に減点（ペナルティ）の計算式を適用できます。
+設問オプション評価 <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="設問オプション評価" data-size="line"> では、正解を単純に合計する Chamilo の既定の動作ではなく、テストの採点に減点（ペナルティ）の計算式を適用できます。
 
 ## 計算式の設定
 

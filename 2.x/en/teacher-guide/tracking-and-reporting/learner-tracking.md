@@ -4,7 +4,7 @@ Chamilo tracks learner activity throughout the platform, giving you detailed ins
 
 ## Accessing Learner Tracking
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+Open the **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
 
 ## What Is Tracked
 
@@ -22,7 +22,7 @@ Per-resource access details (which specific documents or pages a learner opened)
 
 ## Viewing Individual Learner Data
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![Detailed learner tracking view showing progress, scores, and activity timeline](../../.gitbook/assets/tracking-learner-detail.png)
 
 Click on a learner's name to see their detailed activity report. This shows:
 

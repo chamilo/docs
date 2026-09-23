@@ -2,7 +2,7 @@
 
 ## Acessando o Gerenciador de Plugins
 
-![O gerenciador de plugins mostrando uma lista de plugins disponíveis com opções de ativação e configuração](/.gitbook/assets/admin-plugin-manager.png)
+![O gerenciador de plugins mostrando uma lista de plugins disponíveis com opções de ativação e configuração](../../.gitbook/assets/admin-plugin-manager.png)
 
 No painel de administração, clique em **Gerenciar plugins** para ver a lista de plugins disponíveis.
 

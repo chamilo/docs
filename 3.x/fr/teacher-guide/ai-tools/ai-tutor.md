@@ -24,7 +24,7 @@ Le tuteur IA nécessite deux niveaux de configuration :
 
 ## L’interface de discussion
 
-![L’interface de discussion du tuteur IA montrant une conversation entre un apprenant et l’IA](/.gitbook/assets/ai-tutor-chat.png)
+![L’interface de discussion du tuteur IA montrant une conversation entre un apprenant et l’IA](../../.gitbook/assets/ai-tutor-chat.png)
 
 Le tuteur IA apparaît sous la forme d’un **panneau de discussion ancré** dans le cours. Les apprenants peuvent :
 

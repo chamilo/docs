@@ -4,7 +4,7 @@ De tool voor opdrachten (ook wel "studentpublicaties" genoemd) stelt u in staat 
 
 ## Een Opdracht Aanmaken
 
-1. Open de tool **Opdrachten** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de cursusstartpagina
+1. Open de tool **Opdrachten** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de cursusstartpagina
 2. Klik op **Een opdracht aanmaken**
 3. Vul de details in:
    * **Opdrachtnaam** — De naam van de opdracht (bijv. "Eindprojectrapport")
@@ -41,7 +41,7 @@ Leerlingen kunnen zien of ze al hebben ingediend en, indien toegestaan, hun inze
 
 ## Inzendingen Beoordelen
 
-![De lijst met opdrachtinzendingen met namen van leerlingen, datums, bestanden en beoordelingsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![De lijst met opdrachtinzendingen met namen van leerlingen, datums, bestanden en beoordelingsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Als docent opent u een opdracht om de lijst met alle inzendingen te bekijken:
 
@@ -53,7 +53,7 @@ Als docent opent u een opdracht om de lijst met alle inzendingen te bekijken:
 
 ### Een Inzending Beoordelen
 
-![De beoordelingsweergave van de opdracht met invoer voor score, feedbackveld en upload van gecorrigeerd bestand](/.gitbook/assets/assignment-grading-view.png)
+![De beoordelingsweergave van de opdracht met invoer voor score, feedbackveld en upload van gecorrigeerd bestand](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klik op een inzending om deze te openen
 2. Bekijk het ingediende bestand

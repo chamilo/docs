@@ -4,7 +4,7 @@
 
 ## Sådan åbner du det
 
-Klik på **Rapportering** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidepanelet for at udvide det, og klik derefter på **Fremgang**. Dette er din egen, personlige visning — den viser kun nogensinde dine egne data, ikke dine medstuderendes.
+Klik på **Rapportering** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidepanelet for at udvide det, og klik derefter på **Fremgang**. Dette er din egen, personlige visning — den viser kun nogensinde dine egne data, ikke dine medstuderendes.
 
 ## Hvad du ser
 
@@ -15,7 +15,7 @@ En tabel, der viser alle de kurser, du er tilmeldt, med:
 * **Bedste score i læringssti** og **bedste score ikke i læringssti** — dine bedste resultater, opdelt efter om de stammer fra en test indlejret i en læringssti eller en selvstændig test
 * **Seneste login** — sidste gang du tilgik det pågældende kursus
 
-![Tabellen Min fremgang, der viser alle tilmeldte kurser med tid brugt, fremgang og bedste scores](/.gitbook/assets/student-my-progress.png)
+![Tabellen Min fremgang, der viser alle tilmeldte kurser med tid brugt, fremgang og bedste scores](../.gitbook/assets/student-my-progress.png)
 
 Klik på knappen **Detaljer** ud for et hvilket som helst kursus for at udvide tre undertabeller uden at forlade siden:
 
@@ -27,7 +27,7 @@ Klik på knappen **Detaljer** ud for et hvilket som helst kursus for at udvide t
 
 Certifikater er ikke en del af denne side — find dem under **Mine certifikater** i din avatar-menu øverst til højre på skærmen. Den viser alle kurser og sessioner, hvor du har optjent et certifikat, med scoren, datoen og knapper til at **se** eller **downloade** det.
 
-![Siden Mine certifikater med separate tabeller for kursuscertifikater og sessionscertifikater](/.gitbook/assets/student-my-certificates.png)
+![Siden Mine certifikater med separate tabeller for kursuscertifikater og sessionscertifikater](../.gitbook/assets/student-my-certificates.png)
 
 Din avatar-menu har også et link til **Mine færdigheder**, der viser de kompetencebadges, du er blevet tildelt — adskilt fra begge de ovenstående sider.
 

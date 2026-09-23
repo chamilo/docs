@@ -1,6 +1,6 @@
 # C-Studio-innehållsredigerare
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> är en visuell innehållsredigerare med dra-och-släpp för lärstigar. Den låter dig bygga interaktiva sidor — textblock, quiz, dra-och-släpp-aktiviteter, lucktexter, hotspot-bilder, tabeller, ljud och video — utan att skriva någon HTML, och exportera resultatet som ett SCORM-paket.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> är en visuell innehållsredigerare med dra-och-släpp för lärstigar. Den låter dig bygga interaktiva sidor — textblock, quiz, dra-och-släpp-aktiviteter, lucktexter, hotspot-bilder, tabeller, ljud och video — utan att skriva någon HTML, och exportera resultatet som ett SCORM-paket.
 
 ## Öppna redigeraren
 

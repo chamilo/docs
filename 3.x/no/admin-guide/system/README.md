@@ -2,7 +2,7 @@
 
 **System**-blokken på administrasjonspanelet samler vedlikeholdsverktøy på servernivå, arbeidsflyten for selvoppdatering, verktøy for inspeksjon av lagring/ressurser og plattformens merkevarebygging.
 
-![System-blokken på administrasjonspanelet, med Clean temporary files, System status, System update, Colors, File info, Resources by type og List icons](/.gitbook/assets/admin-system-block.png)
+![System-blokken på administrasjonspanelet, med Clean temporary files, System status, System update, Colors, File info, Resources by type og List icons](../../.gitbook/assets/admin-system-block.png)
 
 ## Tilgang til System-blokken
 

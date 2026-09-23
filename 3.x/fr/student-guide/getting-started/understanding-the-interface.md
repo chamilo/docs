@@ -7,11 +7,11 @@ Chamilo 3.0 propose une interface claire et moderne, conçue pour une navigation
 La barre supérieure est toujours visible en haut de chaque page. Elle contient :
 
 * **Logo de la plateforme** — Cliquez dessus pour revenir à la page d’accueil à tout moment.
-* **Icône de messagerie** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Affiche vos messages. Un badge rouge indique des messages non lus. Cliquez pour ouvrir votre [Boîte de réception](../inbox.md).
-* **Icône de ticket de support** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Si elle est activée par votre administrateur, elle vous donne accès au système de tickets de support. Toutes les plateformes ne l’activent pas : vous ne verrez alors que l’icône de messagerie et votre avatar.
+* **Icône de messagerie** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Affiche vos messages. Un badge rouge indique des messages non lus. Cliquez pour ouvrir votre [Boîte de réception](../inbox.md).
+* **Icône de ticket de support** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Si elle est activée par votre administrateur, elle vous donne accès au système de tickets de support. Toutes les plateformes ne l’activent pas : vous ne verrez alors que l’icône de messagerie et votre avatar.
 * **Votre avatar** — Une image circulaire dans le coin supérieur droit. Cliquez dessus pour ouvrir un menu déroulant :
 
-![Menu de votre avatar, avec des liens vers Mon profil, Mes certificats, Mes compétences et Se déconnecter](/.gitbook/assets/student-avatar-menu.png)
+![Menu de votre avatar, avec des liens vers Mon profil, Mes certificats, Mes compétences et Se déconnecter](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Mon profil** — Modifier vos informations personnelles, changer votre mot de passe et (si l’option est activée) configurer l’authentification à deux facteurs
 * **Mes certificats** — Tous les certificats que vous avez obtenus, dans l’ensemble de vos cours
@@ -26,18 +26,18 @@ La barre latérale contient les liens suivants (certains peuvent être masqués 
 
 | Élément de menu | Icône | Description |
 |-----------|------|-------------|
-| **Accueil** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Retour au tableau de bord principal |
-| **Mes cours** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Liste de tous les cours auxquels vous êtes inscrit |
-| **Mes sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Liste de vos sessions de formation (en cours, passées, à venir) |
-| **Explorer plus de cours** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Parcourir le catalogue de cours pour trouver de nouveaux cours et s’y inscrire soi-même |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Votre calendrier personnel et de cours |
-| **Rapports** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | S’étend vers **Progression** — votre propre aperçu [Ma progression](../my-progress.md) |
-| **Réseau social** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | S’étend vers le [Réseau social](../social-network.md) et les liens associés, s’ils sont activés |
-| **Visioconférence** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Accès aux sessions vidéo en direct (si configuré) |
+| **Accueil** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Retour au tableau de bord principal |
+| **Mes cours** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Liste de tous les cours auxquels vous êtes inscrit |
+| **Mes sessions** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Liste de vos sessions de formation (en cours, passées, à venir) |
+| **Explorer plus de cours** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Parcourir le catalogue de cours pour trouver de nouveaux cours et s’y inscrire soi-même |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Votre calendrier personnel et de cours |
+| **Rapports** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | S’étend vers **Progression** — votre propre aperçu [Ma progression](../my-progress.md) |
+| **Réseau social** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | S’étend vers le [Réseau social](../social-network.md) et les liens associés, s’ils sont activés |
+| **Visioconférence** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Accès aux sessions vidéo en direct (si configuré) |
 
 **Rapports** et **Réseau social** ne sont pas de simples liens : un clic les déplie et affiche une petite liste de sous-éléments directement dans la barre latérale :
 
-![La barre latérale avec Rapports et Réseau social dépliés, montrant leurs sous-éléments](/.gitbook/assets/student-sidebar-expanded.png)
+![La barre latérale avec Rapports et Réseau social dépliés, montrant leurs sous-éléments](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Sous **Rapports** : uniquement **Progression**, qui mène à [Ma progression](../my-progress.md).
 * Sous **Réseau social** : **Accueil** (le mur social), **Messages** (un raccourci vers votre [Boîte de réception](../inbox.md)), **Mes amis**, **Groupes sociaux** — et, de façon un peu inattendue regroupés ici aussi, **Mes fichiers** (votre stockage de fichiers personnel) et **Données personnelles** (un export des données personnelles que la plateforme détient à votre sujet). Ces deux derniers éléments ne sont pas vraiment des fonctionnalités « sociales » ; ils se trouvent simplement dans cette partie de la barre latérale.

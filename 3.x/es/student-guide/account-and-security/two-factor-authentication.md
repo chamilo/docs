@@ -11,7 +11,7 @@ Esta función solo aparece si su administrador la ha habilitado en toda la plata
 3. Introduzca su **contraseña actual**, marque la casilla **Habilitar autenticación de dos factores (2FA)** y haga clic en **Actualizar configuración**.
 4. La página se recarga con un código QR y el mensaje «Escanee el código QR para habilitar 2FA». Escanéelo con una aplicación de autenticación en su teléfono (cualquier aplicación compatible con TOTP funciona, como Google Authenticator, Microsoft Authenticator o Authy).
 
-![El formulario Cambiar contraseña después de enviarlo, mostrando el código QR para escanear y el campo de código 2FA](/.gitbook/assets/student-2fa-qr-code.png)
+![El formulario Cambiar contraseña después de enviarlo, mostrando el código QR para escanear y el campo de código 2FA](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Introduzca de nuevo su contraseña actual, junto con el código de 6 dígitos que muestra ahora su aplicación, en el campo **Código 2FA**, y haga clic otra vez en **Actualizar configuración**. Verá una confirmación de que 2FA se ha activado.
 

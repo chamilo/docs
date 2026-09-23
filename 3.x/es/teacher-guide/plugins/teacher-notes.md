@@ -1,6 +1,6 @@
 # Notas del profesor
 
-Notas del profesor <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Notas del profesor" data-size="line"> ofrece al equipo docente de su curso un cuaderno privado para anotar observaciones sobre alumnos concretos: seguimiento del progreso, recordatorios o cualquier cosa que prefiera no incluir en una herramienta pública. Los estudiantes nunca ven esta herramienta ni su contenido.
+Notas del profesor <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Notas del profesor" data-size="line"> ofrece al equipo docente de su curso un cuaderno privado para anotar observaciones sobre alumnos concretos: seguimiento del progreso, recordatorios o cualquier cosa que prefiera no incluir en una herramienta pública. Los estudiantes nunca ven esta herramienta ni su contenido.
 
 > No debe confundirse con la herramienta [Cuaderno](../additional-tools/notebook.md): esa es un cuaderno personal para los alumnos; Notas del profesor es una herramienta distinta, exclusiva para el profesorado.
 

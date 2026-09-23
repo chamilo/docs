@@ -6,7 +6,7 @@ Hvis du har glemt passordet ditt — eller bare vil endre det — her er hvordan
 
 På innloggingssiden klikker du **Glemt passordet?**. Hvis denne lenken ikke er der, har administratoren din deaktivert denne funksjonen — kontakt dem direkte for å få tilgang igjen.
 
-![Skjemaet «Jeg har mistet passordet mitt», med ett felt for brukernavn eller e-postadresse](/.gitbook/assets/student-lost-password.png)
+![Skjemaet «Jeg har mistet passordet mitt», med ett felt for brukernavn eller e-postadresse](../../.gitbook/assets/student-lost-password.png)
 
 1. Skriv inn **brukernavn eller e-postadresse** i det ene feltet på skjemaet.
 2. Hvis en CAPTCHA-utfordring vises, løs den (se [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Du kan endre passordet ditt når som helst, uten å vente til du glemmer det:
 2. Klikk **Endre passord**.
 3. Skriv inn gjeldende passord, deretter det nye passordet to ganger, og send inn.
 
-![Skjemaet Endre passord, med felt for gjeldende passord og et nytt passord](/.gitbook/assets/student-change-password.png)
+![Skjemaet Endre passord, med felt for gjeldende passord og et nytt passord](../../.gitbook/assets/student-change-password.png)
 
 Dette er den samme siden der du kan aktivere [tofaktorsautentisering](two-factor-authentication.md), hvis plattformen din støtter det — i så fall vil du også se en avmerkingsboks «Aktiver tofaktorsautentisering» her, som ikke vises ovenfor siden den ikke er aktiv på alle plattformer.
 

@@ -13,7 +13,7 @@ Kursintroduksjonen er et område med rik tekst som vises øverst på hjemmesiden
 
 Slik redigerer du introduksjonen:
 
-1. Klikk på knappen **Rediger introduksjon** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
+1. Klikk på knappen **Rediger introduksjon** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
 2. Bruk redigeringsverktøyet for rik tekst til å skrive innholdet
 3. Lagre endringene
 
@@ -21,7 +21,7 @@ Hvis det ennå ikke er opprettet noen introduksjon, vises en knapp for å **Oppr
 
 ## Verktøyrutenett
 
-![Kursets hjemmeside med verktøyrutenett som viser tilgjengelige kursverktøy med ikoner og synlighetsbrytere](/.gitbook/assets/course-homepage-tool-grid.png)
+![Kursets hjemmeside med verktøyrutenett som viser tilgjengelige kursverktøy med ikoner og synlighetsbrytere](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Under introduksjonen vises kursverktøyene i et rutenett. Hvert verktøy vises som et kort med:
 
@@ -32,18 +32,18 @@ Verktøyene som er tilgjengelige i kurset ditt, kan omfatte:
 
 | Verktøy | Ikon | Formål |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Planlegg hendelser og frister |
-| Kunngjøringer | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> | Send meldinger til påmeldte studenter |
-| Innleveringer | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Innleveringer" data-size="line"> | Samle inn og vurder studentarbeid |
-| Dokumenter | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> | Last opp og organiser filer og innhold |
-| Tester | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvelser" data-size="line"> | Opprett quizer og tester |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fora" data-size="line"> | Arranger diskusjoner |
-| Ordliste | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Ordliste" data-size="line"> | Definer nøkkelbegreper |
-| Vurderinger | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Karakterbok" data-size="line"> | Administrer karakterer og sertifikater |
-| Læringsstier | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> | Bygg strukturerte læringssekvenser |
-| Lenker | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Lenker" data-size="line"> | Del nyttige URL-er |
-| Brukere | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Medlemmer" data-size="line"> | Se og administrer påmeldte brukere |
-| Undersøkelser | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Undersøkelser" data-size="line"> | Opprett og distribuer undersøkelser |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Planlegg hendelser og frister |
+| Kunngjøringer | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> | Send meldinger til påmeldte studenter |
+| Innleveringer | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Innleveringer" data-size="line"> | Samle inn og vurder studentarbeid |
+| Dokumenter | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> | Last opp og organiser filer og innhold |
+| Tester | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvelser" data-size="line"> | Opprett quizer og tester |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fora" data-size="line"> | Arranger diskusjoner |
+| Ordliste | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Ordliste" data-size="line"> | Definer nøkkelbegreper |
+| Vurderinger | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Karakterbok" data-size="line"> | Administrer karakterer og sertifikater |
+| Læringsstier | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> | Bygg strukturerte læringssekvenser |
+| Lenker | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Lenker" data-size="line"> | Del nyttige URL-er |
+| Brukere | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Medlemmer" data-size="line"> | Se og administrer påmeldte brukere |
+| Undersøkelser | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Undersøkelser" data-size="line"> | Opprett og distribuer undersøkelser |
 
 > Enkelte verktøy vises kanskje ikke hvis administratoren har deaktivert dem på plattformnivå, eller hvis du har skjult dem.
 
@@ -65,7 +65,7 @@ I tillegg er verktøyene **Sporing** og **Vedlikehold** flyttet til toppen av si
 * Bruk **Vis alle** eller **Skjul alle** for masseendringer
 * Skjulte verktøy er fortsatt tilgjengelige for deg som lærer — de er bare skjult for studentene
 
-![Kursets hjemmeside slik en student ser den, uten skjulte verktøy](/.gitbook/assets/course-homepage-student-view.png)
+![Kursets hjemmeside slik en student ser den, uten skjulte verktøy](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## Funksjoner for automatisk oppstart
 

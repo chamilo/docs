@@ -1,10 +1,10 @@
 # Notificar na Página Inicial do Curso
 
-Notificar na Página Inicial do Curso <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notificar na Página Inicial do Curso" data-size="line"> permite mostrar um aviso em janela popup a todos os que visitam a página inicial do seu curso — útil para um anúncio, um aviso de leitura obrigatória ou um acesso condicionado do tipo «clique aqui para continuar».
+Notificar na Página Inicial do Curso <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notificar na Página Inicial do Curso" data-size="line"> permite mostrar um aviso em janela popup a todos os que visitam a página inicial do seu curso — útil para um anúncio, um aviso de leitura obrigatória ou um acesso condicionado do tipo «clique aqui para continuar».
 
 ## Definir uma notificação
 
-Uma vez ativada, as **Definições** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> do curso passam a incluir um botão **Definir uma notificação na página inicial**. Este abre um formulário em que redige o aviso (texto formatado) e, opcionalmente, define uma **Ligação de expiração**.
+Uma vez ativada, as **Definições** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> do curso passam a incluir um botão **Definir uma notificação na página inicial**. Este abre um formulário em que redige o aviso (texto formatado) e, opcionalmente, define uma **Ligação de expiração**.
 
 * **Com uma ligação de expiração** — A janela popup mostra um botão que aponta para essa ligação e continua a reaparecer até que o formando clique nela
 * **Sem ligação** — O aviso reaparece a todos os visitantes, sempre que abrem a página inicial do curso

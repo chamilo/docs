@@ -2,7 +2,7 @@
 
 Blokken **Platformadministration** på administrationsdashboardet samler portalomfattende konfigurations- og kommunikationsværktøjer — alt fra det fulde indstillingspanel til sprog, offentlige meddelelser, den globale kalender og det CMS-lignende Pages-system, der opbygger dele af portalens offentligt synlige indhold.
 
-![Blokken Platformadministration på administrationsdashboardet med listerne Konfigurationsindstillinger, Sprog, Plugins, Regioner, Portalnyheder, Global agenda, Pages, Indstilling af registreringssiden, Ekstra felter, Konfigurer flere adgangs-URL'er, Mailskabeloner, Eksterne værktøjer (LTI), Kategorier til kontaktformular og Systemskabeloner](/.gitbook/assets/admin-platform-block.png)
+![Blokken Platformadministration på administrationsdashboardet med listerne Konfigurationsindstillinger, Sprog, Plugins, Regioner, Portalnyheder, Global agenda, Pages, Indstilling af registreringssiden, Ekstra felter, Konfigurer flere adgangs-URL'er, Mailskabeloner, Eksterne værktøjer (LTI), Kategorier til kontaktformular og Systemskabeloner](../../.gitbook/assets/admin-platform-block.png)
 
 ## Adgang til platformblokken
 

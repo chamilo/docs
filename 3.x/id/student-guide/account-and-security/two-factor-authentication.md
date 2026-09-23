@@ -11,7 +11,7 @@ Fitur ini hanya muncul jika administrator Anda telah mengaktifkannya di seluruh 
 3. Masukkan **kata sandi saat ini**, centang kotak **Aktifkan autentikasi dua faktor (2FA)**, lalu klik **Perbarui pengaturan**.
 4. Halaman dimuat ulang dengan kode QR dan pesan "Pindai kode QR untuk mengaktifkan 2FA." Pindai dengan aplikasi autentikator di ponsel Anda (semua aplikasi yang kompatibel dengan TOTP dapat digunakan, misalnya Google Authenticator, Microsoft Authenticator, atau Authy).
 
-![Formulir Ubah Kata Sandi setelah dikirim, menampilkan kode QR yang harus dipindai dan kolom kode 2FA](/.gitbook/assets/student-2fa-qr-code.png)
+![Formulir Ubah Kata Sandi setelah dikirim, menampilkan kode QR yang harus dipindai dan kolom kode 2FA](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Masukkan lagi kata sandi saat ini, bersama kode 6 digit yang kini ditampilkan aplikasi Anda, di kolom **Kode 2FA**, lalu klik **Perbarui pengaturan** sekali lagi. Anda akan melihat konfirmasi bahwa 2FA telah diaktifkan.
 

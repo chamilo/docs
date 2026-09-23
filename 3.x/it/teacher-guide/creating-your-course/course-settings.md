@@ -2,7 +2,7 @@
 
 Le impostazioni del corso consentono di controllare il comportamento del corso: chi può accedervi, come viene visualizzato e quali funzionalità sono abilitate.
 
-Per accedere alle impostazioni del corso, entrare nel corso e fare clic sull'icona **Impostazioni** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Impostazioni" data-size="line"> accanto al pulsante **Passa alla vista studente**.
+Per accedere alle impostazioni del corso, entrare nel corso e fare clic sull'icona **Impostazioni** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Impostazioni" data-size="line"> accanto al pulsante **Passa alla vista studente**.
 
 ## Impostazioni generali
 
@@ -29,7 +29,7 @@ Ogni corso ha un limite di archiviazione (quota disco) per i file caricati. La q
 
 ### Visibilità del corso
 
-![Le impostazioni di visibilità del corso che mostrano le opzioni pubblico, aperto, registrato e chiuso](/.gitbook/assets/course-settings-visibility.png)
+![Le impostazioni di visibilità del corso che mostrano le opzioni pubblico, aperto, registrato e chiuso](../../.gitbook/assets/course-settings-visibility.png)
 
 Controllare chi può accedere al corso:
 
@@ -84,7 +84,7 @@ Controllare il comportamento nello strumento forum di questo corso.
 
 ### Impostazioni di avvio automatico
 
-Un corso può essere configurato per un comportamento di avvio automatico, che accorcia il percorso degli studenti verso le parti importanti del corso. Se abilitato, gli studenti che accedono al corso verranno inviati direttamente allo strumento selezionato e non vedranno la homepage del corso come passaggio intermedio. È persino possibile selezionare percorsi di apprendimento o esercizi specifici da avviare all’arrivo nel corso. In questo caso, è necessario selezionare l’opzione qui, quindi andare all’elenco dei percorsi di apprendimento o degli esercizi e fare clic sull’icona del razzo <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Avvio automatico" data-size="line"> sull’elemento selezionato.
+Un corso può essere configurato per un comportamento di avvio automatico, che accorcia il percorso degli studenti verso le parti importanti del corso. Se abilitato, gli studenti che accedono al corso verranno inviati direttamente allo strumento selezionato e non vedranno la homepage del corso come passaggio intermedio. È persino possibile selezionare percorsi di apprendimento o esercizi specifici da avviare all’arrivo nel corso. In questo caso, è necessario selezionare l’opzione qui, quindi andare all’elenco dei percorsi di apprendimento o degli esercizi e fare clic sull’icona del razzo <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Avvio automatico" data-size="line"> sull’elemento selezionato.
 
 ### Impostazioni degli assistenti IA
 

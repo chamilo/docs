@@ -7,10 +7,10 @@
 若要建立課程：
 
 1. 點選側邊欄中的 **我的課程**
-2. 點選 **建立課程** 按鈕（通常為綠色書本 <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="課程" data-size="line"> 圖示並附有 + 號）
+2. 點選 **建立課程** 按鈕（通常為綠色書本 <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="課程" data-size="line"> 圖示並附有 + 號）
 3. 填寫課程建立表單：
 
-![課程建立表單，包含名稱、類別、代碼與語言等欄位](/.gitbook/assets/course-creation-form.png)
+![課程建立表單，包含名稱、類別、代碼與語言等欄位](../../.gitbook/assets/course-creation-form.png)
 
 | 欄位 | 必填 | 說明 |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@
 
 課程建立完成後，您會進入其首頁。這是課程的核心樞紐，您與學習者可由此存取所有工具與內容。
 
-![課程首頁工具網格，顯示可用的課程工具、圖示與可見度切換](/.gitbook/assets/course-homepage-tool-grid.png)
+![課程首頁工具網格，顯示可用的課程工具、圖示與可見度切換](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 首頁會顯示：
 
 * **課程標題** — 您的課程名稱，顯示於頂端。
-* **課程簡介** — 選填的說明或歡迎訊息。點選 **+ 課程簡介** 按鈕以新增，或點選頂端的 **編輯簡介** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕以修改。此處支援含圖片、連結與格式的富文字。
+* **課程簡介** — 選填的說明或歡迎訊息。點選 **+ 課程簡介** 按鈕以新增，或點選頂端的 **編輯簡介** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕以修改。此處支援含圖片、連結與格式的富文字。
 * **工具網格** — 所有可用課程工具的網格，每一項以含圖示與名稱的卡片顯示。
 
 ### 管理工具可見度
 
 身為教師，您可以控制學習者能看到哪些工具：
 
-* 點選任一工具旁的 **眼睛圖示** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可見" data-size="line">，即可對學習者隱藏該工具。隱藏的工具會顯示 **劃掉的眼睛** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="隱藏" data-size="line">，您本人仍可存取。
+* 點選任一工具旁的 **眼睛圖示** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="可見" data-size="line">，即可對學習者隱藏該工具。隱藏的工具會顯示 **劃掉的眼睛** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="隱藏" data-size="line">，您本人仍可存取。
 * 使用 **全部顯示** 與 **全部隱藏** 按鈕一次變更所有工具
 * 點選 **排序** 以啟用工具網格的拖放重新排序
 

@@ -4,22 +4,22 @@ AI 課程圖片產生器可讓您直接在課程設定畫面中為課程建立�
 
 ## 存取產生器
 
-**以 AI 產生** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="以 AI 產生" data-size="line"> 按鈕位於 **課程圖片** 欄位旁，前提是：
+**以 AI 產生** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="以 AI 產生" data-size="line"> 按鈕位於 **課程圖片** 欄位旁，前提是：
 
 1. 平台層級已啟用 AI 輔助功能
 2. 您的平台上至少有一個已設定的 AI 供應商支援圖片產生
 3. 您的課程允許此功能（請參閱[課程設定](../creating-your-course/course-settings.md)中的 **AI 輔助設定**）
 
-開啟課程的 **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line">，並捲動至 **課程圖片** 欄位：
+開啟課程的 **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line">，並捲動至 **課程圖片** 欄位：
 
-![課程設定中的課程圖片欄位，下方有「選擇檔案」按鈕與「以 AI 產生」按鈕](/.gitbook/assets/course-picture-ai-button.png)
+![課程設定中的課程圖片欄位，下方有「選擇檔案」按鈕與「以 AI 產生」按鈕](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## 如何產生圖片
 
 1. 點選 **以 AI 產生**
 2. 會開啟對話框，其中的 **提示詞** 欄位已預填預設描述；請編輯以描述您想要的插圖，或維持預設內容
 
-![「以 AI 產生」對話框，顯示含預設文字的提示詞欄位，以及取消／產生按鈕](/.gitbook/assets/course-picture-ai-modal.png)
+![「以 AI 產生」對話框，顯示含預設文字的提示詞欄位，以及取消／產生按鈕](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. 點選 **產生** 並稍候 — 圖片產生可能需要數秒
 4. 產生的圖片會自動放入 **課程圖片** 欄位，取代您先前選取的任何內容

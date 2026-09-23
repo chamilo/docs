@@ -26,7 +26,7 @@ Um von innerhalb des Editors auf eine andere Wiki-Seite zu verlinken, erstellen 
 Jeder mit Bearbeitungsrechten kann eine Wiki-Seite ändern:
 
 1. Öffnen Sie die Seite, die Sie bearbeiten möchten
-2. Klicken Sie auf die Schaltfläche **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">
+2. Klicken Sie auf die Schaltfläche **Bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">
 3. Nehmen Sie Ihre Änderungen im Editor vor
 4. Fügen Sie optional einen **Kommentar** hinzu, der beschreibt, was Sie geändert haben
 5. Speichern

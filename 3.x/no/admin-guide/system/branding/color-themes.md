@@ -8,7 +8,7 @@ Fargetemaer definerer paletten som brukes i hele Chamilo-grensesnittet — prim�
 
 ## Slik bruker du et tema
 
-![Siden for fargetemaer som viser tilgjengelige temaer med forhåndsvisningsprøver og en Bruk-knapp](/.gitbook/assets/admin-color-themes.png)
+![Siden for fargetemaer som viser tilgjengelige temaer med forhåndsvisningsprøver og en Bruk-knapp](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Fra administrasjonspanelet, gå til **Fargetemaer**
 2. Bla gjennom de tilgjengelige temaene

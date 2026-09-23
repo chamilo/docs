@@ -4,13 +4,13 @@ Chamilo 2.0 拥有简洁、现代的界面设计，旨在保持导航的简便�
 
 ## 顶部栏
 
-![顶部栏，标注了包括logo、收件箱、支持票据和用户头像在内的元素](/.gitbook/assets/top-bar-annotated.png)
+![顶部栏，标注了包括logo、收件箱、支持票据和用户头像在内的元素](../../.gitbook/assets/top-bar-annotated.png)
 
 顶部栏始终显示在每个页面的顶部。它包含以下内容：
 
 * **平台logo** — 点击它可以随时返回首页。
-* **收件箱图标** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="收件箱" data-size="line"> — 显示您的消息。红色标记表示有未读消息。点击打开收件箱。
-* **支持票据图标** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="支持" data-size="line"> — 如果管理员启用了此功能，您可以通过它访问支持票据系统。
+* **收件箱图标** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="收件箱" data-size="line"> — 显示您的消息。红色标记表示有未读消息。点击打开收件箱。
+* **支持票据图标** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="支持" data-size="line"> — 如果管理员启用了此功能，您可以通过它访问支持票据系统。
 * **您的头像** — 位于右上角的圆形图像。点击它可以打开下拉菜单，包含指向您的个人资料、账户设置和注销的链接。
 
 ## 侧边栏
@@ -19,19 +19,19 @@ Chamilo 2.0 拥有简洁、现代的界面设计，旨在保持导航的简便�
 
 侧边栏包含以下链接（根据您平台的配置，某些链接可能被隐藏）：
 
-![侧边栏导航面板，处于展开状态，显示所有菜单项](/.gitbook/assets/sidebar-expanded.png)
+![侧边栏导航面板，处于展开状态，显示所有菜单项](../../.gitbook/assets/sidebar-expanded.png)
 
 | 菜单项 | 图标 | 描述 |
 |-----------|------|-------------|
-| **首页** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="首页" data-size="line"> | 返回主仪表板 |
-| **我的课程** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="课程" data-size="line"> | 列出您已注册的所有课程 |
-| **我的会话** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="会话" data-size="line"> | 列出您的培训会话（当前、过去、即将到来） |
-| **探索更多课程** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="目录" data-size="line"> | 浏览课程目录以查找新课程 |
-| **日程** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="日程" data-size="line"> | 您的个人和课程日历 |
-| **报告** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="报告" data-size="line"> | 访问学习者跟踪和课程报告 |
-| **社交网络** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="社交网络" data-size="line"> | 与其他用户联系、发送消息、加入群组 |
-| **视频会议** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="视频" data-size="line"> | 访问实时视频会话（如果已配置） |
-| **管理** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> | 平台管理（仅对管理员可见） |
+| **首页** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="首页" data-size="line"> | 返回主仪表板 |
+| **我的课程** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="课程" data-size="line"> | 列出您已注册的所有课程 |
+| **我的会话** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="会话" data-size="line"> | 列出您的培训会话（当前、过去、即将到来） |
+| **探索更多课程** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="目录" data-size="line"> | 浏览课程目录以查找新课程 |
+| **日程** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="日程" data-size="line"> | 您的个人和课程日历 |
+| **报告** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="报告" data-size="line"> | 访问学习者跟踪和课程报告 |
+| **社交网络** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="社交网络" data-size="line"> | 与其他用户联系、发送消息、加入群组 |
+| **视频会议** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="视频" data-size="line"> | 访问实时视频会话（如果已配置） |
+| **管理** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> | 平台管理（仅对管理员可见） |
 
 在侧边栏的最底部，您会找到一个**注销**选项，用于在完成操作后快速注销。此选项也可以通过右上角头像图标的下拉菜单访问。如果平台通过外部身份验证方法管理，这些注销选项可能不可用。
 
@@ -49,8 +49,8 @@ Chamilo 2.0 拥有简洁、现代的界面设计，旨在保持导航的简便�
 
 作为教师，您将看到额外的控制选项：
 
-* **学生视图** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="学生视图" data-size="line"> — 切换此选项以查看学生视角下的课程
-* **编辑简介** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 编辑课程简介文本
+* **学生视图** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="学生视图" data-size="line"> — 切换此选项以查看学生视角下的课程
+* **编辑简介** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 编辑课程简介文本
 * **显示全部 / 隐藏全部** — 快速更改所有工具对学生的可见性
 * **排序** — 启用拖放功能以重新排列首页上的工具顺序
 

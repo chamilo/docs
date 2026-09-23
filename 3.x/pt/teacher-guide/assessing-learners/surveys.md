@@ -4,7 +4,7 @@ A ferramenta de inquéritos permite criar questionários para recolher feedback 
 
 ## Criar um inquérito
 
-1. Abra a ferramenta **Inquéritos** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Inquéritos" data-size="line"> a partir da página inicial do curso
+1. Abra a ferramenta **Inquéritos** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Inquéritos" data-size="line"> a partir da página inicial do curso
 2. Clique em **Criar inquérito**
 3. Preencha os detalhes do inquérito:
    * **Código** — Este é um código único para o inquérito. Será utilizado em e-mails e ligações.
@@ -65,7 +65,7 @@ Na parte inferior da página de publicação está disponível uma ligação par
 
 ## Ver resultados
 
-![Resultados do inquérito com gráficos e desagregações percentuais para cada pergunta](/.gitbook/assets/survey-results-charts.png)
+![Resultados do inquérito com gráficos e desagregações percentuais para cada pergunta](../../.gitbook/assets/survey-results-charts.png)
 
 Depois de os formandos terem respondido:
 

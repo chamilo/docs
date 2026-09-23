@@ -4,7 +4,7 @@ Chamilo suit l’activité des apprenants sur l’ensemble de la plateforme, ce 
 
 ## Accéder au suivi des apprenants
 
-Ouvrez l’outil **Suivi** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d’accueil du cours, ou cliquez sur **Rapports** dans la barre latérale.
+Ouvrez l’outil **Suivi** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d’accueil du cours, ou cliquez sur **Rapports** dans la barre latérale.
 
 ## Ce qui est suivi
 
@@ -22,7 +22,7 @@ Les détails d’accès par ressource (quels documents ou pages précis un appre
 
 ## Consulter les données d’un apprenant
 
-![Vue détaillée du suivi d’un apprenant montrant la progression, les scores et la chronologie d’activité](/.gitbook/assets/tracking-learner-detail.png)
+![Vue détaillée du suivi d’un apprenant montrant la progression, les scores et la chronologie d’activité](../../.gitbook/assets/tracking-learner-detail.png)
 
 Cliquez sur le nom d’un apprenant pour afficher son rapport d’activité détaillé. Celui-ci présente :
 

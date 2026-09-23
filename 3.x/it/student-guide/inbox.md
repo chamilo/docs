@@ -4,17 +4,17 @@ La **Inbox** è il sistema di messaggistica privata di Chamilo — messaggi asin
 
 ## Accesso alla Inbox
 
-Fai clic sull'icona **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> nella barra superiore. Un badge rosso indica quanti messaggi non letti hai. Se questa icona non è presente affatto, l'amministratore ha disabilitato la messaggistica della piattaforma.
+Fai clic sull'icona **Inbox** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> nella barra superiore. Un badge rosso indica quanti messaggi non letti hai. Se questa icona non è presente affatto, l'amministratore ha disabilitato la messaggistica della piattaforma.
 
 ## Lettura e risposta
 
 La inbox elenca i messaggi ricevuti, indicando quali non sono letti. Aprine uno per leggerlo e usa **Reply** per rispondere — puoi includere più destinatari in una risposta contemporaneamente, utile per tenere un piccolo gruppo di persone aggiornato senza creare un corso formale o un gruppo sociale.
 
-![La Inbox, con le schede Inbox / Unread / Sent e una tabella dei messaggi ricevuti](/.gitbook/assets/student-inbox.png)
+![La Inbox, con le schede Inbox / Unread / Sent e una tabella dei messaggi ricevuti](../.gitbook/assets/student-inbox.png)
 
 ## Composizione di un nuovo messaggio
 
-Fai clic sul pulsante **new message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuovo messaggio" data-size="line">, scegli uno o più destinatari, scrivi oggetto e corpo e invia. Come per una risposta, un nuovo messaggio può essere inviato a più persone contemporaneamente.
+Fai clic sul pulsante **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuovo messaggio" data-size="line">, scegli uno o più destinatari, scrivi oggetto e corpo e invia. Come per una risposta, un nuovo messaggio può essere inviato a più persone contemporaneamente.
 
 ## Schede e azioni
 

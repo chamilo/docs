@@ -4,17 +4,17 @@
 
 ## 访问收件箱
 
-点击顶栏中的 **收件箱** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="收件箱" data-size="line"> 图标。红色徽章会显示未读消息数量。若该图标完全不存在，则表示管理员已禁用平台消息功能。
+点击顶栏中的 **收件箱** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="收件箱" data-size="line"> 图标。红色徽章会显示未读消息数量。若该图标完全不存在，则表示管理员已禁用平台消息功能。
 
 ## 阅读与回复
 
 收件箱列出已收到的消息，并标明哪些尚未阅读。打开一条即可阅读，使用 **回复** 进行回应——一次回复可包含多名收件人，便于让一小群人保持同步，而无需建立正式课程或社交群组。
 
-![收件箱，含收件箱 / 未读 / 已发送选项卡以及已收消息表格](/.gitbook/assets/student-inbox.png)
+![收件箱，含收件箱 / 未读 / 已发送选项卡以及已收消息表格](../.gitbook/assets/student-inbox.png)
 
 ## 撰写新消息
 
-点击 **新消息** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新消息" data-size="line"> 按钮，选择一名或多名收件人，填写主题与正文后发送。与回复一样，新消息也可一次发给多人。
+点击 **新消息** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新消息" data-size="line"> 按钮，选择一名或多名收件人，填写主题与正文后发送。与回复一样，新消息也可一次发给多人。
 
 ## 选项卡与操作
 

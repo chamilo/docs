@@ -2,7 +2,7 @@
 
 Sesi adalah salah satu fitur paling andal di Chamilo. Fitur ini memungkinkan Anda menyampaikan kursus yang sama kepada kelompok peserta didik yang berbeda pada waktu yang berbeda, tanpa menduplikasi konten kursus.
 
-![Blok pengelolaan Sesi pada dasbor administrasi, yang menampilkan Daftar sesi pelatihan, Tambah sesi pelatihan, kategori sesi, alat impor/ekspor, karier dan promosi, serta pengurutan sumber daya, di antaranya](/.gitbook/assets/admin-sessions-block.png)
+![Blok pengelolaan Sesi pada dasbor administrasi, yang menampilkan Daftar sesi pelatihan, Tambah sesi pelatihan, kategori sesi, alat impor/ekspor, karier dan promosi, serta pengurutan sumber daya, di antaranya](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Mengelola Sesi](managing-sessions.md)** — Membuat, mengonfigurasi, dan mengelola sesi pelatihan
 * **[Kategori Sesi](session-categories.md)** — Mengorganisasi sesi ke dalam kategori

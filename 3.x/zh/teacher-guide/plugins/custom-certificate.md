@@ -1,6 +1,6 @@
 # 自定义证书
 
-自定义证书 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="自定义证书" data-size="line"> 插件可让您用自己的设计替换标准的[成绩册证书](../assessing-learners/gradebook.md)——包括徽标、印章、最多四张带说明文字的签名图片、背景图、边距，以及由占位符标签构成的内容。
+自定义证书 <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="自定义证书" data-size="line"> 插件可让您用自己的设计替换标准的[成绩册证书](../assessing-learners/gradebook.md)——包括徽标、印章、最多四张带说明文字的签名图片、背景图、边距，以及由占位符标签构成的内容。
 
 ## 在课程中启用
 

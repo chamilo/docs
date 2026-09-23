@@ -2,7 +2,7 @@
 
 El bloque **Analítica** del panel de administración agrupa las estadísticas de toda la plataforma, la analítica del aprendizaje, los informes corporativos/de RR. HH. y las herramientas de exportación masiva. Según la versión de Chamilo, este bloque puede aparecer etiquetado como **"Seguimiento"** en el propio panel; se trata del mismo bloque en ambos casos. Esta guía lo denomina Analítica en todo momento para evitar confusiones con [Configuración de seguimiento](../platform-settings/tracking-settings.md), la categoría de ajustes independiente que controla qué se registra, no los informes en sí.
 
-![El bloque Analítica del panel de administración (etiquetado como "Seguimiento" en esta captura), que enumera Estadísticas globales, Catálogo de informes, Analítica del aprendizaje, Informe trimestral, Informe de tiempo de los profesores, Informe corporativo, Exportaciones especiales y Tickets](/.gitbook/assets/admin-analytics-block.png)
+![El bloque Analítica del panel de administración (etiquetado como "Seguimiento" en esta captura), que enumera Estadísticas globales, Catálogo de informes, Analítica del aprendizaje, Informe trimestral, Informe de tiempo de los profesores, Informe corporativo, Exportaciones especiales y Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Acceso a Analítica
 

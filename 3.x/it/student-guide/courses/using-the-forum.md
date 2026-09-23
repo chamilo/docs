@@ -4,7 +4,7 @@ Lo strumento **Forum** ospita discussioni strutturate e organizzate in thread al
 
 ## Orientarsi
 
-Apri lo strumento **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dalla homepage del corso. I forum sono organizzati su tre livelli:
+Apri lo strumento **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dalla homepage del corso. I forum sono organizzati su tre livelli:
 
 1. **Categorie** — raggruppamenti ampi (ad es. "Discussioni generali", "Domande sul modulo 1")
 2. **Forum** — bacheche di discussione individuali all'interno di una categoria

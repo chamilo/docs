@@ -4,7 +4,7 @@ A ferramenta de pesquisa permite que você crie questionários para coletar feed
 
 ## Criando uma Pesquisa
 
-1. Abra a ferramenta **Pesquisas** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Pesquisas" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Pesquisas** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Pesquisas" data-size="line"> na página inicial do curso
 2. Clique em **Criar pesquisa**
 3. Preencha os detalhes da pesquisa:
    * **Código** — Este é um código único para a pesquisa. Será usado em e-mails e links.
@@ -65,7 +65,7 @@ Um link está disponível na parte inferior da página de publicação para conv
 
 ## Visualizando Resultados
 
-![Resultados da pesquisa com gráficos e percentuais detalhados para cada pergunta](/.gitbook/assets/survey-results-charts.png)
+![Resultados da pesquisa com gráficos e percentuais detalhados para cada pergunta](../../.gitbook/assets/survey-results-charts.png)
 
 Após os alunos terem respondido:
 

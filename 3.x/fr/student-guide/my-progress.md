@@ -4,7 +4,7 @@
 
 ## Y accéder
 
-Cliquez sur **Rapports** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapports" data-size="line"> dans la barre latérale pour la développer, puis cliquez sur **Progression**. Il s’agit de votre vue personnelle — elle n’affiche jamais que vos propres données, pas celles de vos camarades.
+Cliquez sur **Rapports** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapports" data-size="line"> dans la barre latérale pour la développer, puis cliquez sur **Progression**. Il s’agit de votre vue personnelle — elle n’affiche jamais que vos propres données, pas celles de vos camarades.
 
 ## Ce que vous voyez
 
@@ -15,7 +15,7 @@ Un tableau listant chaque cours auquel vous participez, avec :
 * **Meilleur score dans un parcours d’apprentissage** et **meilleur score hors parcours d’apprentissage** — vos meilleurs résultats, selon qu’ils proviennent d’un test intégré à un parcours d’apprentissage ou d’un test autonome
 * **Dernière connexion** — la dernière fois que vous avez accédé à ce cours
 
-![Le tableau Ma progression, listant chaque cours inscrit avec le temps passé, la progression et les meilleurs scores](/.gitbook/assets/student-my-progress.png)
+![Le tableau Ma progression, listant chaque cours inscrit avec le temps passé, la progression et les meilleurs scores](../.gitbook/assets/student-my-progress.png)
 
 Cliquez sur le bouton **Détails** à côté de n’importe quel cours pour développer trois sous-tableaux sans quitter la page :
 
@@ -27,7 +27,7 @@ Cliquez sur le bouton **Détails** à côté de n’importe quel cours pour dév
 
 Les certificats ne font pas partie de cette page — retrouvez-les sous **Mes certificats**, dans le menu de votre avatar en haut à droite de l’écran. Il liste chaque cours et chaque session pour lesquels vous avez obtenu un certificat, avec le score, la date, et des boutons pour **voir** ou **télécharger** celui-ci.
 
-![La page Mes certificats, avec des tableaux distincts pour les certificats de cours et les certificats de session](/.gitbook/assets/student-my-certificates.png)
+![La page Mes certificats, avec des tableaux distincts pour les certificats de cours et les certificats de session](../.gitbook/assets/student-my-certificates.png)
 
 Le menu de votre avatar comporte également un lien **Mes compétences**, listant les badges de compétence qui vous ont été attribués — distinct des deux pages ci-dessus.
 

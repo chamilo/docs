@@ -4,7 +4,7 @@ A ferramenta de trabalhos (também chamada de "publicações dos alunos") permit
 
 ## Criando um Trabalho
 
-1. Abra a ferramenta **Trabalhos** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Trabalhos** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> na página inicial do curso
 2. Clique em **Criar um trabalho**
 3. Preencha os detalhes:
    * **Nome do trabalho** — O nome do trabalho (por exemplo, "Relatório do Projeto Final")
@@ -41,7 +41,7 @@ Os alunos podem ver se já enviaram e, se permitido, atualizar sua submissão.
 
 ## Revisando Submissões
 
-![Lista de submissões de trabalhos mostrando nomes dos alunos, datas, arquivos e status de avaliação](/.gitbook/assets/assignments-submissions-list.png)
+![Lista de submissões de trabalhos mostrando nomes dos alunos, datas, arquivos e status de avaliação](../../.gitbook/assets/assignments-submissions-list.png)
 
 Como professor, abra um trabalho para ver a lista de todas as submissões:
 
@@ -53,7 +53,7 @@ Como professor, abra um trabalho para ver a lista de todas as submissões:
 
 ### Avaliando uma Submissão
 
-![Visão de avaliação do trabalho com entrada de pontuação, campo de feedback e upload de arquivo corrigido](/.gitbook/assets/assignment-grading-view.png)
+![Visão de avaliação do trabalho com entrada de pontuação, campo de feedback e upload de arquivo corrigido](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Clique em uma submissão para abri-la
 2. Revise o arquivo enviado

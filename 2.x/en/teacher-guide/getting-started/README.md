@@ -14,7 +14,7 @@ If your institution uses external authentication (such as Azure, Keycloak, or a 
 
 After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![The Chamilo home page showing system announcements and course cards](../../.gitbook/assets/home-page-teacher.png)
 
 * **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
 * **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
@@ -24,7 +24,7 @@ After logging in, you will see the Chamilo home page. The interface is organized
 
 From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![The My Courses page displaying course cards with thumbnails and quick-access actions](../../.gitbook/assets/my-courses-list.png)
 
 * The course image or thumbnail
 * The course title

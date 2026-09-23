@@ -8,6 +8,6 @@ Chamilo rastreia a atividade dos alunos em toda a plataforma, fornecendo insight
 
 ## Acessando Relatórios
 
-Dentro do seu curso, clique na ferramenta **Rastreamento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rastreamento" data-size="line"> na página inicial do curso. Você também pode acessar os relatórios pelo link **Relatórios** na barra lateral para uma visão geral entre cursos.
+Dentro do seu curso, clique na ferramenta **Rastreamento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rastreamento" data-size="line"> na página inicial do curso. Você também pode acessar os relatórios pelo link **Relatórios** na barra lateral para uma visão geral entre cursos.
 
 Professores visualizam dados de relatórios dos cursos que lecionam. Treinadores de sessão visualizam dados de todos os cursos dentro de sua sessão.

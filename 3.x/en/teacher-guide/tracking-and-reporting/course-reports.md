@@ -4,9 +4,9 @@ Course reports give you an aggregate view of activity and performance across all
 
 ## Accessing Course Reports
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Open the **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![The course tracking overview showing engagement metrics and learner activity summary](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Available Reports
 
@@ -43,7 +43,7 @@ For each assignment:
 
 ## Exporting Data
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+You can export tracking and report data for further analysis. Look for the **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
 
 ## Session Reports
 

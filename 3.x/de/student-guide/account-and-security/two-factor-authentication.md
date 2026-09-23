@@ -11,7 +11,7 @@ Diese Funktion erscheint nur, wenn Ihr Administrator sie plattformweit aktiviert
 3. Geben Sie Ihr **aktuelles Passwort** ein, aktivieren Sie das Kontrollkästchen **Zwei-Faktor-Authentifizierung (2FA) aktivieren** und klicken Sie auf **Einstellungen aktualisieren**.
 4. Die Seite wird mit einem QR-Code und der Meldung „Scannen Sie den QR-Code, um 2FA zu aktivieren.“ neu geladen. Scannen Sie ihn mit einer Authenticator-App auf Ihrem Telefon (jede TOTP-kompatible App funktioniert, z. B. Google Authenticator, Microsoft Authenticator oder Authy).
 
-![Das Formular „Passwort ändern“ nach dem Absenden, mit dem zu scannenden QR-Code und dem Feld für den 2FA-Code](/.gitbook/assets/student-2fa-qr-code.png)
+![Das Formular „Passwort ändern“ nach dem Absenden, mit dem zu scannenden QR-Code und dem Feld für den 2FA-Code](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Geben Sie erneut Ihr aktuelles Passwort sowie den 6-stelligen Code, den Ihre App jetzt anzeigt, in das Feld **2FA-Code** ein und klicken Sie erneut auf **Einstellungen aktualisieren**. Sie sehen eine Bestätigung, dass 2FA aktiviert wurde.
 

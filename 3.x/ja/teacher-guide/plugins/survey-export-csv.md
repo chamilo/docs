@@ -1,6 +1,6 @@
 # アンケートの CSV エクスポート
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="アンケートの CSV エクスポート" data-size="line"> は、アンケート結果をコンパクトな CSV ファイルへワンクリックでエクスポートする機能を追加します。回答者ごとに 1 行、設問ごとに 1 列となります。
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="アンケートの CSV エクスポート" data-size="line"> は、アンケート結果をコンパクトな CSV ファイルへワンクリックでエクスポートする機能を追加します。回答者ごとに 1 行、設問ごとに 1 列となります。
 
 ## アンケートのエクスポート
 

@@ -6,7 +6,7 @@ Klassen im Administrationsbereich sind plattformweite Gruppen, die der Organisat
 
 ## Eine Gruppe anlegen
 
-![Die Liste der Benutzergruppen mit verfügbaren Gruppen, Name, Beschreibung und Mitgliederzahl](/.gitbook/assets/admin-user-groups-list.png)
+![Die Liste der Benutzergruppen mit verfügbaren Gruppen, Name, Beschreibung und Mitgliederzahl](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Navigieren Sie im Administrationsbereich zu **Klassen**
 2. Klicken Sie auf **Klassen hinzufügen**

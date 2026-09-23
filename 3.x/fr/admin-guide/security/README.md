@@ -2,7 +2,7 @@
 
 Le bloc **Sécurité** du tableau de bord d'administration regroupe les outils intégrés de surveillance et d'audit de la sécurité de la plateforme. Il est distinct des [Paramètres de sécurité](../platform-settings/security-settings.md), qui configurent la *politique* de sécurité (règles de mot de passe, CAPTCHA, en-têtes de sécurité HTTP, etc.) — ce bloc vous fournit les *rapports et outils* qui surveillent la plateforme à la recherche d'activités suspectes et de modifications indésirables.
 
-![Le bloc Sécurité du tableau de bord d'administration, listant Audit des activités, Tentatives de connexion, Simple IDS, Vérificateur de force des mots de passe et Intégrité des fichiers](/.gitbook/assets/admin-security-block.png)
+![Le bloc Sécurité du tableau de bord d'administration, listant Audit des activités, Tentatives de connexion, Simple IDS, Vérificateur de force des mots de passe et Intégrité des fichiers](../../.gitbook/assets/admin-security-block.png)
 
 Le bloc a été introduit dans Chamilo 2.0 avec quatre outils et étendu dans Chamilo 3.0 avec un cinquième, **Intégrité des fichiers**.
 

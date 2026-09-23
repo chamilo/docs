@@ -53,7 +53,7 @@ Cada URL de acesso pode ter as suas próprias:
 
 As URLs de acesso podem ser organizadas numa árvore pai/filho em vez de numa lista plana. Ao criar ou editar uma URL, um Administrador Global sem restrições (consulte [Administradores de Subárvore](#subtree-administrators) abaixo) pode escolher qualquer outra URL como **URL principal**:
 
-![Diálogo Editar URL com a lista pendente URL principal aberta, listando as outras URLs de acesso disponíveis como principal](/.gitbook/assets/admin-access-url-parent-select.png)
+![Diálogo Editar URL com a lista pendente URL principal aberta, listando as outras URLs de acesso disponíveis como principal](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * A lista pendente nunca oferece a URL que está a ser editada, nem qualquer um dos seus próprios descendentes, como possível principal — isto impede a criação de um ciclo. O backend revalida isto independentemente do que a interface mostra.
 * Se uma URL for criada sem escolher uma principal, assume por omissão a **URL apenas de início de sessão** se existir uma (consulte [Definições por URL](#per-url-settings) acima), ou, caso contrário, a primeira URL de acesso — o mesmo comportamento predefinido de antes desta funcionalidade existir.
@@ -61,7 +61,7 @@ As URLs de acesso podem ser organizadas numa árvore pai/filho em vez de numa li
 
 Onde quer que as URLs de acesso sejam listadas — o painel Multi-URL e a página de gestão de URLs de Acesso — a árvore é mostrada através de indentação, um principal imediatamente seguido pelos seus próprios filhos (irmãos ordenados alfabeticamente), em vez de uma coluna separada "Principal":
 
-![Lista de URLs de Acesso a mostrar uma URL raiz com duas URLs filhas, uma das quais tem a sua própria URL filha, indentadas para refletir a hierarquia](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Lista de URLs de Acesso a mostrar uma URL raiz com duas URLs filhas, uma das quais tem a sua própria URL filha, indentadas para refletir a hierarquia](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administradores de Subárvore
 

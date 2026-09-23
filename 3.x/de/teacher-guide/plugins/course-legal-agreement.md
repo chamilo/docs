@@ -1,12 +1,12 @@
 # Rechtliche Vereinbarung des Kurses
 
-Das Plugin Rechtliche Vereinbarung des Kurses <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Rechtliche Vereinbarung des Kurses" data-size="line"> verlangt von Studierenden, dass sie eine Nutzungs-/Rechtsmitteilung akzeptieren, bevor sie auf Ihren Kurs zugreifen können — nützlich für Einwilligungsformulare, Nutzungsrichtlinien oder jede Mitteilung, der Lernende förmlich zustimmen sollen.
+Das Plugin Rechtliche Vereinbarung des Kurses <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Rechtliche Vereinbarung des Kurses" data-size="line"> verlangt von Studierenden, dass sie eine Nutzungs-/Rechtsmitteilung akzeptieren, bevor sie auf Ihren Kurs zugreifen können — nützlich für Einwilligungsformulare, Nutzungsrichtlinien oder jede Mitteilung, der Lernende förmlich zustimmen sollen.
 
 ## Aktivierung für Ihren Kurs
 
 Die plattformweite Aktivierung des Plugins bewirkt für sich genommen nichts — Sie müssen es weiterhin für jeden Kurs einschalten, in dem Sie es nutzen möchten:
 
-1. Öffnen Sie die **Einstellungen** Ihres Kurses <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line">
+1. Öffnen Sie die **Einstellungen** Ihres Kurses <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line">
 2. Aktivieren Sie im Abschnitt zum Kurszugriff **Rechtliche Bedingungen aktivieren**
 
 Dadurch wird dem Kurs ein Werkzeug **Rechtliche Vereinbarung des Kurses** hinzugefügt.

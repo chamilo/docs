@@ -6,8 +6,8 @@ Nachrichten, die über Ankündigungen versendet werden, werden sowohl per E-Mail
 
 ## Eine Ankündigung erstellen
 
-1. Öffnen Sie das **Ankündigungen**-Tool <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line"> über die Kursstartseite
-2. Klicken Sie erneut auf das Symbol **Eine Ankündigung hinzufügen** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line">
+1. Öffnen Sie das **Ankündigungen**-Tool <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line"> über die Kursstartseite
+2. Klicken Sie erneut auf das Symbol **Eine Ankündigung hinzufügen** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ankündigungen" data-size="line">
 3. Füllen Sie folgende Felder aus:
    * **Empfänger** — Wählen Sie aus, wer die Ankündigung erhält:
      * Alle eingeschriebenen Lernenden
@@ -25,9 +25,9 @@ Die Schaltfläche **Vorschau** ist nicht sehr intuitiv: Sie ermöglicht es Ihnen
 
 ## Ankündigungen verwalten
 
-* **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Eine bestehende Ankündigung ändern
-* **Löschen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Eine Ankündigung entfernen
-* **Sichtbarkeit** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbarkeit" data-size="line"> — Ankündigungen ein- oder ausblenden
+* **Bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Eine bestehende Ankündigung ändern
+* **Löschen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Eine Ankündigung entfernen
+* **Sichtbarkeit** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbarkeit" data-size="line"> — Ankündigungen ein- oder ausblenden
 
 Ankündigungen werden in umgekehrter chronologischer Reihenfolge angezeigt (die neuesten zuerst).
 

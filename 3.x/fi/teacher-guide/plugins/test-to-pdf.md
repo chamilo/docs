@@ -1,6 +1,6 @@
 # Testi PDF:ksi
 
-Testi PDF:ksi <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Testi PDF:ksi" data-size="line"> vie kurssitestin kysymykset tulostettavaan PDF-tiedostoon — vain kysymykset, vain vastaukset tai molemmat yhdessä — hyödyllinen testin paperiversiota varten.
+Testi PDF:ksi <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Testi PDF:ksi" data-size="line"> vie kurssitestin kysymykset tulostettavaan PDF-tiedostoon — vain kysymykset, vain vastaukset tai molemmat yhdessä — hyödyllinen testin paperiversiota varten.
 
 ## Työkalun käyttäminen
 

@@ -4,7 +4,7 @@ Das Aufgaben-Tool (auch als "Studentenveröffentlichungen" bezeichnet) ermöglic
 
 ## Eine Aufgabe erstellen
 
-1. Öffnen Sie das **Aufgaben**-Tool <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> über die Kurs-Homepage
+1. Öffnen Sie das **Aufgaben**-Tool <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> über die Kurs-Homepage
 2. Klicken Sie auf **Aufgabe erstellen**
 3. Füllen Sie die Details aus:
    * **Aufgabenname** – Der Name der Aufgabe (z. B. "Abschlussprojektbericht")
@@ -41,7 +41,7 @@ Lernende können sehen, ob sie bereits eingereicht haben und, falls erlaubt, ihr
 
 ## Einreichungen überprüfen
 
-![Die Liste der Aufgabeneinreichungen mit Namen der Studierenden, Datum, Dateien und Bewertungsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![Die Liste der Aufgabeneinreichungen mit Namen der Studierenden, Datum, Dateien und Bewertungsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Als Lehrkraft öffnen Sie eine Aufgabe, um die Liste aller Einreichungen zu sehen:
 
@@ -53,7 +53,7 @@ Als Lehrkraft öffnen Sie eine Aufgabe, um die Liste aller Einreichungen zu sehe
 
 ### Eine Einreichung bewerten
 
-![Die Bewertungsansicht der Aufgabe mit Punktzahl-Eingabe, Feedback-Feld und Upload der korrigierten Datei](/.gitbook/assets/assignment-grading-view.png)
+![Die Bewertungsansicht der Aufgabe mit Punktzahl-Eingabe, Feedback-Feld und Upload der korrigierten Datei](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klicken Sie auf eine Einreichung, um sie zu öffnen
 2. Überprüfen Sie die eingereichte Datei

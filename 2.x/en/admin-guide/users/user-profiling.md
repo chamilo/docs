@@ -4,7 +4,7 @@ Chamilo allows you to define custom profile fields (extra fields) to capture add
 
 ## Extra Profile Fields
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![The extra profile fields list showing custom fields with name, type, and visibility settings](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Extra fields let you store metadata specific to your organization, such as:
 

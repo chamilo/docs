@@ -4,7 +4,7 @@ Chamilo ermöglicht es Ihnen, benutzerdefinierte Profilfelder (zusätzliche Feld
 
 ## Zusätzliche Profilfelder
 
-![Die Liste der zusätzlichen Profilfelder zeigt benutzerdefinierte Felder mit Name, Typ und Sichtbarkeitseinstellungen](/.gitbook/assets/admin-extra-fields-list.png)
+![Die Liste der zusätzlichen Profilfelder zeigt benutzerdefinierte Felder mit Name, Typ und Sichtbarkeitseinstellungen](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Zusätzliche Felder erlauben es Ihnen, organisationsspezifische Metadaten zu speichern, wie zum Beispiel:
 

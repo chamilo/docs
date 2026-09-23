@@ -13,7 +13,7 @@
 
 若要編輯簡介：
 
-1. 點選 **編輯簡介** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
+1. 點選 **編輯簡介** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
 2. 使用富文字編輯器撰寫內容
 3. 儲存變更
 
@@ -21,7 +21,7 @@
 
 ## 工具格線
 
-![課程首頁工具格線，顯示可用的課程工具、圖示與可見性切換](/.gitbook/assets/course-homepage-tool-grid.png)
+![課程首頁工具格線，顯示可用的課程工具、圖示與可見性切換](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 在簡介下方，課程工具以格線版面顯示。每個工具以卡片呈現，包含：
 
@@ -32,18 +32,18 @@
 
 | 工具 | 圖示 | 用途 |
 |------|------|---------|
-| 行事曆 | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="行事曆" data-size="line"> | 排程活動與截止日期 |
-| 公告 | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line"> | 向已註冊學習者傳送訊息 |
-| 作業 | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> | 收取並評分學員作業 |
-| 文件 | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="文件" data-size="line"> | 上傳並整理檔案與內容 |
-| 測驗 | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="練習" data-size="line"> | 建立小考與測驗 |
-| 論壇 | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="論壇" data-size="line"> | 主持討論 |
-| 詞彙表 | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> | 定義關鍵術語 |
-| 評量 | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成績簿" data-size="line"> | 管理成績與證書 |
-| 學習路徑 | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> | 建立結構化學習序列 |
-| 連結 | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="連結" data-size="line"> | 分享實用 URL |
-| 使用者 | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="成員" data-size="line"> | 檢視並管理已註冊使用者 |
-| 問卷 | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="問卷" data-size="line"> | 建立並發送問卷 |
+| 行事曆 | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="行事曆" data-size="line"> | 排程活動與截止日期 |
+| 公告 | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line"> | 向已註冊學習者傳送訊息 |
+| 作業 | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> | 收取並評分學員作業 |
+| 文件 | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="文件" data-size="line"> | 上傳並整理檔案與內容 |
+| 測驗 | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="練習" data-size="line"> | 建立小考與測驗 |
+| 論壇 | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="論壇" data-size="line"> | 主持討論 |
+| 詞彙表 | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> | 定義關鍵術語 |
+| 評量 | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="成績簿" data-size="line"> | 管理成績與證書 |
+| 學習路徑 | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> | 建立結構化學習序列 |
+| 連結 | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="連結" data-size="line"> | 分享實用 URL |
+| 使用者 | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="成員" data-size="line"> | 檢視並管理已註冊使用者 |
+| 問卷 | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="問卷" data-size="line"> | 建立並發送問卷 |
 
 > 若管理員已在平台層級停用某些工具，或您已將其隱藏，則部分工具可能不會顯示。
 
@@ -65,7 +65,7 @@
 * 使用 **全部顯示** 或 **全部隱藏** 進行批次變更
 * 隱藏的工具對身為教師的您仍可存取——僅對學習者隱藏
 
-![學習者所見的課程首頁，隱藏的工具不會顯示](/.gitbook/assets/course-homepage-student-view.png)
+![學習者所見的課程首頁，隱藏的工具不會顯示](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## 自動啟動功能
 

@@ -53,7 +53,7 @@
 
 访问 URL 可组织为父/子树结构，而非扁平列表。创建或编辑 URL 时，不受限制的全局管理员（参见下方 [子树管理员](#subtree-administrators)）可将任意其他 URL 选为其 **父级 URL**：
 
-![编辑 URL 对话框中父级 URL 下拉列表已展开，列出可作为父级的其他访问 URL](/.gitbook/assets/admin-access-url-parent-select.png)
+![编辑 URL 对话框中父级 URL 下拉列表已展开，列出可作为父级的其他访问 URL](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * 下拉列表不会提供正在编辑的 URL 或其任何后代作为可选父级 — 这可防止形成环。无论界面显示如何，后端都会再次校验。
 * 若创建 URL 时未选择父级，则默认使用 **仅登录 URL**（若存在，参见上方 [按 URL 的设置](#per-url-settings)），否则使用第一个访问 URL — 与该功能出现之前的默认行为相同。
@@ -61,7 +61,7 @@
 
 凡列出访问 URL 之处 — 多 URL 仪表板与访问 URL 管理页 — 树结构通过缩进展示：父级紧随其后为其子级（同级按字母排序），而不再使用单独的“父级”列：
 
-![访问 URL 列表显示一个根 URL 及其两个子 URL，其中一个子 URL 还有自己的子 URL，通过缩进体现层级](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![访问 URL 列表显示一个根 URL 及其两个子 URL，其中一个子 URL 还有自己的子 URL，通过缩进体现层级](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## 子树管理员
 

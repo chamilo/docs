@@ -19,7 +19,7 @@ Standaardcategorieën zijn onder andere:
 
 ## De tickettool openen
 
-Als uw beheerder de ticketlink heeft ingeschakeld, verschijnt een ticketpictogram <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in de bovenste navigatiebalk. Klik erop om rechtstreeks naar het ticketformulier te gaan.
+Als uw beheerder de ticketlink heeft ingeschakeld, verschijnt een ticketpictogram <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in de bovenste navigatiebalk. Klik erop om rechtstreeks naar het ticketformulier te gaan.
 
 U kunt uw tickets ook openen via het hoofdmenu onder **Support** of **Tickets**, afhankelijk van de configuratie van uw platform.
 

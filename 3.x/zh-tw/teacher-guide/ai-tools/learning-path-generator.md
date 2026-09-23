@@ -14,7 +14,7 @@ AI 學習路徑產生器可協助您自動建立結構化的學習序列。您�
 
 ## 如何產生學習路徑
 
-![含主題、目標與章節數量欄位的 AI 學習路徑產生器表單](/.gitbook/assets/ai-learning-path-generator.png)
+![含主題、目標與章節數量欄位的 AI 學習路徑產生器表單](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. 開啟 AI 產生器表單
 2. 設定參數：

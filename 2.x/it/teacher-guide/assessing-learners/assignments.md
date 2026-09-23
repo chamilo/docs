@@ -4,7 +4,7 @@ Lo strumento dei compiti (chiamato anche "pubblicazioni degli studenti") consent
 
 ## Creazione di un Compito
 
-1. Apri lo strumento **Compiti** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso
+1. Apri lo strumento **Compiti** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso
 2. Fai clic su **Crea un compito**
 3. Compila i dettagli:
    * **Nome del compito** — Il nome del compito (ad esempio, "Relazione del Progetto Finale")
@@ -41,7 +41,7 @@ Gli studenti possono vedere se hanno già inviato il compito e, se permesso, agg
 
 ## Revisione degli Invii
 
-![Elenco degli invii dei compiti che mostra i nomi degli studenti, le date, i file e lo stato della valutazione](/.gitbook/assets/assignments-submissions-list.png)
+![Elenco degli invii dei compiti che mostra i nomi degli studenti, le date, i file e lo stato della valutazione](../../.gitbook/assets/assignments-submissions-list.png)
 
 Come insegnante, apri un compito per vedere l'elenco di tutti gli invii:
 
@@ -53,7 +53,7 @@ Come insegnante, apri un compito per vedere l'elenco di tutti gli invii:
 
 ### Valutazione di un Invio
 
-![Vista di valutazione del compito con inserimento del punteggio, campo di feedback e caricamento del file corretto](/.gitbook/assets/assignment-grading-view.png)
+![Vista di valutazione del compito con inserimento del punteggio, campo di feedback e caricamento del file corretto](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Fai clic su un invio per aprirlo
 2. Rivedi il file inviato

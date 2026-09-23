@@ -1,6 +1,6 @@
 # Tes ke PDF
 
-Tes ke PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Tes ke PDF" data-size="line"> mengekspor soal tes kursus ke PDF yang dapat dicetak — hanya soal, hanya jawaban, atau keduanya sekaligus — berguna untuk versi kertas dari sebuah tes.
+Tes ke PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Tes ke PDF" data-size="line"> mengekspor soal tes kursus ke PDF yang dapat dicetak — hanya soal, hanya jawaban, atau keduanya sekaligus — berguna untuk versi kertas dari sebuah tes.
 
 ## Mengakses Alat
 

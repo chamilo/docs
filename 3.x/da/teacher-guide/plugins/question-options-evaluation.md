@@ -1,6 +1,6 @@
 # Evaluering af spørgsmålsindstillinger
 
-Evaluering af spørgsmålsindstillinger <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluering af spørgsmålsindstillinger" data-size="line"> giver dig mulighed for at anvende en formel med negativ pointgivning (straf) på scoringen af en test, i stedet for Chamilos standardadfærd, som blot summerer korrekte svar.
+Evaluering af spørgsmålsindstillinger <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluering af spørgsmålsindstillinger" data-size="line"> giver dig mulighed for at anvende en formel med negativ pointgivning (straf) på scoringen af en test, i stedet for Chamilos standardadfærd, som blot summerer korrekte svar.
 
 ## Indstilling af en formel
 

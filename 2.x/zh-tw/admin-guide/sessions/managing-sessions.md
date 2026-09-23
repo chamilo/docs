@@ -2,7 +2,7 @@
 
 ## 建立課程會期
 
-![顯示名稱、日期、導師、類別和可見性欄位的課程會期建立表單](/.gitbook/assets/admin-session-create-form.png)
+![顯示名稱、日期、導師、類別和可見性欄位的課程會期建立表單](../../.gitbook/assets/admin-session-create-form.png)
 
 1. 從管理面板點擊 **建立課程會期**
 2. 填寫課程會期詳細資料：
@@ -30,7 +30,7 @@
 
 ## 課程會期清單
 
-![顯示所有課程會期名稱、日期、課程數量、學習者數量和狀態的課程會期清單](/.gitbook/assets/admin-session-list.png)
+![顯示所有課程會期名稱、日期、課程數量、學習者數量和狀態的課程會期清單](../../.gitbook/assets/admin-session-list.png)
 
 課程會期清單顯示所有課程會期，包括：
 
@@ -52,7 +52,7 @@
 
 ## 註冊使用者
 
-![用於新增個別使用者、類別或透過 CSV 匯入的課程會期註冊介面](/.gitbook/assets/admin-session-enrollment.png)
+![用於新增個別使用者、類別或透過 CSV 匯入的課程會期註冊介面](../../.gitbook/assets/admin-session-enrollment.png)
 
 您可以透過以下方式將使用者註冊至課程會期：
 

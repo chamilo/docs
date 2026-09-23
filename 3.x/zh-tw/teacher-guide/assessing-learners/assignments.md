@@ -4,7 +4,7 @@
 
 ## 建立作業
 
-1. 從課程首頁開啟 **作業** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> 工具
+1. 從課程首頁開啟 **作業** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line"> 工具
 2. 點選 **建立作業**
 3. 填寫詳細資料：
    * **作業名稱** — 作業的名稱（例如「期末專題報告」）
@@ -41,7 +41,7 @@
 
 ## 審閱繳交
 
-![作業繳交清單，顯示學生姓名、日期、檔案與評分狀態](/.gitbook/assets/assignments-submissions-list.png)
+![作業繳交清單，顯示學生姓名、日期、檔案與評分狀態](../../.gitbook/assets/assignments-submissions-list.png)
 
 身為教師，開啟作業即可查看所有繳交清單：
 
@@ -53,7 +53,7 @@
 
 ### 為繳交評分
 
-![作業評分畫面，含分數輸入、回饋欄位與批改檔案上傳](/.gitbook/assets/assignment-grading-view.png)
+![作業評分畫面，含分數輸入、回饋欄位與批改檔案上傳](../../.gitbook/assets/assignment-grading-view.png)
 
 1. 點選一筆繳交以開啟
 2. 審閱已繳交的檔案

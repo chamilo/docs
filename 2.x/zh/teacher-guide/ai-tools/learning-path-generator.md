@@ -14,7 +14,7 @@ AI学习路径生成器帮助您自动创建结构化的学习序列。您提供
 
 ## 如何生成学习路径
 
-![AI学习路径生成器表单，包含主题、目标和章节数量字段](/.gitbook/assets/ai-learning-path-generator.png)
+![AI学习路径生成器表单，包含主题、目标和章节数量字段](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. 打开AI生成器表单
 2. 配置参数：

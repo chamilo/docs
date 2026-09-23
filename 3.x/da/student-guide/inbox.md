@@ -4,17 +4,17 @@
 
 ## Adgang til din indbakke
 
-Klik på ikonet **Indbakke** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Indbakke" data-size="line"> i den øverste bjælke. Et rødt badge viser, hvor mange ulæste beskeder du har. Hvis dette ikon slet ikke er der, har din administrator deaktiveret platformens beskedsystem.
+Klik på ikonet **Indbakke** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Indbakke" data-size="line"> i den øverste bjælke. Et rødt badge viser, hvor mange ulæste beskeder du har. Hvis dette ikon slet ikke er der, har din administrator deaktiveret platformens beskedsystem.
 
 ## Læsning og svar
 
 Din indbakke viser modtagne beskeder og angiver, hvilke der er ulæste. Åbn en for at læse den, og brug **Svar** for at svare — du kan medtage flere modtagere i et svar på én gang, hvilket er nyttigt, når du vil holde en lille gruppe informeret uden at oprette et formelt kursus eller en social gruppe.
 
-![Indbakken med fanerne Indbakke / Ulæst / Sendt og en tabel over modtagne beskeder](/.gitbook/assets/student-inbox.png)
+![Indbakken med fanerne Indbakke / Ulæst / Sendt og en tabel over modtagne beskeder](../.gitbook/assets/student-inbox.png)
 
 ## Skriv en ny besked
 
-Klik på knappen **ny besked** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny besked" data-size="line">, vælg én eller flere modtagere, skriv et emne og en brødtekst, og send. Ligesom et svar kan en ny besked gå til flere personer på én gang.
+Klik på knappen **ny besked** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny besked" data-size="line">, vælg én eller flere modtagere, skriv et emne og en brødtekst, og send. Ligesom et svar kan en ny besked gå til flere personer på én gang.
 
 ## Faner og handlinger
 

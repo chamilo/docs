@@ -2,7 +2,7 @@
 
 Le bloc **Gestion de la plateforme** du tableau de bord d’administration regroupe les outils de configuration et de communication à l’échelle du portail — de l’ensemble du panneau des paramètres aux langues, aux annonces publiques, au calendrier global et au système de Pages de type CMS qui constitue une partie du contenu public de votre portail.
 
-![Le bloc Gestion de la plateforme sur le tableau de bord d’administration, listant Paramètres de configuration, Langues, Plugins, Régions, Actualités du portail, Agenda global, Pages, Configuration de la page d’inscription, Champs supplémentaires, Configuration des URL d’accès multiples, Modèles de courriel, Outils externes (LTI), Catégories du formulaire de contact et Modèles système](/.gitbook/assets/admin-platform-block.png)
+![Le bloc Gestion de la plateforme sur le tableau de bord d’administration, listant Paramètres de configuration, Langues, Plugins, Régions, Actualités du portail, Agenda global, Pages, Configuration de la page d’inscription, Champs supplémentaires, Configuration des URL d’accès multiples, Modèles de courriel, Outils externes (LTI), Catégories du formulaire de contact et Modèles système](../../.gitbook/assets/admin-platform-block.png)
 
 ## Accéder au bloc Plateforme
 

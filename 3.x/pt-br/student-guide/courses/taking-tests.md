@@ -4,7 +4,7 @@ A ferramenta **Testes** (Exercícios) é onde você realiza os questionários e 
 
 ## Iniciando um Teste
 
-Abra a ferramenta **Testes** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Testes" data-size="line"> na página inicial do curso e clique em um teste para iniciá-lo. Um teste pode ainda não estar disponível, ou pode não estar mais disponível, se o professor definiu uma data de início ou de término.
+Abra a ferramenta **Testes** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Testes" data-size="line"> na página inicial do curso e clique em um teste para iniciá-lo. Um teste pode ainda não estar disponível, ou pode não estar mais disponível, se o professor definiu uma data de início ou de término.
 
 ## Respondendo às Perguntas
 

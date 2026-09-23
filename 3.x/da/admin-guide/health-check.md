@@ -2,7 +2,7 @@
 
 Sundhedstjek er en lille blok på administrationsdashboardet, som kører en håndfuld live-tjek på din installation og markerer alt, der kræver opmærksomhed — uden at du skal grave i konfigurationsfiler for at opdage almindelige fejlkonfigurationer.
 
-![Blokken Sundhedstjek på administrationsdashboardet, der viser bestået/ikke bestået-status for e-mailindstillinger, tildeling af admin-URL og tjek af filrettigheder](/.gitbook/assets/admin-health-check-block.png)
+![Blokken Sundhedstjek på administrationsdashboardet, der viser bestået/ikke bestået-status for e-mailindstillinger, tildeling af admin-URL og tjek af filrettigheder](../.gitbook/assets/admin-health-check-block.png)
 
 ## Adgang til Sundhedstjek
 

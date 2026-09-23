@@ -2,7 +2,7 @@
 
 O bloco **Sistema** no painel de administração agrupa ferramentas de manutenção em nível de servidor, o fluxo de autoatualização, utilitários de inspeção de armazenamento/recursos e a identidade visual da plataforma.
 
-![O bloco Sistema no painel de administração, listando Limpar arquivos temporários, Status do sistema, Atualização do sistema, Cores, Informações de arquivos, Recursos por tipo e Listar ícones](/.gitbook/assets/admin-system-block.png)
+![O bloco Sistema no painel de administração, listando Limpar arquivos temporários, Status do sistema, Atualização do sistema, Cores, Informações de arquivos, Recursos por tipo e Listar ícones](../../.gitbook/assets/admin-system-block.png)
 
 ## Acessando o Bloco Sistema
 

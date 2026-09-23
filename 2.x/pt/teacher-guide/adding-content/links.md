@@ -4,8 +4,8 @@ A ferramenta de links permite que você compartilhe URLs úteis com seus alunos,
 
 ## Adicionando um Link
 
-1. Abra a ferramenta **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> na página inicial do curso
-2. Clique em **Adicionar um link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Adicionar link" data-size="line">
+1. Abra a ferramenta **Links** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> na página inicial do curso
+2. Clique em **Adicionar um link** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Adicionar link" data-size="line">
 3. Preencha os detalhes:
    * **URL** — O endereço da web (por exemplo, `https://example.com/resource`)
    * **Nome do link** — Um nome descritivo para o link
@@ -27,10 +27,10 @@ Os links dentro de uma categoria são exibidos juntos, facilitando aos alunos en
 
 ## Gerenciando Links
 
-* **Verificação de links** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validade" data-size="line"> — Chamilo pode verificar se os links ainda estão ativos ou quebrados
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Atualize a URL, o título ou a descrição do link
-* **Visibilidade** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Oculte ou mostre o link para os alunos
-* **Excluir** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remova o link
+* **Verificação de links** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validade" data-size="line"> — Chamilo pode verificar se os links ainda estão ativos ou quebrados
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Atualize a URL, o título ou a descrição do link
+* **Visibilidade** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Oculte ou mostre o link para os alunos
+* **Excluir** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remova o link
 
 ## Exportando Links
 

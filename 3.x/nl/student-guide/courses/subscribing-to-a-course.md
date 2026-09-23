@@ -21,7 +21,7 @@ Als de zichtbaarheid van een cursus dit toelaat, kunt u uzelf inschrijven zonder
 2. Blader of zoek naar de cursus waaraan u wilt deelnemen.
 3. Klik op de cursus om de details te openen en klik vervolgens op de knop om deel te nemen.
 
-![De cursuscatalogus, met een knop Inschrijven op elke cursuskaart](/.gitbook/assets/student-course-catalogue.png)
+![De cursuscatalogus, met een knop Inschrijven op elke cursuskaart](../../.gitbook/assets/student-course-catalogue.png)
 
 Een cursus waarvoor u al bent ingeschreven toont **Naar de cursus** in plaats van een inschrijfknop.
 

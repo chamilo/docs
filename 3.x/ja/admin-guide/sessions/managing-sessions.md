@@ -2,7 +2,7 @@
 
 ## セッションの作成
 
-![名前、日付、チューター、カテゴリ、公開設定のフィールドがあるセッション作成フォーム](/.gitbook/assets/admin-session-create-form.png)
+![名前、日付、チューター、カテゴリ、公開設定のフィールドがあるセッション作成フォーム](../../.gitbook/assets/admin-session-create-form.png)
 
 1. 管理パネルから **セッションを作成** をクリックします
 2. セッションの詳細を入力します:
@@ -30,7 +30,7 @@
 
 ## セッション一覧
 
-![名前、日付、コース数、学習者数、ステータスが表示されたすべてのセッションの一覧](/.gitbook/assets/admin-session-list.png)
+![名前、日付、コース数、学習者数、ステータスが表示されたすべてのセッションの一覧](../../.gitbook/assets/admin-session-list.png)
 
 セッション一覧には、次の情報とともにすべてのセッションが表示されます:
 
@@ -52,7 +52,7 @@
 
 ## ユーザーの登録
 
-![個別ユーザー、クラスの追加、または CSV によるインポート用のセッション登録画面](/.gitbook/assets/admin-session-enrollment.png)
+![個別ユーザー、クラスの追加、または CSV によるインポート用のセッション登録画面](../../.gitbook/assets/admin-session-enrollment.png)
 
 セッションへのユーザー登録は次の方法で行えます:
 

@@ -2,7 +2,7 @@
 
 As configurações do curso permitem que você controle o comportamento do seu curso — quem pode acessá-lo, como ele aparece e quais funcionalidades estão ativadas.
 
-Para acessar as configurações do curso, entre no seu curso e clique no ícone **Configurações** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> ao lado do botão **Mudar para visualização de aluno**.
+Para acessar as configurações do curso, entre no seu curso e clique no ícone **Configurações** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> ao lado do botão **Mudar para visualização de aluno**.
 
 ## Configurações Gerais
 
@@ -29,7 +29,7 @@ Cada curso tem um limite de armazenamento (cota de disco) para arquivos enviados
 
 ### Visibilidade do Curso
 
-![As configurações de visibilidade do curso mostrando opções público, aberto, registrado e fechado](/.gitbook/assets/course-settings-visibility.png)
+![As configurações de visibilidade do curso mostrando opções público, aberto, registrado e fechado](../../.gitbook/assets/course-settings-visibility.png)
 
 Controle quem pode acessar seu curso:
 
@@ -83,7 +83,7 @@ Controle o comportamento na ferramenta de fórum deste curso.
 ---
 ### Configurações de Autolançamento
 
-Um curso pode ser configurado para ter um comportamento de autolançamento, o que reduz o caminho dos alunos para chegar às partes importantes do seu curso. Se ativado, os alunos que entrarem no curso serão direcionados diretamente para a ferramenta selecionada e não verão a página inicial do curso como uma etapa intermediária. Você pode até selecionar caminhos de aprendizagem ou exercícios específicos para serem lançados ao entrar no curso. Nesse caso, você precisa selecionar a opção aqui, depois ir para a lista de caminhos de aprendizagem ou exercícios e clicar no ícone de foguete <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolançamento" data-size="line"> no item selecionado.
+Um curso pode ser configurado para ter um comportamento de autolançamento, o que reduz o caminho dos alunos para chegar às partes importantes do seu curso. Se ativado, os alunos que entrarem no curso serão direcionados diretamente para a ferramenta selecionada e não verão a página inicial do curso como uma etapa intermediária. Você pode até selecionar caminhos de aprendizagem ou exercícios específicos para serem lançados ao entrar no curso. Nesse caso, você precisa selecionar a opção aqui, depois ir para a lista de caminhos de aprendizagem ou exercícios e clicar no ícone de foguete <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolançamento" data-size="line"> no item selecionado.
 
 ### Configurações de Assistentes de IA
 

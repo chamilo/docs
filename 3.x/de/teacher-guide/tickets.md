@@ -19,7 +19,7 @@ Standardkategorien umfassen:
 
 ## Zugriff auf das Ticket-Werkzeug
 
-Wenn Ihr Administrator den Ticket-Link aktiviert hat, erscheint ein Ticket-Symbol <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in der oberen Navigationsleiste. Klicken Sie darauf, um direkt zum Formular für die Ticketeinreichung zu gelangen.
+Wenn Ihr Administrator den Ticket-Link aktiviert hat, erscheint ein Ticket-Symbol <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in der oberen Navigationsleiste. Klicken Sie darauf, um direkt zum Formular für die Ticketeinreichung zu gelangen.
 
 Sie können Ihre Tickets auch über das Hauptmenü unter **Support** oder **Tickets** aufrufen, je nach Konfiguration Ihrer Plattform.
 

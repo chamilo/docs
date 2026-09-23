@@ -15,7 +15,7 @@ Sesi dalam Chamilo adalah cara untuk menyampaikan kursus yang sama kepada kelomp
 
 Dari bilah samping, klik **Sesi saya** untuk melihat sesi Anda. Mereka diorganisir menjadi tiga tampilan:
 
-![Halaman Sesi Saya yang menampilkan tampilan sesi saat ini, masa lalu, dan mendatang](/.gitbook/assets/my-sessions-list.png)
+![Halaman Sesi Saya yang menampilkan tampilan sesi saat ini, masa lalu, dan mendatang](../.gitbook/assets/my-sessions-list.png)
 
 * **Sesi saat ini** — Sesi yang sedang aktif
 * **Sesi masa lalu** — Sesi yang telah berakhir

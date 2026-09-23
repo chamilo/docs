@@ -7,11 +7,11 @@ O Chamilo 3.0 tem uma interface limpa e moderna, concebida para manter a navega�
 A barra superior está sempre visível no topo de todas as páginas. Contém:
 
 * **Logótipo da plataforma** — Clique nele para regressar à página inicial a qualquer momento.
-* **Ícone da caixa de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> — Mostra as suas mensagens. Um distintivo vermelho indica mensagens não lidas. Clique para abrir a sua [Caixa de entrada](../inbox.md).
-* **Ícone de ticket de suporte** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Suporte" data-size="line"> — Se estiver ativado pelo administrador, dá-lhe acesso ao sistema de tickets de suporte. Nem todas as plataformas o ativam, pelo que poderá ver apenas o ícone da caixa de entrada e o seu avatar.
+* **Ícone da caixa de entrada** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> — Mostra as suas mensagens. Um distintivo vermelho indica mensagens não lidas. Clique para abrir a sua [Caixa de entrada](../inbox.md).
+* **Ícone de ticket de suporte** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Suporte" data-size="line"> — Se estiver ativado pelo administrador, dá-lhe acesso ao sistema de tickets de suporte. Nem todas as plataformas o ativam, pelo que poderá ver apenas o ícone da caixa de entrada e o seu avatar.
 * **O seu avatar** — Uma imagem circular no canto superior direito. Clique nela para abrir um menu pendente:
 
-![O menu do seu avatar, com ligações para O meu perfil, Os meus certificados, As minhas competências e Terminar sessão](/.gitbook/assets/student-avatar-menu.png)
+![O menu do seu avatar, com ligações para O meu perfil, Os meus certificados, As minhas competências e Terminar sessão](../../.gitbook/assets/student-avatar-menu.png)
 
 * **O meu perfil** — Edite as suas informações pessoais, altere a palavra-passe e (se estiver ativado) configure a autenticação de dois fatores
 * **Os meus certificados** — Todos os certificados que obteve, em todos os seus cursos
@@ -26,18 +26,18 @@ A barra lateral contém as seguintes ligações (algumas podem estar ocultas con
 
 | Item de menu | Ícone | Descrição |
 |-----------|------|-------------|
-| **Início** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Início" data-size="line"> | Regressa ao painel principal |
-| **Os meus cursos** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> | Lista todos os cursos em que está inscrito |
-| **As minhas sessões** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessões" data-size="line"> | Lista as suas sessões de formação (atuais, passadas, futuras) |
-| **Explorar mais cursos** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catálogo" data-size="line"> | Percorra o catálogo de cursos para encontrar e inscrever-se autonomamente em novos cursos |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | O seu calendário pessoal e de cursos |
-| **Relatórios** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Relatórios" data-size="line"> | Expande para **Progresso** — a sua própria visão geral de [O meu progresso](../my-progress.md) |
-| **Rede social** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Rede social" data-size="line"> | Expande para a [Rede social](../social-network.md) e ligações relacionadas, se estiver ativada |
-| **Videoconferência** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Vídeo" data-size="line"> | Aceda a sessões de vídeo em direto (se estiver configurada) |
+| **Início** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Início" data-size="line"> | Regressa ao painel principal |
+| **Os meus cursos** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> | Lista todos os cursos em que está inscrito |
+| **As minhas sessões** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessões" data-size="line"> | Lista as suas sessões de formação (atuais, passadas, futuras) |
+| **Explorar mais cursos** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catálogo" data-size="line"> | Percorra o catálogo de cursos para encontrar e inscrever-se autonomamente em novos cursos |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | O seu calendário pessoal e de cursos |
+| **Relatórios** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Relatórios" data-size="line"> | Expande para **Progresso** — a sua própria visão geral de [O meu progresso](../my-progress.md) |
+| **Rede social** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Rede social" data-size="line"> | Expande para a [Rede social](../social-network.md) e ligações relacionadas, se estiver ativada |
+| **Videoconferência** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Vídeo" data-size="line"> | Aceda a sessões de vídeo em direto (se estiver configurada) |
 
 **Relatórios** e **Rede social** não são ligações simples — ao clicar nelas, expande-se uma pequena lista de subitens diretamente na barra lateral:
 
-![A barra lateral com Relatórios e Rede social expandidos, mostrando os respetivos subitens](/.gitbook/assets/student-sidebar-expanded.png)
+![A barra lateral com Relatórios e Rede social expandidos, mostrando os respetivos subitens](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Em **Relatórios**: apenas **Progresso**, que o leva a [O meu progresso](../my-progress.md).
 * Em **Rede social**: **Início** (o mural social), **Mensagens** (um atalho para a sua [Caixa de entrada](../inbox.md)), **Os meus amigos**, **Grupos sociais** — e, agrupados aqui de forma um pouco inesperada, **Os meus ficheiros** (o seu armazenamento pessoal de ficheiros) e **Dados pessoais** (uma exportação dos dados pessoais que a plataforma detém sobre si). Estes dois últimos não são realmente funcionalidades «sociais»; simplesmente residem nesta parte da barra lateral.

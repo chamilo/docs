@@ -4,7 +4,7 @@ Chamilo erfasst die Aktivitäten der Lernenden auf der gesamten Plattform und gi
 
 ## Zugriff auf das Lernenden-Tracking
 
-Öffnen Sie das Tool **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> auf der Kursstartseite oder klicken Sie in der Seitenleiste auf **Reporting**.
+Öffnen Sie das Tool **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> auf der Kursstartseite oder klicken Sie in der Seitenleiste auf **Reporting**.
 
 ## Was erfasst wird
 
@@ -22,7 +22,7 @@ Zugriffsdetails pro Ressource (welche konkreten Dokumente oder Seiten ein Lernen
 
 ## Individuelle Lernendendaten anzeigen
 
-![Detaillierte Tracking-Ansicht eines Lernenden mit Fortschritt, Punktzahlen und Aktivitätszeitlinie](/.gitbook/assets/tracking-learner-detail.png)
+![Detaillierte Tracking-Ansicht eines Lernenden mit Fortschritt, Punktzahlen und Aktivitätszeitlinie](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klicken Sie auf den Namen eines Lernenden, um den detaillierten Aktivitätsbericht zu sehen. Dieser zeigt:
 

@@ -4,7 +4,7 @@
 
 ## 課題の作成
 
-1. コースホームページから **課題** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="課題" data-size="line"> ツールを開く
+1. コースホームページから **課題** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="課題" data-size="line"> ツールを開く
 2. **課題を作成** をクリックする
 3. 詳細を入力する:
    * **課題名** — 課題の名前（例: 「最終プロジェクトレポート」）
@@ -41,7 +41,7 @@
 
 ## 提出物の確認
 
-![学生名、日付、ファイル、採点状況を示す課題提出一覧](/.gitbook/assets/assignments-submissions-list.png)
+![学生名、日付、ファイル、採点状況を示す課題提出一覧](../../.gitbook/assets/assignments-submissions-list.png)
 
 教師として課題を開くと、すべての提出物の一覧が表示されます:
 
@@ -53,7 +53,7 @@
 
 ### 提出物の採点
 
-![得点入力、フィードバック欄、添削ファイルのアップロードがある課題採点画面](/.gitbook/assets/assignment-grading-view.png)
+![得点入力、フィードバック欄、添削ファイルのアップロードがある課題採点画面](../../.gitbook/assets/assignment-grading-view.png)
 
 1. 提出物をクリックして開く
 2. 提出されたファイルを確認する

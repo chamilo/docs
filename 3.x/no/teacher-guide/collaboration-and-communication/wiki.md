@@ -26,7 +26,7 @@ For å lenke til en annen wikiside fra redigereren oppretter du en lenke med tit
 Alle med redigeringstillatelse kan endre en wikiside:
 
 1. Åpne siden du vil redigere
-2. Klikk på knappen **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
+2. Klikk på knappen **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
 3. Gjør endringene i redigereren
 4. Legg eventuelt inn en **Comments**-oppføring som beskriver hva du endret
 5. Lagre

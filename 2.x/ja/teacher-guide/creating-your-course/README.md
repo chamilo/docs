@@ -7,10 +7,10 @@
 コースを作成するには：
 
 1. サイドバーの **My courses** をクリックします
-2. **Create course** ボタン（通常は緑色の本 <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> アイコンに+記号が付いたもの）をクリックします
+2. **Create course** ボタン（通常は緑色の本 <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> アイコンに+記号が付いたもの）をクリックします
 3. コース作成フォームに必要事項を入力します：
 
-![コース名、カテゴリ、コード、言語のフィールドがあるコース作成フォーム](/.gitbook/assets/course-creation-form.png)
+![コース名、カテゴリ、コード、言語のフィールドがあるコース作成フォーム](../../.gitbook/assets/course-creation-form.png)
 
 | フィールド | 必須 | 説明 |
 |-----------|------|------|
@@ -29,19 +29,19 @@
 
 コースが作成されると、ホームページに移動します。ここはコースの中心的なハブであり、あなたと学習者がすべてのツールやコンテンツにアクセスする場所です。
 
-![利用可能なコースツールをアイコンと表示切り替えとともに示すコースホームページのツールグリッド](/.gitbook/assets/course-homepage-tool-grid.png)
+![利用可能なコースツールをアイコンと表示切り替えとともに示すコースホームページのツールグリッド](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 ホームページには以下が表示されます：
 
 * **コースタイトル** — コース名が上部に表示されます。
-* **コース紹介** — 任意の説明や歓迎メッセージ。**+ Course introduction** ボタンをクリックして追加するか、上部の **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックして変更します。画像、リンク、書式設定を含むリッチテキストをサポートしています。
+* **コース紹介** — 任意の説明や歓迎メッセージ。**+ Course introduction** ボタンをクリックして追加するか、上部の **Edit introduction** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックして変更します。画像、リンク、書式設定を含むリッチテキストをサポートしています。
 * **ツールグリッド** — 利用可能なすべてのコースツールがアイコンと名前を持つカードとして表示されるグリッド。
 
 ### ツールの表示管理
 
 教師として、学習者に見せるツールを制御できます：
 
-* 任意のツールの横にある **目のアイコン** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示" data-size="line"> をクリックして、学習者から非表示にします。非表示のツールは **斜線が入った目のアイコン** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="非表示" data-size="line"> で表示され、あなたには引き続きアクセス可能です。
+* 任意のツールの横にある **目のアイコン** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="表示" data-size="line"> をクリックして、学習者から非表示にします。非表示のツールは **斜線が入った目のアイコン** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="非表示" data-size="line"> で表示され、あなたには引き続きアクセス可能です。
 * **Show all** および **Hide all** ボタンを使用して、すべてのツールを一括で変更します
 * **Sort** をクリックして、ツールグリッドのドラッグ＆ドロップによる並べ替えを有効にします
 

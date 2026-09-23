@@ -2,7 +2,7 @@
 
 ## 访问插件管理器
 
-![插件管理器显示可用插件列表，包含激活开关和配置选项](/.gitbook/assets/admin-plugin-manager.png)
+![插件管理器显示可用插件列表，包含激活开关和配置选项](../../.gitbook/assets/admin-plugin-manager.png)
 
 从管理面板中，点击**管理插件**查看可用插件列表。
 

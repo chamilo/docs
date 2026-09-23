@@ -1,6 +1,6 @@
 # Posicionamiento
 
-Posicionamiento <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Posicionamiento" data-size="line"> añade un flujo de autoevaluación previa/posterior: elija una prueba como **prueba inicial** y otra como **prueba final** (a menudo una copia de la misma prueba), y Chamilo muestra el cambio de puntuación de cada alumno entre ambas en un gráfico de radar.
+Posicionamiento <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Posicionamiento" data-size="line"> añade un flujo de autoevaluación previa/posterior: elija una prueba como **prueba inicial** y otra como **prueba final** (a menudo una copia de la misma prueba), y Chamilo muestra el cambio de puntuación de cada alumno entre ambas en un gráfico de radar.
 
 ## Acceso a la herramienta
 

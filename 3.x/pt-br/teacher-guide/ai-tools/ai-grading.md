@@ -9,11 +9,11 @@ A Avaliação com IA está disponível em dois contextos:
 * **Questões abertas de exercícios** — Quando você avalia manualmente questões de resposta livre em um exercício
 * **Envios de tarefas** — Quando você revisa e pontua publicações dos alunos na ferramenta Tarefas
 
-Procure o botão **Avaliação com IA** (indicado por um ícone de robô <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) na interface de avaliação.
+Procure o botão **Avaliação com IA** (indicado por um ícone de robô <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) na interface de avaliação.
 
 ## Como Funciona
 
-![A interface de avaliação com IA mostrando o envio de um aluno com pontuação e feedback sugeridos](/.gitbook/assets/ai-grading-interface.png)
+![A interface de avaliação com IA mostrando o envio de um aluno com pontuação e feedback sugeridos](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Abra um envio ou uma resposta que precise ser avaliado
 2. Clique no botão **Avaliação com IA**

@@ -1,6 +1,6 @@
 # 問卷匯出 TXT
 
-問卷匯出 TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="問卷匯出 TXT" data-size="line"> 會將問卷結果匯出為人類可讀的純文字檔——每位受訪者一個區塊，列出每道題目、所選答案，以及任何開放式文字回應，而非 CSV 的列與欄。
+問卷匯出 TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="問卷匯出 TXT" data-size="line"> 會將問卷結果匯出為人類可讀的純文字檔——每位受訪者一個區塊，列出每道題目、所選答案，以及任何開放式文字回應，而非 CSV 的列與欄。
 
 ## 匯出問卷
 

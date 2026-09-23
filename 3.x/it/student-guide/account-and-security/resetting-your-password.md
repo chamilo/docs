@@ -6,7 +6,7 @@ Se hai dimenticato la password — o semplicemente vuoi cambiarla — ecco come 
 
 Nella pagina di login, fai clic su **Hai dimenticato la password?**. Se questo collegamento non è presente, l'amministratore ha disabilitato questa funzione — contattalo direttamente per riottenere l'accesso.
 
-![Il modulo "Ho perso la password", con un unico campo per il nome utente o l'indirizzo e-mail](/.gitbook/assets/student-lost-password.png)
+![Il modulo "Ho perso la password", con un unico campo per il nome utente o l'indirizzo e-mail](../../.gitbook/assets/student-lost-password.png)
 
 1. Inserisci il tuo **nome utente o indirizzo e-mail** nell'unico campo del modulo.
 2. Se compare una sfida CAPTCHA, risolvila (vedi [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Puoi cambiare la password in qualsiasi momento, senza aspettare di dimenticarla:
 2. Fai clic su **Cambia password**.
 3. Inserisci la password attuale, poi la nuova password due volte, e invia.
 
-![Il modulo Cambia password, con i campi per la password attuale e una nuova password](/.gitbook/assets/student-change-password.png)
+![Il modulo Cambia password, con i campi per la password attuale e una nuova password](../../.gitbook/assets/student-change-password.png)
 
 Questa è la stessa pagina in cui puoi abilitare l'[autenticazione a due fattori](two-factor-authentication.md), se la tua piattaforma la supporta — in tal caso, vedrai anche una casella di controllo "Abilita autenticazione a due fattori", non mostrata sopra poiché non è attiva su ogni piattaforma.
 

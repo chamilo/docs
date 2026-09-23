@@ -13,7 +13,7 @@ Stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 ## Schritt 1: Installationssprache
 
-![Installationsassistent Schritt 1 — Sprachauswahl](/.gitbook/assets/install-step1-language.png)
+![Installationsassistent Schritt 1 — Sprachauswahl](../../.gitbook/assets/install-step1-language.png)
 
 Im ersten Schritt können Sie die Sprache für den Installationsprozess auswählen. Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.
 
@@ -21,7 +21,7 @@ Falls Chamilo eine bestehende Installation erkennt (für ein Upgrade), wird der 
 
 ## Schritt 2: Anforderungsprüfung
 
-![Installationsassistent Schritt 2 — Anforderungsprüfung mit PHP-Version, Erweiterungen und Verzeichnisberechtigungen](/.gitbook/assets/install-step2-requirements.png)
+![Installationsassistent Schritt 2 — Anforderungsprüfung mit PHP-Version, Erweiterungen und Verzeichnisberechtigungen](../../.gitbook/assets/install-step2-requirements.png)
 
 Der Assistent überprüft Ihre Serverumgebung:
 
@@ -34,7 +34,7 @@ Falls Anforderungen nicht erfüllt sind, zeigt der Assistent Warnungen oder Fehl
 
 ## Schritt 3: Lizenz
 
-![Installationsassistent Schritt 3 — Lizenzakzeptanz](/.gitbook/assets/install-step3-license.png)
+![Installationsassistent Schritt 3 — Lizenzakzeptanz](../../.gitbook/assets/install-step3-license.png)
 
 In diesem Schritt wird die GNU/GPLv3-Lizenz angezeigt. Sie müssen das Kontrollkästchen **"Ich akzeptiere"** aktivieren, um fortzufahren.
 
@@ -42,7 +42,7 @@ Optional können Sie den Abschnitt **Kontaktinformationen** erweitern, um Angabe
 
 ## Schritt 4: Datenbankeinstellungen
 
-![Installationsassistent Schritt 4 — Konfiguration der Datenbankverbindung](/.gitbook/assets/install-step4-database.png)
+![Installationsassistent Schritt 4 — Konfiguration der Datenbankverbindung](../../.gitbook/assets/install-step4-database.png)
 
 Geben Sie Ihre Datenbankverbindungsdetails ein:
 
@@ -58,7 +58,7 @@ Klicken Sie auf **Datenbankverbindung prüfen**, um zu testen. Der Assistent lä
 
 ## Schritt 5: Konfigurationseinstellungen
 
-![Installationsassistent Schritt 5 — Administrator-Konto, Portal-Einstellungen und E-Mail-Konfiguration](/.gitbook/assets/install-step5-config.png)
+![Installationsassistent Schritt 5 — Administrator-Konto, Portal-Einstellungen und E-Mail-Konfiguration](../../.gitbook/assets/install-step5-config.png)
 
 Dieser Schritt kombiniert die Erstellung des Administrator-Kontos, die Portal-Einstellungen und die E-Mail-Konfiguration.
 
@@ -95,7 +95,7 @@ Alle diese Einstellungen können später über das Administrationspanel geänder
 
 ## Schritt 6: Letzte Überprüfung vor der Installation
 
-![Installationsassistent Schritt 6 — Überprüfung aller Einstellungen vor der Installation](/.gitbook/assets/install-step6-review.png)
+![Installationsassistent Schritt 6 — Überprüfung aller Einstellungen vor der Installation](../../.gitbook/assets/install-step6-review.png)
 
 In diesem Schritt wird eine Zusammenfassung aller Ihrer Eingaben zur Überprüfung angezeigt:
 
@@ -107,7 +107,7 @@ In diesem Schritt wird eine Zusammenfassung aller Ihrer Eingaben zur Überprüfu
 
 ## Schritt 7: Installation abgeschlossen
 
-![Installationsassistent Schritt 7 — Abschluss mit Sicherheitshinweisen und Portal-Link](/.gitbook/assets/install-step7-complete.png)
+![Installationsassistent Schritt 7 — Abschluss mit Sicherheitshinweisen und Portal-Link](../../.gitbook/assets/install-step7-complete.png)
 
 Nach erfolgreichem Abschluss der Installation zeigt der Assistent Folgendes an:
 

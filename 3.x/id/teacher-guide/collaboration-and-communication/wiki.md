@@ -26,7 +26,7 @@ Untuk menautkan ke halaman wiki lain dari dalam editor, buat tautan menggunakan 
 Siapa pun dengan izin menyunting dapat mengubah halaman wiki:
 
 1. Buka halaman yang ingin Anda sunting
-2. Klik tombol **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Sunting" data-size="line">
+2. Klik tombol **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Sunting" data-size="line">
 3. Lakukan perubahan di editor
 4. Tambahkan entri **Comments** opsional yang menjelaskan apa yang Anda ubah
 5. Simpan

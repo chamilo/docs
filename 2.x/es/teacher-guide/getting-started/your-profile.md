@@ -6,7 +6,7 @@ Tu perfil en Chamilo contiene tu información personal y preferencias. Otros usu
 
 Haz clic en tu **avatar** en la esquina superior derecha de la barra superior, luego selecciona **Perfil** desde el menú desplegable. También puedes acceder a él desde la sección **Red social** de la barra lateral.
 
-![Menú desplegable del avatar del usuario mostrando opciones de perfil, configuración de cuenta y cierre de sesión](/.gitbook/assets/user-avatar-dropdown.png)
+![Menú desplegable del avatar del usuario mostrando opciones de perfil, configuración de cuenta y cierre de sesión](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Información del Perfil
 

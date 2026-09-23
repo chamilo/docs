@@ -4,7 +4,7 @@ A ferramenta de pesquisas permite criar questionários para coletar feedback dos
 
 ## Criando uma pesquisa
 
-1. Abra a ferramenta **Pesquisas** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Pesquisas" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Pesquisas** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Pesquisas" data-size="line"> na página inicial do curso
 2. Clique em **Criar pesquisa**
 3. Preencha os detalhes da pesquisa:
    * **Código** — Este é um código exclusivo da pesquisa. Será usado em e-mails e links.
@@ -65,7 +65,7 @@ Há um link na parte inferior da página de publicação para convidar ainda mai
 
 ## Visualizando resultados
 
-![Resultados da pesquisa com gráficos e detalhamento percentual para cada pergunta](/.gitbook/assets/survey-results-charts.png)
+![Resultados da pesquisa com gráficos e detalhamento percentual para cada pergunta](../../.gitbook/assets/survey-results-charts.png)
 
 Depois que os alunos tiverem respondido:
 

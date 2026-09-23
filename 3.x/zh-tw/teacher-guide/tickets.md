@@ -19,7 +19,7 @@
 
 ## 存取工單工具
 
-若管理員已啟用工單連結，頂部導覽列會出現工單圖示 <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="工單" data-size="line">。點選即可直接前往工單提交表單。
+若管理員已啟用工單連結，頂部導覽列會出現工單圖示 <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="工單" data-size="line">。點選即可直接前往工單提交表單。
 
 您也可以從主選單的 **Support** 或 **Tickets** 存取工單，實際名稱依平台設定而定。
 

@@ -10,7 +10,7 @@ Fra administrationspanelet skal du klikke på **Sikkerhed > Filintegritet**.
 
 ## Hvad den viser
 
-![Siden Filintegritet, der viser oplysninger om seneste scanning, paneler for Tilføjede, Ændrede, Slettede og Tilladelser ændret-filer, en liste over Alerthistorik og Handlinger til at køre en scanning, pause alarmer eller etablere en ny baseline](/.gitbook/assets/admin-security-file-integrity.png)
+![Siden Filintegritet, der viser oplysninger om seneste scanning, paneler for Tilføjede, Ændrede, Slettede og Tilladelser ændret-filer, en liste over Alerthistorik og Handlinger til at køre en scanning, pause alarmer eller etablere en ny baseline](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Seneste scanning** — Hvornår den seneste scanning kørte, og hvor mange filer den tjekkede
 * **Tilføjet / Ændret / Slettet** — Filer, der afviger fra baseline, identificeret ved sammenligning af SHA-256-kontrolsummer (hver liste er begrænset til 500 stier, med en note hvis den fulde liste er længere — se CEF-loggen nedenfor for den komplette liste)

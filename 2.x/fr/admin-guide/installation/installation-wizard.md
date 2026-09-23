@@ -13,7 +13,7 @@ Assurez-vous que les prérequis suivants sont remplis :
 
 ## Étape 1 : Langue d'installation
 
-![Assistant d'installation Étape 1 — sélection de la langue](/.gitbook/assets/install-step1-language.png)
+![Assistant d'installation Étape 1 — sélection de la langue](../../.gitbook/assets/install-step1-language.png)
 
 La première étape vous permet de sélectionner la langue pour le processus d'installation. Choisissez votre langue préférée dans le menu déroulant.
 
@@ -21,7 +21,7 @@ Si Chamilo détecte une installation existante (pour une mise à jour), il affic
 
 ## Étape 2 : Vérification des exigences
 
-![Assistant d'installation Étape 2 — vérification des exigences montrant la version PHP, les extensions et les permissions des répertoires](/.gitbook/assets/install-step2-requirements.png)
+![Assistant d'installation Étape 2 — vérification des exigences montrant la version PHP, les extensions et les permissions des répertoires](../../.gitbook/assets/install-step2-requirements.png)
 
 L'assistant vérifie l'environnement de votre serveur :
 
@@ -34,7 +34,7 @@ Si certaines exigences ne sont pas remplies, l'assistant affiche des avertisseme
 
 ## Étape 3 : Licence
 
-![Assistant d'installation Étape 3 — acceptation de la licence](/.gitbook/assets/install-step3-license.png)
+![Assistant d'installation Étape 3 — acceptation de la licence](../../.gitbook/assets/install-step3-license.png)
 
 Cette étape affiche la licence GNU/GPLv3. Vous devez cocher la case **"J'accepte"** pour continuer.
 
@@ -42,7 +42,7 @@ En option, vous pouvez développer la section **Informations de contact** pour f
 
 ## Étape 4 : Paramètres de la base de données
 
-![Assistant d'installation Étape 4 — configuration de la connexion à la base de données](/.gitbook/assets/install-step4-database.png)
+![Assistant d'installation Étape 4 — configuration de la connexion à la base de données](../../.gitbook/assets/install-step4-database.png)
 
 Entrez les détails de connexion à votre base de données :
 
@@ -58,7 +58,7 @@ Cliquez sur **Vérifier la connexion à la base de données** pour tester. L'ass
 
 ## Étape 5 : Paramètres de configuration
 
-![Assistant d'installation Étape 5 — compte administrateur, paramètres du portail et configuration email](/.gitbook/assets/install-step5-config.png)
+![Assistant d'installation Étape 5 — compte administrateur, paramètres du portail et configuration email](../../.gitbook/assets/install-step5-config.png)
 
 Cette étape combine la création du compte administrateur, les paramètres du portail et la configuration email.
 
@@ -95,7 +95,7 @@ Tous ces paramètres peuvent être modifiés ultérieurement depuis le panneau d
 
 ## Étape 6 : Dernière vérification avant l'installation
 
-![Assistant d'installation Étape 6 — révision de tous les paramètres avant l'installation](/.gitbook/assets/install-step6-review.png)
+![Assistant d'installation Étape 6 — révision de tous les paramètres avant l'installation](../../.gitbook/assets/install-step6-review.png)
 
 Cette étape affiche un résumé de tout ce que vous avez saisi pour révision :
 
@@ -107,7 +107,7 @@ Vérifiez attentivement, puis cliquez sur **Installer Chamilo** pour exécuter l
 
 ## Étape 7 : Installation terminée
 
-![Assistant d'installation Étape 7 — achèvement avec conseils de sécurité et lien vers le portail](/.gitbook/assets/install-step7-complete.png)
+![Assistant d'installation Étape 7 — achèvement avec conseils de sécurité et lien vers le portail](../../.gitbook/assets/install-step7-complete.png)
 
 Après que l'installation est terminée avec succès, l'assistant affiche :
 

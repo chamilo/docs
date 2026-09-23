@@ -4,7 +4,7 @@ De tool **Forum** host gestructureerde, geneste discussies binnen een cursus —
 
 ## Je weg vinden
 
-Open de tool **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> vanaf de cursushomepagina. Forums zijn georganiseerd in drie niveaus:
+Open de tool **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> vanaf de cursushomepagina. Forums zijn georganiseerd in drie niveaus:
 
 1. **Categorieën** — brede groeperingen (bijv. "Algemene discussies", "Vragen module 1")
 2. **Forums** — afzonderlijke discussieborden binnen een categorie

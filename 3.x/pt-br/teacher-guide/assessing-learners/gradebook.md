@@ -19,7 +19,7 @@ O Chamilo calcula a nota geral de cada aluno com base nesses pesos.
 
 ## Configurando a Avaliação
 
-1. Abra a ferramenta **Avaliações** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Boletim" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Avaliações** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Boletim" data-size="line"> na página inicial do curso
 2. Você verá a visão geral das avaliações, inicialmente vazia
 
 ### Adicionando Atividades
@@ -48,7 +48,7 @@ Para esquemas de avaliação complexos, você pode criar **subcategorias** para 
 
 ## Visualizando as Notas
 
-![A tabela de visão geral do boletim mostrando nomes dos alunos, pontuações das atividades e totais ponderados](/.gitbook/assets/gradebook-overview.png)
+![A tabela de visão geral do boletim mostrando nomes dos alunos, pontuações das atividades e totais ponderados](../../.gitbook/assets/gradebook-overview.png)
 
 A avaliação mostra uma tabela com:
 
@@ -83,7 +83,7 @@ Para habilitar a geração de certificados:
 
 Quando **Gerar certificados** está habilitado na categoria raiz, aparece o campo **Validade do certificado (dias)**. Deixe em `0` para certificados que nunca expiram, ou defina um número de dias após o qual o certificado expira — o Chamilo pode então lembrar os alunos à medida que essa data se aproxima, automaticamente (cron, configurado pelo administrador) ou manualmente a partir da lista de certificados.
 
-![O diálogo de edição da categoria com Gerar certificados habilitado e o campo Validade do certificado (dias) definido como 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![O diálogo de edição da categoria com Gerar certificados habilitado e o campo Validade do certificado (dias) definido como 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Consulte [Certificados e Competências](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) para mais detalhes.
 
@@ -93,7 +93,7 @@ Você pode associar **competências** (*skills*) à avaliação. Quando um aluno
 
 ## Exportando Notas
 
-Clique no botão **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar as notas como uma planilha. Isso é útil para:
+Clique no botão **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar as notas como uma planilha. Isso é útil para:
 
 * Compartilhar notas com sistemas administrativos
 * Realizar análises adicionais fora do Chamilo

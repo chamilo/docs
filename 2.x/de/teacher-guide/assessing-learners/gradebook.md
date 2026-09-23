@@ -19,7 +19,7 @@ Chamilo berechnet die Gesamtnote jedes Lernenden basierend auf diesen Gewichtung
 
 ## Einrichten der Bewertung
 
-1. Öffnen Sie das **Bewertungen**-Tool <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Bewertungsübersicht" data-size="line"> von der Kursstartseite aus
+1. Öffnen Sie das **Bewertungen**-Tool <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Bewertungsübersicht" data-size="line"> von der Kursstartseite aus
 2. Sie sehen die Bewertungsübersicht, die zunächst leer ist
 
 ### Aktivitäten hinzufügen
@@ -48,7 +48,7 @@ Für komplexe Bewertungsschemata können Sie **Unterkategorien** erstellen, um v
 
 ## Noten anzeigen
 
-![Die Übersichtstabelle der Bewertungen zeigt die Namen der Lernenden, die Punktzahlen der Aktivitäten und die gewichteten Gesamtsummen](/.gitbook/assets/gradebook-overview.png)
+![Die Übersichtstabelle der Bewertungen zeigt die Namen der Lernenden, die Punktzahlen der Aktivitäten und die gewichteten Gesamtsummen](../../.gitbook/assets/gradebook-overview.png)
 
 Die Bewertung zeigt eine Tabelle mit:
 
@@ -75,7 +75,7 @@ Sie können **Fähigkeiten** mit der Bewertung verknüpfen. Wenn ein Lernender d
 
 ## Noten exportieren
 
-Klicken Sie auf die Schaltfläche **Exportieren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Noten als Tabellenkalkulation herunterzuladen. Dies ist nützlich für:
+Klicken Sie auf die Schaltfläche **Exportieren** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Noten als Tabellenkalkulation herunterzuladen. Dies ist nützlich für:
 
 * Das Teilen von Noten mit Verwaltungssystemen
 * Das Durchführen zusätzlicher Analysen außerhalb von Chamilo

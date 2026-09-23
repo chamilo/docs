@@ -2,7 +2,7 @@
 
 Pengaturan kursus memungkinkan Anda mengontrol perilaku kursus — siapa yang dapat mengaksesnya, bagaimana tampilannya, dan fitur mana yang diaktifkan.
 
-Untuk mengakses pengaturan kursus, masuk ke kursus Anda dan klik ikon **Pengaturan** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line"> di samping tombol **Beralih ke tampilan siswa**.
+Untuk mengakses pengaturan kursus, masuk ke kursus Anda dan klik ikon **Pengaturan** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line"> di samping tombol **Beralih ke tampilan siswa**.
 
 ## Pengaturan Umum
 
@@ -29,7 +29,7 @@ Setiap kursus memiliki batas penyimpanan (kuota disk) untuk berkas yang diunggah
 
 ### Visibilitas Kursus
 
-![Pengaturan visibilitas kursus yang menampilkan opsi publik, terbuka, terdaftar, dan tertutup](/.gitbook/assets/course-settings-visibility.png)
+![Pengaturan visibilitas kursus yang menampilkan opsi publik, terbuka, terdaftar, dan tertutup](../../.gitbook/assets/course-settings-visibility.png)
 
 Kontrol siapa yang dapat mengakses kursus Anda:
 
@@ -84,7 +84,7 @@ Kontrol perilaku di alat forum kursus ini.
 
 ### Pengaturan Autolaunch
 
-Sebuah kursus dapat diatur agar memiliki perilaku auto-launch, yang akan mempersingkat jalur peserta didik untuk sampai ke bagian penting kursus Anda. Jika diaktifkan, peserta didik yang masuk ke kursus Anda akan dikirim langsung ke alat yang dipilih dan tidak akan melihat beranda kursus sebagai langkah perantara. Anda bahkan dapat memilih learning path atau latihan tertentu untuk diluncurkan saat tiba di kursus. Dalam kasus ini, Anda perlu memilih opsi di sini, lalu buka daftar learning path atau latihan dan klik ikon roket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> pada item yang dipilih.
+Sebuah kursus dapat diatur agar memiliki perilaku auto-launch, yang akan mempersingkat jalur peserta didik untuk sampai ke bagian penting kursus Anda. Jika diaktifkan, peserta didik yang masuk ke kursus Anda akan dikirim langsung ke alat yang dipilih dan tidak akan melihat beranda kursus sebagai langkah perantara. Anda bahkan dapat memilih learning path atau latihan tertentu untuk diluncurkan saat tiba di kursus. Dalam kasus ini, Anda perlu memilih opsi di sini, lalu buka daftar learning path atau latihan dan klik ikon roket <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> pada item yang dipilih.
 
 ### Pengaturan AI Helpers
 

@@ -9,11 +9,11 @@ AI 评分可用于两种情境：
 * **开放式练习题** — 当您在练习中手动批改自由作答题目时
 * **作业提交** — 当您在作业工具中审阅并为学生发布的内容打分时
 
-请在评分界面中查找 **AI 评分** 按钮（以机器人图标 <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> 标识）。
+请在评分界面中查找 **AI 评分** 按钮（以机器人图标 <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> 标识）。
 
 ## 工作原理
 
-![AI 评分界面，显示学生提交内容以及建议分数与反馈](/.gitbook/assets/ai-grading-interface.png)
+![AI 评分界面，显示学生提交内容以及建议分数与反馈](../../.gitbook/assets/ai-grading-interface.png)
 
 1. 打开需要评分的提交内容或作答
 2. 点击 **AI 评分** 按钮

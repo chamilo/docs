@@ -19,7 +19,7 @@ Oletuskategoriat ovat:
 
 ## Tikettityökalun avaaminen
 
-Jos ylläpitäjä on ottanut tikettilinkin käyttöön, yläpalkissa näkyy tiketti-ikoni <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tiketti" data-size="line">. Napsauta sitä siirtyäksesi suoraan tiketin lähetyslomakkeeseen.
+Jos ylläpitäjä on ottanut tikettilinkin käyttöön, yläpalkissa näkyy tiketti-ikoni <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tiketti" data-size="line">. Napsauta sitä siirtyäksesi suoraan tiketin lähetyslomakkeeseen.
 
 Voit avata tiketisi myös päävalikosta kohdasta **Tuki** tai **Tickets** alustan asetuksista riippuen.
 

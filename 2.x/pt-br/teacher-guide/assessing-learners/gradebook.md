@@ -19,7 +19,7 @@ O Chamilo calcula a nota geral de cada aluno com base nesses pesos.
 
 ## Configurando a Avaliação
 
-1. Abra a ferramenta **Avaliações** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Sistema de Avaliações" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Avaliações** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Sistema de Avaliações" data-size="line"> na página inicial do curso
 2. Você verá uma visão geral das avaliações, inicialmente vazia
 
 ### Adicionando Atividades
@@ -48,7 +48,7 @@ Para esquemas de avaliação complexos, você pode criar **subcategorias** para 
 
 ## Visualizando Notas
 
-![A tabela de visão geral do sistema de avaliações mostrando nomes dos alunos, pontuações das atividades e totais ponderados](/.gitbook/assets/gradebook-overview.png)
+![A tabela de visão geral do sistema de avaliações mostrando nomes dos alunos, pontuações das atividades e totais ponderados](../../.gitbook/assets/gradebook-overview.png)
 
 A avaliação exibe uma tabela com:
 
@@ -75,7 +75,7 @@ Você pode associar **habilidades** à avaliação. Quando um aluno atinge os ob
 
 ## Exportando Notas
 
-Clique no botão **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar as notas como uma planilha. Isso é útil para:
+Clique no botão **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar as notas como uma planilha. Isso é útil para:
 
 * Compartilhar notas com sistemas administrativos
 * Realizar análises adicionais fora do Chamilo

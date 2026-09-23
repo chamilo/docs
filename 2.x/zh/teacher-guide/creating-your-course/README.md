@@ -7,10 +7,10 @@
 要创建课程，请按照以下步骤操作：
 
 1. 在侧边栏中点击**我的课程**
-2. 点击**创建课程**按钮（通常是一个绿色的书本图标 <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="课程" data-size="line"> 带有+号）
+2. 点击**创建课程**按钮（通常是一个绿色的书本图标 <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="课程" data-size="line"> 带有+号）
 3. 填写课程创建表单：
 
-![课程创建表单，包含名称、类别、代码和语言字段](/.gitbook/assets/course-creation-form.png)
+![课程创建表单，包含名称、类别、代码和语言字段](../../.gitbook/assets/course-creation-form.png)
 
 | 字段 | 是否必填 | 描述 |
 |-------|-------------|-----------|
@@ -29,19 +29,19 @@
 
 创建课程后，您将被带到课程主页。这是您课程的主要中心，您和您的学生可以在这里访问所有工具和内容。
 
-![课程主页工具网格，显示可用工具的图标和可见性切换](/.gitbook/assets/course-homepage-tool-grid.png)
+![课程主页工具网格，显示可用工具的图标和可见性切换](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 课程主页显示：
 
 * **课程标题** — 您的课程名称，显示在顶部。
-* **课程简介** — 可选的描述或欢迎消息。点击**+ 课程简介**按钮添加简介，或点击顶部的**编辑简介**按钮 <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 进行修改。支持富文本格式，包括图片、链接和格式化。
+* **课程简介** — 可选的描述或欢迎消息。点击**+ 课程简介**按钮添加简介，或点击顶部的**编辑简介**按钮 <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 进行修改。支持富文本格式，包括图片、链接和格式化。
 * **工具网格** — 显示课程所有可用工具的网格，每个工具以卡片形式展示，包含图标和名称。
 
 ### 管理工具可见性
 
 作为教师，您可以控制学生可以看到哪些工具：
 
-* 点击任何工具旁边的**眼睛图标** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见" data-size="line"> 将其对学生隐藏。隐藏的工具会显示一个**划线的眼睛** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="隐藏" data-size="line">，但您仍然可以访问。
+* 点击任何工具旁边的**眼睛图标** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="可见" data-size="line"> 将其对学生隐藏。隐藏的工具会显示一个**划线的眼睛** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="隐藏" data-size="line">，但您仍然可以访问。
 * 使用**全部显示**和**全部隐藏**按钮一次性更改所有工具的可见性
 * 点击**排序**启用通过拖放重新排列工具网格
 

@@ -1,6 +1,6 @@
 # C-Studio 内容编辑器
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> 是面向学习路径的可视化拖放式内容编辑器。它让您无需编写任何 HTML，即可构建交互式页面——文本块、测验、拖放活动、填空、热点图片、表格、音频和视频——并将结果导出为 SCORM 包。
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> 是面向学习路径的可视化拖放式内容编辑器。它让您无需编写任何 HTML，即可构建交互式页面——文本块、测验、拖放活动、填空、热点图片、表格、音频和视频——并将结果导出为 SCORM 包。
 
 ## 访问编辑器
 

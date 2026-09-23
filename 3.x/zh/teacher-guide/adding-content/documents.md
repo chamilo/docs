@@ -4,13 +4,13 @@
 
 ## 访问文档工具
 
-从课程主页打开 **文档** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="文档" data-size="line"> 工具。您将看到文件浏览器，显示课程文档库的根文件夹。
+从课程主页打开 **文档** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="文档" data-size="line"> 工具。您将看到文件浏览器，显示课程文档库的根文件夹。
 
-![显示文件夹、文件及操作图标的文档文件浏览器](/.gitbook/assets/documents-file-browser.png)
+![显示文件夹、文件及操作图标的文档文件浏览器](../../.gitbook/assets/documents-file-browser.png)
 
 ## 上传文件
 
-1. 点击 **上传** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="上传" data-size="line"> 按钮
+1. 点击 **上传** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="上传" data-size="line"> 按钮
 2. 从计算机中选择一个或多个文件（可将文件拖放到上传区域）
 3. 文件上传后会出现在当前文件夹中
 
@@ -52,7 +52,7 @@ Chamilo 支持大多数常见文件类型：PDF、办公文档（.docx、.odt）
 
 使用文件夹保持文档库井然有序：
 
-1. 点击 **新建文件夹** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="新建文件夹" data-size="line">
+1. 点击 **新建文件夹** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="新建文件夹" data-size="line">
 2. 输入文件夹名称
 3. 保存
 
@@ -61,7 +61,7 @@ Chamilo 支持大多数常见文件类型：PDF、办公文档（.docx、.odt）
 ### 移动文件
 
 * 在列表中找到您的文件
-* 点击 **移动** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移动" data-size="line">
+* 点击 **移动** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="移动" data-size="line">
 * 选择目标文件夹
 * 确认
 
@@ -71,12 +71,12 @@ Chamilo 支持大多数常见文件类型：PDF、办公文档（.docx、.odt）
 
 | 操作 | 图标 | 说明 |
 |--------|------|-------------|
-| **编辑** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> | 重命名文件或编辑其内容（适用于网页） |
-| **删除** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> | 移除文件或文件夹 |
-| **下载** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="下载" data-size="line"> | 将文件下载到计算机 |
-| **可见性** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> | 对学习者隐藏或显示该文件 |
-| **替换** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="替换" data-size="line"> | 用更新版本替换该文件 |
-| **移动** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移动" data-size="line"> | 移动到其他文件夹 |
+| **编辑** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> | 重命名文件或编辑其内容（适用于网页） |
+| **删除** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> | 移除文件或文件夹 |
+| **下载** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="下载" data-size="line"> | 将文件下载到计算机 |
+| **可见性** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> | 对学习者隐藏或显示该文件 |
+| **替换** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="替换" data-size="line"> | 用更新版本替换该文件 |
+| **移动** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="移动" data-size="line"> | 移动到其他文件夹 |
 
 当您使用文档构建学习路径时，替换文件是一项重要功能，因为替换文档可在不丢失学习者已保存进度的情况下刷新该文档。
 
@@ -86,7 +86,7 @@ Chamilo 支持大多数常见文件类型：PDF、办公文档（.docx、.odt）
 
 ## OnlyOffice 集成
 
-如果管理员已配置 **OnlyOffice** 插件，您可以直接在浏览器中编辑 Word、Excel 和 PowerPoint（或 LibreOffice）文件，无需下载。查看受支持的文件时，请查找 **使用 OnlyOffice 编辑** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> 选项。
+如果管理员已配置 **OnlyOffice** 插件，您可以直接在浏览器中编辑 Word、Excel 和 PowerPoint（或 LibreOffice）文件，无需下载。查看受支持的文件时，请查找 **使用 OnlyOffice 编辑** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> 选项。
 
 文档存储在 Chamilo 中，OnlyOffice 仅用于在浏览器中**查看**或编辑文档，无需任何额外工具。
 

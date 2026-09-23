@@ -1,6 +1,6 @@
 # 題目選項評分
 
-題目選項評分 <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="題目選項評分" data-size="line"> 可讓您對測驗計分套用負分（扣分）公式，而非採用 Chamilo 預設僅加總正確答案的計分方式。
+題目選項評分 <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="題目選項評分" data-size="line"> 可讓您對測驗計分套用負分（扣分）公式，而非採用 Chamilo 預設僅加總正確答案的計分方式。
 
 ## 設定公式
 

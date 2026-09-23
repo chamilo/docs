@@ -16,14 +16,14 @@ I percorsi di apprendimento sono utili quando desideri:
 
 ## Creare un Percorso di Apprendimento
 
-1. Apri lo strumento **Percorsi di apprendimento** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi di apprendimento" data-size="line"> dalla homepage del corso
+1. Apri lo strumento **Percorsi di apprendimento** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi di apprendimento" data-size="line"> dalla homepage del corso
 2. Fai clic su **Crea un percorso di apprendimento**
 3. Inserisci un **titolo** e una descrizione opzionale
 4. Salva — verrai indirizzato all'editor del percorso di apprendimento
 
 ## L'Editor del Percorso di Apprendimento
 
-![L'editor del percorso di apprendimento con l'albero degli elementi a sinistra e l'anteprima del contenuto a destra](/.gitbook/assets/learning-path-editor.png)
+![L'editor del percorso di apprendimento con l'albero degli elementi a sinistra e l'anteprima del contenuto a destra](../../.gitbook/assets/learning-path-editor.png)
 
 L'editor ha due aree principali:
 

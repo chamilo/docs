@@ -1,12 +1,12 @@
 # コース説明
 
-**コース説明** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="コース説明" data-size="line"> ツールでは、コースの目標、方法論、教材などについて、複数セクションからなる構造化された説明を作成できます。[コースホームページ](README.md#the-course-homepage) 上の自由記述の **コース紹介** バナーは登録済み学習者にしか表示されませんが、コース説明は、コースカタログから、登録前の見込み学習者に表示される内容です。
+**コース説明** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="コース説明" data-size="line"> ツールでは、コースの目標、方法論、教材などについて、複数セクションからなる構造化された説明を作成できます。[コースホームページ](README.md#the-course-homepage) 上の自由記述の **コース紹介** バナーは登録済み学習者にしか表示されませんが、コース説明は、コースカタログから、登録前の見込み学習者に表示される内容です。
 
 登録後も、学習者はコース内からこの説明を参照できます。ツールを学習者に表示したままにしておけば、コースの全体構成や担当教員など実務的な情報を、直接尋ねることなく確認できる便利な場所になります。登録済み学習者は作成したセクションを閲覧できますが、追加・編集・削除はできません。
 
 ## ツールへのアクセス
 
-コースホームページのツールグリッドから **コース説明** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="コース説明" data-size="line"> ツールを開きます。
+コースホームページのツールグリッドから **コース説明** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="コース説明" data-size="line"> ツールを開きます。
 
 ## 8つのセクション
 
@@ -30,7 +30,7 @@
 3. リッチテキストエディタで内容を作成します（書式、画像、リンク、埋め込み動画などのリッチコンテンツに対応）。プラットフォームで有効な場合、同じセクションを複数言語で作成し、各学習者には自分の言語だけが自動表示されるようにできます。[多言語コンテンツ](../adding-content/multi-language-content.md) を参照してください。
 4. 保存します
 
-追加した各セクションは、ツール内でそれぞれ独立したカードとして表示されます。後から更新または削除するには、カード上の **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> および **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> アイコンを使用します。
+追加した各セクションは、ツール内でそれぞれ独立したカードとして表示されます。後から更新または削除するには、カード上の **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> および **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> アイコンを使用します。
 
 ## コースカタログへの連携
 

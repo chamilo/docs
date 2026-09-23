@@ -8,6 +8,6 @@ Chamilo volgt de activiteiten van leerlingen doorheen het platform en biedt u ge
 
 ## Toegang tot Rapporten
 
-Vanuit uw cursus klikt u op de tool **Volgen** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Volgen" data-size="line"> op de cursusstartpagina. U kunt ook rapportages raadplegen via de link **Rapportage** in de zijbalk voor een overzicht over meerdere cursussen heen.
+Vanuit uw cursus klikt u op de tool **Volgen** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Volgen" data-size="line"> op de cursusstartpagina. U kunt ook rapportages raadplegen via de link **Rapportage** in de zijbalk voor een overzicht over meerdere cursussen heen.
 
 Docenten zien rapportagegegevens voor de cursussen die zij geven. Sessiecoaches zien gegevens van alle cursussen binnen hun sessie.

@@ -1,6 +1,6 @@
 # 教師備註
 
-教師備註 <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="教師備註" data-size="line"> 為課程教學團隊提供私人筆記本，可用來記錄特定學習者的相關筆記——進度觀察、提醒事項，以及任何您不想放在公開工具中的內容。學生永遠看不到此工具或其內容。
+教師備註 <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="教師備註" data-size="line"> 為課程教學團隊提供私人筆記本，可用來記錄特定學習者的相關筆記——進度觀察、提醒事項，以及任何您不想放在公開工具中的內容。學生永遠看不到此工具或其內容。
 
 > 請勿與 [筆記本](../additional-tools/notebook.md) 工具混淆——後者是學習者的個人筆記本；教師備註則是獨立的、僅供教師使用的工具。
 

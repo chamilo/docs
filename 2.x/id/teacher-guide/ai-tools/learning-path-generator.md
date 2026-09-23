@@ -14,7 +14,7 @@ Cari bagian **Generator AI** dalam antarmuka pembuatan jalur pembelajaran.
 
 ## Cara Menghasilkan Jalur Pembelajaran
 
-![Formulir generator jalur pembelajaran AI dengan kolom untuk topik, tujuan, dan jumlah bagian](/.gitbook/assets/ai-learning-path-generator.png)
+![Formulir generator jalur pembelajaran AI dengan kolom untuk topik, tujuan, dan jumlah bagian](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Buka formulir Generator AI
 2. Konfigurasikan parameter:

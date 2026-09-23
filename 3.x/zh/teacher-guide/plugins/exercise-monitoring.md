@@ -1,6 +1,6 @@
 # 测验监控
 
-测验监控 <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="测验监控" data-size="line"> 在学生作答测验时使用其网络摄像头采集身份照片——身份证件照片和学生面部照片——用于考试诚信目的。
+测验监控 <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="测验监控" data-size="line"> 在学生作答测验时使用其网络摄像头采集身份照片——身份证件照片和学生面部照片——用于考试诚信目的。
 
 ## 为测验启用标记
 

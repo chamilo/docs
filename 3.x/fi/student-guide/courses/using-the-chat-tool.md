@@ -4,9 +4,9 @@ Joissakin kursseissa on **Keskustelu**-työkalu — reaaliaikainen tekstiviestin
 
 ## Viestien lähettäminen
 
-Avaa **Keskustelu**-työkalu <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Keskustelu" data-size="line"> kurssin etusivulta. Näet **Käyttäjät**-luettelon kaikista kurssilla sillä hetkellä verkossa olevista, kullakin omalla **Keskustelu**-painikkeellaan, sekä **Kaikki**-välilehden koko ryhmälle:
+Avaa **Keskustelu**-työkalu <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Keskustelu" data-size="line"> kurssin etusivulta. Näet **Käyttäjät**-luettelon kaikista kurssilla sillä hetkellä verkossa olevista, kullakin omalla **Keskustelu**-painikkeellaan, sekä **Kaikki**-välilehden koko ryhmälle:
 
-![Kurssin Keskustelu-työkalu, jossa näkyvät verkossa olevat käyttäjät ja viestien kirjoituskenttä](/.gitbook/assets/student-course-chat.png)
+![Kurssin Keskustelu-työkalu, jossa näkyvät verkossa olevat käyttäjät ja viestien kirjoituskenttä](../../.gitbook/assets/student-course-chat.png)
 
 Valitse henkilö (tai **Kaikki**) ja kirjoita viestisi alareunan kenttään. Paina **Enter** lähettääksesi sen tai **Shift+Enter** aloittaaksesi uuden rivin lähettämättä. **Esikatselu**-vaihtoehto antaa tarkistaa muotoilun ennen lähettämistä, ja **Nollaa** tyhjentää kirjoittamasi.
 

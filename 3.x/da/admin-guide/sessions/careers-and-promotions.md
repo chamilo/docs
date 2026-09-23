@@ -4,7 +4,7 @@ Chamilo indeholder et karrierestyringssystem, der lader dig definere uddannelses
 
 ## Karrierer
 
-![Listen over karrierer, der viser definerede karriereforløb med navn og beskrivelse](/.gitbook/assets/admin-careers-list.png)
+![Listen over karrierer, der viser definerede karriereforløb med navn og beskrivelse](../../.gitbook/assets/admin-careers-list.png)
 
 En **karriere** repræsenterer et struktureret uddannelsesforløb — en sekvens af uddannelsestrin, som en lærende følger for at nå et professionelt mål.
 

@@ -14,7 +14,7 @@ Cari bagian **AI Generator** di dalam antarmuka pembuatan learning path.
 
 ## Cara Menghasilkan Learning Path
 
-![Formulir AI learning path generator dengan kolom untuk topik, tujuan, dan jumlah bagian](/.gitbook/assets/ai-learning-path-generator.png)
+![Formulir AI learning path generator dengan kolom untuk topik, tujuan, dan jumlah bagian](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Buka formulir AI Generator
 2. Konfigurasikan parameter:

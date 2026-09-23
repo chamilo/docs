@@ -4,7 +4,7 @@
 
 ## 熟悉介面
 
-從課程首頁開啟 **論壇** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="論壇" data-size="line"> 工具。論壇分為三個層級：
+從課程首頁開啟 **論壇** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="論壇" data-size="line"> 工具。論壇分為三個層級：
 
 1. **類別** — 較廣泛的分組（例如「一般討論」、「單元 1 提問」）
 2. **論壇** — 類別內的個別討論看板

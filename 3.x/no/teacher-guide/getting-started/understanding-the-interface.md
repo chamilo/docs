@@ -4,13 +4,13 @@ Chamilo 3.0 har et rent, moderne grensesnitt utformet for å holde navigasjonen 
 
 ## Topplinjen
 
-![Topplinjen med annoterte elementer, inkludert logo, innboks, støttesak og brukeravatar](/.gitbook/assets/top-bar-annotated.png)
+![Topplinjen med annoterte elementer, inkludert logo, innboks, støttesak og brukeravatar](../../.gitbook/assets/top-bar-annotated.png)
 
 Topplinjen er alltid synlig øverst på hver side. Den inneholder:
 
 * **Plattformlogo** — Klikk på den for å gå tilbake til startsiden når som helst.
-* **Innboksikon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Viser meldingene dine. Et rødt merke indikerer uleste meldinger. Klikk for å åpne innboksen.
-* **Ikon for støttesak** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Hvis det er aktivert av administratoren din, gir dette deg tilgang til systemet for støttesaker.
+* **Innboksikon** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Viser meldingene dine. Et rødt merke indikerer uleste meldinger. Klikk for å åpne innboksen.
+* **Ikon for støttesak** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Hvis det er aktivert av administratoren din, gir dette deg tilgang til systemet for støttesaker.
 * **Avataren din** — Et sirkulært bilde øverst til høyre. Klikk på det for å åpne en rullegardinmeny med lenker til profilen din, kontoinnstillinger og utlogging.
 
 ## Sidemenyen
@@ -19,19 +19,19 @@ Sidemenyen til venstre er hovednavigasjonen din. Den kan slås sammen for å gi 
 
 Sidemenyen inneholder følgende lenker (noen kan være skjult avhengig av plattformens konfigurasjon):
 
-![Sidemenyens navigasjonspanel i utvidet tilstand som viser alle menyelementer](/.gitbook/assets/sidebar-expanded.png)
+![Sidemenyens navigasjonspanel i utvidet tilstand som viser alle menyelementer](../../.gitbook/assets/sidebar-expanded.png)
 
 | Menyelement | Ikon | Beskrivelse |
 |-----------|------|-------------|
-| **Hjem** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Går tilbake til hoveddashbordet |
-| **Mine kurs** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lister alle kurs du er påmeldt |
-| **Mine økter** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lister opplæringsøktene dine (pågående, tidligere, kommende) |
-| **Utforsk flere kurs** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Bla i kurskatalogen for å finne nye kurs |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personlige kalender og kurskalender |
-| **Rapportering** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Tilgang til sporing av deltakere og kursrapporter |
-| **Sosialt nettverk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Koble deg til andre brukere, send meldinger, bli med i grupper |
-| **Videokonferanse** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Tilgang til live videoøkter (hvis konfigurert) |
-| **Administrasjon** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformadministrasjon (synlig kun for administratorer) |
+| **Hjem** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Går tilbake til hoveddashbordet |
+| **Mine kurs** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lister alle kurs du er påmeldt |
+| **Mine økter** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lister opplæringsøktene dine (pågående, tidligere, kommende) |
+| **Utforsk flere kurs** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Bla i kurskatalogen for å finne nye kurs |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personlige kalender og kurskalender |
+| **Rapportering** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Tilgang til sporing av deltakere og kursrapporter |
+| **Sosialt nettverk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Koble deg til andre brukere, send meldinger, bli med i grupper |
+| **Videokonferanse** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Tilgang til live videoøkter (hvis konfigurert) |
+| **Administrasjon** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformadministrasjon (synlig kun for administratorer) |
 
 Nederst i sidemenyen finner du et **Logg ut**-valg for å logge ut raskt når du er ferdig. Dette valget er også tilgjengelig fra rullegardinmenyen til avatarikonet øverst til høyre.
 Hvis plattformen administreres via eksterne autentiseringsmetoder, er det mulig at disse utloggingsvalgene ikke er tilgjengelige.
@@ -50,8 +50,8 @@ Når du går inn i et kurs, ser du **kursets startside**. Dette dekkes i detalj 
 
 Som lærer vil du se flere kontroller:
 
-* **Studentvisning** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Slå denne på for å se kurset slik en student ville se det
-* **Rediger introduksjon** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Rediger teksten i kursintroduksjonen
+* **Studentvisning** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Slå denne på for å se kurset slik en student ville se det
+* **Rediger introduksjon** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Rediger teksten i kursintroduksjonen
 * **Vis alle / Skjul alle** — Endre raskt synligheten av alle verktøy for studenter
 * **Sorter** — Aktiver dra-og-slipp for å endre rekkefølgen på verktøyene på startsiden
 

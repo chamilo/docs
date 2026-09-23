@@ -2,7 +2,7 @@
 
 課程設定可控制課程的運作方式。您可以設定誰能存取、如何顯示，以及哪些功能將啟用。
 
-要存取課程設定，請進入課程，點擊**學生檢視**按鈕旁邊的**設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 圖示。
+要存取課程設定，請進入課程，點擊**學生檢視**按鈕旁邊的**設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 圖示。
 
 ## 一般設定
 
@@ -29,7 +29,7 @@
 
 ### 課程公開設定
 
-![顯示公開、開放、已註冊、封閉選項的課程公開設定](/.gitbook/assets/course-settings-visibility.png)
+![顯示公開、開放、已註冊、封閉選項的課程公開設定](../../.gitbook/assets/course-settings-visibility.png)
 
 控制誰能存取課程：
 
@@ -65,7 +65,7 @@
 ---
 ### 自動啟動設定
 
-課程可以設定自動啟動的動作，這可以縮短學習者到達課程重要部分的路徑。如果此功能啟用，進入課程的學習者將直接被導向選定的工具，而不會將課程首頁作為中間步驟。您也可以選擇在課程到達時啟動特定的學習路徑或練習。在這種情況下，請在此選擇選項，然後前往學習路徑或練習清單，點擊選定項目的火箭 <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自動啟動" data-size="line"> 圖示。
+課程可以設定自動啟動的動作，這可以縮短學習者到達課程重要部分的路徑。如果此功能啟用，進入課程的學習者將直接被導向選定的工具，而不會將課程首頁作為中間步驟。您也可以選擇在課程到達時啟動特定的學習路徑或練習。在這種情況下，請在此選擇選項，然後前往學習路徑或練習清單，點擊選定項目的火箭 <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自動啟動" data-size="line"> 圖示。
 
 ### AI 助手設定
 

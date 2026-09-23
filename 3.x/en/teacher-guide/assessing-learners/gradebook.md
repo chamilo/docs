@@ -19,7 +19,7 @@ Chamilo calculates each learner's overall grade based on these weights.
 
 ## Setting Up the Assessment
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
+1. Open the **Assessments** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
 2. You will see the assessments overview, initially empty
 
 ### Adding Activities
@@ -48,7 +48,7 @@ For complex grading schemes, you can create **sub-categories** to group related 
 
 ## Viewing Grades
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![The gradebook overview table showing learner names, activity scores, and weighted totals](../../.gitbook/assets/gradebook-overview.png)
 
 The assessment shows a table with:
 
@@ -83,7 +83,7 @@ To enable certificate generation:
 
 Once **Generate certificates** is enabled on the root category, a **Certificate validity (days)** field appears. Leave it at `0` for certificates that never expire, or set a number of days after which the certificate expires — Chamilo can then remind learners as that expiry date approaches, either automatically (cron, admin-configured) or manually from the certificates list.
 
-![The category edit dialog with Generate certificates enabled and the Certificate validity (days) field set to 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![The category edit dialog with Generate certificates enabled and the Certificate validity (days) field set to 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) for more details.
 
@@ -93,7 +93,7 @@ You can associate **skills** with the assessment. When a learner reaches the set
 
 ## Exporting Grades
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Click the **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
 
 * Sharing grades with administrative systems
 * Performing additional analysis outside Chamilo

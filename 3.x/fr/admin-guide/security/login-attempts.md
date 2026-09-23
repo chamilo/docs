@@ -8,7 +8,7 @@ Depuis le panneau d’administration, cliquez sur **Sécurité > Tentatives de c
 
 ## Contenu affiché
 
-![La page Tentatives de connexion présentant des graphiques des tentatives par jour, des principales adresses IP, des tentatives échouées par mois, des connexions réussies par rapport aux échecs, des tentatives par heure et des adresses IP uniques par jour, suivis d’un tableau des tentatives de connexion échouées](/.gitbook/assets/admin-security-login-attempts.png)
+![La page Tentatives de connexion présentant des graphiques des tentatives par jour, des principales adresses IP, des tentatives échouées par mois, des connexions réussies par rapport aux échecs, des tentatives par heure et des adresses IP uniques par jour, suivis d’un tableau des tentatives de connexion échouées](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Tentatives par jour (7 derniers jours)** — Nombre quotidien de tentatives échouées
 * **Principales adresses IP (30 derniers jours)** — Adresses IP à l’origine du plus grand nombre de tentatives

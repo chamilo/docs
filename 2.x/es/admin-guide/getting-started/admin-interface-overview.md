@@ -1,10 +1,10 @@
 # Descripción General de la Interfaz de Administración
 
-El panel de administración es su centro de control para gestionar la plataforma Chamilo. Acceda a él haciendo clic en **Administración** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administración" data-size="line"> en la barra lateral.
+El panel de administración es su centro de control para gestionar la plataforma Chamilo. Acceda a él haciendo clic en **Administración** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Administración" data-size="line"> en la barra lateral.
 
 ## Panel de Administración
 
-![El panel de administración mostrando bloques funcionales para Usuarios, Cursos, Sesiones y Configuraciones](/.gitbook/assets/admin-dashboard-overview.png)
+![El panel de administración mostrando bloques funcionales para Usuarios, Cursos, Sesiones y Configuraciones](../../.gitbook/assets/admin-dashboard-overview.png)
 
 El panel de administración está organizado en bloques funcionales. Cada bloque agrupa herramientas de gestión relacionadas:
 

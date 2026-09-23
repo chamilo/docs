@@ -20,7 +20,7 @@ A ferramenta de assiduidade permite registar a presença dos formandos nas sess�
 Cada folha de assiduidade contém uma ou mais datas (sessões) nas quais se regista a presença:
 
 1. Abra uma folha de assiduidade ou continue o processo de criação
-2. Clique em **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
+2. Clique em **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
 3. Selecione a data e a hora
 4. Opcionalmente, assinale **Repeat date** para escolher uma lógica de repetição
 5. Indique uma **Duration** em minutos para o evento (o valor predefinido é 60 minutos)
@@ -44,7 +44,7 @@ Nota: Os administradores podem alterar a configuração do portal para permitir 
 
 ## Consultar relatórios de assiduidade
 
-![A folha de assiduidade a mostrar uma tabela-resumo com formandos, datas e indicadores de presença](/.gitbook/assets/attendance-sheet.png)
+![A folha de assiduidade a mostrar uma tabela-resumo com formandos, datas e indicadores de presença](../../.gitbook/assets/attendance-sheet.png)
 
 A ferramenta de assiduidade apresenta:
 

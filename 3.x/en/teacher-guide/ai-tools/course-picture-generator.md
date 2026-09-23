@@ -4,22 +4,22 @@ The AI course picture generator lets you create a thumbnail image for your cours
 
 ## Accessing the Generator
 
-The **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> button is available next to the **Course picture** field, provided that:
+The **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> button is available next to the **Course picture** field, provided that:
 
 1. AI helpers are enabled at the platform level
 2. At least one AI provider configured on your platform supports image generation
 3. The feature is allowed in your course (see **AI Helpers Settings** in [Course Settings](../creating-your-course/course-settings.md))
 
-Open your course's **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> and scroll to the **Course picture** field:
+Open your course's **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> and scroll to the **Course picture** field:
 
-![The Course picture field in Course Settings, with a Choose File button and a Generate with AI button below it](/.gitbook/assets/course-picture-ai-button.png)
+![The Course picture field in Course Settings, with a Choose File button and a Generate with AI button below it](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## How to Generate a Picture
 
 1. Click **Generate with AI**
 2. A dialog opens with a **Prompt** field pre-filled with a default description; edit it to describe the illustration you want, or leave the default as-is
 
-![The Generate with AI dialog showing the Prompt field with its default text, and Cancel/Generate buttons](/.gitbook/assets/course-picture-ai-modal.png)
+![The Generate with AI dialog showing the Prompt field with its default text, and Cancel/Generate buttons](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Click **Generate** and wait — image generation can take a few seconds
 4. The generated image is automatically placed in the **Course picture** field, replacing anything you had selected there

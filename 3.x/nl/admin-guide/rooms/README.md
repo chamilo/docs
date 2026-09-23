@@ -2,7 +2,7 @@
 
 Het blok **Rooms** op het beheerdersdashboard beheert de fysieke locaties die Chamilo kan bijhouden voor face-to-face of blended training: vestigingen (sites), de ruimtes daarin, en een tool om te vinden welke ruimtes vrij zijn op een bepaald moment.
 
-![Het blok Rooms op het beheerdersdashboard, met Branches, Rooms en Room availability finder](/.gitbook/assets/admin-rooms-block.png)
+![Het blok Rooms op het beheerdersdashboard, met Branches, Rooms en Room availability finder](../../.gitbook/assets/admin-rooms-block.png)
 
 Dit hoofdstuk behandelt het beheer van vestigingen en ruimtes aan de beheerderszijde. Voor de kant van de docent — het toewijzen van een ruimte aan een cursussessie — zie [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) in de Teacher Guide.
 

@@ -2,7 +2,7 @@
 
 Le bloc **Compétences** du tableau de bord d’administration regroupe les outils permettant de définir, d’organiser et de suivre les badges de compétences (« skills ») sur l’ensemble de la plateforme. Une compétence peut être attribuée automatiquement lorsqu’un apprenant atteint un seuil du carnet de notes, termine des cours spécifiques, ou manuellement par un enseignant, et peut s’accompagner d’une icône de type badge ainsi que d’un niveau (par exemple Bronze/Argent/Or).
 
-![Le bloc Compétences du tableau de bord d’administration, listant Roue des compétences, Importation des compétences, Gérer les compétences, Gérer les niveaux de compétences, Classement des compétences, et Compétences et évaluations](/.gitbook/assets/admin-skills-block.png)
+![Le bloc Compétences du tableau de bord d’administration, listant Roue des compétences, Importation des compétences, Gérer les compétences, Gérer les niveaux de compétences, Classement des compétences, et Compétences et évaluations](../../.gitbook/assets/admin-skills-block.png)
 
 L’ensemble du bloc n’apparaît que si le paramètre **Activer l’outil compétences** (`skill.allow_skills_tool`, sous Paramètres de configuration > Compétences) est activé — il l’est par défaut.
 

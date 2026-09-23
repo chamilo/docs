@@ -21,11 +21,11 @@ The feature is available anywhere you have the full rich text editor: [course de
 1. Write (or paste) the content in your default language, as normal.
 2. Select that text, then click the **Lang ISO** button in the editor toolbar.
 
-![The rich text editor toolbar, with the "Lang ISO" button visible near the start](/.gitbook/assets/teacher-multilang-editor.png)
+![The rich text editor toolbar, with the "Lang ISO" button visible near the start](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. From the menu, pick the language you just wrote in — the list covers every language your platform has active. If the one you need isn't listed, use **Custom Chamilo ISO code...** at the bottom and type it in (e.g. `en_US`, `fr_FR`, `es`).
 
-![The "Lang ISO" menu open, listing every active platform language plus "Add translation to..." and a custom-code option](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![The "Lang ISO" menu open, listing every active platform language plus "Add translation to..." and a custom-code option](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo wraps your selection with that language tag. Now write (or paste) the next language's version right after it, select it, and repeat with a different language.
 
@@ -43,17 +43,17 @@ Each learner sees exactly one language version: Chamilo tries their own interfac
 
 Here is the same course description section, as seen by three learners with different interface languages — nothing else about the course changed between these three screenshots, only the viewer's own language:
 
-![The same course description section as seen by a learner with English as their interface language](/.gitbook/assets/teacher-multilang-en.png)
+![The same course description section as seen by a learner with English as their interface language](../../.gitbook/assets/teacher-multilang-en.png)
 
-![The same section as seen by a learner with French as their interface language](/.gitbook/assets/teacher-multilang-fr.png)
+![The same section as seen by a learner with French as their interface language](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![The same section as seen by a learner with Spanish as their interface language](/.gitbook/assets/teacher-multilang-es.png)
+![The same section as seen by a learner with Spanish as their interface language](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### Under the Hood
 
 If you ever open a multi-language field's **Source code** view (the `<>` button in the editor toolbar), you'll see each language version wrapped like this:
 
-![The Source Code view, showing a block opening with lang="en_US" class="mce-translatehtml"](/.gitbook/assets/teacher-multilang-source-view.png)
+![The Source Code view, showing a block opening with lang="en_US" class="mce-translatehtml"](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 Each version is wrapped in a `<div class="mce-translatehtml" lang="...">` (or `<span>`, for a short inline phrase rather than a whole block) — that `lang` attribute is what Chamilo matches against the viewer's language to decide what to show. It's worth recognizing this specific class name if you're ever inspecting page source or troubleshooting content that looks wrong: **`mce-translatehtml`** is the marker to look for.
 

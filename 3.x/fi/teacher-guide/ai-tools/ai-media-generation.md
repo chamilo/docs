@@ -10,7 +10,7 @@ Kun muokkaat asiakirjaa **Asiakirjat**-työkalussa, tekoälyn median luonti -omi
 
 ## Kuvan tai videon luominen
 
-1. Avaa asiakirja **Asiakirjat**-työkalussa <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Asiakirjat" data-size="line"> (luo uusi tai muokkaa olemassa olevaa)
+1. Avaa asiakirja **Asiakirjat**-työkalussa <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Asiakirjat" data-size="line"> (luo uusi tai muokkaa olemassa olevaa)
 2. Rich-text-editorissa aseta kursori sen kappaleen sisään tai lähelle, jota haluat havainnollistaa
 3. Avaa **Luo tekoälymedia** -valintaikkuna editorin työkalupalkista
 4. Kuvaile, mitä median tulisi esittää, tai käytä valittua kappaletta kehotteena

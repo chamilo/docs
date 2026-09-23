@@ -4,7 +4,7 @@ Værktøjet **Opgaver** (nogle gange kaldet "studenterpublikationer" eller "work
 
 ## Aflevering af dit arbejde
 
-Åbn værktøjet **Opgaver** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opgaver" data-size="line"> fra kursets startside, og åbn derefter den specifikke opgave. Læs beskrivelsen omhyggeligt — den indeholder din undervisers instruktioner om, hvad du skal aflevere, og hvordan det vil blive evalueret. Derefter:
+Åbn værktøjet **Opgaver** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opgaver" data-size="line"> fra kursets startside, og åbn derefter den specifikke opgave. Læs beskrivelsen omhyggeligt — den indeholder din undervisers instruktioner om, hvad du skal aflevere, og hvordan det vil blive evalueret. Derefter:
 
 1. Klik på **Upload file** (eller afleveringsknappen)
 2. Afhængigt af hvordan din underviser har konfigureret opgaven, skal du enten vælge en fil fra din computer, skrive din aflevering som tekst direkte, eller begge dele

@@ -1,6 +1,6 @@
 # Evaluering av spørsmålsalternativer
 
-Evaluering av spørsmålsalternativer <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluering av spørsmålsalternativer" data-size="line"> lar deg bruke en formel for negativ poenggiving (straff) på poengsettingen av en test, i stedet for Chamilos standardoppførsel som bare summerer riktige svar.
+Evaluering av spørsmålsalternativer <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluering av spørsmålsalternativer" data-size="line"> lar deg bruke en formel for negativ poenggiving (straff) på poengsettingen av en test, i stedet for Chamilos standardoppførsel som bare summerer riktige svar.
 
 ## Sette en formel
 

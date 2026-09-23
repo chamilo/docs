@@ -24,7 +24,7 @@ AI-veilederen krever konfigurasjon på to nivåer:
 
 ## Chatgrensesnittet
 
-![Chatgrensesnittet til AI-veilederen som viser en samtale mellom en lærende og AI-en](/.gitbook/assets/ai-tutor-chat.png)
+![Chatgrensesnittet til AI-veilederen som viser en samtale mellom en lærende og AI-en](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI-veilederen vises som et **dokket chatpanel** i kurset. Lærende kan:
 

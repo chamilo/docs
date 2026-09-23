@@ -2,7 +2,7 @@
 
 Blocket **Färdigheter** på administrationspanelen grupperar verktygen för att definiera, organisera och följa upp kompetensmärken (”färdigheter”) på plattformen. En färdighet kan tilldelas automatiskt när en deltagare når ett tröskelvärde i betygsboken, slutför specifika kurser, eller manuellt av en lärare, och kan ha en märkesliknande ikon och en nivå (till exempel Brons/Silver/Guld).
 
-![Blocket Färdigheter på administrationspanelen, med Färdighetshjul, Import av färdigheter, Hantera färdigheter, Hantera färdighetsnivåer, Färdighetsranking samt Färdigheter och bedömningar](/.gitbook/assets/admin-skills-block.png)
+![Blocket Färdigheter på administrationspanelen, med Färdighetshjul, Import av färdigheter, Hantera färdigheter, Hantera färdighetsnivåer, Färdighetsranking samt Färdigheter och bedömningar](../../.gitbook/assets/admin-skills-block.png)
 
 Hela blocket visas endast om inställningen **Aktivera färdighetsverktyget** (`skill.allow_skills_tool`, under Konfigurationsinställningar > Färdigheter) är påslagen — den är aktiverad som standard.
 

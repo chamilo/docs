@@ -4,22 +4,22 @@ Tekoälypohjainen kurssikuvan generaattori antaa sinun luoda pikkukuvan kurssill
 
 ## Generaattorin avaaminen
 
-**Luo tekoälyllä** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Luo tekoälyllä" data-size="line"> -painike on käytettävissä **Kurssikuva**-kentän vieressä, edellyttäen että:
+**Luo tekoälyllä** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Luo tekoälyllä" data-size="line"> -painike on käytettävissä **Kurssikuva**-kentän vieressä, edellyttäen että:
 
 1. Tekoälyavustajat on otettu käyttöön alustatasolla
 2. Vähintään yksi alustallesi määritetty tekoälypalveluntarjoaja tukee kuvan luontia
 3. Ominaisuus on sallittu kurssissasi (ks. **Tekoälyavustajien asetukset** kohdassa [Kurssin asetukset](../creating-your-course/course-settings.md))
 
-Avaa kurssisi **Asetukset** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> ja vieritä **Kurssikuva**-kenttään:
+Avaa kurssisi **Asetukset** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> ja vieritä **Kurssikuva**-kenttään:
 
-![Kurssikuva-kenttä kurssin asetuksissa, jossa on Valitse tiedosto -painike ja Luo tekoälyllä -painike sen alla](/.gitbook/assets/course-picture-ai-button.png)
+![Kurssikuva-kenttä kurssin asetuksissa, jossa on Valitse tiedosto -painike ja Luo tekoälyllä -painike sen alla](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Kuvan luominen
 
 1. Napsauta **Luo tekoälyllä**
 2. Avautuu valintaikkuna, jossa **Kehote**-kenttä on esitäytetty oletuskuvauksella; muokkaa sitä kuvaamaan haluamaasi kuvitusta tai jätä oletus ennalleen
 
-![Luo tekoälyllä -valintaikkuna, jossa näkyy Kehote-kenttä oletusteksteineen sekä Peruuta- ja Luo-painikkeet](/.gitbook/assets/course-picture-ai-modal.png)
+![Luo tekoälyllä -valintaikkuna, jossa näkyy Kehote-kenttä oletusteksteineen sekä Peruuta- ja Luo-painikkeet](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Napsauta **Luo** ja odota — kuvan luonti voi kestää muutaman sekunnin
 4. Luotu kuva sijoitetaan automaattisesti **Kurssikuva**-kenttään ja korvaa kaiken, minkä olit sinne valinnut

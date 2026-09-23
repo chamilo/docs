@@ -1,10 +1,10 @@
 # Notificar en la página de inicio del curso
 
-Notificar en la página de inicio del curso <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notificar en la página de inicio del curso" data-size="line"> le permite mostrar un aviso emergente a todas las personas que visiten la página de inicio de su curso: resulta útil para un anuncio, un aviso de lectura obligatoria o una puerta de «haga clic aquí para continuar».
+Notificar en la página de inicio del curso <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notificar en la página de inicio del curso" data-size="line"> le permite mostrar un aviso emergente a todas las personas que visiten la página de inicio de su curso: resulta útil para un anuncio, un aviso de lectura obligatoria o una puerta de «haga clic aquí para continuar».
 
 ## Configurar una notificación
 
-Una vez activada, en **Ajustes** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Ajustes" data-size="line"> de su curso aparece el botón **Establecer una notificación en la página de inicio**. Abre un formulario en el que redacta el aviso (texto enriquecido) y, de forma opcional, define un **Enlace de caducidad**.
+Una vez activada, en **Ajustes** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Ajustes" data-size="line"> de su curso aparece el botón **Establecer una notificación en la página de inicio**. Abre un formulario en el que redacta el aviso (texto enriquecido) y, de forma opcional, define un **Enlace de caducidad**.
 
 * **Con un enlace de caducidad** — El aviso emergente muestra un botón que apunta a ese enlace y sigue reapareciendo hasta que un alumno haga clic en él
 * **Sin uno** — El aviso reaparece a cada visitante cada vez que abre la página de inicio del curso

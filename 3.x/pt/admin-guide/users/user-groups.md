@@ -6,7 +6,7 @@ As turmas no painel de administração são grupos de âmbito da plataforma, uti
 
 ## Criar um grupo
 
-![A lista de grupos de utilizadores a mostrar os grupos disponíveis com nome, descrição e número de membros](/.gitbook/assets/admin-user-groups-list.png)
+![A lista de grupos de utilizadores a mostrar os grupos disponíveis com nome, descrição e número de membros](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. No painel de administração, navegue até **Classes**
 2. Clique em **Add classes**

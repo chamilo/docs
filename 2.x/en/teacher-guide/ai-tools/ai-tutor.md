@@ -21,7 +21,7 @@ The AI Tutor requires two levels of configuration:
 
 ## The Chat Interface
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![The AI Tutor chat interface showing a conversation between a learner and the AI](../../.gitbook/assets/ai-tutor-chat.png)
 
 The AI Tutor appears as a **docked chat panel** within the course. Learners can:
 

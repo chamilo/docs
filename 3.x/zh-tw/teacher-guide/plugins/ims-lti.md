@@ -1,10 +1,10 @@
 # IMS/LTI 用戶端
 
-IMS/LTI 用戶端 <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI 用戶端" data-size="line"> 可讓您透過 LTI 標準（1.1 與 1.3 版）從課程內啟動外部工具或內容提供者——例如出版社的互動式教科書、專門的模擬工具，或其他支援 LTI 的平台。Chamilo 作為啟動平台；外部服務則是「工具」。
+IMS/LTI 用戶端 <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI 用戶端" data-size="line"> 可讓您透過 LTI 標準（1.1 與 1.3 版）從課程內啟動外部工具或內容提供者——例如出版社的互動式教科書、專門的模擬工具，或其他支援 LTI 的平台。Chamilo 作為啟動平台；外部服務則是「工具」。
 
 ## 存取此工具
 
-啟用後，課程的 **設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 中會出現 **設定外部工具** 按鈕。您可以從該處：
+啟用後，課程的 **設定** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 中會出現 **設定外部工具** 按鈕。您可以從該處：
 
 * **新增外部工具** — 自行註冊：名稱、啟動 URL、LTI 版本，以及外部服務提供給您的憑證（LTI 1.3 的用戶端 ID／金鑰，或 LTI 1.1 的消費者金鑰與密鑰）
 * **新增既有的全域工具** — 若管理員已註冊全平台工具，可將其加入課程，而不必自行建立連線

@@ -13,7 +13,7 @@ Look for the **AI Generator** button or section within the exercise creation int
 
 ## How to Generate Questions
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![The AI exercise generator form with fields for topic and number of questions](../../.gitbook/assets/ai-exercise-generator.png)
 
 The generator offers two modes, available as tabs:
 
@@ -32,7 +32,7 @@ The generator offers two modes, available as tabs:
 
 ## Reviewing and Editing
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![AI-generated questions displayed for review with options to edit, accept, or remove each one](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Generated questions are presented as **suggestions**. You should:
 

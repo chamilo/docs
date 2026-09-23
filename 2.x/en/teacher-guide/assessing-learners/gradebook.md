@@ -19,7 +19,7 @@ Chamilo calculates each learner's overall grade based on these weights.
 
 ## Setting Up the Assessment
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
+1. Open the **Assessments** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
 2. You will see the assessments overview, initially empty
 
 ### Adding Activities
@@ -48,7 +48,7 @@ For complex grading schemes, you can create **sub-categories** to group related 
 
 ## Viewing Grades
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![The gradebook overview table showing learner names, activity scores, and weighted totals](../../.gitbook/assets/gradebook-overview.png)
 
 The assessment shows a table with:
 
@@ -75,7 +75,7 @@ You can associate **skills** with the assessment. When a learner reaches the set
 
 ## Exporting Grades
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Click the **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
 
 * Sharing grades with administrative systems
 * Performing additional analysis outside Chamilo

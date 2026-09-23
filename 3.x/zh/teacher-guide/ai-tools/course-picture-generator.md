@@ -4,22 +4,22 @@ AI 课程图片生成器可让您直接在课程设置界面为课程创建缩�
 
 ## 访问生成器
 
-**使用 AI 生成** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="使用 AI 生成" data-size="line"> 按钮位于 **课程图片** 字段旁，前提是：
+**使用 AI 生成** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="使用 AI 生成" data-size="line"> 按钮位于 **课程图片** 字段旁，前提是：
 
 1. 平台级已启用 AI 助手
 2. 平台上至少配置了一家支持图像生成的 AI 提供商
 3. 您的课程中已允许该功能（参见[课程设置](../creating-your-course/course-settings.md)中的 **AI 助手设置**）
 
-打开课程的 **设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line">，滚动到 **课程图片** 字段：
+打开课程的 **设置** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line">，滚动到 **课程图片** 字段：
 
-![课程设置中的课程图片字段，下方有“选择文件”按钮和“使用 AI 生成”按钮](/.gitbook/assets/course-picture-ai-button.png)
+![课程设置中的课程图片字段，下方有“选择文件”按钮和“使用 AI 生成”按钮](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## 如何生成图片
 
 1. 点击 **使用 AI 生成**
 2. 将打开一个对话框，其中的 **提示词** 字段已预填默认描述；您可编辑以描述所需插图，也可保留默认内容
 
-![“使用 AI 生成”对话框，显示带有默认文本的提示词字段，以及取消/生成按钮](/.gitbook/assets/course-picture-ai-modal.png)
+![“使用 AI 生成”对话框，显示带有默认文本的提示词字段，以及取消/生成按钮](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. 点击 **生成** 并等待——图像生成可能需要数秒
 4. 生成的图像会自动填入 **课程图片** 字段，替换您此前选择的任何内容

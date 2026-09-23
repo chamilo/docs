@@ -20,7 +20,7 @@
 每张考勤表包含一个或多个日期（课时），用于记录出勤：
 
 1. 打开一张考勤表，或继续创建流程
-2. 点击 **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加日期" data-size="line">
+2. 点击 **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加日期" data-size="line">
 3. 选择日期和时间
 4. 可选：勾选 **Repeat date** 以选择重复规则
 5. 为该活动设置以分钟计的 **Duration**（默认 60 分钟）
@@ -44,7 +44,7 @@
 
 ## 查看考勤报告
 
-![显示包含学习者、日期和出勤指示的汇总表的考勤表](/.gitbook/assets/attendance-sheet.png)
+![显示包含学习者、日期和出勤指示的汇总表的考勤表](../../.gitbook/assets/attendance-sheet.png)
 
 考勤工具显示：
 

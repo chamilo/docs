@@ -26,7 +26,7 @@ Om vanuit de editor naar een andere wiki-pagina te linken, maak een link met de 
 Iedereen met bewerkingsrechten kan een wiki-pagina aanpassen:
 
 1. Open de pagina die u wilt bewerken
-2. Klik op de **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> knop
+2. Klik op de **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> knop
 3. Breng uw wijzigingen aan in de editor
 4. Voeg een optionele **Opmerkingen**-vermelding toe waarin u beschrijft wat u hebt gewijzigd
 5. Sla op

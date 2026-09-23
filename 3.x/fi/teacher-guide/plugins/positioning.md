@@ -1,6 +1,6 @@
 # Sijoittaminen
 
-Sijoittaminen <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Sijoittaminen" data-size="line"> lisää ennen/jälkeen-itsearviointityönkulun: valitse yksi testi **alkutestiksi** ja toinen **lopputestiksi** (usein kopio samasta testistä), ja Chamilo näyttää kunkin oppijan pistemäärän muutoksen näiden kahden välillä tutkakuviona.
+Sijoittaminen <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Sijoittaminen" data-size="line"> lisää ennen/jälkeen-itsearviointityönkulun: valitse yksi testi **alkutestiksi** ja toinen **lopputestiksi** (usein kopio samasta testistä), ja Chamilo näyttää kunkin oppijan pistemäärän muutoksen näiden kahden välillä tutkakuviona.
 
 ## Työkalun avaaminen
 

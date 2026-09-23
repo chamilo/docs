@@ -2,7 +2,7 @@
 
 The **Analytics** block on the administration dashboard groups platform-wide statistics, learning analytics, corporate/HR reporting, and bulk export tools. Depending on your Chamilo version, this block may be labeled **"Tracking"** on the dashboard itself — it's the same block either way. This guide calls it Analytics throughout to avoid confusion with [Tracking Settings](../platform-settings/tracking-settings.md), the separate settings category that controls what gets recorded rather than the reports themselves.
 
-![The Analytics block on the administration dashboard (labeled "Tracking" in this screenshot), listing Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, and Tickets](/.gitbook/assets/admin-analytics-block.png)
+![The Analytics block on the administration dashboard (labeled "Tracking" in this screenshot), listing Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports, and Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Accessing Analytics
 

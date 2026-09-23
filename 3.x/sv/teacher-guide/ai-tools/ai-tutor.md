@@ -24,7 +24,7 @@ AI-handledaren kräver konfiguration på två nivåer:
 
 ## Chattgränssnittet
 
-![AI-handledarens chattgränssnitt som visar en konversation mellan en deltagare och AI:n](/.gitbook/assets/ai-tutor-chat.png)
+![AI-handledarens chattgränssnitt som visar en konversation mellan en deltagare och AI:n](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI-handledaren visas som en **dockad chattpanel** i kursen. Deltagare kan:
 

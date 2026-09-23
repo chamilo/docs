@@ -4,7 +4,7 @@
 
 ## テストの開始
 
-コースホームページから **テスト** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="テスト" data-size="line"> ツールを開き、テストをクリックして開始します。教師が開始日または終了日を設定している場合、テストはまだ利用できない、またはすでに利用できなくなっていることがあります。
+コースホームページから **テスト** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="テスト" data-size="line"> ツールを開き、テストをクリックして開始します。教師が開始日または終了日を設定している場合、テストはまだ利用できない、またはすでに利用できなくなっていることがあります。
 
 ## 問題への回答
 

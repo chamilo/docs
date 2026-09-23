@@ -1,6 +1,6 @@
 # Evaluasi Opsi Pertanyaan
 
-Evaluasi Opsi Pertanyaan <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluasi Opsi Pertanyaan" data-size="line"> memungkinkan Anda menerapkan rumus penilaian negatif (penalti) pada penskoran tes, alih-alih perilaku bawaan Chamilo yang hanya menjumlahkan jawaban yang benar.
+Evaluasi Opsi Pertanyaan <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Evaluasi Opsi Pertanyaan" data-size="line"> memungkinkan Anda menerapkan rumus penilaian negatif (penalti) pada penskoran tes, alih-alih perilaku bawaan Chamilo yang hanya menjumlahkan jawaban yang benar.
 
 ## Mengatur Rumus
 

@@ -7,10 +7,10 @@ Esta secção explica como criar um novo curso no Chamilo e configurá-lo de aco
 Para criar um curso:
 
 1. Clique em **Os meus cursos** na barra lateral
-2. Clique no botão **Criar curso** (normalmente um livro verde <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> com um sinal de +)
+2. Clique no botão **Criar curso** (normalmente um livro verde <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> com um sinal de +)
 3. Preencha o formulário de criação do curso:
 
-![O formulário de criação do curso com campos para nome, categoria, código e idioma](/.gitbook/assets/course-creation-form.png)
+![O formulário de criação do curso com campos para nome, categoria, código e idioma](../../.gitbook/assets/course-creation-form.png)
 
 | Campo | Obrigatório | Descrição |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Será redirecionado para a página inicial do seu novo curso. Aparecerá uma men
 
 Depois de o curso ser criado, chega à respetiva página inicial. Este é o centro do seu curso, onde você e os seus formandos acedem a todas as ferramentas e conteúdos.
 
-![A grelha de ferramentas da página inicial do curso, com as ferramentas disponíveis, ícones e interruptores de visibilidade](/.gitbook/assets/course-homepage-tool-grid.png)
+![A grelha de ferramentas da página inicial do curso, com as ferramentas disponíveis, ícones e interruptores de visibilidade](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 A página inicial apresenta:
 
 * **Título do curso** — O nome do seu curso, mostrado no topo.
-* **Introdução do curso** — Uma descrição ou mensagem de boas-vindas opcional. Clique no botão **+ Introdução do curso** para adicionar uma, ou no botão **Editar introdução** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> no topo para a modificar. Suporta texto formatado com imagens, ligações e formatação.
+* **Introdução do curso** — Uma descrição ou mensagem de boas-vindas opcional. Clique no botão **+ Introdução do curso** para adicionar uma, ou no botão **Editar introdução** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> no topo para a modificar. Suporta texto formatado com imagens, ligações e formatação.
 * **Grelha de ferramentas** — Uma grelha de todas as ferramentas de curso disponíveis, cada uma apresentada como um cartão com um ícone e um nome.
 
 ### Gerir a Visibilidade das Ferramentas
 
 Como professor, pode controlar quais as ferramentas que os formandos podem ver:
 
-* Clique no **ícone de olho** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visível" data-size="line"> junto a qualquer ferramenta para a ocultar dos formandos. As ferramentas ocultas mostram um **olho riscado** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Oculto" data-size="line"> e continuam acessíveis para si.
+* Clique no **ícone de olho** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visível" data-size="line"> junto a qualquer ferramenta para a ocultar dos formandos. As ferramentas ocultas mostram um **olho riscado** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Oculto" data-size="line"> e continuam acessíveis para si.
 * Utilize os botões **Mostrar tudo** e **Ocultar tudo** para alterar todas as ferramentas de uma só vez
 * Clique em **Ordenar** para ativar a reordenação da grelha de ferramentas por arrastar e largar
 

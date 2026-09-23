@@ -4,7 +4,7 @@
 
 ## 提交作业
 
-从课程主页打开 **作业** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作业" data-size="line"> 工具，然后打开具体作业。请仔细阅读说明——其中包含教师关于提交内容及评分方式的要求。然后：
+从课程主页打开 **作业** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作业" data-size="line"> 工具，然后打开具体作业。请仔细阅读说明——其中包含教师关于提交内容及评分方式的要求。然后：
 
 1. 点击 **上传文件**（或提交按钮）
 2. 根据教师对该作业的配置，从计算机选择文件、直接以文本撰写提交内容，或两者兼用

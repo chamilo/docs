@@ -21,7 +21,7 @@ Se la visibilità di un corso lo consente, potete iscrivervi autonomamente senza
 2. Sfogliare o cercare il corso a cui volete unirvi.
 3. Fate clic sul corso per aprirne i dettagli, quindi fate clic sul pulsante per unirvi.
 
-![Il catalogo dei corsi, con un pulsante Iscriviti su ciascuna scheda del corso](/.gitbook/assets/student-course-catalogue.png)
+![Il catalogo dei corsi, con un pulsante Iscriviti su ciascuna scheda del corso](../../.gitbook/assets/student-course-catalogue.png)
 
 Un corso a cui siete già iscritti mostra **Vai al corso** invece di un pulsante di iscrizione.
 

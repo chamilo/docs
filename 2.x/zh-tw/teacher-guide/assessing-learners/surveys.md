@@ -4,7 +4,7 @@
 
 ## 建立調查
 
-1. 在課程首頁開啟 **調查** 工具 <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="調查" data-size="line">
+1. 在課程首頁開啟 **調查** 工具 <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="調查" data-size="line">
 2. 點選 **建立調查**
 3. 填寫調查詳細資訊：
    * **代碼** — 這是調查的唯一代碼，將用於電子郵件和連結。
@@ -65,7 +65,7 @@
 
 ## 查看結果
 
-![調查結果，包含每個問題的圖表與百分比](/.gitbook/assets/survey-results-charts.png)
+![調查結果，包含每個問題的圖表與百分比](../../.gitbook/assets/survey-results-charts.png)
 
 學生回答後：
 

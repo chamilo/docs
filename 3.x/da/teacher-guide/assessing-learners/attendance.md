@@ -20,7 +20,7 @@ Fremmødeværktøjet lader dig registrere elevernes tilstedeværelse ved planlag
 Hvert fremmødeark indeholder én eller flere datoer (sessioner), hvor du registrerer tilstedeværelse:
 
 1. Åbn et fremmødeark, eller fortsæt oprettelsesprocessen
-2. Klik på **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tilføj dato" data-size="line">
+2. Klik på **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tilføj dato" data-size="line">
 3. Vælg dato og tidspunkt
 4. Markér eventuelt **Repeat date** for at vælge en gentagelseslogik
 5. Angiv en **Duration** i minutter for begivenheden (standard er 60 minutter)
@@ -44,7 +44,7 @@ Bemærk: Administratorer kan ændre portalens konfiguration, så du kan vælge f
 
 ## Visning af fremmøderapporter
 
-![Fremmødearket, der viser en oversigtstabel med elever, datoer og tilstedeværelsesindikatorer](/.gitbook/assets/attendance-sheet.png)
+![Fremmødearket, der viser en oversigtstabel med elever, datoer og tilstedeværelsesindikatorer](../../.gitbook/assets/attendance-sheet.png)
 
 Fremmødeværktøjet viser:
 

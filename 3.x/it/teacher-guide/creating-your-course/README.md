@@ -7,10 +7,10 @@ Questa sezione spiega come creare un nuovo corso in Chamilo e configurarlo in ba
 Per creare un corso:
 
 1. Fare clic su **I miei corsi** nella barra laterale
-2. Fare clic sul pulsante **Crea corso** (di solito un libro verde <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Corsi" data-size="line"> con un segno +)
+2. Fare clic sul pulsante **Crea corso** (di solito un libro verde <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Corsi" data-size="line"> con un segno +)
 3. Compilare il modulo di creazione del corso:
 
-![Il modulo di creazione del corso con i campi per nome, categoria, codice e lingua](/.gitbook/assets/course-creation-form.png)
+![Il modulo di creazione del corso con i campi per nome, categoria, codice e lingua](../../.gitbook/assets/course-creation-form.png)
 
 | Campo | Obbligatorio | Descrizione |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Si verrà reindirizzati alla homepage del nuovo corso. Apparirà un messaggio di
 
 Una volta creato il corso, si accede alla sua homepage. Questo è il punto centrale del corso, da cui docenti e studenti accedono a tutti gli strumenti e ai contenuti.
 
-![La griglia degli strumenti della homepage del corso che mostra gli strumenti disponibili con icone e interruttori di visibilità](/.gitbook/assets/course-homepage-tool-grid.png)
+![La griglia degli strumenti della homepage del corso che mostra gli strumenti disponibili con icone e interruttori di visibilità](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 La homepage mostra:
 
 * **Titolo del corso** — Il nome del corso, visualizzato in alto.
-* **Introduzione al corso** — Una descrizione o un messaggio di benvenuto opzionale. Fare clic sul pulsante **+ Introduzione al corso** per aggiungerne una, oppure sul pulsante **Modifica introduzione** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> in alto per modificarla. Supporta testo formattato con immagini, collegamenti e formattazione.
+* **Introduzione al corso** — Una descrizione o un messaggio di benvenuto opzionale. Fare clic sul pulsante **+ Introduzione al corso** per aggiungerne una, oppure sul pulsante **Modifica introduzione** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> in alto per modificarla. Supporta testo formattato con immagini, collegamenti e formattazione.
 * **Griglia degli strumenti** — Una griglia di tutti gli strumenti del corso disponibili, ciascuno mostrato come scheda con icona e nome.
 
 ### Gestione della visibilità degli strumenti
 
 Come docente, è possibile controllare quali strumenti gli studenti possono vedere:
 
-* Fare clic sull'**icona dell'occhio** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibile" data-size="line"> accanto a qualsiasi strumento per nasconderlo agli studenti. Gli strumenti nascosti mostrano un **occhio barrato** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Nascosto" data-size="line"> e restano accessibili al docente.
+* Fare clic sull'**icona dell'occhio** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibile" data-size="line"> accanto a qualsiasi strumento per nasconderlo agli studenti. Gli strumenti nascosti mostrano un **occhio barrato** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Nascosto" data-size="line"> e restano accessibili al docente.
 * Usare i pulsanti **Mostra tutti** e **Nascondi tutti** per modificare tutti gli strumenti contemporaneamente
 * Fare clic su **Ordina** per abilitare il riordinamento della griglia degli strumenti tramite trascinamento
 

@@ -19,7 +19,7 @@ Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Pro
 
 ## Category Hierarchy
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![The course categories management page showing a nested tree of categories](../../.gitbook/assets/admin-course-categories.png)
 
 Categories can be nested to create a tree structure:
 

@@ -2,7 +2,7 @@
 
 Blok **Rooms** pada dasbor administrasi mengelola lokasi fisik yang dapat dilacak Chamilo untuk pelatihan tatap muka atau blended: cabang (situs), ruangan di dalamnya, dan alat untuk menemukan ruangan mana yang kosong pada waktu tertentu.
 
-![Blok Rooms pada dasbor administrasi, yang mencantumkan Branches, Rooms, dan Room availability finder](/.gitbook/assets/admin-rooms-block.png)
+![Blok Rooms pada dasbor administrasi, yang mencantumkan Branches, Rooms, dan Room availability finder](../../.gitbook/assets/admin-rooms-block.png)
 
 Bab ini membahas pengelolaan cabang dan ruangan dari sisi admin. Untuk sisi pengajar — menetapkan ruangan ke sesi kursus — lihat [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) di Teacher Guide.
 

@@ -10,7 +10,7 @@ Klicken Sie im Administrationsbereich auf **Sicherheit > Dateiintegrität**.
 
 ## Was angezeigt wird
 
-![Die Seite Dateiintegrität mit Informationen zum letzten Scan, Bereichen für hinzugefügte, geänderte, gelöschte Dateien und Dateien mit geänderten Berechtigungen, einer Liste der Alarmhistorie sowie Aktionen zum Ausführen eines Scans, Pausieren von Alarmen oder Festlegen einer neuen Baseline](/.gitbook/assets/admin-security-file-integrity.png)
+![Die Seite Dateiintegrität mit Informationen zum letzten Scan, Bereichen für hinzugefügte, geänderte, gelöschte Dateien und Dateien mit geänderten Berechtigungen, einer Liste der Alarmhistorie sowie Aktionen zum Ausführen eines Scans, Pausieren von Alarmen oder Festlegen einer neuen Baseline](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Letzter Scan** — Wann der letzte Scan ausgeführt wurde und wie viele Dateien geprüft wurden
 * **Hinzugefügt / Geändert / Gelöscht** — Dateien, die von der Baseline abweichen, ermittelt durch Vergleich von SHA-256-Prüfsummen (jede Liste ist auf 500 Pfade begrenzt, mit einem Hinweis, falls die vollständige Liste länger ist — siehe das CEF-Protokoll unten für die vollständige Liste)

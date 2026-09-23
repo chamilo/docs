@@ -4,22 +4,22 @@ O gerador de imagem do curso por IA permite criar uma miniatura para o seu curso
 
 ## Acessando o Gerador
 
-O botão **Gerar com IA** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Gerar com IA" data-size="line"> está disponível ao lado do campo **Imagem do curso**, desde que:
+O botão **Gerar com IA** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Gerar com IA" data-size="line"> está disponível ao lado do campo **Imagem do curso**, desde que:
 
 1. Os auxiliares de IA estejam habilitados no nível da plataforma
 2. Pelo menos um provedor de IA configurado na sua plataforma suporte geração de imagens
 3. O recurso esteja permitido no seu curso (consulte **Configurações dos Auxiliares de IA** em [Configurações do Curso](../creating-your-course/course-settings.md))
 
-Abra as **Configurações** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> do seu curso e role até o campo **Imagem do curso**:
+Abra as **Configurações** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> do seu curso e role até o campo **Imagem do curso**:
 
-![O campo Imagem do curso nas Configurações do Curso, com um botão Escolher Arquivo e um botão Gerar com IA abaixo dele](/.gitbook/assets/course-picture-ai-button.png)
+![O campo Imagem do curso nas Configurações do Curso, com um botão Escolher Arquivo e um botão Gerar com IA abaixo dele](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Como Gerar uma Imagem
 
 1. Clique em **Gerar com IA**
 2. Um diálogo é aberto com um campo **Prompt** pré-preenchido com uma descrição padrão; edite-o para descrever a ilustração desejada ou deixe o padrão como está
 
-![O diálogo Gerar com IA mostrando o campo Prompt com o texto padrão e os botões Cancelar/Gerar](/.gitbook/assets/course-picture-ai-modal.png)
+![O diálogo Gerar com IA mostrando o campo Prompt com o texto padrão e os botões Cancelar/Gerar](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Clique em **Gerar** e aguarde — a geração da imagem pode levar alguns segundos
 4. A imagem gerada é automaticamente colocada no campo **Imagem do curso**, substituindo qualquer coisa que você tivesse selecionado ali

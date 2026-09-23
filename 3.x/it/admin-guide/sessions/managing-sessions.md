@@ -2,7 +2,7 @@
 
 ## Creazione di una sessione
 
-![Il modulo di creazione della sessione con i campi per nome, date, tutor, categoria e visibilità](/.gitbook/assets/admin-session-create-form.png)
+![Il modulo di creazione della sessione con i campi per nome, date, tutor, categoria e visibilità](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Dal pannello di amministrazione, fare clic su **Create a session**
 2. Compilare i dettagli della sessione:
@@ -30,7 +30,7 @@ Ciò consente di preparare la sessione prima dell'arrivo dei discenti e di mante
 
 ## Elenco delle sessioni
 
-![L'elenco delle sessioni che mostra tutte le sessioni con nome, date, numero di corsi, numero di discenti e stato](/.gitbook/assets/admin-session-list.png)
+![L'elenco delle sessioni che mostra tutte le sessioni con nome, date, numero di corsi, numero di discenti e stato](../../.gitbook/assets/admin-session-list.png)
 
 L'elenco delle sessioni mostra tutte le sessioni con:
 
@@ -52,7 +52,7 @@ Fare clic su una sessione per modificarla:
 
 ## Iscrizione degli utenti
 
-![L'interfaccia di iscrizione alla sessione per aggiungere utenti singoli, classi o importare tramite CSV](/.gitbook/assets/admin-session-enrollment.png)
+![L'interfaccia di iscrizione alla sessione per aggiungere utenti singoli, classi o importare tramite CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 È possibile iscrivere gli utenti a una sessione tramite:
 

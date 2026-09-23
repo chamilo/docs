@@ -1,6 +1,6 @@
 # Harjoituskeskeinen
 
-Harjoituskeskeinen <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Harjoituskeskeinen" data-size="line"> on tenttien vilppiä ehkäisevä apuväline. Jos opiskelijan selain menettää tarkennuksen merkityn kokeen aikana — vaihdettaessa toiseen välilehteen tai ikkunaan — Chamilo näyttää koko näytön varoituksen, joka kehottaa palaamaan, ja voi automaattisesti lähettää yrityksen, jos opiskelija ei palaa.
+Harjoituskeskeinen <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Harjoituskeskeinen" data-size="line"> on tenttien vilppiä ehkäisevä apuväline. Jos opiskelijan selain menettää tarkennuksen merkityn kokeen aikana — vaihdettaessa toiseen välilehteen tai ikkunaan — Chamilo näyttää koko näytön varoituksen, joka kehottaa palaamaan, ja voi automaattisesti lähettää yrityksen, jos opiskelija ei palaa.
 
 ## Kokeen merkitseminen
 

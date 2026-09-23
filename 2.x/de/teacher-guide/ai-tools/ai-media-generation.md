@@ -10,7 +10,7 @@ Beim Bearbeiten eines Dokuments im **Dokumente**-Tool ermöglicht die Funktion z
 
 ## So generieren Sie ein Bild oder Video
 
-1. Öffnen Sie ein Dokument im **Dokumente**-Tool <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumente" data-size="line"> (erstellen Sie ein neues oder bearbeiten Sie ein bestehendes)
+1. Öffnen Sie ein Dokument im **Dokumente**-Tool <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumente" data-size="line"> (erstellen Sie ein neues oder bearbeiten Sie ein bestehendes)
 2. Platzieren Sie im Rich-Text-Editor den Cursor in oder nahe dem Absatz, den Sie illustrieren möchten
 3. Öffnen Sie den Dialog **KI-Medien generieren** über die Symbolleiste des Editors
 4. Beschreiben Sie, was das Medium zeigen soll, oder verwenden Sie den ausgewählten Absatz als Eingabeaufforderung

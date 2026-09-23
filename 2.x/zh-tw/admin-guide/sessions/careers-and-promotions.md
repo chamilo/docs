@@ -4,7 +4,7 @@ Chamilo 包含一個職涯管理系統，讓您定義訓練路徑並追蹤學習
 
 ## 職涯
 
-![顯示已定義職涯路徑名稱與描述的職涯清單](/.gitbook/assets/admin-careers-list.png)
+![顯示已定義職涯路徑名稱與描述的職涯清單](../../.gitbook/assets/admin-careers-list.png)
 
 一個 **career** 代表一個結構化的訓練路徑 — 學習者遵循以達成專業目標的一系列訓練步驟。
 

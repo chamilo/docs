@@ -30,13 +30,13 @@ De vervaldatum van elk certificaat wordt automatisch berekend op basis van die i
 
 Als voor de categorie geen geldigheidsperiode is geconfigureerd, kunt u alsnog de vervaldatum van een individuele cursist handmatig instellen (of wijzigen): klik op de potloodknop **Vervaldatum bewerken** naast hun vermelding en kies een datum. Deze knop is alleen beschikbaar wanneer de categorie zelf geen geldigheidsperiode heeft — zodra een geldigheidsperiode is ingesteld, worden vervaldata automatisch beheerd en kunnen ze niet langer per certificaat worden bewerkt.
 
-![De certificaatlijst met de kolom Vervaldatum voor drie cursisten](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![De certificaatlijst met de kolom Vervaldatum voor drie cursisten](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Cursisten herinneren aan een naderend of verstreken verval
 
-Open de lijst **Certificaten** voor uw beoordeling en klik op de knop **Verlopende certificaten** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Verlopende certificaten" data-size="line"> om te zien van welke cursisten de certificaten zijn verlopen of binnenkort verlopen. De pagina toont per cursist: de **Vervaldatum** van het certificaat, de **Status** (**Verlopen** of **Verloopt binnenkort**), en wanneer er voor het laatst een herinnering over is **Laatste herinnering verzonden** (of **Nooit**). Gebruik **Dagen vooruit** om te verbreden of te versmallen hoe ver in de toekomst “verloopt binnenkort” kijkt.
+Open de lijst **Certificaten** voor uw beoordeling en klik op de knop **Verlopende certificaten** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Verlopende certificaten" data-size="line"> om te zien van welke cursisten de certificaten zijn verlopen of binnenkort verlopen. De pagina toont per cursist: de **Vervaldatum** van het certificaat, de **Status** (**Verlopen** of **Verloopt binnenkort**), en wanneer er voor het laatst een herinnering over is **Laatste herinnering verzonden** (of **Nooit**). Gebruik **Dagen vooruit** om te verbreden of te versmallen hoe ver in de toekomst “verloopt binnenkort” kijkt.
 
-![De pagina Verlopende certificaten met één verlopen en één binnenkort verlopend certificaat](/.gitbook/assets/gradebook-certificate-expirations.png)
+![De pagina Verlopende certificaten met één verlopen en één binnenkort verlopend certificaat](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Om cursisten zelf te informeren:
 
@@ -45,7 +45,7 @@ Om cursisten zelf te informeren:
 3. Controleer de voorvertoning van de e-mail die wordt verzonden — er worden aparte voorvertoningen getoond voor de formulering “verloopt binnenkort” en “verlopen”, afhankelijk van welke van uw geselecteerde cursisten in elk geval vallen
 4. Bevestig door in het dialoogvenster opnieuw op **Melding verzenden** te klikken
 
-![Het bevestigingsdialoogvenster Melding verzenden met een voorvertoning van de e-mailtekst voor verlopend en verlopen](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Het bevestigingsdialoogvenster Melding verzenden met een voorvertoning van de e-mailtekst voor verlopend en verlopen](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Elke cursist wordt in de eigen geconfigureerde taal op de hoogte gebracht, zowel per e-mail als via een intern Chamilo-bericht. Opnieuw verzenden voor hetzelfde certificaat en dezelfde vervaldatum is veilig — Chamilo houdt bij wat er al per certificaat is verzonden en zal een cursist niet lastigvallen met dubbele herinneringen, tenzij u expliciet opnieuw verzendt.
 

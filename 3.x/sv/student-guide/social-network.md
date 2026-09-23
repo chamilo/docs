@@ -4,7 +4,7 @@ Chamilo har ett inbyggt socialt nätverk för att knyta kontakter med andra anv�
 
 ## Om du har tillgång
 
-Klicka på **Socialt nätverk** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Socialt nätverk" data-size="line"> i sidofältet för att expandera det och klicka sedan på **Hem**. Om det här alternativet saknas helt har din administratör inaktiverat det för din plattform — det saknas ingenting på din sida.
+Klicka på **Socialt nätverk** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Socialt nätverk" data-size="line"> i sidofältet för att expandera det och klicka sedan på **Hem**. Om det här alternativet saknas helt har din administratör inaktiverat det för din plattform — det saknas ingenting på din sida.
 
 Samma expanderade avsnitt listar även **Meddelanden**, **Mina vänner**, **Sociala grupper** — och, något oväntat, **Mina filer** (din personliga fillagring) och **Personuppgifter** (en export av de personuppgifter som plattformen har om dig). De två sista är inte sociala funktioner; de är bara grupperade i den här delen av sidofältet.
 
@@ -12,7 +12,7 @@ Samma expanderade avsnitt listar även **Meddelanden**, **Mina vänner**, **Soci
 
 När du är inne visar din **vägg** ett flöde av aktivitet från dig och de personer du är ansluten till. Du kan publicera uppdateringar och — om det är aktiverat av din administratör — gilla eller ogilla samt kommentera inlägg från dina kontakter.
 
-![Den sociala väggen, med en inläggskompositör och paneler för gemenskaper, vänner och färdigheter](/.gitbook/assets/student-social-wall.png)
+![Den sociala väggen, med en inläggskompositör och paneler för gemenskaper, vänner och färdigheter](../.gitbook/assets/student-social-wall.png)
 
 ## Att knyta kontakter med andra
 

@@ -4,7 +4,7 @@ Lo strumento di sondaggio consente di creare questionari per raccogliere feedbac
 
 ## Creazione di un Sondaggio
 
-1. Apri lo strumento **Sondaggi** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondaggi" data-size="line"> dalla homepage del corso
+1. Apri lo strumento **Sondaggi** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondaggi" data-size="line"> dalla homepage del corso
 2. Fai clic su **Crea sondaggio**
 3. Compila i dettagli del sondaggio:
    * **Codice** — Questo è un codice univoco per il sondaggio. Verrà utilizzato nelle email e nei link.
@@ -65,7 +65,7 @@ Un link è disponibile in fondo alla pagina di pubblicazione per invitare ancora
 
 ## Visualizzazione dei Risultati
 
-![Risultati del sondaggio con grafici e percentuali per ogni domanda](/.gitbook/assets/survey-results-charts.png)
+![Risultati del sondaggio con grafici e percentuali per ogni domanda](../../.gitbook/assets/survey-results-charts.png)
 
 Dopo che gli studenti hanno risposto:
 

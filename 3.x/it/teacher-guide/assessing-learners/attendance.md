@@ -20,7 +20,7 @@ Lo strumento Presenze consente di registrare la presenza dei discenti alle sessi
 Ogni foglio presenze contiene una o più date (sessioni) in cui si registra la presenza:
 
 1. Aprire un foglio presenze o continuare con il processo di creazione
-2. Fare clic su **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi data" data-size="line">
+2. Fare clic su **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi data" data-size="line">
 3. Selezionare data e ora
 4. Facoltativamente, selezionare **Repeat date** per scegliere una logica di ripetizione
 5. Indicare una **Duration** in minuti per l'evento (il valore predefinito è 60 minuti)
@@ -44,7 +44,7 @@ Nota: gli amministratori possono modificare la configurazione del portale per co
 
 ## Visualizzazione dei report delle presenze
 
-![Il foglio presenze che mostra una tabella riepilogativa con discenti, date e indicatori di presenza](/.gitbook/assets/attendance-sheet.png)
+![Il foglio presenze che mostra una tabella riepilogativa con discenti, date e indicatori di presenza](../../.gitbook/assets/attendance-sheet.png)
 
 Lo strumento Presenze mostra:
 

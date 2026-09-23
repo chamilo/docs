@@ -4,9 +4,9 @@ Agenda-værktøjet lader dig planlægge begivenheder og frister i dit kursus. Be
 
 ## Visning af agendaen
 
-Åbn værktøjet **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> fra kursets startside. Du kan se begivenheder i tre tilstande:
+Åbn værktøjet **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> fra kursets startside. Du kan se begivenheder i tre tilstande:
 
-![Agendaen i kalendervisning med kursusbegivenheder og frister](/.gitbook/assets/agenda-calendar-view.png)
+![Agendaen i kalendervisning med kursusbegivenheder og frister](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Kalendervisning** — En visuel månedlig/ugentlig/daglig kalender
 * **Listevisning** — Begivenheder vist som en kronologisk liste
@@ -14,7 +14,7 @@ Agenda-værktøjet lader dig planlægge begivenheder og frister i dit kursus. Be
 
 ## Oprettelse af en begivenhed
 
-1. Klik på **Tilføj begivenhed** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tilføj begivenhed" data-size="line">
+1. Klik på **Tilføj begivenhed** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tilføj begivenhed" data-size="line">
 2. Udfyld begivenhedens oplysninger:
    * **Titel** — Et kort navn til begivenheden
    * **Startdato og -tidspunkt**
@@ -23,22 +23,22 @@ Agenda-værktøjet lader dig planlægge begivenheder og frister i dit kursus. Be
 3. Vælg **målgruppen**:
    * **Alle kursister** — Alle, der er tilmeldt kurset
    * **Specifikke brugere eller grupper** — Vælg individuelle kursister eller grupper
-4. Angiv eventuelt en **påmindelse** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Påmindelse" data-size="line"> for at sende e-mailnotifikationer før begivenheden (*cron*-opsætning for portalen kræves af en administrator)
+4. Angiv eventuelt en **påmindelse** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Påmindelse" data-size="line"> for at sende e-mailnotifikationer før begivenheden (*cron*-opsætning for portalen kræves af en administrator)
 5. Vælg en **farve** til begivenheden ved at klikke på farveprøven. Denne farve bruges til at fremhæve begivenheden i hele kalenderen (måneds-, uge- og dagsvisning), så det er nemt at skelne begivenheder fra hinanden ved et blik — for eksempel for at skelne frister fra almindelige sessioner, eller begivenheder fra forskellige kurser i din personlige agenda.
 
-   ![Farvevælgeren i formularen til oprettelse af begivenheder](/.gitbook/assets/agenda-event-color-picker.png)
+   ![Farvevælgeren i formularen til oprettelse af begivenheder](../../.gitbook/assets/agenda-event-color-picker.png)
 6. Gem
 
 Den valgte farve afspejles derefter overalt, hvor begivenheden vises i kalenderen:
 
-![En begivenhed vist i den valgte farve i ugevisningen](/.gitbook/assets/agenda-event-color-result.png)
+![En begivenhed vist i den valgte farve i ugevisningen](../../.gitbook/assets/agenda-event-color-result.png)
 
 Som standard får nye begivenheder en farve baseret på deres kontekst (kursus, session, personlig eller global), men du kan tilsidesætte den med en hvilken som helst farve, du ønsker.
 
 ## Administration af begivenheder
 
-* **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Klik på en begivenhed for at ændre dens oplysninger
-* **Slet** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern en begivenhed fra kalenderen
+* **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Klik på en begivenhed for at ændre dens oplysninger
+* **Slet** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern en begivenhed fra kalenderen
 * **Træk og slip** — I kalendervisning kan du trække begivenheder for at omplanlægge dem
 
 ## Personlig agenda

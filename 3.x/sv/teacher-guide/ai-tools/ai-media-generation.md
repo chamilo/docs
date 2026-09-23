@@ -10,7 +10,7 @@ När du redigerar ett dokument i verktyget **Dokument** kan funktionen för AI-m
 
 ## Så här genererar du en bild eller video
 
-1. Öppna ett dokument i verktyget **Dokument** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokument" data-size="line"> (skapa ett nytt eller redigera ett befintligt)
+1. Öppna ett dokument i verktyget **Dokument** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokument" data-size="line"> (skapa ett nytt eller redigera ett befintligt)
 2. Placera markören i eller nära det stycke du vill illustrera i den rika textredigeraren
 3. Öppna dialogen **Generera AI-media** från redigerarens verktygsfält
 4. Beskriv vad mediet ska visa, eller använd det markerade stycket som prompt

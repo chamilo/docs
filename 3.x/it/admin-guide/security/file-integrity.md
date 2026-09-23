@@ -10,7 +10,7 @@ Dal pannello di amministrazione, fare clic su **Sicurezza > Integrità dei file*
 
 ## Cosa mostra
 
-![La pagina Integrità dei file con le informazioni sull'ultima scansione, i riquadri per i file Aggiunti, Modificati, Eliminati e con Permessi modificati, un elenco della Cronologia degli avvisi e le Azioni per avviare una scansione, sospendere gli avvisi o stabilire una nuova baseline](/.gitbook/assets/admin-security-file-integrity.png)
+![La pagina Integrità dei file con le informazioni sull'ultima scansione, i riquadri per i file Aggiunti, Modificati, Eliminati e con Permessi modificati, un elenco della Cronologia degli avvisi e le Azioni per avviare una scansione, sospendere gli avvisi o stabilire una nuova baseline](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Ultima scansione** — Quando è stata eseguita la scansione più recente e quanti file ha controllato
 * **Aggiunti / Modificati / Eliminati** — File che differiscono dalla baseline, identificati confrontando i checksum SHA-256 (ogni elenco è limitato a 500 percorsi, con una nota se l'elenco completo è più lungo — vedere il log CEF sotto per l'elenco completo)

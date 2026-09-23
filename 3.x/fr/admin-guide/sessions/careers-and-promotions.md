@@ -4,7 +4,7 @@ Chamilo inclut un système de gestion des carrières qui vous permet de définir
 
 ## Carrières
 
-![La liste des carrières affichant les parcours de carrière définis, avec nom et description](/.gitbook/assets/admin-careers-list.png)
+![La liste des carrières affichant les parcours de carrière définis, avec nom et description](../../.gitbook/assets/admin-careers-list.png)
 
 Une **carrière** représente un parcours de formation structuré — une séquence d’étapes de formation qu’un apprenant suit pour atteindre un objectif professionnel.
 

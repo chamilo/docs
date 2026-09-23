@@ -1,6 +1,6 @@
 # Lärandekalender
 
-Lärandekalender <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Lärandekalender" data-size="line"> hjälper till att planera blandad utbildning eller lärlingsliknande utbildning som kombinerar tid i klassrummet med praktik utanför skolan. Du bygger en kalender där varje dag markeras som **Upptagen**, **Prov** eller **Ledig**, tilldelar deltagare till den, och deras personliga agenda visar sedan de planerade dagarna.
+Lärandekalender <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Lärandekalender" data-size="line"> hjälper till att planera blandad utbildning eller lärlingsliknande utbildning som kombinerar tid i klassrummet med praktik utanför skolan. Du bygger en kalender där varje dag markeras som **Upptagen**, **Prov** eller **Ledig**, tilldelar deltagare till den, och deras personliga agenda visar sedan de planerade dagarna.
 
 ## Åtkomst till verktyget
 

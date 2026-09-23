@@ -8,6 +8,6 @@ Chamilo tiene traccia dell'attività degli studenti su tutta la piattaforma, for
 
 ## Accesso ai Report
 
-Dal tuo corso, clicca sullo strumento **Monitoraggio** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> nella homepage del corso. Puoi anche accedere ai report tramite il link **Reporting** nella barra laterale per una panoramica trasversale sui corsi.
+Dal tuo corso, clicca sullo strumento **Monitoraggio** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> nella homepage del corso. Puoi anche accedere ai report tramite il link **Reporting** nella barra laterale per una panoramica trasversale sui corsi.
 
 Gli insegnanti vedono i dati di report per i corsi che insegnano. I coach di sessione vedono i dati di tutti i corsi all'interno della loro sessione.

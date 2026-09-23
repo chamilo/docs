@@ -13,7 +13,7 @@ Sørg for at følgende forutsetninger er oppfylt:
 
 ## Trinn 1: Installasjonsspråk
 
-![Installasjonsveiviser trinn 1 — språkvalg](/.gitbook/assets/install-step1-language.png)
+![Installasjonsveiviser trinn 1 — språkvalg](../../.gitbook/assets/install-step1-language.png)
 
 Det første trinnet lar deg velge språket for installasjonsprosessen. Velg ønsket språk fra nedtrekkslisten.
 
@@ -21,7 +21,7 @@ Hvis Chamilo oppdager en eksisterende installasjon (for en oppgradering), vises 
 
 ## Trinn 2: Kravkontroll
 
-![Installasjonsveiviser trinn 2 — kravkontroll som viser PHP-versjon, utvidelser og katalogrettigheter](/.gitbook/assets/install-step2-requirements.png)
+![Installasjonsveiviser trinn 2 — kravkontroll som viser PHP-versjon, utvidelser og katalogrettigheter](../../.gitbook/assets/install-step2-requirements.png)
 
 Veiviseren sjekker servermiljøet ditt:
 
@@ -34,7 +34,7 @@ Hvis noen krav ikke er oppfylt, viser veiviseren advarsler eller feil. Løs dem 
 
 ## Trinn 3: Lisens
 
-![Installasjonsveiviser trinn 3 — lisensgodkjenning](/.gitbook/assets/install-step3-license.png)
+![Installasjonsveiviser trinn 3 — lisensgodkjenning](../../.gitbook/assets/install-step3-license.png)
 
 Dette trinnet viser GNU/GPLv3-lisensen. Du må merke av i avkrysningsboksen **«Jeg godtar»** for å fortsette.
 
@@ -42,7 +42,7 @@ Valgfritt kan du utvide delen **Kontaktinformasjon** for å oppgi opplysninger o
 
 ## Trinn 4: Databaseinnstillinger
 
-![Installasjonsveiviser trinn 4 — konfigurasjon av databasetilkobling](/.gitbook/assets/install-step4-database.png)
+![Installasjonsveiviser trinn 4 — konfigurasjon av databasetilkobling](../../.gitbook/assets/install-step4-database.png)
 
 Oppgi tilkoblingsdetaljene for databasen:
 
@@ -58,7 +58,7 @@ Klikk **Sjekk databasetilkobling** for å teste. Veiviseren lar deg ikke fortset
 
 ## Trinn 5: Konfigurasjonsinnstillinger
 
-![Installasjonsveiviser trinn 5 — administratorkonto, portalinnstillinger og e-postkonfigurasjon](/.gitbook/assets/install-step5-config.png)
+![Installasjonsveiviser trinn 5 — administratorkonto, portalinnstillinger og e-postkonfigurasjon](../../.gitbook/assets/install-step5-config.png)
 
 Dette trinnet kombinerer opprettelse av administratorkonto, portalinnstillinger og e-postkonfigurasjon.
 
@@ -95,7 +95,7 @@ Alle disse innstillingene kan endres senere fra administrasjonspanelet.
 
 ## Trinn 6: Siste sjekk før installasjon
 
-![Installasjonsveiviser trinn 6 — gjennomgang av alle innstillinger før installasjon](/.gitbook/assets/install-step6-review.png)
+![Installasjonsveiviser trinn 6 — gjennomgang av alle innstillinger før installasjon](../../.gitbook/assets/install-step6-review.png)
 
 Dette trinnet viser et sammendrag av alt du har angitt, til gjennomgang:
 
@@ -107,7 +107,7 @@ Gå nøye gjennom opplysningene, og klikk deretter **Installer Chamilo** for å 
 
 ## Trinn 7: Installasjon fullført
 
-![Installasjonsveiviser trinn 7 — fullføring med sikkerhetsråd og portallenke](/.gitbook/assets/install-step7-complete.png)
+![Installasjonsveiviser trinn 7 — fullføring med sikkerhetsråd og portallenke](../../.gitbook/assets/install-step7-complete.png)
 
 Når installasjonen er fullført, viser veiviseren:
 

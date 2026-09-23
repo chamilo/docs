@@ -7,11 +7,11 @@ Chamilo 3.0 具備簡潔、現代化的介面，旨在讓導覽保持簡單。�
 頂端列會固定顯示在每一頁的最上方，內容包括：
 
 * **平台標誌** — 隨時點選即可返回首頁。
-* **收件匣圖示** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 顯示您的訊息。紅色徽章表示有未讀訊息。點選即可開啟您的[收件匣](../inbox.md)。
-* **支援工單圖示** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 若管理員已啟用，可由此進入支援工單系統。並非每個平台都會啟用，因此您可能只會看到收件匣圖示與您的頭像。
+* **收件匣圖示** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 顯示您的訊息。紅色徽章表示有未讀訊息。點選即可開啟您的[收件匣](../inbox.md)。
+* **支援工單圖示** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 若管理員已啟用，可由此進入支援工單系統。並非每個平台都會啟用，因此您可能只會看到收件匣圖示與您的頭像。
 * **您的頭像** — 位於右上角的圓形圖片。點選後會開啟下拉選單：
 
-![您的頭像選單，含「我的個人資料」、「我的證書」、「我的技能」與「登出」連結](/.gitbook/assets/student-avatar-menu.png)
+![您的頭像選單，含「我的個人資料」、「我的證書」、「我的技能」與「登出」連結](../../.gitbook/assets/student-avatar-menu.png)
 
 * **我的個人資料** — 編輯個人資訊、變更密碼，以及（若已啟用）設定雙因素驗證
 * **我的證書** — 您在所有課程中獲得的每一張證書
@@ -26,18 +26,18 @@ Chamilo 3.0 具備簡潔、現代化的介面，旨在讓導覽保持簡單。�
 
 | 選單項目 | 圖示 | 說明 |
 |-----------|------|-------------|
-| **首頁** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主儀表板 |
-| **我的課程** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已註冊的所有課程 |
-| **我的時段** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的培訓時段（進行中、過去、即將開始） |
-| **探索更多課程** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 瀏覽課程目錄，尋找並自行註冊新課程 |
-| **行事曆** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的個人與課程行事曆 |
-| **報表** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 展開為 **進度** — 您自己的[我的進度](../my-progress.md)總覽 |
-| **社群網路** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 若已啟用，展開為[社群網路](../social-network.md)及相關連結 |
-| **視訊會議** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 進入即時視訊時段（若已設定） |
+| **首頁** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主儀表板 |
+| **我的課程** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已註冊的所有課程 |
+| **我的時段** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的培訓時段（進行中、過去、即將開始） |
+| **探索更多課程** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 瀏覽課程目錄，尋找並自行註冊新課程 |
+| **行事曆** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的個人與課程行事曆 |
+| **報表** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 展開為 **進度** — 您自己的[我的進度](../my-progress.md)總覽 |
+| **社群網路** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 若已啟用，展開為[社群網路](../social-network.md)及相關連結 |
+| **視訊會議** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 進入即時視訊時段（若已設定） |
 
 **報表**與**社群網路**並非單純連結 — 點選後會在側邊欄內展開一小串子項目：
 
-![側邊欄中「報表」與「社群網路」已展開，顯示其子項目](/.gitbook/assets/student-sidebar-expanded.png)
+![側邊欄中「報表」與「社群網路」已展開，顯示其子項目](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * 在 **報表** 之下：僅有 **進度**，會帶您前往[我的進度](../my-progress.md)。
 * 在 **社群網路** 之下：**首頁**（社群牆）、**訊息**（通往您[收件匣](../inbox.md)的捷徑）、**我的好友**、**社群群組** — 此外，有些出乎意料地也歸在此處的還有 **我的檔案**（您的個人檔案儲存）與 **個人資料**（平台所持有關於您之個人資料的匯出）。後兩項其實不算「社群」功能；它們只是放在側邊欄的這個區塊。

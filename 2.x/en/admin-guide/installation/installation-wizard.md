@@ -13,7 +13,7 @@ Ensure the following prerequisites are met:
 
 ## Step 1: Installation Language
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Installation wizard Step 1 — language selection](../../.gitbook/assets/install-step1-language.png)
 
 The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
 
@@ -21,7 +21,7 @@ If Chamilo detects an existing installation (for an upgrade), it will display th
 
 ## Step 2: Requirements Check
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](../../.gitbook/assets/install-step2-requirements.png)
 
 The wizard checks your server environment:
 
@@ -34,7 +34,7 @@ If any requirements are not met, the wizard displays warnings or errors. Resolve
 
 ## Step 3: License
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Installation wizard Step 3 — license acceptance](../../.gitbook/assets/install-step3-license.png)
 
 This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
 
@@ -42,7 +42,7 @@ Optionally, you can expand the **Contact information** section to provide detail
 
 ## Step 4: Database Settings
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Installation wizard Step 4 — database connection configuration](../../.gitbook/assets/install-step4-database.png)
 
 Enter your database connection details:
 
@@ -58,7 +58,7 @@ Click **Check database connection** to test. The wizard will not let you proceed
 
 ## Step 5: Configuration Settings
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Installation wizard Step 5 — administrator account, portal settings, and email configuration](../../.gitbook/assets/install-step5-config.png)
 
 This step combines administrator account creation, portal settings, and email configuration.
 
@@ -95,7 +95,7 @@ All these settings can be changed later from the administration panel.
 
 ## Step 6: Last Check Before Install
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![Installation wizard Step 6 — review of all settings before installation](../../.gitbook/assets/install-step6-review.png)
 
 This step displays a summary of everything you entered for review:
 
@@ -107,7 +107,7 @@ Review carefully, then click **Install Chamilo** to execute the installation. Th
 
 ## Step 7: Installation Complete
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![Installation wizard Step 7 — completion with security advice and portal link](../../.gitbook/assets/install-step7-complete.png)
 
 After installation completes successfully, the wizard shows:
 

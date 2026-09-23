@@ -8,7 +8,7 @@ Farbthemen definieren die Farbpalette, die in der gesamten Chamilo-Oberfläche v
 
 ## Ein Thema anwenden
 
-![Die Seite für Farbthemen zeigt verfügbare Themen mit Vorschau-Mustern und einer Schaltfläche „Anwenden“](/.gitbook/assets/admin-color-themes.png)
+![Die Seite für Farbthemen zeigt verfügbare Themen mit Vorschau-Mustern und einer Schaltfläche „Anwenden“](../../.gitbook/assets/admin-color-themes.png)
 
 1. Navigieren Sie im Verwaltungsbereich zu **Farbthemen**
 2. Durchsuchen Sie die verfügbaren Themen

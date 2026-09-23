@@ -4,23 +4,23 @@ La herramienta de glosario te permite definir términos clave para tu curso. Los
 
 ## Añadir un Término
 
-1. Abre la herramienta **Glosario** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página principal del curso
+1. Abre la herramienta **Glosario** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página principal del curso
 2. Haz clic en **Añadir nuevo término al glosario**
 3. Ingresa el **término** y su **definición** (la definición admite formato de texto enriquecido)
 4. Guarda
 
 ## Gestionar Términos
 
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Actualiza un término o su definición
-* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Borra un término del glosario
-* **Buscar** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Buscar" data-size="line"> — Usa la función de búsqueda para encontrar términos específicos rápidamente
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Actualiza un término o su definición
+* **Eliminar** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Borra un término del glosario
+* **Buscar** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="Buscar" data-size="line"> — Usa la función de búsqueda para encontrar términos específicos rápidamente
 
 ## Importar y Exportar
 
 Puedes construir tu glosario más rápido utilizando las funciones de importación/exportación:
 
-* **Importar** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importar" data-size="line"> — Sube una lista de términos y definiciones desde un archivo CSV o XLS. También puedes marcar "Actualizar términos existentes" para sobrescribir las definiciones de términos que ya están en el glosario.
-* **Exportar** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Exportar" data-size="line"> — Descarga el glosario como CSV, Excel (XLS) o PDF para usarlo en otro curso o como referencia offline
+* **Importar** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importar" data-size="line"> — Sube una lista de términos y definiciones desde un archivo CSV o XLS. También puedes marcar "Actualizar términos existentes" para sobrescribir las definiciones de términos que ya están en el glosario.
+* **Exportar** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="Exportar" data-size="line"> — Descarga el glosario como CSV, Excel (XLS) o PDF para usarlo en otro curso o como referencia offline
 
 ## Opciones de Visualización
 

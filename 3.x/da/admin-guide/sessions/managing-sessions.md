@@ -2,7 +2,7 @@
 
 ## Oprettelse af en session
 
-![Formularen til oprettelse af session med felter til navn, datoer, tutor, kategori og synlighed](/.gitbook/assets/admin-session-create-form.png)
+![Formularen til oprettelse af session med felter til navn, datoer, tutor, kategori og synlighed](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Fra administrationspanelet skal du klikke på **Opret en session**
 2. Udfyld sessionsoplysningerne:
@@ -30,7 +30,7 @@ Dette giver dig mulighed for at forberede sessionen, før kursisterne ankommer, 
 
 ## Sessionsliste
 
-![Sessionslisten, der viser alle sessioner med navn, datoer, antal kurser, antal kursister og status](/.gitbook/assets/admin-session-list.png)
+![Sessionslisten, der viser alle sessioner med navn, datoer, antal kurser, antal kursister og status](../../.gitbook/assets/admin-session-list.png)
 
 Sessionslisten viser alle sessioner med:
 
@@ -52,7 +52,7 @@ Klik på en session for at redigere:
 
 ## Tilmelding af brugere
 
-![Sessionsgrænsefladen til tilmelding til at tilføje individuelle brugere, klasser eller importere via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Sessionsgrænsefladen til tilmelding til at tilføje individuelle brugere, klasser eller importere via CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Du kan tilmelde brugere til en session ved:
 

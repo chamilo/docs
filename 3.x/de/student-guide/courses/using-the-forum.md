@@ -4,7 +4,7 @@ Das Tool **Forum** beherbergt strukturierte, hierarchische Diskussionen innerhal
 
 ## Orientierung
 
-Öffnen Sie das Tool **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> von der Kursstartseite aus. Foren sind in drei Ebenen organisiert:
+Öffnen Sie das Tool **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> von der Kursstartseite aus. Foren sind in drei Ebenen organisiert:
 
 1. **Kategorien** — grobe Gruppierungen (z. B. „Allgemeine Diskussionen“, „Fragen zu Modul 1“)
 2. **Foren** — einzelne Diskussionsbereiche innerhalb einer Kategorie

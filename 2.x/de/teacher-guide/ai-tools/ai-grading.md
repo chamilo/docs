@@ -9,11 +9,11 @@ KI-Bewertung ist in zwei Kontexten verfügbar:
 * **Offene Übungsfragen** – Wenn Sie Freitextfragen in einer Übung manuell bewerten
 * **Abgabe von Aufgaben** – Wenn Sie Schülerveröffentlichungen im Aufgaben-Tool überprüfen und bewerten
 
-Achten Sie auf die Schaltfläche **KI-Bewertung** (gekennzeichnet durch ein Roboter-Symbol <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="KI" data-size="line">) in der Bewertungsoberfläche.
+Achten Sie auf die Schaltfläche **KI-Bewertung** (gekennzeichnet durch ein Roboter-Symbol <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="KI" data-size="line">) in der Bewertungsoberfläche.
 
 ## Wie es funktioniert
 
-![Die KI-Bewertungsoberfläche zeigt eine Schülerabgabe mit vorgeschlagener Punktzahl und Rückmeldung](/.gitbook/assets/ai-grading-interface.png)
+![Die KI-Bewertungsoberfläche zeigt eine Schülerabgabe mit vorgeschlagener Punktzahl und Rückmeldung](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Öffnen Sie eine Abgabe oder Antwort, die bewertet werden muss
 2. Klicken Sie auf die Schaltfläche **KI-Bewertung**

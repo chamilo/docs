@@ -4,7 +4,7 @@ Chamilo enthält ein Karrieremanagementsystem, mit dem Sie Ausbildungspfade defi
 
 ## Karrieren
 
-![Die Karrierenliste zeigt definierte Karrierepfade mit Name und Beschreibung](/.gitbook/assets/admin-careers-list.png)
+![Die Karrierenliste zeigt definierte Karrierepfade mit Name und Beschreibung](../../.gitbook/assets/admin-careers-list.png)
 
 Eine **Karriere** repräsentiert einen strukturierten Ausbildungspfad – eine Abfolge von Ausbildungsschritten, die ein Lernender durchläuft, um ein berufliches Ziel zu erreichen.
 

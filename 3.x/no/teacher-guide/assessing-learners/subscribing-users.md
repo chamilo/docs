@@ -19,12 +19,12 @@ Hvis kursets [synlighet](../creating-your-course/course-settings.md#course-visib
 
 ## Manuell påmelding via verktøyet Brukere
 
-For å melde på noen som allerede har en plattformkonto, men som ikke har blitt med på egen hånd, åpner du kursets **Brukere**-verktøy og klikker på ikonet **Legg til brukere** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Legg til brukere" data-size="line">.
+For å melde på noen som allerede har en plattformkonto, men som ikke har blitt med på egen hånd, åpner du kursets **Brukere**-verktøy og klikker på ikonet **Legg til brukere** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Legg til brukere" data-size="line">.
 
 1. Søk etter personen etter navn, brukernavn, e-post eller offisiell kode
 2. Klikk **Registrer** på raden deres, eller velg flere med avmerkingsboksene og bruk **Handling**-menyen for å registrere dem alle samtidig
 
-![Søkeresultater på skjermbildet Meld brukere på kurs, som viser en treffende kursdeltaker og en Registrer-knapp](/.gitbook/assets/course-users-subscribe-search.png)
+![Søkeresultater på skjermbildet Meld brukere på kurs, som viser en treffende kursdeltaker og en Registrer-knapp](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Bare brukere som ikke allerede er påmeldt kurset vises i resultatene.
 
@@ -36,9 +36,9 @@ De tre metodene ovenfor forutsetter alle at personen allerede har en plattformko
 
 ### Tilgang til verktøyet
 
-Åpne kursets **Brukere**-verktøy, og klikk deretter på ikonet **Inviter via e-post** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter via e-post" data-size="line"> i verktøylinjen, ved siden av **Legg til brukere**:
+Åpne kursets **Brukere**-verktøy, og klikk deretter på ikonet **Inviter via e-post** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter via e-post" data-size="line"> i verktøylinjen, ved siden av **Legg til brukere**:
 
-![Verktøylinjen i Brukere-verktøyet, som viser ikonet Legg til brukere og ikonet Inviter via e-post](/.gitbook/assets/course-users-invite-icon.png)
+![Verktøylinjen i Brukere-verktøyet, som viser ikonet Legg til brukere og ikonet Inviter via e-post](../../.gitbook/assets/course-users-invite-icon.png)
 
 Dette åpner siden **Kursinvitasjoner**.
 
@@ -53,7 +53,7 @@ Dette åpner siden **Kursinvitasjoner**.
 1. Skriv inn mottakerens e-postadresse i skjemaet **Inviter via e-post**
 2. Klikk **Send invitasjon**
 
-![Siden Kursinvitasjoner: skjemaet for invitasjon via e-post og en tabell over sendte invitasjoner med status](/.gitbook/assets/course-invitations-list.png)
+![Siden Kursinvitasjoner: skjemaet for invitasjon via e-post og en tabell over sendte invitasjoner med status](../../.gitbook/assets/course-invitations-list.png)
 
 Hver invitasjon du har sendt for dette kurset vises under skjemaet, med status:
 
@@ -65,8 +65,8 @@ Hver invitasjon du har sendt for dette kurset vises under skjemaet, med status:
 
 For en invitasjon som fortsatt er ventende, tilbyr kolonnen **Actions**:
 
-* **Copy** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopier" data-size="line"> — kopierer invitasjonslenken, i tilfelle du heller vil dele den selv (chat, personlig) i stedet for å stole på e-posten.
-* **Revoke** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Tilbakekall" data-size="line"> — avbryter invitasjonen umiddelbart; lenken slutter å virke. En allerede akseptert invitasjon kan ikke tilbakekalles.
+* **Copy** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopier" data-size="line"> — kopierer invitasjonslenken, i tilfelle du heller vil dele den selv (chat, personlig) i stedet for å stole på e-posten.
+* **Revoke** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Tilbakekall" data-size="line"> — avbryter invitasjonen umiddelbart; lenken slutter å virke. En allerede akseptert invitasjon kan ikke tilbakekalles.
 
 > **Den inviterte e-postadressen må ikke allerede ha en konto på denne plattformen.** Hvis den har det, mislykkes sendingen av invitasjonen med en melding som ber deg om å melde på den eksisterende brukeren direkte i stedet — via [Manuell påmelding via verktøyet Brukere](#manual-enrollment-via-the-users-tool) ovenfor.
 

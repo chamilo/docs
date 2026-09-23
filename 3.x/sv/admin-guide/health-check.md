@@ -2,7 +2,7 @@
 
 Hälsokontroll är ett litet block på administrationspanelen som kör ett antal livekontroller av din installation och flaggar allt som behöver åtgärdas — du behöver inte gräva i konfigurationsfiler för att upptäcka vanliga felkonfigurationer.
 
-![Blocket Hälsokontroll på administrationspanelen, som visar godkänd/underkänd-status för e-postinställningar, tilldelning av administratörs-URL och kontroller av filbehörigheter](/.gitbook/assets/admin-health-check-block.png)
+![Blocket Hälsokontroll på administrationspanelen, som visar godkänd/underkänd-status för e-postinställningar, tilldelning av administratörs-URL och kontroller av filbehörigheter](../.gitbook/assets/admin-health-check-block.png)
 
 ## Åtkomst till Hälsokontroll
 

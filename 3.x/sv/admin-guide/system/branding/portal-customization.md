@@ -4,7 +4,7 @@ Anpassa hur din Chamilo-plattform ser ut och vilken information som visas för a
 
 ## Plattformsidentitet
 
-![Sidan för anpassning av portalen som visar inställningar för plattformsidentitet för namn, logotyp och institution](/.gitbook/assets/admin-portal-customization.png)
+![Sidan för anpassning av portalen som visar inställningar för plattformsidentitet för namn, logotyp och institution](../../../.gitbook/assets/admin-portal-customization.png)
 
 Konfigurera den grundläggande identiteten för din portal:
 

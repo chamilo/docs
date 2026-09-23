@@ -4,17 +4,17 @@ La **Bandeja de entrada** es el sistema de mensajería privada de Chamilo: mensa
 
 ## Acceder a su bandeja de entrada
 
-Haga clic en el icono **Bandeja de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> de la barra superior. Un distintivo rojo indica cuántos mensajes no leídos tiene. Si este icono no aparece en absoluto, el administrador ha desactivado la mensajería de la plataforma.
+Haga clic en el icono **Bandeja de entrada** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> de la barra superior. Un distintivo rojo indica cuántos mensajes no leídos tiene. Si este icono no aparece en absoluto, el administrador ha desactivado la mensajería de la plataforma.
 
 ## Lectura y respuesta
 
 Su bandeja de entrada enumera los mensajes recibidos e indica cuáles no se han leído. Ábralos para leerlos y use **Responder** para contestar: puede incluir varios destinatarios en una misma respuesta, lo cual resulta útil para mantener informada a un grupo reducido de personas sin crear un curso formal ni un grupo social.
 
-![La bandeja de entrada, con las pestañas Bandeja de entrada / No leídos / Enviados y una tabla de mensajes recibidos](/.gitbook/assets/student-inbox.png)
+![La bandeja de entrada, con las pestañas Bandeja de entrada / No leídos / Enviados y una tabla de mensajes recibidos](../.gitbook/assets/student-inbox.png)
 
 ## Redactar un mensaje nuevo
 
-Haga clic en el botón **mensaje nuevo** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Mensaje nuevo" data-size="line">, elija uno o varios destinatarios, escriba un asunto y un cuerpo, y envíe. Al igual que una respuesta, un mensaje nuevo puede enviarse a varias personas a la vez.
+Haga clic en el botón **mensaje nuevo** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Mensaje nuevo" data-size="line">, elija uno o varios destinatarios, escriba un asunto y un cuerpo, y envíe. Al igual que una respuesta, un mensaje nuevo puede enviarse a varias personas a la vez.
 
 ## Pestañas y acciones
 

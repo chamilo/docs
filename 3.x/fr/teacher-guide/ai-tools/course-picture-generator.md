@@ -4,22 +4,22 @@ Le générateur d’image de cours par IA vous permet de créer une vignette pou
 
 ## Accéder au générateur
 
-Le bouton **Générer avec l’IA** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Générer avec l’IA" data-size="line"> est disponible à côté du champ **Image du cours**, à condition que :
+Le bouton **Générer avec l’IA** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Générer avec l’IA" data-size="line"> est disponible à côté du champ **Image du cours**, à condition que :
 
 1. Les assistants IA soient activés au niveau de la plateforme
 2. Au moins un fournisseur d’IA configuré sur votre plateforme prenne en charge la génération d’images
 3. La fonctionnalité soit autorisée dans votre cours (voir **Paramètres des assistants IA** dans [Paramètres du cours](../creating-your-course/course-settings.md))
 
-Ouvrez les **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours et faites défiler jusqu’au champ **Image du cours** :
+Ouvrez les **Paramètres** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours et faites défiler jusqu’au champ **Image du cours** :
 
-![Le champ Image du cours dans les Paramètres du cours, avec un bouton Choisir un fichier et un bouton Générer avec l’IA en dessous](/.gitbook/assets/course-picture-ai-button.png)
+![Le champ Image du cours dans les Paramètres du cours, avec un bouton Choisir un fichier et un bouton Générer avec l’IA en dessous](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Comment générer une image
 
 1. Cliquez sur **Générer avec l’IA**
 2. Une boîte de dialogue s’ouvre avec un champ **Invite** prérempli d’une description par défaut ; modifiez-la pour décrire l’illustration souhaitée, ou laissez la valeur par défaut telle quelle
 
-![La boîte de dialogue Générer avec l’IA affichant le champ Invite avec son texte par défaut, et les boutons Annuler/Générer](/.gitbook/assets/course-picture-ai-modal.png)
+![La boîte de dialogue Générer avec l’IA affichant le champ Invite avec son texte par défaut, et les boutons Annuler/Générer](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Cliquez sur **Générer** et patientez — la génération d’image peut prendre quelques secondes
 4. L’image générée est automatiquement placée dans le champ **Image du cours**, en remplaçant tout ce que vous y aviez sélectionné

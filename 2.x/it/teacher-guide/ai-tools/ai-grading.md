@@ -9,11 +9,11 @@ La Valutazione con IA è disponibile in due contesti:
 * **Domande di esercizi a risposta aperta** — Quando valuti manualmente domande a risposta libera in un esercizio
 * **Consegne di compiti** — Quando rivedi e assegni un punteggio alle pubblicazioni degli studenti nello strumento Compiti
 
-Cerca il pulsante **Valutazione con IA** (indicato da un'icona di robot <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) nell'interfaccia di valutazione.
+Cerca il pulsante **Valutazione con IA** (indicato da un'icona di robot <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) nell'interfaccia di valutazione.
 
 ## Come Funziona
 
-![L'interfaccia di valutazione con IA che mostra una consegna dello studente con punteggio suggerito e feedback](/.gitbook/assets/ai-grading-interface.png)
+![L'interfaccia di valutazione con IA che mostra una consegna dello studente con punteggio suggerito e feedback](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Apri una consegna o una risposta che necessita di valutazione
 2. Fai clic sul pulsante **Valutazione con IA**

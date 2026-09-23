@@ -6,8 +6,8 @@ Meddelanden som skickas via meddelanden skickas till deltagarna både via e-post
 
 ## Skapa ett meddelande
 
-1. Öppna verktyget **Meddelanden** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelanden" data-size="line"> från kursens startsida
-2. Klicka på ikonen **Lägg till ett meddelande** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelanden" data-size="line"> igen
+1. Öppna verktyget **Meddelanden** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelanden" data-size="line"> från kursens startsida
+2. Klicka på ikonen **Lägg till ett meddelande** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelanden" data-size="line"> igen
 3. Fyll i:
    * **Mottagare** — Välj vem som tar emot meddelandet:
      * Alla inskrivna deltagare
@@ -25,9 +25,9 @@ Knappen **Förhandsgranska** är inte särskilt intuitiv: den låter dig se till
 
 ## Hantera meddelanden
 
-* **Redigera** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line"> — Ändra ett befintligt meddelande
-* **Ta bort** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Ta bort" data-size="line"> — Ta bort ett meddelande
-* **Synlighet** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Dölj eller visa meddelanden
+* **Redigera** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line"> — Ändra ett befintligt meddelande
+* **Ta bort** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Ta bort" data-size="line"> — Ta bort ett meddelande
+* **Synlighet** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Dölj eller visa meddelanden
 
 Meddelanden visas i omvänd kronologisk ordning (nyaste först).
 

@@ -10,7 +10,7 @@ Desde el panel de administración, haga clic en **Seguridad > Integridad de arch
 
 ## Qué muestra
 
-![La página de integridad de archivos mostrando información del último análisis, paneles de archivos Añadidos, Modificados, Eliminados y con Permisos cambiados, una lista de Historial de alertas y Acciones para ejecutar un análisis, pausar alertas o establecer una nueva línea base](/.gitbook/assets/admin-security-file-integrity.png)
+![La página de integridad de archivos mostrando información del último análisis, paneles de archivos Añadidos, Modificados, Eliminados y con Permisos cambiados, una lista de Historial de alertas y Acciones para ejecutar un análisis, pausar alertas o establecer una nueva línea base](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Último análisis** — Cuándo se ejecutó el análisis más reciente y cuántos archivos comprobó
 * **Añadidos / Modificados / Eliminados** — Archivos que difieren de la línea base, identificados comparando sumas de comprobación SHA-256 (cada lista está limitada a 500 rutas, con una nota si la lista completa es más larga; consulte el registro CEF más abajo para la lista completa)

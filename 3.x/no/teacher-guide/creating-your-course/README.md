@@ -7,10 +7,10 @@ Denne delen forklarer hvordan du oppretter et nytt kurs i Chamilo og konfigurere
 Slik oppretter du et kurs:
 
 1. Klikk **Mine kurs** i sidemenyen
-2. Klikk knappen **Opprett kurs** (vanligvis en grønn bok <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurs" data-size="line">-ikon med et + tegn)
+2. Klikk knappen **Opprett kurs** (vanligvis en grønn bok <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurs" data-size="line">-ikon med et + tegn)
 3. Fyll ut skjemaet for kursopprettelse:
 
-![Skjemaet for kursopprettelse med felt for navn, kategori, kode og språk](/.gitbook/assets/course-creation-form.png)
+![Skjemaet for kursopprettelse med felt for navn, kategori, kode og språk](../../.gitbook/assets/course-creation-form.png)
 
 | Felt | Påkrevd | Beskrivelse |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Du blir omdirigert til startsiden for det nye kurset. En bekreftelsesmelding vis
 
 Når kurset er opprettet, kommer du til startsiden. Dette er det sentrale knutepunktet for kurset, der du og dine deltakere får tilgang til alle verktøy og alt innhold.
 
-![Verktøyrutenettet på kursstartsiden som viser tilgjengelige kursverktøy med ikoner og synlighetssvitsjer](/.gitbook/assets/course-homepage-tool-grid.png)
+![Verktøyrutenettet på kursstartsiden som viser tilgjengelige kursverktøy med ikoner og synlighetssvitsjer](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Startside viser:
 
 * **Kurstittel** — Navnet på kurset ditt, vist øverst.
-* **Kursintroduksjon** — En valgfri beskrivelse eller velkomstmelding. Klikk knappen **+ Kursintroduksjon** for å legge til én, eller knappen **Rediger introduksjon** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> øverst for å endre den. Dette støtter rik tekst med bilder, lenker og formatering.
+* **Kursintroduksjon** — En valgfri beskrivelse eller velkomstmelding. Klikk knappen **+ Kursintroduksjon** for å legge til én, eller knappen **Rediger introduksjon** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> øverst for å endre den. Dette støtter rik tekst med bilder, lenker og formatering.
 * **Verktøyrutenett** — Et rutenett med alle tilgjengelige kursverktøy, hvert vist som et kort med ikon og navn.
 
 ### Administrere verktøysynlighet
 
 Som lærer kan du styre hvilke verktøy deltakerne dine kan se:
 
-* Klikk **øyeikonet** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlig" data-size="line"> ved siden av et hvilket som helst verktøy for å skjule det for deltakerne. Skjulte verktøy viser et **overkrysset øye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Skjult" data-size="line"> og er fortsatt tilgjengelige for deg.
+* Klikk **øyeikonet** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlig" data-size="line"> ved siden av et hvilket som helst verktøy for å skjule det for deltakerne. Skjulte verktøy viser et **overkrysset øye** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Skjult" data-size="line"> og er fortsatt tilgjengelige for deg.
 * Bruk knappene **Vis alle** og **Skjul alle** for å endre alle verktøy samtidig
 * Klikk **Sorter** for å aktivere dra-og-slipp-omorganisering av verktøyrutenettet
 

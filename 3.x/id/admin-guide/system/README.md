@@ -2,7 +2,7 @@
 
 Blok **Sistem** pada dasbor administrasi mengelompokkan alat pemeliharaan tingkat server, alur kerja pembaruan mandiri, utilitas inspeksi penyimpanan/sumber daya, dan branding platform.
 
-![Blok Sistem pada dasbor administrasi, yang mencantumkan Bersihkan berkas sementara, Status sistem, Pembaruan sistem, Warna, Info berkas, Sumber daya menurut jenis, dan Daftar ikon](/.gitbook/assets/admin-system-block.png)
+![Blok Sistem pada dasbor administrasi, yang mencantumkan Bersihkan berkas sementara, Status sistem, Pembaruan sistem, Warna, Info berkas, Sumber daya menurut jenis, dan Daftar ikon](../../.gitbook/assets/admin-system-block.png)
 
 ## Mengakses Blok Sistem
 

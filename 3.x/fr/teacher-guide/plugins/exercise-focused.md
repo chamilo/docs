@@ -1,6 +1,6 @@
 # Exercice ciblé
 
-Exercice ciblé <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercice ciblé" data-size="line"> est une aide anti-triche pour les examens. Si le navigateur d’un étudiant perd le focus pendant un test marqué — passage à un autre onglet ou une autre fenêtre — Chamilo affiche un avertissement en plein écran lui demandant de revenir, et peut soumettre automatiquement sa tentative s’il ne le fait pas.
+Exercice ciblé <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercice ciblé" data-size="line"> est une aide anti-triche pour les examens. Si le navigateur d’un étudiant perd le focus pendant un test marqué — passage à un autre onglet ou une autre fenêtre — Chamilo affiche un avertissement en plein écran lui demandant de revenir, et peut soumettre automatiquement sa tentative s’il ne le fait pas.
 
 ## Marquer un test
 

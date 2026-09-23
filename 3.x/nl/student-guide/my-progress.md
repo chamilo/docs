@@ -4,7 +4,7 @@
 
 ## Toegang
 
-Klik op **Rapportage** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportage" data-size="line"> in de zijbalk om deze uit te vouwen, en klik vervolgens op **Voortgang**. Dit is uw eigen, persoonlijke weergave — er worden alleen uw eigen gegevens getoond, niet die van uw medestudenten.
+Klik op **Rapportage** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportage" data-size="line"> in de zijbalk om deze uit te vouwen, en klik vervolgens op **Voortgang**. Dit is uw eigen, persoonlijke weergave — er worden alleen uw eigen gegevens getoond, niet die van uw medestudenten.
 
 ## Wat u ziet
 
@@ -15,7 +15,7 @@ Een tabel met elke cursus waarin u bent ingeschreven, met:
 * **Beste score in leerpad** en **beste score niet in leerpad** — uw hoogste resultaten, opgesplitst naar of ze afkomstig zijn van een toets in een leerpad of van een zelfstandige toets
 * **Laatste aanmelding** — de laatste keer dat u die cursus hebt geopend
 
-![De tabel Mijn voortgang, met elke ingeschreven cursus, bestede tijd, voortgang en beste scores](/.gitbook/assets/student-my-progress.png)
+![De tabel Mijn voortgang, met elke ingeschreven cursus, bestede tijd, voortgang en beste scores](../.gitbook/assets/student-my-progress.png)
 
 Klik op de knop **Details** naast een cursus om drie subtabelen uit te vouwen zonder de pagina te verlaten:
 
@@ -27,7 +27,7 @@ Klik op de knop **Details** naast een cursus om drie subtabelen uit te vouwen zo
 
 Certificaten maken geen deel uit van deze pagina — u vindt ze onder **Mijn certificaten**, in het avatarmenu rechtsboven op het scherm. Daar staan alle cursussen en sessies waarvoor u een certificaat hebt behaald, met de score, de datum en knoppen om het te **bekijken** of te **downloaden**.
 
-![De pagina Mijn certificaten, met aparte tabellen voor cursuscertificaten en sessiecertificaten](/.gitbook/assets/student-my-certificates.png)
+![De pagina Mijn certificaten, met aparte tabellen voor cursuscertificaten en sessiecertificaten](../.gitbook/assets/student-my-certificates.png)
 
 In het avatarmenu staat ook een koppeling **Mijn vaardigheden**, met de competentiebadges die u hebt ontvangen — los van beide bovenstaande pagina's.
 

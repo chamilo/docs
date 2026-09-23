@@ -46,4 +46,4 @@ Chamilo-ylläpitäjänä hallinnoit seuraavia:
 
 ## Hallintapaneelin avaaminen
 
-Kirjauduttuasi ylläpitäjänä napsauta sivupalkissa **Hallinta** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Hallinta" data-size="line"> avataksesi hallintapaneelin.
+Kirjauduttuasi ylläpitäjänä napsauta sivupalkissa **Hallinta** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Hallinta" data-size="line"> avataksesi hallintapaneelin.

@@ -4,7 +4,7 @@ Deze pagina behandelt de dagelijkse taken voor het aanmaken, bewerken en beheren
 
 ## Gebruikerslijst
 
-![De gebruikerslijst met accounts en kolommen voor naam, e-mail, rol en status](/.gitbook/assets/admin-user-list.png)
+![De gebruikerslijst met accounts en kolommen voor naam, e-mail, rol en status](../../.gitbook/assets/admin-user-list.png)
 
 Klik in het beheerpaneel op **Gebruikerslijst** om alle gebruikers op het platform te zien. De lijst toont:
 
@@ -21,7 +21,7 @@ Gebruik het hulpmiddel **Geavanceerd zoeken** om specifieke gebruikers te vinden
 
 ## Een gebruiker aanmaken
 
-![Het formulier voor het aanmaken van een gebruiker met velden voor naam, e-mail, gebruikersnaam, wachtwoord, rol en taal](/.gitbook/assets/admin-user-create-form.png)
+![Het formulier voor het aanmaken van een gebruiker met velden voor naam, e-mail, gebruikersnaam, wachtwoord, rol en taal](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klik in het beheerpaneel op **Gebruiker toevoegen**
 2. Vul de verplichte velden in:
@@ -41,7 +41,7 @@ Gebruik het hulpmiddel **Geavanceerd zoeken** om specifieke gebruikers te vinden
 
 ## Gebruikers importeren
 
-![De interface voor het importeren van gebruikers voor het uploaden van CSV- of XML-bestanden met gebruikersgegevens](/.gitbook/assets/admin-user-import.png)
+![De interface voor het importeren van gebruikers voor het uploaden van CSV- of XML-bestanden met gebruikersgegevens](../../.gitbook/assets/admin-user-import.png)
 
 Voor het in bulk aanmaken van gebruikers kunt u gebruikers importeren vanuit een bestand:
 

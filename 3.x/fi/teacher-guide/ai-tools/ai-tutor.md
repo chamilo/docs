@@ -24,7 +24,7 @@ Tekoälytutori edellyttää kahden tason määritystä:
 
 ## Keskustelukäyttöliittymä
 
-![Tekoälytutorin keskustelukäyttöliittymä, jossa näkyy oppijan ja tekoälyn välinen keskustelu](/.gitbook/assets/ai-tutor-chat.png)
+![Tekoälytutorin keskustelukäyttöliittymä, jossa näkyy oppijan ja tekoälyn välinen keskustelu](../../.gitbook/assets/ai-tutor-chat.png)
 
 Tekoälytutori näkyy **telakoituna keskustelupaneelina** kurssin sisällä. Oppijat voivat:
 

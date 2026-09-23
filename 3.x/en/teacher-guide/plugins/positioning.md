@@ -1,6 +1,6 @@
 # Positioning
 
-Positioning <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positioning" data-size="line"> adds a before/after self-assessment workflow: pick one test as the **initial test** and another as the **final test** (often a copy of the same test), and Chamilo shows each learner's score change between the two on a radar chart.
+Positioning <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positioning" data-size="line"> adds a before/after self-assessment workflow: pick one test as the **initial test** and another as the **final test** (often a copy of the same test), and Chamilo shows each learner's score change between the two on a radar chart.
 
 ## Accessing the Tool
 

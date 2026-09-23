@@ -4,7 +4,7 @@ Lo strumento **Compiti** (a volte chiamato "pubblicazioni degli studenti" o "lav
 
 ## Invio del proprio lavoro
 
-Apri lo strumento **Compiti** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso, quindi apri il compito specifico. Leggi attentamente la descrizione: contiene le istruzioni del docente su cosa inviare e su come verrà valutato. Poi:
+Apri lo strumento **Compiti** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso, quindi apri il compito specifico. Leggi attentamente la descrizione: contiene le istruzioni del docente su cosa inviare e su come verrà valutato. Poi:
 
 1. Fai clic su **Carica file** (o sul pulsante di invio)
 2. A seconda di come il docente ha configurato il compito, seleziona un file dal computer, scrivi l'invio come testo direttamente, oppure entrambi

@@ -14,7 +14,7 @@ Se la vostra istituzione utilizza un'autenticazione esterna (come Azure, Keycloa
 
 Dopo l'accesso, vedrete la home page di Chamilo. L'interfaccia è organizzata in tre aree principali:
 
-![La home page di Chamilo con gli annunci di sistema e le schede dei corsi](/.gitbook/assets/home-page-teacher.png)
+![La home page di Chamilo con gli annunci di sistema e le schede dei corsi](../../.gitbook/assets/home-page-teacher.png)
 
 * **Barra superiore** — Mostra il logo della piattaforma, la casella dei messaggi (con un badge che indica i messaggi non letti) e l'avatar utente. Fate clic sull'avatar per accedere al profilo e alle impostazioni dell'account.
 * **Barra laterale** — Il pannello di navigazione a sinistra offre un accesso rapido ai corsi, alle sessioni, all'agenda, alla rete sociale e altro ancora. Potete comprimerla facendo clic sul pulsante di commutazione sul bordo.
@@ -24,7 +24,7 @@ Dopo l'accesso, vedrete la home page di Chamilo. L'interfaccia è organizzata in
 
 Dalla barra laterale, fate clic su **My courses** per vedere tutti i corsi in cui siete iscritti come docenti o studenti. Ogni corso compare come una scheda che mostra:
 
-![La pagina My Courses con le schede dei corsi, le miniature e le azioni di accesso rapido](/.gitbook/assets/my-courses-list.png)
+![La pagina My Courses con le schede dei corsi, le miniature e le azioni di accesso rapido](../../.gitbook/assets/my-courses-list.png)
 
 * L'immagine o la miniatura del corso
 * Il titolo del corso

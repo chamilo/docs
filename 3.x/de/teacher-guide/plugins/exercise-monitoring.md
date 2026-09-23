@@ -1,6 +1,6 @@
 # Übungsüberwachung
 
-Übungsüberwachung <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Übungsüberwachung" data-size="line"> verwendet die Webcam eines Studierenden, um während eines Testversuchs Identitätsfotos aufzunehmen — ein Foto eines Ausweisdokuments und ein Foto des Gesichts des Studierenden — zum Zweck der Prüfungsintegrität.
+Übungsüberwachung <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Übungsüberwachung" data-size="line"> verwendet die Webcam eines Studierenden, um während eines Testversuchs Identitätsfotos aufzunehmen — ein Foto eines Ausweisdokuments und ein Foto des Gesichts des Studierenden — zum Zweck der Prüfungsintegrität.
 
 ## Einen Test kennzeichnen
 

@@ -21,11 +21,11 @@ Chamilo では、**同じコンテンツの複数言語版を 1 つのフィー�
 1. 通常どおり、デフォルト言語でコンテンツを記述（または貼り付け）します。
 2. そのテキストを選択し、エディタのツールバーにある **Lang ISO** ボタンをクリックします。
 
-![リッチテキストエディタのツールバー。「Lang ISO」ボタンが先頭付近に表示されている](/.gitbook/assets/teacher-multilang-editor.png)
+![リッチテキストエディタのツールバー。「Lang ISO」ボタンが先頭付近に表示されている](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. メニューから、今書いた言語を選びます。一覧には、プラットフォームで有効なすべての言語が含まれます。必要な言語が一覧にない場合は、一番下の **Custom Chamilo ISO code...** を使い、コードを入力します（例: `en_US`、`fr_FR`、`es`）。
 
-![「Lang ISO」メニューが開き、有効なすべてのプラットフォーム言語に加え、「Add translation to...」とカスタムコードのオプションが一覧表示されている](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![「Lang ISO」メニューが開き、有効なすべてのプラットフォーム言語に加え、「Add translation to...」とカスタムコードのオプションが一覧表示されている](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo は選択範囲をその言語タグで囲みます。次に、その直後に次の言語版を記述（または貼り付け）し、選択して別の言語で同じ操作を繰り返します。
 
@@ -43,17 +43,17 @@ AI 生成コンテンツと同様、結果は校正してください。自分�
 
 同じコース説明セクションを、インターフェース言語が異なる 3 人の学習者が見た例です。これら 3 つのスクリーンショットの間でコース側は何も変わっておらず、閲覧者自身の言語だけが異なります。
 
-![インターフェース言語が英語の学習者から見た、同じコース説明セクション](/.gitbook/assets/teacher-multilang-en.png)
+![インターフェース言語が英語の学習者から見た、同じコース説明セクション](../../.gitbook/assets/teacher-multilang-en.png)
 
-![インターフェース言語がフランス語の学習者から見た、同じセクション](/.gitbook/assets/teacher-multilang-fr.png)
+![インターフェース言語がフランス語の学習者から見た、同じセクション](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![インターフェース言語がスペイン語の学習者から見た、同じセクション](/.gitbook/assets/teacher-multilang-es.png)
+![インターフェース言語がスペイン語の学習者から見た、同じセクション](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### 内部の仕組み
 
 多言語フィールドの**ソースコード**表示（エディターツールバーの `<>` ボタン）を開くと、各言語版が次のように囲まれているのが分かります。
 
-![ソースコード表示。lang="en_US" class="mce-translatehtml" で始まるブロックが表示されている](/.gitbook/assets/teacher-multilang-source-view.png)
+![ソースコード表示。lang="en_US" class="mce-translatehtml" で始まるブロックが表示されている](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 各版は `<div class="mce-translatehtml" lang="...">`（ブロック全体ではなく短いインライン句の場合は `<span>`）で囲まれています。この `lang` 属性を Chamilo が閲覧者の言語と照合し、何を表示するかを決めます。ページソースを調べたり、表示がおかしいコンテンツをトラブルシュートしたりするときは、このクラス名を覚えておくと役立ちます。探すマーカーは **`mce-translatehtml`** です。
 

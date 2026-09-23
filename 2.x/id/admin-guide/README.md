@@ -32,4 +32,4 @@ Sebagai administrator Chamilo, Anda mengelola:
 
 ## Mengakses Panel Administrasi
 
-Setelah masuk sebagai administrator, klik **Administrasi** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi untuk mengakses panel administrasi.
+Setelah masuk sebagai administrator, klik **Administrasi** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi untuk mengakses panel administrasi.

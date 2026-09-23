@@ -4,7 +4,7 @@ Kyselytyökalulla voit luoda kyselylomakkeita oppijoiden palautteen keräämisee
 
 ## Kyselyn luominen
 
-1. Avaa **Kyselyt**-työkalu <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Kyselyt" data-size="line"> kurssin etusivulta
+1. Avaa **Kyselyt**-työkalu <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Kyselyt" data-size="line"> kurssin etusivulta
 2. Napsauta **Luo kysely**
 3. Täytä kyselyn tiedot:
    * **Koodi** — Tämä on kyselyn yksilöllinen koodi. Sitä käytetään sähköposteissa ja linkeissä.
@@ -65,7 +65,7 @@ Julkaisusivun alareunassa on linkki, jolla voi kutsua vielä lisää ulkoisia k�
 
 ## Tulosten tarkastelu
 
-![Kyselyn tulokset kaavioineen ja prosenttijakaumineen kullekin kysymykselle](/.gitbook/assets/survey-results-charts.png)
+![Kyselyn tulokset kaavioineen ja prosenttijakaumineen kullekin kysymykselle](../../.gitbook/assets/survey-results-charts.png)
 
 Kun oppijat ovat vastanneet:
 

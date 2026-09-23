@@ -4,7 +4,7 @@
 
 ## Slik åpner du det
 
-Klikk **Rapportering** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidemenyen for å utvide den, og klikk deretter **Fremgang**. Dette er din egen, personlige visning – den viser alltid bare dine egne data, ikke medstudentenes.
+Klikk **Rapportering** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> i sidemenyen for å utvide den, og klikk deretter **Fremgang**. Dette er din egen, personlige visning – den viser alltid bare dine egne data, ikke medstudentenes.
 
 ## Hva du ser
 
@@ -15,7 +15,7 @@ En tabell som lister opp alle kursene du er i, med:
 * **Beste poengsum i læringssti** og **beste poengsum utenfor læringssti** — dine beste resultater, delt etter om de kom fra en test innebygd i en læringssti eller en frittstående test
 * **Siste innlogging** — siste gang du åpnet det kurset
 
-![Tabellen Min fremgang, som lister opp alle påmeldte kurs med tid brukt, fremgang og beste poengsummer](/.gitbook/assets/student-my-progress.png)
+![Tabellen Min fremgang, som lister opp alle påmeldte kurs med tid brukt, fremgang og beste poengsummer](../.gitbook/assets/student-my-progress.png)
 
 Klikk knappen **Detaljer** ved siden av et hvilket som helst kurs for å utvide tre undertabeller uten å forlate siden:
 
@@ -27,7 +27,7 @@ Klikk knappen **Detaljer** ved siden av et hvilket som helst kurs for å utvide 
 
 Sertifikater er ikke en del av denne siden – finn dem under **Mine sertifikater**, i avatarmenyen øverst til høyre på skjermen. Den lister opp alle kurs og økter der du har oppnådd et sertifikat, med poengsum, dato og knapper for å **vise** eller **laste ned** det.
 
-![Siden Mine sertifikater, med separate tabeller for kurssertifikater og øktsertifikater](/.gitbook/assets/student-my-certificates.png)
+![Siden Mine sertifikater, med separate tabeller for kurssertifikater og øktsertifikater](../.gitbook/assets/student-my-certificates.png)
 
 Avatarmenyen har også en lenke **Mine ferdigheter**, som lister opp kompetansebadges du har blitt tildelt – atskilt fra begge sidene ovenfor.
 

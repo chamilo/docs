@@ -1,10 +1,10 @@
 # Hallintakäyttöliittymän yleiskatsaus
 
-Hallintapaneeli on komentokeskuksesi Chamilo-alustan hallintaan. Pääset siihen napsauttamalla sivupalkissa **Hallinta** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Hallinta" data-size="line">.
+Hallintapaneeli on komentokeskuksesi Chamilo-alustan hallintaan. Pääset siihen napsauttamalla sivupalkissa **Hallinta** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Hallinta" data-size="line">.
 
 ## Hallinnan kojausnäkymä
 
-![Hallinnan kojausnäkymä, jossa näkyvät toiminnalliset lohkot: Käyttäjät, Kurssit, Istunnot ja Asetukset](/.gitbook/assets/admin-dashboard-overview.png)
+![Hallinnan kojausnäkymä, jossa näkyvät toiminnalliset lohkot: Käyttäjät, Kurssit, Istunnot ja Asetukset](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Hallinnan kojausnäkymä on jaettu toiminnallisiin lohkoihin. Kukin lohko kokoaa yhteen toisiinsa liittyvät hallintatyökalut:
 

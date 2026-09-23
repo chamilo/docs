@@ -4,22 +4,22 @@ AI-kursbildegeneratoren lar deg lage et miniatyrbilde for kurset ditt direkte fr
 
 ## Åpne generatoren
 
-Knappen **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> er tilgjengelig ved siden av feltet **Course picture**, forutsatt at:
+Knappen **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> er tilgjengelig ved siden av feltet **Course picture**, forutsatt at:
 
 1. AI-hjelpere er aktivert på plattformnivå
 2. Minst én AI-leverandør konfigurert på plattformen din støtter bildegenerering
 3. Funksjonen er tillatt i kurset ditt (se **AI Helpers Settings** i [Course Settings](../creating-your-course/course-settings.md))
 
-Åpne kursets **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> og rull til feltet **Course picture**:
+Åpne kursets **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> og rull til feltet **Course picture**:
 
-![Feltet Course picture i Course Settings, med en Choose File-knapp og en Generate with AI-knapp under](/.gitbook/assets/course-picture-ai-button.png)
+![Feltet Course picture i Course Settings, med en Choose File-knapp og en Generate with AI-knapp under](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Slik genererer du et bilde
 
 1. Klikk **Generate with AI**
 2. En dialog åpnes med et **Prompt**-felt forhåndsutfylt med en standardbeskrivelse; rediger den for å beskrive illustrasjonen du ønsker, eller la standarden stå
 
-![Dialogen Generate with AI som viser Prompt-feltet med standardteksten, og knappene Cancel/Generate](/.gitbook/assets/course-picture-ai-modal.png)
+![Dialogen Generate with AI som viser Prompt-feltet med standardteksten, og knappene Cancel/Generate](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Klikk **Generate** og vent — bildegenerering kan ta noen sekunder
 4. Det genererte bildet plasseres automatisk i feltet **Course picture** og erstatter det du eventuelt hadde valgt der

@@ -17,11 +17,11 @@ Algumas plataformas também ativam o Tutor de IA **fora de qualquer curso** — 
 
 Procure o botão de chat (um ícone flutuante de balão de fala) na parte inferior da tela. Ao abri-lo, você verá seus contatos e, se estiver ativado, uma entrada dedicada **Tutor de IA** com um ícone de robô e um ponto de “online” — clique nela para iniciar ou continuar a conversa com a IA.
 
-![A lista de contatos do painel de chat, com uma entrada do Tutor de IA acima dos seus contatos regulares](/.gitbook/assets/student-docked-chat-contacts.png)
+![A lista de contatos do painel de chat, com uma entrada do Tutor de IA acima dos seus contatos regulares](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Digite sua pergunta e pressione **Enter** para enviá-la (**Shift+Enter** insere uma quebra de linha em vez de enviar). O Tutor de IA formata as respostas com títulos, listas, texto em negrito e blocos de código quando útil, para que explicações mais longas permaneçam legíveis.
 
-![Uma conversa aberta com o Tutor de IA, com o compositor de mensagens na parte inferior](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Uma conversa aberta com o Tutor de IA, com o compositor de mensagens na parte inferior](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Perguntando sobre algo que você está lendo
 

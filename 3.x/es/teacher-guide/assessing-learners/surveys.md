@@ -4,7 +4,7 @@ La herramienta de encuestas le permite crear cuestionarios para recoger opinione
 
 ## Crear una encuesta
 
-1. Abra la herramienta **Encuestas** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Encuestas" data-size="line"> desde la página de inicio del curso
+1. Abra la herramienta **Encuestas** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Encuestas" data-size="line"> desde la página de inicio del curso
 2. Haga clic en **Crear encuesta**
 3. Complete los datos de la encuesta:
    * **Código** — Es un código único para la encuesta. Se utilizará en correos y enlaces.
@@ -65,7 +65,7 @@ En la parte inferior de la página de publicación hay un enlace para invitar a 
 
 ## Ver resultados
 
-![Resultados de la encuesta con gráficos y desgloses porcentuales para cada pregunta](/.gitbook/assets/survey-results-charts.png)
+![Resultados de la encuesta con gráficos y desgloses porcentuales para cada pregunta](../../.gitbook/assets/survey-results-charts.png)
 
 Después de que los alumnos hayan respondido:
 

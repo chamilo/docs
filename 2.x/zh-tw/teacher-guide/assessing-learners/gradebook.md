@@ -19,7 +19,7 @@ Chamilo 根據這些權重計算每個學習者的整體分數。
 
 ## 設定評分
 
-1. 從課程首頁開啟**評分**工具 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成績單" data-size="line">
+1. 從課程首頁開啟**評分**工具 <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="成績單" data-size="line">
 2. 您將看到評分概覽，初始為空
 
 ### 新增活動
@@ -48,7 +48,7 @@ Chamilo 根據這些權重計算每個學習者的整體分數。
 
 ## 檢視分數
 
-![顯示學習者姓名、活動分數及總權重的成績單概覽表格](/.gitbook/assets/gradebook-overview.png)
+![顯示學習者姓名、活動分數及總權重的成績單概覽表格](../../.gitbook/assets/gradebook-overview.png)
 
 評分顯示表格，包含：
 
@@ -75,7 +75,7 @@ Chamilo 根據這些權重計算每個學習者的整體分數。
 
 ## 匯出分數
 
-按一下**匯出**按鈕 <img src="/.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line">，以下載分數試算表。這有助於：
+按一下**匯出**按鈕 <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line">，以下載分數試算表。這有助於：
 
 * 與行政系統分享分數
 * 在 Chamilo 外進行額外分析

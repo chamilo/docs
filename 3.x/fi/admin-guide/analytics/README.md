@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Analytiikka**-lohko kokoaa yhteen koko alustan tilastot, oppimisanalytiikan, yritys-/HR-raportoinnin ja joukkovientityökalut. Chamilo-versiostasi riippuen tämä lohko voi olla merkitty hallintapaneelissa nimellä **"Seuranta"** — kyseessä on joka tapauksessa sama lohko. Tässä oppaassa sitä kutsutaan Analytiikaksi sekaannusten välttämiseksi [Seuranta-asetusten](../platform-settings/tracking-settings.md) kanssa, joka on erillinen asetusluokka, joka ohjaa mitä tallennetaan eikä itse raportteja.
 
-![Hallintapaneelin Analytiikka-lohko (tässä kuvakaappauksessa merkitty "Seuranta"), jossa näkyvät Yleiset tilastot, Raporttiluettelo, Oppimisanalytiikka, Neljännesvuosiraportti, Opettajien aikaraportti, Yritysraportti, Erityisviennit ja Tiketit](/.gitbook/assets/admin-analytics-block.png)
+![Hallintapaneelin Analytiikka-lohko (tässä kuvakaappauksessa merkitty "Seuranta"), jossa näkyvät Yleiset tilastot, Raporttiluettelo, Oppimisanalytiikka, Neljännesvuosiraportti, Opettajien aikaraportti, Yritysraportti, Erityisviennit ja Tiketit](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Analytiikan käyttäminen
 

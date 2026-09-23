@@ -2,7 +2,7 @@
 
 Der Block **System** auf dem Administrations-Dashboard gruppiert Wartungswerkzeuge auf Serverebene, den Selbstaktualisierungs-Workflow, Dienstprogramme zur Prüfung von Speicher und Ressourcen sowie das Branding der Plattform.
 
-![Der Block System auf dem Administrations-Dashboard mit den Einträgen Clean temporary files, System status, System update, Colors, File info, Resources by type und List icons](/.gitbook/assets/admin-system-block.png)
+![Der Block System auf dem Administrations-Dashboard mit den Einträgen Clean temporary files, System status, System update, Colors, File info, Resources by type und List icons](../../.gitbook/assets/admin-system-block.png)
 
 ## Accessing the System Block
 

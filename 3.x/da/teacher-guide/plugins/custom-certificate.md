@@ -1,6 +1,6 @@
 # Brugerdefineret certifikat
 
-Pluginet Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Brugerdefineret certifikat" data-size="line"> lader dig erstatte det standard [karakterbogs-certifikat](../assessing-learners/gradebook.md) med dit eget design — logoer, et segl, op til fire signaturbilleder med billedtekster, et baggrundsbillede, margener og indhold opbygget af pladsholder-tags.
+Pluginet Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Brugerdefineret certifikat" data-size="line"> lader dig erstatte det standard [karakterbogs-certifikat](../assessing-learners/gradebook.md) med dit eget design — logoer, et segl, op til fire signaturbilleder med billedtekster, et baggrundsbillede, margener og indhold opbygget af pladsholder-tags.
 
 ## Aktivering for dit kursus
 

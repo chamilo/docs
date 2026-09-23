@@ -21,7 +21,7 @@ If a course's visibility allows it, you can subscribe yourself without waiting f
 2. Browse or search for the course you want to join.
 3. Click the course to open its details, then click the button to join it.
 
-![The course catalogue, with a Subscribe button on each course card](/.gitbook/assets/student-course-catalogue.png)
+![The course catalogue, with a Subscribe button on each course card](../../.gitbook/assets/student-course-catalogue.png)
 
 A course you're already enrolled in shows **Go to the course** instead of a subscribe button.
 

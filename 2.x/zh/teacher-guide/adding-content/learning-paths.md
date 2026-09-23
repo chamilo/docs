@@ -16,14 +16,14 @@
 
 ## 创建学习路径
 
-1. 在课程首页打开**学习路径**工具 <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line">
+1. 在课程首页打开**学习路径**工具 <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line">
 2. 点击**创建学习路径**
 3. 输入**标题**和可选的描述
 4. 保存 — 您将被带到学习路径编辑器
 
 ## 学习路径编辑器
 
-![学习路径编辑器，左侧为项目树，右侧为内容预览](/.gitbook/assets/learning-path-editor.png)
+![学习路径编辑器，左侧为项目树，右侧为内容预览](../../.gitbook/assets/learning-path-editor.png)
 
 编辑器有两个主要区域：
 

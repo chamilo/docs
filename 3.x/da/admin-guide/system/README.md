@@ -2,7 +2,7 @@
 
 Blokken **System** på administrationsdashboardet samler vedligeholdelsesværktøjer på serverniveau, selvopdateringsworkflowet, hjælpeprogrammer til inspektion af lager/ressourcer og platformbranding.
 
-![Blokken System på administrationsdashboardet med listerne Clean temporary files, System status, System update, Colors, File info, Resources by type og List icons](/.gitbook/assets/admin-system-block.png)
+![Blokken System på administrationsdashboardet med listerne Clean temporary files, System status, System update, Colors, File info, Resources by type og List icons](../../.gitbook/assets/admin-system-block.png)
 
 ## Adgang til System-blokken
 

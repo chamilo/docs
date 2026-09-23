@@ -4,9 +4,9 @@ I rapporti del corso offrono una visione aggregata dell'attività e delle presta
 
 ## Accesso ai Rapporti del Corso
 
-Apri lo strumento **Monitoraggio** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> dalla homepage del corso e seleziona la vista dei rapporti a livello di corso.
+Apri lo strumento **Monitoraggio** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> dalla homepage del corso e seleziona la vista dei rapporti a livello di corso.
 
-![Panoramica del monitoraggio del corso che mostra metriche di coinvolgimento e riepilogo dell'attività degli studenti](/.gitbook/assets/tracking-course-overview.png)
+![Panoramica del monitoraggio del corso che mostra metriche di coinvolgimento e riepilogo dell'attività degli studenti](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Rapporti Disponibili
 
@@ -43,7 +43,7 @@ Per ogni compito:
 
 ## Esportazione dei Dati
 
-Puoi esportare i dati di monitoraggio e i rapporti per ulteriori analisi. Cerca l'opzione **Esporta** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i dati in un formato compatibile con i fogli di calcolo.
+Puoi esportare i dati di monitoraggio e i rapporti per ulteriori analisi. Cerca l'opzione **Esporta** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i dati in un formato compatibile con i fogli di calcolo.
 
 ## Rapporti di Sessione
 

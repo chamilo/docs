@@ -20,7 +20,7 @@ Oppmøteverktøyet lar deg registrere lærendes tilstedeværelse på planlagte �
 Hvert oppmøteark inneholder én eller flere datoer (økter) der du registrerer tilstedeværelse:
 
 1. Åpne et oppmøteark eller fortsett opprettelsesprosessen
-2. Klikk **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Legg til dato" data-size="line">
+2. Klikk **Add a date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Legg til dato" data-size="line">
 3. Velg dato og tidspunkt
 4. Merk eventuelt av **Repeat date** for å velge en gjentakelseslogikk
 5. Angi en **Duration** i minutter for hendelsen (standard er 60 minutter)
@@ -44,7 +44,7 @@ Merk: Administratorer kan endre portalens konfigurasjon slik at du kan velge mer
 
 ## Vise oppmøterapporter
 
-![Oppmøtearket som viser en oppsummeringstabell med lærende, datoer og tilstedeværelsesindikatorer](/.gitbook/assets/attendance-sheet.png)
+![Oppmøtearket som viser en oppsummeringstabell med lærende, datoer og tilstedeværelsesindikatorer](../../.gitbook/assets/attendance-sheet.png)
 
 Oppmøteverktøyet viser:
 

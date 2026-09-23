@@ -7,10 +7,10 @@ Esta sección explica cómo crear un nuevo curso en Chamilo y configurarlo segú
 Para crear un curso:
 
 1. Haz clic en **Mis cursos** en la barra lateral
-2. Haz clic en el botón **Crear curso** (generalmente un libro verde <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> con un signo +)
+2. Haz clic en el botón **Crear curso** (generalmente un libro verde <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> con un signo +)
 3. Completa el formulario de creación de curso:
 
-![Formulario de creación de curso con campos para nombre, categoría, código e idioma](/.gitbook/assets/course-creation-form.png)
+![Formulario de creación de curso con campos para nombre, categoría, código e idioma](../../.gitbook/assets/course-creation-form.png)
 
 | Campo | Requerido | Descripción |
 |-------|-----------|-------------|
@@ -29,19 +29,19 @@ Serás redirigido a la página principal de tu nuevo curso. Aparecerá un mensaj
 
 Una vez creado tu curso, llegarás a su página principal. Este es el centro neurálgico de tu curso, donde tú y tus estudiantes acceden a todas las herramientas y contenidos.
 
-![Cuadrícula de herramientas de la página principal del curso mostrando las herramientas disponibles con iconos y opciones de visibilidad](/.gitbook/assets/course-homepage-tool-grid.png)
+![Cuadrícula de herramientas de la página principal del curso mostrando las herramientas disponibles con iconos y opciones de visibilidad](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 La página principal muestra:
 
 * **Título del curso** — El nombre de tu curso, mostrado en la parte superior.
-* **Introducción al curso** — Una descripción o mensaje de bienvenida opcional. Haz clic en el botón **+ Introducción al curso** para agregar uno, o en el botón **Editar introducción** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> en la parte superior para modificarlo. Esto admite texto enriquecido con imágenes, enlaces y formato.
+* **Introducción al curso** — Una descripción o mensaje de bienvenida opcional. Haz clic en el botón **+ Introducción al curso** para agregar uno, o en el botón **Editar introducción** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> en la parte superior para modificarlo. Esto admite texto enriquecido con imágenes, enlaces y formato.
 * **Cuadrícula de herramientas** — Una cuadrícula con todas las herramientas disponibles del curso, cada una mostrada como una tarjeta con un icono y un nombre.
 
 ### Gestionando la visibilidad de las herramientas
 
 Como profesor, puedes controlar qué herramientas pueden ver tus estudiantes:
 
-* Haz clic en el **icono de ojo** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> junto a cualquier herramienta para ocultarla a los estudiantes. Las herramientas ocultas muestran un **ojo tachado** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Oculto" data-size="line"> y siguen siendo accesibles para ti.
+* Haz clic en el **icono de ojo** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> junto a cualquier herramienta para ocultarla a los estudiantes. Las herramientas ocultas muestran un **ojo tachado** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Oculto" data-size="line"> y siguen siendo accesibles para ti.
 * Usa los botones **Mostrar todo** y **Ocultar todo** para cambiar todas las herramientas a la vez
 * Haz clic en **Ordenar** para habilitar la reorganización de la cuadrícula de herramientas mediante arrastrar y soltar
 

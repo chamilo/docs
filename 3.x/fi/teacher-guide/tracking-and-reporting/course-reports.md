@@ -4,9 +4,9 @@ Kurssiraportit tarjoavat kootun näkymän toimintaan ja suorituksiin kaikista ku
 
 ## Kurssiraporttien avaaminen
 
-Avaa **Seuranta**-työkalu <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seuranta" data-size="line"> kurssin etusivulta ja valitse kurssitason raporttinäkymä.
+Avaa **Seuranta**-työkalu <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Seuranta" data-size="line"> kurssin etusivulta ja valitse kurssitason raporttinäkymä.
 
-![Kurssin seurannan yleiskuva, jossa näkyvät sitoutumismittarit ja oppijoiden toiminnan yhteenveto](/.gitbook/assets/tracking-course-overview.png)
+![Kurssin seurannan yleiskuva, jossa näkyvät sitoutumismittarit ja oppijoiden toiminnan yhteenveto](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Saatavilla olevat raportit
 
@@ -43,7 +43,7 @@ Jokaiselle tehtävälle:
 
 ## Tietojen vieminen
 
-Voit viedä seuranta- ja raporttitietoja jatkokäsittelyä varten. Etsi **Vie**-vaihtoehto <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Vie" data-size="line"> ladataksesi tiedot taulukkolaskentaohjelmaan sopivassa muodossa.
+Voit viedä seuranta- ja raporttitietoja jatkokäsittelyä varten. Etsi **Vie**-vaihtoehto <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Vie" data-size="line"> ladataksesi tiedot taulukkolaskentaohjelmaan sopivassa muodossa.
 
 ## Istuntoraportit
 

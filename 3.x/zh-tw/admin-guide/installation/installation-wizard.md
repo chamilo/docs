@@ -13,7 +13,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 1：安裝語言
 
-![安裝精靈步驟 1 — 語言選擇](/.gitbook/assets/install-step1-language.png)
+![安裝精靈步驟 1 — 語言選擇](../../.gitbook/assets/install-step1-language.png)
 
 第一個步驟可讓您選擇安裝過程所使用的語言。請從下拉選單中選擇您偏好的語言。
 
@@ -21,7 +21,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 2：需求檢查
 
-![安裝精靈步驟 2 — 需求檢查，顯示 PHP 版本、擴充功能與目錄權限](/.gitbook/assets/install-step2-requirements.png)
+![安裝精靈步驟 2 — 需求檢查，顯示 PHP 版本、擴充功能與目錄權限](../../.gitbook/assets/install-step2-requirements.png)
 
 精靈會檢查您的伺服器環境：
 
@@ -34,7 +34,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 3：授權條款
 
-![安裝精靈步驟 3 — 授權條款接受](/.gitbook/assets/install-step3-license.png)
+![安裝精靈步驟 3 — 授權條款接受](../../.gitbook/assets/install-step3-license.png)
 
 此步驟會顯示 GNU/GPLv3 授權條款。您必須勾選 **「I accept」** 核取方塊才能繼續。
 
@@ -42,7 +42,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 4：資料庫設定
 
-![安裝精靈步驟 4 — 資料庫連線設定](/.gitbook/assets/install-step4-database.png)
+![安裝精靈步驟 4 — 資料庫連線設定](../../.gitbook/assets/install-step4-database.png)
 
 請輸入您的資料庫連線詳細資料：
 
@@ -58,7 +58,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 5：組態設定
 
-![安裝精靈步驟 5 — 管理員帳號、入口網站設定與電子郵件組態](/.gitbook/assets/install-step5-config.png)
+![安裝精靈步驟 5 — 管理員帳號、入口網站設定與電子郵件組態](../../.gitbook/assets/install-step5-config.png)
 
 此步驟整合管理員帳號建立、入口網站設定與電子郵件組態。
 
@@ -95,7 +95,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 6：安裝前最後檢查
 
-![安裝精靈步驟 6 — 安裝前檢視所有設定](/.gitbook/assets/install-step6-review.png)
+![安裝精靈步驟 6 — 安裝前檢視所有設定](../../.gitbook/assets/install-step6-review.png)
 
 此步驟會顯示您所輸入全部內容的摘要，供您檢視：
 
@@ -107,7 +107,7 @@ Chamilo 3.0 內建以網頁為基礎的安裝精靈，可引導您完成初始�
 
 ## 步驟 7：安裝完成
 
-![安裝精靈步驟 7 — 完成畫面，含安全性建議與入口網站連結](/.gitbook/assets/install-step7-complete.png)
+![安裝精靈步驟 7 — 完成畫面，含安全性建議與入口網站連結](../../.gitbook/assets/install-step7-complete.png)
 
 安裝成功完成後，精靈會顯示：
 

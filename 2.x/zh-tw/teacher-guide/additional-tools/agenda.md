@@ -4,9 +4,9 @@
 
 ## 查看議程
 
-從課程首頁開啟 **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> 工具。您可以以三種模式查看活動：
+從課程首頁開啟 **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> 工具。您可以以三種模式查看活動：
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![The agenda in calendar view showing course events and deadlines](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **日曆檢視** — 視覺化的月/週/日日曆
 * **清單檢視** — 以時間順序顯示活動的清單
@@ -14,7 +14,7 @@
 
 ## 建立活動
 
-1. 點選 **新增活動** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
+1. 點選 **新增活動** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
 2. 填寫活動詳細資料：
    * **標題** — 活動的簡短名稱
    * **開始日期和時間**
@@ -23,13 +23,13 @@
 3. 選擇 **對象**：
    * **所有學習者** — 課程中所有註冊的學習者
    * **特定使用者或群組** — 選取個別學習者或群組
-4. 選用設定 **提醒** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line">，以在活動前發送電子郵件通知（需要管理員為入口網站設定 *cron*）
+4. 選用設定 **提醒** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line">，以在活動前發送電子郵件通知（需要管理員為入口網站設定 *cron*）
 5. 儲存
 
 ## 管理活動
 
-* **編輯** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 點選活動以修改其詳細資料
-* **刪除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — 從日曆中移除活動
+* **編輯** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 點選活動以修改其詳細資料
+* **刪除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — 從日曆中移除活動
 * **拖曳放下** — 在日曆檢視中，拖曳活動以重新排程
 
 ## 個人議程

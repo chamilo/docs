@@ -8,7 +8,7 @@
 
 ## 运行扫描
 
-![密码强度检查器页面，包含用于扫描的用户 ID 字段以及运行扫描的按钮](/.gitbook/assets/admin-security-password-strength.png)
+![密码强度检查器页面，包含用于扫描的用户 ID 字段以及运行扫描的按钮](../../.gitbook/assets/admin-security-password-strength.png)
 
 * 将 **要扫描的用户 ID** 留空以扫描所有活跃用户，或输入以逗号分隔的用户 ID 列表以检查部分用户
 * 点击 **运行密码强度扫描**
@@ -17,7 +17,7 @@
 
 ## 根据结果采取措施
 
-![已完成的扫描结果，列出被标记的用户，包含姓名、用户名和电子邮件列，以及每行用于请求更改密码或强制重置密码的操作](/.gitbook/assets/admin-security-password-strength-results.png)
+![已完成的扫描结果，列出被标记的用户，包含姓名、用户名和电子邮件列，以及每行用于请求更改密码或强制重置密码的操作](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 扫描完成后，被标记的用户会列出，并提供两项可用操作，可针对单个用户执行，也可作为对所有所选用户的批量操作：
 

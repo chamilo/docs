@@ -21,7 +21,7 @@ Si la visibilité d'un cours le permet, vous pouvez vous y inscrire vous-même s
 2. Parcourez ou recherchez le cours que vous souhaitez rejoindre.
 3. Cliquez sur le cours pour ouvrir ses détails, puis cliquez sur le bouton pour le rejoindre.
 
-![Le catalogue de cours, avec un bouton S'inscrire sur chaque carte de cours](/.gitbook/assets/student-course-catalogue.png)
+![Le catalogue de cours, avec un bouton S'inscrire sur chaque carte de cours](../../.gitbook/assets/student-course-catalogue.png)
 
 Un cours auquel vous êtes déjà inscrit affiche **Aller au cours** au lieu d'un bouton d'inscription.
 

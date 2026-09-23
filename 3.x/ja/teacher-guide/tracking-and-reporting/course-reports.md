@@ -4,9 +4,9 @@
 
 ## コースレポートへのアクセス
 
-コースホームページから **トラッキング** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="トラッキング" data-size="line"> ツールを開き、コースレベルのレポート表示を選択します。
+コースホームページから **トラッキング** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="トラッキング" data-size="line"> ツールを開き、コースレベルのレポート表示を選択します。
 
-![エンゲージメント指標と学習者の活動概要を示すコーストラッキングの概要](/.gitbook/assets/tracking-course-overview.png)
+![エンゲージメント指標と学習者の活動概要を示すコーストラッキングの概要](../../.gitbook/assets/tracking-course-overview.png)
 
 ## 利用可能なレポート
 
@@ -43,7 +43,7 @@
 
 ## データのエクスポート
 
-トラッキングおよびレポートデータをエクスポートし、さらに分析できます。スプレッドシート互換形式でデータをダウンロードするには、**エクスポート** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> オプションを探してください。
+トラッキングおよびレポートデータをエクスポートし、さらに分析できます。スプレッドシート互換形式でデータをダウンロードするには、**エクスポート** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> オプションを探してください。
 
 ## セッションレポート
 

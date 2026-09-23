@@ -19,12 +19,12 @@ Jos kurssisi [näkyvyys](../creating-your-course/course-settings.md#course-visib
 
 ## Manuaalinen ilmoittaminen Käyttäjät-työkalulla
 
-Ilmoittaaksesi henkilön, jolla on jo alustatili mutta joka ei ole liittynyt itse, avaa kurssisi **Käyttäjät**-työkalu ja klikkaa **Lisää käyttäjiä** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Lisää käyttäjiä" data-size="line"> -kuvaketta.
+Ilmoittaaksesi henkilön, jolla on jo alustatili mutta joka ei ole liittynyt itse, avaa kurssisi **Käyttäjät**-työkalu ja klikkaa **Lisää käyttäjiä** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Lisää käyttäjiä" data-size="line"> -kuvaketta.
 
 1. Etsi henkilö nimen, käyttäjänimen, sähköpostin tai virallisen koodin perusteella
 2. Klikkaa rivillä **Rekisteröi** tai valitse useita valintaruuduilla ja käytä **Toiminto**-valikkoa rekisteröidäksesi heidät kaikki kerralla
 
-![Hakutulokset Ilmoita käyttäjiä kurssille -näytössä, jossa näkyy vastaava oppija ja Rekisteröi-painike](/.gitbook/assets/course-users-subscribe-search.png)
+![Hakutulokset Ilmoita käyttäjiä kurssille -näytössä, jossa näkyy vastaava oppija ja Rekisteröi-painike](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Tuloksissa näkyvät vain käyttäjät, jotka eivät ole jo ilmoittautuneet kurssille.
 
@@ -36,9 +36,9 @@ Kolme edellä olevaa menetelmää olettavat, että henkilöllä on jo alustatili
 
 ### Työkalun avaaminen
 
-Avaa kurssisi **Käyttäjät**-työkalu ja klikkaa sitten työkalupalkista **Kutsu sähköpostilla** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Kutsu sähköpostilla" data-size="line"> -kuvaketta **Lisää käyttäjiä** -kuvakkeen vierestä:
+Avaa kurssisi **Käyttäjät**-työkalu ja klikkaa sitten työkalupalkista **Kutsu sähköpostilla** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Kutsu sähköpostilla" data-size="line"> -kuvaketta **Lisää käyttäjiä** -kuvakkeen vierestä:
 
-![Käyttäjät-työkalun työkalupalkki, jossa näkyvät Lisää käyttäjiä -kuvake ja Kutsu sähköpostilla -kuvake](/.gitbook/assets/course-users-invite-icon.png)
+![Käyttäjät-työkalun työkalupalkki, jossa näkyvät Lisää käyttäjiä -kuvake ja Kutsu sähköpostilla -kuvake](../../.gitbook/assets/course-users-invite-icon.png)
 
 Tämä avaa **Kurssikutsut**-sivun.
 
@@ -53,7 +53,7 @@ Tämä avaa **Kurssikutsut**-sivun.
 1. Syötä vastaanottajan sähköpostiosoite **Kutsu sähköpostitse** -lomakkeeseen
 2. Napsauta **Lähetä kutsu**
 
-![Kurssikutsujen sivu: kutsu-sähköpostitse-lomake ja taulukko lähetetyistä kutsuista tiloineen](/.gitbook/assets/course-invitations-list.png)
+![Kurssikutsujen sivu: kutsu-sähköpostitse-lomake ja taulukko lähetetyistä kutsuista tiloineen](../../.gitbook/assets/course-invitations-list.png)
 
 Kaikki tälle kurssille lähettämäsi kutsut näkyvät lomakkeen alla tiloineen:
 
@@ -65,8 +65,8 @@ Kaikki tälle kurssille lähettämäsi kutsut näkyvät lomakkeen alla tiloineen
 
 Vielä odottavalle kutsulle **Toiminnot**-sarake tarjoaa:
 
-* **Kopioi** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopioi" data-size="line"> — kopioi kutsulinkin, jos haluat mieluummin jakaa sen itse (chatissa, kasvokkain) sen sijaan, että luottaisit sähköpostiin.
-* **Peruuta** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Peruuta" data-size="line"> — peruuttaa kutsun heti; linkki lakkaa toimimasta. Jo hyväksyttyä kutsua ei voi perua.
+* **Kopioi** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopioi" data-size="line"> — kopioi kutsulinkin, jos haluat mieluummin jakaa sen itse (chatissa, kasvokkain) sen sijaan, että luottaisit sähköpostiin.
+* **Peruuta** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Peruuta" data-size="line"> — peruuttaa kutsun heti; linkki lakkaa toimimasta. Jo hyväksyttyä kutsua ei voi perua.
 
 > **Kutsutulla sähköpostiosoitteella ei saa jo olla tiliä tällä alustalla.** Jos on, kutsun lähettäminen epäonnistuu viestillä, jossa pyydetään ilmoittamaan kyseinen olemassa oleva käyttäjä suoraan — [Manuaalinen ilmoittautuminen Käyttäjät-työkalun kautta](#manual-enrollment-via-the-users-tool) yllä.
 

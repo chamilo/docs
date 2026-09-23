@@ -1,6 +1,6 @@
 # Calendário de Aprendizagem
 
-O Calendário de Aprendizagem <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendário de Aprendizagem" data-size="line"> ajuda a planear formação blended ou em regime de aprendizagem que combina tempo em sala de aula com prática fora do local. Constrói um calendário marcando cada dia como **Ocupado**, **Exame** ou **Livre**, atribui-lhe formandos e a agenda pessoal destes passa então a mostrar esses dias planeados.
+O Calendário de Aprendizagem <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendário de Aprendizagem" data-size="line"> ajuda a planear formação blended ou em regime de aprendizagem que combina tempo em sala de aula com prática fora do local. Constrói um calendário marcando cada dia como **Ocupado**, **Exame** ou **Livre**, atribui-lhe formandos e a agenda pessoal destes passa então a mostrar esses dias planeados.
 
 ## Aceder à Ferramenta
 

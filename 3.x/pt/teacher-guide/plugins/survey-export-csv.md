@@ -1,6 +1,6 @@
 # Exportação de Inquérito em CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportação de Inquérito em CSV" data-size="line"> adiciona uma exportação com um clique dos resultados de um inquérito para um ficheiro CSV compacto, com uma linha por respondente e uma coluna por pergunta.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportação de Inquérito em CSV" data-size="line"> adiciona uma exportação com um clique dos resultados de um inquérito para um ficheiro CSV compacto, com uma linha por respondente e uma coluna por pergunta.
 
 ## Exportar um Inquérito
 

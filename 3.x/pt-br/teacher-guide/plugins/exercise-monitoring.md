@@ -1,6 +1,6 @@
 # Monitoramento de Exercícios
 
-O Monitoramento de Exercícios <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Monitoramento de Exercícios" data-size="line"> usa a webcam do aluno para capturar fotos de identidade durante uma tentativa de teste — uma foto de um documento de identificação e uma foto do rosto do aluno — para fins de integridade do exame.
+O Monitoramento de Exercícios <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Monitoramento de Exercícios" data-size="line"> usa a webcam do aluno para capturar fotos de identidade durante uma tentativa de teste — uma foto de um documento de identificação e uma foto do rosto do aluno — para fins de integridade do exame.
 
 ## Sinalizando um Teste
 

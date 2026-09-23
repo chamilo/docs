@@ -39,7 +39,7 @@ Denne liste kurateres af Chamilo-kerneteamet og kan ikke udvides af brugere inde
 
 Hver bruger genererer sin egen nøgle under **Socialt netværk** > **MCP API-nøgle**:
 
-![Siden MCP API-nøgle, der viser en inaktiv nøgle, knappen Generer API-nøgle og blokken Fjern-MCP-forbindelse med endepunkts-URL og formatet for Authorization-headeren](/.gitbook/assets/admin-mcp-api-key.png)
+![Siden MCP API-nøgle, der viser en inaktiv nøgle, knappen Generer API-nøgle og blokken Fjern-MCP-forbindelse med endepunkts-URL og formatet for Authorization-headeren](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Når man klikker på **Generer API-nøgle**, oprettes en nøgle, som vises én gang — Chamilo gemmer derefter kun en maskeret version, så den fulde nøgle skal kopieres og opbevares sikkert med det samme.
 * Generering af en ny nøgle tilbagekalder straks den forrige.

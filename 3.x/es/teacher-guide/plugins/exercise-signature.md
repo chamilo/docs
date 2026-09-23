@@ -1,6 +1,6 @@
 # Firma de ejercicios
 
-Firma de ejercicios <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Firma de ejercicios" data-size="line"> añade un paso de firma electrónica después de que un estudiante finaliza un intento de prueba, de modo que su finalización pueda autenticarse — útil en contextos de cumplimiento o certificación. No modifica puntuaciones, respuestas ni datos del libro de calificaciones; solo registra una firma junto al intento.
+Firma de ejercicios <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Firma de ejercicios" data-size="line"> añade un paso de firma electrónica después de que un estudiante finaliza un intento de prueba, de modo que su finalización pueda autenticarse — útil en contextos de cumplimiento o certificación. No modifica puntuaciones, respuestas ni datos del libro de calificaciones; solo registra una firma junto al intento.
 
 ## Activarlo para una prueba
 

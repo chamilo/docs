@@ -17,11 +17,11 @@ AI Tutor 取决于两级配置，这两级均不由您控制：
 
 请在屏幕底部查找聊天按钮（浮动的对话气泡图标）。打开后会显示您的联系人，若已启用，还会有一个带机器人图标和“在线”圆点的专用 **AI Tutor** 条目——点击即可开始或继续与 AI 的对话。
 
-![聊天面板的联系人列表，AI Tutor 条目位于普通联系人上方](/.gitbook/assets/student-docked-chat-contacts.png)
+![聊天面板的联系人列表，AI Tutor 条目位于普通联系人上方](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 输入问题并按 **Enter** 发送（**Shift+Enter** 会插入换行而非发送）。AI Tutor 会在有用时用标题、列表、粗体和代码块来格式化回答，使较长说明仍易于阅读。
 
-![与 AI Tutor 的已打开对话，底部为消息输入框](/.gitbook/assets/student-ai-tutor-conversation.png)
+![与 AI Tutor 的已打开对话，底部为消息输入框](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## 就正在阅读的内容提问
 

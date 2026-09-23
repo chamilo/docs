@@ -4,7 +4,7 @@ L’outil **Devoirs** (parfois appelé « publications des étudiants » ou « t
 
 ## Remettre votre travail
 
-Ouvrez l’outil **Devoirs** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Devoirs" data-size="line"> depuis la page d’accueil du cours, puis ouvrez le devoir concerné. Lisez attentivement la description — elle contient les consignes de votre enseignant sur ce qu’il faut remettre et sur la façon dont le travail sera évalué. Ensuite :
+Ouvrez l’outil **Devoirs** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Devoirs" data-size="line"> depuis la page d’accueil du cours, puis ouvrez le devoir concerné. Lisez attentivement la description — elle contient les consignes de votre enseignant sur ce qu’il faut remettre et sur la façon dont le travail sera évalué. Ensuite :
 
 1. Cliquez sur **Téléverser un fichier** (ou sur le bouton de remise)
 2. Selon la configuration du devoir par votre enseignant, sélectionnez un fichier depuis votre ordinateur, rédigez votre remise sous forme de texte, ou les deux

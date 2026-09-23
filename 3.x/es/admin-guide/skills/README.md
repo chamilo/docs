@@ -2,7 +2,7 @@
 
 El bloque **Competencias** del panel de administración agrupa las herramientas para definir, organizar y hacer seguimiento de las insignias de competencia («skills») en toda la plataforma. Una competencia puede otorgarse automáticamente cuando un alumno alcanza un umbral del libro de calificaciones, completa cursos específicos, o de forma manual por un profesor, y puede llevar un icono tipo insignia y un nivel (por ejemplo Bronce/Plata/Oro).
 
-![El bloque Competencias en el panel de administración, que enumera Rueda de competencias, Importación de competencias, Gestionar competencias, Gestionar niveles de competencias, Clasificación de competencias, y Competencias y evaluaciones](/.gitbook/assets/admin-skills-block.png)
+![El bloque Competencias en el panel de administración, que enumera Rueda de competencias, Importación de competencias, Gestionar competencias, Gestionar niveles de competencias, Clasificación de competencias, y Competencias y evaluaciones](../../.gitbook/assets/admin-skills-block.png)
 
 El bloque completo solo aparece si el ajuste **Enable skills tool** (`skill.allow_skills_tool`, en Configuration Settings > Skills) está activado; está habilitado de forma predeterminada.
 

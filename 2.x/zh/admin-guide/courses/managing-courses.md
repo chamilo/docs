@@ -4,7 +4,7 @@
 
 ## 课程列表
 
-![课程列表显示所有课程的标题、代码、类别、注册用户和可见性状态](/.gitbook/assets/admin-course-list.png)
+![课程列表显示所有课程的标题、代码、类别、注册用户和可见性状态](../../.gitbook/assets/admin-course-list.png)
 
 从管理面板中，点击**课程列表**查看所有课程。列表显示：
 

@@ -4,9 +4,9 @@ En **læringssti** leder deg gjennom en strukturert sekvens av aktiviteter — d
 
 ## Åpne en læringssti
 
-Åpne verktøyet **Læringsstier** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> fra kursets hjemmeside og klikk på én for å starte. Hvis læreren har aktivert **auto-launch**, kan læringsstien åpnes automatisk så snart du går inn i kurset.
+Åpne verktøyet **Læringsstier** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> fra kursets hjemmeside og klikk på én for å starte. Hvis læreren har aktivert **auto-launch**, kan læringsstien åpnes automatisk så snart du går inn i kurset.
 
-![Listen over læringsstier for et kurs, der hver viser sin egen fremdrift](/.gitbook/assets/student-learning-paths-list.png)
+![Listen over læringsstier for et kurs, der hver viser sin egen fremdrift](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Å bevege seg gjennom stien
 

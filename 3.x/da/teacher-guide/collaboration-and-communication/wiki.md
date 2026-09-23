@@ -26,7 +26,7 @@ For at linke til en anden wikiside inde fra editoren skal du oprette et link ved
 Alle med redigeringstilladelse kan ændre en wikiside:
 
 1. Åbn den side, du vil redigere
-2. Klik på knappen **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
+2. Klik på knappen **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line">
 3. Foretag dine ændringer i editoren
 4. Tilføj eventuelt en **Comments**-post, der beskriver, hvad du har ændret
 5. Gem

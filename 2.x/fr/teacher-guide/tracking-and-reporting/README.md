@@ -8,6 +8,6 @@ Chamilo suit l'activité des apprenants à travers la plateforme, vous offrant d
 
 ## Accéder aux Rapports
 
-Depuis votre cours, cliquez sur l'outil **Suivi** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> sur la page d'accueil du cours. Vous pouvez également accéder aux rapports via le lien **Rapports** dans la barre latérale pour une vue d'ensemble multi-cours.
+Depuis votre cours, cliquez sur l'outil **Suivi** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> sur la page d'accueil du cours. Vous pouvez également accéder aux rapports via le lien **Rapports** dans la barre latérale pour une vue d'ensemble multi-cours.
 
 Les enseignants voient les données de rapport pour les cours qu'ils dispensent. Les coachs de session voient les données de tous les cours au sein de leur session.

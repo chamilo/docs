@@ -8,7 +8,7 @@
 
 ## جدارك الاجتماعي
 
-![جدار اجتماعي يعرض تغذية من المنشورات والإعجابات والتعليقات من الاتصالات](/.gitbook/assets/social-wall.png)
+![جدار اجتماعي يعرض تغذية من المنشورات والإعجابات والتعليقات من الاتصالات](../.gitbook/assets/social-wall.png)
 
 يعرض الجدار الاجتماعي تغذية للنشاط منك ومن اتصالاتك. يمكنك:
 
@@ -30,9 +30,9 @@
 
 تتكامل الشبكة الاجتماعية مع نظام المراسلة في المنصة:
 
-* **إرسال الرسائل** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="رسالة جديدة" data-size="line"> — كتابة رسائل مباشرة إلى مستخدمين آخرين
-* **صندوق الوارد** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="صندوق الوارد" data-size="line"> — قراءة الرد على الرسائل المستلمة
-* **الرسائل المرسلة** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="مرسلة" data-size="line"> — مراجعة الرسائل التي أرسلتها
+* **إرسال الرسائل** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="رسالة جديدة" data-size="line"> — كتابة رسائل مباشرة إلى مستخدمين آخرين
+* **صندوق الوارد** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="صندوق الوارد" data-size="line"> — قراءة الرد على الرسائل المستلمة
+* **الرسائل المرسلة** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="مرسلة" data-size="line"> — مراجعة الرسائل التي أرسلتها
 
 ### صياغة الرسائل والرد عليها
 

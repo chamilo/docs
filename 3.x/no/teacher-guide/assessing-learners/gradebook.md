@@ -19,7 +19,7 @@ Chamilo beregner hver lærendes samlede karakter basert på disse vektene.
 
 ## Sette opp vurderingen
 
-1. Åpne verktøyet **Vurderinger** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Karakterbok" data-size="line"> fra kursets startsid
+1. Åpne verktøyet **Vurderinger** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Karakterbok" data-size="line"> fra kursets startsid
 2. Du vil se oversiktsbildet for vurderinger, som i utgangspunktet er tomt
 
 ### Legge til aktiviteter
@@ -48,7 +48,7 @@ For komplekse karakterordninger kan du opprette **underkategorier** for å grupp
 
 ## Vise karakterer
 
-![Oversiktstabellen i karakterboken som viser lærendes navn, aktivitetspoeng og vektede totaler](/.gitbook/assets/gradebook-overview.png)
+![Oversiktstabellen i karakterboken som viser lærendes navn, aktivitetspoeng og vektede totaler](../../.gitbook/assets/gradebook-overview.png)
 
 Vurderingen viser en tabell med:
 
@@ -77,7 +77,7 @@ Slik aktiverer du generering av sertifikater:
 
 Når **Generer sertifikater** er aktivert på rotkategorien, vises feltet **Sertifikatgyldighet (dager)**. La det stå på `0` for sertifikater som aldri utløper, eller angi et antall dager etter hvilket sertifikatet utløper — Chamilo kan deretter minne lærende når utløpsdatoen nærmer seg, enten automatisk (cron, konfigurert av administrator) eller manuelt fra sertifikatlisten.
 
-![Dialogboksen for redigering av kategori med Generer sertifikater aktivert og feltet Sertifikatgyldighet (dager) satt til 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Dialogboksen for redigering av kategori med Generer sertifikater aktivert og feltet Sertifikatgyldighet (dager) satt til 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Se [Sertifikater og ferdigheter](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) for mer informasjon.
 
@@ -87,7 +87,7 @@ Du kan knytte **ferdigheter** til vurderingen. Når en lærende når de fastsatt
 
 ## Eksportere karakterer
 
-Klikk på **Eksporter**-knappen <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Eksporter" data-size="line"> for å laste ned karakterer som et regneark. Dette er nyttig for å:
+Klikk på **Eksporter**-knappen <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Eksporter" data-size="line"> for å laste ned karakterer som et regneark. Dette er nyttig for å:
 
 * Dele karakterer med administrative systemer
 * Utføre ytterligere analyse utenfor Chamilo

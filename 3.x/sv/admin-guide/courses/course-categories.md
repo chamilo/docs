@@ -19,7 +19,7 @@ Chamilo skapar 3 kategorier som standard: *Language skills*, *PC Skills* och *Pr
 
 ## Kategorihierarki
 
-![Administrationssidan för kurskategorier som visar ett nästlat träd av kategorier](/.gitbook/assets/admin-course-categories.png)
+![Administrationssidan för kurskategorier som visar ett nästlat träd av kategorier](../../.gitbook/assets/admin-course-categories.png)
 
 Kategorier kan nästlas för att skapa en trädstruktur:
 

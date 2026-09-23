@@ -19,7 +19,7 @@ Chamilo 預設會建立 3 個類別：*Language skills*、*PC Skills* 與 *Proje
 
 ## 類別階層
 
-![顯示巢狀類別樹狀結構的課程類別管理頁面](/.gitbook/assets/admin-course-categories.png)
+![顯示巢狀類別樹狀結構的課程類別管理頁面](../../.gitbook/assets/admin-course-categories.png)
 
 類別可以巢狀化以建立樹狀結構：
 

@@ -4,7 +4,7 @@ Chamilo 包含一套职业路径管理系统，可用于定义培训路径，并
 
 ## 职业路径
 
-![职业路径列表，显示已定义的职业路径名称与描述](/.gitbook/assets/admin-careers-list.png)
+![职业路径列表，显示已定义的职业路径名称与描述](../../.gitbook/assets/admin-careers-list.png)
 
 **职业路径（career）** 表示一条结构化的培训路径——学习者为达成职业目标而遵循的一系列培训步骤。
 

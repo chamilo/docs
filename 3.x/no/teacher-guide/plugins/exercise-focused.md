@@ -1,6 +1,6 @@
 # Oppgavefokusert
 
-Oppgavefokusert <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Oppgavefokusert" data-size="line"> er et hjelpemiddel mot juks ved eksamener. Hvis en students nettleser mister fokus under en merket prøve — ved å bytte til en annen fane eller et annet vindu — viser Chamilo en fullskjermadvarsel som ber dem om å komme tilbake, og kan automatisk levere inn forsøket hvis de ikke gjør det.
+Oppgavefokusert <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Oppgavefokusert" data-size="line"> er et hjelpemiddel mot juks ved eksamener. Hvis en students nettleser mister fokus under en merket prøve — ved å bytte til en annen fane eller et annet vindu — viser Chamilo en fullskjermadvarsel som ber dem om å komme tilbake, og kan automatisk levere inn forsøket hvis de ikke gjør det.
 
 ## Merking av en prøve
 

@@ -4,17 +4,17 @@ De **Inbox** is het privéberichtensysteem van Chamilo — asynchrone, e-mailach
 
 ## Uw Inbox openen
 
-Klik op het pictogram **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> in de bovenbalk. Een rood badge toont hoeveel ongelezen berichten u hebt. Als dit pictogram helemaal ontbreekt, heeft uw beheerder platformberichten uitgeschakeld.
+Klik op het pictogram **Inbox** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> in de bovenbalk. Een rood badge toont hoeveel ongelezen berichten u hebt. Als dit pictogram helemaal ontbreekt, heeft uw beheerder platformberichten uitgeschakeld.
 
 ## Lezen en beantwoorden
 
 Uw inbox toont ontvangen berichten en geeft aan welke ongelezen zijn. Open een bericht om het te lezen en gebruik **Reply** om te antwoorden — u kunt in één antwoord meerdere ontvangers opnemen, handig om een kleine groep op de hoogte te houden zonder een formele cursus of sociale groep in te richten.
 
-![De Inbox, met tabbladen Inbox / Unread / Sent en een tabel met ontvangen berichten](/.gitbook/assets/student-inbox.png)
+![De Inbox, met tabbladen Inbox / Unread / Sent en een tabel met ontvangen berichten](../.gitbook/assets/student-inbox.png)
 
 ## Een nieuw bericht opstellen
 
-Klik op de knop **new message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nieuw bericht" data-size="line">, kies een of meer ontvangers, schrijf een onderwerp en een berichttekst, en verstuur. Net als bij een antwoord kan een nieuw bericht naar meerdere personen tegelijk gaan.
+Klik op de knop **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nieuw bericht" data-size="line">, kies een of meer ontvangers, schrijf een onderwerp en een berichttekst, en verstuur. Net als bij een antwoord kan een nieuw bericht naar meerdere personen tegelijk gaan.
 
 ## Tabbladen en acties
 

@@ -4,7 +4,7 @@ Alat **Assignments** (kadang disebut "student publications" atau "work") adalah 
 
 ## Mengirim Pekerjaan Anda
 
-Buka alat **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> dari beranda kursus, lalu buka tugas yang dimaksud. Baca deskripsinya dengan saksama — di dalamnya terdapat instruksi pengajar tentang apa yang harus dikirim dan bagaimana penilaiannya. Kemudian:
+Buka alat **Assignments** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> dari beranda kursus, lalu buka tugas yang dimaksud. Baca deskripsinya dengan saksama — di dalamnya terdapat instruksi pengajar tentang apa yang harus dikirim dan bagaimana penilaiannya. Kemudian:
 
 1. Klik **Upload file** (atau tombol pengiriman)
 2. Tergantung cara pengajar mengonfigurasi tugas, pilih berkas dari komputer Anda, tulis kiriman sebagai teks secara langsung, atau keduanya

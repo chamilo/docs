@@ -20,7 +20,7 @@
 每個出席表包含一個或多個日期（課程），您可在其中記錄出席情況：
 
 1. 開啟出席表或繼續建立流程
-2. 點選 **新增日期** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="新增日期" data-size="line">
+2. 點選 **新增日期** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="新增日期" data-size="line">
 3. 選擇日期與時間
 4. 選用：勾選 **重複日期** 以選擇重複邏輯
 5. 提供該活動的 **持續時間**（以分鐘為單位，預設 60 分鐘）
@@ -44,7 +44,7 @@
 
 ## 查看出席報告
 
-![顯示學習者、日期與出席指標摘要表格的出席表](/.gitbook/assets/attendance-sheet.png)
+![顯示學習者、日期與出席指標摘要表格的出席表](../../.gitbook/assets/attendance-sheet.png)
 
 出席工具顯示：
 

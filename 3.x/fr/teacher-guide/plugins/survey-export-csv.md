@@ -1,6 +1,6 @@
 # Export CSV des enquêtes
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Export CSV des enquêtes" data-size="line"> ajoute un export en un clic des résultats d’une enquête vers un fichier CSV compact, avec une ligne par répondant et une colonne par question.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Export CSV des enquêtes" data-size="line"> ajoute un export en un clic des résultats d’une enquête vers un fichier CSV compact, avec une ligne par répondant et une colonne par question.
 
 ## Exporter une enquête
 

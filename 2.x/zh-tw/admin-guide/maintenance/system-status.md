@@ -8,7 +8,7 @@
 
 ## 顯示內容
 
-![顯示 PHP 配置、資料庫狀態、檔案權限和伺服器資訊的系統狀態頁面](/.gitbook/assets/admin-system-status.png)
+![顯示 PHP 配置、資料庫狀態、檔案權限和伺服器資訊的系統狀態頁面](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP 配置
 

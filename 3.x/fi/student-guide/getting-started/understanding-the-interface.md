@@ -7,11 +7,11 @@ Chamilo 3.0:ssa on selkeä, moderni käyttöliittymä, joka on suunniteltu pitä
 Yläpalkki on aina näkyvissä jokaisen sivun yläosassa. Se sisältää:
 
 * **Alustan logo** — Napsauta sitä palataksesi etusivulle milloin tahansa.
-* **Saapuneet-kuvake** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line"> — Näyttää viestisi. Punainen merkki ilmaisee lukemattomat viestit. Napsauta avataksesi [Saapuneet](../inbox.md)-kansion.
-* **Tukipyyntökuvake** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tuki" data-size="line"> — Jos ylläpitäjäsi on ottanut sen käyttöön, tämä antaa pääsyn tukipyyntöjärjestelmään. Kaikilla alustoilla sitä ei ole käytössä, joten saatat nähdä vain saapuneet-kuvakkeen ja avatariesi.
+* **Saapuneet-kuvake** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line"> — Näyttää viestisi. Punainen merkki ilmaisee lukemattomat viestit. Napsauta avataksesi [Saapuneet](../inbox.md)-kansion.
+* **Tukipyyntökuvake** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tuki" data-size="line"> — Jos ylläpitäjäsi on ottanut sen käyttöön, tämä antaa pääsyn tukipyyntöjärjestelmään. Kaikilla alustoilla sitä ei ole käytössä, joten saatat nähdä vain saapuneet-kuvakkeen ja avatariesi.
 * **Avatariesi** — Pyöreä kuva oikeassa yläkulmassa. Napsauta sitä avataksesi avattavan valikon:
 
-![Avatariesi valikko, jossa on linkit Oma profiili, Omat todistukset, Omat taidot ja Kirjaudu ulos](/.gitbook/assets/student-avatar-menu.png)
+![Avatariesi valikko, jossa on linkit Oma profiili, Omat todistukset, Omat taidot ja Kirjaudu ulos](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Oma profiili** — Muokkaa henkilötietojasi, vaihda salasanaasi ja (jos käytössä) määritä kaksivaiheinen tunnistautuminen
 * **Omat todistukset** — Kaikki ansaitsemasi todistukset kaikista kursseistasi
@@ -26,18 +26,18 @@ Sivupalkki sisältää seuraavat linkit (osa niistä voi olla piilotettu alustan
 
 | Valikkokohta | Kuvake | Kuvaus |
 |-----------|------|-------------|
-| **Koti** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Koti" data-size="line"> | Palauttaa pääkoontinäyttöön |
-| **Omat kurssit** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurssit" data-size="line"> | Luettelee kaikki kurssit, joille olet ilmoittautunut |
-| **Omat istunnot** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Istunnot" data-size="line"> | Luettelee koulutustilaisuutesi (nykyiset, menneet, tulevat) |
-| **Tutustu muihin kursseihin** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Luettelo" data-size="line"> | Selaa kurssiluetteloa löytääksesi uusia kursseja ja ilmoittautuaksesi niille itse |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Henkilökohtainen ja kurssikalenterisi |
-| **Raportointi** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Raportointi" data-size="line"> | Laajenee kohtaan **Edistyminen** — oma [Oma edistyminen](../my-progress.md) -yleiskatsauksesi |
-| **Sosiaalinen verkosto** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosiaalinen verkosto" data-size="line"> | Laajenee [Sosiaaliseen verkostoon](../social-network.md) ja liittyviin linkkeihin, jos käytössä |
-| **Videoneuvottelu** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Pääsy live-videoistuntoihin (jos määritetty) |
+| **Koti** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Koti" data-size="line"> | Palauttaa pääkoontinäyttöön |
+| **Omat kurssit** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurssit" data-size="line"> | Luettelee kaikki kurssit, joille olet ilmoittautunut |
+| **Omat istunnot** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Istunnot" data-size="line"> | Luettelee koulutustilaisuutesi (nykyiset, menneet, tulevat) |
+| **Tutustu muihin kursseihin** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Luettelo" data-size="line"> | Selaa kurssiluetteloa löytääksesi uusia kursseja ja ilmoittautuaksesi niille itse |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Henkilökohtainen ja kurssikalenterisi |
+| **Raportointi** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Raportointi" data-size="line"> | Laajenee kohtaan **Edistyminen** — oma [Oma edistyminen](../my-progress.md) -yleiskatsauksesi |
+| **Sosiaalinen verkosto** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosiaalinen verkosto" data-size="line"> | Laajenee [Sosiaaliseen verkostoon](../social-network.md) ja liittyviin linkkeihin, jos käytössä |
+| **Videoneuvottelu** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Pääsy live-videoistuntoihin (jos määritetty) |
 
 **Raportointi** ja **Sosiaalinen verkosto** eivät ole tavallisia linkkejä — niiden napsauttaminen laajentaa sivupalkkiin pienen alikohteiden luettelon:
 
-![Sivupalkki, jossa Raportointi ja Sosiaalinen verkosto on laajennettu ja niiden alikohteet näkyvät](/.gitbook/assets/student-sidebar-expanded.png)
+![Sivupalkki, jossa Raportointi ja Sosiaalinen verkosto on laajennettu ja niiden alikohteet näkyvät](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Kohdassa **Raportointi**: vain **Edistyminen**, joka vie sivulle [Oma edistyminen](../my-progress.md).
 * Kohdassa **Sosiaalinen verkosto**: **Koti** (sosiaalinen seinä), **Viestit** (pikakuvake [Saapuneet](../inbox.md)-kansioon), **Omat ystävät**, **Sosiaaliset ryhmät** — ja hieman yllättäen myös tässä ryhmässä **Omat tiedostot** (henkilökohtainen tiedostotallennustilasi) ja **Henkilötiedot** (vienti alustan sinusta säilyttämistä henkilötiedoista). Nämä kaksi viimeistä eivät ole varsinaisesti ”sosiaalisia” ominaisuuksia; ne vain sijaitsevat tässä sivupalkin osassa.

@@ -4,8 +4,8 @@ Lenkeverktøyet lar deg dele nyttige URL-er med studentene dine, organisert ette
 
 ## Legge til en lenke
 
-1. Åpne verktøyet **Lenker** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Lenker" data-size="line"> fra kursets hjemmeside
-2. Klikk **Legg til en lenke** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Legg til lenke" data-size="line">
+1. Åpne verktøyet **Lenker** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Lenker" data-size="line"> fra kursets hjemmeside
+2. Klikk **Legg til en lenke** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Legg til lenke" data-size="line">
 3. Fyll inn detaljene:
    * **URL** — Nettadressen (f.eks. `https://example.com/resource`)
    * **Lenkenavn** — Et beskrivende navn på lenken
@@ -27,10 +27,10 @@ Lenker i en kategori vises sammen, slik at det blir enkelt for studentene å fin
 
 ## Administrere lenker
 
-* **Lenkesjekk** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Gyldighet" data-size="line">  — Chamilo kan kontrollere om lenker fortsatt er aktive eller ødelagte
-* **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Oppdater lenkens URL, tittel eller beskrivelse
-* **Synlighet** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Skjul eller vis lenken for studentene
-* **Slett** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> — Fjern lenken
+* **Lenkesjekk** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Gyldighet" data-size="line">  — Chamilo kan kontrollere om lenker fortsatt er aktive eller ødelagte
+* **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Oppdater lenkens URL, tittel eller beskrivelse
+* **Synlighet** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Skjul eller vis lenken for studentene
+* **Slett** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> — Fjern lenken
 
 ## Eksportere lenker
 

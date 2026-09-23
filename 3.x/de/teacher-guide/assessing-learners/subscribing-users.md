@@ -19,12 +19,12 @@ Wenn die [Sichtbarkeit](../creating-your-course/course-settings.md#course-visibi
 
 ## Manuelle Einschreibung über das Werkzeug Benutzer
 
-Um jemanden einzuschreiben, der bereits ein Plattformkonto hat, aber nicht selbst beigetreten ist, öffnen Sie das Werkzeug **Benutzer** Ihres Kurses und klicken Sie auf das Symbol **Benutzer hinzufügen** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Benutzer hinzufügen" data-size="line">.
+Um jemanden einzuschreiben, der bereits ein Plattformkonto hat, aber nicht selbst beigetreten ist, öffnen Sie das Werkzeug **Benutzer** Ihres Kurses und klicken Sie auf das Symbol **Benutzer hinzufügen** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Benutzer hinzufügen" data-size="line">.
 
 1. Suchen Sie die Person nach Name, Benutzername, E-Mail oder offiziellem Code
 2. Klicken Sie in ihrer Zeile auf **Einschreiben**, oder wählen Sie mehrere mit den Kontrollkästchen aus und nutzen Sie das Menü **Aktion**, um alle auf einmal einzuschreiben
 
-![Suchergebnisse im Bildschirm Benutzer in den Kurs einschreiben, mit einem passenden Lernenden und einer Schaltfläche Einschreiben](/.gitbook/assets/course-users-subscribe-search.png)
+![Suchergebnisse im Bildschirm Benutzer in den Kurs einschreiben, mit einem passenden Lernenden und einer Schaltfläche Einschreiben](../../.gitbook/assets/course-users-subscribe-search.png)
 
 In den Ergebnissen erscheinen nur Benutzer, die noch nicht in den Kurs eingeschrieben sind.
 
@@ -36,9 +36,9 @@ Die drei oben genannten Methoden setzen voraus, dass die Person bereits ein Plat
 
 ### Zugriff auf das Werkzeug
 
-Öffnen Sie das Werkzeug **Benutzer** Ihres Kurses und klicken Sie in der Symbolleiste neben **Benutzer hinzufügen** auf das Symbol **Per E-Mail einladen** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Per E-Mail einladen" data-size="line">:
+Öffnen Sie das Werkzeug **Benutzer** Ihres Kurses und klicken Sie in der Symbolleiste neben **Benutzer hinzufügen** auf das Symbol **Per E-Mail einladen** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Per E-Mail einladen" data-size="line">:
 
-![Die Symbolleiste des Werkzeugs Benutzer mit dem Symbol Benutzer hinzufügen und dem Symbol Per E-Mail einladen](/.gitbook/assets/course-users-invite-icon.png)
+![Die Symbolleiste des Werkzeugs Benutzer mit dem Symbol Benutzer hinzufügen und dem Symbol Per E-Mail einladen](../../.gitbook/assets/course-users-invite-icon.png)
 
 Dadurch öffnet sich die Seite **Kurseinladungen**.
 
@@ -53,7 +53,7 @@ Dadurch öffnet sich die Seite **Kurseinladungen**.
 1. Geben Sie die E-Mail-Adresse des Empfängers im Formular **Per E-Mail einladen** ein
 2. Klicken Sie auf **Einladung senden**
 
-![Die Seite Kurs-Einladungen: das Formular „Per E-Mail einladen“ und eine Tabelle der gesendeten Einladungen mit ihrem Status](/.gitbook/assets/course-invitations-list.png)
+![Die Seite Kurs-Einladungen: das Formular „Per E-Mail einladen“ und eine Tabelle der gesendeten Einladungen mit ihrem Status](../../.gitbook/assets/course-invitations-list.png)
 
 Jede Einladung, die Sie für diesen Kurs gesendet haben, erscheint unter dem Formular mit ihrem Status:
 
@@ -65,8 +65,8 @@ Jede Einladung, die Sie für diesen Kurs gesendet haben, erscheint unter dem For
 
 Für eine noch ausstehende Einladung bietet die Spalte **Aktionen**:
 
-* **Kopieren** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopieren" data-size="line"> — kopiert den Einladungslink, falls Sie ihn lieber selbst weitergeben möchten (Chat, persönlich), statt sich auf die E-Mail zu verlassen.
-* **Widerrufen** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Widerrufen" data-size="line"> — storniert die Einladung sofort; der Link funktioniert nicht mehr. Eine bereits angenommene Einladung kann nicht widerrufen werden.
+* **Kopieren** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopieren" data-size="line"> — kopiert den Einladungslink, falls Sie ihn lieber selbst weitergeben möchten (Chat, persönlich), statt sich auf die E-Mail zu verlassen.
+* **Widerrufen** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Widerrufen" data-size="line"> — storniert die Einladung sofort; der Link funktioniert nicht mehr. Eine bereits angenommene Einladung kann nicht widerrufen werden.
 
 > **Die eingeladene E-Mail-Adresse darf auf dieser Plattform noch kein Konto haben.** Falls doch, schlägt das Senden der Einladung fehl mit einer Meldung, die Sie auffordert, diesen bestehenden Benutzer stattdessen direkt einzuschreiben — über [Manuelle Einschreibung über das Werkzeug Benutzer](#manual-enrollment-via-the-users-tool) oben.
 

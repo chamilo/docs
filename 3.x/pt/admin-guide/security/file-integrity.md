@@ -10,7 +10,7 @@ No painel de administração, clique em **Segurança > Integridade de ficheiros*
 
 ## O Que Mostra
 
-![A página Integridade de ficheiros a mostrar informações da última análise, painéis para ficheiros Adicionados, Modificados, Eliminados e com Permissões alteradas, uma lista de Histórico de alertas e Ações para executar uma análise, pausar alertas ou estabelecer uma nova linha de base](/.gitbook/assets/admin-security-file-integrity.png)
+![A página Integridade de ficheiros a mostrar informações da última análise, painéis para ficheiros Adicionados, Modificados, Eliminados e com Permissões alteradas, uma lista de Histórico de alertas e Ações para executar uma análise, pausar alertas ou estabelecer uma nova linha de base](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Última análise** — Quando correu a análise mais recente e quantos ficheiros verificou
 * **Adicionados / Modificados / Eliminados** — Ficheiros que diferem da linha de base, identificados pela comparação de checksums SHA-256 (cada lista está limitada a 500 caminhos, com uma nota se a lista completa for mais longa — consulte o registo CEF abaixo para a lista completa)

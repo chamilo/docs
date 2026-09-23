@@ -15,7 +15,7 @@ Et **kursus** er en beholder for indhold og værktøjer. En **session** tildeler
 
 Fra sidebjælken skal du klikke på **Mine sessioner** for at se dine sessioner. De er organiseret i tre visninger:
 
-![Siden Mine sessioner, der viser visninger for aktuelle, tidligere og kommende sessioner](/.gitbook/assets/my-sessions-list.png)
+![Siden Mine sessioner, der viser visninger for aktuelle, tidligere og kommende sessioner](../.gitbook/assets/my-sessions-list.png)
 
 * **Aktuelle sessioner** — Sessioner, der er aktive i øjeblikket
 * **Tidligere sessioner** — Sessioner, der er afsluttet

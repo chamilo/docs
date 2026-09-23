@@ -4,7 +4,7 @@ Chamilo mahdollistaa mukautettujen profiilikenttien (lisäkenttien) määrittäm
 
 ## Lisäprofiilikentät
 
-![Lisäprofiilikenttien luettelo, jossa näkyvät mukautetut kentät nimen, tyypin ja näkyvyysasetusten kanssa](/.gitbook/assets/admin-extra-fields-list.png)
+![Lisäprofiilikenttien luettelo, jossa näkyvät mukautetut kentät nimen, tyypin ja näkyvyysasetusten kanssa](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Lisäkenttien avulla voit tallentaa organisaatiollesi ominaista metadataa, kuten:
 

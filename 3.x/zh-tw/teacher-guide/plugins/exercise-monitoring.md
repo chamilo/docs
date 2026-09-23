@@ -1,6 +1,6 @@
 # 測驗監考
 
-測驗監考 <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="測驗監考" data-size="line"> 會在測驗作答期間使用學生的網路攝影機擷取身分照片——身分證件照片與學生臉部照片——以維護考試誠信。
+測驗監考 <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="測驗監考" data-size="line"> 會在測驗作答期間使用學生的網路攝影機擷取身分照片——身分證件照片與學生臉部照片——以維護考試誠信。
 
 ## 為測驗加上標記
 

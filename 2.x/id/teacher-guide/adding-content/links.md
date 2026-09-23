@@ -4,8 +4,8 @@ Alat tautan memungkinkan Anda berbagi URL yang bermanfaat dengan peserta didik A
 
 ## Menambahkan Tautan
 
-1. Buka alat **Tautan** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Tautan" data-size="line"> dari halaman utama kursus
-2. Klik **Tambah tautan** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Tambah tautan" data-size="line">
+1. Buka alat **Tautan** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Tautan" data-size="line"> dari halaman utama kursus
+2. Klik **Tambah tautan** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Tambah tautan" data-size="line">
 3. Isi detailnya:
    * **URL** — Alamat web (misalnya, `https://example.com/resource`)
    * **Nama tautan** — Nama deskriptif untuk tautan tersebut
@@ -27,10 +27,10 @@ Tautan dalam satu kategori akan ditampilkan bersama, memudahkan peserta didik me
 
 ## Mengelola Tautan
 
-* **Pemeriksaan tautan** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validitas" data-size="line"> — Chamilo dapat memverifikasi apakah tautan masih aktif atau rusak
-* **Sunting** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Sunting" data-size="line"> — Perbarui URL, judul, atau deskripsi tautan
-* **Visibilitas** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> — Sembunyikan atau tampilkan tautan kepada peserta didik
-* **Hapus** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus tautan
+* **Pemeriksaan tautan** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validitas" data-size="line"> — Chamilo dapat memverifikasi apakah tautan masih aktif atau rusak
+* **Sunting** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Sunting" data-size="line"> — Perbarui URL, judul, atau deskripsi tautan
+* **Visibilitas** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> — Sembunyikan atau tampilkan tautan kepada peserta didik
+* **Hapus** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus tautan
 
 ## Mengekspor Tautan
 

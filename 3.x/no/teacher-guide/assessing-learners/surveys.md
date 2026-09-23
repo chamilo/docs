@@ -4,7 +4,7 @@ Verktøyet for spørreundersøkelser lar deg opprette spørreskjemaer for å sam
 
 ## Opprette en spørreundersøkelse
 
-1. Åpne verktøyet **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Spørreundersøkelser" data-size="line"> fra kursets startside
+1. Åpne verktøyet **Surveys** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Spørreundersøkelser" data-size="line"> fra kursets startside
 2. Klikk **Create survey**
 3. Fyll inn detaljene for spørreundersøkelsen:
    * **Code** — Dette er en unik kode for spørreundersøkelsen. Den brukes i e-poster og lenker.
@@ -65,7 +65,7 @@ En lenke er tilgjengelig nederst på publiseringssiden for å invitere enda fler
 
 ## Vise resultater
 
-![Resultater fra spørreundersøkelse med diagrammer og prosentfordelinger for hvert spørsmål](/.gitbook/assets/survey-results-charts.png)
+![Resultater fra spørreundersøkelse med diagrammer og prosentfordelinger for hvert spørsmål](../../.gitbook/assets/survey-results-charts.png)
 
 Etter at lærende har svart:
 

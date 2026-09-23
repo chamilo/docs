@@ -39,7 +39,7 @@ Questo elenco è curato dal team core di Chamilo e non è estendibile dagli uten
 
 Ogni utente genera la propria chiave in **Rete sociale** > **Chiave API MCP**:
 
-![La pagina della chiave API MCP, che mostra una chiave inattiva, il pulsante Genera chiave API e il blocco Connessione MCP remota con l'URL dell'endpoint e il formato dell'intestazione Authorization](/.gitbook/assets/admin-mcp-api-key.png)
+![La pagina della chiave API MCP, che mostra una chiave inattiva, il pulsante Genera chiave API e il blocco Connessione MCP remota con l'URL dell'endpoint e il formato dell'intestazione Authorization](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Facendo clic su **Genera chiave API** si crea una chiave e la si visualizza una sola volta — Chamilo memorizza in seguito solo una versione mascherata, quindi la chiave completa deve essere copiata e conservata in modo sicuro immediatamente.
 * La generazione di una nuova chiave revoca immediatamente quella precedente.

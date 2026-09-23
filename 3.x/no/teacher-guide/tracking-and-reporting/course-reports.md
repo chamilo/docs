@@ -4,9 +4,9 @@ Kurssrapporter gir deg en samlet oversikt over aktivitet og prestasjon for alle 
 
 ## Tilgang til kurssrapporter
 
-Åpne verktøyet **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> fra kursets startside og velg visningen for rapporter på kursnivå.
+Åpne verktøyet **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> fra kursets startside og velg visningen for rapporter på kursnivå.
 
-![Kursoversikten i tracking som viser engasjementsmålinger og sammendrag av deltakeraktivitet](/.gitbook/assets/tracking-course-overview.png)
+![Kursoversikten i tracking som viser engasjementsmålinger og sammendrag av deltakeraktivitet](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Tilgjengelige rapporter
 
@@ -43,7 +43,7 @@ For hver oppgave:
 
 ## Eksport av data
 
-Du kan eksportere tracking- og rapportdata for videre analyse. Se etter alternativet **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> for å laste ned data i et regnearkkompatibelt format.
+Du kan eksportere tracking- og rapportdata for videre analyse. Se etter alternativet **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> for å laste ned data i et regnearkkompatibelt format.
 
 ## Sesjonsrapporter
 

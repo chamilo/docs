@@ -4,7 +4,7 @@ The survey tool lets you create questionnaires to collect feedback from your lea
 
 ## Creating a Survey
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
+1. Open the **Surveys** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
 2. Click **Create survey**
 3. Fill in the survey details:
    * **Code** — This is a unique code for the survey. It will be used in mails and links.
@@ -65,7 +65,7 @@ A link is available at the bottom of the publication page to invite even more ex
 
 ## Viewing Results
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![Survey results with charts and percentage breakdowns for each question](../../.gitbook/assets/survey-results-charts.png)
 
 After learners have responded:
 

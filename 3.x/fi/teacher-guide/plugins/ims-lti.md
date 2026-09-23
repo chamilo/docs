@@ -1,10 +1,10 @@
 # IMS/LTI-asiakas
 
-IMS/LTI-asiakas <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-asiakas" data-size="line"> mahdollistaa ulkoisen työkalun tai sisältöpalvelun käynnistämisen kurssin sisältä LTI-standardin (versiot 1.1 ja 1.3) avulla — esimerkiksi kustantajan interaktiivisen oppikirjan, erikoistuneen simulaatiotyökalun tai toisen LTI:tä tukevan alustan. Chamilo toimii käynnistävänä alustana; ulkoinen palvelu on ”työkalu”.
+IMS/LTI-asiakas <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-asiakas" data-size="line"> mahdollistaa ulkoisen työkalun tai sisältöpalvelun käynnistämisen kurssin sisältä LTI-standardin (versiot 1.1 ja 1.3) avulla — esimerkiksi kustantajan interaktiivisen oppikirjan, erikoistuneen simulaatiotyökalun tai toisen LTI:tä tukevan alustan. Chamilo toimii käynnistävänä alustana; ulkoinen palvelu on ”työkalu”.
 
 ## Työkalun käyttäminen
 
-Kun ominaisuus on käytössä, kurssin **Asetuksissa** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> näkyy **Määritä ulkoiset työkalut** -painike. Sieltä voit joko:
+Kun ominaisuus on käytössä, kurssin **Asetuksissa** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> näkyy **Määritä ulkoiset työkalut** -painike. Sieltä voit joko:
 
 * **Lisätä uuden ulkoisen työkalun** — Rekisteröi se itse: nimi, käynnistys-URL, LTI-versio ja ulkoisen palvelun antamat tunnisteet (asiakas-ID/avaimet LTI 1.3:lle tai kuluttaja-avain ja salaisuus LTI 1.1:lle)
 * **Lisätä olemassa olevan globaalin työkalun** — Jos ylläpitäjä on jo rekisteröinyt alustanlaajuisen työkalun, lisää se kurssillesi sen sijaan, että loisit oman yhteyden

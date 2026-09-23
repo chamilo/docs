@@ -4,7 +4,7 @@ The **Tests** (Exercises) tool is where you take the quizzes and exams your teac
 
 ## Starting a Test
 
-Open the **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> tool from the course homepage and click on a test to start it. A test may not be available yet, or may no longer be available, if your teacher set a start or end date on it.
+Open the **Tests** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> tool from the course homepage and click on a test to start it. A test may not be available yet, or may no longer be available, if your teacher set a start or end date on it.
 
 ## Answering Questions
 

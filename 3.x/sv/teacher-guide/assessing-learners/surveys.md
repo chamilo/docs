@@ -4,7 +4,7 @@ Enkätverktyget låter dig skapa frågeformulär för att samla in återkoppling
 
 ## Skapa en enkät
 
-1. Öppna verktyget **Enkäter** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enkäter" data-size="line"> från kursens startsida
+1. Öppna verktyget **Enkäter** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enkäter" data-size="line"> från kursens startsida
 2. Klicka på **Skapa enkät**
 3. Fyll i enkätuppgifterna:
    * **Kod** — Detta är en unik kod för enkäten. Den används i e-postmeddelanden och länkar.
@@ -65,7 +65,7 @@ En länk finns längst ned på publiceringssidan för att bjuda in ännu fler ex
 
 ## Visa resultat
 
-![Enkätresultat med diagram och procentfördelning för varje fråga](/.gitbook/assets/survey-results-charts.png)
+![Enkätresultat med diagram och procentfördelning för varje fråga](../../.gitbook/assets/survey-results-charts.png)
 
 När deltagarna har svarat:
 

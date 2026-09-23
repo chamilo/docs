@@ -2,7 +2,7 @@
 
 ## Zugriff auf den Plugin-Manager
 
-![Der Plugin-Manager zeigt eine Liste der verfügbaren Plugins mit Aktivierungsschaltern und Konfigurationsoptionen](/.gitbook/assets/admin-plugin-manager.png)
+![Der Plugin-Manager zeigt eine Liste der verfügbaren Plugins mit Aktivierungsschaltern und Konfigurationsoptionen](../../.gitbook/assets/admin-plugin-manager.png)
 
 Klicken Sie im Verwaltungsbereich auf **Plugins verwalten**, um die Liste der verfügbaren Plugins anzuzeigen.
 

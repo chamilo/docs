@@ -26,7 +26,7 @@ Para ligar a outra página wiki a partir do editor, crie uma ligação utilizand
 Qualquer pessoa com permissões de edição pode modificar uma página wiki:
 
 1. Abra a página que pretende editar
-2. Clique no botão **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line">
+2. Clique no botão **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line">
 3. Faça as suas alterações no editor
 4. Adicione, opcionalmente, uma entrada de **Comments** a descrever o que alterou
 5. Guarde

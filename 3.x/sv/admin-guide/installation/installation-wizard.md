@@ -13,7 +13,7 @@ Säkerställ att följande förutsättningar är uppfyllda:
 
 ## Steg 1: Installationsspråk
 
-![Installationsguide steg 1 — språkval](/.gitbook/assets/install-step1-language.png)
+![Installationsguide steg 1 — språkval](../../.gitbook/assets/install-step1-language.png)
 
 Det första steget låter dig välja språk för installationsprocessen. Välj önskat språk i rullgardinsmenyn.
 
@@ -21,7 +21,7 @@ Om Chamilo upptäcker en befintlig installation (för en uppgradering) visas mig
 
 ## Steg 2: Kravkontroll
 
-![Installationsguide steg 2 — kravkontroll som visar PHP-version, tillägg och katalogbehörigheter](/.gitbook/assets/install-step2-requirements.png)
+![Installationsguide steg 2 — kravkontroll som visar PHP-version, tillägg och katalogbehörigheter](../../.gitbook/assets/install-step2-requirements.png)
 
 Guiden kontrollerar din servermiljö:
 
@@ -34,7 +34,7 @@ Om något krav inte är uppfyllt visar guiden varningar eller fel. Åtgärda dem
 
 ## Steg 3: Licens
 
-![Installationsguide steg 3 — godkännande av licens](/.gitbook/assets/install-step3-license.png)
+![Installationsguide steg 3 — godkännande av licens](../../.gitbook/assets/install-step3-license.png)
 
 Detta steg visar GNU/GPLv3-licensen. Du måste kryssa i kryssrutan **"I accept"** för att fortsätta.
 
@@ -42,7 +42,7 @@ Valfritt kan du expandera avsnittet **Contact information** för att lämna uppg
 
 ## Steg 4: Databasinställningar
 
-![Installationsguide steg 4 — konfiguration av databasanslutning](/.gitbook/assets/install-step4-database.png)
+![Installationsguide steg 4 — konfiguration av databasanslutning](../../.gitbook/assets/install-step4-database.png)
 
 Ange dina uppgifter för databasanslutning:
 
@@ -58,7 +58,7 @@ Klicka på **Check database connection** för att testa. Guiden låter dig inte 
 
 ## Steg 5: Konfigurationsinställningar
 
-![Installationsguide steg 5 — administratörskonto, portalinställningar och e-postkonfiguration](/.gitbook/assets/install-step5-config.png)
+![Installationsguide steg 5 — administratörskonto, portalinställningar och e-postkonfiguration](../../.gitbook/assets/install-step5-config.png)
 
 Detta steg kombinerar skapande av administratörskonto, portalinställningar och e-postkonfiguration.
 
@@ -95,7 +95,7 @@ Alla dessa inställningar kan ändras senare från administrationspanelen.
 
 ## Steg 6: Sista kontrollen före installation
 
-![Installationsguiden steg 6 — granskning av alla inställningar före installation](/.gitbook/assets/install-step6-review.png)
+![Installationsguiden steg 6 — granskning av alla inställningar före installation](../../.gitbook/assets/install-step6-review.png)
 
 Detta steg visar en sammanfattning av allt du har angett för granskning:
 
@@ -107,7 +107,7 @@ Granska noga och klicka sedan på **Installera Chamilo** för att köra installa
 
 ## Steg 7: Installation slutförd
 
-![Installationsguiden steg 7 — slutförande med säkerhetsråd och portallänk](/.gitbook/assets/install-step7-complete.png)
+![Installationsguiden steg 7 — slutförande med säkerhetsråd och portallänk](../../.gitbook/assets/install-step7-complete.png)
 
 När installationen har slutförts utan fel visar guiden:
 

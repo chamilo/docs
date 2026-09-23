@@ -4,7 +4,7 @@ Værktøjet til spørgeskemaer lader dig oprette spørgeskemaer til at indsamle 
 
 ## Oprette et spørgeskema
 
-1. Åbn værktøjet **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Spørgeskemaer" data-size="line"> fra kursets startside
+1. Åbn værktøjet **Surveys** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Spørgeskemaer" data-size="line"> fra kursets startside
 2. Klik på **Create survey**
 3. Udfyld spørgeskemaets oplysninger:
    * **Code** — Dette er en unik kode for spørgeskemaet. Den bruges i mails og links.
@@ -65,7 +65,7 @@ Et link er tilgængeligt nederst på udgivelsessiden til at invitere endnu flere
 
 ## Se resultater
 
-![Spørgeskemaresultater med diagrammer og procentopdelinger for hvert spørgsmål](/.gitbook/assets/survey-results-charts.png)
+![Spørgeskemaresultater med diagrammer og procentopdelinger for hvert spørgsmål](../../.gitbook/assets/survey-results-charts.png)
 
 Når kursister har svaret:
 

@@ -4,7 +4,7 @@ Harjoitustyökalu (kutsutaan myös nimellä ”testit”) mahdollistaa automaatt
 
 ## Harjoituksen luominen
 
-1. Avaa **Harjoitukset**-työkalu <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Harjoitukset" data-size="line"> kurssin etusivulta
+1. Avaa **Harjoitukset**-työkalu <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Harjoitukset" data-size="line"> kurssin etusivulta
 2. Napsauta **Uusi harjoitus**
 3. Anna **otsikko** ja valinnainen **kuvaus**
 4. Määritä harjoituksen asetukset (ks. alla)
@@ -12,7 +12,7 @@ Harjoitustyökalu (kutsutaan myös nimellä ”testit”) mahdollistaa automaatt
 
 ## Harjoituksen asetukset
 
-![Harjoituksen asetuspaneeli, jossa on vaihtoehtoja näytölle, ajalle, yrityksille ja palautteelle](/.gitbook/assets/exercise-settings.png)
+![Harjoituksen asetuspaneeli, jossa on vaihtoehtoja näytölle, ajalle, yrityksille ja palautteelle](../../.gitbook/assets/exercise-settings.png)
 
 ### Näyttö ja navigointi
 
@@ -75,7 +75,7 @@ Voit myös määrittää edistyneitä valintastrategioita, jotka yhdistävät lu
 
 ## Kysymystyypit
 
-![Yleiskatsaus saatavilla olevista kysymystyypeistä harjoituksen luontikäyttöliittymässä](/.gitbook/assets/exercise-question-types.png)
+![Yleiskatsaus saatavilla olevista kysymystyypeistä harjoituksen luontikäyttöliittymässä](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo tarjoaa runsaan joukon kysymystyyppejä, jotka on jaettu useisiin luokkiin:
 

@@ -27,7 +27,7 @@ Som standard har det publika registreringsformuläret inget alternativ att regis
 
 Vissa plattformar aktiverar ett steg **"Vad vill du göra?"** med två kort — **Följ kurser** och **Undervisa kurser** — men detta visas bara om din administratör specifikt har slagit på registrering som lärare. Även då kan valet att undervisa kräva att ditt konto godkänns innan du får lärarrättigheter.
 
-![Registreringsformuläret på en plattform med självregistrering för lärare aktiverad, som visar rollväljaren "Följ kurser" / "Undervisa kurser"](/.gitbook/assets/student-registration-form.png)
+![Registreringsformuläret på en plattform med självregistrering för lärare aktiverad, som visar rollväljaren "Följ kurser" / "Undervisa kurser"](../../.gitbook/assets/student-registration-form.png)
 
 Om du behöver ett lärarkonto och inte ser det här alternativet, be din plattformsadministratör att skapa ett åt dig eller uppgradera ditt befintliga konto.
 

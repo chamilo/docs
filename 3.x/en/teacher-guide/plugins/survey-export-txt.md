@@ -1,6 +1,6 @@
 # Survey Export TXT
 
-Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Survey Export TXT" data-size="line"> exports a survey's results to a human-readable plain-text file — one block per respondent, listing each question, the chosen answer(s), and any open-text response, instead of a CSV's rows and columns.
+Survey Export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Survey Export TXT" data-size="line"> exports a survey's results to a human-readable plain-text file — one block per respondent, listing each question, the chosen answer(s), and any open-text response, instead of a CSV's rows and columns.
 
 ## Exporting a Survey
 

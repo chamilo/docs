@@ -1,6 +1,6 @@
 # Test til PDF
 
-Test til PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test til PDF" data-size="line"> eksporterer et kursustests spørgsmål til en printbar PDF — kun spørgsmål, kun svar eller begge sammen — nyttigt til en papirversion af en test.
+Test til PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test til PDF" data-size="line"> eksporterer et kursustests spørgsmål til en printbar PDF — kun spørgsmål, kun svar eller begge sammen — nyttigt til en papirversion af en test.
 
 ## Adgang til værktøjet
 

@@ -13,7 +13,7 @@ Recherchez le bouton ou la section **Générateur IA** dans l'interface de créa
 
 ## Comment générer des questions
 
-![Formulaire du générateur d'exercices IA avec des champs pour le sujet et le nombre de questions](/.gitbook/assets/ai-exercise-generator.png)
+![Formulaire du générateur d'exercices IA avec des champs pour le sujet et le nombre de questions](../../.gitbook/assets/ai-exercise-generator.png)
 
 Le générateur propose deux modes, disponibles sous forme d'onglets :
 
@@ -32,7 +32,7 @@ Le générateur propose deux modes, disponibles sous forme d'onglets :
 
 ## Révision et modification
 
-![Questions générées par IA affichées pour révision avec des options pour modifier, accepter ou supprimer chacune d'elles](/.gitbook/assets/ai-exercise-generator-results.png)
+![Questions générées par IA affichées pour révision avec des options pour modifier, accepter ou supprimer chacune d'elles](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Les questions générées sont présentées comme des **suggestions**. Vous devriez :
 

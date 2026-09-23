@@ -4,9 +4,9 @@ I report del corso offrono una vista aggregata dell'attività e delle prestazion
 
 ## Accesso ai report del corso
 
-Apri lo strumento **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dalla homepage del corso e seleziona la vista dei report a livello di corso.
+Apri lo strumento **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dalla homepage del corso e seleziona la vista dei report a livello di corso.
 
-![Panoramica del tracking del corso con metriche di coinvolgimento e riepilogo dell'attività dei discenti](/.gitbook/assets/tracking-course-overview.png)
+![Panoramica del tracking del corso con metriche di coinvolgimento e riepilogo dell'attività dei discenti](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Report disponibili
 
@@ -43,7 +43,7 @@ Per ciascun compito:
 
 ## Esportazione dei dati
 
-È possibile esportare i dati di tracking e dei report per analisi successive. Cerca l'opzione **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> per scaricare i dati in un formato compatibile con i fogli di calcolo.
+È possibile esportare i dati di tracking e dei report per analisi successive. Cerca l'opzione **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> per scaricare i dati in un formato compatibile con i fogli di calcolo.
 
 ## Report di sessione
 

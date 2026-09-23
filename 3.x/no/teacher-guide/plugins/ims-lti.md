@@ -1,10 +1,10 @@
 # IMS/LTI-klient
 
-IMS/LTI-klient <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-klient" data-size="line"> lar deg starte et eksternt verktøy eller en innholdsleverandør fra innsiden av kurset ditt ved hjelp av LTI-standarden (versjon 1.1 og 1.3) — for eksempel en forlags interaktive lærebok, et spesialisert simuleringsverktøy eller en annen plattform som støtter LTI. Chamilo opptrer som startplattformen; den eksterne tjenesten er «verktøyet».
+IMS/LTI-klient <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-klient" data-size="line"> lar deg starte et eksternt verktøy eller en innholdsleverandør fra innsiden av kurset ditt ved hjelp av LTI-standarden (versjon 1.1 og 1.3) — for eksempel en forlags interaktive lærebok, et spesialisert simuleringsverktøy eller en annen plattform som støtter LTI. Chamilo opptrer som startplattformen; den eksterne tjenesten er «verktøyet».
 
 ## Tilgang til verktøyet
 
-Når det er aktivert, vises en **Konfigurer eksterne verktøy**-knapp i kursets **Innstillinger** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line">. Derfra kan du enten:
+Når det er aktivert, vises en **Konfigurer eksterne verktøy**-knapp i kursets **Innstillinger** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Innstillinger" data-size="line">. Derfra kan du enten:
 
 * **Legge til et nytt eksternt verktøy** — Registrer ett selv: navn, start-URL, LTI-versjon og påloggingsopplysningene den eksterne tjenesten ga deg (klient-ID/nøkler for LTI 1.3, eller en forbrukernøkkel og hemmelighet for LTI 1.1)
 * **Legge til et eksisterende globalt verktøy** — Hvis administratoren allerede har registrert et plattformomfattende verktøy, kan du legge det til i kurset i stedet for å opprette din egen tilkobling

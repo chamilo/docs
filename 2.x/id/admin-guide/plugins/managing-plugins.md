@@ -2,7 +2,7 @@
 
 ## Mengakses Pengelola Plugin
 
-![Pengelola plugin yang menampilkan daftar plugin yang tersedia dengan tombol aktivasi dan opsi konfigurasi](/.gitbook/assets/admin-plugin-manager.png)
+![Pengelola plugin yang menampilkan daftar plugin yang tersedia dengan tombol aktivasi dan opsi konfigurasi](../../.gitbook/assets/admin-plugin-manager.png)
 
 Dari panel administrasi, klik **Kelola plugin** untuk melihat daftar plugin yang tersedia.
 

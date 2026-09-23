@@ -19,7 +19,7 @@ As categorias padrão incluem:
 
 ## Acessando a Ferramenta de Tickets
 
-Se o administrador habilitou o link de tickets, um ícone de ticket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> aparecerá na barra de navegação superior. Clique nele para ir diretamente ao formulário de envio de tickets.
+Se o administrador habilitou o link de tickets, um ícone de ticket <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> aparecerá na barra de navegação superior. Clique nele para ir diretamente ao formulário de envio de tickets.
 
 Você também pode acessar seus tickets pelo menu principal em **Suporte** ou **Tickets**, dependendo da configuração da sua plataforma.
 

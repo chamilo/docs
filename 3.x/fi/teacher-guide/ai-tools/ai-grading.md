@@ -9,11 +9,11 @@ Tekoälyarviointi on käytettävissä kahdessa yhteydessä:
 * **Avoimet harjoituskysymykset** — Kun arvioit manuaalisesti vapaamuotoisia vastauksia harjoituksessa
 * **Tehtäväpalautukset** — Kun tarkistat ja pisteytät opiskelijoiden julkaisuja Tehtävät-työkalussa
 
-Etsi **Tekoälyarviointi**-painiketta (merkitty robottikuvakkeella <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Tekoäly" data-size="line">) arviointikäyttöliittymässä.
+Etsi **Tekoälyarviointi**-painiketta (merkitty robottikuvakkeella <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Tekoäly" data-size="line">) arviointikäyttöliittymässä.
 
 ## Miten se toimii
 
-![Tekoälyarvioinnin käyttöliittymä, jossa näkyy opiskelijan palautus sekä ehdotettu pistemäärä ja palaute](/.gitbook/assets/ai-grading-interface.png)
+![Tekoälyarvioinnin käyttöliittymä, jossa näkyy opiskelijan palautus sekä ehdotettu pistemäärä ja palaute](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Avaa arvioitava palautus tai vastaus
 2. Napsauta **Tekoälyarviointi**-painiketta

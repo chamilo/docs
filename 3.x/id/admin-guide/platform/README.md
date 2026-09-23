@@ -2,7 +2,7 @@
 
 Blok **Pengelolaan Platform** pada dasbor administrasi mengelompokkan alat konfigurasi dan komunikasi di seluruh portal — mulai dari panel pengaturan lengkap hingga bahasa, pengumuman publik, kalender global, dan sistem Pages yang menyerupai CMS yang membangun bagian konten publik portal Anda.
 
-![Blok Pengelolaan Platform pada dasbor administrasi, yang mencantumkan Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories, dan System templates](/.gitbook/assets/admin-platform-block.png)
+![Blok Pengelolaan Platform pada dasbor administrasi, yang mencantumkan Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories, dan System templates](../../.gitbook/assets/admin-platform-block.png)
 
 ## Mengakses Blok Platform
 

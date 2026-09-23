@@ -2,7 +2,7 @@
 
 管理ダッシュボードの **Rooms** ブロックでは、対面またはブレンド型研修のために Chamilo が追跡できる物理的な場所を管理します。すなわち、ブランチ（サイト）、その中の教室、および指定した時刻に空いている教室を探すツールです。
 
-![管理ダッシュボードの Rooms ブロック。Branches、Rooms、Room availability finder が一覧表示されています](/.gitbook/assets/admin-rooms-block.png)
+![管理ダッシュボードの Rooms ブロック。Branches、Rooms、Room availability finder が一覧表示されています](../../.gitbook/assets/admin-rooms-block.png)
 
 本章では、ブランチと教室の管理者側の管理について説明します。教師向けの操作（コースセッションへの教室の割り当て）については、教師ガイドの [ブランチと教室](../../teacher-guide/branches-and-rooms.md) を参照してください。
 

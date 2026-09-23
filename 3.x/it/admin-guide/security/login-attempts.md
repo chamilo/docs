@@ -8,7 +8,7 @@ Dal pannello di amministrazione, fare clic su **Sicurezza > Tentativi di accesso
 
 ## Cosa mostra
 
-![La pagina Tentativi di accesso con grafici per i tentativi per giorno, gli IP principali, i tentativi non riusciti per mese, gli accessi riusciti rispetto a quelli non riusciti, i tentativi per ora e gli IP univoci per giorno, seguiti da una tabella dei tentativi di accesso non riusciti](/.gitbook/assets/admin-security-login-attempts.png)
+![La pagina Tentativi di accesso con grafici per i tentativi per giorno, gli IP principali, i tentativi non riusciti per mese, gli accessi riusciti rispetto a quelli non riusciti, i tentativi per ora e gli IP univoci per giorno, seguiti da una tabella dei tentativi di accesso non riusciti](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Tentativi per giorno (ultimi 7 giorni)** — Conteggio giornaliero dei tentativi non riusciti
 * **IP principali (ultimi 30 giorni)** — Quali indirizzi IP hanno generato il maggior numero di tentativi

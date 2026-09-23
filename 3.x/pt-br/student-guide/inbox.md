@@ -4,17 +4,17 @@ A **Caixa de entrada** é o sistema de mensagens privadas do Chamilo — mensage
 
 ## Acessando sua caixa de entrada
 
-Clique no ícone **Caixa de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> na barra superior. Um distintivo vermelho indica quantas mensagens não lidas você tem. Se esse ícone não estiver presente, o administrador desativou as mensagens da plataforma.
+Clique no ícone **Caixa de entrada** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> na barra superior. Um distintivo vermelho indica quantas mensagens não lidas você tem. Se esse ícone não estiver presente, o administrador desativou as mensagens da plataforma.
 
 ## Lendo e respondendo
 
 Sua caixa de entrada lista as mensagens recebidas, indicando quais estão não lidas. Abra uma para lê-la e use **Responder** para responder — você pode incluir vários destinatários em uma resposta de uma só vez, o que é útil para manter um pequeno grupo de pessoas informadas sem criar um curso formal ou um grupo social.
 
-![A Caixa de entrada, com as abas Caixa de entrada / Não lidas / Enviadas e uma tabela de mensagens recebidas](/.gitbook/assets/student-inbox.png)
+![A Caixa de entrada, com as abas Caixa de entrada / Não lidas / Enviadas e uma tabela de mensagens recebidas](../.gitbook/assets/student-inbox.png)
 
 ## Compondo uma nova mensagem
 
-Clique no botão **nova mensagem** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nova mensagem" data-size="line">, escolha um ou mais destinatários, escreva um assunto e o corpo e envie. Assim como em uma resposta, uma nova mensagem pode ir para várias pessoas ao mesmo tempo.
+Clique no botão **nova mensagem** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nova mensagem" data-size="line">, escolha um ou mais destinatários, escreva um assunto e o corpo e envie. Assim como em uma resposta, uma nova mensagem pode ir para várias pessoas ao mesmo tempo.
 
 ## Abas e ações
 

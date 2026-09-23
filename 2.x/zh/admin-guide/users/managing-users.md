@@ -4,7 +4,7 @@
 
 ## 用户列表
 
-![用户列表显示账户信息，包括姓名、电子邮件、角色和状态列](/.gitbook/assets/admin-user-list.png)
+![用户列表显示账户信息，包括姓名、电子邮件、角色和状态列](../../.gitbook/assets/admin-user-list.png)
 
 从管理面板中，点击**用户列表**查看平台上的所有用户。列表显示：
 
@@ -21,7 +21,7 @@
 
 ## 创建用户
 
-![用户创建表单，包含姓名、电子邮件、用户名、密码、角色和语言字段](/.gitbook/assets/admin-user-create-form.png)
+![用户创建表单，包含姓名、电子邮件、用户名、密码、角色和语言字段](../../.gitbook/assets/admin-user-create-form.png)
 
 1. 从管理面板中点击**添加用户**
 2. 填写必填字段：
@@ -41,7 +41,7 @@
 
 ## 导入用户
 
-![用户导入界面，用于上传包含用户数据的CSV或XML文件](/.gitbook/assets/admin-user-import.png)
+![用户导入界面，用于上传包含用户数据的CSV或XML文件](../../.gitbook/assets/admin-user-import.png)
 
 对于批量创建用户，您可以从文件导入用户：
 

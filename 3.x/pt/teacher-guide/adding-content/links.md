@@ -4,8 +4,8 @@ A ferramenta de ligações permite partilhar URLs úteis com os seus formandos, 
 
 ## Adicionar uma Ligação
 
-1. Abra a ferramenta **Ligações** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Ligações" data-size="line"> a partir da página inicial do curso
-2. Clique em **Adicionar uma ligação** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Adicionar ligação" data-size="line">
+1. Abra a ferramenta **Ligações** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Ligações" data-size="line"> a partir da página inicial do curso
+2. Clique em **Adicionar uma ligação** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Adicionar ligação" data-size="line">
 3. Preencha os detalhes:
    * **URL** — O endereço web (p. ex., `https://example.com/resource`)
    * **Nome da ligação** — Um nome descritivo para a ligação
@@ -27,10 +27,10 @@ As ligações de uma categoria são apresentadas em conjunto, facilitando aos fo
 
 ## Gerir Ligações
 
-* **Verificação de ligações** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validade" data-size="line">  — O Chamilo pode verificar se as ligações ainda estão ativas ou quebradas
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Atualizar o URL, o título ou a descrição da ligação
-* **Visibilidade** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou mostrar a ligação aos formandos
-* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Remover a ligação
+* **Verificação de ligações** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validade" data-size="line">  — O Chamilo pode verificar se as ligações ainda estão ativas ou quebradas
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Atualizar o URL, o título ou a descrição da ligação
+* **Visibilidade** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> — Ocultar ou mostrar a ligação aos formandos
+* **Eliminar** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Remover a ligação
 
 ## Exportar Ligações
 

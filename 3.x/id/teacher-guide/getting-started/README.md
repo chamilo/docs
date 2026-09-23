@@ -14,7 +14,7 @@ Jika institusi Anda menggunakan autentikasi eksternal (seperti Azure, Keycloak, 
 
 Setelah masuk, Anda akan melihat halaman beranda Chamilo. Antarmuka terorganisasi ke dalam tiga area utama:
 
-![Halaman beranda Chamilo yang menampilkan pengumuman sistem dan kartu kursus](/.gitbook/assets/home-page-teacher.png)
+![Halaman beranda Chamilo yang menampilkan pengumuman sistem dan kartu kursus](../../.gitbook/assets/home-page-teacher.png)
 
 * **Bilah atas** — Menampilkan logo platform, kotak masuk pesan Anda (dengan lencana yang menunjukkan pesan belum dibaca), dan avatar pengguna Anda. Klik avatar Anda untuk mengakses profil dan pengaturan akun.
 * **Bilah sisi** — Panel navigasi kiri memberi Anda akses cepat ke kursus, sesi, agenda, jejaring sosial, dan lainnya. Anda dapat menciutkannya dengan mengklik tombol alih di tepinya.
@@ -24,7 +24,7 @@ Setelah masuk, Anda akan melihat halaman beranda Chamilo. Antarmuka terorganisas
 
 Dari bilah sisi, klik **My courses** untuk melihat semua kursus tempat Anda terdaftar sebagai pengajar atau peserta didik. Setiap kursus muncul sebagai kartu yang menampilkan:
 
-![Halaman My Courses yang menampilkan kartu kursus dengan thumbnail dan aksi akses cepat](/.gitbook/assets/my-courses-list.png)
+![Halaman My Courses yang menampilkan kartu kursus dengan thumbnail dan aksi akses cepat](../../.gitbook/assets/my-courses-list.png)
 
 * Gambar atau thumbnail kursus
 * Judul kursus

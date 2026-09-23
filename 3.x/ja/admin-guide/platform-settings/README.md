@@ -4,7 +4,7 @@ Chamilo には、カテゴリ別に整理された広範な設定システムが
 
 管理パネルで **設定** をクリックすると、プラットフォーム設定にアクセスできます。
 
-![機能領域ごとに整理された設定カテゴリを示すプラットフォーム設定ページ](/.gitbook/assets/admin-settings-categories.png)
+![機能領域ごとに整理された設定カテゴリを示すプラットフォーム設定ページ](../../.gitbook/assets/admin-settings-categories.png)
 
 ## すべてのカテゴリ
 

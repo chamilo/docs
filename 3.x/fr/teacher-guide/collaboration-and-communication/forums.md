@@ -4,7 +4,7 @@ L'outil forum vous permet d'héberger des discussions structurées au sein de vo
 
 ## Structure des forums
 
-![La liste des catégories de forums affichant les catégories, les forums et le nombre de sujets](/.gitbook/assets/forum-category-list.png)
+![La liste des catégories de forums affichant les catégories, les forums et le nombre de sujets](../../.gitbook/assets/forum-category-list.png)
 
 Les forums dans Chamilo sont organisés en trois niveaux :
 
@@ -14,7 +14,7 @@ Les forums dans Chamilo sont organisés en trois niveaux :
 
 ## Créer une catégorie de forum
 
-1. Ouvrez l'outil **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> depuis la page d'accueil de votre cours
+1. Ouvrez l'outil **Forums** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> depuis la page d'accueil de votre cours
 2. Cliquez sur **Ajouter une catégorie de forum**
 3. Saisissez un **Nom de catégorie** et une description facultative
 4. Enregistrez

@@ -4,7 +4,7 @@ Chamilo has an extensive configuration system with settings organized into categ
 
 Access platform settings from the administration panel by clicking **Configuration settings**.
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![The platform settings page showing configuration categories organized by functional area](../../.gitbook/assets/admin-settings-categories.png)
 
 ## All categories
 

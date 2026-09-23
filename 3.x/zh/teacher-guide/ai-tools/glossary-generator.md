@@ -9,7 +9,7 @@ AI 术语表词条生成器可根据某一主题或学科领域自动生成词�
 1. 已在平台级别启用 AI 助手
 2. 至少已配置一个 AI 文本提供方
 
-从课程主页打开 **术语表** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="术语表" data-size="line"> 工具，并在工具栏中查找 **使用 AI 生成** 按钮。
+从课程主页打开 **术语表** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="术语表" data-size="line"> 工具，并在工具栏中查找 **使用 AI 生成** 按钮。
 
 ## 如何生成词条
 

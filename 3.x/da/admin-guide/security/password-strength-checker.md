@@ -8,7 +8,7 @@ Fra administrationspanelet skal du klikke på **Sikkerhed > Adgangskodestyrkekon
 
 ## Kørsel af en scanning
 
-![Siden Adgangskodestyrkekontrol med et felt til bruger-id'er, der skal scannes, og en knap til at køre scanningen](/.gitbook/assets/admin-security-password-strength.png)
+![Siden Adgangskodestyrkekontrol med et felt til bruger-id'er, der skal scannes, og en knap til at køre scanningen](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Lad **Bruger-id'er, der skal scannes** være tomt for at scanne alle aktive brugere, eller indtast en kommasepareret liste over bruger-id'er for at kontrollere et undersæt
 * Klik på **Kør scanning af adgangskodestyrke**
@@ -17,7 +17,7 @@ Scanningen kører asynkront i baggrunden, så den ikke fryser siden, og viser li
 
 ## Handling på resultater
 
-![De færdige scanningsresultater, der viser en markeret bruger med kolonnerne Navn, Brugernavn og E-mail samt handlinger pr. række til at anmode om adgangskodeændring eller tvinge en nulstilling af adgangskoden](/.gitbook/assets/admin-security-password-strength-results.png)
+![De færdige scanningsresultater, der viser en markeret bruger med kolonnerne Navn, Brugernavn og E-mail samt handlinger pr. række til at anmode om adgangskodeændring eller tvinge en nulstilling af adgangskoden](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Når scanningen er færdig, vises markerede brugere med to tilgængelige handlinger, enten pr. bruger eller som en massehandling for alle valgte brugere:
 

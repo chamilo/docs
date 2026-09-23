@@ -19,7 +19,7 @@ Chamilo calcola il voto complessivo di ciascun discente in base a questi pesi.
 
 ## Configurazione della valutazione
 
-1. Aprire lo strumento **Valutazioni** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> dalla homepage del corso
+1. Aprire lo strumento **Valutazioni** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> dalla homepage del corso
 2. Si visualizza la panoramica delle valutazioni, inizialmente vuota
 
 ### Aggiungere attività
@@ -48,7 +48,7 @@ Per schemi di valutazione complessi, è possibile creare **sottocategorie** per 
 
 ## Visualizzazione dei voti
 
-![La tabella panoramica del registro dei voti che mostra i nomi dei discenti, i punteggi delle attività e i totali ponderati](/.gitbook/assets/gradebook-overview.png)
+![La tabella panoramica del registro dei voti che mostra i nomi dei discenti, i punteggi delle attività e i totali ponderati](../../.gitbook/assets/gradebook-overview.png)
 
 La valutazione mostra una tabella con:
 
@@ -77,7 +77,7 @@ Per abilitare la generazione dei certificati:
 
 Una volta abilitato **Genera certificati** sulla categoria radice, compare un campo **Validità del certificato (giorni)**. Lasciarlo a `0` per certificati che non scadono mai, oppure impostare un numero di giorni dopo i quali il certificato scade — Chamilo può quindi ricordare ai discenti l'avvicinarsi di tale data di scadenza, in modo automatico (cron, configurato dall'amministratore) o manualmente dall'elenco dei certificati.
 
-![La finestra di modifica della categoria con Genera certificati abilitato e il campo Validità del certificato (giorni) impostato a 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![La finestra di modifica della categoria con Genera certificati abilitato e il campo Validità del certificato (giorni) impostato a 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Vedere [Certificati e competenze](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) per ulteriori dettagli.
 
@@ -87,7 +87,7 @@ Vedere [Certificati e competenze](../tracking-and-reporting/certificates-and-ski
 
 ## Esportazione dei voti
 
-Fare clic sul pulsante **Esporta** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i voti come foglio di calcolo. Questa funzione è utile per:
+Fare clic sul pulsante **Esporta** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i voti come foglio di calcolo. Questa funzione è utile per:
 
 * Condividere i voti con i sistemi amministrativi
 * Eseguire analisi aggiuntive al di fuori di Chamilo

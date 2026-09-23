@@ -2,7 +2,7 @@
 
 Blokken **Analyse** på administrationsdashboardet samler platformdækkende statistikker, læringsanalyse, virksomheds-/HR-rapportering og værktøjer til masseeksport. Afhængigt af din Chamilo-version kan denne blok være mærket **"Tracking"** på selve dashboardet — det er den samme blok uanset. Denne vejledning kalder den Analyse hele vejen igennem for at undgå forveksling med [Tracking-indstillinger](../platform-settings/tracking-settings.md), den separate indstillingskategori, der styrer, hvad der registreres, frem for selve rapporterne.
 
-![Analyseblokken på administrationsdashboardet (mærket "Tracking" på dette skærmbillede), med Global statistik, Rapportkatalog, Læringsanalyse, Kvartalsrapport, Lærertidrapport, Virksomhedsrapport, Særlige eksporter og Tickets](/.gitbook/assets/admin-analytics-block.png)
+![Analyseblokken på administrationsdashboardet (mærket "Tracking" på dette skærmbillede), med Global statistik, Rapportkatalog, Læringsanalyse, Kvartalsrapport, Lærertidrapport, Virksomhedsrapport, Særlige eksporter og Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Adgang til Analyse
 

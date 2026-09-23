@@ -2,7 +2,7 @@
 
 O bloco **Skills** no painel de administração agrupa as ferramentas para definir, organizar e acompanhar distintivos de competência (“skills”) em toda a plataforma. Uma competência pode ser concedida automaticamente quando um aluno atinge um limiar no boletim, conclui cursos específicos, ou manualmente por um professor, e pode ter um ícone no estilo de distintivo e um nível (por exemplo Bronze/Prata/Ouro).
 
-![O bloco Skills no painel de administração, listando Roda de competências, Importação de competências, Gerenciar competências, Gerenciar níveis de competências, Ranking de competências e Competências e avaliações](/.gitbook/assets/admin-skills-block.png)
+![O bloco Skills no painel de administração, listando Roda de competências, Importação de competências, Gerenciar competências, Gerenciar níveis de competências, Ranking de competências e Competências e avaliações](../../.gitbook/assets/admin-skills-block.png)
 
 O bloco inteiro só aparece se a configuração **Enable skills tool** (`skill.allow_skills_tool`, em Configuration Settings > Skills) estiver ativada — ela vem habilitada por padrão.
 

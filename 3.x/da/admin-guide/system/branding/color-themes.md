@@ -8,7 +8,7 @@ Farvetemaer definerer paletten, der bruges på tværs af Chamilo-grænsefladen �
 
 ## Anvendelse af et tema
 
-![Siden med farvetemaer, der viser tilgængelige temaer med forhåndsvisningsswatches og en Anvend-knap](/.gitbook/assets/admin-color-themes.png)
+![Siden med farvetemaer, der viser tilgængelige temaer med forhåndsvisningsswatches og en Anvend-knap](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Fra administrationspanelet skal du navigere til **Farvetemaer**
 2. Gennemse de tilgængelige temaer

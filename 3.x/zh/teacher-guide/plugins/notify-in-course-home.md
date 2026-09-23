@@ -1,10 +1,10 @@
 # 在课程主页通知
 
-在课程主页通知 <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="在课程主页通知" data-size="line"> 可让您向访问课程主页的所有人显示弹出通知——适用于公告、必读提示，或“点击此处继续”的门控。
+在课程主页通知 <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="在课程主页通知" data-size="line"> 可让您向访问课程主页的所有人显示弹出通知——适用于公告、必读提示，或“点击此处继续”的门控。
 
 ## 设置通知
 
-启用后，课程的 **设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 中会增加 **在主页设置一条通知** 按钮。它会打开一个表单，供您撰写通知（富文本），并可选择设置 **过期链接**。
+启用后，课程的 **设置** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line"> 中会增加 **在主页设置一条通知** 按钮。它会打开一个表单，供您撰写通知（富文本），并可选择设置 **过期链接**。
 
 * **带过期链接** — 弹出窗口会显示指向该链接的按钮，并持续重复出现，直到学习者点击该按钮
 * **不带过期链接** — 每次访问者打开课程主页时，通知都会再次出现

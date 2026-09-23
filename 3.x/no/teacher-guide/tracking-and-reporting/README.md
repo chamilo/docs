@@ -8,6 +8,6 @@ Chamilo sporer læringsaktivitet gjennom hele plattformen og gir deg detaljert i
 
 ## Tilgang til rapporter
 
-Fra kurset ditt klikker du på verktøyet **Sporing** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Sporing" data-size="line"> på kursets startside. Du kan også åpne rapportering fra lenken **Rapportering** i sidemenyen for en oversikt på tvers av kurs.
+Fra kurset ditt klikker du på verktøyet **Sporing** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Sporing" data-size="line"> på kursets startside. Du kan også åpne rapportering fra lenken **Rapportering** i sidemenyen for en oversikt på tvers av kurs.
 
 Lærere ser rapporteringsdata for kursene de underviser i. Øktveiledere ser data på tvers av alle kurs i økten sin.

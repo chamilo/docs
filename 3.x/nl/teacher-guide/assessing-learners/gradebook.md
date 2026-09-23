@@ -19,7 +19,7 @@ Chamilo berekent het totaalcijfer van elke deelnemer op basis van deze gewichten
 
 ## De beoordeling instellen
 
-1. Open de tool **Beoordelingen** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Cijferboek" data-size="line"> vanaf de cursushomepage
+1. Open de tool **Beoordelingen** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Cijferboek" data-size="line"> vanaf de cursushomepage
 2. U ziet het overzicht van de beoordelingen, aanvankelijk leeg
 
 ### Activiteiten toevoegen
@@ -48,7 +48,7 @@ Voor complexe beoordelingsschema's kunt u **subcategorieën** aanmaken om gerela
 
 ## Cijfers bekijken
 
-![De overzichtstabel van het cijferboek met namen van deelnemers, activiteitsscores en gewogen totalen](/.gitbook/assets/gradebook-overview.png)
+![De overzichtstabel van het cijferboek met namen van deelnemers, activiteitsscores en gewogen totalen](../../.gitbook/assets/gradebook-overview.png)
 
 De beoordeling toont een tabel met:
 
@@ -77,7 +77,7 @@ Om de generatie van certificaten in te schakelen:
 
 Zodra **Certificaten genereren** is ingeschakeld op de hoofdcategorie, verschijnt een veld **Geldigheid van het certificaat (dagen)**. Laat het op `0` staan voor certificaten die nooit verlopen, of stel een aantal dagen in waarna het certificaat verloopt — Chamilo kan deelnemers dan herinneren wanneer die vervaldatum nadert, automatisch (cron, door de beheerder geconfigureerd) of handmatig vanuit de certificatenlijst.
 
-![Het bewerkingsvenster van de categorie met Certificaten genereren ingeschakeld en het veld Geldigheid van het certificaat (dagen) ingesteld op 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Het bewerkingsvenster van de categorie met Certificaten genereren ingeschakeld en het veld Geldigheid van het certificaat (dagen) ingesteld op 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Zie [Certificaten en vaardigheden](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) voor meer details.
 
@@ -87,7 +87,7 @@ U kunt **vaardigheden** koppelen aan de beoordeling. Wanneer een deelnemer de va
 
 ## Cijfers exporteren
 
-Klik op de knop **Exporteren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporteren" data-size="line"> om cijfers als spreadsheet te downloaden. Dit is nuttig voor:
+Klik op de knop **Exporteren** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporteren" data-size="line"> om cijfers als spreadsheet te downloaden. Dit is nuttig voor:
 
 * Het delen van cijfers met administratieve systemen
 * Het uitvoeren van aanvullende analyses buiten Chamilo

@@ -4,7 +4,7 @@
 
 ## Como aceder
 
-Clique em **Reporting** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> na barra lateral para a expandir e, em seguida, clique em **Progress**. Esta é a sua vista pessoal — mostra apenas os seus próprios dados, nunca os dos seus colegas.
+Clique em **Reporting** <img src="../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> na barra lateral para a expandir e, em seguida, clique em **Progress**. Esta é a sua vista pessoal — mostra apenas os seus próprios dados, nunca os dos seus colegas.
 
 ## O que vê
 
@@ -15,7 +15,7 @@ Uma tabela com todos os cursos em que está inscrito, com:
 * **Melhor pontuação no percurso de aprendizagem** e **melhor pontuação fora do percurso de aprendizagem** — os seus melhores resultados, separados conforme provenham de um teste integrado num percurso de aprendizagem ou de um teste autónomo
 * **Último início de sessão** — a última vez que acedeu a esse curso
 
-![A tabela O Meu Progresso, com todos os cursos inscritos, tempo gasto, progresso e melhores pontuações](/.gitbook/assets/student-my-progress.png)
+![A tabela O Meu Progresso, com todos os cursos inscritos, tempo gasto, progresso e melhores pontuações](../.gitbook/assets/student-my-progress.png)
 
 Clique no botão **Details** junto a qualquer curso para expandir três subtabelas sem sair da página:
 
@@ -27,7 +27,7 @@ Clique no botão **Details** junto a qualquer curso para expandir três subtabel
 
 Os certificados não fazem parte desta página — encontre-os em **My certificates**, no menu do avatar no canto superior direito do ecrã. Lista todos os cursos e sessões em que obteve um certificado, com a pontuação, a data e botões para **view** ou **download**.
 
-![A página My Certificates, com tabelas separadas para certificados de curso e certificados de sessão](/.gitbook/assets/student-my-certificates.png)
+![A página My Certificates, com tabelas separadas para certificados de curso e certificados de sessão](../.gitbook/assets/student-my-certificates.png)
 
 O menu do avatar também tem uma ligação **My skills**, que lista os distintivos de competência que lhe foram atribuídos — distinta de ambas as páginas acima.
 

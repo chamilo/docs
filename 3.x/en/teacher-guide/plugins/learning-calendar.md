@@ -1,6 +1,6 @@
 # Learning Calendar
 
-Learning Calendar <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Learning Calendar" data-size="line"> helps plan blended or apprenticeship-style training that mixes classroom time with off-site practice. You build a calendar marking each day as **Busy**, **Exam**, or **Free**, assign learners to it, and their personal agenda then shows those planned days.
+Learning Calendar <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Learning Calendar" data-size="line"> helps plan blended or apprenticeship-style training that mixes classroom time with off-site practice. You build a calendar marking each day as **Busy**, **Exam**, or **Free**, assign learners to it, and their personal agenda then shows those planned days.
 
 ## Accessing the Tool
 

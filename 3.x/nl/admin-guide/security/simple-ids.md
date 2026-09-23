@@ -10,7 +10,7 @@ Klik in het beheerpaneel op **Beveiliging > Simple IDS**.
 
 ## Wat het toont
 
-![De pagina Simple IDS met grafieken voor gebeurtenissen per dag, gebeurtenissen per type en belangrijkste aanvallende IP-adressen, gevolgd door een tabel met gemarkeerde IDS-gebeurtenissen met datum, IP, detectietype, parameter, URI en detail](/.gitbook/assets/admin-security-simple-ids.png)
+![De pagina Simple IDS met grafieken voor gebeurtenissen per dag, gebeurtenissen per type en belangrijkste aanvallende IP-adressen, gevolgd door een tabel met gemarkeerde IDS-gebeurtenissen met datum, IP, detectietype, parameter, URI en detail](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Gebeurtenissen per dag (laatste 7 dagen)**, **Gebeurtenissen per type (laatste 30 dagen)** en **Belangrijkste aanvallende IP-adressen (laatste 30 dagen)** — Samenvattende grafieken
 * **Tabel met gemarkeerde IDS-gebeurtenissen** — Elke vermelding toont de datum, het bron-IP, het detectietype (bijvoorbeeld `XSS`), de betreffende parameter, de verzoek-URI en een korte beschrijving van wat is gedetecteerd

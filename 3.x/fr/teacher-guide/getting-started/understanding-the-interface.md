@@ -4,13 +4,13 @@ Chamilo 3.0 propose une interface claire et moderne, conçue pour simplifier la 
 
 ## La barre supérieure
 
-![La barre supérieure avec des éléments annotés : logo, boîte de réception, ticket de support et avatar utilisateur](/.gitbook/assets/top-bar-annotated.png)
+![La barre supérieure avec des éléments annotés : logo, boîte de réception, ticket de support et avatar utilisateur](../../.gitbook/assets/top-bar-annotated.png)
 
 La barre supérieure est toujours visible en haut de chaque page. Elle contient :
 
 * **Logo de la plateforme** — Cliquez dessus pour revenir à la page d’accueil à tout moment.
-* **Icône de boîte de réception** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Affiche vos messages. Un badge rouge indique des messages non lus. Cliquez pour ouvrir votre boîte de réception.
-* **Icône de ticket de support** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Si elle est activée par votre administrateur, elle vous donne accès au système de tickets de support.
+* **Icône de boîte de réception** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Affiche vos messages. Un badge rouge indique des messages non lus. Cliquez pour ouvrir votre boîte de réception.
+* **Icône de ticket de support** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Si elle est activée par votre administrateur, elle vous donne accès au système de tickets de support.
 * **Votre avatar** — Une image circulaire dans le coin supérieur droit. Cliquez dessus pour ouvrir un menu déroulant avec des liens vers votre profil, les paramètres du compte et la déconnexion.
 
 ## La barre latérale
@@ -19,19 +19,19 @@ La barre latérale à gauche constitue votre navigation principale. Elle peut ê
 
 La barre latérale contient les liens suivants (certains peuvent être masqués selon la configuration de votre plateforme) :
 
-![Le panneau de navigation de la barre latérale à l’état étendu, affichant tous les éléments de menu](/.gitbook/assets/sidebar-expanded.png)
+![Le panneau de navigation de la barre latérale à l’état étendu, affichant tous les éléments de menu](../../.gitbook/assets/sidebar-expanded.png)
 
 | Élément de menu | Icône | Description |
 |-----------|------|-------------|
-| **Accueil** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Retourne au tableau de bord principal |
-| **Mes cours** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Liste tous les cours auxquels vous êtes inscrit |
-| **Mes sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Liste vos sessions de formation (en cours, passées, à venir) |
-| **Explorer plus de cours** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Parcourir le catalogue de cours pour trouver de nouveaux cours |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Votre calendrier personnel et de cours |
-| **Rapports** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Accéder au suivi des apprenants et aux rapports de cours |
-| **Réseau social** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Entrer en contact avec d’autres utilisateurs, envoyer des messages, rejoindre des groupes |
-| **Visioconférence** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Accéder aux sessions vidéo en direct (si configuré) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Administration de la plateforme (visible uniquement pour les administrateurs) |
+| **Accueil** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Retourne au tableau de bord principal |
+| **Mes cours** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Liste tous les cours auxquels vous êtes inscrit |
+| **Mes sessions** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Liste vos sessions de formation (en cours, passées, à venir) |
+| **Explorer plus de cours** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Parcourir le catalogue de cours pour trouver de nouveaux cours |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Votre calendrier personnel et de cours |
+| **Rapports** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Accéder au suivi des apprenants et aux rapports de cours |
+| **Réseau social** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Entrer en contact avec d’autres utilisateurs, envoyer des messages, rejoindre des groupes |
+| **Visioconférence** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Accéder aux sessions vidéo en direct (si configuré) |
+| **Administration** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Administration de la plateforme (visible uniquement pour les administrateurs) |
 
 Tout en bas de la barre latérale, vous trouverez une option **Déconnexion** pour vous déconnecter rapidement lorsque vous avez terminé. Cette option est également disponible depuis le menu déroulant de l’icône de votre avatar, dans le coin supérieur droit.
 Si la plateforme est gérée via des méthodes d’authentification externes, ces options de déconnexion peuvent ne pas être disponibles.
@@ -50,8 +50,8 @@ Lorsque vous entrez dans un cours, vous voyez la **page d’accueil du cours**. 
 
 En tant qu’enseignant, vous verrez des commandes supplémentaires :
 
-* **Vue apprenant** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Activez cette option pour voir le cours tel qu’un apprenant le verrait
-* **Modifier l’introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modifier le texte d’introduction du cours
+* **Vue apprenant** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Activez cette option pour voir le cours tel qu’un apprenant le verrait
+* **Modifier l’introduction** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modifier le texte d’introduction du cours
 * **Tout afficher / Tout masquer** — Modifier rapidement la visibilité de tous les outils pour les apprenants
 * **Trier** — Activer le glisser-déposer pour réordonner les outils sur la page d’accueil
 

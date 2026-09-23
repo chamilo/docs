@@ -4,7 +4,7 @@ In qualità di amministratore, è possibile gestire tutti i corsi della piattafo
 
 ## Elenco dei corsi
 
-![L'elenco dei corsi che mostra tutti i corsi con titolo, codice, categoria, utenti iscritti e stato di visibilità](/.gitbook/assets/admin-course-list.png)
+![L'elenco dei corsi che mostra tutti i corsi con titolo, codice, categoria, utenti iscritti e stato di visibilità](../../.gitbook/assets/admin-course-list.png)
 
 Dal pannello di amministrazione, fare clic su **Elenco dei corsi** per visualizzare tutti i corsi. L'elenco mostra:
 

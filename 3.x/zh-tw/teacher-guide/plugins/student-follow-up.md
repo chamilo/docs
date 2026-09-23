@@ -1,6 +1,6 @@
 # 學員追蹤
 
-學員追蹤 <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="學員追蹤" data-size="line"> 可讓您為學員的進度與困難留下帶時間戳記、可加標籤的筆記——這是一套輕量的個案紀錄系統，用來追蹤學員長期的學習狀況。
+學員追蹤 <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="學員追蹤" data-size="line"> 可讓您為學員的進度與困難留下帶時間戳記、可加標籤的筆記——這是一套輕量的個案紀錄系統，用來追蹤學員長期的學習狀況。
 
 ## 存取此工具
 

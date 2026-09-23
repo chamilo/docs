@@ -1,6 +1,6 @@
 # Positionering
 
-Positionering <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> lägger till ett arbetsflöde för självbedömning före/efter: välj ett test som **inledande test** och ett annat som **avslutande test** (ofta en kopia av samma test), och Chamilo visar varje deltagares poängförändring mellan de två på ett radardiagram.
+Positionering <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> lägger till ett arbetsflöde för självbedömning före/efter: välj ett test som **inledande test** och ett annat som **avslutande test** (ofta en kopia av samma test), och Chamilo visar varje deltagares poängförändring mellan de två på ett radardiagram.
 
 ## Åtkomst till verktyget
 

@@ -9,11 +9,11 @@ AIによる評価は以下の2つの場面で利用可能です：
 * **自由記述形式の演習問題** — 演習内の自由回答問題を手動で採点する際
 * **課題の提出物** — 課題ツールで学生の投稿をレビューし、スコアを付ける際
 
-採点インターフェース内で **AIによる評価** ボタン（ロボットのアイコン <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> で示される）を探してください。
+採点インターフェース内で **AIによる評価** ボタン（ロボットのアイコン <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> で示される）を探してください。
 
 ## 仕組み
 
-![学生の提出物と提案されたスコアおよびフィードバックを表示するAI評価インターフェース](/.gitbook/assets/ai-grading-interface.png)
+![学生の提出物と提案されたスコアおよびフィードバックを表示するAI評価インターフェース](../../.gitbook/assets/ai-grading-interface.png)
 
 1. 評価が必要な提出物または回答を開く
 2. **AIによる評価** ボタンをクリックする

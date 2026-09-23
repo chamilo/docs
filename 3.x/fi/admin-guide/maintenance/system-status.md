@@ -8,7 +8,7 @@ Hallintapaneelista napsauta **Järjestelmän tila** (tai **Järjestelmätiedot**
 
 ## Mitä se näyttää
 
-![Järjestelmän tila -sivu, jossa näkyvät PHP-määritykset, tietokannan tila, tiedosto-oikeudet ja palvelintiedot](/.gitbook/assets/admin-system-status.png)
+![Järjestelmän tila -sivu, jossa näkyvät PHP-määritykset, tietokannan tila, tiedosto-oikeudet ja palvelintiedot](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP-määritykset
 

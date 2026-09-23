@@ -4,7 +4,7 @@ O Chamilo possui um sistema de configuração abrangente, com definições organ
 
 Acesse as configurações da plataforma no painel de administração clicando em **Configurações**.
 
-![A página de configurações da plataforma mostrando as categorias de configuração organizadas por área funcional](/.gitbook/assets/admin-settings-categories.png)
+![A página de configurações da plataforma mostrando as categorias de configuração organizadas por área funcional](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Todas as categorias
 

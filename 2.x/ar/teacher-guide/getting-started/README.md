@@ -14,7 +14,7 @@
 
 بعد تسجيل الدخول، سترى صفحة الصفحة الرئيسية لـ Chamilo. يتم تنظيم الواجهة في ثلاث مناطق رئيسية:
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![The Chamilo home page showing system announcements and course cards](../../.gitbook/assets/home-page-teacher.png)
 
 * **شريط علوي** — يعرض شعار المنصة، صندوق الرسائل الخاص بك (مع شارة تظهر الرسائل غير المقروءة)، وصورة رمزية المستخدم الخاصة بك. انقر على صورتك الرمزية للوصول إلى ملفك الشخصي وإعدادات الحساب.
 * **شريط جانبي** — يوفر لوحة التنقل اليسرى الوصول السريع إلى الدورات الدراسية، والجلسات، والجدول الزمني، والشبكة الاجتماعية، وغيرها. يمكنك طيها بالنقر على مفتاح التبديل على حافتها.
@@ -24,7 +24,7 @@
 
 من الشريط الجانبي، انقر على **My courses** لعرض جميع الدورات الدراسية التي أنت مسجل فيها كمعلم أو طالب. تظهر كل دورة دراسية كبطاقة تعرض:
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![The My Courses page displaying course cards with thumbnails and quick-access actions](../../.gitbook/assets/my-courses-list.png)
 
 * صورة الدورة الدراسية أو الصورة المصغرة
 * عنوان الدورة الدراسية

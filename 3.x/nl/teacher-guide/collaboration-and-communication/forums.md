@@ -4,7 +4,7 @@ De forumtool stelt u in staat gestructureerde discussies binnen uw cursus te hos
 
 ## Forumstructuur
 
-![De lijst met forumcategorieën met categorieën, forums en aantallen onderwerpen](/.gitbook/assets/forum-category-list.png)
+![De lijst met forumcategorieën met categorieën, forums en aantallen onderwerpen](../../.gitbook/assets/forum-category-list.png)
 
 Forums in Chamilo zijn georganiseerd in drie niveaus:
 
@@ -14,7 +14,7 @@ Forums in Chamilo zijn georganiseerd in drie niveaus:
 
 ## Een forumcategorie aanmaken
 
-1. Open de tool **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> vanaf de startpagina van uw cursus
+1. Open de tool **Forums** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> vanaf de startpagina van uw cursus
 2. Klik op **Forumcategorie toevoegen**
 3. Voer een **Categorienaam** en optioneel een beschrijving in
 4. Opslaan

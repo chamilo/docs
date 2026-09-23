@@ -4,7 +4,7 @@
 
 ## 创建练习
 
-1. 在课程首页打开 **练习** 工具 <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="练习" data-size="line">
+1. 在课程首页打开 **练习** 工具 <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="练习" data-size="line">
 2. 点击 **新建练习**
 3. 输入 **标题** 和可选的 **描述**
 4. 配置练习设置（见下文）
@@ -12,7 +12,7 @@
 
 ## 练习设置
 
-![练习设置面板，包含显示、时间、尝试次数和反馈选项](/.gitbook/assets/exercise-settings.png)
+![练习设置面板，包含显示、时间、尝试次数和反馈选项](../../.gitbook/assets/exercise-settings.png)
 
 ### 显示与导航
 
@@ -75,7 +75,7 @@
 
 ## 题目类型
 
-![练习创建界面中可用的题目类型概览](/.gitbook/assets/exercise-question-types.png)
+![练习创建界面中可用的题目类型概览](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo 提供了丰富的题目类型，分为多个类别：
 

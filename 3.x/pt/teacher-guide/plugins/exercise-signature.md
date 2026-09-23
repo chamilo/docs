@@ -1,6 +1,6 @@
 # Assinatura de Exercício
 
-A Assinatura de Exercício <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Assinatura de Exercício" data-size="line"> adiciona um passo de assinatura eletrónica depois de um aluno concluir uma tentativa de teste, para que a conclusão possa ser autenticada — útil em contextos de conformidade ou certificação. Não altera pontuações, respostas nem dados do boletim de notas; apenas regista uma assinatura juntamente com a tentativa.
+A Assinatura de Exercício <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Assinatura de Exercício" data-size="line"> adiciona um passo de assinatura eletrónica depois de um aluno concluir uma tentativa de teste, para que a conclusão possa ser autenticada — útil em contextos de conformidade ou certificação. Não altera pontuações, respostas nem dados do boletim de notas; apenas regista uma assinatura juntamente com a tentativa.
 
 ## Ativar para um Teste
 

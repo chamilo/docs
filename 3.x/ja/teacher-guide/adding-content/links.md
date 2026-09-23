@@ -4,8 +4,8 @@
 
 ## リンクの追加
 
-1. コースホームページから **リンク** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="リンク" data-size="line"> ツールを開きます
-2. **リンクを追加** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="リンクを追加" data-size="line"> をクリックします
+1. コースホームページから **リンク** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="リンク" data-size="line"> ツールを開きます
+2. **リンクを追加** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="リンクを追加" data-size="line"> をクリックします
 3. 詳細を入力します:
    * **URL** — Webアドレス（例: `https://example.com/resource`）
    * **リンク名** — リンクのわかりやすい名前
@@ -27,10 +27,10 @@
 
 ## リンクの管理
 
-* **リンクチェック** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="有効性" data-size="line">  — Chamiloはリンクが有効か、切れているかを確認できます
-* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — リンクのURL、タイトル、または説明を更新します
-* **表示** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示" data-size="line"> — 学習者に対してリンクを非表示または表示にします
-* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — リンクを削除します
+* **リンクチェック** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="有効性" data-size="line">  — Chamiloはリンクが有効か、切れているかを確認できます
+* **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — リンクのURL、タイトル、または説明を更新します
+* **表示** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="表示" data-size="line"> — 学習者に対してリンクを非表示または表示にします
+* **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — リンクを削除します
 
 ## リンクのエクスポート
 

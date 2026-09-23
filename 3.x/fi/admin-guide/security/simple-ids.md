@@ -10,7 +10,7 @@ Hallintapaneelista napsauta **Turvallisuus > Yksinkertainen IDS**.
 
 ## Mitä se näyttää
 
-![Yksinkertainen IDS -sivu, jossa on kaaviot tapahtumista päivittäin, tapahtumista tyypin mukaan ja eniten hyökkäävistä IP-osoitteista, sekä taulukko merkittyistä IDS-tapahtumista päivämäärällä, IP:llä, havaitsemistyypillä, parametrilla, URI:lla ja yksityiskohdilla](/.gitbook/assets/admin-security-simple-ids.png)
+![Yksinkertainen IDS -sivu, jossa on kaaviot tapahtumista päivittäin, tapahtumista tyypin mukaan ja eniten hyökkäävistä IP-osoitteista, sekä taulukko merkittyistä IDS-tapahtumista päivämäärällä, IP:llä, havaitsemistyypillä, parametrilla, URI:lla ja yksityiskohdilla](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Tapahtumat päivittäin (viimeiset 7 päivää)**, **Tapahtumat tyypin mukaan (viimeiset 30 päivää)** ja **Eniten hyökkäävät IP-osoitteet (viimeiset 30 päivää)** — Yhteenvetokaaviot
 * **Merkittyjen IDS-tapahtumien taulukko** — Jokainen rivi näyttää päivämäärän, lähde-IP:n, havaitsemistyypin (esimerkiksi `XSS`), vaikutetun parametrin, pyynnön URI:n ja lyhyen kuvauksen siitä, mitä havaittiin

@@ -8,7 +8,7 @@ Cliquez sur **Réseau social** dans la barre latérale pour accéder aux fonctio
 
 ## Votre Mur Social
 
-![Le mur social affichant un flux de publications, de mentions J'aime et de commentaires de vos relations](/.gitbook/assets/social-wall.png)
+![Le mur social affichant un flux de publications, de mentions J'aime et de commentaires de vos relations](../.gitbook/assets/social-wall.png)
 
 Le mur social affiche un flux d'activité de vous et de vos relations. Vous pouvez :
 
@@ -30,9 +30,9 @@ Vous pouvez vous connecter avec d'autres utilisateurs de la plateforme :
 
 Le réseau social est intégré au système de messagerie de la plateforme :
 
-* **Envoyer des messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line"> — Écrire des messages directs à d'autres utilisateurs
-* **Boîte de réception** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> — Lire et répondre aux messages reçus
-* **Messages envoyés** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Envoyés" data-size="line"> — Consulter les messages que vous avez envoyés
+* **Envoyer des messages** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line"> — Écrire des messages directs à d'autres utilisateurs
+* **Boîte de réception** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> — Lire et répondre aux messages reçus
+* **Messages envoyés** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Envoyés" data-size="line"> — Consulter les messages que vous avez envoyés
 
 ### Rédaction et Réponse
 

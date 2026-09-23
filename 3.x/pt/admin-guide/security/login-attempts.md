@@ -8,7 +8,7 @@ No painel de administração, clique em **Segurança > Tentativas de início de 
 
 ## O Que Mostra
 
-![A página Tentativas de início de sessão, com gráficos de tentativas por dia, IPs principais, tentativas falhadas por mês, inícios de sessão bem-sucedidos vs. falhados, tentativas por hora e IPs únicos por dia, seguida de uma tabela de tentativas de início de sessão falhadas](/.gitbook/assets/admin-security-login-attempts.png)
+![A página Tentativas de início de sessão, com gráficos de tentativas por dia, IPs principais, tentativas falhadas por mês, inícios de sessão bem-sucedidos vs. falhados, tentativas por hora e IPs únicos por dia, seguida de uma tabela de tentativas de início de sessão falhadas](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Tentativas por dia (últimos 7 dias)** — Contagem diária de tentativas falhadas
 * **IPs principais (últimos 30 dias)** — Quais endereços IP geraram mais tentativas

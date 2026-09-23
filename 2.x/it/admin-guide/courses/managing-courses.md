@@ -4,7 +4,7 @@ In qualità di amministratore, puoi gestire tutti i corsi sulla piattaforma indi
 
 ## Elenco dei Corsi
 
-![L'elenco dei corsi che mostra tutti i corsi con titolo, codice, categoria, utenti iscritti e stato di visibilità](/.gitbook/assets/admin-course-list.png)
+![L'elenco dei corsi che mostra tutti i corsi con titolo, codice, categoria, utenti iscritti e stato di visibilità](../../.gitbook/assets/admin-course-list.png)
 
 Dal pannello di amministrazione, clicca su **Elenco dei corsi** per visualizzare tutti i corsi. L'elenco mostra:
 

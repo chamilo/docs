@@ -1,6 +1,6 @@
 # Övervakning av övningar
 
-Övervakning av övningar <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Övervakning av övningar" data-size="line"> använder studentens webbkamera för att ta identitetsfoton under ett testförsök — ett foto av en identitetshandling och ett foto av studentens ansikte — i syfte att säkerställa tentamensintegritet.
+Övervakning av övningar <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Övervakning av övningar" data-size="line"> använder studentens webbkamera för att ta identitetsfoton under ett testförsök — ett foto av en identitetshandling och ett foto av studentens ansikte — i syfte att säkerställa tentamensintegritet.
 
 ## Flagga ett test
 

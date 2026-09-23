@@ -11,7 +11,7 @@
 3. 輸入您的 **目前密碼**，勾選 **啟用雙因素驗證（2FA）** 核取方塊，然後點選 **更新設定**。
 4. 頁面會重新載入並顯示 QR 碼，以及「掃描 QR 碼以啟用 2FA」的訊息。請使用手機上的驗證器應用程式掃描（任何相容 TOTP 的應用程式皆可，例如 Google Authenticator、Microsoft Authenticator 或 Authy）。
 
-![提交後的變更密碼表單，顯示待掃描的 QR 碼以及 2FA 驗證碼欄位](/.gitbook/assets/student-2fa-qr-code.png)
+![提交後的變更密碼表單，顯示待掃描的 QR 碼以及 2FA 驗證碼欄位](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. 再次輸入目前密碼，並在 **2FA 驗證碼** 欄位中輸入應用程式目前顯示的 6 位數驗證碼，然後再次點選 **更新設定**。您將看到 2FA 已啟用的確認訊息。
 

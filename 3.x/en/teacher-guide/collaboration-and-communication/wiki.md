@@ -26,7 +26,7 @@ To link to another wiki page from within the editor, create a link using the tar
 Anyone with edit permissions can modify a wiki page:
 
 1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
+2. Click the **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
 3. Make your changes in the editor
 4. Add an optional **Comments** entry describing what you changed
 5. Save

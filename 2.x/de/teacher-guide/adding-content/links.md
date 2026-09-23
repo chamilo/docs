@@ -4,8 +4,8 @@ Das Links-Tool ermöglicht es Ihnen, nützliche URLs mit Ihren Lernenden zu teil
 
 ## Einen Link hinzufügen
 
-1. Öffnen Sie das **Links**-Tool <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> über die Kursstartseite
-2. Klicken Sie auf **Link hinzufügen** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Link hinzufügen" data-size="line">
+1. Öffnen Sie das **Links**-Tool <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> über die Kursstartseite
+2. Klicken Sie auf **Link hinzufügen** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Link hinzufügen" data-size="line">
 3. Füllen Sie die Details aus:
    * **URL** — Die Webadresse (z. B. `https://example.com/resource`)
    * **Linkname** — Ein beschreibender Name für den Link
@@ -27,10 +27,10 @@ Links innerhalb einer Kategorie werden zusammen angezeigt, sodass Lernende relev
 
 ## Links verwalten
 
-* **Linkprüfung** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Gültigkeit" data-size="line"> — Chamilo kann überprüfen, ob Links noch aktiv oder defekt sind
-* **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Aktualisieren Sie die URL, den Titel oder die Beschreibung des Links
-* **Sichtbarkeit** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbarkeit" data-size="line"> — Den Link für Lernende ausblenden oder anzeigen
-* **Löschen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Den Link entfernen
+* **Linkprüfung** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Gültigkeit" data-size="line"> — Chamilo kann überprüfen, ob Links noch aktiv oder defekt sind
+* **Bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Aktualisieren Sie die URL, den Titel oder die Beschreibung des Links
+* **Sichtbarkeit** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbarkeit" data-size="line"> — Den Link für Lernende ausblenden oder anzeigen
+* **Löschen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Den Link entfernen
 
 ## Links exportieren
 

@@ -4,9 +4,9 @@
 
 ## アジェンダの表示
 
-コースホームページから **アジェンダ** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> ツールを開きます。イベントは次の3つのモードで表示できます。
+コースホームページから **アジェンダ** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> ツールを開きます。イベントは次の3つのモードで表示できます。
 
-![コースのイベントと締切を表示したカレンダービューのアジェンダ](/.gitbook/assets/agenda-calendar-view.png)
+![コースのイベントと締切を表示したカレンダービューのアジェンダ](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **カレンダービュー** — 月／週／日の視覚的なカレンダー
 * **リストビュー** — 時系列のリストとして表示されるイベント
@@ -14,7 +14,7 @@
 
 ## イベントの作成
 
-1. **イベントを追加** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="イベントを追加" data-size="line"> をクリックします
+1. **イベントを追加** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="イベントを追加" data-size="line"> をクリックします
 2. イベントの詳細を入力します。
    * **タイトル** — イベントの短い名前
    * **開始日時**
@@ -23,22 +23,22 @@
 3. **対象者** を選びます。
    * **すべての学習者** — コースに登録している全員
    * **特定のユーザーまたはグループ** — 個々の学習者またはグループを選択
-4. 必要に応じて **リマインダー** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="リマインダー" data-size="line"> を設定し、イベント前にメール通知を送信します（ポータルの *cron* 設定は管理者が必要です）
+4. 必要に応じて **リマインダー** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="リマインダー" data-size="line"> を設定し、イベント前にメール通知を送信します（ポータルの *cron* 設定は管理者が必要です）
 5. カラー見本をクリックしてイベントの **色** を選びます。この色はカレンダー全体（月・週・日ビュー）でイベントを強調表示するために使われ、一目でイベントを区別しやすくなります。たとえば締切と通常のセッションを区別したり、個人アジェンダで異なるコースのイベントを区別したりできます。
 
-   ![イベント作成フォームのカラーピッカー](/.gitbook/assets/agenda-event-color-picker.png)
+   ![イベント作成フォームのカラーピッカー](../../.gitbook/assets/agenda-event-color-picker.png)
 6. 保存します
 
 選択した色は、カレンダー上でイベントが表示されるすべての場所に反映されます。
 
-![週ビューで選択した色で表示されたイベント](/.gitbook/assets/agenda-event-color-result.png)
+![週ビューで選択した色で表示されたイベント](../../.gitbook/assets/agenda-event-color-result.png)
 
 既定では、新しいイベントにはコンテキスト（コース、セッション、個人、グローバル）に基づく色が割り当てられますが、任意の色で上書きできます。
 
 ## イベントの管理
 
-* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — イベントをクリックして詳細を変更します
-* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — カレンダーからイベントを削除します
+* **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — イベントをクリックして詳細を変更します
+* **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — カレンダーからイベントを削除します
 * **ドラッグアンドドロップ** — カレンダービューでイベントをドラッグして日程を変更します
 
 ## 個人アジェンダ

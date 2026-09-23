@@ -4,13 +4,13 @@ Chamilo 2.0 verfügt über eine übersichtliche, moderne Benutzeroberfläche, di
 
 ## Die obere Leiste
 
-![Die obere Leiste mit beschrifteten Elementen wie Logo, Posteingang, Support-Ticket und Benutzer-Avatar](/.gitbook/assets/top-bar-annotated.png)
+![Die obere Leiste mit beschrifteten Elementen wie Logo, Posteingang, Support-Ticket und Benutzer-Avatar](../../.gitbook/assets/top-bar-annotated.png)
 
 Die obere Leiste ist auf jeder Seite immer sichtbar. Sie enthält:
 
 * **Plattform-Logo** — Klicken Sie darauf, um jederzeit zur Startseite zurückzukehren.
-* **Posteingang-Symbol** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Zeigt Ihre Nachrichten an. Ein rotes Abzeichen weist auf ungelesene Nachrichten hin. Klicken Sie darauf, um Ihren Posteingang zu öffnen.
-* **Support-Ticket-Symbol** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Falls von Ihrem Administrator aktiviert, erhalten Sie hier Zugang zum Support-Ticket-System.
+* **Posteingang-Symbol** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Zeigt Ihre Nachrichten an. Ein rotes Abzeichen weist auf ungelesene Nachrichten hin. Klicken Sie darauf, um Ihren Posteingang zu öffnen.
+* **Support-Ticket-Symbol** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Falls von Ihrem Administrator aktiviert, erhalten Sie hier Zugang zum Support-Ticket-System.
 * **Ihr Avatar** — Ein rundes Bild in der oberen rechten Ecke. Klicken Sie darauf, um ein Dropdown-Menü mit Links zu Ihrem Profil, den Kontoeinstellungen und der Abmeldung zu öffnen.
 
 ## Die Seitenleiste
@@ -19,19 +19,19 @@ Die Seitenleiste auf der linken Seite dient als Hauptnavigation. Sie kann zusamm
 
 Die Seitenleiste enthält die folgenden Links (einige können je nach Konfiguration Ihrer Plattform ausgeblendet sein):
 
-![Die Navigationsleiste der Seitenleiste im erweiterten Zustand mit allen Menüpunkten](/.gitbook/assets/sidebar-expanded.png)
+![Die Navigationsleiste der Seitenleiste im erweiterten Zustand mit allen Menüpunkten](../../.gitbook/assets/sidebar-expanded.png)
 
 | Menüpunkt | Symbol | Beschreibung |
 |-----------|--------|--------------|
-| **Startseite** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Startseite" data-size="line"> | Kehrt zum Haupt-Dashboard zurück |
-| **Meine Kurse** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line"> | Listet alle Kurse auf, in denen Sie eingeschrieben sind |
-| **Meine Sitzungen** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sitzungen" data-size="line"> | Listet Ihre Trainingssitzungen auf (aktuelle, vergangene, kommende) |
-| **Weitere Kurse entdecken** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Durchsuchen Sie den Kurskatalog, um neue Kurse zu finden |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ihr persönlicher und Kurskalender |
-| **Berichterstattung** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Berichterstattung" data-size="line"> | Zugriff auf Lernverfolgung und Kursberichte |
-| **Soziales Netzwerk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line"> | Vernetzen Sie sich mit anderen Nutzern, senden Sie Nachrichten, treten Sie Gruppen bei |
-| **Videokonferenz** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Zugriff auf Live-Videositzungen (falls konfiguriert) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformadministration (nur für Administratoren sichtbar) |
+| **Startseite** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Startseite" data-size="line"> | Kehrt zum Haupt-Dashboard zurück |
+| **Meine Kurse** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line"> | Listet alle Kurse auf, in denen Sie eingeschrieben sind |
+| **Meine Sitzungen** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sitzungen" data-size="line"> | Listet Ihre Trainingssitzungen auf (aktuelle, vergangene, kommende) |
+| **Weitere Kurse entdecken** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Durchsuchen Sie den Kurskatalog, um neue Kurse zu finden |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Ihr persönlicher und Kurskalender |
+| **Berichterstattung** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Berichterstattung" data-size="line"> | Zugriff auf Lernverfolgung und Kursberichte |
+| **Soziales Netzwerk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line"> | Vernetzen Sie sich mit anderen Nutzern, senden Sie Nachrichten, treten Sie Gruppen bei |
+| **Videokonferenz** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Zugriff auf Live-Videositzungen (falls konfiguriert) |
+| **Administration** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Plattformadministration (nur für Administratoren sichtbar) |
 
 Am unteren Ende der Seitenleiste finden Sie die Option **Abmelden**, um sich schnell abzumelden, wenn Sie fertig sind. Diese Option ist auch über das Dropdown-Menü Ihres Avatar-Symbols in der oberen rechten Ecke verfügbar. Wenn die Plattform über externe Authentifizierungsmethoden verwaltet wird, sind diese Abmeldeoptionen möglicherweise nicht verfügbar.
 
@@ -49,8 +49,8 @@ Wenn Sie einen Kurs betreten, sehen Sie die **Kurs-Startseite**. Diese wird ausf
 
 Als Lehrkraft sehen Sie zusätzliche Steuerungselemente:
 
-* **Schüleransicht** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Schüleransicht" data-size="line"> — Schalten Sie diese um, um den Kurs so zu sehen, wie ein Schüler ihn sehen würde
-* **Einführung bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Bearbeiten Sie den Einführungstext des Kurses
+* **Schüleransicht** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Schüleransicht" data-size="line"> — Schalten Sie diese um, um den Kurs so zu sehen, wie ein Schüler ihn sehen würde
+* **Einführung bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Bearbeiten Sie den Einführungstext des Kurses
 * **Alle anzeigen / Alle ausblenden** — Ändern Sie schnell die Sichtbarkeit aller Werkzeuge für Schüler
 * **Sortieren** — Aktivieren Sie Drag-and-Drop, um die Werkzeuge auf der Startseite neu zu ordnen
 

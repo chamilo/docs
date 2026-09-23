@@ -4,13 +4,13 @@ Chamilo 2.0は、ナビゲーションをシンプルに保つために設計さ
 
 ## トップバー
 
-![トップバーに注釈が付いた要素（ロゴ、受信トレイ、サポートチケット、ユーザーのアバター）](/.gitbook/assets/top-bar-annotated.png)
+![トップバーに注釈が付いた要素（ロゴ、受信トレイ、サポートチケット、ユーザーのアバター）](../../.gitbook/assets/top-bar-annotated.png)
 
 トップバーはすべてのページの上部に常に表示されています。以下の内容が含まれています：
 
 * **プラットフォームロゴ** — クリックすると、いつでもホームページに戻ることができます。
-* **受信トレイアイコン** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — メッセージを表示します。赤いバッジは未読メッセージを示します。クリックすると受信トレイが開きます。
-* **サポートチケットアイコン** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="サポート" data-size="line"> — 管理者によって有効にされている場合、サポートチケットシステムにアクセスできます。
+* **受信トレイアイコン** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — メッセージを表示します。赤いバッジは未読メッセージを示します。クリックすると受信トレイが開きます。
+* **サポートチケットアイコン** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="サポート" data-size="line"> — 管理者によって有効にされている場合、サポートチケットシステムにアクセスできます。
 * **あなたのアバター** — 右上隅にある円形の画像です。クリックすると、プロフィール、アカウント設定、サインアウトへのリンクが含まれたドロップダウンメニューが開きます。
 
 ## サイドバー
@@ -19,19 +19,19 @@ Chamilo 2.0は、ナビゲーションをシンプルに保つために設計さ
 
 サイドバーには以下のリンクが含まれています（プラットフォームの設定によっては一部が非表示になる場合があります）：
 
-![展開状態のサイドバーナビゲーションパネルにすべてのメニュー項目が表示されている](/.gitbook/assets/sidebar-expanded.png)
+![展開状態のサイドバーナビゲーションパネルにすべてのメニュー項目が表示されている](../../.gitbook/assets/sidebar-expanded.png)
 
 | メニュー項目 | アイコン | 説明 |
 |-----------|------|-------------|
-| **ホーム** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="ホーム" data-size="line"> | メインダッシュボードに戻ります |
-| **マイコース** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> | 登録しているすべてのコースを一覧表示します |
-| **マイセッション** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="セッション" data-size="line"> | トレーニングセッション（現在、過去、予定）を一覧表示します |
-| **さらにコースを探す** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="カタログ" data-size="line"> | コースカタログを閲覧して新しいコースを見つけます |
-| **アジェンダ** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> | 個人およびコースのカレンダー |
-| **レポート** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="レポート" data-size="line"> | 学習者の追跡やコースレポートにアクセスします |
-| **ソーシャルネットワーク** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="ソーシャルネットワーク" data-size="line"> | 他のユーザーとつながり、メッセージを送信し、グループに参加します |
-| **ビデオ会議** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="ビデオ" data-size="line"> | ライブビデオセッションにアクセスします（設定されている場合） |
-| **管理** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> | プラットフォームの管理（管理者のみに表示） |
+| **ホーム** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="ホーム" data-size="line"> | メインダッシュボードに戻ります |
+| **マイコース** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> | 登録しているすべてのコースを一覧表示します |
+| **マイセッション** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="セッション" data-size="line"> | トレーニングセッション（現在、過去、予定）を一覧表示します |
+| **さらにコースを探す** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="カタログ" data-size="line"> | コースカタログを閲覧して新しいコースを見つけます |
+| **アジェンダ** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> | 個人およびコースのカレンダー |
+| **レポート** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="レポート" data-size="line"> | 学習者の追跡やコースレポートにアクセスします |
+| **ソーシャルネットワーク** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="ソーシャルネットワーク" data-size="line"> | 他のユーザーとつながり、メッセージを送信し、グループに参加します |
+| **ビデオ会議** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="ビデオ" data-size="line"> | ライブビデオセッションにアクセスします（設定されている場合） |
+| **管理** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> | プラットフォームの管理（管理者のみに表示） |
 
 サイドバーの一番下には、作業が終了した際に素早くサインアウトするための**サインアウト**オプションがあります。このオプションは、右上隅のアバターアイコンのドロップダウンメニューからも利用可能です。
 プラットフォームが外部認証方式で管理されている場合、これらのサインアウトオプションが利用できない場合があります。
@@ -50,8 +50,8 @@ Chamilo 2.0は、ナビゲーションをシンプルに保つために設計さ
 
 教師として、以下の追加のコントロールが表示されます：
 
-* **学生ビュー** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="学生ビュー" data-size="line"> — これを切り替えると、学生が見るコースの表示を確認できます
-* **紹介の編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — コース紹介テキストを編集します
+* **学生ビュー** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="学生ビュー" data-size="line"> — これを切り替えると、学生が見るコースの表示を確認できます
+* **紹介の編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — コース紹介テキストを編集します
 * **すべて表示 / すべて非表示** — 学生に対するすべてのツールの表示/非表示を素早く変更します
 * **並べ替え** — ドラッグアンドドロップを有効にして、ホームページ上のツールを並べ替えます
 

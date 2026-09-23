@@ -8,7 +8,7 @@ Clique em **Rede social** na barra lateral para acessar os recursos sociais. Se 
 
 ## Seu Mural Social
 
-![O mural social mostrando um feed de publicações, curtidas e comentários das conexões](/.gitbook/assets/social-wall.png)
+![O mural social mostrando um feed de publicações, curtidas e comentários das conexões](../.gitbook/assets/social-wall.png)
 
 O mural social mostra um feed de atividades suas e das suas conexões. Você pode:
 
@@ -30,9 +30,9 @@ Você pode conectar-se com outros usuários da plataforma:
 
 A rede social integra-se ao sistema de mensagens da plataforma:
 
-* **Enviar mensagens** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nova mensagem" data-size="line"> — Escrever mensagens diretas para outros usuários
-* **Caixa de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> — Ler e responder às mensagens recebidas
-* **Mensagens enviadas** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Enviadas" data-size="line"> — Revisar as mensagens que você enviou
+* **Enviar mensagens** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nova mensagem" data-size="line"> — Escrever mensagens diretas para outros usuários
+* **Caixa de entrada** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Caixa de entrada" data-size="line"> — Ler e responder às mensagens recebidas
+* **Mensagens enviadas** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Enviadas" data-size="line"> — Revisar as mensagens que você enviou
 
 ### Compondo e Respondendo
 

@@ -26,7 +26,7 @@
 編集権限を持つ人は誰でもウィキページを変更できます：
 
 1. 編集したいページを開きます
-2. **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
+2. **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
 3. エディタで変更を行います
 4. 変更内容を説明する**コメント**を任意で追加します
 5. 保存します

@@ -46,4 +46,4 @@ Como administrador do Chamilo, você gerencia:
 
 ## Acessando o Painel de Administração
 
-Após entrar como administrador, clique em **Administração** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> na barra lateral para acessar o painel de administração.
+Após entrar como administrador, clique em **Administração** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> na barra lateral para acessar o painel de administração.

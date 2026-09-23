@@ -4,7 +4,7 @@ Chamilo volgt de activiteit van leerlingen doorheen het platform en geeft u gede
 
 ## Toegang tot het leerlingvolgsysteem
 
-Open de tool **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> vanaf de cursushomepagina, of klik op **Rapportage** in de zijbalk.
+Open de tool **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> vanaf de cursushomepagina, of klik op **Rapportage** in de zijbalk.
 
 ## Wat wordt bijgehouden
 
@@ -22,7 +22,7 @@ Toegangsdetails per resource (welke specifieke documenten of pagina’s een leer
 
 ## Individuele leerlinggegevens bekijken
 
-![Gedetailleerde weergave van het leerlingvolgsysteem met voortgang, scores en activiteitstijdlijn](/.gitbook/assets/tracking-learner-detail.png)
+![Gedetailleerde weergave van het leerlingvolgsysteem met voortgang, scores en activiteitstijdlijn](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klik op de naam van een leerling om het gedetailleerde activiteitenrapport te zien. Dit toont:
 

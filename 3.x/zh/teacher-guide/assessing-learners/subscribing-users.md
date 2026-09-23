@@ -19,12 +19,12 @@
 
 ## 通过用户工具手动注册
 
-要订阅已拥有平台账户但尚未自行加入的人员，请打开课程的 **用户** 工具，并点击 **添加用户** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="添加用户" data-size="line"> 图标。
+要订阅已拥有平台账户但尚未自行加入的人员，请打开课程的 **用户** 工具，并点击 **添加用户** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="添加用户" data-size="line"> 图标。
 
 1. 按姓名、用户名、电子邮件或官方代码搜索该人员
 2. 在其行上点击 **注册**，或使用复选框选择多人，并通过 **操作** 菜单一次性全部注册
 
-![在“将用户注册到课程”屏幕中的搜索结果，显示匹配的学习者和“注册”按钮](/.gitbook/assets/course-users-subscribe-search.png)
+![在“将用户注册到课程”屏幕中的搜索结果，显示匹配的学习者和“注册”按钮](../../.gitbook/assets/course-users-subscribe-search.png)
 
 结果中仅显示尚未订阅该课程的用户。
 
@@ -36,9 +36,9 @@
 
 ### 访问该工具
 
-打开课程的 **用户** 工具，然后点击工具栏中 **添加用户** 旁边的 **通过电子邮件邀请** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="通过电子邮件邀请" data-size="line"> 图标：
+打开课程的 **用户** 工具，然后点击工具栏中 **添加用户** 旁边的 **通过电子邮件邀请** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="通过电子邮件邀请" data-size="line"> 图标：
 
-![用户工具工具栏，显示“添加用户”图标和“通过电子邮件邀请”图标](/.gitbook/assets/course-users-invite-icon.png)
+![用户工具工具栏，显示“添加用户”图标和“通过电子邮件邀请”图标](../../.gitbook/assets/course-users-invite-icon.png)
 
 这将打开 **课程邀请** 页面。
 
@@ -53,7 +53,7 @@
 1. 在 **通过电子邮件邀请** 表单中输入收件人的电子邮件地址
 2. 点击 **发送邀请**
 
-![课程邀请页面：通过电子邮件邀请的表单，以及已发送邀请及其状态的表格](/.gitbook/assets/course-invitations-list.png)
+![课程邀请页面：通过电子邮件邀请的表单，以及已发送邀请及其状态的表格](../../.gitbook/assets/course-invitations-list.png)
 
 您为此课程发送的每封邀请都会显示在表单下方，并带有其状态：
 
@@ -65,8 +65,8 @@
 
 对于仍处于待处理状态的邀请，**操作** 列提供：
 
-* **复制** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="复制" data-size="line"> — 复制邀请链接，以便您更愿意自行分享（聊天、当面）而不是依赖电子邮件。
-* **撤销** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="撤销" data-size="line"> — 立即取消邀请；该链接停止生效。已接受的邀请无法撤销。
+* **复制** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="复制" data-size="line"> — 复制邀请链接，以便您更愿意自行分享（聊天、当面）而不是依赖电子邮件。
+* **撤销** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="撤销" data-size="line"> — 立即取消邀请；该链接停止生效。已接受的邀请无法撤销。
 
 > **受邀的电子邮件地址不得已在此平台上拥有账户。** 如果已有账户，发送邀请会失败，并提示您改为直接为该现有用户报名 — 通过上文的 [通过用户工具手动报名](#manual-enrollment-via-the-users-tool)。
 

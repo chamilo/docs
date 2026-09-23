@@ -27,7 +27,7 @@ Som standard har det offentlige registreringsskjemaet ingen mulighet til å regi
 
 Noen plattformer aktiverer et trinn med **"Hva vil du gjøre?"** med to kort — **Følg kurs** og **Undervis i kurs** — men dette vises bare hvis administratoren din har slått på registrering som lærer. Selv da kan det å velge å undervise kreve at kontoen din godkjennes før du får lærerrettigheter.
 
-![Registreringsskjemaet på en plattform med selvregistrering for lærere aktivert, som viser rollevelgeren «Følg kurs» / «Undervis i kurs»](/.gitbook/assets/student-registration-form.png)
+![Registreringsskjemaet på en plattform med selvregistrering for lærere aktivert, som viser rollevelgeren «Følg kurs» / «Undervis i kurs»](../../.gitbook/assets/student-registration-form.png)
 
 Hvis du trenger en lærerkonto og ikke ser dette alternativet, ber du plattformadministratoren om å opprette en for deg eller oppgradere den eksisterende kontoen din.
 

@@ -16,14 +16,14 @@ Learning paths are useful when you want to:
 
 ## Creating a Learning Path
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
+1. Open the **Learning paths** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
 2. Click **Create a learning path**
 3. Enter a **title** and optional description
 4. Save — you will be taken to the learning path editor
 
 ## The Learning Path Editor
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![The learning path editor with the item tree on the left and content preview on the right](../../.gitbook/assets/learning-path-editor.png)
 
 The editor has two main areas:
 
@@ -94,17 +94,17 @@ C-Studio adds a built-in, drag-and-drop visual editor for creating interactive c
 
 When the plugin is active, the Learning Paths list shows an extra button next to the usual actions menu, marked with a "+" and a "Studio Tools" tooltip:
 
-![The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions menu](/.gitbook/assets/cstudio-lp-button.png)
+![The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions menu](../../.gitbook/assets/cstudio-lp-button.png)
 
 Click it to start. You'll be asked to create a new project from scratch or import an existing one:
 
-![The C-Studio start screen offering to create a new project or import an existing one](/.gitbook/assets/cstudio-start-screen.png)
+![The C-Studio start screen offering to create a new project or import an existing one](../../.gitbook/assets/cstudio-start-screen.png)
 
 This particular screen is currently only available in French, regardless of your platform or course language — a known limitation of the plugin version in use. Give your project a title and it opens straight into the editor.
 
 ### The Editor
 
-![The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project panel on the left](/.gitbook/assets/cstudio-editor.png)
+![The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project panel on the left](../../.gitbook/assets/cstudio-editor.png)
 
 The editor is a page-by-page visual builder:
 
@@ -118,7 +118,7 @@ The palette covers basic building blocks (columns, images, audio, titles, text, 
 
 C-Studio's own interface may default to French the first time you open it, independent of your Chamilo interface language or the course's language. If so, go to **File > UI language** and pick your language — the editor reloads immediately and remembers your choice afterward.
 
-![The File menu open, showing the "UI language" option](/.gitbook/assets/cstudio-file-menu.png)
+![The File menu open, showing the "UI language" option](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Saving and Exporting
 

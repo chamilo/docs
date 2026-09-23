@@ -4,7 +4,7 @@ Chamilo indeholder et indbygget socialt netværk til at forbinde sig med andre b
 
 ## Om du har adgang
 
-Klik på **Socialt netværk** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Socialt netværk" data-size="line"> i sidepanelet for at udvide det, og klik derefter på **Hjem**. Hvis denne indstilling slet ikke er der, har din administrator deaktiveret den for din platform — der mangler ikke noget hos dig.
+Klik på **Socialt netværk** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Socialt netværk" data-size="line"> i sidepanelet for at udvide det, og klik derefter på **Hjem**. Hvis denne indstilling slet ikke er der, har din administrator deaktiveret den for din platform — der mangler ikke noget hos dig.
 
 Det samme udvidede afsnit viser også **Beskeder**, **Mine venner**, **Sociale grupper** — og, lidt uventet, **Mine filer** (dit personlige fillager) og **Personlige data** (en eksport af de personlige data, platformen har om dig). De to sidste er ikke sociale funktioner; de er blot grupperet i denne del af sidepanelet.
 
@@ -12,7 +12,7 @@ Det samme udvidede afsnit viser også **Beskeder**, **Mine venner**, **Sociale g
 
 Når du er inde, viser din **væg** et feed af aktivitet fra dig og de personer, du er forbundet med. Du kan slå opdateringer op og — hvis det er aktiveret af din administrator — synes godt om eller synes ikke om samt kommentere indlæg fra dine forbindelser.
 
-![Den sociale væg med en indlægskomponist og paneler til fællesskaber, venner og færdigheder](/.gitbook/assets/student-social-wall.png)
+![Den sociale væg med en indlægskomponist og paneler til fællesskaber, venner og færdigheder](../.gitbook/assets/student-social-wall.png)
 
 ## At forbinde sig med andre
 

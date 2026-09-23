@@ -14,7 +14,7 @@ Gruppen ermöglichen es Ihnen, Ihre Lernenden in kleinere Teams für die Zusamme
 
 ## Gruppenwerkzeuge
 
-![Die Gruppenübersicht mit verfügbaren Gruppenwerkzeugen und Mitgliederzahlen](/.gitbook/assets/groups-overview.png)
+![Die Gruppenübersicht mit verfügbaren Gruppenwerkzeugen und Mitgliederzahlen](../../.gitbook/assets/groups-overview.png)
 
 Jede Gruppe kann Zugriff auf eine Teilmenge der Kurswerkzeuge haben, die nur unter den Gruppenmitgliedern geteilt werden:
 

@@ -9,7 +9,7 @@ AI 詞彙條目產生器可協助您更快建立課程詞彙表，透過自動�
 1. 平台層級已啟用 AI 助手
 2. 已配置至少一個 AI 文字提供者
 
-從課程首頁開啟 **詞彙表** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> 工具，並在工具列尋找 **以 AI 產生** 按鈕。
+從課程首頁開啟 **詞彙表** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="詞彙表" data-size="line"> 工具，並在工具列尋找 **以 AI 產生** 按鈕。
 
 ## 如何產生詞彙
 

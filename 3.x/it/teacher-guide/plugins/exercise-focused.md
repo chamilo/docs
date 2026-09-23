@@ -1,6 +1,6 @@
 # Esercizio in primo piano
 
-Esercizio in primo piano <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Esercizio in primo piano" data-size="line"> è un supporto anti-imbroglio per gli esami. Se il browser di uno studente perde il focus durante un test contrassegnato — passando a un’altra scheda o finestra — Chamilo mostra un avviso a schermo intero che invita a tornare, e può inviare automaticamente il tentativo se lo studente non lo fa.
+Esercizio in primo piano <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Esercizio in primo piano" data-size="line"> è un supporto anti-imbroglio per gli esami. Se il browser di uno studente perde il focus durante un test contrassegnato — passando a un’altra scheda o finestra — Chamilo mostra un avviso a schermo intero che invita a tornare, e può inviare automaticamente il tentativo se lo studente non lo fa.
 
 ## Contrassegnare un test
 

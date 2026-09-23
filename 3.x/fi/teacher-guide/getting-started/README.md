@@ -14,7 +14,7 @@ Jos oppilaitoksesi käyttää ulkoista tunnistautumista (kuten Azurea, Keycloaki
 
 Kirjautumisen jälkeen näet Chamilon etusivun. Käyttöliittymä on jaettu kolmeen pääalueeseen:
 
-![Chamilon etusivu, jossa näkyvät järjestelmäilmoitukset ja kurssikortit](/.gitbook/assets/home-page-teacher.png)
+![Chamilon etusivu, jossa näkyvät järjestelmäilmoitukset ja kurssikortit](../../.gitbook/assets/home-page-teacher.png)
 
 * **Yläpalkki** — Näyttää alustan logon, viestilaatikkosi (merkillä, joka näyttää lukemattomat viestit) ja käyttäjäavatarisi. Napsauta avataria päästäksesi profiiliisi ja tiliasetuksiin.
 * **Sivupalkki** — Vasemmanpuoleinen navigointipaneeli antaa nopean pääsyn kursseihisi, sessioihin, agendaasi, sosiaaliseen verkostoon ja muuhun. Voit tiivistää sen napsauttamalla reunassa olevaa kytkintä.
@@ -24,7 +24,7 @@ Kirjautumisen jälkeen näet Chamilon etusivun. Käyttöliittymä on jaettu kolm
 
 Napsauta sivupalkista **Omat kurssit** nähdäksesi kaikki kurssit, joihin olet ilmoittautunut opettajana tai opiskelijana. Kukin kurssi näkyy korttina, jossa on:
 
-![Omat kurssit -sivu, jossa näkyvät kurssikortit pikkukuvineen ja pikatoimintoineen](/.gitbook/assets/my-courses-list.png)
+![Omat kurssit -sivu, jossa näkyvät kurssikortit pikkukuvineen ja pikatoimintoineen](../../.gitbook/assets/my-courses-list.png)
 
 * Kurssin kuva tai pikkukuva
 * Kurssin otsikko

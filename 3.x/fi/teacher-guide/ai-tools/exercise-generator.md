@@ -13,7 +13,7 @@ Etsi **AI Generator** -painiketta tai -osiota tehtävän luontikäyttöliittymä
 
 ## Kysymysten tuottaminen
 
-![Tekoälypohjaisen tehtävägeneraattorin lomake, jossa on kentät aiheelle ja kysymysten määrälle](/.gitbook/assets/ai-exercise-generator.png)
+![Tekoälypohjaisen tehtävägeneraattorin lomake, jossa on kentät aiheelle ja kysymysten määrälle](../../.gitbook/assets/ai-exercise-generator.png)
 
 Generaattori tarjoaa kaksi tilaa, jotka ovat käytettävissä välilehtinä:
 
@@ -32,7 +32,7 @@ Generaattori tarjoaa kaksi tilaa, jotka ovat käytettävissä välilehtinä:
 
 ## Tarkistaminen ja muokkaaminen
 
-![Tekoälyn tuottamat kysymykset näytetään tarkistettaviksi, ja kullekin on vaihtoehdot muokata, hyväksyä tai poistaa](/.gitbook/assets/ai-exercise-generator-results.png)
+![Tekoälyn tuottamat kysymykset näytetään tarkistettaviksi, ja kullekin on vaihtoehdot muokata, hyväksyä tai poistaa](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Tuotetut kysymykset esitetään **ehdotuksina**. Sinun tulisi:
 

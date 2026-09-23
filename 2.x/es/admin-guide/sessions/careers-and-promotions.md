@@ -4,7 +4,7 @@ Chamilo incluye un sistema de gestión de carreras que permite definir trayector
 
 ## Carreras
 
-![Lista de carreras mostrando las trayectorias definidas con nombre y descripción](/.gitbook/assets/admin-careers-list.png)
+![Lista de carreras mostrando las trayectorias definidas con nombre y descripción](../../.gitbook/assets/admin-careers-list.png)
 
 Una **carrera** representa una trayectoria de formación estructurada, es decir, una secuencia de pasos de formación que un estudiante sigue para alcanzar un objetivo profesional.
 

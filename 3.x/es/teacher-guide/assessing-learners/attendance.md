@@ -20,7 +20,7 @@ La herramienta de asistencia le permite registrar la presencia de los alumnos en
 Cada hoja de asistencia contiene una o más fechas (sesiones) en las que se registra la presencia:
 
 1. Abra una hoja de asistencia o continúe con el proceso de creación
-2. Haga clic en **Añadir una fecha** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Añadir fecha" data-size="line">
+2. Haga clic en **Añadir una fecha** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Añadir fecha" data-size="line">
 3. Seleccione la fecha y la hora
 4. Opcionalmente, marque **Repetir fecha** para elegir una lógica de repetición
 5. Indique una **Duración** en minutos para el evento (el valor predeterminado es 60 minutos)
@@ -44,7 +44,7 @@ Nota: Los administradores pueden modificar la configuración del portal para per
 
 ## Visualización de informes de asistencia
 
-![La hoja de asistencia mostrando una tabla resumen con alumnos, fechas e indicadores de presencia](/.gitbook/assets/attendance-sheet.png)
+![La hoja de asistencia mostrando una tabla resumen con alumnos, fechas e indicadores de presencia](../../.gitbook/assets/attendance-sheet.png)
 
 La herramienta de asistencia muestra:
 

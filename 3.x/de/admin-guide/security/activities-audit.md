@@ -8,7 +8,7 @@ Klicken Sie im Administrationsbereich auf **Security > Activities audit**.
 
 ## Was angezeigt wird
 
-![Die Seite Aktivitäten-Audit mit Kategorien von Ereignistypen wie Course, Session, User, Social, Message, Resource, Wiki und Other, die jeweils zu einzelnen Ereignistypen aufgeklappt werden können](/.gitbook/assets/admin-security-activities-audit.png)
+![Die Seite Aktivitäten-Audit mit Kategorien von Ereignistypen wie Course, Session, User, Social, Message, Resource, Wiki und Other, die jeweils zu einzelnen Ereignistypen aufgeklappt werden können](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Ereignisse sind in Kategorien gruppiert:
 

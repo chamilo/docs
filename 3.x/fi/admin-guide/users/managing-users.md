@@ -4,7 +4,7 @@ Tällä sivulla käsitellään käyttäjätilien luomisen, muokkaamisen ja halli
 
 ## Käyttäjäluettelo
 
-![Käyttäjäluettelo, jossa näkyvät tilit sekä sarakkeet nimi, sähköposti, rooli ja tila](/.gitbook/assets/admin-user-list.png)
+![Käyttäjäluettelo, jossa näkyvät tilit sekä sarakkeet nimi, sähköposti, rooli ja tila](../../.gitbook/assets/admin-user-list.png)
 
 Napsauta hallintapaneelissa **Käyttäjäluettelo** nähdäksesi kaikki alustan käyttäjät. Luettelossa näkyvät:
 
@@ -21,7 +21,7 @@ Käytä **Tarkennettu haku** -työkalua löytääksesi tiettyjä käyttäjiä ni
 
 ## Käyttäjän luominen
 
-![Käyttäjän luomislomake kentillä nimi, sähköposti, käyttäjätunnus, salasana, rooli ja kieli](/.gitbook/assets/admin-user-create-form.png)
+![Käyttäjän luomislomake kentillä nimi, sähköposti, käyttäjätunnus, salasana, rooli ja kieli](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Napsauta hallintapaneelissa **Lisää käyttäjä**
 2. Täytä pakolliset kentät:
@@ -41,7 +41,7 @@ Käytä **Tarkennettu haku** -työkalua löytääksesi tiettyjä käyttäjiä ni
 
 ## Käyttäjien tuonti
 
-![Käyttäjien tuontikäyttöliittymä CSV- tai XML-tiedostojen lataamiseen käyttäjätiedoilla](/.gitbook/assets/admin-user-import.png)
+![Käyttäjien tuontikäyttöliittymä CSV- tai XML-tiedostojen lataamiseen käyttäjätiedoilla](../../.gitbook/assets/admin-user-import.png)
 
 Useiden käyttäjien luomiseen voit tuoda käyttäjiä tiedostosta:
 

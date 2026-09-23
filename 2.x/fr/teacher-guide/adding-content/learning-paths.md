@@ -16,14 +16,14 @@ Les parcours d'apprentissage sont utiles lorsque vous souhaitez :
 
 ## Créer un parcours d'apprentissage
 
-1. Ouvrez l'outil **Parcours d'apprentissage** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d'apprentissage" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Parcours d'apprentissage** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d'apprentissage" data-size="line"> depuis la page d'accueil du cours
 2. Cliquez sur **Créer un parcours d'apprentissage**
 3. Entrez un **titre** et une description optionnelle
 4. Enregistrez — vous serez redirigé vers l'éditeur de parcours d'apprentissage
 
 ## L'éditeur de parcours d'apprentissage
 
-![L'éditeur de parcours d'apprentissage avec l'arborescence des éléments à gauche et l'aperçu du contenu à droite](/.gitbook/assets/learning-path-editor.png)
+![L'éditeur de parcours d'apprentissage avec l'arborescence des éléments à gauche et l'aperçu du contenu à droite](../../.gitbook/assets/learning-path-editor.png)
 
 L'éditeur comporte deux zones principales :
 

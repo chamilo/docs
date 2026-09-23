@@ -4,7 +4,7 @@ L’outil de sondage vous permet de créer des questionnaires pour recueillir le
 
 ## Créer un sondage
 
-1. Ouvrez l’outil **Sondages** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondages" data-size="line"> depuis la page d’accueil du cours
+1. Ouvrez l’outil **Sondages** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondages" data-size="line"> depuis la page d’accueil du cours
 2. Cliquez sur **Créer un sondage**
 3. Renseignez les détails du sondage :
    * **Code** — Il s’agit d’un code unique pour le sondage. Il sera utilisé dans les courriels et les liens.
@@ -65,7 +65,7 @@ Un lien est disponible en bas de la page de publication pour inviter encore dava
 
 ## Consulter les résultats
 
-![Résultats du sondage avec graphiques et répartitions en pourcentages pour chaque question](/.gitbook/assets/survey-results-charts.png)
+![Résultats du sondage avec graphiques et répartitions en pourcentages pour chaque question](../../.gitbook/assets/survey-results-charts.png)
 
 Après que les apprenants ont répondu :
 

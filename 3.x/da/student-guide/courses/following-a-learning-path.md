@@ -4,9 +4,9 @@ Et **læringsforløb** leder dig gennem en struktureret rækkefølge af aktivite
 
 ## Åbne et læringsforløb
 
-Åbn værktøjet **Læringsforløb** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsforløb" data-size="line"> fra kursets startside, og klik på et for at starte. Hvis din underviser har aktiveret **auto-launch**, kan læringsforløbet åbne automatisk, så snart du går ind på kurset.
+Åbn værktøjet **Læringsforløb** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsforløb" data-size="line"> fra kursets startside, og klik på et for at starte. Hvis din underviser har aktiveret **auto-launch**, kan læringsforløbet åbne automatisk, så snart du går ind på kurset.
 
-![Listen over læringsforløb for et kursus, hvor hvert viser sin egen fremgang](/.gitbook/assets/student-learning-paths-list.png)
+![Listen over læringsforløb for et kursus, hvor hvert viser sin egen fremgang](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## At bevæge sig gennem forløbet
 

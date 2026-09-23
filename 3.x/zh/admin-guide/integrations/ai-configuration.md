@@ -35,7 +35,7 @@ Chamilo 支持多家 AI 提供商：
 
 ### 2. 在 Chamilo 中配置提供商
 
-![AI 助手配置页面，显示包含 API 密钥、模型和端点字段的提供商设置](/.gitbook/assets/admin-ai-helpers-config.png)
+![AI 助手配置页面，显示包含 API 密钥、模型和端点字段的提供商设置](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 在平台设置中，进入 **AI 助手** 部分：
 

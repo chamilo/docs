@@ -8,6 +8,6 @@ O Chamilo regista a atividade dos formandos em toda a plataforma, fornecendo-lhe
 
 ## Aceder aos Relatórios
 
-A partir do seu curso, clique na ferramenta **Acompanhamento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> na página inicial do curso. Também pode aceder aos relatórios através da ligação **Relatórios** na barra lateral, para uma visão geral entre cursos.
+A partir do seu curso, clique na ferramenta **Acompanhamento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> na página inicial do curso. Também pode aceder aos relatórios através da ligação **Relatórios** na barra lateral, para uma visão geral entre cursos.
 
 Os professores veem os dados de relatórios dos cursos que lecionam. Os tutores de sessão veem os dados de todos os cursos da respetiva sessão.

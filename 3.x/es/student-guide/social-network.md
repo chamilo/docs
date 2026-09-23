@@ -4,7 +4,7 @@ Chamilo incluye una red social integrada para conectar con otros usuarios de la 
 
 ## Si tiene acceso
 
-Haga clic en **Red social** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Red social" data-size="line"> en la barra lateral para desplegarla y, a continuación, en **Inicio**. Si esta opción no aparece en absoluto, su administrador la ha desactivado en su plataforma: no falta nada de su lado.
+Haga clic en **Red social** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Red social" data-size="line"> en la barra lateral para desplegarla y, a continuación, en **Inicio**. Si esta opción no aparece en absoluto, su administrador la ha desactivado en su plataforma: no falta nada de su lado.
 
 La misma sección desplegada también enumera **Mensajes**, **Mis amigos**, **Grupos sociales** y, de forma un tanto inesperada, **Mis archivos** (su almacenamiento personal de archivos) y **Datos personales** (una exportación de los datos personales que la plataforma conserva sobre usted). Esos dos últimos no son funciones sociales; simplemente están agrupados en esta parte de la barra lateral.
 
@@ -12,7 +12,7 @@ La misma sección desplegada también enumera **Mensajes**, **Mis amigos**, **Gr
 
 Una vez dentro, su **muro** muestra un feed de actividad suya y de las personas con las que está conectado. Puede publicar actualizaciones y —si su administrador lo habilita— indicar que le gusta o no le gusta, y comentar, las publicaciones de sus conexiones.
 
-![El muro social, con un compositor de publicaciones y paneles de comunidades, amigos y competencias](/.gitbook/assets/student-social-wall.png)
+![El muro social, con un compositor de publicaciones y paneles de comunidades, amigos y competencias](../.gitbook/assets/student-social-wall.png)
 
 ## Conectar con otros
 

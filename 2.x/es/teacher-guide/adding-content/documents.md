@@ -4,13 +4,13 @@ La herramienta de documentos es el repositorio de archivos de tu curso. Puedes s
 
 ## Acceder a la Herramienta de Documentos
 
-Abre la herramienta **Documentos** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> desde la página principal del curso. Verás un explorador de archivos que muestra la carpeta raíz de la biblioteca de documentos de tu curso.
+Abre la herramienta **Documentos** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> desde la página principal del curso. Verás un explorador de archivos que muestra la carpeta raíz de la biblioteca de documentos de tu curso.
 
-![El explorador de archivos de documentos mostrando carpetas y archivos con iconos de acción](/.gitbook/assets/documents-file-browser.png)
+![El explorador de archivos de documentos mostrando carpetas y archivos con iconos de acción](../../.gitbook/assets/documents-file-browser.png)
 
 ## Subir Archivos
 
-1. Haz clic en el botón **Subir** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Subir" data-size="line">
+1. Haz clic en el botón **Subir** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Subir" data-size="line">
 2. Selecciona uno o más archivos desde tu computadora (puedes arrastrar y soltar archivos en el área de carga)
 3. Los archivos se suben y aparecen en la carpeta actual
 
@@ -52,7 +52,7 @@ Si tu navegador lo permite, puedes grabar audio directamente dentro de la herram
 
 Mantén tu biblioteca de documentos organizada usando carpetas:
 
-1. Haz clic en **Nueva carpeta** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nueva carpeta" data-size="line">
+1. Haz clic en **Nueva carpeta** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nueva carpeta" data-size="line">
 2. Ingresa un nombre para la carpeta
 3. Guarda
 
@@ -61,7 +61,7 @@ Puedes crear carpetas anidadas para construir una jerarquía de contenido lógic
 ### Mover Archivos
 
 * Localiza tu archivo en la lista
-* Haz clic en **Mover** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
+* Haz clic en **Mover** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
 * Selecciona la carpeta de destino
 * Confirma
 
@@ -71,12 +71,12 @@ Para cada archivo o carpeta, puedes:
 
 | Acción | Icono | Descripción |
 |--------|-------|-------------|
-| **Editar** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Renombrar el archivo o editar su contenido (para páginas web) |
-| **Eliminar** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> | Eliminar el archivo o carpeta |
-| **Descargar** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Descargar" data-size="line"> | Descargar el archivo a tu computadora |
-| **Visibilidad** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidad" data-size="line"> | Ocultar o mostrar el archivo a los estudiantes |
-| **Reemplazar** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Reemplazar" data-size="line"> | Reemplazar el archivo con una versión actualizada |
-| **Mover** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover a una carpeta diferente |
+| **Editar** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Renombrar el archivo o editar su contenido (para páginas web) |
+| **Eliminar** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> | Eliminar el archivo o carpeta |
+| **Descargar** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Descargar" data-size="line"> | Descargar el archivo a tu computadora |
+| **Visibilidad** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidad" data-size="line"> | Ocultar o mostrar el archivo a los estudiantes |
+| **Reemplazar** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Reemplazar" data-size="line"> | Reemplazar el archivo con una versión actualizada |
+| **Mover** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover a una carpeta diferente |
 
 Reemplazar un archivo es una función importante cuando usas documentos para construir rutas de aprendizaje, ya que reemplazar el documento permitirá que se actualice sin que los estudiantes pierdan el progreso guardado para ese documento.
 
@@ -87,7 +87,7 @@ Selecciona varios archivos usando casillas de verificación, luego usa la barra 
 ---
 ## Integración con OnlyOffice
 
-Si su administrador ha configurado el complemento de **OnlyOffice**, puede editar archivos de Word, Excel y PowerPoint (o LibreOffice) directamente en el navegador sin necesidad de descargarlos. Busque la opción **Editar con OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> al visualizar un archivo compatible.
+Si su administrador ha configurado el complemento de **OnlyOffice**, puede editar archivos de Word, Excel y PowerPoint (o LibreOffice) directamente en el navegador sin necesidad de descargarlos. Busque la opción **Editar con OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> al visualizar un archivo compatible.
 
 Los documentos se almacenan en Chamilo; OnlyOffice solo se utiliza para **visualizar** o editar los documentos en el navegador, sin necesidad de herramientas adicionales.
 

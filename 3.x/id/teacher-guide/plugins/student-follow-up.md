@@ -1,6 +1,6 @@
 # Tindak Lanjut Siswa
 
-Tindak Lanjut Siswa <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Tindak Lanjut Siswa" data-size="line"> memungkinkan Anda menyimpan catatan bertanda waktu dan bertag tentang kemajuan serta kesulitan peserta didik — sistem catatan kasus yang ringan untuk memantau perkembangan siswa dari waktu ke waktu.
+Tindak Lanjut Siswa <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Tindak Lanjut Siswa" data-size="line"> memungkinkan Anda menyimpan catatan bertanda waktu dan bertag tentang kemajuan serta kesulitan peserta didik — sistem catatan kasus yang ringan untuk memantau perkembangan siswa dari waktu ke waktu.
 
 ## Mengakses Alat
 

@@ -1,6 +1,6 @@
 # Positionnement
 
-Le positionnement <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionnement" data-size="line"> ajoute un flux d’auto-évaluation avant/après : choisissez un test comme **test initial** et un autre comme **test final** (souvent une copie du même test), et Chamilo affiche l’évolution du score de chaque apprenant entre les deux sur un graphique radar.
+Le positionnement <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionnement" data-size="line"> ajoute un flux d’auto-évaluation avant/après : choisissez un test comme **test initial** et un autre comme **test final** (souvent une copie du même test), et Chamilo affiche l’évolution du score de chaque apprenant entre les deux sur un graphique radar.
 
 ## Accéder à l’outil
 

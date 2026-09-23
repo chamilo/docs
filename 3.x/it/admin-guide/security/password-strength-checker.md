@@ -8,7 +8,7 @@ Dal pannello di amministrazione, fare clic su **Sicurezza > Controllo della robu
 
 ## Esecuzione di una scansione
 
-![La pagina Controllo della robustezza delle password, con un campo per gli ID utente da analizzare e un pulsante per avviare la scansione](/.gitbook/assets/admin-security-password-strength.png)
+![La pagina Controllo della robustezza delle password, con un campo per gli ID utente da analizzare e un pulsante per avviare la scansione](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Lasciare vuoto **ID utente da analizzare** per analizzare tutti gli utenti attivi, oppure inserire un elenco di ID utente separati da virgola per controllare un sottoinsieme
 * Fare clic su **Esegui scansione della robustezza delle password**
@@ -17,7 +17,7 @@ La scansione viene eseguita in modo asincrono in background, così da non blocca
 
 ## Azioni sui risultati
 
-![I risultati della scansione completata, con l’elenco di un utente segnalato e le colonne Nome, Nome utente e E-mail, e azioni per riga per richiedere un cambio password o forzare un reimpostazione della password](/.gitbook/assets/admin-security-password-strength-results.png)
+![I risultati della scansione completata, con l’elenco di un utente segnalato e le colonne Nome, Nome utente e E-mail, e azioni per riga per richiedere un cambio password o forzare un reimpostazione della password](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Al termine della scansione, gli utenti segnalati sono elencati con due azioni disponibili, per singolo utente o come azione di massa per tutti gli utenti selezionati:
 

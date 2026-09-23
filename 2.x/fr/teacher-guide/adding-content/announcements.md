@@ -6,8 +6,8 @@ Les messages envoyés via les annonces sont transmis aux apprenants à la fois p
 
 ## Créer une annonce
 
-1. Ouvrez l'outil **Annonces** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line"> depuis la page d'accueil du cours
-2. Cliquez à nouveau sur l'icône **Ajouter une annonce** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line">
+1. Ouvrez l'outil **Annonces** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line"> depuis la page d'accueil du cours
+2. Cliquez à nouveau sur l'icône **Ajouter une annonce** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annonces" data-size="line">
 3. Remplissez les champs suivants :
    * **Destinataires** — Choisissez qui recevra l'annonce :
      * Tous les apprenants inscrits
@@ -25,9 +25,9 @@ Le bouton **Aperçu** n'est pas très intuitif : il vous permet de voir à qui c
 
 ## Gérer les annonces
 
-* **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Modifier une annonce existante
-* **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Supprimer une annonce
-* **Visibilité** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> — Masquer ou afficher les annonces
+* **Modifier** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Modifier une annonce existante
+* **Supprimer** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Supprimer une annonce
+* **Visibilité** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> — Masquer ou afficher les annonces
 
 Les annonces sont affichées dans l'ordre chronologique inverse (les plus récentes en premier).
 

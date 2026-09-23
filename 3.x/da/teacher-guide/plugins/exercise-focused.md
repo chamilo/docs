@@ -1,6 +1,6 @@
 # Øvelsesfokus
 
-Øvelsesfokus <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Øvelsesfokus" data-size="line"> er et hjælpemiddel mod snyd ved eksamener. Hvis en studerendes browser mister fokus under en markeret test — ved at skifte til en anden fane eller et andet vindue — viser Chamilo en fuldskærmsadvarsel, der beder dem vende tilbage, og kan automatisk aflevere deres forsøg, hvis de ikke gør det.
+Øvelsesfokus <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Øvelsesfokus" data-size="line"> er et hjælpemiddel mod snyd ved eksamener. Hvis en studerendes browser mister fokus under en markeret test — ved at skifte til en anden fane eller et andet vindue — viser Chamilo en fuldskærmsadvarsel, der beder dem vende tilbage, og kan automatisk aflevere deres forsøg, hvis de ikke gør det.
 
 ## Markering af en test
 

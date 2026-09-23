@@ -4,9 +4,9 @@ Una **ruta de aprendizaje** le guía a través de una secuencia estructurada de 
 
 ## Abrir una ruta de aprendizaje
 
-Abra la herramienta **Rutas de aprendizaje** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Rutas de aprendizaje" data-size="line"> desde la página de inicio del curso y haga clic en una para comenzar. Si su profesor habilitó el **inicio automático**, la ruta de aprendizaje puede abrirse automáticamente en cuanto entre al curso.
+Abra la herramienta **Rutas de aprendizaje** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Rutas de aprendizaje" data-size="line"> desde la página de inicio del curso y haga clic en una para comenzar. Si su profesor habilitó el **inicio automático**, la ruta de aprendizaje puede abrirse automáticamente en cuanto entre al curso.
 
-![La lista de rutas de aprendizaje de un curso, cada una mostrando su propio progreso](/.gitbook/assets/student-learning-paths-list.png)
+![La lista de rutas de aprendizaje de un curso, cada una mostrando su propio progreso](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Avanzar por la ruta
 

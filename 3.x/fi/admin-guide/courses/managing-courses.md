@@ -4,7 +4,7 @@ Ylläpitäjänä voit hallita kaikkia alustan kursseja riippumatta siitä, kuka 
 
 ## Kurssiluettelo
 
-![Kurssiluettelo, jossa näkyvät kaikki kurssit otsikon, koodin, kategorian, ilmoittautuneiden käyttäjien ja näkyvyystilan kanssa](/.gitbook/assets/admin-course-list.png)
+![Kurssiluettelo, jossa näkyvät kaikki kurssit otsikon, koodin, kategorian, ilmoittautuneiden käyttäjien ja näkyvyystilan kanssa](../../.gitbook/assets/admin-course-list.png)
 
 Napsauta hallintapaneelissa **Kurssiluettelo** nähdäksesi kaikki kurssit. Luettelossa näkyvät:
 

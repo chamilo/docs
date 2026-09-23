@@ -21,7 +21,7 @@ Se a visibilidade de um curso permitir, você pode se inscrever sem esperar por 
 2. Navegue ou pesquise o curso que deseja participar.
 3. Clique no curso para abrir os detalhes e, em seguida, clique no botão para participar.
 
-![O catálogo de cursos, com um botão Inscrever-se em cada cartão de curso](/.gitbook/assets/student-course-catalogue.png)
+![O catálogo de cursos, com um botão Inscrever-se em cada cartão de curso](../../.gitbook/assets/student-course-catalogue.png)
 
 Um curso no qual você já está inscrito mostra **Ir para o curso** em vez de um botão de inscrição.
 

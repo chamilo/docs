@@ -30,13 +30,13 @@ Each certificate's own expiry date is computed automatically from that setting w
 
 If the category has no validity period configured, you can still set (or change) an individual learner's expiry date by hand: click the pencil **Edit expiry date** button next to their entry and pick a date. This button is only available when the category itself has no validity period — once a validity period is set, expiry dates are managed automatically and can no longer be edited certificate by certificate.
 
-![The Certificate list showing the Expiry date column for three learners](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![The Certificate list showing the Expiry date column for three learners](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Reminding Learners of an Upcoming or Past Expiry
 
-Open the **Certificates** list for your assessment and click the **Expiring certificates** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Expiring certificates" data-size="line"> button to see which learners' certificates have expired or are about to. The page shows, per learner: the certificate's **Expiry date**, its **Status** (**Expired** or **Expiring soon**), and when a reminder about it was **Last reminder sent** (or **Never**). Use **Days ahead** to widen or narrow how far into the future "expiring soon" looks.
+Open the **Certificates** list for your assessment and click the **Expiring certificates** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Expiring certificates" data-size="line"> button to see which learners' certificates have expired or are about to. The page shows, per learner: the certificate's **Expiry date**, its **Status** (**Expired** or **Expiring soon**), and when a reminder about it was **Last reminder sent** (or **Never**). Use **Days ahead** to widen or narrow how far into the future "expiring soon" looks.
 
-![The Expiring certificates page listing one expired and one soon-to-expire certificate](/.gitbook/assets/gradebook-certificate-expirations.png)
+![The Expiring certificates page listing one expired and one soon-to-expire certificate](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 To notify learners yourself:
 
@@ -45,7 +45,7 @@ To notify learners yourself:
 3. Review the preview of the e-mail that will be sent — separate previews are shown for the "expiring soon" and "expired" wording, depending on which of your selected learners fall into each case
 4. Confirm by clicking **Send notification** again in the dialog
 
-![The Send notification confirmation dialog previewing the expiring and expired e-mail wording](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![The Send notification confirmation dialog previewing the expiring and expired e-mail wording](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Each learner is notified in their own configured language, both by e-mail and by an internal Chamilo message. Sending again for the same certificate and the same expiry date is safe — Chamilo tracks what was already sent per certificate and won't spam a learner with duplicate reminders unless you explicitly resend.
 

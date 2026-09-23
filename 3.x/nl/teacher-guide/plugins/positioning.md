@@ -1,6 +1,6 @@
 # Positionering
 
-Positionering <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> voegt een zelfbeoordelingsworkflow voor en na toe: kies één toets als de **initiële toets** en een andere als de **eindoets** (vaak een kopie van dezelfde toets), en Chamilo toont de scoreverandering van elke cursist tussen beide op een radardiagram.
+Positionering <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> voegt een zelfbeoordelingsworkflow voor en na toe: kies één toets als de **initiële toets** en een andere als de **eindoets** (vaak een kopie van dezelfde toets), en Chamilo toont de scoreverandering van elke cursist tussen beide op een radardiagram.
 
 ## De tool openen
 

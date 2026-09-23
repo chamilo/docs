@@ -2,7 +2,7 @@
 
 Le sessioni sono una delle funzionalità più potenti di Chamilo. Consentono di erogare gli stessi corsi a gruppi diversi di discenti in momenti diversi, senza duplicare i contenuti del corso.
 
-![Il blocco di gestione delle sessioni nella dashboard di amministrazione, che elenca Elenco delle sessioni di formazione, Aggiungere una sessione di formazione, categorie di sessioni, strumenti di importazione/esportazione, carriere e promozioni e sequenziamento delle risorse, tra gli altri](/.gitbook/assets/admin-sessions-block.png)
+![Il blocco di gestione delle sessioni nella dashboard di amministrazione, che elenca Elenco delle sessioni di formazione, Aggiungere una sessione di formazione, categorie di sessioni, strumenti di importazione/esportazione, carriere e promozioni e sequenziamento delle risorse, tra gli altri](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Gestione delle sessioni](managing-sessions.md)** — Creare, configurare e gestire le sessioni di formazione
 * **[Categorie di sessioni](session-categories.md)** — Organizzare le sessioni in categorie

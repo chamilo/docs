@@ -2,7 +2,7 @@
 
 Blocket **System** på administrationspanelen samlar underhållsverktyg på servernivå, arbetsflödet för självuppdatering, verktyg för inspektion av lagring/resurser samt plattformens varumärkesanpassning.
 
-![Blocket System på administrationspanelen, med Clean temporary files, System status, System update, Colors, File info, Resources by type och List icons](/.gitbook/assets/admin-system-block.png)
+![Blocket System på administrationspanelen, med Clean temporary files, System status, System update, Colors, File info, Resources by type och List icons](../../.gitbook/assets/admin-system-block.png)
 
 ## Åtkomst till blocket System
 

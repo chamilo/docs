@@ -4,7 +4,7 @@ La herramienta **Forum** aloja debates estructurados y encadenados dentro de un 
 
 ## Orientarse
 
-Abra la herramienta **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foro" data-size="line"> desde la página de inicio del curso. Los foros se organizan en tres niveles:
+Abra la herramienta **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foro" data-size="line"> desde la página de inicio del curso. Los foros se organizan en tres niveles:
 
 1. **Categories** — agrupaciones amplias (p. ej., "General Discussions", "Module 1 Questions")
 2. **Forums** — tableros de discusión individuales dentro de una categoría

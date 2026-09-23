@@ -2,7 +2,7 @@
 
 La comprobación de estado es un pequeño bloque en el panel de administración que ejecuta un puñado de comprobaciones en vivo sobre su instalación y señala cualquier cosa que requiera atención: no es necesario revisar archivos de configuración para detectar configuraciones incorrectas habituales.
 
-![El bloque de comprobación de estado en el panel de administración, que muestra el estado de superación/fallo para la configuración de correo electrónico, la asignación de URL de administrador y las comprobaciones de permisos de archivos](/.gitbook/assets/admin-health-check-block.png)
+![El bloque de comprobación de estado en el panel de administración, que muestra el estado de superación/fallo para la configuración de correo electrónico, la asignación de URL de administrador y las comprobaciones de permisos de archivos](../.gitbook/assets/admin-health-check-block.png)
 
 ## Acceso a la comprobación de estado
 

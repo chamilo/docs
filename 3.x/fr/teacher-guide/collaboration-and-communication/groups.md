@@ -14,7 +14,7 @@ Les groupes vous permettent de répartir vos apprenants en équipes plus petites
 
 ## Outils de groupe
 
-![Vue d'ensemble des groupes montrant les outils de groupe disponibles et le nombre de membres](/.gitbook/assets/groups-overview.png)
+![Vue d'ensemble des groupes montrant les outils de groupe disponibles et le nombre de membres](../../.gitbook/assets/groups-overview.png)
 
 Chaque groupe peut avoir accès à un sous-ensemble d'outils du cours partagés uniquement entre les membres du groupe :
 

@@ -1,10 +1,10 @@
 # 管理インターフェースの概要
 
-管理パネルは、Chamilo プラットフォームを管理するための司令塔です。サイドバーの **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> をクリックしてアクセスします。
+管理パネルは、Chamilo プラットフォームを管理するための司令塔です。サイドバーの **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> をクリックしてアクセスします。
 
 ## 管理ダッシュボード
 
-![ユーザー、コース、セッション、設定の機能ブロックを示す管理ダッシュボード](/.gitbook/assets/admin-dashboard-overview.png)
+![ユーザー、コース、セッション、設定の機能ブロックを示す管理ダッシュボード](../../.gitbook/assets/admin-dashboard-overview.png)
 
 管理ダッシュボードは機能ブロックに整理されています。各ブロックは関連する管理ツールをまとめています。
 

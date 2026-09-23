@@ -9,7 +9,7 @@ The generator is available from the **Glossary** tool, provided that:
 1. AI helpers are enabled at the platform level
 2. At least one AI text provider is configured
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+Open the **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
 
 ## How to Generate Terms
 

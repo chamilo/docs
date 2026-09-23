@@ -1,10 +1,10 @@
 # IMS/LTI-client
 
-IMS/LTI-client <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-client" data-size="line"> laat u een externe tool of contentaanbieder vanuit uw cursus starten via de LTI-standaard (versies 1.1 en 1.3) — bijvoorbeeld een interactief leerboek van een uitgever, een gespecialiseerde simulatietool of een ander platform dat LTI ondersteunt. Chamilo fungeert als het startende platform; de externe dienst is de "tool".
+IMS/LTI-client <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-client" data-size="line"> laat u een externe tool of contentaanbieder vanuit uw cursus starten via de LTI-standaard (versies 1.1 en 1.3) — bijvoorbeeld een interactief leerboek van een uitgever, een gespecialiseerde simulatietool of een ander platform dat LTI ondersteunt. Chamilo fungeert als het startende platform; de externe dienst is de "tool".
 
 ## De tool openen
 
-Zodra deze is ingeschakeld, verschijnt in de **Instellingen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus een knop **Externe tools configureren**. Van daaruit kunt u:
+Zodra deze is ingeschakeld, verschijnt in de **Instellingen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus een knop **Externe tools configureren**. Van daaruit kunt u:
 
 * **Een nieuwe externe tool toevoegen** — Zelf één registreren: naam, start-URL, LTI-versie en de inloggegevens die de externe dienst u heeft gegeven (client-ID/sleutels voor LTI 1.3, of een consumer key en secret voor LTI 1.1)
 * **Een bestaande globale tool toevoegen** — Als uw beheerder al een platformbrede tool heeft geregistreerd, voegt u die aan uw cursus toe in plaats van zelf een verbinding aan te maken

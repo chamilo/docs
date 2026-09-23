@@ -4,7 +4,7 @@
 
 ## إنشاء استطلاع
 
-1. افتح أداة **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> من الصفحة الرئيسية للدورة
+1. افتح أداة **Surveys** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> من الصفحة الرئيسية للدورة
 2. انقر على **Create survey**
 3. املأ تفاصيل الاستطلاع:
    * **Code** — هذا رمز فريد للاستطلاع. سيُستخدم في الرسائل الإلكترونية والروابط.
@@ -65,7 +65,7 @@
 
 ## عرض النتائج
 
-![نتائج الاستطلاع مع الرسوم البيانية وتوزيع النسب المئوية لكل سؤال](/.gitbook/assets/survey-results-charts.png)
+![نتائج الاستطلاع مع الرسوم البيانية وتوزيع النسب المئوية لكل سؤال](../../.gitbook/assets/survey-results-charts.png)
 
 بعد رد المتعلمين:
 

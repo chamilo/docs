@@ -4,7 +4,7 @@ As an administrator, you can manage all courses on the platform regardless of wh
 
 ## Course List
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![The course list showing all courses with title, code, category, enrolled users, and visibility status](../../.gitbook/assets/admin-course-list.png)
 
 From the administration panel, click **Course list** to see all courses. The list shows:
 

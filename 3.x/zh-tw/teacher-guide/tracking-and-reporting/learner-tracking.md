@@ -4,7 +4,7 @@ Chamilo 會全程追蹤學習者在平台上的活動，讓您深入了解每位
 
 ## 存取學習者追蹤
 
-從課程首頁開啟 **追蹤** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具，或點選側邊欄中的 **報表**。
+從課程首頁開啟 **追蹤** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具，或點選側邊欄中的 **報表**。
 
 ## 追蹤內容
 
@@ -22,7 +22,7 @@ Chamilo 會全程追蹤學習者在平台上的活動，讓您深入了解每位
 
 ## 檢視個別學習者資料
 
-![顯示進度、分數與活動時間軸的詳細學習者追蹤檢視](/.gitbook/assets/tracking-learner-detail.png)
+![顯示進度、分數與活動時間軸的詳細學習者追蹤檢視](../../.gitbook/assets/tracking-learner-detail.png)
 
 點選學習者姓名即可查看其詳細活動報告。內容包括：
 

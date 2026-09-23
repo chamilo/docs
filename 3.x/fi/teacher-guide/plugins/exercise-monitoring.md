@@ -1,6 +1,6 @@
 # Tenttien valvonta
 
-Tenttien valvonta <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Tenttien valvonta" data-size="line"> käyttää opiskelijan web-kameraa henkilöllisyyskuvien ottamiseen tenttiyrityksen aikana — kuva henkilöllisyysasiakirjasta ja kuva opiskelijan kasvoista — tentin eheyden varmistamiseksi.
+Tenttien valvonta <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Tenttien valvonta" data-size="line"> käyttää opiskelijan web-kameraa henkilöllisyyskuvien ottamiseen tenttiyrityksen aikana — kuva henkilöllisyysasiakirjasta ja kuva opiskelijan kasvoista — tentin eheyden varmistamiseksi.
 
 ## Tentin merkitseminen
 

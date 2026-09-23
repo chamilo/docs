@@ -8,7 +8,7 @@
 
 ## 顯示內容
 
-![活動稽核頁面列出事件類型類別，例如課程、時段、使用者、社交、訊息、資源、Wiki 與其他，每一類皆可展開為個別事件類型](/.gitbook/assets/admin-security-activities-audit.png)
+![活動稽核頁面列出事件類型類別，例如課程、時段、使用者、社交、訊息、資源、Wiki 與其他，每一類皆可展開為個別事件類型](../../.gitbook/assets/admin-security-activities-audit.png)
 
 事件依類別分組：
 

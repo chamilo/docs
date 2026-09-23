@@ -4,22 +4,22 @@ AI-kursusbilledgeneratoren lader dig oprette et miniaturebillede til dit kursus 
 
 ## Adgang til generatoren
 
-Knappen **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> er tilgængelig ved siden af feltet **Course picture**, forudsat at:
+Knappen **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> er tilgængelig ved siden af feltet **Course picture**, forudsat at:
 
 1. AI-hjælpere er aktiveret på platformniveau
 2. Mindst én AI-udbyder konfigureret på din platform understøtter billedgenerering
 3. Funktionen er tilladt i dit kursus (se **AI Helpers Settings** i [Kursusindstillinger](../creating-your-course/course-settings.md))
 
-Åbn dit kursus' **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> og rul til feltet **Course picture**:
+Åbn dit kursus' **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> og rul til feltet **Course picture**:
 
-![Feltet Course picture i kursusindstillinger, med en knap Vælg fil og en knap Generate with AI under den](/.gitbook/assets/course-picture-ai-button.png)
+![Feltet Course picture i kursusindstillinger, med en knap Vælg fil og en knap Generate with AI under den](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Sådan genererer du et billede
 
 1. Klik på **Generate with AI**
 2. En dialog åbnes med et felt **Prompt** forudfyldt med en standardbeskrivelse; rediger den for at beskrive den illustration, du ønsker, eller lad standarden stå uændret
 
-![Dialogen Generate with AI, der viser feltet Prompt med dets standardtekst og knapperne Annuller/Generer](/.gitbook/assets/course-picture-ai-modal.png)
+![Dialogen Generate with AI, der viser feltet Prompt med dets standardtekst og knapperne Annuller/Generer](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Klik på **Generate** og vent — billedgenerering kan tage et par sekunder
 4. Det genererede billede placeres automatisk i feltet **Course picture** og erstatter det, du eventuelt havde valgt der

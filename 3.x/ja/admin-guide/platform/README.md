@@ -2,7 +2,7 @@
 
 管理ダッシュボードの **プラットフォーム管理** ブロックは、ポータル全体の設定とコミュニケーションツールをまとめたものです。設定パネル全体から言語、公開お知らせ、グローバルカレンダー、ポータルの公開向けコンテンツの一部を構築する CMS に近い Pages システムまでが含まれます。
 
-![管理ダッシュボードのプラットフォーム管理ブロック。Configuration settings、Languages、Plugins、Regions、Portal news、Global agenda、Pages、Setting the registration page、Extra fields、Configure multiple access URL、Mail templates、External tools (LTI)、Contact form categories、System templates が一覧表示されている](/.gitbook/assets/admin-platform-block.png)
+![管理ダッシュボードのプラットフォーム管理ブロック。Configuration settings、Languages、Plugins、Regions、Portal news、Global agenda、Pages、Setting the registration page、Extra fields、Configure multiple access URL、Mail templates、External tools (LTI)、Contact form categories、System templates が一覧表示されている](../../.gitbook/assets/admin-platform-block.png)
 
 ## プラットフォームブロックへのアクセス
 

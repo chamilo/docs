@@ -6,7 +6,7 @@ Chamilo integrerer med videokonferenceplatforme, så du kan afholde live-session
 
 ## Start af en videosession
 
-1. Åbn værktøjet **Videokonference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> fra kursets startside (eller fra sidepanelet)
+1. Åbn værktøjet **Videokonference** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> fra kursets startside (eller fra sidepanelet)
 2. Klik på **Start a meeting** (eller en tilsvarende knap afhængigt af den konfigurerede platform)
 3. Et nyt videokonferencerum åbnes i en ny fane i browseren
 

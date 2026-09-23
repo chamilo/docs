@@ -4,7 +4,7 @@ Chamilo vous permet de définir des champs de profil personnalisés (champs supp
 
 ## Champs de profil supplémentaires
 
-![Liste des champs de profil supplémentaires affichant les champs personnalisés avec le nom, le type et les paramètres de visibilité](/.gitbook/assets/admin-extra-fields-list.png)
+![Liste des champs de profil supplémentaires affichant les champs personnalisés avec le nom, le type et les paramètres de visibilité](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Les champs supplémentaires vous permettent de stocker des métadonnées spécifiques à votre organisation, telles que :
 

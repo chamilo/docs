@@ -4,9 +4,9 @@ Een **leerpad** leidt u door een gestructureerde reeks activiteiten — document
 
 ## Een leerpad openen
 
-Open het hulpmiddel **Leerpaden** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leerpaden" data-size="line"> vanaf de startpagina van de cursus en klik op een leerpad om te starten. Als uw docent **automatisch starten** heeft ingeschakeld, kan het leerpad automatisch openen zodra u de cursus binnenkomt.
+Open het hulpmiddel **Leerpaden** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leerpaden" data-size="line"> vanaf de startpagina van de cursus en klik op een leerpad om te starten. Als uw docent **automatisch starten** heeft ingeschakeld, kan het leerpad automatisch openen zodra u de cursus binnenkomt.
 
-![De lijst met leerpaden voor een cursus, elk met de eigen voortgang](/.gitbook/assets/student-learning-paths-list.png)
+![De lijst met leerpaden voor een cursus, elk met de eigen voortgang](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Door het pad navigeren
 

@@ -4,7 +4,7 @@ La herramienta de tareas (también conocida como "publicaciones de estudiantes")
 
 ## Crear una Tarea
 
-1. Abra la herramienta **Tareas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tareas" data-size="line"> desde la página principal del curso.
+1. Abra la herramienta **Tareas** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tareas" data-size="line"> desde la página principal del curso.
 2. Haga clic en **Crear una tarea**.
 3. Complete los detalles:
    * **Nombre de la tarea** — El nombre de la tarea (por ejemplo, "Informe de Proyecto Final").
@@ -41,7 +41,7 @@ Los estudiantes pueden ver si ya han enviado su tarea y, si está permitido, act
 
 ## Revisar Envíos
 
-![Lista de envíos de tareas mostrando nombres de estudiantes, fechas, archivos y estado de calificación](/.gitbook/assets/assignments-submissions-list.png)
+![Lista de envíos de tareas mostrando nombres de estudiantes, fechas, archivos y estado de calificación](../../.gitbook/assets/assignments-submissions-list.png)
 
 Como profesor, abra una tarea para ver la lista de todos los envíos:
 
@@ -53,7 +53,7 @@ Como profesor, abra una tarea para ver la lista de todos los envíos:
 
 ### Calificar un Envío
 
-![Vista de calificación de tareas con entrada de puntuación, campo de retroalimentación y subida de archivo corregido](/.gitbook/assets/assignment-grading-view.png)
+![Vista de calificación de tareas con entrada de puntuación, campo de retroalimentación y subida de archivo corregido](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Haga clic en un envío para abrirlo.
 2. Revise el archivo enviado.

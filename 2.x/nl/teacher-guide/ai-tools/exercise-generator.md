@@ -13,7 +13,7 @@ Zoek naar de knop of sectie **AI Generator** binnen de interface voor het maken 
 
 ## Hoe vragen genereren
 
-![Het formulier van de AI-oefeningengenerator met velden voor onderwerp en aantal vragen](/.gitbook/assets/ai-exercise-generator.png)
+![Het formulier van de AI-oefeningengenerator met velden voor onderwerp en aantal vragen](../../.gitbook/assets/ai-exercise-generator.png)
 
 De generator biedt twee modi, beschikbaar als tabbladen:
 
@@ -32,7 +32,7 @@ De generator biedt twee modi, beschikbaar als tabbladen:
 
 ## Beoordelen en bewerken
 
-![AI-gegenereerde vragen weergegeven ter beoordeling met opties om elke vraag te bewerken, accepteren of verwijderen](/.gitbook/assets/ai-exercise-generator-results.png)
+![AI-gegenereerde vragen weergegeven ter beoordeling met opties om elke vraag te bewerken, accepteren of verwijderen](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Gegenereerde vragen worden gepresenteerd als **suggesties**. U dient:
 

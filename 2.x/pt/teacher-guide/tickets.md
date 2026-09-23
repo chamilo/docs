@@ -19,7 +19,7 @@ As categorias padrão incluem:
 
 ## Acessando a Ferramenta de Bilhetes
 
-Se o administrador tiver ativado o link de bilhetes, um ícone de bilhete <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Bilhete" data-size="line"> aparecerá na barra de navegação superior. Clique nele para ir diretamente ao formulário de envio de bilhetes.
+Se o administrador tiver ativado o link de bilhetes, um ícone de bilhete <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Bilhete" data-size="line"> aparecerá na barra de navegação superior. Clique nele para ir diretamente ao formulário de envio de bilhetes.
 
 Você também pode acessar seus bilhetes pelo menu principal em **Suporte** ou **Bilhetes**, dependendo da configuração da sua plataforma.
 

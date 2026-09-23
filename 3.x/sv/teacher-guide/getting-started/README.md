@@ -14,7 +14,7 @@ Om din institution använder extern autentisering (till exempel Azure, Keycloak 
 
 Efter inloggning ser du Chamilo-startsida. Gränssnittet är indelat i tre huvudområden:
 
-![Chamilo-startsida som visar systemmeddelanden och kurskort](/.gitbook/assets/home-page-teacher.png)
+![Chamilo-startsida som visar systemmeddelanden och kurskort](../../.gitbook/assets/home-page-teacher.png)
 
 * **Övre fältet** — Visar plattformens logotyp, din meddelandeinkorg (med en badge som visar olästa meddelanden) och din användaravatar. Klicka på din avatar för att komma åt din profil och kontoinställningar.
 * **Sidofältet** — Den vänstra navigeringspanelen ger snabb åtkomst till dina kurser, sessioner, agenda, sociala nätverk med mera. Du kan fälla ihop den genom att klicka på växlingen vid kanten.
@@ -24,7 +24,7 @@ Efter inloggning ser du Chamilo-startsida. Gränssnittet är indelat i tre huvud
 
 Klicka på **Mina kurser** i sidofältet för att se alla kurser du är inskriven i som lärare eller student. Varje kurs visas som ett kort med:
 
-![Sidan Mina kurser som visar kurskort med miniatyrbilder och snabbåtgärder](/.gitbook/assets/my-courses-list.png)
+![Sidan Mina kurser som visar kurskort med miniatyrbilder och snabbåtgärder](../../.gitbook/assets/my-courses-list.png)
 
 * Kursens bild eller miniatyr
 * Kurstiteln

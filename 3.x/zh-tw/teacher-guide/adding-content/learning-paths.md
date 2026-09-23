@@ -16,14 +16,14 @@
 
 ## 建立學習路徑
 
-1. 從課程首頁開啟 **學習路徑** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具
+1. 從課程首頁開啟 **學習路徑** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具
 2. 點選 **建立學習路徑**
 3. 輸入**標題**及選填的說明
 4. 儲存 — 系統會帶您進入學習路徑編輯器
 
 ## 學習路徑編輯器
 
-![左側為項目樹、右側為內容預覽的學習路徑編輯器](/.gitbook/assets/learning-path-editor.png)
+![左側為項目樹、右側為內容預覽的學習路徑編輯器](../../.gitbook/assets/learning-path-editor.png)
 
 編輯器主要分為兩個區域：
 
@@ -94,17 +94,17 @@ C-Studio 在學習路徑內提供內建的拖放式視覺編輯器，可直接�
 
 外掛啟用後，學習路徑清單會在一般動作選單旁多出一個按鈕，標示為「+」，工具提示為「Studio Tools」：
 
-![學習路徑清單在標準動作選單旁顯示 C-Studio「Studio Tools」按鈕](/.gitbook/assets/cstudio-lp-button.png)
+![學習路徑清單在標準動作選單旁顯示 C-Studio「Studio Tools」按鈕](../../.gitbook/assets/cstudio-lp-button.png)
 
 點選即可開始。系統會請您從頭建立新專案，或匯入既有專案：
 
-![C-Studio 起始畫面，提供建立新專案或匯入既有專案](/.gitbook/assets/cstudio-start-screen.png)
+![C-Studio 起始畫面，提供建立新專案或匯入既有專案](../../.gitbook/assets/cstudio-start-screen.png)
 
 此畫面目前僅提供法文，與平台或課程語言無關——這是目前所用外掛版本的已知限制。為專案命名後，會直接進入編輯器。
 
 ### 編輯器
 
-![C-Studio 視覺編輯器，顯示頁面畫布、右側工具面板與左側專案面板](/.gitbook/assets/cstudio-editor.png)
+![C-Studio 視覺編輯器，顯示頁面畫布、右側工具面板與左側專案面板](../../.gitbook/assets/cstudio-editor.png)
 
 編輯器是逐頁的視覺建構工具：
 
@@ -118,7 +118,7 @@ C-Studio 在學習路徑內提供內建的拖放式視覺編輯器，可直接�
 
 C-Studio 自身介面首次開啟時可能預設為法文，與 Chamilo 介面語言或課程語言無關。若是如此，請前往 **File > UI language** 並選擇您的語言——編輯器會立即重新載入，之後會記住您的選擇。
 
-![開啟的 File 選單，顯示「UI language」選項](/.gitbook/assets/cstudio-file-menu.png)
+![開啟的 File 選單，顯示「UI language」選項](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### 儲存與匯出
 

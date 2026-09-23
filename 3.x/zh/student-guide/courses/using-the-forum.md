@@ -4,7 +4,7 @@
 
 ## 界面导览
 
-从课程主页打开 **论坛** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="论坛" data-size="line"> 工具。论坛按三个层级组织：
+从课程主页打开 **论坛** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="论坛" data-size="line"> 工具。论坛按三个层级组织：
 
 1. **分类** — 较宽泛的分组（例如“综合讨论”“模块 1 提问”）
 2. **论坛** — 某一分类下的各个讨论区

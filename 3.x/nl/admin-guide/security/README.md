@@ -2,7 +2,7 @@
 
 Het blok **Beveiliging** op het beheerdashboard groepeert de ingebouwde beveiligingsbewakings- en audittools van het platform. Het is gescheiden van [Beveiligingsinstellingen](../platform-settings/security-settings.md), die het beveiligings*beleid* configureren (wachtwoordregels, CAPTCHA, HTTP-beveiligingsheaders, enzovoort) — dit blok biedt u de *rapporten en tools* die het platform bewaken op verdachte activiteit en ongewenste wijzigingen.
 
-![Het blok Beveiliging op het beheerdashboard, met Activiteitenaudit, Aanmeldpogingen, Simple IDS, Wachtwoordsterktecontrole en Bestandsintegriteit](/.gitbook/assets/admin-security-block.png)
+![Het blok Beveiliging op het beheerdashboard, met Activiteitenaudit, Aanmeldpogingen, Simple IDS, Wachtwoordsterktecontrole en Bestandsintegriteit](../../.gitbook/assets/admin-security-block.png)
 
 Het blok werd geïntroduceerd in Chamilo 2.0 met vier tools en uitgebreid in Chamilo 3.0 met een vijfde, **Bestandsintegriteit**.
 

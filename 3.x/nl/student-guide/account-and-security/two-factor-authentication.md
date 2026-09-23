@@ -11,7 +11,7 @@ Deze functie verschijnt alleen als uw beheerder deze platformbreed heeft ingesch
 3. Voer uw **huidige wachtwoord** in, vink het vakje **Tweefactorauthenticatie (2FA) inschakelen** aan en klik op **Instellingen bijwerken**.
 4. De pagina wordt opnieuw geladen met een QR-code en de melding "Scan de QR-code om 2FA in te schakelen." Scan deze met een authenticator-app op uw telefoon (elke TOTP-compatibele app werkt, zoals Google Authenticator, Microsoft Authenticator of Authy).
 
-![Het formulier Wachtwoord wijzigen na het verzenden, met de te scannen QR-code en het veld voor de 2FA-code](/.gitbook/assets/student-2fa-qr-code.png)
+![Het formulier Wachtwoord wijzigen na het verzenden, met de te scannen QR-code en het veld voor de 2FA-code](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Voer opnieuw uw huidige wachtwoord in, samen met de 6-cijferige code die uw app nu toont, in het veld **2FA-code**, en klik nogmaals op **Instellingen bijwerken**. U ziet een bevestiging dat 2FA is geactiveerd.
 

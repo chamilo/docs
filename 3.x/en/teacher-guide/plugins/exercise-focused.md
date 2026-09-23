@@ -1,6 +1,6 @@
 # Exercise Focused
 
-Exercise Focused <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> is an anti-cheating aid for exams. If a student's browser loses focus during a flagged test — switching to another tab or window — Chamilo shows a full-screen warning telling them to return, and can automatically submit their attempt if they don't.
+Exercise Focused <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> is an anti-cheating aid for exams. If a student's browser loses focus during a flagged test — switching to another tab or window — Chamilo shows a full-screen warning telling them to return, and can automatically submit their attempt if they don't.
 
 ## Flagging a Test
 

@@ -19,7 +19,7 @@ Chamilo crea 3 categorías por defecto: *Habilidades lingüísticas*, *Habilidad
 
 ## Jerarquía de Categorías
 
-![La página de gestión de categorías de cursos mostrando un árbol anidado de categorías](/.gitbook/assets/admin-course-categories.png)
+![La página de gestión de categorías de cursos mostrando un árbol anidado de categorías](../../.gitbook/assets/admin-course-categories.png)
 
 Las categorías pueden anidarse para crear una estructura de árbol:
 

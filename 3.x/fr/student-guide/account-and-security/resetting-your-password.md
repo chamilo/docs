@@ -6,7 +6,7 @@ Si vous avez oublié votre mot de passe — ou si vous souhaitez simplement le m
 
 Sur la page de connexion, cliquez sur **Mot de passe oublié ?**. Si ce lien n'est pas présent, votre administrateur a désactivé cette fonctionnalité — contactez-le directement pour retrouver l'accès.
 
-![Le formulaire « J'ai perdu mon mot de passe », avec un seul champ pour votre nom d'utilisateur ou votre adresse e-mail](/.gitbook/assets/student-lost-password.png)
+![Le formulaire « J'ai perdu mon mot de passe », avec un seul champ pour votre nom d'utilisateur ou votre adresse e-mail](../../.gitbook/assets/student-lost-password.png)
 
 1. Saisissez votre **nom d'utilisateur ou adresse e-mail** dans le champ unique du formulaire.
 2. Si un défi CAPTCHA s'affiche, résolvez-le (voir [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Vous pouvez modifier votre mot de passe à tout moment, sans attendre de l'oubli
 2. Cliquez sur **Changer le mot de passe**.
 3. Saisissez votre mot de passe actuel, puis votre nouveau mot de passe deux fois, et validez.
 
-![Le formulaire Changer le mot de passe, avec des champs pour votre mot de passe actuel et un nouveau mot de passe](/.gitbook/assets/student-change-password.png)
+![Le formulaire Changer le mot de passe, avec des champs pour votre mot de passe actuel et un nouveau mot de passe](../../.gitbook/assets/student-change-password.png)
 
 Il s'agit de la même page où vous pouvez activer l'[authentification à deux facteurs](two-factor-authentication.md), si votre plateforme la prend en charge — dans ce cas, vous verrez également une case à cocher « Activer l'authentification à deux facteurs » ici, non représentée ci-dessus car elle n'est pas active sur toutes les plateformes.
 

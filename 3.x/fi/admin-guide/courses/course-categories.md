@@ -19,7 +19,7 @@ Chamilo luo oletuksena 3 kategoriaa: *Language skills*, *PC Skills* ja *Projects
 
 ## Kategoriahierarkia
 
-![Kurssikategorioiden hallintasivu, jossa näkyy sisäkkäinen kategoriapuu](/.gitbook/assets/admin-course-categories.png)
+![Kurssikategorioiden hallintasivu, jossa näkyy sisäkkäinen kategoriapuu](../../.gitbook/assets/admin-course-categories.png)
 
 Kategoriat voidaan sisäkkäistää puurakenteen luomiseksi:
 

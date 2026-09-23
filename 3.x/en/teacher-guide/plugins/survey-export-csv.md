@@ -1,6 +1,6 @@
 # Survey Export CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Survey Export CSV" data-size="line"> adds a one-click export of a survey's results to a compact CSV file, with one row per respondent and one column per question.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Survey Export CSV" data-size="line"> adds a one-click export of a survey's results to a compact CSV file, with one row per respondent and one column per question.
 
 ## Exporting a Survey
 

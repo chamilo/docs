@@ -2,7 +2,7 @@
 
 Cursusinstellingen stellen u in staat om te bepalen hoe uw cursus zich gedraagt — wie er toegang toe heeft, hoe deze eruitziet en welke functies zijn ingeschakeld.
 
-Om toegang te krijgen tot de cursusinstellingen, gaat u naar uw cursus en klikt u op het pictogram **Instellingen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> naast de knop **Schakelen naar studentweergave**.
+Om toegang te krijgen tot de cursusinstellingen, gaat u naar uw cursus en klikt u op het pictogram **Instellingen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> naast de knop **Schakelen naar studentweergave**.
 
 ## Algemene Instellingen
 
@@ -29,7 +29,7 @@ Elke cursus heeft een opslaglimiet (schijfquota) voor geüploade bestanden. Het 
 
 ### Cursuszichtbaarheid
 
-![De instellingen voor cursuszichtbaarheid met opties voor openbaar, open, geregistreerd en gesloten](/.gitbook/assets/course-settings-visibility.png)
+![De instellingen voor cursuszichtbaarheid met opties voor openbaar, open, geregistreerd en gesloten](../../.gitbook/assets/course-settings-visibility.png)
 
 Bepaal wie toegang heeft tot uw cursus:
 
@@ -83,7 +83,7 @@ Beheer het gedrag in het forumhulpmiddel van deze cursus.
 ---
 ### Instellingen voor Automatisch Starten
 
-Een cursus kan worden ingesteld met een automatisch startgedrag, waardoor de weg voor leerlingen naar de belangrijke onderdelen van uw cursus wordt verkort. Indien ingeschakeld, worden leerlingen die uw cursus betreden direct naar het geselecteerde hulpmiddel gestuurd en zien ze de cursusstartpagina niet als tussenstap. U kunt zelfs specifieke leerpaden of oefeningen selecteren om bij aankomst in de cursus te starten. In dit geval moet u hier de optie selecteren, vervolgens naar de lijst met leerpaden of oefeningen gaan en op het raketpictogram <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Automatisch starten" data-size="line"> klikken bij het geselecteerde item.
+Een cursus kan worden ingesteld met een automatisch startgedrag, waardoor de weg voor leerlingen naar de belangrijke onderdelen van uw cursus wordt verkort. Indien ingeschakeld, worden leerlingen die uw cursus betreden direct naar het geselecteerde hulpmiddel gestuurd en zien ze de cursusstartpagina niet als tussenstap. U kunt zelfs specifieke leerpaden of oefeningen selecteren om bij aankomst in de cursus te starten. In dit geval moet u hier de optie selecteren, vervolgens naar de lijst met leerpaden of oefeningen gaan en op het raketpictogram <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Automatisch starten" data-size="line"> klikken bij het geselecteerde item.
 
 ### Instellingen voor AI-Hulpmiddelen
 

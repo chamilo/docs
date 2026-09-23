@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Alustan hallinta** -lohko kokoaa portaalinlaajuiset määritys- ja viestintätyökalut — kaiken täydellisestä asetuspaneelista kieliin, julkisiin ilmoituksiin, globaaliin kalenteriin ja CMS-tyyppiseen Sivut-järjestelmään, jolla rakennetaan osia portaalin julkisesta sisällöstä.
 
-![Hallintapaneelin Alustan hallinta -lohko, jossa luetellaan Määritysasetukset, Kielet, Liitännäiset, Alueet, Portaalin uutiset, Globaali agenda, Sivut, Rekisteröintisivun asettaminen, Lisäkentät, Usean käyttö-URL:n määritys, Sähköpostimallit, Ulkoiset työkalut (LTI), Yhteydenottolomakkeen luokat ja Järjestelmämallit](/.gitbook/assets/admin-platform-block.png)
+![Hallintapaneelin Alustan hallinta -lohko, jossa luetellaan Määritysasetukset, Kielet, Liitännäiset, Alueet, Portaalin uutiset, Globaali agenda, Sivut, Rekisteröintisivun asettaminen, Lisäkentät, Usean käyttö-URL:n määritys, Sähköpostimallit, Ulkoiset työkalut (LTI), Yhteydenottolomakkeen luokat ja Järjestelmämallit](../../.gitbook/assets/admin-platform-block.png)
 
 ## Alustalohkon avaaminen
 

@@ -8,7 +8,7 @@ Dari panel administrasi, klik **Keamanan > Pemeriksa kekuatan kata sandi**.
 
 ## Menjalankan Pemindaian
 
-![Halaman Pemeriksa kekuatan kata sandi, dengan kolom untuk ID pengguna yang akan dipindai dan tombol untuk menjalankan pemindaian](/.gitbook/assets/admin-security-password-strength.png)
+![Halaman Pemeriksa kekuatan kata sandi, dengan kolom untuk ID pengguna yang akan dipindai dan tombol untuk menjalankan pemindaian](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Biarkan **ID pengguna yang akan dipindai** kosong untuk memindai setiap pengguna aktif, atau masukkan daftar ID pengguna yang dipisahkan koma untuk memeriksa subset
 * Klik **Jalankan pemindaian kekuatan kata sandi**
@@ -17,7 +17,7 @@ Pemindaian berjalan secara asinkron di latar belakang sehingga tidak membekukan 
 
 ## Menindaklanjuti Hasil
 
-![Hasil pemindaian yang selesai, mencantumkan pengguna yang ditandai dengan kolom Nama, Nama pengguna, dan E-mail, serta tindakan per baris untuk meminta perubahan kata sandi atau memaksa reset kata sandi](/.gitbook/assets/admin-security-password-strength-results.png)
+![Hasil pemindaian yang selesai, mencantumkan pengguna yang ditandai dengan kolom Nama, Nama pengguna, dan E-mail, serta tindakan per baris untuk meminta perubahan kata sandi atau memaksa reset kata sandi](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Setelah pemindaian selesai, pengguna yang ditandai dicantumkan dengan dua tindakan yang tersedia, baik per pengguna maupun sebagai tindakan massal untuk semua pengguna yang dipilih:
 

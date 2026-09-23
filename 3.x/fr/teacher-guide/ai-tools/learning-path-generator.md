@@ -14,7 +14,7 @@ Recherchez la section **Générateur IA** dans l’interface de création de par
 
 ## Comment générer un parcours d’apprentissage
 
-![Le formulaire du générateur de parcours d’apprentissage IA avec les champs sujet, objectifs et nombre de sections](/.gitbook/assets/ai-learning-path-generator.png)
+![Le formulaire du générateur de parcours d’apprentissage IA avec les champs sujet, objectifs et nombre de sections](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Ouvrez le formulaire du générateur IA
 2. Configurez les paramètres :

@@ -8,7 +8,7 @@ Fra administrasjonspanelet klikker du **Sikkerhet > Passordstyrkesjekker**.
 
 ## Kjøre en skanning
 
-![Siden for passordstyrkesjekker, med et felt for bruker-ID-er som skal skannes og en knapp for å kjøre skanningen](/.gitbook/assets/admin-security-password-strength.png)
+![Siden for passordstyrkesjekker, med et felt for bruker-ID-er som skal skannes og en knapp for å kjøre skanningen](../../.gitbook/assets/admin-security-password-strength.png)
 
 * La **Bruker-ID-er som skal skannes** stå tomt for å skanne alle aktive brukere, eller skriv inn en kommaseparert liste over bruker-ID-er for å sjekke et utvalg
 * Klikk **Kjør passordstyrkeskanning**
@@ -17,7 +17,7 @@ Skanningen kjører asynkront i bakgrunnen slik at den ikke fryser siden, og vise
 
 ## Handle ut fra resultater
 
-![De ferdige skanneresultatene, som lister en flagget bruker med kolonnene Navn, Brukernavn og E-post, og handlinger per rad for å be om passordendring eller tvinge passordtilbakestilling](/.gitbook/assets/admin-security-password-strength-results.png)
+![De ferdige skanneresultatene, som lister en flagget bruker med kolonnene Navn, Brukernavn og E-post, og handlinger per rad for å be om passordendring eller tvinge passordtilbakestilling](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Når skanningen er ferdig, listes flaggede brukere med to tilgjengelige handlinger, enten per bruker eller som massehandling for alle valgte brukere:
 

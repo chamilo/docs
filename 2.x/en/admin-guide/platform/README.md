@@ -2,7 +2,7 @@
 
 The **Platform management** block on the administration dashboard groups portal-wide configuration and communication tools — everything from the full settings panel to languages, public announcements, the global calendar, and the CMS-like Pages system that builds parts of your portal's public-facing content.
 
-![The Platform management block on the administration dashboard, listing Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories, and System templates](/.gitbook/assets/admin-platform-block.png)
+![The Platform management block on the administration dashboard, listing Configuration settings, Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories, and System templates](../../.gitbook/assets/admin-platform-block.png)
 
 ## Accessing the Platform Block
 

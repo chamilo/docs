@@ -21,7 +21,7 @@
 2. 浏览或搜索您想加入的课程。
 3. 点击课程打开详情，然后点击加入按钮。
 
-![课程目录，每张课程卡片上有“订阅”按钮](/.gitbook/assets/student-course-catalogue.png)
+![课程目录，每张课程卡片上有“订阅”按钮](../../.gitbook/assets/student-course-catalogue.png)
 
 您已注册的课程会显示 **进入课程**，而不是订阅按钮。
 

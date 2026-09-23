@@ -19,12 +19,12 @@ If your course's [visibility](../creating-your-course/course-settings.md#course-
 
 ## Manual Enrollment via the Users Tool
 
-To subscribe someone who already has a platform account but hasn't joined on their own, open your course's **Users** tool and click the **Add users** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Add users" data-size="line"> icon.
+To subscribe someone who already has a platform account but hasn't joined on their own, open your course's **Users** tool and click the **Add users** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Add users" data-size="line"> icon.
 
 1. Search for the person by name, username, e-mail, or official code
 2. Click **Register** on their row, or select several with the checkboxes and use the **Action** menu to register them all at once
 
-![Search results in the Enroll users to course screen, showing a matching learner and a Register button](/.gitbook/assets/course-users-subscribe-search.png)
+![Search results in the Enroll users to course screen, showing a matching learner and a Register button](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Only users who aren't already subscribed to the course appear in the results.
 
@@ -36,9 +36,9 @@ The three methods above all assume the person already has a platform account. **
 
 ### Accessing the Tool
 
-Open your course's **Users** tool, then click the **Invite by email** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Invite by email" data-size="line"> icon in the toolbar, next to **Add users**:
+Open your course's **Users** tool, then click the **Invite by email** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Invite by email" data-size="line"> icon in the toolbar, next to **Add users**:
 
-![The Users tool toolbar, showing the Add users icon and the Invite by email icon](/.gitbook/assets/course-users-invite-icon.png)
+![The Users tool toolbar, showing the Add users icon and the Invite by email icon](../../.gitbook/assets/course-users-invite-icon.png)
 
 This opens the **Course invitations** page.
 
@@ -53,7 +53,7 @@ This opens the **Course invitations** page.
 1. Enter the recipient's e-mail address in the **Invite by email** form
 2. Click **Send invitation**
 
-![The Course invitations page: the invite-by-email form and a table of sent invitations with their status](/.gitbook/assets/course-invitations-list.png)
+![The Course invitations page: the invite-by-email form and a table of sent invitations with their status](../../.gitbook/assets/course-invitations-list.png)
 
 Every invitation you've sent for this course appears below the form, with its status:
 
@@ -65,8 +65,8 @@ Every invitation you've sent for this course appears below the form, with its st
 
 For a still-pending invitation, the **Actions** column offers:
 
-* **Copy** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copy" data-size="line"> — copies the invitation link, in case you'd rather share it yourself (chat, in person) instead of relying on the email.
-* **Revoke** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revoke" data-size="line"> — cancels the invitation immediately; the link stops working. An already-accepted invitation cannot be revoked.
+* **Copy** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Copy" data-size="line"> — copies the invitation link, in case you'd rather share it yourself (chat, in person) instead of relying on the email.
+* **Revoke** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revoke" data-size="line"> — cancels the invitation immediately; the link stops working. An already-accepted invitation cannot be revoked.
 
 > **The invited email address must not already have an account on this platform.** If it does, sending the invitation fails with a message asking you to enroll that existing user directly instead — through [Manual Enrollment via the Users Tool](#manual-enrollment-via-the-users-tool) above.
 

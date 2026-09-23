@@ -19,7 +19,7 @@ Chamilo crée par défaut 3 catégories : *Compétences linguistiques*, *Compét
 
 ## Hiérarchie des catégories
 
-![Page de gestion des catégories de cours affichant un arbre imbriqué de catégories](/.gitbook/assets/admin-course-categories.png)
+![Page de gestion des catégories de cours affichant un arbre imbriqué de catégories](../../.gitbook/assets/admin-course-categories.png)
 
 Les catégories peuvent être imbriquées pour créer une structure arborescente :
 

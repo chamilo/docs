@@ -8,7 +8,7 @@ I temi di colore definiscono la tavolozza utilizzata nell'interfaccia di Chamilo
 
 ## Applicare un Tema
 
-![La pagina dei temi di colore che mostra i temi disponibili con anteprime dei colori e un pulsante Applica](/.gitbook/assets/admin-color-themes.png)
+![La pagina dei temi di colore che mostra i temi disponibili con anteprime dei colori e un pulsante Applica](../../.gitbook/assets/admin-color-themes.png)
 
 1. Dal pannello di amministrazione, vai a **Temi di colore**
 2. Sfoglia i temi disponibili

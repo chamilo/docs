@@ -6,7 +6,7 @@ Klassen im Verwaltungspanel sind plattformweite Gruppen, die zur Organisation vo
 
 ## Eine Gruppe erstellen
 
-![Die Liste der Benutzergruppen zeigt verfügbare Gruppen mit Name, Beschreibung und Anzahl der Mitglieder](/.gitbook/assets/admin-user-groups-list.png)
+![Die Liste der Benutzergruppen zeigt verfügbare Gruppen mit Name, Beschreibung und Anzahl der Mitglieder](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Navigieren Sie im Verwaltungspanel zu **Klassen**
 2. Klicken Sie auf **Klassen hinzufügen**

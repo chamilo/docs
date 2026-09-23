@@ -2,7 +2,7 @@
 
 Blokken **Kompetencer** på administrationsdashboardet samler værktøjerne til at definere, organisere og følge kompetencebadges ("skills") på tværs af platformen. En kompetence kan tildeles automatisk, når en kursist når en tærskel i karakterbogen, gennemfører bestemte kurser, eller manuelt af en underviser, og kan have et badge-lignende ikon og et niveau (for eksempel Bronze/Sølv/Guld).
 
-![Blokken Kompetencer på administrationsdashboardet med Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking og Skills and assessments](/.gitbook/assets/admin-skills-block.png)
+![Blokken Kompetencer på administrationsdashboardet med Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking og Skills and assessments](../../.gitbook/assets/admin-skills-block.png)
 
 Hele blokken vises kun, hvis indstillingen **Enable skills tool** (`skill.allow_skills_tool`, under Configuration Settings > Skills) er slået til — den er slået til som standard.
 

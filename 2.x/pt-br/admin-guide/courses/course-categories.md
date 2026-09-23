@@ -19,7 +19,7 @@ O Chamilo cria 3 categorias por padrão: *Habilidades de idioma*, *Habilidades e
 
 ## Hierarquia de Categorias
 
-![A página de gerenciamento de categorias de cursos mostrando uma árvore aninhada de categorias](/.gitbook/assets/admin-course-categories.png)
+![A página de gerenciamento de categorias de cursos mostrando uma árvore aninhada de categorias](../../.gitbook/assets/admin-course-categories.png)
 
 As categorias podem ser aninhadas para criar uma estrutura em árvore:
 

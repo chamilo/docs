@@ -26,7 +26,7 @@ Wikiは、権限を持つ誰でも編集できる、相互にリンクされた�
 編集権限を持つ人は誰でもWikiページを変更できます。
 
 1. 編集したいページを開きます
-2. **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
+2. **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
 3. エディターで変更を加えます
 4. 任意で、変更内容を説明する **Comments** を入力します
 5. 保存します

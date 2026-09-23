@@ -4,7 +4,7 @@ Als beheerder kunt u alle cursussen op het platform beheren, ongeacht wie ze hee
 
 ## Cursuslijst
 
-![De cursuslijst met alle cursussen, met titel, code, categorie, ingeschreven gebruikers en zichtbaarheidsstatus](/.gitbook/assets/admin-course-list.png)
+![De cursuslijst met alle cursussen, met titel, code, categorie, ingeschreven gebruikers en zichtbaarheidsstatus](../../.gitbook/assets/admin-course-list.png)
 
 Klik in het beheerpaneel op **Cursuslijst** om alle cursussen te zien. De lijst toont:
 

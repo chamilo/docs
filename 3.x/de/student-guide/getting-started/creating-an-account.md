@@ -27,7 +27,7 @@ Standardmäßig bietet das öffentliche Registrierungsformular überhaupt keine 
 
 Einige Plattformen aktivieren einen Schritt **„Was möchten Sie tun?“** mit zwei Karten – **Kurse besuchen** und **Kurse unterrichten** –, dieser erscheint jedoch nur, wenn Ihr Administrator die Registrierung als Lehrkraft ausdrücklich eingeschaltet hat. Selbst dann kann die Wahl, zu unterrichten, eine Freigabe Ihres Kontos erfordern, bevor Sie Lehrkraftrechte erhalten.
 
-![Das Registrierungsformular auf einer Plattform mit aktivierter Selbstregistrierung als Lehrkraft, mit der Rollenauswahl „Kurse besuchen“ / „Kurse unterrichten“](/.gitbook/assets/student-registration-form.png)
+![Das Registrierungsformular auf einer Plattform mit aktivierter Selbstregistrierung als Lehrkraft, mit der Rollenauswahl „Kurse besuchen“ / „Kurse unterrichten“](../../.gitbook/assets/student-registration-form.png)
 
 Wenn Sie ein Lehrkraftkonto benötigen und diese Option nicht sehen, bitten Sie Ihren Plattformadministrator, eines für Sie anzulegen oder Ihr bestehendes Konto hochzustufen.
 

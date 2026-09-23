@@ -2,7 +2,7 @@
 
 ## Membuat Sesi
 
-![Formulir pembuatan sesi dengan kolom untuk nama, tanggal, pelatih, kategori, dan visibilitas](/.gitbook/assets/admin-session-create-form.png)
+![Formulir pembuatan sesi dengan kolom untuk nama, tanggal, pelatih, kategori, dan visibilitas](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Dari panel administrasi, klik **Buat sesi**
 2. Isi detail sesi:
@@ -30,7 +30,7 @@ Ini memungkinkan Anda untuk mempersiapkan sesi sebelum peserta didik datang dan 
 
 ## Daftar Sesi
 
-![Daftar sesi yang menampilkan semua sesi dengan nama, tanggal, jumlah kursus, jumlah peserta didik, dan status](/.gitbook/assets/admin-session-list.png)
+![Daftar sesi yang menampilkan semua sesi dengan nama, tanggal, jumlah kursus, jumlah peserta didik, dan status](../../.gitbook/assets/admin-session-list.png)
 
 Daftar sesi menunjukkan semua sesi dengan:
 
@@ -52,7 +52,7 @@ Klik pada sesi untuk mengedit:
 
 ## Mendaftarkan Pengguna
 
-![Antarmuka pendaftaran sesi untuk menambahkan pengguna individu, kelas, atau mengimpor melalui CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Antarmuka pendaftaran sesi untuk menambahkan pengguna individu, kelas, atau mengimpor melalui CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Anda dapat mendaftarkan pengguna dalam sesi dengan:
 

@@ -6,7 +6,7 @@ Your profile in Chamilo contains your personal information and preferences. Othe
 
 Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![The user avatar dropdown menu showing profile, account settings, and sign-out options](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profile Information
 

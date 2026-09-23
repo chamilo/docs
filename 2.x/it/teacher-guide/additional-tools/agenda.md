@@ -4,9 +4,9 @@ Lo strumento Agenda consente di pianificare eventi e scadenze all'interno del tu
 
 ## Visualizzazione dell'Agenda
 
-Apri lo strumento **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> dalla homepage del corso. Puoi visualizzare gli eventi in tre modalità:
+Apri lo strumento **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> dalla homepage del corso. Puoi visualizzare gli eventi in tre modalità:
 
-![L'agenda nella vista calendario che mostra eventi e scadenze del corso](/.gitbook/assets/agenda-calendar-view.png)
+![L'agenda nella vista calendario che mostra eventi e scadenze del corso](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Vista calendario** — Un calendario visivo mensile/settimanale/giornaliero
 * **Vista elenco** — Gli eventi mostrati come un elenco cronologico
@@ -14,7 +14,7 @@ Apri lo strumento **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.
 
 ## Creazione di un Evento
 
-1. Clicca su **Aggiungi evento** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi evento" data-size="line">
+1. Clicca su **Aggiungi evento** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi evento" data-size="line">
 2. Compila i dettagli dell'evento:
    * **Titolo** — Un nome breve per l'evento
    * **Data e ora di inizio**
@@ -23,13 +23,13 @@ Apri lo strumento **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.
 3. Scegli il **pubblico**:
    * **Tutti gli studenti** — Tutti gli iscritti al corso
    * **Utenti o gruppi specifici** — Seleziona studenti o gruppi individuali
-4. Facoltativamente, imposta un **promemoria** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Promemoria" data-size="line"> per inviare notifiche email prima dell'evento (è necessario che un amministratore configuri il *cron* per il portale)
+4. Facoltativamente, imposta un **promemoria** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Promemoria" data-size="line"> per inviare notifiche email prima dell'evento (è necessario che un amministratore configuri il *cron* per il portale)
 5. Salva
 
 ## Gestione degli Eventi
 
-* **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Clicca su un evento per modificarne i dettagli
-* **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi un evento dal calendario
+* **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Clicca su un evento per modificarne i dettagli
+* **Elimina** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi un evento dal calendario
 * **Trascina e rilascia** — Nella vista calendario, trascina gli eventi per riprogrammarli
 
 ## Agenda Personale

@@ -9,11 +9,11 @@ AI採点は次の2つの場面で利用できます。
 * **自由記述の小テスト問題** — 小テスト内の自由解答問題を手動で採点するとき
 * **課題の提出物** — 課題ツールで学生の提出物を確認し採点するとき
 
-採点画面で **AI採点** ボタン（ロボットアイコン <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> で示されます）を探してください。
+採点画面で **AI採点** ボタン（ロボットアイコン <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line"> で示されます）を探してください。
 
 ## 仕組み
 
-![学生の提出物と、提案された点数およびフィードバックを表示するAI採点画面](/.gitbook/assets/ai-grading-interface.png)
+![学生の提出物と、提案された点数およびフィードバックを表示するAI採点画面](../../.gitbook/assets/ai-grading-interface.png)
 
 1. 採点が必要な提出物または解答を開く
 2. **AI採点** ボタンをクリックする

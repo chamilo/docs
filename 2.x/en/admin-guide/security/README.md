@@ -2,7 +2,7 @@
 
 The **Security** block on the administration dashboard groups the platform's built-in security monitoring and auditing tools. It is separate from [Security Settings](../platform-settings/security-settings.md), which configures security *policy* (password rules, CAPTCHA, HTTP security headers, and so on) — this block gives you the *reports and tools* that watch the platform for suspicious activity and unwanted changes.
 
-![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, and Password strength checker](/.gitbook/assets/admin-security-block.png)
+![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, and Password strength checker](../../.gitbook/assets/admin-security-block.png)
 
 ## Accessing the Security Block
 

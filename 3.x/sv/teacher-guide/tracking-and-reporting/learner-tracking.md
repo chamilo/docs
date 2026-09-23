@@ -4,7 +4,7 @@ Chamilo spårar deltagarnas aktivitet i hela plattformen och ger dig detaljerad 
 
 ## Åtkomst till spårning av deltagare
 
-Öppna verktyget **Spårning** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Spårning" data-size="line"> från kursens startsida, eller klicka på **Rapportering** i sidofältet.
+Öppna verktyget **Spårning** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Spårning" data-size="line"> från kursens startsida, eller klicka på **Rapportering** i sidofältet.
 
 ## Vad som spåras
 
@@ -22,7 +22,7 @@ För varje deltagare registrerar Chamilo (i den huvudsakliga spårningsvyn per d
 
 ## Visa data för enskilda deltagare
 
-![Detaljerad vy för spårning av deltagare som visar framsteg, poäng och aktivitetstidslinje](/.gitbook/assets/tracking-learner-detail.png)
+![Detaljerad vy för spårning av deltagare som visar framsteg, poäng och aktivitetstidslinje](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klicka på en deltagares namn för att se deras detaljerade aktivitetsrapport. Den visar:
 

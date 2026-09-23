@@ -4,7 +4,7 @@ Das Übungs-Tool (auch „Tests“ genannt) ermöglicht die Erstellung von Quizz
 
 ## Eine Übung erstellen
 
-1. Öffnen Sie das Tool **Übungen** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Übungen" data-size="line"> auf der Kursstartseite
+1. Öffnen Sie das Tool **Übungen** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Übungen" data-size="line"> auf der Kursstartseite
 2. Klicken Sie auf **Neue Übung**
 3. Geben Sie einen **Titel** und optional eine **Beschreibung** ein
 4. Konfigurieren Sie die Übungseinstellungen (siehe unten)
@@ -12,7 +12,7 @@ Das Übungs-Tool (auch „Tests“ genannt) ermöglicht die Erstellung von Quizz
 
 ## Übungseinstellungen
 
-![Das Panel der Übungseinstellungen mit Optionen für Anzeige, Zeit, Versuche und Feedback](/.gitbook/assets/exercise-settings.png)
+![Das Panel der Übungseinstellungen mit Optionen für Anzeige, Zeit, Versuche und Feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Anzeige und Navigation
 
@@ -75,7 +75,7 @@ Sie können außerdem erweiterte Auswahlstrategien konfigurieren, die Kategorien
 
 ## Fragetypen
 
-![Überblick über die verfügbaren Fragetypen in der Oberfläche zur Übungserstellung](/.gitbook/assets/exercise-question-types.png)
+![Überblick über die verfügbaren Fragetypen in der Oberfläche zur Übungserstellung](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo bietet eine umfangreiche Auswahl an Fragetypen, die in mehrere Kategorien gegliedert sind:
 

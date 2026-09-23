@@ -8,7 +8,7 @@ Tema warna menentukan palet yang digunakan di seluruh antarmuka Chamilo — warn
 
 ## Menerapkan Tema
 
-![Halaman tema warna yang menampilkan tema yang tersedia dengan contoh warna dan tombol Terapkan](/.gitbook/assets/admin-color-themes.png)
+![Halaman tema warna yang menampilkan tema yang tersedia dengan contoh warna dan tombol Terapkan](../../.gitbook/assets/admin-color-themes.png)
 
 1. Dari panel administrasi, navigasikan ke **Tema Warna**
 2. Telusuri tema yang tersedia

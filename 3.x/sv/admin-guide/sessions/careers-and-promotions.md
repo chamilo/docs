@@ -4,7 +4,7 @@ Chamilo inkluderar ett karriärhanteringssystem som låter dig definiera utbildn
 
 ## Karriärer
 
-![Karriärlistan som visar definierade karriärvägar med namn och beskrivning](/.gitbook/assets/admin-careers-list.png)
+![Karriärlistan som visar definierade karriärvägar med namn och beskrivning](../../.gitbook/assets/admin-careers-list.png)
 
 En **karriär** representerar en strukturerad utbildningsväg — en sekvens av utbildningssteg som en deltagare följer för att uppnå ett yrkesmässigt mål.
 

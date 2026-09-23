@@ -1,12 +1,12 @@
 # Kurssikuvaus
 
-**Kurssikuvaus**-työkalu <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kurssikuvaus" data-size="line"> antaa sinun kirjoittaa kurssistasi jäsennellyn, moniosaisen kuvauksen — sen tavoitteet, menetelmät, materiaalit ja muuta. Toisin kuin vapaamuotoinen **Kurssin esittely** -banneri [kurssin etusivulla](README.md#the-course-homepage), jonka näkevät vain ilmoittautuneet oppijat, kurssikuvaus on se, minkä mahdolliset oppijat näkevät *ennen* ilmoittautumista kurssiluettelosta.
+**Kurssikuvaus**-työkalu <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kurssikuvaus" data-size="line"> antaa sinun kirjoittaa kurssistasi jäsennellyn, moniosaisen kuvauksen — sen tavoitteet, menetelmät, materiaalit ja muuta. Toisin kuin vapaamuotoinen **Kurssin esittely** -banneri [kurssin etusivulla](README.md#the-course-homepage), jonka näkevät vain ilmoittautuneet oppijat, kurssikuvaus on se, minkä mahdolliset oppijat näkevät *ennen* ilmoittautumista kurssiluettelosta.
 
 Ilmoittautumisen jälkeen oppijat voivat edelleen palata siihen kurssin sisältä — jos jätät työkalun heille näkyväksi, se on kätevä paikka tarkistaa käytännön tietoja, kuten kurssin yleinen rakenne tai opettajat, ilman että he joutuvat kysymään suoraan sinulta. Ilmoittautuneet oppijat voivat tarkastella kirjoittamiasi osioita, mutta he eivät voi lisätä, muokata tai poistaa niitä.
 
 ## Työkalun avaaminen
 
-Avaa **Kurssikuvaus**-työkalu <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kurssikuvaus" data-size="line"> kurssin etusivun työkaluruudukosta.
+Avaa **Kurssikuvaus**-työkalu <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kurssikuvaus" data-size="line"> kurssin etusivun työkaluruudukosta.
 
 ## Kahdeksan osiota
 
@@ -30,7 +30,7 @@ Kurssikuvaus koostuu enintään kahdeksasta itsenäisestä osiosta. Kukin niist�
 3. Kirjoita sisältösi rich text -editoriin (tukee muotoilua, kuvia, linkkejä, upotettua videota ja muuta rikasta sisältöä). Jos alustallasi on se käytössä, voit myös kirjoittaa samasta osiosta useita kieliversioita, jolloin kukin oppija näkee automaattisesti vain omansa — katso [Monikielinen sisältö](../adding-content/multi-language-content.md).
 4. Tallenna
 
-Kukin lisäämäsi osio näkyy omana korttinaan työkalussa. Käytä kortin **Muokkaa**- <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> ja **Poista**-kuvakkeita <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> päivittääksesi tai poistaaksesi sen myöhemmin.
+Kukin lisäämäsi osio näkyy omana korttinaan työkalussa. Käytä kortin **Muokkaa**- <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> ja **Poista**-kuvakkeita <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> päivittääksesi tai poistaaksesi sen myöhemmin.
 
 ## Yhteys kurssiluetteloon
 

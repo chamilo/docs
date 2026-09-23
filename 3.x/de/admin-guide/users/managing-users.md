@@ -4,7 +4,7 @@ Diese Seite behandelt die alltäglichen Aufgaben zum Anlegen, Bearbeiten und Ver
 
 ## Benutzerliste
 
-![Die Benutzerliste mit Konten und den Spalten Name, E-Mail, Rolle und Status](/.gitbook/assets/admin-user-list.png)
+![Die Benutzerliste mit Konten und den Spalten Name, E-Mail, Rolle und Status](../../.gitbook/assets/admin-user-list.png)
 
 Klicken Sie im Administrationsbereich auf **Benutzerliste**, um alle Benutzer der Plattform anzuzeigen. Die Liste zeigt:
 
@@ -21,7 +21,7 @@ Verwenden Sie das Werkzeug **Erweiterte Suche**, um bestimmte Benutzer nach Name
 
 ## Einen Benutzer anlegen
 
-![Das Formular zum Anlegen eines Benutzers mit Feldern für Name, E-Mail, Benutzername, Passwort, Rolle und Sprache](/.gitbook/assets/admin-user-create-form.png)
+![Das Formular zum Anlegen eines Benutzers mit Feldern für Name, E-Mail, Benutzername, Passwort, Rolle und Sprache](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klicken Sie im Administrationsbereich auf **Benutzer hinzufügen**
 2. Füllen Sie die Pflichtfelder aus:
@@ -41,7 +41,7 @@ Verwenden Sie das Werkzeug **Erweiterte Suche**, um bestimmte Benutzer nach Name
 
 ## Benutzer importieren
 
-![Die Benutzerimport-Oberfläche zum Hochladen von CSV- oder XML-Dateien mit Benutzerdaten](/.gitbook/assets/admin-user-import.png)
+![Die Benutzerimport-Oberfläche zum Hochladen von CSV- oder XML-Dateien mit Benutzerdaten](../../.gitbook/assets/admin-user-import.png)
 
 Für die Massenerstellung von Benutzern können Sie Benutzer aus einer Datei importieren:
 

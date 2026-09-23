@@ -9,7 +9,7 @@ Generator tersedia dari alat **Glossary**, dengan syarat:
 1. Pembantu AI diaktifkan di tingkat platform
 2. Setidaknya satu penyedia teks AI dikonfigurasi
 
-Buka alat **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosarium" data-size="line"> dari beranda kursus dan cari tombol **Generate with AI** di bilah alat.
+Buka alat **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosarium" data-size="line"> dari beranda kursus dan cari tombol **Generate with AI** di bilah alat.
 
 ## Cara Menghasilkan Istilah
 

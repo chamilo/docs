@@ -19,7 +19,7 @@ Chamilo 根据这些权重计算每位学习者的总成绩。
 
 ## 设置评估
 
-1. 从课程主页打开 **评估** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成绩册" data-size="line"> 工具
+1. 从课程主页打开 **评估** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="成绩册" data-size="line"> 工具
 2. 您将看到评估概览，初始为空
 
 ### 添加活动
@@ -48,7 +48,7 @@ Chamilo 根据这些权重计算每位学习者的总成绩。
 
 ## 查看成绩
 
-![显示学习者姓名、活动分数和加权总分的成绩册概览表](/.gitbook/assets/gradebook-overview.png)
+![显示学习者姓名、活动分数和加权总分的成绩册概览表](../../.gitbook/assets/gradebook-overview.png)
 
 评估以表格显示：
 
@@ -77,7 +77,7 @@ Chamilo 根据这些权重计算每位学习者的总成绩。
 
 一旦在根类别上启用 **生成证书**，就会出现 **证书有效期（天）** 字段。保持为 `0` 表示证书永不过期，或设置若干天数，证书将在该天数后过期 — Chamilo 随后可在到期日临近时提醒学习者，方式可以是自动（cron，由管理员配置）或从证书列表中手动操作。
 
-![启用“生成证书”且“证书有效期（天）”字段设为 365 的类别编辑对话框](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![启用“生成证书”且“证书有效期（天）”字段设为 365 的类别编辑对话框](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 更多详情请参见 [证书与技能](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry)。
 
@@ -87,7 +87,7 @@ Chamilo 根据这些权重计算每位学习者的总成绩。
 
 ## 导出成绩
 
-点击 **导出** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 按钮，可将成绩下载为电子表格。这适用于：
+点击 **导出** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 按钮，可将成绩下载为电子表格。这适用于：
 
 * 与行政系统共享成绩
 * 在 Chamilo 之外进行额外分析

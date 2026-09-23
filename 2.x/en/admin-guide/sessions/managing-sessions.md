@@ -2,7 +2,7 @@
 
 ## Creating a Session
 
-![The session creation form with fields for name, dates, tutor, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![The session creation form with fields for name, dates, tutor, category, and visibility](../../.gitbook/assets/admin-session-create-form.png)
 
 1. From the administration panel, click **Create a session**
 2. Fill in the session details:
@@ -30,7 +30,7 @@ This allows you to prepare the session before learners arrive and keep tutor acc
 
 ## Session List
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![The session list showing all sessions with name, dates, course count, learner count, and status](../../.gitbook/assets/admin-session-list.png)
 
 The session list shows all sessions with:
 
@@ -52,7 +52,7 @@ Click on a session to edit:
 
 ## Enrolling Users
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![The session enrollment interface for adding individual users, classes, or importing via CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 You can enroll users in a session by:
 

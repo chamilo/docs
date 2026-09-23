@@ -4,22 +4,22 @@ AI-kursbildsgeneratorn låter dig skapa en miniatyrbild för din kurs direkt fr�
 
 ## Åtkomst till generatorn
 
-Knappen **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> finns bredvid fältet **Course picture**, förutsatt att:
+Knappen **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> finns bredvid fältet **Course picture**, förutsatt att:
 
 1. AI-hjälpare är aktiverade på plattformsnivå
 2. Minst en AI-leverantör som är konfigurerad på din plattform stöder bildgenerering
 3. Funktionen är tillåten i din kurs (se **AI Helpers Settings** i [Kursinställningar](../creating-your-course/course-settings.md))
 
-Öppna kursens **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> och bläddra till fältet **Course picture**:
+Öppna kursens **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> och bläddra till fältet **Course picture**:
 
-![Fältet Course picture i kursinställningarna, med en knapp Choose File och en knapp Generate with AI under den](/.gitbook/assets/course-picture-ai-button.png)
+![Fältet Course picture i kursinställningarna, med en knapp Choose File och en knapp Generate with AI under den](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Så här genererar du en bild
 
 1. Klicka på **Generate with AI**
 2. En dialogruta öppnas med ett fält **Prompt** förifyllt med en standardbeskrivning; redigera den för att beskriva den illustration du vill ha, eller lämna standardvärdet oförändrat
 
-![Dialogrutan Generate with AI som visar fältet Prompt med dess standardtext, samt knapparna Cancel/Generate](/.gitbook/assets/course-picture-ai-modal.png)
+![Dialogrutan Generate with AI som visar fältet Prompt med dess standardtext, samt knapparna Cancel/Generate](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Klicka på **Generate** och vänta — bildgenerering kan ta några sekunder
 4. Den genererade bilden placeras automatiskt i fältet **Course picture** och ersätter det du eventuellt hade valt där

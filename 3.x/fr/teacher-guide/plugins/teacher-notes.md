@@ -1,6 +1,6 @@
 # Notes enseignant
 
-Notes enseignant <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Notes enseignant" data-size="line"> offre à l’équipe pédagogique de votre cours un carnet privé pour consigner des notes concernant des apprenants spécifiques — observations de progression, rappels, tout ce que vous préférez ne pas placer dans un outil public. Les étudiants ne voient jamais cet outil ni son contenu.
+Notes enseignant <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Notes enseignant" data-size="line"> offre à l’équipe pédagogique de votre cours un carnet privé pour consigner des notes concernant des apprenants spécifiques — observations de progression, rappels, tout ce que vous préférez ne pas placer dans un outil public. Les étudiants ne voient jamais cet outil ni son contenu.
 
 > À ne pas confondre avec l’outil [Notebook](../additional-tools/notebook.md) — celui-ci est un carnet personnel pour les apprenants ; Notes enseignant est un outil distinct, réservé aux enseignants.
 

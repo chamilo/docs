@@ -1,6 +1,6 @@
 # Supervisión de ejercicios
 
-La Supervisión de ejercicios <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Supervisión de ejercicios" data-size="line"> utiliza la cámara web del estudiante para capturar fotografías de identidad durante un intento de prueba — una foto de un documento de identidad y una foto del rostro del estudiante — con fines de integridad del examen.
+La Supervisión de ejercicios <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Supervisión de ejercicios" data-size="line"> utiliza la cámara web del estudiante para capturar fotografías de identidad durante un intento de prueba — una foto de un documento de identidad y una foto del rostro del estudiante — con fines de integridad del examen.
 
 ## Marcar una prueba
 

@@ -10,7 +10,7 @@ From the administration panel, click **Security > File integrity**.
 
 ## What It Shows
 
-![The File integrity page showing last scan information, panels for Added, Modified, Deleted and Permissions changed files, an Alert history list, and Actions to run a scan, pause alerts, or establish a new baseline](/.gitbook/assets/admin-security-file-integrity.png)
+![The File integrity page showing last scan information, panels for Added, Modified, Deleted and Permissions changed files, an Alert history list, and Actions to run a scan, pause alerts, or establish a new baseline](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Last scan** — When the most recent scan ran and how many files it checked
 * **Added / Modified / Deleted** — Files that differ from the baseline, identified by comparing SHA-256 checksums (each list is capped at 500 paths, with a note if the full list is longer — see the CEF log below for the complete list)

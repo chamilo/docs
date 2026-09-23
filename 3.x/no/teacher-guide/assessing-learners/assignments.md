@@ -4,7 +4,7 @@ Innleveringsverktøyet (også kalt «studentpublikasjoner») lar deg samle inn a
 
 ## Opprette en innlevering
 
-1. Åpne verktøyet **Innleveringer** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Innleveringer" data-size="line"> fra kursets startsid
+1. Åpne verktøyet **Innleveringer** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Innleveringer" data-size="line"> fra kursets startsid
 2. Klikk **Opprett en innlevering**
 3. Fyll inn detaljene:
    * **Innleveringsnavn** — Navnet på innleveringen (f.eks. «Sluttrapport for prosjekt»)
@@ -41,7 +41,7 @@ Lærende kan se om de allerede har levert og, hvis det er tillatt, oppdatere inn
 
 ## Gjennomgå innleveringer
 
-![Listen over innleveringer som viser studentnavn, datoer, filer og vurderingsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![Listen over innleveringer som viser studentnavn, datoer, filer og vurderingsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Som lærer åpner du en innlevering for å se listen over alle innleveringer:
 
@@ -53,7 +53,7 @@ Som lærer åpner du en innlevering for å se listen over alle innleveringer:
 
 ### Vurdere en innlevering
 
-![Vurderingsvisningen for innlevering med poengfelt, tilbakemeldingsfelt og opplasting av rettet fil](/.gitbook/assets/assignment-grading-view.png)
+![Vurderingsvisningen for innlevering med poengfelt, tilbakemeldingsfelt og opplasting av rettet fil](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klikk på en innlevering for å åpne den
 2. Gå gjennom den innleverte filen

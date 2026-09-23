@@ -14,7 +14,7 @@ Groepen stellen u in staat uw cursisten in kleinere teams te verdelen voor colla
 
 ## Groepstools
 
-![Het groepenoverzicht met beschikbare groepstools en ledentellingen](/.gitbook/assets/groups-overview.png)
+![Het groepenoverzicht met beschikbare groepstools en ledentellingen](../../.gitbook/assets/groups-overview.png)
 
 Elke groep kan toegang hebben tot een subset van cursustools die alleen onder groepsleden worden gedeeld:
 

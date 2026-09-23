@@ -1,6 +1,6 @@
 # 学员跟进
 
-学员跟进 <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="学员跟进" data-size="line"> 可让您为学员的进度与困难记录带时间戳、带标签的备注——这是一套轻量级个案备注系统，用于持续跟踪学员的学习情况。
+学员跟进 <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="学员跟进" data-size="line"> 可让您为学员的进度与困难记录带时间戳、带标签的备注——这是一套轻量级个案备注系统，用于持续跟踪学员的学习情况。
 
 ## 访问该工具
 

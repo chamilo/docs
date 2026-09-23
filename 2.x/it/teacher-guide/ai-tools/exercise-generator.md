@@ -13,7 +13,7 @@ Cerca il pulsante o la sezione **Generatore IA** all'interno dell'interfaccia di
 
 ## Come Generare Domande
 
-![Il modulo del generatore di esercizi con IA con campi per argomento e numero di domande](/.gitbook/assets/ai-exercise-generator.png)
+![Il modulo del generatore di esercizi con IA con campi per argomento e numero di domande](../../.gitbook/assets/ai-exercise-generator.png)
 
 Il generatore offre due modalità, disponibili come schede:
 
@@ -32,7 +32,7 @@ Il generatore offre due modalità, disponibili come schede:
 
 ## Revisione e Modifica
 
-![Domande generate dall'IA mostrate per la revisione con opzioni per modificare, accettare o rimuovere ciascuna di esse](/.gitbook/assets/ai-exercise-generator-results.png)
+![Domande generate dall'IA mostrate per la revisione con opzioni per modificare, accettare o rimuovere ciascuna di esse](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Le domande generate sono presentate come **suggerimenti**. Dovresti:
 

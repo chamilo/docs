@@ -1,6 +1,6 @@
 # 专注考试
 
-专注考试 <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="专注考试" data-size="line"> 是一项用于考试的防作弊辅助功能。若学生在已标记的测验中浏览器失去焦点——切换到其他标签页或窗口——Chamilo 会显示全屏警告，提示其返回，并在其未返回时自动提交作答。
+专注考试 <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="专注考试" data-size="line"> 是一项用于考试的防作弊辅助功能。若学生在已标记的测验中浏览器失去焦点——切换到其他标签页或窗口——Chamilo 会显示全屏警告，提示其返回，并在其未返回时自动提交作答。
 
 ## 标记测验
 

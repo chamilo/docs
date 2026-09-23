@@ -4,7 +4,7 @@ Chamilo tiene traccia dell'attività degli studenti su tutta la piattaforma, off
 
 ## Accesso al monitoraggio degli studenti
 
-Apri lo strumento **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dalla homepage del corso, oppure fai clic su **Reporting** nella barra laterale.
+Apri lo strumento **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dalla homepage del corso, oppure fai clic su **Reporting** nella barra laterale.
 
 ## Cosa viene tracciato
 
@@ -22,7 +22,7 @@ I dettagli di accesso per risorsa (quali documenti o pagine specifiche uno stude
 
 ## Visualizzazione dei dati del singolo studente
 
-![Vista dettagliata del monitoraggio dello studente con avanzamento, punteggi e cronologia delle attività](/.gitbook/assets/tracking-learner-detail.png)
+![Vista dettagliata del monitoraggio dello studente con avanzamento, punteggi e cronologia delle attività](../../.gitbook/assets/tracking-learner-detail.png)
 
 Fai clic sul nome di uno studente per vedere il suo report dettagliato delle attività. Questo mostra:
 

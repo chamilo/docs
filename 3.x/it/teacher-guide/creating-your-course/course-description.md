@@ -1,12 +1,12 @@
 # Descrizione del corso
 
-Lo strumento **Descrizione del corso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrizione del corso" data-size="line"> consente di redigere una descrizione strutturata e suddivisa in sezioni del proprio corso — obiettivi, metodologia, materiali e altro. A differenza del banner in testo libero **Introduzione al corso** sulla [homepage del corso](README.md#the-course-homepage), visibile solo ai discenti iscritti, la descrizione del corso è ciò che i potenziali discenti vedono *prima* di iscriversi, dal catalogo dei corsi.
+Lo strumento **Descrizione del corso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrizione del corso" data-size="line"> consente di redigere una descrizione strutturata e suddivisa in sezioni del proprio corso — obiettivi, metodologia, materiali e altro. A differenza del banner in testo libero **Introduzione al corso** sulla [homepage del corso](README.md#the-course-homepage), visibile solo ai discenti iscritti, la descrizione del corso è ciò che i potenziali discenti vedono *prima* di iscriversi, dal catalogo dei corsi.
 
 Una volta iscritti, i discenti possono comunque consultarla dall’interno del corso — se si lascia lo strumento visibile, è un luogo comodo per verificare informazioni pratiche come la struttura generale del corso o chi sono i docenti, senza dover chiedere direttamente. I discenti iscritti possono visualizzare le sezioni redatte ma non possono aggiungerle, modificarle o eliminarle.
 
 ## Accesso allo strumento
 
-Aprire lo strumento **Descrizione del corso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrizione del corso" data-size="line"> dalla griglia degli strumenti della homepage del corso.
+Aprire lo strumento **Descrizione del corso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrizione del corso" data-size="line"> dalla griglia degli strumenti della homepage del corso.
 
 ## Le otto sezioni
 
@@ -30,7 +30,7 @@ Una descrizione del corso è composta da un massimo di otto sezioni indipendenti
 3. Scrivere il contenuto nell’editor di testo avanzato (supporta formattazione, immagini, link, video incorporati e altri contenuti avanzati). Se la piattaforma lo ha abilitato, è anche possibile redigere diverse versioni linguistiche della stessa sezione e far sì che ciascun discente veda automaticamente solo la propria — vedere [Contenuti multilingue](../adding-content/multi-language-content.md).
 4. Salvare
 
-Ogni sezione aggiunta compare come una scheda autonoma nello strumento. Usare le icone **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> ed **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> su una scheda per aggiornarla o rimuoverla in seguito.
+Ogni sezione aggiunta compare come una scheda autonoma nello strumento. Usare le icone **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> ed **Elimina** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> su una scheda per aggiornarla o rimuoverla in seguito.
 
 ## Collegamento al catalogo dei corsi
 

@@ -4,7 +4,7 @@ Chamilo sisältää sisäänrakennetun sosiaalisen verkoston, jonka avulla voit 
 
 ## Onko sinulla pääsy
 
-Napsauta sivupalkissa **Sosiaalinen verkosto** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosiaalinen verkosto" data-size="line"> laajentaaksesi sen ja napsauta sitten **Etusivu**. Jos tätä vaihtoehtoa ei ole lainkaan, ylläpitäjäsi on poistanut sen käytöstä alustallasi — sinulta ei puutu mitään.
+Napsauta sivupalkissa **Sosiaalinen verkosto** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosiaalinen verkosto" data-size="line"> laajentaaksesi sen ja napsauta sitten **Etusivu**. Jos tätä vaihtoehtoa ei ole lainkaan, ylläpitäjäsi on poistanut sen käytöstä alustallasi — sinulta ei puutu mitään.
 
 Sama laajennettu osio listaa myös **Viestit**, **Ystäväni**, **Sosiaaliset ryhmät** — ja hieman odottamattomasti **Omat tiedostoni** (henkilökohtainen tiedostotallennustilasi) sekä **Henkilötiedot** (vienti niistä henkilötiedoista, joita alusta sinusta säilyttää). Kaksi viimeistä eivät ole sosiaalisia ominaisuuksia; ne on vain ryhmitelty tähän sivupalkin osaan.
 
@@ -12,7 +12,7 @@ Sama laajennettu osio listaa myös **Viestit**, **Ystäväni**, **Sosiaaliset ry
 
 Sisään päästyäsi **seinäsi** näyttää syötteen toiminnasta sinulta ja niiltä henkilöiltä, joihin olet yhteydessä. Voit julkaista päivityksiä ja — jos ylläpitäjäsi on sen sallinut — tykätä tai ei-tykätä sekä kommentoida yhteyksiesi julkaisuja.
 
-![Sosiaalinen seinä, jossa on julkaisukenttä sekä paneelit yhteisöille, ystäville ja taidoille](/.gitbook/assets/student-social-wall.png)
+![Sosiaalinen seinä, jossa on julkaisukenttä sekä paneelit yhteisöille, ystäville ja taidoille](../.gitbook/assets/student-social-wall.png)
 
 ## Yhteyden muodostaminen muihin
 

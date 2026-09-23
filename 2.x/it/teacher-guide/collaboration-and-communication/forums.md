@@ -4,7 +4,7 @@ Lo strumento forum consente di ospitare discussioni strutturate all'interno del 
 
 ## Struttura del Forum
 
-![Elenco delle categorie del forum che mostra categorie, forum e conteggio dei topics](/.gitbook/assets/forum-category-list.png)
+![Elenco delle categorie del forum che mostra categorie, forum e conteggio dei topics](../../.gitbook/assets/forum-category-list.png)
 
 I forum in Chamilo sono organizzati su tre livelli:
 
@@ -14,7 +14,7 @@ I forum in Chamilo sono organizzati su tre livelli:
 
 ## Creazione di una Categoria di Forum
 
-1. Apri lo strumento **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dalla homepage del tuo corso
+1. Apri lo strumento **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dalla homepage del tuo corso
 2. Fai clic su **Aggiungi una categoria di forum**
 3. Inserisci un **Nome della categoria** e una descrizione opzionale
 4. Salva

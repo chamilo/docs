@@ -6,7 +6,7 @@ Chamilo s’intègre aux plateformes de visioconférence afin de vous permettre 
 
 ## Démarrer une session vidéo
 
-1. Ouvrez l’outil **Visioconférence** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Vidéo" data-size="line"> depuis la page d’accueil du cours (ou depuis la barre latérale)
+1. Ouvrez l’outil **Visioconférence** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Vidéo" data-size="line"> depuis la page d’accueil du cours (ou depuis la barre latérale)
 2. Cliquez sur **Démarrer une réunion** (ou un bouton similaire selon la plateforme configurée)
 3. Une nouvelle salle de visioconférence s’ouvrira dans un nouvel onglet du navigateur
 

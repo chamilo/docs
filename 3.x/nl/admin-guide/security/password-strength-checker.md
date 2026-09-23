@@ -8,7 +8,7 @@ Klik in het beheerpaneel op **Beveiliging > Wachtwoordsterktecontrole**.
 
 ## Een scan uitvoeren
 
-![De pagina Wachtwoordsterktecontrole, met een veld voor te scannen gebruikers-ID's en een knop om de scan uit te voeren](/.gitbook/assets/admin-security-password-strength.png)
+![De pagina Wachtwoordsterktecontrole, met een veld voor te scannen gebruikers-ID's en een knop om de scan uit te voeren](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Laat **Te scannen gebruikers-ID's** leeg om elke actieve gebruiker te scannen, of voer een door komma's gescheiden lijst van gebruikers-ID's in om een subset te controleren
 * Klik op **Wachtwoordsterktescan uitvoeren**
@@ -17,7 +17,7 @@ De scan draait asynchroon op de achtergrond, zodat de pagina niet vastloopt, en 
 
 ## Actie ondernemen op resultaten
 
-![De voltooide scanresultaten, met een gemarkeerde gebruiker met kolommen Naam, Gebruikersnaam en E-mail, en acties per rij om een wachtwoordwijziging aan te vragen of een wachtwoordreset af te dwingen](/.gitbook/assets/admin-security-password-strength-results.png)
+![De voltooide scanresultaten, met een gemarkeerde gebruiker met kolommen Naam, Gebruikersnaam en E-mail, en acties per rij om een wachtwoordwijziging aan te vragen of een wachtwoordreset af te dwingen](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Zodra de scan is voltooid, worden gemarkeerde gebruikers weergegeven met twee beschikbare acties, per gebruiker of als bulkactie voor alle geselecteerde gebruikers:
 

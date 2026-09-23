@@ -4,7 +4,7 @@ Chamilo memungkinkan Anda untuk menentukan bidang profil kustom (bidang tambahan
 
 ## Bidang Profil Tambahan
 
-![Daftar bidang profil tambahan yang menampilkan bidang kustom dengan nama, jenis, dan pengaturan visibilitas](/.gitbook/assets/admin-extra-fields-list.png)
+![Daftar bidang profil tambahan yang menampilkan bidang kustom dengan nama, jenis, dan pengaturan visibilitas](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Bidang tambahan memungkinkan Anda menyimpan metadata khusus untuk organisasi Anda, seperti:
 

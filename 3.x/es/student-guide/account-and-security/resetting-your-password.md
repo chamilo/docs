@@ -6,7 +6,7 @@ Si ha olvidado su contraseña — o simplemente desea cambiarla — aquí se exp
 
 En la página de inicio de sesión, haga clic en **¿Ha olvidado su contraseña?**. Si este enlace no aparece, su administrador ha desactivado esta función; póngase en contacto con él directamente para recuperar el acceso.
 
-![El formulario «He perdido mi contraseña», con un único campo para su nombre de usuario o dirección de correo electrónico](/.gitbook/assets/student-lost-password.png)
+![El formulario «He perdido mi contraseña», con un único campo para su nombre de usuario o dirección de correo electrónico](../../.gitbook/assets/student-lost-password.png)
 
 1. Introduzca su **nombre de usuario o dirección de correo electrónico** en el único campo del formulario.
 2. Si aparece un desafío CAPTCHA, resuélvalo (consulte [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Puede cambiar su contraseña en cualquier momento, sin esperar a olvidarla:
 2. Haga clic en **Cambiar contraseña**.
 3. Introduzca su contraseña actual, luego su contraseña nueva dos veces, y envíe el formulario.
 
-![El formulario Cambiar contraseña, con campos para su contraseña actual y una contraseña nueva](/.gitbook/assets/student-change-password.png)
+![El formulario Cambiar contraseña, con campos para su contraseña actual y una contraseña nueva](../../.gitbook/assets/student-change-password.png)
 
 Esta es la misma página en la que puede activar la [autenticación de dos factores](two-factor-authentication.md), si su plataforma la admite; en ese caso, también verá aquí una casilla «Activar autenticación de dos factores», que no se muestra arriba porque no está activa en todas las plataformas.
 

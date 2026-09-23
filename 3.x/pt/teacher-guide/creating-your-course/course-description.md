@@ -1,12 +1,12 @@
 # Descrição do Curso
 
-A ferramenta **Descrição do Curso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do Curso" data-size="line"> permite redigir uma descrição estruturada, em várias secções, do seu curso — os seus objetivos, metodologia, materiais e muito mais. Ao contrário do banner de texto livre **Introdução ao curso** na [página inicial do curso](README.md#the-course-homepage), visível apenas para os formandos inscritos, a descrição do curso é o que os formandos potenciais veem *antes* de se inscreverem, a partir do catálogo de cursos.
+A ferramenta **Descrição do Curso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do Curso" data-size="line"> permite redigir uma descrição estruturada, em várias secções, do seu curso — os seus objetivos, metodologia, materiais e muito mais. Ao contrário do banner de texto livre **Introdução ao curso** na [página inicial do curso](README.md#the-course-homepage), visível apenas para os formandos inscritos, a descrição do curso é o que os formandos potenciais veem *antes* de se inscreverem, a partir do catálogo de cursos.
 
 Uma vez inscritos, os formandos podem continuar a consultá-la a partir do interior do curso — se deixar a ferramenta visível para eles, é um local conveniente para verificarem informações práticas, como a estrutura geral do curso ou quem são os professores, sem necessitarem de lhe perguntar diretamente. Os formandos inscritos podem visualizar as secções que escreveu, mas não as podem adicionar, editar ou eliminar.
 
 ## Aceder à Ferramenta
 
-Abra a ferramenta **Descrição do Curso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do Curso" data-size="line"> a partir da grelha de ferramentas da página inicial do curso.
+Abra a ferramenta **Descrição do Curso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do Curso" data-size="line"> a partir da grelha de ferramentas da página inicial do curso.
 
 ## As Oito Secções
 
@@ -30,7 +30,7 @@ Uma descrição de curso é composta por até oito secções independentes. Cada
 3. Escreva o conteúdo no editor de texto rico (suporta formatação, imagens, ligações, vídeo incorporado e outro conteúdo rico). Se a sua plataforma o tiver ativado, também pode redigir várias versões linguísticas da mesma secção e fazer com que cada formando veja automaticamente apenas a sua — consulte [Conteúdo Multilíngue](../adding-content/multi-language-content.md).
 4. Guardar
 
-Cada secção que adicionar aparece como o seu próprio cartão na ferramenta. Utilize os ícones **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> e **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> num cartão para a atualizar ou remover mais tarde.
+Cada secção que adicionar aparece como o seu próprio cartão na ferramenta. Utilize os ícones **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> e **Eliminar** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> num cartão para a atualizar ou remover mais tarde.
 
 ## Ligação ao Catálogo de Cursos
 

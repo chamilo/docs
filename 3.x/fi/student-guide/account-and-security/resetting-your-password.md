@@ -6,7 +6,7 @@ Jos olet unohtanut salasanasi — tai haluat vain vaihtaa sen — näin toimitaa
 
 Kirjautumissivulla napsauta **Unohditko salasanasi?**. Jos tätä linkkiä ei ole, ylläpitäjä on poistanut ominaisuuden käytöstä — ota suoraan yhteyttä häneen päästäksesi takaisin.
 
-![Lomake "Unohdin salasanani", jossa on yksi kenttä käyttäjänimelle tai sähköpostiosoitteelle](/.gitbook/assets/student-lost-password.png)
+![Lomake "Unohdin salasanani", jossa on yksi kenttä käyttäjänimelle tai sähköpostiosoitteelle](../../.gitbook/assets/student-lost-password.png)
 
 1. Syötä **käyttäjänimesi tai sähköpostiosoitteesi** lomakkeen ainoaan kenttään.
 2. Jos CAPTCHA-haaste ilmestyy, ratkaise se (ks. [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Voit vaihtaa salasanasi milloin tahansa, ilman että sitä tarvitsee ensin unoht
 2. Napsauta **Vaihda salasana**.
 3. Syötä nykyinen salasanasi, sitten uusi salasanasi kahdesti, ja lähetä.
 
-![Vaihda salasana -lomake, jossa on kentät nykyiselle salasanalle ja uudelle salasanalle](/.gitbook/assets/student-change-password.png)
+![Vaihda salasana -lomake, jossa on kentät nykyiselle salasanalle ja uudelle salasanalle](../../.gitbook/assets/student-change-password.png)
 
 Tämä on sama sivu, jolla voit ottaa käyttöön [kaksivaiheisen tunnistautumisen](two-factor-authentication.md), jos alustasi tukee sitä — siinä tapauksessa näet täällä myös valintaruudun "Ota kaksivaiheinen tunnistautuminen käyttöön", jota ei näy yllä, koska se ei ole aktiivinen kaikilla alustoilla.
 

@@ -1,6 +1,6 @@
 # C-Studio-Inhaltseditor
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> ist ein visueller Drag-and-Drop-Inhaltseditor für Lernpfade. Damit können Sie interaktive Seiten erstellen — Textblöcke, Quizze, Drag-and-Drop-Aktivitäten, Lückentexte, Hotspot-Bilder, Tabellen, Audio und Video — ohne HTML zu schreiben, und das Ergebnis als SCORM-Paket exportieren.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> ist ein visueller Drag-and-Drop-Inhaltseditor für Lernpfade. Damit können Sie interaktive Seiten erstellen — Textblöcke, Quizze, Drag-and-Drop-Aktivitäten, Lückentexte, Hotspot-Bilder, Tabellen, Audio und Video — ohne HTML zu schreiben, und das Ergebnis als SCORM-Paket exportieren.
 
 ## Zugriff auf den Editor
 

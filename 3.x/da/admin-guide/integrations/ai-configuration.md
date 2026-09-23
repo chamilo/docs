@@ -35,7 +35,7 @@ Opret en konto hos den valgte AI-udbyder, og indhent en API-nøgle:
 
 ### 2. Konfigurer udbydere i Chamilo
 
-![Konfigurationssiden for AI-hjælpere, der viser udbyderindstillinger med felter til API-nøgle, model og endepunkt](/.gitbook/assets/admin-ai-helpers-config.png)
+![Konfigurationssiden for AI-hjælpere, der viser udbyderindstillinger med felter til API-nøgle, model og endepunkt](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 I platformindstillingerne skal du gå til sektionen **AI Helpers**:
 

@@ -8,7 +8,7 @@ No painel de administração, clique em **Segurança > Verificador de força de 
 
 ## Executar uma análise
 
-![A página do verificador de força de palavras-passe, com um campo para IDs de utilizador a analisar e um botão para executar a análise](/.gitbook/assets/admin-security-password-strength.png)
+![A página do verificador de força de palavras-passe, com um campo para IDs de utilizador a analisar e um botão para executar a análise](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Deixe **IDs de utilizador a analisar** vazio para analisar todos os utilizadores ativos, ou introduza uma lista de IDs de utilizador separados por vírgulas para verificar um subconjunto
 * Clique em **Executar análise de força de palavras-passe**
@@ -17,7 +17,7 @@ A análise é executada de forma assíncrona em segundo plano para não congelar
 
 ## Agir sobre os resultados
 
-![Os resultados da análise concluída, listando um utilizador sinalizado com as colunas Nome, Nome de utilizador e E-mail, e ações por linha para solicitar uma alteração de palavra-passe ou forçar uma redefinição de palavra-passe](/.gitbook/assets/admin-security-password-strength-results.png)
+![Os resultados da análise concluída, listando um utilizador sinalizado com as colunas Nome, Nome de utilizador e E-mail, e ações por linha para solicitar uma alteração de palavra-passe ou forçar uma redefinição de palavra-passe](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Quando a análise termina, os utilizadores sinalizados são listados com duas ações disponíveis, por utilizador ou como ação em massa para todos os utilizadores selecionados:
 

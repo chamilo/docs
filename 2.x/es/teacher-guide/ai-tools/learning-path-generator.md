@@ -14,7 +14,7 @@ Busca la sección **Generador de IA** dentro de la interfaz de creación de ruta
 
 ## Cómo Generar una Ruta de Aprendizaje
 
-![Formulario del generador de rutas de aprendizaje con IA con campos para tema, objetivos y cantidad de secciones](/.gitbook/assets/ai-learning-path-generator.png)
+![Formulario del generador de rutas de aprendizaje con IA con campos para tema, objetivos y cantidad de secciones](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Abre el formulario del Generador de IA
 2. Configura los parámetros:

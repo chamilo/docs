@@ -1,6 +1,6 @@
 # C-Studio 內容編輯器
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> 是學習路徑專用的視覺化拖放式內容編輯器。您可用它建立互動頁面——文字區塊、測驗、拖放活動、填空、熱點圖片、表格、音訊與影片——無需撰寫任何 HTML，並可將成果匯出為 SCORM 套件。
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> 是學習路徑專用的視覺化拖放式內容編輯器。您可用它建立互動頁面——文字區塊、測驗、拖放活動、填空、熱點圖片、表格、音訊與影片——無需撰寫任何 HTML，並可將成果匯出為 SCORM 套件。
 
 ## 存取編輯器
 

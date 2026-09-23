@@ -4,7 +4,7 @@ Chamilo sisältää uranhallintajärjestelmän, jonka avulla voit määritellä 
 
 ## Urat
 
-![Uraluettelo, jossa näkyvät määritellyt urapolut nimen ja kuvauksen kera](/.gitbook/assets/admin-careers-list.png)
+![Uraluettelo, jossa näkyvät määritellyt urapolut nimen ja kuvauksen kera](../../.gitbook/assets/admin-careers-list.png)
 
 **Ura** edustaa jäsenneltyä koulutuspolkua — koulutuksen vaiheiden sarjaa, jota oppija noudattaa saavuttaakseen ammatillisen tavoitteen.
 

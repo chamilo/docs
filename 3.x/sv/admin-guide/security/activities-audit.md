@@ -8,7 +8,7 @@ Från administrationspanelen klickar du på **Säkerhet > Aktivitetsgranskning**
 
 ## Vad den visar
 
-![Sidan Aktivitetsgranskning som listar kategorier för händelsetyper såsom Kurs, Session, Användare, Socialt, Meddelande, Resurs, Wiki och Övrigt, var och en expanderbar till enskilda händelsetyper](/.gitbook/assets/admin-security-activities-audit.png)
+![Sidan Aktivitetsgranskning som listar kategorier för händelsetyper såsom Kurs, Session, Användare, Socialt, Meddelande, Resurs, Wiki och Övrigt, var och en expanderbar till enskilda händelsetyper](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Händelser grupperas i kategorier:
 

@@ -6,8 +6,8 @@
 
 ## お知らせの作成
 
-1. コースホームページから **お知らせ** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> ツールを開く
-2. **お知らせを追加** アイコン <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> を再度クリックする
+1. コースホームページから **お知らせ** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> ツールを開く
+2. **お知らせを追加** アイコン <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> を再度クリックする
 3. 次の項目を入力する:
    * **受信者** — お知らせの受信者を選択します:
      * 登録されているすべての学習者
@@ -25,9 +25,9 @@
 
 ## お知らせの管理
 
-* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 既存のお知らせを変更する
-* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — お知らせを削除する
-* **表示** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — お知らせを非表示または表示にする
+* **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 既存のお知らせを変更する
+* **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — お知らせを削除する
+* **表示** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — お知らせを非表示または表示にする
 
 お知らせは逆時系列（新しいものが先頭）で表示されます。
 

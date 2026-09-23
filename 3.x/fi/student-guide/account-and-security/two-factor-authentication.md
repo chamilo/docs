@@ -11,7 +11,7 @@ Tämä ominaisuus näkyy vain, jos ylläpitäjä on ottanut sen käyttöön koko
 3. Anna **nykyinen salasanasi**, merkitse ruutu **Ota kaksivaiheinen tunnistautuminen (2FA) käyttöön** ja valitse **Päivitä asetukset**.
 4. Sivu latautuu uudelleen QR-koodin ja viestin "Scan the QR code to enable 2FA." kera. Skannaa se puhelimessasi olevalla tunnistautumissovelluksella (mikä tahansa TOTP-yhteensopiva sovellus toimii, esimerkiksi Google Authenticator, Microsoft Authenticator tai Authy).
 
-![Salasanan vaihtolomake lähetyksen jälkeen, jossa näkyvät skannattava QR-koodi ja 2FA-koodikenttä](/.gitbook/assets/student-2fa-qr-code.png)
+![Salasanan vaihtolomake lähetyksen jälkeen, jossa näkyvät skannattava QR-koodi ja 2FA-koodikenttä](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. Anna nykyinen salasanasi uudelleen sekä 6-numeroinen koodi, jonka sovellus nyt näyttää, kenttään **2FA-koodi**, ja valitse **Päivitä asetukset** vielä kerran. Näet vahvistuksen, että 2FA on aktivoitu.
 

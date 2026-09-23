@@ -16,14 +16,14 @@ I percorsi formativi sono utili quando si desidera:
 
 ## Creare un percorso formativo
 
-1. Aprire lo strumento **Percorsi formativi** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi formativi" data-size="line"> dalla homepage del corso
+1. Aprire lo strumento **Percorsi formativi** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percorsi formativi" data-size="line"> dalla homepage del corso
 2. Fare clic su **Crea un percorso formativo**
 3. Inserire un **titolo** e una descrizione opzionale
 4. Salvare — si verrà reindirizzati all’editor del percorso formativo
 
 ## L’editor del percorso formativo
 
-![L’editor del percorso formativo con l’albero degli elementi a sinistra e l’anteprima del contenuto a destra](/.gitbook/assets/learning-path-editor.png)
+![L’editor del percorso formativo con l’albero degli elementi a sinistra e l’anteprima del contenuto a destra](../../.gitbook/assets/learning-path-editor.png)
 
 L’editor ha due aree principali:
 
@@ -94,17 +94,17 @@ C-Studio aggiunge un editor visivo integrato, drag-and-drop, per creare contenut
 
 Quando il plugin è attivo, l'elenco dei Percorsi formativi mostra un pulsante extra accanto al menu delle azioni usuali, contrassegnato da un "+" e da un tooltip "Studio Tools":
 
-![L'elenco dei Percorsi formativi che mostra il pulsante C-Studio "Studio Tools" accanto al menu delle azioni standard](/.gitbook/assets/cstudio-lp-button.png)
+![L'elenco dei Percorsi formativi che mostra il pulsante C-Studio "Studio Tools" accanto al menu delle azioni standard](../../.gitbook/assets/cstudio-lp-button.png)
 
 Fare clic per iniziare. Verrà chiesto di creare un nuovo progetto da zero o di importarne uno esistente:
 
-![La schermata iniziale di C-Studio che offre di creare un nuovo progetto o importarne uno esistente](/.gitbook/assets/cstudio-start-screen.png)
+![La schermata iniziale di C-Studio che offre di creare un nuovo progetto o importarne uno esistente](../../.gitbook/assets/cstudio-start-screen.png)
 
 Questa schermata particolare è al momento disponibile solo in francese, indipendentemente dalla lingua della piattaforma o del corso — una limitazione nota della versione del plugin in uso. Assegnare un titolo al progetto e si apre direttamente nell'editor.
 
 ### L'editor
 
-![L'editor visivo di C-Studio, che mostra il canvas della pagina, la palette degli strumenti a destra e il pannello del progetto a sinistra](/.gitbook/assets/cstudio-editor.png)
+![L'editor visivo di C-Studio, che mostra il canvas della pagina, la palette degli strumenti a destra e il pannello del progetto a sinistra](../../.gitbook/assets/cstudio-editor.png)
 
 L'editor è un costruttore visivo pagina per pagina:
 
@@ -118,7 +118,7 @@ La palette copre i blocchi di costruzione di base (colonne, immagini, audio, tit
 
 L'interfaccia di C-Studio può impostarsi di default sul francese la prima volta che la si apre, indipendentemente dalla lingua dell'interfaccia di Chamilo o dalla lingua del corso. In tal caso, andare su **File > UI language** e scegliere la propria lingua — l'editor si ricarica immediatamente e ricorda la scelta in seguito.
 
-![Il menu File aperto, che mostra l'opzione "UI language"](/.gitbook/assets/cstudio-file-menu.png)
+![Il menu File aperto, che mostra l'opzione "UI language"](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Salvataggio ed esportazione
 

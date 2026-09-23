@@ -14,7 +14,7 @@ Groepen stellen u in staat om uw leerlingen in kleinere teams op te delen voor s
 
 ## Groepshulpmiddelen
 
-![Het groepenoverzicht met beschikbare groepshulpmiddelen en aantallen leden](/.gitbook/assets/groups-overview.png)
+![Het groepenoverzicht met beschikbare groepshulpmiddelen en aantallen leden](../../.gitbook/assets/groups-overview.png)
 
 Elke groep kan toegang hebben tot een subset van cursus hulpmiddelen die alleen onder groepsleden worden gedeeld:
 

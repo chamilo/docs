@@ -1,6 +1,6 @@
 # H5P Import
 
-H5P Import <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P Import" data-size="line"> を使うと、標準の `.h5p` インタラクティブコンテンツパッケージ（インタラクティブ動画、クイズ、プレゼンテーション、その他の H5P コンテンツタイプ）をコースに取り込み、学習者の試行と進捗を Chamilo のテストと同様に追跡できます。
+H5P Import <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P Import" data-size="line"> を使うと、標準の `.h5p` インタラクティブコンテンツパッケージ（インタラクティブ動画、クイズ、プレゼンテーション、その他の H5P コンテンツタイプ）をコースに取り込み、学習者の試行と進捗を Chamilo のテストと同様に追跡できます。
 
 ## Accessing the Tool
 

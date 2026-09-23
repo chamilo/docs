@@ -16,14 +16,14 @@ Learning path berguna ketika Anda ingin:
 
 ## Membuat Learning Path
 
-1. Buka alat **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> dari beranda kursus
+1. Buka alat **Learning paths** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> dari beranda kursus
 2. Klik **Create a learning path**
 3. Masukkan **title** dan deskripsi opsional
 4. Simpan — Anda akan diarahkan ke editor learning path
 
 ## Editor Learning Path
 
-![Editor learning path dengan pohon item di kiri dan pratinjau konten di kanan](/.gitbook/assets/learning-path-editor.png)
+![Editor learning path dengan pohon item di kiri dan pratinjau konten di kanan](../../.gitbook/assets/learning-path-editor.png)
 
 Editor memiliki dua area utama:
 
@@ -94,17 +94,17 @@ C-Studio menambahkan editor visual seret-dan-lepas bawaan untuk membuat konten i
 
 Ketika plugin aktif, daftar Learning Path menampilkan tombol tambahan di samping menu tindakan biasa, ditandai dengan "+" dan tooltip "Studio Tools":
 
-![Daftar Learning Path yang menampilkan tombol C-Studio "Studio Tools" di samping menu tindakan standar](/.gitbook/assets/cstudio-lp-button.png)
+![Daftar Learning Path yang menampilkan tombol C-Studio "Studio Tools" di samping menu tindakan standar](../../.gitbook/assets/cstudio-lp-button.png)
 
 Klik tombol tersebut untuk memulai. Anda akan diminta membuat proyek baru dari awal atau mengimpor proyek yang sudah ada:
 
-![Layar awal C-Studio yang menawarkan opsi membuat proyek baru atau mengimpor proyek yang sudah ada](/.gitbook/assets/cstudio-start-screen.png)
+![Layar awal C-Studio yang menawarkan opsi membuat proyek baru atau mengimpor proyek yang sudah ada](../../.gitbook/assets/cstudio-start-screen.png)
 
 Layar khusus ini saat ini hanya tersedia dalam bahasa Prancis, terlepas dari bahasa platform atau kursus Anda — keterbatasan yang diketahui pada versi plugin yang digunakan. Beri judul pada proyek Anda dan editor akan langsung terbuka.
 
 ### Editor
 
-![Editor visual C-Studio, menampilkan kanvas halaman, palet alat di kanan, dan panel proyek di kiri](/.gitbook/assets/cstudio-editor.png)
+![Editor visual C-Studio, menampilkan kanvas halaman, palet alat di kanan, dan panel proyek di kiri](../../.gitbook/assets/cstudio-editor.png)
 
 Editor adalah pembangun visual halaman demi halaman:
 
@@ -118,7 +118,7 @@ Palet mencakup blok penyusun dasar (kolom, gambar, audio, judul, teks, tombol, k
 
 Antarmuka C-Studio sendiri mungkin secara default menggunakan bahasa Prancis saat pertama kali dibuka, terlepas dari bahasa antarmuka Chamilo atau bahasa kursus. Jika demikian, buka **File > UI language** dan pilih bahasa Anda — editor akan dimuat ulang segera dan mengingat pilihan Anda setelahnya.
 
-![Menu File terbuka, menampilkan opsi "UI language"](/.gitbook/assets/cstudio-file-menu.png)
+![Menu File terbuka, menampilkan opsi "UI language"](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Menyimpan dan Mengekspor
 

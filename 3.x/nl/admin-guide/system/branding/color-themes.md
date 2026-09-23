@@ -8,7 +8,7 @@ Kleurthema's bepalen het palet dat in de hele Chamilo-interface wordt gebruikt â
 
 ## Een thema toepassen
 
-![De pagina Kleurthema's met beschikbare thema's, voorbeeldkleurstalen en een knop Toepassen](/.gitbook/assets/admin-color-themes.png)
+![De pagina Kleurthema's met beschikbare thema's, voorbeeldkleurstalen en een knop Toepassen](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Ga vanuit het beheerpaneel naar **Kleurthema's**
 2. Blader door de beschikbare thema's

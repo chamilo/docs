@@ -26,7 +26,7 @@ Pour créer un lien vers une autre page wiki depuis l'éditeur, insérez un lien
 Toute personne disposant des autorisations de modification peut éditer une page wiki :
 
 1. Ouvrez la page que vous souhaitez modifier
-2. Cliquez sur le bouton **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line">
+2. Cliquez sur le bouton **Modifier** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line">
 3. Apportez vos modifications dans l'éditeur
 4. Ajoutez une entrée optionnelle dans **Commentaires** pour décrire ce que vous avez modifié
 5. Enregistrez

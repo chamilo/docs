@@ -4,7 +4,7 @@ O Chamilo acompanha a atividade dos formandos em toda a plataforma, oferecendo-l
 
 ## Aceder ao Acompanhamento dos Formandos
 
-Abra a ferramenta **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> a partir da página inicial do curso, ou clique em **Reporting** na barra lateral.
+Abra a ferramenta **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Acompanhamento" data-size="line"> a partir da página inicial do curso, ou clique em **Reporting** na barra lateral.
 
 ## O Que É Acompanhado
 
@@ -22,7 +22,7 @@ Os detalhes de acesso por recurso (quais documentos ou páginas específicas um 
 
 ## Visualizar os Dados Individuais do Formando
 
-![Vista detalhada de acompanhamento do formando, mostrando progresso, pontuações e cronologia de atividade](/.gitbook/assets/tracking-learner-detail.png)
+![Vista detalhada de acompanhamento do formando, mostrando progresso, pontuações e cronologia de atividade](../../.gitbook/assets/tracking-learner-detail.png)
 
 Clique no nome de um formando para ver o respetivo relatório detalhado de atividade. Este mostra:
 

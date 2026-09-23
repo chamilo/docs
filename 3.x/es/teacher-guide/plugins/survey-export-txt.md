@@ -1,6 +1,6 @@
 # Exportación de encuestas a TXT
 
-Survey Export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Exportación de encuestas a TXT" data-size="line"> exporta los resultados de una encuesta a un archivo de texto plano legible — un bloque por encuestado, con cada pregunta, la(s) respuesta(s) elegida(s) y cualquier respuesta de texto libre, en lugar de las filas y columnas de un CSV.
+Survey Export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Exportación de encuestas a TXT" data-size="line"> exporta los resultados de una encuesta a un archivo de texto plano legible — un bloque por encuestado, con cada pregunta, la(s) respuesta(s) elegida(s) y cualquier respuesta de texto libre, en lugar de las filas y columnas de un CSV.
 
 ## Exportar una encuesta
 

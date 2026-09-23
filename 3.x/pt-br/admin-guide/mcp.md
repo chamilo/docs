@@ -39,7 +39,7 @@ Esta lista é curada pela equipe principal do Chamilo e não é extensível pelo
 
 Cada usuário gera a própria chave em **Rede social** > **Chave de API MCP**:
 
-![A página da chave de API MCP, mostrando uma chave inativa, o botão Gerar chave de API e o bloco Conexão MCP remota com a URL do endpoint e o formato do cabeçalho Authorization](/.gitbook/assets/admin-mcp-api-key.png)
+![A página da chave de API MCP, mostrando uma chave inativa, o botão Gerar chave de API e o bloco Conexão MCP remota com a URL do endpoint e o formato do cabeçalho Authorization](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Clicar em **Gerar chave de API** cria uma chave e a exibe uma única vez — o Chamilo armazena depois apenas uma versão mascarada, portanto a chave completa deve ser copiada e guardada com segurança imediatamente.
 * Gerar uma nova chave revoga imediatamente a anterior.

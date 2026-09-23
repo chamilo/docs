@@ -2,7 +2,7 @@
 
 Blok **Keamanan** pada dasbor administrasi mengelompokkan alat pemantauan keamanan dan audit bawaan platform. Blok ini terpisah dari [Pengaturan Keamanan](../platform-settings/security-settings.md), yang mengonfigurasi *kebijakan* keamanan (aturan kata sandi, CAPTCHA, header keamanan HTTP, dan sebagainya) — blok ini menyediakan *laporan dan alat* yang mengawasi platform terhadap aktivitas mencurigakan dan perubahan yang tidak diinginkan.
 
-![Blok Keamanan pada dasbor administrasi, yang mencantumkan Audit aktivitas, Percobaan masuk, Simple IDS, Pemeriksa kekuatan kata sandi, dan Integritas berkas](/.gitbook/assets/admin-security-block.png)
+![Blok Keamanan pada dasbor administrasi, yang mencantumkan Audit aktivitas, Percobaan masuk, Simple IDS, Pemeriksa kekuatan kata sandi, dan Integritas berkas](../../.gitbook/assets/admin-security-block.png)
 
 Blok ini diperkenalkan di Chamilo 2.0 dengan empat alat dan diperluas di Chamilo 3.0 dengan alat kelima, **Integritas berkas**.
 

@@ -2,7 +2,7 @@
 
 El bloque **Salas** del panel de administración gestiona las ubicaciones físicas que Chamilo puede registrar para la formación presencial o semipresencial: sucursales (sedes), las salas que contienen y una herramienta para encontrar qué salas están libres en un momento determinado.
 
-![El bloque Salas del panel de administración, que enumera Sucursales, Salas y el buscador de disponibilidad de salas](/.gitbook/assets/admin-rooms-block.png)
+![El bloque Salas del panel de administración, que enumera Sucursales, Salas y el buscador de disponibilidad de salas](../../.gitbook/assets/admin-rooms-block.png)
 
 Este capítulo cubre la gestión de sucursales y salas desde el lado de administración. Para el lado orientado al docente —asignar una sala a una sesión de curso— consulte [Sucursales y salas](../../teacher-guide/branches-and-rooms.md) en la Guía del docente.
 

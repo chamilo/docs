@@ -4,7 +4,7 @@ This page covers the day-to-day tasks of creating, editing, and managing user ac
 
 ## User List
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![The user list showing accounts with name, email, role, and status columns](../../.gitbook/assets/admin-user-list.png)
 
 From the administration panel, click **User list** to see all users on the platform. The list shows:
 
@@ -21,7 +21,7 @@ Use the **Advanced search** tool to find specific users by name, email, role, or
 
 ## Creating a User
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![The user creation form with fields for name, email, username, password, role, and language](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Click **Add a user** from the administration panel
 2. Fill in the required fields:
@@ -41,7 +41,7 @@ Use the **Advanced search** tool to find specific users by name, email, role, or
 
 ## Importing Users
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![The user import interface for uploading CSV or XML files with user data](../../.gitbook/assets/admin-user-import.png)
 
 For bulk user creation, you can import users from a file:
 

@@ -8,7 +8,7 @@ Chamiloには、プラットフォーム上の他のユーザーとつながる�
 
 ## あなたのソーシャルウォール
 
-![つながりのあるユーザーからの投稿、いいね、コメントのフィードを表示するソーシャルウォール](/.gitbook/assets/social-wall.png)
+![つながりのあるユーザーからの投稿、いいね、コメントのフィードを表示するソーシャルウォール](../.gitbook/assets/social-wall.png)
 
 ソーシャルウォールには、あなたとあなたのつながりからの活動のフィードが表示されます。以下のことができます：
 
@@ -30,9 +30,9 @@ Chamiloには、プラットフォーム上の他のユーザーとつながる�
 
 ソーシャルネットワークは、プラットフォームのメッセージングシステムと統合されています：
 
-* **メッセージを送信する** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新しいメッセージ" data-size="line"> — 他のユーザーに直接メッセージを書く
-* **受信トレイ** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — 受信したメッセージを読み、返信する
-* **送信済みメッセージ** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="送信済み" data-size="line"> — 送信したメッセージを確認する
+* **メッセージを送信する** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新しいメッセージ" data-size="line"> — 他のユーザーに直接メッセージを書く
+* **受信トレイ** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — 受信したメッセージを読み、返信する
+* **送信済みメッセージ** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="送信済み" data-size="line"> — 送信したメッセージを確認する
 
 ### 作成と返信
 

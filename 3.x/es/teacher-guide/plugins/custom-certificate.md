@@ -1,6 +1,6 @@
 # Certificado personalizado
 
-El complemento Certificado personalizado <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Certificado personalizado" data-size="line"> le permite sustituir el [certificado del cuaderno de calificaciones](../assessing-learners/gradebook.md) estándar por su propio diseño: logotipos, un sello, hasta cuatro imágenes de firma con leyendas, una imagen de fondo, márgenes y contenido construido a partir de etiquetas de marcador de posición.
+El complemento Certificado personalizado <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Certificado personalizado" data-size="line"> le permite sustituir el [certificado del cuaderno de calificaciones](../assessing-learners/gradebook.md) estándar por su propio diseño: logotipos, un sello, hasta cuatro imágenes de firma con leyendas, una imagen de fondo, márgenes y contenido construido a partir de etiquetas de marcador de posición.
 
 ## Activarlo en su curso
 

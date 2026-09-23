@@ -6,8 +6,8 @@ Beskeder sendt via meddelelser sendes til kursisterne både via e-mail *og* til 
 
 ## Oprette en meddelelse
 
-1. Åbn værktøjet **Meddelelser** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelelser" data-size="line"> fra kursets startside
-2. Klik igen på ikonet **Tilføj en meddelelse** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelelser" data-size="line">
+1. Åbn værktøjet **Meddelelser** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelelser" data-size="line"> fra kursets startside
+2. Klik igen på ikonet **Tilføj en meddelelse** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Meddelelser" data-size="line">
 3. Udfyld:
    * **Modtagere** — Vælg, hvem der skal modtage meddelelsen:
      * Alle tilmeldte kursister
@@ -25,9 +25,9 @@ Knappen **Forhåndsvisning** er ikke særlig intuitiv: den lader dig se, hvem de
 
 ## Administrere meddelelser
 
-* **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Ændr en eksisterende meddelelse
-* **Slet** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern en meddelelse
-* **Synlighed** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> — Skjul eller vis meddelelser
+* **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Ændr en eksisterende meddelelse
+* **Slet** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> — Fjern en meddelelse
+* **Synlighed** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> — Skjul eller vis meddelelser
 
 Meddelelser vises i omvendt kronologisk rækkefølge (nyeste først).
 

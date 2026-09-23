@@ -13,7 +13,7 @@ Zorg dat aan de volgende vereisten is voldaan:
 
 ## Stap 1: Installatietaal
 
-![Installatiewizard stap 1 — taalselectie](/.gitbook/assets/install-step1-language.png)
+![Installatiewizard stap 1 — taalselectie](../../.gitbook/assets/install-step1-language.png)
 
 In de eerste stap kiest u de taal voor het installatieproces. Selecteer uw voorkeurstaal in de keuzelijst.
 
@@ -21,7 +21,7 @@ Als Chamilo een bestaande installatie detecteert (voor een upgrade), toont het d
 
 ## Stap 2: Controle van de vereisten
 
-![Installatiewizard stap 2 — controle van vereisten met PHP-versie, extensies en maprechten](/.gitbook/assets/install-step2-requirements.png)
+![Installatiewizard stap 2 — controle van vereisten met PHP-versie, extensies en maprechten](../../.gitbook/assets/install-step2-requirements.png)
 
 De wizard controleert uw serveromgeving:
 
@@ -34,7 +34,7 @@ Als niet aan alle vereisten is voldaan, toont de wizard waarschuwingen of fouten
 
 ## Stap 3: Licentie
 
-![Installatiewizard stap 3 — licentieaanvaarding](/.gitbook/assets/install-step3-license.png)
+![Installatiewizard stap 3 — licentieaanvaarding](../../.gitbook/assets/install-step3-license.png)
 
 Deze stap toont de GNU/GPLv3-licentie. U moet het selectievakje **"I accept"** aanvinken om verder te gaan.
 
@@ -42,7 +42,7 @@ Optioneel kunt u de sectie **Contact information** uitvouwen om gegevens over uw
 
 ## Stap 4: Database-instellingen
 
-![Installatiewizard stap 4 — configuratie van de databaseverbinding](/.gitbook/assets/install-step4-database.png)
+![Installatiewizard stap 4 — configuratie van de databaseverbinding](../../.gitbook/assets/install-step4-database.png)
 
 Voer de gegevens van uw databaseverbinding in:
 
@@ -58,7 +58,7 @@ Klik op **Check database connection** om te testen. De wizard laat u niet verder
 
 ## Stap 5: Configuratie-instellingen
 
-![Installatiewizard stap 5 — beheerdersaccount, portaalinstellingen en e-mailconfiguratie](/.gitbook/assets/install-step5-config.png)
+![Installatiewizard stap 5 — beheerdersaccount, portaalinstellingen en e-mailconfiguratie](../../.gitbook/assets/install-step5-config.png)
 
 Deze stap combineert het aanmaken van het beheerdersaccount, de portaalinstellingen en de e-mailconfiguratie.
 
@@ -95,7 +95,7 @@ Al deze instellingen kunnen later vanuit het beheerpaneel worden gewijzigd.
 
 ## Stap 6: Laatste controle vóór installatie
 
-![Installatiewizard stap 6 — overzicht van alle instellingen vóór de installatie](/.gitbook/assets/install-step6-review.png)
+![Installatiewizard stap 6 — overzicht van alle instellingen vóór de installatie](../../.gitbook/assets/install-step6-review.png)
 
 Deze stap toont een samenvatting van alles wat u hebt ingevoerd ter controle:
 
@@ -107,7 +107,7 @@ Controleer zorgvuldig en klik vervolgens op **Chamilo installeren** om de instal
 
 ## Stap 7: Installatie voltooid
 
-![Installatiewizard stap 7 — voltooiing met beveiligingsadvies en portaallink](/.gitbook/assets/install-step7-complete.png)
+![Installatiewizard stap 7 — voltooiing met beveiligingsadvies en portaallink](../../.gitbook/assets/install-step7-complete.png)
 
 Nadat de installatie succesvol is voltooid, toont de wizard:
 

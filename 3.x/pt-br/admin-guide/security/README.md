@@ -2,7 +2,7 @@
 
 O bloco **Segurança** no painel de administração agrupa as ferramentas internas de monitoramento de segurança e auditoria da plataforma. Ele é distinto das [Configurações de Segurança](../platform-settings/security-settings.md), que configuram a *política* de segurança (regras de senha, CAPTCHA, cabeçalhos de segurança HTTP e assim por diante) — este bloco oferece os *relatórios e ferramentas* que observam a plataforma em busca de atividade suspeita e alterações indesejadas.
 
-![O bloco Segurança no painel de administração, listando Auditoria de atividades, Tentativas de login, Simple IDS, Verificador de força de senha e Integridade de arquivos](/.gitbook/assets/admin-security-block.png)
+![O bloco Segurança no painel de administração, listando Auditoria de atividades, Tentativas de login, Simple IDS, Verificador de força de senha e Integridade de arquivos](../../.gitbook/assets/admin-security-block.png)
 
 O bloco foi introduzido no Chamilo 2.0 com quatro ferramentas e ampliado no Chamilo 3.0 com uma quinta, **Integridade de arquivos**.
 

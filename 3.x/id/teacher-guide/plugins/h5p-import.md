@@ -1,6 +1,6 @@
 # Impor H5P
 
-Impor H5P <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="Impor H5P" data-size="line"> memungkinkan Anda memasukkan paket konten interaktif `.h5p` standar (video interaktif, kuis, presentasi, dan jenis konten H5P lainnya) ke dalam kursus, dengan percobaan dan kemajuan peserta didik dilacak serupa dengan tes Chamilo.
+Impor H5P <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="Impor H5P" data-size="line"> memungkinkan Anda memasukkan paket konten interaktif `.h5p` standar (video interaktif, kuis, presentasi, dan jenis konten H5P lainnya) ke dalam kursus, dengan percobaan dan kemajuan peserta didik dilacak serupa dengan tes Chamilo.
 
 ## Mengakses Alat
 

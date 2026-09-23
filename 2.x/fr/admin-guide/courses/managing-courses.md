@@ -4,7 +4,7 @@ En tant qu'administrateur, vous pouvez gérer tous les cours sur la plateforme, 
 
 ## Liste des cours
 
-![La liste des cours affichant tous les cours avec le titre, le code, la catégorie, les utilisateurs inscrits et l'état de visibilité](/.gitbook/assets/admin-course-list.png)
+![La liste des cours affichant tous les cours avec le titre, le code, la catégorie, les utilisateurs inscrits et l'état de visibilité](../../.gitbook/assets/admin-course-list.png)
 
 Depuis le panneau d'administration, cliquez sur **Liste des cours** pour voir tous les cours. La liste affiche :
 

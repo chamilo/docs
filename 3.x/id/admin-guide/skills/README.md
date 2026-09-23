@@ -2,7 +2,7 @@
 
 Blok **Keterampilan** pada dasbor administrasi mengelompokkan alat untuk mendefinisikan, mengorganisasi, dan menelusuri lencana kompetensi ("keterampilan") di seluruh platform. Sebuah keterampilan dapat diberikan secara otomatis ketika peserta didik mencapai ambang buku nilai, menyelesaikan kursus tertentu, atau secara manual oleh pengajar, dan dapat disertai ikon bergaya lencana serta suatu tingkat (misalnya Perunggu/Perak/Emas).
 
-![Blok Keterampilan pada dasbor administrasi, yang mencantumkan Roda keterampilan, Impor keterampilan, Kelola keterampilan, Kelola tingkat keterampilan, Peringkat keterampilan, serta Keterampilan dan penilaian](/.gitbook/assets/admin-skills-block.png)
+![Blok Keterampilan pada dasbor administrasi, yang mencantumkan Roda keterampilan, Impor keterampilan, Kelola keterampilan, Kelola tingkat keterampilan, Peringkat keterampilan, serta Keterampilan dan penilaian](../../.gitbook/assets/admin-skills-block.png)
 
 Seluruh blok hanya muncul jika pengaturan **Enable skills tool** (`skill.allow_skills_tool`, di bawah Configuration Settings > Skills) diaktifkan — pengaturan ini aktif secara default.
 

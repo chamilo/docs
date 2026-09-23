@@ -1,6 +1,6 @@
 # Kyselyn CSV-vienti
 
-Kyselyn CSV-vienti <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Kyselyn CSV-vienti" data-size="line"> lisää yhdellä napsautuksella tapahtuvan viennin kyselyn tuloksista tiiviiseen CSV-tiedostoon, jossa on yksi rivi vastaajaa kohden ja yksi sarake kysymystä kohden.
+Kyselyn CSV-vienti <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Kyselyn CSV-vienti" data-size="line"> lisää yhdellä napsautuksella tapahtuvan viennin kyselyn tuloksista tiiviiseen CSV-tiedostoon, jossa on yksi rivi vastaajaa kohden ja yksi sarake kysymystä kohden.
 
 ## Kyselyn vieminen
 

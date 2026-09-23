@@ -1,6 +1,6 @@
 # Sertifikat Kustom
 
-Plugin Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Sertifikat Kustom" data-size="line"> memungkinkan Anda mengganti [sertifikat buku nilai](../assessing-learners/gradebook.md) standar dengan desain Anda sendiri — logo, stempel, hingga empat gambar tanda tangan beserta keterangannya, gambar latar, margin, dan konten yang disusun dari tag placeholder.
+Plugin Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Sertifikat Kustom" data-size="line"> memungkinkan Anda mengganti [sertifikat buku nilai](../assessing-learners/gradebook.md) standar dengan desain Anda sendiri — logo, stempel, hingga empat gambar tanda tangan beserta keterangannya, gambar latar, margin, dan konten yang disusun dari tag placeholder.
 
 ## Mengaktifkannya untuk Kursus Anda
 

@@ -8,7 +8,7 @@
 
 ## Ο Κοινωνικός Τοίχος Σας
 
-![Ο κοινωνικός τοίχος που εμφανίζει ροή αναρτήσεων, likes και σχολίων από συνδέσεις](/.gitbook/assets/social-wall.png)
+![Ο κοινωνικός τοίχος που εμφανίζει ροή αναρτήσεων, likes και σχολίων από συνδέσεις](../.gitbook/assets/social-wall.png)
 
 Ο κοινωνικός τοίχος εμφανίζει ροή δραστηριότητας από εσάς και τις συνδέσεις σας. Μπορείτε να:
 
@@ -30,9 +30,9 @@
 
 Το κοινωνικό δίκτυο ενσωματώνεται με το σύστημα μηνυμάτων της πλατφόρμας:
 
-* **Αποστολή μηνυμάτων** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Γράψτε άμεσα μηνύματα σε άλλους χρήστες
-* **Εισερχόμενα** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Διαβάστε και απαντήστε σε ληφθέντα μηνύματα
-* **Απεσταλμένα μηνύματα** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Ελέγξτε μηνύματα που έχετε στείλει
+* **Αποστολή μηνυμάτων** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Γράψτε άμεσα μηνύματα σε άλλους χρήστες
+* **Εισερχόμενα** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Διαβάστε και απαντήστε σε ληφθέντα μηνύματα
+* **Απεσταλμένα μηνύματα** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Ελέγξτε μηνύματα που έχετε στείλει
 
 ### Σύνθεση και Απάντηση
 

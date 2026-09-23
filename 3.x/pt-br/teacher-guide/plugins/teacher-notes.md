@@ -1,6 +1,6 @@
 # Anotações do Professor
 
-Anotações do Professor <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Anotações do Professor" data-size="line"> oferece à equipe docente do seu curso um caderno privado para registrar anotações sobre alunos específicos — observações de progresso, lembretes, qualquer coisa que você prefira não colocar em uma ferramenta pública. Os alunos nunca veem esta ferramenta nem o seu conteúdo.
+Anotações do Professor <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Anotações do Professor" data-size="line"> oferece à equipe docente do seu curso um caderno privado para registrar anotações sobre alunos específicos — observações de progresso, lembretes, qualquer coisa que você prefira não colocar em uma ferramenta pública. Os alunos nunca veem esta ferramenta nem o seu conteúdo.
 
 > Não confundir com a ferramenta [Caderno](../additional-tools/notebook.md) — essa é um caderno pessoal para os alunos; Anotações do Professor é uma ferramenta separada, exclusiva para professores.
 

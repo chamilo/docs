@@ -14,7 +14,7 @@ Zoek naar de sectie **AI Generator** in de interface voor het aanmaken van leerp
 
 ## Een leerpad genereren
 
-![Het formulier van de AI-leerpadgenerator met velden voor onderwerp, doelstellingen en aantal secties](/.gitbook/assets/ai-learning-path-generator.png)
+![Het formulier van de AI-leerpadgenerator met velden voor onderwerp, doelstellingen en aantal secties](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Open het formulier AI Generator
 2. Configureer de parameters:

@@ -17,11 +17,11 @@ Joillakin alustoilla tekoälytuutori on käytössä myös **kurssien ulkopuolell
 
 Etsi keskustelupainiketta (kelluva puhekuplaikoni) näytön alareunasta. Sen avaaminen näyttää yhteystietosi sekä, jos käytössä, erillisen **Tekoälytuutori**-kohdan robotti-ikonilla ja ”online”-pisteellä — napsauta sitä aloittaaksesi tai jatkaaksesi keskustelua tekoälyn kanssa.
 
-![Keskustelupaneelin yhteystietoluettelo, jossa Tekoälytuutori-kohta tavallisten yhteystietojen yläpuolella](/.gitbook/assets/student-docked-chat-contacts.png)
+![Keskustelupaneelin yhteystietoluettelo, jossa Tekoälytuutori-kohta tavallisten yhteystietojen yläpuolella](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Kirjoita kysymyksesi ja paina **Enter** lähettääksesi sen (**Shift+Enter** lisää rivinvaihdon lähettämisen sijaan). Tekoälytuutori muotoilee vastauksensa otsikoilla, luetteloilla, lihavoidulla tekstillä ja koodilohkoilla tarvittaessa, jotta pidemmät selitykset pysyvät luettavina.
 
-![Avoin keskustelu tekoälytuutorin kanssa, viestien kirjoituskenttä alareunassa](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Avoin keskustelu tekoälytuutorin kanssa, viestien kirjoituskenttä alareunassa](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Kysyminen jostakin, mitä olet lukemassa
 

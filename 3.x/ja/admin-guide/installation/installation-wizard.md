@@ -13,7 +13,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 1: インストール言語
 
-![インストールウィザード ステップ 1 — 言語の選択](/.gitbook/assets/install-step1-language.png)
+![インストールウィザード ステップ 1 — 言語の選択](../../.gitbook/assets/install-step1-language.png)
 
 最初のステップでは、インストール処理に使用する言語を選択できます。ドロップダウンから希望する言語を選んでください。
 
@@ -21,7 +21,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 2: 要件チェック
 
-![インストールウィザード ステップ 2 — PHP バージョン、拡張機能、ディレクトリ権限を示す要件チェック](/.gitbook/assets/install-step2-requirements.png)
+![インストールウィザード ステップ 2 — PHP バージョン、拡張機能、ディレクトリ権限を示す要件チェック](../../.gitbook/assets/install-step2-requirements.png)
 
 ウィザードはサーバー環境を次の点で確認します。
 
@@ -34,7 +34,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 3: ライセンス
 
-![インストールウィザード ステップ 3 — ライセンスの承諾](/.gitbook/assets/install-step3-license.png)
+![インストールウィザード ステップ 3 — ライセンスの承諾](../../.gitbook/assets/install-step3-license.png)
 
 このステップでは GNU/GPLv3 ライセンスが表示されます。続行するには **「I accept」** チェックボックスをオンにする必要があります。
 
@@ -42,7 +42,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 4: データベース設定
 
-![インストールウィザード ステップ 4 — データベース接続の設定](/.gitbook/assets/install-step4-database.png)
+![インストールウィザード ステップ 4 — データベース接続の設定](../../.gitbook/assets/install-step4-database.png)
 
 データベース接続の詳細を入力します。
 
@@ -58,7 +58,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 5: 構成設定
 
-![インストールウィザード ステップ 5 — 管理者アカウント、ポータル設定、メール設定](/.gitbook/assets/install-step5-config.png)
+![インストールウィザード ステップ 5 — 管理者アカウント、ポータル設定、メール設定](../../.gitbook/assets/install-step5-config.png)
 
 このステップでは、管理者アカウントの作成、ポータル設定、メール設定をまとめて行います。
 
@@ -95,7 +95,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 6: インストール前の最終確認
 
-![インストールウィザード ステップ 6 — インストール前の全設定の確認](/.gitbook/assets/install-step6-review.png)
+![インストールウィザード ステップ 6 — インストール前の全設定の確認](../../.gitbook/assets/install-step6-review.png)
 
 このステップでは、入力した内容の要約が表示されます。確認してください。
 
@@ -107,7 +107,7 @@ Chamilo 3.0 には、初期セットアップを案内する Web ベースのイ
 
 ## ステップ 7: インストール完了
 
-![インストールウィザード ステップ 7 — セキュリティに関する助言とポータルへのリンク付きの完了画面](/.gitbook/assets/install-step7-complete.png)
+![インストールウィザード ステップ 7 — セキュリティに関する助言とポータルへのリンク付きの完了画面](../../.gitbook/assets/install-step7-complete.png)
 
 インストールが正常に完了すると、ウィザードには次の内容が表示されます。
 

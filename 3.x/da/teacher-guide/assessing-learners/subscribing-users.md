@@ -19,12 +19,12 @@ Hvis kursets [synlighed](../creating-your-course/course-settings.md#course-visib
 
 ## Manuel tilmelding via værktøjet Brugere
 
-For at tilmelde nogen, der allerede har en platformkonto, men ikke har tilmeldt sig selv, skal du åbne kursets værktøj **Brugere** og klikke på ikonet **Tilføj brugere** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Tilføj brugere" data-size="line">.
+For at tilmelde nogen, der allerede har en platformkonto, men ikke har tilmeldt sig selv, skal du åbne kursets værktøj **Brugere** og klikke på ikonet **Tilføj brugere** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Tilføj brugere" data-size="line">.
 
 1. Søg efter personen efter navn, brugernavn, e-mail eller officielt kode
 2. Klik på **Registrer** i deres række, eller vælg flere med afkrydsningsfelterne, og brug menuen **Handling** til at registrere dem alle på én gang
 
-![Søgeresultater på skærmen Tilmeld brugere til kursus, der viser en matchende kursist og en knap Registrer](/.gitbook/assets/course-users-subscribe-search.png)
+![Søgeresultater på skærmen Tilmeld brugere til kursus, der viser en matchende kursist og en knap Registrer](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Kun brugere, der ikke allerede er tilmeldt kurset, vises i resultaterne.
 
@@ -36,9 +36,9 @@ De tre metoder ovenfor forudsætter alle, at personen allerede har en platformko
 
 ### Adgang til værktøjet
 
-Åbn kursets værktøj **Brugere**, og klik derefter på ikonet **Inviter via e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter via e-mail" data-size="line"> i værktøjslinjen, ved siden af **Tilføj brugere**:
+Åbn kursets værktøj **Brugere**, og klik derefter på ikonet **Inviter via e-mail** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Inviter via e-mail" data-size="line"> i værktøjslinjen, ved siden af **Tilføj brugere**:
 
-![Værktøjslinjen i værktøjet Brugere, der viser ikonet Tilføj brugere og ikonet Inviter via e-mail](/.gitbook/assets/course-users-invite-icon.png)
+![Værktøjslinjen i værktøjet Brugere, der viser ikonet Tilføj brugere og ikonet Inviter via e-mail](../../.gitbook/assets/course-users-invite-icon.png)
 
 Dette åbner siden **Kursusinvitationer**.
 
@@ -53,7 +53,7 @@ Dette åbner siden **Kursusinvitationer**.
 1. Indtast modtagerens e-mailadresse i formularen **Inviter via e-mail**
 2. Klik på **Send invitation**
 
-![Siden Kursusinvitationer: formularen inviter-via-e-mail og en tabel over sendte invitationer med deres status](/.gitbook/assets/course-invitations-list.png)
+![Siden Kursusinvitationer: formularen inviter-via-e-mail og en tabel over sendte invitationer med deres status](../../.gitbook/assets/course-invitations-list.png)
 
 Hver invitation, du har sendt til dette kursus, vises under formularen med dens status:
 
@@ -65,8 +65,8 @@ Hver invitation, du har sendt til dette kursus, vises under formularen med dens 
 
 For en stadig afventende invitation tilbyder kolonnen **Handlinger**:
 
-* **Kopiér** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiér" data-size="line"> — kopierer invitationslinket, hvis du hellere vil dele det selv (chat, personligt) i stedet for at stole på e-mailen.
-* **Tilbagekald** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Tilbagekald" data-size="line"> — annullerer invitationen med det samme; linket holder op med at virke. En allerede accepteret invitation kan ikke tilbagekaldes.
+* **Kopiér** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiér" data-size="line"> — kopierer invitationslinket, hvis du hellere vil dele det selv (chat, personligt) i stedet for at stole på e-mailen.
+* **Tilbagekald** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Tilbagekald" data-size="line"> — annullerer invitationen med det samme; linket holder op med at virke. En allerede accepteret invitation kan ikke tilbagekaldes.
 
 > **Den inviterede e-mailadresse må ikke allerede have en konto på denne platform.** Hvis den har, mislykkes afsendelsen af invitationen med en meddelelse, der beder dig om at tilmelde den eksisterende bruger direkte i stedet — via [Manuel tilmelding via værktøjet Brugere](#manual-enrollment-via-the-users-tool) ovenfor.
 

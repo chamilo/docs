@@ -8,7 +8,7 @@ From the administration panel, click **Security > Login attempts**.
 
 ## What It Shows
 
-![The Login attempts page showing charts for attempts by day, top IPs, failed attempts by month, success vs failed logins, attempts by hour, and unique IPs per day, followed by a table of failed login attempts](/.gitbook/assets/admin-security-login-attempts.png)
+![The Login attempts page showing charts for attempts by day, top IPs, failed attempts by month, success vs failed logins, attempts by hour, and unique IPs per day, followed by a table of failed login attempts](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Attempts by day (last 7 days)** — Daily count of failed attempts
 * **Top IPs (last 30 days)** — Which IP addresses generated the most attempts

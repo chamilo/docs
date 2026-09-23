@@ -19,7 +19,7 @@ Standaardcategorieën omvatten:
 
 ## Toegang tot de Ticket-tool
 
-Als uw beheerder de ticketlink heeft ingeschakeld, verschijnt er een ticketpictogram <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in de bovenste navigatiebalk. Klik erop om direct naar het ticketindieningsformulier te gaan.
+Als uw beheerder de ticketlink heeft ingeschakeld, verschijnt er een ticketpictogram <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in de bovenste navigatiebalk. Klik erop om direct naar het ticketindieningsformulier te gaan.
 
 U kunt ook toegang krijgen tot uw tickets via het hoofdmenu onder **Ondersteuning** of **Tickets**, afhankelijk van uw platformconfiguratie.
 

@@ -6,7 +6,7 @@ Profiilisi Chamilossa sisältää henkilötietosi ja asetuksesi. Muut alustan k�
 
 Napsauta **avataria** yläpalkin oikeassa yläkulmassa ja valitse avattavasta valikosta **Profiili**. Voit avata sen myös sivupalkin **Sosiaalinen verkosto** -osiosta.
 
-![Käyttäjän avatar-valikko, jossa näkyvät profiili, tiliasetukset ja uloskirjautuminen](/.gitbook/assets/user-avatar-dropdown.png)
+![Käyttäjän avatar-valikko, jossa näkyvät profiili, tiliasetukset ja uloskirjautuminen](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profiilitiedot
 

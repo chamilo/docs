@@ -4,7 +4,7 @@ Chamilo verfügt über ein umfangreiches Konfigurationssystem mit Einstellungen,
 
 Greifen Sie auf die Plattformeinstellungen über das Administrationspanel zu, indem Sie auf **Konfigurationseinstellungen** klicken.
 
-![Die Plattformeinstellungsseite zeigt Konfigurationskategorien, organisiert nach Funktionsbereichen](/.gitbook/assets/admin-settings-categories.png)
+![Die Plattformeinstellungsseite zeigt Konfigurationskategorien, organisiert nach Funktionsbereichen](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Alle Kategorien
 

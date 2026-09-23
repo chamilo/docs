@@ -1,6 +1,6 @@
 # Kysymysvaihtoehtojen arviointi
 
-Kysymysvaihtoehtojen arviointi <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Kysymysvaihtoehtojen arviointi" data-size="line"> mahdollistaa negatiivisen merkinnän (rangaistus) kaavan soveltamisen kokeen pisteytykseen sen sijaan, että Chamilo käyttäisi oletuskäyttäytymistään eli pelkästään oikeiden vastausten yhteenlaskua.
+Kysymysvaihtoehtojen arviointi <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Kysymysvaihtoehtojen arviointi" data-size="line"> mahdollistaa negatiivisen merkinnän (rangaistus) kaavan soveltamisen kokeen pisteytykseen sen sijaan, että Chamilo käyttäisi oletuskäyttäytymistään eli pelkästään oikeiden vastausten yhteenlaskua.
 
 ## Kaavan asettaminen
 

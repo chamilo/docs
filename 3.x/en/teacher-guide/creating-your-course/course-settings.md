@@ -2,7 +2,7 @@
 
 Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+To access course settings, enter your course and click the **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
 
 ## General Settings
 
@@ -29,7 +29,7 @@ Each course has a storage limit (disk quota) for uploaded files. The quota is se
 
 ### Course Visibility
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![The course visibility settings showing public, open, registered, and closed options](../../.gitbook/assets/course-settings-visibility.png)
 
 Control who can access your course:
 
@@ -84,7 +84,7 @@ Control behaviour in the forum tool of this course.
 
 ### Autolaunch Settings
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
 
 ### AI Helpers Settings
 

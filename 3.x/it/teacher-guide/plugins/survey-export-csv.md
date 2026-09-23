@@ -1,6 +1,6 @@
 # Esportazione sondaggio CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Esportazione sondaggio CSV" data-size="line"> aggiunge un'esportazione con un clic dei risultati di un sondaggio in un file CSV compatto, con una riga per rispondente e una colonna per domanda.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Esportazione sondaggio CSV" data-size="line"> aggiunge un'esportazione con un clic dei risultati di un sondaggio in un file CSV compatto, con una riga per rispondente e una colonna per domanda.
 
 ## Esportare un sondaggio
 

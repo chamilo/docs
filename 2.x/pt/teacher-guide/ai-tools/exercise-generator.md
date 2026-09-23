@@ -13,7 +13,7 @@ Procure pelo botão ou seção **Gerador de IA** dentro da interface de criaçã
 
 ## Como Gerar Perguntas
 
-![Formulário do gerador de exercícios com IA, com campos para tópico e número de perguntas](/.gitbook/assets/ai-exercise-generator.png)
+![Formulário do gerador de exercícios com IA, com campos para tópico e número de perguntas](../../.gitbook/assets/ai-exercise-generator.png)
 
 O gerador oferece dois modos, disponíveis como abas:
 
@@ -32,7 +32,7 @@ O gerador oferece dois modos, disponíveis como abas:
 
 ## Revisão e Edição
 
-![Perguntas geradas por IA exibidas para revisão com opções para editar, aceitar ou remover cada uma](/.gitbook/assets/ai-exercise-generator-results.png)
+![Perguntas geradas por IA exibidas para revisão com opções para editar, aceitar ou remover cada uma](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 As perguntas geradas são apresentadas como **sugestões**. Você deve:
 

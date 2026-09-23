@@ -8,7 +8,7 @@ Klik **Jaringan sosial** di bilah sisi untuk mengakses fitur sosial. Jika Anda t
 
 ## Dinding Sosial Anda
 
-![Dinding sosial yang menampilkan umpan pos, suka, dan komentar dari koneksi](/.gitbook/assets/social-wall.png)
+![Dinding sosial yang menampilkan umpan pos, suka, dan komentar dari koneksi](../.gitbook/assets/social-wall.png)
 
 Dinding sosial menampilkan umpan aktivitas dari Anda dan koneksi Anda. Anda dapat:
 
@@ -30,9 +30,9 @@ Anda dapat terhubung dengan pengguna lain di platform:
 
 Jaringan sosial terintegrasi dengan sistem pesan platform:
 
-* **Kirim pesan** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Tulis pesan langsung kepada pengguna lain
-* **Kotak masuk** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Baca dan balas pesan yang diterima
-* **Pesan terkirim** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Tinjau pesan yang telah Anda kirim
+* **Kirim pesan** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Tulis pesan langsung kepada pengguna lain
+* **Kotak masuk** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Baca dan balas pesan yang diterima
+* **Pesan terkirim** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Tinjau pesan yang telah Anda kirim
 
 ### Menyusun dan Membalas
 

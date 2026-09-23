@@ -1,6 +1,6 @@
 # Enfoque en el ejercicio
 
-Enfoque en el ejercicio <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Enfoque en el ejercicio" data-size="line"> es una ayuda contra el fraude en los exámenes. Si el navegador de un estudiante pierde el foco durante una prueba marcada — al cambiar a otra pestaña o ventana —, Chamilo muestra una advertencia a pantalla completa indicándole que vuelva, y puede enviar automáticamente su intento si no lo hace.
+Enfoque en el ejercicio <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Enfoque en el ejercicio" data-size="line"> es una ayuda contra el fraude en los exámenes. Si el navegador de un estudiante pierde el foco durante una prueba marcada — al cambiar a otra pestaña o ventana —, Chamilo muestra una advertencia a pantalla completa indicándole que vuelva, y puede enviar automáticamente su intento si no lo hace.
 
 ## Marcar una prueba
 

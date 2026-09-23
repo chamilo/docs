@@ -4,7 +4,7 @@ Forumverktøyet lar deg legge til rette for strukturerte diskusjoner i kurset. D
 
 ## Forumstruktur
 
-![Forumkategorilisten som viser kategorier, forum og antall emner](/.gitbook/assets/forum-category-list.png)
+![Forumkategorilisten som viser kategorier, forum og antall emner](../../.gitbook/assets/forum-category-list.png)
 
 Forum i Chamilo er organisert på tre nivåer:
 
@@ -14,7 +14,7 @@ Forum i Chamilo er organisert på tre nivåer:
 
 ## Opprette en forumkategori
 
-1. Åpne verktøyet **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> fra kursets startsid
+1. Åpne verktøyet **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> fra kursets startsid
 2. Klikk **Legg til en forumkategori**
 3. Skriv inn et **Kategorinavn** og eventuelt en beskrivelse
 4. Lagre

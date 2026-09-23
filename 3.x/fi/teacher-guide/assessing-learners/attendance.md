@@ -20,7 +20,7 @@ Läsnäolotyökalun avulla voit seurata oppijoiden läsnäoloa aikataulutetuissa
 Jokainen läsnäololista sisältää yhden tai useamman päivämäärän (istunnon), joille kirjaat läsnäolon:
 
 1. Avaa läsnäololista tai jatka luontiprosessia
-2. Napsauta **Lisää päivämäärä** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Lisää päivämäärä" data-size="line">
+2. Napsauta **Lisää päivämäärä** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Lisää päivämäärä" data-size="line">
 3. Valitse päivämäärä ja kellonaika
 4. Valinnaisesti merkitse **Toista päivämäärä** valitaksesi toistologiikan
 5. Anna tapahtumalle **Kesto** minuutteina (oletus on 60 minuuttia)
@@ -44,7 +44,7 @@ Huomautus: Ylläpitäjät voivat muuttaa portaalin asetuksia, jotta voit valita 
 
 ## Läsnäoloraporttien tarkastelu
 
-![Läsnäololista, jossa näkyy yhteenvetotaulukko oppijoista, päivämääristä ja läsnäoloilmaisimista](/.gitbook/assets/attendance-sheet.png)
+![Läsnäololista, jossa näkyy yhteenvetotaulukko oppijoista, päivämääristä ja läsnäoloilmaisimista](../../.gitbook/assets/attendance-sheet.png)
 
 Läsnäolotyökalu näyttää:
 

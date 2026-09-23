@@ -1,6 +1,6 @@
 # 測驗簽名
 
-測驗簽名 <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="測驗簽名" data-size="line"> 會在學生完成一次測驗作答後，新增電子簽名步驟，以便驗證其完成狀態——適用於合規或認證情境。它不會更動分數、答案或成績簿資料；僅會在該次作答旁記錄簽名。
+測驗簽名 <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="測驗簽名" data-size="line"> 會在學生完成一次測驗作答後，新增電子簽名步驟，以便驗證其完成狀態——適用於合規或認證情境。它不會更動分數、答案或成績簿資料；僅會在該次作答旁記錄簽名。
 
 ## 為測驗啟用此功能
 

@@ -19,12 +19,12 @@ Om kursens [synlighet](../creating-your-course/course-settings.md#course-visibil
 
 ## Manuell inskrivning via verktyget Användare
 
-För att prenumerera någon som redan har ett plattformskonto men inte har gått med själv, öppna kursens verktyg **Användare** och klicka på ikonen **Lägg till användare** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Lägg till användare" data-size="line">.
+För att prenumerera någon som redan har ett plattformskonto men inte har gått med själv, öppna kursens verktyg **Användare** och klicka på ikonen **Lägg till användare** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Lägg till användare" data-size="line">.
 
 1. Sök efter personen efter namn, användarnamn, e-post eller officiell kod
 2. Klicka på **Registrera** på hens rad, eller markera flera med kryssrutorna och använd menyn **Åtgärd** för att registrera dem alla på en gång
 
-![Sökresultat på skärmen Prenumerera användare till kurs, som visar en matchande lärande och en Registrera-knapp](/.gitbook/assets/course-users-subscribe-search.png)
+![Sökresultat på skärmen Prenumerera användare till kurs, som visar en matchande lärande och en Registrera-knapp](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Endast användare som inte redan är prenumererade på kursen visas i resultaten.
 
@@ -36,9 +36,9 @@ De tre metoderna ovan förutsätter alla att personen redan har ett plattformsko
 
 ### Åtkomst till verktyget
 
-Öppna kursens verktyg **Användare** och klicka sedan på ikonen **Bjud in via e-post** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Bjud in via e-post" data-size="line"> i verktygsfältet, bredvid **Lägg till användare**:
+Öppna kursens verktyg **Användare** och klicka sedan på ikonen **Bjud in via e-post** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Bjud in via e-post" data-size="line"> i verktygsfältet, bredvid **Lägg till användare**:
 
-![Verktygsfältet för verktyget Användare, som visar ikonen Lägg till användare och ikonen Bjud in via e-post](/.gitbook/assets/course-users-invite-icon.png)
+![Verktygsfältet för verktyget Användare, som visar ikonen Lägg till användare och ikonen Bjud in via e-post](../../.gitbook/assets/course-users-invite-icon.png)
 
 Detta öppnar sidan **Kursinbjudningar**.
 
@@ -53,7 +53,7 @@ Detta öppnar sidan **Kursinbjudningar**.
 1. Ange mottagarens e-postadress i formuläret **Bjud in via e-post**
 2. Klicka på **Skicka inbjudan**
 
-![Sidan Kursinbjudningar: formuläret bjud-in-via-e-post och en tabell över skickade inbjudningar med deras status](/.gitbook/assets/course-invitations-list.png)
+![Sidan Kursinbjudningar: formuläret bjud-in-via-e-post och en tabell över skickade inbjudningar med deras status](../../.gitbook/assets/course-invitations-list.png)
 
 Varje inbjudan du har skickat för den här kursen visas under formuläret, med sin status:
 
@@ -65,8 +65,8 @@ Varje inbjudan du har skickat för den här kursen visas under formuläret, med 
 
 För en fortfarande väntande inbjudan erbjuder kolumnen **Åtgärder**:
 
-* **Kopiera** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiera" data-size="line"> — kopierar inbjudningslänken, om du hellre vill dela den själv (chatt, personligen) i stället för att förlita dig på e-postmeddelandet.
-* **Återkalla** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Återkalla" data-size="line"> — avbryter inbjudan omedelbart; länken slutar fungera. En redan accepterad inbjudan kan inte återkallas.
+* **Kopiera** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Kopiera" data-size="line"> — kopierar inbjudningslänken, om du hellre vill dela den själv (chatt, personligen) i stället för att förlita dig på e-postmeddelandet.
+* **Återkalla** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Återkalla" data-size="line"> — avbryter inbjudan omedelbart; länken slutar fungera. En redan accepterad inbjudan kan inte återkallas.
 
 > **Den inbjudna e-postadressen får inte redan ha ett konto på den här plattformen.** Om den har det misslyckas sändningen av inbjudan med ett meddelande som ber dig att i stället skriva in den befintliga användaren direkt — via [Manuell inskrivning via verktyget Användare](#manual-enrollment-via-the-users-tool) ovan.
 

@@ -10,7 +10,7 @@ Dari panel administrasi, klik **Keamanan > Integritas file**.
 
 ## Apa yang Ditampilkan
 
-![Halaman Integritas file yang menampilkan informasi pemindaian terakhir, panel untuk file Ditambahkan, Dimodifikasi, Dihapus, dan Izin diubah, daftar Riwayat peringatan, serta Tindakan untuk menjalankan pemindaian, menjeda peringatan, atau menetapkan baseline baru](/.gitbook/assets/admin-security-file-integrity.png)
+![Halaman Integritas file yang menampilkan informasi pemindaian terakhir, panel untuk file Ditambahkan, Dimodifikasi, Dihapus, dan Izin diubah, daftar Riwayat peringatan, serta Tindakan untuk menjalankan pemindaian, menjeda peringatan, atau menetapkan baseline baru](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Pemindaian terakhir** — Kapan pemindaian terbaru dijalankan dan berapa banyak file yang diperiksa
 * **Ditambahkan / Dimodifikasi / Dihapus** — File yang berbeda dari baseline, diidentifikasi dengan membandingkan checksum SHA-256 (setiap daftar dibatasi 500 path, dengan catatan jika daftar lengkapnya lebih panjang — lihat log CEF di bawah untuk daftar lengkap)

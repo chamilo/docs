@@ -14,7 +14,7 @@ AIラーニングパスジェネレーターは、構造化された学習シー
 
 ## ラーニングパスの生成方法
 
-![トピック、目標、セクション数のフィールドがあるAIラーニングパスジェネレーターのフォーム](/.gitbook/assets/ai-learning-path-generator.png)
+![トピック、目標、セクション数のフィールドがあるAIラーニングパスジェネレーターのフォーム](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. AI Generatorフォームを開く
 2. パラメーターを設定する:

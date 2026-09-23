@@ -1,10 +1,10 @@
 # Übersicht der Administrationsoberfläche
 
-Das Administrationspanel ist Ihre Schaltzentrale für die Verwaltung der Chamilo-Plattform. Sie erreichen es, indem Sie in der Seitenleiste auf **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> klicken.
+Das Administrationspanel ist Ihre Schaltzentrale für die Verwaltung der Chamilo-Plattform. Sie erreichen es, indem Sie in der Seitenleiste auf **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> klicken.
 
 ## Administrations-Dashboard
 
-![Das Administrations-Dashboard mit Funktionsblöcken für Benutzer, Kurse, Sitzungen und Einstellungen](/.gitbook/assets/admin-dashboard-overview.png)
+![Das Administrations-Dashboard mit Funktionsblöcken für Benutzer, Kurse, Sitzungen und Einstellungen](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Das Admin-Dashboard ist in Funktionsblöcke gegliedert. Jeder Block fasst zusammengehörige Verwaltungswerkzeuge zusammen:
 

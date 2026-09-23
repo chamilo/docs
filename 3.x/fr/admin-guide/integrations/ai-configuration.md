@@ -35,7 +35,7 @@ Créez un compte auprès du fournisseur d’IA choisi et obtenez une clé API :
 
 ### 2. Configurer les fournisseurs dans Chamilo
 
-![La page de configuration des assistants IA affichant les paramètres du fournisseur avec les champs clé API, modèle et point de terminaison](/.gitbook/assets/admin-ai-helpers-config.png)
+![La page de configuration des assistants IA affichant les paramètres du fournisseur avec les champs clé API, modèle et point de terminaison](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Dans les paramètres de la plateforme, accédez à la section **Assistants IA** :
 

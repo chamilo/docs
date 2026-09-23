@@ -4,9 +4,9 @@ Les rapports de cours vous offrent une vue agrégée de l’activité et des per
 
 ## Accéder aux rapports de cours
 
-Ouvrez l’outil **Suivi** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d’accueil du cours et sélectionnez la vue des rapports au niveau du cours.
+Ouvrez l’outil **Suivi** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d’accueil du cours et sélectionnez la vue des rapports au niveau du cours.
 
-![Vue d’ensemble du suivi du cours affichant les indicateurs d’engagement et le résumé de l’activité des apprenants](/.gitbook/assets/tracking-course-overview.png)
+![Vue d’ensemble du suivi du cours affichant les indicateurs d’engagement et le résumé de l’activité des apprenants](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Rapports disponibles
 
@@ -43,7 +43,7 @@ Pour chaque devoir :
 
 ## Exporter les données
 
-Vous pouvez exporter les données de suivi et de rapport pour une analyse plus approfondie. Recherchez l’option **Exporter** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les données dans un format compatible avec un tableur.
+Vous pouvez exporter les données de suivi et de rapport pour une analyse plus approfondie. Recherchez l’option **Exporter** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les données dans un format compatible avec un tableur.
 
 ## Rapports de session
 

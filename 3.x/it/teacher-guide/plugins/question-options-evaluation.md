@@ -1,6 +1,6 @@
 # Valutazione delle opzioni delle domande
 
-Valutazione delle opzioni delle domande <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Valutazione delle opzioni delle domande" data-size="line"> consente di applicare una formula di penalizzazione (punteggio negativo) al calcolo del punteggio di un test, invece del comportamento predefinito di Chamilo che consiste semplicemente nel sommare le risposte corrette.
+Valutazione delle opzioni delle domande <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Valutazione delle opzioni delle domande" data-size="line"> consente di applicare una formula di penalizzazione (punteggio negativo) al calcolo del punteggio di un test, invece del comportamento predefinito di Chamilo che consiste semplicemente nel sommare le risposte corrette.
 
 ## Impostazione di una formula
 

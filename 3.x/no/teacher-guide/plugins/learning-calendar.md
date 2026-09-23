@@ -1,6 +1,6 @@
 # Læringskalender
 
-Læringskalender <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Læringskalender" data-size="line"> hjelper med å planlegge blandet opplæring eller lærlinglignende opplæring som kombinerer klasseromstid med praksis utenfor stedet. Du bygger en kalender der hver dag merkes som **Opptatt**, **Eksamen** eller **Ledig**, tildeler deltakere til den, og deres personlige agenda viser deretter de planlagte dagene.
+Læringskalender <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Læringskalender" data-size="line"> hjelper med å planlegge blandet opplæring eller lærlinglignende opplæring som kombinerer klasseromstid med praksis utenfor stedet. Du bygger en kalender der hver dag merkes som **Opptatt**, **Eksamen** eller **Ledig**, tildeler deltakere til den, og deres personlige agenda viser deretter de planlagte dagene.
 
 ## Tilgang til verktøyet
 

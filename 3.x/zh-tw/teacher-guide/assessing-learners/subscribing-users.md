@@ -19,12 +19,12 @@
 
 ## 透過使用者工具手動註冊
 
-若要訂閱已有平台帳號但尚未自行加入的人，請開啟課程的 **使用者** 工具，並點選 **新增使用者** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="新增使用者" data-size="line"> 圖示。
+若要訂閱已有平台帳號但尚未自行加入的人，請開啟課程的 **使用者** 工具，並點選 **新增使用者** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="新增使用者" data-size="line"> 圖示。
 
 1. 依姓名、使用者名稱、電子郵件或正式代碼搜尋該人
 2. 在其列上點選 **註冊**，或用核取方塊選取多人，再使用 **動作** 選單一次註冊全部
 
-![「將使用者註冊到課程」畫面中的搜尋結果，顯示相符的學習者與「註冊」按鈕](/.gitbook/assets/course-users-subscribe-search.png)
+![「將使用者註冊到課程」畫面中的搜尋結果，顯示相符的學習者與「註冊」按鈕](../../.gitbook/assets/course-users-subscribe-search.png)
 
 結果中只會出現尚未訂閱該課程的使用者。
 
@@ -36,9 +36,9 @@
 
 ### 存取此工具
 
-開啟課程的 **使用者** 工具，然後在工具列中點選 **以電子郵件邀請** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="以電子郵件邀請" data-size="line"> 圖示，位於 **新增使用者** 旁邊：
+開啟課程的 **使用者** 工具，然後在工具列中點選 **以電子郵件邀請** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="以電子郵件邀請" data-size="line"> 圖示，位於 **新增使用者** 旁邊：
 
-![使用者工具的工具列，顯示「新增使用者」圖示與「以電子郵件邀請」圖示](/.gitbook/assets/course-users-invite-icon.png)
+![使用者工具的工具列，顯示「新增使用者」圖示與「以電子郵件邀請」圖示](../../.gitbook/assets/course-users-invite-icon.png)
 
 這會開啟 **課程邀請** 頁面。
 
@@ -53,7 +53,7 @@
 1. 在 **以電子郵件邀請** 表單中輸入收件人的電子郵件地址
 2. 點選 **發送邀請**
 
-![課程邀請頁面：以電子郵件邀請表單，以及已發送邀請與其狀態的表格](/.gitbook/assets/course-invitations-list.png)
+![課程邀請頁面：以電子郵件邀請表單，以及已發送邀請與其狀態的表格](../../.gitbook/assets/course-invitations-list.png)
 
 您為此課程發送的每一封邀請都會顯示在表單下方，並附帶其狀態：
 
@@ -65,8 +65,8 @@
 
 對於仍為待處理的邀請，**操作** 欄提供：
 
-* **複製** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="複製" data-size="line"> — 複製邀請連結，以便您改以自行分享（聊天、當面）而不依賴電子郵件。
-* **撤銷** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="撤銷" data-size="line"> — 立即取消邀請；該連結隨即失效。已接受的邀請無法撤銷。
+* **複製** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="複製" data-size="line"> — 複製邀請連結，以便您改以自行分享（聊天、當面）而不依賴電子郵件。
+* **撤銷** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="撤銷" data-size="line"> — 立即取消邀請；該連結隨即失效。已接受的邀請無法撤銷。
 
 > **受邀的電子郵件地址不得已在此平台擁有帳號。** 若已有帳號，發送邀請會失敗，並顯示訊息請您改為直接為該既有使用者註冊 — 透過上方的 [透過使用者工具手動註冊](#manual-enrollment-via-the-users-tool)。
 

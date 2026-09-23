@@ -9,11 +9,11 @@ AI-bedømmelse er tilgængelig i to sammenhænge:
 * **Åbne øvelsesspørgsmål** — Når du manuelt bedømmer frie svar i en øvelse
 * **Opgaveafleveringer** — Når du gennemgår og scorer elevers publikationer i værktøjet Opgaver
 
-Se efter knappen **AI-bedømmelse** (angivet med et robotikon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) i bedømmelsesgrænsefladen.
+Se efter knappen **AI-bedømmelse** (angivet med et robotikon <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) i bedømmelsesgrænsefladen.
 
 ## Sådan fungerer det
 
-![AI-bedømmelsesgrænsefladen, der viser en elevbesvarelse med foreslået score og feedback](/.gitbook/assets/ai-grading-interface.png)
+![AI-bedømmelsesgrænsefladen, der viser en elevbesvarelse med foreslået score og feedback](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Åbn en aflevering eller et svar, der skal bedømmes
 2. Klik på knappen **AI-bedømmelse**

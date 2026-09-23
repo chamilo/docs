@@ -4,13 +4,13 @@ Chamilo 3.0 heeft een overzichtelijke, moderne interface die is ontworpen om nav
 
 ## De bovenbalk
 
-![De bovenbalk met geannoteerde elementen, waaronder logo, inbox, supportticket en gebruikersavatar](/.gitbook/assets/top-bar-annotated.png)
+![De bovenbalk met geannoteerde elementen, waaronder logo, inbox, supportticket en gebruikersavatar](../../.gitbook/assets/top-bar-annotated.png)
 
 De bovenbalk is altijd zichtbaar bovenaan elke pagina. Deze bevat:
 
 * **Platformlogo** — Klik erop om op elk moment terug te keren naar de startpagina.
-* **Inboxpictogram** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Toont uw berichten. Een rood badge geeft ongelezen berichten aan. Klik om uw inbox te openen.
-* **Supportticketpictogram** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Indien ingeschakeld door uw beheerder, geeft dit u toegang tot het supportticketsysteem.
+* **Inboxpictogram** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Toont uw berichten. Een rood badge geeft ongelezen berichten aan. Klik om uw inbox te openen.
+* **Supportticketpictogram** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Indien ingeschakeld door uw beheerder, geeft dit u toegang tot het supportticketsysteem.
 * **Uw avatar** — Een cirkelvormige afbeelding in de rechterbovenhoek. Klik erop om een vervolgkeuzemenu te openen met koppelingen naar uw profiel, accountinstellingen en afmelden.
 
 ## De zijbalk
@@ -19,19 +19,19 @@ De zijbalk aan de linkerkant is uw hoofdnavigatie. Deze kan worden ingeklapt om 
 
 De zijbalk bevat de volgende koppelingen (sommige kunnen verborgen zijn, afhankelijk van de configuratie van uw platform):
 
-![Het navigatiepaneel van de zijbalk in uitgevouwen staat met alle menu-items](/.gitbook/assets/sidebar-expanded.png)
+![Het navigatiepaneel van de zijbalk in uitgevouwen staat met alle menu-items](../../.gitbook/assets/sidebar-expanded.png)
 
 | Menu-item | Pictogram | Beschrijving |
 |-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Keert terug naar het hoofddashboard |
-| **Mijn cursussen** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Toont alle cursussen waarin u bent ingeschreven |
-| **Mijn sessies** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Toont uw trainingssessies (huidig, verleden, komend) |
-| **Meer cursussen verkennen** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Blader door de cursuscatalogus om nieuwe cursussen te vinden |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Uw persoonlijke en cursuskalender |
-| **Rapportage** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Toegang tot leerlingopvolging en cursusrapporten |
-| **Sociaal netwerk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Verbind met andere gebruikers, stuur berichten, word lid van groepen |
-| **Videoconferentie** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Toegang tot live videosessies (indien geconfigureerd) |
-| **Beheer** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platformbeheer (alleen zichtbaar voor beheerders) |
+| **Home** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Keert terug naar het hoofddashboard |
+| **Mijn cursussen** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Toont alle cursussen waarin u bent ingeschreven |
+| **Mijn sessies** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Toont uw trainingssessies (huidig, verleden, komend) |
+| **Meer cursussen verkennen** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Blader door de cursuscatalogus om nieuwe cursussen te vinden |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Uw persoonlijke en cursuskalender |
+| **Rapportage** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Toegang tot leerlingopvolging en cursusrapporten |
+| **Sociaal netwerk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Verbind met andere gebruikers, stuur berichten, word lid van groepen |
+| **Videoconferentie** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Toegang tot live videosessies (indien geconfigureerd) |
+| **Beheer** | <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platformbeheer (alleen zichtbaar voor beheerders) |
 
 Helemaal onderaan de zijbalk vindt u een optie **Afmelden** om snel af te melden wanneer u klaar bent. Deze optie is ook beschikbaar via het vervolgkeuzemenu van uw avatarpictogram in de rechterbovenhoek.
 Als het platform wordt beheerd via externe authenticatiemethoden, zijn deze afmeldopties mogelijk niet beschikbaar.
@@ -50,8 +50,8 @@ Wanneer u een cursus binnenkomt, ziet u de **cursushomepage**. Dit wordt in deta
 
 Als docent ziet u extra bedieningselementen:
 
-* **Leerlingweergave** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Schakel dit in om de cursus te zien zoals een leerling die zou zien
-* **Introductie bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Bewerk de tekst van de cursusintroductie
+* **Leerlingweergave** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Schakel dit in om de cursus te zien zoals een leerling die zou zien
+* **Introductie bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Bewerk de tekst van de cursusintroductie
 * **Alles tonen / Alles verbergen** — Wijzig snel de zichtbaarheid van alle tools voor leerlingen
 * **Sorteren** — Schakel slepen-en-neerzetten in om de tools op de homepage te herschikken
 

@@ -4,7 +4,7 @@
 
 ## 使用者清單
 
-![使用者清單，顯示帳號的姓名、電子郵件、角色與狀態欄](/.gitbook/assets/admin-user-list.png)
+![使用者清單，顯示帳號的姓名、電子郵件、角色與狀態欄](../../.gitbook/assets/admin-user-list.png)
 
 在管理面板中，點選 **User list** 即可查看平台上的所有使用者。清單會顯示：
 
@@ -21,7 +21,7 @@
 
 ## 建立使用者
 
-![使用者建立表單，包含姓名、電子郵件、使用者名稱、密碼、角色與語言欄位](/.gitbook/assets/admin-user-create-form.png)
+![使用者建立表單，包含姓名、電子郵件、使用者名稱、密碼、角色與語言欄位](../../.gitbook/assets/admin-user-create-form.png)
 
 1. 在管理面板中點選 **Add a user**
 2. 填寫必填欄位：
@@ -41,7 +41,7 @@
 
 ## 匯入使用者
 
-![用於上傳含使用者資料之 CSV 或 XML 檔案的使用者匯入介面](/.gitbook/assets/admin-user-import.png)
+![用於上傳含使用者資料之 CSV 或 XML 檔案的使用者匯入介面](../../.gitbook/assets/admin-user-import.png)
 
 若需大量建立使用者，可從檔案匯入：
 

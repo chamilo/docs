@@ -1,12 +1,12 @@
 # Kursbeskrivelse
 
-Verktøyet **Kursbeskrivelse** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeskrivelse" data-size="line"> lar deg skrive en strukturert beskrivelse av kurset i flere avsnitt — mål, metodikk, materiell og mer. I motsetning til det fritekstbaserte banneret **Kursintroduksjon** på [kursets hjemmeside](README.md#the-course-homepage), som bare de påmeldte studentene dine ser, er kursbeskrivelsen det potensielle studenter ser *før* de melder seg på, fra kurskatalogen.
+Verktøyet **Kursbeskrivelse** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeskrivelse" data-size="line"> lar deg skrive en strukturert beskrivelse av kurset i flere avsnitt — mål, metodikk, materiell og mer. I motsetning til det fritekstbaserte banneret **Kursintroduksjon** på [kursets hjemmeside](README.md#the-course-homepage), som bare de påmeldte studentene dine ser, er kursbeskrivelsen det potensielle studenter ser *før* de melder seg på, fra kurskatalogen.
 
 Når de er påmeldt, kan studentene fortsatt slå opp i den inne i kurset — hvis du lar verktøyet være synlig for dem, er det et praktisk sted for dem å sjekke praktisk informasjon som kursets overordnede struktur eller hvem lærerne er, uten å måtte spørre deg direkte. Påmeldte studenter kan se avsnittene du har skrevet, men kan ikke legge til, redigere eller slette dem.
 
 ## Åpne verktøyet
 
-Åpne verktøyet **Kursbeskrivelse** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeskrivelse" data-size="line"> fra verktøyrutenettet på kursets hjemmeside.
+Åpne verktøyet **Kursbeskrivelse** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Kursbeskrivelse" data-size="line"> fra verktøyrutenettet på kursets hjemmeside.
 
 ## De åtte avsnittene
 
@@ -30,7 +30,7 @@ En kursbeskrivelse består av inntil åtte uavhengige avsnitt. Hvert av dem er v
 3. Skriv innholdet i riktekstredigereren (støtter formatering, bilder, lenker, innebygd video og annet rikt innhold). Hvis plattformen har det aktivert, kan du også skrive flere språkversjoner av samme avsnitt og la hver student automatisk bare se sin egen — se [Innhold på flere språk](../adding-content/multi-language-content.md).
 4. Lagre
 
-Hvert avsnitt du legger til vises som sitt eget kort i verktøyet. Bruk ikonene **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> og **Slett** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> på et kort for å oppdatere eller fjerne det senere.
+Hvert avsnitt du legger til vises som sitt eget kort i verktøyet. Bruk ikonene **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> og **Slett** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> på et kort for å oppdatere eller fjerne det senere.
 
 ## Lenke til kurskatalogen
 

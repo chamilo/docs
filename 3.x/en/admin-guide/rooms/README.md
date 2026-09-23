@@ -2,7 +2,7 @@
 
 The **Rooms** block on the administration dashboard manages the physical locations Chamilo can track for in-person or blended training: branches (sites), the rooms within them, and a tool to find which rooms are free at a given time.
 
-![The Rooms block on the administration dashboard, listing Branches, Rooms, and Room availability finder](/.gitbook/assets/admin-rooms-block.png)
+![The Rooms block on the administration dashboard, listing Branches, Rooms, and Room availability finder](../../.gitbook/assets/admin-rooms-block.png)
 
 This chapter covers the admin-side management of branches and rooms. For the teacher-facing side — assigning a room to a course session — see [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) in the Teacher Guide.
 

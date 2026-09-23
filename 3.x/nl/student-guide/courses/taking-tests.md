@@ -4,7 +4,7 @@ De tool **Toetsen** (Oefeningen) is de plek waar u de quizzen en examens aflegt 
 
 ## Een toets starten
 
-Open de tool **Toetsen** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Toetsen" data-size="line"> vanaf de cursushomepagina en klik op een toets om te starten. Een toets is mogelijk nog niet beschikbaar, of niet meer beschikbaar, als uw docent een begin- of einddatum heeft ingesteld.
+Open de tool **Toetsen** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Toetsen" data-size="line"> vanaf de cursushomepagina en klik op een toets om te starten. Een toets is mogelijk nog niet beschikbaar, of niet meer beschikbaar, als uw docent een begin- of einddatum heeft ingesteld.
 
 ## Vragen beantwoorden
 

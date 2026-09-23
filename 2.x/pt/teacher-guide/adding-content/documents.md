@@ -4,13 +4,13 @@ A ferramenta de documentos é o repositório de arquivos do seu curso. Você pod
 
 ## Acessando a Ferramenta de Documentos
 
-Abra a ferramenta **Documentos** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> na página inicial do curso. Você verá um navegador de arquivos exibindo a pasta raiz da biblioteca de documentos do seu curso.
+Abra a ferramenta **Documentos** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> na página inicial do curso. Você verá um navegador de arquivos exibindo a pasta raiz da biblioteca de documentos do seu curso.
 
-![O navegador de arquivos de documentos mostrando pastas e arquivos com ícones de ação](/.gitbook/assets/documents-file-browser.png)
+![O navegador de arquivos de documentos mostrando pastas e arquivos com ícones de ação](../../.gitbook/assets/documents-file-browser.png)
 
 ## Fazendo Upload de Arquivos
 
-1. Clique no botão **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
+1. Clique no botão **Upload** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
 2. Selecione um ou mais arquivos do seu computador (você pode arrastar e soltar arquivos na área de upload)
 3. Os arquivos são enviados e aparecem na pasta atual
 
@@ -52,7 +52,7 @@ Se o seu navegador suportar, você pode gravar áudio diretamente na ferramenta 
 
 Mantenha sua biblioteca de documentos organizada usando pastas:
 
-1. Clique em **Nova pasta** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nova pasta" data-size="line">
+1. Clique em **Nova pasta** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nova pasta" data-size="line">
 2. Insira um nome para a pasta
 3. Salve
 
@@ -61,7 +61,7 @@ Você pode criar pastas aninhadas para construir uma hierarquia lógica de conte
 ### Movendo Arquivos
 
 * Localize seu arquivo na lista
-* Clique em **Mover** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
+* Clique em **Mover** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
 * Selecione a pasta de destino
 * Confirme
 
@@ -71,12 +71,12 @@ Para cada arquivo ou pasta, você pode:
 
 | Ação | Ícone | Descrição |
 |------|-------|-----------|
-| **Editar** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Renomear o arquivo ou editar seu conteúdo (para páginas web) |
-| **Excluir** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> | Remover o arquivo ou pasta |
-| **Baixar** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Baixar" data-size="line"> | Baixar o arquivo para o seu computador |
-| **Visibilidade** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> | Ocultar ou mostrar o arquivo para os alunos |
-| **Substituir** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Substituir" data-size="line"> | Substituir o arquivo por uma versão atualizada |
-| **Mover** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover para uma pasta diferente |
+| **Editar** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Renomear o arquivo ou editar seu conteúdo (para páginas web) |
+| **Excluir** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> | Remover o arquivo ou pasta |
+| **Baixar** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Baixar" data-size="line"> | Baixar o arquivo para o seu computador |
+| **Visibilidade** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> | Ocultar ou mostrar o arquivo para os alunos |
+| **Substituir** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Substituir" data-size="line"> | Substituir o arquivo por uma versão atualizada |
+| **Mover** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover para uma pasta diferente |
 
 Substituir um arquivo é um recurso importante quando você usa documentos para construir caminhos de aprendizado, pois substituir o documento permitirá que ele seja atualizado sem que os alunos percam o progresso salvo para esse documento.
 
@@ -87,7 +87,7 @@ Selecione vários arquivos usando caixas de seleção, então use a barra de fer
 ---
 ## Integração com OnlyOffice
 
-Se o seu administrador configurou o plugin **OnlyOffice**, você pode editar arquivos do Word, Excel e PowerPoint (ou LibreOffice) diretamente no navegador sem precisar baixá-los. Procure pela opção **Editar com OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> ao visualizar um arquivo compatível.
+Se o seu administrador configurou o plugin **OnlyOffice**, você pode editar arquivos do Word, Excel e PowerPoint (ou LibreOffice) diretamente no navegador sem precisar baixá-los. Procure pela opção **Editar com OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> ao visualizar um arquivo compatível.
 
 Os documentos são armazenados no Chamilo, o OnlyOffice é usado apenas para **visualizar** ou editar os documentos no navegador, sem a necessidade de ferramentas adicionais.
 

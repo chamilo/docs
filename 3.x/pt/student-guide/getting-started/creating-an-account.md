@@ -27,7 +27,7 @@ Por predefinição, o formulário de registo público não tem qualquer opção 
 
 Algumas plataformas ativam um passo **"What do you want to do?"** com dois cartões — **Follow courses** e **Teach courses** — mas isto só aparece se o administrador tiver especificamente ativado o registo como professor. Mesmo nesse caso, escolher ensinar pode exigir que a sua conta seja aprovada antes de obter direitos de professor.
 
-![O formulário de registo numa plataforma com autorregisto de professor ativado, mostrando o seletor de papéis "Follow courses" / "Teach courses"](/.gitbook/assets/student-registration-form.png)
+![O formulário de registo numa plataforma com autorregisto de professor ativado, mostrando o seletor de papéis "Follow courses" / "Teach courses"](../../.gitbook/assets/student-registration-form.png)
 
 Se precisar de uma conta de professor e não vir esta opção, peça ao administrador da plataforma que crie uma para si ou que atualize a sua conta existente.
 

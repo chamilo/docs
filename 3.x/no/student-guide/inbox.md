@@ -4,17 +4,17 @@
 
 ## Åpne innboksen din
 
-Klikk på **Innboks**-ikonet <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> i topplinjen. Et rødt merke viser hvor mange uleste meldinger du har. Hvis dette ikonet ikke vises i det hele tatt, har administratoren deaktivert plattformmeldinger.
+Klikk på **Innboks**-ikonet <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> i topplinjen. Et rødt merke viser hvor mange uleste meldinger du har. Hvis dette ikonet ikke vises i det hele tatt, har administratoren deaktivert plattformmeldinger.
 
 ## Lese og svare
 
 Innboksen viser mottatte meldinger og hvilke som er uleste. Åpne en melding for å lese den, og bruk **Svar** for å svare — du kan ta med flere mottakere i ett svar, noe som er nyttig for å holde en liten gruppe oppdatert uten å opprette et formelt kurs eller en sosial gruppe.
 
-![Innboksen, med fanene Innboks / Ulest / Sendt og en tabell over mottatte meldinger](/.gitbook/assets/student-inbox.png)
+![Innboksen, med fanene Innboks / Ulest / Sendt og en tabell over mottatte meldinger](../.gitbook/assets/student-inbox.png)
 
 ## Skrive en ny melding
 
-Klikk på knappen **ny melding** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny melding" data-size="line">, velg én eller flere mottakere, skriv emne og innhold, og send. Akkurat som et svar kan en ny melding gå til flere personer samtidig.
+Klikk på knappen **ny melding** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny melding" data-size="line">, velg én eller flere mottakere, skriv emne og innhold, og send. Akkurat som et svar kan en ny melding gå til flere personer samtidig.
 
 ## Faner og handlinger
 

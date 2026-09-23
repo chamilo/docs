@@ -1,6 +1,6 @@
 # C-Studio コンテンツエディター
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> は、ラーニングパス向けの視覚的なドラッグ＆ドロップコンテンツエディターです。テキストブロック、クイズ、ドラッグ＆ドロップ活動、穴埋め、ホットスポット画像、表、音声、動画といったインタラクティブなページを、HTML を一切書かずに作成し、結果を SCORM パッケージとして書き出せます。
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> は、ラーニングパス向けの視覚的なドラッグ＆ドロップコンテンツエディターです。テキストブロック、クイズ、ドラッグ＆ドロップ活動、穴埋め、ホットスポット画像、表、音声、動画といったインタラクティブなページを、HTML を一切書かずに作成し、結果を SCORM パッケージとして書き出せます。
 
 ## エディターへのアクセス
 

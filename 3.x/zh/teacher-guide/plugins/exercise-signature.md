@@ -1,6 +1,6 @@
 # 测验签名
 
-测验签名 <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="测验签名" data-size="line"> 会在学生完成一次测验作答后增加电子签名步骤，以便对其完成情况进行认证——适用于合规或认证场景。它不会改动分数、答案或成绩册数据；仅在该次作答旁记录签名。
+测验签名 <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="测验签名" data-size="line"> 会在学生完成一次测验作答后增加电子签名步骤，以便对其完成情况进行认证——适用于合规或认证场景。它不会改动分数、答案或成绩册数据；仅在该次作答旁记录签名。
 
 ## 为测验开启此功能
 

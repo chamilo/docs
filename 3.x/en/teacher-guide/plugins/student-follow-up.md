@@ -1,6 +1,6 @@
 # Student Follow-up
 
-Student Follow-up <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Student Follow-up" data-size="line"> lets you keep timestamped, tagged notes about a learner's progress and difficulties — a lightweight case-note system for tracking how a student is doing over time.
+Student Follow-up <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Student Follow-up" data-size="line"> lets you keep timestamped, tagged notes about a learner's progress and difficulties — a lightweight case-note system for tracking how a student is doing over time.
 
 ## Accessing the Tool
 

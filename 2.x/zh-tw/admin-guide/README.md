@@ -32,4 +32,4 @@
 
 ## 存取管理面板
 
-以管理員身份登入後，點擊側邊欄中的 **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 以存取管理面板。
+以管理員身份登入後，點擊側邊欄中的 **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 以存取管理面板。

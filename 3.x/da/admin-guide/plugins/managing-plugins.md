@@ -2,7 +2,7 @@
 
 ## Adgang til plugin-administratoren
 
-![Plugin-administratoren viser en liste over tilgængelige plugins med aktiveringskontakter og konfigurationsmuligheder](/.gitbook/assets/admin-plugin-manager.png)
+![Plugin-administratoren viser en liste over tilgængelige plugins med aktiveringskontakter og konfigurationsmuligheder](../../.gitbook/assets/admin-plugin-manager.png)
 
 Fra administrationspanelet skal du klikke på **Manage plugins** for at se listen over tilgængelige plugins.
 

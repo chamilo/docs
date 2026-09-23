@@ -4,7 +4,7 @@ Chamilo bevat een carrièrebeheersysteem waarmee u opleidingstrajecten kunt defi
 
 ## Carrières
 
-![De carrièrelĳst met gedefinieerde carrièrepaden met naam en beschrijving](/.gitbook/assets/admin-careers-list.png)
+![De carrièrelĳst met gedefinieerde carrièrepaden met naam en beschrijving](../../.gitbook/assets/admin-careers-list.png)
 
 Een **carrière** vertegenwoordigt een gestructureerd opleidingstraject — een reeks opleidingsstappen die een cursist volgt om een professioneel doel te bereiken.
 

@@ -10,7 +10,7 @@ When editing a document in the **Documents** tool, the AI media generation featu
 
 ## How to Generate an Image or Video
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
+1. Open a document in the **Documents** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
 2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
 3. Open the **Generate AI media** dialog from the editor toolbar
 4. Describe what you want the media to show, or use the selected paragraph as the prompt

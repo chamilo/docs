@@ -4,9 +4,9 @@
 
 ## 查看日程
 
-从课程首页打开**日程**工具 <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="日程" data-size="line">。您可以通过三种模式查看活动：
+从课程首页打开**日程**工具 <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="日程" data-size="line">。您可以通过三种模式查看活动：
 
-![日程以日历视图显示课程活动和截止日期](/.gitbook/assets/agenda-calendar-view.png)
+![日程以日历视图显示课程活动和截止日期](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **日历视图** — 按月/周/日的视觉日历
 * **列表视图** — 按时间顺序显示的活动列表
@@ -14,7 +14,7 @@
 
 ## 创建活动
 
-1. 点击**添加活动** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加活动" data-size="line">
+1. 点击**添加活动** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="添加活动" data-size="line">
 2. 填写活动详细信息：
    * **标题** — 活动的简短名称
    * **开始日期和时间**
@@ -23,13 +23,13 @@
 3. 选择**目标受众**：
    * **所有学生** — 课程中所有注册的学生
    * **特定用户或组** — 选择个别学生或组
-4. 可选地，设置**提醒** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="提醒" data-size="line">，以在活动前通过电子邮件发送通知（需要在门户网站上由管理员配置*cron*）
+4. 可选地，设置**提醒** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="提醒" data-size="line">，以在活动前通过电子邮件发送通知（需要在门户网站上由管理员配置*cron*）
 5. 保存
 
 ## 管理活动
 
-* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 点击活动以修改其详细信息
-* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从日历中移除活动
+* **编辑** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 点击活动以修改其详细信息
+* **删除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 从日历中移除活动
 * **拖放** — 在日历视图中，拖动活动以重新安排时间
 
 ## 个人日程

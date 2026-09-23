@@ -6,8 +6,8 @@ Tiedotteiden kautta lähetetyt viestit toimitetaan oppijoille sekä sähköposti
 
 ## Tiedotteen luominen
 
-1. Avaa **Tiedotteet**-työkalu <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Tiedotteet" data-size="line"> kurssin etusivulta
-2. Napsauta uudelleen **Lisää tiedote** -kuvaketta <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Tiedotteet" data-size="line">
+1. Avaa **Tiedotteet**-työkalu <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Tiedotteet" data-size="line"> kurssin etusivulta
+2. Napsauta uudelleen **Lisää tiedote** -kuvaketta <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Tiedotteet" data-size="line">
 3. Täytä:
    * **Vastaanottajat** — Valitse, kuka saa tiedotteen:
      * Kaikki ilmoittautuneet oppijat
@@ -25,9 +25,9 @@ Tiedotteiden kautta lähetetyt viestit toimitetaan oppijoille sekä sähköposti
 
 ## Tiedotteiden hallinta
 
-* **Muokkaa** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> — Muokkaa olemassa olevaa tiedotetta
-* **Poista** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> — Poista tiedote
-* **Näkyvyys** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> — Piilota tai näytä tiedotteita
+* **Muokkaa** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> — Muokkaa olemassa olevaa tiedotetta
+* **Poista** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> — Poista tiedote
+* **Näkyvyys** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> — Piilota tai näytä tiedotteita
 
 Tiedotteet näytetään käänteisessä aikajärjestyksessä (uusin ensin).
 

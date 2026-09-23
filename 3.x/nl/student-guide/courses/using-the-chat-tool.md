@@ -4,9 +4,9 @@ Sommige cursussen bevatten een **Chat**-tool — realtime tekstberichten gekoppe
 
 ## Berichten verzenden
 
-Open de **Chat**-tool <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> vanaf de cursushomepage. U ziet een lijst **Gebruikers** van iedereen die momenteel online is in de cursus, elk met een eigen **Chat**-knop, plus een tabblad **All** voor de hele groep:
+Open de **Chat**-tool <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> vanaf de cursushomepage. U ziet een lijst **Gebruikers** van iedereen die momenteel online is in de cursus, elk met een eigen **Chat**-knop, plus een tabblad **All** voor de hele groep:
 
-![De cursus-Chat-tool, met de lijst van online gebruikers en een berichtcomposer](/.gitbook/assets/student-course-chat.png)
+![De cursus-Chat-tool, met de lijst van online gebruikers en een berichtcomposer](../../.gitbook/assets/student-course-chat.png)
 
 Kies een persoon (of **All**) en typ uw bericht in het vak onderaan. Druk op **Enter** om het te verzenden, of **Shift+Enter** om een nieuwe regel te beginnen zonder te verzenden. Met **Preview** kunt u de opmaak controleren voordat u verzendt, en **Reset** wist wat u hebt getypt.
 

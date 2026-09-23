@@ -21,7 +21,7 @@ Om en kurs synlighet tillåter det kan du prenumerera själv utan att vänta på
 2. Bläddra eller sök efter den kurs du vill gå med i.
 3. Klicka på kursen för att öppna dess detaljer och klicka sedan på knappen för att gå med.
 
-![Kurskatalogen, med en Prenumerera-knapp på varje kurskort](/.gitbook/assets/student-course-catalogue.png)
+![Kurskatalogen, med en Prenumerera-knapp på varje kurskort](../../.gitbook/assets/student-course-catalogue.png)
 
 En kurs du redan är inskriven i visar **Gå till kursen** i stället för en prenumereraknapp.
 

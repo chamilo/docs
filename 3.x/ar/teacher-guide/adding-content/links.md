@@ -4,8 +4,8 @@
 
 ## إضافة رابط
 
-1. افتح أداة **الروابط** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="الروابط" data-size="line"> من الصفحة الرئيسية للدورة
-2. انقر **إضافة رابط** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="إضافة رابط" data-size="line">
+1. افتح أداة **الروابط** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="الروابط" data-size="line"> من الصفحة الرئيسية للدورة
+2. انقر **إضافة رابط** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="إضافة رابط" data-size="line">
 3. املأ التفاصيل:
    * **URL** — عنوان الويب (مثل `https://example.com/resource`)
    * **اسم الرابط** — اسم وصفي للرابط
@@ -27,10 +27,10 @@
 
 ## إدارة الروابط
 
-* **التحقق من الرابط** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="الصلاحية" data-size="line">  — يمكن لـ Chamilo التحقق مما إذا كانت الروابط لا تزال نشطة أم معطّلة
-* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تحديث عنوان URL للرابط أو عنوانه أو وصفه
-* **الظهور** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="الظهور" data-size="line"> — إخفاء الرابط عن المتعلمين أو إظهاره لهم
-* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة الرابط
+* **التحقق من الرابط** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="الصلاحية" data-size="line">  — يمكن لـ Chamilo التحقق مما إذا كانت الروابط لا تزال نشطة أم معطّلة
+* **تعديل** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تحديث عنوان URL للرابط أو عنوانه أو وصفه
+* **الظهور** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="الظهور" data-size="line"> — إخفاء الرابط عن المتعلمين أو إظهاره لهم
+* **حذف** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة الرابط
 
 ## تصدير الروابط
 

@@ -4,8 +4,8 @@ La herramienta de enlaces le permite compartir URL útiles con sus alumnos, orga
 
 ## Añadir un enlace
 
-1. Abra la herramienta **Enlaces** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Enlaces" data-size="line"> desde la página de inicio del curso
-2. Haga clic en **Añadir un enlace** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Añadir enlace" data-size="line">
+1. Abra la herramienta **Enlaces** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Enlaces" data-size="line"> desde la página de inicio del curso
+2. Haga clic en **Añadir un enlace** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Añadir enlace" data-size="line">
 3. Complete los datos:
    * **URL** — La dirección web (p. ej., `https://example.com/resource`)
    * **Nombre del enlace** — Un nombre descriptivo para el enlace
@@ -27,10 +27,10 @@ Los enlaces de una categoría se muestran juntos, lo que facilita a los alumnos 
 
 ## Gestionar enlaces
 
-* **Comprobación de enlaces** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validez" data-size="line">  — Chamilo puede verificar si los enlaces siguen activos o están rotos
-* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Actualice la URL, el título o la descripción del enlace
-* **Visibilidad** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidad" data-size="line"> — Oculte o muestre el enlace a los alumnos
-* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Quite el enlace
+* **Comprobación de enlaces** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validez" data-size="line">  — Chamilo puede verificar si los enlaces siguen activos o están rotos
+* **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Actualice la URL, el título o la descripción del enlace
+* **Visibilidad** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidad" data-size="line"> — Oculte o muestre el enlace a los alumnos
+* **Eliminar** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Quite el enlace
 
 ## Exportar enlaces
 

@@ -13,7 +13,7 @@ AI演習ジェネレーターは、人工知能を使って小テストの問題
 
 ## 問題の生成方法
 
-![トピックと問題数のフィールドがあるAI演習ジェネレーターのフォーム](/.gitbook/assets/ai-exercise-generator.png)
+![トピックと問題数のフィールドがあるAI演習ジェネレーターのフォーム](../../.gitbook/assets/ai-exercise-generator.png)
 
 ジェネレーターには、タブとして利用できる2つのモードがあります。
 
@@ -32,7 +32,7 @@ AI演習ジェネレーターは、人工知能を使って小テストの問題
 
 ## 確認と編集
 
-![確認のため表示されたAI生成問題。各問題の編集、採用、削除のオプション付き](/.gitbook/assets/ai-exercise-generator-results.png)
+![確認のため表示されたAI生成問題。各問題の編集、採用、削除のオプション付き](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 生成された問題は **提案** として提示されます。次の作業を行ってください。
 

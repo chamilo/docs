@@ -17,11 +17,11 @@ Sommige platformen schakelen de AI Tutor ook **buiten elke cursus** in — in da
 
 Zoek naar de chatknop (een zwevend spraakballon-pictogram) onderaan het scherm. Als je die opent, zie je je contacten plus, indien ingeschakeld, een aparte vermelding **AI Tutor** met een robotpictogram en een stipje "online" — klik erop om je gesprek met de AI te starten of voort te zetten.
 
-![De contactenlijst van het chatpaneel, met een AI Tutor-vermelding boven je gewone contacten](/.gitbook/assets/student-docked-chat-contacts.png)
+![De contactenlijst van het chatpaneel, met een AI Tutor-vermelding boven je gewone contacten](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Typ je vraag en druk op **Enter** om te verzenden (**Shift+Enter** voegt een regeleinde in in plaats van te verzenden). De AI Tutor formatteert antwoorden met koppen, lijsten, vetgedrukte tekst en codeblokken waar dat nuttig is, zodat langere uitleg leesbaar blijft.
 
-![Een open gesprek met de AI Tutor, met de berichtcomposer onderaan](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Een open gesprek met de AI Tutor, met de berichtcomposer onderaan](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Vragen over iets wat je aan het lezen bent
 

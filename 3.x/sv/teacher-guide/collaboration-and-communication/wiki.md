@@ -26,7 +26,7 @@ För att länka till en annan wikisida från redigeraren skapar du en länk med 
 Alla med redigeringsbehörighet kan ändra en wikisida:
 
 1. Öppna sidan du vill redigera
-2. Klicka på knappen **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line">
+2. Klicka på knappen **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line">
 3. Gör dina ändringar i redigeraren
 4. Lägg till en valfri post under **Comments** som beskriver vad du ändrade
 5. Spara

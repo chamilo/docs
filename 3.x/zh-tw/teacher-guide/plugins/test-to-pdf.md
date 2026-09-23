@@ -1,6 +1,6 @@
 # 測驗轉 PDF
 
-測驗轉 PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="測驗轉 PDF" data-size="line"> 可將課程測驗的題目匯出為可列印的 PDF——僅題目、僅答案，或兩者一併匯出——便於製作紙本測驗。
+測驗轉 PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="測驗轉 PDF" data-size="line"> 可將課程測驗的題目匯出為可列印的 PDF——僅題目、僅答案，或兩者一併匯出——便於製作紙本測驗。
 
 ## 存取此工具
 

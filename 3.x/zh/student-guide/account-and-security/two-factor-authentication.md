@@ -11,7 +11,7 @@
 3. 输入您的 **当前密码**，勾选 **启用双因素认证（2FA）**，然后点击 **更新设置**。
 4. 页面将重新加载并显示二维码及提示“扫描二维码以启用 2FA”。请使用手机上的身份验证器应用扫描该二维码（任何兼容 TOTP 的应用均可，例如 Google Authenticator、Microsoft Authenticator 或 Authy）。
 
-![提交后的“更改密码”表单，显示待扫描的二维码及 2FA 验证码字段](/.gitbook/assets/student-2fa-qr-code.png)
+![提交后的“更改密码”表单，显示待扫描的二维码及 2FA 验证码字段](../../.gitbook/assets/student-2fa-qr-code.png)
 
 5. 再次输入当前密码，并在 **2FA 验证码** 字段中填入应用当前显示的 6 位数字，然后再次点击 **更新设置**。您将看到 2FA 已激活的确认信息。
 

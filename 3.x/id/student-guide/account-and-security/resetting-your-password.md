@@ -6,7 +6,7 @@ Jika Anda lupa kata sandi — atau hanya ingin mengubahnya — berikut caranya, 
 
 Pada halaman masuk, klik **Lupa kata sandi Anda?**. Jika tautan ini tidak ada, administrator Anda telah menonaktifkan fitur ini — hubungi mereka secara langsung untuk mendapatkan akses kembali.
 
-![Formulir "Saya kehilangan kata sandi", dengan satu kolom untuk nama pengguna atau alamat e-mail Anda](/.gitbook/assets/student-lost-password.png)
+![Formulir "Saya kehilangan kata sandi", dengan satu kolom untuk nama pengguna atau alamat e-mail Anda](../../.gitbook/assets/student-lost-password.png)
 
 1. Masukkan **nama pengguna atau alamat e-mail** Anda di kolom tunggal pada formulir.
 2. Jika tantangan CAPTCHA muncul, selesaikan (lihat [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Anda dapat mengubah kata sandi kapan saja, tanpa menunggu sampai lupa:
 2. Klik **Ubah kata sandi**.
 3. Masukkan kata sandi Anda saat ini, lalu kata sandi baru dua kali, dan kirim.
 
-![Formulir Ubah Kata Sandi, dengan kolom untuk kata sandi saat ini dan kata sandi baru](/.gitbook/assets/student-change-password.png)
+![Formulir Ubah Kata Sandi, dengan kolom untuk kata sandi saat ini dan kata sandi baru](../../.gitbook/assets/student-change-password.png)
 
 Ini adalah halaman yang sama tempat Anda dapat mengaktifkan [Autentikasi Dua Faktor](two-factor-authentication.md), jika platform Anda mendukungnya — dalam kasus itu, Anda juga akan melihat kotak centang "Aktifkan autentikasi dua faktor" di sini, yang tidak ditampilkan di atas karena tidak aktif di setiap platform.
 

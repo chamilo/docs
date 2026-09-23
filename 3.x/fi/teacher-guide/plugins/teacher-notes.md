@@ -1,6 +1,6 @@
 # Opettajan muistiinpanot
 
-Opettajan muistiinpanot <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Opettajan muistiinpanot" data-size="line"> tarjoaa kurssin opetustiimille yksityisen muistikirjan, johon voi kirjata muistiinpanoja tietyistä oppijoista — edistymishavaintoja, muistutuksia, mitä tahansa, mitä et halua julkiseen työkaluun. Opiskelijat eivät koskaan näe tätä työkalua tai sen sisältöä.
+Opettajan muistiinpanot <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Opettajan muistiinpanot" data-size="line"> tarjoaa kurssin opetustiimille yksityisen muistikirjan, johon voi kirjata muistiinpanoja tietyistä oppijoista — edistymishavaintoja, muistutuksia, mitä tahansa, mitä et halua julkiseen työkaluun. Opiskelijat eivät koskaan näe tätä työkalua tai sen sisältöä.
 
 > Älä sekoita [Muistikirja](../additional-tools/notebook.md) -työkaluun — se on oppijoiden henkilökohtainen muistikirja; Opettajan muistiinpanot on erillinen, vain opettajille tarkoitettu työkalu.
 

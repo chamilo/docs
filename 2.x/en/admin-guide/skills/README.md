@@ -2,7 +2,7 @@
 
 The **Skills** block on the administration dashboard groups the tools for defining, organizing, and tracking competency badges ("skills") across the platform. A skill can be awarded automatically when a learner reaches a gradebook threshold, completes specific courses, or manually by a teacher, and can carry a badge-style icon and a level (for example Bronze/Silver/Gold).
 
-![The Skills block on the administration dashboard, listing Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking, and Skills and assessments](/.gitbook/assets/admin-skills-block.png)
+![The Skills block on the administration dashboard, listing Skills wheel, Skills import, Manage skills, Manage skills levels, Skills ranking, and Skills and assessments](../../.gitbook/assets/admin-skills-block.png)
 
 The entire block only appears if the **Enable skills tool** setting (`skill.allow_skills_tool`, under Configuration Settings > Skills) is turned on — it is enabled by default.
 

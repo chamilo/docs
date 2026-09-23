@@ -26,7 +26,7 @@ Wiki是一组相互链接的网页集合，任何有权限的人都可以编辑�
 任何有编辑权限的人都可以修改Wiki页面：
 
 1. 打开您想要编辑的页面
-2. 点击**编辑**按钮 <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line">
+2. 点击**编辑**按钮 <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line">
 3. 在编辑器中进行更改
 4. 在**评论**中可选地添加一条记录，描述您更改了什么
 5. 保存

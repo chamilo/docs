@@ -9,11 +9,11 @@ AI Grading is available in two contexts:
 * **Open-ended exercise questions** — When you manually grade free-answer questions in an exercise
 * **Assignment submissions** — When you review and score student publications in the Assignments tool
 
-Look for the **AI grading** button (indicated by a robot icon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in the grading interface.
+Look for the **AI grading** button (indicated by a robot icon <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in the grading interface.
 
 ## How It Works
 
-![The AI grading interface showing a student submission with suggested score and feedback](/.gitbook/assets/ai-grading-interface.png)
+![The AI grading interface showing a student submission with suggested score and feedback](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Open a submission or answer that needs grading
 2. Click the **AI grading** button

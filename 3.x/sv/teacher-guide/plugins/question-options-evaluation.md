@@ -1,6 +1,6 @@
 # Utvärdering av frågealternativ
 
-Utvärdering av frågealternativ <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Utvärdering av frågealternativ" data-size="line"> låter dig tillämpa en formel för negativ poängsättning (straffpoäng) på ett tests poängberäkning, i stället för Chamilos standardbeteende att bara summera korrekta svar.
+Utvärdering av frågealternativ <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Utvärdering av frågealternativ" data-size="line"> låter dig tillämpa en formel för negativ poängsättning (straffpoäng) på ett tests poängberäkning, i stället för Chamilos standardbeteende att bara summera korrekta svar.
 
 ## Ange en formel
 

@@ -1,12 +1,12 @@
 # Perjanjian Hukum Kursus
 
-Plugin Course Legal Agreement <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Course Legal Agreement" data-size="line"> mewajibkan mahasiswa untuk menerima syarat/pemberitahuan hukum sebelum mereka dapat mengakses kursus Anda — berguna untuk formulir persetujuan, kebijakan penggunaan, atau pemberitahuan apa pun yang perlu disetujui secara formal oleh peserta didik.
+Plugin Course Legal Agreement <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Course Legal Agreement" data-size="line"> mewajibkan mahasiswa untuk menerima syarat/pemberitahuan hukum sebelum mereka dapat mengakses kursus Anda — berguna untuk formulir persetujuan, kebijakan penggunaan, atau pemberitahuan apa pun yang perlu disetujui secara formal oleh peserta didik.
 
 ## Mengaktifkannya untuk Kursus Anda
 
 Mengaktifkan plugin di seluruh platform tidak melakukan apa pun dengan sendirinya — Anda tetap perlu mengaktifkannya untuk setiap kursus yang menginginkannya:
 
-1. Buka **Pengaturan** kursus Anda <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line">
+1. Buka **Pengaturan** kursus Anda <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line">
 2. Di bagian akses kursus, centang **Enable legal terms**
 
 Ini menambahkan alat **Course legal agreement** ke kursus Anda.

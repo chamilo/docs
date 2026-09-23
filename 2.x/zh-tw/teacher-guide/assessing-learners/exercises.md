@@ -4,7 +4,7 @@
 
 ## 建立練習
 
-1. 從課程首頁開啟 **練習** 工具 <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="練習" data-size="line">
+1. 從課程首頁開啟 **練習** 工具 <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="練習" data-size="line">
 2. 點選 **新練習**
 3. 輸入 **標題** 和選用的 **描述**
 4. 設定練習選項（見下文）
@@ -12,7 +12,7 @@
 
 ## 練習設定
 
-![練習設定面板，包含顯示、時間、嘗試次數和回饋選項](/.gitbook/assets/exercise-settings.png)
+![練習設定面板，包含顯示、時間、嘗試次數和回饋選項](../../.gitbook/assets/exercise-settings.png)
 
 ### 顯示與導覽
 
@@ -75,7 +75,7 @@
 
 ## 題目類型
 
-![練習建立介面中可用的題目類型概覽](/.gitbook/assets/exercise-question-types.png)
+![練習建立介面中可用的題目類型概覽](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo 提供多種題目類型，分為數個類別：
 

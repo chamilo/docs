@@ -2,7 +2,7 @@
 
 Kursusindstillinger giver dig mulighed for at styre, hvordan dit kursus opfører sig — hvem der kan tilgå det, hvordan det vises, og hvilke funktioner der er aktiveret.
 
-For at åbne kursusindstillinger skal du gå ind i dit kursus og klikke på ikonet **Indstillinger** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Indstillinger" data-size="line"> ved siden af knappen **Skift til elevvisning**.
+For at åbne kursusindstillinger skal du gå ind i dit kursus og klikke på ikonet **Indstillinger** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Indstillinger" data-size="line"> ved siden af knappen **Skift til elevvisning**.
 
 ## Generelle indstillinger
 
@@ -29,7 +29,7 @@ Hvert kursus har en lagringsgrænse (diskkvote) for uploadede filer. Kvoten angi
 
 ### Kursussynlighed
 
-![Kursussynlighedsindstillingerne, der viser mulighederne offentlig, åben, registreret og lukket](/.gitbook/assets/course-settings-visibility.png)
+![Kursussynlighedsindstillingerne, der viser mulighederne offentlig, åben, registreret og lukket](../../.gitbook/assets/course-settings-visibility.png)
 
 Styr, hvem der kan tilgå dit kursus:
 
@@ -84,7 +84,7 @@ Styr adfærden i forumværktøjet for dette kursus.
 
 ### Autolaunch-indstillinger
 
-Et kursus kan indstilles til at have en autolaunch-adfærd, som forkorter vejen for de lærende til de vigtige dele af dit kursus. Hvis det er aktiveret, sendes de lærende, der går ind i dit kursus, direkte til det valgte værktøj og ser ikke kursets startside som et mellemliggende trin. Du kan endda vælge specifikke læringsstier eller øvelser, der skal startes ved ankomst til kurset. I dette tilfælde skal du vælge indstillingen her, og derefter gå til listen over læringsstier eller øvelser og klikke på raketikonet <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolaunch" data-size="line"> på det valgte element.
+Et kursus kan indstilles til at have en autolaunch-adfærd, som forkorter vejen for de lærende til de vigtige dele af dit kursus. Hvis det er aktiveret, sendes de lærende, der går ind i dit kursus, direkte til det valgte værktøj og ser ikke kursets startside som et mellemliggende trin. Du kan endda vælge specifikke læringsstier eller øvelser, der skal startes ved ankomst til kurset. I dette tilfælde skal du vælge indstillingen her, og derefter gå til listen over læringsstier eller øvelser og klikke på raketikonet <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autolaunch" data-size="line"> på det valgte element.
 
 ### Indstillinger for AI-hjælpere
 

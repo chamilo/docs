@@ -4,7 +4,7 @@
 
 ## إنشاء تمرين
 
-1. افتح أداة **التمارين** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="التمارين" data-size="line"> من الصفحة الرئيسية للمقرر
+1. افتح أداة **التمارين** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="التمارين" data-size="line"> من الصفحة الرئيسية للمقرر
 2. انقر **تمرين جديد**
 3. أدخل **عنوانًا** و**وصفًا** اختياريًا
 4. اضبط إعدادات التمرين (انظر أدناه)
@@ -12,7 +12,7 @@
 
 ## إعدادات التمرين
 
-![لوحة إعدادات التمرين مع خيارات العرض والوقت والمحاولات والتغذية الراجعة](/.gitbook/assets/exercise-settings.png)
+![لوحة إعدادات التمرين مع خيارات العرض والوقت والمحاولات والتغذية الراجعة](../../.gitbook/assets/exercise-settings.png)
 
 ### العرض والتنقل
 
@@ -75,7 +75,7 @@
 
 ## أنواع الأسئلة
 
-![نظرة عامة على أنواع الأسئلة المتاحة في واجهة إنشاء التمرين](/.gitbook/assets/exercise-question-types.png)
+![نظرة عامة على أنواع الأسئلة المتاحة في واجهة إنشاء التمرين](../../.gitbook/assets/exercise-question-types.png)
 
 يقدم Chamilo مجموعة غنية من أنواع الأسئلة منظمة في عدة فئات:
 

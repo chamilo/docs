@@ -1,12 +1,12 @@
 # Cursusbeschrijving
 
-De tool **Cursusbeschrijving** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Cursusbeschrijving" data-size="line"> laat u een gestructureerde, meerdelige beschrijving van uw cursus schrijven — de doelen, methodologie, materialen en meer. In tegenstelling tot de vrije-tekstbanner **Cursusintroductie** op uw [cursushomepage](README.md#the-course-homepage), die alleen uw ingeschreven cursisten zien, is de cursusbeschrijving wat potentiële cursisten *vóór* inschrijving zien, vanuit de cursuscatalogus.
+De tool **Cursusbeschrijving** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Cursusbeschrijving" data-size="line"> laat u een gestructureerde, meerdelige beschrijving van uw cursus schrijven — de doelen, methodologie, materialen en meer. In tegenstelling tot de vrije-tekstbanner **Cursusintroductie** op uw [cursushomepage](README.md#the-course-homepage), die alleen uw ingeschreven cursisten zien, is de cursusbeschrijving wat potentiële cursisten *vóór* inschrijving zien, vanuit de cursuscatalogus.
 
 Eenmaal ingeschreven kunnen cursisten er nog steeds naar terugkeren vanuit de cursus — als u de tool voor hen zichtbaar laat, is het een handige plek om praktische informatie te raadplegen, zoals de algemene structuur van de cursus of wie de docenten zijn, zonder u rechtstreeks te hoeven vragen. Ingeschreven cursisten kunnen de door u geschreven secties bekijken, maar ze niet toevoegen, bewerken of verwijderen.
 
 ## De tool openen
 
-Open de tool **Cursusbeschrijving** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Cursusbeschrijving" data-size="line"> vanuit het toolraster op de cursushomepage.
+Open de tool **Cursusbeschrijving** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Cursusbeschrijving" data-size="line"> vanuit het toolraster op de cursushomepage.
 
 ## De acht secties
 
@@ -30,7 +30,7 @@ Een cursusbeschrijving bestaat uit maximaal acht onafhankelijke secties. Elke se
 3. Schrijf uw inhoud in de rich-texteditor (ondersteunt opmaak, afbeeldingen, links, ingesloten video en andere rijke inhoud). Als dit op uw platform is ingeschakeld, kunt u ook meerdere taalversies van dezelfde sectie schrijven en automatisch alleen de eigen taal van elke cursist laten zien — zie [Meertalige inhoud](../adding-content/multi-language-content.md).
 4. Opslaan
 
-Elke sectie die u toevoegt, verschijnt als een eigen kaart in de tool. Gebruik de pictogrammen **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> en **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> op een kaart om deze later bij te werken of te verwijderen.
+Elke sectie die u toevoegt, verschijnt als een eigen kaart in de tool. Gebruik de pictogrammen **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> en **Verwijderen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> op een kaart om deze later bij te werken of te verwijderen.
 
 ## Koppeling met de cursuscatalogus
 

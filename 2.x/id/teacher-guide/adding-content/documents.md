@@ -4,13 +4,13 @@ Alat dokumen adalah repositori berkas kursus Anda. Anda dapat mengunggah berkas,
 
 ## Mengakses Alat Dokumen
 
-Buka alat **Dokumen** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumen" data-size="line"> dari halaman utama kursus. Anda akan melihat penjelajah berkas yang menampilkan folder utama dari perpustakaan dokumen kursus Anda.
+Buka alat **Dokumen** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumen" data-size="line"> dari halaman utama kursus. Anda akan melihat penjelajah berkas yang menampilkan folder utama dari perpustakaan dokumen kursus Anda.
 
-![Penjelajah berkas dokumen yang menampilkan folder dan berkas dengan ikon aksi](/.gitbook/assets/documents-file-browser.png)
+![Penjelajah berkas dokumen yang menampilkan folder dan berkas dengan ikon aksi](../../.gitbook/assets/documents-file-browser.png)
 
 ## Mengunggah Berkas
 
-1. Klik tombol **Unggah** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Unggah" data-size="line">
+1. Klik tombol **Unggah** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Unggah" data-size="line">
 2. Pilih satu atau lebih berkas dari komputer Anda (Anda dapat menyeret dan menjatuhkan berkas ke area unggah)
 3. Berkas akan diunggah dan muncul di folder saat ini
 
@@ -52,7 +52,7 @@ Jika peramban Anda mendukungnya, Anda dapat merekam audio langsung di dalam alat
 
 Jaga perpustakaan dokumen Anda tetap terorganisir menggunakan folder:
 
-1. Klik **Folder baru** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Folder baru" data-size="line">
+1. Klik **Folder baru** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Folder baru" data-size="line">
 2. Masukkan nama folder
 3. Simpan
 
@@ -61,7 +61,7 @@ Anda dapat membuat folder bersarang untuk membangun hierarki konten yang logis (
 ### Memindahkan Berkas
 
 * Temukan berkas Anda di daftar
-* Klik **Pindah** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line">
+* Klik **Pindah** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line">
 * Pilih folder tujuan
 * Konfirmasi
 
@@ -71,12 +71,12 @@ Untuk setiap berkas atau folder, Anda dapat:
 
 | Aksi | Ikon | Deskripsi |
 |------|------|-----------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Mengganti nama berkas atau mengedit kontennya (untuk halaman web) |
-| **Hapus** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> | Menghapus berkas atau folder |
-| **Unduh** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Unduh" data-size="line"> | Mengunduh berkas ke komputer Anda |
-| **Visibilitas** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> | Menyembunyikan atau menampilkan berkas kepada peserta didik |
-| **Ganti** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Ganti" data-size="line"> | Mengganti berkas dengan versi yang diperbarui |
-| **Pindah** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line"> | Memindahkan ke folder lain |
+| **Edit** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Mengganti nama berkas atau mengedit kontennya (untuk halaman web) |
+| **Hapus** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> | Menghapus berkas atau folder |
+| **Unduh** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Unduh" data-size="line"> | Mengunduh berkas ke komputer Anda |
+| **Visibilitas** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> | Menyembunyikan atau menampilkan berkas kepada peserta didik |
+| **Ganti** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Ganti" data-size="line"> | Mengganti berkas dengan versi yang diperbarui |
+| **Pindah** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line"> | Memindahkan ke folder lain |
 
 Mengganti berkas adalah fitur penting ketika Anda menggunakan dokumen untuk membangun jalur pembelajaran, karena mengganti dokumen akan memungkinkan dokumen tersebut diperbarui tanpa peserta didik kehilangan kemajuan yang telah disimpan untuk dokumen tersebut.
 
@@ -87,7 +87,7 @@ Pilih beberapa berkas menggunakan kotak centang, lalu gunakan bilah alat untuk m
 ---
 ## Integrasi OnlyOffice
 
-Jika administrator Anda telah mengkonfigurasi plugin **OnlyOffice**, Anda dapat mengedit file Word, Excel, dan PowerPoint (atau LibreOffice) langsung di browser tanpa perlu mengunduhnya. Cari opsi **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> saat melihat file yang didukung.
+Jika administrator Anda telah mengkonfigurasi plugin **OnlyOffice**, Anda dapat mengedit file Word, Excel, dan PowerPoint (atau LibreOffice) langsung di browser tanpa perlu mengunduhnya. Cari opsi **Edit with OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> saat melihat file yang didukung.
 
 Dokumen disimpan di Chamilo, OnlyOffice hanya digunakan untuk **melihat** atau mengedit dokumen di browser, tanpa memerlukan alat tambahan apa pun.
 

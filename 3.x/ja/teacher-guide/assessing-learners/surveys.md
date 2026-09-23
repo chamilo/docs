@@ -4,7 +4,7 @@
 
 ## アンケートの作成
 
-1. コースホームページから **アンケート** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="アンケート" data-size="line"> ツールを開く
+1. コースホームページから **アンケート** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="アンケート" data-size="line"> ツールを開く
 2. **アンケートを作成** をクリックする
 3. アンケートの詳細を入力する:
    * **コード** — アンケートの一意のコードです。メールやリンクで使用されます。
@@ -65,7 +65,7 @@
 
 ## 結果の表示
 
-![各質問のチャートとパーセンテージ内訳付きのアンケート結果](/.gitbook/assets/survey-results-charts.png)
+![各質問のチャートとパーセンテージ内訳付きのアンケート結果](../../.gitbook/assets/survey-results-charts.png)
 
 学習者が回答した後:
 

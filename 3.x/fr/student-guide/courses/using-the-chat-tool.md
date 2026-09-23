@@ -4,9 +4,9 @@ Certains cours incluent un outil **Chat** — une messagerie textuelle en temps 
 
 ## Envoyer des messages
 
-Ouvrez l'outil **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> depuis la page d'accueil du cours. Vous verrez une liste **Utilisateurs** de toutes les personnes actuellement en ligne dans le cours, chacune avec son propre bouton **Chat**, ainsi qu'un onglet **Tous** pour l'ensemble du groupe :
+Ouvrez l'outil **Chat** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> depuis la page d'accueil du cours. Vous verrez une liste **Utilisateurs** de toutes les personnes actuellement en ligne dans le cours, chacune avec son propre bouton **Chat**, ainsi qu'un onglet **Tous** pour l'ensemble du groupe :
 
-![L'outil Chat du cours, montrant la liste des utilisateurs en ligne et un champ de composition de message](/.gitbook/assets/student-course-chat.png)
+![L'outil Chat du cours, montrant la liste des utilisateurs en ligne et un champ de composition de message](../../.gitbook/assets/student-course-chat.png)
 
 Choisissez une personne (ou **Tous**) et saisissez votre message dans la zone en bas. Appuyez sur **Enter** pour l'envoyer, ou **Shift+Enter** pour commencer une nouvelle ligne sans envoyer. Une option **Aperçu** vous permet de vérifier la mise en forme avant l'envoi, et **Réinitialiser** efface ce que vous avez saisi.
 

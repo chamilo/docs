@@ -8,7 +8,7 @@ Haz clic en **Red social** en la barra lateral para acceder a las funciones soci
 
 ## Tu Muro Social
 
-![El muro social mostrando un feed de publicaciones, me gusta y comentarios de tus conexiones](/.gitbook/assets/social-wall.png)
+![El muro social mostrando un feed de publicaciones, me gusta y comentarios de tus conexiones](../.gitbook/assets/social-wall.png)
 
 El muro social muestra un feed de actividad tuya y de tus conexiones. Puedes:
 
@@ -30,9 +30,9 @@ Puedes conectarte con otros usuarios en la plataforma:
 
 La red social se integra con el sistema de mensajería de la plataforma:
 
-* **Enviar mensajes** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuevo mensaje" data-size="line"> — Escribir mensajes directos a otros usuarios
-* **Bandeja de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Leer y responder a los mensajes recibidos
-* **Mensajes enviados** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Enviados" data-size="line"> — Revisar los mensajes que has enviado
+* **Enviar mensajes** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuevo mensaje" data-size="line"> — Escribir mensajes directos a otros usuarios
+* **Bandeja de entrada** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Leer y responder a los mensajes recibidos
+* **Mensajes enviados** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Enviados" data-size="line"> — Revisar los mensajes que has enviado
 
 ### Redactar y Responder
 

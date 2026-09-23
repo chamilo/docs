@@ -9,11 +9,11 @@
 * **开放式练习题目** — 当您手动批改练习中的自由回答问题时
 * **作业提交** — 当您在作业工具中审查和评分学生的提交内容时
 
-请在批改界面中寻找 **人工智能评分** 按钮（由机器人图标 <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="人工智能" data-size="line"> 标示）。
+请在批改界面中寻找 **人工智能评分** 按钮（由机器人图标 <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="人工智能" data-size="line"> 标示）。
 
 ## 工作原理
 
-![人工智能评分界面，显示学生的提交内容、建议评分和反馈](/.gitbook/assets/ai-grading-interface.png)
+![人工智能评分界面，显示学生的提交内容、建议评分和反馈](../../.gitbook/assets/ai-grading-interface.png)
 
 1. 打开需要评估的提交内容或回答
 2. 点击 **人工智能评分** 按钮

@@ -144,14 +144,19 @@ Follow this site's existing conventions (see `CLAUDE.md` and neighboring pages i
 all under `3.x/en/`):
 - Match heading structure of sibling pages in the same section (a top `#` title, then `##` sections).
 - Reference the feature's icon inline on first mention with
-  `<img src="/.gitbook/assets/icons/mdi-<name>.svg" alt="..." data-size="line">`. If the icon SVG
-  doesn't exist yet under `3.x/en/.gitbook/assets/icons/`, source the real path data from
+  `<img src="<relative-path>.gitbook/assets/icons/mdi-<name>.svg" alt="..." data-size="line">`,
+  where `<relative-path>` is `../` once per directory level between the page and `3.x/en/` (e.g.
+  `../../` from a page two levels deep, nothing at all from a page directly in `3.x/en/`). If the
+  icon SVG doesn't exist yet under `3.x/en/.gitbook/assets/icons/`, source the real path data from
   `/var/www/MaterialDesign/svg/<name>.svg` (local MaterialDesign checkout) — never fabricate path
   data — and reformat it to the single-line convention already used by other icons in that
   directory (no `id`/`class` attributes, `viewBox="0 0 24 24"`).
-- Embed screenshots with a full descriptive alt text: `![What the image shows](/.gitbook/assets/<name>.png)`
-  — the leading slash resolves relative to the space's own root (`3.x/en/`), not the repo root; do
-  not write a `3.x/en/` prefix into the Markdown itself.
+- Embed screenshots the same way, with a full descriptive alt text:
+  `![What the image shows](<relative-path>.gitbook/assets/<name>.png)`.
+  **Never use a leading slash** (`/.gitbook/assets/...`) — in this monorepo/site-wide Git Sync setup
+  that does not resolve to the space's own root, and the image renders as broken on the published
+  site. This bit every single `2.x`/`3.x` page once already (fixed across 2609 files); don't
+  reintroduce it.
 - Keep heading levels and code-fence/image-reference counts intentional — the translation pipeline
   (`scripts/translate-docs.php --version 3.x ...`) asserts these match exactly between source and
   translated pages.

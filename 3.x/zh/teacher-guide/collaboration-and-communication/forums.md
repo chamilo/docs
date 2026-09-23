@@ -4,7 +4,7 @@
 
 ## 论坛结构
 
-![论坛分类列表，显示分类、论坛及主题数量](/.gitbook/assets/forum-category-list.png)
+![论坛分类列表，显示分类、论坛及主题数量](../../.gitbook/assets/forum-category-list.png)
 
 Chamilo 中的论坛分为三个层级：
 
@@ -14,7 +14,7 @@ Chamilo 中的论坛分为三个层级：
 
 ## 创建论坛分类
 
-1. 从课程主页打开 **论坛** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="论坛" data-size="line"> 工具
+1. 从课程主页打开 **论坛** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="论坛" data-size="line"> 工具
 2. 点击 **添加论坛分类**
 3. 输入 **分类名称** 及可选说明
 4. 保存

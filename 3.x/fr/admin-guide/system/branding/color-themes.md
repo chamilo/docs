@@ -8,7 +8,7 @@ Les thèmes de couleurs définissent la palette utilisée dans l’interface de 
 
 ## Application d’un thème
 
-![La page des thèmes de couleurs affichant les thèmes disponibles avec des pastilles d’aperçu et un bouton Appliquer](/.gitbook/assets/admin-color-themes.png)
+![La page des thèmes de couleurs affichant les thèmes disponibles avec des pastilles d’aperçu et un bouton Appliquer](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Depuis le panneau d’administration, accédez à **Thèmes de couleurs**
 2. Parcourez les thèmes disponibles

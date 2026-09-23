@@ -4,9 +4,9 @@ Los informes del curso te ofrecen una visión agregada de la actividad y el rend
 
 ## Acceso a los Informes del Curso
 
-Abre la herramienta **Seguimiento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> desde la página principal del curso y selecciona la vista de informes a nivel de curso.
+Abre la herramienta **Seguimiento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> desde la página principal del curso y selecciona la vista de informes a nivel de curso.
 
-![La visión general de seguimiento del curso mostrando métricas de participación y resumen de actividad de los estudiantes](/.gitbook/assets/tracking-course-overview.png)
+![La visión general de seguimiento del curso mostrando métricas de participación y resumen de actividad de los estudiantes](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Informes Disponibles
 
@@ -43,7 +43,7 @@ Para cada tarea:
 
 ## Exportación de Datos
 
-Puedes exportar datos de seguimiento e informes para un análisis más detallado. Busca la opción **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar los datos en un formato compatible con hojas de cálculo.
+Puedes exportar datos de seguimiento e informes para un análisis más detallado. Busca la opción **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar los datos en un formato compatible con hojas de cálculo.
 
 ## Informes de Sesión
 

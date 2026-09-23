@@ -4,7 +4,7 @@ Lo strumento sondaggi consente di creare questionari per raccogliere feedback da
 
 ## Creazione di un sondaggio
 
-1. Aprire lo strumento **Sondaggi** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondaggi" data-size="line"> dalla homepage del corso
+1. Aprire lo strumento **Sondaggi** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Sondaggi" data-size="line"> dalla homepage del corso
 2. Fare clic su **Crea sondaggio**
 3. Compilare i dettagli del sondaggio:
    * **Codice** — Si tratta di un codice univoco per il sondaggio. Verrà utilizzato nelle e-mail e nei collegamenti.
@@ -65,7 +65,7 @@ Nella parte inferiore della pagina di pubblicazione è disponibile un collegamen
 
 ## Visualizzazione dei risultati
 
-![Risultati del sondaggio con grafici e suddivisioni percentuali per ciascuna domanda](/.gitbook/assets/survey-results-charts.png)
+![Risultati del sondaggio con grafici e suddivisioni percentuali per ciascuna domanda](../../.gitbook/assets/survey-results-charts.png)
 
 Dopo che gli studenti hanno risposto:
 

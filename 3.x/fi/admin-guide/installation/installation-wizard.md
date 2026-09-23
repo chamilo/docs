@@ -13,7 +13,7 @@ Varmista, että seuraavat edellytykset täyttyvät:
 
 ## Vaihe 1: Asennuskieli
 
-![Asennusvelho vaihe 1 — kielen valinta](/.gitbook/assets/install-step1-language.png)
+![Asennusvelho vaihe 1 — kielen valinta](../../.gitbook/assets/install-step1-language.png)
 
 Ensimmäisessä vaiheessa valitset asennusprosessin kielen. Valitse haluamasi kieli avattavasta valikosta.
 
@@ -21,7 +21,7 @@ Jos Chamilo havaitsee olemassa olevan asennuksen (päivitystä varten), se näyt
 
 ## Vaihe 2: Vaatimusten tarkistus
 
-![Asennusvelho vaihe 2 — vaatimusten tarkistus, jossa näkyvät PHP-versio, laajennukset ja hakemisto-oikeudet](/.gitbook/assets/install-step2-requirements.png)
+![Asennusvelho vaihe 2 — vaatimusten tarkistus, jossa näkyvät PHP-versio, laajennukset ja hakemisto-oikeudet](../../.gitbook/assets/install-step2-requirements.png)
 
 Velho tarkistaa palvelinympäristösi:
 
@@ -34,7 +34,7 @@ Jos jokin vaatimus ei täyty, velho näyttää varoituksia tai virheitä. Korjaa
 
 ## Vaihe 3: Lisenssi
 
-![Asennusvelho vaihe 3 — lisenssin hyväksyntä](/.gitbook/assets/install-step3-license.png)
+![Asennusvelho vaihe 3 — lisenssin hyväksyntä](../../.gitbook/assets/install-step3-license.png)
 
 Tässä vaiheessa näytetään GNU/GPLv3-lisenssi. Sinun on rastitettava **"Hyväksyn"** -valintaruutu jatkaaksesi.
 
@@ -42,7 +42,7 @@ Valinnaisesti voit avata **Yhteystiedot**-osion ja antaa tietoja organisaatiosta
 
 ## Vaihe 4: Tietokanta-asetukset
 
-![Asennusvelho vaihe 4 — tietokantayhteyden määritys](/.gitbook/assets/install-step4-database.png)
+![Asennusvelho vaihe 4 — tietokantayhteyden määritys](../../.gitbook/assets/install-step4-database.png)
 
 Anna tietokantayhteyden tiedot:
 
@@ -58,7 +58,7 @@ Napsauta **Tarkista tietokantayhteys** testataksesi. Velho ei anna jatkaa, ennen
 
 ## Vaihe 5: Määritysasetukset
 
-![Asennusvelho vaihe 5 — ylläpitäjätili, portaalin asetukset ja sähköpostin määritys](/.gitbook/assets/install-step5-config.png)
+![Asennusvelho vaihe 5 — ylläpitäjätili, portaalin asetukset ja sähköpostin määritys](../../.gitbook/assets/install-step5-config.png)
 
 Tässä vaiheessa yhdistetään ylläpitäjätilin luonti, portaalin asetukset ja sähköpostin määritys.
 
@@ -95,7 +95,7 @@ Kaikki nämä asetukset voidaan muuttaa myöhemmin hallintapaneelista.
 
 ## Vaihe 6: Viimeinen tarkistus ennen asennusta
 
-![Asennustoiminto, vaihe 6 — kaikkien asetusten tarkistus ennen asennusta](/.gitbook/assets/install-step6-review.png)
+![Asennustoiminto, vaihe 6 — kaikkien asetusten tarkistus ennen asennusta](../../.gitbook/assets/install-step6-review.png)
 
 Tässä vaiheessa näytetään yhteenveto kaikesta syöttämästäsi tarkistusta varten:
 
@@ -107,7 +107,7 @@ Tarkista huolellisesti ja napsauta sitten **Install Chamilo** asennuksen suoritt
 
 ## Vaihe 7: Asennus valmis
 
-![Asennustoiminto, vaihe 7 — valmistuminen, tietoturvaohjeet ja portaalin linkki](/.gitbook/assets/install-step7-complete.png)
+![Asennustoiminto, vaihe 7 — valmistuminen, tietoturvaohjeet ja portaalin linkki](../../.gitbook/assets/install-step7-complete.png)
 
 Kun asennus on onnistunut, toiminto näyttää:
 

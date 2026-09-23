@@ -1,10 +1,10 @@
 # Overzicht van de beheerinterface
 
-Het beheerpaneel is uw commandocentrum voor het beheren van het Chamilo-platform. Open het door in de zijbalk op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> te klikken.
+Het beheerpaneel is uw commandocentrum voor het beheren van het Chamilo-platform. Open het door in de zijbalk op **Beheer** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> te klikken.
 
 ## Beheerdashboard
 
-![Het beheerdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](/.gitbook/assets/admin-dashboard-overview.png)
+![Het beheerdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Het beheerdashboard is ingedeeld in functionele blokken. Elk blok groepeert gerelateerde beheertaken:
 

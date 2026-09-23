@@ -32,4 +32,4 @@ Como administrador do Chamilo, você é responsável por:
 
 ## Acesso ao painel de administração
 
-Após fazer login como administrador, clique em **Administração** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administração" data-size="line"> na barra lateral para acessar o painel de administração.
+Após fazer login como administrador, clique em **Administração** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Administração" data-size="line"> na barra lateral para acessar o painel de administração.

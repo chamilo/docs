@@ -6,7 +6,7 @@
 
 ## 建立群組
 
-![顯示可用群組的名稱、描述和成員數量的使用者群組清單](/.gitbook/assets/admin-user-groups-list.png)
+![顯示可用群組的名稱、描述和成員數量的使用者群組清單](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. 從管理面板，前往**Classes**
 2. 點擊**Add classes**

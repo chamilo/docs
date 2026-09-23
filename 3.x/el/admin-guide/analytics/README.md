@@ -2,7 +2,7 @@
 
 Το μπλοκ **Αναλυτικά στοιχεία** στον πίνακα ελέγχου διαχείρισης συγκεντρώνει στατιστικά σε επίπεδο πλατφόρμας, αναλυτικά στοιχεία μάθησης, εταιρικές/HR αναφορές και εργαλεία μαζικής εξαγωγής. Ανάλογα με την έκδοση του Chamilo, αυτό το μπλοκ μπορεί να εμφανίζεται ως **"Tracking"** στον ίδιο τον πίνακα ελέγχου — πρόκειται για το ίδιο μπλοκ και στις δύο περιπτώσεις. Ο παρών οδηγός το αποκαλεί καθ’ όλη τη διάρκεια Αναλυτικά στοιχεία, ώστε να αποφεύγεται σύγχυση με τις [Ρυθμίσεις παρακολούθησης](../platform-settings/tracking-settings.md), την ξεχωριστή κατηγορία ρυθμίσεων που ελέγχει τι καταγράφεται και όχι τις ίδιες τις αναφορές.
 
-![Το μπλοκ Αναλυτικά στοιχεία στον πίνακα ελέγχου διαχείρισης (με την ετικέτα "Tracking" σε αυτό το στιγμιότυπο οθόνης), με τις επιλογές Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports και Tickets](/.gitbook/assets/admin-analytics-block.png)
+![Το μπλοκ Αναλυτικά στοιχεία στον πίνακα ελέγχου διαχείρισης (με την ετικέτα "Tracking" σε αυτό το στιγμιότυπο οθόνης), με τις επιλογές Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports και Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Πρόσβαση στα Αναλυτικά στοιχεία
 

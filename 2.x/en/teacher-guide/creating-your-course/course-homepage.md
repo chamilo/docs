@@ -13,7 +13,7 @@ The course introduction is a rich-text area displayed at the top of the homepage
 
 To edit the introduction:
 
-1. Click the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
+1. Click the **Edit introduction** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
 2. Use the rich-text editor to write your content
 3. Save your changes
 
@@ -21,7 +21,7 @@ If no introduction has been created yet, you will see a button to **Create an in
 
 ## Tool Grid
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![The course homepage tool grid showing available course tools with icons and visibility toggles](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Below the introduction, the course tools are displayed in a grid layout. Each tool appears as a card with:
 
@@ -32,18 +32,18 @@ The tools available in your course may include:
 
 | Tool | Icon | Purpose |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
+| Announcements | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
+| Assignments | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
+| Documents | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
+| Glossary | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
+| Assessments | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
+| Learning paths | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
+| Users | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
+| Surveys | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
 
 > Some tools may not appear if your administrator has disabled them at the platform level or if you have hidden them.
 
@@ -65,7 +65,7 @@ Also, the **Tracking** and **Maintenance** tools have been moved to the top of t
 * Use **Show all** or **Hide all** for bulk changes
 * Hidden tools remain accessible to you as the teacher — they are only hidden from learners
 
-![The course homepage as seen by a student, with hidden tools not visible](/.gitbook/assets/course-homepage-student-view.png)
+![The course homepage as seen by a student, with hidden tools not visible](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## Auto-Launch Features
 

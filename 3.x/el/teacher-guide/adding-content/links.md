@@ -4,8 +4,8 @@
 
 ## Προσθήκη συνδέσμου
 
-1. Ανοίξτε το εργαλείο **Σύνδεσμοι** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Σύνδεσμοι" data-size="line"> από την αρχική σελίδα του μαθήματος
-2. Κάντε κλικ στην επιλογή **Προσθήκη συνδέσμου** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Προσθήκη συνδέσμου" data-size="line">
+1. Ανοίξτε το εργαλείο **Σύνδεσμοι** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Σύνδεσμοι" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στην επιλογή **Προσθήκη συνδέσμου** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Προσθήκη συνδέσμου" data-size="line">
 3. Συμπληρώστε τα στοιχεία:
    * **URL** — Η διεύθυνση ιστού (π.χ. `https://example.com/resource`)
    * **Όνομα συνδέσμου** — Ένα περιγραφικό όνομα για τον σύνδεσμο
@@ -27,10 +27,10 @@
 
 ## Διαχείριση συνδέσμων
 
-* **Έλεγχος συνδέσμων** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Εγκυρότητα" data-size="line">  — Το Chamilo μπορεί να επαληθεύσει αν οι σύνδεσμοι είναι ακόμη ενεργοί ή έχουν σπάσει
-* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημερώστε το URL, τον τίτλο ή την περιγραφή του συνδέσμου
-* **Ορατότητα** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Απόκρυψη ή εμφάνιση του συνδέσμου στους εκπαιδευόμενους
-* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση του συνδέσμου
+* **Έλεγχος συνδέσμων** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Εγκυρότητα" data-size="line">  — Το Chamilo μπορεί να επαληθεύσει αν οι σύνδεσμοι είναι ακόμη ενεργοί ή έχουν σπάσει
+* **Επεξεργασία** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημερώστε το URL, τον τίτλο ή την περιγραφή του συνδέσμου
+* **Ορατότητα** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Απόκρυψη ή εμφάνιση του συνδέσμου στους εκπαιδευόμενους
+* **Διαγραφή** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση του συνδέσμου
 
 ## Εξαγωγή συνδέσμων
 

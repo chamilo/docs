@@ -1,6 +1,6 @@
 # カスタム修了証
 
-カスタム修了証 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="カスタム修了証" data-size="line"> プラグインを使うと、標準の[成績表修了証](../assessing-learners/gradebook.md)を、独自のデザイン（ロゴ、印章、キャプション付き署名画像最大4点、背景画像、余白、プレースホルダータグで構成する本文）に置き換えられます。
+カスタム修了証 <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="カスタム修了証" data-size="line"> プラグインを使うと、標準の[成績表修了証](../assessing-learners/gradebook.md)を、独自のデザイン（ロゴ、印章、キャプション付き署名画像最大4点、背景画像、余白、プレースホルダータグで構成する本文）に置き換えられます。
 
 ## コースで有効にする
 

@@ -1,6 +1,6 @@
 # C-Studio-sisältöeditori
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> on visuaalinen, vedä ja pudota -sisältöeditori oppimispoluille. Sen avulla voit rakentaa interaktiivisia sivuja — tekstilohkoja, tietokilpailuja, vedä ja pudota -tehtäviä, täytä tyhjät kohdat -tehtäviä, hotspot-kuvia, taulukoita, ääntä ja videota — kirjoittamatta HTML:ää, ja viedä tuloksen SCORM-pakettina.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> on visuaalinen, vedä ja pudota -sisältöeditori oppimispoluille. Sen avulla voit rakentaa interaktiivisia sivuja — tekstilohkoja, tietokilpailuja, vedä ja pudota -tehtäviä, täytä tyhjät kohdat -tehtäviä, hotspot-kuvia, taulukoita, ääntä ja videota — kirjoittamatta HTML:ää, ja viedä tuloksen SCORM-pakettina.
 
 ## Editorin avaaminen
 

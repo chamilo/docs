@@ -4,9 +4,9 @@
 
 ## Membuka Learning Path
 
-Buka alat **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> dari beranda kursus dan klik salah satunya untuk memulai. Jika pengajar mengaktifkan **auto-launch**, learning path mungkin terbuka secara otomatis segera setelah Anda masuk ke kursus.
+Buka alat **Learning paths** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> dari beranda kursus dan klik salah satunya untuk memulai. Jika pengajar mengaktifkan **auto-launch**, learning path mungkin terbuka secara otomatis segera setelah Anda masuk ke kursus.
 
-![Daftar learning path untuk suatu kursus, masing-masing menampilkan progresnya sendiri](/.gitbook/assets/student-learning-paths-list.png)
+![Daftar learning path untuk suatu kursus, masing-masing menampilkan progresnya sendiri](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Bergerak Melalui Path
 

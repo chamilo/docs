@@ -2,7 +2,7 @@
 
 ## Tilgang til programtilleggsbehandleren
 
-![Programtilleggsbehandleren som viser en liste over tilgjengelige programtillegg med aktiveringsbrytere og konfigurasjonsvalg](/.gitbook/assets/admin-plugin-manager.png)
+![Programtilleggsbehandleren som viser en liste over tilgjengelige programtillegg med aktiveringsbrytere og konfigurasjonsvalg](../../.gitbook/assets/admin-plugin-manager.png)
 
 Fra administrasjonspanelet klikker du **Administrer programtillegg** for å se listen over tilgjengelige programtillegg.
 

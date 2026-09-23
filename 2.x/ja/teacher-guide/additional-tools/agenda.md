@@ -4,9 +4,9 @@
 
 ## アジェンダの表示
 
-コースのホームページから**アジェンダ**ツール <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> を開きます。イベントは以下の3つのモードで表示できます：
+コースのホームページから**アジェンダ**ツール <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> を開きます。イベントは以下の3つのモードで表示できます：
 
-![コースのイベントと締め切りを示すカレンダー表示のアジェンダ](/.gitbook/assets/agenda-calendar-view.png)
+![コースのイベントと締め切りを示すカレンダー表示のアジェンダ](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **カレンダー表示** — 月間/週間/日間の視覚的なカレンダー
 * **リスト表示** — 時系列のリストとして表示されるイベント
@@ -14,7 +14,7 @@
 
 ## イベントの作成
 
-1. **イベントを追加** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="イベントを追加" data-size="line"> をクリックします
+1. **イベントを追加** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="イベントを追加" data-size="line"> をクリックします
 2. イベントの詳細を入力します：
    * **タイトル** — イベントの短い名前
    * **開始日時**
@@ -23,13 +23,13 @@
 3. **対象者**を選択します：
    * **すべての生徒** — コースに登録している全員
    * **特定のユーザーまたはグループ** — 個々の生徒またはグループを選択
-4. 必要に応じて、**リマインダー** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="リマインダー" data-size="line"> を設定し、イベント前にメール通知を送信します（ポータルの管理者による*cron*設定が必要です）
+4. 必要に応じて、**リマインダー** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="リマインダー" data-size="line"> を設定し、イベント前にメール通知を送信します（ポータルの管理者による*cron*設定が必要です）
 5. 保存します
 
 ## イベントの管理
 
-* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — イベントをクリックして詳細を変更します
-* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — カレンダーからイベントを削除します
+* **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — イベントをクリックして詳細を変更します
+* **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — カレンダーからイベントを削除します
 * **ドラッグ＆ドロップ** — カレンダー表示でイベントをドラッグして再スケジュールします
 
 ## 個人アジェンダ

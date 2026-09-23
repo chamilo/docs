@@ -4,7 +4,7 @@ Das Aufgaben-Tool (auch „Studentenveröffentlichungen“ genannt) ermöglicht 
 
 ## Eine Aufgabe erstellen
 
-1. Öffnen Sie das Tool **Aufgaben** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> von der Kursstartseite
+1. Öffnen Sie das Tool **Aufgaben** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> von der Kursstartseite
 2. Klicken Sie auf **Eine Aufgabe erstellen**
 3. Füllen Sie die Angaben aus:
    * **Aufgabenname** — Der Name der Aufgabe (z. B. „Abschlussprojektbericht“)
@@ -41,7 +41,7 @@ Lernende können sehen, ob sie bereits abgegeben haben, und — sofern erlaubt �
 
 ## Abgaben prüfen
 
-![Die Abgabenliste der Aufgabe mit Studierendenamen, Daten, Dateien und Bewertungsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![Die Abgabenliste der Aufgabe mit Studierendenamen, Daten, Dateien und Bewertungsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Als Lehrkraft öffnen Sie eine Aufgabe, um die Liste aller Abgaben zu sehen:
 
@@ -53,7 +53,7 @@ Als Lehrkraft öffnen Sie eine Aufgabe, um die Liste aller Abgaben zu sehen:
 
 ### Eine Abgabe bewerten
 
-![Die Bewertungsansicht der Aufgabe mit Punkteingabe, Feedback-Feld und Upload der korrigierten Datei](/.gitbook/assets/assignment-grading-view.png)
+![Die Bewertungsansicht der Aufgabe mit Punkteingabe, Feedback-Feld und Upload der korrigierten Datei](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klicken Sie auf eine Abgabe, um sie zu öffnen
 2. Prüfen Sie die abgegebene Datei

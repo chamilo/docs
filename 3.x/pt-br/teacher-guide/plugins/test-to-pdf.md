@@ -1,6 +1,6 @@
 # Teste para PDF
 
-Teste para PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Teste para PDF" data-size="line"> exporta as questões de um teste do curso para um PDF imprimível — somente questões, somente respostas, ou ambos juntos — útil para uma versão em papel de um teste.
+Teste para PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Teste para PDF" data-size="line"> exporta as questões de um teste do curso para um PDF imprimível — somente questões, somente respostas, ou ambos juntos — útil para uma versão em papel de um teste.
 
 ## Acessando a ferramenta
 

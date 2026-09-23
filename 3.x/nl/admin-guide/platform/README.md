@@ -2,7 +2,7 @@
 
 Het blok **Platformbeheer** op het beheerdashboard groepeert portaalbrede configuratie- en communicatietools — van het volledige instellingenpaneel tot talen, openbare aankondigingen, de globale agenda en het CMS-achtige Pagina's-systeem dat delen van de publieke inhoud van uw portaal opbouwt.
 
-![Het blok Platformbeheer op het beheerdashboard, met Configuratie-instellingen, Talen, Plugins, Regio's, Portaalnieuws, Globale agenda, Pagina's, De registratiepagina instellen, Extra velden, Meerdere toegang-URL configureren, E-mailsjablonen, Externe tools (LTI), Categorieën van het contactformulier en Systeemsjablonen](/.gitbook/assets/admin-platform-block.png)
+![Het blok Platformbeheer op het beheerdashboard, met Configuratie-instellingen, Talen, Plugins, Regio's, Portaalnieuws, Globale agenda, Pagina's, De registratiepagina instellen, Extra velden, Meerdere toegang-URL configureren, E-mailsjablonen, Externe tools (LTI), Categorieën van het contactformulier en Systeemsjablonen](../../.gitbook/assets/admin-platform-block.png)
 
 ## Het platformblok openen
 

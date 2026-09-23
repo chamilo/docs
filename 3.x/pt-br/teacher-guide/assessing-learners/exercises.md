@@ -4,7 +4,7 @@ A ferramenta de exercícios (também chamada de "testes") permite criar question
 
 ## Criando um Exercício
 
-1. Abra a ferramenta **Exercícios** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercícios" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Exercícios** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercícios" data-size="line"> na página inicial do curso
 2. Clique em **Novo exercício**
 3. Informe um **título** e, opcionalmente, uma **descrição**
 4. Configure as opções do exercício (veja abaixo)
@@ -12,7 +12,7 @@ A ferramenta de exercícios (também chamada de "testes") permite criar question
 
 ## Configurações do Exercício
 
-![O painel de configurações do exercício com opções de exibição, tempo, tentativas e feedback](/.gitbook/assets/exercise-settings.png)
+![O painel de configurações do exercício com opções de exibição, tempo, tentativas e feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Exibição e Navegação
 
@@ -75,7 +75,7 @@ Você também pode configurar estratégias avançadas de seleção que combinam 
 
 ## Tipos de Pergunta
 
-![Visão geral dos tipos de pergunta disponíveis na interface de criação de exercícios](/.gitbook/assets/exercise-question-types.png)
+![Visão geral dos tipos de pergunta disponíveis na interface de criação de exercícios](../../.gitbook/assets/exercise-question-types.png)
 
 O Chamilo oferece um conjunto rico de tipos de pergunta organizados em várias categorias:
 

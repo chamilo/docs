@@ -14,7 +14,7 @@ Look for the **AI Generator** section within the learning path creation interfac
 
 ## How to Generate a Learning Path
 
-![The AI learning path generator form with fields for topic, objectives, and section count](/.gitbook/assets/ai-learning-path-generator.png)
+![The AI learning path generator form with fields for topic, objectives, and section count](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Open the AI Generator form
 2. Configure the parameters:

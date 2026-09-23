@@ -16,14 +16,14 @@ Leerpaden zijn nuttig wanneer u wilt:
 
 ## Een leerpad maken
 
-1. Open de tool **Leerpaden** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leerpaden" data-size="line"> vanaf de startpagina van de cursus
+1. Open de tool **Leerpaden** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leerpaden" data-size="line"> vanaf de startpagina van de cursus
 2. Klik op **Een leerpad maken**
 3. Voer een **titel** en optionele beschrijving in
 4. Sla op — u wordt naar de leerpad-editor gebracht
 
 ## De leerpad-editor
 
-![De leerpad-editor met de itemboom links en de inhoudsvoorvertoning rechts](/.gitbook/assets/learning-path-editor.png)
+![De leerpad-editor met de itemboom links en de inhoudsvoorvertoning rechts](../../.gitbook/assets/learning-path-editor.png)
 
 De editor heeft twee hoofdgebieden:
 
@@ -94,17 +94,17 @@ C-Studio voegt een ingebouwde visuele editor met slepen-en-neerzetten toe voor h
 
 Wanneer de plugin actief is, toont de lijst Leerpaden een extra knop naast het gebruikelijke actiemenu, gemarkeerd met een "+" en een tooltip "Studio Tools":
 
-![De lijst Leerpaden met de C-Studio-knop "Studio Tools" naast het standaardactiemenu](/.gitbook/assets/cstudio-lp-button.png)
+![De lijst Leerpaden met de C-Studio-knop "Studio Tools" naast het standaardactiemenu](../../.gitbook/assets/cstudio-lp-button.png)
 
 Klik erop om te starten. U wordt gevraagd een nieuw project vanaf nul te maken of een bestaand project te importeren:
 
-![Het startscherm van C-Studio met de keuze om een nieuw project te maken of een bestaand project te importeren](/.gitbook/assets/cstudio-start-screen.png)
+![Het startscherm van C-Studio met de keuze om een nieuw project te maken of een bestaand project te importeren](../../.gitbook/assets/cstudio-start-screen.png)
 
 Dit specifieke scherm is momenteel alleen beschikbaar in het Frans, ongeacht de taal van uw platform of cursus — een bekende beperking van de gebruikte pluginversie. Geef uw project een titel en het opent rechtstreeks in de editor.
 
 ### De editor
 
-![De visuele editor van C-Studio, met het paginacanvas, het palet met tools rechts en het projectpaneel links](/.gitbook/assets/cstudio-editor.png)
+![De visuele editor van C-Studio, met het paginacanvas, het palet met tools rechts en het projectpaneel links](../../.gitbook/assets/cstudio-editor.png)
 
 De editor is een visuele bouwer pagina per pagina:
 
@@ -118,7 +118,7 @@ Het palet omvat basiselementen (kolommen, afbeeldingen, audio, titels, tekst, kn
 
 De eigen interface van C-Studio kan de eerste keer dat u deze opent standaard in het Frans staan, onafhankelijk van de interfacetaal van Chamilo of de taal van de cursus. Ga in dat geval naar **File > UI language** en kies uw taal — de editor wordt onmiddellijk opnieuw geladen en onthoudt daarna uw keuze.
 
-![Het menu File geopend, met de optie "UI language"](/.gitbook/assets/cstudio-file-menu.png)
+![Het menu File geopend, met de optie "UI language"](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Opslaan en exporteren
 

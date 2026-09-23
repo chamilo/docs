@@ -4,7 +4,7 @@ Verktyget för inlämningsuppgifter (även kallat "studentpublikationer") låter
 
 ## Skapa en inlämningsuppgift
 
-1. Öppna verktyget **Inlämningsuppgifter** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Inlämningsuppgifter" data-size="line"> från kurssidan
+1. Öppna verktyget **Inlämningsuppgifter** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Inlämningsuppgifter" data-size="line"> från kurssidan
 2. Klicka på **Skapa en inlämningsuppgift**
 3. Fyll i uppgifterna:
    * **Namn på inlämningsuppgift** — Namnet på uppgiften (t.ex. "Slutrapport för projekt")
@@ -41,7 +41,7 @@ Deltagare kan se om de redan har lämnat in och, om det är tillåtet, uppdatera
 
 ## Granska inlämningar
 
-![Listan över inlämningar som visar studentnamn, datum, filer och betygsstatus](/.gitbook/assets/assignments-submissions-list.png)
+![Listan över inlämningar som visar studentnamn, datum, filer och betygsstatus](../../.gitbook/assets/assignments-submissions-list.png)
 
 Som lärare öppnar du en uppgift för att se listan över alla inlämningar:
 
@@ -53,7 +53,7 @@ Som lärare öppnar du en uppgift för att se listan över alla inlämningar:
 
 ### Betygsätta en inlämning
 
-![Betygsvyn för inlämningsuppgift med poängfält, återkopplingsfält och uppladdning av rättad fil](/.gitbook/assets/assignment-grading-view.png)
+![Betygsvyn för inlämningsuppgift med poängfält, återkopplingsfält och uppladdning av rättad fil](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Klicka på en inlämning för att öppna den
 2. Granska den inlämnade filen

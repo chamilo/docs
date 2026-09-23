@@ -8,7 +8,7 @@ Klicken Sie im Administrationsbereich auf **Sicherheit > Anmeldeversuche**.
 
 ## Was angezeigt wird
 
-![Die Seite „Anmeldeversuche“ mit Diagrammen zu Versuchen pro Tag, Top-IPs, fehlgeschlagenen Versuchen pro Monat, erfolgreichen vs. fehlgeschlagenen Anmeldungen, Versuchen nach Stunde und eindeutigen IPs pro Tag, gefolgt von einer Tabelle fehlgeschlagener Anmeldeversuche](/.gitbook/assets/admin-security-login-attempts.png)
+![Die Seite „Anmeldeversuche“ mit Diagrammen zu Versuchen pro Tag, Top-IPs, fehlgeschlagenen Versuchen pro Monat, erfolgreichen vs. fehlgeschlagenen Anmeldungen, Versuchen nach Stunde und eindeutigen IPs pro Tag, gefolgt von einer Tabelle fehlgeschlagener Anmeldeversuche](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Versuche pro Tag (letzte 7 Tage)** — Tägliche Anzahl fehlgeschlagener Versuche
 * **Top-IPs (letzte 30 Tage)** — Welche IP-Adressen die meisten Versuche erzeugt haben

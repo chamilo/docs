@@ -4,7 +4,7 @@ Das Werkzeug **Aufgaben** (manchmal auch „Studentenveröffentlichungen“ oder
 
 ## Ihre Arbeit einreichen
 
-Öffnen Sie das Werkzeug **Aufgaben** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> von der Kursstartseite aus und öffnen Sie anschließend die konkrete Aufgabe. Lesen Sie die Beschreibung sorgfältig — sie enthält die Anweisungen Ihrer Lehrkraft dazu, was Sie einreichen sollen und wie die Bewertung erfolgt. Dann:
+Öffnen Sie das Werkzeug **Aufgaben** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> von der Kursstartseite aus und öffnen Sie anschließend die konkrete Aufgabe. Lesen Sie die Beschreibung sorgfältig — sie enthält die Anweisungen Ihrer Lehrkraft dazu, was Sie einreichen sollen und wie die Bewertung erfolgt. Dann:
 
 1. Klicken Sie auf **Datei hochladen** (oder die Schaltfläche zum Einreichen)
 2. Je nachdem, wie Ihre Lehrkraft die Aufgabe konfiguriert hat, wählen Sie eine Datei von Ihrem Computer, verfassen Sie Ihre Einreichung direkt als Text oder beides

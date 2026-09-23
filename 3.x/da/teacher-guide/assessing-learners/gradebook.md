@@ -19,7 +19,7 @@ Chamilo beregner hver lærendes samlede karakter ud fra disse vægte.
 
 ## Opsætning af bedømmelsen
 
-1. Åbn værktøjet **Bedømmelser** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> fra kursets startside
+1. Åbn værktøjet **Bedømmelser** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> fra kursets startside
 2. Du vil se oversigten over bedømmelser, som i starten er tom
 
 ### Tilføjelse af aktiviteter
@@ -48,7 +48,7 @@ Til komplekse karakterordninger kan du oprette **underkategorier** for at gruppe
 
 ## Visning af karakterer
 
-![Oversigtstabellen i karakterbogen, der viser lærendes navne, aktivitetsscorer og vægtede totaler](/.gitbook/assets/gradebook-overview.png)
+![Oversigtstabellen i karakterbogen, der viser lærendes navne, aktivitetsscorer og vægtede totaler](../../.gitbook/assets/gradebook-overview.png)
 
 Bedømmelsen viser en tabel med:
 
@@ -77,7 +77,7 @@ For at aktivere generering af certifikater:
 
 Når **Generer certifikater** er aktiveret på rod-kategorien, vises feltet **Certifikatgyldighed (dage)**. Lad det stå på `0` for certifikater, der aldrig udløber, eller angiv et antal dage, hvorefter certifikatet udløber — Chamilo kan derefter minde de lærende, når udløbsdatoen nærmer sig, enten automatisk (cron, konfigureret af administrator) eller manuelt fra listen over certifikater.
 
-![Dialogboksen til redigering af kategori med Generer certifikater aktiveret og feltet Certifikatgyldighed (dage) sat til 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Dialogboksen til redigering af kategori med Generer certifikater aktiveret og feltet Certifikatgyldighed (dage) sat til 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Se [Certifikater og færdigheder](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) for flere detaljer.
 
@@ -87,7 +87,7 @@ Du kan knytte **færdigheder** til bedømmelsen. Når en lærende når de fastsa
 
 ## Eksport af karakterer
 
-Klik på knappen **Eksport** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Eksport" data-size="line"> for at downloade karakterer som et regneark. Dette er nyttigt til:
+Klik på knappen **Eksport** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Eksport" data-size="line"> for at downloade karakterer som et regneark. Dette er nyttigt til:
 
 * Deling af karakterer med administrative systemer
 * Udførelse af yderligere analyser uden for Chamilo

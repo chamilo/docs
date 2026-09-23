@@ -2,7 +2,7 @@
 
 管理仪表板上的 **安全** 区块汇总了平台内置的安全监控与审计工具。它与 [安全设置](../platform-settings/security-settings.md) 相互独立：后者用于配置安全*策略*（密码规则、验证码、HTTP 安全标头等）——而本区块提供的是用于监视平台可疑活动与非预期变更的*报告与工具*。
 
-![管理仪表板上的安全区块，列出活动审计、登录尝试、简易 IDS、密码强度检查器和文件完整性](/.gitbook/assets/admin-security-block.png)
+![管理仪表板上的安全区块，列出活动审计、登录尝试、简易 IDS、密码强度检查器和文件完整性](../../.gitbook/assets/admin-security-block.png)
 
 该区块在 Chamilo 2.0 中引入，最初包含四项工具，并在 Chamilo 3.0 中扩展了第五项：**文件完整性**。
 

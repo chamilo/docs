@@ -1,6 +1,6 @@
 # Läraranteckningar
 
-Läraranteckningar <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Läraranteckningar" data-size="line"> ger kursens lärarlag en privat anteckningsbok för att föra anteckningar om specifika deltagare — observationer av framsteg, påminnelser, allt du hellre inte vill lägga i ett publikt verktyg. Studenter ser aldrig detta verktyg eller dess innehåll.
+Läraranteckningar <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Läraranteckningar" data-size="line"> ger kursens lärarlag en privat anteckningsbok för att föra anteckningar om specifika deltagare — observationer av framsteg, påminnelser, allt du hellre inte vill lägga i ett publikt verktyg. Studenter ser aldrig detta verktyg eller dess innehåll.
 
 > Ska inte förväxlas med verktyget [Anteckningsbok](../additional-tools/notebook.md) — det är en personlig anteckningsbok för deltagare; Läraranteckningar är ett separat verktyg enbart för lärare.
 

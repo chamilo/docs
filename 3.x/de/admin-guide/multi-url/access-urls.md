@@ -53,7 +53,7 @@ Jede Access-URL kann über eigene verfügen:
 
 Access-URLs können statt in einer flachen Liste in einem Eltern-/Kind-Baum organisiert werden. Beim Anlegen oder Bearbeiten einer URL kann ein uneingeschränkter Global Administrator (siehe [Teilbaum-Administratoren](#subtree-administrators) weiter unten) eine beliebige andere URL als **Parent URL** wählen:
 
-![Dialog „URL bearbeiten“ mit geöffnetem Dropdown „Parent URL“, das die anderen als Eltern verfügbaren Access-URLs auflistet](/.gitbook/assets/admin-access-url-parent-select.png)
+![Dialog „URL bearbeiten“ mit geöffnetem Dropdown „Parent URL“, das die anderen als Eltern verfügbaren Access-URLs auflistet](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Das Dropdown bietet niemals die gerade bearbeitete URL oder einen ihrer eigenen Nachkommen als möglichen Elternknoten an — so wird ein Zyklus verhindert. Das Backend prüft dies unabhängig davon, was die Oberfläche anzeigt, erneut.
 * Wird eine URL ohne Wahl eines Elternknotens angelegt, gilt standardmäßig die **login-only URL**, sofern eine existiert (siehe [Einstellungen pro URL](#per-url-settings) oben), andernfalls die erste Access-URL — dasselbe Standardverhalten wie vor dieser Funktion.
@@ -61,7 +61,7 @@ Access-URLs können statt in einer flachen Liste in einem Eltern-/Kind-Baum orga
 
 Überall, wo Access-URLs aufgelistet werden — im Multi-URL-Dashboard und auf der Verwaltungsseite Access URLs — wird der Baum durch Einrückung dargestellt, ein Elternknoten unmittelbar gefolgt von seinen eigenen Kindern (Geschwister alphabetisch sortiert), statt einer eigenen Spalte „Parent“:
 
-![Liste der Access-URLs mit einer Wurzel-URL und zwei Kind-URLs, von denen eine eine eigene Kind-URL hat, eingerückt zur Darstellung der Hierarchie](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste der Access-URLs mit einer Wurzel-URL und zwei Kind-URLs, von denen eine eine eigene Kind-URL hat, eingerückt zur Darstellung der Hierarchie](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Teilbaum-Administratoren
 

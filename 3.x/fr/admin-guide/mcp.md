@@ -39,7 +39,7 @@ Cette liste est établie par l’équipe cœur de Chamilo ; elle n’est pas ext
 
 Chaque utilisateur génère sa propre clé sous **Réseau social** > **Clé API MCP** :
 
-![La page de la clé API MCP, montrant une clé inactive, le bouton Générer une clé API, et le bloc Connexion MCP distante avec l’URL du point de terminaison et le format de l’en-tête Authorization](/.gitbook/assets/admin-mcp-api-key.png)
+![La page de la clé API MCP, montrant une clé inactive, le bouton Générer une clé API, et le bloc Connexion MCP distante avec l’URL du point de terminaison et le format de l’en-tête Authorization](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Un clic sur **Générer une clé API** crée une clé et l’affiche une seule fois — Chamilo ne conserve ensuite qu’une version masquée, de sorte que la clé complète doit être copiée et stockée de façon sécurisée immédiatement.
 * La génération d’une nouvelle clé révoque immédiatement la précédente.

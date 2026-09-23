@@ -6,7 +6,7 @@ Les classes dans le panneau d'administration sont des groupes à l'échelle de l
 
 ## Création d'un groupe
 
-![La liste des groupes d'utilisateurs affichant les groupes disponibles avec le nom, la description et le nombre de membres](/.gitbook/assets/admin-user-groups-list.png)
+![La liste des groupes d'utilisateurs affichant les groupes disponibles avec le nom, la description et le nombre de membres](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Depuis le panneau d'administration, accédez à **Classes**
 2. Cliquez sur **Add classes**

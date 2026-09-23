@@ -1,10 +1,10 @@
 # Visão Geral da Interface de Administração
 
-O painel de administração é o seu centro de comando para gerir a plataforma Chamilo. Aceda-lhe clicando em **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> na barra lateral.
+O painel de administração é o seu centro de comando para gerir a plataforma Chamilo. Aceda-lhe clicando em **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> na barra lateral.
 
 ## Painel de Administração
 
-![O painel de administração a mostrar blocos funcionais para Utilizadores, Cursos, Sessões e Definições](/.gitbook/assets/admin-dashboard-overview.png)
+![O painel de administração a mostrar blocos funcionais para Utilizadores, Cursos, Sessões e Definições](../../.gitbook/assets/admin-dashboard-overview.png)
 
 O painel de administração está organizado em blocos funcionais. Cada bloco agrupa ferramentas de gestão relacionadas:
 

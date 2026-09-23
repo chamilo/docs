@@ -24,7 +24,7 @@ AI 導師需要兩個層級的設定：
 
 ## 聊天介面
 
-![顯示學習者與 AI 對話的 AI 導師聊天介面](/.gitbook/assets/ai-tutor-chat.png)
+![顯示學習者與 AI 對話的 AI 導師聊天介面](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI 導師在課程中以**停駐式聊天面板**呈現。學習者可以：
 

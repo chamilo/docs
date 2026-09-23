@@ -8,7 +8,7 @@
 
 ## 執行掃描
 
-![密碼強度檢查器頁面，含有要掃描的使用者 ID 欄位以及執行掃描的按鈕](/.gitbook/assets/admin-security-password-strength.png)
+![密碼強度檢查器頁面，含有要掃描的使用者 ID 欄位以及執行掃描的按鈕](../../.gitbook/assets/admin-security-password-strength.png)
 
 * 將 **要掃描的使用者 ID** 留空即可掃描所有作用中使用者，或輸入以逗號分隔的使用者 ID 清單以檢查部分使用者
 * 點選 **執行密碼強度掃描**
@@ -17,7 +17,7 @@
 
 ## 根據結果採取行動
 
-![已完成的掃描結果，列出被標記的使用者，含姓名、使用者名稱與電子郵件欄，以及各列可要求變更密碼或強制重設密碼的動作](/.gitbook/assets/admin-security-password-strength-results.png)
+![已完成的掃描結果，列出被標記的使用者，含姓名、使用者名稱與電子郵件欄，以及各列可要求變更密碼或強制重設密碼的動作](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 掃描完成後，被標記的使用者會列出，並提供兩種可用動作，可針對單一使用者或對所有已選使用者執行批次動作：
 

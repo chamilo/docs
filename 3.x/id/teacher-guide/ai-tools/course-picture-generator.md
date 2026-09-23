@@ -4,22 +4,22 @@ Generator gambar kursus AI memungkinkan Anda membuat gambar thumbnail untuk kurs
 
 ## Mengakses Generator
 
-Tombol **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> tersedia di samping kolom **Course picture**, dengan syarat:
+Tombol **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> tersedia di samping kolom **Course picture**, dengan syarat:
 
 1. Pembantu AI diaktifkan di tingkat platform
 2. Setidaknya satu penyedia AI yang dikonfigurasi di platform Anda mendukung pembuatan gambar
 3. Fitur ini diizinkan di kursus Anda (lihat **AI Helpers Settings** di [Pengaturan Kursus](../creating-your-course/course-settings.md))
 
-Buka **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> kursus Anda dan gulir ke kolom **Course picture**:
+Buka **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> kursus Anda dan gulir ke kolom **Course picture**:
 
-![Kolom Course picture di Pengaturan Kursus, dengan tombol Choose File dan tombol Generate with AI di bawahnya](/.gitbook/assets/course-picture-ai-button.png)
+![Kolom Course picture di Pengaturan Kursus, dengan tombol Choose File dan tombol Generate with AI di bawahnya](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Cara Membuat Gambar
 
 1. Klik **Generate with AI**
 2. Dialog terbuka dengan kolom **Prompt** yang sudah terisi deskripsi default; edit untuk menggambarkan ilustrasi yang Anda inginkan, atau biarkan default apa adanya
 
-![Dialog Generate with AI yang menampilkan kolom Prompt dengan teks defaultnya, serta tombol Cancel/Generate](/.gitbook/assets/course-picture-ai-modal.png)
+![Dialog Generate with AI yang menampilkan kolom Prompt dengan teks defaultnya, serta tombol Cancel/Generate](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Klik **Generate** dan tunggu — pembuatan gambar dapat memakan waktu beberapa detik
 4. Gambar yang dihasilkan secara otomatis ditempatkan di kolom **Course picture**, menggantikan apa pun yang telah Anda pilih di sana

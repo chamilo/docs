@@ -13,7 +13,7 @@
 
 ## الخطوة 1: لغة التثبيت
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Installation wizard Step 1 — language selection](../../.gitbook/assets/install-step1-language.png)
 
 تتيح الخطوة الأولى اختيار اللغة لعملية التثبيت. اختر اللغة المفضلة لديك من القائمة المنسدلة.
 
@@ -21,7 +21,7 @@
 
 ## الخطوة 2: فحص المتطلبات
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](../../.gitbook/assets/install-step2-requirements.png)
 
 يفحص المعالج بيئة خادمك:
 
@@ -34,7 +34,7 @@
 
 ## الخطوة 3: الترخيص
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Installation wizard Step 3 — license acceptance](../../.gitbook/assets/install-step3-license.png)
 
 تعرض هذه الخطوة رخصة GNU/GPLv3. يجب عليك تحديد خانة الاختيار **"أقبل"** للمتابعة.
 
@@ -42,7 +42,7 @@
 
 ## الخطوة 4: إعدادات قاعدة البيانات
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Installation wizard Step 4 — database connection configuration](../../.gitbook/assets/install-step4-database.png)
 
 أدخل تفاصيل اتصال قاعدة البيانات الخاصة بك:
 
@@ -58,7 +58,7 @@
 
 ## الخطوة 5: إعدادات التكوين
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Installation wizard Step 5 — administrator account, portal settings, and email configuration](../../.gitbook/assets/install-step5-config.png)
 
 تجمع هذه الخطوة بين إنشاء حساب المسؤول، إعدادات البوابة، وتكوين البريد الإلكتروني.
 
@@ -98,7 +98,7 @@
 ---
 ## الخطوة 6: التحقق النهائي قبل التثبيت
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![Installation wizard Step 6 — review of all settings before installation](../../.gitbook/assets/install-step6-review.png)
 
 تعرض هذه الخطوة ملخصًا لكل ما أدخلته للمراجعة:
 
@@ -110,7 +110,7 @@
 
 ## الخطوة 7: اكتمل التثبيت
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![Installation wizard Step 7 — completion with security advice and portal link](../../.gitbook/assets/install-step7-complete.png)
 
 بعد اكتمال التثبيت بنجاح، يعرض المعالج:
 

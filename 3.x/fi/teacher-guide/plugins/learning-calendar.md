@@ -1,6 +1,6 @@
 # Oppimiskalenteri
 
-Oppimiskalenteri <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Oppimiskalenteri" data-size="line"> auttaa suunnittelemaan monimuoto- tai oppisopimustyyppistä koulutusta, jossa yhdistyvät lähiopetus ja työpaikalla tapahtuva harjoittelu. Laadit kalenterin, jossa merkitset kunkin päivän tilaksi **Varattu**, **Tentti** tai **Vapaa**, liität siihen oppijat, ja heidän henkilökohtaisessa agendassaan näkyvät nämä suunnitellut päivät.
+Oppimiskalenteri <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Oppimiskalenteri" data-size="line"> auttaa suunnittelemaan monimuoto- tai oppisopimustyyppistä koulutusta, jossa yhdistyvät lähiopetus ja työpaikalla tapahtuva harjoittelu. Laadit kalenterin, jossa merkitset kunkin päivän tilaksi **Varattu**, **Tentti** tai **Vapaa**, liität siihen oppijat, ja heidän henkilökohtaisessa agendassaan näkyvät nämä suunnitellut päivät.
 
 ## Työkalun avaaminen
 

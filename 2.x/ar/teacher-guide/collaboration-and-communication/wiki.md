@@ -26,7 +26,7 @@
 يمكن لأي شخص لديه أذونات التحرير تعديل صفحة ويكي:
 
 1. افتح الصفحة التي تريد تحريرها
-2. انقر على زر **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line">
+2. انقر على زر **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line">
 3. قم بإجراء تعديلاتك في المحرر
 4. أضف إدخال **تعليقات** اختياري يصف ما قمت بتغييره
 5. احفظ

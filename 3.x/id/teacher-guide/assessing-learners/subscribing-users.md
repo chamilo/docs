@@ -19,12 +19,12 @@ Jika [visibilitas](../creating-your-course/course-settings.md#course-visibility)
 
 ## Pendaftaran Manual melalui Alat Users
 
-Untuk berlangganan seseorang yang sudah memiliki akun platform tetapi belum bergabung sendiri, buka alat **Users** kursus Anda dan klik ikon **Add users** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Tambah pengguna" data-size="line">.
+Untuk berlangganan seseorang yang sudah memiliki akun platform tetapi belum bergabung sendiri, buka alat **Users** kursus Anda dan klik ikon **Add users** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Tambah pengguna" data-size="line">.
 
 1. Cari orang tersebut berdasarkan nama, nama pengguna, e-mail, atau kode resmi
 2. Klik **Register** pada baris mereka, atau pilih beberapa dengan kotak centang dan gunakan menu **Action** untuk mendaftarkan semuanya sekaligus
 
-![Hasil pencarian di layar Enroll users to course, menampilkan pembelajar yang cocok dan tombol Register](/.gitbook/assets/course-users-subscribe-search.png)
+![Hasil pencarian di layar Enroll users to course, menampilkan pembelajar yang cocok dan tombol Register](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Hanya pengguna yang belum dilanggan ke kursus yang muncul dalam hasil.
 
@@ -36,9 +36,9 @@ Ketiga metode di atas semuanya mengasumsikan orang tersebut sudah memiliki akun 
 
 ### Mengakses Alat
 
-Buka alat **Users** kursus Anda, lalu klik ikon **Invite by email** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Undang melalui email" data-size="line"> di bilah alat, di samping **Add users**:
+Buka alat **Users** kursus Anda, lalu klik ikon **Invite by email** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Undang melalui email" data-size="line"> di bilah alat, di samping **Add users**:
 
-![Bilah alat Users, menampilkan ikon Add users dan ikon Invite by email](/.gitbook/assets/course-users-invite-icon.png)
+![Bilah alat Users, menampilkan ikon Add users dan ikon Invite by email](../../.gitbook/assets/course-users-invite-icon.png)
 
 Ini membuka halaman **Course invitations**.
 
@@ -53,7 +53,7 @@ Ini membuka halaman **Course invitations**.
 1. Masukkan alamat e-mail penerima pada formulir **Undang melalui email**
 2. Klik **Kirim undangan**
 
-![Halaman undangan kursus: formulir undang-melalui-email dan tabel undangan yang telah dikirim beserta statusnya](/.gitbook/assets/course-invitations-list.png)
+![Halaman undangan kursus: formulir undang-melalui-email dan tabel undangan yang telah dikirim beserta statusnya](../../.gitbook/assets/course-invitations-list.png)
 
 Setiap undangan yang Anda kirim untuk kursus ini muncul di bawah formulir, beserta statusnya:
 
@@ -65,8 +65,8 @@ Setiap undangan yang Anda kirim untuk kursus ini muncul di bawah formulir, beser
 
 Untuk undangan yang masih pending, kolom **Actions** menyediakan:
 
-* **Copy** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Salin" data-size="line"> — menyalin tautan undangan, jika Anda lebih memilih membagikannya sendiri (obrolan, secara langsung) daripada mengandalkan email.
-* **Revoke** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Cabut" data-size="line"> — membatalkan undangan segera; tautan berhenti berfungsi. Undangan yang sudah diterima tidak dapat dicabut.
+* **Copy** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Salin" data-size="line"> — menyalin tautan undangan, jika Anda lebih memilih membagikannya sendiri (obrolan, secara langsung) daripada mengandalkan email.
+* **Revoke** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Cabut" data-size="line"> — membatalkan undangan segera; tautan berhenti berfungsi. Undangan yang sudah diterima tidak dapat dicabut.
 
 > **Alamat email yang diundang tidak boleh sudah memiliki akun di platform ini.** Jika sudah, pengiriman undangan gagal dengan pesan yang meminta Anda mendaftarkan pengguna yang sudah ada itu secara langsung — melalui [Pendaftaran Manual melalui Alat Users](#manual-enrollment-via-the-users-tool) di atas.
 

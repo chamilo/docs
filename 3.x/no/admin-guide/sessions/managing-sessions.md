@@ -2,7 +2,7 @@
 
 ## Opprette en økt
 
-![Skjemaet for opprettelse av økt med felt for navn, datoer, veileder, kategori og synlighet](/.gitbook/assets/admin-session-create-form.png)
+![Skjemaet for opprettelse av økt med felt for navn, datoer, veileder, kategori og synlighet](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Fra administrasjonspanelet klikker du **Opprett en økt**
 2. Fyll inn øktdetaljene:
@@ -30,7 +30,7 @@ Dette gjør at du kan forberede økten før lærende kommer, og holde veilederne
 
 ## Øktliste
 
-![Øktlisten som viser alle økter med navn, datoer, antall kurs, antall lærende og status](/.gitbook/assets/admin-session-list.png)
+![Øktlisten som viser alle økter med navn, datoer, antall kurs, antall lærende og status](../../.gitbook/assets/admin-session-list.png)
 
 Øktlisten viser alle økter med:
 
@@ -52,7 +52,7 @@ Klikk på en økt for å redigere:
 
 ## Påmelding av brukere
 
-![Påmeldingsgrensesnittet for økt for å legge til enkeltbrukere, klasser eller importere via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Påmeldingsgrensesnittet for økt for å legge til enkeltbrukere, klasser eller importere via CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Du kan melde brukere på en økt ved å:
 

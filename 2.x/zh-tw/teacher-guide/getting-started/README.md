@@ -14,7 +14,7 @@
 
 登入後，您將看到 Chamilo 首頁。介面分為三個主要區域：
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![The Chamilo home page showing system announcements and course cards](../../.gitbook/assets/home-page-teacher.png)
 
 * **頂部列** — 顯示平台標誌、您的訊息收件匣（帶有顯示未讀訊息的徽章），以及您的使用者頭像。按一下您的頭像即可存取您的個人檔案和帳戶設定。
 * **側邊列** — 左側導覽面板可讓您快速存取您的課程、工作坊、行事曆、社群網路等。您可以按一下其邊緣的切換按鈕來收合它。
@@ -24,7 +24,7 @@
 
 從側邊列按一下 **My courses**，即可看到您以教師或學生身分註冊的所有課程。每個課程會以卡片形式顯示：
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![The My Courses page displaying course cards with thumbnails and quick-access actions](../../.gitbook/assets/my-courses-list.png)
 
 * 課程圖像或縮圖
 * 課程標題

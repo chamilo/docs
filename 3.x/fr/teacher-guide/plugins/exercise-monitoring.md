@@ -1,6 +1,6 @@
 # Suivi des exercices
 
-Le suivi des exercices <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Suivi des exercices" data-size="line"> utilise la webcam de l’étudiant pour capturer des photos d’identité pendant une tentative de test — une photo d’un document d’identité et une photo du visage de l’étudiant — à des fins d’intégrité des examens.
+Le suivi des exercices <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Suivi des exercices" data-size="line"> utilise la webcam de l’étudiant pour capturer des photos d’identité pendant une tentative de test — une photo d’un document d’identité et une photo du visage de l’étudiant — à des fins d’intégrité des examens.
 
 ## Marquer un test
 

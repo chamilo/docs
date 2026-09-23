@@ -4,7 +4,7 @@ Chamilo giver dig mulighed for at definere tilpassede profilfelter (ekstra felte
 
 ## Ekstra profilfelter
 
-![Listen over ekstra profilfelter, der viser tilpassede felter med navn, type og synlighedsindstillinger](/.gitbook/assets/admin-extra-fields-list.png)
+![Listen over ekstra profilfelter, der viser tilpassede felter med navn, type og synlighedsindstillinger](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Ekstra felter lader dig gemme metadata, der er specifikke for din organisation, såsom:
 

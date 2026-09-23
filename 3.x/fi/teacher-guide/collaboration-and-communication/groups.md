@@ -14,7 +14,7 @@ Ryhmät mahdollistavat oppijoiden jakamisen pienempiin tiimeihin yhteistyötä v
 
 ## Ryhmätyökalut
 
-![Ryhmien yleiskuva, jossa näkyvät käytettävissä olevat ryhmätyökalut ja jäsenmäärät](/.gitbook/assets/groups-overview.png)
+![Ryhmien yleiskuva, jossa näkyvät käytettävissä olevat ryhmätyökalut ja jäsenmäärät](../../.gitbook/assets/groups-overview.png)
 
 Jokaisella ryhmällä voi olla pääsy osajoukkoon kurssityökaluja, jotka jaetaan vain ryhmän jäsenten kesken:
 

@@ -9,7 +9,7 @@ Generatorn finns i verktyget **Ordlista**, förutsatt att:
 1. AI-hjälpare är aktiverade på plattformsnivå
 2. Minst en AI-textleverantör är konfigurerad
 
-Öppna verktyget **Ordlista** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Ordlista" data-size="line"> från kurssidan och leta efter knappen **Generera med AI** i verktygsfältet.
+Öppna verktyget **Ordlista** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Ordlista" data-size="line"> från kurssidan och leta efter knappen **Generera med AI** i verktygsfältet.
 
 ## Så här genererar du termer
 

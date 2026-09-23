@@ -19,7 +19,7 @@ Chamilo calcule la note globale de chaque apprenant à partir de ces poids.
 
 ## Configuration de l’évaluation
 
-1. Ouvrez l’outil **Évaluations** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> depuis la page d’accueil du cours
+1. Ouvrez l’outil **Évaluations** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> depuis la page d’accueil du cours
 2. Vous verrez la vue d’ensemble des évaluations, initialement vide
 
 ### Ajout d’activités
@@ -48,7 +48,7 @@ Pour des schémas de notation complexes, vous pouvez créer des **sous-catégori
 
 ## Consultation des notes
 
-![Le tableau d’ensemble du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](/.gitbook/assets/gradebook-overview.png)
+![Le tableau d’ensemble du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](../../.gitbook/assets/gradebook-overview.png)
 
 L’évaluation affiche un tableau avec :
 
@@ -77,7 +77,7 @@ Pour activer la génération de certificats :
 
 Une fois **Générer les certificats** activé sur la catégorie racine, un champ **Validité du certificat (jours)** apparaît. Laissez-le à `0` pour des certificats qui n’expirent jamais, ou définissez un nombre de jours au-delà duquel le certificat expire — Chamilo peut alors rappeler aux apprenants l’approche de cette date d’expiration, soit automatiquement (cron, configuré par l’administrateur), soit manuellement depuis la liste des certificats.
 
-![La boîte de dialogue d’édition de catégorie avec Générer les certificats activé et le champ Validité du certificat (jours) défini à 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![La boîte de dialogue d’édition de catégorie avec Générer les certificats activé et le champ Validité du certificat (jours) défini à 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Voir [Certificats et compétences](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) pour plus de détails.
 
@@ -87,7 +87,7 @@ Vous pouvez associer des **compétences** (*skills*) à l’évaluation. Lorsqu�
 
 ## Exportation des notes
 
-Cliquez sur le bouton **Exporter** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de tableur. Cela est utile pour :
+Cliquez sur le bouton **Exporter** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de tableur. Cela est utile pour :
 
 * Partager les notes avec des systèmes administratifs
 * Effectuer des analyses complémentaires en dehors de Chamilo

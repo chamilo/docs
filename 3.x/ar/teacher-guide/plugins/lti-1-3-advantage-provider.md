@@ -1,6 +1,6 @@
 # مزوّد LTI 1.3 Advantage
 
-مزوّد LTI 1.3 Advantage <img src="/.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="مزوّد LTI 1.3 Advantage" data-size="line"> يعمل بالاتجاه المعاكس لـ [عميل IMS/LTI](ims-lti.md): فبدلاً من أن يُطلق Chamilo أداة خارجية، يتيح لـ **نظام إدارة تعلم خارجي** (على سبيل المثال، بوابة Chamilo مختلفة، أو منصة أخرى مثل Moodle) إطلاق أحد تمارينك أو مساراتك التعليمية كما لو كانت أداة داخل ذلك النظام الآخر، مع إعادة الدرجات إلى Chamilo.
+مزوّد LTI 1.3 Advantage <img src="../../.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="مزوّد LTI 1.3 Advantage" data-size="line"> يعمل بالاتجاه المعاكس لـ [عميل IMS/LTI](ims-lti.md): فبدلاً من أن يُطلق Chamilo أداة خارجية، يتيح لـ **نظام إدارة تعلم خارجي** (على سبيل المثال، بوابة Chamilo مختلفة، أو منصة أخرى مثل Moodle) إطلاق أحد تمارينك أو مساراتك التعليمية كما لو كانت أداة داخل ذلك النظام الآخر، مع إعادة الدرجات إلى Chamilo.
 
 ## ماذا يعني هذا بالنسبة لك
 

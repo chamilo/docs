@@ -1,10 +1,10 @@
 # Admin Interface Overview
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
 
 ## Administration Dashboard
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](../../.gitbook/assets/admin-dashboard-overview.png)
 
 The admin dashboard is organized into functional blocks. Each block groups related management tools:
 

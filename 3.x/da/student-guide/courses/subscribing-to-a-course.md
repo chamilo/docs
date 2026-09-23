@@ -21,7 +21,7 @@ Hvis et kursus' synlighed tillader det, kan du tilmelde dig selv uden at vente p
 2. Gennemse eller søg efter det kursus, du vil deltage i.
 3. Klik på kurset for at åbne dets detaljer, og klik derefter på knappen for at deltage.
 
-![Kursuskataloget med en Tilmeld-knap på hvert kursuskort](/.gitbook/assets/student-course-catalogue.png)
+![Kursuskataloget med en Tilmeld-knap på hvert kursuskort](../../.gitbook/assets/student-course-catalogue.png)
 
 Et kursus, du allerede er tilmeldt, viser **Gå til kurset** i stedet for en tilmeldingsknap.
 

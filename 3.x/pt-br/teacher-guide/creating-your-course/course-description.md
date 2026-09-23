@@ -1,12 +1,12 @@
 # Descrição do curso
 
-A ferramenta **Descrição do curso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do curso" data-size="line"> permite redigir uma descrição estruturada, em várias seções, do seu curso — objetivos, metodologia, materiais e muito mais. Ao contrário do banner de texto livre **Introdução do curso** na [página inicial do curso](README.md#the-course-homepage), visível apenas aos alunos matriculados, a descrição do curso é o que os interessados veem *antes* de se matricular, no catálogo de cursos.
+A ferramenta **Descrição do curso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do curso" data-size="line"> permite redigir uma descrição estruturada, em várias seções, do seu curso — objetivos, metodologia, materiais e muito mais. Ao contrário do banner de texto livre **Introdução do curso** na [página inicial do curso](README.md#the-course-homepage), visível apenas aos alunos matriculados, a descrição do curso é o que os interessados veem *antes* de se matricular, no catálogo de cursos.
 
 Depois de matriculados, os alunos ainda podem consultá-la de dentro do curso — se você deixar a ferramenta visível para eles, é um lugar conveniente para verificar informações práticas, como a estrutura geral do curso ou quem são os professores, sem precisar perguntar diretamente. Os alunos matriculados podem visualizar as seções que você escreveu, mas não podem adicioná-las, editá-las ou excluí-las.
 
 ## Acessando a ferramenta
 
-Abra a ferramenta **Descrição do curso** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do curso" data-size="line"> na grade de ferramentas da página inicial do curso.
+Abra a ferramenta **Descrição do curso** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Descrição do curso" data-size="line"> na grade de ferramentas da página inicial do curso.
 
 ## As oito seções
 
@@ -30,7 +30,7 @@ Uma descrição de curso é composta de até oito seções independentes. Cada u
 3. Escreva o conteúdo no editor de texto rico (suporta formatação, imagens, links, vídeo incorporado e outros conteúdos ricos). Se a plataforma tiver o recurso habilitado, você também pode escrever várias versões em idiomas da mesma seção e fazer com que cada aluno veja automaticamente apenas a sua — consulte [Conteúdo multilíngue](../adding-content/multi-language-content.md).
 4. Salve
 
-Cada seção que você adiciona aparece como um cartão próprio na ferramenta. Use os ícones **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> e **Excluir** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> em um cartão para atualizá-lo ou removê-lo depois.
+Cada seção que você adiciona aparece como um cartão próprio na ferramenta. Use os ícones **Editar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> e **Excluir** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> em um cartão para atualizá-lo ou removê-lo depois.
 
 ## Ligação com o catálogo de cursos
 

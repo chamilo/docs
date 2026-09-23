@@ -1,12 +1,12 @@
 # 課程說明
 
-**課程說明** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="課程說明" data-size="line"> 工具可讓您撰寫結構化、多區塊的課程說明——包含目標、教學方法、教材等。與僅供已註冊學習者在[課程首頁](README.md#the-course-homepage)看到的自由文字**課程簡介**橫幅不同，課程說明是準學習者在報名前，從課程目錄中所看到的內容。
+**課程說明** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="課程說明" data-size="line"> 工具可讓您撰寫結構化、多區塊的課程說明——包含目標、教學方法、教材等。與僅供已註冊學習者在[課程首頁](README.md#the-course-homepage)看到的自由文字**課程簡介**橫幅不同，課程說明是準學習者在報名前，從課程目錄中所看到的內容。
 
 一旦註冊，學習者仍可在課程內回頭參閱——若您讓此工具對他們可見，這會是他們查詢實務資訊（例如課程整體結構或教師是誰）的便利位置，而無須直接詢問您。已註冊學習者可檢視您撰寫的區塊，但無法新增、編輯或刪除。
 
 ## 存取此工具
 
-從課程首頁的工具格中開啟 **課程說明** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="課程說明" data-size="line"> 工具。
+從課程首頁的工具格中開啟 **課程說明** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="課程說明" data-size="line"> 工具。
 
 ## 八個區塊
 
@@ -30,7 +30,7 @@
 3. 在富文字編輯器中撰寫內容（支援格式、圖片、連結、嵌入影片及其他豐富內容）。若平台已啟用，您也可為同一區塊撰寫多種語言版本，讓每位學習者自動只看到自己的語言——請參閱[多語言內容](../adding-content/multi-language-content.md)。
 4. 儲存
 
-您新增的每個區塊會以獨立卡片顯示在工具中。使用卡片上的 **編輯** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 與 **刪除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="刪除" data-size="line"> 圖示，即可稍後更新或移除。
+您新增的每個區塊會以獨立卡片顯示在工具中。使用卡片上的 **編輯** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 與 **刪除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="刪除" data-size="line"> 圖示，即可稍後更新或移除。
 
 ## 連結至課程目錄
 

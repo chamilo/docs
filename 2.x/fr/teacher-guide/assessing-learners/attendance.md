@@ -20,7 +20,7 @@ L'outil de présences vous permet de suivre la participation des apprenants aux 
 Chaque feuille de présence contient une ou plusieurs dates (sessions) pour lesquelles vous enregistrez la présence :
 
 1. Ouvrez une feuille de présence ou poursuivez le processus de création
-2. Cliquez sur **Ajouter une date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ajouter une date" data-size="line">
+2. Cliquez sur **Ajouter une date** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ajouter une date" data-size="line">
 3. Sélectionnez la date et l'heure
 4. Optionnellement, cochez **Répéter la date** pour choisir une logique de répétition
 5. Indiquez une **Durée** en minutes pour l'événement (par défaut à 60 minutes)
@@ -44,7 +44,7 @@ Remarque : Les administrateurs peuvent modifier la configuration du portail pour
 
 ## Consulter les rapports de présence
 
-![La feuille de présence affichant un tableau récapitulatif avec les apprenants, les dates et les indicateurs de présence](/.gitbook/assets/attendance-sheet.png)
+![La feuille de présence affichant un tableau récapitulatif avec les apprenants, les dates et les indicateurs de présence](../../.gitbook/assets/attendance-sheet.png)
 
 L'outil de présence affiche :
 

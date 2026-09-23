@@ -19,7 +19,7 @@ Chamilo 會依這些權重計算每位學習者的總成績。
 
 ## 設定評量
 
-1. 自課程首頁開啟 **評量** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成績簿" data-size="line"> 工具
+1. 自課程首頁開啟 **評量** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="成績簿" data-size="line"> 工具
 2. 您會看到評量總覽，一開始為空白
 
 ### 新增活動
@@ -48,7 +48,7 @@ Chamilo 會依這些權重計算每位學習者的總成績。
 
 ## 檢視成績
 
-![成績簿總覽表格，顯示學習者姓名、活動分數與加權總分](/.gitbook/assets/gradebook-overview.png)
+![成績簿總覽表格，顯示學習者姓名、活動分數與加權總分](../../.gitbook/assets/gradebook-overview.png)
 
 評量會顯示一張表格，內容包括：
 
@@ -77,7 +77,7 @@ Chamilo 會依這些權重計算每位學習者的總成績。
 
 在根類別啟用 **產生證書** 後，會出現 **證書有效期（天）** 欄位。維持 `0` 表示證書永不逾期；或設定天數，逾期後證書失效 — Chamilo 可在到期日前提醒學習者，可自動（cron，由管理員設定）或自證書清單手動提醒。
 
-![類別編輯對話框，已啟用產生證書，且證書有效期（天）設為 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![類別編輯對話框，已啟用產生證書，且證書有效期（天）設為 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 詳見 [證書與技能](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry)。
 
@@ -87,7 +87,7 @@ Chamilo 會依這些權重計算每位學習者的總成績。
 
 ## 匯出成績
 
-點選 **匯出** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line"> 按鈕，即可將成績下載為試算表。此功能適用於：
+點選 **匯出** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line"> 按鈕，即可將成績下載為試算表。此功能適用於：
 
 * 與行政系統分享成績
 * 在 Chamilo 以外進行額外分析

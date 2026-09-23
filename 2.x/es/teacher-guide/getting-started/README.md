@@ -14,7 +14,7 @@ Si tu institución utiliza autenticación externa (como Azure, Keycloak o un sis
 
 Después de iniciar sesión, verás la página de inicio de Chamilo. La interfaz está organizada en tres áreas principales:
 
-![La página de inicio de Chamilo mostrando anuncios del sistema y tarjetas de cursos](/.gitbook/assets/home-page-teacher.png)
+![La página de inicio de Chamilo mostrando anuncios del sistema y tarjetas de cursos](../../.gitbook/assets/home-page-teacher.png)
 
 * **Barra superior** — Muestra el logotipo de la plataforma, tu bandeja de entrada de mensajes (con una insignia que indica los mensajes no leídos) y tu avatar de usuario. Haz clic en tu avatar para acceder a tu perfil y a la configuración de tu cuenta.
 * **Barra lateral** — El panel de navegación izquierdo te proporciona acceso rápido a tus cursos, sesiones, agenda, red social y más. Puedes contraerla haciendo clic en el botón de alternancia en su borde.
@@ -24,7 +24,7 @@ Después de iniciar sesión, verás la página de inicio de Chamilo. La interfaz
 
 Desde la barra lateral, haz clic en **Mis cursos** para ver todos los cursos en los que estás inscrito como profesor o estudiante. Cada curso aparece como una tarjeta que muestra:
 
-![La página de Mis Cursos mostrando tarjetas de cursos con miniaturas y acciones de acceso rápido](/.gitbook/assets/my-courses-list.png)
+![La página de Mis Cursos mostrando tarjetas de cursos con miniaturas y acciones de acceso rápido](../../.gitbook/assets/my-courses-list.png)
 
 * La imagen o miniatura del curso
 * El título del curso

@@ -4,7 +4,7 @@
 
 ## 建立作業
 
-1. 從課程首頁開啟 **作業** 工具 <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line">
+1. 從課程首頁開啟 **作業** 工具 <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line">
 2. 點選 **建立作業**
 3. 填寫詳細資訊：
    * **作業名稱** — 作業名稱（例如，「最終專案報告」）
@@ -41,7 +41,7 @@
 
 ## 檢視提交
 
-![顯示學生姓名、日期、檔案及評分狀態的作業提交清單](/.gitbook/assets/assignments-submissions-list.png)
+![顯示學生姓名、日期、檔案及評分狀態的作業提交清單](../../.gitbook/assets/assignments-submissions-list.png)
 
 身為教師，開啟作業即可查看所有提交清單：
 
@@ -53,7 +53,7 @@
 
 ### 評分提交
 
-![顯示分數輸入、回饋欄位及修正檔案上傳的作業評分檢視](/.gitbook/assets/assignment-grading-view.png)
+![顯示分數輸入、回饋欄位及修正檔案上傳的作業評分檢視](../../.gitbook/assets/assignment-grading-view.png)
 
 1. 點選提交以開啟
 2. 檢視所提交的檔案

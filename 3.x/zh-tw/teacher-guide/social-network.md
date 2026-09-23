@@ -8,7 +8,7 @@ Chamilo 內建社交網路功能，讓您能與平台上的其他使用者建立
 
 ## 您的社交牆
 
-![顯示來自連結對象的貼文、按讚與留言動態的社交牆](/.gitbook/assets/social-wall.png)
+![顯示來自連結對象的貼文、按讚與留言動態的社交牆](../.gitbook/assets/social-wall.png)
 
 社交牆會顯示您與連結對象的活動動態。您可以：
 
@@ -30,9 +30,9 @@ Chamilo 內建社交網路功能，讓您能與平台上的其他使用者建立
 
 社交網路與平台的訊息系統整合：
 
-* **傳送訊息** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新訊息" data-size="line"> — 撰寫給其他使用者的直接訊息
-* **收件匣** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="收件匣" data-size="line"> — 閱讀並回覆已收到的訊息
-* **已傳送訊息** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="已傳送" data-size="line"> — 檢視您已傳送的訊息
+* **傳送訊息** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新訊息" data-size="line"> — 撰寫給其他使用者的直接訊息
+* **收件匣** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="收件匣" data-size="line"> — 閱讀並回覆已收到的訊息
+* **已傳送訊息** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="已傳送" data-size="line"> — 檢視您已傳送的訊息
 
 ### 撰寫與回覆
 

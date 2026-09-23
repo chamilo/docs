@@ -8,6 +8,6 @@ Chamilo 會追蹤學習者在整個平台上的活動，提供您詳細的洞察
 
 ## 存取報告
 
-在您的課程中，點擊課程首頁上的 **追蹤** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具。您也可以從側邊欄的 **報告** 連結存取報告，以獲得跨課程的概覽。
+在您的課程中，點擊課程首頁上的 **追蹤** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具。您也可以從側邊欄的 **報告** 連結存取報告，以獲得跨課程的概覽。
 
 教師可以看到他們所教授課程的報告資料。課程教練可以看到其課程中所有課程的資料。

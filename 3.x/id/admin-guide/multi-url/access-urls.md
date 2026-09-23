@@ -53,7 +53,7 @@ Setiap access URL dapat memiliki:
 
 Access URL dapat disusun menjadi pohon induk/anak alih-alih daftar datar. Saat membuat atau mengedit URL, Global Administrator yang tidak dibatasi (lihat [Administrator Subpohon](#subtree-administrators) di bawah) dapat memilih URL lain mana pun sebagai **Parent URL**-nya:
 
-![Dialog Edit URL dengan dropdown Parent URL terbuka, menampilkan access URL lain yang tersedia sebagai induk](/.gitbook/assets/admin-access-url-parent-select.png)
+![Dialog Edit URL dengan dropdown Parent URL terbuka, menampilkan access URL lain yang tersedia sebagai induk](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Dropdown tidak pernah menawarkan URL yang sedang diedit, atau salah satu turunannya sendiri, sebagai induk yang mungkin — ini mencegah terciptanya siklus. Backend memvalidasi ulang hal ini terlepas dari apa yang ditampilkan antarmuka.
 * Jika URL dibuat tanpa memilih induk, URL tersebut secara default menjadi **login-only URL** jika ada (lihat [Pengaturan Per-URL](#per-url-settings) di atas), atau jika tidak ke access URL pertama — perilaku default yang sama seperti sebelum fitur ini ada.
@@ -61,7 +61,7 @@ Access URL dapat disusun menjadi pohon induk/anak alih-alih daftar datar. Saat m
 
 Di mana pun access URL dicantumkan — dasbor Multi-URL dan halaman pengelolaan Access URLs — pohon ditampilkan melalui indentasi, suatu induk langsung diikuti oleh anak-anaknya sendiri (saudara diurutkan menurut abjad), alih-alih kolom "Parent" terpisah:
 
-![Daftar Access URLs yang menampilkan URL root dengan dua URL anak, salah satunya memiliki URL anak sendiri, diindentasi untuk mencerminkan hierarki](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Daftar Access URLs yang menampilkan URL root dengan dua URL anak, salah satunya memiliki URL anak sendiri, diindentasi untuk mencerminkan hierarki](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administrator Subpohon
 

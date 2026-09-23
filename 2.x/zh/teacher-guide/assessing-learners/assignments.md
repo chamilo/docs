@@ -4,7 +4,7 @@
 
 ## 创建作业
 
-1. 在课程首页打开**作业**工具 <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作业" data-size="line">
+1. 在课程首页打开**作业**工具 <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="作业" data-size="line">
 2. 点击**创建作业**
 3. 填写详细信息：
    * **作业名称** — 作业的名称（例如，“最终项目报告”）
@@ -41,7 +41,7 @@
 
 ## 审查提交内容
 
-![作业提交列表，显示学生姓名、日期、文件和评估状态](/.gitbook/assets/assignments-submissions-list.png)
+![作业提交列表，显示学生姓名、日期、文件和评估状态](../../.gitbook/assets/assignments-submissions-list.png)
 
 作为教师，打开作业即可查看所有提交内容的列表：
 
@@ -53,7 +53,7 @@
 
 ### 评估提交内容
 
-![作业评估视图，包含分数输入、反馈字段和已批改文件上传](/.gitbook/assets/assignment-grading-view.png)
+![作业评估视图，包含分数输入、反馈字段和已批改文件上传](../../.gitbook/assets/assignment-grading-view.png)
 
 1. 点击某个提交内容以打开
 2. 审查提交的文件

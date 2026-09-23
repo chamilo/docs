@@ -2,7 +2,7 @@
 
 Il blocco **Gestione della piattaforma** nella dashboard di amministrazione raggruppa gli strumenti di configurazione e comunicazione a livello di portale — dal pannello completo delle impostazioni alle lingue, agli annunci pubblici, al calendario globale e al sistema di Pagine in stile CMS che costruisce parti dei contenuti pubblici del portale.
 
-![Il blocco Gestione della piattaforma nella dashboard di amministrazione, con elenco di Impostazioni di configurazione, Lingue, Plugin, Regioni, Notizie del portale, Agenda globale, Pagine, Impostazione della pagina di registrazione, Campi extra, Configurazione di URL di accesso multipli, Modelli di posta, Strumenti esterni (LTI), Categorie del modulo di contatto e Modelli di sistema](/.gitbook/assets/admin-platform-block.png)
+![Il blocco Gestione della piattaforma nella dashboard di amministrazione, con elenco di Impostazioni di configurazione, Lingue, Plugin, Regioni, Notizie del portale, Agenda globale, Pagine, Impostazione della pagina di registrazione, Campi extra, Configurazione di URL di accesso multipli, Modelli di posta, Strumenti esterni (LTI), Categorie del modulo di contatto e Modelli di sistema](../../.gitbook/assets/admin-platform-block.png)
 
 ## Accesso al blocco Piattaforma
 

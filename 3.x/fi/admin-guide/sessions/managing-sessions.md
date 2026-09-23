@@ -2,7 +2,7 @@
 
 ## Istunnon luominen
 
-![Istunnon luomislomake, jossa kentät nimelle, päivämäärille, tuutorille, kategorialle ja näkyvyydelle](/.gitbook/assets/admin-session-create-form.png)
+![Istunnon luomislomake, jossa kentät nimelle, päivämäärille, tuutorille, kategorialle ja näkyvyydelle](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Napsauta hallintapaneelissa **Create a session**
 2. Täytä istunnon tiedot:
@@ -30,7 +30,7 @@ Näin voit valmistella istunnon ennen oppijoiden saapumista ja pitää tuutoreid
 
 ## Istuntolista
 
-![Istuntolista, jossa näkyvät kaikki istunnot nimen, päivämäärien, kurssimäärän, oppijamäärän ja tilan kanssa](/.gitbook/assets/admin-session-list.png)
+![Istuntolista, jossa näkyvät kaikki istunnot nimen, päivämäärien, kurssimäärän, oppijamäärän ja tilan kanssa](../../.gitbook/assets/admin-session-list.png)
 
 Istuntolista näyttää kaikki istunnot seuraavin tiedoin:
 
@@ -52,7 +52,7 @@ Napsauta istuntoa muokataksesi:
 
 ## Käyttäjien ilmoittaminen
 
-![Istunnon ilmoittautumisnäkymä yksittäisten käyttäjien, luokkien lisäämiseen tai tuontiin CSV:llä](/.gitbook/assets/admin-session-enrollment.png)
+![Istunnon ilmoittautumisnäkymä yksittäisten käyttäjien, luokkien lisäämiseen tai tuontiin CSV:llä](../../.gitbook/assets/admin-session-enrollment.png)
 
 Voit ilmoittaa käyttäjiä istuntoon seuraavasti:
 

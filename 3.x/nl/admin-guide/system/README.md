@@ -2,7 +2,7 @@
 
 Het blok **Systeem** op het beheerdashboard groepeert onderhoudstools op serverniveau, de zelf-updateworkflow, hulpprogramma's voor inspectie van opslag/resources en platformbranding.
 
-![Het blok Systeem op het beheerdashboard, met de items Tijdelijke bestanden opschonen, Systeemstatus, Systeemupdate, Kleuren, Bestandsinfo, Resources per type en Pictogrammenlijst](/.gitbook/assets/admin-system-block.png)
+![Het blok Systeem op het beheerdashboard, met de items Tijdelijke bestanden opschonen, Systeemstatus, Systeemupdate, Kleuren, Bestandsinfo, Resources per type en Pictogrammenlijst](../../.gitbook/assets/admin-system-block.png)
 
 ## Het blok Systeem openen
 

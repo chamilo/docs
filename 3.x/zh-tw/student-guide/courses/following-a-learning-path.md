@@ -4,9 +4,9 @@
 
 ## 開啟學習路徑
 
-從課程首頁開啟 **學習路徑** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具，然後點選其中一項即可開始。若教師已啟用 **自動啟動**，您一進入課程，學習路徑就可能自動開啟。
+從課程首頁開啟 **學習路徑** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具，然後點選其中一項即可開始。若教師已啟用 **自動啟動**，您一進入課程，學習路徑就可能自動開啟。
 
-![課程的學習路徑清單，每一項皆顯示各自的進度](/.gitbook/assets/student-learning-paths-list.png)
+![課程的學習路徑清單，每一項皆顯示各自的進度](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## 在路徑中移動
 

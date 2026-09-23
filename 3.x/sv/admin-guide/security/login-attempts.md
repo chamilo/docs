@@ -8,7 +8,7 @@ Från administrationspanelen klickar du på **Säkerhet > Inloggningsförsök**.
 
 ## Vad den visar
 
-![Sidan Inloggningsförsök med diagram för försök per dag, topp-IP-adresser, misslyckade försök per månad, lyckade kontra misslyckade inloggningar, försök per timme och unika IP-adresser per dag, följt av en tabell över misslyckade inloggningsförsök](/.gitbook/assets/admin-security-login-attempts.png)
+![Sidan Inloggningsförsök med diagram för försök per dag, topp-IP-adresser, misslyckade försök per månad, lyckade kontra misslyckade inloggningar, försök per timme och unika IP-adresser per dag, följt av en tabell över misslyckade inloggningsförsök](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Försök per dag (senaste 7 dagarna)** — Dagligt antal misslyckade försök
 * **Topp-IP-adresser (senaste 30 dagarna)** — Vilka IP-adresser som genererade flest försök

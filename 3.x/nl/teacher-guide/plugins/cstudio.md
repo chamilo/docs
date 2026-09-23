@@ -1,6 +1,6 @@
 # C-Studio-inhoudseditor
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> is een visuele, drag-and-drop-inhoudseditor voor leerpaden. Hiermee bouwt u interactieve pagina's — tekstblokken, toetsen, drag-and-drop-activiteiten, invuloefeningen, hotspotafbeeldingen, tabellen, audio en video — zonder HTML te schrijven, en exporteert u het resultaat als een SCORM-pakket.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> is een visuele, drag-and-drop-inhoudseditor voor leerpaden. Hiermee bouwt u interactieve pagina's — tekstblokken, toetsen, drag-and-drop-activiteiten, invuloefeningen, hotspotafbeeldingen, tabellen, audio en video — zonder HTML te schrijven, en exporteert u het resultaat als een SCORM-pakket.
 
 ## De editor openen
 

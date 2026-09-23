@@ -4,7 +4,7 @@ Chamilo låter dig definiera anpassade profilfält (extrafält) för att samla i
 
 ## Extra profilfält
 
-![Listan över extra profilfält som visar anpassade fält med namn, typ och synlighetsinställningar](/.gitbook/assets/admin-extra-fields-list.png)
+![Listan över extra profilfält som visar anpassade fält med namn, typ och synlighetsinställningar](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Extrafält gör det möjligt att lagra metadata som är specifik för din organisation, till exempel:
 

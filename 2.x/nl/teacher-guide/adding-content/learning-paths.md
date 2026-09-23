@@ -16,14 +16,14 @@ Leertrajecten zijn nuttig wanneer u wilt:
 
 ## Een Leertraject Maken
 
-1. Open het hulpmiddel **Leertrajecten** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leertrajecten" data-size="line"> vanaf de cursusstartpagina
+1. Open het hulpmiddel **Leertrajecten** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leertrajecten" data-size="line"> vanaf de cursusstartpagina
 2. Klik op **Een leertraject maken**
 3. Voer een **titel** en optionele beschrijving in
 4. Sla op — u wordt doorgestuurd naar de leertrajecteditor
 
 ## De Leertrajecteditor
 
-![De leertrajecteditor met de itemstructuur aan de linkerkant en een inhoudsvoorbeeld aan de rechterkant](/.gitbook/assets/learning-path-editor.png)
+![De leertrajecteditor met de itemstructuur aan de linkerkant en een inhoudsvoorbeeld aan de rechterkant](../../.gitbook/assets/learning-path-editor.png)
 
 De editor heeft twee hoofdgebieden:
 

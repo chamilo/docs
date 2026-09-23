@@ -4,7 +4,7 @@ De enquête-tool laat u vragenlijsten maken om feedback van uw cursisten te verz
 
 ## Een enquête maken
 
-1. Open de tool **Enquêtes** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> vanaf de startpagina van de cursus
+1. Open de tool **Enquêtes** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> vanaf de startpagina van de cursus
 2. Klik op **Enquête maken**
 3. Vul de enquêtegegevens in:
    * **Code** — Dit is een unieke code voor de enquête. Deze wordt gebruikt in e-mails en links.
@@ -65,7 +65,7 @@ Onderaan de publicatiepagina is een link beschikbaar om nog meer externe gebruik
 
 ## Resultaten bekijken
 
-![Enquêteresultaten met grafieken en percentageverdelingen per vraag](/.gitbook/assets/survey-results-charts.png)
+![Enquêteresultaten met grafieken en percentageverdelingen per vraag](../../.gitbook/assets/survey-results-charts.png)
 
 Nadat cursisten hebben geantwoord:
 

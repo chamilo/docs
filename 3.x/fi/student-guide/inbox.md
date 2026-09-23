@@ -4,17 +4,17 @@
 
 ## Saapuneiden avaaminen
 
-Napsauta yläpalkin **Saapuneet**-kuvaketta <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line">. Punainen merkki näyttää, kuinka monta lukematonta viestiä sinulla on. Jos tätä kuvaketta ei ole lainkaan, ylläpitäjä on poistanut alustan viestinnän käytöstä.
+Napsauta yläpalkin **Saapuneet**-kuvaketta <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line">. Punainen merkki näyttää, kuinka monta lukematonta viestiä sinulla on. Jos tätä kuvaketta ei ole lainkaan, ylläpitäjä on poistanut alustan viestinnän käytöstä.
 
 ## Lukeminen ja vastaaminen
 
 Saapuneet-luettelossa näkyvät vastaanotetut viestit ja se, mitkä niistä ovat lukemattomia. Avaa viesti lukeaksesi sen ja käytä **Vastaa**-toimintoa vastataksesi — voit sisällyttää vastaukseen useita vastaanottajia kerralla, mikä on hyödyllistä, kun haluat pitää pienen ryhmän ajan tasalla ilman muodollista kurssia tai sosiaalista ryhmää.
 
-![Saapuneet, jossa välilehdet Saapuneet / Lukemattomat / Lähetetyt ja taulukko vastaanotetuista viesteistä](/.gitbook/assets/student-inbox.png)
+![Saapuneet, jossa välilehdet Saapuneet / Lukemattomat / Lähetetyt ja taulukko vastaanotetuista viesteistä](../.gitbook/assets/student-inbox.png)
 
 ## Uuden viestin kirjoittaminen
 
-Napsauta **uusi viesti** -painiketta <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Uusi viesti" data-size="line">, valitse yksi tai useampi vastaanottaja, kirjoita aihe ja sisältö ja lähetä. Aivan kuten vastauksessa, uusi viesti voi mennä usealle henkilölle kerralla.
+Napsauta **uusi viesti** -painiketta <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Uusi viesti" data-size="line">, valitse yksi tai useampi vastaanottaja, kirjoita aihe ja sisältö ja lähetä. Aivan kuten vastauksessa, uusi viesti voi mennä usealle henkilölle kerralla.
 
 ## Välilehdet ja toiminnot
 

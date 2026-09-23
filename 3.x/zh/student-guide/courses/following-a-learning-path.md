@@ -4,9 +4,9 @@
 
 ## 打开学习路径
 
-从课程主页打开 **学习路径** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line"> 工具，然后点击其中一条即可开始。如果教师启用了 **自动启动**，你一进入课程，学习路径就可能自动打开。
+从课程主页打开 **学习路径** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line"> 工具，然后点击其中一条即可开始。如果教师启用了 **自动启动**，你一进入课程，学习路径就可能自动打开。
 
-![某门课程的学习路径列表，每条路径显示各自的进度](/.gitbook/assets/student-learning-paths-list.png)
+![某门课程的学习路径列表，每条路径显示各自的进度](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## 在路径中前进
 

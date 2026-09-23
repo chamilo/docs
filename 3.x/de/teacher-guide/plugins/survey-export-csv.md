@@ -1,6 +1,6 @@
 # Umfrage-Export CSV
 
-Umfrage-Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Umfrage-Export CSV" data-size="line"> fügt einen Ein-Klick-Export der Ergebnisse einer Umfrage in eine kompakte CSV-Datei hinzu, mit einer Zeile pro Befragtem und einer Spalte pro Frage.
+Umfrage-Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Umfrage-Export CSV" data-size="line"> fügt einen Ein-Klick-Export der Ergebnisse einer Umfrage in eine kompakte CSV-Datei hinzu, mit einer Zeile pro Befragtem und einer Spalte pro Frage.
 
 ## Eine Umfrage exportieren
 

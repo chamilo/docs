@@ -6,7 +6,7 @@ As turmas no painel de administração são grupos em toda a plataforma usados p
 
 ## Criando um Grupo
 
-![Lista de grupos de usuários mostrando os grupos disponíveis com nome, descrição e contagem de membros](/.gitbook/assets/admin-user-groups-list.png)
+![Lista de grupos de usuários mostrando os grupos disponíveis com nome, descrição e contagem de membros](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. No painel de administração, navegue até **Turmas**
 2. Clique em **Adicionar turmas**

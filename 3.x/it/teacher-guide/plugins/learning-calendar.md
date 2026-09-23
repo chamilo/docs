@@ -1,6 +1,6 @@
 # Calendario di apprendimento
 
-Il Calendario di apprendimento <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendario di apprendimento" data-size="line"> aiuta a pianificare una formazione blended o di tipo apprendistato che combina il tempo in aula con la pratica extra-sede. Si costruisce un calendario contrassegnando ogni giorno come **Occupato**, **Esame** o **Libero**, si assegnano gli studenti e la loro agenda personale mostra quindi quei giorni pianificati.
+Il Calendario di apprendimento <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendario di apprendimento" data-size="line"> aiuta a pianificare una formazione blended o di tipo apprendistato che combina il tempo in aula con la pratica extra-sede. Si costruisce un calendario contrassegnando ogni giorno come **Occupato**, **Esame** o **Libero**, si assegnano gli studenti e la loro agenda personale mostra quindi quei giorni pianificati.
 
 ## Accesso allo strumento
 

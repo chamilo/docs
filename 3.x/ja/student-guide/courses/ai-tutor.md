@@ -17,11 +17,11 @@ AI Tutor は、利用者側では変更できない 2 つのレベルの設定�
 
 画面下部のチャットボタン（フローティングの吹き出しアイコン）を探してください。開くと連絡先が表示され、有効な場合はロボットアイコンと「オンライン」のドットが付いた専用の **AI Tutor** 項目もあります。クリックすると、AI との会話を開始または再開できます。
 
-![チャットパネルの連絡先リスト。通常の連絡先の上に AI Tutor の項目がある](/.gitbook/assets/student-docked-chat-contacts.png)
+![チャットパネルの連絡先リスト。通常の連絡先の上に AI Tutor の項目がある](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 質問を入力し、**Enter** で送信します（**Shift+Enter** は送信せず改行します）。AI Tutor は必要に応じて見出し、リスト、太字、コードブロックで回答を整形するため、長い説明も読みやすくなります。
 
-![AI Tutor との会話が開いており、下部にメッセージ入力欄がある](/.gitbook/assets/student-ai-tutor-conversation.png)
+![AI Tutor との会話が開いており、下部にメッセージ入力欄がある](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## 読んでいる内容について質問する
 

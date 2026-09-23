@@ -19,7 +19,7 @@ Les catégories par défaut incluent :
 
 ## Accéder à l'outil Tickets
 
-Si votre administrateur a activé le lien vers les tickets, une icône de ticket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> apparaît dans la barre de navigation supérieure. Cliquez dessus pour accéder directement au formulaire de soumission de ticket.
+Si votre administrateur a activé le lien vers les tickets, une icône de ticket <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> apparaît dans la barre de navigation supérieure. Cliquez dessus pour accéder directement au formulaire de soumission de ticket.
 
 Vous pouvez également accéder à vos tickets depuis le menu principal sous **Support** ou **Tickets**, selon la configuration de votre plateforme.
 

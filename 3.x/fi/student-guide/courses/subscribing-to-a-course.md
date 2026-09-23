@@ -21,7 +21,7 @@ Jos kurssin näkyvyys sen sallii, voit ilmoittautua itse odottamatta ketään mu
 2. Selaa tai etsi kurssi, jolle haluat liittyä.
 3. Klikkaa kurssia avataksesi sen tiedot ja klikkaa sitten painiketta liittyäksesi.
 
-![Kurssiluettelo, jossa kunkin kurssikortin Subscribe-painike](/.gitbook/assets/student-course-catalogue.png)
+![Kurssiluettelo, jossa kunkin kurssikortin Subscribe-painike](../../.gitbook/assets/student-course-catalogue.png)
 
 Kurssi, jolle olet jo ilmoittautunut, näyttää **Siirry kurssille** sen sijaan, että näyttäisi ilmoittautumispainikkeen.
 

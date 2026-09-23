@@ -6,7 +6,7 @@ Se você esqueceu sua senha — ou simplesmente deseja alterá-la — veja como 
 
 Na página de login, clique em **Esqueceu sua senha?**. Se esse link não estiver visível, o administrador desativou este recurso — entre em contato diretamente com ele para recuperar o acesso.
 
-![O formulário "Esqueci minha senha", com um único campo para seu nome de usuário ou endereço de e-mail](/.gitbook/assets/student-lost-password.png)
+![O formulário "Esqueci minha senha", com um único campo para seu nome de usuário ou endereço de e-mail](../../.gitbook/assets/student-lost-password.png)
 
 1. Digite seu **nome de usuário ou endereço de e-mail** no único campo do formulário.
 2. Se um desafio CAPTCHA aparecer, resolva-o (consulte [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Você pode alterar sua senha a qualquer momento, sem esperar esquecê-la:
 2. Clique em **Alterar senha**.
 3. Digite sua senha atual, depois a nova senha duas vezes, e envie.
 
-![O formulário Alterar senha, com campos para sua senha atual e uma nova senha](/.gitbook/assets/student-change-password.png)
+![O formulário Alterar senha, com campos para sua senha atual e uma nova senha](../../.gitbook/assets/student-change-password.png)
 
 Esta é a mesma página em que você pode ativar a [Autenticação de dois fatores](two-factor-authentication.md), se a sua plataforma a oferecer — nesse caso, você também verá aqui uma caixa de seleção "Ativar autenticação de dois fatores", não mostrada acima porque ela não está ativa em todas as plataformas.
 

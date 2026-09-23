@@ -4,7 +4,7 @@
 
 ## 平台标识
 
-![门户自定义页面，显示平台名称、徽标和机构等标识设置](/.gitbook/assets/admin-portal-customization.png)
+![门户自定义页面，显示平台名称、徽标和机构等标识设置](../../../.gitbook/assets/admin-portal-customization.png)
 
 配置门户的基本标识：
 

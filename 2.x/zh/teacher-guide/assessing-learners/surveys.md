@@ -4,7 +4,7 @@
 
 ## 创建调查
 
-1. 在课程首页打开**调查**工具 <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="调查" data-size="line">
+1. 在课程首页打开**调查**工具 <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="调查" data-size="line">
 2. 点击**创建调查**
 3. 填写调查详情：
    * **代码** — 这是调查的唯一代码，将用于电子邮件和链接中。
@@ -65,7 +65,7 @@
 
 ## 查看结果
 
-![调查结果，包含每个问题的图表和百分比](/.gitbook/assets/survey-results-charts.png)
+![调查结果，包含每个问题的图表和百分比](../../.gitbook/assets/survey-results-charts.png)
 
 在学生回答后：
 

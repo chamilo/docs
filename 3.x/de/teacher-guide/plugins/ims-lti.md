@@ -1,10 +1,10 @@
 # IMS/LTI-Client
 
-IMS/LTI-Client <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-Client" data-size="line"> ermöglicht es Ihnen, ein externes Tool oder einen Inhaltsanbieter aus Ihrem Kurs heraus über den LTI-Standard (Versionen 1.1 und 1.3) zu starten — beispielsweise das interaktive Lehrbuch eines Verlags, ein spezialisiertes Simulationstool oder eine andere Plattform, die LTI unterstützt. Chamilo fungiert als startende Plattform; der externe Dienst ist das „Tool“.
+IMS/LTI-Client <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI-Client" data-size="line"> ermöglicht es Ihnen, ein externes Tool oder einen Inhaltsanbieter aus Ihrem Kurs heraus über den LTI-Standard (Versionen 1.1 und 1.3) zu starten — beispielsweise das interaktive Lehrbuch eines Verlags, ein spezialisiertes Simulationstool oder eine andere Plattform, die LTI unterstützt. Chamilo fungiert als startende Plattform; der externe Dienst ist das „Tool“.
 
 ## Zugriff auf das Tool
 
-Sobald es aktiviert ist, erscheint in den **Einstellungen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line"> Ihres Kurses die Schaltfläche **Externe Tools konfigurieren**. Von dort aus können Sie entweder:
+Sobald es aktiviert ist, erscheint in den **Einstellungen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line"> Ihres Kurses die Schaltfläche **Externe Tools konfigurieren**. Von dort aus können Sie entweder:
 
 * **Ein neues externes Tool hinzufügen** — Registrieren Sie eines selbst: Name, Start-URL, LTI-Version und die Zugangsdaten, die Ihnen der externe Dienst bereitgestellt hat (Client-ID/Schlüssel für LTI 1.3 oder Consumer Key und Secret für LTI 1.1)
 * **Ein vorhandenes globales Tool hinzufügen** — Wenn Ihr Administrator bereits ein plattformweites Tool registriert hat, fügen Sie es Ihrem Kurs hinzu, anstatt eine eigene Verbindung zu erstellen

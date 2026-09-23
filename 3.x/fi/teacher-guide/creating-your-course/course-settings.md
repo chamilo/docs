@@ -2,7 +2,7 @@
 
 Kurssiasetukset mahdollistavat kurssin toiminnan hallinnan — kuka siihen pääsee, miltä se näyttää ja mitkä ominaisuudet ovat käytössä.
 
-Pääset kurssiasetuksiin siirtymällä kurssillesi ja napsauttamalla **Asetukset**-kuvaketta <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> **Vaihda opiskelijanäkymään** -painikkeen vieressä.
+Pääset kurssiasetuksiin siirtymällä kurssillesi ja napsauttamalla **Asetukset**-kuvaketta <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line"> **Vaihda opiskelijanäkymään** -painikkeen vieressä.
 
 ## Yleiset asetukset
 
@@ -29,7 +29,7 @@ Jokaisella kurssilla on tallennusraja (levykiintiö) ladatuille tiedostoille. Ki
 
 ### Kurssin näkyvyys
 
-![Kurssin näkyvyysasetukset, joissa näkyvät vaihtoehdot julkinen, avoin, rekisteröitynyt ja suljettu](/.gitbook/assets/course-settings-visibility.png)
+![Kurssin näkyvyysasetukset, joissa näkyvät vaihtoehdot julkinen, avoin, rekisteröitynyt ja suljettu](../../.gitbook/assets/course-settings-visibility.png)
 
 Hallitse, kuka voi käyttää kurssiasi:
 
@@ -84,7 +84,7 @@ Hallitse tämän kurssin foorumityökalun toimintaa.
 
 ### Autolaunch-asetukset
 
-Kurssille voidaan määrittää automaattinen käynnistys (auto-launch), joka lyhentää oppijoiden polkua kurssin tärkeimpiin osiin. Jos toiminto on käytössä, kurssille saapuvat oppijat ohjataan suoraan valittuun työkaluun eivätkä he näe kurssin etusivua välivaiheena. Voit jopa valita tiettyjä oppimispolkuja tai harjoituksia, jotka käynnistyvät kurssille saavuttaessa. Tässä tapauksessa sinun on valittava vaihtoehto täällä, sitten siirryttävä oppimispolkujen tai harjoitusten luetteloon ja klikattava raketti-kuvaketta <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Automaattinen käynnistys" data-size="line"> valitussa kohteessa.
+Kurssille voidaan määrittää automaattinen käynnistys (auto-launch), joka lyhentää oppijoiden polkua kurssin tärkeimpiin osiin. Jos toiminto on käytössä, kurssille saapuvat oppijat ohjataan suoraan valittuun työkaluun eivätkä he näe kurssin etusivua välivaiheena. Voit jopa valita tiettyjä oppimispolkuja tai harjoituksia, jotka käynnistyvät kurssille saavuttaessa. Tässä tapauksessa sinun on valittava vaihtoehto täällä, sitten siirryttävä oppimispolkujen tai harjoitusten luetteloon ja klikattava raketti-kuvaketta <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Automaattinen käynnistys" data-size="line"> valitussa kohteessa.
 
 ### Tekoälyavustajien asetukset
 

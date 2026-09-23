@@ -2,7 +2,7 @@
 
 Istunnot ovat yksi Chamilon tehokkaimmista ominaisuuksista. Niiden avulla voit tarjota samoja kursseja eri oppijaryhmille eri aikoina ilman, että kurssisisältöä tarvitsee monistaa.
 
-![Istuntojen hallintalohko hallintapaneelissa, jossa näkyvät muun muassa koulutusistuntojen luettelo, koulutusistunnon lisääminen, istuntoluokat, tuonti-/vientityökalut, urat ja ylennykset sekä resurssien järjestäminen](/.gitbook/assets/admin-sessions-block.png)
+![Istuntojen hallintalohko hallintapaneelissa, jossa näkyvät muun muassa koulutusistuntojen luettelo, koulutusistunnon lisääminen, istuntoluokat, tuonti-/vientityökalut, urat ja ylennykset sekä resurssien järjestäminen](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Istuntojen hallinta](managing-sessions.md)** — Luo, määritä ja hallitse koulutusistuntoja
 * **[Istuntoluokat](session-categories.md)** — Järjestä istunnot luokkiin

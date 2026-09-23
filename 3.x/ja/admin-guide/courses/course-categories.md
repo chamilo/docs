@@ -19,7 +19,7 @@ Chamilo は既定で 3 つのカテゴリを作成します: *Language skills*�
 
 ## カテゴリ階層
 
-![入れ子になったカテゴリツリーを示すコースカテゴリ管理ページ](/.gitbook/assets/admin-course-categories.png)
+![入れ子になったカテゴリツリーを示すコースカテゴリ管理ページ](../../.gitbook/assets/admin-course-categories.png)
 
 カテゴリは入れ子にしてツリー構造を作成できます:
 

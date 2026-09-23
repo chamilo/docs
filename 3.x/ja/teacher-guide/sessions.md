@@ -15,7 +15,7 @@ Chamilo のセッションは、コース内容を複製することなく、同
 
 サイドバーから **My sessions** をクリックすると、自分のセッションが表示されます。次の 3 つのビューに整理されています。
 
-![現在、過去、今後のセッションビューを示す My Sessions ページ](/.gitbook/assets/my-sessions-list.png)
+![現在、過去、今後のセッションビューを示す My Sessions ページ](../.gitbook/assets/my-sessions-list.png)
 
 * **Current sessions** — 現在アクティブなセッション
 * **Past sessions** — 終了したセッション

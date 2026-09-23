@@ -1,12 +1,12 @@
 # 课程法律协议
 
-课程法律协议 <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="课程法律协议" data-size="line"> 插件要求学生在访问您的课程之前接受条款/法律声明——适用于同意书、使用政策，或任何您需要学习者正式同意的通知。
+课程法律协议 <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="课程法律协议" data-size="line"> 插件要求学生在访问您的课程之前接受条款/法律声明——适用于同意书、使用政策，或任何您需要学习者正式同意的通知。
 
 ## 为您的课程开启该功能
 
 在平台范围内启用该插件本身不会产生任何效果——您仍需在希望使用该功能的每门课程中单独开启：
 
-1. 打开课程的 **设置** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line">
+1. 打开课程的 **设置** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="设置" data-size="line">
 2. 在课程访问部分，勾选 **启用法律条款**
 
 这将向您的课程添加 **课程法律协议** 工具。

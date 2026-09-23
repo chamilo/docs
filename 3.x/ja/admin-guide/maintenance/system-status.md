@@ -8,7 +8,7 @@
 
 ## 表示内容
 
-![PHP の設定、データベースの状態、ファイルの権限、サーバー情報を示すシステムステータスページ](/.gitbook/assets/admin-system-status.png)
+![PHP の設定、データベースの状態、ファイルの権限、サーバー情報を示すシステムステータスページ](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP の設定
 

@@ -2,7 +2,7 @@
 
 ## 创建培训班
 
-![培训班创建表单，包含名称、日期、导师、分类和可见性等字段](/.gitbook/assets/admin-session-create-form.png)
+![培训班创建表单，包含名称、日期、导师、分类和可见性等字段](../../.gitbook/assets/admin-session-create-form.png)
 
 1. 在管理面板中，点击 **创建培训班**
 2. 填写培训班详细信息：
@@ -30,7 +30,7 @@
 
 ## 培训班列表
 
-![培训班列表，显示所有培训班的名称、日期、课程数量、学员数量和状态](/.gitbook/assets/admin-session-list.png)
+![培训班列表，显示所有培训班的名称、日期、课程数量、学员数量和状态](../../.gitbook/assets/admin-session-list.png)
 
 培训班列表显示所有培训班，包含：
 
@@ -52,7 +52,7 @@
 
 ## 注册用户
 
-![培训班注册界面，用于添加单个用户、班级或通过 CSV 导入](/.gitbook/assets/admin-session-enrollment.png)
+![培训班注册界面，用于添加单个用户、班级或通过 CSV 导入](../../.gitbook/assets/admin-session-enrollment.png)
 
 可通过以下方式将用户注册到培训班：
 

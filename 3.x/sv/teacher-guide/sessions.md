@@ -15,7 +15,7 @@ En **kurs** är en behållare för innehåll och verktyg. En **session** tilldel
 
 Från sidofältet klickar du på **Mina sessioner** för att se dina sessioner. De är organiserade i tre vyer:
 
-![Sidan Mina sessioner som visar vyer för aktuella, tidigare och kommande sessioner](/.gitbook/assets/my-sessions-list.png)
+![Sidan Mina sessioner som visar vyer för aktuella, tidigare och kommande sessioner](../.gitbook/assets/my-sessions-list.png)
 
 * **Aktuella sessioner** — Sessioner som är aktiva just nu
 * **Tidigare sessioner** — Sessioner som har avslutats

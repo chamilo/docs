@@ -4,23 +4,23 @@ De woordenlijst-tool laat u sleuteltermen voor uw cursus definiëren. Cursisten 
 
 ## Een term toevoegen
 
-1. Open de tool **Woordenlijst** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line"> vanaf de startpagina van de cursus
+1. Open de tool **Woordenlijst** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line"> vanaf de startpagina van de cursus
 2. Klik op **Nieuwe woordenlijstterm toevoegen**
 3. Voer de **term** en de **definitie** in (de definitie ondersteunt opmaak van rijke tekst)
 4. Opslaan
 
 ## Termen beheren
 
-* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk een term of de definitie bij
-* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder een term uit de woordenlijst
-* **Zoeken** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Zoeken" data-size="line"> — Gebruik de zoekfunctie om specifieke termen snel te vinden
+* **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk een term of de definitie bij
+* **Verwijderen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder een term uit de woordenlijst
+* **Zoeken** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="Zoeken" data-size="line"> — Gebruik de zoekfunctie om specifieke termen snel te vinden
 
 ## Importeren en exporteren
 
 U kunt uw woordenlijst sneller opbouwen met importeren/exporteren:
 
-* **Importeren** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importeren" data-size="line"> — Upload een lijst met termen en definities vanuit een CSV- of XLS-bestand. U kunt ook "Bestaande termen bijwerken" aanvinken om definities te overschrijven voor termen die al in de woordenlijst staan.
-* **Exporteren** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Exporteren" data-size="line"> — Download de woordenlijst als CSV, Excel (XLS) of PDF voor gebruik in een andere cursus of als offline naslagwerk
+* **Importeren** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importeren" data-size="line"> — Upload een lijst met termen en definities vanuit een CSV- of XLS-bestand. U kunt ook "Bestaande termen bijwerken" aanvinken om definities te overschrijven voor termen die al in de woordenlijst staan.
+* **Exporteren** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="Exporteren" data-size="line"> — Download de woordenlijst als CSV, Excel (XLS) of PDF voor gebruik in een andere cursus of als offline naslagwerk
 
 ## Weergaveopties
 

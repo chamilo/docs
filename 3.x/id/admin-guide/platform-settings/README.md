@@ -4,7 +4,7 @@ Chamilo memiliki sistem konfigurasi yang luas dengan pengaturan yang diorganisas
 
 Akses pengaturan platform dari panel administrasi dengan mengklik **Configuration settings**.
 
-![Halaman pengaturan platform yang menampilkan kategori konfigurasi yang diorganisasi menurut area fungsional](/.gitbook/assets/admin-settings-categories.png)
+![Halaman pengaturan platform yang menampilkan kategori konfigurasi yang diorganisasi menurut area fungsional](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Semua kategori
 

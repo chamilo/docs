@@ -27,7 +27,7 @@ Por padrão, o formulário público de registro não tem opção alguma de se ca
 
 Algumas plataformas habilitam uma etapa **"O que você deseja fazer?"** com dois cartões — **Seguir cursos** e **Ministrar cursos** — mas isso só aparece se o administrador tiver ativado especificamente o registro como professor. Mesmo nesse caso, escolher ministrar cursos pode exigir que sua conta seja aprovada antes que você obtenha direitos de professor.
 
-![O formulário de registro em uma plataforma com autorregistro de professor habilitado, mostrando o seletor de papéis "Seguir cursos" / "Ministrar cursos"](/.gitbook/assets/student-registration-form.png)
+![O formulário de registro em uma plataforma com autorregistro de professor habilitado, mostrando o seletor de papéis "Seguir cursos" / "Ministrar cursos"](../../.gitbook/assets/student-registration-form.png)
 
 Se você precisar de uma conta de professor e não vir essa opção, peça ao administrador da plataforma que crie uma para você ou que atualize sua conta existente.
 

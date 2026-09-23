@@ -1,6 +1,6 @@
 # Tanda Tangan Latihan
 
-Exercise Signature <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Tanda Tangan Latihan" data-size="line"> menambahkan langkah tanda tangan elektronik setelah mahasiswa menyelesaikan suatu percobaan tes, sehingga penyelesaiannya dapat diautentikasi — berguna untuk konteks kepatuhan atau sertifikasi. Fitur ini tidak mengubah skor, jawaban, atau data buku nilai; fitur ini hanya merekam tanda tangan bersama percobaan tersebut.
+Exercise Signature <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Tanda Tangan Latihan" data-size="line"> menambahkan langkah tanda tangan elektronik setelah mahasiswa menyelesaikan suatu percobaan tes, sehingga penyelesaiannya dapat diautentikasi — berguna untuk konteks kepatuhan atau sertifikasi. Fitur ini tidak mengubah skor, jawaban, atau data buku nilai; fitur ini hanya merekam tanda tangan bersama percobaan tersebut.
 
 ## Mengaktifkannya untuk suatu Tes
 

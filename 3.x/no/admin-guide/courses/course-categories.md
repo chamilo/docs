@@ -19,7 +19,7 @@ Chamilo oppretter 3 kategorier som standard: *Language skills*, *PC Skills* og *
 
 ## Kategorihierarki
 
-![Administrasjonssiden for kurskategorier som viser et nestet tre av kategorier](/.gitbook/assets/admin-course-categories.png)
+![Administrasjonssiden for kurskategorier som viser et nestet tre av kategorier](../../.gitbook/assets/admin-course-categories.png)
 
 Kategorier kan nestes for å opprette en trestruktur:
 

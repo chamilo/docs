@@ -4,7 +4,7 @@ Chamilo menyertakan jejaring sosial bawaan untuk terhubung dengan pengguna lain 
 
 ## Apakah Anda Memiliki Akses
 
-Klik **Jejaring sosial** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Jejaring sosial" data-size="line"> di bilah sisi untuk memperluasnya, lalu klik **Beranda**. Jika opsi ini sama sekali tidak ada, administrator Anda telah menonaktifkannya untuk platform Anda — tidak ada yang hilang di sisi Anda.
+Klik **Jejaring sosial** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Jejaring sosial" data-size="line"> di bilah sisi untuk memperluasnya, lalu klik **Beranda**. Jika opsi ini sama sekali tidak ada, administrator Anda telah menonaktifkannya untuk platform Anda — tidak ada yang hilang di sisi Anda.
 
 Bagian yang diperluas yang sama juga mencantumkan **Pesan**, **Teman saya**, **Grup sosial** — dan, sedikit tidak terduga, **Berkas saya** (penyimpanan berkas pribadi Anda) serta **Data pribadi** (ekspor data pribadi yang disimpan platform tentang Anda). Dua yang terakhir bukan fitur sosial; keduanya hanya dikelompokkan ke bagian bilah sisi ini.
 
@@ -12,7 +12,7 @@ Bagian yang diperluas yang sama juga mencantumkan **Pesan**, **Teman saya**, **G
 
 Setelah masuk, **dinding** Anda menampilkan umpan aktivitas dari Anda dan orang-orang yang terhubung dengan Anda. Anda dapat memublikasikan pembaruan, dan — jika diaktifkan oleh administrator Anda — menyukai atau tidak menyukai, serta mengomentari, kiriman dari koneksi Anda.
 
-![Dinding sosial, dengan penyusun kiriman dan panel untuk komunitas, teman, dan keterampilan](/.gitbook/assets/student-social-wall.png)
+![Dinding sosial, dengan penyusun kiriman dan panel untuk komunitas, teman, dan keterampilan](../.gitbook/assets/student-social-wall.png)
 
 ## Terhubung dengan Orang Lain
 

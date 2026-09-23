@@ -4,7 +4,7 @@ The assignments tool (also called "student publications") lets you collect work 
 
 ## Creating an Assignment
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
+1. Open the **Assignments** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
 2. Click **Create an assignment**
 3. Fill in the details:
    * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
@@ -41,7 +41,7 @@ Learners can see whether they have already submitted and, if allowed, update the
 
 ## Reviewing Submissions
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![The assignment submissions list showing student names, dates, files, and grading status](../../.gitbook/assets/assignments-submissions-list.png)
 
 As a teacher, open an assignment to see the list of all submissions:
 
@@ -53,7 +53,7 @@ As a teacher, open an assignment to see the list of all submissions:
 
 ### Grading a Submission
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![The assignment grading view with score input, feedback field, and corrected file upload](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Click on a submission to open it
 2. Review the submitted file

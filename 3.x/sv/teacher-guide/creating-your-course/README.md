@@ -7,10 +7,10 @@ Det här avsnittet förklarar hur du skapar en ny kurs i Chamilo och konfigurera
 Så här skapar du en kurs:
 
 1. Klicka på **Mina kurser** i sidofältet
-2. Klicka på knappen **Skapa kurs** (vanligtvis en grön bok <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurser" data-size="line"> med ett plus-tecken)
+2. Klicka på knappen **Skapa kurs** (vanligtvis en grön bok <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurser" data-size="line"> med ett plus-tecken)
 3. Fyll i formuläret för kurskapande:
 
-![Formuläret för kurskapande med fält för namn, kategori, kod och språk](/.gitbook/assets/course-creation-form.png)
+![Formuläret för kurskapande med fält för namn, kategori, kod och språk](../../.gitbook/assets/course-creation-form.png)
 
 | Fält | Obligatoriskt | Beskrivning |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Du omdirigeras till startsidan för din nya kurs. Ett bekräftelsemeddelande vis
 
 När kursen är skapad landar du på dess startsida. Det är navet för din kurs, där du och dina deltagare kommer åt alla verktyg och allt innehåll.
 
-![Verktygsrutnätet på kursens startsida som visar tillgängliga kursverktyg med ikoner och synlighetsspärrar](/.gitbook/assets/course-homepage-tool-grid.png)
+![Verktygsrutnätet på kursens startsida som visar tillgängliga kursverktyg med ikoner och synlighetsspärrar](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Startsidan visar:
 
 * **Kurstitel** — Namnet på din kurs, visat högst upp.
-* **Kursintroduktion** — En valfri beskrivning eller ett välkomstmeddelande. Klicka på knappen **+ Kursintroduktion** för att lägga till en, eller på knappen **Redigera introduktion** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line"> högst upp för att ändra den. Den stöder rich text med bilder, länkar och formatering.
+* **Kursintroduktion** — En valfri beskrivning eller ett välkomstmeddelande. Klicka på knappen **+ Kursintroduktion** för att lägga till en, eller på knappen **Redigera introduktion** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Redigera" data-size="line"> högst upp för att ändra den. Den stöder rich text med bilder, länkar och formatering.
 * **Verktygsrutnät** — Ett rutnät med alla tillgängliga kursverktyg, vart och ett visat som ett kort med ikon och namn.
 
 ### Hantera verktygens synlighet
 
 Som lärare kan du styra vilka verktyg dina deltagare kan se:
 
-* Klicka på **ögonikonen** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlig" data-size="line"> bredvid ett verktyg för att dölja det för deltagarna. Dolda verktyg visar ett **överkorsat öga** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Dold" data-size="line"> och är fortfarande tillgängliga för dig.
+* Klicka på **ögonikonen** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlig" data-size="line"> bredvid ett verktyg för att dölja det för deltagarna. Dolda verktyg visar ett **överkorsat öga** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Dold" data-size="line"> och är fortfarande tillgängliga för dig.
 * Använd knapparna **Visa alla** och **Dölj alla** för att ändra alla verktyg på en gång
 * Klicka på **Sortera** för att aktivera omordning av verktygsrutnätet med dra och släpp
 

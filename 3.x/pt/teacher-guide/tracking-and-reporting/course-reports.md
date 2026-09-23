@@ -4,9 +4,9 @@ Os relatórios do curso oferecem uma visão agregada da atividade e do desempenh
 
 ## Aceder aos Relatórios do Curso
 
-Abra a ferramenta **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> a partir da página inicial do curso e selecione a vista de relatórios ao nível do curso.
+Abra a ferramenta **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> a partir da página inicial do curso e selecione a vista de relatórios ao nível do curso.
 
-![A visão geral de tracking do curso, mostrando métricas de envolvimento e um resumo da atividade dos formandos](/.gitbook/assets/tracking-course-overview.png)
+![A visão geral de tracking do curso, mostrando métricas de envolvimento e um resumo da atividade dos formandos](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Relatórios Disponíveis
 
@@ -43,7 +43,7 @@ Para cada trabalho:
 
 ## Exportar Dados
 
-Pode exportar dados de tracking e de relatórios para análise posterior. Procure a opção **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> para descarregar os dados num formato compatível com folha de cálculo.
+Pode exportar dados de tracking e de relatórios para análise posterior. Procure a opção **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> para descarregar os dados num formato compatível com folha de cálculo.
 
 ## Relatórios de Sessão
 

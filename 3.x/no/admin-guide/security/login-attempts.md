@@ -8,7 +8,7 @@ Fra administrasjonspanelet klikker du **Sikkerhet > Innloggingsforsøk**.
 
 ## Hva den viser
 
-![Siden Innloggingsforsøk som viser diagrammer for forsøk per dag, topp-IP-er, mislykkede forsøk per måned, vellykkede kontra mislykkede innlogginger, forsøk per time og unike IP-er per dag, etterfulgt av en tabell over mislykkede innloggingsforsøk](/.gitbook/assets/admin-security-login-attempts.png)
+![Siden Innloggingsforsøk som viser diagrammer for forsøk per dag, topp-IP-er, mislykkede forsøk per måned, vellykkede kontra mislykkede innlogginger, forsøk per time og unike IP-er per dag, etterfulgt av en tabell over mislykkede innloggingsforsøk](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Forsøk per dag (siste 7 dager)** — Daglig antall mislykkede forsøk
 * **Topp-IP-er (siste 30 dager)** — Hvilke IP-adresser som genererte flest forsøk

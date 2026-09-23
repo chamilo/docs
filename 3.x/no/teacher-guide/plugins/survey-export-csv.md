@@ -1,6 +1,6 @@
 # Undersøkelse-eksport CSV
 
-Undersøkelse-eksport CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Undersøkelse-eksport CSV" data-size="line"> legger til en ettklikks-eksport av en undersøkelses resultater til en kompakt CSV-fil, med én rad per respondent og én kolonne per spørsmål.
+Undersøkelse-eksport CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Undersøkelse-eksport CSV" data-size="line"> legger til en ettklikks-eksport av en undersøkelses resultater til en kompakt CSV-fil, med én rad per respondent og én kolonne per spørsmål.
 
 ## Eksportere en undersøkelse
 

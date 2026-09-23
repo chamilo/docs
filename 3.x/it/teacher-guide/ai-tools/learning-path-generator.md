@@ -14,7 +14,7 @@ Cercare la sezione **Generatore IA** all’interno dell’interfaccia di creazio
 
 ## Come generare un Percorso di Apprendimento
 
-![Il modulo del generatore di percorsi di apprendimento IA con i campi per argomento, obiettivi e numero di sezioni](/.gitbook/assets/ai-learning-path-generator.png)
+![Il modulo del generatore di percorsi di apprendimento IA con i campi per argomento, obiettivi e numero di sezioni](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Aprire il modulo Generatore IA
 2. Configurare i parametri:

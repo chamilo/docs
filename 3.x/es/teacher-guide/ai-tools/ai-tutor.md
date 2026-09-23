@@ -24,7 +24,7 @@ El Tutor de IA requiere dos niveles de configuración:
 
 ## La interfaz de chat
 
-![La interfaz de chat del Tutor de IA mostrando una conversación entre un estudiante y la IA](/.gitbook/assets/ai-tutor-chat.png)
+![La interfaz de chat del Tutor de IA mostrando una conversación entre un estudiante y la IA](../../.gitbook/assets/ai-tutor-chat.png)
 
 El Tutor de IA aparece como un **panel de chat acoplado** dentro del curso. Los estudiantes pueden:
 

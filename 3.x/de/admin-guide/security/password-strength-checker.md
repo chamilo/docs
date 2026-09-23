@@ -8,7 +8,7 @@ Klicken Sie im Administrationsbereich auf **Sicherheit > Passwortstärke-Prüfun
 
 ## Einen Scan ausführen
 
-![Die Seite der Passwortstärke-Prüfung mit einem Feld für zu prüfende Benutzer-IDs und einer Schaltfläche zum Starten des Scans](/.gitbook/assets/admin-security-password-strength.png)
+![Die Seite der Passwortstärke-Prüfung mit einem Feld für zu prüfende Benutzer-IDs und einer Schaltfläche zum Starten des Scans](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Lassen Sie **Zu prüfende Benutzer-IDs** leer, um alle aktiven Benutzer zu scannen, oder geben Sie eine kommagetrennte Liste von Benutzer-IDs ein, um eine Teilmenge zu prüfen
 * Klicken Sie auf **Passwortstärke-Scan ausführen**
@@ -17,7 +17,7 @@ Der Scan läuft asynchron im Hintergrund, damit die Seite nicht einfriert, und z
 
 ## Maßnahmen anhand der Ergebnisse
 
-![Die abgeschlossenen Scan-Ergebnisse mit einem markierten Benutzer in den Spalten Name, Benutzername und E-Mail sowie zeilenweisen Aktionen zum Anfordern einer Passwortänderung oder zum Erzwingen eines Passwort-Resets](/.gitbook/assets/admin-security-password-strength-results.png)
+![Die abgeschlossenen Scan-Ergebnisse mit einem markierten Benutzer in den Spalten Name, Benutzername und E-Mail sowie zeilenweisen Aktionen zum Anfordern einer Passwortänderung oder zum Erzwingen eines Passwort-Resets](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Sobald der Scan abgeschlossen ist, werden markierte Benutzer mit zwei verfügbaren Aktionen aufgeführt, entweder pro Benutzer oder als Sammelaktion für alle ausgewählten Benutzer:
 

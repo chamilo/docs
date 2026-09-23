@@ -1,6 +1,6 @@
 # 定位
 
-定位 <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="定位" data-size="line"> 提供前後自我評量工作流程：選取一份測驗作為**初始測驗**，另一份作為**最終測驗**（通常為同一測驗的複本），Chamilo 會以雷達圖顯示每位學習者兩次測驗之間的分數變化。
+定位 <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="定位" data-size="line"> 提供前後自我評量工作流程：選取一份測驗作為**初始測驗**，另一份作為**最終測驗**（通常為同一測驗的複本），Chamilo 會以雷達圖顯示每位學習者兩次測驗之間的分數變化。
 
 ## 存取此工具
 

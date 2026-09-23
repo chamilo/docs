@@ -1,6 +1,6 @@
 # H5P 匯入
 
-H5P 匯入 <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P 匯入" data-size="line"> 可讓您將標準 `.h5p` 互動內容套件（互動影片、測驗、簡報及其他 H5P 內容類型）帶入課程，學習者的作答次數與進度會以類似 Chamilo 測驗的方式加以追蹤。
+H5P 匯入 <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P 匯入" data-size="line"> 可讓您將標準 `.h5p` 互動內容套件（互動影片、測驗、簡報及其他 H5P 內容類型）帶入課程，學習者的作答次數與進度會以類似 Chamilo 測驗的方式加以追蹤。
 
 ## 存取此工具
 

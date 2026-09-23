@@ -15,7 +15,7 @@ Et **kurs** er en beholder for innhold og verktøy. En **sesjon** tildeler det k
 
 Fra sidepanelet klikker du **Mine sesjoner** for å se sesjonene dine. De er organisert i tre visninger:
 
-![Siden Mine sesjoner som viser visninger for nåværende, tidligere og kommende sesjoner](/.gitbook/assets/my-sessions-list.png)
+![Siden Mine sesjoner som viser visninger for nåværende, tidligere og kommende sesjoner](../.gitbook/assets/my-sessions-list.png)
 
 * **Nåværende sesjoner** — Sesjoner som er aktive nå
 * **Tidligere sesjoner** — Sesjoner som er avsluttet

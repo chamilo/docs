@@ -10,7 +10,7 @@ Från administrationspanelen klickar du på **Säkerhet > Filintegritet**.
 
 ## Vad den visar
 
-![Sidan Filintegritet som visar information om senaste genomsökning, paneler för tillagda, ändrade, borttagna filer och filer med ändrade behörigheter, en lista över larmhistorik samt åtgärder för att köra en genomsökning, pausa larm eller etablera en ny baslinje](/.gitbook/assets/admin-security-file-integrity.png)
+![Sidan Filintegritet som visar information om senaste genomsökning, paneler för tillagda, ändrade, borttagna filer och filer med ändrade behörigheter, en lista över larmhistorik samt åtgärder för att köra en genomsökning, pausa larm eller etablera en ny baslinje](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Senaste genomsökning** — När den senaste genomsökningen kördes och hur många filer den kontrollerade
 * **Tillagda / Ändrade / Borttagna** — Filer som skiljer sig från baslinjen, identifierade genom jämförelse av SHA-256-kontrollsummor (varje lista är begränsad till 500 sökvägar, med en notering om den fullständiga listan är längre — se CEF-loggen nedan för den kompletta listan)

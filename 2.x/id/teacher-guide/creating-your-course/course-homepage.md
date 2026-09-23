@@ -13,7 +13,7 @@ Pengantar kursus adalah area teks kaya yang ditampilkan di bagian atas halaman b
 
 Langkah-langkah untuk mengedit pengantar kursus:
 
-1. Klik tombol **Edit Pengantar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line">
+1. Klik tombol **Edit Pengantar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line">
 2. Gunakan editor teks kaya untuk menulis konten Anda
 3. Simpan perubahan Anda
 
@@ -21,7 +21,7 @@ Jika pengantar kursus belum dibuat, Anda akan melihat tombol **Buat Pengantar**.
 
 ## Kisi Alat
 
-![Kisi alat halaman beranda kursus, menampilkan ikon alat yang tersedia dan sakelar visibilitas](/.gitbook/assets/course-homepage-tool-grid.png)
+![Kisi alat halaman beranda kursus, menampilkan ikon alat yang tersedia dan sakelar visibilitas](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Di bawah pengantar kursus, alat kursus ditampilkan dalam tata letak kisi. Setiap alat disajikan dalam bentuk kartu yang berisi:
 
@@ -32,18 +32,18 @@ Kursus Anda mungkin berisi alat berikut:
 
 | Alat | Ikon | Kegunaan |
 |------|------|----------|
-| Jadwal | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Jadwal" data-size="line"> | Menjadwalkan acara dan tenggat waktu |
-| Pengumuman | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> | Mengirim pesan ke siswa yang terdaftar |
-| Tugas | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tugas" data-size="line"> | Mengumpul dan menilai tugas siswa |
-| Dokumen | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumen" data-size="line"> | Mengunggah dan mengorganisir file serta konten |
-| Tes | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tes" data-size="line"> | Membuat kuesioner dan tes |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> | Mengadakan diskusi |
-| Glosarium | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosarium" data-size="line"> | Mendefinisikan istilah kunci |
-| Penilaian | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Transkrip Nilai" data-size="line"> | Mengelola nilai dan sertifikat |
-| Jalur Pembelajaran | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Jalur Pembelajaran" data-size="line"> | Membangun urutan pembelajaran terstruktur |
-| Tautan | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Tautan" data-size="line"> | Berbagi URL yang berguna |
-| Pengguna | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Anggota" data-size="line"> | Melihat dan mengelola pengguna terdaftar |
-| Survei | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Survei" data-size="line"> | Membuat dan mendistribusikan kuesioner survei |
+| Jadwal | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Jadwal" data-size="line"> | Menjadwalkan acara dan tenggat waktu |
+| Pengumuman | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> | Mengirim pesan ke siswa yang terdaftar |
+| Tugas | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tugas" data-size="line"> | Mengumpul dan menilai tugas siswa |
+| Dokumen | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumen" data-size="line"> | Mengunggah dan mengorganisir file serta konten |
+| Tes | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tes" data-size="line"> | Membuat kuesioner dan tes |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> | Mengadakan diskusi |
+| Glosarium | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosarium" data-size="line"> | Mendefinisikan istilah kunci |
+| Penilaian | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Transkrip Nilai" data-size="line"> | Mengelola nilai dan sertifikat |
+| Jalur Pembelajaran | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Jalur Pembelajaran" data-size="line"> | Membangun urutan pembelajaran terstruktur |
+| Tautan | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Tautan" data-size="line"> | Berbagi URL yang berguna |
+| Pengguna | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Anggota" data-size="line"> | Melihat dan mengelola pengguna terdaftar |
+| Survei | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Survei" data-size="line"> | Membuat dan mendistribusikan kuesioner survei |
 
 > Jika administrator menonaktifkan beberapa alat pada tingkat platform, atau Anda menyembunyikan beberapa alat, maka alat-alat tersebut mungkin tidak ditampilkan.
 
@@ -65,7 +65,7 @@ Selain itu, alat **Pelacakan** dan **Pemeliharaan** telah dipindahkan ke bagian 
 * Gunakan **Tampilkan Semua** atau **Sembunyikan Semua** untuk perubahan massal
 * Alat yang disembunyikan tetap dapat diakses oleh Anda sebagai pengajar — hanya disembunyikan dari siswa
 
-![Halaman beranda kursus dalam tampilan siswa, alat tersembunyi tidak terlihat](/.gitbook/assets/course-homepage-student-view.png)
+![Halaman beranda kursus dalam tampilan siswa, alat tersembunyi tidak terlihat](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## Fitur Auto-Start
 

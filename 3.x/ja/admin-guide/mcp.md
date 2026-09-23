@@ -39,7 +39,7 @@ MCP（Model Context Protocol）は、AI クライアントがサーバーが公�
 
 各ユーザーは **Social network** > **MCP API key** で自身のキーを生成します。
 
-![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](/.gitbook/assets/admin-mcp-api-key.png)
+![The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP connection block with the endpoint URL and Authorization header format](../.gitbook/assets/admin-mcp-api-key.png)
 
 * **Generate API key** をクリックするとキーが作成され、一度だけ表示されます。Chamilo はその後マスクされた版のみを保存するため、完全なキーは直ちにコピーして安全に保管する必要があります。
 * 新しいキーを生成すると、直前のキーは直ちに無効化されます。

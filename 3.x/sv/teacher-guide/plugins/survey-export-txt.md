@@ -1,6 +1,6 @@
 # Undersöknings­export TXT
 
-Undersöknings­export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Undersöknings­export TXT" data-size="line"> exporterar en undersöknings resultat till en läsbar oformaterad textfil — ett block per respondent, med varje fråga, det eller de valda svaren och eventuellt fritextsvar, i stället för en CSV-fils rader och kolumner.
+Undersöknings­export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Undersöknings­export TXT" data-size="line"> exporterar en undersöknings resultat till en läsbar oformaterad textfil — ett block per respondent, med varje fråga, det eller de valda svaren och eventuellt fritextsvar, i stället för en CSV-fils rader och kolumner.
 
 ## Exportera en undersökning
 

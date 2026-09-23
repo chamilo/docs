@@ -2,7 +2,7 @@
 
 Der Block **Sicherheit** auf dem Administrations-Dashboard fasst die integrierten Werkzeuge zur Sicherheitsüberwachung und -prüfung der Plattform zusammen. Er ist getrennt von den [Sicherheitseinstellungen](../platform-settings/security-settings.md), die die Sicherheits*richtlinie* konfigurieren (Passwortregeln, CAPTCHA, HTTP-Sicherheitsheader und so weiter) — dieser Block stellt die *Berichte und Werkzeuge* bereit, die die Plattform auf verdächtige Aktivitäten und unerwünschte Änderungen überwachen.
 
-![Der Block Sicherheit auf dem Administrations-Dashboard mit den Einträgen Aktivitätenprüfung, Anmeldeversuche, Simple IDS, Passwortstärke-Prüfer und Dateiintegrität](/.gitbook/assets/admin-security-block.png)
+![Der Block Sicherheit auf dem Administrations-Dashboard mit den Einträgen Aktivitätenprüfung, Anmeldeversuche, Simple IDS, Passwortstärke-Prüfer und Dateiintegrität](../../.gitbook/assets/admin-security-block.png)
 
 Der Block wurde in Chamilo 2.0 mit vier Werkzeugen eingeführt und in Chamilo 3.0 um ein fünftes erweitert, **Dateiintegrität**.
 

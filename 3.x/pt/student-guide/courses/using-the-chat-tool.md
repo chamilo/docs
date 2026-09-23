@@ -4,9 +4,9 @@ Alguns cursos incluem uma ferramenta de **Chat** — mensagens de texto em tempo
 
 ## Enviar Mensagens
 
-Abra a ferramenta **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> a partir da página inicial do curso. Verá uma lista de **Utilizadores** de todas as pessoas atualmente em linha no curso, cada uma com o seu próprio botão **Chat**, além de um separador **Todos** para o grupo inteiro:
+Abra a ferramenta **Chat** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> a partir da página inicial do curso. Verá uma lista de **Utilizadores** de todas as pessoas atualmente em linha no curso, cada uma com o seu próprio botão **Chat**, além de um separador **Todos** para o grupo inteiro:
 
-![A ferramenta Chat do curso, a mostrar a lista de utilizadores em linha e um compositor de mensagens](/.gitbook/assets/student-course-chat.png)
+![A ferramenta Chat do curso, a mostrar a lista de utilizadores em linha e um compositor de mensagens](../../.gitbook/assets/student-course-chat.png)
 
 Escolha uma pessoa (ou **Todos**) e escreva a sua mensagem na caixa na parte inferior. Prima **Enter** para a enviar, ou **Shift+Enter** para iniciar uma nova linha sem enviar. Uma opção **Pré-visualizar** permite verificar a formatação antes de enviar, e **Repor** limpa o que escreveu.
 

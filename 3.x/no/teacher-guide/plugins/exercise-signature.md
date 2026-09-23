@@ -1,6 +1,6 @@
 # Øvelsessignatur
 
-Øvelsessignatur <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Øvelsessignatur" data-size="line"> legger til et trinn for elektronisk signatur etter at en student har fullført et testforsøk, slik at fullføringen kan autentiseres — nyttig i samsvars- eller sertifiseringssammenhenger. Det påvirker ikke poeng, svar eller data i karakterboken; det registrerer kun en signatur sammen med forsøket.
+Øvelsessignatur <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Øvelsessignatur" data-size="line"> legger til et trinn for elektronisk signatur etter at en student har fullført et testforsøk, slik at fullføringen kan autentiseres — nyttig i samsvars- eller sertifiseringssammenhenger. Det påvirker ikke poeng, svar eller data i karakterboken; det registrerer kun en signatur sammen med forsøket.
 
 ## Slå det på for en test
 

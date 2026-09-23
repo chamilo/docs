@@ -13,7 +13,7 @@ AI 練習生成器可協助您使用人工智慧自動建立測驗題目。您�
 
 ## 如何產生題目
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![The AI exercise generator form with fields for topic and number of questions](../../.gitbook/assets/ai-exercise-generator.png)
 
 生成器提供兩種模式，以分頁形式呈現：
 
@@ -32,7 +32,7 @@ AI 練習生成器可協助您使用人工智慧自動建立測驗題目。您�
 
 ## 審核與編輯
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![AI-generated questions displayed for review with options to edit, accept, or remove each one](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 產生的題目會以 **suggestions** 形式呈現。您應：
 

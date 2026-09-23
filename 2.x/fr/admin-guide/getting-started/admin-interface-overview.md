@@ -1,10 +1,10 @@
 # Aperçu de l'interface d'administration
 
-Le panneau d'administration est votre centre de commande pour gérer la plateforme Chamilo. Accédez-y en cliquant sur **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administration" data-size="line"> dans la barre latérale.
+Le panneau d'administration est votre centre de commande pour gérer la plateforme Chamilo. Accédez-y en cliquant sur **Administration** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Administration" data-size="line"> dans la barre latérale.
 
 ## Tableau de bord d'administration
 
-![Le tableau de bord d'administration affichant les blocs fonctionnels pour les Utilisateurs, les Cours, les Sessions et les Paramètres](/.gitbook/assets/admin-dashboard-overview.png)
+![Le tableau de bord d'administration affichant les blocs fonctionnels pour les Utilisateurs, les Cours, les Sessions et les Paramètres](../../.gitbook/assets/admin-dashboard-overview.png)
 
 Le tableau de bord d'administration est organisé en blocs fonctionnels. Chaque bloc regroupe des outils de gestion connexes :
 

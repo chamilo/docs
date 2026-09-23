@@ -6,7 +6,7 @@ Chamilo 中的您的個人檔案包含您的個人資訊和偏好設定。平台
 
 點擊頂部工具列右上角的 **avatar**，然後從下拉選單中選擇 **Profile**。您也可以從側邊欄的 **Social network** 區段存取。
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![The user avatar dropdown menu showing profile, account settings, and sign-out options](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## 個人檔案資訊
 

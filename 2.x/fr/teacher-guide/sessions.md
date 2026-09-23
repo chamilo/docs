@@ -15,7 +15,7 @@ Un **cours** est un conteneur de contenu et d'outils. Une **session** attribue c
 
 Depuis la barre latérale, cliquez sur **Mes sessions** pour voir vos sessions. Elles sont organisées en trois vues :
 
-![La page Mes sessions affichant les vues des sessions actuelles, passées et à venir](/.gitbook/assets/my-sessions-list.png)
+![La page Mes sessions affichant les vues des sessions actuelles, passées et à venir](../.gitbook/assets/my-sessions-list.png)
 
 - **Sessions actuelles** — Sessions actuellement actives
 - **Sessions passées** — Sessions qui se sont terminées

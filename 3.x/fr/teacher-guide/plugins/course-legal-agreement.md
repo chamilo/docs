@@ -1,12 +1,12 @@
 # Accord juridique du cours
 
-Le plugin Accord juridique du cours <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Accord juridique du cours" data-size="line"> exige que les étudiants acceptent des conditions / un avis juridique avant de pouvoir accéder à votre cours — utile pour les formulaires de consentement, les politiques d’utilisation, ou tout avis que vous souhaitez que les apprenants acceptent formellement.
+Le plugin Accord juridique du cours <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Accord juridique du cours" data-size="line"> exige que les étudiants acceptent des conditions / un avis juridique avant de pouvoir accéder à votre cours — utile pour les formulaires de consentement, les politiques d’utilisation, ou tout avis que vous souhaitez que les apprenants acceptent formellement.
 
 ## L’activer pour votre cours
 
 Activer le plugin à l’échelle de la plateforme ne suffit pas à lui seul — vous devez encore l’activer pour chaque cours où vous le souhaitez :
 
-1. Ouvrez les **Paramètres** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours
+1. Ouvrez les **Paramètres** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Paramètres" data-size="line"> de votre cours
 2. Dans la section d’accès au cours, cochez **Activer les conditions juridiques**
 
 Cela ajoute un outil **Accord juridique du cours** à votre cours.

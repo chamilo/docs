@@ -13,7 +13,7 @@ Se efter knappen eller sektionen **AI Generator** i grænsefladen til oprettelse
 
 ## Sådan genererer du spørgsmål
 
-![Formularen til AI-øvelsesgeneratoren med felter til emne og antal spørgsmål](/.gitbook/assets/ai-exercise-generator.png)
+![Formularen til AI-øvelsesgeneratoren med felter til emne og antal spørgsmål](../../.gitbook/assets/ai-exercise-generator.png)
 
 Generatoren tilbyder to tilstande, tilgængelige som faner:
 
@@ -32,7 +32,7 @@ Generatoren tilbyder to tilstande, tilgængelige som faner:
 
 ## Gennemgang og redigering
 
-![AI-genererede spørgsmål vist til gennemgang med muligheder for at redigere, acceptere eller fjerne hvert enkelt](/.gitbook/assets/ai-exercise-generator-results.png)
+![AI-genererede spørgsmål vist til gennemgang med muligheder for at redigere, acceptere eller fjerne hvert enkelt](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Genererede spørgsmål præsenteres som **forslag**. Du bør:
 

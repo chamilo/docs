@@ -4,7 +4,7 @@ Chamilo heeft een uitgebreid configuratiesysteem met instellingen die in categor
 
 Open de platforminstellingen vanuit het beheerderspaneel door op **Configuratie-instellingen** te klikken.
 
-![De pagina platforminstellingen met configuratiecategorieën georganiseerd per functioneel gebied](/.gitbook/assets/admin-settings-categories.png)
+![De pagina platforminstellingen met configuratiecategorieën georganiseerd per functioneel gebied](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Alle categorieën
 

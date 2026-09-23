@@ -6,7 +6,7 @@ Chamilo 可與視訊會議平台整合，讓您直接從課程中進行即時會
 
 ## 開始視訊會議
 
-1. 從課程首頁（或側邊欄）開啟 **視訊會議** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="視訊" data-size="line"> 工具
+1. 從課程首頁（或側邊欄）開啟 **視訊會議** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="視訊" data-size="line"> 工具
 2. 點選 **開始會議**（或依所設定平台而異的類似按鈕）
 3. 新的視訊會議室將在新的瀏覽器分頁中開啟
 

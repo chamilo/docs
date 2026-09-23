@@ -30,13 +30,13 @@ La fecha de caducidad de cada certificado se calcula automáticamente a partir d
 
 Si la categoría no tiene configurado un periodo de validez, aún puede establecer (o modificar) a mano la fecha de caducidad de un alumno concreto: pulse el botón de lápiz **Editar fecha de caducidad** junto a su entrada y elija una fecha. Este botón solo está disponible cuando la propia categoría no tiene periodo de validez; una vez definido un periodo de validez, las fechas de caducidad se gestionan automáticamente y ya no pueden editarse certificado por certificado.
 
-![La lista de certificados mostrando la columna Fecha de caducidad para tres alumnos](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![La lista de certificados mostrando la columna Fecha de caducidad para tres alumnos](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Recordar a los alumnos una caducidad próxima o ya pasada
 
-Abra la lista de **Certificados** de su evaluación y pulse el botón **Certificados que caducan** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificados que caducan" data-size="line"> para ver qué certificados de los alumnos han caducado o están a punto de caducar. La página muestra, por alumno: la **Fecha de caducidad** del certificado, su **Estado** (**Caducado** o **Caduca pronto**) y cuándo se envió el **Último recordatorio** al respecto (o **Nunca**). Use **Días de antelación** para ampliar o reducir hasta qué punto en el futuro se considera «caduca pronto».
+Abra la lista de **Certificados** de su evaluación y pulse el botón **Certificados que caducan** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificados que caducan" data-size="line"> para ver qué certificados de los alumnos han caducado o están a punto de caducar. La página muestra, por alumno: la **Fecha de caducidad** del certificado, su **Estado** (**Caducado** o **Caduca pronto**) y cuándo se envió el **Último recordatorio** al respecto (o **Nunca**). Use **Días de antelación** para ampliar o reducir hasta qué punto en el futuro se considera «caduca pronto».
 
-![La página Certificados que caducan listando un certificado caducado y uno a punto de caducar](/.gitbook/assets/gradebook-certificate-expirations.png)
+![La página Certificados que caducan listando un certificado caducado y uno a punto de caducar](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Para notificar usted mismo a los alumnos:
 
@@ -45,7 +45,7 @@ Para notificar usted mismo a los alumnos:
 3. Revise la vista previa del correo electrónico que se enviará: se muestran vistas previas distintas para el texto de «caduca pronto» y el de «caducado», según en cuál de los dos casos se encuentren los alumnos seleccionados
 4. Confirme pulsando de nuevo **Enviar notificación** en el diálogo
 
-![El diálogo de confirmación Enviar notificación con la vista previa del texto de los correos de caducidad próxima y caducado](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![El diálogo de confirmación Enviar notificación con la vista previa del texto de los correos de caducidad próxima y caducado](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Cada alumno recibe la notificación en su idioma configurado, tanto por correo electrónico como mediante un mensaje interno de Chamilo. Volver a enviar para el mismo certificado y la misma fecha de caducidad es seguro: Chamilo registra lo que ya se envió por certificado y no saturará al alumno con recordatorios duplicados a menos que usted reenvíe de forma explícita.
 

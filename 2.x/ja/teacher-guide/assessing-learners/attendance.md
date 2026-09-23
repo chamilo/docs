@@ -20,7 +20,7 @@
 各出欠シートには、出席を記録する1つ以上の日付（セッション）が含まれています：
 
 1. 出欠シートを開くか、作成プロセスを続けます
-2. **日付を追加**をクリックします <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="日付を追加" data-size="line">
+2. **日付を追加**をクリックします <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="日付を追加" data-size="line">
 3. 日付と時刻を選択します
 4. 必要に応じて、**日付を繰り返す**をチェックして繰り返しロジックを選択します
 5. イベントの**期間**を分単位で指定します（デフォルトは60分）
@@ -44,7 +44,7 @@
 
 ## 出欠レポートの表示
 
-![学習者、日付、出席状況を示す概要表が表示された出欠シート](/.gitbook/assets/attendance-sheet.png)
+![学習者、日付、出席状況を示す概要表が表示された出欠シート](../../.gitbook/assets/attendance-sheet.png)
 
 出欠管理ツールでは以下が表示されます：
 

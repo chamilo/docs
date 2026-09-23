@@ -2,7 +2,7 @@
 
 ## Liitännäisten hallintaan siirtyminen
 
-![Liitännäisten hallinta, jossa näkyy luettelo käytettävissä olevista liitännäisistä aktivointikytkimineen ja määritysasetuksineen](/.gitbook/assets/admin-plugin-manager.png)
+![Liitännäisten hallinta, jossa näkyy luettelo käytettävissä olevista liitännäisistä aktivointikytkimineen ja määritysasetuksineen](../../.gitbook/assets/admin-plugin-manager.png)
 
 Siirry hallintapaneelista kohtaan **Manage plugins** nähdäksesi luettelon käytettävissä olevista liitännäisistä.
 

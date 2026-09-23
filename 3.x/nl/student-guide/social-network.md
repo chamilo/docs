@@ -4,7 +4,7 @@ Chamilo bevat een ingebouwd sociaal netwerk om contact te leggen met andere gebr
 
 ## Of u toegang hebt
 
-Klik op **Sociaal netwerk** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sociaal netwerk" data-size="line"> in de zijbalk om het uit te klappen en klik vervolgens op **Home**. Als deze optie helemaal niet aanwezig is, heeft uw beheerder het voor uw platform uitgeschakeld — er ontbreekt niets aan uw kant.
+Klik op **Sociaal netwerk** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sociaal netwerk" data-size="line"> in de zijbalk om het uit te klappen en klik vervolgens op **Home**. Als deze optie helemaal niet aanwezig is, heeft uw beheerder het voor uw platform uitgeschakeld — er ontbreekt niets aan uw kant.
 
 In dezelfde uitgeklapte sectie staan ook **Berichten**, **Mijn vrienden**, **Sociale groepen** — en, enigszins onverwacht, **Mijn bestanden** (uw persoonlijke bestandsopslag) en **Persoonlijke gegevens** (een export van de persoonlijke gegevens die het platform over u bijhoudt). Die laatste twee zijn geen sociale functies; ze zijn alleen in dit deel van de zijbalk gegroepeerd.
 
@@ -12,7 +12,7 @@ In dezelfde uitgeklapte sectie staan ook **Berichten**, **Mijn vrienden**, **Soc
 
 Eenmaal binnen toont uw **muur** een feed van activiteit van u en de mensen met wie u verbonden bent. U kunt updates plaatsen en — indien ingeschakeld door uw beheerder — berichten van uw connecties liken of disliken, en erop reageren.
 
-![De sociale muur, met een berichtcomposer en panelen voor communities, vrienden en vaardigheden](/.gitbook/assets/student-social-wall.png)
+![De sociale muur, met een berichtcomposer en panelen voor communities, vrienden en vaardigheden](../.gitbook/assets/student-social-wall.png)
 
 ## Verbinden met anderen
 

@@ -30,13 +30,13 @@ Hvert certifikats egen udløbsdato beregnes automatisk ud fra den indstilling, n
 
 Hvis kategorien ikke har nogen gyldighedsperiode konfigureret, kan du stadig indstille (eller ændre) en individuel kursists udløbsdato manuelt: klik på blyantknappen **Rediger udløbsdato** ud for deres post og vælg en dato. Denne knap er kun tilgængelig, når kategorien selv ikke har nogen gyldighedsperiode — når en gyldighedsperiode er sat, styres udløbsdatoer automatisk og kan ikke længere redigeres certifikat for certifikat.
 
-![Listen Certifikater, der viser kolonnen Udløbsdato for tre kursister](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![Listen Certifikater, der viser kolonnen Udløbsdato for tre kursister](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Påmindelse af kursister om et forestående eller overstået udløb
 
-Åbn listen **Certifikater** for din bedømmelse, og klik på knappen **Udløbende certifikater** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Udløbende certifikater" data-size="line"> for at se, hvilke kursisters certifikater der er udløbet eller er ved at udløbe. Siden viser pr. kursist: certifikatets **Udløbsdato**, dets **Status** (**Udløbet** eller **Udløber snart**) og hvornår en påmindelse om det sidst blev **Sidste påmindelse sendt** (eller **Aldrig**). Brug **Dage i forvejen** til at udvide eller indsnævre, hvor langt ud i fremtiden "udløber snart" kigger.
+Åbn listen **Certifikater** for din bedømmelse, og klik på knappen **Udløbende certifikater** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Udløbende certifikater" data-size="line"> for at se, hvilke kursisters certifikater der er udløbet eller er ved at udløbe. Siden viser pr. kursist: certifikatets **Udløbsdato**, dets **Status** (**Udløbet** eller **Udløber snart**) og hvornår en påmindelse om det sidst blev **Sidste påmindelse sendt** (eller **Aldrig**). Brug **Dage i forvejen** til at udvide eller indsnævre, hvor langt ud i fremtiden "udløber snart" kigger.
 
-![Siden Udløbende certifikater, der viser ét udløbet og ét snart udløbende certifikat](/.gitbook/assets/gradebook-certificate-expirations.png)
+![Siden Udløbende certifikater, der viser ét udløbet og ét snart udløbende certifikat](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Sådan underretter du selv kursister:
 
@@ -45,7 +45,7 @@ Sådan underretter du selv kursister:
 3. Gennemgå forhåndsvisningen af den e-mail, der vil blive sendt — der vises separate forhåndsvisninger for formuleringen "udløber snart" og "udløbet", afhængigt af hvilke af dine valgte kursister der falder ind under hvert tilfælde
 4. Bekræft ved at klikke på **Send underretning** igen i dialogen
 
-![Bekræftelsesdialogen Send underretning med forhåndsvisning af e-mailteksten for udløbende og udløbne certifikater](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Bekræftelsesdialogen Send underretning med forhåndsvisning af e-mailteksten for udløbende og udløbne certifikater](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Hver kursist underrettes på sit eget konfigurerede sprog, både via e-mail og via en intern Chamilo-besked. At sende igen for det samme certifikat og den samme udløbsdato er sikkert — Chamilo holder styr på, hvad der allerede er sendt pr. certifikat, og spammer ikke en kursist med dublerede påmindelser, medmindre du eksplicit sender igen.
 

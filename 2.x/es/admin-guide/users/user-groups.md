@@ -6,7 +6,7 @@ Las clases en el panel de administración son grupos a nivel de plataforma utili
 
 ## Crear un Grupo
 
-![Lista de grupos de usuarios que muestra los grupos disponibles con nombre, descripción y número de miembros](/.gitbook/assets/admin-user-groups-list.png)
+![Lista de grupos de usuarios que muestra los grupos disponibles con nombre, descripción y número de miembros](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Desde el panel de administración, navegue a **Clases**
 2. Haga clic en **Agregar clases**

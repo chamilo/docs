@@ -1,6 +1,6 @@
 # H5P 导入
 
-H5P 导入 <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P 导入" data-size="line"> 可将标准 `.h5p` 交互式内容包（交互式视频、测验、演示文稿及其他 H5P 内容类型）引入课程，并对学习者的作答次数与进度进行跟踪，方式与 Chamilo 测验类似。
+H5P 导入 <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P 导入" data-size="line"> 可将标准 `.h5p` 交互式内容包（交互式视频、测验、演示文稿及其他 H5P 内容类型）引入课程，并对学习者的作答次数与进度进行跟踪，方式与 Chamilo 测验类似。
 
 ## 访问该工具
 

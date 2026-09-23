@@ -21,11 +21,11 @@ Ominaisuus on käytettävissä kaikkialla, missä on täysi rich text -editori: 
 1. Kirjoita (tai liitä) sisältö oletuskielelläsi tavalliseen tapaan.
 2. Valitse teksti ja napsauta sitten **Lang ISO** -painiketta editorin työkalupalkissa.
 
-![Rich text -editorin työkalupalkki, jossa "Lang ISO" -painike näkyy lähellä alkua](/.gitbook/assets/teacher-multilang-editor.png)
+![Rich text -editorin työkalupalkki, jossa "Lang ISO" -painike näkyy lähellä alkua](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. Valitse valikosta kieli, jolla juuri kirjoitit — luettelo kattaa kaikki alustallasi aktiiviset kielet. Jos tarvitsemaasi ei ole listassa, käytä alareunan **Custom Chamilo ISO code...** ja kirjoita se (esim. `en_US`, `fr_FR`, `es`).
 
-!["Lang ISO" -valikko auki, listaten kaikki aktiiviset alustan kielet sekä "Add translation to..." ja mukautetun koodin vaihtoehdon](/.gitbook/assets/teacher-multilang-lang-menu.png)
+!["Lang ISO" -valikko auki, listaten kaikki aktiiviset alustan kielet sekä "Add translation to..." ja mukautetun koodin vaihtoehdon](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo ympäröi valintasi kyseisellä kielitunnisteella. Kirjoita (tai liitä) seuraavan kielen versio heti sen perään, valitse se ja toista eri kielellä.
 
@@ -43,17 +43,17 @@ Kukin oppija näkee tasan yhden kieliversion: Chamilo yrittää ensin hänen oma
 
 Tässä on sama kurssikuvauksen osio kolmen eri käyttöliittymäkieltä käyttävän oppijan näkemänä — kurssissa ei muuttunut mikään muu näiden kolmen kuvakaappauksen välillä, vain katsojan oma kieli:
 
-![Sama kurssikuvauksen osio oppijan näkemänä, jonka käyttöliittymäkieli on englanti](/.gitbook/assets/teacher-multilang-en.png)
+![Sama kurssikuvauksen osio oppijan näkemänä, jonka käyttöliittymäkieli on englanti](../../.gitbook/assets/teacher-multilang-en.png)
 
-![Sama osio oppijan näkemänä, jonka käyttöliittymäkieli on ranska](/.gitbook/assets/teacher-multilang-fr.png)
+![Sama osio oppijan näkemänä, jonka käyttöliittymäkieli on ranska](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![Sama osio oppijan näkemänä, jonka käyttöliittymäkieli on espanja](/.gitbook/assets/teacher-multilang-es.png)
+![Sama osio oppijan näkemänä, jonka käyttöliittymäkieli on espanja](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### Konepellin alla
 
 Jos avaat joskus monikielisen kentän **Lähdekoodi**-näkymän (editorin työkalupalkin `<>`-painike), näet kunkin kieliversion käärittynä näin:
 
-![Lähdekoodinäkymä, jossa lohko alkaa lang="en_US" class="mce-translatehtml"](/.gitbook/assets/teacher-multilang-source-view.png)
+![Lähdekoodinäkymä, jossa lohko alkaa lang="en_US" class="mce-translatehtml"](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 Kukin versio on kääritty elementtiin `<div class="mce-translatehtml" lang="...">` (tai `<span>`-elementtiin, jos kyseessä on lyhyt rivinsisäinen ilmaus eikä kokonainen lohko) — juuri tämä `lang`-attribuutti on se, jota Chamilo vertaa katsojan kieleen päättäessään, mitä näytetään. Tämä luokan nimi kannattaa tunnistaa, jos joskus tarkastelet sivun lähdekoodia tai selvität sisältöä, joka näyttää väärältä: **`mce-translatehtml`** on merkki, jota etsiä.
 

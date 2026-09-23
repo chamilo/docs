@@ -2,7 +2,7 @@
 
 Blocket **Säkerhet** på administrationspanelen samlar plattformens inbyggda verktyg för säkerhetsövervakning och granskning. Det är skilt från [Säkerhetsinställningar](../platform-settings/security-settings.md), som konfigurerar säkerhets*policy* (lösenordsregler, CAPTCHA, HTTP-säkerhetsrubriker och så vidare) — det här blocket ger dig *rapporterna och verktygen* som övervakar plattformen för misstänkt aktivitet och oönskade ändringar.
 
-![Blocket Säkerhet på administrationspanelen, med Aktivitetsgranskning, Inloggningsförsök, Simple IDS, Kontroll av lösenordsstyrka och Filintegritet](/.gitbook/assets/admin-security-block.png)
+![Blocket Säkerhet på administrationspanelen, med Aktivitetsgranskning, Inloggningsförsök, Simple IDS, Kontroll av lösenordsstyrka och Filintegritet](../../.gitbook/assets/admin-security-block.png)
 
 Blocket infördes i Chamilo 2.0 med fyra verktyg och utökades i Chamilo 3.0 med ett femte, **Filintegritet**.
 

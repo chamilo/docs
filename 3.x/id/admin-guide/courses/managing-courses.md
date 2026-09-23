@@ -4,7 +4,7 @@ Sebagai administrator, Anda dapat mengelola semua kursus di platform terlepas da
 
 ## Daftar Kursus
 
-![Daftar kursus yang menampilkan semua kursus beserta judul, kode, kategori, pengguna terdaftar, dan status visibilitas](/.gitbook/assets/admin-course-list.png)
+![Daftar kursus yang menampilkan semua kursus beserta judul, kode, kategori, pengguna terdaftar, dan status visibilitas](../../.gitbook/assets/admin-course-list.png)
 
 Dari panel administrasi, klik **Course list** untuk melihat semua kursus. Daftar tersebut menampilkan:
 

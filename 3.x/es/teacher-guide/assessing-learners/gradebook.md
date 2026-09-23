@@ -19,7 +19,7 @@ Chamilo calcula la calificación global de cada estudiante a partir de estos pes
 
 ## Configuración de la evaluación
 
-1. Abra la herramienta **Evaluaciones** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Libro de calificaciones" data-size="line"> desde la página de inicio del curso
+1. Abra la herramienta **Evaluaciones** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Libro de calificaciones" data-size="line"> desde la página de inicio del curso
 2. Verá el resumen de las evaluaciones, inicialmente vacío
 
 ### Añadir actividades
@@ -48,7 +48,7 @@ Para esquemas de calificación complejos, puede crear **subcategorías** para ag
 
 ## Visualización de las calificaciones
 
-![La tabla de resumen del libro de calificaciones que muestra los nombres de los estudiantes, las puntuaciones de las actividades y los totales ponderados](/.gitbook/assets/gradebook-overview.png)
+![La tabla de resumen del libro de calificaciones que muestra los nombres de los estudiantes, las puntuaciones de las actividades y los totales ponderados](../../.gitbook/assets/gradebook-overview.png)
 
 La evaluación muestra una tabla con:
 
@@ -83,7 +83,7 @@ Para habilitar la generación de certificados:
 
 Una vez habilitado **Generate certificates** en la categoría raíz, aparece un campo **Certificate validity (days)**. Déjelo en `0` para certificados que no caduquen nunca, o establezca un número de días transcurridos los cuales el certificado caduca — Chamilo puede entonces recordar a los estudiantes a medida que se acerca esa fecha de caducidad, de forma automática (cron, configurado por el administrador) o manualmente desde la lista de certificados.
 
-![El diálogo de edición de categoría con Generate certificates habilitado y el campo Certificate validity (days) establecido en 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![El diálogo de edición de categoría con Generate certificates habilitado y el campo Certificate validity (days) establecido en 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Consulte [Certificados y competencias](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) para más detalles.
 
@@ -93,7 +93,7 @@ Puede asociar **competencias** (*skills*) a la evaluación. Cuando un estudiante
 
 ## Exportación de calificaciones
 
-Haga clic en el botón **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar las calificaciones como una hoja de cálculo. Esto resulta útil para:
+Haga clic en el botón **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar las calificaciones como una hoja de cálculo. Esto resulta útil para:
 
 * Compartir las calificaciones con sistemas administrativos
 * Realizar análisis adicionales fuera de Chamilo

@@ -30,13 +30,13 @@ A data de caducidade de cada certificado é calculada automaticamente a partir d
 
 Se a categoria não tiver período de validade configurado, ainda pode definir (ou alterar) manualmente a data de caducidade de um formando individual: clique no botão de lápis **Editar data de caducidade** junto à respetiva entrada e escolha uma data. Este botão só está disponível quando a própria categoria não tem período de validade — depois de definido um período de validade, as datas de caducidade são geridas automaticamente e deixam de poder ser editadas certificado a certificado.
 
-![A lista de Certificados a mostrar a coluna Data de caducidade para três formandos](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![A lista de Certificados a mostrar a coluna Data de caducidade para três formandos](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Recordar os Formandos de uma Caducidade Próxima ou Já Ocorrida
 
-Abra a lista **Certificados** da sua avaliação e clique no botão **Certificados a caducar** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificados a caducar" data-size="line"> para ver quais os certificados dos formandos que já caducaram ou estão prestes a caducar. A página mostra, por formando: a **Data de caducidade** do certificado, o respetivo **Estado** (**Caducado** ou **A caducar em breve**) e quando foi enviado o **Último lembrete** sobre o mesmo (ou **Nunca**). Utilize **Dias de antecedência** para alargar ou restringir até que ponto no futuro se considera «a caducar em breve».
+Abra a lista **Certificados** da sua avaliação e clique no botão **Certificados a caducar** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificados a caducar" data-size="line"> para ver quais os certificados dos formandos que já caducaram ou estão prestes a caducar. A página mostra, por formando: a **Data de caducidade** do certificado, o respetivo **Estado** (**Caducado** ou **A caducar em breve**) e quando foi enviado o **Último lembrete** sobre o mesmo (ou **Nunca**). Utilize **Dias de antecedência** para alargar ou restringir até que ponto no futuro se considera «a caducar em breve».
 
-![A página Certificados a caducar a listar um certificado caducado e um prestes a caducar](/.gitbook/assets/gradebook-certificate-expirations.png)
+![A página Certificados a caducar a listar um certificado caducado e um prestes a caducar](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Para notificar os formandos você mesmo:
 
@@ -45,7 +45,7 @@ Para notificar os formandos você mesmo:
 3. Reveja a pré-visualização do e-mail que será enviado — são apresentadas pré-visualizações separadas para o texto de «a caducar em breve» e de «caducado», consoante os formandos selecionados se enquadrem em cada caso
 4. Confirme clicando novamente em **Enviar notificação** na caixa de diálogo
 
-![A caixa de diálogo de confirmação Enviar notificação a pré-visualizar o texto dos e-mails de caducidade iminente e já ocorrida](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![A caixa de diálogo de confirmação Enviar notificação a pré-visualizar o texto dos e-mails de caducidade iminente e já ocorrida](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Cada formando é notificado no idioma que tiver configurado, tanto por e-mail como por uma mensagem interna do Chamilo. Enviar novamente para o mesmo certificado e a mesma data de caducidade é seguro — o Chamilo regista o que já foi enviado por certificado e não envia lembretes duplicados a um formando, a menos que reenvie explicitamente.
 

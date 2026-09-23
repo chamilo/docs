@@ -53,7 +53,7 @@ Elke access-URL kan eigen instellingen hebben:
 
 Access-URL's kunnen in een boom van ouder/kind worden georganiseerd in plaats van een platte lijst. Bij het aanmaken of bewerken van een URL kan een onbeperkte Global Administrator (zie [Subtree-beheerders](#subtree-administrators) hieronder) een willekeurige andere URL als **Bovenliggende URL** kiezen:
 
-![Dialoog Bewerk URL met het keuzemenu Bovenliggende URL geopend, met de andere access-URL's die als ouder beschikbaar zijn](/.gitbook/assets/admin-access-url-parent-select.png)
+![Dialoog Bewerk URL met het keuzemenu Bovenliggende URL geopend, met de andere access-URL's die als ouder beschikbaar zijn](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Het keuzemenu biedt nooit de URL die wordt bewerkt, noch een van de eigen nakomelingen, als mogelijke ouder — dit voorkomt een cyclus. De backend valideert dit opnieuw, ongeacht wat de interface toont.
 * Als een URL wordt aangemaakt zonder ouder te kiezen, wordt standaard de **login-only URL** gebruikt als die bestaat (zie [Instellingen per URL](#per-url-settings) hierboven), of anders de eerste access-URL — hetzelfde standaardgedrag als vóór deze functie.
@@ -61,7 +61,7 @@ Access-URL's kunnen in een boom van ouder/kind worden georganiseerd in plaats va
 
 Overal waar access-URL's worden weergegeven — het Multi-URL-dashboard en de beheerpagina Access-URL's — wordt de boom getoond via inspringing, waarbij een ouder onmiddellijk gevolgd wordt door de eigen kinderen (broers/zussen alfabetisch gesorteerd), in plaats van een aparte kolom "Ouder":
 
-![Lijst Access-URL's met een root-URL met twee kind-URL's, waarvan er één een eigen kind-URL heeft, ingesprongen om de hiërarchie weer te geven](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Lijst Access-URL's met een root-URL met twee kind-URL's, waarvan er één een eigen kind-URL heeft, ingesprongen om de hiërarchie weer te geven](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Subtree-beheerders
 

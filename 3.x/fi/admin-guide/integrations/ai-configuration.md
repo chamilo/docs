@@ -35,7 +35,7 @@ Rekisteröidy valitsemasi tekoälypalveluntarjoajan tilille ja hanki API-avain:
 
 ### 2. Määritä palveluntarjoajat Chamilossa
 
-![Tekoälyavustajien määrityssivu, jossa näkyvät palveluntarjoajan asetukset API-avaimen, mallin ja päätepisteen kenttineen](/.gitbook/assets/admin-ai-helpers-config.png)
+![Tekoälyavustajien määrityssivu, jossa näkyvät palveluntarjoajan asetukset API-avaimen, mallin ja päätepisteen kenttineen](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Siirry alustan asetuksissa **Tekoälyavustajat**-osioon:
 

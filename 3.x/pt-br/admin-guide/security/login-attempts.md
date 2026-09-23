@@ -8,7 +8,7 @@ No painel de administração, clique em **Segurança > Tentativas de login**.
 
 ## O que ele mostra
 
-![A página Tentativas de login mostrando gráficos de tentativas por dia, IPs principais, tentativas malsucedidas por mês, logins bem-sucedidos versus malsucedidos, tentativas por hora e IPs únicos por dia, seguida de uma tabela de tentativas de login malsucedidas](/.gitbook/assets/admin-security-login-attempts.png)
+![A página Tentativas de login mostrando gráficos de tentativas por dia, IPs principais, tentativas malsucedidas por mês, logins bem-sucedidos versus malsucedidos, tentativas por hora e IPs únicos por dia, seguida de uma tabela de tentativas de login malsucedidas](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Tentativas por dia (últimos 7 dias)** — Contagem diária de tentativas malsucedidas
 * **IPs principais (últimos 30 dias)** — Quais endereços IP geraram o maior número de tentativas

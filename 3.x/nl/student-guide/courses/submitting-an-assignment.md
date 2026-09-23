@@ -4,7 +4,7 @@ De tool **Opdrachten** (soms ook "studentenpublicaties" of "werk" genoemd) is de
 
 ## Uw werk indienen
 
-Open de tool **Opdrachten** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de startpagina van de cursus en open vervolgens de betreffende opdracht. Lees de beschrijving zorgvuldig — daarin staan de instructies van uw docent over wat u moet indienen en hoe het wordt beoordeeld. Daarna:
+Open de tool **Opdrachten** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> vanaf de startpagina van de cursus en open vervolgens de betreffende opdracht. Lees de beschrijving zorgvuldig — daarin staan de instructies van uw docent over wat u moet indienen en hoe het wordt beoordeeld. Daarna:
 
 1. Klik op **Bestand uploaden** (of de indienknop)
 2. Afhankelijk van hoe uw docent de opdracht heeft geconfigureerd, selecteert u een bestand van uw computer, schrijft u uw inzending rechtstreeks als tekst, of beide

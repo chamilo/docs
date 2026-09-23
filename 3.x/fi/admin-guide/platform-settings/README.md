@@ -4,7 +4,7 @@ Chamilolla on laaja asetusten hallintajärjestelmä, jossa asetukset on jaettu k
 
 Avaa alustan asetukset hallintapaneelista napsauttamalla **Asetukset**.
 
-![Alustan asetussivu, jossa näkyvät konfigurointikategoriat toiminnallisen alueen mukaan järjestettyinä](/.gitbook/assets/admin-settings-categories.png)
+![Alustan asetussivu, jossa näkyvät konfigurointikategoriat toiminnallisen alueen mukaan järjestettyinä](../../.gitbook/assets/admin-settings-categories.png)
 
 ## Kaikki kategoriat
 

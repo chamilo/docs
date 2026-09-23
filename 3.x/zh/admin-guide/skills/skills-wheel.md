@@ -6,7 +6,7 @@
 
 在管理面板中，点击 **技能 > 技能轮盘**。
 
-![技能轮盘页面，显示搜索侧栏、图例，以及以分段轮盘形式呈现的完整技能树](/.gitbook/assets/admin-skills-wheel.png)
+![技能轮盘页面，显示搜索侧栏、图例，以及以分段轮盘形式呈现的完整技能树](../../.gitbook/assets/admin-skills-wheel.png)
 
 ## 它显示什么
 
@@ -14,10 +14,10 @@
 
 点击某一段可放大并显示其子技能；点击中心圆可缩小返回。
 
-![轮盘放大至“Idiomas”分支，显示其语言类子技能](/.gitbook/assets/admin-skills-wheel-zoom.png)
+![轮盘放大至“Idiomas”分支，显示其语言类子技能](../../.gitbook/assets/admin-skills-wheel-zoom.png)
 
 右键点击某一段可打开其详情：描述、父技能，以及（如有）授予该技能的课程。在此对话框中，管理员还可以编辑该技能、在其下创建子技能，或将其加入下文所述的档案搜索。
 
-![“Conflict Management”的技能详情对话框，显示其描述以及“编辑”“创建子技能”和“将技能添加到搜索档案”操作](/.gitbook/assets/admin-skills-wheel-detail.png)
+![“Conflict Management”的技能详情对话框，显示其描述以及“编辑”“创建子技能”和“将技能添加到搜索档案”操作](../../.gitbook/assets/admin-skills-wheel-detail.png)
 
 管理员和人力资源经理用户还可在此使用档案搜索：技能可归入“档案”（针对某一角色或职位描述所期望的技能集合），本页面可搜索已获得技能与给定档案相匹配的用户——便于识别谁已具备担任某角色的条件，或团队中存在哪些缺口。

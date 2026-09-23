@@ -4,13 +4,13 @@ A ferramenta de documentos é o repositório de ficheiros do seu curso. Pode car
 
 ## Aceder à ferramenta Documentos
 
-Abra a ferramenta **Documentos** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> a partir da página inicial do curso. Verá um explorador de ficheiros que mostra a pasta raiz da biblioteca de documentos do seu curso.
+Abra a ferramenta **Documentos** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> a partir da página inicial do curso. Verá um explorador de ficheiros que mostra a pasta raiz da biblioteca de documentos do seu curso.
 
-![O explorador de ficheiros de documentos a mostrar pastas e ficheiros com ícones de ação](/.gitbook/assets/documents-file-browser.png)
+![O explorador de ficheiros de documentos a mostrar pastas e ficheiros com ícones de ação](../../.gitbook/assets/documents-file-browser.png)
 
 ## Carregar ficheiros
 
-1. Clique no botão **Carregar** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Carregar" data-size="line">
+1. Clique no botão **Carregar** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Carregar" data-size="line">
 2. Selecione um ou mais ficheiros no seu computador (pode arrastar e largar ficheiros na área de carregamento)
 3. Os ficheiros são carregados e aparecem na pasta atual
 
@@ -52,7 +52,7 @@ Se o seu navegador o suportar, pode gravar áudio diretamente na ferramenta de d
 
 Mantenha a sua biblioteca de documentos organizada utilizando pastas:
 
-1. Clique em **Nova pasta** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nova pasta" data-size="line">
+1. Clique em **Nova pasta** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nova pasta" data-size="line">
 2. Introduza um nome de pasta
 3. Guarde
 
@@ -61,7 +61,7 @@ Pode criar pastas aninhadas para construir uma hierarquia lógica de conteúdo (
 ### Mover ficheiros
 
 * Localize o ficheiro na lista
-* Clique em **Mover** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
+* Clique em **Mover** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line">
 * Selecione a pasta de destino
 * Confirme
 
@@ -71,12 +71,12 @@ Para cada ficheiro ou pasta, pode:
 
 | Ação | Ícone | Descrição |
 |--------|------|-------------|
-| **Editar** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Mudar o nome do ficheiro ou editar o seu conteúdo (para páginas Web) |
-| **Eliminar** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> | Remover o ficheiro ou a pasta |
-| **Descarregar** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Descarregar" data-size="line"> | Descarregar o ficheiro para o seu computador |
-| **Visibilidade** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> | Ocultar ou mostrar o ficheiro aos formandos |
-| **Substituir** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Substituir" data-size="line"> | Substituir o ficheiro por uma versão atualizada |
-| **Mover** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover para uma pasta diferente |
+| **Editar** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> | Mudar o nome do ficheiro ou editar o seu conteúdo (para páginas Web) |
+| **Eliminar** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> | Remover o ficheiro ou a pasta |
+| **Descarregar** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Descarregar" data-size="line"> | Descarregar o ficheiro para o seu computador |
+| **Visibilidade** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilidade" data-size="line"> | Ocultar ou mostrar o ficheiro aos formandos |
+| **Substituir** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Substituir" data-size="line"> | Substituir o ficheiro por uma versão atualizada |
+| **Mover** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Mover" data-size="line"> | Mover para uma pasta diferente |
 
 Substituir um ficheiro é uma funcionalidade importante quando utiliza documentos para construir percursos de aprendizagem, pois a substituição do documento permite atualizá-lo sem que os formandos percam o progresso guardado para esse documento.
 
@@ -86,7 +86,7 @@ Selecione vários ficheiros utilizando as caixas de verificação e, em seguida,
 
 ## Integração OnlyOffice
 
-Se o administrador tiver configurado o plugin **OnlyOffice**, pode editar ficheiros Word, Excel e PowerPoint (ou LibreOffice) diretamente no navegador, sem os descarregar. Procure a opção **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> ao visualizar um ficheiro suportado.
+Se o administrador tiver configurado o plugin **OnlyOffice**, pode editar ficheiros Word, Excel e PowerPoint (ou LibreOffice) diretamente no navegador, sem os descarregar. Procure a opção **Edit with OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> ao visualizar um ficheiro suportado.
 
 Os documentos são armazenados no Chamilo; o OnlyOffice é utilizado apenas para **visualizar** ou editar os documentos no navegador, sem necessidade de qualquer ferramenta adicional.
 

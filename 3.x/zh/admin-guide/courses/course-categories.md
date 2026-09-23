@@ -19,7 +19,7 @@ Chamilo 默认创建 3 个分类：*Language skills*、*PC Skills* 和 *Projects
 
 ## 分类层级
 
-![课程分类管理页面，显示嵌套的分类树](/.gitbook/assets/admin-course-categories.png)
+![课程分类管理页面，显示嵌套的分类树](../../.gitbook/assets/admin-course-categories.png)
 
 分类可以嵌套以创建树状结构：
 

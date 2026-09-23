@@ -4,22 +4,22 @@ De AI-cursusafbeeldinggenerator laat u een miniatuurafbeelding voor uw cursus ma
 
 ## De generator openen
 
-De knop **Genereren met AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Genereren met AI" data-size="line"> is beschikbaar naast het veld **Cursusafbeelding**, mits:
+De knop **Genereren met AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Genereren met AI" data-size="line"> is beschikbaar naast het veld **Cursusafbeelding**, mits:
 
 1. AI-helpers op platformniveau zijn ingeschakeld
 2. Ten minste één AI-provider die op uw platform is geconfigureerd, afbeeldingsgeneratie ondersteunt
 3. De functie in uw cursus is toegestaan (zie **Instellingen AI-helpers** in [Cursusinstellingen](../creating-your-course/course-settings.md))
 
-Open de **Instellingen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus en scroll naar het veld **Cursusafbeelding**:
+Open de **Instellingen** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> van uw cursus en scroll naar het veld **Cursusafbeelding**:
 
-![Het veld Cursusafbeelding in Cursusinstellingen, met een knop Bestand kiezen en daaronder een knop Genereren met AI](/.gitbook/assets/course-picture-ai-button.png)
+![Het veld Cursusafbeelding in Cursusinstellingen, met een knop Bestand kiezen en daaronder een knop Genereren met AI](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Een afbeelding genereren
 
 1. Klik op **Genereren met AI**
 2. Er opent een dialoogvenster met een veld **Prompt** dat vooraf is ingevuld met een standaardbeschrijving; bewerk het om de illustratie te beschrijven die u wilt, of laat de standaardtekst staan
 
-![Het dialoogvenster Genereren met AI met het veld Prompt en de standaardtekst, en de knoppen Annuleren/Genereren](/.gitbook/assets/course-picture-ai-modal.png)
+![Het dialoogvenster Genereren met AI met het veld Prompt en de standaardtekst, en de knoppen Annuleren/Genereren](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Klik op **Genereren** en wacht — het genereren van een afbeelding kan enkele seconden duren
 4. De gegenereerde afbeelding wordt automatisch in het veld **Cursusafbeelding** geplaatst en vervangt alles wat u daar eerder had geselecteerd

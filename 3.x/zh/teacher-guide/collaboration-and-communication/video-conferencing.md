@@ -6,7 +6,7 @@ Chamilo 可与视频会议平台集成，让您直接在课程中开展实时会
 
 ## 开始视频会话
 
-1. 从课程主页（或侧边栏）打开 **视频会议** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="视频" data-size="line"> 工具
+1. 从课程主页（或侧边栏）打开 **视频会议** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="视频" data-size="line"> 工具
 2. 点击 **开始会议**（或类似按钮，具体取决于所配置的平台）
 3. 新的视频会议室将在新的浏览器标签页中打开
 

@@ -39,7 +39,7 @@ Daftar ini dikurasi oleh tim inti Chamilo, tidak dapat diperluas oleh pengguna d
 
 Setiap pengguna menghasilkan kuncinya sendiri di **Jaringan sosial** > **Kunci API MCP**:
 
-![Halaman kunci API MCP, menampilkan kunci yang tidak aktif, tombol Generate API key, dan blok Remote MCP connection dengan URL endpoint serta format header Authorization](/.gitbook/assets/admin-mcp-api-key.png)
+![Halaman kunci API MCP, menampilkan kunci yang tidak aktif, tombol Generate API key, dan blok Remote MCP connection dengan URL endpoint serta format header Authorization](../.gitbook/assets/admin-mcp-api-key.png)
 
 * Mengklik **Generate API key** membuat kunci dan menampilkannya sekali — Chamilo hanya menyimpan versi yang disamarkan setelahnya, sehingga kunci lengkap harus disalin dan disimpan dengan aman segera.
 * Menghasilkan kunci baru segera mencabut kunci sebelumnya.

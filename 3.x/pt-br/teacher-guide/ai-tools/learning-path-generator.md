@@ -14,7 +14,7 @@ Procure a seção **Gerador de IA** na interface de criação do percurso de apr
 
 ## Como gerar um percurso de aprendizagem
 
-![O formulário do gerador de percurso de aprendizagem por IA com campos para tema, objetivos e número de seções](/.gitbook/assets/ai-learning-path-generator.png)
+![O formulário do gerador de percurso de aprendizagem por IA com campos para tema, objetivos e número de seções](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Abra o formulário do Gerador de IA
 2. Configure os parâmetros:

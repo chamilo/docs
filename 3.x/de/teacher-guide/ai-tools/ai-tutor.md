@@ -24,7 +24,7 @@ Der KI-Tutor erfordert zwei Konfigurationsebenen:
 
 ## Die Chat-Oberfläche
 
-![Die Chat-Oberfläche des KI-Tutors mit einer Unterhaltung zwischen einer lernenden Person und der KI](/.gitbook/assets/ai-tutor-chat.png)
+![Die Chat-Oberfläche des KI-Tutors mit einer Unterhaltung zwischen einer lernenden Person und der KI](../../.gitbook/assets/ai-tutor-chat.png)
 
 Der KI-Tutor erscheint als **angedocktes Chat-Panel** innerhalb des Kurses. Lernende können:
 

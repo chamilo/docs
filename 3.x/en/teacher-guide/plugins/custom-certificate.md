@@ -1,6 +1,6 @@
 # Custom Certificate
 
-The Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Custom Certificate" data-size="line"> plugin lets you replace the standard [gradebook certificate](../assessing-learners/gradebook.md) with your own design — logos, a seal, up to four signature images with captions, a background image, margins, and content built from placeholder tags.
+The Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Custom Certificate" data-size="line"> plugin lets you replace the standard [gradebook certificate](../assessing-learners/gradebook.md) with your own design — logos, a seal, up to four signature images with captions, a background image, margins, and content built from placeholder tags.
 
 ## Turning It On for Your Course
 

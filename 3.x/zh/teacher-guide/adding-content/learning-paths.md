@@ -16,14 +16,14 @@
 
 ## 创建学习路径
 
-1. 从课程主页打开 **学习路径** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line"> 工具
+1. 从课程主页打开 **学习路径** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学习路径" data-size="line"> 工具
 2. 点击 **创建学习路径**
 3. 输入 **标题** 及可选的描述
 4. 保存 — 您将进入学习路径编辑器
 
 ## 学习路径编辑器
 
-![左侧为项目树、右侧为内容预览的学习路径编辑器](/.gitbook/assets/learning-path-editor.png)
+![左侧为项目树、右侧为内容预览的学习路径编辑器](../../.gitbook/assets/learning-path-editor.png)
 
 编辑器包含两个主要区域：
 
@@ -94,17 +94,17 @@ C-Studio 在学习路径内增加了内置的拖放式可视化编辑器，用�
 
 插件启用后，学习路径列表会在常规操作菜单旁显示一个额外按钮，标有“+”以及“Studio Tools”提示：
 
-![学习路径列表中，C-Studio 的“Studio Tools”按钮显示在标准操作菜单旁](/.gitbook/assets/cstudio-lp-button.png)
+![学习路径列表中，C-Studio 的“Studio Tools”按钮显示在标准操作菜单旁](../../.gitbook/assets/cstudio-lp-button.png)
 
 点击即可开始。系统会提示您从头创建新项目，或导入已有项目：
 
-![C-Studio 起始界面，提供创建新项目或导入已有项目的选项](/.gitbook/assets/cstudio-start-screen.png)
+![C-Studio 起始界面，提供创建新项目或导入已有项目的选项](../../.gitbook/assets/cstudio-start-screen.png)
 
 该界面目前仅提供法语，与平台或课程语言无关——这是当前所用插件版本的已知限制。为项目命名后，将直接进入编辑器。
 
 ### 编辑器
 
-![C-Studio 可视化编辑器，显示页面画布、右侧工具面板以及左侧项目面板](/.gitbook/assets/cstudio-editor.png)
+![C-Studio 可视化编辑器，显示页面画布、右侧工具面板以及左侧项目面板](../../.gitbook/assets/cstudio-editor.png)
 
 编辑器是按页构建的可视化编辑器：
 
@@ -118,7 +118,7 @@ C-Studio 在学习路径内增加了内置的拖放式可视化编辑器，用�
 
 C-Studio 自身界面首次打开时可能默认使用法语，与 Chamilo 界面语言或课程语言无关。若出现此情况，请前往 **File > UI language** 并选择您的语言——编辑器会立即重新加载，并记住您的选择。
 
-![已打开的 File 菜单，显示“UI language”选项](/.gitbook/assets/cstudio-file-menu.png)
+![已打开的 File 菜单，显示“UI language”选项](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### 保存与导出
 

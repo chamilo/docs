@@ -4,9 +4,9 @@ Beberapa kursus menyertakan alat **Chat** — pesan teks waktu nyata yang terika
 
 ## Mengirim Pesan
 
-Buka alat **Chat** <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> dari beranda kursus. Anda akan melihat daftar **Users** berisi semua orang yang sedang daring di kursus, masing-masing dengan tombol **Chat** sendiri, plus tab **All** untuk seluruh kelompok:
+Buka alat **Chat** <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> dari beranda kursus. Anda akan melihat daftar **Users** berisi semua orang yang sedang daring di kursus, masing-masing dengan tombol **Chat** sendiri, plus tab **All** untuk seluruh kelompok:
 
-![Alat Chat kursus, menampilkan daftar pengguna daring dan kotak penyusunan pesan](/.gitbook/assets/student-course-chat.png)
+![Alat Chat kursus, menampilkan daftar pengguna daring dan kotak penyusunan pesan](../../.gitbook/assets/student-course-chat.png)
 
 Pilih seseorang (atau **All**) dan ketik pesan Anda di kotak di bagian bawah. Tekan **Enter** untuk mengirim, atau **Shift+Enter** untuk memulai baris baru tanpa mengirim. Opsi **Preview** memungkinkan Anda memeriksa format sebelum mengirim, dan **Reset** menghapus apa yang telah Anda ketik.
 

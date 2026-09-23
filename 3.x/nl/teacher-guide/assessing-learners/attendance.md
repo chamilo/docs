@@ -20,7 +20,7 @@ De aanwezigheidstool laat u de aanwezigheid van cursisten bijhouden voor gepland
 Elke aanwezigheidslijst bevat een of meer datums (sessies) waarop u aanwezigheid registreert:
 
 1. Open een aanwezigheidslijst of ga verder met het aanmaakproces
-2. Klik op **Datum toevoegen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum toevoegen" data-size="line">
+2. Klik op **Datum toevoegen** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum toevoegen" data-size="line">
 3. Selecteer de datum en tijd
 4. Vink optioneel **Datum herhalen** aan om een herhalingslogica te kiezen
 5. Geef een **Duur** in minuten voor de gebeurtenis (standaard 60 minuten)
@@ -44,7 +44,7 @@ Opmerking: Beheerders kunnen de portaalconfiguratie aanpassen zodat u uitgebreid
 
 ## Aanwezigheidsrapporten bekijken
 
-![De aanwezigheidslijst met een overzichtstabel met cursisten, datums en aanwezigheidsindicatoren](/.gitbook/assets/attendance-sheet.png)
+![De aanwezigheidslijst met een overzichtstabel met cursisten, datums en aanwezigheidsindicatoren](../../.gitbook/assets/attendance-sheet.png)
 
 De aanwezigheidstool toont:
 

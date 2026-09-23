@@ -4,9 +4,9 @@ En **lärstig** guidar dig genom en strukturerad sekvens av aktiviteter — doku
 
 ## Öppna en lärstig
 
-Öppna verktyget **Lärstigar** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lärstigar" data-size="line"> från kurssidan och klicka på en för att starta. Om din lärare har aktiverat **auto-launch** kan lärstigen öppnas automatiskt så fort du går in i kursen.
+Öppna verktyget **Lärstigar** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lärstigar" data-size="line"> från kurssidan och klicka på en för att starta. Om din lärare har aktiverat **auto-launch** kan lärstigen öppnas automatiskt så fort du går in i kursen.
 
-![Listan över lärstigar för en kurs, där varje visar sin egen progression](/.gitbook/assets/student-learning-paths-list.png)
+![Listan över lärstigar för en kurs, där varje visar sin egen progression](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Att röra sig genom stigen
 

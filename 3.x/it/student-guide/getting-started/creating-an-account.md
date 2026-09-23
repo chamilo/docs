@@ -27,7 +27,7 @@ Per impostazione predefinita, il modulo di registrazione pubblica non offre alcu
 
 Alcune piattaforme abilitano un passaggio **"Cosa vuoi fare?"** con due schede — **Seguire i corsi** e **Insegnare i corsi** — ma questo compare solo se l'amministratore ha specificamente attivato la registrazione come docente. Anche in quel caso, la scelta di insegnare può richiedere l'approvazione dell'account prima di ottenere i diritti di docente.
 
-![Il modulo di registrazione su una piattaforma con auto-registrazione docente abilitata, che mostra il selettore di ruolo "Seguire i corsi" / "Insegnare i corsi"](/.gitbook/assets/student-registration-form.png)
+![Il modulo di registrazione su una piattaforma con auto-registrazione docente abilitata, che mostra il selettore di ruolo "Seguire i corsi" / "Insegnare i corsi"](../../.gitbook/assets/student-registration-form.png)
 
 Se ti serve un account docente e non vedi questa opzione, chiedi all'amministratore della piattaforma di crearne uno per te o di aggiornare il tuo account esistente.
 

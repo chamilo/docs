@@ -4,7 +4,7 @@
 
 ## 論壇結構
 
-![論壇類別清單，顯示類別、論壇和主題數量](/.gitbook/assets/forum-category-list.png)
+![論壇類別清單，顯示類別、論壇和主題數量](../../.gitbook/assets/forum-category-list.png)
 
 Chamilo 中的論壇以三個層級組織：
 
@@ -14,7 +14,7 @@ Chamilo 中的論壇以三個層級組織：
 
 ## 建立論壇類別
 
-1. 在課程首頁開啟 **Forum** 工具 <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line">
+1. 在課程首頁開啟 **Forum** 工具 <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line">
 2. 點選 **新增論壇類別**
 3. 輸入 **類別名稱** 和選填的描述
 4. 儲存

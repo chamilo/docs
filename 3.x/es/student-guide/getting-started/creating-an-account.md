@@ -27,7 +27,7 @@ Por defecto, el formulario de registro público no ofrece ninguna opción para r
 
 Algunas plataformas sí habilitan un paso **«¿Qué desea hacer?»** con dos tarjetas — **Seguir cursos** y **Impartir cursos** —, pero esto solo aparece si el administrador ha activado específicamente el registro como profesor. Incluso entonces, elegir impartir cursos puede exigir que su cuenta sea aprobada antes de obtener derechos de profesor.
 
-![El formulario de registro en una plataforma con autorregistro de profesores habilitado, que muestra el selector de rol «Seguir cursos» / «Impartir cursos»](/.gitbook/assets/student-registration-form.png)
+![El formulario de registro en una plataforma con autorregistro de profesores habilitado, que muestra el selector de rol «Seguir cursos» / «Impartir cursos»](../../.gitbook/assets/student-registration-form.png)
 
 Si necesita una cuenta de profesor y no ve esta opción, pida al administrador de la plataforma que le cree una o que actualice su cuenta existente.
 

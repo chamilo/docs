@@ -4,7 +4,7 @@ Chamilo realiza un seguimiento de la actividad de los aprendices a lo largo de l
 
 ## Acceso al Seguimiento de Aprendices
 
-Abre la herramienta **Seguimiento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> desde la página principal del curso, o haz clic en **Informes** en la barra lateral.
+Abre la herramienta **Seguimiento** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> desde la página principal del curso, o haz clic en **Informes** en la barra lateral.
 
 ## Qué se Registra
 
@@ -22,7 +22,7 @@ Los detalles de acceso por recurso (qué documentos o páginas específicas abri
 
 ## Visualización de Datos Individuales de Aprendices
 
-![Vista detallada de seguimiento de aprendiz mostrando progreso, puntuaciones y línea de tiempo de actividad](/.gitbook/assets/tracking-learner-detail.png)
+![Vista detallada de seguimiento de aprendiz mostrando progreso, puntuaciones y línea de tiempo de actividad](../../.gitbook/assets/tracking-learner-detail.png)
 
 Haz clic en el nombre de un aprendiz para ver su informe detallado de actividad. Esto muestra:
 

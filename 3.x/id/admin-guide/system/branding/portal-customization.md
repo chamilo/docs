@@ -4,7 +4,7 @@ Sesuaikan tampilan platform Chamilo Anda dan informasi yang ditampilkan kepada p
 
 ## Identitas Platform
 
-![Halaman kustomisasi portal yang menampilkan pengaturan identitas platform untuk nama, logo, dan institusi](/.gitbook/assets/admin-portal-customization.png)
+![Halaman kustomisasi portal yang menampilkan pengaturan identitas platform untuk nama, logo, dan institusi](../../../.gitbook/assets/admin-portal-customization.png)
 
 Konfigurasikan identitas dasar portal Anda:
 

@@ -2,7 +2,7 @@
 
 Blokken **Ferdigheter** på administrasjonsoversikten samler verktøyene for å definere, organisere og spore kompetansebadges («ferdigheter») på tvers av plattformen. En ferdighet kan tildeles automatisk når en lærende når en terskel i karakterboken, fullfører bestemte kurs, eller manuelt av en lærer, og kan ha et badge-lignende ikon og et nivå (for eksempel Bronse/Sølv/Gull).
 
-![Blokken Ferdigheter på administrasjonsoversikten, med Ferdighetshjul, Import av ferdigheter, Administrer ferdigheter, Administrer ferdighetsnivåer, Ferdighetsrangering og Ferdigheter og vurderinger](/.gitbook/assets/admin-skills-block.png)
+![Blokken Ferdigheter på administrasjonsoversikten, med Ferdighetshjul, Import av ferdigheter, Administrer ferdigheter, Administrer ferdighetsnivåer, Ferdighetsrangering og Ferdigheter og vurderinger](../../.gitbook/assets/admin-skills-block.png)
 
 Hele blokken vises bare hvis innstillingen **Aktiver ferdighetsverktøy** (`skill.allow_skills_tool`, under Konfigurasjonsinnstillinger > Ferdigheter) er slått på — den er aktivert som standard.
 

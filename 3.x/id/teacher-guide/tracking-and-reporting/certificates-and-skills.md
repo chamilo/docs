@@ -30,13 +30,13 @@ Tanggal kedaluwarsa masing-masing sertifikat dihitung secara otomatis dari penga
 
 Jika kategori tidak memiliki periode masa berlaku yang dikonfigurasi, Anda tetap dapat menetapkan (atau mengubah) tanggal kedaluwarsa peserta didik secara individual secara manual: klik tombol pensil **Edit expiry date** di samping entri mereka dan pilih tanggal. Tombol ini hanya tersedia jika kategori itu sendiri tidak memiliki periode masa berlaku — setelah periode masa berlaku ditetapkan, tanggal kedaluwarsa dikelola secara otomatis dan tidak lagi dapat diedit per sertifikat.
 
-![Daftar Sertifikat yang menampilkan kolom Tanggal kedaluwarsa untuk tiga peserta didik](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![Daftar Sertifikat yang menampilkan kolom Tanggal kedaluwarsa untuk tiga peserta didik](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Mengingatkan Peserta Didik tentang Kedaluwarsa yang Akan Datang atau yang Sudah Lewat
 
-Buka daftar **Certificates** untuk penilaian Anda dan klik tombol **Expiring certificates** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Expiring certificates" data-size="line"> untuk melihat sertifikat peserta didik mana yang telah kedaluwarsa atau hampir kedaluwarsa. Halaman menampilkan, per peserta didik: **Expiry date** sertifikat, **Status**-nya (**Expired** atau **Expiring soon**), dan kapan pengingat tentangnya **Last reminder sent** (atau **Never**). Gunakan **Days ahead** untuk memperluas atau mempersempit seberapa jauh ke masa depan "expiring soon" dilihat.
+Buka daftar **Certificates** untuk penilaian Anda dan klik tombol **Expiring certificates** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Expiring certificates" data-size="line"> untuk melihat sertifikat peserta didik mana yang telah kedaluwarsa atau hampir kedaluwarsa. Halaman menampilkan, per peserta didik: **Expiry date** sertifikat, **Status**-nya (**Expired** atau **Expiring soon**), dan kapan pengingat tentangnya **Last reminder sent** (atau **Never**). Gunakan **Days ahead** untuk memperluas atau mempersempit seberapa jauh ke masa depan "expiring soon" dilihat.
 
-![Halaman Expiring certificates yang mencantumkan satu sertifikat kedaluwarsa dan satu yang segera kedaluwarsa](/.gitbook/assets/gradebook-certificate-expirations.png)
+![Halaman Expiring certificates yang mencantumkan satu sertifikat kedaluwarsa dan satu yang segera kedaluwarsa](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Untuk memberi tahu peserta didik sendiri:
 
@@ -45,7 +45,7 @@ Untuk memberi tahu peserta didik sendiri:
 3. Tinjau pratinjau e-mail yang akan dikirim — pratinjau terpisah ditampilkan untuk kata-kata "expiring soon" dan "expired", tergantung peserta didik terpilih mana yang masuk ke masing-masing kasus
 4. Konfirmasi dengan mengklik **Send notification** lagi di dialog
 
-![Dialog konfirmasi Send notification yang mempratinjau kata-kata e-mail yang segera kedaluwarsa dan yang sudah kedaluwarsa](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![Dialog konfirmasi Send notification yang mempratinjau kata-kata e-mail yang segera kedaluwarsa dan yang sudah kedaluwarsa](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Setiap peserta didik diberitahu dalam bahasa yang dikonfigurasi sendiri, baik melalui e-mail maupun pesan internal Chamilo. Mengirim ulang untuk sertifikat yang sama dan tanggal kedaluwarsa yang sama aman — Chamilo menelusuri apa yang sudah dikirim per sertifikat dan tidak akan mengirim spam pengingat duplikat kepada peserta didik kecuali Anda secara eksplisit mengirim ulang.
 

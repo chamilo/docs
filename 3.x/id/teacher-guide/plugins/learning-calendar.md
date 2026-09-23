@@ -1,6 +1,6 @@
 # Kalender Pembelajaran
 
-Kalender Pembelajaran <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Kalender Pembelajaran" data-size="line"> membantu merencanakan pelatihan campuran atau bergaya magang yang menggabungkan waktu di kelas dengan praktik di luar lokasi. Anda membangun kalender dengan menandai setiap hari sebagai **Sibuk**, **Ujian**, atau **Kosong**, menugaskan peserta didik ke kalender tersebut, dan agenda pribadi mereka kemudian menampilkan hari-hari yang telah direncanakan itu.
+Kalender Pembelajaran <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Kalender Pembelajaran" data-size="line"> membantu merencanakan pelatihan campuran atau bergaya magang yang menggabungkan waktu di kelas dengan praktik di luar lokasi. Anda membangun kalender dengan menandai setiap hari sebagai **Sibuk**, **Ujian**, atau **Kosong**, menugaskan peserta didik ke kalender tersebut, dan agenda pribadi mereka kemudian menampilkan hari-hari yang telah direncanakan itu.
 
 ## Mengakses Alat
 

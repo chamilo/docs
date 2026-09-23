@@ -30,13 +30,13 @@ La date d’expiration de chaque certificat est calculée automatiquement à par
 
 Si la catégorie n’a aucune période de validité configurée, vous pouvez tout de même définir (ou modifier) manuellement la date d’expiration d’un apprenant : cliquez sur le bouton crayon **Modifier la date d’expiration** à côté de son entrée et choisissez une date. Ce bouton n’est disponible que lorsque la catégorie elle-même n’a pas de période de validité — une fois une période de validité définie, les dates d’expiration sont gérées automatiquement et ne peuvent plus être modifiées certificat par certificat.
 
-![La liste des certificats affichant la colonne Date d’expiration pour trois apprenants](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![La liste des certificats affichant la colonne Date d’expiration pour trois apprenants](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Rappeler aux apprenants une expiration imminente ou passée
 
-Ouvrez la liste **Certificats** de votre évaluation et cliquez sur le bouton **Certificats expirant** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificats expirant" data-size="line"> pour voir quels certificats d’apprenants ont expiré ou sont sur le point d’expirer. La page affiche, pour chaque apprenant : la **Date d’expiration** du certificat, son **Statut** (**Expiré** ou **Expire bientôt**), et la date du **Dernier rappel envoyé** (ou **Jamais**). Utilisez **Jours d’avance** pour élargir ou réduire l’horizon de « expire bientôt ».
+Ouvrez la liste **Certificats** de votre évaluation et cliquez sur le bouton **Certificats expirant** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificats expirant" data-size="line"> pour voir quels certificats d’apprenants ont expiré ou sont sur le point d’expirer. La page affiche, pour chaque apprenant : la **Date d’expiration** du certificat, son **Statut** (**Expiré** ou **Expire bientôt**), et la date du **Dernier rappel envoyé** (ou **Jamais**). Utilisez **Jours d’avance** pour élargir ou réduire l’horizon de « expire bientôt ».
 
-![La page Certificats expirant listant un certificat expiré et un certificat bientôt expiré](/.gitbook/assets/gradebook-certificate-expirations.png)
+![La page Certificats expirant listant un certificat expiré et un certificat bientôt expiré](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Pour notifier vous-même les apprenants :
 
@@ -45,7 +45,7 @@ Pour notifier vous-même les apprenants :
 3. Vérifiez l’aperçu de l’e-mail qui sera envoyé — des aperçus distincts sont affichés pour les formulations « expire bientôt » et « expiré », selon le cas de chacun des apprenants sélectionnés
 4. Confirmez en cliquant à nouveau sur **Envoyer une notification** dans la boîte de dialogue
 
-![La boîte de dialogue de confirmation Envoyer une notification prévisualisant les formulations d’e-mail pour expiration imminente et expirée](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![La boîte de dialogue de confirmation Envoyer une notification prévisualisant les formulations d’e-mail pour expiration imminente et expirée](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Chaque apprenant est notifié dans sa langue configurée, à la fois par e-mail et par un message interne Chamilo. Renvoyer pour le même certificat et la même date d’expiration est sans risque — Chamilo suit ce qui a déjà été envoyé par certificat et n’enverra pas de rappels en double à un apprenant, sauf si vous renvoyez explicitement.
 

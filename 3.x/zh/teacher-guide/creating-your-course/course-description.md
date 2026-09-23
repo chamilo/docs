@@ -1,12 +1,12 @@
 # 课程简介
 
-**课程简介** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="课程简介" data-size="line"> 工具可让您撰写结构化、多章节的课程说明——包括目标、教学方法、教材等。与仅供已注册学员在[课程主页](README.md#the-course-homepage)上看到的自由文本**课程介绍**横幅不同，课程简介是潜在学员在注册*之前*从课程目录中看到的内容。
+**课程简介** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="课程简介" data-size="line"> 工具可让您撰写结构化、多章节的课程说明——包括目标、教学方法、教材等。与仅供已注册学员在[课程主页](README.md#the-course-homepage)上看到的自由文本**课程介绍**横幅不同，课程简介是潜在学员在注册*之前*从课程目录中看到的内容。
 
 注册后，学员仍可在课程内查阅该简介——如果您将该工具保持对其可见，它便是学员查看课程总体结构或教师信息等实用内容的便捷位置，无需直接向您询问。已注册学员可以查看您撰写的各章节，但不能添加、编辑或删除它们。
 
 ## 访问该工具
 
-从课程主页的工具网格中打开 **课程简介** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="课程简介" data-size="line"> 工具。
+从课程主页的工具网格中打开 **课程简介** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="课程简介" data-size="line"> 工具。
 
 ## 八个章节
 
@@ -30,7 +30,7 @@
 3. 在富文本编辑器中撰写内容（支持格式、图片、链接、嵌入视频及其他富内容）。如果平台已启用该功能，您还可以为同一章节撰写多个语言版本，并让每位学员自动只看到自己的语言版本——参见[多语言内容](../adding-content/multi-language-content.md)。
 4. 保存
 
-您添加的每个章节都会在工具中显示为独立卡片。使用卡片上的 **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 和 **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> 图标，可稍后更新或移除该章节。
+您添加的每个章节都会在工具中显示为独立卡片。使用卡片上的 **编辑** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> 和 **删除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> 图标，可稍后更新或移除该章节。
 
 ## 与课程目录的关联
 

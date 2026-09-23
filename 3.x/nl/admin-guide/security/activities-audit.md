@@ -8,7 +8,7 @@ Klik in het beheerpaneel op **Security > Activities audit**.
 
 ## Wat het toont
 
-![De pagina Activiteitenaudit met categorieën van gebeurtenistypen zoals Course, Session, User, Social, Message, Resource, Wiki en Other, die elk uitklapbaar zijn tot individuele gebeurtenistypen](/.gitbook/assets/admin-security-activities-audit.png)
+![De pagina Activiteitenaudit met categorieën van gebeurtenistypen zoals Course, Session, User, Social, Message, Resource, Wiki en Other, die elk uitklapbaar zijn tot individuele gebeurtenistypen](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Gebeurtenissen zijn gegroepeerd in categorieën:
 

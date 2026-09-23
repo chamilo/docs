@@ -4,7 +4,7 @@ Verktyget för övningar (även kallat "tester") låter dig skapa quiz och tento
 
 ## Skapa en övning
 
-1. Öppna verktyget **Övningar** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Övningar" data-size="line"> från kurssidan
+1. Öppna verktyget **Övningar** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Övningar" data-size="line"> från kurssidan
 2. Klicka på **Ny övning**
 3. Ange en **titel** och valfri **beskrivning**
 4. Konfigurera övningsinställningarna (se nedan)
@@ -12,7 +12,7 @@ Verktyget för övningar (även kallat "tester") låter dig skapa quiz och tento
 
 ## Övningsinställningar
 
-![Panelen för övningsinställningar med alternativ för visning, tid, försök och återkoppling](/.gitbook/assets/exercise-settings.png)
+![Panelen för övningsinställningar med alternativ för visning, tid, försök och återkoppling](../../.gitbook/assets/exercise-settings.png)
 
 ### Visning och navigering
 
@@ -75,7 +75,7 @@ Du kan också konfigurera avancerade urvalsstrategier som kombinerar kategorier 
 
 ## Frågetyper
 
-![Översikt över tillgängliga frågetyper i gränssnittet för att skapa övningar](/.gitbook/assets/exercise-question-types.png)
+![Översikt över tillgängliga frågetyper i gränssnittet för att skapa övningar](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo erbjuder ett rikt utbud av frågetyper organiserade i flera kategorier:
 

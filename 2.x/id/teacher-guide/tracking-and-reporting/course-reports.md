@@ -4,9 +4,9 @@ Laporan kursus memberikan Anda tampilan agregat dari aktivitas dan kinerja di se
 
 ## Mengakses Laporan Kursus
 
-Buka alat **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dari beranda kursus dan pilih tampilan laporan tingkat kursus.
+Buka alat **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dari beranda kursus dan pilih tampilan laporan tingkat kursus.
 
-![Ikhtisar pelacakan kursus yang menunjukkan metrik keterlibatan dan ringkasan aktivitas pembelajar](/.gitbook/assets/tracking-course-overview.png)
+![Ikhtisar pelacakan kursus yang menunjukkan metrik keterlibatan dan ringkasan aktivitas pembelajar](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Laporan yang Tersedia
 
@@ -43,7 +43,7 @@ Untuk setiap tugas:
 
 ## Mengekspor Data
 
-Anda dapat mengekspor data pelacakan dan laporan untuk analisis lebih lanjut. Cari opsi **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> untuk mengunduh data dalam format yang kompatibel dengan spreadsheet.
+Anda dapat mengekspor data pelacakan dan laporan untuk analisis lebih lanjut. Cari opsi **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> untuk mengunduh data dalam format yang kompatibel dengan spreadsheet.
 
 ## Laporan Sesi
 

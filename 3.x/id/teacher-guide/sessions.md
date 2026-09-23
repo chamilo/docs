@@ -15,7 +15,7 @@ Sebuah **kursus** adalah wadah konten dan alat. Sebuah **sesi** menugaskan kursu
 
 Dari bilah sisi, klik **Sesi saya** untuk melihat sesi Anda. Sesi diatur dalam tiga tampilan:
 
-![Halaman Sesi Saya yang menampilkan tampilan sesi saat ini, lalu, dan yang akan datang](/.gitbook/assets/my-sessions-list.png)
+![Halaman Sesi Saya yang menampilkan tampilan sesi saat ini, lalu, dan yang akan datang](../.gitbook/assets/my-sessions-list.png)
 
 * **Sesi saat ini** — Sesi yang sedang aktif
 * **Sesi lalu** — Sesi yang telah berakhir

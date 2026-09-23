@@ -10,7 +10,7 @@ Depuis le panneau d’administration, cliquez sur **Sécurité > Intégrité des
 
 ## Ce qu’elle affiche
 
-![La page Intégrité des fichiers montrant les informations du dernier scan, les panneaux pour les fichiers Ajoutés, Modifiés, Supprimés et dont les Permissions ont changé, une liste d’Historique des alertes, et des Actions pour lancer un scan, mettre les alertes en pause ou établir une nouvelle référence](/.gitbook/assets/admin-security-file-integrity.png)
+![La page Intégrité des fichiers montrant les informations du dernier scan, les panneaux pour les fichiers Ajoutés, Modifiés, Supprimés et dont les Permissions ont changé, une liste d’Historique des alertes, et des Actions pour lancer un scan, mettre les alertes en pause ou établir une nouvelle référence](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Dernier scan** — Date et heure du scan le plus récent et nombre de fichiers contrôlés
 * **Ajoutés / Modifiés / Supprimés** — Fichiers qui diffèrent de la référence, identifiés par comparaison des sommes de contrôle SHA-256 (chaque liste est limitée à 500 chemins, avec une mention si la liste complète est plus longue — consultez le journal CEF ci-dessous pour la liste complète)

@@ -27,7 +27,7 @@ Som standard har den offentlige registreringsformular slet ingen mulighed for at
 
 Nogle platforme aktiverer et trin **"Hvad vil du gøre?"** med to kort — **Følg kurser** og **Undervis i kurser** — men dette vises kun, hvis din administrator specifikt har slået registrering som underviser til. Selv da kan det at vælge at undervise kræve, at din konto godkendes, før du får underviserrettigheder.
 
-![Registreringsformularen på en platform med selvregistrering som underviser aktiveret, der viser rollevalget "Følg kurser" / "Undervis i kurser"](/.gitbook/assets/student-registration-form.png)
+![Registreringsformularen på en platform med selvregistrering som underviser aktiveret, der viser rollevalget "Følg kurser" / "Undervis i kurser"](../../.gitbook/assets/student-registration-form.png)
 
 Hvis du har brug for en underviserkonto og ikke ser denne mulighed, skal du bede din platformadministrator om at oprette en til dig eller opgradere din eksisterende konto.
 

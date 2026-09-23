@@ -4,7 +4,7 @@
 
 ## بنية المنتدى
 
-![قائمة فئات المنتدى تعرض الفئات والمنتديات وعدد المواضيع](/.gitbook/assets/forum-category-list.png)
+![قائمة فئات المنتدى تعرض الفئات والمنتديات وعدد المواضيع](../../.gitbook/assets/forum-category-list.png)
 
 تُنظَّم المنتديات في Chamilo على ثلاثة مستويات:
 
@@ -14,7 +14,7 @@
 
 ## إنشاء فئة منتدى
 
-1. افتح أداة **المنتديات** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="المنتديات" data-size="line"> من الصفحة الرئيسية لمقررك
+1. افتح أداة **المنتديات** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="المنتديات" data-size="line"> من الصفحة الرئيسية لمقررك
 2. انقر **إضافة فئة منتدى**
 3. أدخل **اسم الفئة** ووصفًا اختياريًا
 4. احفظ

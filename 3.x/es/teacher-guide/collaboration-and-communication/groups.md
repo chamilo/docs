@@ -14,7 +14,7 @@ Los grupos permiten dividir a los alumnos en equipos más pequeños para el trab
 
 ## Herramientas de grupo
 
-![Vista general de grupos que muestra las herramientas de grupo disponibles y el recuento de miembros](/.gitbook/assets/groups-overview.png)
+![Vista general de grupos que muestra las herramientas de grupo disponibles y el recuento de miembros](../../.gitbook/assets/groups-overview.png)
 
 Cada grupo puede tener acceso a un subconjunto de herramientas del curso que se comparten únicamente entre los miembros del grupo:
 

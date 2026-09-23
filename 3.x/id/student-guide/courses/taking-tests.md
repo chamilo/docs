@@ -4,7 +4,7 @@ Alat **Tes** (Exercises) adalah tempat Anda mengerjakan kuis dan ujian yang tela
 
 ## Memulai Tes
 
-Buka alat **Tes** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tes" data-size="line"> dari beranda kursus dan klik sebuah tes untuk memulainya. Tes mungkin belum tersedia, atau sudah tidak tersedia lagi, jika pengajar menetapkan tanggal mulai atau tanggal berakhir.
+Buka alat **Tes** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tes" data-size="line"> dari beranda kursus dan klik sebuah tes untuk memulainya. Tes mungkin belum tersedia, atau sudah tidak tersedia lagi, jika pengajar menetapkan tanggal mulai atau tanggal berakhir.
 
 ## Menjawab Pertanyaan
 

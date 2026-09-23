@@ -17,11 +17,11 @@ Noen plattformer aktiverer også AI-veilederen **utenfor ethvert kurs** — i s�
 
 Se etter chatknappen (et flytende taleboble-ikon) nederst på skjermen. Når du åpner den, vises kontaktene dine pluss, hvis aktivert, en egen **AI-veileder**-oppføring med et robotikon og en «online»-prikk — klikk på den for å starte eller fortsette samtalen med AI-en.
 
-![Chatpanelets kontaktliste, med en AI-veileder-oppføring over de vanlige kontaktene dine](/.gitbook/assets/student-docked-chat-contacts.png)
+![Chatpanelets kontaktliste, med en AI-veileder-oppføring over de vanlige kontaktene dine](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Skriv spørsmålet ditt og trykk **Enter** for å sende det (**Shift+Enter** setter inn et linjeskift i stedet for å sende). AI-veilederen formaterer svarene sine med overskrifter, lister, fet tekst og kodeblokker der det er nyttig, slik at lengre forklaringer forblir lesbare.
 
-![En åpen samtale med AI-veilederen, med meldingsfeltet nederst](/.gitbook/assets/student-ai-tutor-conversation.png)
+![En åpen samtale med AI-veilederen, med meldingsfeltet nederst](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Spørre om noe du leser
 

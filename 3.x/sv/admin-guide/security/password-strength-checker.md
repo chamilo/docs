@@ -8,7 +8,7 @@ Från administrationspanelen klickar du på **Säkerhet > Lösenordsstyrkekontro
 
 ## Köra en genomsökning
 
-![Sidan Lösenordsstyrkekontroll, med ett fält för användar-ID:n att genomsöka och en knapp för att köra genomsökningen](/.gitbook/assets/admin-security-password-strength.png)
+![Sidan Lösenordsstyrkekontroll, med ett fält för användar-ID:n att genomsöka och en knapp för att köra genomsökningen](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Lämna **Användar-ID:n att genomsöka** tomt för att genomsöka varje aktiv användare, eller ange en kommaseparerad lista med användar-ID:n för att kontrollera en delmängd
 * Klicka på **Kör lösenordsstyrkegenomsökning**
@@ -17,7 +17,7 @@ Genomsökningen körs asynkront i bakgrunden så att sidan inte fryser, och visa
 
 ## Åtgärda resultat
 
-![De färdiga genomsökningsresultaten, som listar en flaggad användare med kolumnerna Namn, Användarnamn och E-post, samt åtgärder per rad för att begära lösenordsbyte eller tvinga lösenordsåterställning](/.gitbook/assets/admin-security-password-strength-results.png)
+![De färdiga genomsökningsresultaten, som listar en flaggad användare med kolumnerna Namn, Användarnamn och E-post, samt åtgärder per rad för att begära lösenordsbyte eller tvinga lösenordsåterställning](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 När genomsökningen är klar listas flaggade användare med två tillgängliga åtgärder, antingen per användare eller som en massåtgärd för alla valda användare:
 

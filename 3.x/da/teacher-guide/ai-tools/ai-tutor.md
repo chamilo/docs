@@ -24,7 +24,7 @@ AI-tutoren kræver konfiguration på to niveauer:
 
 ## Chatgrænsefladen
 
-![AI-tutorens chatgrænseflade, der viser en samtale mellem en kursist og AI'en](/.gitbook/assets/ai-tutor-chat.png)
+![AI-tutorens chatgrænseflade, der viser en samtale mellem en kursist og AI'en](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI-tutoren vises som et **fastgjort chatpanel** i kurset. Kursister kan:
 

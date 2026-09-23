@@ -32,4 +32,4 @@ Chamilo の管理者として、以下の管理を行います：
 
 ## 管理パネルへのアクセス
 
-管理者としてログイン後、サイドバーの **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> をクリックして管理パネルにアクセスします。
+管理者としてログイン後、サイドバーの **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> をクリックして管理パネルにアクセスします。

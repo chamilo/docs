@@ -10,7 +10,7 @@ Dari panel administrasi, klik **Keamanan > Simple IDS**.
 
 ## Apa yang Ditampilkan
 
-![Halaman Simple IDS menampilkan grafik untuk peristiwa per hari, peristiwa per jenis, dan IP penyerang teratas, diikuti tabel peristiwa IDS yang ditandai dengan tanggal, IP, jenis deteksi, parameter, URI, dan detail](/.gitbook/assets/admin-security-simple-ids.png)
+![Halaman Simple IDS menampilkan grafik untuk peristiwa per hari, peristiwa per jenis, dan IP penyerang teratas, diikuti tabel peristiwa IDS yang ditandai dengan tanggal, IP, jenis deteksi, parameter, URI, dan detail](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Peristiwa per hari (7 hari terakhir)**, **Peristiwa per jenis (30 hari terakhir)**, dan **IP penyerang teratas (30 hari terakhir)** — Grafik ringkasan
 * **Tabel peristiwa IDS yang ditandai** — Setiap entri menampilkan tanggal, IP sumber, jenis deteksi (misalnya `XSS`), parameter yang terdampak, URI permintaan, dan deskripsi singkat tentang apa yang terdeteksi

@@ -6,7 +6,7 @@ Ihr Profil in Chamilo enthält Ihre persönlichen Informationen und Einstellunge
 
 Klicken Sie auf Ihren **Avatar** in der oberen rechten Ecke der oberen Leiste und wählen Sie dann **Profil** aus dem Dropdown-Menü. Sie können es auch über den Bereich **Soziales Netzwerk** in der Seitenleiste aufrufen.
 
-![Das Dropdown-Menü des Benutzer-Avatars mit den Optionen Profil, Kontoeinstellungen und Abmelden](/.gitbook/assets/user-avatar-dropdown.png)
+![Das Dropdown-Menü des Benutzer-Avatars mit den Optionen Profil, Kontoeinstellungen und Abmelden](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profilinformationen
 

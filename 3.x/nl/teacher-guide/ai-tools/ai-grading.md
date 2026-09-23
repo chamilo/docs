@@ -9,11 +9,11 @@ AI-beoordeling is beschikbaar in twee contexten:
 * **Open vragen in oefeningen** — Wanneer u vrije-antwoordvragen in een oefening handmatig beoordeelt
 * **Inzendingen van opdrachten** — Wanneer u studentpublicaties in de tool Opdrachten bekijkt en scoort
 
-Zoek naar de knop **AI-beoordeling** (aangegeven door een robotpictogram <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in de beoordelingsinterface.
+Zoek naar de knop **AI-beoordeling** (aangegeven door een robotpictogram <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in de beoordelingsinterface.
 
 ## Hoe het werkt
 
-![De interface voor AI-beoordeling met een studentinzending, voorgestelde score en feedback](/.gitbook/assets/ai-grading-interface.png)
+![De interface voor AI-beoordeling met een studentinzending, voorgestelde score en feedback](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Open een inzending of antwoord dat beoordeeld moet worden
 2. Klik op de knop **AI-beoordeling**

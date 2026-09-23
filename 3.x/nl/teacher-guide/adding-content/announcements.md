@@ -6,8 +6,8 @@ Berichten die via aankondigingen worden verstuurd, gaan naar de cursisten zowel 
 
 ## Een aankondiging maken
 
-1. Open de tool **Aankondigingen** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line"> vanaf de cursushomepagina
-2. Klik opnieuw op het pictogram **Een aankondiging toevoegen** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line">
+1. Open de tool **Aankondigingen** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line"> vanaf de cursushomepagina
+2. Klik opnieuw op het pictogram **Een aankondiging toevoegen** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line">
 3. Vul in:
    * **Ontvangers** — Kies wie de aankondiging ontvangt:
      * Alle ingeschreven cursisten
@@ -25,9 +25,9 @@ De knop **Voorbeeld** is niet erg intuïtief: hiermee kunt u zien naar wie deze 
 
 ## Aankondigingen beheren
 
-* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Een bestaande aankondiging wijzigen
-* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Een aankondiging verwijderen
-* **Zichtbaarheid** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Aankondigingen verbergen of tonen
+* **Bewerken** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Een bestaande aankondiging wijzigen
+* **Verwijderen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Een aankondiging verwijderen
+* **Zichtbaarheid** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Aankondigingen verbergen of tonen
 
 Aankondigingen worden in omgekeerde chronologische volgorde weergegeven (nieuwste eerst).
 

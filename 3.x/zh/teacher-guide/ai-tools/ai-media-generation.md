@@ -10,7 +10,7 @@
 
 ## 如何生成图片或视频
 
-1. 在 **文档** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="文档" data-size="line"> 工具中打开一份文档（新建或编辑已有文档）
+1. 在 **文档** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="文档" data-size="line"> 工具中打开一份文档（新建或编辑已有文档）
 2. 在富文本编辑器中，将光标置于您希望配图的段落内或其附近
 3. 从编辑器工具栏打开 **生成 AI 媒体** 对话框
 4. 描述您希望媒体呈现的内容，或使用所选段落作为提示词

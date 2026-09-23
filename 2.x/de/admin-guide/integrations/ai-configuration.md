@@ -35,7 +35,7 @@ Registrieren Sie sich für ein Konto bei Ihrem gewählten KI-Anbieter und besorg
 
 ### 2. Anbieter in Chamilo konfigurieren
 
-![Die Konfigurationsseite für KI-Helfer mit Anbieter-Einstellungen, API-Schlüssel-, Modell- und Endpunktfeldern](/.gitbook/assets/admin-ai-helpers-config.png)
+![Die Konfigurationsseite für KI-Helfer mit Anbieter-Einstellungen, API-Schlüssel-, Modell- und Endpunktfeldern](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Navigieren Sie in den Plattformeinstellungen zum Abschnitt **KI-Helfer**:
 

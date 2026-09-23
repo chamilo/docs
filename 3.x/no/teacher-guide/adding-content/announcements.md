@@ -6,8 +6,8 @@ Meldinger som sendes via kunngjøringer, sendes til deltakerne både på e-post 
 
 ## Opprette en kunngjøring
 
-1. Åpne verktøyet **Kunngjøringer** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> fra kursets startside
-2. Klikk på ikonet **Legg til en kunngjøring** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> på nytt
+1. Åpne verktøyet **Kunngjøringer** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> fra kursets startside
+2. Klikk på ikonet **Legg til en kunngjøring** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Kunngjøringer" data-size="line"> på nytt
 3. Fyll inn:
    * **Mottakere** — Velg hvem som skal motta kunngjøringen:
      * Alle påmeldte deltakere
@@ -25,9 +25,9 @@ Knappen **Preview** er ikke særlig intuitiv: den lar deg se hvem kunngjøringen
 
 ## Administrere kunngjøringer
 
-* **Rediger** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Endre en eksisterende kunngjøring
-* **Slett** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> — Fjern en kunngjøring
-* **Synlighet** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Skjul eller vis kunngjøringer
+* **Rediger** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> — Endre en eksisterende kunngjøring
+* **Slett** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slett" data-size="line"> — Fjern en kunngjøring
+* **Synlighet** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighet" data-size="line"> — Skjul eller vis kunngjøringer
 
 Kunngjøringer vises i omvendt kronologisk rekkefølge (nyeste først).
 

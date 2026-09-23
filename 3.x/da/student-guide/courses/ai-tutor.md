@@ -17,11 +17,11 @@ Nogle platforme aktiverer også AI Tutor **uden for ethvert kursus** — i så f
 
 Se efter chatknappen (et flydende taleboble-ikon) nederst på skærmen. Når du åbner den, vises dine kontakter plus, hvis det er aktiveret, en dedikeret **AI Tutor**-post med et robotikon og en "online"-prik — klik på den for at starte eller fortsætte din samtale med AI'en.
 
-![Chatpanelets kontaktliste med en AI Tutor-post over dine almindelige kontakter](/.gitbook/assets/student-docked-chat-contacts.png)
+![Chatpanelets kontaktliste med en AI Tutor-post over dine almindelige kontakter](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Skriv dit spørgsmål, og tryk på **Enter** for at sende det (**Shift+Enter** indsætter et linjeskift i stedet for at sende). AI Tutor formaterer sine svar med overskrifter, lister, fed tekst og kodeblokke, hvor det er nyttigt, så længere forklaringer forbliver læsbare.
 
-![En åben samtale med AI Tutor med beskedkomponisten nederst](/.gitbook/assets/student-ai-tutor-conversation.png)
+![En åben samtale med AI Tutor med beskedkomponisten nederst](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Spørge om noget, du læser
 

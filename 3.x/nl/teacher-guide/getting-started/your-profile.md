@@ -6,7 +6,7 @@ Uw profiel in Chamilo bevat uw persoonlijke gegevens en voorkeuren. Andere gebru
 
 Klik op uw **avatar** in de rechterbovenhoek van de bovenbalk en kies vervolgens **Profile** in het vervolgkeuzemenu. U kunt het ook openen via de sectie **Social network** in de zijbalk.
 
-![Het vervolgkeuzemenu van de gebruikersavatar met opties voor profiel, accountinstellingen en afmelden](/.gitbook/assets/user-avatar-dropdown.png)
+![Het vervolgkeuzemenu van de gebruikersavatar met opties voor profiel, accountinstellingen en afmelden](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profielgegevens
 

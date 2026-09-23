@@ -19,7 +19,7 @@ Chamilo menghitung nilai keseluruhan setiap peserta didik berdasarkan bobot ters
 
 ## Menyiapkan Penilaian
 
-1. Buka alat **Penilaian** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> dari beranda kursus
+1. Buka alat **Penilaian** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> dari beranda kursus
 2. Anda akan melihat ringkasan penilaian, yang awalnya kosong
 
 ### Menambahkan Aktivitas
@@ -48,7 +48,7 @@ Untuk skema penilaian yang kompleks, Anda dapat membuat **subkategori** untuk me
 
 ## Melihat Nilai
 
-![Tabel ringkasan gradebook yang menampilkan nama peserta didik, skor aktivitas, dan total berbobot](/.gitbook/assets/gradebook-overview.png)
+![Tabel ringkasan gradebook yang menampilkan nama peserta didik, skor aktivitas, dan total berbobot](../../.gitbook/assets/gradebook-overview.png)
 
 Penilaian menampilkan tabel dengan:
 
@@ -83,7 +83,7 @@ Untuk mengaktifkan pembuatan sertifikat:
 
 Setelah **Generate certificates** diaktifkan pada kategori akar, kolom **Certificate validity (days)** muncul. Biarkan pada `0` untuk sertifikat yang tidak pernah kedaluwarsa, atau atur jumlah hari setelah itu sertifikat kedaluwarsa — Chamilo kemudian dapat mengingatkan peserta didik saat tanggal kedaluwarsa mendekat, secara otomatis (cron, dikonfigurasi admin) atau secara manual dari daftar sertifikat.
 
-![Dialog sunting kategori dengan Generate certificates diaktifkan dan kolom Certificate validity (days) diatur ke 365](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![Dialog sunting kategori dengan Generate certificates diaktifkan dan kolom Certificate validity (days) diatur ke 365](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 Lihat [Sertifikat dan Keterampilan](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) untuk detail lebih lanjut.
 
@@ -93,7 +93,7 @@ Anda dapat mengaitkan **keterampilan** dengan penilaian. Ketika peserta didik me
 
 ## Mengekspor Nilai
 
-Klik tombol **Ekspor** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Ekspor" data-size="line"> untuk mengunduh nilai sebagai spreadsheet. Ini berguna untuk:
+Klik tombol **Ekspor** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Ekspor" data-size="line"> untuk mengunduh nilai sebagai spreadsheet. Ini berguna untuk:
 
 * Membagikan nilai ke sistem administrasi
 * Melakukan analisis tambahan di luar Chamilo

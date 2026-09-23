@@ -53,7 +53,7 @@ Ogni URL di accesso può avere:
 
 Le URL di accesso possono essere organizzate in un albero padre/figlio invece che in un elenco piatto. Durante la creazione o la modifica di una URL, un Amministratore globale senza restrizioni (vedere [Amministratori di sottoalbero](#subtree-administrators) di seguito) può scegliere qualsiasi altra URL come **URL padre**:
 
-![Finestra di dialogo Modifica URL con il menu a discesa URL padre aperto, che elenca le altre URL di accesso disponibili come padre](/.gitbook/assets/admin-access-url-parent-select.png)
+![Finestra di dialogo Modifica URL con il menu a discesa URL padre aperto, che elenca le altre URL di accesso disponibili come padre](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * Il menu a discesa non propone mai la URL in corso di modifica, né alcuno dei suoi discendenti, come possibile padre — ciò impedisce di creare un ciclo. Il backend rivalida comunque questa condizione, indipendentemente da quanto mostrato dall'interfaccia.
 * Se una URL viene creata senza scegliere un padre, per impostazione predefinita viene usata la **URL solo login** se esiste (vedere [Impostazioni per URL](#per-url-settings) sopra), altrimenti la prima URL di accesso — lo stesso comportamento predefinito esistente prima di questa funzionalità.
@@ -61,7 +61,7 @@ Le URL di accesso possono essere organizzate in un albero padre/figlio invece ch
 
 Ovunque siano elencate le URL di accesso — la dashboard Multi-URL e la pagina di gestione delle URL di accesso — l'albero è mostrato tramite indentazione, un padre seguito immediatamente dai propri figli (fratelli ordinati in ordine alfabetico), invece di una colonna «Padre» separata:
 
-![Elenco delle URL di accesso che mostra una URL radice con due URL figlie, una delle quali ha a sua volta una URL figlia, indentate per riflettere la gerarchia](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Elenco delle URL di accesso che mostra una URL radice con due URL figlie, una delle quali ha a sua volta una URL figlia, indentate per riflettere la gerarchia](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Amministratori di sottoalbero
 

@@ -6,8 +6,8 @@
 
 ## 建立公告
 
-1. 從課程首頁開啟 **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> 工具
-2. 再次點擊 **Add an announcement** 圖示 <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line">
+1. 從課程首頁開啟 **Announcements** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> 工具
+2. 再次點擊 **Add an announcement** 圖示 <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line">
 3. 填寫：
    * **Recipients** — 選擇接收公告的對象：
      * 所有已註冊學習者
@@ -25,9 +25,9 @@
 
 ## 管理公告
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 修改現有公告
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — 刪除公告
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — 隱藏或顯示公告
+* **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — 修改現有公告
+* **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — 刪除公告
+* **Visibility** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — 隱藏或顯示公告
 
 公告以反時序顯示（最新公告優先）。
 

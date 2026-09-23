@@ -4,9 +4,9 @@ The agenda tool lets you schedule events and deadlines within your course. Event
 
 ## Viewing the Agenda
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![The agenda in calendar view showing course events and deadlines](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Calendar view** — A visual monthly/weekly/daily calendar
 * **List view** — Events shown as a chronological list
@@ -14,7 +14,7 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
 
 ## Creating an Event
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
+1. Click **Add event** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
 2. Fill in the event details:
    * **Title** — A short name for the event
    * **Start date and time**
@@ -23,13 +23,13 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
 3. Choose the **audience**:
    * **All learners** — Everyone enrolled in the course
    * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
+4. Optionally set a **reminder** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
 5. Save
 
 ## Managing Events
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
+* **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
+* **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
 * **Drag and drop** — In calendar view, drag events to reschedule them
 
 ## Personal Agenda

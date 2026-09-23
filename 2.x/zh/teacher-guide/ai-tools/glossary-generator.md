@@ -9,7 +9,7 @@
 1. 平台层面启用了人工智能助手
 2. 至少配置了一个人工智能文本提供商
 
-在课程首页打开**词汇表**工具 <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">，然后在工具栏中查找**使用人工智能生成**按钮。
+在课程首页打开**词汇表**工具 <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="词汇表" data-size="line">，然后在工具栏中查找**使用人工智能生成**按钮。
 
 ## 如何生成术语
 

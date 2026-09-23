@@ -2,7 +2,7 @@
 
 Gezondheidscontrole is een klein blok op het beheerdersdashboard dat een aantal live controles op uw installatie uitvoert en alles markeert dat aandacht nodig heeft — u hoeft niet door configuratiebestanden te spitten om veelvoorkomende verkeerde instellingen te vinden.
 
-![Het blok Gezondheidscontrole op het beheerdersdashboard, met geslaagd/mislukt-status voor e-mailinstellingen, toewijzing van de beheerder-URL en controles van bestandsrechten](/.gitbook/assets/admin-health-check-block.png)
+![Het blok Gezondheidscontrole op het beheerdersdashboard, met geslaagd/mislukt-status voor e-mailinstellingen, toewijzing van de beheerder-URL en controles van bestandsrechten](../.gitbook/assets/admin-health-check-block.png)
 
 ## Gezondheidscontrole openen
 

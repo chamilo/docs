@@ -19,7 +19,7 @@ Chamiloはこれらの重みに基づいて各学習者の総合成績を計算�
 
 ## 評価の設定
 
-1. コースのホームページから**評価** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="評価" data-size="line"> ツールを開きます
+1. コースのホームページから**評価** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="評価" data-size="line"> ツールを開きます
 2. 最初は空の評価概要が表示されます
 
 ### 活動の追加
@@ -48,7 +48,7 @@ Chamiloはこれらの重みに基づいて各学習者の総合成績を計算�
 
 ## 成績の確認
 
-![学習者の名前、活動のスコア、加重合計を表示する評価概要テーブル](/.gitbook/assets/gradebook-overview.png)
+![学習者の名前、活動のスコア、加重合計を表示する評価概要テーブル](../../.gitbook/assets/gradebook-overview.png)
 
 評価には以下の内容を含むテーブルが表示されます：
 
@@ -75,7 +75,7 @@ Chamiloはこれらの重みに基づいて各学習者の総合成績を計算�
 
 ## 成績のエクスポート
 
-**エクスポート** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> ボタンをクリックして、成績をスプレッドシートとしてダウンロードします。これは以下に役立ちます：
+**エクスポート** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> ボタンをクリックして、成績をスプレッドシートとしてダウンロードします。これは以下に役立ちます：
 
 * 管理システムと成績を共有する
 * Chamilo外で追加の分析を行う

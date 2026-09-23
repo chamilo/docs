@@ -4,7 +4,7 @@ Chamilo sporer deltakernes aktivitet gjennom hele plattformen og gir deg detalje
 
 ## Tilgang til sporing av deltakere
 
-Åpne verktøyet **Sporing** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Sporing" data-size="line"> fra kursets hjemmeside, eller klikk **Rapportering** i sidemenyen.
+Åpne verktøyet **Sporing** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Sporing" data-size="line"> fra kursets hjemmeside, eller klikk **Rapportering** i sidemenyen.
 
 ## Hva som spores
 
@@ -22,7 +22,7 @@ Detaljer om tilgang per ressurs (hvilke spesifikke dokumenter eller sider en del
 
 ## Visning av data for enkeltpersoner
 
-![Detaljert sporingsvisning for deltaker som viser fremdrift, poeng og aktivitetstidslinje](/.gitbook/assets/tracking-learner-detail.png)
+![Detaljert sporingsvisning for deltaker som viser fremdrift, poeng og aktivitetstidslinje](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klikk på en deltakers navn for å se den detaljerte aktivitetsrapporten. Denne viser:
 

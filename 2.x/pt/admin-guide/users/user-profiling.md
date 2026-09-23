@@ -4,7 +4,7 @@ O Chamilo permite definir campos de perfil personalizados (campos extras) para c
 
 ## Campos de Perfil Extras
 
-![Lista de campos de perfil extras mostrando campos personalizados com nome, tipo e configurações de visibilidade](/.gitbook/assets/admin-extra-fields-list.png)
+![Lista de campos de perfil extras mostrando campos personalizados com nome, tipo e configurações de visibilidade](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Os campos extras permitem armazenar metadados específicos da sua organização, como:
 

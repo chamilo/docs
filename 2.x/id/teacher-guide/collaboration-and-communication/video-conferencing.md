@@ -6,7 +6,7 @@ Chamilo terintegrasi dengan platform konferensi video, memungkinkan Anda untuk m
 
 ## Memulai Sesi Video
 
-1. Buka alat **Konferensi Video** di halaman utama kursus (atau bilah sisi) <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line">
+1. Buka alat **Konferensi Video** di halaman utama kursus (atau bilah sisi) <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line">
 2. Klik **Mulai Rapat** (atau tombol serupa, tergantung pada platform yang dikonfigurasi)
 3. Ruang konferensi video baru akan terbuka di tab baru pada peramban Anda
 

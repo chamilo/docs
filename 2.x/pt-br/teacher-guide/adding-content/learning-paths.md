@@ -16,14 +16,14 @@ Os caminhos de aprendizagem são úteis quando você deseja:
 
 ## Criando um Caminho de Aprendizagem
 
-1. Abra a ferramenta **Caminhos de aprendizagem** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Caminhos de aprendizagem" data-size="line"> na página inicial do curso
+1. Abra a ferramenta **Caminhos de aprendizagem** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Caminhos de aprendizagem" data-size="line"> na página inicial do curso
 2. Clique em **Criar um caminho de aprendizagem**
 3. Insira um **título** e uma descrição opcional
 4. Salve — você será levado ao editor de caminho de aprendizagem
 
 ## O Editor de Caminho de Aprendizagem
 
-![O editor de caminho de aprendizagem com a árvore de itens à esquerda e a pré-visualização de conteúdo à direita](/.gitbook/assets/learning-path-editor.png)
+![O editor de caminho de aprendizagem com a árvore de itens à esquerda e a pré-visualização de conteúdo à direita](../../.gitbook/assets/learning-path-editor.png)
 
 O editor possui duas áreas principais:
 

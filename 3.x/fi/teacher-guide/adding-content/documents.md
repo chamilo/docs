@@ -4,13 +4,13 @@ Dokumentit-työkalu on kurssisi tiedostovarasto. Voit ladata tiedostoja, luoda H
 
 ## Dokumentit-työkalun avaaminen
 
-Avaa **Dokumentit**-työkalu <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumentit" data-size="line"> kurssin etusivulta. Näet tiedostoselaimen, joka näyttää kurssin dokumenttikirjaston juurikansion.
+Avaa **Dokumentit**-työkalu <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumentit" data-size="line"> kurssin etusivulta. Näet tiedostoselaimen, joka näyttää kurssin dokumenttikirjaston juurikansion.
 
-![Dokumenttien tiedostoselain, jossa näkyvät kansiot ja tiedostot sekä toimintokuvakkeet](/.gitbook/assets/documents-file-browser.png)
+![Dokumenttien tiedostoselain, jossa näkyvät kansiot ja tiedostot sekä toimintokuvakkeet](../../.gitbook/assets/documents-file-browser.png)
 
 ## Tiedostojen lataaminen
 
-1. Napsauta **Lataa**-painiketta <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Lataa" data-size="line">
+1. Napsauta **Lataa**-painiketta <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Lataa" data-size="line">
 2. Valitse tietokoneeltasi yksi tai useampi tiedosto (voit vetää ja pudottaa tiedostoja latausalueelle)
 3. Tiedostot ladataan ja ne näkyvät nykyisessä kansiossa
 
@@ -52,7 +52,7 @@ Jos selaimesi tukee sitä, voit tallentaa ääntä suoraan dokumentit-työkaluss
 
 Pidä dokumenttikirjastosi järjestyksessä kansioiden avulla:
 
-1. Napsauta **Uusi kansio** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Uusi kansio" data-size="line">
+1. Napsauta **Uusi kansio** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Uusi kansio" data-size="line">
 2. Anna kansion nimi
 3. Tallenna
 
@@ -61,7 +61,7 @@ Voit luoda sisäkkäisiä kansioita loogisen sisältöhierarkian rakentamiseksi 
 ### Tiedostojen siirtäminen
 
 * Etsi tiedosto luettelosta
-* Napsauta **Siirrä** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Siirrä" data-size="line">
+* Napsauta **Siirrä** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Siirrä" data-size="line">
 * Valitse kohdekansio
 * Vahvista
 
@@ -71,12 +71,12 @@ Jokaiselle tiedostolle tai kansiolle voit:
 
 | Toiminto | Kuvake | Kuvaus |
 |--------|------|-------------|
-| **Muokkaa** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> | Nimeä tiedosto uudelleen tai muokkaa sen sisältöä (verkkosivuille) |
-| **Poista** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> | Poista tiedosto tai kansio |
-| **Lataa** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Lataa" data-size="line"> | Lataa tiedosto tietokoneellesi |
-| **Näkyvyys** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> | Piilota tai näytä tiedosto oppijoille |
-| **Korvaa** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Korvaa" data-size="line"> | Korvaa tiedosto päivitetyllä versiolla |
-| **Siirrä** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Siirrä" data-size="line"> | Siirrä toiseen kansioon |
+| **Muokkaa** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Muokkaa" data-size="line"> | Nimeä tiedosto uudelleen tai muokkaa sen sisältöä (verkkosivuille) |
+| **Poista** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Poista" data-size="line"> | Poista tiedosto tai kansio |
+| **Lataa** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Lataa" data-size="line"> | Lataa tiedosto tietokoneellesi |
+| **Näkyvyys** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Näkyvyys" data-size="line"> | Piilota tai näytä tiedosto oppijoille |
+| **Korvaa** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Korvaa" data-size="line"> | Korvaa tiedosto päivitetyllä versiolla |
+| **Siirrä** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Siirrä" data-size="line"> | Siirrä toiseen kansioon |
 
 Tiedoston korvaaminen on tärkeä ominaisuus, kun käytät dokumentteja oppimispolkujen rakentamiseen, sillä dokumentin korvaaminen mahdollistaa sen päivittämisen ilman, että oppijat menettävät kyseiseen dokumenttiin tallennettua edistymistä.
 
@@ -86,7 +86,7 @@ Valitse useita tiedostoja valintaruuduilla ja käytä sitten työkalupalkkia kai
 
 ## OnlyOffice-integraatio
 
-Jos ylläpitäjäsi on määrittänyt **OnlyOffice**-lisäosan, voit muokata Word-, Excel- ja PowerPoint-tiedostoja (tai LibreOffice-tiedostoja) suoraan selaimessa lataamatta niitä. Etsi tuettua tiedostoa tarkastellessasi vaihtoehto **Muokkaa OnlyOfficella** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line">.
+Jos ylläpitäjäsi on määrittänyt **OnlyOffice**-lisäosan, voit muokata Word-, Excel- ja PowerPoint-tiedostoja (tai LibreOffice-tiedostoja) suoraan selaimessa lataamatta niitä. Etsi tuettua tiedostoa tarkastellessasi vaihtoehto **Muokkaa OnlyOfficella** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line">.
 
 Asiakirjat tallennetaan Chamiloon; OnlyOfficea käytetään vain asiakirjojen **tarkasteluun** tai muokkaamiseen selaimessa ilman lisätyökaluja.
 

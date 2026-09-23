@@ -4,7 +4,7 @@
 
 ## 開始測驗
 
-從課程首頁開啟 **測驗** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="測驗" data-size="line"> 工具，並點選一份測驗以開始。若教師設定了開始或結束日期，測驗可能尚未開放，或已不再開放。
+從課程首頁開啟 **測驗** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="測驗" data-size="line"> 工具，並點選一份測驗以開始。若教師設定了開始或結束日期，測驗可能尚未開放，或已不再開放。
 
 ## 作答題目
 

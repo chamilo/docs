@@ -20,7 +20,7 @@ Das Anwesenheits-Tool ermöglicht es Ihnen, die Anwesenheit von Lernenden bei ge
 Jedes Anwesenheitsblatt enthält ein oder mehrere Daten (Sitzungen), an denen Sie die Anwesenheit erfassen:
 
 1. Öffnen Sie ein Anwesenheitsblatt oder setzen Sie den Erstellungsprozess fort
-2. Klicken Sie auf **Datum hinzufügen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum hinzufügen" data-size="line">
+2. Klicken Sie auf **Datum hinzufügen** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum hinzufügen" data-size="line">
 3. Wählen Sie Datum und Uhrzeit aus
 4. Optional, aktivieren Sie **Datum wiederholen**, um eine Wiederholungslogik auszuwählen
 5. Geben Sie eine **Dauer** in Minuten für die Veranstaltung an (Standardwert ist 60 Minuten)
@@ -44,7 +44,7 @@ Hinweis: Administratoren können die Portal-Konfiguration ändern, um Ihnen die 
 
 ## Anwesenheitsberichte anzeigen
 
-![Das Anwesenheitsblatt zeigt eine Übersichtstabelle mit Lernenden, Daten und Anwesenheitsindikatoren](/.gitbook/assets/attendance-sheet.png)
+![Das Anwesenheitsblatt zeigt eine Übersichtstabelle mit Lernenden, Daten und Anwesenheitsindikatoren](../../.gitbook/assets/attendance-sheet.png)
 
 Das Anwesenheits-Tool zeigt:
 

@@ -16,14 +16,14 @@
 
 ## 学習パスの作成
 
-1. コースのホームページで**学習パス**ツール <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学習パス" data-size="line"> を開く
+1. コースのホームページで**学習パス**ツール <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学習パス" data-size="line"> を開く
 2. **学習パスを作成**をクリックする
 3. **タイトル**と任意の説明を入力する
 4. 保存する — 学習パスエディタに移動します
 
 ## 学習パスエディタ
 
-![学習パスエディタ。左側にアイテムのツリー、右側にコンテンツのプレビューが表示されています](/.gitbook/assets/learning-path-editor.png)
+![学習パスエディタ。左側にアイテムのツリー、右側にコンテンツのプレビューが表示されています](../../.gitbook/assets/learning-path-editor.png)
 
 エディタには2つの主要なエリアがあります：
 

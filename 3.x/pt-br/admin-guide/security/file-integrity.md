@@ -10,7 +10,7 @@ No painel de administração, clique em **Segurança > Integridade de arquivos**
 
 ## O Que Ela Mostra
 
-![A página Integridade de arquivos mostrando informações da última varredura, painéis para arquivos Adicionados, Modificados, Excluídos e com Permissões alteradas, uma lista de Histórico de alertas e Ações para executar uma varredura, pausar alertas ou estabelecer uma nova linha de base](/.gitbook/assets/admin-security-file-integrity.png)
+![A página Integridade de arquivos mostrando informações da última varredura, painéis para arquivos Adicionados, Modificados, Excluídos e com Permissões alteradas, uma lista de Histórico de alertas e Ações para executar uma varredura, pausar alertas ou estabelecer uma nova linha de base](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Última varredura** — Quando a varredura mais recente foi executada e quantos arquivos ela verificou
 * **Adicionados / Modificados / Excluídos** — Arquivos que diferem da linha de base, identificados pela comparação de checksums SHA-256 (cada lista é limitada a 500 caminhos, com uma nota se a lista completa for maior — consulte o log CEF abaixo para a lista completa)

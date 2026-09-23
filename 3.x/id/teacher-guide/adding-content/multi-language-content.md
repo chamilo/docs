@@ -21,11 +21,11 @@ Fitur ini tersedia di mana pun Anda memiliki editor teks kaya lengkap: bagian [d
 1. Tulis (atau tempel) konten dalam bahasa default Anda, seperti biasa.
 2. Pilih teks tersebut, lalu klik tombol **Lang ISO** pada bilah alat editor.
 
-![Bilah alat editor teks kaya, dengan tombol "Lang ISO" terlihat di dekat awal](/.gitbook/assets/teacher-multilang-editor.png)
+![Bilah alat editor teks kaya, dengan tombol "Lang ISO" terlihat di dekat awal](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. Dari menu, pilih bahasa yang baru saja Anda tulis — daftar mencakup setiap bahasa yang aktif di platform Anda. Jika yang Anda butuhkan tidak terdaftar, gunakan **Custom Chamilo ISO code...** di bagian bawah dan ketik kodenya (mis. `en_US`, `fr_FR`, `es`).
 
-![Menu "Lang ISO" terbuka, menampilkan setiap bahasa platform yang aktif plus "Add translation to..." dan opsi kode kustom](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![Menu "Lang ISO" terbuka, menampilkan setiap bahasa platform yang aktif plus "Add translation to..." dan opsi kode kustom](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo membungkus pilihan Anda dengan tag bahasa tersebut. Sekarang tulis (atau tempel) versi bahasa berikutnya tepat setelahnya, pilih, dan ulangi dengan bahasa yang berbeda.
 
@@ -43,17 +43,17 @@ Setiap peserta didik melihat tepat satu versi bahasa: Chamilo mencoba bahasa ant
 
 Berikut adalah bagian deskripsi kursus yang sama, seperti yang dilihat oleh tiga peserta didik dengan bahasa antarmuka berbeda — tidak ada yang berubah pada kursus di antara ketiga tangkapan layar ini, hanya bahasa pemirsa itu sendiri:
 
-![Bagian deskripsi kursus yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Inggris](/.gitbook/assets/teacher-multilang-en.png)
+![Bagian deskripsi kursus yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Inggris](../../.gitbook/assets/teacher-multilang-en.png)
 
-![Bagian yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Prancis](/.gitbook/assets/teacher-multilang-fr.png)
+![Bagian yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Prancis](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![Bagian yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Spanyol](/.gitbook/assets/teacher-multilang-es.png)
+![Bagian yang sama seperti yang dilihat oleh peserta didik dengan bahasa antarmuka Spanyol](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### Di Balik Layar
 
 Jika Anda pernah membuka tampilan **Kode sumber** pada bidang multi-bahasa (tombol `<>` di bilah alat editor), Anda akan melihat setiap versi bahasa dibungkus seperti ini:
 
-![Tampilan Kode Sumber, menampilkan blok yang dibuka dengan lang="en_US" class="mce-translatehtml"](/.gitbook/assets/teacher-multilang-source-view.png)
+![Tampilan Kode Sumber, menampilkan blok yang dibuka dengan lang="en_US" class="mce-translatehtml"](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 Setiap versi dibungkus dalam `<div class="mce-translatehtml" lang="...">` (atau `<span>`, untuk frasa sebaris pendek, bukan seluruh blok) — atribut `lang` itulah yang dicocokkan Chamilo dengan bahasa pemirsa untuk memutuskan apa yang ditampilkan. Nama kelas spesifik ini patut dikenali jika Anda pernah memeriksa sumber halaman atau memecahkan masalah konten yang tampak salah: **`mce-translatehtml`** adalah penanda yang harus dicari.
 

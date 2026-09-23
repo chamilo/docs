@@ -1,6 +1,6 @@
 # Øvelsesovervåking
 
-Øvelsesovervåking <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Øvelsesovervåking" data-size="line"> bruker studentens webkamera til å ta identitetsbilder under et testforsøk — et bilde av et ID-dokument og et bilde av studentens ansikt — av hensyn til eksamensintegritet.
+Øvelsesovervåking <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Øvelsesovervåking" data-size="line"> bruker studentens webkamera til å ta identitetsbilder under et testforsøk — et bilde av et ID-dokument og et bilde av studentens ansikt — av hensyn til eksamensintegritet.
 
 ## Flagging av en test
 

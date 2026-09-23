@@ -4,17 +4,17 @@ Der **Posteingang** ist das private Nachrichtensystem von Chamilo — asynchrone
 
 ## Zugriff auf Ihren Posteingang
 
-Klicken Sie auf das Symbol **Posteingang** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> in der oberen Leiste. Ein rotes Abzeichen zeigt, wie viele ungelesene Nachrichten Sie haben. Wenn dieses Symbol gar nicht vorhanden ist, hat Ihr Administrator die Plattform-Nachrichten deaktiviert.
+Klicken Sie auf das Symbol **Posteingang** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> in der oberen Leiste. Ein rotes Abzeichen zeigt, wie viele ungelesene Nachrichten Sie haben. Wenn dieses Symbol gar nicht vorhanden ist, hat Ihr Administrator die Plattform-Nachrichten deaktiviert.
 
 ## Lesen und Antworten
 
 Ihr Posteingang listet empfangene Nachrichten auf und zeigt, welche ungelesen sind. Öffnen Sie eine Nachricht, um sie zu lesen, und verwenden Sie **Antworten**, um zu antworten — Sie können in einer Antwort mehrere Empfänger gleichzeitig einbeziehen, was nützlich ist, um eine kleine Gruppe von Personen auf dem Laufenden zu halten, ohne einen formellen Kurs oder eine soziale Gruppe einzurichten.
 
-![Der Posteingang mit den Registerkarten Posteingang / Ungelesen / Gesendet und einer Tabelle empfangener Nachrichten](/.gitbook/assets/student-inbox.png)
+![Der Posteingang mit den Registerkarten Posteingang / Ungelesen / Gesendet und einer Tabelle empfangener Nachrichten](../.gitbook/assets/student-inbox.png)
 
 ## Eine neue Nachricht verfassen
 
-Klicken Sie auf die Schaltfläche **neue Nachricht** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Neue Nachricht" data-size="line">, wählen Sie einen oder mehrere Empfänger, schreiben Sie Betreff und Text und senden Sie. Genau wie eine Antwort kann eine neue Nachricht an mehrere Personen gleichzeitig gehen.
+Klicken Sie auf die Schaltfläche **neue Nachricht** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Neue Nachricht" data-size="line">, wählen Sie einen oder mehrere Empfänger, schreiben Sie Betreff und Text und senden Sie. Genau wie eine Antwort kann eine neue Nachricht an mehrere Personen gleichzeitig gehen.
 
 ## Registerkarten und Aktionen
 

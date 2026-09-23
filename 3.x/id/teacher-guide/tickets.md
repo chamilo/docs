@@ -19,7 +19,7 @@ Kategori default meliputi:
 
 ## Mengakses Alat Tiket
 
-Jika administrator Anda telah mengaktifkan tautan tiket, ikon tiket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tiket" data-size="line"> muncul di bilah navigasi atas. Klik ikon tersebut untuk langsung menuju formulir pengiriman tiket.
+Jika administrator Anda telah mengaktifkan tautan tiket, ikon tiket <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tiket" data-size="line"> muncul di bilah navigasi atas. Klik ikon tersebut untuk langsung menuju formulir pengiriman tiket.
 
 Anda juga dapat mengakses tiket Anda dari menu utama di bawah **Support** atau **Tickets**, tergantung pada konfigurasi platform Anda.
 

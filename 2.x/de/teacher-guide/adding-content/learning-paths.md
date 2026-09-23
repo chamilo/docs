@@ -16,14 +16,14 @@ Lernpfade sind nützlich, wenn Sie Folgendes möchten:
 
 ## Einen Lernpfad erstellen
 
-1. Öffnen Sie das Werkzeug **Lernpfade** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> auf der Kurs-Startseite
+1. Öffnen Sie das Werkzeug **Lernpfade** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> auf der Kurs-Startseite
 2. Klicken Sie auf **Lernpfad erstellen**
 3. Geben Sie einen **Titel** und eine optionale Beschreibung ein
 4. Speichern Sie – Sie werden zum Lernpfad-Editor weitergeleitet
 
 ## Der Lernpfad-Editor
 
-![Der Lernpfad-Editor mit dem Elementbaum auf der linken Seite und der Inhaltsvorschau auf der rechten Seite](/.gitbook/assets/learning-path-editor.png)
+![Der Lernpfad-Editor mit dem Elementbaum auf der linken Seite und der Inhaltsvorschau auf der rechten Seite](../../.gitbook/assets/learning-path-editor.png)
 
 Der Editor hat zwei Hauptbereiche:
 

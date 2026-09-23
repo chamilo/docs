@@ -13,7 +13,7 @@
 
 Για να επεξεργαστείτε την εισαγωγή:
 
-1. Κάντε κλικ στο κουμπί **Επεξεργασία εισαγωγής** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line">
+1. Κάντε κλικ στο κουμπί **Επεξεργασία εισαγωγής** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line">
 2. Χρησιμοποιήστε τον επεξεργαστή πλούσιου κειμένου για να γράψετε το περιεχόμενό σας
 3. Αποθηκεύστε τις αλλαγές σας
 
@@ -21,7 +21,7 @@
 
 ## Πλέγμα Εργαλείων
 
-![Το πλέγμα εργαλείων της αρχικής σελίδας μαθήματος που δείχνει τα διαθέσιμα εργαλεία μαθήματος με εικονίδια και διακόπτες ορατότητας](/.gitbook/assets/course-homepage-tool-grid.png)
+![Το πλέγμα εργαλείων της αρχικής σελίδας μαθήματος που δείχνει τα διαθέσιμα εργαλεία μαθήματος με εικονίδια και διακόπτες ορατότητας](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Κάτω από την εισαγωγή, τα εργαλεία του μαθήματος εμφανίζονται σε διάταξη πλέγματος. Κάθε εργαλείο εμφανίζεται ως κάρτα με:
 
@@ -32,18 +32,18 @@
 
 | Εργαλείο | Εικονίδιο | Σκοπός |
 |----------|-----------|--------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Προγραμματίστε εκδηλώσεις και προθεσμίες |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Στείλτε μηνύματα στους εγγεγραμμένους μαθητές |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Συλλέξτε και βαθμολογήστε εργασίες μαθητών |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Ανεβάστε και οργανώστε αρχεία και περιεχόμενο |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Δημιουργήστε κουίζ και δοκιμές |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Φιλοξενήστε συζητήσεις |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Ορίστε βασικούς όρους |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Διαχειριστείτε βαθμούς και πιστοποιητικά |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Χτίστε δομημένες ακολουθίες μάθησης |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Μοιραστείτε χρήσιμες διευθύνσεις URL |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | Προβάλετε και διαχειριστείτε εγγεγραμμένους χρήστες |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Δημιουργήστε και διανείμετε έρευνες |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Προγραμματίστε εκδηλώσεις και προθεσμίες |
+| Announcements | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Στείλτε μηνύματα στους εγγεγραμμένους μαθητές |
+| Assignments | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Συλλέξτε και βαθμολογήστε εργασίες μαθητών |
+| Documents | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Ανεβάστε και οργανώστε αρχεία και περιεχόμενο |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Δημιουργήστε κουίζ και δοκιμές |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Φιλοξενήστε συζητήσεις |
+| Glossary | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Ορίστε βασικούς όρους |
+| Assessments | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Διαχειριστείτε βαθμούς και πιστοποιητικά |
+| Learning paths | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Χτίστε δομημένες ακολουθίες μάθησης |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Μοιραστείτε χρήσιμες διευθύνσεις URL |
+| Users | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | Προβάλετε και διαχειριστείτε εγγεγραμμένους χρήστες |
+| Surveys | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Δημιουργήστε και διανείμετε έρευνες |
 
 > Ορισμένα εργαλεία μπορεί να μην εμφανίζονται αν ο διαχειριστής σας τα έχει απενεργοποιήσει σε επίπεδο πλατφόρμας ή αν τα έχετε κρύψει.
 
@@ -65,7 +65,7 @@
 * Χρησιμοποιήστε **Εμφάνιση όλων** ή **Κρύψιμο όλων** για μαζικές αλλαγές
 * Τα κρυφά εργαλεία παραμένουν προσβάσιμα σε εσάς ως δάσκαλος — κρύβονται μόνο από τους μαθητές
 
-![Η αρχική σελίδα μαθήματος όπως την βλέπει ένας μαθητής, με τα κρυφά εργαλεία μη ορατά](/.gitbook/assets/course-homepage-student-view.png)
+![Η αρχική σελίδα μαθήματος όπως την βλέπει ένας μαθητής, με τα κρυφά εργαλεία μη ορατά](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## Λειτουργίες Αυτόματης Εκκίνησης
 

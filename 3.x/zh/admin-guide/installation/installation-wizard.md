@@ -13,7 +13,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 1 步：安装语言
 
-![安装向导第 1 步 — 语言选择](/.gitbook/assets/install-step1-language.png)
+![安装向导第 1 步 — 语言选择](../../.gitbook/assets/install-step1-language.png)
 
 第一步可让您选择安装过程所用的语言。请从下拉列表中选择首选语言。
 
@@ -21,7 +21,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 2 步：要求检查
 
-![安装向导第 2 步 — 要求检查，显示 PHP 版本、扩展和目录权限](/.gitbook/assets/install-step2-requirements.png)
+![安装向导第 2 步 — 要求检查，显示 PHP 版本、扩展和目录权限](../../.gitbook/assets/install-step2-requirements.png)
 
 向导会检查您的服务器环境：
 
@@ -34,7 +34,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 3 步：许可证
 
-![安装向导第 3 步 — 接受许可证](/.gitbook/assets/install-step3-license.png)
+![安装向导第 3 步 — 接受许可证](../../.gitbook/assets/install-step3-license.png)
 
 此步骤显示 GNU/GPLv3 许可证。您必须勾选 **“I accept”** 复选框才能继续。
 
@@ -42,7 +42,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 4 步：数据库设置
 
-![安装向导第 4 步 — 数据库连接配置](/.gitbook/assets/install-step4-database.png)
+![安装向导第 4 步 — 数据库连接配置](../../.gitbook/assets/install-step4-database.png)
 
 输入您的数据库连接详细信息：
 
@@ -58,7 +58,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 5 步：配置设置
 
-![安装向导第 5 步 — 管理员账户、门户设置和电子邮件配置](/.gitbook/assets/install-step5-config.png)
+![安装向导第 5 步 — 管理员账户、门户设置和电子邮件配置](../../.gitbook/assets/install-step5-config.png)
 
 此步骤将管理员账户创建、门户设置和电子邮件配置合并在一起。
 
@@ -95,7 +95,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 6 步：安装前的最后检查
 
-![安装向导第 6 步 — 安装前核对所有设置](/.gitbook/assets/install-step6-review.png)
+![安装向导第 6 步 — 安装前核对所有设置](../../.gitbook/assets/install-step6-review.png)
 
 本步骤会显示您所填写全部信息的摘要，供您核对：
 
@@ -107,7 +107,7 @@ Chamilo 3.0 包含基于 Web 的安装向导，可引导您完成初始设置。
 
 ## 第 7 步：安装完成
 
-![安装向导第 7 步 — 完成页面，含安全建议与门户链接](/.gitbook/assets/install-step7-complete.png)
+![安装向导第 7 步 — 完成页面，含安全建议与门户链接](../../.gitbook/assets/install-step7-complete.png)
 
 安装成功完成后，向导会显示：
 

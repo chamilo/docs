@@ -4,7 +4,7 @@ Chamilo 擁有廣泛的設定系統，將設定組織成類別。下列完整類
 
 從管理面板點擊 **Configuration settings** 來存取平台設定。
 
-![顯示依功能區域組織的設定類別的平台設定頁面](/.gitbook/assets/admin-settings-categories.png)
+![顯示依功能區域組織的設定類別的平台設定頁面](../../.gitbook/assets/admin-settings-categories.png)
 
 ## 所有類別
 

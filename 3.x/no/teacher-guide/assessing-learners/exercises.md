@@ -4,7 +4,7 @@
 
 ## Opprette en øving
 
-1. Åpne verktøyet **Øvinger** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvinger" data-size="line"> fra kursets startside
+1. Åpne verktøyet **Øvinger** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvinger" data-size="line"> fra kursets startside
 2. Klikk **Ny øving**
 3. Angi en **tittel** og eventuelt en **beskrivelse**
 4. Konfigurer øvingsinnstillingene (se nedenfor)
@@ -12,7 +12,7 @@
 
 ## Øvingsinnstillinger
 
-![Panelet for øvingsinnstillinger med valg for visning, tid, forsøk og tilbakemelding](/.gitbook/assets/exercise-settings.png)
+![Panelet for øvingsinnstillinger med valg for visning, tid, forsøk og tilbakemelding](../../.gitbook/assets/exercise-settings.png)
 
 ### Visning og navigasjon
 
@@ -75,7 +75,7 @@ Du kan også konfigurere avanserte utvalgsstrategier som kombinerer kategorier o
 
 ## Spørsmålstyper
 
-![Oversikt over tilgjengelige spørsmålstyper i grensesnittet for oppretting av øvinger](/.gitbook/assets/exercise-question-types.png)
+![Oversikt over tilgjengelige spørsmålstyper i grensesnittet for oppretting av øvinger](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo tilbyr et rikt sett med spørsmålstyper organisert i flere kategorier:
 

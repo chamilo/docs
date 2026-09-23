@@ -19,7 +19,7 @@ Chamilo calcola il voto complessivo di ogni studente in base a questi pesi.
 
 ## Configurazione delle Valutazioni
 
-1. Apri lo strumento **Valutazioni** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Registro delle valutazioni" data-size="line"> dalla homepage del corso
+1. Apri lo strumento **Valutazioni** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Registro delle valutazioni" data-size="line"> dalla homepage del corso
 2. Vedrai una panoramica delle valutazioni, inizialmente vuota
 
 ### Aggiunta di Attività
@@ -48,7 +48,7 @@ Per schemi di valutazione complessi, è possibile creare **sottocategorie** per 
 
 ## Visualizzazione dei Voti
 
-![La tabella panoramica del registro delle valutazioni che mostra i nomi degli studenti, i punteggi delle attività e i totali ponderati](/.gitbook/assets/gradebook-overview.png)
+![La tabella panoramica del registro delle valutazioni che mostra i nomi degli studenti, i punteggi delle attività e i totali ponderati](../../.gitbook/assets/gradebook-overview.png)
 
 La valutazione mostra una tabella con:
 
@@ -75,7 +75,7 @@ Consulta [Certificati e Competenze](../tracking-and-reporting/certificates-and-s
 
 ## Esportazione dei Voti
 
-Fai clic sul pulsante **Esporta** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i voti come foglio di calcolo. Questo è utile per:
+Fai clic sul pulsante **Esporta** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i voti come foglio di calcolo. Questo è utile per:
 
 * Condividere i voti con sistemi amministrativi
 * Eseguire analisi aggiuntive al di fuori di Chamilo

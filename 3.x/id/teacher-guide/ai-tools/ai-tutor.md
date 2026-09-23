@@ -24,7 +24,7 @@ AI Tutor memerlukan dua tingkat konfigurasi:
 
 ## Antarmuka Obrolan
 
-![Antarmuka obrolan AI Tutor yang menampilkan percakapan antara peserta didik dan AI](/.gitbook/assets/ai-tutor-chat.png)
+![Antarmuka obrolan AI Tutor yang menampilkan percakapan antara peserta didik dan AI](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI Tutor muncul sebagai **panel obrolan yang tertambat** di dalam kursus. Peserta didik dapat:
 

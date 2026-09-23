@@ -13,7 +13,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 步骤 1：安装语言
 
-![安装向导步骤 1 — 语言选择](/.gitbook/assets/install-step1-language.png)
+![安装向导步骤 1 — 语言选择](../../.gitbook/assets/install-step1-language.png)
 
 第一步允许您选择安装过程的语言。从下拉菜单中选择您偏好的语言。
 
@@ -21,7 +21,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 步骤 2：要求检查
 
-![安装向导步骤 2 — 要求检查显示 PHP 版本、扩展和目录权限](/.gitbook/assets/install-step2-requirements.png)
+![安装向导步骤 2 — 要求检查显示 PHP 版本、扩展和目录权限](../../.gitbook/assets/install-step2-requirements.png)
 
 向导会检查您的服务器环境：
 
@@ -34,7 +34,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 步骤 3：许可证
 
-![安装向导步骤 3 — 许可证接受](/.gitbook/assets/install-step3-license.png)
+![安装向导步骤 3 — 许可证接受](../../.gitbook/assets/install-step3-license.png)
 
 此步骤显示 GNU/GPLv3 许可证。您必须勾选 **"我接受"** 复选框才能继续。
 
@@ -42,7 +42,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 步骤 4：数据库设置
 
-![安装向导步骤 4 — 数据库连接配置](/.gitbook/assets/install-step4-database.png)
+![安装向导步骤 4 — 数据库连接配置](../../.gitbook/assets/install-step4-database.png)
 
 输入您的数据库连接详细信息：
 
@@ -58,7 +58,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 步骤 5：配置设置
 
-![安装向导步骤 5 — 管理员账户、门户设置和电子邮件配置](/.gitbook/assets/install-step5-config.png)
+![安装向导步骤 5 — 管理员账户、门户设置和电子邮件配置](../../.gitbook/assets/install-step5-config.png)
 
 此步骤包括管理员账户创建、门户设置和电子邮件配置。
 
@@ -95,7 +95,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 第6步：安装前的最后检查
 
-![安装向导第6步 — 安装前审查所有设置](/.gitbook/assets/install-step6-review.png)
+![安装向导第6步 — 安装前审查所有设置](../../.gitbook/assets/install-step6-review.png)
 
 此步骤显示您输入的所有内容的摘要，供您审查：
 
@@ -107,7 +107,7 @@ Chamilo 2.0 包含一个基于网页的安装向导，指导您完成初始设�
 
 ## 第7步：安装完成
 
-![安装向导第7步 — 完成并提供安全建议和门户链接](/.gitbook/assets/install-step7-complete.png)
+![安装向导第7步 — 完成并提供安全建议和门户链接](../../.gitbook/assets/install-step7-complete.png)
 
 安装成功完成后，向导将显示：
 

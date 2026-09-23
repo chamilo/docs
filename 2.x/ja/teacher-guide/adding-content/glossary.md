@@ -4,23 +4,23 @@
 
 ## 用語の追加
 
-1. コースのホームページで**用語集**ツール <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> を開く
+1. コースのホームページで**用語集**ツール <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> を開く
 2. **用語集に新しい用語を追加**をクリックする
 3. **用語**とその**定義**を入力する（定義はリッチテキスト形式をサポートしています）
 4. 保存する
 
 ## 用語の管理
 
-* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — 用語またはその定義を更新する
-* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — 用語集から用語を削除する
-* **検索** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="検索" data-size="line"> — 検索機能を使用して特定の用語をすばやく見つける
+* **編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — 用語またはその定義を更新する
+* **削除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — 用語集から用語を削除する
+* **検索** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="検索" data-size="line"> — 検索機能を使用して特定の用語をすばやく見つける
 
 ## インポートとエクスポート
 
 インポート/エクスポートを使用して、用語集をより迅速に構築することができます：
 
-* **インポート** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="インポート" data-size="line"> — CSVまたはXLSファイルから用語と定義のリストをアップロードします。既存の用語を更新するために「既存の用語を更新する」をマークすることもできます。
-* **エクスポート** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="エクスポート" data-size="line"> — 用語集をCSV、Excel（XLS）、またはPDFとしてダウンロードし、別のコースで使用したり、オフラインで参照したりすることができます
+* **インポート** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="インポート" data-size="line"> — CSVまたはXLSファイルから用語と定義のリストをアップロードします。既存の用語を更新するために「既存の用語を更新する」をマークすることもできます。
+* **エクスポート** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="エクスポート" data-size="line"> — 用語集をCSV、Excel（XLS）、またはPDFとしてダウンロードし、別のコースで使用したり、オフラインで参照したりすることができます
 
 ## 表示オプション
 

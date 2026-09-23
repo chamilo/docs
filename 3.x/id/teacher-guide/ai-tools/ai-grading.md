@@ -9,11 +9,11 @@ Penilaian AI tersedia dalam dua konteks:
 * **Soal latihan terbuka** — Ketika Anda menilai secara manual soal jawaban bebas dalam suatu latihan
 * **Kiriman tugas** — Ketika Anda meninjau dan menilai publikasi siswa di alat Assignments
 
-Cari tombol **Penilaian AI** (ditandai dengan ikon robot <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) pada antarmuka penilaian.
+Cari tombol **Penilaian AI** (ditandai dengan ikon robot <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) pada antarmuka penilaian.
 
 ## Cara Kerjanya
 
-![Antarmuka penilaian AI yang menampilkan kiriman siswa beserta saran skor dan umpan balik](/.gitbook/assets/ai-grading-interface.png)
+![Antarmuka penilaian AI yang menampilkan kiriman siswa beserta saran skor dan umpan balik](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Buka kiriman atau jawaban yang perlu dinilai
 2. Klik tombol **Penilaian AI**

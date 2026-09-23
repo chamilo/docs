@@ -4,9 +4,9 @@ Ein **Lernpfad** führt Sie durch eine strukturierte Abfolge von Aktivitäten �
 
 ## Einen Lernpfad öffnen
 
-Öffnen Sie das Werkzeug **Lernpfade** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> auf der Kursstartseite und klicken Sie auf einen Eintrag, um zu starten. Wenn Ihre Lehrkraft **Auto-Launch** aktiviert hat, kann sich der Lernpfad automatisch öffnen, sobald Sie den Kurs betreten.
+Öffnen Sie das Werkzeug **Lernpfade** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> auf der Kursstartseite und klicken Sie auf einen Eintrag, um zu starten. Wenn Ihre Lehrkraft **Auto-Launch** aktiviert hat, kann sich der Lernpfad automatisch öffnen, sobald Sie den Kurs betreten.
 
-![Die Liste der Lernpfade eines Kurses, jeweils mit eigenem Fortschritt](/.gitbook/assets/student-learning-paths-list.png)
+![Die Liste der Lernpfade eines Kurses, jeweils mit eigenem Fortschritt](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Durch den Pfad navigieren
 

@@ -16,14 +16,14 @@ Las rutas de aprendizaje son útiles cuando deseas:
 
 ## Crear una Ruta de Aprendizaje
 
-1. Abre la herramienta **Rutas de aprendizaje** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Rutas de aprendizaje" data-size="line"> desde la página principal del curso
+1. Abre la herramienta **Rutas de aprendizaje** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Rutas de aprendizaje" data-size="line"> desde la página principal del curso
 2. Haz clic en **Crear una ruta de aprendizaje**
 3. Ingresa un **título** y una descripción opcional
 4. Guarda — serás dirigido al editor de rutas de aprendizaje
 
 ## El Editor de Rutas de Aprendizaje
 
-![El editor de rutas de aprendizaje con el árbol de elementos a la izquierda y la vista previa del contenido a la derecha](/.gitbook/assets/learning-path-editor.png)
+![El editor de rutas de aprendizaje con el árbol de elementos a la izquierda y la vista previa del contenido a la derecha](../../.gitbook/assets/learning-path-editor.png)
 
 El editor tiene dos áreas principales:
 

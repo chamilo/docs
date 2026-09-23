@@ -4,9 +4,9 @@ Vissa kurser innehåller ett **Chat**-verktyg — textmeddelanden i realtid kopp
 
 ## Skicka meddelanden
 
-Öppna **Chat**-verktyget <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chatt" data-size="line"> från kursens startsida. Du ser en lista **Users** med alla som för närvarande är online i kursen, var och en med en egen **Chat**-knapp, plus en flik **All** för hela gruppen:
+Öppna **Chat**-verktyget <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chatt" data-size="line"> från kursens startsida. Du ser en lista **Users** med alla som för närvarande är online i kursen, var och en med en egen **Chat**-knapp, plus en flik **All** för hela gruppen:
 
-![Kursens Chat-verktyg, som visar listan över onlineanvändare och en meddelanderuta](/.gitbook/assets/student-course-chat.png)
+![Kursens Chat-verktyg, som visar listan över onlineanvändare och en meddelanderuta](../../.gitbook/assets/student-course-chat.png)
 
 Välj en person (eller **All**) och skriv ditt meddelande i rutan längst ned. Tryck på **Enter** för att skicka, eller **Shift+Enter** för att börja på en ny rad utan att skicka. Ett alternativ **Preview** låter dig kontrollera formateringen innan du skickar, och **Reset** rensar det du har skrivit.
 

@@ -4,9 +4,9 @@ A **learning path** guides you through a structured sequence of activities — d
 
 ## Opening a Learning Path
 
-Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage and click on one to start. If your teacher enabled **auto-launch**, the learning path may open automatically as soon as you enter the course.
+Open the **Learning paths** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage and click on one to start. If your teacher enabled **auto-launch**, the learning path may open automatically as soon as you enter the course.
 
-![The learning paths list for a course, each showing its own progress](/.gitbook/assets/student-learning-paths-list.png)
+![The learning paths list for a course, each showing its own progress](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Moving Through the Path
 

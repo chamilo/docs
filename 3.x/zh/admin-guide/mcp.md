@@ -39,7 +39,7 @@ MCP（Model Context Protocol）是一项开放标准，允许 AI 客户端调用
 
 每位用户可在 **社交网络** > **MCP API 密钥** 下生成自己的密钥：
 
-![MCP API 密钥页面，显示未激活的密钥、“生成 API 密钥”按钮，以及包含端点 URL 与 Authorization 请求头格式的远程 MCP 连接区块](/.gitbook/assets/admin-mcp-api-key.png)
+![MCP API 密钥页面，显示未激活的密钥、“生成 API 密钥”按钮，以及包含端点 URL 与 Authorization 请求头格式的远程 MCP 连接区块](../.gitbook/assets/admin-mcp-api-key.png)
 
 * 点击 **生成 API 密钥** 会创建密钥并仅显示一次——此后 Chamilo 只保存掩码版本，因此必须立即复制完整密钥并妥善保存。
 * 生成新密钥会立即吊销前一个密钥。

@@ -1,6 +1,6 @@
 # Elevuppföljning
 
-Elevuppföljning <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Elevuppföljning" data-size="line"> låter dig spara tidsstämplade, taggade anteckningar om en lärandes framsteg och svårigheter — ett lättviktigt system för ärendeanteckningar för att följa hur en elev utvecklas över tid.
+Elevuppföljning <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Elevuppföljning" data-size="line"> låter dig spara tidsstämplade, taggade anteckningar om en lärandes framsteg och svårigheter — ett lättviktigt system för ärendeanteckningar för att följa hur en elev utvecklas över tid.
 
 ## Åtkomst till verktyget
 

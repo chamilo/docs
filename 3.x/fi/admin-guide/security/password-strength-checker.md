@@ -8,7 +8,7 @@ Hallintapaneelista valitse **Turvallisuus > Salasanan vahvuuden tarkistin**.
 
 ## Tarkistuksen suorittaminen
 
-![Salasanan vahvuuden tarkistimen sivu, jossa on kenttä tarkistettaville käyttäjä-ID:ille ja painike tarkistuksen suorittamiseen](/.gitbook/assets/admin-security-password-strength.png)
+![Salasanan vahvuuden tarkistimen sivu, jossa on kenttä tarkistettaville käyttäjä-ID:ille ja painike tarkistuksen suorittamiseen](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Jätä **Tarkistettavat käyttäjä-ID:t** tyhjäksi, jos haluat tarkistaa kaikki aktiiviset käyttäjät, tai syötä pilkuilla erotettu luettelo käyttäjä-ID:istä osajoukon tarkistamiseksi
 * Valitse **Suorita salasanan vahvuustarkistus**
@@ -17,7 +17,7 @@ Tarkistus suoritetaan asynkronisesti taustalla, jotta sivu ei jumitu, ja se näy
 
 ## Toimenpiteet tulosten perusteella
 
-![Valmiit tarkistustulokset, joissa luetellaan merkitty käyttäjä sarakkeilla Nimi, Käyttäjätunnus ja Sähköposti sekä rivi-kohtaiset toiminnot salasanan vaihdon pyytämiseen tai salasanan nollauksen pakottamiseen](/.gitbook/assets/admin-security-password-strength-results.png)
+![Valmiit tarkistustulokset, joissa luetellaan merkitty käyttäjä sarakkeilla Nimi, Käyttäjätunnus ja Sähköposti sekä rivi-kohtaiset toiminnot salasanan vaihdon pyytämiseen tai salasanan nollauksen pakottamiseen](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Kun tarkistus on valmis, merkityt käyttäjät luetellaan kahdella käytettävissä olevalla toiminnolla, joko käyttäjäkohtaisesti tai joukkotoimintona kaikille valituille käyttäjille:
 

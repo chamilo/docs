@@ -1,6 +1,6 @@
 # Teacher Notes
 
-Teacher Notes <img src="/.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Teacher Notes" data-size="line"> gives your course's teaching team a private notebook for jotting notes about specific learners — progress observations, reminders, anything you'd rather not put in a public tool. Students never see this tool or its contents.
+Teacher Notes <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" alt="Teacher Notes" data-size="line"> gives your course's teaching team a private notebook for jotting notes about specific learners — progress observations, reminders, anything you'd rather not put in a public tool. Students never see this tool or its contents.
 
 > Not to be confused with the [Notebook](../additional-tools/notebook.md) tool — that one is a personal notebook for learners; Teacher Notes is a separate, teacher-only tool.
 

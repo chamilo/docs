@@ -4,7 +4,7 @@ A ferramenta **Trabalhos** (por vezes designada "publicações dos estudantes" o
 
 ## Submeter o Seu Trabalho
 
-Abra a ferramenta **Trabalhos** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> a partir da página inicial do curso e, em seguida, abra o trabalho específico. Leia a descrição com atenção — contém as instruções do seu professor sobre o que submeter e como será avaliado. Depois:
+Abra a ferramenta **Trabalhos** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> a partir da página inicial do curso e, em seguida, abra o trabalho específico. Leia a descrição com atenção — contém as instruções do seu professor sobre o que submeter e como será avaliado. Depois:
 
 1. Clique em **Upload file** (ou no botão de submissão)
 2. Consoante a forma como o seu professor configurou o trabalho, selecione um ficheiro do seu computador, escreva a submissão como texto diretamente, ou ambos

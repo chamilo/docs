@@ -21,11 +21,11 @@ Funktionen är tillgänglig överallt där du har den fullständiga rika textred
 1. Skriv (eller klistra in) innehållet på ditt standardspråk, som vanligt.
 2. Markera den texten och klicka sedan på knappen **Lang ISO** i redigerarens verktygsfält.
 
-![Den rika textredigerarens verktygsfält, med knappen "Lang ISO" synlig nära början](/.gitbook/assets/teacher-multilang-editor.png)
+![Den rika textredigerarens verktygsfält, med knappen "Lang ISO" synlig nära början](../../.gitbook/assets/teacher-multilang-editor.png)
 
 3. Välj i menyn det språk du just skrev på — listan täcker varje språk som din plattform har aktivt. Om det du behöver inte finns med, använd **Custom Chamilo ISO code...** längst ned och skriv in det (t.ex. `en_US`, `fr_FR`, `es`).
 
-![Menyn "Lang ISO" öppen, med varje aktivt plattformsspråk plus "Add translation to..." och ett alternativ för anpassad kod](/.gitbook/assets/teacher-multilang-lang-menu.png)
+![Menyn "Lang ISO" öppen, med varje aktivt plattformsspråk plus "Add translation to..." och ett alternativ för anpassad kod](../../.gitbook/assets/teacher-multilang-lang-menu.png)
 
 4. Chamilo omsluter din markering med den språktaggen. Skriv (eller klistra in) nästa språks version direkt efter, markera den och upprepa med ett annat språk.
 
@@ -43,17 +43,17 @@ Varje deltagare ser exakt en språkversion: Chamilo försöker först med deras 
 
 Här är samma kursbeskrivningssektion, som den ses av tre deltagare med olika gränssnittsspråk — inget annat i kursen ändrades mellan dessa tre skärmbilder, endast visningens eget språk:
 
-![Samma kursbeskrivningssektion som den ses av en deltagare med engelska som gränssnittsspråk](/.gitbook/assets/teacher-multilang-en.png)
+![Samma kursbeskrivningssektion som den ses av en deltagare med engelska som gränssnittsspråk](../../.gitbook/assets/teacher-multilang-en.png)
 
-![Samma sektion som den ses av en deltagare med franska som gränssnittsspråk](/.gitbook/assets/teacher-multilang-fr.png)
+![Samma sektion som den ses av en deltagare med franska som gränssnittsspråk](../../.gitbook/assets/teacher-multilang-fr.png)
 
-![Samma sektion som den ses av en deltagare med spanska som gränssnittsspråk](/.gitbook/assets/teacher-multilang-es.png)
+![Samma sektion som den ses av en deltagare med spanska som gränssnittsspråk](../../.gitbook/assets/teacher-multilang-es.png)
 
 ### Under the Hood
 
 Om du någon gång öppnar **Källkod**-vyn för ett flerspråkigt fält (knappen `<>` i redigerarens verktygsfält) ser du att varje språkversion är innesluten så här:
 
-![Källkodsvyn, som visar ett block som öppnas med lang="en_US" class="mce-translatehtml"](/.gitbook/assets/teacher-multilang-source-view.png)
+![Källkodsvyn, som visar ett block som öppnas med lang="en_US" class="mce-translatehtml"](../../.gitbook/assets/teacher-multilang-source-view.png)
 
 Varje version är innesluten i en `<div class="mce-translatehtml" lang="...">` (eller `<span>`, för en kort infogad fras i stället för ett helt block) — det är `lang`-attributet som Chamilo matchar mot visningsanvändarens språk för att avgöra vad som ska visas. Det är värt att känna igen just det här klassnamnet om du någonsin granskar sidkällan eller felsöker innehåll som ser fel ut: **`mce-translatehtml`** är markören att leta efter.
 

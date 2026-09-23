@@ -6,8 +6,8 @@
 
 ## 创建公告
 
-1. 从课程主页打开 **公告** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line"> 工具
-2. 再次点击 **添加公告** 图标 <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line">
+1. 从课程主页打开 **公告** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line"> 工具
+2. 再次点击 **添加公告** 图标 <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="公告" data-size="line">
 3. 填写：
    * **收件人** — 选择谁将收到该公告：
      * 所有已注册学员
@@ -25,9 +25,9 @@
 
 ## 管理公告
 
-* **编辑** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 修改现有公告
-* **删除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 移除公告
-* **可见性** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 隐藏或显示公告
+* **编辑** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="编辑" data-size="line"> — 修改现有公告
+* **删除** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="删除" data-size="line"> — 移除公告
+* **可见性** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="可见性" data-size="line"> — 隐藏或显示公告
 
 公告按时间倒序显示（最新的在前）。
 

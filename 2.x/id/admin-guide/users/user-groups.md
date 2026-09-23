@@ -6,7 +6,7 @@ Kelas di panel administrasi adalah grup seluruh platform yang digunakan untuk me
 
 ## Membuat Grup
 
-![Daftar grup pengguna yang menampilkan grup yang tersedia dengan nama, deskripsi, dan jumlah anggota](/.gitbook/assets/admin-user-groups-list.png)
+![Daftar grup pengguna yang menampilkan grup yang tersedia dengan nama, deskripsi, dan jumlah anggota](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Dari panel administrasi, navigasikan ke **Kelas**
 2. Klik **Tambah kelas**

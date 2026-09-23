@@ -2,7 +2,7 @@
 
 ## 建立課程期別
 
-![課程期別建立表單，包含名稱、日期、導師、類別與可見性等欄位](/.gitbook/assets/admin-session-create-form.png)
+![課程期別建立表單，包含名稱、日期、導師、類別與可見性等欄位](../../.gitbook/assets/admin-session-create-form.png)
 
 1. 從管理面板點選 **建立課程期別**
 2. 填寫課程期別詳細資料：
@@ -30,7 +30,7 @@
 
 ## 課程期別列表
 
-![課程期別列表，顯示所有課程期別的名稱、日期、課程數量、學員數量與狀態](/.gitbook/assets/admin-session-list.png)
+![課程期別列表，顯示所有課程期別的名稱、日期、課程數量、學員數量與狀態](../../.gitbook/assets/admin-session-list.png)
 
 課程期別列表會顯示所有課程期別，包含：
 
@@ -52,7 +52,7 @@
 
 ## 註冊使用者
 
-![課程期別註冊介面，用於新增個別使用者、班級，或透過 CSV 匯入](/.gitbook/assets/admin-session-enrollment.png)
+![課程期別註冊介面，用於新增個別使用者、班級，或透過 CSV 匯入](../../.gitbook/assets/admin-session-enrollment.png)
 
 您可以透過下列方式將使用者註冊至課程期別：
 

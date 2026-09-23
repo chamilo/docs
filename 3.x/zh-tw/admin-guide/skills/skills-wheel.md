@@ -6,7 +6,7 @@
 
 在管理面板中，點選 **Skills > Skills wheel**。
 
-![技能輪盤頁面，顯示搜尋側邊欄、圖例，以及以分段輪盤呈現的完整技能樹](/.gitbook/assets/admin-skills-wheel.png)
+![技能輪盤頁面，顯示搜尋側邊欄、圖例，以及以分段輪盤呈現的完整技能樹](../../.gitbook/assets/admin-skills-wheel.png)
 
 ## 顯示內容
 
@@ -14,10 +14,10 @@
 
 點選區段可放大並顯示其子技能；點選中心圓圈可縮小返回。
 
-![輪盤放大至「Idiomas」分支，顯示其語言子技能](/.gitbook/assets/admin-skills-wheel-zoom.png)
+![輪盤放大至「Idiomas」分支，顯示其語言子技能](../../.gitbook/assets/admin-skills-wheel-zoom.png)
 
 對區段按右鍵可開啟其詳細資料：說明、父技能，以及（若有）授予該技能的課程。管理員也可從此對話方塊編輯技能、在其下建立子技能，或將其加入下文所述的個人檔案搜尋。
 
-![「Conflict Management」的技能詳細資料對話方塊，顯示其說明以及「編輯」、「建立子技能」與「將技能加入搜尋個人檔案」動作](/.gitbook/assets/admin-skills-wheel-detail.png)
+![「Conflict Management」的技能詳細資料對話方塊，顯示其說明以及「編輯」、「建立子技能」與「將技能加入搜尋個人檔案」動作](../../.gitbook/assets/admin-skills-wheel-detail.png)
 
 管理員與人力資源經理使用者在此還可使用個人檔案搜尋：技能可組成「個人檔案」（針對特定角色或職務說明所預期的技能集合），本頁可讓您搜尋已取得技能符合特定個人檔案的使用者——有助於找出誰已準備好擔任某角色，或團隊中的能力缺口在哪裡。

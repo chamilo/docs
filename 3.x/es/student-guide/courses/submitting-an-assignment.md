@@ -4,7 +4,7 @@ La herramienta **Tareas** (a veces llamada «publicaciones de estudiantes» o «
 
 ## Entregar su trabajo
 
-Abra la herramienta **Tareas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tareas" data-size="line"> desde la página de inicio del curso y, a continuación, abra la tarea concreta. Lea atentamente la descripción: contiene las instrucciones de su profesor sobre qué entregar y cómo se evaluará. Después:
+Abra la herramienta **Tareas** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tareas" data-size="line"> desde la página de inicio del curso y, a continuación, abra la tarea concreta. Lea atentamente la descripción: contiene las instrucciones de su profesor sobre qué entregar y cómo se evaluará. Después:
 
 1. Haga clic en **Upload file** (o en el botón de entrega)
 2. Según cómo haya configurado la tarea su profesor, seleccione un archivo de su ordenador, redacte la entrega como texto directamente, o ambas cosas

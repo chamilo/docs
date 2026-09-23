@@ -10,7 +10,7 @@ Chamilo には、アプリケーション内の軽量な侵入検知システム
 
 ## 表示内容
 
-![日別イベント、種類別イベント、攻撃元 IP 上位のチャートと、日付、IP、検知種別、パラメータ、URI、詳細を含むフラグ付き IDS イベントの表を示す Simple IDS ページ](/.gitbook/assets/admin-security-simple-ids.png)
+![日別イベント、種類別イベント、攻撃元 IP 上位のチャートと、日付、IP、検知種別、パラメータ、URI、詳細を含むフラグ付き IDS イベントの表を示す Simple IDS ページ](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Events by day (last 7 days)**、**Events by type (last 30 days)**、および **Top attacking IPs (last 30 days)** — サマリーチャート
 * **Flagged IDS events table** — 各エントリには、日付、送信元 IP、検知種別（例: `XSS`）、対象パラメータ、リクエスト URI、および検知内容の短い説明が表示されます

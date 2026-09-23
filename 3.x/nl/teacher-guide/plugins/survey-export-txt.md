@@ -1,6 +1,6 @@
 # Enquête-export TXT
 
-Enquête-export TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Enquête-export TXT" data-size="line"> exporteert de resultaten van een enquête naar een leesbaar platte-tekstbestand — één blok per respondent, met per vraag het gekozen antwoord (of de gekozen antwoorden) en eventuele vrije-tekstantwoorden, in plaats van de rijen en kolommen van een CSV.
+Enquête-export TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Enquête-export TXT" data-size="line"> exporteert de resultaten van een enquête naar een leesbaar platte-tekstbestand — één blok per respondent, met per vraag het gekozen antwoord (of de gekozen antwoorden) en eventuele vrije-tekstantwoorden, in plaats van de rijen en kolommen van een CSV.
 
 ## Een enquête exporteren
 

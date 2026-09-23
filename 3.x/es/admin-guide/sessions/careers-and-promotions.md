@@ -4,7 +4,7 @@ Chamilo incluye un sistema de gestión de carreras que permite definir itinerari
 
 ## Carreras
 
-![La lista de carreras que muestra los itinerarios definidos con nombre y descripción](/.gitbook/assets/admin-careers-list.png)
+![La lista de carreras que muestra los itinerarios definidos con nombre y descripción](../../.gitbook/assets/admin-careers-list.png)
 
 Una **carrera** representa un itinerario formativo estructurado: una secuencia de etapas de formación que el alumnado sigue para alcanzar un objetivo profesional.
 

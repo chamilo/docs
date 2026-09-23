@@ -2,7 +2,7 @@
 
 ## Toegang tot de Pluginbeheerder
 
-![De pluginbeheerder toont een lijst met beschikbare plugins met activeringsknoppen en configuratie-opties](/.gitbook/assets/admin-plugin-manager.png)
+![De pluginbeheerder toont een lijst met beschikbare plugins met activeringsknoppen en configuratie-opties](../../.gitbook/assets/admin-plugin-manager.png)
 
 Klik vanuit het beheerderspaneel op **Plugins beheren** om de lijst met beschikbare plugins te bekijken.
 

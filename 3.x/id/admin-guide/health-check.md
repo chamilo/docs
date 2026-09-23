@@ -2,7 +2,7 @@
 
 Health Check adalah blok kecil pada dasbor administrasi yang menjalankan sejumlah pemeriksaan langsung pada instalasi Anda dan menandai apa pun yang memerlukan perhatian — tanpa perlu menelusuri berkas konfigurasi untuk menemukan kesalahan konfigurasi yang umum.
 
-![Blok Health check pada dasbor administrasi, menampilkan status lulus/gagal untuk pengaturan e-mail, penugasan URL admin, dan pemeriksaan izin berkas](/.gitbook/assets/admin-health-check-block.png)
+![Blok Health check pada dasbor administrasi, menampilkan status lulus/gagal untuk pengaturan e-mail, penugasan URL admin, dan pemeriksaan izin berkas](../.gitbook/assets/admin-health-check-block.png)
 
 ## Mengakses Health Check
 

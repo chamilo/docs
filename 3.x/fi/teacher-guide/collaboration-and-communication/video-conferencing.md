@@ -6,7 +6,7 @@ Chamilo integroituu videoneuvottelualustoihin, jotta voit pitää live-istuntoja
 
 ## Videoistunnon aloittaminen
 
-1. Avaa **Videoneuvottelu**-työkalu <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> kurssin etusivulta (tai sivupalkista)
+1. Avaa **Videoneuvottelu**-työkalu <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> kurssin etusivulta (tai sivupalkista)
 2. Napsauta **Aloita kokous** (tai vastaavaa painiketta riippuen määritetystä alustasta)
 3. Uusi videoneuvotteluhuone avautuu uuteen selainvälilehteen
 

@@ -14,7 +14,7 @@ Hvis din institution bruger ekstern autentificering (f.eks. Azure, Keycloak elle
 
 Når du er logget ind, ser du Chamilo-startsiden. Grænsefladen er opdelt i tre hovedområder:
 
-![Chamilo-startsiden med systemmeddelelser og kursuskort](/.gitbook/assets/home-page-teacher.png)
+![Chamilo-startsiden med systemmeddelelser og kursuskort](../../.gitbook/assets/home-page-teacher.png)
 
 * **Topbjælke** — Viser platformens logo, din indbakke (med et badge, der viser ulæste beskeder) og dit brugeravatar. Klik på dit avatar for at få adgang til din profil og kontoindstillinger.
 * **Sidebjælke** — Det venstre navigationspanel giver hurtig adgang til dine kurser, sessioner, agenda, sociale netværk og mere. Du kan folde den sammen ved at klikke på knappen i kanten.
@@ -24,7 +24,7 @@ Når du er logget ind, ser du Chamilo-startsiden. Grænsefladen er opdelt i tre 
 
 Klik på **Mine kurser** i sidebjælken for at se alle de kurser, du er tilmeldt som underviser eller studerende. Hvert kursus vises som et kort, der viser:
 
-![Siden Mine kurser med kursuskort med miniaturebilleder og hurtigadgangshandlinger](/.gitbook/assets/my-courses-list.png)
+![Siden Mine kurser med kursuskort med miniaturebilleder og hurtigadgangshandlinger](../../.gitbook/assets/my-courses-list.png)
 
 * Kursusbilledet eller miniaturebilledet
 * Kursets titel

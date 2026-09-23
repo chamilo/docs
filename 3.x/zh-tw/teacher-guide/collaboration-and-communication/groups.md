@@ -14,7 +14,7 @@
 
 ## 群組工具
 
-![群組總覽，顯示可用的群組工具與成員人數](/.gitbook/assets/groups-overview.png)
+![群組總覽，顯示可用的群組工具與成員人數](../../.gitbook/assets/groups-overview.png)
 
 每個群組可使用僅供該組成員共用的部分課程工具：
 

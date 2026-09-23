@@ -30,13 +30,13 @@ Chamilo 允许您向达到特定成就标准的学习者颁发证书，并验证
 
 如果该类别未配置有效期，您仍可手动设置（或更改）个别学习者的过期日期：点击其条目旁的铅笔**编辑过期日期**按钮并选择日期。仅当类别本身没有有效期时该按钮才可用——一旦设置了有效期，过期日期将自动管理，无法再逐份编辑。
 
-![显示三位学习者过期日期列的证书列表](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![显示三位学习者过期日期列的证书列表](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### 提醒学习者即将过期或已过期
 
-打开评估的**证书**列表，点击**即将过期的证书** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="即将过期的证书" data-size="line"> 按钮，查看哪些学习者的证书已过期或即将过期。页面按学习者显示：证书的**过期日期**、其**状态**（**已过期**或**即将过期**），以及关于该证书的**上次发送提醒**时间（或**从未**）。使用**提前天数**可扩大或缩小“即将过期”所覆盖的未来时间范围。
+打开评估的**证书**列表，点击**即将过期的证书** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="即将过期的证书" data-size="line"> 按钮，查看哪些学习者的证书已过期或即将过期。页面按学习者显示：证书的**过期日期**、其**状态**（**已过期**或**即将过期**），以及关于该证书的**上次发送提醒**时间（或**从未**）。使用**提前天数**可扩大或缩小“即将过期”所覆盖的未来时间范围。
 
-![列出一份已过期和一份即将过期证书的即将过期证书页面](/.gitbook/assets/gradebook-certificate-expirations.png)
+![列出一份已过期和一份即将过期证书的即将过期证书页面](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 要自行通知学习者：
 
@@ -45,7 +45,7 @@ Chamilo 允许您向达到特定成就标准的学习者颁发证书，并验证
 3. 预览将要发送的电子邮件——根据所选学习者分别属于哪种情况，会分别显示“即将过期”和“已过期”措辞的预览
 4. 在对话框中再次点击**发送通知**以确认
 
-![预览即将过期与已过期电子邮件措辞的发送通知确认对话框](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![预览即将过期与已过期电子邮件措辞的发送通知确认对话框](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 每位学习者会以其自身配置的语言收到通知，同时通过电子邮件和 Chamilo 站内消息发送。对同一证书和同一过期日期再次发送是安全的——Chamilo 会跟踪每份证书已发送的内容，除非您明确重新发送，否则不会向学习者重复发送提醒。
 

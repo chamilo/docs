@@ -2,7 +2,7 @@
 
 O bloco **Rooms** no painel de administração gere as localizações físicas que o Chamilo pode acompanhar para formação presencial ou híbrida: filiais (sítios), as salas no seu interior e uma ferramenta para descobrir quais salas estão livres num determinado momento.
 
-![O bloco Rooms no painel de administração, com a listagem de Filiais, Salas e o localizador de disponibilidade de salas](/.gitbook/assets/admin-rooms-block.png)
+![O bloco Rooms no painel de administração, com a listagem de Filiais, Salas e o localizador de disponibilidade de salas](../../.gitbook/assets/admin-rooms-block.png)
 
 Este capítulo aborda a gestão de filiais e salas no lado da administração. Para o lado do professor — atribuir uma sala a uma sessão de curso — consulte [Filiais e Salas](../../teacher-guide/branches-and-rooms.md) no Guia do Professor.
 

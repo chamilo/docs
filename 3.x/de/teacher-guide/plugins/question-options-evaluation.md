@@ -1,6 +1,6 @@
 # Bewertung der Fragenoptionen
 
-Bewertung der Fragenoptionen <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Bewertung der Fragenoptionen" data-size="line"> ermöglicht es Ihnen, eine Formel mit negativer Bewertung (Abzug) auf die Punktzahl eines Tests anzuwenden, anstatt das Standardverhalten von Chamilo zu nutzen, bei dem lediglich die richtigen Antworten addiert werden.
+Bewertung der Fragenoptionen <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Bewertung der Fragenoptionen" data-size="line"> ermöglicht es Ihnen, eine Formel mit negativer Bewertung (Abzug) auf die Punktzahl eines Tests anzuwenden, anstatt das Standardverhalten von Chamilo zu nutzen, bei dem lediglich die richtigen Antworten addiert werden.
 
 ## Eine Formel festlegen
 

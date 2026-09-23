@@ -14,7 +14,7 @@ Grupper lar deg dele inn lærerne dine i mindre team for samarbeid. Hver gruppe 
 
 ## Gruppeverktøy
 
-![Oversikten over grupper som viser tilgjengelige gruppeverktøy og antall medlemmer](/.gitbook/assets/groups-overview.png)
+![Oversikten over grupper som viser tilgjengelige gruppeverktøy og antall medlemmer](../../.gitbook/assets/groups-overview.png)
 
 Hver gruppe kan ha tilgang til et utvalg av kursverktøy som bare deles blant gruppemedlemmene:
 

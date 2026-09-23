@@ -16,14 +16,14 @@ Læringsstier er nyttige når du vil:
 
 ## Opprette en læringssti
 
-1. Åpne verktøyet **Læringsstier** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> fra kursets hjemmeside
+1. Åpne verktøyet **Læringsstier** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Læringsstier" data-size="line"> fra kursets hjemmeside
 2. Klikk **Opprett en læringssti**
 3. Angi en **tittel** og valgfri beskrivelse
 4. Lagre — du blir tatt til redigeringsverktøyet for læringsstier
 
 ## Redigeringsverktøyet for læringsstier
 
-![Redigeringsverktøyet for læringsstier med elementtreet til venstre og forhåndsvisning av innhold til høyre](/.gitbook/assets/learning-path-editor.png)
+![Redigeringsverktøyet for læringsstier med elementtreet til venstre og forhåndsvisning av innhold til høyre](../../.gitbook/assets/learning-path-editor.png)
 
 Redigeringsverktøyet har to hovedområder:
 
@@ -94,17 +94,17 @@ C-Studio legger til en innebygd, dra-og-slipp visuell redigerer for å opprette 
 
 Når plugin-modulen er aktiv, viser listen over læringsstier en ekstra knapp ved siden av den vanlige handlingsmenyen, merket med et «+» og verktøytipset «Studio Tools»:
 
-![Listen over læringsstier som viser C-Studio-knappen «Studio Tools» ved siden av den vanlige handlingsmenyen](/.gitbook/assets/cstudio-lp-button.png)
+![Listen over læringsstier som viser C-Studio-knappen «Studio Tools» ved siden av den vanlige handlingsmenyen](../../.gitbook/assets/cstudio-lp-button.png)
 
 Klikk på den for å starte. Du blir bedt om å opprette et nytt prosjekt fra bunnen av eller importere et eksisterende:
 
-![Startskjermen i C-Studio som tilbyr å opprette et nytt prosjekt eller importere et eksisterende](/.gitbook/assets/cstudio-start-screen.png)
+![Startskjermen i C-Studio som tilbyr å opprette et nytt prosjekt eller importere et eksisterende](../../.gitbook/assets/cstudio-start-screen.png)
 
 Denne skjermen er for øyeblikket bare tilgjengelig på fransk, uavhengig av plattform- eller kursspråket ditt — en kjent begrensning i den plugin-versjonen som er i bruk. Gi prosjektet en tittel, så åpnes det direkte i redigeringsverktøyet.
 
 ### Redigeringsverktøyet
 
-![Det visuelle redigeringsverktøyet i C-Studio, som viser side-lerretet, verktøypaletten til høyre og prosjektpanelet til venstre](/.gitbook/assets/cstudio-editor.png)
+![Det visuelle redigeringsverktøyet i C-Studio, som viser side-lerretet, verktøypaletten til høyre og prosjektpanelet til venstre](../../.gitbook/assets/cstudio-editor.png)
 
 Redigeringsverktøyet er en visuell side-for-side-bygger:
 
@@ -118,7 +118,7 @@ Paletten dekker grunnleggende byggeklosser (kolonner, bilder, lyd, titler, tekst
 
 C-Studios eget grensesnitt kan som standard være fransk første gang du åpner det, uavhengig av Chamilo-grensesnittspråket eller kursets språk. Hvis det er tilfellet, gå til **File > UI language** og velg språket ditt — redigeringsverktøyet lastes inn på nytt umiddelbart og husker valget ditt etterpå.
 
-![File-menyen åpen, som viser alternativet «UI language»](/.gitbook/assets/cstudio-file-menu.png)
+![File-menyen åpen, som viser alternativet «UI language»](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Lagring og eksport
 

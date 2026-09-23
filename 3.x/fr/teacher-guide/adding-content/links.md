@@ -4,8 +4,8 @@ L’outil Liens vous permet de partager des URL utiles avec vos apprenants, orga
 
 ## Ajouter un lien
 
-1. Ouvrez l’outil **Liens** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Liens" data-size="line"> depuis la page d’accueil du cours
-2. Cliquez sur **Ajouter un lien** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Ajouter un lien" data-size="line">
+1. Ouvrez l’outil **Liens** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Liens" data-size="line"> depuis la page d’accueil du cours
+2. Cliquez sur **Ajouter un lien** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Ajouter un lien" data-size="line">
 3. Renseignez les informations :
    * **URL** — L’adresse web (par ex. `https://example.com/resource`)
    * **Nom du lien** — Un nom descriptif pour le lien
@@ -27,10 +27,10 @@ Les liens d’une même catégorie s’affichent ensemble, ce qui facilite la re
 
 ## Gérer les liens
 
-* **Vérification des liens** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validité" data-size="line">  — Chamilo peut vérifier si les liens sont encore actifs ou rompus
-* **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Mettre à jour l’URL, le titre ou la description du lien
-* **Visibilité** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> — Masquer ou afficher le lien aux apprenants
-* **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer le lien
+* **Vérification des liens** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validité" data-size="line">  — Chamilo peut vérifier si les liens sont encore actifs ou rompus
+* **Modifier** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> — Mettre à jour l’URL, le titre ou la description du lien
+* **Visibilité** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> — Masquer ou afficher le lien aux apprenants
+* **Supprimer** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> — Retirer le lien
 
 ## Exporter les liens
 

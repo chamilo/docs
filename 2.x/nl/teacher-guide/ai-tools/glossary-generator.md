@@ -9,7 +9,7 @@ De generator is beschikbaar via de **Woordenlijst**-tool, mits:
 1. AI-helpers op platformniveau zijn ingeschakeld
 2. Ten minste één AI-tekstprovider is geconfigureerd
 
-Open de **Woordenlijst** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line">-tool vanaf de cursusstartpagina en zoek naar de knop **Genereren met AI** in de werkbalk.
+Open de **Woordenlijst** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line">-tool vanaf de cursusstartpagina en zoek naar de knop **Genereren met AI** in de werkbalk.
 
 ## Hoe Termen te Genereren
 

@@ -13,7 +13,7 @@ Cari tombol atau bagian **AI Generator** di dalam antarmuka pembuatan latihan.
 
 ## Cara Menghasilkan Soal
 
-![Formulir generator latihan AI dengan kolom untuk topik dan jumlah soal](/.gitbook/assets/ai-exercise-generator.png)
+![Formulir generator latihan AI dengan kolom untuk topik dan jumlah soal](../../.gitbook/assets/ai-exercise-generator.png)
 
 Generator menawarkan dua mode, tersedia sebagai tab:
 
@@ -32,7 +32,7 @@ Generator menawarkan dua mode, tersedia sebagai tab:
 
 ## Meninjau dan Menyunting
 
-![Soal yang dihasilkan AI ditampilkan untuk ditinjau dengan opsi menyunting, menerima, atau menghapus masing-masing soal](/.gitbook/assets/ai-exercise-generator-results.png)
+![Soal yang dihasilkan AI ditampilkan untuk ditinjau dengan opsi menyunting, menerima, atau menghapus masing-masing soal](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Soal yang dihasilkan disajikan sebagai **saran**. Anda sebaiknya:
 

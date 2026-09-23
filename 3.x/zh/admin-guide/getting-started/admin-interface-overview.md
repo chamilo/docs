@@ -1,10 +1,10 @@
 # 管理界面概览
 
-管理面板是您管理 Chamilo 平台的指挥中心。点击侧边栏中的 **管理** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 即可进入。
+管理面板是您管理 Chamilo 平台的指挥中心。点击侧边栏中的 **管理** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 即可进入。
 
 ## 管理仪表盘
 
-![管理仪表盘，显示用户、课程、学期和设置等功能区块](/.gitbook/assets/admin-dashboard-overview.png)
+![管理仪表盘，显示用户、课程、学期和设置等功能区块](../../.gitbook/assets/admin-dashboard-overview.png)
 
 管理仪表盘按功能区块组织。每个区块归集相关的管理工具：
 

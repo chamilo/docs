@@ -19,7 +19,7 @@ Chamilo はこれらの重みに基づいて各学習者の総合得点を計算
 
 ## 評価の設定
 
-1. コースホームページから **評価** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> ツールを開きます
+1. コースホームページから **評価** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> ツールを開きます
 2. 評価の概要が表示されます。最初は空です
 
 ### アクティビティの追加
@@ -48,7 +48,7 @@ Chamilo はこれらの重みに基づいて各学習者の総合得点を計算
 
 ## 成績の表示
 
-![学習者名、アクティビティ得点、加重合計を示す成績表の概要テーブル](/.gitbook/assets/gradebook-overview.png)
+![学習者名、アクティビティ得点、加重合計を示す成績表の概要テーブル](../../.gitbook/assets/gradebook-overview.png)
 
 評価には次の内容のテーブルが表示されます。
 
@@ -77,7 +77,7 @@ Chamilo はこれらの重みに基づいて各学習者の総合得点を計算
 
 ルートカテゴリで **修了証を生成** を有効にすると、**修了証の有効期間（日）** フィールドが表示されます。期限切れにしない修了証は `0` のままにし、期限切れにする場合は日数を設定します。Chamilo はその期限が近づくと学習者に通知できます。自動（cron、管理者が設定）または修了証一覧から手動で行います。
 
-![修了証の生成が有効で、修了証の有効期間（日）が 365 に設定されたカテゴリ編集ダイアログ](/.gitbook/assets/gradebook-certificate-validity-field.png)
+![修了証の生成が有効で、修了証の有効期間（日）が 365 に設定されたカテゴリ編集ダイアログ](../../.gitbook/assets/gradebook-certificate-validity-field.png)
 
 詳細は [修了証とスキル](../tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) を参照してください。
 
@@ -87,7 +87,7 @@ Chamilo はこれらの重みに基づいて各学習者の総合得点を計算
 
 ## 成績のエクスポート
 
-**エクスポート** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> ボタンをクリックすると、成績をスプレッドシートとしてダウンロードできます。次のような用途に便利です。
+**エクスポート** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> ボタンをクリックすると、成績をスプレッドシートとしてダウンロードできます。次のような用途に便利です。
 
 * 管理システムとの成績共有
 * Chamilo 外での追加分析

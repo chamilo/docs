@@ -46,4 +46,4 @@ As a Chamilo administrator, you manage:
 
 ## Accessing the Administration Panel
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+After logging in as an administrator, click **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.

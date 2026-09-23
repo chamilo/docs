@@ -8,7 +8,7 @@ Väriteemat määrittävät Chamilo-käyttöliittymässä käytettävän paletin
 
 ## Teeman käyttöönotto
 
-![Väriteemasivu, jossa näkyvät saatavilla olevat teemat esikatselunäytteineen ja Käytä-painike](/.gitbook/assets/admin-color-themes.png)
+![Väriteemasivu, jossa näkyvät saatavilla olevat teemat esikatselunäytteineen ja Käytä-painike](../../../.gitbook/assets/admin-color-themes.png)
 
 1. Siirry hallintapaneelista kohtaan **Väriteemat**
 2. Selaa saatavilla olevia teemoja

@@ -32,4 +32,4 @@ Als Chamilo-beheerder bent u verantwoordelijk voor:
 
 ## Toegang tot het beheerderspaneel
 
-Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om toegang te krijgen tot het beheerderspaneel.
+Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om toegang te krijgen tot het beheerderspaneel.

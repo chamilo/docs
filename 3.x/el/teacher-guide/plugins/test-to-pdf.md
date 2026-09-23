@@ -1,6 +1,6 @@
 # Test to PDF
 
-Το Test to PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> εξάγει τις ερωτήσεις ενός τεστ μαθήματος σε εκτυπώσιμο PDF — μόνο ερωτήσεις, μόνο απαντήσεις, ή και τα δύο μαζί — χρήσιμο για έντυπη έκδοση ενός τεστ.
+Το Test to PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> εξάγει τις ερωτήσεις ενός τεστ μαθήματος σε εκτυπώσιμο PDF — μόνο ερωτήσεις, μόνο απαντήσεις, ή και τα δύο μαζί — χρήσιμο για έντυπη έκδοση ενός τεστ.
 
 ## Accessing the Tool
 

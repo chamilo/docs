@@ -1,6 +1,6 @@
 # 问卷导出 TXT
 
-问卷导出 TXT <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="问卷导出 TXT" data-size="line"> 将问卷结果导出为便于阅读的纯文本文件——每位作答者对应一个区块，列出每道题目、所选答案以及任何开放式文字作答，而不是 CSV 中的行列结构。
+问卷导出 TXT <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="问卷导出 TXT" data-size="line"> 将问卷结果导出为便于阅读的纯文本文件——每位作答者对应一个区块，列出每道题目、所选答案以及任何开放式文字作答，而不是 CSV 中的行列结构。
 
 ## 导出问卷
 

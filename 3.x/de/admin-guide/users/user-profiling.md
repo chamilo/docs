@@ -4,7 +4,7 @@ Chamilo ermöglicht die Definition benutzerdefinierter Profilfelder (Extrafelder
 
 ## Extra-Profilfelder
 
-![Die Liste der Extra-Profilfelder mit benutzerdefinierten Feldern, Name, Typ und Sichtbarkeitseinstellungen](/.gitbook/assets/admin-extra-fields-list.png)
+![Die Liste der Extra-Profilfelder mit benutzerdefinierten Feldern, Name, Typ und Sichtbarkeitseinstellungen](../../.gitbook/assets/admin-extra-fields-list.png)
 
 Extrafelder ermöglichen die Speicherung organisationsspezifischer Metadaten, beispielsweise:
 

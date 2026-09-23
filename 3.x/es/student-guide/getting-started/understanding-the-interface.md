@@ -7,11 +7,11 @@ Chamilo 3.0 tiene una interfaz limpia y moderna, diseñada para que la navegaci�
 La barra superior está siempre visible en la parte superior de cada página. Contiene:
 
 * **Logotipo de la plataforma** — Haga clic en él para volver a la página de inicio en cualquier momento.
-* **Icono de bandeja de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Muestra sus mensajes. Un distintivo rojo indica mensajes no leídos. Haga clic para abrir su [Bandeja de entrada](../inbox.md).
-* **Icono de ticket de soporte** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Soporte" data-size="line"> — Si el administrador lo ha habilitado, le da acceso al sistema de tickets de soporte. No todas las plataformas lo activan, por lo que es posible que solo vea el icono de la bandeja de entrada y su avatar.
+* **Icono de bandeja de entrada** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Muestra sus mensajes. Un distintivo rojo indica mensajes no leídos. Haga clic para abrir su [Bandeja de entrada](../inbox.md).
+* **Icono de ticket de soporte** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Soporte" data-size="line"> — Si el administrador lo ha habilitado, le da acceso al sistema de tickets de soporte. No todas las plataformas lo activan, por lo que es posible que solo vea el icono de la bandeja de entrada y su avatar.
 * **Su avatar** — Una imagen circular en la esquina superior derecha. Haga clic en ella para abrir un menú desplegable:
 
-![Menú de su avatar, con enlaces a Mi perfil, Mis certificados, Mis competencias y Cerrar sesión](/.gitbook/assets/student-avatar-menu.png)
+![Menú de su avatar, con enlaces a Mi perfil, Mis certificados, Mis competencias y Cerrar sesión](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Mi perfil** — Edite su información personal, cambie su contraseña y (si está habilitado) configure la autenticación de dos factores
 * **Mis certificados** — Todos los certificados que ha obtenido, en todos sus cursos
@@ -26,18 +26,18 @@ La barra lateral contiene los siguientes enlaces (algunos pueden estar ocultos s
 
 | Elemento del menú | Icono | Descripción |
 |-----------|------|-------------|
-| **Inicio** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Inicio" data-size="line"> | Vuelve al panel principal |
-| **Mis cursos** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> | Lista todos los cursos en los que está inscrito |
-| **Mis sesiones** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sesiones" data-size="line"> | Lista sus sesiones de formación (actuales, pasadas, próximas) |
-| **Explorar más cursos** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catálogo" data-size="line"> | Explore el catálogo de cursos para encontrar e inscribirse por su cuenta en cursos nuevos |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Su calendario personal y de cursos |
-| **Informes** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Informes" data-size="line"> | Se expande a **Progreso** — su propio resumen de [Mi progreso](../my-progress.md) |
-| **Red social** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Red social" data-size="line"> | Se expande a la [Red social](../social-network.md) y enlaces relacionados, si está habilitada |
-| **Videoconferencia** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Vídeo" data-size="line"> | Acceso a sesiones de vídeo en directo (si está configurado) |
+| **Inicio** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Inicio" data-size="line"> | Vuelve al panel principal |
+| **Mis cursos** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> | Lista todos los cursos en los que está inscrito |
+| **Mis sesiones** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sesiones" data-size="line"> | Lista sus sesiones de formación (actuales, pasadas, próximas) |
+| **Explorar más cursos** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catálogo" data-size="line"> | Explore el catálogo de cursos para encontrar e inscribirse por su cuenta en cursos nuevos |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Su calendario personal y de cursos |
+| **Informes** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Informes" data-size="line"> | Se expande a **Progreso** — su propio resumen de [Mi progreso](../my-progress.md) |
+| **Red social** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Red social" data-size="line"> | Se expande a la [Red social](../social-network.md) y enlaces relacionados, si está habilitada |
+| **Videoconferencia** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Vídeo" data-size="line"> | Acceso a sesiones de vídeo en directo (si está configurado) |
 
 **Informes** y **Red social** no son enlaces simples: al hacer clic en ellos se despliega una pequeña lista de subelementos justo en la barra lateral:
 
-![La barra lateral con Informes y Red social expandidos, mostrando sus subelementos](/.gitbook/assets/student-sidebar-expanded.png)
+![La barra lateral con Informes y Red social expandidos, mostrando sus subelementos](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Bajo **Informes**: solo **Progreso**, que le lleva a [Mi progreso](../my-progress.md).
 * Bajo **Red social**: **Inicio** (el muro social), **Mensajes** (un acceso directo a su [Bandeja de entrada](../inbox.md)), **Mis amigos**, **Grupos sociales** — y, agrupados aquí de forma un tanto inesperada, **Mis archivos** (su almacenamiento personal de archivos) y **Datos personales** (una exportación de los datos personales que la plataforma conserva sobre usted). Estos dos últimos no son realmente funciones «sociales»; simplemente se encuentran en esta parte de la barra lateral.

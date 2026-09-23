@@ -2,7 +2,7 @@
 
 Las sesiones son una de las funcionalidades más potentes de Chamilo. Permiten impartir los mismos cursos a distintos grupos de alumnos en momentos diferentes, sin duplicar el contenido del curso.
 
-![El bloque de gestión de Sesiones en el panel de administración, que enumera Lista de sesiones de formación, Añadir una sesión de formación, categorías de sesión, herramientas de importación/exportación, carreras y promociones, y secuenciación de recursos, entre otros](/.gitbook/assets/admin-sessions-block.png)
+![El bloque de gestión de Sesiones en el panel de administración, que enumera Lista de sesiones de formación, Añadir una sesión de formación, categorías de sesión, herramientas de importación/exportación, carreras y promociones, y secuenciación de recursos, entre otros](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Gestión de sesiones](managing-sessions.md)** — Crear, configurar y gestionar sesiones de formación
 * **[Categorías de sesión](session-categories.md)** — Organizar las sesiones en categorías

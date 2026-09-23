@@ -2,7 +2,7 @@
 
 Kursinställningar låter dig styra hur din kurs beter sig — vem som kan komma åt den, hur den visas och vilka funktioner som är aktiverade.
 
-För att komma åt kursinställningarna går du in i din kurs och klickar på ikonen **Inställningar** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Inställningar" data-size="line"> bredvid knappen **Växla till studentvy**.
+För att komma åt kursinställningarna går du in i din kurs och klickar på ikonen **Inställningar** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Inställningar" data-size="line"> bredvid knappen **Växla till studentvy**.
 
 ## Allmänna inställningar
 
@@ -29,7 +29,7 @@ Varje kurs har en lagringsgräns (diskkvot) för uppladdade filer. Kvoten sätts
 
 ### Kurssynlighet
 
-![Kursens synlighetsinställningar som visar alternativen offentlig, öppen, registrerad och stängd](/.gitbook/assets/course-settings-visibility.png)
+![Kursens synlighetsinställningar som visar alternativen offentlig, öppen, registrerad och stängd](../../.gitbook/assets/course-settings-visibility.png)
 
 Styr vem som kan komma åt din kurs:
 
@@ -84,7 +84,7 @@ Styr beteendet i forumverktyget för den här kursen.
 
 ### Inställningar för autostart
 
-En kurs kan ställas in så att den har ett autostartbeteende, vilket förkortar vägen för deltagarna till de viktiga delarna av din kurs. Om funktionen är aktiverad skickas deltagarna som går in i din kurs direkt till det valda verktyget och ser inte kurssidan som ett mellansteg. Du kan till och med välja specifika lärstigar eller övningar som ska startas när man kommer till kursen. I det fallet måste du välja alternativet här, gå sedan till listan över lärstigar eller övningar och klicka på raketikonen <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autostart" data-size="line"> på det valda objektet.
+En kurs kan ställas in så att den har ett autostartbeteende, vilket förkortar vägen för deltagarna till de viktiga delarna av din kurs. Om funktionen är aktiverad skickas deltagarna som går in i din kurs direkt till det valda verktyget och ser inte kurssidan som ett mellansteg. Du kan till och med välja specifika lärstigar eller övningar som ska startas när man kommer till kursen. I det fallet måste du välja alternativet här, gå sedan till listan över lärstigar eller övningar och klicka på raketikonen <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autostart" data-size="line"> på det valda objektet.
 
 ### Inställningar för AI-hjälpare
 

@@ -13,7 +13,7 @@ AI 练习生成器可帮助您利用人工智能自动创建测验题目。您�
 
 ## 如何生成题目
 
-![包含主题和题目数量字段的 AI 练习生成器表单](/.gitbook/assets/ai-exercise-generator.png)
+![包含主题和题目数量字段的 AI 练习生成器表单](../../.gitbook/assets/ai-exercise-generator.png)
 
 生成器提供两种模式，以选项卡形式呈现：
 
@@ -32,7 +32,7 @@ AI 练习生成器可帮助您利用人工智能自动创建测验题目。您�
 
 ## 审阅与编辑
 
-![供审阅的 AI 生成题目，可对每道题进行编辑、接受或删除](/.gitbook/assets/ai-exercise-generator-results.png)
+![供审阅的 AI 生成题目，可对每道题进行编辑、接受或删除](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 生成的题目以 **建议** 形式呈现。您应当：
 

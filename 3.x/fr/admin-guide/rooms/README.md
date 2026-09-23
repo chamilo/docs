@@ -2,7 +2,7 @@
 
 Le bloc **Salles** du tableau de bord d’administration gère les lieux physiques que Chamilo peut suivre pour les formations en présentiel ou hybrides : les sites (branches), les salles qu’ils contiennent, et un outil pour trouver quelles salles sont libres à un moment donné.
 
-![Le bloc Salles du tableau de bord d’administration, listant Sites, Salles et Recherche de disponibilité des salles](/.gitbook/assets/admin-rooms-block.png)
+![Le bloc Salles du tableau de bord d’administration, listant Sites, Salles et Recherche de disponibilité des salles](../../.gitbook/assets/admin-rooms-block.png)
 
 Ce chapitre traite de la gestion côté administrateur des sites et des salles. Pour le côté enseignant — l’attribution d’une salle à une session de cours — voir [Sites et salles](../../teacher-guide/branches-and-rooms.md) dans le Guide de l’enseignant.
 

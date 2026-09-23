@@ -2,7 +2,7 @@
 
 ## Creación de una Sesión
 
-![Formulario de creación de sesión con campos para nombre, fechas, entrenador, categoría y visibilidad](/.gitbook/assets/admin-session-create-form.png)
+![Formulario de creación de sesión con campos para nombre, fechas, entrenador, categoría y visibilidad](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Desde el panel de administración, haz clic en **Crear una sesión**
 2. Completa los detalles de la sesión:
@@ -30,7 +30,7 @@ Esto te permite preparar la sesión antes de que lleguen los estudiantes y mante
 
 ## Lista de Sesiones
 
-![Lista de sesiones que muestra todas las sesiones con nombre, fechas, cantidad de cursos, cantidad de estudiantes y estado](/.gitbook/assets/admin-session-list.png)
+![Lista de sesiones que muestra todas las sesiones con nombre, fechas, cantidad de cursos, cantidad de estudiantes y estado](../../.gitbook/assets/admin-session-list.png)
 
 La lista de sesiones muestra todas las sesiones con:
 
@@ -52,7 +52,7 @@ Haz clic en una sesión para editar:
 
 ## Inscripción de Usuarios
 
-![Interfaz de inscripción de sesión para añadir usuarios individuales, clases o importar mediante CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Interfaz de inscripción de sesión para añadir usuarios individuales, clases o importar mediante CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Puedes inscribir usuarios en una sesión mediante:
 

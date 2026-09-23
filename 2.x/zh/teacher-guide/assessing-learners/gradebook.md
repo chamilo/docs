@@ -19,7 +19,7 @@ Chamilo 会根据这些权重计算每个学生的总体成绩。
 
 ## 设置评估
 
-1. 在课程首页打开**评估**工具 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成绩簿" data-size="line">
+1. 在课程首页打开**评估**工具 <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="成绩簿" data-size="line">
 2. 您将看到评估概览，初始为空
 
 ### 添加活动
@@ -48,7 +48,7 @@ Chamilo 会根据这些权重计算每个学生的总体成绩。
 
 ## 查看成绩
 
-![成绩簿概览表，显示学生姓名、活动分数和加权总分](/.gitbook/assets/gradebook-overview.png)
+![成绩簿概览表，显示学生姓名、活动分数和加权总分](../../.gitbook/assets/gradebook-overview.png)
 
 评估显示一个表格，包含：
 
@@ -75,7 +75,7 @@ Chamilo 会根据这些权重计算每个学生的总体成绩。
 
 ## 导出成绩
 
-点击**导出**按钮 <img src="/.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 下载成绩为电子表格。这对于以下情况很有用：
+点击**导出**按钮 <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 下载成绩为电子表格。这对于以下情况很有用：
 
 * 与行政系统共享成绩
 * 在 Chamilo 之外进行额外分析

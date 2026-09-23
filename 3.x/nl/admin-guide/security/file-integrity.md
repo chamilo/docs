@@ -10,7 +10,7 @@ Klik in het beheerpaneel op **Beveiliging > Bestandsintegriteit**.
 
 ## Wat het toont
 
-![De pagina Bestandsintegriteit met informatie over de laatste scan, panelen voor Toegevoegde, Gewijzigde, Verwijderde en Permissies gewijzigde bestanden, een lijst Waarschuwingsgeschiedenis, en Acties om een scan uit te voeren, waarschuwingen te pauzeren of een nieuwe baseline vast te stellen](/.gitbook/assets/admin-security-file-integrity.png)
+![De pagina Bestandsintegriteit met informatie over de laatste scan, panelen voor Toegevoegde, Gewijzigde, Verwijderde en Permissies gewijzigde bestanden, een lijst Waarschuwingsgeschiedenis, en Acties om een scan uit te voeren, waarschuwingen te pauzeren of een nieuwe baseline vast te stellen](../../.gitbook/assets/admin-security-file-integrity.png)
 
 * **Laatste scan** — Wanneer de meest recente scan is uitgevoerd en hoeveel bestanden daarbij zijn gecontroleerd
 * **Toegevoegd / Gewijzigd / Verwijderd** — Bestanden die afwijken van de baseline, geïdentificeerd door SHA-256-checksums te vergelijken (elke lijst is begrensd tot 500 paden, met een opmerking als de volledige lijst langer is — zie het CEF-log hieronder voor de complete lijst)

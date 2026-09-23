@@ -21,7 +21,7 @@ AI Tutor 需要兩個層級的設定：
 
 ## 聊天介面
 
-![顯示學習者與 AI 之間對話的 AI Tutor 聊天介面](/.gitbook/assets/ai-tutor-chat.png)
+![顯示學習者與 AI 之間對話的 AI Tutor 聊天介面](../../.gitbook/assets/ai-tutor-chat.png)
 
 AI Tutor 以 **固定聊天面板** 的形式出現在課程中。學習者可以：
 

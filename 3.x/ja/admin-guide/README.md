@@ -46,4 +46,4 @@ Chamilo の管理者として、次の項目を管理します。
 
 ## 管理パネルへのアクセス
 
-管理者としてログインしたあと、サイドバーの **管理** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> をクリックして管理パネルにアクセスします。
+管理者としてログインしたあと、サイドバーの **管理** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> をクリックして管理パネルにアクセスします。

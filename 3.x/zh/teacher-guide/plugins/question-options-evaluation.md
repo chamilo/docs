@@ -1,6 +1,6 @@
 # 题目选项评分
 
-题目选项评分 <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="题目选项评分" data-size="line"> 可让您对测验评分应用负分（扣分）公式，而不是采用 Chamilo 默认的仅将正确答案相加的方式。
+题目选项评分 <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="题目选项评分" data-size="line"> 可让您对测验评分应用负分（扣分）公式，而不是采用 Chamilo 默认的仅将正确答案相加的方式。
 
 ## 设置公式
 

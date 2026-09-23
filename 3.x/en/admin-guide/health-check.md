@@ -2,7 +2,7 @@
 
 Health Check is a small block on the administration dashboard that runs a handful of live checks on your installation and flags anything that needs attention — no need to dig through configuration files to spot common misconfigurations.
 
-![The Health check block on the administration dashboard, showing pass/fail status for e-mail settings, admin URL assignment, and file permission checks](/.gitbook/assets/admin-health-check-block.png)
+![The Health check block on the administration dashboard, showing pass/fail status for e-mail settings, admin URL assignment, and file permission checks](../.gitbook/assets/admin-health-check-block.png)
 
 ## Accessing Health Check
 

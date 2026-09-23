@@ -19,7 +19,7 @@ Chamilo calcula la calificación general de cada estudiante en función de estos
 
 ## Configuración de la Evaluación
 
-1. Abra la herramienta **Evaluaciones** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Libro de calificaciones" data-size="line"> desde la página principal del curso
+1. Abra la herramienta **Evaluaciones** <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Libro de calificaciones" data-size="line"> desde la página principal del curso
 2. Verá el resumen de evaluaciones, inicialmente vacío
 
 ### Añadir Actividades
@@ -48,7 +48,7 @@ Para esquemas de calificación complejos, puede crear **subcategorías** para ag
 
 ## Visualización de Calificaciones
 
-![La tabla de resumen del libro de calificaciones que muestra los nombres de los estudiantes, las puntuaciones de las actividades y los totales ponderados](/.gitbook/assets/gradebook-overview.png)
+![La tabla de resumen del libro de calificaciones que muestra los nombres de los estudiantes, las puntuaciones de las actividades y los totales ponderados](../../.gitbook/assets/gradebook-overview.png)
 
 La evaluación muestra una tabla con:
 
@@ -75,7 +75,7 @@ Puede asociar **habilidades** con la evaluación. Cuando un estudiante alcance l
 
 ## Exportación de Calificaciones
 
-Haga clic en el botón **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar las calificaciones como una hoja de cálculo. Esto es útil para:
+Haga clic en el botón **Exportar** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar las calificaciones como una hoja de cálculo. Esto es útil para:
 
 * Compartir calificaciones con sistemas administrativos
 * Realizar análisis adicionales fuera de Chamilo

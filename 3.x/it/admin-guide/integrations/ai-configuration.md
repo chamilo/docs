@@ -35,7 +35,7 @@ Registrare un account presso il provider AI scelto e ottenere una chiave API:
 
 ### 2. Configurare i provider in Chamilo
 
-![La pagina di configurazione degli AI helpers che mostra le impostazioni del provider con i campi chiave API, modello ed endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
+![La pagina di configurazione degli AI helpers che mostra le impostazioni del provider con i campi chiave API, modello ed endpoint](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Nelle impostazioni della piattaforma, accedere alla sezione **AI Helpers**:
 

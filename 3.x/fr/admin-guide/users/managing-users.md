@@ -4,7 +4,7 @@ Cette page couvre les tâches quotidiennes de création, de modification et de g
 
 ## Liste des utilisateurs
 
-![La liste des utilisateurs affichant les comptes avec les colonnes nom, e-mail, rôle et statut](/.gitbook/assets/admin-user-list.png)
+![La liste des utilisateurs affichant les comptes avec les colonnes nom, e-mail, rôle et statut](../../.gitbook/assets/admin-user-list.png)
 
 Depuis le panneau d’administration, cliquez sur **Liste des utilisateurs** pour voir tous les utilisateurs de la plateforme. La liste affiche :
 
@@ -21,7 +21,7 @@ Utilisez l’outil **Recherche avancée** pour trouver des utilisateurs spécifi
 
 ## Création d’un utilisateur
 
-![Le formulaire de création d’utilisateur avec les champs nom, e-mail, identifiant, mot de passe, rôle et langue](/.gitbook/assets/admin-user-create-form.png)
+![Le formulaire de création d’utilisateur avec les champs nom, e-mail, identifiant, mot de passe, rôle et langue](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Cliquez sur **Ajouter un utilisateur** depuis le panneau d’administration
 2. Renseignez les champs obligatoires :
@@ -41,7 +41,7 @@ Utilisez l’outil **Recherche avancée** pour trouver des utilisateurs spécifi
 
 ## Importation d’utilisateurs
 
-![L’interface d’importation d’utilisateurs pour le téléversement de fichiers CSV ou XML contenant les données utilisateurs](/.gitbook/assets/admin-user-import.png)
+![L’interface d’importation d’utilisateurs pour le téléversement de fichiers CSV ou XML contenant les données utilisateurs](../../.gitbook/assets/admin-user-import.png)
 
 Pour une création d’utilisateurs en masse, vous pouvez importer des utilisateurs à partir d’un fichier :
 

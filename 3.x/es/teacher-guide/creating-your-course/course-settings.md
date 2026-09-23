@@ -2,7 +2,7 @@
 
 La configuración del curso le permite controlar cómo se comporta su curso: quién puede acceder a él, cómo se muestra y qué funciones están habilitadas.
 
-Para acceder a la configuración del curso, entre en su curso y haga clic en el icono **Configuración** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> junto al botón **Cambiar a vista de estudiante**.
+Para acceder a la configuración del curso, entre en su curso y haga clic en el icono **Configuración** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configuración" data-size="line"> junto al botón **Cambiar a vista de estudiante**.
 
 ## Configuración general
 
@@ -29,7 +29,7 @@ Cada curso tiene un límite de almacenamiento (cuota de disco) para los archivos
 
 ### Visibilidad del curso
 
-![La configuración de visibilidad del curso mostrando las opciones público, abierto, registrado y cerrado](/.gitbook/assets/course-settings-visibility.png)
+![La configuración de visibilidad del curso mostrando las opciones público, abierto, registrado y cerrado](../../.gitbook/assets/course-settings-visibility.png)
 
 Controle quién puede acceder a su curso:
 
@@ -84,7 +84,7 @@ Controle el comportamiento de la herramienta de foro de este curso.
 
 ### Configuración de inicio automático
 
-Un curso puede configurarse con un comportamiento de inicio automático, que acortará el camino de los alumnos para llegar a las partes importantes de su curso. Si está habilitado, los alumnos que entren en su curso serán enviados directamente a la herramienta seleccionada y no verán la página de inicio del curso como un paso intermedio. Incluso puede seleccionar lecciones o ejercicios específicos para lanzar al llegar al curso. En este caso, debe seleccionar la opción aquí, luego ir a la lista de lecciones o ejercicios y hacer clic en el icono del cohete <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Inicio automático" data-size="line"> del elemento seleccionado.
+Un curso puede configurarse con un comportamiento de inicio automático, que acortará el camino de los alumnos para llegar a las partes importantes de su curso. Si está habilitado, los alumnos que entren en su curso serán enviados directamente a la herramienta seleccionada y no verán la página de inicio del curso como un paso intermedio. Incluso puede seleccionar lecciones o ejercicios específicos para lanzar al llegar al curso. En este caso, debe seleccionar la opción aquí, luego ir a la lista de lecciones o ejercicios y hacer clic en el icono del cohete <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Inicio automático" data-size="line"> del elemento seleccionado.
 
 ### Configuración de asistentes de IA
 

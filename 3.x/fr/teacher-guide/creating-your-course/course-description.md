@@ -1,12 +1,12 @@
 # Description du cours
 
-L’outil **Description du cours** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> vous permet de rédiger une description structurée, en plusieurs sections, de votre cours — ses objectifs, sa méthodologie, ses supports, et plus encore. Contrairement à la bannière en texte libre **Introduction du cours** sur votre [page d’accueil du cours](README.md#the-course-homepage), que seuls vos apprenants inscrits voient, la description du cours est ce que les apprenants potentiels voient *avant* de s’inscrire, depuis le catalogue des cours.
+L’outil **Description du cours** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> vous permet de rédiger une description structurée, en plusieurs sections, de votre cours — ses objectifs, sa méthodologie, ses supports, et plus encore. Contrairement à la bannière en texte libre **Introduction du cours** sur votre [page d’accueil du cours](README.md#the-course-homepage), que seuls vos apprenants inscrits voient, la description du cours est ce que les apprenants potentiels voient *avant* de s’inscrire, depuis le catalogue des cours.
 
 Une fois inscrits, les apprenants peuvent encore s’y reporter depuis l’intérieur du cours — si vous laissez l’outil visible pour eux, c’est un endroit pratique pour consulter des informations pratiques telles que la structure générale du cours ou qui sont les enseignants, sans avoir à vous interroger directement. Les apprenants inscrits peuvent consulter les sections que vous avez rédigées mais ne peuvent ni les ajouter, ni les modifier, ni les supprimer.
 
 ## Accéder à l’outil
 
-Ouvrez l’outil **Description du cours** <img src="/.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> depuis la grille d’outils de la page d’accueil du cours.
+Ouvrez l’outil **Description du cours** <img src="../../.gitbook/assets/icons/mdi-apple-safari.svg" alt="Description du cours" data-size="line"> depuis la grille d’outils de la page d’accueil du cours.
 
 ## Les huit sections
 
@@ -30,7 +30,7 @@ Une description de cours se compose de jusqu’à huit sections indépendantes. 
 3. Rédigez votre contenu dans l’éditeur de texte enrichi (prend en charge la mise en forme, les images, les liens, la vidéo intégrée et d’autres contenus riches). Si votre plateforme l’a activé, vous pouvez également rédiger plusieurs versions linguistiques de la même section et faire en sorte que chaque apprenant ne voie automatiquement que la sienne — voir [Contenu multilingue](../adding-content/multi-language-content.md).
 4. Enregistrer
 
-Chaque section que vous ajoutez apparaît sous forme de carte distincte dans l’outil. Utilisez les icônes **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> et **Supprimer** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> sur une carte pour la mettre à jour ou la retirer plus tard.
+Chaque section que vous ajoutez apparaît sous forme de carte distincte dans l’outil. Utilisez les icônes **Modifier** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> et **Supprimer** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> sur une carte pour la mettre à jour ou la retirer plus tard.
 
 ## Lien avec le catalogue des cours
 

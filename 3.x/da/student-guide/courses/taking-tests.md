@@ -4,7 +4,7 @@ Værktøjet **Tests** (Øvelser) er der, hvor du tager de quizzer og eksamener, 
 
 ## Starte en test
 
-Åbn værktøjet **Tests** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> fra kursets startside, og klik på en test for at starte den. En test er muligvis endnu ikke tilgængelig, eller den er ikke længere tilgængelig, hvis din underviser har angivet en start- eller slutdato for den.
+Åbn værktøjet **Tests** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tests" data-size="line"> fra kursets startside, og klik på en test for at starte den. En test er muligvis endnu ikke tilgængelig, eller den er ikke længere tilgængelig, hvis din underviser har angivet en start- eller slutdato for den.
 
 ## Besvare spørgsmål
 

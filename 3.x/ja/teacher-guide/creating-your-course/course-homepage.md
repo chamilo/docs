@@ -13,7 +13,7 @@
 
 紹介を編集するには:
 
-1. **紹介を編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> ボタンをクリックします
+1. **紹介を編集** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> ボタンをクリックします
 2. リッチテキストエディタで内容を作成します
 3. 変更を保存します
 
@@ -21,7 +21,7 @@
 
 ## ツールグリッド
 
-![利用可能なコースツールがアイコンと表示切替とともに並ぶコースホームページのツールグリッド](/.gitbook/assets/course-homepage-tool-grid.png)
+![利用可能なコースツールがアイコンと表示切替とともに並ぶコースホームページのツールグリッド](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 紹介の下に、コースツールがグリッドレイアウトで表示されます。各ツールは次の要素を持つカードとして表示されます。
 
@@ -32,18 +32,18 @@
 
 | Tool | Icon | Purpose |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | イベントと締切をスケジュールする |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | 登録済み学習者にメッセージを送る |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | 学生の提出物を収集し採点する |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | ファイルとコンテンツをアップロードし整理する |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | クイズとテストを作成する |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | ディスカッションを開催する |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | 重要用語を定義する |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | 成績と修了証を管理する |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | 構造化された学習シーケンスを構築する |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | 有用な URL を共有する |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | 登録ユーザーを表示・管理する |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | アンケートを作成し配布する |
+| Agenda | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | イベントと締切をスケジュールする |
+| Announcements | <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | 登録済み学習者にメッセージを送る |
+| Assignments | <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | 学生の提出物を収集し採点する |
+| Documents | <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | ファイルとコンテンツをアップロードし整理する |
+| Tests | <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | クイズとテストを作成する |
+| Forum | <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | ディスカッションを開催する |
+| Glossary | <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | 重要用語を定義する |
+| Assessments | <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | 成績と修了証を管理する |
+| Learning paths | <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | 構造化された学習シーケンスを構築する |
+| Links | <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | 有用な URL を共有する |
+| Users | <img src="../../.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | 登録ユーザーを表示・管理する |
+| Surveys | <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | アンケートを作成し配布する |
 
 > 管理者がプラットフォームレベルで無効にしている場合や、非表示にしている場合、一部のツールは表示されないことがあります。
 
@@ -65,7 +65,7 @@ Chamilo 1.* からの大きな変更点として、ツールを 3 つの異な�
 * 一括変更には **すべて表示** または **すべて非表示** を使います
 * 非表示のツールは教師であるあなたには引き続きアクセスできます。学習者からだけ隠されます
 
-![非表示のツールが見えない、学生から見たコースホームページ](/.gitbook/assets/course-homepage-student-view.png)
+![非表示のツールが見えない、学生から見たコースホームページ](../../.gitbook/assets/course-homepage-student-view.png)
 
 ## 自動起動機能
 

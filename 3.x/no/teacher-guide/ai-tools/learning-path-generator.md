@@ -14,7 +14,7 @@ Se etter seksjonen **AI-generator** i grensesnittet for oppretting av læringsst
 
 ## Slik genererer du en læringssti
 
-![Skjemaet for AI-læringsstisgeneratoren med felt for emne, mål og antall seksjoner](/.gitbook/assets/ai-learning-path-generator.png)
+![Skjemaet for AI-læringsstisgeneratoren med felt for emne, mål og antall seksjoner](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Åpne skjemaet for AI-generator
 2. Konfigurer parametrene:

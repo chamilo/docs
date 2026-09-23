@@ -1,6 +1,6 @@
 # Survey Export CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Survey Export CSV" data-size="line"> lägger till en export med ett klick av en enkäts resultat till en kompakt CSV-fil, med en rad per respondent och en kolumn per fråga.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Survey Export CSV" data-size="line"> lägger till en export med ett klick av en enkäts resultat till en kompakt CSV-fil, med en rad per respondent och en kolumn per fråga.
 
 ## Exportera en enkät
 

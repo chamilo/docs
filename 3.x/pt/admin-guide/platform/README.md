@@ -2,7 +2,7 @@
 
 O bloco **Gestão da plataforma** no painel de administração agrupa as ferramentas de configuração e comunicação de todo o portal — desde o painel completo de definições até idiomas, anúncios públicos, o calendário global e o sistema de Páginas semelhante a um CMS, que constrói partes do conteúdo público do seu portal.
 
-![O bloco Gestão da plataforma no painel de administração, listando Definições de configuração, Idiomas, Plugins, Regiões, Notícias do portal, Agenda global, Páginas, Definição da página de registo, Campos extra, Configurar URL de acesso múltiplo, Modelos de correio, Ferramentas externas (LTI), Categorias do formulário de contacto e Modelos de sistema](/.gitbook/assets/admin-platform-block.png)
+![O bloco Gestão da plataforma no painel de administração, listando Definições de configuração, Idiomas, Plugins, Regiões, Notícias do portal, Agenda global, Páginas, Definição da página de registo, Campos extra, Configurar URL de acesso múltiplo, Modelos de correio, Ferramentas externas (LTI), Categorias do formulário de contacto e Modelos de sistema](../../.gitbook/assets/admin-platform-block.png)
 
 ## Aceder ao bloco Plataforma
 

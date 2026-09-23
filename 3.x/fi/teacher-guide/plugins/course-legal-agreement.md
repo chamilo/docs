@@ -1,12 +1,12 @@
 # Kurssin oikeudellinen sopimus
 
-Kurssin oikeudellinen sopimus <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Kurssin oikeudellinen sopimus" data-size="line"> -lisäosa edellyttää, että opiskelijat hyväksyvät ehdot tai oikeudellisen ilmoituksen ennen kuin he voivat käyttää kurssiasi — hyödyllinen suostumuslomakkeille, käyttöehdoille tai mille tahansa ilmoitukselle, jonka oppijoiden on muodollisesti hyväksyttävä.
+Kurssin oikeudellinen sopimus <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Kurssin oikeudellinen sopimus" data-size="line"> -lisäosa edellyttää, että opiskelijat hyväksyvät ehdot tai oikeudellisen ilmoituksen ennen kuin he voivat käyttää kurssiasi — hyödyllinen suostumuslomakkeille, käyttöehdoille tai mille tahansa ilmoitukselle, jonka oppijoiden on muodollisesti hyväksyttävä.
 
 ## Käyttöönotto kurssillasi
 
 Lisäosan ottaminen käyttöön koko alustalla ei yksinään tee mitään — se on silti kytkettävä päälle jokaisella kurssilla, jossa haluat sen olevan käytössä:
 
-1. Avaa kurssisi **Asetukset** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line">
+1. Avaa kurssisi **Asetukset** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Asetukset" data-size="line">
 2. Kurssin käyttöoikeusosiossa valitse **Ota oikeudelliset ehdot käyttöön**
 
 Tämä lisää kurssillesi **Kurssin oikeudellinen sopimus** -työkalun.

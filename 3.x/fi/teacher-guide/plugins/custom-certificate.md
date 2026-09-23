@@ -1,6 +1,6 @@
 # Mukautettu todistus
 
-Mukautettu todistus <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Mukautettu todistus" data-size="line"> -lisäosa antaa sinun korvata vakio[arvosanakirjan todistuksen](../assessing-learners/gradebook.md) omalla suunnittelullasi — logoilla, sinetillä, enintään neljällä allekirjoituskuvalla kuvateksteineen, taustakuvalla, marginaaleilla sekä paikkamerkkitunnisteista kootulla sisällöllä.
+Mukautettu todistus <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Mukautettu todistus" data-size="line"> -lisäosa antaa sinun korvata vakio[arvosanakirjan todistuksen](../assessing-learners/gradebook.md) omalla suunnittelullasi — logoilla, sinetillä, enintään neljällä allekirjoituskuvalla kuvateksteineen, taustakuvalla, marginaaleilla sekä paikkamerkkitunnisteista kootulla sisällöllä.
 
 ## Käyttöönotto kurssillasi
 

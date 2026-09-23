@@ -1,6 +1,6 @@
 # Acompanhamento do aluno
 
-O Acompanhamento do aluno <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Acompanhamento do aluno" data-size="line"> permite manter notas com data e hora e etiquetas sobre o progresso e as dificuldades de um formando — um sistema simples de notas de caso para acompanhar a evolução de um aluno ao longo do tempo.
+O Acompanhamento do aluno <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Acompanhamento do aluno" data-size="line"> permite manter notas com data e hora e etiquetas sobre o progresso e as dificuldades de um formando — um sistema simples de notas de caso para acompanhar a evolução de um aluno ao longo do tempo.
 
 ## Aceder à ferramenta
 

@@ -1,6 +1,6 @@
 # Übungsunterschrift
 
-Übungsunterschrift <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Übungsunterschrift" data-size="line"> fügt nach Abschluss eines Testversuchs durch eine Schülerin oder einen Schüler einen Schritt für die elektronische Unterschrift hinzu, sodass die Teilnahme authentifiziert werden kann — nützlich in Kontexten der Compliance oder Zertifizierung. Es berührt weder Punkte, Antworten noch Daten des Notenbuchs; es speichert lediglich eine Unterschrift zusammen mit dem Versuch.
+Übungsunterschrift <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Übungsunterschrift" data-size="line"> fügt nach Abschluss eines Testversuchs durch eine Schülerin oder einen Schüler einen Schritt für die elektronische Unterschrift hinzu, sodass die Teilnahme authentifiziert werden kann — nützlich in Kontexten der Compliance oder Zertifizierung. Es berührt weder Punkte, Antworten noch Daten des Notenbuchs; es speichert lediglich eine Unterschrift zusammen mit dem Versuch.
 
 ## Aktivierung für einen Test
 

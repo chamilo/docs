@@ -6,8 +6,8 @@ Pesan yang dikirim melalui pengumuman akan dikirimkan kepada peserta didik baik 
 
 ## Membuat Pengumuman
 
-1. Buka alat **Pengumuman** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> dari halaman utama kursus
-2. Klik ikon **Tambah pengumuman** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> sekali lagi
+1. Buka alat **Pengumuman** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> dari halaman utama kursus
+2. Klik ikon **Tambah pengumuman** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Pengumuman" data-size="line"> sekali lagi
 3. Isi:
    * **Penerima** — Pilih siapa yang akan menerima pengumuman:
      * Semua peserta didik yang terdaftar
@@ -25,9 +25,9 @@ Tombol **Pratinjau** tidak terlalu intuitif: tombol ini memungkinkan Anda meliha
 
 ## Mengelola Pengumuman
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Ubah pengumuman yang sudah ada
-* **Hapus** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus pengumuman
-* **Visibilitas** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> — Sembunyikan atau tampilkan pengumuman
+* **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Ubah pengumuman yang sudah ada
+* **Hapus** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus pengumuman
+* **Visibilitas** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> — Sembunyikan atau tampilkan pengumuman
 
 Pengumuman ditampilkan dalam urutan kronologis terbalik (yang terbaru di depan).
 

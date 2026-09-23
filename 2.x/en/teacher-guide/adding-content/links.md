@@ -4,8 +4,8 @@ The links tool lets you share useful URLs with your learners, organized by categ
 
 ## Adding a Link
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
+1. Open the **Links** <img src="../../.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
+2. Click **Add a link** <img src="../../.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
 3. Fill in the details:
    * **URL** — The web address (e.g., `https://example.com/resource`)
    * **Link name** — A descriptive name for the link
@@ -27,10 +27,10 @@ Links within a category are displayed together, making it easy for learners to f
 
 ## Managing Links
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Link checking** <img src="../../.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
+* **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
+* **Visibility** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
+* **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
 
 ## Exporting Links
 

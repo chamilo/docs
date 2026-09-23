@@ -1,6 +1,6 @@
 # Focado no Exercício
 
-Focado no Exercício <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Focado no Exercício" data-size="line"> é um auxílio anticola para exames. Se o navegador de um aluno perder o foco durante um teste sinalizado — ao mudar para outro separador ou janela — o Chamilo mostra um aviso em ecrã inteiro a pedir-lhe que volte, e pode submeter automaticamente a tentativa se o aluno não o fizer.
+Focado no Exercício <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Focado no Exercício" data-size="line"> é um auxílio anticola para exames. Se o navegador de um aluno perder o foco durante um teste sinalizado — ao mudar para outro separador ou janela — o Chamilo mostra um aviso em ecrã inteiro a pedir-lhe que volte, e pode submeter automaticamente a tentativa se o aluno não o fizer.
 
 ## Sinalizar um Teste
 

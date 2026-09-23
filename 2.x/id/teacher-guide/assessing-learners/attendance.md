@@ -20,7 +20,7 @@ Alat kehadiran memungkinkan Anda melacak kehadiran peserta didik untuk sesi kela
 Setiap lembar kehadiran berisi satu atau lebih tanggal (sesi) di mana Anda mencatat kehadiran:
 
 1. Buka lembar kehadiran atau lanjutkan dengan proses pembuatan
-2. Klik **Tambah tanggal** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tambah tanggal" data-size="line">
+2. Klik **Tambah tanggal** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tambah tanggal" data-size="line">
 3. Pilih tanggal dan waktu
 4. Secara opsional, centang **Ulangi tanggal** untuk memilih logika pengulangan
 5. Berikan **Durasi** dalam menit untuk acara tersebut (defaultnya 60 menit)
@@ -44,7 +44,7 @@ Catatan: Admin dapat mengubah konfigurasi portal untuk memungkinkan Anda memilih
 
 ## Melihat Laporan Kehadiran
 
-![Lembar kehadiran yang menunjukkan tabel ringkasan dengan peserta didik, tanggal, dan indikator kehadiran](/.gitbook/assets/attendance-sheet.png)
+![Lembar kehadiran yang menunjukkan tabel ringkasan dengan peserta didik, tanggal, dan indikator kehadiran](../../.gitbook/assets/attendance-sheet.png)
 
 Alat kehadiran menunjukkan:
 

@@ -1,6 +1,6 @@
 # Exercise Focused
 
-Exercise Focused <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> adalah bantuan anti-kecurangan untuk ujian. Jika peramban siswa kehilangan fokus selama tes yang ditandai — beralih ke tab atau jendela lain — Chamilo menampilkan peringatan layar penuh yang meminta mereka kembali, dan dapat secara otomatis mengirimkan percobaan mereka jika mereka tidak kembali.
+Exercise Focused <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Exercise Focused" data-size="line"> adalah bantuan anti-kecurangan untuk ujian. Jika peramban siswa kehilangan fokus selama tes yang ditandai — beralih ke tab atau jendela lain — Chamilo menampilkan peringatan layar penuh yang meminta mereka kembali, dan dapat secara otomatis mengirimkan percobaan mereka jika mereka tidak kembali.
 
 ## Menandai Tes
 

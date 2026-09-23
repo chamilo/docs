@@ -39,7 +39,7 @@ Tämän listan kuratoi Chamilon ydintiimi, eikä sitä voi laajentaa käyttäjä
 
 Jokainen käyttäjä luo oman avaimensa kohdassa **Sosiaalinen verkosto** > **MCP API -avain**:
 
-![MCP API -avaimen sivu, jossa näkyy passiivinen avain, Luo API-avain -painike sekä Etä-MCP-yhteys-lohko päätepisteen URL-osoitteella ja Authorization-otsikon muodolla](/.gitbook/assets/admin-mcp-api-key.png)
+![MCP API -avaimen sivu, jossa näkyy passiivinen avain, Luo API-avain -painike sekä Etä-MCP-yhteys-lohko päätepisteen URL-osoitteella ja Authorization-otsikon muodolla](../.gitbook/assets/admin-mcp-api-key.png)
 
 * **Luo API-avain** -painikkeen napsauttaminen luo avaimen ja näyttää sen kerran — Chamilo tallentaa sen jälkeen vain peitetyn version, joten koko avain on kopioitava ja tallennettava turvallisesti heti.
 * Uuden avaimen luominen kumoaa edellisen välittömästi.

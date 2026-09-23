@@ -2,7 +2,7 @@
 
 ## Een sessie aanmaken
 
-![Het formulier voor het aanmaken van een sessie met velden voor naam, datums, coach, categorie en zichtbaarheid](/.gitbook/assets/admin-session-create-form.png)
+![Het formulier voor het aanmaken van een sessie met velden voor naam, datums, coach, categorie en zichtbaarheid](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Klik in het beheerderspaneel op **Een sessie aanmaken**
 2. Vul de sessiegegevens in:
@@ -30,7 +30,7 @@ Dit stelt u in staat om de sessie voor te bereiden voordat leerlingen arriveren 
 
 ## Sessielijst
 
-![De sessielijst met alle sessies, inclusief naam, datums, aantal cursussen, aantal leerlingen en status](/.gitbook/assets/admin-session-list.png)
+![De sessielijst met alle sessies, inclusief naam, datums, aantal cursussen, aantal leerlingen en status](../../.gitbook/assets/admin-session-list.png)
 
 De sessielijst toont alle sessies met:
 
@@ -52,7 +52,7 @@ Klik op een sessie om te bewerken:
 
 ## Gebruikers inschrijven
 
-![De interface voor sessie-inschrijving om individuele gebruikers, klassen toe te voegen of te importeren via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![De interface voor sessie-inschrijving om individuele gebruikers, klassen toe te voegen of te importeren via CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 U kunt gebruikers inschrijven voor een sessie door:
 

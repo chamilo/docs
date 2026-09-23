@@ -2,7 +2,7 @@
 
 Sessioner är en av Chamilos mest kraftfulla funktioner. De gör det möjligt att leverera samma kurser till olika grupper av deltagare vid olika tidpunkter, utan att duplicera kursinnehåll.
 
-![Blocket Sessionhantering på administrationspanelen, med bland annat lista över utbildningssessioner, Lägg till en utbildningssession, sessionskategorier, import-/exportverktyg, karriärer och promotioner samt resurssekvensering](/.gitbook/assets/admin-sessions-block.png)
+![Blocket Sessionhantering på administrationspanelen, med bland annat lista över utbildningssessioner, Lägg till en utbildningssession, sessionskategorier, import-/exportverktyg, karriärer och promotioner samt resurssekvensering](../../.gitbook/assets/admin-sessions-block.png)
 
 * **[Hantera sessioner](managing-sessions.md)** — Skapa, konfigurera och hantera utbildningssessioner
 * **[Sessionskategorier](session-categories.md)** — Organisera sessioner i kategorier

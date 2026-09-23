@@ -8,7 +8,7 @@ Hallintapaneelista valitse **Turvallisuus > Kirjautumisyritykset**.
 
 ## Mitä se näyttää
 
-![Kirjautumisyritykset-sivu, jossa on kaavioita päivittäisistä yrityksistä, eniten yrityksiä tehneistä IP-osoitteista, kuukausittaisista epäonnistuneista yrityksistä, onnistuneista ja epäonnistuneista kirjautumisista, tunneittaisista yrityksistä ja uniikeista IP-osoitteista päivässä sekä taulukko epäonnistuneista kirjautumisyrityksistä](/.gitbook/assets/admin-security-login-attempts.png)
+![Kirjautumisyritykset-sivu, jossa on kaavioita päivittäisistä yrityksistä, eniten yrityksiä tehneistä IP-osoitteista, kuukausittaisista epäonnistuneista yrityksistä, onnistuneista ja epäonnistuneista kirjautumisista, tunneittaisista yrityksistä ja uniikeista IP-osoitteista päivässä sekä taulukko epäonnistuneista kirjautumisyrityksistä](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Yritykset päivittäin (viimeiset 7 päivää)** — Epäonnistuneiden yritysten päivittäinen määrä
 * **Eniten yrityksiä tehneet IP-osoitteet (viimeiset 30 päivää)** — Mitkä IP-osoitteet tuottivat eniten yrityksiä

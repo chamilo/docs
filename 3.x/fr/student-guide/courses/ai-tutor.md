@@ -17,11 +17,11 @@ Certaines plateformes activent aussi le Tuteur IA **en dehors de tout cours** �
 
 Cherchez le bouton de discussion (une icône flottante en bulle de parole) en bas de l’écran. L’ouvrir affiche vos contacts ainsi que, s’il est activé, une entrée dédiée **Tuteur IA** avec une icône de robot et un point « en ligne » — cliquez dessus pour démarrer ou poursuivre votre conversation avec l’IA.
 
-![La liste de contacts du panneau de discussion, avec une entrée Tuteur IA au-dessus de vos contacts habituels](/.gitbook/assets/student-docked-chat-contacts.png)
+![La liste de contacts du panneau de discussion, avec une entrée Tuteur IA au-dessus de vos contacts habituels](../../.gitbook/assets/student-docked-chat-contacts.png)
 
 Saisissez votre question et appuyez sur **Entrée** pour l’envoyer (**Maj+Entrée** insère un saut de ligne au lieu d’envoyer). Le Tuteur IA met en forme ses réponses avec des titres, des listes, du texte en gras et des blocs de code lorsque c’est utile, afin que les explications plus longues restent lisibles.
 
-![Une conversation ouverte avec le Tuteur IA, avec le champ de saisie des messages en bas](/.gitbook/assets/student-ai-tutor-conversation.png)
+![Une conversation ouverte avec le Tuteur IA, avec le champ de saisie des messages en bas](../../.gitbook/assets/student-ai-tutor-conversation.png)
 
 ## Poser une question sur ce que vous lisez
 

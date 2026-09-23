@@ -1,6 +1,6 @@
 # Évaluation des options de question
 
-Évaluation des options de question <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Évaluation des options de question" data-size="line"> vous permet d’appliquer une formule de notation négative (pénalité) au barème d’un test, au lieu du comportement par défaut de Chamilo qui consiste simplement à additionner les réponses correctes.
+Évaluation des options de question <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Évaluation des options de question" data-size="line"> vous permet d’appliquer une formule de notation négative (pénalité) au barème d’un test, au lieu du comportement par défaut de Chamilo qui consiste simplement à additionner les réponses correctes.
 
 ## Définir une formule
 

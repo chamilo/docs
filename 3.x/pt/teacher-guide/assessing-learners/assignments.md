@@ -4,7 +4,7 @@ A ferramenta de trabalhos (também chamada de «publicações dos alunos») perm
 
 ## Criar um trabalho
 
-1. Abra a ferramenta **Trabalhos** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> a partir da página inicial do curso
+1. Abra a ferramenta **Trabalhos** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Trabalhos" data-size="line"> a partir da página inicial do curso
 2. Clique em **Criar um trabalho**
 3. Preencha os detalhes:
    * **Nome do trabalho** — O nome do trabalho (p. ex., «Relatório do projeto final»)
@@ -41,7 +41,7 @@ Os formandos podem ver se já submeteram e, se for permitido, atualizar o envio.
 
 ## Rever os envios
 
-![A lista de envios do trabalho, com nomes dos alunos, datas, ficheiros e estado da classificação](/.gitbook/assets/assignments-submissions-list.png)
+![A lista de envios do trabalho, com nomes dos alunos, datas, ficheiros e estado da classificação](../../.gitbook/assets/assignments-submissions-list.png)
 
 Como professor, abra um trabalho para ver a lista de todos os envios:
 
@@ -53,7 +53,7 @@ Como professor, abra um trabalho para ver a lista de todos os envios:
 
 ### Classificar um envio
 
-![A vista de classificação do trabalho, com campo de pontuação, campo de feedback e carregamento de ficheiro corrigido](/.gitbook/assets/assignment-grading-view.png)
+![A vista de classificação do trabalho, com campo de pontuação, campo de feedback e carregamento de ficheiro corrigido](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Clique num envio para o abrir
 2. Reveja o ficheiro submetido

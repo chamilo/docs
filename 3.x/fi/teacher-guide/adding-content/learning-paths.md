@@ -16,14 +16,14 @@ Oppimispolut ovat hyödyllisiä, kun haluat:
 
 ## Oppimispolun luominen
 
-1. Avaa **Oppimispolut**-työkalu <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Oppimispolut" data-size="line"> kurssin etusivulta
+1. Avaa **Oppimispolut**-työkalu <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Oppimispolut" data-size="line"> kurssin etusivulta
 2. Napsauta **Luo oppimispolku**
 3. Anna **otsikko** ja valinnainen kuvaus
 4. Tallenna — sinut viedään oppimispolun editoriin
 
 ## Oppimispolun editori
 
-![Oppimispolun editori, vasemmalla kohdepuu ja oikealla sisällön esikatselu](/.gitbook/assets/learning-path-editor.png)
+![Oppimispolun editori, vasemmalla kohdepuu ja oikealla sisällön esikatselu](../../.gitbook/assets/learning-path-editor.png)
 
 Editorissa on kaksi pääaluetta:
 
@@ -94,17 +94,17 @@ C-Studio lisää sisäänrakennetun, vedä ja pudota -visuaalieditorin interakti
 
 Kun liitännäinen on aktiivinen, oppimispolkujen luettelossa näkyy tavallisen toimintovalikon vieressä ylimääräinen painike, jossa on "+" ja työkaluvihje "Studio Tools":
 
-![Oppimispolkujen luettelo, jossa näkyy C-Studion "Studio Tools" -painike tavallisen toimintovalikon vieressä](/.gitbook/assets/cstudio-lp-button.png)
+![Oppimispolkujen luettelo, jossa näkyy C-Studion "Studio Tools" -painike tavallisen toimintovalikon vieressä](../../.gitbook/assets/cstudio-lp-button.png)
 
 Napsauta sitä aloittaaksesi. Sinua pyydetään luomaan uusi projekti tyhjästä tai tuomaan olemassa oleva:
 
-![C-Studion aloitusnäyttö, jossa voi luoda uuden projektin tai tuoda olemassa olevan](/.gitbook/assets/cstudio-start-screen.png)
+![C-Studion aloitusnäyttö, jossa voi luoda uuden projektin tai tuoda olemassa olevan](../../.gitbook/assets/cstudio-start-screen.png)
 
 Tämä näyttö on tällä hetkellä saatavilla vain ranskaksi alustan tai kurssin kielestä riippumatta — tunnettu rajoitus käytössä olevassa liitännäisversiossa. Anna projektille otsikko, niin se avautuu suoraan editoriin.
 
 ### Editori
 
-![C-Studion visuaalinen editori, jossa näkyvät sivun kangas, työkalupaletti oikealla ja projektipaneeli vasemmalla](/.gitbook/assets/cstudio-editor.png)
+![C-Studion visuaalinen editori, jossa näkyvät sivun kangas, työkalupaletti oikealla ja projektipaneeli vasemmalla](../../.gitbook/assets/cstudio-editor.png)
 
 Editori on sivukohtainen visuaalinen rakentaja:
 
@@ -118,7 +118,7 @@ Paletti kattaa perusrakennuspalikat (sarakkeet, kuvat, ääni, otsikot, teksti, 
 
 C-Studion oma käyttöliittymä voi oletuksena olla ranskaksi, kun avaat sen ensimmäisen kerran, riippumatta Chamilo-käyttöliittymän kielestä tai kurssin kielestä. Jos näin on, siirry kohtaan **File > UI language** ja valitse kielesi — editori latautuu uudelleen heti ja muistaa valintasi sen jälkeen.
 
-![File-valikko avoinna, jossa näkyy "UI language" -vaihtoehto](/.gitbook/assets/cstudio-file-menu.png)
+![File-valikko avoinna, jossa näkyy "UI language" -vaihtoehto](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### Tallentaminen ja vieminen
 

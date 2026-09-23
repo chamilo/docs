@@ -6,7 +6,7 @@ Hvis du har glemt din adgangskode — eller bare vil ændre den — er her, hvor
 
 På login-siden skal du klikke på **Glemt din adgangskode?**. Hvis dette link ikke er der, har din administrator deaktiveret denne funktion — kontakt dem direkte for at få adgang igen.
 
-![Formularen "Jeg har mistet min adgangskode" med et enkelt felt til dit brugernavn eller din e-mailadresse](/.gitbook/assets/student-lost-password.png)
+![Formularen "Jeg har mistet min adgangskode" med et enkelt felt til dit brugernavn eller din e-mailadresse](../../.gitbook/assets/student-lost-password.png)
 
 1. Indtast dit **brugernavn eller din e-mailadresse** i det enkelte felt på formularen.
 2. Hvis der vises en CAPTCHA-udfordring, skal du løse den (se [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Du kan ændre din adgangskode når som helst, uden at vente på at glemme den:
 2. Klik på **Skift adgangskode**.
 3. Indtast din nuværende adgangskode, derefter din nye adgangskode to gange, og send formularen.
 
-![Formularen Skift adgangskode med felter til din nuværende adgangskode og en ny adgangskode](/.gitbook/assets/student-change-password.png)
+![Formularen Skift adgangskode med felter til din nuværende adgangskode og en ny adgangskode](../../.gitbook/assets/student-change-password.png)
 
 Dette er den samme side, hvor du kan aktivere [tofaktorgodkendelse](two-factor-authentication.md), hvis din platform understøtter det — i så fald vil du også se et afkrydsningsfelt "Aktivér tofaktorgodkendelse" her, som ikke vises ovenfor, da det ikke er aktivt på alle platforme.
 

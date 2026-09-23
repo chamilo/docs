@@ -7,10 +7,10 @@ Bagian ini menjelaskan cara membuat kursus baru di Chamilo dan mengonfigurasinya
 Untuk membuat kursus:
 
 1. Klik **Kursus saya** di bilah sisi
-2. Klik tombol **Buat kursus** (biasanya berupa ikon buku hijau <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kursus" data-size="line"> dengan tanda +)
+2. Klik tombol **Buat kursus** (biasanya berupa ikon buku hijau <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kursus" data-size="line"> dengan tanda +)
 3. Isi formulir pembuatan kursus:
 
-![Formulir pembuatan kursus dengan kolom untuk nama, kategori, kode, dan bahasa](/.gitbook/assets/course-creation-form.png)
+![Formulir pembuatan kursus dengan kolom untuk nama, kategori, kode, dan bahasa](../../.gitbook/assets/course-creation-form.png)
 
 | Kolom | Wajib | Deskripsi |
 |-------|----------|-------------|
@@ -29,19 +29,19 @@ Anda akan diarahkan ke beranda kursus baru Anda. Pesan konfirmasi akan muncul: "
 
 Setelah kursus Anda dibuat, Anda tiba di berandanya. Ini adalah pusat utama kursus Anda, tempat Anda dan peserta didik mengakses semua alat dan konten.
 
-![Kisi alat beranda kursus yang menampilkan alat kursus yang tersedia beserta ikon dan sakelar visibilitas](/.gitbook/assets/course-homepage-tool-grid.png)
+![Kisi alat beranda kursus yang menampilkan alat kursus yang tersedia beserta ikon dan sakelar visibilitas](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 Beranda menampilkan:
 
 * **Judul kursus** — Nama kursus Anda, ditampilkan di bagian atas.
-* **Pengantar kursus** — Deskripsi atau pesan selamat datang opsional. Klik tombol **+ Pengantar kursus** untuk menambahkannya, atau tombol **Edit pengantar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> di bagian atas untuk mengubahnya. Ini mendukung teks kaya dengan gambar, tautan, dan pemformatan.
+* **Pengantar kursus** — Deskripsi atau pesan selamat datang opsional. Klik tombol **+ Pengantar kursus** untuk menambahkannya, atau tombol **Edit pengantar** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> di bagian atas untuk mengubahnya. Ini mendukung teks kaya dengan gambar, tautan, dan pemformatan.
 * **Kisi alat** — Kisi semua alat kursus yang tersedia, masing-masing ditampilkan sebagai kartu dengan ikon dan nama.
 
 ### Mengelola Visibilitas Alat
 
 Sebagai pengajar, Anda dapat mengontrol alat mana yang dapat dilihat peserta didik:
 
-* Klik **ikon mata** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Terlihat" data-size="line"> di samping alat mana pun untuk menyembunyikannya dari peserta didik. Alat tersembunyi menampilkan **mata yang dicoret** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Tersembunyi" data-size="line"> dan tetap dapat diakses oleh Anda.
+* Klik **ikon mata** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Terlihat" data-size="line"> di samping alat mana pun untuk menyembunyikannya dari peserta didik. Alat tersembunyi menampilkan **mata yang dicoret** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Tersembunyi" data-size="line"> dan tetap dapat diakses oleh Anda.
 * Gunakan tombol **Tampilkan semua** dan **Sembunyikan semua** untuk mengubah semua alat sekaligus
 * Klik **Urutkan** untuk mengaktifkan pengurutan ulang kisi alat dengan seret-dan-lepas
 

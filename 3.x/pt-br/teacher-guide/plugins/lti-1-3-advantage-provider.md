@@ -1,6 +1,6 @@
 # Provedor LTI 1.3 Advantage
 
-O Provedor LTI 1.3 Advantage <img src="/.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="Provedor LTI 1.3 Advantage" data-size="line"> funciona de forma inversa ao [Cliente IMS/LTI](ims-lti.md): em vez de o Chamilo iniciar uma ferramenta externa, ele permite que um **LMS externo** (por exemplo, outro portal Chamilo, ou outra plataforma como o Moodle) inicie um dos seus exercícios ou percursos de aprendizagem como se fosse uma ferramenta dentro desse outro sistema, com as notas enviadas de volta ao Chamilo.
+O Provedor LTI 1.3 Advantage <img src="../../.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="Provedor LTI 1.3 Advantage" data-size="line"> funciona de forma inversa ao [Cliente IMS/LTI](ims-lti.md): em vez de o Chamilo iniciar uma ferramenta externa, ele permite que um **LMS externo** (por exemplo, outro portal Chamilo, ou outra plataforma como o Moodle) inicie um dos seus exercícios ou percursos de aprendizagem como se fosse uma ferramenta dentro desse outro sistema, com as notas enviadas de volta ao Chamilo.
 
 ## O que isso significa para você
 

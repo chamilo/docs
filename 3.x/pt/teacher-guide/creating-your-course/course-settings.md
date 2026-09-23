@@ -2,7 +2,7 @@
 
 As definições do curso permitem controlar o comportamento do seu curso — quem pode aceder, como aparece e que funcionalidades estão ativadas.
 
-Para aceder às definições do curso, entre no seu curso e clique no ícone **Definições** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> junto ao botão **Mudar para vista de estudante**.
+Para aceder às definições do curso, entre no seu curso e clique no ícone **Definições** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> junto ao botão **Mudar para vista de estudante**.
 
 ## Definições Gerais
 
@@ -29,7 +29,7 @@ Cada curso tem um limite de armazenamento (quota de disco) para ficheiros carreg
 
 ### Visibilidade do Curso
 
-![As definições de visibilidade do curso a mostrar as opções público, aberto, registado e fechado](/.gitbook/assets/course-settings-visibility.png)
+![As definições de visibilidade do curso a mostrar as opções público, aberto, registado e fechado](../../.gitbook/assets/course-settings-visibility.png)
 
 Controle quem pode aceder ao seu curso:
 
@@ -84,7 +84,7 @@ Controle o comportamento na ferramenta de fórum deste curso.
 
 ### Definições de Arranque Automático
 
-Um curso pode ser configurado para ter um comportamento de arranque automático, o que encurtará o percurso dos formandos até às partes importantes do seu curso. Se estiver ativado, os formandos que acederem ao seu curso serão enviados diretamente para a ferramenta selecionada e não verão a página inicial do curso como passo intermédio. Pode até selecionar percursos de aprendizagem ou exercícios específicos para serem iniciados à chegada ao curso. Neste caso, precisa de selecionar a opção aqui, depois ir à lista de percursos de aprendizagem ou de exercícios e clicar no ícone do foguete <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Arranque automático" data-size="line"> no item selecionado.
+Um curso pode ser configurado para ter um comportamento de arranque automático, o que encurtará o percurso dos formandos até às partes importantes do seu curso. Se estiver ativado, os formandos que acederem ao seu curso serão enviados diretamente para a ferramenta selecionada e não verão a página inicial do curso como passo intermédio. Pode até selecionar percursos de aprendizagem ou exercícios específicos para serem iniciados à chegada ao curso. Neste caso, precisa de selecionar a opção aqui, depois ir à lista de percursos de aprendizagem ou de exercícios e clicar no ícone do foguete <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Arranque automático" data-size="line"> no item selecionado.
 
 ### Definições dos Assistentes de IA
 

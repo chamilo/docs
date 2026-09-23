@@ -4,7 +4,7 @@ Das Foren-Tool ermöglicht es Ihnen, strukturierte Diskussionen innerhalb Ihres 
 
 ## Forenstruktur
 
-![Die Liste der Forenkategorien mit Kategorien, Foren und Themenzahlen](/.gitbook/assets/forum-category-list.png)
+![Die Liste der Forenkategorien mit Kategorien, Foren und Themenzahlen](../../.gitbook/assets/forum-category-list.png)
 
 Foren in Chamilo sind in drei Ebenen organisiert:
 
@@ -14,7 +14,7 @@ Foren in Chamilo sind in drei Ebenen organisiert:
 
 ## Erstellen einer Forenkategorie
 
-1. Öffnen Sie das **Foren**-Tool <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> über die Startseite Ihres Kurses
+1. Öffnen Sie das **Foren**-Tool <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> über die Startseite Ihres Kurses
 2. Klicken Sie auf **Forenkategorie hinzufügen**
 3. Geben Sie einen **Kategoriennamen** und optional eine Beschreibung ein
 4. Speichern

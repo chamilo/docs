@@ -13,7 +13,7 @@ Pastikan prasyarat berikut telah terpenuhi:
 
 ## Langkah 1: Bahasa Instalasi
 
-![Panduan instalasi Langkah 1 — pemilihan bahasa](/.gitbook/assets/install-step1-language.png)
+![Panduan instalasi Langkah 1 — pemilihan bahasa](../../.gitbook/assets/install-step1-language.png)
 
 Langkah pertama memungkinkan Anda memilih bahasa untuk proses instalasi. Pilih bahasa yang Anda inginkan dari menu dropdown.
 
@@ -21,7 +21,7 @@ Jika Chamilo mendeteksi instalasi yang sudah ada (untuk peningkatan versi), maka
 
 ## Langkah 2: Pemeriksaan Persyaratan
 
-![Panduan instalasi Langkah 2 — pemeriksaan persyaratan yang menunjukkan versi PHP, ekstensi, dan izin direktori](/.gitbook/assets/install-step2-requirements.png)
+![Panduan instalasi Langkah 2 — pemeriksaan persyaratan yang menunjukkan versi PHP, ekstensi, dan izin direktori](../../.gitbook/assets/install-step2-requirements.png)
 
 Panduan ini memeriksa lingkungan server Anda:
 
@@ -34,7 +34,7 @@ Jika ada persyaratan yang tidak terpenuhi, panduan akan menampilkan peringatan a
 
 ## Langkah 3: Lisensi
 
-![Panduan instalasi Langkah 3 — penerimaan lisensi](/.gitbook/assets/install-step3-license.png)
+![Panduan instalasi Langkah 3 — penerimaan lisensi](../../.gitbook/assets/install-step3-license.png)
 
 Langkah ini menampilkan lisensi GNU/GPLv3. Anda harus mencentang kotak **"Saya setuju"** untuk melanjutkan.
 
@@ -42,7 +42,7 @@ Secara opsional, Anda dapat membuka bagian **Informasi Kontak** untuk memberikan
 
 ## Langkah 4: Pengaturan Basis Data
 
-![Panduan instalasi Langkah 4 — konfigurasi koneksi basis data](/.gitbook/assets/install-step4-database.png)
+![Panduan instalasi Langkah 4 — konfigurasi koneksi basis data](../../.gitbook/assets/install-step4-database.png)
 
 Masukkan detail koneksi basis data Anda:
 
@@ -58,7 +58,7 @@ Klik **Periksa koneksi basis data** untuk menguji. Panduan tidak akan mengizinka
 
 ## Langkah 5: Pengaturan Konfigurasi
 
-![Panduan instalasi Langkah 5 — akun administrator, pengaturan portal, dan konfigurasi email](/.gitbook/assets/install-step5-config.png)
+![Panduan instalasi Langkah 5 — akun administrator, pengaturan portal, dan konfigurasi email](../../.gitbook/assets/install-step5-config.png)
 
 Langkah ini menggabungkan pembuatan akun administrator, pengaturan portal, dan konfigurasi email.
 
@@ -96,7 +96,7 @@ Semua pengaturan ini dapat diubah nanti dari panel administrasi.
 ---
 ## Langkah 6: Pemeriksaan Terakhir Sebelum Instalasi
 
-![Pemandu instalasi Langkah 6 — tinjauan semua pengaturan sebelum instalasi](/.gitbook/assets/install-step6-review.png)
+![Pemandu instalasi Langkah 6 — tinjauan semua pengaturan sebelum instalasi](../../.gitbook/assets/install-step6-review.png)
 
 Langkah ini menampilkan ringkasan dari semua yang Anda masukkan untuk ditinjau:
 
@@ -108,7 +108,7 @@ Tinjau dengan cermat, lalu klik **Instal Chamilo** untuk menjalankan instalasi. 
 
 ## Langkah 7: Instalasi Selesai
 
-![Pemandu instalasi Langkah 7 — penyelesaian dengan saran keamanan dan tautan portal](/.gitbook/assets/install-step7-complete.png)
+![Pemandu instalasi Langkah 7 — penyelesaian dengan saran keamanan dan tautan portal](../../.gitbook/assets/install-step7-complete.png)
 
 Setelah instalasi berhasil selesai, pemandu akan menampilkan:
 

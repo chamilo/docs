@@ -32,4 +32,4 @@
 
 ## 访问管理面板
 
-以管理员身份登录后，点击侧边栏中的 **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理员" data-size="line"> 以访问管理面板。
+以管理员身份登录后，点击侧边栏中的 **Administration** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="管理员" data-size="line"> 以访问管理面板。

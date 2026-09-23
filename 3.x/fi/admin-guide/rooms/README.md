@@ -2,7 +2,7 @@
 
 Hallintapaneelin **Tilat**-lohko hallinnoi fyysisiä sijainteja, joita Chamilo voi seurata lähi- tai yhdistelmäkoulutusta varten: toimipisteitä (sivustoja), niiden tiloja sekä työkalua, jolla selvitetään, mitkä tilat ovat vapaana tiettynä ajankohtana.
 
-![Hallintapaneelin Tilat-lohko, jossa luetellaan Toimipisteet, Tilat ja Tilojen saatavuushaku](/.gitbook/assets/admin-rooms-block.png)
+![Hallintapaneelin Tilat-lohko, jossa luetellaan Toimipisteet, Tilat ja Tilojen saatavuushaku](../../.gitbook/assets/admin-rooms-block.png)
 
 Tämä luku käsittelee toimipisteiden ja tilojen hallintaa ylläpitäjän näkökulmasta. Opettajan puolelle — tilan liittäminen kurssisessioon — katso [Toimipisteet ja tilat](../../teacher-guide/branches-and-rooms.md) opettajan oppaassa.
 

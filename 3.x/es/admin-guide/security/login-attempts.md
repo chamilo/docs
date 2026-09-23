@@ -8,7 +8,7 @@ Desde el panel de administración, haga clic en **Seguridad > Intentos de inicio
 
 ## Qué muestra
 
-![La página de Intentos de inicio de sesión, con gráficos de intentos por día, IPs principales, intentos fallidos por mes, inicios de sesión correctos frente a fallidos, intentos por hora e IPs únicas por día, seguida de una tabla de intentos fallidos de inicio de sesión](/.gitbook/assets/admin-security-login-attempts.png)
+![La página de Intentos de inicio de sesión, con gráficos de intentos por día, IPs principales, intentos fallidos por mes, inicios de sesión correctos frente a fallidos, intentos por hora e IPs únicas por día, seguida de una tabla de intentos fallidos de inicio de sesión](../../.gitbook/assets/admin-security-login-attempts.png)
 
 * **Intentos por día (últimos 7 días)** — Recuento diario de intentos fallidos
 * **IPs principales (últimos 30 días)** — Qué direcciones IP generaron más intentos

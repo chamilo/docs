@@ -2,7 +2,7 @@
 
 Le contrôle de santé (Health Check) est un petit bloc du tableau de bord d’administration qui exécute quelques vérifications en direct sur votre installation et signale tout ce qui nécessite une attention — sans avoir à parcourir les fichiers de configuration pour détecter les erreurs de paramétrage courantes.
 
-![Le bloc Contrôle de santé du tableau de bord d’administration, affichant le statut réussite/échec pour les paramètres de messagerie, l’affectation d’URL d’administration et les vérifications des permissions de fichiers](/.gitbook/assets/admin-health-check-block.png)
+![Le bloc Contrôle de santé du tableau de bord d’administration, affichant le statut réussite/échec pour les paramètres de messagerie, l’affectation d’URL d’administration et les vérifications des permissions de fichiers](../.gitbook/assets/admin-health-check-block.png)
 
 ## Accéder au contrôle de santé
 

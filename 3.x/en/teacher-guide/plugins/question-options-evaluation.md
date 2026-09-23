@@ -1,6 +1,6 @@
 # Question Options Evaluation
 
-Question Options Evaluation <img src="/.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Question Options Evaluation" data-size="line"> lets you apply a negative-marking (penalty) formula to a test's scoring, instead of Chamilo's default behavior of simply summing correct answers.
+Question Options Evaluation <img src="../../.gitbook/assets/icons/mdi-calculator-variant.svg" alt="Question Options Evaluation" data-size="line"> lets you apply a negative-marking (penalty) formula to a test's scoring, instead of Chamilo's default behavior of simply summing correct answers.
 
 ## Setting a Formula
 

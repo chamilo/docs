@@ -4,7 +4,7 @@ Como administrador, você pode gerenciar todos os cursos na plataforma, independ
 
 ## Lista de Cursos
 
-![A lista de cursos mostrando todos os cursos com título, código, categoria, usuários inscritos e status de visibilidade](/.gitbook/assets/admin-course-list.png)
+![A lista de cursos mostrando todos os cursos com título, código, categoria, usuários inscritos e status de visibilidade](../../.gitbook/assets/admin-course-list.png)
 
 No painel de administração, clique em **Lista de cursos** para ver todos os cursos. A lista exibe:
 

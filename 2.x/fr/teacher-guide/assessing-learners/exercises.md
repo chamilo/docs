@@ -4,7 +4,7 @@ L'outil d'exercices (également appelé "tests") vous permet de créer des quiz 
 
 ## Créer un exercice
 
-1. Ouvrez l'outil **Exercices** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercices" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Exercices** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercices" data-size="line"> depuis la page d'accueil du cours
 2. Cliquez sur **Nouvel exercice**
 3. Saisissez un **titre** et une **description** optionnelle
 4. Configurez les paramètres de l'exercice (voir ci-dessous)
@@ -12,7 +12,7 @@ L'outil d'exercices (également appelé "tests") vous permet de créer des quiz 
 
 ## Paramètres de l'exercice
 
-![Le panneau des paramètres de l'exercice avec des options pour l'affichage, le temps, les tentatives et le feedback](/.gitbook/assets/exercise-settings.png)
+![Le panneau des paramètres de l'exercice avec des options pour l'affichage, le temps, les tentatives et le feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Affichage et navigation
 
@@ -75,7 +75,7 @@ Vous pouvez également configurer des stratégies de sélection avancées combin
 
 ## Types de questions
 
-![Aperçu des types de questions disponibles dans l'interface de création d'exercices](/.gitbook/assets/exercise-question-types.png)
+![Aperçu des types de questions disponibles dans l'interface de création d'exercices](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo propose un ensemble riche de types de questions organisés en plusieurs catégories :
 

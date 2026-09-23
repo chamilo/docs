@@ -8,6 +8,6 @@ Chamilo melacak aktivitas peserta didik di seluruh platform, memberikan Anda waw
 
 ## Mengakses Laporan
 
-Dari kursus Anda, klik alat **Pelacakan** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> pada beranda kursus. Anda juga dapat mengakses pelaporan dari tautan **Pelaporan** di bilah sisi untuk ikhtisar lintas kursus.
+Dari kursus Anda, klik alat **Pelacakan** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> pada beranda kursus. Anda juga dapat mengakses pelaporan dari tautan **Pelaporan** di bilah sisi untuk ikhtisar lintas kursus.
 
 Pengajar melihat data pelaporan untuk kursus yang mereka ajar. Tutor sesi melihat data di seluruh kursus dalam sesi mereka.

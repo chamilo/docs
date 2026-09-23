@@ -4,13 +4,13 @@ Dokumentværktøjet er kursets filarkiv. Du kan uploade filer, oprette dokumente
 
 ## Adgang til dokumentværktøjet
 
-Åbn værktøjet **Dokumenter** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> fra kursets startside. Du vil se en filbrowser, der viser rodmappe i kursets dokumentbibliotek.
+Åbn værktøjet **Dokumenter** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> fra kursets startside. Du vil se en filbrowser, der viser rodmappe i kursets dokumentbibliotek.
 
-![Filbrowseren for dokumenter, der viser mapper og filer med handlingsikoner](/.gitbook/assets/documents-file-browser.png)
+![Filbrowseren for dokumenter, der viser mapper og filer med handlingsikoner](../../.gitbook/assets/documents-file-browser.png)
 
 ## Upload af filer
 
-1. Klik på knappen **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
+1. Klik på knappen **Upload** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
 2. Vælg en eller flere filer fra din computer (du kan trække og slippe filer i uploadområdet)
 3. Filerne uploades og vises i den aktuelle mappe
 
@@ -52,7 +52,7 @@ Hvis din browser understøtter det, kan du optage lyd direkte i dokumentværktø
 
 Hold dokumentbiblioteket organiseret ved hjælp af mapper:
 
-1. Klik på **Ny mappe** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Ny mappe" data-size="line">
+1. Klik på **Ny mappe** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="Ny mappe" data-size="line">
 2. Angiv et mappenavn
 3. Gem
 
@@ -61,7 +61,7 @@ Du kan oprette indlejrede mapper for at opbygge et logisk indholdshierarki (f.ek
 ### Flytning af filer
 
 * Find filen i listen
-* Klik på **Flyt** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Flyt" data-size="line">
+* Klik på **Flyt** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Flyt" data-size="line">
 * Vælg destinationsmappen
 * Bekræft
 
@@ -71,12 +71,12 @@ For hver fil eller mappe kan du:
 
 | Handling | Ikon | Beskrivelse |
 |--------|------|-------------|
-| **Rediger** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> | Omdøb filen eller rediger dens indhold (for websider) |
-| **Slet** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> | Fjern filen eller mappen |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download filen til din computer |
-| **Synlighed** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> | Skjul eller vis filen for kursister |
-| **Erstat** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Erstat" data-size="line"> | Erstat filen med en opdateret version |
-| **Flyt** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Flyt" data-size="line"> | Flyt til en anden mappe |
+| **Rediger** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Rediger" data-size="line"> | Omdøb filen eller rediger dens indhold (for websider) |
+| **Slet** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Slet" data-size="line"> | Fjern filen eller mappen |
+| **Download** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download filen til din computer |
+| **Synlighed** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Synlighed" data-size="line"> | Skjul eller vis filen for kursister |
+| **Erstat** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="Erstat" data-size="line"> | Erstat filen med en opdateret version |
+| **Flyt** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="Flyt" data-size="line"> | Flyt til en anden mappe |
 
 At erstatte en fil er en vigtig funktion, når du bruger dokumenter til at opbygge læringsstier, da erstatning af dokumentet gør det muligt at opdatere dokumentet, uden at kursister mister den fremskridt, der er gemt for det dokument.
 
@@ -86,7 +86,7 @@ Markér flere filer med afkrydsningsfelter, og brug derefter værktøjslinjen ti
 
 ## OnlyOffice-integration
 
-Hvis din administrator har konfigureret **OnlyOffice**-pluginnet, kan du redigere Word-, Excel- og PowerPoint-filer (eller LibreOffice) direkte i browseren uden at downloade dem. Se efter indstillingen **Rediger med OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line">, når du vises en understøttet fil.
+Hvis din administrator har konfigureret **OnlyOffice**-pluginnet, kan du redigere Word-, Excel- og PowerPoint-filer (eller LibreOffice) direkte i browseren uden at downloade dem. Se efter indstillingen **Rediger med OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line">, når du vises en understøttet fil.
 
 Dokumenter gemmes i Chamilo; OnlyOffice bruges kun til at **vise** eller redigere dokumenterne i browseren, uden behov for noget ekstra værktøj.
 

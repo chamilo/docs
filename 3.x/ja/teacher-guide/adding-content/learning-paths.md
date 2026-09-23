@@ -16,14 +16,14 @@
 
 ## ラーニングパスの作成
 
-1. コースホームページから **ラーニングパス** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="ラーニングパス" data-size="line"> ツールを開く
+1. コースホームページから **ラーニングパス** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="ラーニングパス" data-size="line"> ツールを開く
 2. **ラーニングパスを作成** をクリックする
 3. **タイトル** と任意の説明を入力する
 4. 保存する — ラーニングパスエディターに移動します
 
 ## ラーニングパスエディター
 
-![左側にアイテムツリー、右側にコンテンツプレビューがあるラーニングパスエディター](/.gitbook/assets/learning-path-editor.png)
+![左側にアイテムツリー、右側にコンテンツプレビューがあるラーニングパスエディター](../../.gitbook/assets/learning-path-editor.png)
 
 エディターには主に2つの領域があります。
 
@@ -94,17 +94,17 @@ C-Studioは、ラーニングパス内でインタラクティブなコンテン
 
 プラグインが有効な場合、ラーニングパスの一覧には、通常の操作メニューの横に「+」と「Studio Tools」のツールチップが付いた追加ボタンが表示されます。
 
-![標準の操作メニューの横にC-Studioの「Studio Tools」ボタンが表示されたラーニングパス一覧](/.gitbook/assets/cstudio-lp-button.png)
+![標準の操作メニューの横にC-Studioの「Studio Tools」ボタンが表示されたラーニングパス一覧](../../.gitbook/assets/cstudio-lp-button.png)
 
 クリックして開始します。新規プロジェクトをゼロから作成するか、既存のプロジェクトをインポートするかを求められます。
 
-![新規プロジェクトの作成または既存プロジェクトのインポートを提示するC-Studioの開始画面](/.gitbook/assets/cstudio-start-screen.png)
+![新規プロジェクトの作成または既存プロジェクトのインポートを提示するC-Studioの開始画面](../../.gitbook/assets/cstudio-start-screen.png)
 
 この画面は、プラットフォームやコースの言語に関係なく、現時点ではフランス語のみで表示されます。使用中のプラグインバージョンの既知の制限です。プロジェクトにタイトルを付けると、そのままエディターが開きます。
 
 ### エディター
 
-![ページキャンバス、右側のツールパレット、左側のプロジェクトパネルを示すC-Studioのビジュアルエディター](/.gitbook/assets/cstudio-editor.png)
+![ページキャンバス、右側のツールパレット、左側のプロジェクトパネルを示すC-Studioのビジュアルエディター](../../.gitbook/assets/cstudio-editor.png)
 
 エディターはページ単位のビジュアルビルダーです。
 
@@ -118,7 +118,7 @@ C-Studioは、ラーニングパス内でインタラクティブなコンテン
 
 C-Studio自体のインターフェースは、Chamiloのインターフェース言語やコースの言語とは独立して、初回起動時にフランス語が既定になることがあります。その場合は、**File > UI language** に進み、言語を選択してください。エディターはすぐに再読み込みされ、以降はその選択が記憶されます。
 
-![「UI language」オプションが表示されたFileメニュー](/.gitbook/assets/cstudio-file-menu.png)
+![「UI language」オプションが表示されたFileメニュー](../../.gitbook/assets/cstudio-file-menu.png)
 
 ### 保存とエクスポート
 

@@ -4,7 +4,7 @@
 
 ## 課程清單
 
-![課程清單顯示所有課程的標題、代碼、類別、已註冊使用者與可見性狀態](/.gitbook/assets/admin-course-list.png)
+![課程清單顯示所有課程的標題、代碼、類別、已註冊使用者與可見性狀態](../../.gitbook/assets/admin-course-list.png)
 
 從管理面板點選 **課程清單** 即可查看所有課程。清單會顯示：
 

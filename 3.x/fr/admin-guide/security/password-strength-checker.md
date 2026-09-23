@@ -8,7 +8,7 @@ Depuis le panneau d’administration, cliquez sur **Sécurité > Vérificateur d
 
 ## Lancer une analyse
 
-![La page du vérificateur de robustesse des mots de passe, avec un champ pour les identifiants d’utilisateurs à analyser et un bouton pour lancer l’analyse](/.gitbook/assets/admin-security-password-strength.png)
+![La page du vérificateur de robustesse des mots de passe, avec un champ pour les identifiants d’utilisateurs à analyser et un bouton pour lancer l’analyse](../../.gitbook/assets/admin-security-password-strength.png)
 
 * Laissez **Identifiants d’utilisateurs à analyser** vide pour analyser tous les utilisateurs actifs, ou saisissez une liste d’identifiants d’utilisateurs séparés par des virgules pour vérifier un sous-ensemble
 * Cliquez sur **Lancer l’analyse de robustesse des mots de passe**
@@ -17,7 +17,7 @@ L’analyse s’exécute de manière asynchrone en arrière-plan afin de ne pas 
 
 ## Agir sur les résultats
 
-![Les résultats de l’analyse terminée, listant un utilisateur signalé avec les colonnes Nom, Nom d’utilisateur et E-mail, et des actions par ligne pour demander un changement de mot de passe ou forcer une réinitialisation de mot de passe](/.gitbook/assets/admin-security-password-strength-results.png)
+![Les résultats de l’analyse terminée, listant un utilisateur signalé avec les colonnes Nom, Nom d’utilisateur et E-mail, et des actions par ligne pour demander un changement de mot de passe ou forcer une réinitialisation de mot de passe](../../.gitbook/assets/admin-security-password-strength-results.png)
 
 Une fois l’analyse terminée, les utilisateurs signalés sont listés avec deux actions disponibles, soit par utilisateur, soit en action groupée pour tous les utilisateurs sélectionnés :
 

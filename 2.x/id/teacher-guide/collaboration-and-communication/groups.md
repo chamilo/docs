@@ -14,7 +14,7 @@ Fitur kelompok memungkinkan Anda untuk membagi siswa ke dalam tim-tim kecil untu
 
 ## Alat Kelompok
 
-![Tinjauan kelompok menampilkan alat yang tersedia dan jumlah anggota](/.gitbook/assets/groups-overview.png)
+![Tinjauan kelompok menampilkan alat yang tersedia dan jumlah anggota](../../.gitbook/assets/groups-overview.png)
 
 Setiap kelompok dapat mengakses subset dari alat kursus, yang hanya dibagikan di antara anggota kelompok:
 

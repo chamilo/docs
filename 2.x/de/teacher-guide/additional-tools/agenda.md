@@ -4,9 +4,9 @@ Das Agenda-Tool ermöglicht es Ihnen, Ereignisse und Fristen innerhalb Ihres Kur
 
 ## Agenda anzeigen
 
-Öffnen Sie das **Agenda**-Tool <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> über die Kurs-Startseite. Sie können Ereignisse in drei Modi anzeigen:
+Öffnen Sie das **Agenda**-Tool <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> über die Kurs-Startseite. Sie können Ereignisse in drei Modi anzeigen:
 
-![Die Agenda in der Kalenderansicht mit Kursereignissen und Fristen](/.gitbook/assets/agenda-calendar-view.png)
+![Die Agenda in der Kalenderansicht mit Kursereignissen und Fristen](../../.gitbook/assets/agenda-calendar-view.png)
 
 * **Kalenderansicht** — Ein visueller monatlicher/wöchentlicher/täglicher Kalender
 * **Listenansicht** — Ereignisse werden als chronologische Liste angezeigt
@@ -14,7 +14,7 @@ Das Agenda-Tool ermöglicht es Ihnen, Ereignisse und Fristen innerhalb Ihres Kur
 
 ## Ein Ereignis erstellen
 
-1. Klicken Sie auf **Ereignis hinzufügen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ereignis hinzufügen" data-size="line">
+1. Klicken Sie auf **Ereignis hinzufügen** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Ereignis hinzufügen" data-size="line">
 2. Füllen Sie die Ereignisdetails aus:
    * **Titel** — Ein kurzer Name für das Ereignis
    * **Startdatum und -zeit**
@@ -23,13 +23,13 @@ Das Agenda-Tool ermöglicht es Ihnen, Ereignisse und Fristen innerhalb Ihres Kur
 3. Wählen Sie das **Publikum**:
    * **Alle Lernenden** — Jeder, der im Kurs eingeschrieben ist
    * **Bestimmte Benutzer oder Gruppen** — Wählen Sie einzelne Lernende oder Gruppen aus
-4. Optional können Sie eine **Erinnerung** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Erinnerung" data-size="line"> einstellen, um E-Mail-Benachrichtigungen vor dem Ereignis zu senden (ein *cron*-Setup für das Portal ist durch einen Administrator erforderlich)
+4. Optional können Sie eine **Erinnerung** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Erinnerung" data-size="line"> einstellen, um E-Mail-Benachrichtigungen vor dem Ereignis zu senden (ein *cron*-Setup für das Portal ist durch einen Administrator erforderlich)
 5. Speichern
 
 ## Ereignisse verwalten
 
-* **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Klicken Sie auf ein Ereignis, um dessen Details zu ändern
-* **Löschen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Entfernen Sie ein Ereignis aus dem Kalender
+* **Bearbeiten** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Klicken Sie auf ein Ereignis, um dessen Details zu ändern
+* **Löschen** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Entfernen Sie ein Ereignis aus dem Kalender
 * **Drag and Drop** — In der Kalenderansicht können Sie Ereignisse per Drag-and-Drop verschieben, um sie neu zu planen
 
 ## Persönliche Agenda

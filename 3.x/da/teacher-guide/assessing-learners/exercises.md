@@ -4,7 +4,7 @@ Værktøjet til øvelser (også kaldet "tests") lader dig oprette quizzer og eks
 
 ## Oprette en øvelse
 
-1. Åbn værktøjet **Øvelser** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvelser" data-size="line"> fra kursets startside
+1. Åbn værktøjet **Øvelser** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Øvelser" data-size="line"> fra kursets startside
 2. Klik på **Ny øvelse**
 3. Indtast en **titel** og en valgfri **beskrivelse**
 4. Konfigurer øvelsesindstillingerne (se nedenfor)
@@ -12,7 +12,7 @@ Værktøjet til øvelser (også kaldet "tests") lader dig oprette quizzer og eks
 
 ## Øvelsesindstillinger
 
-![Panelet med øvelsesindstillinger med valgmuligheder for visning, tid, forsøg og feedback](/.gitbook/assets/exercise-settings.png)
+![Panelet med øvelsesindstillinger med valgmuligheder for visning, tid, forsøg og feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Visning og navigation
 
@@ -75,7 +75,7 @@ Du kan også konfigurere avancerede udvælgelsesstrategier, der kombinerer kateg
 
 ## Spørgsmålstyper
 
-![Oversigt over tilgængelige spørgsmålstyper i grænsefladen til oprettelse af øvelser](/.gitbook/assets/exercise-question-types.png)
+![Oversigt over tilgængelige spørgsmålstyper i grænsefladen til oprettelse af øvelser](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo tilbyder et rigt sæt af spørgsmålstyper organiseret i flere kategorier:
 

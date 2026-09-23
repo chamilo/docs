@@ -6,8 +6,8 @@ I messaggi inviati tramite gli annunci vengono recapitati ai discenti sia via e-
 
 ## Creare un annuncio
 
-1. Aprire lo strumento **Annunci** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> dalla homepage del corso
-2. Fare clic di nuovo sull'icona **Aggiungi un annuncio** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line">
+1. Aprire lo strumento **Annunci** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> dalla homepage del corso
+2. Fare clic di nuovo sull'icona **Aggiungi un annuncio** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line">
 3. Compilare:
    * **Destinatari** — Scegliere chi riceve l'annuncio:
      * Tutti i discenti iscritti
@@ -25,9 +25,9 @@ Il pulsante **Anteprima** non è molto intuitivo: consente di vedere a chi verr�
 
 ## Gestire gli annunci
 
-* **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Modificare un annuncio esistente
-* **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovere un annuncio
-* **Visibilità** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondere o mostrare gli annunci
+* **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Modificare un annuncio esistente
+* **Elimina** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovere un annuncio
+* **Visibilità** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondere o mostrare gli annunci
 
 Gli annunci sono visualizzati in ordine cronologico inverso (i più recenti per primi).
 

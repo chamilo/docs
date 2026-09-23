@@ -1,10 +1,10 @@
 # IMS/LTI Client
 
-IMS/LTI Client <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI Client" data-size="line"> を使うと、LTI 標準（バージョン 1.1 および 1.3）により、コース内から外部ツールまたはコンテンツプロバイダーを起動できます。たとえば、出版社のインタラクティブ教科書、専門的なシミュレーションツール、LTI に対応した別のプラットフォームなどです。Chamilo は起動側のプラットフォームとして動作し、外部サービスが「ツール」となります。
+IMS/LTI Client <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="IMS/LTI Client" data-size="line"> を使うと、LTI 標準（バージョン 1.1 および 1.3）により、コース内から外部ツールまたはコンテンツプロバイダーを起動できます。たとえば、出版社のインタラクティブ教科書、専門的なシミュレーションツール、LTI に対応した別のプラットフォームなどです。Chamilo は起動側のプラットフォームとして動作し、外部サービスが「ツール」となります。
 
 ## Accessing the Tool
 
-有効化すると、コースの **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> に **Configure external tools** ボタンが表示されます。そこから次のいずれかを行えます。
+有効化すると、コースの **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> に **Configure external tools** ボタンが表示されます。そこから次のいずれかを行えます。
 
 * **Add a new external tool** — 自分で登録します。名前、起動 URL、LTI バージョン、および外部サービスから提供された認証情報（LTI 1.3 の場合はクライアント ID／鍵、LTI 1.1 の場合はコンシューマーキーとシークレット）を指定します
 * **Add an existing global tool** — 管理者がすでにプラットフォーム全体のツールを登録している場合は、独自の接続を作成する代わりに、それをコースに追加します

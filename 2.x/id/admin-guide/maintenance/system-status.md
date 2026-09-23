@@ -8,7 +8,7 @@ Dari panel administrasi, klik **Status sistem** (atau **Informasi sistem**).
 
 ## Apa yang Ditampilkan
 
-![Halaman status sistem yang menunjukkan konfigurasi PHP, status basis data, izin file, dan informasi server](/.gitbook/assets/admin-system-status.png)
+![Halaman status sistem yang menunjukkan konfigurasi PHP, status basis data, izin file, dan informasi server](../../.gitbook/assets/admin-system-status.png)
 
 ### Konfigurasi PHP
 

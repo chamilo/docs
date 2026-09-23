@@ -8,7 +8,7 @@ Klik på **Socialt netværk** i sidebjælken for at få adgang til de sociale fu
 
 ## Din sociale væg
 
-![Den sociale væg, der viser et feed af indlæg, likes og kommentarer fra forbindelser](/.gitbook/assets/social-wall.png)
+![Den sociale væg, der viser et feed af indlæg, likes og kommentarer fra forbindelser](../.gitbook/assets/social-wall.png)
 
 Den sociale væg viser et feed af aktivitet fra dig og dine forbindelser. Du kan:
 
@@ -30,9 +30,9 @@ Du kan oprette forbindelse til andre brugere på platformen:
 
 Det sociale netværk er integreret med platformens beskedsystem:
 
-* **Send beskeder** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny besked" data-size="line"> — Skriv direkte beskeder til andre brugere
-* **Indbakke** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Indbakke" data-size="line"> — Læs og besvar modtagne beskeder
-* **Sendte beskeder** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sendt" data-size="line"> — Gennemgå beskeder, du har sendt
+* **Send beskeder** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Ny besked" data-size="line"> — Skriv direkte beskeder til andre brugere
+* **Indbakke** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Indbakke" data-size="line"> — Læs og besvar modtagne beskeder
+* **Sendte beskeder** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Sendt" data-size="line"> — Gennemgå beskeder, du har sendt
 
 ### Skrivning og svar
 

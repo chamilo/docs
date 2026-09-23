@@ -1,12 +1,12 @@
 # Juridiskt avtal för kurs
 
-Tillägget Juridiskt avtal för kurs <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridiskt avtal för kurs" data-size="line"> kräver att studenter godkänner villkor/ett juridiskt meddelande innan de kan komma åt din kurs — användbart för samtyckesformulär, användningspolicyer eller vilket meddelande som helst som du behöver att deltagare formellt godkänner.
+Tillägget Juridiskt avtal för kurs <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridiskt avtal för kurs" data-size="line"> kräver att studenter godkänner villkor/ett juridiskt meddelande innan de kan komma åt din kurs — användbart för samtyckesformulär, användningspolicyer eller vilket meddelande som helst som du behöver att deltagare formellt godkänner.
 
 ## Aktivera det för din kurs
 
 Att aktivera tillägget för hela plattformen gör ingenting i sig — du måste fortfarande slå på det för varje kurs där du vill använda det:
 
-1. Öppna kursens **Inställningar** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Inställningar" data-size="line">
+1. Öppna kursens **Inställningar** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Inställningar" data-size="line">
 2. I avsnittet för kursåtkomst, kryssa i **Aktivera juridiska villkor**
 
 Detta lägger till verktyget **Juridiskt avtal för kurs** i din kurs.

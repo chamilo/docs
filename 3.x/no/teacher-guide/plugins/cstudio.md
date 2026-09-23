@@ -1,6 +1,6 @@
 # C-Studio-innholdsredigerer
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> er en visuell dra-og-slipp-innholdsredigerer for læringsstier. Den lar deg bygge interaktive sider — tekstblokker, quizer, dra-og-slipp-aktiviteter, fyll-inn-det-tomme, hotspot-bilder, tabeller, lyd og video — uten å skrive HTML, og eksportere resultatet som en SCORM-pakke.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> er en visuell dra-og-slipp-innholdsredigerer for læringsstier. Den lar deg bygge interaktive sider — tekstblokker, quizer, dra-og-slipp-aktiviteter, fyll-inn-det-tomme, hotspot-bilder, tabeller, lyd og video — uten å skrive HTML, og eksportere resultatet som en SCORM-pakke.
 
 ## Tilgang til redigereren
 

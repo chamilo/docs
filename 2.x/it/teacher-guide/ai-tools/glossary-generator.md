@@ -9,7 +9,7 @@ Il generatore è disponibile dallo strumento **Glossario**, a condizione che:
 1. Gli assistenti AI siano abilitati a livello di piattaforma
 2. Sia configurato almeno un fornitore di testi AI
 
-Apri lo strumento **Glossario** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossario" data-size="line"> dalla homepage del corso e cerca il pulsante **Genera con AI** nella barra degli strumenti.
+Apri lo strumento **Glossario** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossario" data-size="line"> dalla homepage del corso e cerca il pulsante **Genera con AI** nella barra degli strumenti.
 
 ## Come Generare Termini
 

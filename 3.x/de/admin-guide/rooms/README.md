@@ -2,7 +2,7 @@
 
 Der Block **Räume** auf dem Administrations-Dashboard verwaltet die physischen Standorte, die Chamilo für Präsenz- oder Blended-Training erfassen kann: Niederlassungen (Standorte), die Räume darin sowie ein Werkzeug, um zu ermitteln, welche Räume zu einem bestimmten Zeitpunkt frei sind.
 
-![Der Block Räume auf dem Administrations-Dashboard mit den Einträgen Niederlassungen, Räume und Raumsuche nach Verfügbarkeit](/.gitbook/assets/admin-rooms-block.png)
+![Der Block Räume auf dem Administrations-Dashboard mit den Einträgen Niederlassungen, Räume und Raumsuche nach Verfügbarkeit](../../.gitbook/assets/admin-rooms-block.png)
 
 Dieses Kapitel behandelt die Verwaltung von Niederlassungen und Räumen auf Administrationsseite. Zur Lehrenden-Ansicht — das Zuweisen eines Raums zu einer Kurssitzung — siehe [Niederlassungen und Räume](../../teacher-guide/branches-and-rooms.md) im Lehrerhandbuch.
 

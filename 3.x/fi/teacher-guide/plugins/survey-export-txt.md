@@ -1,6 +1,6 @@
 # Kyselyn TXT-vienti
 
-Kyselyn TXT-vienti <img src="/.gitbook/assets/icons/mdi-file-outline.svg" alt="Kyselyn TXT-vienti" data-size="line"> vie kyselyn tulokset ihmisen luettavaan pelkkätekstitiedostoon — yksi lohko vastaajaa kohden, jossa luetellaan kukin kysymys, valittu vastaus tai valitut vastaukset sekä mahdollinen avoin tekstivastaus, CSV:n rivien ja sarakkeiden sijaan.
+Kyselyn TXT-vienti <img src="../../.gitbook/assets/icons/mdi-file-outline.svg" alt="Kyselyn TXT-vienti" data-size="line"> vie kyselyn tulokset ihmisen luettavaan pelkkätekstitiedostoon — yksi lohko vastaajaa kohden, jossa luetellaan kukin kysymys, valittu vastaus tai valitut vastaukset sekä mahdollinen avoin tekstivastaus, CSV:n rivien ja sarakkeiden sijaan.
 
 ## Kyselyn vieminen
 

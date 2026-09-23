@@ -2,7 +2,7 @@
 
 管理儀表板上的 **安全性** 區塊彙整了平台內建的安全性監控與稽核工具。它與 [安全性設定](../platform-settings/security-settings.md) 分開：後者設定安全性*政策*（密碼規則、CAPTCHA、HTTP 安全性標頭等）——此區塊則提供*報表與工具*，用以監看平台上的可疑活動與非預期變更。
 
-![管理儀表板上的安全性區塊，列出活動稽核、登入嘗試、簡易 IDS、密碼強度檢查器與檔案完整性](/.gitbook/assets/admin-security-block.png)
+![管理儀表板上的安全性區塊，列出活動稽核、登入嘗試、簡易 IDS、密碼強度檢查器與檔案完整性](../../.gitbook/assets/admin-security-block.png)
 
 此區塊於 Chamilo 2.0 推出時包含四項工具，並於 Chamilo 3.0 新增第五項：**檔案完整性**。
 

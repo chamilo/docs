@@ -6,7 +6,7 @@ Plugins breiden de functionaliteit van Chamilo uit zonder de kerncode te wijzige
 
 Het beheerdashboard heeft ook een eigen blok **Plugins**, los van het algemene pluginbeheer in dit hoofdstuk. Het somt niet elke geïnstalleerde plugin op — alleen die waarvan de configuratie aangeeft dat ze in de regio van het beheermenu moeten verschijnen, zodat elke dergelijke plugin een directe snelkoppeling naar de eigen beheerpagina krijgt, rechtstreeks op het dashboard.
 
-![Het blok Plugins op het beheerdashboard, met snelkoppelingen naar geïnstalleerde plugins die zijn geconfigureerd om in het beheermenu te verschijnen](/.gitbook/assets/admin-plugins-block.png)
+![Het blok Plugins op het beheerdashboard, met snelkoppelingen naar geïnstalleerde plugins die zijn geconfigureerd om in het beheermenu te verschijnen](../../.gitbook/assets/admin-plugins-block.png)
 
 Als een plugin die u hebt geactiveerd hier niet verschijnt, is dat te verwachten — het betekent dat die plugin zichzelf niet heeft aangegeven voor de regio van het beheermenu, niet dat er iets kapot is. Zie [Plugins beheren](managing-plugins.md) voor de volledige lijst van geïnstalleerde plugins, ongeacht of ze op het dashboard verschijnen.
 

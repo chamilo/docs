@@ -8,7 +8,7 @@ Fra administrationspanelet skal du klikke på **Security > Activities audit**.
 
 ## Hvad den viser
 
-![Siden Aktivitetsrevision, der viser kategorier af hændelsestyper som Course, Session, User, Social, Message, Resource, Wiki og Other, som hver kan udvides til individuelle hændelsestyper](/.gitbook/assets/admin-security-activities-audit.png)
+![Siden Aktivitetsrevision, der viser kategorier af hændelsestyper som Course, Session, User, Social, Message, Resource, Wiki og Other, som hver kan udvides til individuelle hændelsestyper](../../.gitbook/assets/admin-security-activities-audit.png)
 
 Hændelser er grupperet i kategorier:
 

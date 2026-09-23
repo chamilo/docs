@@ -4,7 +4,7 @@ Keskustelualuetyökalun avulla voit järjestää kurssillasi jäsenneltyjä kesk
 
 ## Keskustelualueen rakenne
 
-![Keskustelualueiden luokkaluettelo, jossa näkyvät luokat, keskustelualueet ja aiheiden määrät](/.gitbook/assets/forum-category-list.png)
+![Keskustelualueiden luokkaluettelo, jossa näkyvät luokat, keskustelualueet ja aiheiden määrät](../../.gitbook/assets/forum-category-list.png)
 
 Chamilon keskustelualueet on järjestetty kolmeen tasoon:
 
@@ -14,7 +14,7 @@ Chamilon keskustelualueet on järjestetty kolmeen tasoon:
 
 ## Keskustelualueluokan luominen
 
-1. Avaa **Keskustelualueet**-työkalu <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Keskustelualueet" data-size="line"> kurssin etusivulta
+1. Avaa **Keskustelualueet**-työkalu <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Keskustelualueet" data-size="line"> kurssin etusivulta
 2. Napsauta **Lisää keskustelualueluokka**
 3. Anna **Luokan nimi** ja valinnainen kuvaus
 4. Tallenna

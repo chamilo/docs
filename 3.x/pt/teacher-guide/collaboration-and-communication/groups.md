@@ -14,7 +14,7 @@ Os grupos permitem dividir os seus formandos em equipas mais pequenas para traba
 
 ## Ferramentas de grupo
 
-![A vista geral dos grupos, mostrando as ferramentas de grupo disponíveis e o número de membros](/.gitbook/assets/groups-overview.png)
+![A vista geral dos grupos, mostrando as ferramentas de grupo disponíveis e o número de membros](../../.gitbook/assets/groups-overview.png)
 
 Cada grupo pode ter acesso a um subconjunto de ferramentas do curso partilhadas apenas entre os membros do grupo:
 

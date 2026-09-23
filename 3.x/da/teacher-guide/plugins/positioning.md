@@ -1,6 +1,6 @@
 # Positionering
 
-Positionering <img src="/.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> tilføjer et før/efter-selvevalueringsforløb: vælg én test som **indledende test** og en anden som **afsluttende test** (ofte en kopi af den samme test), og Chamilo viser hver lærendes scoreændring mellem de to på et radardiagram.
+Positionering <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> tilføjer et før/efter-selvevalueringsforløb: vælg én test som **indledende test** og en anden som **afsluttende test** (ofte en kopi af den samme test), og Chamilo viser hver lærendes scoreændring mellem de to på et radardiagram.
 
 ## Adgang til værktøjet
 

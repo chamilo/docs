@@ -10,7 +10,7 @@ Chamilo 內建一套輕量、應用程式內的入侵偵測系統（IDS）。每
 
 ## 顯示內容
 
-![Simple IDS 頁面顯示依日事件、依類型事件與主要攻擊 IP 的圖表，其後為已標記 IDS 事件表格，含日期、IP、偵測類型、參數、URI 與詳細資訊](/.gitbook/assets/admin-security-simple-ids.png)
+![Simple IDS 頁面顯示依日事件、依類型事件與主要攻擊 IP 的圖表，其後為已標記 IDS 事件表格，含日期、IP、偵測類型、參數、URI 與詳細資訊](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **依日事件（最近 7 天）**、**依類型事件（最近 30 天）** 與 **主要攻擊 IP（最近 30 天）** — 摘要圖表
 * **已標記 IDS 事件表格** — 每筆記錄顯示日期、來源 IP、偵測類型（例如 `XSS`）、受影響參數、請求 URI，以及所偵測內容的簡短說明

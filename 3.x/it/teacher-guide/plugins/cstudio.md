@@ -1,6 +1,6 @@
 # Editor di contenuti C-Studio
 
-C-Studio <img src="/.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> è un editor visivo di contenuti con trascinamento della selezione per i Percorsi formativi. Consente di creare pagine interattive — blocchi di testo, quiz, attività di trascinamento, completamento, immagini hotspot, tabelle, audio e video — senza scrivere HTML, ed esportare il risultato come pacchetto SCORM.
+C-Studio <img src="../../.gitbook/assets/icons/mdi-format-paint.svg" alt="C-Studio" data-size="line"> è un editor visivo di contenuti con trascinamento della selezione per i Percorsi formativi. Consente di creare pagine interattive — blocchi di testo, quiz, attività di trascinamento, completamento, immagini hotspot, tabelle, audio e video — senza scrivere HTML, ed esportare il risultato come pacchetto SCORM.
 
 ## Accesso all'editor
 

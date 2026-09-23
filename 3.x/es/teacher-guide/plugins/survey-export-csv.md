@@ -1,6 +1,6 @@
 # Exportación de encuestas a CSV
 
-Survey Export CSV <img src="/.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportación de encuestas a CSV" data-size="line"> añade una exportación con un solo clic de los resultados de una encuesta a un archivo CSV compacto, con una fila por encuestado y una columna por pregunta.
+Survey Export CSV <img src="../../.gitbook/assets/icons/mdi-file-delimited-outline.svg" alt="Exportación de encuestas a CSV" data-size="line"> añade una exportación con un solo clic de los resultados de una encuesta a un archivo CSV compacto, con una fila por encuestado y una columna por pregunta.
 
 ## Exportar una encuesta
 

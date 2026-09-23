@@ -6,7 +6,7 @@ Om du har glömt ditt lösenord — eller bara vill ändra det — så här gör
 
 På inloggningssidan klickar du på **Glömt ditt lösenord?**. Om den här länken inte finns har din administratör inaktiverat funktionen — kontakta dem direkt för att återfå åtkomst.
 
-![Formuläret "Jag har glömt mitt lösenord", med ett enda fält för ditt användarnamn eller din e-postadress](/.gitbook/assets/student-lost-password.png)
+![Formuläret "Jag har glömt mitt lösenord", med ett enda fält för ditt användarnamn eller din e-postadress](../../.gitbook/assets/student-lost-password.png)
 
 1. Ange ditt **användarnamn eller din e-postadress** i det enda fältet i formuläret.
 2. Om en CAPTCHA-utmaning visas, lös den (se [CAPTCHA](captcha.md)).
@@ -27,7 +27,7 @@ Du kan ändra ditt lösenord när som helst, utan att vänta tills du glömmer d
 2. Klicka på **Ändra lösenord**.
 3. Ange ditt nuvarande lösenord, sedan ditt nya lösenord två gånger, och skicka in.
 
-![Formuläret Ändra lösenord, med fält för ditt nuvarande lösenord och ett nytt lösenord](/.gitbook/assets/student-change-password.png)
+![Formuläret Ändra lösenord, med fält för ditt nuvarande lösenord och ett nytt lösenord](../../.gitbook/assets/student-change-password.png)
 
 Detta är samma sida där du kan aktivera [tvåfaktorsautentisering](two-factor-authentication.md), om din plattform stöder det — i så fall ser du även en kryssruta "Aktivera tvåfaktorsautentisering" här, som inte visas ovan eftersom den inte är aktiv på varje plattform.
 

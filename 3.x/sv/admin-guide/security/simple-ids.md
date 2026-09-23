@@ -10,7 +10,7 @@ Från administrationspanelen klickar du på **Säkerhet > Enkel IDS**.
 
 ## Vad den visar
 
-![Sidan Enkel IDS som visar diagram för händelser per dag, händelser per typ och de mest attackerande IP-adresserna, följt av en tabell med flaggade IDS-händelser med datum, IP, detektionstyp, parameter, URI och detalj](/.gitbook/assets/admin-security-simple-ids.png)
+![Sidan Enkel IDS som visar diagram för händelser per dag, händelser per typ och de mest attackerande IP-adresserna, följt av en tabell med flaggade IDS-händelser med datum, IP, detektionstyp, parameter, URI och detalj](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Händelser per dag (senaste 7 dagarna)**, **Händelser per typ (senaste 30 dagarna)** och **Mest attackerande IP-adresser (senaste 30 dagarna)** — Sammanfattande diagram
 * **Tabell över flaggade IDS-händelser** — Varje post visar datum, käll-IP, detektionstyp (till exempel `XSS`), den berörda parametern, begärans URI och en kort beskrivning av vad som detekterades

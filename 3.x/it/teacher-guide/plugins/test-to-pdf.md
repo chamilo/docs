@@ -1,6 +1,6 @@
 # Test to PDF
 
-Test to PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> esporta le domande di un test del corso in un PDF stampabile — solo domande, solo risposte, o entrambe insieme — utile per una versione cartacea di un test.
+Test to PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> esporta le domande di un test del corso in un PDF stampabile — solo domande, solo risposte, o entrambe insieme — utile per una versione cartacea di un test.
 
 ## Accesso allo strumento
 

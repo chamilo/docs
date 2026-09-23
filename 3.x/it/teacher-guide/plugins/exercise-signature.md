@@ -1,6 +1,6 @@
 # Firma dell'esercizio
 
-Firma dell'esercizio <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Firma dell'esercizio" data-size="line"> aggiunge un passaggio di firma elettronica dopo che uno studente ha completato un tentativo di test, in modo che il completamento possa essere autenticato — utile in contesti di conformità o certificazione. Non modifica punteggi, risposte o dati del registro dei voti; registra soltanto una firma accanto al tentativo.
+Firma dell'esercizio <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Firma dell'esercizio" data-size="line"> aggiunge un passaggio di firma elettronica dopo che uno studente ha completato un tentativo di test, in modo che il completamento possa essere autenticato — utile in contesti di conformità o certificazione. Non modifica punteggi, risposte o dati del registro dei voti; registra soltanto una firma accanto al tentativo.
 
 ## Attivarla per un test
 

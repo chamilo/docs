@@ -1,10 +1,10 @@
 # Cliente IMS/LTI
 
-O Cliente IMS/LTI <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="Cliente IMS/LTI" data-size="line"> permite iniciar uma ferramenta externa ou um fornecedor de conteúdos a partir do interior do seu curso, utilizando o padrão LTI (versões 1.1 e 1.3) — por exemplo, um manual interativo de uma editora, uma ferramenta de simulação especializada ou outra plataforma que suporte LTI. O Chamilo atua como a plataforma de lançamento; o serviço externo é a «ferramenta».
+O Cliente IMS/LTI <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="Cliente IMS/LTI" data-size="line"> permite iniciar uma ferramenta externa ou um fornecedor de conteúdos a partir do interior do seu curso, utilizando o padrão LTI (versões 1.1 e 1.3) — por exemplo, um manual interativo de uma editora, uma ferramenta de simulação especializada ou outra plataforma que suporte LTI. O Chamilo atua como a plataforma de lançamento; o serviço externo é a «ferramenta».
 
 ## Aceder à ferramenta
 
-Uma vez ativada, aparece um botão **Configurar ferramentas externas** nas **Definições** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> do seu curso. A partir daí, pode:
+Uma vez ativada, aparece um botão **Configurar ferramentas externas** nas **Definições** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Definições" data-size="line"> do seu curso. A partir daí, pode:
 
 * **Adicionar uma nova ferramenta externa** — Registar uma você mesmo: nome, URL de lançamento, versão LTI e as credenciais que o serviço externo lhe forneceu (ID de cliente/chaves para LTI 1.3, ou uma chave de consumidor e um segredo para LTI 1.1)
 * **Adicionar uma ferramenta global existente** — Se o seu administrador já tiver registado uma ferramenta para toda a plataforma, adicione-a ao seu curso em vez de criar a sua própria ligação

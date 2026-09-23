@@ -1,10 +1,10 @@
 # Notify in Course Home
 
-Notify in Course Home <img src="/.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notify in Course Home" data-size="line"> lets you show a popup notice to everyone who visits your course homepage — useful for an announcement, a required-reading notice, or a "click here to continue" gate.
+Notify in Course Home <img src="../../.gitbook/assets/icons/mdi-bell-ring-outline.svg" alt="Notify in Course Home" data-size="line"> lets you show a popup notice to everyone who visits your course homepage — useful for an announcement, a required-reading notice, or a "click here to continue" gate.
 
 ## Setting a Notification
 
-Once enabled, your course's **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> gains a **Set one notification on home page** button. It opens a form where you write the notice (rich text) and optionally set an **Expiration link**.
+Once enabled, your course's **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> gains a **Set one notification on home page** button. It opens a form where you write the notice (rich text) and optionally set an **Expiration link**.
 
 * **With an expiration link** — The popup shows a button pointing to that link and keeps reappearing until a learner clicks it
 * **Without one** — The notice reappears to every visitor, every time they open the course home page

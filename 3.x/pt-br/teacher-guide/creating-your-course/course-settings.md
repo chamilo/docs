@@ -2,7 +2,7 @@
 
 As configurações do curso permitem controlar o comportamento do seu curso — quem pode acessá-lo, como ele aparece e quais recursos estão habilitados.
 
-Para acessar as configurações do curso, entre no seu curso e clique no ícone **Configurações** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> ao lado do botão **Alternar para a visão do aluno**.
+Para acessar as configurações do curso, entre no seu curso e clique no ícone **Configurações** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Configurações" data-size="line"> ao lado do botão **Alternar para a visão do aluno**.
 
 ## Configurações Gerais
 
@@ -29,7 +29,7 @@ Cada curso tem um limite de armazenamento (cota de disco) para arquivos enviados
 
 ### Visibilidade do Curso
 
-![As configurações de visibilidade do curso mostrando as opções público, aberto, registrado e fechado](/.gitbook/assets/course-settings-visibility.png)
+![As configurações de visibilidade do curso mostrando as opções público, aberto, registrado e fechado](../../.gitbook/assets/course-settings-visibility.png)
 
 Controle quem pode acessar o seu curso:
 
@@ -84,7 +84,7 @@ Controle o comportamento na ferramenta de fórum deste curso.
 
 ### Configurações de inicialização automática
 
-Um curso pode ser configurado para ter um comportamento de inicialização automática, o que encurtará o caminho dos alunos até as partes importantes do seu curso. Se habilitado, os alunos que entrarem no seu curso serão enviados diretamente para a ferramenta selecionada e não verão a página inicial do curso como etapa intermediária. Você pode até selecionar percursos de aprendizagem ou exercícios específicos para iniciar ao chegar ao curso. Nesse caso, você precisa selecionar a opção aqui, depois ir à lista de percursos de aprendizagem ou de exercícios e clicar no ícone de foguete <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Inicialização automática" data-size="line"> no item selecionado.
+Um curso pode ser configurado para ter um comportamento de inicialização automática, o que encurtará o caminho dos alunos até as partes importantes do seu curso. Se habilitado, os alunos que entrarem no seu curso serão enviados diretamente para a ferramenta selecionada e não verão a página inicial do curso como etapa intermediária. Você pode até selecionar percursos de aprendizagem ou exercícios específicos para iniciar ao chegar ao curso. Nesse caso, você precisa selecionar a opção aqui, depois ir à lista de percursos de aprendizagem ou de exercícios e clicar no ícone de foguete <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Inicialização automática" data-size="line"> no item selecionado.
 
 ### Configurações dos assistentes de IA
 

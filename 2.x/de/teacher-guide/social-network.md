@@ -8,7 +8,7 @@ Klicken Sie in der Seitenleiste auf **Soziales Netzwerk**, um auf die sozialen F
 
 ## Ihre Soziale Pinnwand
 
-![Die soziale Pinnwand zeigt einen Feed mit Beiträgen, Likes und Kommentaren von Verbindungen](/.gitbook/assets/social-wall.png)
+![Die soziale Pinnwand zeigt einen Feed mit Beiträgen, Likes und Kommentaren von Verbindungen](../.gitbook/assets/social-wall.png)
 
 Die soziale Pinnwand zeigt einen Feed mit Aktivitäten von Ihnen und Ihren Verbindungen. Sie können:
 
@@ -30,9 +30,9 @@ Sie können sich mit anderen Nutzern auf der Plattform vernetzen:
 
 Das soziale Netzwerk ist mit dem Nachrichtensystem der Plattform integriert:
 
-* **Nachrichten senden** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Neue Nachricht" data-size="line"> — Schreiben Sie direkte Nachrichten an andere Nutzer
-* **Posteingang** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Lesen und beantworten Sie empfangene Nachrichten
-* **Gesendete Nachrichten** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Gesendet" data-size="line"> — Überprüfen Sie die von Ihnen gesendeten Nachrichten
+* **Nachrichten senden** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Neue Nachricht" data-size="line"> — Schreiben Sie direkte Nachrichten an andere Nutzer
+* **Posteingang** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Lesen und beantworten Sie empfangene Nachrichten
+* **Gesendete Nachrichten** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Gesendet" data-size="line"> — Überprüfen Sie die von Ihnen gesendeten Nachrichten
 
 ### Verfassen und Antworten
 

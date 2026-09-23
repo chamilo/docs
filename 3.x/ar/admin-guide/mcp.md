@@ -39,7 +39,7 @@ MCP (Model Context Protocol) معيار مفتوح يتيح لعملاء الذ�
 
 يولّد كل مستخدم مفتاحه الخاص ضمن **الشبكة الاجتماعية** > **مفتاح MCP API**:
 
-![صفحة مفتاح MCP API، تعرض مفتاحًا غير نشط، وزر Generate API key، وكتلة Remote MCP connection مع عنوان URL لنقطة النهاية وصيغة ترويسة Authorization](/.gitbook/assets/admin-mcp-api-key.png)
+![صفحة مفتاح MCP API، تعرض مفتاحًا غير نشط، وزر Generate API key، وكتلة Remote MCP connection مع عنوان URL لنقطة النهاية وصيغة ترويسة Authorization](../.gitbook/assets/admin-mcp-api-key.png)
 
 * النقر على **Generate API key** ينشئ مفتاحًا ويعرضه مرة واحدة — يخزّن Chamilo بعد ذلك نسخة مقنّعة فقط، لذا يجب نسخ المفتاح الكامل وتخزينه بأمان فورًا.
 * توليد مفتاح جديد يلغي فورًا المفتاح السابق.

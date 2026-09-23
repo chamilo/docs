@@ -4,7 +4,7 @@ Forumværktøjet giver dig mulighed for at afholde strukturerede diskussioner i 
 
 ## Forumstruktur
 
-![Forumkategorilisten, der viser kategorier, fora og antal emner](/.gitbook/assets/forum-category-list.png)
+![Forumkategorilisten, der viser kategorier, fora og antal emner](../../.gitbook/assets/forum-category-list.png)
 
 Fora i Chamilo er organiseret i tre niveauer:
 
@@ -14,7 +14,7 @@ Fora i Chamilo er organiseret i tre niveauer:
 
 ## Oprette en forumkategori
 
-1. Åbn værktøjet **Fora** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fora" data-size="line"> fra din kursushjemmeside
+1. Åbn værktøjet **Fora** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fora" data-size="line"> fra din kursushjemmeside
 2. Klik på **Tilføj en forumkategori**
 3. Angiv et **Kategorinavn** og en valgfri beskrivelse
 4. Gem

@@ -9,11 +9,11 @@ KI-vurdering er tilgjengelig i to sammenhenger:
 * **Åpne øvingsspørsmål** — Når du manuelt vurderer fritekstsvar i en øving
 * **Oppgaveinnleveringer** — Når du gjennomgår og poengsetter studentpublikasjoner i verktøyet Oppgaver
 
-Se etter knappen **KI-vurdering** (angitt med et robotikon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="KI" data-size="line">) i vurderingsgrensesnittet.
+Se etter knappen **KI-vurdering** (angitt med et robotikon <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="KI" data-size="line">) i vurderingsgrensesnittet.
 
 ## Slik fungerer det
 
-![KI-vurderingsgrensesnittet som viser en studentinnlevering med foreslått poengsum og tilbakemelding](/.gitbook/assets/ai-grading-interface.png)
+![KI-vurderingsgrensesnittet som viser en studentinnlevering med foreslått poengsum og tilbakemelding](../../.gitbook/assets/ai-grading-interface.png)
 
 1. Åpne en innlevering eller et svar som skal vurderes
 2. Klikk på knappen **KI-vurdering**

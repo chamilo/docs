@@ -4,13 +4,13 @@
 
 ## الوصول إلى أداة المستندات
 
-افتح أداة **المستندات** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="المستندات" data-size="line"> من الصفحة الرئيسية للمقرر. ستظهر لك متصفح ملفات يعرض المجلد الجذر لمكتبة مستندات مقررك.
+افتح أداة **المستندات** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="المستندات" data-size="line"> من الصفحة الرئيسية للمقرر. ستظهر لك متصفح ملفات يعرض المجلد الجذر لمكتبة مستندات مقررك.
 
-![متصفح ملفات المستندات يعرض المجلدات والملفات مع أيقونات الإجراءات](/.gitbook/assets/documents-file-browser.png)
+![متصفح ملفات المستندات يعرض المجلدات والملفات مع أيقونات الإجراءات](../../.gitbook/assets/documents-file-browser.png)
 
 ## رفع الملفات
 
-1. انقر زر **رفع** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="رفع" data-size="line">
+1. انقر زر **رفع** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="رفع" data-size="line">
 2. حدد ملفًا واحدًا أو أكثر من حاسوبك (يمكنك سحب الملفات وإفلاتها في منطقة الرفع)
 3. تُرفع الملفات وتظهر في المجلد الحالي
 
@@ -52,7 +52,7 @@
 
 حافظ على تنظيم مكتبة مستنداتك باستخدام المجلدات:
 
-1. انقر **مجلد جديد** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="مجلد جديد" data-size="line">
+1. انقر **مجلد جديد** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="مجلد جديد" data-size="line">
 2. أدخل اسم المجلد
 3. احفظ
 
@@ -61,7 +61,7 @@
 ### نقل الملفات
 
 * حدد موقع ملفك في القائمة
-* انقر **نقل** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="نقل" data-size="line">
+* انقر **نقل** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="نقل" data-size="line">
 * حدد المجلد الوجهة
 * أكّد
 
@@ -71,12 +71,12 @@
 
 | الإجراء | الأيقونة | الوصف |
 |--------|------|-------------|
-| **تحرير** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line"> | إعادة تسمية الملف أو تحرير محتواه (لصفحات الويب) |
-| **حذف** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> | إزالة الملف أو المجلد |
-| **تنزيل** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="تنزيل" data-size="line"> | تنزيل الملف إلى حاسوبك |
-| **الظهور** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="الظهور" data-size="line"> | إخفاء الملف عن المتعلمين أو إظهاره لهم |
-| **استبدال** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="استبدال" data-size="line"> | استبدال الملف بإصدار محدّث |
-| **نقل** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="نقل" data-size="line"> | النقل إلى مجلد مختلف |
+| **تحرير** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line"> | إعادة تسمية الملف أو تحرير محتواه (لصفحات الويب) |
+| **حذف** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> | إزالة الملف أو المجلد |
+| **تنزيل** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="تنزيل" data-size="line"> | تنزيل الملف إلى حاسوبك |
+| **الظهور** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="الظهور" data-size="line"> | إخفاء الملف عن المتعلمين أو إظهاره لهم |
+| **استبدال** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="استبدال" data-size="line"> | استبدال الملف بإصدار محدّث |
+| **نقل** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="نقل" data-size="line"> | النقل إلى مجلد مختلف |
 
 استبدال ملف ميزة مهمة عندما تستخدم المستندات لبناء مسارات التعلم، إذ يسمح استبدال المستند بتحديثه دون أن يفقد المتعلمون التقدم المحفوظ لذلك المستند.
 
@@ -86,7 +86,7 @@
 
 ## تكامل OnlyOffice
 
-إذا قام المسؤول بتهيئة إضافة **OnlyOffice**، يمكنك تحرير ملفات Word وExcel وPowerPoint (أو LibreOffice) مباشرة في المتصفح دون تنزيلها. ابحث عن خيار **تحرير باستخدام OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> عند عرض ملف مدعوم.
+إذا قام المسؤول بتهيئة إضافة **OnlyOffice**، يمكنك تحرير ملفات Word وExcel وPowerPoint (أو LibreOffice) مباشرة في المتصفح دون تنزيلها. ابحث عن خيار **تحرير باستخدام OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> عند عرض ملف مدعوم.
 
 تُخزَّن المستندات في Chamilo، ويُستخدم OnlyOffice فقط لـ **عرض** المستندات أو تحريرها في المتصفح، دون الحاجة إلى أي أداة إضافية.
 

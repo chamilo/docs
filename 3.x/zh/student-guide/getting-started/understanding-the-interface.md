@@ -7,11 +7,11 @@ Chamilo 3.0 拥有简洁、现代的界面，旨在让导航保持简单。本�
 顶栏始终显示在每个页面的顶部。其中包含：
 
 * **平台徽标** — 随时点击即可返回首页。
-* **收件箱图标** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 显示您的消息。红色徽章表示有未读消息。点击可打开您的[收件箱](../inbox.md)。
-* **支持工单图标** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 若管理员已启用，可通过此图标访问支持工单系统。并非每个平台都会启用，因此您可能只看到收件箱图标和您的头像。
+* **收件箱图标** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — 显示您的消息。红色徽章表示有未读消息。点击可打开您的[收件箱](../inbox.md)。
+* **支持工单图标** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 若管理员已启用，可通过此图标访问支持工单系统。并非每个平台都会启用，因此您可能只看到收件箱图标和您的头像。
 * **您的头像** — 位于右上角的圆形图像。点击可打开下拉菜单：
 
-![您的头像菜单，包含“我的个人资料”“我的证书”“我的技能”和“退出”链接](/.gitbook/assets/student-avatar-menu.png)
+![您的头像菜单，包含“我的个人资料”“我的证书”“我的技能”和“退出”链接](../../.gitbook/assets/student-avatar-menu.png)
 
 * **我的个人资料** — 编辑个人信息、更改密码，以及（若已启用）设置双因素认证
 * **我的证书** — 您在所有课程中获得的每一份证书
@@ -26,18 +26,18 @@ Chamilo 3.0 拥有简洁、现代的界面，旨在让导航保持简单。本�
 
 | 菜单项 | 图标 | 说明 |
 |-----------|------|-------------|
-| **首页** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主仪表盘 |
-| **我的课程** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已注册的所有课程 |
-| **我的学期** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的培训学期（当前、过去、即将开始） |
-| **探索更多课程** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 浏览课程目录以查找并自行注册新课程 |
-| **日程** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的个人与课程日历 |
-| **报告** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 展开为 **进度** — 您自己的[我的进度](../my-progress.md)概览 |
-| **社交网络** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 若已启用，展开为[社交网络](../social-network.md)及相关链接 |
-| **视频会议** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 访问实时视频会话（若已配置） |
+| **首页** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | 返回主仪表盘 |
+| **我的课程** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 列出您已注册的所有课程 |
+| **我的学期** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | 列出您的培训学期（当前、过去、即将开始） |
+| **探索更多课程** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | 浏览课程目录以查找并自行注册新课程 |
+| **日程** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 您的个人与课程日历 |
+| **报告** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | 展开为 **进度** — 您自己的[我的进度](../my-progress.md)概览 |
+| **社交网络** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 若已启用，展开为[社交网络](../social-network.md)及相关链接 |
+| **视频会议** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | 访问实时视频会话（若已配置） |
 
 **报告**和**社交网络**并非普通链接 — 点击它们会在侧边栏中直接展开一小列子项：
 
-![侧边栏中“报告”和“社交网络”已展开，显示其子项](/.gitbook/assets/student-sidebar-expanded.png)
+![侧边栏中“报告”和“社交网络”已展开，显示其子项](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * 在 **报告** 下：仅有 **进度**，将您带到[我的进度](../my-progress.md)。
 * 在 **社交网络** 下：**首页**（社交墙）、**消息**（通往您[收件箱](../inbox.md)的快捷方式）、**我的好友**、**社交群组** — 此外，有些出人意料地也归在此处的还有 **我的文件**（您的个人文件存储）和 **个人数据**（平台所保存的关于您的个人数据的导出）。后两项并非真正的“社交”功能；它们只是位于侧边栏的这一部分。

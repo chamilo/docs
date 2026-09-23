@@ -20,7 +20,7 @@ Lo strumento di registrazione delle presenze consente di monitorare la partecipa
 Ogni foglio di presenze contiene una o più date (sessioni) in cui registri la presenza:
 
 1. Apri un foglio di presenze o continua con il processo di creazione
-2. Fai clic su **Aggiungi una data** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi data" data-size="line">
+2. Fai clic su **Aggiungi una data** <img src="../../.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Aggiungi data" data-size="line">
 3. Seleziona la data e l'orario
 4. Facoltativamente, seleziona **Ripeti data** per scegliere una logica di ripetizione
 5. Indica una **Durata** in minuti per l'evento (impostata di default a 60 minuti)
@@ -44,7 +44,7 @@ Nota: Gli amministratori possono modificare la configurazione del portale per co
 
 ## Visualizzazione dei Rapporti sulle Presenze
 
-![Il foglio di presenze mostra una tabella riassuntiva con studenti, date e indicatori di presenza](/.gitbook/assets/attendance-sheet.png)
+![Il foglio di presenze mostra una tabella riassuntiva con studenti, date e indicatori di presenza](../../.gitbook/assets/attendance-sheet.png)
 
 Lo strumento di presenze mostra:
 

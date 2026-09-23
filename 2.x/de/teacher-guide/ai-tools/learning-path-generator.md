@@ -14,7 +14,7 @@ Suchen Sie nach dem Abschnitt **KI-Generator** innerhalb der Benutzeroberfläche
 
 ## So generieren Sie einen Lernpfad
 
-![Das Formular des KI-Lernpfad-Generators mit Feldern für Thema, Ziele und Anzahl der Abschnitte](/.gitbook/assets/ai-learning-path-generator.png)
+![Das Formular des KI-Lernpfad-Generators mit Feldern für Thema, Ziele und Anzahl der Abschnitte](../../.gitbook/assets/ai-learning-path-generator.png)
 
 1. Öffnen Sie das Formular des KI-Generators
 2. Konfigurieren Sie die Parameter:

@@ -1,6 +1,6 @@
 # Toets naar PDF
 
-Toets naar PDF <img src="/.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Toets naar PDF" data-size="line"> exporteert de vragen van een toets in een cursus naar een afdrukbare PDF — alleen vragen, alleen antwoorden, of beide samen — nuttig voor een papieren versie van een toets.
+Toets naar PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Toets naar PDF" data-size="line"> exporteert de vragen van een toets in een cursus naar een afdrukbare PDF — alleen vragen, alleen antwoorden, of beide samen — nuttig voor een papieren versie van een toets.
 
 ## De tool openen
 

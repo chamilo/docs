@@ -7,11 +7,11 @@ Chamilo 3.0 har et rent, moderne grensesnitt utformet for å holde navigasjonen 
 Topplinjen er alltid synlig øverst på hver side. Den inneholder:
 
 * **Plattformlogo** — Klikk på den for å gå tilbake til startsiden når som helst.
-* **Innboksikon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> — Viser meldingene dine. Et rødt merke indikerer uleste meldinger. Klikk for å åpne [Innboksen](../inbox.md).
-* **Ikon for supportbillett** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Hvis det er aktivert av administratoren din, gir dette deg tilgang til systemet for supportbilletter. Ikke alle plattformer aktiverer det, så du kan bare se innboksikonet og avataren din.
+* **Innboksikon** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Innboks" data-size="line"> — Viser meldingene dine. Et rødt merke indikerer uleste meldinger. Klikk for å åpne [Innboksen](../inbox.md).
+* **Ikon for supportbillett** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Hvis det er aktivert av administratoren din, gir dette deg tilgang til systemet for supportbilletter. Ikke alle plattformer aktiverer det, så du kan bare se innboksikonet og avataren din.
 * **Avataren din** — Et sirkulært bilde i øvre høyre hjørne. Klikk på det for å åpne en rullegardinmeny:
 
-![Avatarmenyen din, med lenker til Min profil, Mine sertifikater, Mine ferdigheter og Logg ut](/.gitbook/assets/student-avatar-menu.png)
+![Avatarmenyen din, med lenker til Min profil, Mine sertifikater, Mine ferdigheter og Logg ut](../../.gitbook/assets/student-avatar-menu.png)
 
 * **Min profil** — Rediger personopplysningene dine, endre passordet og (hvis aktivert) sett opp tofaktorautentisering
 * **Mine sertifikater** — Alle sertifikater du har oppnådd, på tvers av alle kursene dine
@@ -26,18 +26,18 @@ Sidestolpen inneholder følgende lenker (noen kan være skjult avhengig av platt
 
 | Menypunkt | Ikon | Beskrivelse |
 |-----------|------|-------------|
-| **Hjem** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Hjem" data-size="line"> | Går tilbake til hoveddashbordet |
-| **Mine kurs** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurs" data-size="line"> | Lister alle kurs du er påmeldt |
-| **Mine økter** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Økter" data-size="line"> | Lister opplæringsøktene dine (pågående, tidligere, kommende) |
-| **Utforsk flere kurs** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Bla gjennom kurskatalogen for å finne og selvpåmelde deg på nye kurs |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personlige og kurskalender |
-| **Rapportering** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> | Utvider til **Fremgang** — din egen oversikt over [Min fremgang](../my-progress.md) |
-| **Sosialt nettverk** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosialt nettverk" data-size="line"> | Utvider til [Sosialt nettverk](../social-network.md) og relaterte lenker, hvis aktivert |
-| **Videokonferanse** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Tilgang til live videoøkter (hvis konfigurert) |
+| **Hjem** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Hjem" data-size="line"> | Går tilbake til hoveddashbordet |
+| **Mine kurs** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurs" data-size="line"> | Lister alle kurs du er påmeldt |
+| **Mine økter** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Økter" data-size="line"> | Lister opplæringsøktene dine (pågående, tidligere, kommende) |
+| **Utforsk flere kurs** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Katalog" data-size="line"> | Bla gjennom kurskatalogen for å finne og selvpåmelde deg på nye kurs |
+| **Agenda** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Din personlige og kurskalender |
+| **Rapportering** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Rapportering" data-size="line"> | Utvider til **Fremgang** — din egen oversikt over [Min fremgang](../my-progress.md) |
+| **Sosialt nettverk** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Sosialt nettverk" data-size="line"> | Utvider til [Sosialt nettverk](../social-network.md) og relaterte lenker, hvis aktivert |
+| **Videokonferanse** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Tilgang til live videoøkter (hvis konfigurert) |
 
 **Rapportering** og **Sosialt nettverk** er ikke vanlige lenker — når du klikker på dem, utvides en liten liste med underpunkter rett i sidestolpen:
 
-![Sidestolpen med Rapportering og Sosialt nettverk utvidet, som viser underpunktene deres](/.gitbook/assets/student-sidebar-expanded.png)
+![Sidestolpen med Rapportering og Sosialt nettverk utvidet, som viser underpunktene deres](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * Under **Rapportering**: bare **Fremgang**, som tar deg til [Min fremgang](../my-progress.md).
 * Under **Sosialt nettverk**: **Hjem** (den sosiale veggen), **Meldinger** (en snarvei til [Innboksen](../inbox.md)), **Mine venner**, **Sosiale grupper** — og, noe uventet gruppert her også, **Mine filer** (ditt personlige fillager) og **Personopplysninger** (en eksport av personopplysningene plattformen har om deg). Disse to siste er egentlig ikke «sosiale» funksjoner; de ligger bare i denne delen av sidestolpen.

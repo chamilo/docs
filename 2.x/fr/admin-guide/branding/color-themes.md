@@ -8,7 +8,7 @@ Les thèmes de couleurs définissent la palette utilisée dans l'interface de Ch
 
 ## Appliquer un thème
 
-![La page des thèmes de couleurs affichant les thèmes disponibles avec des échantillons de prévisualisation et un bouton Appliquer](/.gitbook/assets/admin-color-themes.png)
+![La page des thèmes de couleurs affichant les thèmes disponibles avec des échantillons de prévisualisation et un bouton Appliquer](../../.gitbook/assets/admin-color-themes.png)
 
 1. Depuis le panneau d'administration, accédez à **Thèmes de couleurs**
 2. Parcourez les thèmes disponibles

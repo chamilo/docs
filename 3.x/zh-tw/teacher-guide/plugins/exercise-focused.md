@@ -1,6 +1,6 @@
 # 專注測驗
 
-專注測驗 <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="專注測驗" data-size="line"> 是一項考試防作弊輔助功能。若學生的瀏覽器在已標記的測驗期間失去焦點——例如切換到其他分頁或視窗——Chamilo 會顯示全螢幕警告，要求學生返回，若未返回則可自動繳交其作答。
+專注測驗 <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="專注測驗" data-size="line"> 是一項考試防作弊輔助功能。若學生的瀏覽器在已標記的測驗期間失去焦點——例如切換到其他分頁或視窗——Chamilo 會顯示全螢幕警告，要求學生返回，若未返回則可自動繳交其作答。
 
 ## 標記測驗
 

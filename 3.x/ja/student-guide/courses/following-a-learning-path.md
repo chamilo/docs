@@ -4,9 +4,9 @@
 
 ## ラーニングパスを開く
 
-コースホームページから **ラーニングパス** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="ラーニングパス" data-size="line"> ツールを開き、開始したいものをクリックします。教師が **自動起動** を有効にしている場合、コースに入るとラーニングパスが自動的に開くことがあります。
+コースホームページから **ラーニングパス** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="ラーニングパス" data-size="line"> ツールを開き、開始したいものをクリックします。教師が **自動起動** を有効にしている場合、コースに入るとラーニングパスが自動的に開くことがあります。
 
-![コースのラーニングパス一覧。それぞれに進捗が表示されている](/.gitbook/assets/student-learning-paths-list.png)
+![コースのラーニングパス一覧。それぞれに進捗が表示されている](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## パス内の移動
 

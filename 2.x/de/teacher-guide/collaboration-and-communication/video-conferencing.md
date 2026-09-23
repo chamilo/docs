@@ -6,7 +6,7 @@ Chamilo integriert sich mit Videokonferenzplattformen, um Ihnen die Durchführun
 
 ## Starten einer Videositzung
 
-1. Öffnen Sie das Tool **Videokonferenz** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> über die Kursstartseite (oder über die Seitenleiste)
+1. Öffnen Sie das Tool **Videokonferenz** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> über die Kursstartseite (oder über die Seitenleiste)
 2. Klicken Sie auf **Ein Meeting starten** (oder einen ähnlichen Button, abhängig von der konfigurierten Plattform)
 3. Ein neuer Videokonferenzraum wird in einem neuen Browser-Tab geöffnet
 

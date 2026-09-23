@@ -1,6 +1,6 @@
 # H5P-import
 
-H5P-import <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-import" data-size="line"> lar deg ta inn standard `.h5p`-pakker med interaktivt innhold (interaktiv video, quizer, presentasjoner og andre H5P-innholdstyper) i et kurs, der studentenes forsøk og fremgang spores på lignende måte som i en Chamilo-test.
+H5P-import <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="H5P-import" data-size="line"> lar deg ta inn standard `.h5p`-pakker med interaktivt innhold (interaktiv video, quizer, presentasjoner og andre H5P-innholdstyper) i et kurs, der studentenes forsøk og fremgang spores på lignende måte som i en Chamilo-test.
 
 ## Tilgang til verktøyet
 

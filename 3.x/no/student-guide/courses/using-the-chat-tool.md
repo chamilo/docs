@@ -4,9 +4,9 @@ Noen kurs inkluderer et **Chat**-verktøy — sanntids tekstmeldinger knyttet ti
 
 ## Sende meldinger
 
-Åpne **Chat**-verktøyet <img src="/.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> fra kursets hjemmeside. Du vil se en **Brukere**-liste over alle som for øyeblikket er pålogget i kurset, hver med sin egen **Chat**-knapp, pluss en **Alle**-fane for hele gruppen:
+Åpne **Chat**-verktøyet <img src="../../.gitbook/assets/icons/mdi-chat-processing.svg" alt="Chat" data-size="line"> fra kursets hjemmeside. Du vil se en **Brukere**-liste over alle som for øyeblikket er pålogget i kurset, hver med sin egen **Chat**-knapp, pluss en **Alle**-fane for hele gruppen:
 
-![Kursets chatverktøy, som viser listen over påloggede brukere og et meldingsfelt](/.gitbook/assets/student-course-chat.png)
+![Kursets chatverktøy, som viser listen over påloggede brukere og et meldingsfelt](../../.gitbook/assets/student-course-chat.png)
 
 Velg en person (eller **Alle**) og skriv meldingen din i boksen nederst. Trykk **Enter** for å sende den, eller **Shift+Enter** for å starte en ny linje uten å sende. Et **Forhåndsvisning**-valg lar deg sjekke formateringen før sending, og **Tilbakestill** tømmer det du har skrevet.
 

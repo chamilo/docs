@@ -4,7 +4,7 @@ Verktøyet **Tester** (øvelser) er der du tar quizer og eksamener som læreren 
 
 ## Starte en test
 
-Åpne verktøyet **Tester** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tester" data-size="line"> fra kursets hjemmeside og klikk på en test for å starte den. En test kan ennå ikke være tilgjengelig, eller den kan ikke lenger være tilgjengelig, hvis læreren har satt en start- eller sluttdato på den.
+Åpne verktøyet **Tester** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Tester" data-size="line"> fra kursets hjemmeside og klikk på en test for å starte den. En test kan ennå ikke være tilgjengelig, eller den kan ikke lenger være tilgjengelig, hvis læreren har satt en start- eller sluttdato på den.
 
 ## Besvare spørsmål
 

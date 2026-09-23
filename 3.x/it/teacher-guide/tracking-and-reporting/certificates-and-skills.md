@@ -30,13 +30,13 @@ La data di scadenza di ciascun certificato viene calcolata automaticamente da ta
 
 Se la categoria non ha un periodo di validità configurato, potete comunque impostare (o modificare) a mano la data di scadenza di un singolo discente: fate clic sul pulsante a forma di matita **Modifica data di scadenza** accanto alla relativa voce e scegliete una data. Questo pulsante è disponibile solo quando la categoria stessa non ha un periodo di validità — una volta impostato un periodo di validità, le date di scadenza sono gestite automaticamente e non possono più essere modificate certificato per certificato.
 
-![L'elenco dei certificati che mostra la colonna Data di scadenza per tre discenti](/.gitbook/assets/gradebook-certificates-expiry-dates.png)
+![L'elenco dei certificati che mostra la colonna Data di scadenza per tre discenti](../../.gitbook/assets/gradebook-certificates-expiry-dates.png)
 
 ### Promemoria ai discenti per una scadenza imminente o già trascorsa
 
-Aprite l'elenco **Certificati** della vostra valutazione e fate clic sul pulsante **Certificati in scadenza** <img src="/.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificati in scadenza" data-size="line"> per vedere quali certificati dei discenti sono scaduti o stanno per scadere. La pagina mostra, per ciascun discente: la **Data di scadenza** del certificato, il relativo **Stato** (**Scaduto** o **In scadenza a breve**) e quando è stato inviato l'**Ultimo promemoria** (oppure **Mai**). Usate **Giorni di anticipo** per ampliare o restringere l'orizzonte temporale di "in scadenza a breve".
+Aprite l'elenco **Certificati** della vostra valutazione e fate clic sul pulsante **Certificati in scadenza** <img src="../../.gitbook/assets/icons/mdi-calendar-clock.svg" alt="Certificati in scadenza" data-size="line"> per vedere quali certificati dei discenti sono scaduti o stanno per scadere. La pagina mostra, per ciascun discente: la **Data di scadenza** del certificato, il relativo **Stato** (**Scaduto** o **In scadenza a breve**) e quando è stato inviato l'**Ultimo promemoria** (oppure **Mai**). Usate **Giorni di anticipo** per ampliare o restringere l'orizzonte temporale di "in scadenza a breve".
 
-![La pagina Certificati in scadenza che elenca un certificato scaduto e uno in scadenza a breve](/.gitbook/assets/gradebook-certificate-expirations.png)
+![La pagina Certificati in scadenza che elenca un certificato scaduto e uno in scadenza a breve](../../.gitbook/assets/gradebook-certificate-expirations.png)
 
 Per notificare voi stessi i discenti:
 
@@ -45,7 +45,7 @@ Per notificare voi stessi i discenti:
 3. Controllate l'anteprima dell'e-mail che verrà inviata — vengono mostrate anteprime distinte per il testo "in scadenza a breve" e "scaduto", a seconda di quali discenti selezionati rientrano in ciascun caso
 4. Confermate facendo di nuovo clic su **Invia notifica** nella finestra di dialogo
 
-![La finestra di conferma Invia notifica con l'anteprima del testo delle e-mail per certificati in scadenza e scaduti](/.gitbook/assets/gradebook-certificate-expiry-notification.png)
+![La finestra di conferma Invia notifica con l'anteprima del testo delle e-mail per certificati in scadenza e scaduti](../../.gitbook/assets/gradebook-certificate-expiry-notification.png)
 
 Ogni discente viene notificato nella propria lingua configurata, sia via e-mail sia tramite un messaggio interno di Chamilo. Un nuovo invio per lo stesso certificato e la stessa data di scadenza è sicuro — Chamilo tiene traccia di ciò che è già stato inviato per ciascun certificato e non inonderà un discente di promemoria duplicati a meno che non effettuiate esplicitamente un nuovo invio.
 

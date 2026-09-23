@@ -4,7 +4,7 @@
 
 ## 平台識別
 
-![入口網站自訂頁面，顯示平台名稱、標誌與機構等識別設定](/.gitbook/assets/admin-portal-customization.png)
+![入口網站自訂頁面，顯示平台名稱、標誌與機構等識別設定](../../../.gitbook/assets/admin-portal-customization.png)
 
 設定入口網站的基本識別資訊：
 

@@ -1,6 +1,6 @@
 # Calendário de Aprendizagem
 
-O Calendário de Aprendizagem <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendário de Aprendizagem" data-size="line"> ajuda a planejar formações híbridas ou no estilo de aprendizagem em serviço que misturam tempo em sala de aula com prática fora do local. Você monta um calendário marcando cada dia como **Ocupado**, **Prova** ou **Livre**, atribui aprendizes a ele, e a agenda pessoal deles passa a exibir esses dias planejados.
+O Calendário de Aprendizagem <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendário de Aprendizagem" data-size="line"> ajuda a planejar formações híbridas ou no estilo de aprendizagem em serviço que misturam tempo em sala de aula com prática fora do local. Você monta um calendário marcando cada dia como **Ocupado**, **Prova** ou **Livre**, atribui aprendizes a ele, e a agenda pessoal deles passa a exibir esses dias planejados.
 
 ## Acessando a Ferramenta
 

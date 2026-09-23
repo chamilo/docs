@@ -1,10 +1,10 @@
 # Klien IMS/LTI
 
-Klien IMS/LTI <img src="/.gitbook/assets/icons/mdi-link-variant.svg" alt="Klien IMS/LTI" data-size="line"> memungkinkan Anda meluncurkan alat eksternal atau penyedia konten dari dalam kursus Anda menggunakan standar LTI (versi 1.1 dan 1.3) — misalnya, buku teks interaktif dari penerbit, alat simulasi khusus, atau platform lain yang mendukung LTI. Chamilo bertindak sebagai platform peluncur; layanan eksternal adalah "alat".
+Klien IMS/LTI <img src="../../.gitbook/assets/icons/mdi-link-variant.svg" alt="Klien IMS/LTI" data-size="line"> memungkinkan Anda meluncurkan alat eksternal atau penyedia konten dari dalam kursus Anda menggunakan standar LTI (versi 1.1 dan 1.3) — misalnya, buku teks interaktif dari penerbit, alat simulasi khusus, atau platform lain yang mendukung LTI. Chamilo bertindak sebagai platform peluncur; layanan eksternal adalah "alat".
 
 ## Mengakses Alat
 
-Setelah diaktifkan, tombol **Konfigurasi alat eksternal** muncul di **Pengaturan** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line"> kursus Anda. Dari sana Anda dapat:
+Setelah diaktifkan, tombol **Konfigurasi alat eksternal** muncul di **Pengaturan** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line"> kursus Anda. Dari sana Anda dapat:
 
 * **Tambahkan alat eksternal baru** — Daftarkan sendiri: nama, URL peluncuran, versi LTI, dan kredensial yang diberikan layanan eksternal kepada Anda (ID klien/kunci untuk LTI 1.3, atau kunci konsumen dan rahasia untuk LTI 1.1)
 * **Tambahkan alat global yang sudah ada** — Jika administrator Anda sudah mendaftarkan alat di seluruh platform, tambahkan ke kursus Anda alih-alih membuat koneksi sendiri

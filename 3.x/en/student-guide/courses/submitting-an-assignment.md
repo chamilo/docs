@@ -4,7 +4,7 @@ The **Assignments** tool (sometimes called "student publications" or "work") is 
 
 ## Submitting Your Work
 
-Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage, then open the specific assignment. Read the description carefully — it contains your teacher's instructions on what to submit and how it will be evaluated. Then:
+Open the **Assignments** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage, then open the specific assignment. Read the description carefully — it contains your teacher's instructions on what to submit and how it will be evaluated. Then:
 
 1. Click **Upload file** (or the submission button)
 2. Depending on how your teacher configured the assignment, either select a file from your computer, write your submission as text directly, or both

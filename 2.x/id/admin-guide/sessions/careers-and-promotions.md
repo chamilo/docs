@@ -4,7 +4,7 @@ Chamilo menyertakan sistem manajemen karier yang memungkinkan Anda menentukan ja
 
 ## Karier
 
-![Daftar karier yang menunjukkan jalur karier yang telah ditentukan dengan nama dan deskripsi](/.gitbook/assets/admin-careers-list.png)
+![Daftar karier yang menunjukkan jalur karier yang telah ditentukan dengan nama dan deskripsi](../../.gitbook/assets/admin-careers-list.png)
 
 Sebuah **karier** mewakili jalur pelatihan yang terstruktur — serangkaian langkah pelatihan yang diikuti oleh peserta didik untuk mencapai tujuan profesional.
 

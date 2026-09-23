@@ -53,7 +53,7 @@ Cada URL de acesso pode ter os seus próprios:
 
 As URLs de acesso podem ser organizadas em uma árvore pai/filho em vez de uma lista plana. Ao criar ou editar uma URL, um Administrador Global irrestrito (consulte [Administradores de Subárvore](#subtree-administrators) abaixo) pode escolher qualquer outra URL como sua **URL pai**:
 
-![Diálogo de edição de URL com a lista suspensa URL pai aberta, listando as outras URLs de acesso disponíveis como pai](/.gitbook/assets/admin-access-url-parent-select.png)
+![Diálogo de edição de URL com a lista suspensa URL pai aberta, listando as outras URLs de acesso disponíveis como pai](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * A lista suspensa nunca oferece a URL que está sendo editada, nem qualquer um dos seus próprios descendentes, como possível pai — isso impede a criação de um ciclo. O backend revalida isso independentemente do que a interface mostra.
 * Se uma URL for criada sem escolher um pai, ela assume por padrão a **URL somente de login** se existir uma (consulte [Configurações por URL](#per-url-settings) acima), ou, caso contrário, a primeira URL de acesso — o mesmo comportamento padrão de antes desta funcionalidade existir.
@@ -61,7 +61,7 @@ As URLs de acesso podem ser organizadas em uma árvore pai/filho em vez de uma l
 
 Onde quer que as URLs de acesso sejam listadas — o painel Multi-URL e a página de gerenciamento de URLs de Acesso — a árvore é mostrada por meio de recuo, um pai imediatamente seguido pelos seus próprios filhos (irmãos ordenados alfabeticamente), em vez de uma coluna "Pai" separada:
 
-![Lista de URLs de Acesso mostrando uma URL raiz com duas URLs filhas, uma das quais tem a sua própria URL filha, recuadas para refletir a hierarquia](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Lista de URLs de Acesso mostrando uma URL raiz com duas URLs filhas, uma das quais tem a sua própria URL filha, recuadas para refletir a hierarquia](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administradores de Subárvore
 

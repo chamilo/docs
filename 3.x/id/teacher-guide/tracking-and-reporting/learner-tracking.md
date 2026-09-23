@@ -4,7 +4,7 @@ Chamilo melacak aktivitas peserta didik di seluruh platform, sehingga Anda mempe
 
 ## Mengakses Pelacakan Peserta Didik
 
-Buka alat **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> dari beranda kursus, atau klik **Reporting** di bilah sisi.
+Buka alat **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> dari beranda kursus, atau klik **Reporting** di bilah sisi.
 
 ## Apa yang Dilacak
 
@@ -22,7 +22,7 @@ Rincian akses per sumber daya (dokumen atau halaman spesifik mana yang dibuka pe
 
 ## Melihat Data Peserta Didik Individu
 
-![Tampilan pelacakan peserta didik terperinci yang menampilkan kemajuan, skor, dan linimasa aktivitas](/.gitbook/assets/tracking-learner-detail.png)
+![Tampilan pelacakan peserta didik terperinci yang menampilkan kemajuan, skor, dan linimasa aktivitas](../../.gitbook/assets/tracking-learner-detail.png)
 
 Klik nama peserta didik untuk melihat laporan aktivitas terperinci mereka. Ini menampilkan:
 

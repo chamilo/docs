@@ -1,6 +1,6 @@
 # Övningsfokuserad
 
-Övningsfokuserad <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Övningsfokuserad" data-size="line"> är ett hjälpmedel mot fusk vid tentamen. Om en students webbläsare tappar fokus under ett flaggat test — genom att byta till en annan flik eller ett annat fönster — visar Chamilo en helskärmsvarning som uppmanar dem att återvända, och kan automatiskt lämna in deras försök om de inte gör det.
+Övningsfokuserad <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Övningsfokuserad" data-size="line"> är ett hjälpmedel mot fusk vid tentamen. Om en students webbläsare tappar fokus under ett flaggat test — genom att byta till en annan flik eller ett annat fönster — visar Chamilo en helskärmsvarning som uppmanar dem att återvända, och kan automatiskt lämna in deras försök om de inte gör det.
 
 ## Flagga ett test
 

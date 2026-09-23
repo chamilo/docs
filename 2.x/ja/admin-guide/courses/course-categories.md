@@ -19,7 +19,7 @@ Chamiloではデフォルトで3つのカテゴリが作成されます：*言�
 
 ## カテゴリ階層
 
-![コースカテゴリ管理ページでネストされたカテゴリのツリーを表示](/.gitbook/assets/admin-course-categories.png)
+![コースカテゴリ管理ページでネストされたカテゴリのツリーを表示](../../.gitbook/assets/admin-course-categories.png)
 
 カテゴリはネストしてツリー構造を作成することができます：
 

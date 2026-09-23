@@ -9,7 +9,7 @@ AIを活用したグロッサリー用語ジェネレーターは、トピック
 1. プラットフォームレベルでAIアシスタントが有効になっている
 2. 少なくとも1つのAIテキストプロバイダーが設定されている
 
-コースのホームページで**グロッサリー**ツール <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="グロッサリー" data-size="line"> を開き、ツールバーにある**AIで生成**ボタンを探してください。
+コースのホームページで**グロッサリー**ツール <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="グロッサリー" data-size="line"> を開き、ツールバーにある**AIで生成**ボタンを探してください。
 
 ## 用語の生成方法
 

@@ -10,7 +10,7 @@
 
 ## 如何產生圖片或影片
 
-1. 在 **文件** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="文件" data-size="line"> 工具中開啟一份文件（建立新文件或編輯既有文件）
+1. 在 **文件** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="文件" data-size="line"> 工具中開啟一份文件（建立新文件或編輯既有文件）
 2. 在豐富文字編輯器中，將游標置於您想說明的段落內或附近
 3. 從編輯器工具列開啟 **產生 AI 媒體** 對話方塊
 4. 描述您希望媒體呈現的內容，或使用所選段落作為提示詞

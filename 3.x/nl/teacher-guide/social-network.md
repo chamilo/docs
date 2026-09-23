@@ -8,7 +8,7 @@ Klik op **Sociaal netwerk** in de zijbalk om de sociale functies te openen. Als 
 
 ## Uw sociale muur
 
-![De sociale muur met een feed van berichten, likes en reacties van connecties](/.gitbook/assets/social-wall.png)
+![De sociale muur met een feed van berichten, likes en reacties van connecties](../.gitbook/assets/social-wall.png)
 
 De sociale muur toont een feed van activiteit van u en uw connecties. U kunt:
 
@@ -30,9 +30,9 @@ U kunt verbinding maken met andere gebruikers op het platform:
 
 Het sociale netwerk is geïntegreerd met het berichtenstysteem van het platform:
 
-* **Berichten versturen** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nieuw bericht" data-size="line"> — Directe berichten schrijven naar andere gebruikers
-* **Postvak IN** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Postvak IN" data-size="line"> — Ontvangen berichten lezen en beantwoorden
-* **Verzonden berichten** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Verzonden" data-size="line"> — Berichten bekijken die u hebt verzonden
+* **Berichten versturen** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nieuw bericht" data-size="line"> — Directe berichten schrijven naar andere gebruikers
+* **Postvak IN** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Postvak IN" data-size="line"> — Ontvangen berichten lezen en beantwoorden
+* **Verzonden berichten** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Verzonden" data-size="line"> — Berichten bekijken die u hebt verzonden
 
 ### Opstellen en beantwoorden
 

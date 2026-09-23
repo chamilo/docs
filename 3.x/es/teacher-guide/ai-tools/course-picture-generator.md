@@ -4,22 +4,22 @@ El generador de imagen del curso con IA le permite crear una miniatura para su c
 
 ## Acceso al generador
 
-El botón **Generate with AI** <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> está disponible junto al campo **Course picture**, siempre que:
+El botón **Generate with AI** <img src="../../.gitbook/assets/icons/mdi-robot.svg" alt="Generate with AI" data-size="line"> está disponible junto al campo **Course picture**, siempre que:
 
 1. Los asistentes de IA estén habilitados a nivel de plataforma
 2. Al menos un proveedor de IA configurado en su plataforma admita la generación de imágenes
 3. La función esté permitida en su curso (consulte **AI Helpers Settings** en [Configuración del curso](../creating-your-course/course-settings.md))
 
-Abra **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> de su curso y desplácese hasta el campo **Course picture**:
+Abra **Settings** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> de su curso y desplácese hasta el campo **Course picture**:
 
-![El campo Course picture en Configuración del curso, con un botón Choose File y un botón Generate with AI debajo](/.gitbook/assets/course-picture-ai-button.png)
+![El campo Course picture en Configuración del curso, con un botón Choose File y un botón Generate with AI debajo](../../.gitbook/assets/course-picture-ai-button.png)
 
 ## Cómo generar una imagen
 
 1. Haga clic en **Generate with AI**
 2. Se abre un diálogo con un campo **Prompt** rellenado previamente con una descripción predeterminada; edítelo para describir la ilustración que desea, o deje el valor predeterminado tal cual
 
-![El diálogo Generate with AI mostrando el campo Prompt con su texto predeterminado, y los botones Cancel/Generate](/.gitbook/assets/course-picture-ai-modal.png)
+![El diálogo Generate with AI mostrando el campo Prompt con su texto predeterminado, y los botones Cancel/Generate](../../.gitbook/assets/course-picture-ai-modal.png)
 
 3. Haga clic en **Generate** y espere: la generación de la imagen puede tardar unos segundos
 4. La imagen generada se coloca automáticamente en el campo **Course picture**, sustituyendo cualquier archivo que hubiera seleccionado allí

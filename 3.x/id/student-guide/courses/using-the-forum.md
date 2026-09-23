@@ -4,7 +4,7 @@ Alat **Forum** menampung diskusi terstruktur dan berantai di dalam sebuah kursus
 
 ## Menemukan Jalan Anda
 
-Buka alat **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dari beranda kursus. Forum diorganisasi dalam tiga tingkat:
+Buka alat **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> dari beranda kursus. Forum diorganisasi dalam tiga tingkat:
 
 1. **Kategori** — pengelompokan luas (misalnya, "Diskusi Umum", "Pertanyaan Modul 1")
 2. **Forum** — papan diskusi individual di dalam sebuah kategori

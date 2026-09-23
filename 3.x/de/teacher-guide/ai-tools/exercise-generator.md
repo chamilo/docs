@@ -13,7 +13,7 @@ Suchen Sie in der Oberfläche zur Übungserstellung nach der Schaltfläche oder 
 
 ## So generieren Sie Fragen
 
-![Das Formular des KI-Übungs-Generators mit Feldern für Thema und Anzahl der Fragen](/.gitbook/assets/ai-exercise-generator.png)
+![Das Formular des KI-Übungs-Generators mit Feldern für Thema und Anzahl der Fragen](../../.gitbook/assets/ai-exercise-generator.png)
 
 Der Generator bietet zwei Modi, die als Registerkarten verfügbar sind:
 
@@ -32,7 +32,7 @@ Der Generator bietet zwei Modi, die als Registerkarten verfügbar sind:
 
 ## Prüfung und Bearbeitung
 
-![KI-generierte Fragen zur Prüfung, mit Optionen zum Bearbeiten, Übernehmen oder Entfernen jeder einzelnen](/.gitbook/assets/ai-exercise-generator-results.png)
+![KI-generierte Fragen zur Prüfung, mit Optionen zum Bearbeiten, Übernehmen oder Entfernen jeder einzelnen](../../.gitbook/assets/ai-exercise-generator-results.png)
 
 Generierte Fragen werden als **Vorschläge** dargestellt. Sie sollten:
 

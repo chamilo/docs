@@ -1,6 +1,6 @@
 # Certificat personnalisé
 
-Le plugin Custom Certificate <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Certificat personnalisé" data-size="line"> vous permet de remplacer le [certificat du carnet de notes](../assessing-learners/gradebook.md) standard par votre propre conception — logos, un sceau, jusqu’à quatre images de signature avec légendes, une image d’arrière-plan, des marges, et un contenu construit à partir de balises d’espace réservé.
+Le plugin Custom Certificate <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Certificat personnalisé" data-size="line"> vous permet de remplacer le [certificat du carnet de notes](../assessing-learners/gradebook.md) standard par votre propre conception — logos, un sceau, jusqu’à quatre images de signature avec légendes, une image d’arrière-plan, des marges, et un contenu construit à partir de balises d’espace réservé.
 
 ## Activation pour votre cours
 

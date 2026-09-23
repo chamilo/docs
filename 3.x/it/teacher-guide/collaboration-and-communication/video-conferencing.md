@@ -6,7 +6,7 @@ Chamilo si integra con piattaforme di videoconferenza per consentirti di svolger
 
 ## Avviare una sessione video
 
-1. Apri lo strumento **Videoconferenza** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> dalla homepage del corso (o dalla barra laterale)
+1. Apri lo strumento **Videoconferenza** <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> dalla homepage del corso (o dalla barra laterale)
 2. Fai clic su **Avvia una riunione** (o su un pulsante analogo a seconda della piattaforma configurata)
 3. Si aprirà una nuova stanza di videoconferenza in una nuova scheda del browser
 

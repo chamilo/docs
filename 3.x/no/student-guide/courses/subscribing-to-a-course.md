@@ -21,7 +21,7 @@ Hvis et kurs sin synlighet tillater det, kan du abonnere selv uten å vente på 
 2. Bla gjennom eller søk etter kurset du vil bli med på.
 3. Klikk på kurset for å åpne detaljene, og klikk deretter på knappen for å bli med.
 
-![Kurskatalogen, med en Abonner-knapp på hvert kurskort](/.gitbook/assets/student-course-catalogue.png)
+![Kurskatalogen, med en Abonner-knapp på hvert kurskort](../../.gitbook/assets/student-course-catalogue.png)
 
 Et kurs du allerede er påmeldt på viser **Gå til kurset** i stedet for en abonner-knapp.
 

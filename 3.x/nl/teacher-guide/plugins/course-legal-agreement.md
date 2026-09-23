@@ -1,12 +1,12 @@
 # Juridische overeenkomst van de cursus
 
-De plugin Juridische overeenkomst van de cursus <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridische overeenkomst van de cursus" data-size="line"> vereist dat studenten een voorwaarden-/juridische kennisgeving accepteren voordat ze toegang tot uw cursus krijgen — nuttig voor toestemmingsformulieren, gebruiksbeleid of elke kennisgeving waarmee u wilt dat cursisten formeel instemmen.
+De plugin Juridische overeenkomst van de cursus <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Juridische overeenkomst van de cursus" data-size="line"> vereist dat studenten een voorwaarden-/juridische kennisgeving accepteren voordat ze toegang tot uw cursus krijgen — nuttig voor toestemmingsformulieren, gebruiksbeleid of elke kennisgeving waarmee u wilt dat cursisten formeel instemmen.
 
 ## Inschakelen voor uw cursus
 
 Het platformbreed inschakelen van de plugin doet op zichzelf niets — u moet het nog steeds inschakelen voor elke cursus waar u het wilt gebruiken:
 
-1. Open de **Instellingen** van uw cursus <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line">
+1. Open de **Instellingen** van uw cursus <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line">
 2. Vink in het gedeelte cursustoegang **Juridische voorwaarden inschakelen** aan
 
 Dit voegt een tool **Juridische overeenkomst van de cursus** toe aan uw cursus.

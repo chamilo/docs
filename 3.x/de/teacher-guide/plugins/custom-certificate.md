@@ -1,6 +1,6 @@
 # Individuelles Zertifikat
 
-Das Plugin Individuelles Zertifikat <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Individuelles Zertifikat" data-size="line"> ermöglicht es, das standardmäßige [Notenbuch-Zertifikat](../assessing-learners/gradebook.md) durch ein eigenes Design zu ersetzen — Logos, ein Siegel, bis zu vier Unterschriftsbilder mit Beschriftungen, ein Hintergrundbild, Ränder sowie Inhalte, die aus Platzhalter-Tags aufgebaut werden.
+Das Plugin Individuelles Zertifikat <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="Individuelles Zertifikat" data-size="line"> ermöglicht es, das standardmäßige [Notenbuch-Zertifikat](../assessing-learners/gradebook.md) durch ein eigenes Design zu ersetzen — Logos, ein Siegel, bis zu vier Unterschriftsbilder mit Beschriftungen, ein Hintergrundbild, Ränder sowie Inhalte, die aus Platzhalter-Tags aufgebaut werden.
 
 ## Aktivierung für Ihren Kurs
 

@@ -4,7 +4,7 @@ Chamilo enthält ein integriertes soziales Netzwerk zur Verbindung mit anderen N
 
 ## Ob Sie Zugriff haben
 
-Klicken Sie in der Seitenleiste auf **Soziales Netzwerk** <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line">, um den Bereich zu erweitern, und klicken Sie dann auf **Startseite**. Wenn diese Option gar nicht vorhanden ist, hat Ihr Administrator sie für Ihre Plattform deaktiviert — auf Ihrer Seite fehlt nichts.
+Klicken Sie in der Seitenleiste auf **Soziales Netzwerk** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Soziales Netzwerk" data-size="line">, um den Bereich zu erweitern, und klicken Sie dann auf **Startseite**. Wenn diese Option gar nicht vorhanden ist, hat Ihr Administrator sie für Ihre Plattform deaktiviert — auf Ihrer Seite fehlt nichts.
 
 Derselbe erweiterte Bereich listet außerdem **Nachrichten**, **Meine Freunde**, **Soziale Gruppen** — und, etwas unerwartet, **Meine Dateien** (Ihr persönlicher Dateispeicher) und **Persönliche Daten** (ein Export der persönlichen Daten, die die Plattform über Sie speichert). Die letzten beiden sind keine sozialen Funktionen; sie sind lediglich in diesem Teil der Seitenleiste gruppiert.
 
@@ -12,7 +12,7 @@ Derselbe erweiterte Bereich listet außerdem **Nachrichten**, **Meine Freunde**,
 
 Sobald Sie drin sind, zeigt Ihre **Pinnwand** einen Feed mit Aktivitäten von Ihnen und den Personen, mit denen Sie verbunden sind. Sie können Updates veröffentlichen und — sofern von Ihrem Administrator aktiviert — Beiträge Ihrer Verbindungen liken oder disliken sowie kommentieren.
 
-![Die soziale Pinnwand mit einem Beitragseditor und Bereichen für Communities, Freunde und Kompetenzen](/.gitbook/assets/student-social-wall.png)
+![Die soziale Pinnwand mit einem Beitragseditor und Bereichen für Communities, Freunde und Kompetenzen](../.gitbook/assets/student-social-wall.png)
 
 ## Verbindung mit anderen
 

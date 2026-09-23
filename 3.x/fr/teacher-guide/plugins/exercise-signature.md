@@ -1,6 +1,6 @@
 # Signature d’exercice
 
-Exercise Signature <img src="/.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Signature d’exercice" data-size="line"> ajoute une étape de signature électronique après qu’un étudiant a terminé une tentative de test, afin que son achèvement puisse être authentifié — utile dans des contextes de conformité ou de certification. Elle n’affecte ni les scores, ni les réponses, ni les données du carnet de notes ; elle n’enregistre qu’une signature associée à la tentative.
+Exercise Signature <img src="../../.gitbook/assets/icons/mdi-signature-freehand.svg" alt="Signature d’exercice" data-size="line"> ajoute une étape de signature électronique après qu’un étudiant a terminé une tentative de test, afin que son achèvement puisse être authentifié — utile dans des contextes de conformité ou de certification. Elle n’affecte ni les scores, ni les réponses, ni les données du carnet de notes ; elle n’enregistre qu’une signature associée à la tentative.
 
 ## L’activer pour un test
 

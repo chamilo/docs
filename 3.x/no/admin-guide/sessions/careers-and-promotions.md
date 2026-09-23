@@ -4,7 +4,7 @@ Chamilo inkluderer et karrierehåndteringssystem som lar deg definere opplæring
 
 ## Karrierer
 
-![Karrierelisten som viser definerte karriereløp med navn og beskrivelse](/.gitbook/assets/admin-careers-list.png)
+![Karrierelisten som viser definerte karriereløp med navn og beskrivelse](../../.gitbook/assets/admin-careers-list.png)
 
 En **karriere** representerer et strukturert opplæringsløp — en sekvens av opplæringstrinn som en lærende følger for å nå et yrkesmål.
 

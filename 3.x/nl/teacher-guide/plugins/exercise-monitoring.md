@@ -1,6 +1,6 @@
 # Toetsbewaking
 
-Toetsbewaking <img src="/.gitbook/assets/icons/mdi-camera.svg" alt="Toetsbewaking" data-size="line"> gebruikt de webcam van een student om identiteitsfoto's vast te leggen tijdens een toetsafname — een foto van een identiteitsdocument en een foto van het gezicht van de student — ten behoeve van de integriteit van het examen.
+Toetsbewaking <img src="../../.gitbook/assets/icons/mdi-camera.svg" alt="Toetsbewaking" data-size="line"> gebruikt de webcam van een student om identiteitsfoto's vast te leggen tijdens een toetsafname — een foto van een identiteitsdocument en een foto van het gezicht van de student — ten behoeve van de integriteit van het examen.
 
 ## Een toets markeren
 

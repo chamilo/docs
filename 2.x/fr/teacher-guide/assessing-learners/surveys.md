@@ -4,7 +4,7 @@ L'outil d'enquête vous permet de créer des questionnaires pour recueillir les 
 
 ## Créer une enquête
 
-1. Ouvrez l'outil **Enquêtes** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> depuis la page d'accueil du cours
+1. Ouvrez l'outil **Enquêtes** <img src="../../.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> depuis la page d'accueil du cours
 2. Cliquez sur **Créer une enquête**
 3. Remplissez les détails de l'enquête :
    * **Code** — Il s'agit d'un code unique pour l'enquête. Il sera utilisé dans les courriels et les liens.
@@ -65,7 +65,7 @@ Un lien est disponible en bas de la page de publication pour inviter encore plus
 
 ## Consulter les résultats
 
-![Résultats de l'enquête avec des graphiques et des pourcentages pour chaque question](/.gitbook/assets/survey-results-charts.png)
+![Résultats de l'enquête avec des graphiques et des pourcentages pour chaque question](../../.gitbook/assets/survey-results-charts.png)
 
 Après que les apprenants ont répondu :
 

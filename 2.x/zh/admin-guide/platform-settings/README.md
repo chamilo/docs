@@ -4,7 +4,7 @@ Chamilo 拥有一个广泛的配置系统，设置按类别组织。以下完整
 
 通过点击管理面板中的**配置设置**访问平台设置。
 
-![平台设置页面显示按功能区域组织的配置类别](/.gitbook/assets/admin-settings-categories.png)
+![平台设置页面显示按功能区域组织的配置类别](../../.gitbook/assets/admin-settings-categories.png)
 
 ## 所有类别
 

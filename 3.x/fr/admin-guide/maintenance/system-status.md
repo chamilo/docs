@@ -8,7 +8,7 @@ Depuis le panneau d’administration, cliquez sur **État du système** (ou **In
 
 ## Ce qu’elle affiche
 
-![La page d’état du système montrant la configuration PHP, l’état de la base de données, les permissions de fichiers et les informations serveur](/.gitbook/assets/admin-system-status.png)
+![La page d’état du système montrant la configuration PHP, l’état de la base de données, les permissions de fichiers et les informations serveur](../../.gitbook/assets/admin-system-status.png)
 
 ### Configuration PHP
 

@@ -6,8 +6,8 @@ I messaggi inviati tramite gli annunci vengono recapitati agli studenti sia tram
 
 ## Creare un Annuncio
 
-1. Apri lo strumento **Annunci** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> dalla homepage del corso
-2. Fai clic sull'icona **Aggiungi un annuncio** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> di nuovo
+1. Apri lo strumento **Annunci** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> dalla homepage del corso
+2. Fai clic sull'icona **Aggiungi un annuncio** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="Annunci" data-size="line"> di nuovo
 3. Compila i seguenti campi:
    * **Destinatari** — Scegli chi riceverà l'annuncio:
      * Tutti gli studenti iscritti
@@ -25,9 +25,9 @@ Il pulsante **Anteprima** non è molto intuitivo: ti consente di vedere a chi ve
 
 ## Gestire gli Annunci
 
-* **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Modifica un annuncio esistente
-* **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi un annuncio
-* **Visibilità** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondi o mostra gli annunci
+* **Modifica** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Modifica un annuncio esistente
+* **Elimina** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi un annuncio
+* **Visibilità** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondi o mostra gli annunci
 
 Gli annunci vengono visualizzati in ordine cronologico inverso (dal più recente al meno recente).
 

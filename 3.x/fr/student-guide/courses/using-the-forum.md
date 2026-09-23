@@ -4,7 +4,7 @@ L’outil **Forum** accueille des discussions structurées et arborescentes au s
 
 ## S’orienter
 
-Ouvrez l’outil **Forum** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> depuis la page d’accueil du cours. Les forums sont organisés sur trois niveaux :
+Ouvrez l’outil **Forum** <img src="../../.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line"> depuis la page d’accueil du cours. Les forums sont organisés sur trois niveaux :
 
 1. **Catégories** — regroupements larges (par ex. « Discussions générales », « Questions du module 1 »)
 2. **Forums** — espaces de discussion individuels au sein d’une catégorie

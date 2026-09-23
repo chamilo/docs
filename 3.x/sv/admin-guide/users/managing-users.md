@@ -4,7 +4,7 @@ Den här sidan tar upp de dagliga uppgifterna att skapa, redigera och hantera an
 
 ## Användarlista
 
-![Användarlistan som visar konton med kolumner för namn, e-post, roll och status](/.gitbook/assets/admin-user-list.png)
+![Användarlistan som visar konton med kolumner för namn, e-post, roll och status](../../.gitbook/assets/admin-user-list.png)
 
 Från administrationspanelen klickar du på **Användarlista** för att se alla användare på plattformen. Listan visar:
 
@@ -21,7 +21,7 @@ Använd verktyget **Avancerad sökning** för att hitta specifika användare eft
 
 ## Skapa en användare
 
-![Formuläret för att skapa användare med fält för namn, e-post, användarnamn, lösenord, roll och språk](/.gitbook/assets/admin-user-create-form.png)
+![Formuläret för att skapa användare med fält för namn, e-post, användarnamn, lösenord, roll och språk](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klicka på **Lägg till en användare** från administrationspanelen
 2. Fyll i de obligatoriska fälten:
@@ -41,7 +41,7 @@ Använd verktyget **Avancerad sökning** för att hitta specifika användare eft
 
 ## Importera användare
 
-![Gränssnittet för användarimport för att ladda upp CSV- eller XML-filer med användardata](/.gitbook/assets/admin-user-import.png)
+![Gränssnittet för användarimport för att ladda upp CSV- eller XML-filer med användardata](../../.gitbook/assets/admin-user-import.png)
 
 För massskapande av användare kan du importera användare från en fil:
 

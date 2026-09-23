@@ -4,7 +4,7 @@ Lo strumento Compiti (chiamato anche "pubblicazioni degli studenti") consente di
 
 ## Creazione di un compito
 
-1. Aprire lo strumento **Compiti** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso
+1. Aprire lo strumento **Compiti** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso
 2. Fare clic su **Crea un compito**
 3. Compilare i dettagli:
    * **Nome del compito** — Il nome del compito (ad es. "Relazione del progetto finale")
@@ -41,7 +41,7 @@ Gli studenti possono vedere se hanno già consegnato e, se consentito, aggiornar
 
 ## Revisione delle consegne
 
-![L'elenco delle consegne del compito che mostra nomi degli studenti, date, file e stato della valutazione](/.gitbook/assets/assignments-submissions-list.png)
+![L'elenco delle consegne del compito che mostra nomi degli studenti, date, file e stato della valutazione](../../.gitbook/assets/assignments-submissions-list.png)
 
 Come docente, aprire un compito per vedere l'elenco di tutte le consegne:
 
@@ -53,7 +53,7 @@ Come docente, aprire un compito per vedere l'elenco di tutte le consegne:
 
 ### Valutazione di una consegna
 
-![La vista di valutazione del compito con inserimento del punteggio, campo di feedback e caricamento del file corretto](/.gitbook/assets/assignment-grading-view.png)
+![La vista di valutazione del compito con inserimento del punteggio, campo di feedback e caricamento del file corretto](../../.gitbook/assets/assignment-grading-view.png)
 
 1. Fare clic su una consegna per aprirla
 2. Esaminare il file consegnato

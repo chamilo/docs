@@ -4,17 +4,17 @@ La **Boîte de réception** est le système de messagerie privée de Chamilo —
 
 ## Accéder à votre boîte de réception
 
-Cliquez sur l’icône **Boîte de réception** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> dans la barre supérieure. Un badge rouge indique le nombre de messages non lus. Si cette icône n’apparaît pas du tout, votre administrateur a désactivé la messagerie de la plateforme.
+Cliquez sur l’icône **Boîte de réception** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> dans la barre supérieure. Un badge rouge indique le nombre de messages non lus. Si cette icône n’apparaît pas du tout, votre administrateur a désactivé la messagerie de la plateforme.
 
 ## Lire et répondre
 
 Votre boîte de réception liste les messages reçus et indique lesquels sont non lus. Ouvrez-en un pour le lire, puis utilisez **Répondre** pour y répondre — vous pouvez inclure plusieurs destinataires dans une même réponse, ce qui est utile pour tenir un petit groupe informé sans créer un cours formel ni un groupe social.
 
-![La boîte de réception, avec les onglets Boîte de réception / Non lus / Envoyés et un tableau des messages reçus](/.gitbook/assets/student-inbox.png)
+![La boîte de réception, avec les onglets Boîte de réception / Non lus / Envoyés et un tableau des messages reçus](../.gitbook/assets/student-inbox.png)
 
 ## Rédiger un nouveau message
 
-Cliquez sur le bouton **nouveau message** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line">, choisissez un ou plusieurs destinataires, rédigez un objet et un corps, puis envoyez. Comme pour une réponse, un nouveau message peut être adressé à plusieurs personnes à la fois.
+Cliquez sur le bouton **nouveau message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line">, choisissez un ou plusieurs destinataires, rédigez un objet et un corps, puis envoyez. Comme pour une réponse, un nouveau message peut être adressé à plusieurs personnes à la fois.
 
 ## Onglets et actions
 

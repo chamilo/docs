@@ -10,7 +10,7 @@ Klicken Sie im Administrationsbereich auf **Sicherheit > Simple IDS**.
 
 ## Angezeigte Informationen
 
-![Die Seite Simple IDS mit Diagrammen zu Ereignissen nach Tag, Ereignissen nach Typ und den häufigsten angreifenden IPs, gefolgt von einer Tabelle der markierten IDS-Ereignisse mit Datum, IP, Erkennungstyp, Parameter, URI und Detail](/.gitbook/assets/admin-security-simple-ids.png)
+![Die Seite Simple IDS mit Diagrammen zu Ereignissen nach Tag, Ereignissen nach Typ und den häufigsten angreifenden IPs, gefolgt von einer Tabelle der markierten IDS-Ereignisse mit Datum, IP, Erkennungstyp, Parameter, URI und Detail](../../.gitbook/assets/admin-security-simple-ids.png)
 
 * **Ereignisse nach Tag (letzte 7 Tage)**, **Ereignisse nach Typ (letzte 30 Tage)** und **Häufigste angreifende IPs (letzte 30 Tage)** — Übersichtsdiagramme
 * **Tabelle der markierten IDS-Ereignisse** — Jeder Eintrag zeigt Datum, Quell-IP, Erkennungstyp (beispielsweise `XSS`), den betroffenen Parameter, die Anfrage-URI und eine kurze Beschreibung des Erkannten

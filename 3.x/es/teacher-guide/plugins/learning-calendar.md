@@ -1,6 +1,6 @@
 # Calendario de aprendizaje
 
-El Calendario de aprendizaje <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendario de aprendizaje" data-size="line"> ayuda a planificar la formación semipresencial o de tipo aprendizaje que combina tiempo en el aula con práctica fuera del centro. Usted construye un calendario marcando cada día como **Ocupado**, **Examen** o **Libre**, asigna a los alumnos y su agenda personal muestra entonces esos días planificados.
+El Calendario de aprendizaje <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Calendario de aprendizaje" data-size="line"> ayuda a planificar la formación semipresencial o de tipo aprendizaje que combina tiempo en el aula con práctica fuera del centro. Usted construye un calendario marcando cada día como **Ocupado**, **Examen** o **Libre**, asigna a los alumnos y su agenda personal muestra entonces esos días planificados.
 
 ## Acceso a la herramienta
 

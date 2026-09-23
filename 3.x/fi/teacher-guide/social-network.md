@@ -8,7 +8,7 @@ Napsauta sivupalkissa **Sosiaalinen verkosto** päästäksesi sosiaalisiin omina
 
 ## Sosiaalinen seinäsi
 
-![Sosiaalinen seinä, jossa näkyy yhteyksien julkaisujen, tykkäysten ja kommenttien syöte](/.gitbook/assets/social-wall.png)
+![Sosiaalinen seinä, jossa näkyy yhteyksien julkaisujen, tykkäysten ja kommenttien syöte](../.gitbook/assets/social-wall.png)
 
 Sosiaalisella seinällä näkyy sinun ja yhteyksiesi toimintasyöte. Voit:
 
@@ -30,9 +30,9 @@ Voit muodostaa yhteyksiä muihin alustan käyttäjiin:
 
 Sosiaalinen verkosto integroituu alustan viestijärjestelmään:
 
-* **Lähetä viestejä** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Uusi viesti" data-size="line"> — Kirjoita suoria viestejä muille käyttäjille
-* **Saapuneet** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line"> — Lue vastaanotettuja viestejä ja vastaa niihin
-* **Lähetetyt viestit** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Lähetetyt" data-size="line"> — Tarkastele lähettämiäsi viestejä
+* **Lähetä viestejä** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Uusi viesti" data-size="line"> — Kirjoita suoria viestejä muille käyttäjille
+* **Saapuneet** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Saapuneet" data-size="line"> — Lue vastaanotettuja viestejä ja vastaa niihin
+* **Lähetetyt viestit** <img src="../.gitbook/assets/icons/mdi-send-check.svg" alt="Lähetetyt" data-size="line"> — Tarkastele lähettämiäsi viestejä
 
 ### Viestin laatiminen ja vastaaminen
 

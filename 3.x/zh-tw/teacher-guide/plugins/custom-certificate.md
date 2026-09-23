@@ -1,6 +1,6 @@
 # 自訂證書
 
-自訂證書 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="自訂證書" data-size="line"> 外掛可讓您以自己的設計取代標準的 [成績簿證書](../assessing-learners/gradebook.md)——標誌、印章、最多四張附說明文字的簽名圖片、背景圖、邊界，以及由預留標籤組成的內容。
+自訂證書 <img src="../../.gitbook/assets/icons/mdi-certificate.svg" alt="自訂證書" data-size="line"> 外掛可讓您以自己的設計取代標準的 [成績簿證書](../assessing-learners/gradebook.md)——標誌、印章、最多四張附說明文字的簽名圖片、背景圖、邊界，以及由預留標籤組成的內容。
 
 ## 為您的課程啟用
 

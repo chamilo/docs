@@ -19,12 +19,12 @@ Se la [visibilità](../creating-your-course/course-settings.md#course-visibility
 
 ## Manual Enrollment via the Users Tool
 
-Per iscrivere qualcuno che ha già un account sulla piattaforma ma non si è unito autonomamente, aprite lo strumento **Utenti** del vostro corso e fate clic sull'icona **Aggiungi utenti** <img src="/.gitbook/assets/icons/mdi-account-plus.svg" alt="Aggiungi utenti" data-size="line">.
+Per iscrivere qualcuno che ha già un account sulla piattaforma ma non si è unito autonomamente, aprite lo strumento **Utenti** del vostro corso e fate clic sull'icona **Aggiungi utenti** <img src="../../.gitbook/assets/icons/mdi-account-plus.svg" alt="Aggiungi utenti" data-size="line">.
 
 1. Cercate la persona per nome, nome utente, e-mail o codice ufficiale
 2. Fate clic su **Registra** nella relativa riga, oppure selezionate più persone con le caselle di controllo e usate il menu **Azione** per registrarle tutte in una volta
 
-![Risultati della ricerca nella schermata Iscrivi utenti al corso, che mostra un discente corrispondente e un pulsante Registra](/.gitbook/assets/course-users-subscribe-search.png)
+![Risultati della ricerca nella schermata Iscrivi utenti al corso, che mostra un discente corrispondente e un pulsante Registra](../../.gitbook/assets/course-users-subscribe-search.png)
 
 Nei risultati compaiono solo gli utenti che non sono già iscritti al corso.
 
@@ -36,9 +36,9 @@ I tre metodi precedenti presuppongono tutti che la persona abbia già un account
 
 ### Accessing the Tool
 
-Aprite lo strumento **Utenti** del vostro corso, quindi fate clic sull'icona **Invita via e-mail** <img src="/.gitbook/assets/icons/mdi-email-outline.svg" alt="Invita via e-mail" data-size="line"> nella barra degli strumenti, accanto ad **Aggiungi utenti**:
+Aprite lo strumento **Utenti** del vostro corso, quindi fate clic sull'icona **Invita via e-mail** <img src="../../.gitbook/assets/icons/mdi-email-outline.svg" alt="Invita via e-mail" data-size="line"> nella barra degli strumenti, accanto ad **Aggiungi utenti**:
 
-![La barra degli strumenti dello strumento Utenti, che mostra l'icona Aggiungi utenti e l'icona Invita via e-mail](/.gitbook/assets/course-users-invite-icon.png)
+![La barra degli strumenti dello strumento Utenti, che mostra l'icona Aggiungi utenti e l'icona Invita via e-mail](../../.gitbook/assets/course-users-invite-icon.png)
 
 Si apre la pagina **Inviti al corso**.
 
@@ -53,7 +53,7 @@ Si apre la pagina **Inviti al corso**.
 1. Inserire l'indirizzo e-mail del destinatario nel modulo **Invita via e-mail**
 2. Fare clic su **Invia invito**
 
-![La pagina Inviti al corso: il modulo invita-via-e-mail e una tabella degli inviti inviati con il relativo stato](/.gitbook/assets/course-invitations-list.png)
+![La pagina Inviti al corso: il modulo invita-via-e-mail e una tabella degli inviti inviati con il relativo stato](../../.gitbook/assets/course-invitations-list.png)
 
 Ogni invito inviato per questo corso compare sotto il modulo, con il relativo stato:
 
@@ -65,8 +65,8 @@ Ogni invito inviato per questo corso compare sotto il modulo, con il relativo st
 
 Per un invito ancora in attesa, la colonna **Azioni** offre:
 
-* **Copia** <img src="/.gitbook/assets/icons/mdi-content-copy.svg" alt="Copia" data-size="line"> — copia il collegamento dell'invito, nel caso si preferisca condividerlo autonomamente (chat, di persona) invece di affidarsi all'e-mail.
-* **Revoca** <img src="/.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revoca" data-size="line"> — annulla immediatamente l'invito; il collegamento smette di funzionare. Un invito già accettato non può essere revocato.
+* **Copia** <img src="../../.gitbook/assets/icons/mdi-content-copy.svg" alt="Copia" data-size="line"> — copia il collegamento dell'invito, nel caso si preferisca condividerlo autonomamente (chat, di persona) invece di affidarsi all'e-mail.
+* **Revoca** <img src="../../.gitbook/assets/icons/mdi-account-cancel.svg" alt="Revoca" data-size="line"> — annulla immediatamente l'invito; il collegamento smette di funzionare. Un invito già accettato non può essere revocato.
 
 > **L'indirizzo e-mail invitato non deve già avere un account su questa piattaforma.** In caso contrario, l'invio dell'invito fallisce con un messaggio che chiede di iscrivere direttamente quell'utente esistente — tramite [Iscrizione manuale tramite lo strumento Utenti](#manual-enrollment-via-the-users-tool) sopra.
 

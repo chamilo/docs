@@ -1,6 +1,6 @@
 # Opiskelijan seuranta
 
-Opiskelijan seuranta <img src="/.gitbook/assets/icons/mdi-account-search.svg" alt="Opiskelijan seuranta" data-size="line"> mahdollistaa aikaleimattujen, tunnisteilla varustettujen muistiinpanojen pitämisen oppijan edistymisestä ja vaikeuksista — kevyt tapaustietojärjestelmä opiskelijan tilanteen seuraamiseen ajan kuluessa.
+Opiskelijan seuranta <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Opiskelijan seuranta" data-size="line"> mahdollistaa aikaleimattujen, tunnisteilla varustettujen muistiinpanojen pitämisen oppijan edistymisestä ja vaikeuksista — kevyt tapaustietojärjestelmä opiskelijan tilanteen seuraamiseen ajan kuluessa.
 
 ## Työkalun avaaminen
 

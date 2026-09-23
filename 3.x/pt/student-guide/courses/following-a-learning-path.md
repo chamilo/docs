@@ -4,9 +4,9 @@ Um **percurso de aprendizagem** guia-o através de uma sequência estruturada de
 
 ## Abrir um Percurso de Aprendizagem
 
-Abra a ferramenta **Percursos de aprendizagem** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percursos de aprendizagem" data-size="line"> a partir da página inicial do curso e clique num deles para começar. Se o seu professor ativou o **lançamento automático**, o percurso de aprendizagem pode abrir-se automaticamente assim que entrar no curso.
+Abra a ferramenta **Percursos de aprendizagem** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Percursos de aprendizagem" data-size="line"> a partir da página inicial do curso e clique num deles para começar. Se o seu professor ativou o **lançamento automático**, o percurso de aprendizagem pode abrir-se automaticamente assim que entrar no curso.
 
-![A lista de percursos de aprendizagem de um curso, cada um a mostrar o seu próprio progresso](/.gitbook/assets/student-learning-paths-list.png)
+![A lista de percursos de aprendizagem de um curso, cada um a mostrar o seu próprio progresso](../../.gitbook/assets/student-learning-paths-list.png)
 
 ## Avançar no Percurso
 

@@ -4,7 +4,7 @@ The exercises tool (also called "tests") lets you create quizzes and exams with 
 
 ## Creating an Exercise
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
+1. Open the **Exercises** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
 2. Click **New exercise**
 3. Enter a **title** and optional **description**
 4. Configure the exercise settings (see below)
@@ -12,7 +12,7 @@ The exercises tool (also called "tests") lets you create quizzes and exams with 
 
 ## Exercise Settings
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![The exercise settings panel with options for display, time, attempts, and feedback](../../.gitbook/assets/exercise-settings.png)
 
 ### Display and Navigation
 
@@ -75,7 +75,7 @@ You can also configure advanced selection strategies that combine categories and
 
 ## Question Types
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![Overview of available question types in the exercise creation interface](../../.gitbook/assets/exercise-question-types.png)
 
 Chamilo offers a rich set of question types organized into several categories:
 

@@ -1,6 +1,6 @@
 # Importación H5P
 
-La importación H5P <img src="/.gitbook/assets/icons/mdi-puzzle.svg" alt="Importación H5P" data-size="line"> le permite incorporar paquetes estándar de contenido interactivo `.h5p` (vídeo interactivo, cuestionarios, presentaciones y otros tipos de contenido H5P) en un curso, con el seguimiento de los intentos y el progreso de los alumnos de forma similar a una prueba de Chamilo.
+La importación H5P <img src="../../.gitbook/assets/icons/mdi-puzzle.svg" alt="Importación H5P" data-size="line"> le permite incorporar paquetes estándar de contenido interactivo `.h5p` (vídeo interactivo, cuestionarios, presentaciones y otros tipos de contenido H5P) en un curso, con el seguimiento de los intentos y el progreso de los alumnos de forma similar a una prueba de Chamilo.
 
 ## Acceso a la herramienta
 

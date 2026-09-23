@@ -1,12 +1,12 @@
 # Kursusretslig aftale
 
-Pluginet Course Legal Agreement <img src="/.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Kursusretslig aftale" data-size="line"> kræver, at studerende accepterer vilkår/en juridisk meddelelse, før de kan tilgå dit kursus — nyttigt til samtykkeerklæringer, brugsregler eller enhver meddelelse, som du har brug for, at de lærende formelt accepterer.
+Pluginet Course Legal Agreement <img src="../../.gitbook/assets/icons/mdi-file-check-outline.svg" alt="Kursusretslig aftale" data-size="line"> kræver, at studerende accepterer vilkår/en juridisk meddelelse, før de kan tilgå dit kursus — nyttigt til samtykkeerklæringer, brugsregler eller enhver meddelelse, som du har brug for, at de lærende formelt accepterer.
 
 ## Aktivering for dit kursus
 
 Aktivering af pluginet på platformniveau gør ingenting i sig selv — du skal stadig slå det til for hvert kursus, hvor du ønsker det:
 
-1. Åbn kursets **Indstillinger** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Indstillinger" data-size="line">
+1. Åbn kursets **Indstillinger** <img src="../../.gitbook/assets/icons/mdi-cog.svg" alt="Indstillinger" data-size="line">
 2. I sektionen for kursusadgang skal du markere **Aktivér juridiske vilkår**
 
 Dette tilføjer værktøjet **Kursusretslig aftale** til dit kursus.

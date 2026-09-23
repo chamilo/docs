@@ -6,8 +6,8 @@
 
 ## إنشاء إعلان
 
-1. افتح أداة **الإعلانات** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> من الصفحة الرئيسية للمساق
-2. انقر على أيقونة **إضافة إعلان** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> مرة أخرى
+1. افتح أداة **الإعلانات** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> من الصفحة الرئيسية للمساق
+2. انقر على أيقونة **إضافة إعلان** <img src="../../.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> مرة أخرى
 3. املأ:
    * **المستلمون** — اختر من يتلقى الإعلان:
      * جميع المتعلمين المسجلين
@@ -25,9 +25,9 @@
 
 ## إدارة الإعلانات
 
-* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تعديل إعلان موجود
-* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة إعلان
-* **الرؤية** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="الرؤية" data-size="line"> — إخفاء أو إظهار الإعلانات
+* **تعديل** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تعديل إعلان موجود
+* **حذف** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة إعلان
+* **الرؤية** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="الرؤية" data-size="line"> — إخفاء أو إظهار الإعلانات
 
 يتم عرض الإعلانات بترتيب زمني عكسي (الأحدث أولاً).
 

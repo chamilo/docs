@@ -7,11 +7,11 @@ Chamilo 3.0 は、ナビゲーションをシンプルに保つよう設計さ�
 トップバーはすべてのページの上部に常に表示されます。含まれる要素は次のとおりです。
 
 * **プラットフォームロゴ** — クリックすると、いつでもホームページに戻れます。
-* **受信トレイアイコン** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — メッセージを表示します。赤いバッジは未読メッセージがあることを示します。クリックすると [受信トレイ](../inbox.md) が開きます。
-* **サポートチケットアイコン** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 管理者が有効にしている場合、サポートチケットシステムにアクセスできます。すべてのプラットフォームで有効になっているわけではないため、受信トレイアイコンとアバターだけが表示されることもあります。
+* **受信トレイアイコン** <img src="../../.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — メッセージを表示します。赤いバッジは未読メッセージがあることを示します。クリックすると [受信トレイ](../inbox.md) が開きます。
+* **サポートチケットアイコン** <img src="../../.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — 管理者が有効にしている場合、サポートチケットシステムにアクセスできます。すべてのプラットフォームで有効になっているわけではないため、受信トレイアイコンとアバターだけが表示されることもあります。
 * **アバター** — 右上隅の円形画像です。クリックするとドロップダウンメニューが開きます。
 
-![アバターメニュー。マイプロフィール、マイ修了証、マイスキル、サインアウトへのリンクがあります](/.gitbook/assets/student-avatar-menu.png)
+![アバターメニュー。マイプロフィール、マイ修了証、マイスキル、サインアウトへのリンクがあります](../../.gitbook/assets/student-avatar-menu.png)
 
 * **マイプロフィール** — 個人情報の編集、パスワードの変更、および（有効な場合）二要素認証の設定
 * **マイ修了証** — すべてのコースで取得した修了証
@@ -26,18 +26,18 @@ Chamilo 3.0 は、ナビゲーションをシンプルに保つよう設計さ�
 
 | メニュー項目 | アイコン | 説明 |
 |-----------|------|-------------|
-| **ホーム** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | メインダッシュボードに戻ります |
-| **マイコース** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 登録しているすべてのコースを一覧表示します |
-| **マイセッション** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | トレーニングセッション（現在、過去、今後）を一覧表示します |
-| **さらにコースを探す** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | コースカタログを閲覧し、新しいコースに自己登録します |
-| **アジェンダ** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 個人およびコースのカレンダー |
-| **レポート** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | **進捗** に展開され、自身の [マイ進捗](../my-progress.md) 概要を表示します |
-| **ソーシャルネットワーク** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 有効な場合、[ソーシャルネットワーク](../social-network.md) および関連リンクに展開されます |
-| **ビデオ会議** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | ライブビデオセッションにアクセスします（設定されている場合） |
+| **ホーム** | <img src="../../.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | メインダッシュボードに戻ります |
+| **マイコース** | <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | 登録しているすべてのコースを一覧表示します |
+| **マイセッション** | <img src="../../.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | トレーニングセッション（現在、過去、今後）を一覧表示します |
+| **さらにコースを探す** | <img src="../../.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | コースカタログを閲覧し、新しいコースに自己登録します |
+| **アジェンダ** | <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | 個人およびコースのカレンダー |
+| **レポート** | <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | **進捗** に展開され、自身の [マイ進捗](../my-progress.md) 概要を表示します |
+| **ソーシャルネットワーク** | <img src="../../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | 有効な場合、[ソーシャルネットワーク](../social-network.md) および関連リンクに展開されます |
+| **ビデオ会議** | <img src="../../.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | ライブビデオセッションにアクセスします（設定されている場合） |
 
 **レポート** と **ソーシャルネットワーク** は単なるリンクではありません。クリックすると、サイドバー内にサブ項目の小さなリストが展開されます。
 
-![レポートとソーシャルネットワークが展開され、サブ項目が表示されたサイドバー](/.gitbook/assets/student-sidebar-expanded.png)
+![レポートとソーシャルネットワークが展開され、サブ項目が表示されたサイドバー](../../.gitbook/assets/student-sidebar-expanded.png)
 
 * **レポート** の下: **進捗** のみで、[マイ進捗](../my-progress.md) に移動します。
 * **ソーシャルネットワーク** の下: **ホーム**（ソーシャルウォール）、**メッセージ**（[受信トレイ](../inbox.md) へのショートカット）、**マイフレンド**、**ソーシャルグループ** — そして、やや意外なことにここにまとめられている **マイファイル**（個人用ファイルストレージ）と **個人データ**（プラットフォームが保持する個人データのエクスポート）です。後者の 2 つは厳密には「ソーシャル」機能ではありませんが、サイドバーのこの部分に配置されています。

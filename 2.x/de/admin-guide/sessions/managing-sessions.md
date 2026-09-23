@@ -2,7 +2,7 @@
 
 ## Eine Sitzung erstellen
 
-![Das Formular zur Erstellung einer Sitzung mit Feldern für Name, Datum, Coach, Kategorie und Sichtbarkeit](/.gitbook/assets/admin-session-create-form.png)
+![Das Formular zur Erstellung einer Sitzung mit Feldern für Name, Datum, Coach, Kategorie und Sichtbarkeit](../../.gitbook/assets/admin-session-create-form.png)
 
 1. Klicken Sie im Verwaltungsbereich auf **Eine Sitzung erstellen**
 2. Füllen Sie die Sitzungsdetails aus:
@@ -30,7 +30,7 @@ Dies ermöglicht es Ihnen, die Sitzung vorzubereiten, bevor die Lernenden Zugang
 
 ## Sitzungsliste
 
-![Die Sitzungsliste zeigt alle Sitzungen mit Name, Datum, Kursanzahl, Lernendenanzahl und Status](/.gitbook/assets/admin-session-list.png)
+![Die Sitzungsliste zeigt alle Sitzungen mit Name, Datum, Kursanzahl, Lernendenanzahl und Status](../../.gitbook/assets/admin-session-list.png)
 
 Die Sitzungsliste zeigt alle Sitzungen mit:
 
@@ -52,7 +52,7 @@ Klicken Sie auf eine Sitzung, um sie zu bearbeiten:
 
 ## Benutzer einschreiben
 
-![Die Benutzeroberfläche zur Einschreibung in Sitzungen zum Hinzufügen einzelner Benutzer, Klassen oder zum Importieren per CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Die Benutzeroberfläche zur Einschreibung in Sitzungen zum Hinzufügen einzelner Benutzer, Klassen oder zum Importieren per CSV](../../.gitbook/assets/admin-session-enrollment.png)
 
 Sie können Benutzer in eine Sitzung einschreiben durch:
 

@@ -19,7 +19,7 @@
 
 ## 存取票券工具
 
-如果您的管理員已啟用票券連結，頂部導覽列中會出現票券圖示 <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="票券" data-size="line">。點擊它即可直接前往票券提交表單。
+如果您的管理員已啟用票券連結，頂部導覽列中會出現票券圖示 <img src="../.gitbook/assets/icons/mdi-ticket-account.svg" alt="票券" data-size="line">。點擊它即可直接前往票券提交表單。
 
 您也可以從主選單下的 **Support** 或 **Tickets** 存取您的票券，視您的平台設定而定。
 

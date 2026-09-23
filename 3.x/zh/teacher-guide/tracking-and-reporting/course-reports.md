@@ -4,9 +4,9 @@
 
 ## 访问课程报告
 
-从课程主页打开 **跟踪** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具，并选择课程级报告视图。
+从课程主页打开 **跟踪** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="跟踪" data-size="line"> 工具，并选择课程级报告视图。
 
-![显示参与度指标与学习者活动摘要的课程跟踪概览](/.gitbook/assets/tracking-course-overview.png)
+![显示参与度指标与学习者活动摘要的课程跟踪概览](../../.gitbook/assets/tracking-course-overview.png)
 
 ## 可用报告
 
@@ -43,7 +43,7 @@
 
 ## 导出数据
 
-您可以导出跟踪与报告数据以便进一步分析。查找 **导出** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 选项，以下载兼容电子表格的格式数据。
+您可以导出跟踪与报告数据以便进一步分析。查找 **导出** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="导出" data-size="line"> 选项，以下载兼容电子表格的格式数据。
 
 ## 学期报告
 

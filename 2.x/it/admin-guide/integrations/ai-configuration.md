@@ -35,7 +35,7 @@ Registrati per un account presso il fornitore di IA scelto e ottieni una chiave 
 
 ### 2. Configurare i Fornitori in Chamilo
 
-![La pagina di configurazione degli assistenti IA che mostra le impostazioni del fornitore con i campi per chiave API, modello e endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
+![La pagina di configurazione degli assistenti IA che mostra le impostazioni del fornitore con i campi per chiave API, modello e endpoint](../../.gitbook/assets/admin-ai-helpers-config.png)
 
 Nelle impostazioni della piattaforma, vai alla sezione **AI Helpers**:
 

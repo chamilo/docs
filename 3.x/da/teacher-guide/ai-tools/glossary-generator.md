@@ -9,7 +9,7 @@ Generatoren er tilgængelig fra værktøjet **Glossary**, forudsat at:
 1. AI-hjælpere er aktiveret på platformniveau
 2. Mindst én AI-tekstudbyder er konfigureret
 
-Åbn værktøjet **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> fra kursets startside, og se efter knappen **Generate with AI** i værktøjslinjen.
+Åbn værktøjet **Glossary** <img src="../../.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> fra kursets startside, og se efter knappen **Generate with AI** i værktøjslinjen.
 
 ## Sådan genererer du termer
 

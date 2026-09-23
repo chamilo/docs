@@ -10,7 +10,7 @@ Når du redigerer et dokument i verktøyet **Dokumenter**, lar funksjonen for AI
 
 ## Slik genererer du et bilde eller en video
 
-1. Åpne et dokument i verktøyet **Dokumenter** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> (opprett et nytt eller rediger et eksisterende)
+1. Åpne et dokument i verktøyet **Dokumenter** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumenter" data-size="line"> (opprett et nytt eller rediger et eksisterende)
 2. I riktekstredigereren plasserer du markøren i eller nær avsnittet du vil illustrere
 3. Åpne dialogen **Generer AI-media** fra redigeringsverktøylinjen
 4. Beskriv hva mediene skal vise, eller bruk det valgte avsnittet som ledetekst

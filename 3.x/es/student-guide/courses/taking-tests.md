@@ -4,7 +4,7 @@ La herramienta **Pruebas** (Ejercicios) es donde realiza los cuestionarios y ex�
 
 ## Iniciar una prueba
 
-Abra la herramienta **Pruebas** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Pruebas" data-size="line"> desde la página de inicio del curso y haga clic en una prueba para iniciarla. Es posible que una prueba aún no esté disponible, o que ya no lo esté, si su profesor estableció una fecha de inicio o de fin.
+Abra la herramienta **Pruebas** <img src="../../.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Pruebas" data-size="line"> desde la página de inicio del curso y haga clic en una prueba para iniciarla. Es posible que una prueba aún no esté disponible, o que ya no lo esté, si su profesor estableció una fecha de inicio o de fin.
 
 ## Responder preguntas
 

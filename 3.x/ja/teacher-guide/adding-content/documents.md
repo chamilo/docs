@@ -4,13 +4,13 @@
 
 ## ドキュメントツールへのアクセス
 
-コースホームページから **ドキュメント** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="ドキュメント" data-size="line"> ツールを開きます。コースのドキュメントライブラリのルートフォルダを示すファイルブラウザが表示されます。
+コースホームページから **ドキュメント** <img src="../../.gitbook/assets/icons/mdi-bookshelf.svg" alt="ドキュメント" data-size="line"> ツールを開きます。コースのドキュメントライブラリのルートフォルダを示すファイルブラウザが表示されます。
 
-![フォルダとファイル、操作アイコンが表示されたドキュメントのファイルブラウザ](/.gitbook/assets/documents-file-browser.png)
+![フォルダとファイル、操作アイコンが表示されたドキュメントのファイルブラウザ](../../.gitbook/assets/documents-file-browser.png)
 
 ## ファイルのアップロード
 
-1. **アップロード** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="アップロード" data-size="line"> ボタンをクリックします
+1. **アップロード** <img src="../../.gitbook/assets/icons/mdi-upload.svg" alt="アップロード" data-size="line"> ボタンをクリックします
 2. コンピュータから1つ以上のファイルを選択します（アップロード領域にファイルをドラッグ＆ドロップすることもできます）
 3. ファイルがアップロードされ、現在のフォルダに表示されます
 
@@ -52,7 +52,7 @@ Chamiloは、一般的なファイル形式のほとんどをサポートして�
 
 フォルダを使ってドキュメントライブラリを整理します。
 
-1. **新規フォルダ** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="新規フォルダ" data-size="line"> をクリックします
+1. **新規フォルダ** <img src="../../.gitbook/assets/icons/mdi-folder-plus.svg" alt="新規フォルダ" data-size="line"> をクリックします
 2. フォルダ名を入力します
 3. 保存します
 
@@ -61,7 +61,7 @@ Chamiloは、一般的なファイル形式のほとんどをサポートして�
 ### ファイルの移動
 
 * 一覧からファイルを探します
-* **移動** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line"> をクリックします
+* **移動** <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line"> をクリックします
 * 移動先フォルダを選択します
 * 確定します
 
@@ -71,12 +71,12 @@ Chamiloは、一般的なファイル形式のほとんどをサポートして�
 
 | 操作 | アイコン | 説明 |
 |--------|------|-------------|
-| **編集** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> | ファイル名の変更、または内容の編集（Webページの場合） |
-| **削除** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> | ファイルまたはフォルダを削除します |
-| **ダウンロード** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="ダウンロード" data-size="line"> | ファイルをコンピュータにダウンロードします |
-| **表示／非表示** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示／非表示" data-size="line"> | 学習者に対してファイルを非表示または表示にします |
-| **置換** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="置換" data-size="line"> | ファイルを更新版に置き換えます |
-| **移動** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line"> | 別のフォルダへ移動します |
+| **編集** | <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> | ファイル名の変更、または内容の編集（Webページの場合） |
+| **削除** | <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> | ファイルまたはフォルダを削除します |
+| **ダウンロード** | <img src="../../.gitbook/assets/icons/mdi-download-box.svg" alt="ダウンロード" data-size="line"> | ファイルをコンピュータにダウンロードします |
+| **表示／非表示** | <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="表示／非表示" data-size="line"> | 学習者に対してファイルを非表示または表示にします |
+| **置換** | <img src="../../.gitbook/assets/icons/mdi-file-replace.svg" alt="置換" data-size="line"> | ファイルを更新版に置き換えます |
+| **移動** | <img src="../../.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line"> | 別のフォルダへ移動します |
 
 ファイルの置換は、ドキュメントを使ってラーニングパスを構築する場合に重要な機能です。ドキュメントを置換すると、学習者がそのドキュメントに保存した進捗を失うことなく、内容を更新できます。
 
@@ -86,7 +86,7 @@ Chamiloは、一般的なファイル形式のほとんどをサポートして�
 
 ## OnlyOffice 連携
 
-管理者が **OnlyOffice** プラグインを設定している場合、Word、Excel、PowerPoint（または LibreOffice）のファイルをダウンロードせずに、ブラウザー上で直接編集できます。対応ファイルを表示しているときに、**OnlyOffice で編集** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> オプションを探してください。
+管理者が **OnlyOffice** プラグインを設定している場合、Word、Excel、PowerPoint（または LibreOffice）のファイルをダウンロードせずに、ブラウザー上で直接編集できます。対応ファイルを表示しているときに、**OnlyOffice で編集** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> オプションを探してください。
 
 文書は Chamilo に保存されます。OnlyOffice は、追加のツールを必要とせず、ブラウザー上で文書を**表示**または編集するためだけに使用されます。
 

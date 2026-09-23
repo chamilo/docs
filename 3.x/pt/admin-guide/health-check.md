@@ -2,7 +2,7 @@
 
 A Verificação de Saúde é um pequeno bloco no painel de administração que executa um conjunto de verificações em tempo real na sua instalação e sinaliza tudo o que precisa de atenção — sem necessidade de vasculhar ficheiros de configuração para detetar erros comuns de configuração.
 
-![O bloco Health check no painel de administração, a mostrar o estado de aprovação/falha para as definições de e-mail, a atribuição de URL de administrador e as verificações de permissões de ficheiros](/.gitbook/assets/admin-health-check-block.png)
+![O bloco Health check no painel de administração, a mostrar o estado de aprovação/falha para as definições de e-mail, a atribuição de URL de administrador e as verificações de permissões de ficheiros](../.gitbook/assets/admin-health-check-block.png)
 
 ## Aceder à Verificação de Saúde
 

@@ -6,7 +6,7 @@ Hallintapaneelin luokat ovat koko alustan laajuisesti käytettäviä ryhmiä, jo
 
 ## Ryhmän luominen
 
-![Käyttäjäryhmien luettelo, jossa näkyvät käytettävissä olevat ryhmät nimen, kuvauksen ja jäsenmäärän kanssa](/.gitbook/assets/admin-user-groups-list.png)
+![Käyttäjäryhmien luettelo, jossa näkyvät käytettävissä olevat ryhmät nimen, kuvauksen ja jäsenmäärän kanssa](../../.gitbook/assets/admin-user-groups-list.png)
 
 1. Siirry hallintapaneelista kohtaan **Classes**
 2. Napsauta **Add classes**

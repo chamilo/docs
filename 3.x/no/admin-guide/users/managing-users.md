@@ -4,7 +4,7 @@ Denne siden dekker de daglige oppgavene med å opprette, redigere og administrer
 
 ## Brukerliste
 
-![Brukerlisten som viser kontoer med kolonner for navn, e-post, rolle og status](/.gitbook/assets/admin-user-list.png)
+![Brukerlisten som viser kontoer med kolonner for navn, e-post, rolle og status](../../.gitbook/assets/admin-user-list.png)
 
 Fra administrasjonspanelet klikker du **Brukerliste** for å se alle brukere på plattformen. Listen viser:
 
@@ -21,7 +21,7 @@ Bruk verktøyet **Avansert søk** for å finne bestemte brukere etter navn, e-po
 
 ## Opprette en bruker
 
-![Skjemaet for opprettelse av bruker med felt for navn, e-post, brukernavn, passord, rolle og språk](/.gitbook/assets/admin-user-create-form.png)
+![Skjemaet for opprettelse av bruker med felt for navn, e-post, brukernavn, passord, rolle og språk](../../.gitbook/assets/admin-user-create-form.png)
 
 1. Klikk **Legg til en bruker** fra administrasjonspanelet
 2. Fyll inn de påkrevde feltene:
@@ -41,7 +41,7 @@ Bruk verktøyet **Avansert søk** for å finne bestemte brukere etter navn, e-po
 
 ## Importere brukere
 
-![Grensesnittet for brukerimport for opplasting av CSV- eller XML-filer med brukerdata](/.gitbook/assets/admin-user-import.png)
+![Grensesnittet for brukerimport for opplasting av CSV- eller XML-filer med brukerdata](../../.gitbook/assets/admin-user-import.png)
 
 For masseoppretting av brukere kan du importere brukere fra en fil:
 

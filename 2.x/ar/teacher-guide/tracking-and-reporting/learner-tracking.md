@@ -4,7 +4,7 @@
 
 ## الوصول إلى تتبع المتعلمين
 
-افتح أداة **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="تتبع" data-size="line"> من الصفحة الرئيسية للمساق، أو انقر على **Reporting** في الشريط الجانبي.
+افتح أداة **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="تتبع" data-size="line"> من الصفحة الرئيسية للمساق، أو انقر على **Reporting** في الشريط الجانبي.
 
 ## ما الذي يتم تتبعه
 
@@ -22,7 +22,7 @@
 
 ## عرض بيانات المتعلم الفردي
 
-![عرض مفصل لتتبع المتعلم يظهر التقدم والدرجات وجدول زمني للنشاط](/.gitbook/assets/tracking-learner-detail.png)
+![عرض مفصل لتتبع المتعلم يظهر التقدم والدرجات وجدول زمني للنشاط](../../.gitbook/assets/tracking-learner-detail.png)
 
 انقر على اسم المتعلم لرؤية تقرير نشاطه المفصل. يظهر هذا:
 

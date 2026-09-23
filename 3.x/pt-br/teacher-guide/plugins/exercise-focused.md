@@ -1,6 +1,6 @@
 # Foco no Exercício
 
-Foco no Exercício <img src="/.gitbook/assets/icons/mdi-eye-outline.svg" alt="Foco no Exercício" data-size="line"> é um recurso anticola para exames. Se o navegador de um aluno perder o foco durante um teste sinalizado — ao mudar para outra aba ou janela — o Chamilo exibe um aviso em tela cheia pedindo que ele retorne e pode enviar automaticamente a tentativa se ele não o fizer.
+Foco no Exercício <img src="../../.gitbook/assets/icons/mdi-eye-outline.svg" alt="Foco no Exercício" data-size="line"> é um recurso anticola para exames. Se o navegador de um aluno perder o foco durante um teste sinalizado — ao mudar para outra aba ou janela — o Chamilo exibe um aviso em tela cheia pedindo que ele retorne e pode enviar automaticamente a tentativa se ele não o fizer.
 
 ## Sinalizando um Teste
 

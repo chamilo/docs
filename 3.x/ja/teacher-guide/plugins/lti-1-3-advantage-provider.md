@@ -1,6 +1,6 @@
 # LTI 1.3 Advantage Provider
 
-LTI 1.3 Advantage Provider <img src="/.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> は、[IMS/LTI Client](ims-lti.md) とは逆の働きをします。Chamilo が外部ツールを起動するのではなく、**外部 LMS**（別の Chamilo ポータルや Moodle などの他のプラットフォーム）が、あなたの小テストやラーニングパスを、その他のシステムの中のツールであるかのように起動できるようにし、成績は Chamilo に返されます。
+LTI 1.3 Advantage Provider <img src="../../.gitbook/assets/icons/mdi-swap-horizontal.svg" alt="LTI 1.3 Advantage Provider" data-size="line"> は、[IMS/LTI Client](ims-lti.md) とは逆の働きをします。Chamilo が外部ツールを起動するのではなく、**外部 LMS**（別の Chamilo ポータルや Moodle などの他のプラットフォーム）が、あなたの小テストやラーニングパスを、その他のシステムの中のツールであるかのように起動できるようにし、成績は Chamilo に返されます。
 
 ## 教師にとっての意味
 

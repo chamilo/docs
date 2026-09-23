@@ -14,7 +14,7 @@ Grupper gör det möjligt att dela in dina deltagare i mindre team för samarbet
 
 ## Gruppverktyg
 
-![Översikten över grupper som visar tillgängliga gruppverktyg och antal medlemmar](/.gitbook/assets/groups-overview.png)
+![Översikten över grupper som visar tillgängliga gruppverktyg och antal medlemmar](../../.gitbook/assets/groups-overview.png)
 
 Varje grupp kan få tillgång till en delmängd av kursverktygen som endast delas bland gruppmedlemmarna:
 

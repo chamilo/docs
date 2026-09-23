@@ -8,6 +8,6 @@ Chamilo traccia l’attività dei discenti su tutta la piattaforma, offrendoti i
 
 ## Accesso ai report
 
-Dal tuo corso, fai clic sullo strumento **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> nella homepage del corso. Puoi anche accedere alla reportistica dal collegamento **Reporting** nella barra laterale per una panoramica tra più corsi.
+Dal tuo corso, fai clic sullo strumento **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> nella homepage del corso. Puoi anche accedere alla reportistica dal collegamento **Reporting** nella barra laterale per una panoramica tra più corsi.
 
 I docenti visualizzano i dati di reportistica dei corsi che insegnano. I tutor di sessione visualizzano i dati di tutti i corsi all’interno della propria sessione.

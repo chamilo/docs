@@ -4,17 +4,17 @@
 
 ## Öppna din inkorg
 
-Klicka på ikonen **Inkorg** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inkorg" data-size="line"> i det övre fältet. Ett rött märke visar hur många olästa meddelanden du har. Om ikonen saknas helt har din administratör inaktiverat plattformens meddelandefunktion.
+Klicka på ikonen **Inkorg** <img src="../.gitbook/assets/icons/mdi-inbox.svg" alt="Inkorg" data-size="line"> i det övre fältet. Ett rött märke visar hur många olästa meddelanden du har. Om ikonen saknas helt har din administratör inaktiverat plattformens meddelandefunktion.
 
 ## Läsa och svara
 
 Din inkorg listar mottagna meddelanden och visar vilka som är olästa. Öppna ett för att läsa det och använd **Svara** för att svara — du kan inkludera flera mottagare i ett svar samtidigt, vilket är praktiskt för att hålla en liten grupp informerad utan att skapa en formell kurs eller social grupp.
 
-![Inkorgen, med flikarna Inkorg / Olästa / Skickade och en tabell över mottagna meddelanden](/.gitbook/assets/student-inbox.png)
+![Inkorgen, med flikarna Inkorg / Olästa / Skickade och en tabell över mottagna meddelanden](../.gitbook/assets/student-inbox.png)
 
 ## Skriva ett nytt meddelande
 
-Klicka på knappen **nytt meddelande** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nytt meddelande" data-size="line">, välj en eller flera mottagare, skriv ämne och brödtext och skicka. Precis som ett svar kan ett nytt meddelande gå till flera personer samtidigt.
+Klicka på knappen **nytt meddelande** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nytt meddelande" data-size="line">, välj en eller flera mottagare, skriv ämne och brödtext och skicka. Precis som ett svar kan ett nytt meddelande gå till flera personer samtidigt.
 
 ## Flikar och åtgärder
 

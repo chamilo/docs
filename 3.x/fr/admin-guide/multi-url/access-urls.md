@@ -53,7 +53,7 @@ Chaque URL d’accès peut disposer de ses propres :
 
 Les URLs d’accès peuvent être organisées en arborescence parent/enfant plutôt qu’en liste plate. Lors de la création ou de la modification d’une URL, un administrateur global non restreint (voir [Administrateurs de sous-arbre](#subtree-administrators) ci-dessous) peut choisir n’importe quelle autre URL comme **URL parente** :
 
-![Boîte de dialogue de modification d’URL avec la liste déroulante URL parente ouverte, listant les autres URLs d’accès disponibles comme parent](/.gitbook/assets/admin-access-url-parent-select.png)
+![Boîte de dialogue de modification d’URL avec la liste déroulante URL parente ouverte, listant les autres URLs d’accès disponibles comme parent](../../.gitbook/assets/admin-access-url-parent-select.png)
 
 * La liste déroulante ne propose jamais l’URL en cours de modification, ni aucun de ses propres descendants, comme parent possible — cela empêche de créer un cycle. Le backend revalide cette contrainte indépendamment de ce que l’interface affiche.
 * Si une URL est créée sans choisir de parent, elle prend par défaut l’**URL de connexion uniquement** s’il en existe une (voir [Paramètres par URL](#per-url-settings) ci-dessus), ou sinon la première URL d’accès — le même comportement par défaut qu’avant l’existence de cette fonctionnalité.
@@ -61,7 +61,7 @@ Les URLs d’accès peuvent être organisées en arborescence parent/enfant plut
 
 Partout où les URLs d’accès sont listées — le tableau de bord multi-URL et la page de gestion des URLs d’accès — l’arbre est représenté par une indentation, un parent immédiatement suivi de ses propres enfants (frères et sœurs triés par ordre alphabétique), au lieu d’une colonne « Parent » séparée :
 
-![Liste des URLs d’accès montrant une URL racine avec deux URLs enfants, dont l’une a sa propre URL enfant, indentées pour refléter la hiérarchie](/.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste des URLs d’accès montrant une URL racine avec deux URLs enfants, dont l’une a sa propre URL enfant, indentées pour refléter la hiérarchie](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Administrateurs de sous-arbre
 
