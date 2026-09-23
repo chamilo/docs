@@ -47,14 +47,39 @@ one version." Those old branches still exist (useful as history / fallback)
 but are no longer where documentation changes should be made; edit here, in
 `all`, going forward.
 
-## Known follow-up work
+## Scripts
 
-`scripts/tag-release.php` and `scripts/translate-docs.php` were written
-against the old one-branch-per-version-per-language layout (they operate on
-the repository root and on other branches by name). They have **not** been
-updated for the `<version>/<language>/` directory structure yet, and will
-need changes before they can be used as-is against this branch — check their
-current behavior before relying on them here.
+`scripts/tag-release.php` and `scripts/translate-docs.php` operate on one
+`<version>` at a time (pass it explicitly, e.g. `--version 3.x`), reading
+from `<version>/en/` and writing to `<version>/<lang>/`. Run each with no
+arguments (or `--help`-style misuse) to see usage. `translate-docs.php` uses
+GitBook's language codes (`fr`, `pt-br`, `zh-tw`, ...), not Chamilo's own
+locale codes — see the note in `## Screenshots` below, the same mismatch
+applies there.
+
+## Screenshots
+
+Every screenshot in `<version>/en/.gitbook/assets/` is catalogued in
+`<version>/en/.gitbook/assets/screenshot-catalogue.yaml`: filename, the doc
+page it appears on, the `my.chamilo.net` URL that shows it, the account role
+needed, and any steps beyond plain navigation. This is what lets a
+screenshot be reproduced in another language without re-guessing the page
+from its surrounding prose every time.
+
+Two Claude Code commands drive this:
+
+* `.claude/commands/document-feature.md` — writes a new English doc page for
+  a feature, taking any needed screenshots and recording them in the
+  catalogue (Step 5).
+* `.claude/commands/localize-screenshots.md` — given a target language,
+  reproduces the catalogued screenshots in that language's UI and saves them
+  into `<version>/<lang>/.gitbook/assets/`.
+
+Both drive the local instance at `http://my.chamilo.net` (admin/admin) with
+Playwright (`/var/www/chamilo/playwright`, not this repo — there is no
+Node.js tooling here). **Chamilo's own profile-language codes don't match
+GitBook's** (e.g. GitBook `fr` is Chamilo `fr_FR`, `zh` is `zh_CN`, `no` has
+no exact match — see the catalogue file's header for the full table).
 
 ## Commit messages
 

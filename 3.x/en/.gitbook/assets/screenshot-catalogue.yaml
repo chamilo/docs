@@ -1,0 +1,907 @@
+# Screenshot catalogue for the 3.x English documentation.
+#
+# Maps every screenshot in this space back to the my.chamilo.net page (and, where
+# relevant, the exact steps/data state) it depicts, so the same screenshot can be
+# faithfully reproduced in another language via the localize-screenshots skill.
+#
+# UPDATE THIS FILE whenever you add a genuinely new screenshot to the English
+# documentation (see /var/www/chamilo/master/CLAUDE.md, "Documentation screenshots"
+# section, for the authoring-side instruction that points back here).
+#
+# Fields per entry:
+#   file        - filename in .gitbook/assets/, matches the language-neutral name
+#                 reused (once translated) in every other 3.x/<lang>/.gitbook/assets/
+#   doc_page    - the English markdown page that references it, relative to 3.x/en/
+#   alt         - the image's alt text in the English markdown, used as the
+#                 human-readable description (and as the first thing to check when
+#                 reconstructing url/steps from scratch)
+#   url         - the my.chamilo.net path (relative, no host) that shows this page,
+#                 or null if not yet reconstructed
+#   role        - the account role/type needed to reach it (admin, teacher, student),
+#                 or null if not yet reconstructed
+#   steps       - any interaction needed beyond navigating to `url` (opening a
+#                 dialog, having specific demo data present, etc.), or null
+#   confidence  - one of:
+#                   verified              - reproduced live and visually confirmed
+#                   inferred (...)        - route/steps found in the app's source
+#                                           (e.g. assets/vue/router/*.js) but not
+#                                           yet reproduced live - double-check before
+#                                           trusting it for a real screenshot pass
+#                   unreconstructed       - alt text and doc_page only; url/role/steps
+#                                           still need figuring out (read the doc
+#                                           page's surrounding prose, then the app's
+#                                           router, then navigate live to confirm)
+#
+# Chamilo's own profile-language codes (the #profile_locale <select> on
+# /account/edit) do NOT match GitBook's language codes used elsewhere in this repo.
+# Notable mappings needed when localizing screenshots:
+#   fr -> fr_FR   de -> de      es -> es      it -> it       nl -> nl
+#   pt -> pt_PT   pt-br -> pt_BR   ar -> ar    el -> el       id -> id_ID
+#   ja -> ja      zh -> zh_CN   zh-tw -> zh_TW   da -> da     sv -> sv_SE
+#   fi -> fi_FI   no -> nb_NO (Norsk bokmål - GitBook's generic "no" has no exact
+#                 Chamilo match; nb_NO is the closest and most common written form)
+# 1.11.x/ga/ is mislabeled: Chamilo's real "ga" is Gaeilge (Irish); that content is
+# actually Galego (Galician), Chamilo's "gl".
+screenshots:
+- file: admin-analytics-block.png
+  doc_page: admin-guide/analytics/README.md
+  alt: The Analytics block on the administration dashboard (labeled "Tracking" in this screenshot), listing
+    Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate
+    report, Special exports, and Tickets
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-courses-block.png
+  doc_page: admin-guide/courses/README.md
+  alt: The Course management block on the administration dashboard, listing Course list, Add course, Export/Import
+    courses list, Course categories, Add a user to a course, Manage extra fields for courses, Questions,
+    and Resources sequencing
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-course-categories.png
+  doc_page: admin-guide/courses/course-categories.md
+  alt: The course categories management page showing a nested tree of categories
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-course-list.png
+  doc_page: admin-guide/courses/managing-courses.md
+  alt: The course list showing all courses with title, code, category, enrolled users, and visibility
+    status
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-dashboard-overview.png
+  doc_page: admin-guide/getting-started/admin-interface-overview.md
+  alt: The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings
+  url: /admin
+  role: admin
+  steps: Log in, no further navigation needed.
+  confidence: verified
+- file: admin-health-check-block.png
+  doc_page: admin-guide/health-check.md
+  alt: The Health check block on the administration dashboard, showing pass/fail status for e-mail settings,
+    admin URL assignment, and file permission checks
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step1-language.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 1 — language selection
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step2-requirements.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory
+    permissions
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step3-license.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 3 — license acceptance
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step4-database.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 4 — database connection configuration
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step5-config.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 5 — administrator account, portal settings, and email configuration
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step6-review.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 6 — review of all settings before installation
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: install-step7-complete.png
+  doc_page: admin-guide/installation/installation-wizard.md
+  alt: Installation wizard Step 7 — completion with security advice and portal link
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-ai-helpers-config.png
+  doc_page: admin-guide/integrations/ai-configuration.md
+  alt: The AI helpers configuration page showing provider settings with API key, model, and endpoint fields
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-system-status.png
+  doc_page: admin-guide/maintenance/system-status.md
+  alt: The system status page showing PHP configuration, database status, file permissions, and server
+    information
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-mcp-api-key.png
+  doc_page: admin-guide/mcp.md
+  alt: The MCP API key page, showing an inactive key, the Generate API key button, and the Remote MCP
+    connection block with the endpoint URL and Authorization header format
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-access-url-parent-select.png
+  doc_page: admin-guide/multi-url/access-urls.md
+  alt: Edit URL dialog with the Parent URL dropdown open, listing the other access URLs available as a
+    parent
+  url: /admin/urls/manage
+  role: admin
+  steps: Open the 'edit' action on an existing access URL to reach the Parent URL dropdown; requires at
+    least one other access URL to exist as a candidate parent.
+  confidence: inferred (route confirmed in assets/vue/router/admin.js, not yet live-verified)
+- file: admin-access-url-hierarchy-list.png
+  doc_page: admin-guide/multi-url/access-urls.md
+  alt: Access URLs list showing a root URL with two child URLs, one of which has its own child URL, indented
+    to reflect the hierarchy
+  url: /admin/urls/manage
+  role: admin
+  steps: Requires a root access URL with two children, one of which itself has a child, to reproduce the
+    exact hierarchy shown.
+  confidence: inferred (route confirmed in assets/vue/router/admin.js, not yet live-verified)
+- file: admin-settings-categories.png
+  doc_page: admin-guide/platform-settings/README.md
+  alt: The platform settings page showing configuration categories organized by functional area
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-platform-block.png
+  doc_page: admin-guide/platform/README.md
+  alt: The Platform management block on the administration dashboard, listing Configuration settings,
+    Languages, Plugins, Regions, Portal news, Global agenda, Pages, Setting the registration page, Extra
+    fields, Configure multiple access URL, Mail templates, External tools (LTI), Contact form categories,
+    and System templates
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-plugins-block.png
+  doc_page: admin-guide/plugins/README.md
+  alt: The Plugins block on the administration dashboard, listing shortcuts to installed plugins that
+    are configured to appear in the admin menu
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-plugin-manager.png
+  doc_page: admin-guide/plugins/managing-plugins.md
+  alt: The plugin manager showing a list of available plugins with activation toggles and configuration
+    options
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-rooms-block.png
+  doc_page: admin-guide/rooms/README.md
+  alt: The Rooms block on the administration dashboard, listing Branches, Rooms, and Room availability
+    finder
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-block.png
+  doc_page: admin-guide/security/README.md
+  alt: The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple
+    IDS, Password strength checker, and File integrity
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-activities-audit.png
+  doc_page: admin-guide/security/activities-audit.md
+  alt: The Activities audit page listing event type categories such as Course, Session, User, Social,
+    Message, Resource, Wiki, and Other, each expandable into individual event types
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-file-integrity.png
+  doc_page: admin-guide/security/file-integrity.md
+  alt: The File integrity page showing last scan information, panels for Added, Modified, Deleted and
+    Permissions changed files, an Alert history list, and Actions to run a scan, pause alerts, or establish
+    a new baseline
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-login-attempts.png
+  doc_page: admin-guide/security/login-attempts.md
+  alt: The Login attempts page showing charts for attempts by day, top IPs, failed attempts by month,
+    success vs failed logins, attempts by hour, and unique IPs per day, followed by a table of failed
+    login attempts
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-password-strength.png
+  doc_page: admin-guide/security/password-strength-checker.md
+  alt: The Password strength checker page, with a field for user IDs to scan and a button to run the scan
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-password-strength-results.png
+  doc_page: admin-guide/security/password-strength-checker.md
+  alt: The completed scan results, listing a flagged user with Name, Username, and E-mail columns, and
+    per-row actions to request a password change or force a password reset
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-security-simple-ids.png
+  doc_page: admin-guide/security/simple-ids.md
+  alt: The Simple IDS page showing charts for events by day, events by type, and top attacking IPs, followed
+    by a table of flagged IDS events with date, IP, detection type, parameter, URI, and detail
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-sessions-block.png
+  doc_page: admin-guide/sessions/README.md
+  alt: The Sessions management block on the administration dashboard, listing Training sessions list,
+    Add a training session, session categories, import/export tools, careers and promotions, and resource
+    sequencing, among others
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-careers-list.png
+  doc_page: admin-guide/sessions/careers-and-promotions.md
+  alt: The careers list showing defined career paths with name and description
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-session-create-form.png
+  doc_page: admin-guide/sessions/managing-sessions.md
+  alt: The session creation form with fields for name, dates, tutor, category, and visibility
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-session-list.png
+  doc_page: admin-guide/sessions/managing-sessions.md
+  alt: The session list showing all sessions with name, dates, course count, learner count, and status
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-session-enrollment.png
+  doc_page: admin-guide/sessions/managing-sessions.md
+  alt: The session enrollment interface for adding individual users, classes, or importing via CSV
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-skills-block.png
+  doc_page: admin-guide/skills/README.md
+  alt: The Skills block on the administration dashboard, listing Skills wheel, Skills import, Manage skills,
+    Manage skills levels, Skills ranking, and Skills and assessments
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-skills-wheel.png
+  doc_page: admin-guide/skills/skills-wheel.md
+  alt: The Skills wheel page, showing the search sidebar, legend, and the full skill tree as a segmented
+    wheel
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-skills-wheel-zoom.png
+  doc_page: admin-guide/skills/skills-wheel.md
+  alt: The wheel zoomed into the "Idiomas" branch, showing its language sub-skills
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-skills-wheel-detail.png
+  doc_page: admin-guide/skills/skills-wheel.md
+  alt: The skill detail dialog for "Conflict Management", showing its description and the Edit, Create
+    child skill, and Add skill to search profile actions
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-system-block.png
+  doc_page: admin-guide/system/README.md
+  alt: The System block on the administration dashboard, listing Clean temporary files, System status,
+    System update, Colors, File info, Resources by type, and List icons
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-color-themes.png
+  doc_page: admin-guide/system/branding/color-themes.md
+  alt: The color themes page showing available themes with preview swatches and an Apply button
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-portal-customization.png
+  doc_page: admin-guide/system/branding/portal-customization.md
+  alt: The portal customization page showing platform identity settings for name, logo, and institution
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-users-block.png
+  doc_page: admin-guide/users/README.md
+  alt: The User management block on the administration dashboard, listing User list, Add a user, Export/Import
+    users list, Edit users list, Anonymise users list, Profiling, and Classes
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-user-list.png
+  doc_page: admin-guide/users/managing-users.md
+  alt: The user list showing accounts with name, email, role, and status columns
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-user-create-form.png
+  doc_page: admin-guide/users/managing-users.md
+  alt: The user creation form with fields for name, email, username, password, role, and language
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-user-import.png
+  doc_page: admin-guide/users/managing-users.md
+  alt: The user import interface for uploading CSV or XML files with user data
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-user-groups-list.png
+  doc_page: admin-guide/users/user-groups.md
+  alt: The user groups list showing available groups with name, description, and member count
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: admin-extra-fields-list.png
+  doc_page: admin-guide/users/user-profiling.md
+  alt: The extra profile fields list showing custom fields with name, type, and visibility settings
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-lost-password.png
+  doc_page: student-guide/account-and-security/resetting-your-password.md
+  alt: The "I lost my password" form, with a single field for your username or e-mail address
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-change-password.png
+  doc_page: student-guide/account-and-security/resetting-your-password.md
+  alt: The Change Password form, with fields for your current password and a new password
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-2fa-qr-code.png
+  doc_page: student-guide/account-and-security/two-factor-authentication.md
+  alt: The Change Password form after submitting, showing the QR code to scan and the 2FA code field
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-docked-chat-contacts.png
+  doc_page: student-guide/courses/ai-tutor.md
+  alt: The chat panel's contact list, with an AI Tutor entry above your regular contacts
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-ai-tutor-conversation.png
+  doc_page: student-guide/courses/ai-tutor.md
+  alt: An open conversation with the AI Tutor, with the message composer at the bottom
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-course-tool-grid.png
+  doc_page: student-guide/courses/course-tools-overview.md
+  alt: A course homepage tool grid as seen by a learner
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-course-reporting-denied.png
+  doc_page: student-guide/courses/course-tools-overview.md
+  alt: Clicking the Reporting tile as a learner results in an access-denied message
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-learning-paths-list.png
+  doc_page: student-guide/courses/following-a-learning-path.md
+  alt: The learning paths list for a course, each showing its own progress
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-course-catalogue.png
+  doc_page: student-guide/courses/subscribing-to-a-course.md
+  alt: The course catalogue, with a Subscribe button on each course card
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-course-chat.png
+  doc_page: student-guide/courses/using-the-chat-tool.md
+  alt: The course Chat tool, showing the list of online users and a message composer
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-registration-form.png
+  doc_page: student-guide/getting-started/creating-an-account.md
+  alt: The registration form on a platform with teacher self-registration enabled, showing the "Follow
+    courses" / "Teach courses" role picker
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-avatar-menu.png
+  doc_page: student-guide/getting-started/understanding-the-interface.md
+  alt: Your avatar menu, with links to My profile, My certificates, My skills, and Sign out
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-sidebar-expanded.png
+  doc_page: student-guide/getting-started/understanding-the-interface.md
+  alt: The sidebar with Reporting and Social network expanded, showing their sub-items
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-inbox.png
+  doc_page: student-guide/inbox.md
+  alt: The Inbox, with Inbox / Unread / Sent tabs and a table of received messages
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-my-progress.png
+  doc_page: student-guide/my-progress.md
+  alt: The My Progress table, listing every enrolled course with time spent, progress, and best scores
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-my-certificates.png
+  doc_page: student-guide/my-progress.md
+  alt: The My Certificates page, with separate tables for course certificates and session certificates
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: student-social-wall.png
+  doc_page: student-guide/social-network.md
+  alt: The social wall, with a post composer and panels for communities, friends, and skills
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: documents-file-browser.png
+  doc_page: teacher-guide/adding-content/documents.md
+  alt: The documents file browser showing folders and files with action icons
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: learning-path-editor.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The learning path editor with the item tree on the left and content preview on the right
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: cstudio-lp-button.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The Learning paths list showing the C-Studio "Studio Tools" button next to the standard actions
+    menu
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: cstudio-start-screen.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The C-Studio start screen offering to create a new project or import an existing one
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: cstudio-editor.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The C-Studio visual editor, showing the page canvas, the tool palette on the right, and the project
+    panel on the left
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: cstudio-file-menu.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The File menu open, showing the "UI language" option
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-editor.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The rich text editor toolbar, with the "Lang ISO" button visible near the start
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-lang-menu.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The "Lang ISO" menu open, listing every active platform language plus "Add translation to..." and
+    a custom-code option
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-en.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The same course description section as seen by a learner with English as their interface language
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-fr.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The same section as seen by a learner with French as their interface language
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-es.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The same section as seen by a learner with Spanish as their interface language
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: teacher-multilang-source-view.png
+  doc_page: teacher-guide/adding-content/multi-language-content.md
+  alt: The Source Code view, showing a block opening with lang="en_US" class="mce-translatehtml"
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: agenda-calendar-view.png
+  doc_page: teacher-guide/additional-tools/agenda.md
+  alt: The agenda in calendar view showing course events and deadlines
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: agenda-event-color-picker.png
+  doc_page: teacher-guide/additional-tools/agenda.md
+  alt: The color picker in the event creation form
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: agenda-event-color-result.png
+  doc_page: teacher-guide/additional-tools/agenda.md
+  alt: An event displayed in its chosen color in the week view
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: ai-grading-interface.png
+  doc_page: teacher-guide/ai-tools/ai-grading.md
+  alt: The AI grading interface showing a student submission with suggested score and feedback
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: ai-tutor-chat.png
+  doc_page: teacher-guide/ai-tools/ai-tutor.md
+  alt: The AI Tutor chat interface showing a conversation between a learner and the AI
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-picture-ai-button.png
+  doc_page: teacher-guide/ai-tools/course-picture-generator.md
+  alt: The Course picture field in Course Settings, with a Choose File button and a Generate with AI button
+    below it
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-picture-ai-modal.png
+  doc_page: teacher-guide/ai-tools/course-picture-generator.md
+  alt: The Generate with AI dialog showing the Prompt field with its default text, and Cancel/Generate
+    buttons
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: ai-exercise-generator.png
+  doc_page: teacher-guide/ai-tools/exercise-generator.md
+  alt: The AI exercise generator form with fields for topic and number of questions
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: ai-exercise-generator-results.png
+  doc_page: teacher-guide/ai-tools/exercise-generator.md
+  alt: AI-generated questions displayed for review with options to edit, accept, or remove each one
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: ai-learning-path-generator.png
+  doc_page: teacher-guide/ai-tools/learning-path-generator.md
+  alt: The AI learning path generator form with fields for topic, objectives, and section count
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: assignments-submissions-list.png
+  doc_page: teacher-guide/assessing-learners/assignments.md
+  alt: The assignment submissions list showing student names, dates, files, and grading status
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: assignment-grading-view.png
+  doc_page: teacher-guide/assessing-learners/assignments.md
+  alt: The assignment grading view with score input, feedback field, and corrected file upload
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: attendance-sheet.png
+  doc_page: teacher-guide/assessing-learners/attendance.md
+  alt: The attendance sheet showing a summary table with learners, dates, and presence indicators
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: exercise-settings.png
+  doc_page: teacher-guide/assessing-learners/exercises.md
+  alt: The exercise settings panel with options for display, time, attempts, and feedback
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: exercise-question-types.png
+  doc_page: teacher-guide/assessing-learners/exercises.md
+  alt: Overview of available question types in the exercise creation interface
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: gradebook-overview.png
+  doc_page: teacher-guide/assessing-learners/gradebook.md
+  alt: The gradebook overview table showing learner names, activity scores, and weighted totals
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: gradebook-certificate-validity-field.png
+  doc_page: teacher-guide/assessing-learners/gradebook.md
+  alt: The category edit dialog with Generate certificates enabled and the Certificate validity (days)
+    field set to 365
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-users-subscribe-search.png
+  doc_page: teacher-guide/assessing-learners/subscribing-users.md
+  alt: Search results in the Enroll users to course screen, showing a matching learner and a Register
+    button
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-users-invite-icon.png
+  doc_page: teacher-guide/assessing-learners/subscribing-users.md
+  alt: The Users tool toolbar, showing the Add users icon and the Invite by email icon
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-invitations-list.png
+  doc_page: teacher-guide/assessing-learners/subscribing-users.md
+  alt: 'The Course invitations page: the invite-by-email form and a table of sent invitations with their
+    status'
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: survey-results-charts.png
+  doc_page: teacher-guide/assessing-learners/surveys.md
+  alt: Survey results with charts and percentage breakdowns for each question
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: forum-category-list.png
+  doc_page: teacher-guide/collaboration-and-communication/forums.md
+  alt: The forum category list showing categories, forums, and topic counts
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: groups-overview.png
+  doc_page: teacher-guide/collaboration-and-communication/groups.md
+  alt: The groups overview showing available group tools and member counts
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-creation-form.png
+  doc_page: teacher-guide/creating-your-course/README.md
+  alt: The course creation form with fields for name, category, code, and language
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-homepage-tool-grid.png
+  doc_page: teacher-guide/creating-your-course/README.md
+  alt: The course homepage tool grid showing available course tools with icons and visibility toggles
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-homepage-tool-grid.png
+  doc_page: teacher-guide/creating-your-course/course-homepage.md
+  alt: The course homepage tool grid showing available course tools with icons and visibility toggles
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-homepage-student-view.png
+  doc_page: teacher-guide/creating-your-course/course-homepage.md
+  alt: The course homepage as seen by a student, with hidden tools not visible
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: course-settings-visibility.png
+  doc_page: teacher-guide/creating-your-course/course-settings.md
+  alt: The course visibility settings showing public, open, registered, and closed options
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: home-page-teacher.png
+  doc_page: teacher-guide/getting-started/README.md
+  alt: The Chamilo home page showing system announcements and course cards
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: my-courses-list.png
+  doc_page: teacher-guide/getting-started/README.md
+  alt: The My Courses page displaying course cards with thumbnails and quick-access actions
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: top-bar-annotated.png
+  doc_page: teacher-guide/getting-started/understanding-the-interface.md
+  alt: The top bar with annotated elements including logo, inbox, support ticket, and user avatar
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: sidebar-expanded.png
+  doc_page: teacher-guide/getting-started/understanding-the-interface.md
+  alt: The sidebar navigation panel in its expanded state showing all menu items
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: user-avatar-dropdown.png
+  doc_page: teacher-guide/getting-started/your-profile.md
+  alt: The user avatar dropdown menu showing profile, account settings, and sign-out options
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: my-sessions-list.png
+  doc_page: teacher-guide/sessions.md
+  alt: The My Sessions page showing current, past, and upcoming session views
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: social-wall.png
+  doc_page: teacher-guide/social-network.md
+  alt: The social wall showing a feed of posts, likes, and comments from connections
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: gradebook-certificates-expiry-dates.png
+  doc_page: teacher-guide/tracking-and-reporting/certificates-and-skills.md
+  alt: The Certificate list showing the Expiry date column for three learners
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: gradebook-certificate-expirations.png
+  doc_page: teacher-guide/tracking-and-reporting/certificates-and-skills.md
+  alt: The Expiring certificates page listing one expired and one soon-to-expire certificate
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: gradebook-certificate-expiry-notification.png
+  doc_page: teacher-guide/tracking-and-reporting/certificates-and-skills.md
+  alt: The Send notification confirmation dialog previewing the expiring and expired e-mail wording
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: tracking-course-overview.png
+  doc_page: teacher-guide/tracking-and-reporting/course-reports.md
+  alt: The course tracking overview showing engagement metrics and learner activity summary
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
+- file: tracking-learner-detail.png
+  doc_page: teacher-guide/tracking-and-reporting/learner-tracking.md
+  alt: Detailed learner tracking view showing progress, scores, and activity timeline
+  url: null
+  role: null
+  steps: null
+  confidence: unreconstructed
