@@ -81,6 +81,12 @@ Node.js tooling here). **Chamilo's own profile-language codes don't match
 GitBook's** (e.g. GitBook `fr` is Chamilo `fr_FR`, `zh` is `zh_CN`, `no` has
 no exact match — see the catalogue file's header for the full table).
 
+Course-scoped screenshots (any catalogue `url` with `cid=`) don't follow the
+account's profile locale — they follow the *course's own* Language setting,
+chrome included. Use the **AI Act** course (`cid=1`, node `5`) for these: it's
+configured with "Show course in user's language: Yes", so it just works with
+no course-settings changes. Details in `localize-screenshots.md`, Step 4.
+
 ## Commit messages
 
 Follow the `<Prefix>: <imperative summary>` convention from

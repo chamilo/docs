@@ -67,21 +67,49 @@ node -e "..."   # or write a throwaway .js file and run it from this directory /
                 # NODE_PATH=/var/www/chamilo/playwright/node_modules if it lives elsewhere
 ```
 
-1. **Log in** with the role each entry's `role` needs (admin/admin for `admin`; ask the user for
-   teacher/student credentials if an entry needs one and you don't already have it — don't guess).
+1. **Log in as admin/admin** first, always — this is also how you reach non-admin roles:
+   - For an `admin`-role entry, stay logged in as admin.
+   - For a `teacher`/`student` (Learner) entry, go to `/admin/user-list`, click **Advanced search**,
+     select the **Teacher** or **Learner** role in the Roles multi-select, click **Search users**,
+     then click the **Login as** action (`title="Login as"`) on a suitable demo account in the
+     results (e.g. the purpose-built `teacher`/`teacher@example.com` account) — confirmed working:
+     it shows an "Attempting to login as ..." then "Login successful" notification and switches the
+     session to that user, with their own (smaller) menu replacing the admin one.
+   - To get back to admin between entries needing different roles: open the avatar menu, **Sign
+     out**, then log back in as admin/admin. There is no "return to admin" shortcut from a
+     logged-in-as session — sign out and back in every time you need to switch role.
 2. **Set the baseline**: go to `/account/edit`, set `#profile_locale` to `en_US`, submit. Confirm
    (e.g. by title or a known English string) before moving on — the shared instance's state is not
-   guaranteed between runs.
+   guaranteed between runs. Do this for whichever account is currently logged in (admin, or the
+   teacher/student you just logged in as) — each user has their own locale setting.
 3. **Switch to the target locale**: same page, set `#profile_locale` to the Chamilo code resolved in
    Step 1, submit.
-4. **For each entry in the work set**: navigate to `url`, perform any `steps`, wait for network idle
-   / the relevant element, then screenshot. Prefer `page.locator(...).screenshot()` over full-page
-   when the entry's `alt` describes a specific card/panel/dialog rather than the whole screen.
-   Save to `3.x/<lang>/.gitbook/assets/<file>` — same filename as the English original, overwriting
-   any placeholder that's there.
+4. **For each entry in the work set with this role**: navigate to `url`, perform any `steps`, wait
+   for network idle / the relevant element, then screenshot. Prefer `page.locator(...).screenshot()`
+   over full-page when the entry's `alt` describes a specific card/panel/dialog rather than the
+   whole screen. Save to `3.x/<lang>/.gitbook/assets/<file>` — same filename as the English
+   original, overwriting any placeholder that's there.
+
+   **Course-scoped entries (any `url` with `cid=`) do NOT follow the account's profile locale** —
+   they follow the *course's own* Language setting instead, and once inside a course context that
+   also governs the sidebar/topbar chrome, not just the tool content. Use the **AI Act** course
+   (`cid=1`, resource node `5`, e.g. `/resources/gradebook/5/?cid=1&gid=0`) for every course-scoped
+   entry — it's configured with "Show course in user's language: Yes" (`/resources/course-settings/5/?cid=1&gid=0`),
+   so it automatically renders in whichever language the logged-in account's profile locale is set
+   to, with no course-settings changes needed at all. Do not use a fixed-language course (e.g.
+   "English for beginners", `cid=3`) for course-scoped entries — you'd have to toggle its Language
+   field to match and back, which is extra risk for no benefit now that AI Act exists. The demo
+   teacher and `fbaggins` (learner) are both already enrolled in AI Act; if a course-scoped entry
+   needs a role/account not yet enrolled there, enroll it (`/resources/course-users/5/subscribe?cid=1&gid=0`)
+   rather than switching courses. One known gap: AI Act's own gradebook has no items, so
+   `gradebook-overview.png`-style entries render an empty table — use a different populated course
+   for those specifically if a non-empty table is needed, and note it in the catalogue.
 5. **Switch back to English**: return to `/account/edit`, set `#profile_locale` back to `en_US`,
-   submit. Confirm the value stuck (`page.locator('#profile_locale').inputValue()`). Do this even if
-   something failed partway through Step 4 — never leave the shared account in a non-English state.
+   submit. Confirm the value stuck (`page.locator('#profile_locale').inputValue()`). Do this for
+   *every* account you logged into this run (admin and any teacher/student used), even if something
+   failed partway through Step 4 — never leave a shared account in a non-English state. If you used
+   a teacher/student account, sign out of it and log back in as admin/admin before finishing, so the
+   session doesn't end logged in as a non-admin demo user.
 
 ---
 
