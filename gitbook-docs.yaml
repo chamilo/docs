@@ -279,3 +279,31 @@ site:
           content:
             directory: ./3.x/pt-br
             language: pt-br
+        - type: space
+          key: space-3.x-da
+          title: Dansk
+          path: da
+          content:
+            directory: ./3.x/da
+            language: da
+        - type: space
+          key: space-3.x-sv
+          title: Svenska
+          path: sv
+          content:
+            directory: ./3.x/sv
+            language: sv
+        - type: space
+          key: space-3.x-no
+          title: Norsk
+          path: "no"
+          content:
+            directory: ./3.x/no
+            language: "no"
+        - type: space
+          key: space-3.x-fi
+          title: Suomi
+          path: fi
+          content:
+            directory: ./3.x/fi
+            language: fi
