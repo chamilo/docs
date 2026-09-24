@@ -258,6 +258,7 @@
     * [Endpoints Reference](developer-guide/api/endpoints-reference.md)
     * [Custom Actions](developer-guide/api/custom-actions.md)
     * [Session Duplication](developer-guide/api/session-duplication.md)
+    * [Session Promotion](developer-guide/api/session-promotion.md)
     * [Webhooks](developer-guide/api/webhooks.md)
   * [Frontend](developer-guide/frontend/README.md)
     * [Vue Components](developer-guide/frontend/vue-components.md)

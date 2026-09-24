@@ -26,6 +26,7 @@ Not all operations are enabled for every resource — security constraints apply
 | Users | `/api/users` | User accounts |
 | Courses | `/api/courses` | Courses |
 | Sessions | `/api/sessions` | Training sessions |
+| Promotions | `/api/promotions` | Career promotions, read-only (see [Session Promotion](session-promotion.md)) |
 | Resource Nodes | `/api/resource_nodes` | Unified content nodes |
 | Access URLs | `/api/access_urls` | Multi-URL portals |
 | Messages | `/api/messages` | Platform messages |
