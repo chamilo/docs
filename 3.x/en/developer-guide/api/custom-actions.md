@@ -108,6 +108,7 @@ Custom actions are in `src/CoreBundle/Controller/Api/`.
 | Controller | Purpose |
 |-----------|---------|
 | `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| `SessionDuplicateProcessor` (`POST /api/sessions/{id}/duplicate`) | Create a session from a model session — see [Session Duplication](session-duplication.md) |
 
 ### Users & Access URLs
 

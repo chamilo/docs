@@ -255,6 +255,7 @@
     * [Authentication](developer-guide/api/authentication.md)
     * [Endpoints Reference](developer-guide/api/endpoints-reference.md)
     * [Custom Actions](developer-guide/api/custom-actions.md)
+    * [Session Duplication](developer-guide/api/session-duplication.md)
     * [Webhooks](developer-guide/api/webhooks.md)
   * [Frontend](developer-guide/frontend/README.md)
     * [Vue Components](developer-guide/frontend/vue-components.md)
