@@ -104,6 +104,35 @@ node -e "..."   # or write a throwaway .js file and run it from this directory /
    rather than switching courses. One known gap: AI Act's own gradebook has no items, so
    `gradebook-overview.png`-style entries render an empty table — use a different populated course
    for those specifically if a non-empty table is needed, and note it in the catalogue.
+
+### Step 4a — Shared-screenshot / multi-crop entries
+
+Some entries are not independent navigations: several catalogue entries share one `url` and are
+actually **crops of a single screenshot** (e.g. every `admin-*-block.png` is a crop of the same
+`/admin` full-page shot — `admin-dashboard-overview.png` is that same page, uncropped). Their
+`steps` field says so explicitly and gives the ordinal (`.p-card` index, 0-based, DOM order) of
+the card to crop. When you hit one:
+
+1. Take the full-page screenshot **once** for that `url`, at the target locale — do not re-navigate
+   per entry that shares it.
+2. For each entry that names a card index, get that card's live bounding box in the page you just
+   loaded: `page.evaluate(() => [...document.querySelectorAll('.p-card')].map(el => { const r =
+   el.getBoundingClientRect(); return {x: r.x, y: r.y, width: r.width, height: r.height} }))`, then
+   index into the result.
+3. Crop the full-page screenshot to that rectangle (e.g. Python Pillow: `Image.open(path).crop((x,
+   y, x+width, y+height))`) and save as that entry's file.
+
+**Card index is stable across languages (same DOM/render order), but the pixel rectangle is not** —
+translated text wraps differently and changes card height, confirmed measurably between English and
+French (a few px difference per card, compounding down the page). Always compute the rectangle live
+in the target language; never reuse another language's coordinates, and never reuse one language's
+full-page screenshot to crop a *different* language's card boxes.
+
+If a card-crop entry's index doesn't resolve (fewer `.p-card` elements than expected, e.g.
+`admin-plugins-block.png` — no matching card currently renders on `/admin` at all, likely
+conditional on a plugin with admin-menu integration being installed), mark it `blocked (...)` with
+the reason rather than guessing a substitute region.
+
 5. **Switch back to English**: return to `/account/edit`, set `#profile_locale` back to `en_US`,
    submit. Confirm the value stuck (`page.locator('#profile_locale').inputValue()`). Do this for
    *every* account you logged into this run (admin and any teacher/student used), even if something
