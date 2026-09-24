@@ -31,10 +31,36 @@
 #                                           still need figuring out (read the doc
 #                                           page's surrounding prose, then the app's
 #                                           router, then navigate live to confirm)
+#                   blocked (...)         - genuinely not reproducible right now; the
+#                                           reason is in the parenthetical, and the
+#                                           entry is left un-captured rather than faked
 #
 # Chamilo's own profile-language codes (the #profile_locale <select> on
 # /account/edit) do NOT match GitBook's language codes used elsewhere in this repo.
 # Notable mappings needed when localizing screenshots:
+#   fr -> fr_FR      de -> de         es -> es         it -> it        nl -> nl
+#   pt -> pt_PT      pt-br -> pt_BR   ar -> ar          el -> el        id -> id_ID
+#   ja -> ja         zh -> zh_CN      zh-tw -> zh_TW    da -> da        sv -> sv_SE
+#   fi -> fi_FI      no -> nb_NO (Norsk bokmål - GitBook's generic "no" has no exact
+#                    Chamilo match; nb_NO is the closest and most common written form)
+# 1.11.x/ga/ is mislabeled: Chamilo's real "ga" is Gaeilge (Irish); that content is
+# actually Galego (Galician), Chamilo's "gl".
+#
+# Course-scoped entries (any url with cid=) do NOT follow the account's profile
+# locale - they follow the COURSE's own Language setting, chrome included. Use the
+# AI Act course (cid=1, node 5) for these: "Show course in user's language" is
+# enabled there, so it just works with no course-settings changes. See
+# localize-screenshots.md Step 4 for the full explanation and the fixed-language-course
+# pitfall it replaced.
+#
+# SHARED-SCREENSHOT / MULTI-CROP entries: several entries (e.g. every admin-*-block.png)
+# are not independent navigations - they are one full-page screenshot of the same url
+# (e.g. /admin), cropped into different rectangles. Each such entry's `steps` field says
+# so explicitly and gives the .p-card index to crop (0-based, DOM order - stable across
+# languages even though the pixel rectangle is NOT: translated text changes card height,
+# so recompute each card's live boundingClientRect() per language rather than reusing
+# another language's coordinates). Never re-navigate per crop; take the shared screenshot
+# once and crop it N ways. See localize-screenshots.md Step 4a.
 screenshots:
 - file: admin-analytics-block.png
   doc_page: admin-guide/analytics/README.md
@@ -43,8 +69,12 @@ screenshots:
     report, Special exports, and Tickets
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 4 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-courses-block.png
   doc_page: admin-guide/courses/README.md
   alt: The Course management block on the administration dashboard, listing Course list, Add course, Export/Import
@@ -52,8 +82,12 @@ screenshots:
     and Resources sequencing
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 1 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-course-categories.png
   doc_page: admin-guide/courses/course-categories.md
   alt: The course categories management page showing a nested tree of categories
@@ -74,7 +108,8 @@ screenshots:
   alt: The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings
   url: /admin
   role: admin
-  steps: null
+  steps: Full-page screenshot of /admin, uncropped. Source screenshot shared by every admin-*-block.png
+    entry (see their steps).
   confidence: verified
 - file: admin-health-check-block.png
   doc_page: admin-guide/health-check.md
@@ -82,8 +117,12 @@ screenshots:
     admin URL assignment, and file permission checks
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 9 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: install-step1-language.png
   doc_page: admin-guide/installation/installation-wizard.md
   alt: Installation wizard Step 1 — language selection
@@ -197,8 +236,12 @@ screenshots:
     and System templates
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 3 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-plugins-block.png
   doc_page: admin-guide/plugins/README.md
   alt: The Plugins block on the administration dashboard, listing shortcuts to installed plugins that
@@ -206,7 +249,8 @@ screenshots:
   url: /admin
   role: admin
   steps: null
-  confidence: inferred (dashboard block, not cropped)
+  confidence: blocked (no matching .p-card renders on /admin currently - likely conditional on a plugin
+    with admin-menu integration being installed; none is on this demo instance)
 - file: admin-plugin-manager.png
   doc_page: admin-guide/plugins/managing-plugins.md
   alt: The plugin manager showing a list of available plugins with activation toggles and configuration
@@ -221,16 +265,24 @@ screenshots:
     finder
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 7 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-security-block.png
   doc_page: admin-guide/security/README.md
   alt: The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple
     IDS, Password strength checker, and File integrity
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 8 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-security-activities-audit.png
   doc_page: admin-guide/security/activities-audit.md
   alt: The Activities audit page listing event type categories such as Course, Session, User, Social,
@@ -287,8 +339,12 @@ screenshots:
     sequencing, among others
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 2 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-careers-list.png
   doc_page: admin-guide/sessions/careers-and-promotions.md
   alt: The careers list showing defined career paths with name and description
@@ -323,8 +379,12 @@ screenshots:
     Manage skills levels, Skills ranking, and Skills and assessments
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 5 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-skills-wheel.png
   doc_page: admin-guide/skills/skills-wheel.md
   alt: The Skills wheel page, showing the search sidebar, legend, and the full skill tree as a segmented
@@ -354,8 +414,12 @@ screenshots:
     System update, Colors, File info, Resources by type, and List icons
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 6 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-color-themes.png
   doc_page: admin-guide/system/branding/color-themes.md
   alt: The color themes page showing available themes with preview swatches and an Apply button
@@ -376,8 +440,12 @@ screenshots:
     users list, Edit users list, Anonymise users list, Profiling, and Classes
   url: /admin
   role: admin
-  steps: null
-  confidence: inferred (dashboard block, not cropped)
+  steps: 'CROPPED, not a separate navigation: take ONE full-page screenshot of /admin (same capture as
+    admin-dashboard-overview.png and every other admin-*-block.png entry), then crop to the .p-card element
+    at index 0 (0-based, in DOM order). Get that card''s live boundingClientRect() in the TARGET language
+    and crop with those coordinates - card heights shift with translated text length, so do not reuse
+    another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
+  confidence: verified
 - file: admin-user-list.png
   doc_page: admin-guide/users/managing-users.md
   alt: The user list showing accounts with name, email, role, and status columns
