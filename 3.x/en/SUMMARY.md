@@ -259,6 +259,7 @@
     * [Custom Actions](developer-guide/api/custom-actions.md)
     * [Session Duplication](developer-guide/api/session-duplication.md)
     * [Session Promotion](developer-guide/api/session-promotion.md)
+    * [User Connection Time](developer-guide/api/user-connection-time.md)
     * [Webhooks](developer-guide/api/webhooks.md)
   * [Frontend](developer-guide/frontend/README.md)
     * [Vue Components](developer-guide/frontend/vue-components.md)
