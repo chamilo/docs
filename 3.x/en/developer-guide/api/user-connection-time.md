@@ -59,4 +59,6 @@ Include the time zone offset. In a URL, `+` must be encoded as `%2B`. A value wi
 
 The total is the sum of `logout_date − login_date` over the user's rows in the `track_e_login` table.
 
-> **Warning:** A connection only gets a `logout_date` when the user logs out explicitly. Chamilo 1.11.x updated it on every page the user opened, but Chamilo 3 does not yet. As a result, a connection that ends because the session expires, or because the browser is closed, counts as zero, and the total is lower than the time the user actually spent on the platform.
+A connection starts at login and is extended while the user is active: the page the user has open sends a presence signal every minute while its tab is visible, as every page view did in Chamilo 1.11.x. After a longer inactivity than the session lifetime, the next activity opens a new connection, so the idle gap is not counted. Logging out closes the current connection. Time spent by an administrator using **Login as** is not added to the user.
+
+> **Note:** Connections recorded before this tracking was restored may have no logout date. They count as zero, so totals over periods before the upgrade can be lower than the time actually spent.
