@@ -987,3 +987,17 @@ screenshots:
   role: teacher
   steps: null
   confidence: verified
+- file: teacher-lp-scorm-import-menu.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The Learning paths page with the actions menu open, listing Create new learning path, AI learning path generator, Import and Add a category
+  url: /resources/lp/5?cid=1&gid=0&gradebook=0
+  role: teacher
+  steps: Click the ⋮ (more actions) button at the top right of the page, next to "Switch to student view"; screenshot the page header region with the menu open
+  confidence: verified
+- file: teacher-lp-scorm-import-form.png
+  doc_page: teacher-guide/adding-content/learning-paths.md
+  alt: The Import form with a SCORM ZIP file selected and the advanced settings expanded
+  url: /resources/lp/5/import?cid=1&gid=0&gradebook=0
+  role: teacher
+  steps: Choose a SCORM .zip file in the File field (the shot uses scorm-unload.zip, a SCORM 2004 package), then click "Advanced settings" to expand it; do not submit
+  confidence: verified
