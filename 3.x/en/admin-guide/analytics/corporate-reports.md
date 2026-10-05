@@ -1,6 +1,6 @@
 # Corporate Reports
 
-This page covers five related dashboard entries aimed at organizational reporting rather than day-to-day teaching: quarterly summaries, teacher workload, HR-oriented course reporting, the follow-up of learners by their superiors, and bulk document exports.
+This page covers six related dashboard entries aimed at organizational reporting rather than day-to-day teaching: quarterly summaries, teacher workload, HR-oriented course reporting, the follow-up of learners by their superiors, the weekly planning of general tutors, and bulk document exports.
 
 ## Quarterly Report
 
@@ -23,6 +23,12 @@ Platform administrators can assign a learner directly from a superior's column: 
 > A learner has a single list of superiors, and adding them from this report replaces it: a learner already followed by another superior moves to the superior you add them to.
 
 Only platform administrators get the **Add learner** controls.
+
+## General Tutor Planning
+
+**Reporting > Admin view > General tutor planning** shows, for each session general tutor, when they are busy. It's a single table: one row per tutor with their number of sessions, then one column per week (in `year-week` form, e.g. `2026-14`). The weeks a session covers are highlighted, and the session's name — a link to the session — appears in its first week.
+
+Use the **Start date** and **End date** filters to choose the weeks shown; only sessions starting in that range are listed. Without dates, the table spans every listed session, from the earliest start to the latest end. A session without an end date covers its first week only. The table scrolls sideways when the range covers many weeks.
 
 ## Special Exports
 
