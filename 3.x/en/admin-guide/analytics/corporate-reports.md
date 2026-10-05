@@ -1,6 +1,6 @@
 # Corporate Reports
 
-This page covers four related dashboard entries aimed at organizational reporting rather than day-to-day teaching: quarterly summaries, teacher workload, HR-oriented course reporting, and bulk document exports.
+This page covers five related dashboard entries aimed at organizational reporting rather than day-to-day teaching: quarterly summaries, teacher workload, HR-oriented course reporting, the follow-up of learners by their superiors, and bulk document exports.
 
 ## Quarterly Report
 
@@ -13,6 +13,16 @@ This page covers four related dashboard entries aimed at organizational reportin
 ## Corporate Report
 
 **Analytics > Corporate report** is built specifically for HR audiences — it's the one report in this chapter also available to the **Human Resources Manager** and **Student Boss** roles, not just administrators. It lists, per course and per user: e-mail address, hours spent, whether a certificate was generated, completed learning paths, and course progress. It can be scoped to a single session or left platform-wide.
+
+## Student's Superior Follow-up
+
+**Reporting > Admin view > Student's superior follow up** shows one column per **Student Boss** (superior) of the current portal, with the learners assigned to that superior listed underneath. Click a learner's name to open their detailed learner report. The **Language** filter narrows the columns down to superiors using a given interface language.
+
+Platform administrators can assign a learner directly from a superior's column: under **Add learner**, type at least three letters of the learner's name, username or e-mail, pick the learner from the suggestions and click **Add**. The superior receives an internal message announcing the new learner.
+
+> A learner has a single list of superiors, and adding them from this report replaces it: a learner already followed by another superior moves to the superior you add them to.
+
+Only platform administrators get the **Add learner** controls.
 
 ## Special Exports
 
