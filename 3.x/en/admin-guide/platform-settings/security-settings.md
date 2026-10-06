@@ -4,7 +4,7 @@ Login protection, password policy, content security headers, two-factor authenti
 
 This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, password strength scans, and file integrity checks), see [Security](../security/README.md).
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **32 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Security**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -123,6 +123,22 @@ If the user is not allowed to access a specific page, also hide the breadcrumb. 
 Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
 
 *Default: `0`*
+
+### `mcp_allowed_roles`
+
+**Allow MCP by roles**
+
+JSON map of Chamilo user roles allowed to use MCP. A user must match at least one enabled role. This restriction also applies to previously generated API keys and existing OAuth connections. Recognized keys are `ADMIN`, `COURSEMANAGER`, `STUDENT`, `DRH`, `SESSIONADMIN`, `STUDENT_BOSS` and `INVITEE`; invalid JSON denies MCP to every role. See [MCP](../mcp.md).
+
+*Default: `{"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}`*
+
+### `mcp_enabled`
+
+**Enable MCP server**
+
+Enables the Chamilo MCP endpoint and the personal MCP API key interface. When disabled, existing API keys, OAuth access tokens and JWT credentials cannot be used on /mcp. While disabled, the **MCP API key** button is not shown on the user's social network page. See [MCP](../mcp.md).
+
+*Default: `false`*
 
 ### `password_requirements`
 

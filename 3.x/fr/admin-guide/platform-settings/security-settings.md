@@ -4,7 +4,7 @@ Protection de la connexion, politique de mots de passe, en-têtes de sécurité 
 
 Cette page couvre la *politique* de sécurité. Pour les outils de surveillance qui observent la plateforme en s’appuyant sur cette politique (journaux des tentatives de connexion, événements de détection d’intrusion, analyses de robustesse des mots de passe et contrôles d’intégrité des fichiers), voir [Sécurité](../security/README.md).
 
-Accédez à ces paramètres sous **Administration > Paramètres de configuration > Sécurité**. Cette catégorie contient **32 paramètres**, listés ci-dessous avec le titre et le commentaire livrés dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Sécurité**. Cette catégorie contient **34 paramètres**, listés ci-dessous avec le titre et le commentaire livrés dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
 > Le nom de la variable dans le code est indiqué en monospace. Utilisez-le lors d’un script via l’API ou lorsque vous devez modifier ces paramètres au niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -123,6 +123,22 @@ Si l’utilisateur n’est pas autorisé à accéder à une page donnée, masque
 Nombre de tentatives de connexion échouées à tolérer avant que le compte utilisateur ne soit verrouillé et doive être déverrouillé par un administrateur.
 
 *Par défaut : `0`*
+
+### `mcp_allowed_roles`
+
+**Autoriser MCP par rôles**
+
+Carte JSON des rôles d'utilisateurs Chamilo autorisés à utiliser MCP. Un utilisateur doit correspondre à au moins un rôle activé. Cette restriction s'applique aussi aux clés API déjà générées et aux connexions OAuth existantes. Les clés reconnues sont `ADMIN`, `COURSEMANAGER`, `STUDENT`, `DRH`, `SESSIONADMIN`, `STUDENT_BOSS` et `INVITEE` ; un JSON invalide refuse MCP à tous les rôles. Voir [MCP](../mcp.md).
+
+*Par défaut : `{"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}`*
+
+### `mcp_enabled`
+
+**Activer le serveur MCP**
+
+Active le point de terminaison MCP de Chamilo et l'interface de clé API MCP personnelle. Lorsqu'il est désactivé, les clés API, jetons d'accès OAuth et identifiants JWT existants ne peuvent pas être utilisés sur /mcp. Tant qu'il est désactivé, le bouton **Clé API MCP** n'apparaît pas sur la page réseau social de l'utilisateur. Voir [MCP](../mcp.md).
+
+*Par défaut : `false`*
 
 ### `password_requirements`
 

@@ -33,6 +33,23 @@ Chaque appel s’exécute en tant qu’utilisateur connecté, de sorte qu’un o
 
 Cette liste est établie par l’équipe cœur de Chamilo ; elle n’est pas extensible par l’utilisateur depuis la plateforme — les enseignants ne peuvent pas ajouter leurs propres outils.
 
+## Activer MCP
+
+MCP est **désactivé par défaut**. Tant qu'il n'est pas activé, le point de terminaison `/mcp` refuse tous les identifiants et le bouton **Clé API MCP** n'apparaît pas sur la page **Réseau social** des utilisateurs.
+
+Allez dans **Administration > Paramètres de configuration > Sécurité** et réglez :
+
+* **Activer le serveur MCP** (`mcp_enabled`) sur **Oui**.
+* **Autoriser MCP par rôles** (`mcp_allowed_roles`) avec les rôles autorisés à utiliser MCP. Il s'agit d'une carte JSON ; par défaut, seuls les administrateurs et les enseignants sont autorisés :
+
+  ```json
+  {"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}
+  ```
+
+  Un utilisateur doit avoir au moins un rôle activé pour voir le bouton **Clé API MCP** et utiliser MCP. Un JSON invalide refuse MCP à tous les rôles. La restriction s'applique aussi aux clés et connexions OAuth créées auparavant : retirer un rôle coupe son accès existant.
+
+Voir [Paramètres de sécurité](platform-settings/security-settings.md) pour la description complète de ces deux paramètres.
+
 ## Comment les utilisateurs se connectent
 
 ### Clé API MCP personnelle
@@ -61,7 +78,7 @@ Pour les clients MCP qui prennent en charge la découverte OAuth et l’enregist
 
 ## Configuration du serveur MCP
 
-Contrairement à la plupart des intégrations de ce guide, MCP n’a pas de page de paramètres dans le panneau d’administration — il se configure au niveau des fichiers, dans `config/packages/mcp.yaml`, et nécessite un accès shell au serveur :
+Au-delà des deux paramètres de plateforme décrits dans [Activer MCP](#activer-mcp), le serveur MCP lui-même se configure au niveau des fichiers, dans `config/packages/mcp.yaml`, ce qui nécessite un accès shell au serveur :
 
 | Clé | Objet |
 |-----|---------|
@@ -71,7 +88,7 @@ Contrairement à la plupart des intégrations de ce guide, MCP n’a pas de page
 | `http.allowed_hosts` | Liste d’hôtes autorisés pour le DNS-rebinding — définie à `false` sur Chamilo (voir Considérations de sécurité ci-dessus) |
 | `http.session.store`, `.directory`, `.ttl` | Où l’état de session MCP est persisté et pendant combien de temps |
 
-Pour désactiver entièrement le serveur MCP, définissez `client_transports.http: false` (et `stdio: false` si le transport CLI doit également être désactivé) et videz le cache :
+Pour désactiver MCP pour tout le monde, remettez **Activer le serveur MCP** sur **Non**. Pour supprimer le transport HTTP lui-même, définissez `client_transports.http: false` (et `stdio: false` si le transport CLI doit également être désactivé) et videz le cache :
 
 ```bash
 php bin/console cache:clear --env=prod

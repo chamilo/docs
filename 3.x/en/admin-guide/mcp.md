@@ -33,6 +33,23 @@ Every call runs as the connected user, so a tool only ever sees and modifies cou
 
 This list is curated by the Chamilo core team, not user-extensible from within the platform — teachers cannot add their own tools.
 
+## Enabling MCP
+
+MCP is **disabled by default**. Until it is enabled, the `/mcp` endpoint rejects every credential and the **MCP API key** button does not appear on users' **Social network** page.
+
+Go to **Administration > Configuration settings > Security** and set:
+
+* **Enable MCP server** (`mcp_enabled`) to **Yes**.
+* **Allow MCP by roles** (`mcp_allowed_roles`) to the roles that may use MCP. This is a JSON map; by default only administrators and teachers are allowed:
+
+  ```json
+  {"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}
+  ```
+
+  A user needs at least one enabled role to see the **MCP API key** button and to use MCP. Invalid JSON denies MCP to every role. The restriction also applies to keys and OAuth connections created earlier, so removing a role cuts off its existing access.
+
+See [Security Settings](platform-settings/security-settings.md) for the full description of both settings.
+
 ## How Users Connect
 
 ### Personal MCP API key
@@ -61,7 +78,7 @@ For MCP clients that support OAuth discovery and dynamic client registration (ra
 
 ## Configuring the MCP Server
 
-Unlike most integrations in this guide, MCP has no admin-panel settings page — it is configured at the file level, in `config/packages/mcp.yaml`, and requires shell access to the server:
+Beyond the two platform settings described in [Enabling MCP](#enabling-mcp), the MCP server itself is configured at the file level, in `config/packages/mcp.yaml`, which requires shell access to the server:
 
 | Key | Purpose |
 |-----|---------|
@@ -71,7 +88,7 @@ Unlike most integrations in this guide, MCP has no admin-panel settings page —
 | `http.allowed_hosts` | DNS-rebinding host allowlist — set to `false` on Chamilo (see Security Considerations above) |
 | `http.session.store`, `.directory`, `.ttl` | Where MCP session state is persisted and for how long |
 
-To disable the MCP server entirely, set `client_transports.http: false` (and `stdio: false` if the CLI transport should also be turned off) and clear the cache:
+To turn MCP off for everyone, set **Enable MCP server** back to **No**. To remove the HTTP transport itself, set `client_transports.http: false` (and `stdio: false` if the CLI transport should also be turned off) and clear the cache:
 
 ```bash
 php bin/console cache:clear --env=prod
