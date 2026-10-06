@@ -72,13 +72,30 @@ When a learner opens a learning path:
 
 ## SCORM Content
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard — and, with partial support, **SCORM 2004** packages. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+
+{% hint style="info" %}
+**SCORM 2004 support is partial.** Content, progress and score tracking work, but the SCORM 2004 *sequencing and navigation rules* (which control the order in which a learner may visit the content) are not applied. Learners can move through the learning path freely, as in any other learning path. Use Chamilo's own [prerequisites](#setting-prerequisites) if you need to enforce an order.
+{% endhint %}
 
 To import a SCORM package:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. In the **Learning paths** tool, click the **⋮** (more actions) button at the top right of the page, then click **Import**
+
+   ![The Learning paths page with the actions menu open, listing Create new learning path, AI learning path generator, Import and Add a category](../../.gitbook/assets/teacher-lp-scorm-import-menu.png)
+
+2. Click **Choose file** and select the SCORM `.zip` file. Do not unzip it first — Chamilo expects the package exactly as exported by your authoring tool.
+3. Optionally adjust the settings (see below), then click **Import**
+
+   ![The Import form with a SCORM ZIP file selected and the advanced settings expanded](../../.gitbook/assets/teacher-lp-scorm-import-form.png)
+
+4. Chamilo unpacks the package and creates the learning path automatically. It appears in the learning paths list, where you can edit its title, visibility and other settings like any other learning path.
+
+| Setting | Effect |
+| --- | --- |
+| **Use default maximum score of 100** | Enabled by default. Leave it enabled unless you have a specific reason to change how the package's maximum score is handled. |
+| **Content** (advanced) | **Local** is the default and means the package is stored on your Chamilo server. Leave it as is for a normal upload. |
+| **Authoring** (advanced) | A label recording which tool created the package. The default (`Scorm`) is fine for most packages. |
 
 ### CMI5 / xAPI packages
 
