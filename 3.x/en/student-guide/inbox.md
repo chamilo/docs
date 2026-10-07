@@ -12,6 +12,12 @@ Your inbox lists received messages, showing which are unread. Open one to read i
 
 ![The Inbox, with Inbox / Unread / Sent tabs and a table of received messages](../.gitbook/assets/student-inbox.png)
 
+## Replying From E-mail
+
+If your administrator enabled e-mail replies for direct messages, the notification e-mail for a Chamilo message has a special reply address. You can reply from your normal e-mail client; Chamilo validates the reply and adds it to the same conversation in your Inbox.
+
+Send the reply from the same e-mail address registered on your Chamilo account and write your response above the **Reply above this line** marker. Not every platform notification is replyable — this feature applies to direct-message notifications when the administrator has configured inbound mail.
+
 ## Composing a New Message
 
 Click the **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> button, choose one or more recipients, write a subject and body, and send. Just like a reply, a new message can go to multiple people at once.
@@ -19,6 +25,10 @@ Click the **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outl
 ## Tabs and Actions
 
 Besides your **Inbox**, a tab shows just your **Unread** messages, and another shows **Sent** — what you've sent, for your own reference. A search box lets you find a message by keyword. The buttons above the list let you compose a new message, refresh, delete selected messages, and mark selected messages as read.
+
+## E-mail Notification Status
+
+If your administrator enabled e-mail open tracking, the **Sent** list can show an **E-mail notifications** date for messages whose notification tracking image was requested. This is only an indication that the e-mail may have been opened; it is not proof that it was read.
 
 ## Message Tags
 

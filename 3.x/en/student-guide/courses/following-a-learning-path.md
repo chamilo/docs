@@ -29,6 +29,12 @@ A learning path can include a test as one of its steps — taking it works the s
 
 Some learning path items aren't built directly in Chamilo, but imported as a **SCORM** package, a **CMI5/xAPI** package, or built with the C-Studio plugin. These generally look and behave like any other interactive content — Chamilo tracks your progress and score through them the same way, even though the content itself was authored elsewhere.
 
+## AI Study Helper
+
+If your administrator has enabled AI helpers, document steps in a learning path can offer an **AI study helper**. Select a passage in the document and a small robot action appears next to the selection. Open it, choose a **Learning technique** (for example Feynman Technique, Mind mapping, Spaced repetition or SQ3R), then click **Generate**.
+
+Chamilo sends the selected passage and the technique to the configured AI service and shows the generated explanation in a dialog. The helper is meant to support your understanding of the material; it does not change your answers, score or learning-path progress.
+
 ## Tips
 
 * **Use the progress bar** to gauge how much of the path is left.

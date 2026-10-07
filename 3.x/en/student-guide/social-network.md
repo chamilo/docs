@@ -22,6 +22,14 @@ You can search for other users and send them a connection request. As a **learne
 
 Posts and connections are the social side; sending someone a private message is handled by the platform's separate [Inbox](inbox.md) — the social network links into it rather than having its own separate messaging system.
 
+## Floating Chat and Video Calls
+
+The floating chat panel is a separate real-time messaging feature from the [Inbox](inbox.md) and from a course's own Chat tool. Select an online contact to chat directly.
+
+If your administrator has enabled video chat and your browser supports WebRTC, an online contact can also show **Start video call**. Calls are one-to-one: an incoming call can be **Accepted** or **Declined**, and during the call you can mute the microphone, turn the camera on or off, or hang up. Your browser may ask for camera and microphone permission.
+
+If the video action is not shown, the feature may be disabled by the administrator, the other user may be offline, or the browser may not support the required media APIs.
+
 ## Social Groups
 
 You can join existing **social groups** built around shared interests, and — if your administrator allows learners to create groups — start your own. Social groups are platform-wide and unrelated to a course's own **Groups** tool (see [Finding Your Way Around a Course](courses/course-tools-overview.md)); joining or posting in a social group has no effect on any course you're enrolled in.

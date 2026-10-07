@@ -100,6 +100,48 @@ In addition to the transport, configure the sender identity on the same page:
 | **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
 | **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
 
+## Inbound Replies to Direct Messages
+
+Chamilo can let a recipient reply to a direct-message notification from their normal e-mail client and turn that reply into a message in the Chamilo Inbox. Configure the following under **Administration > Configuration settings > Mail**:
+
+1. Set **Allow e-mail replies to messages** (`enable_inbound_mail`) to **Yes**.
+2. Set **Inbound e-mail address** (`inbound_mail_address`) to a valid base address such as `replies@example.com`. Chamilo uses plus addressing to build a unique address such as `replies+TOKEN@example.com` for each recipient.
+3. Route those incoming messages back to Chamilo using one of the methods below.
+
+### Polling an IMAP Mailbox
+
+Set **Inbound mailbox DSN** (`inbound_mail_dsn`) to the mailbox that receives the replies, for example:
+
+```text
+imaps://user:password@imap.example.com:993/INBOX
+```
+
+URL-encode reserved characters in the username or password. Then run the mailbox collector periodically, for example every five minutes:
+
+```bash
+*/5 * * * * cd /path/to/chamilo && php bin/console chamilo:mail:fetch-inbound --no-interaction
+```
+
+The collector processes unread messages in batches. Failed messages are left unread by default so they can be retried; use `--mark-failed-seen` only when you explicitly do not want that retry behavior.
+
+### Piping Mail From the MTA
+
+An MTA can instead pipe one raw RFC822 message directly to Chamilo:
+
+```bash
+php bin/console chamilo:mail:process-inbound
+```
+
+The command reads from STDIN; `--file` can be used for a saved message and `--recipient` can provide the SMTP envelope recipient when the `To` header was rewritten.
+
+For security, Chamilo accepts the reply only when its token identifies a valid message recipient and the message's `From` address matches that recipient's e-mail address in Chamilo. The original sender and the replying user must still be active. Only the new reply text is stored; quoted history is stripped when possible.
+
+## E-mail Open Tracking
+
+Set **Track e-mail openings** (`enable_email_open_tracking`) to **Yes** to add a small tracking image to direct-message notification e-mails. When that image is requested, Chamilo records the time and can display it in the sender's **Sent** messages under **E-mail notifications**.
+
+An open-tracking timestamp only means that the image was requested. Mail clients can block images, prefetch them, or proxy them, so it must not be treated as proof that the recipient actually read the message.
+
 ## Testing Email Delivery
 
 After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.

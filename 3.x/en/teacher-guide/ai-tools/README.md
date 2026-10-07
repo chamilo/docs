@@ -7,8 +7,10 @@ Chamilo 3.0 introduces AI-powered tools that help you create content faster and 
 ## Available AI Tools
 
 * **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
+* **[Student Success AI Coach](student-success.md)** — Analyze a learner's course activity and generate evidence-backed recommendations for the teacher
 * **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
 * **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
+* **[AI Toolbox](toolbox-ai.md)** — Generate versioned interactive SCORM applications from teacher instructions
 * **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
 * **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
 * **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
@@ -20,6 +22,8 @@ When AI tools are enabled, they appear in the relevant contexts:
 
 * The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
 * The **Learning Path Generator** appears when creating learning paths
+* The **AI Toolbox** is a course tool for generating, versioning, publishing and tracking interactive SCORM applications
+* The **Student Success AI Coach** appears in the learner list of the course reporting area when the course analyser is enabled
 * The **AI Grading** option appears in the assignment correction workflow
 * The **AI Tutor** is available to learners within the course
 * The **Glossary Terms Generator** appears in the Glossary tool toolbar

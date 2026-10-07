@@ -12,6 +12,12 @@ The blog tool lets you create a shared blog within your course. Learners can wri
 
 You can create multiple blogs within a single course (e.g., one per topic or one per group).
 
+## Course and Session Scope
+
+Blogs follow the exact course/session context in which they were created. When you work inside a session, that session has its own blog resources and member list: base-course blogs are not automatically inherited, and a blog from one session is not exposed in another session.
+
+This separation also applies to posts, comments, tasks, ratings and attachments belonging to the blog. Return to the same course/session context when managing a session blog.
+
 ## Writing Blog Posts
 
 1. Open a blog

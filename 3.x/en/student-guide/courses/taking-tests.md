@@ -17,6 +17,12 @@ You may encounter any of a wide range of question types: single or multiple choi
 
 If a **time limit** is set, a countdown timer is shown on screen. When it runs out, your test is submitted automatically with whatever answers you've given so far — so keep an eye on it.
 
+## Reporting a Problem With a Question
+
+If your teacher enabled question issue reports, a **Report a problem with this question** action appears while you are taking the test. Use it when a question looks incorrect, unclear or technically broken, write a comment describing the problem, and click **Send**.
+
+Your report is sent to the teacher and is linked to that question and attempt. Reporting a problem does not change your answer or score, so continue the test normally after sending it.
+
 ## Submitting
 
 Once you've answered (or reached the end, in one-page-at-a-time mode), submit the test. What you see immediately after depends on your teacher's feedback setting:

@@ -10,6 +10,12 @@ This page covers the three dashboard entries used to build up the platform's ski
 
 **Skills > Manage skills** is the main skill catalog: create, edit, enable/disable, and delete skills. Each skill has a title, a short code, a description, an icon, and an optional criteria description (what a learner needs to do to earn it). Skills can be nested — a skill can have child skills — which is what the [Skills Wheel](skills-wheel.md) visualizes.
 
+## Manual Skill Assignment
+
+When manual skill assignment is available for your role, open **Assign skill** for the user, select the **Skill**, choose a **Level acquired** when levels are used, and provide the required **Argumentation** explaining why the skill is being awarded.
+
+For an existing manual assignment that can be removed, select the skill and click **Remove**, then confirm the action. Removed assignments no longer count as acquired skills. Assignments whose source does not allow manual removal do not expose this action.
+
 ## Manage Skills Levels
 
 **Skills > Manage skills levels** is a separate, smaller screen: it lists existing skills and lets you assign each one to a **level profile** — a named, ordered set of levels (for example Bronze/Silver/Gold) that the skill is measured against. In short: use **Manage skills** to define what a skill *is*, and **Manage skills levels** to define what scale it's measured on.

@@ -38,6 +38,18 @@ The social network integrates with the platform's messaging system:
 
 When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
 
+### E-mail Replies and Open Status
+
+If inbound e-mail replies are enabled by the administrator, recipients of direct-message notifications can answer from their e-mail client and the reply is added back to the Chamilo conversation. The reply must come from the e-mail address registered on the recipient's Chamilo account.
+
+If e-mail open tracking is enabled, your **Sent messages** can also show an **E-mail notifications** timestamp. It only means the notification's tracking image was requested and does not prove that the message was read.
+
+### Floating Chat and One-to-One Video Calls
+
+The floating chat panel is separate from both the Inbox and the course **Chat** tool. Select an online contact to exchange real-time direct messages. If the administrator has enabled video chat and your browser supports WebRTC, an online contact also shows **Start video call**.
+
+Calls are one-to-one. The recipient can **Accept** or **Decline** an incoming call. During a connected call, either participant can mute or unmute the microphone, turn the camera on or off, and hang up. The browser may ask for camera and microphone permission the first time.
+
 ### Message Tags
 
 If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.

@@ -22,6 +22,8 @@ Every call runs as the connected user, so a tool only ever sees and modifies cou
 | Get user course test score | Return a student's latest and best completed scores on a test |
 | Create training satisfaction survey | Create a seven-question satisfaction survey |
 | Create course learning path | Create a learning path from pages supplied by the MCP client |
+| Create course Toolbox application | Generate a versioned SCORM 1.2 application in the course AI Toolbox and optionally publish it |
+| Update course Toolbox application | Generate a new AI-assisted version of an existing Toolbox application while keeping previous versions |
 | List documents | List the documents in a course's Documents tool |
 | Read course document | Return the HTML content, title, and metadata of an editable document |
 | Edit course document | Replace the full HTML content of an existing editable document |
@@ -30,6 +32,7 @@ Every call runs as the connected user, so a tool only ever sees and modifies cou
 | Illustrate document paragraph | Insert an existing image or video before or after a paragraph in a document |
 | Find recent course forum activity | Find recent, visible forum posts related to a topic |
 | Review course quality | Analyze a course's learning paths, documents, tests, assignments, and surveys, and return improvement recommendations |
+| Generate Student Success feedback | Run the same privacy-filtered Student Success AI Coach analysis available from course reporting for a learner in a managed course |
 
 This list is curated by the Chamilo core team, not user-extensible from within the platform — teachers cannot add their own tools.
 

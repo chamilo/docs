@@ -15,12 +15,18 @@ The glossary tool lets you define key terms for your course. Learners can browse
 * **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
 * **Search** <img src="../../.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
 
+## Categories
+
+Use **Manage categories** to organize a large glossary into named groups. You can add, edit and delete categories from the categories page. When creating or editing a term, select its **Category**, or leave it as **No category**.
+
+The glossary list groups terms by category and the table view shows the category in its own column. Terms without a category remain available under **No category**.
+
 ## Importing and Exporting
 
 You can build your glossary faster using import/export:
 
 * **Import** <img src="../../.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **Export** <img src="../../.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference. You can export **All categories** or restrict the export to one category.
 
 ## Display Options
 

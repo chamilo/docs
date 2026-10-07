@@ -26,6 +26,12 @@ The survey tool lets you create questionnaires to collect feedback from your lea
 * **Enable shuffle mode** — Whether to shuffle questions
 * **Show question number** — Whether to show (auto-generated) question numbers
 
+### Training satisfaction template
+
+If you want a standard end-of-training questionnaire, use the **Create satisfaction survey** action in the Surveys toolbar. Chamilo creates an anonymous **Training satisfaction survey** from the built-in seven-question template and opens its question editor immediately.
+
+The survey is created in the current course or course-session context and is not published automatically. Review or edit the generated questions first, then publish it and choose recipients in the usual way. This action is only available to users who can create surveys, and it is hidden when survey creation is disabled by platform configuration.
+
 ## Adding Questions
 
 Once the survey is created, add questions:
