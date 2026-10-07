@@ -2,7 +2,7 @@
 
 Configuration of the AI helpers (text generation, image generation, video generation, AI tutor, AI grading). Each provider can be enabled per task type. See also [AI Configuration](../integrations/ai-configuration.md).
 
-Access these settings under **Administration > Configuration settings > AI Helpers**. This category contains **14 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > AI Helpers**. This category contains **15 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -91,6 +91,14 @@ Automatically grades open-ended answers using AI.
 **Assignments grader**
 
 Uses AI to evaluate and grade uploaded assignments.
+
+*Default: `false`*
+
+### `toolbox`
+
+**AI Toolbox**
+
+Allows teachers to create and version AI-assisted educational applications inside courses.
 
 *Default: `false`*
 

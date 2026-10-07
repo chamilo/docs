@@ -47,6 +47,12 @@ The exercises tool (also called "tests") lets you create quizzes and exams with 
 | **Immediate** | Show feedback after each question (useful for learning exercises) |
 | **Exam mode** | Do not show any feedback or results |
 
+### Learner Question Issue Reports
+
+Enable **Allow learners to report issues in questions** when you want learners to flag unclear, incorrect or broken questions during an active attempt. The report option is shown only to learners and only for normal question items.
+
+A learner enters a comment in **Report a problem with this question**. The report is attached to that question and attempt; it does not change the learner's answer or score.
+
 ### Results Display
 
 Control what learners see after completing the exercise:
@@ -133,6 +139,10 @@ Chamilo offers a rich set of question types organized into several categories:
 5. Optionally add **feedback** — explanations shown to the learner after answering
 6. Set the **difficulty level** and **category** (useful for random selection and reporting)
 7. Save
+
+## Reviewing Learner Reports
+
+Open a question in the question editor and expand **Learner reports**. Each report shows the learner, the time, the exercise when available, and the submitted comment. When Chamilo can link the report to the attempt, use **View attempt** to inspect the surrounding answers before correcting the question.
 
 ## Question Categories
 

@@ -2,7 +2,7 @@
 
 How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **17 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Mail**. This category contains **21 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -97,6 +97,34 @@ Prefer short e-mail versions with a link to the messaging space on the platform 
 
 *Default: `false`*
 
+
+### `enable_email_open_tracking`
+
+**Track e-mail openings**
+
+Adds a small tracking image to message notification e-mails and records when it is requested. This only indicates that the e-mail may have been opened; it does not prove it was read.
+
+*Default: `false`*
+
+### `enable_inbound_mail`
+
+**Allow e-mail replies to messages**
+
+Allow recipients of direct message notifications to reply by e-mail. Incoming messages must be routed to the Chamilo inbound-mail command by the mail infrastructure.
+
+*Default: `false`*
+
+### `inbound_mail_address`
+
+**Inbound e-mail address**
+
+Base address used for reply routing, for example `replies@example.com`. Chamilo adds a unique recipient token using plus addressing.
+
+### `inbound_mail_dsn`
+
+**Inbound mailbox DSN**
+
+Mailbox connection used to collect inbound replies, for example `imaps://user:password@imap.example.com:993/INBOX`. URL-encode reserved characters in credentials.
 
 ### `notifications_extended_footer_message`
 

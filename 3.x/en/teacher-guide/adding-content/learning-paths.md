@@ -162,6 +162,14 @@ If the administrator has enabled AI-assisted learning path generation, you will 
 
 Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
 
+### AI study helper for learners
+
+When the global `ai_helpers.enable_ai_helpers` setting is enabled, learners can use an **AI study helper** while reading a document item in the normal Learning Path player. They select a passage of text, open the small AI helper action that appears next to the selection, choose a **Learning technique**, and click **Generate**.
+
+The available techniques include Mind mapping, the Feynman Technique, Elaborative interrogation, Spaced repetition, SQ3R, Analogies and metaphors, Dual coding, Storytelling, Thematic connections, Interleaved learning and Memory palaces. The generated explanation is based on the selected passage and uses the course/user language context.
+
+The helper is available only for document items in the regular runtime; it is not shown in reporting or Impress mode.
+
 ## Tips
 
 * **Start with an outline** — Plan your sections and items before building the path

@@ -28,6 +28,14 @@ And once learners have submitted their assignments, you can:
 * Upload all corrections in a big ZIP
 * Delete all corrections you submitted (this doesn't delete the learners' submissions)
 
+## Assignments for Groups
+
+When the course has groups, the assignment form can show **This is an assignment by groups**. Enable it to create one assignment that is shared across the groups in the selected **Group category**. If group categories are disabled, Chamilo can apply the assignment to all groups.
+
+Configure the shared assignment from the normal Assignments tool, not from inside one particular group. Learners access the same assignment from their own group context, so the assignment does not need to be duplicated once per group.
+
+If several group categories exist, select the category whose groups should receive the assignment. The option is not offered while you are already inside a specific group context.
+
 ## How Learners Submit
 
 Learners open the assignment and:
