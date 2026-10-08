@@ -4,32 +4,19 @@ Documentation for the Chamilo LMS e-learning platform project.
 
 You can access the more readable version of this documentation on https://docs.chamilo.org (graciously sponsored by https://gitbook.com).
 
-This repository is organized in branches by version, by language and by role:
+This repository is organized in folders by version, by language and by role:
+
+The master branch is just an index. Do not use it to extend translations. Instead, use the version-specific folders.
 
 * For 3.* versions
-  * branch 3.x for English
+  * branch "all" with subfolders inside "3.x" for all available languages
 * For 2.* versions:
-  * branch 2.x for English
-  * branch 2.x-ar for Arabic
-  * branch 2.x-de for German
-  * branch 2.x-el for Greek
-  * branch 2.x-es for Spanish
-  * branch 2.x-fr for French
-  * branch 2.x-id for Bahasa Indonesia
-  * branch 2.x-it for Italian
-  * branch 2.x-ja for Japanese
-  * branch 2.x-nl for Dutch
-  * branch 2.x-pt for Portuguese
-  * branch 2.x-zh_CN for Simplified Chinese
-  * branch 2.x-zh_TW for Traditional Chinese
+  * branch "all" with subfolders inside "2.x" for all available languages
 * For 1.11 versions:
-  * branch 1.11.x for English
-  * branch 1.11.x-es for Spanish
-  * branch 1.11.x-fr for French
-  * branch 1.11.x-de for German
-  * branch 1.11.x-nl for Dutch
-  * branch 1.11.x-pt_BR for Brazilian Portuguese
-  * branch 1.11.x-ga for Galician
+  * branch "all" with subfolders inside "1.11.x" for all available languages
+ 
+Older documentation (more than 10 years old) is still available in separate branches:
+
 * For 1.10 versions:
   * branch 1.10.x for English
   * branch 1.10.x-fr for French
@@ -37,3 +24,5 @@ This repository is organized in branches by version, by language and by role:
 * For 1.9 versions:
   * branch 1.9.x for English
   * branch 1.9.x-es for Spanish
+
+Other branches (1.11.x* and 2.x*) are kept for historical reasons only. They are read-only.
