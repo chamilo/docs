@@ -1,5 +1,8 @@
 # Chamilo Documentation - `all` branch
 
+This is the code for the Chamilo documentation.
+The end-user readable documentation is available at https://docs.chamilo.org.
+
 This branch holds every version and language of the Chamilo documentation as a
 single GitBook Site, synced through one `gitbook-docs.yaml` at the repository
 root. It replaces the old one-branch-per-version-per-language model (`2.x`,
