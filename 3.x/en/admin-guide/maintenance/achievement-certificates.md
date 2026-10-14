@@ -45,6 +45,7 @@ skipped without being surfaced.
 | `--course-batch-size=<n>`    | Courses loaded per database batch. Default `50`.                                                                                         |
 | `--after-course-id=<id>`     | Resume scanning after this course ID. Safe to reuse after an interrupted run — a course never regenerates a certificate for a student who already has one. |
 | `--user-id=<id>`             | Restrict the run to one student, checked across every eligible course and session — useful to validate behaviour before a platform-wide run. |
+| `--regenerate-empty`         | Also process students whose certificate record exists but has no stored certificate file — for example after a generation that failed part-way — and generate that certificate again. Students with a complete certificate are never touched. |
 
 ### Examples
 
@@ -66,6 +67,16 @@ Resume an interrupted run after course 480:
 ```bash
 php bin/console chamilo:gradebook:process-achievement-certificates \
   --send-notification --sender-id=1 --after-course-id=480
+```
+
+Generate again the certificates whose record exists but whose file was never stored (dry-run first
+to list them):
+
+```bash
+php bin/console chamilo:gradebook:process-achievement-certificates \
+  --regenerate-empty --dry-run
+php bin/console chamilo:gradebook:process-achievement-certificates \
+  --regenerate-empty --send-notification --sender-id=1
 ```
 
 ### Scheduling as a cron job
