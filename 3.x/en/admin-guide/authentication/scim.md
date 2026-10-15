@@ -31,6 +31,8 @@ authentication:
         auth_source: platform
 ```
 
+> **Warning:** With `auth_source: platform`, provisioned users can also sign in with the regular login form. Chamilo gives them a random password, so they cannot use it unless an administrator sets one. Before 3.0.2 the password was fixed: see [Predictable passwords of SSO and SCIM users](../installation/upgrading.md#predictable-passwords-of-sso-and-scim-users).
+
 Clear and warm the cache after editing:
 
 ```bash

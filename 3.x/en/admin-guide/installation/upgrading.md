@@ -267,6 +267,27 @@ php bin/console cache:warmup --env=prod
 echo "Update complete."
 ```
 
+## Security notes
+
+### Predictable passwords of SSO and SCIM users
+
+Before Chamilo 3.0.2, some accounts provisioned or updated by an external identity system had a fixed, publicly guessable password. Anyone who knew the username could sign in with the regular login form if the account kept the `platform` authentication source.
+
+Chamilo 3.0.2 fixes the code. It does **not** change passwords that already exist, so review these accounts after you update:
+
+* **SCIM:** users created through `POST /scim/v2/Users` have the password `scim`.
+* **Azure Entra ID, Facebook, Keycloak:** users who signed in through these providers had their password replaced by `azure`, `facebook` or `keycloak`. Only users who also have the `platform` authentication source can use it to sign in.
+* **Generic OAuth2:** users created by the provider have their username as password.
+
+To close the exposure:
+
+1. Update to Chamilo 3.0.2 or later.
+2. In **Administration > Users**, edit each affected user and set a new password. Users who sign in only through the identity provider do not need to know it.
+3. If you use SCIM, set `auth_source` in `authentication.yaml` to a value other than `platform`, then clear the cache. See [SCIM](../authentication/scim.md). Existing users keep the authentication sources they already have.
+4. Ask users who sign in with a password to change it.
+
+New users created after the update receive a random password, and an SSO sign-in no longer overwrites the password of an existing user. Users who need a password for the regular login form can request one with **Forgot your password?** on the login page.
+
 ## Tips
 
 * **Always back up before upgrading.** Database migrations are not reversible through the Chamilo interface.
