@@ -65,6 +65,11 @@ This option will display the Terms and Conditions in the register form for new u
 
 *Default: `false`*
 
+When enabled, a platform administrator, or a learner's superior, can manage a learner's agreement from three places: the user information page (**Administration > Users**, then the user), the learner's tracking page in **Reporting** and the learner's page of the global reporting (`/reporting/learners/<id>`). The button is the same everywhere:
+
+* **Send legal agreement** sends the learner a message, signed with the sender's name, asking them to sign the terms and conditions, with a link to the address set in [`course_validation_terms_and_conditions_url`](course-settings.md#course_validation_terms_and_conditions_url).
+* **Delete legal agreement** appears once the learner has accepted, and removes that acceptance, so the learner is asked to accept the terms and conditions again.
+
 
 ### `drh_autosubscribe`
 
