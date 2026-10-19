@@ -2,7 +2,7 @@
 
 Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **64 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **66 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -176,6 +176,24 @@ Define an array with the list of user extra fields to add to the report.
 When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
 
 *Default: `false`*
+
+### `exercise_default_visibility_can_be_modified_in_course` **v3**
+
+**Default visibility of new tests can be changed by course**
+
+When enabled, teachers can choose in the course settings the visibility given to new tests of their course, instead of the platform default.
+
+*Default: `false`*
+
+When this is enabled, a **Default visibility for new tests** option appears in the **Tests** section of the course settings. A course that has not chosen a value uses `exercise_default_visibility_on_creation`.
+
+### `exercise_default_visibility_on_creation` **v3**
+
+**Default visibility of new tests**
+
+Visibility given to a new test when a teacher creates it in a course. Teachers can still change the visibility of each one afterwards.
+
+*Default: `visible`*
 
 ### `exercise_embeddable_extra_types`
 

@@ -2,7 +2,7 @@
 
 Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **53 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -158,6 +158,24 @@ Hide the Learning Path PDF Export icon from the Learning Paths list
 Enable this to allow learners to download the learning paths as SCORM packages.
 
 *Default: `false`*
+
+### `lp_default_visibility_can_be_modified_in_course` **v3**
+
+**Default visibility of new learning paths can be changed by course**
+
+When enabled, teachers can choose in the course settings the visibility given to new learning paths of their course, instead of the platform default.
+
+*Default: `false`*
+
+When this is enabled, a **Default visibility for new learning paths** option appears in the **Learning path settings** section of the course settings. A course that has not chosen a value uses `lp_default_visibility_on_creation`.
+
+### `lp_default_visibility_on_creation` **v3**
+
+**Default visibility of new learning paths**
+
+Visibility given to a new learning path when a teacher creates it in a course. Teachers can still change the visibility of each one afterwards.
+
+*Default: `invisible`*
 
 ### `lp_enable_flow`
 

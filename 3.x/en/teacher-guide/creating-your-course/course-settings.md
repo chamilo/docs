@@ -54,6 +54,8 @@ These settings only cover self-enrollment. For the full picture — including en
 
 Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
 
+* **Default visibility for new documents** — Decide whether the documents, folders and files you create or upload are visible to learners straight away, or invisible until you publish them. This option only appears when the platform administrator allows each course to choose; otherwise the platform default applies (visible, unless changed).
+
 ### E-mail Notification Settings
 
 Configure how course activity triggers notifications:
@@ -68,6 +70,11 @@ Control how the **Chat** tool will show.
 
 * **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
 * **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Default visibility for new learning paths** — Decide whether a learning path you create (or import from a SCORM package) is visible to learners straight away, or invisible until you publish it. This option only appears when the platform administrator allows each course to choose; otherwise the platform default applies (invisible, unless changed).
+
+### Test Settings
+
+* **Default visibility for new tests** — Decide whether a test you create (or import) is visible to learners straight away, or invisible until you publish it. This section only appears when the platform administrator allows each course to choose; otherwise the platform default applies (visible, unless changed).
 
 ### Thematic Advance Settings
 

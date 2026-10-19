@@ -2,7 +2,7 @@
 
 Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Documents**. This category contains **30 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -34,19 +34,29 @@ What is the default hard disk spacde available for a groups documents tool?
 *Default: `250`*
 
 
+### `document_default_visibility_can_be_modified_in_course` **v3**
+
+**Default visibility of new documents can be changed by course**
+
+When enabled, teachers can choose in the course settings the visibility given to new documents of their course, instead of the platform default.
+
+*Default: `false`*
+
+When this is enabled, a **Default visibility for new documents** option appears in the **Documents** section of the course settings. A course that has not chosen a value uses `document_default_visibility_on_creation`.
+
+### `document_default_visibility_on_creation` **v3**
+
+**Default visibility of new documents**
+
+Visibility given to a new document, folder or uploaded file when a teacher creates it in a course. Teachers can still change the visibility of each one afterwards.
+
+*Default: `visible`*
+
 ### `documents_custom_cloud_link_list`
 
 **Set strict hosts list for cloud links**
 
 The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
-
-### `documents_default_visibility_defined_in_course`
-
-**Document visibility defined in course**
-
-The default document visibility for all courses
-
-*Default: `false`*
 
 ### `documents_hide_download_icon`
 
