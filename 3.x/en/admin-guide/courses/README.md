@@ -7,3 +7,4 @@ This section covers course management from an administrator perspective: oversee
 * **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
 * **[Course Categories](course-categories.md)** — Organize the course catalog with categories
 * **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Demo Courses](demo-courses.md)** — The AI Act and Using Chamilo courses shipped with every new installation

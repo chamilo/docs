@@ -38,3 +38,4 @@ Sessions in Chamilo are a way to deliver the same course to different groups of 
 
 * [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
 * [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [Demo Courses](demo-courses.md) — The two ready-made courses (AI Act and Using Chamilo) included in every new installation

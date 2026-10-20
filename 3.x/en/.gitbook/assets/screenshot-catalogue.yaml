@@ -1001,3 +1001,31 @@ screenshots:
   role: teacher
   steps: Choose a SCORM .zip file in the File field (the shot uses scorm-unload.zip, a SCORM 2004 package), then click "Advanced settings" to expand it; do not submit
   confidence: verified
+- file: demo-courses-list.png
+  doc_page: teacher-guide/getting-started/demo-courses.md
+  alt: The My courses page, where the AI Act demo course appears as the first course card
+  url: /courses
+  role: admin
+  steps: Set the profile language first (Chamilo locale for the target language); screenshot the viewport at 1440x900. The AI Act card is the first card
+  confidence: verified
+- file: demo-ai-act-description.png
+  doc_page: teacher-guide/getting-started/demo-courses.md
+  alt: The Course Description page of the AI Act demo course as a learner sees it, in English
+  url: /resources/course-description/5/?cid=1&gid=0
+  role: admin
+  steps: Open /course/1/home?sid=0, click "Switch to student view" (the view persists), then open the URL; wait about 3 seconds for the content to render; viewport screenshot at 1440x900
+  confidence: verified
+- file: demo-ai-act-description-es.png
+  doc_page: teacher-guide/getting-started/demo-courses.md
+  alt: The same Course Description page of the AI Act demo course after switching the profile language to Spanish, with the content shown in Spanish
+  url: /resources/course-description/5/?cid=1&gid=0
+  role: admin
+  steps: Same as demo-ai-act-description.png, but with the profile language set to Spanish (es) in /account/edit beforehand; restore the profile language afterwards
+  confidence: verified
+- file: demo-ai-act-learning-path.png
+  doc_page: teacher-guide/getting-started/demo-courses.md
+  alt: The AI Act learning path open in the learning path viewer, with its list of modules and mini-tests on the left and Module 1 on the right
+  url: /resources/lp/5/1/runtime?cid=1&sid=0&gid=0&gradebook=0
+  role: admin
+  steps: In student view, open the URL and wait about 5 seconds for the viewer to load; viewport screenshot at 1440x900. The lp id (1) is that of the "AI Act Awareness for European Organizations" path on the local instance
+  confidence: verified
