@@ -76,6 +76,14 @@ When a learner opens a learning path:
 * Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
 * A progress bar shows overall completion percentage
 
+### External links that cannot be embedded
+
+An external **Link** step normally opens inside the learning path when the destination website permits embedding. Some sites prevent being shown in an iframe with `X-Frame-Options` or a Content Security Policy (`frame-ancestors`); an HTTPS Chamilo page also cannot embed an insecure HTTP page in this flow.
+
+When Chamilo detects that an external link cannot be embedded, the player shows **This link cannot be displayed inside the learning path** with an **Open in a new tab** link. The learner can use that link to view the page separately and return to the learning path afterwards. Do not attempt to bypass another site's embedding restrictions.
+
+Whether a remote page can be embedded depends on its own response headers and network availability. This fallback was added in [PR #9164](https://github.com/chamilo/chamilo-lms/pull/9164).
+
 ## SCORM Content
 
 Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard — and, with partial support, **SCORM 2004** packages. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
