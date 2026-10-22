@@ -2,7 +2,7 @@
 
 Behaviour of the **Tickets** (helpdesk) system.
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Tickets**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -58,6 +58,16 @@ Send a message if a ticket was created without a category or if a category doesn
 
 *Default: `false`*
 
+
+### `ticket_support_bot_enabled`
+
+**Enable Support Bot**
+
+Enable the decision-tree support assistant in the docked chat. This is disabled by default. Administrators must also configure and publish a valid support tree with an entry question and options before the bot becomes available. The bot uses predefined choices rather than generative AI and may create a Ticket for unresolved questions.
+
+*Default: `false`*
+
+See [Support Bot](../support-bot.md) for configuration and user flow (PR #9224, issue #8754).
 
 ### `ticket_warn_admin_no_user_in_category`
 

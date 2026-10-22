@@ -26,6 +26,16 @@ The survey tool lets you create questionnaires to collect feedback from your lea
 * **Enable shuffle mode** — Whether to shuffle questions
 * **Show question number** — Whether to show (auto-generated) question numbers
 
+### Templates created by an administrator
+
+Platform administrators can create reusable **Survey templates** with their own questions. When the administrator makes a template **Visible as template**, a teacher can choose it while creating a survey in an authorised course or session. The copied survey can then be reviewed and published through the usual invitation workflow. Teachers cannot assign templates to other courses or sessions outside their teaching context.
+
+Administrators can also assign a template directly to a chosen course or to a session containing that course. See [Survey Templates](../../admin-guide/survey-templates.md) for the administrator workflow (PR #9208, issue #8760).
+
+### Results hidden from teachers and tutors
+
+For surveys whose response data must remain confidential from teaching staff, a platform administrator can enable **Results hidden from teacher/tutor** in the survey configuration. Teachers and tutors can still see response counts and send reminders, but **cannot open or export the results**. This restriction also applies to reporting downloads; only a platform administrator may access the restricted results. It is independent of the normal **Results visibility** selection and the global reporting-button setting.
+
 ### Training satisfaction template
 
 If you want a standard end-of-training questionnaire, use the **Create satisfaction survey** action in the Surveys toolbar. Chamilo creates an anonymous **Training satisfaction survey** from the built-in seven-question template and opens its question editor immediately.

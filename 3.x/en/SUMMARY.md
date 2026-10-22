@@ -156,6 +156,8 @@
     * [User Profile](admin-guide/platform-settings/profile-settings.md)
     * [Web Services](admin-guide/platform-settings/webservice-settings.md)
     * [Workflows](admin-guide/platform-settings/workflows-settings.md)
+  * [Survey Templates](admin-guide/survey-templates.md)
+  * [Support Bot](admin-guide/support-bot.md)
   * [Analytics](admin-guide/analytics/README.md)
     * [Global Statistics](admin-guide/analytics/global-statistics.md)
     * [Reports Catalog](admin-guide/analytics/reports-catalog.md)
