@@ -40,6 +40,10 @@ Find a course in the list to access management options in the *Actions* column:
 
 > Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
 
+## Administrator integrations
+
+Administrators can also synchronize selected course metadata using `PATCH /api/courses/{id}`, or request course deletion with `DELETE /api/courses/{id}`. These API operations require a platform administrator; a teacher cannot use them to bypass the course settings interface. Course deletion through the API may behave differently in multi-URL installations and does not use the maintenance screen's optional deletion of exclusive documents. See [Course Administration API](../../developer-guide/api/course-administration.md) before automating destructive operations.
+
 ## Bulk Operations
 
 Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
