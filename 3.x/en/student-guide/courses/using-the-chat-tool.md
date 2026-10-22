@@ -20,7 +20,7 @@ Chamilo has three different features that all involve messaging, and it's easy t
 
 * **This course Chat tool** — real-time, tied to one specific course, only reachable from that course's homepage.
 * **[Inbox](../inbox.md)** — private, asynchronous messages with anyone on the platform, unrelated to any specific course.
-* **The floating chat panel** (bottom of the screen, available almost everywhere) — used for direct messaging and for the [AI Tutor](ai-tutor.md), independent of this course tool.
+* **The floating chat panel** (bottom of the screen, available almost everywhere) — used for direct messaging, [one-to-one video calls](../video-calls.md) when enabled, and the [AI Tutor](ai-tutor.md), independent of this course tool.
 
 If you're looking for one of the other two, see their respective pages.
 

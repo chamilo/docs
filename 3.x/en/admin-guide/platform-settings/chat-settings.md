@@ -32,6 +32,9 @@ When enabled, video chat functionality is disabled and unavailable in the global
 
 *Default: `true`*
 
+The default `true` hides the **Start video call** action in the **floating platform chat**. Set it to `false` to enable one-to-one WebRTC calls for supported browsers; the users must also have access to platform chat, be signed in and have working camera/microphone permissions. This is **not** the BigBlueButton or Zoom course videoconference integration. See [One-to-One Video Calls](../../student-guide/video-calls.md) for the learner workflow (issue [#3777](https://github.com/chamilo/chamilo-lms/issues/3777)).
+
+
 ### `save_private_conversations_in_documents`
 
 **Save private conversations in documents**

@@ -240,6 +240,7 @@
     * [Using the Chat Tool](student-guide/courses/using-the-chat-tool.md)
     * [AI Tutor Chatbot](student-guide/courses/ai-tutor.md)
   * [Inbox](student-guide/inbox.md)
+  * [One-to-One Video Calls](student-guide/video-calls.md)
   * [Social Network](student-guide/social-network.md)
   * [My Progress](student-guide/my-progress.md)
   * [Account and Security](student-guide/account-and-security/README.md)
