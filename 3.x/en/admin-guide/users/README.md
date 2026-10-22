@@ -8,3 +8,4 @@ This section covers how to manage user accounts on your Chamilo platform — cre
 * **[Managing Users](managing-users.md)** — Creating, editing, importing, and exporting user accounts
 * **[User Groups](user-groups.md)** — Organizing users into platform-wide groups
 * **[User Profiling](user-profiling.md)** — Configuring extra profile fields and user metadata
+* **[Academic Transcripts](academic-transcripts.md)** — Configure and issue signed official transcripts for eligible learners

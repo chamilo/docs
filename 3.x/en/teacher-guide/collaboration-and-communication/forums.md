@@ -53,6 +53,16 @@ Learners (and you) can create new topics within a forum. As a teacher, you can:
 
 When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
 
+## Participation Requirements and Category Information
+
+Administrators can optionally enable three forum-wide behaviors under **Administration > Configuration settings > Forums**:
+
+* **Show thread replies only after participating** (`show_thread_replies_after_participation`) — A learner sees the thread's opening message, but not other people's replies until they have contributed a post. Teachers, administrators, session coaches and group tutors are not subject to this restriction. A learner's post waiting for moderation still counts as participation, although normal moderation rules still apply.
+* **Show the forum category description in threads** (`show_category_description_in_thread`) — The category title and an excerpt of its description appear above the discussion. **Read more** expands long descriptions.
+* **Posts required to complete a forum thread** (`thread_participation_progress_posts`) — When greater than `0`, a progress bar shows a learner's post count against the configured target. Posts awaiting moderation count. Setting it to `0` hides the bar.
+
+The progress target is an informational indicator, **not** the threshold for unlocking replies: if participation-gated replies are enabled, posting once is sufficient to lift that restriction. These settings are disabled by default. See [Forums Settings](../../admin-guide/platform-settings/forum-settings.md).
+
 ## Notifications
 
 Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.

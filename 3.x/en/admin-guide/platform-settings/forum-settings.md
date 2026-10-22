@@ -2,7 +2,7 @@
 
 Behaviour of the course **Forums** tool.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Forums**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -70,6 +70,22 @@ Hide the possibility to assign a language to a forum post review.
 
 *Default: `false`*
 
+### `show_category_description_in_thread`
+
+**Show the forum category description in threads**
+
+Display the category title and a shortened description above each thread, with **Read more** available for a long description.
+
+*Default: `false`*
+
+### `show_thread_replies_after_participation`
+
+**Show thread replies only after participating**
+
+For learners, return only the opening post of a thread until they contribute a post themselves. Administrators, teachers, session coaches and group tutors still see all posts; posts waiting for moderation count toward participation.
+
+*Default: `false`*
+
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
 **Forum notifications from base course as well**
@@ -77,3 +93,11 @@ Hide the possibility to assign a language to a forum post review.
 Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
 
 *Default: `false`*
+
+### `thread_participation_progress_posts`
+
+**Posts required to complete a forum thread**
+
+Number of learner posts required for the progress bar to reach 100%. Moderated posts awaiting approval count. Set to `0` to hide the bar. This is separate from the single-post requirement for revealing other replies.
+
+*Default: `0`*
