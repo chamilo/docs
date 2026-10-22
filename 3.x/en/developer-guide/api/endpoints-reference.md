@@ -51,6 +51,12 @@ Not all operations are enabled for every resource — security constraints apply
 | Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
 | Gradebook Results | `/api/gradebook_results` | Grades |
 
+## Administrator Course Operations
+
+In addition to listing and creating courses, the `Course` API resource provides administrator-only `PATCH /api/courses/{id}` and `DELETE /api/courses/{id}` operations. There is no `PUT` operation for this resource, and the internal course code cannot be patched. Deletion uses the course-maintenance cleanup process; its effects in multi-URL portals require care.
+
+See [Course Administration](course-administration.md) for requests, permissions, side effects and limitations.
+
 ## Administrative Enrollment Actions
 
 The following explicitly implemented controller routes are **not** generic API Platform resource operations. They require `ROLE_ADMIN` and have their own request and response contracts.
