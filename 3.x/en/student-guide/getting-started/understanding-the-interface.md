@@ -15,6 +15,7 @@ The top bar is always visible at the top of every page. It contains:
 
 * **My profile** — Edit your personal information, change your password, and (if enabled) set up two-factor authentication
 * **My certificates** — Every certificate you've earned, across all your courses
+* **My transcript** — If your platform uses transcripts, the [transcript](../account-and-security/my-transcript.md) of the courses you completed
 * **My skills** — Competency badges you've been awarded
 * **Sign out**
 

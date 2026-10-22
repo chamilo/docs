@@ -18,7 +18,7 @@ mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 
 Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
 
-* `var/` — Uploaded files and resources
+* `var/` — Uploaded files and resources. It includes `var/certificate-issuer/`, the key that signs certificate credentials and [official transcripts](../users/academic-transcripts.md): without it, the documents already issued can no longer be verified
 * `public/plugin/` — Plugin files (only if you have added custom plugins)
 
 If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.

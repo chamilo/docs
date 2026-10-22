@@ -1029,3 +1029,25 @@ screenshots:
   role: admin
   steps: In student view, open the URL and wait about 5 seconds for the viewer to load; viewport screenshot at 1440x900. The lp id (1) is that of the "AI Act Awareness for European Organizations" path on the local instance
   confidence: verified
+  confidence: verified
+- file: admin-transcript-user.png
+  doc_page: admin-guide/users/academic-transcripts.md
+  alt: The transcript of a learner seen by an administrator, with the courses, final grade, GPA and grading scale, the list of official transcripts and the signature image block
+  url: /transcript?userId=<id of a learner with at least two gradebook certificates>
+  role: admin
+  steps: Requires certificate setting transcript_enabled = Yes (the shot also sets transcript_program_title to "Fire Science") and a course extra field set in transcript_hours_extra_field. Issue one official transcript first (Issue official transcript, then Yes) so the Official transcripts list has a row. Hide the fixed top bar and the floating chat button, then screenshot the page's main section (section.space-y-6)
+  confidence: verified
+- file: student-my-transcript.png
+  doc_page: student-guide/account-and-security/my-transcript.md
+  alt: My transcript, listing two completed courses with their grades, the final grade, the GPA, the grading scale and one official transcript
+  url: /transcript
+  role: student
+  steps: Same data state as admin-transcript-user.png, logged in as that learner. Hide the fixed top bar and the floating chat button, then screenshot the page's main section (section.space-y-6)
+  confidence: verified
+- file: admin-transcript-verification.png
+  doc_page: admin-guide/users/academic-transcripts.md
+  alt: The public verification page of a valid official transcript, with its details and courses
+  url: /transcripts/verify/<token of a valid official transcript, from its Verify button>
+  role: null
+  steps: No login needed. Screenshot the <main> element
+  confidence: verified

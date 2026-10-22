@@ -80,6 +80,8 @@ As a teacher, you can see:
 
 Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
 
+If your platform uses academic transcripts, every certificate a learner earns also becomes a row of their transcript, with the score and the letter of the grading scale — see [Academic Transcripts](../../admin-guide/users/academic-transcripts.md).
+
 ## Tips
 
 * **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
