@@ -68,6 +68,10 @@ Learners access their sessions through **My sessions** in the sidebar. Sessions 
 * **Past sessions** — Ended
 * **Upcoming sessions** — Not yet started
 
+## Enrollment via API
+
+External systems can use the [Session Student Enrollment API](../../developer-guide/api/session-students.md) to list learner IDs, add selected learners or remove selected learners. These routes require platform administrator permissions and preserve other enrollments when a new list of IDs is submitted.
+
 ## Tips
 
 * **Plan dates carefully** — Make sure tutor access dates extend beyond learner dates so tutors can set up and follow up

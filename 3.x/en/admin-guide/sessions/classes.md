@@ -27,6 +27,10 @@ When creating or editing a session, you can enroll an entire class at once inste
 * **Add/remove members** — Keep the class roster up to date
 * **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
 
+## Integration API
+
+Platform administrators can use the [Class Subscriptions API](../../developer-guide/api/class-subscriptions.md) to inspect membership and replace a class's users, sessions and courses. Unlike adding one user in the administration interface, each API `PUT` replaces the **complete** corresponding list. Always read the current subscriptions before sending an update.
+
 ## Tips
 
 * **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team

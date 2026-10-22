@@ -51,6 +51,22 @@ Not all operations are enabled for every resource — security constraints apply
 | Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
 | Gradebook Results | `/api/gradebook_results` | Grades |
 
+## Administrative Enrollment Actions
+
+The following explicitly implemented controller routes are **not** generic API Platform resource operations. They require `ROLE_ADMIN` and have their own request and response contracts.
+
+| Method | Path | Details |
+|--------|------|---------|
+| `GET` | `/api/sessions/{id}/students` | List enrolled learner IDs |
+| `POST` | `/api/sessions/{id}/students/subscribe` | Add specified learners |
+| `POST` | `/api/sessions/{id}/students/unsubscribe` | Remove specified learners |
+| `GET` | `/api/usergroups/{id}/subscriptions` | Read class user/session/course IDs |
+| `PUT` | `/api/usergroups/{id}/users` | Replace class member list |
+| `PUT` | `/api/usergroups/{id}/sessions` | Replace class session list |
+| `PUT` | `/api/usergroups/{id}/courses` | Replace class course list |
+
+See [Session Student Enrollment](session-students.md) and [Class Subscriptions](class-subscriptions.md) for validation, permissions, multi-URL scope and important differences between additive and replacing operations.
+
 ## Filtering and Pagination
 
 API Platform supports:

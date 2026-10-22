@@ -269,6 +269,8 @@
     * [Custom Actions](developer-guide/api/custom-actions.md)
     * [Session Duplication](developer-guide/api/session-duplication.md)
     * [Session Promotion](developer-guide/api/session-promotion.md)
+    * [Session Student Enrollment](developer-guide/api/session-students.md)
+    * [Class Subscriptions](developer-guide/api/class-subscriptions.md)
     * [User Account Status](developer-guide/api/user-account-status.md)
     * [User Connection Time](developer-guide/api/user-connection-time.md)
     * [Webhooks](developer-guide/api/webhooks.md)
