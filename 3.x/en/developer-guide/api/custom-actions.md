@@ -114,7 +114,7 @@ Custom actions are in `src/CoreBundle/Controller/Api/`.
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
+| `CreateUserOnAccessUrlAction` (`POST /api/access_urls/{id}/user`) | Create a user and associate them with an access URL — see [User Creation](user-creation.md) |
 | `UserAccessUrlsController` | List access URLs a user belongs to |
 | `UserSkillsController` | List skills awarded to a user |
 

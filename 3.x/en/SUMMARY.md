@@ -271,6 +271,7 @@
     * [Session Promotion](developer-guide/api/session-promotion.md)
     * [User Account Status](developer-guide/api/user-account-status.md)
     * [User Connection Time](developer-guide/api/user-connection-time.md)
+    * [User Creation](developer-guide/api/user-creation.md)
     * [Webhooks](developer-guide/api/webhooks.md)
   * [Frontend](developer-guide/frontend/README.md)
     * [Vue Components](developer-guide/frontend/vue-components.md)
