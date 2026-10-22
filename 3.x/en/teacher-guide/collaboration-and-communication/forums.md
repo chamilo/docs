@@ -63,6 +63,12 @@ Administrators can optionally enable three forum-wide behaviors under **Administ
 
 The progress target is an informational indicator, **not** the threshold for unlocking replies: if participation-gated replies are enabled, posting once is sufficient to lift that restriction. These settings are disabled by default. See [Forums Settings](../../admin-guide/platform-settings/forum-settings.md).
 
+## Forum discussions inside a learning path
+
+When learners open a forum discussion **from a Learning Path step**, its replies are displayed **newest first**. The opening post remains part of the discussion, while ordinary forum navigation outside the learning path retains its normal ordering. The forum page hides redundant **Back to threads** and **Back to learning path** actions in this embedded context; learners should use the learning path player's navigation to move to another step.
+
+If learners open the same discussion from the regular **Forums** tool, they use the normal forum navigation and chronological post order. This contextual behavior was corrected in [PR #9163](https://github.com/chamilo/chamilo-lms/pull/9163).
+
 ## Notifications
 
 Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.

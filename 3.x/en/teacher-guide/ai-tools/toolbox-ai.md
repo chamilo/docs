@@ -34,6 +34,14 @@ In the [Learning Paths builder](../adding-content/learning-paths.md), teachers c
 
 When an authorized teacher opens the Toolbox content in **Preview mode**, Chamilo displays **“Progress and score are not saved in preview mode.”** Testing the activity this way does not create learner tracking or update a score. Use the normal learner experience to verify SCORM progress and scores after publication.
 
+## Generation validation and troubleshooting
+
+After AI generation, Chamilo checks the generated application's source before making a version available. This includes JavaScript syntax or structure checks and restrictions on unsafe browser APIs. If validation fails, Chamilo asks the AI provider to **repair the result once**; if the repaired version still fails, generation stops with an error. A successful validation is not a substitute for testing the activity's learning rules, accessibility and SCORM scoring before publication.
+
+If generation reports **HTTP 504**, the web server or gateway stopped waiting for the request. This is different from a timeout imposed by the AI text provider. The error can include the approximate elapsed time; try a simpler activity request and ask the administrator to check the gateway, PHP/web-server and provider timeouts. A provider timeout or rate-limit error requires checking the configured model and provider settings instead. Do not assume the application was saved successfully after an error.
+
+These validation and diagnostic improvements were introduced in [PR #9198](https://github.com/chamilo/chamilo-lms/pull/9198).
+
 ## Learner Experience
 
 Learners only see applications that have been published. From the Toolbox they can open an application, continue from their latest SCORM state, and see their **Progress** and **Score**. When a new attempt is allowed, **Try again** starts a fresh attempt.
