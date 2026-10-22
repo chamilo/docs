@@ -105,6 +105,12 @@ The endpoint must implement the full request/response format of the interface yo
 
 The same principle applies to the Claude provider: any Anthropic-compatible gateway or proxy can be used by changing the API URL.
 
+## AI Toolbox generation timeouts
+
+For **AI Toolbox** text generation, a provider's `text.timeout` setting controls how long that provider request can run. The Grok text provider uses a **180-second default** when no numeric timeout is configured (see [PR #9198](https://github.com/chamilo/chamilo-lms/pull/9198)). This is not a guarantee that the browser request can run for 180 seconds: reverse proxies, the web server or another gateway may impose a shorter limit.
+
+If the Toolbox form displays **HTTP 504**, check the reverse-proxy/gateway request timeout as well as PHP and application logs; increasing only `text.timeout` may not resolve it. When the error names the AI provider, review that provider's `text.timeout`, credentials, model availability and request limits. Avoid raising timeouts without considering server capacity and concurrent requests.
+
 ## Cost Considerations
 
 AI API calls have costs associated with them. Consider:

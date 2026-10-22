@@ -84,6 +84,10 @@ When Chamilo detects that an external link cannot be embedded, the player shows 
 
 Whether a remote page can be embedded depends on its own response headers and network availability. This fallback was added in [PR #9164](https://github.com/chamilo/chamilo-lms/pull/9164).
 
+### Forum steps and discussion navigation
+
+When a learning path includes a **Forum** discussion, learners read its replies with the newest posts first while remaining in the learning path context. Forum-specific back buttons are hidden in that view, so use the learning path controls to continue to the next step. Outside the learning path, the same thread retains the standard Forums navigation and chronological display. See [Forums](../collaboration-and-communication/forums.md#forum-discussions-inside-a-learning-path) ([PR #9163](https://github.com/chamilo/chamilo-lms/pull/9163)).
+
 ## SCORM Content
 
 Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard — and, with partial support, **SCORM 2004** packages. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
