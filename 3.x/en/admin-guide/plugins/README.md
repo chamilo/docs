@@ -13,3 +13,4 @@ If a plugin you've activated doesn't show up here, that's expected — it means 
 ## In This Chapter
 
 * **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[BuyCourses Payments and Recurring Services](buycourses.md)** — Configure payment gateways, renewals and service payment history

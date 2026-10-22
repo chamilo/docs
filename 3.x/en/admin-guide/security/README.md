@@ -18,6 +18,10 @@ From the administration panel, the **Security** block appears alongside the othe
 * **[Password Strength Checker](password-strength-checker.md)** — Scan active users for passwords that match a list of commonly used passwords
 * **[File Integrity](file-integrity.md)** *(new in Chamilo 3.0)* — Detect unexpected additions, modifications, deletions, or permission changes in the installed files
 
+## Additional Confidential Reporting Workflow
+
+[Confidential Reporting](confidential-reporting.md) is an optional, permission-controlled reporting and investigation feature. It is separate from the five administrator monitoring tools listed above.
+
 ## Who Can Access It
 
 All five tools require **Portal Administrator** access. File integrity's scan, pause, and re-baseline actions additionally require **Global Administrator** access, and pausing alerts or establishing a new baseline requires re-entering your own password — see [File Integrity](file-integrity.md#actions) for details.

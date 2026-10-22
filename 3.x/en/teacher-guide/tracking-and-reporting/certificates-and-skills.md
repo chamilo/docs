@@ -53,6 +53,12 @@ Each learner is notified in their own configured language, both by e-mail and by
 
 Administrators can also schedule these same reminders automatically, on a recurring basis, without a teacher having to trigger them by hand — see [Cron Jobs Settings](../../admin-guide/platform-settings/crons-settings.md#certificate-expiry-reminders).
 
+## Signed Certificate Credentials (Optional)
+
+When the administrator enables signed certificate verification, learners can approve or withdraw publication of a verifiable credential from **My Certificates**. After approval, an administrator may issue the signed credential and optionally anchor its fingerprint on the Sepolia testnet. A public verification link checks the credential's signature, current consent, revocation and underlying certificate status; Sepolia anchoring is optional and uses a test network.
+
+See [Signed Certificate Verification](../../admin-guide/maintenance/signed-certificate-verification.md) for the administrator workflow and important consent limits.
+
 ## Skills
 
 Skills represent competencies that learners acquire. In Chamilo:

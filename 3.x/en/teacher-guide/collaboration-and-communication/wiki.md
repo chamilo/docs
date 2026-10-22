@@ -31,6 +31,19 @@ Anyone with edit permissions can modify a wiki page:
 4. Add an optional **Comments** entry describing what you changed
 5. Save
 
+## Collaborative Editing with Etherpad (Optional)
+
+When an administrator enables the Etherpad integration, editing an **existing** Wiki page opens a shared Etherpad editor instead of the usual rich-text field. Multiple authorised collaborators can work on the same page at the same time.
+
+1. Open a Wiki page and select **Edit**.
+2. Work together in the embedded collaborative editor. Your collaborators must also have permission to edit this Wiki page.
+3. Select **Save** in Chamilo to create a new Wiki revision from the current Etherpad content.
+4. Use the Wiki's **Revision History** to compare or restore previous saved versions.
+
+Changes made in Etherpad do not automatically create individual Chamilo revisions. **Save** is the explicit snapshot step. The administrator must expose Etherpad on the **same origin as Chamilo** (for example via a reverse-proxy path) to support secure embedded sessions. The ordinary Wiki editor remains available when the integration is disabled. New page creation uses the regular form before the page has an associated collaborative pad.
+
+An administrator configures `editor.etherpad_enabled`, `editor.etherpad_url` and `editor.etherpad_api_key` under **Administration > Configuration settings > Editor**. See [Editor Settings](../../admin-guide/platform-settings/editor-settings.md).
+
 ## Revision History
 
 Every edit creates a new revision. You can:
