@@ -59,6 +59,18 @@ As a teacher, open an assignment to see the list of all submissions:
 * **Status** — Whether the submission has been graded
 * **Comments** — Any comments left by the learner or by you
 
+### Following an Assignment
+
+Teachers and eligible session tutors can choose to follow an individual assignment and receive notifications when a learner comments on one of its submissions.
+
+1. Open the assignment's detail page from the **Assignments** tool.
+2. Select **Follow** (bell icon). The button changes to **Following**.
+3. Select **Following** again to stop following that assignment.
+
+The teacher who creates a new assignment follows it automatically and may unfollow it later. Following is personal to each teacher or tutor; it does not subscribe the whole course. Learners do not have this control. Notifications go only to active followers who still have the appropriate course or session role; the author of the comment does not receive a notification for their own comment.
+
+**Important:** Notifications are sent only when the course setting `email_to_teachers_on_new_work_feedback` is enabled (value `1`, **Yes**). Following an assignment by itself does not override a disabled course setting. This concerns learner comments on submissions, not every assignment edit or file upload. Delivery also depends on the portal's messaging/email configuration.
+
 ### Grading a Submission
 
 ![The assignment grading view with score input, feedback field, and corrected file upload](../../.gitbook/assets/assignment-grading-view.png)

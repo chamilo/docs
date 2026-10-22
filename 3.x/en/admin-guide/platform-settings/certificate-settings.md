@@ -2,7 +2,7 @@
 
 Defaults applied when a learner earns a certificate from the gradebook.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Certificates**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -103,6 +103,94 @@ Hide the certificates page for non-admin users.
 If enabled, session administrators can download certificates even if they are not publicly published.
 
 *Default: `false`*
+
+### `transcript_enabled`
+
+**Academic transcripts**
+
+Enable unofficial academic transcripts for learners and allow authorized staff to issue digitally signed, revocable official transcripts. A user's own transcript appears at `/transcript`. See [Academic Transcripts](../users/academic-transcripts.md).
+
+*Default: `false`*
+
+### `transcript_program_title`
+
+**Transcript program title**
+
+Program or qualification name printed on transcript PDFs.
+
+*Default: empty*
+
+### `transcript_course_code_source`
+
+**Transcript course code**
+
+Select which course field supplies the code shown on transcripts: course code (`visual_code`) or department name (`department_name`).
+
+*Default: `visual_code`*
+
+### `transcript_hours_extra_field`
+
+**Transcript course hours field**
+
+Variable of the course extra field containing required hours. Leave it empty to use the course duration.
+
+*Default: empty*
+
+### `transcript_completed_hours_are_required_hours`
+
+**Transcript completed hours are the required hours**
+
+When enabled, display required course hours as completed hours. Otherwise, completed hours reflect the learner's tracked time in the course.
+
+*Default: `false`*
+
+### `transcript_student_number_extra_field`
+
+**Transcript student number field**
+
+Variable of the user extra field containing the learner's student number. Leave empty to omit that number.
+
+*Default: empty*
+
+### `transcript_address_extra_fields`
+
+**Transcript address fields**
+
+Comma-separated variables of user extra fields to append to the learner's address, such as city or postal code.
+
+*Default: empty*
+
+### `transcript_grading_scale`
+
+**Transcript grading scale**
+
+A JSON array of minimum percentage, letter grade and grade points, ordered from highest to lowest minimum. For example, `{ "min": 90, "letter": "A", "points": 4.0 }`. This mapping is used for the transcript's letters and GPA.
+
+*Default: A (90% / 4), B (80% / 3), C (70% / 2), D (60% / 1), F (0% / 0)*
+
+### `transcript_gpa_note`
+
+**Transcript GPA note**
+
+Text printed below the GPA explaining the calculation. By default, GPA is the **unweighted average** of the grade points for the courses on the transcript.
+
+*Default: `The GPA is the unweighted average of the grade points of the courses listed in this transcript.`*
+
+### `transcript_signatory_name`
+
+**Transcript signatory name**
+
+Name of the institutional signatory printed on official transcripts. A platform administrator can upload a separate signature image on a user's transcript page.
+
+*Default: empty*
+
+### `transcript_signatory_title`
+
+**Transcript signatory title**
+
+Job title of the institutional signatory on official transcripts.
+
+*Default: empty*
 
 ## See Also
 

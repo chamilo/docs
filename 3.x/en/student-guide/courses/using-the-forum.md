@@ -21,6 +21,14 @@ Open a forum and click to start a **new topic**, or open an existing topic to **
 
 Threads can be shown **flat**, **threaded**, or **nested**, depending on the forum's display setting — this only changes how replies are laid out, not what you can do.
 
+## When Replies Are Hidden Until You Participate
+
+Some courses ask you to contribute your own answer before seeing the other participants' responses. In this mode, the first post in a topic remains visible and Chamilo displays **Post your contribution to see the replies of the other participants.** Once you post your contribution, the other replies become available. If the forum is moderated, your contribution may still need a teacher's approval before it appears to others.
+
+Your teacher may also enable a **Participation: X of Y posts** progress bar. This tracks how many messages you have posted in that topic toward a target, including posts awaiting approval. Reaching the target is not a prerequisite for viewing other replies: one contribution is enough to unlock them when that rule applies.
+
+A topic may show its forum category's title and description above the posts. Select **Read more** to expand a shortened description.
+
 ## Staying Notified
 
 Look for a **Notify me** toggle on a forum or on an individual topic to subscribe to e-mail notifications when someone posts there. This is a personal subscription — turning it on doesn't notify anyone else, and you can turn it off again at any time.
