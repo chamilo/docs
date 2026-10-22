@@ -65,6 +65,27 @@ The duration follows the size of your database and of your course files. As one 
 | **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
 | **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
 | **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
+| **Profile settings** | After a legacy upgrade, verify that `changeable_options` and `visible_options` still reflect the expected profile editability and visibility rules. The upgrade code preserves their values from legacy settings instead of treating them as `configuration.php` entries ([PR #9161](https://github.com/chamilo/chamilo-lms/pull/9161)). |
+
+### Auditing quiz-question relations after a legacy migration
+
+If migrated exercises appear to have missing questions, use the console command introduced in [PR #9157](https://github.com/chamilo/chamilo-lms/pull/9157) to **audit before attempting a repair**. Run it from the Chamilo application root against a staging copy of the migrated database.
+
+A first pass examines the target database only and **does not change data**:
+
+```bash
+php bin/console chamilo:migration:repair-quiz-relations-from-legacy
+```
+
+Empty quizzes alone do not prove that relations were lost. To compare against the old Chamilo data, make the legacy database available on the **same database server**, with suitable read permissions, and provide its database name:
+
+```bash
+php bin/console chamilo:migration:repair-quiz-relations-from-legacy --source-database=legacy_chamilo_db
+```
+
+You can narrow either audit to particular *target quiz iids* with a repeatable `--quiz=123` option. Without `--apply`, both forms remain read-only. The comparison reports missing relations, affected quizzes and possible conflicts or unresolved references.
+
+**Do not apply a repair based solely on an empty quiz count.** Preserve verified database backups and review the compared source and target data. A repair requires `--source-database`, `--apply`, and both `--expected-missing-relations` and `--expected-affected-quizzes` set to the **exact counts from the preceding read-only comparison**. The command refuses to write if these counts changed or if affected quizzes have unsafe conflicts. Apply only after validating the results on a staging copy; repeat the read-only audit afterwards to confirm that no verified missing relations remain.
 
 ## Upgrading from 2.x to 3.0
 

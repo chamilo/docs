@@ -113,14 +113,19 @@ TRUSTED_PROXIES='127.0.0.1,PROXY_IP'
 
 ### Configure Session Storage
 
-By default, sessions are stored on the filesystem. For multi-server deployments, configure Redis or database-backed sessions:
+Chamilo uses the native PHP session handler by default (typically filesystem storage, depending on the PHP configuration). For deployments where multiple application servers share one database, Chamilo can instead store PHP sessions in its `php_session` table. This database-backed option was restored in [Chamilo LMS PR #9146](https://github.com/chamilo/chamilo-lms/pull/9146).
 
-```yaml
-# config/packages/framework.yaml
-framework:
-    session:
-        handler_id: 'redis://localhost:6379'
+Before enabling it, make sure the database table `php_session` exists. It is created by the `V310` migration `Version20260928234500` (or by the schema on a fresh installation). Check the migration status and table on a staging environment first; do not enable database storage against a database without that table.
+
+Set the following in the deployment's `.env` or equivalent environment configuration:
+
+```dotenv
+SESSION_STORED_IN_DB=true
 ```
+
+Leave `SESSION_STORED_IN_DB` unset or set it to `false` to retain the native PHP session handler. The Symfony configuration already selects `Chamilo\CoreBundle\Session\ConfigurableSessionHandler`, which delegates to the appropriate backend. **Do not replace `framework.session.handler_id` with an unverified Redis DSN**: this would bypass the Chamilo configuration and is not the documented database-session switch.
+
+After changing the environment setting, rebuild/clear the Symfony application cache according to your deployment procedure, and test login, navigation and logout. Plan the change during a maintenance window: existing session data is not transferred between the native PHP store and the database, so users may have to log in again. When enabled, include `php_session` in database backup and retention planning.
 
 ## Tips
 
