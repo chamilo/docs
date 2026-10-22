@@ -24,6 +24,18 @@ Certificates use templates defined by the platform administrator. The template t
 
 The first time you open the certificate template manager for a course's Assessments (the **Attach certificate** icon in the gradebook), Chamilo automatically duplicates the platform's default certificate template into the course, so you never land on an empty page — the copy is yours to customize freely from there. If you later detach it (**Use the system default certificate instead**), reopening the manager does not recreate it a second time; only a course that has genuinely never had a certificate document attached gets one generated automatically.
 
+### Course tracking placeholders in templates
+
+Certificate templates can include tracking placeholders in addition to the learner, course and grade fields. The following placeholders are populated when Chamilo generates a certificate:
+
+| Placeholder | Value |
+|-------------|-------|
+| `((time_in_course))` | Time the learner spent in the course for the current course/session context, formatted as elapsed time. |
+| `((time_in_course_in_all_sessions))` | Sum of the learner's tracked time for this course **across its sessions**. It is a session aggregate, not necessarily the same as the current context's time. |
+| `((start_date_and_end_date))` | First and last course connection dates for the current context. If both fall on one day, the label is the localized equivalent of **The [date]**; otherwise it is **From [first date] to [last date]**. |
+
+These values come from learner tracking and represent **recorded activity**, not the course's planned duration or academic credit hours. The elapsed-time tags now use Chamilo's normal time formatting, without the previous abbreviated formatting. Preview the generated certificate with representative tracking data, especially when a course is reused in several sessions.
+
 ## Certificate Validity and Expiry
 
 Certificates can be set to expire after a given number of days. In the [Assessments](../assessing-learners/gradebook.md) settings for the root category, once **Generate certificates** is enabled, a **Certificate validity (days)** field appears. Leave it at `0` (the default) for certificates that never expire, or set a number of days for a certificate to expire that many days after it was issued.

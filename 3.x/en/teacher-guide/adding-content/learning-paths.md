@@ -60,6 +60,12 @@ Prerequisites ensure learners complete certain steps before accessing others:
 3. Choose which preceding item(s) must be completed first
 4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
 
+### Editing existing items and older links
+
+Use the **Learning Path Editor** (the Vue builder) to edit a step, adjust its prerequisites, move it in the tree, or remove it. Select an item and use **Edit** to open its form (for linked test items, editing can open the Exercises tool); use **Prerequisites** to change its access requirements, drag items to change their order, and use the delete action (with confirmation) to remove an item. These changes require permission to edit the learning path in its course.
+
+Older bookmarks or integrations may still point to `public/main/lp/lp_controller.php` with an item action such as `edit_item`, `edit_item_prereq`, `move_item`, `delete_item` or `deleteitem`. These actions now **redirect to the Vue builder instead of modifying the item**. A valid item link can select the item and open the edit or prerequisite panel; a former move or delete link only opens the builder, so the teacher must complete that action there. If a link does not open the intended item, navigate to the learning path from its current course and select it manually.
+
 ## Learner Experience
 
 When a learner opens a learning path:
