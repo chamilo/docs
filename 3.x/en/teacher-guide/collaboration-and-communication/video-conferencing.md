@@ -2,6 +2,8 @@
 
 Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
 
+For a direct call between two individual users in the **floating platform chat**, see [One-to-One Video Calls](../../student-guide/video-calls.md). That WebRTC feature is separate from scheduled course meetings and does not require a BigBlueButton or Zoom meeting.
+
 > Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
 
 ## Starting a Video Session
