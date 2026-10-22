@@ -71,11 +71,11 @@ When enabled, a platform administrator, or a learner's superior, can manage a le
 * **Delete legal agreement** appears once the learner has accepted, and removes that acceptance, so the learner is asked to accept the terms and conditions again.
 
 
-### `drh_autosubscribe`
+### `hrm_autosubscribe`
 
-**Human resources director autosubscribe**
+**Human resources manager autosubscribe**
 
-Human resources director autosubscribe - not yet available
+Course codes separated by `|` (for example `COURSE001|COURSE002`). When an HRM logs in, Chamilo automatically subscribes the user to the listed courses without changing the user role. The legacy setting name `registration.drh_autosubscribe` remains recognized for compatibility.
 
 ### `extendedprofile_registration`
 
@@ -124,13 +124,15 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 {
   "COURSEMANAGER": "courses",
   "STUDENT": "courses",
-  "DRH": "",
+  "HRM": "",
   "SESSIONADMIN": "admin-dashboard",
   "STUDENT_BOSS": "main/my_space/student.php",
   "INVITEE": "courses",
   "ADMIN": "admin"
 }
 ```
+
+Use the `HRM` role key in new redirect configurations. Existing maps containing `DRH` are still read for compatibility; if both keys are present, `HRM` takes precedence.
 
 ### `required_extra_fields_in_inscription`
 

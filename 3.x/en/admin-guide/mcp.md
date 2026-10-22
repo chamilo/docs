@@ -46,8 +46,10 @@ Go to **Administration > Configuration settings > Security** and set:
 * **Allow MCP by roles** (`mcp_allowed_roles`) to the roles that may use MCP. This is a JSON map; by default only administrators and teachers are allowed:
 
   ```json
-  {"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}
+  {"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"HRM":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}
   ```
+
+  Use `HRM` in new configurations. A previously saved `DRH` entry remains supported when `HRM` is not present; if both are present, `HRM` wins.
 
   A user needs at least one enabled role to see the **MCP API key** button and to use MCP. Invalid JSON denies MCP to every role. The restriction also applies to keys and OAuth connections created earlier, so removing a role cuts off its existing access.
 

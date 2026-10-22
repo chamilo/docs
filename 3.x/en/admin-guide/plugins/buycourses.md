@@ -36,6 +36,15 @@ Learners can use **My Services** to view their active recurring services and the
 
 **Purchase history** and **payment history** are separate: a single service purchase may have several renewal payments. Do not infer that a renewed payment is a second purchase.
 
+## Service sales payment totals
+
+In the administrator **service sales report**, two columns help distinguish the original order amount from payments collected over time:
+
+* **Last payment** displays the date of the most recent recorded successful payment for that service sale. If no payment date is available, the report shows a dash.
+* **Total collected** shows the initial collected purchase amount plus recorded successful renewal amounts, formatted in the service currency. It is not the same as the price of a single billing period.
+
+The calculation uses the service sale audit history, avoids counting duplicate renewal events and accounts for the initial Stripe subscription charge without counting it twice. For exceptional payment or refund cases, reconcile the report with the payment provider; the amount shown is not a gateway payout or a separate refund ledger.
+
 ## Historical Stripe subscriptions
 
 BuyCourses can reconcile Stripe invoice history for older recurring services whose renewal transactions were not fully recorded in the plugin audit log. The **My Services** view and service sales report can refresh those records and update the locally known paid period and totals. Administrators should verify exceptional payment-history differences against Stripe rather than editing sales directly.
@@ -44,4 +53,4 @@ BuyCourses can reconcile Stripe invoice history for older recurring services who
 
 After upgrading, test a complete course purchase, a session purchase if sold, a delayed/replayed webhook, expired and partial BTCPay invoices, an automatic renewal, and cancellation with access lasting until the end of the paid period. Keep credentials and webhook secrets out of screenshots, logs, and support tickets.
 
-Changes: [BTCPay #9286](https://github.com/chamilo/chamilo-lms/pull/9286), [recurring services #9288](https://github.com/chamilo/chamilo-lms/pull/9288), [Stripe reconciliation #9293](https://github.com/chamilo/chamilo-lms/pull/9293).
+Changes: [BTCPay #9286](https://github.com/chamilo/chamilo-lms/pull/9286), [recurring services #9288](https://github.com/chamilo/chamilo-lms/pull/9288), [Stripe reconciliation #9293](https://github.com/chamilo/chamilo-lms/pull/9293), [service sale totals #9220](https://github.com/chamilo/chamilo-lms/pull/9220).

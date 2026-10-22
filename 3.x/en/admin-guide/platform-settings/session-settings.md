@@ -194,11 +194,11 @@ Select the default tab you want to see when opening the sessions list as admin.
 *Default: `all`*
 
 
-### `drh_can_access_all_session_content`
+### `hrm_can_access_all_session_content`
 
 **HR directors access all session content**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+If enabled, HRM users can access content and users in the sessions they follow. The legacy key `session.drh_can_access_all_session_content` remains recognized for compatibility.
 
 *Default: `true`*
 

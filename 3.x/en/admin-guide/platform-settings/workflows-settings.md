@@ -71,11 +71,11 @@ When disabled, administrators do not have a link to quickly assign tutors to ses
 *Default: `false`*
 
 
-### `drh_allow_access_to_all_students`
+### `hrm_allow_access_to_all_students`
 
 **HRM can access all students from reporting pages**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+Allow HRM users to access all learners from reporting pages. The legacy key `workflows.drh_allow_access_to_all_students` remains recognized for compatibility.
 
 *Default: `false`*
 

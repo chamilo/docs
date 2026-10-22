@@ -6,7 +6,7 @@ Teacher Notes <img src="../../.gitbook/assets/icons/mdi-notebook-outline.svg" al
 
 ## Accessing the Tool
 
-Once enabled, a **Teacher notes** tool appears on your course homepage, available to teachers and course admins (and DRH).
+Once enabled, a **Teacher notes** tool appears on your course homepage, available to teachers and course admins (and HRM users, formerly called DRH).
 
 ## Using It
 
