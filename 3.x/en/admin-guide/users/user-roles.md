@@ -37,6 +37,14 @@ Within a session, additional roles exist:
 
 Note: This role was called "coach" in Chamilo versions before 3.0. As of Chamilo 3.0, "coach" has been replaced by "tutor" everywhere in the platform's interface and documentation — a tutor is a person who helps learners through a course, not a personal coach. The underlying setting names in `Configuration settings` still contain "coach" for backward compatibility (for example `add_users_by_coach`), but their labels now read "tutor".
 
+## HRM terminology and compatibility
+
+Chamilo 3.x uses **HRM** (Human Resources Manager) in place of the older **DRH** designation. Existing HR relationships and session assignments retain their stored values; the change does not create a different role or require reassigning users. Some older integrations and configuration entries may still use `DRH` or `ROLE_DRH`; the current role is `ROLE_HR`, with compatibility handling for legacy references.
+
+For new configuration, use `HRM` in role-keyed settings such as `registration.redirect_after_login` and `security.mcp_allowed_roles`. The older `DRH` key is still accepted for existing configurations, but `HRM` takes precedence when both keys are provided. The canonical platform settings are `registration.hrm_autosubscribe`, `session.hrm_can_access_all_session_content` and `workflows.hrm_allow_access_to_all_students`; legacy `drh_*` keys remain recognized for compatibility.
+
+See [Registration Settings](../platform-settings/registration-settings.md), [Session Settings](../platform-settings/session-settings.md) and [Workflows Settings](../platform-settings/workflows-settings.md) for configuration details.
+
 ## Assigning Roles
 
 When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.

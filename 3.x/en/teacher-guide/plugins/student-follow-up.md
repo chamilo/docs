@@ -6,7 +6,7 @@ Student Follow-up <img src="../../.gitbook/assets/icons/mdi-account-search.svg" 
 
 Once enabled, a **Student Follow-up** entry appears in **My Space** (your reporting area), showing a searchable list of learners. Opening a learner's detail page and selecting their follow-up timeline shows every note recorded about them, in order.
 
-> This tool is only available to course coaches, HR/training managers (DRH), and platform administrators — not necessarily every teacher role.
+> This tool is only available to course coaches, HR/training managers (HRM, formerly DRH), and platform administrators — not necessarily every teacher role.
 
 ## Adding a Note
 

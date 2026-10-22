@@ -28,6 +28,12 @@ Open an application's **Settings** to manage it. You can:
 
 Generating an improvement does not delete previous versions. Restoring an earlier version makes that version current again.
 
+## Adding an application to a learning path
+
+In the [Learning Paths builder](../adding-content/learning-paths.md), teachers can select a generated AI Toolbox application as a resource. The application must have a generated version, but it does not need to be published before the teacher adds it to the learning path. An unpublished application is still not available for learners until it is published.
+
+When an authorized teacher opens the Toolbox content in **Preview mode**, Chamilo displays **“Progress and score are not saved in preview mode.”** Testing the activity this way does not create learner tracking or update a score. Use the normal learner experience to verify SCORM progress and scores after publication.
+
 ## Learner Experience
 
 Learners only see applications that have been published. From the Toolbox they can open an application, continue from their latest SCORM state, and see their **Progress** and **Score**. When a new attempt is allowed, **Try again** starts a fresh attempt.

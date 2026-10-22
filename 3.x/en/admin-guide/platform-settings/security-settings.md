@@ -168,9 +168,9 @@ Number of failed login attempts to tolerate before the user account is locked an
 
 **Allow MCP by roles**
 
-JSON map of Chamilo user roles allowed to use MCP. A user must match at least one enabled role. This restriction also applies to previously generated API keys and existing OAuth connections. Recognized keys are `ADMIN`, `COURSEMANAGER`, `STUDENT`, `DRH`, `SESSIONADMIN`, `STUDENT_BOSS` and `INVITEE`; invalid JSON denies MCP to every role. See [MCP](../mcp.md).
+JSON map of Chamilo user roles allowed to use MCP. A user must match at least one enabled role. This restriction also applies to previously generated API keys and existing OAuth connections. Recognized keys are `ADMIN`, `COURSEMANAGER`, `STUDENT`, `HRM`, `SESSIONADMIN`, `STUDENT_BOSS` and `INVITEE`; invalid JSON denies MCP to every role. Existing configurations can still use `DRH` when `HRM` is absent; when both keys exist, `HRM` takes precedence. See [MCP](../mcp.md).
 
-*Default: `{"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"DRH":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}`*
+*Default: `{"ADMIN":true,"COURSEMANAGER":true,"STUDENT":false,"HRM":false,"SESSIONADMIN":false,"STUDENT_BOSS":false,"INVITEE":false}`*
 
 ### `mcp_enabled`
 
