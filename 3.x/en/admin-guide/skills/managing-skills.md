@@ -16,6 +16,8 @@ When manual skill assignment is available for your role, open **Assign skill** f
 
 For an existing manual assignment that can be removed, select the skill and click **Remove**, then confirm the action. Removed assignments no longer count as acquired skills. Assignments whose source does not allow manual removal do not expose this action.
 
+From a learner's reporting details, an authorised user can follow the **skill badge/link** to the assignment details and then use the existing removal action when the skill was manually assigned. The assignment history remains available after removal and reassignment; removing a skill does not erase its audit trail. Return to the learner report using the available navigation link.
+
 ## Manage Skills Levels
 
 **Skills > Manage skills levels** is a separate, smaller screen: it lists existing skills and lets you assign each one to a **level profile** — a named, ordered set of levels (for example Bronze/Silver/Gold) that the skill is measured against. In short: use **Manage skills** to define what a skill *is*, and **Manage skills levels** to define what scale it's measured on.

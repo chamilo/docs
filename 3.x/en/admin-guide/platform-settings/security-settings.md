@@ -4,7 +4,7 @@ Login protection, password policy, content security headers, two-factor authenti
 
 This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, password strength scans, and file integrity checks), see [Security](../security/README.md).
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Security**. This category contains **40 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -85,6 +85,46 @@ Enable validation of the password requirements defined above during password cre
 
 *Default: `false`*
 
+
+### `confidential_reporting_attachments_enabled`
+
+**Allow confidential evidence attachments**
+
+Controls whether reporters can attach evidence files to a confidential report.
+
+*Default: `true`*
+
+### `confidential_reporting_enabled`
+
+**Enable confidential welfare reporting**
+
+Turns on the confidential reporting and investigation workflow. Private encryption-key storage must be ready before enabling it. See [Confidential Reporting](../security/confidential-reporting.md).
+
+*Default: `false`*
+
+### `confidential_reporting_min_reporters`
+
+**Minimum distinct reporters for an investigation**
+
+An investigation becomes visible to authorized investigators only after this number of distinct reporters has submitted reports concerning the same person. Valid range: **2–10**.
+
+*Default: `2`*
+
+### `confidential_reporting_notifications_enabled`
+
+**Show confidential investigation notifications**
+
+Displays an internal indication of eligible investigations. **It does not send emails or external notifications.**
+
+*Default: `false`*
+
+### `dynamic_client_registration`
+
+**Enable OAuth Dynamic Client Registration beyond MCP**
+
+Controls additional OAuth client registration scope validation when the OAuth server is enabled. The rate-limited registration endpoint remains available for the supported MCP registration flow. This setting does not grant access to arbitrary future OAuth protected resources. See [OAuth Authorization Server](../authentication/oauth-server.md).
+
+*Default: `false`*
 
 ### `file_integrity_check_notify_admins` **v3**
 
@@ -169,6 +209,14 @@ Prevent users connecting with the same account more than once. This is a good op
 **Proxy settings**
 
 Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+
+### `remember_me_days`
+
+**Remember me duration (days)**
+
+Sets the duration of persistent login cookies and their database tokens. Accepts **0–90** days; `0` disables the Remember me option, and the login form only displays this option on HTTPS connections.
+
+*Default: `14` days*
 
 ### `security_block_inactive_users_immediately`
 

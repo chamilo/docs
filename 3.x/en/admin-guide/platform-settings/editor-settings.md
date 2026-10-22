@@ -2,7 +2,7 @@
 
 Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Editor**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -103,6 +103,30 @@ This option allows you to create and edit SVG (Scalable Vector Graphics) multila
 **WIRIS mathematical editor**
 
 Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+
+### `etherpad_api_key`
+
+**Etherpad API key**
+
+Server-side API credential used to create the pad and editor sessions. Treat it as a secret; do not share it in tickets or documentation screenshots.
+
+*Default: empty*
+
+### `etherpad_enabled`
+
+**Enable Etherpad for Wiki editing**
+
+When enabled and correctly configured, the edit form of an existing Wiki page loads the collaborative Etherpad editor. Saving creates a normal Wiki revision from its current content.
+
+*Default: `false`*
+
+### `etherpad_url`
+
+**Etherpad URL**
+
+Base URL of the Etherpad server used to open the shared Wiki editor. For secure embedded sessions, expose Etherpad on **the same origin as Chamilo**, for example behind a reverse proxy at `https://campus.example.org/etherpad`. Do not embed an unrelated cross-origin server.
+
+*Default: empty*
 
 ### `force_wiki_paste_as_plain_text`
 

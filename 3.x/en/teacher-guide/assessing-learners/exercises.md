@@ -144,6 +144,12 @@ Chamilo offers a rich set of question types organized into several categories:
 
 Open a question in the question editor and expand **Learner reports**. Each report shows the learner, the time, the exercise when available, and the submitted comment. When Chamilo can link the report to the attempt, use **View attempt** to inspect the surrounding answers before correcting the question.
 
+## Answer Change History (Technical)
+
+Chamilo 3.1 can record changes made to answers during an exercise attempt, including the modern Vue player and applicable legacy answer-saving flows. The log is stored separately in `track_e_attempt_log`, preserving earlier answer states without changing final answers or scores.
+
+This is an internal audit record, **not** an additional question score and not a general-purpose answer-history viewer in the teacher interface. Deployment of this feature requires the associated Chamilo database migration. See [Exercise answer history #9277](https://github.com/chamilo/chamilo-lms/pull/9277).
+
 ## Question Categories
 
 You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
