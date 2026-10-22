@@ -99,6 +99,12 @@ Click the **Export** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="
 * Performing additional analysis outside Chamilo
 * Keeping offline records
 
+### Excel list export: numeric results
+
+In the **list view**, the Excel (`.xls`) export writes each assessed activity and the total into three separate columns: **Percentage**, **Score** and **Max score**. The values are numbers, not a combined text such as `18 / 20 (90%)`, so you can calculate totals, averages and charts in a spreadsheet.
+
+For example, an activity result of 18 out of 20 is exported as a percentage-formatted numeric cell (shown as **90.00%**), **18** in the score column and **20** in the maximum-score column. A learner with no recorded result has blank score cells, not zeroes. This applies specifically to the Excel export of the assessment list; it does not imply the same column structure for CSV, PDF or other export formats.
+
 ## Tips
 
 * **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
