@@ -288,6 +288,22 @@ php bin/console cache:warmup --env=prod
 echo "Update complete."
 ```
 
+## Chamilo 3.1: Course language migration
+
+In [PR #9176](https://github.com/chamilo/chamilo-lms/pull/9176), course languages were normalized from the textual `course.course_language` column to `course.language_id`, which references `language.id`. The API and supported callers continue to expose the course language as an ISO code. This is a database relationship change, not a new language selector for teachers.
+
+Before executing the relevant V310 migration (`Version20261005120000`), check that each course language code matches **exactly one** `language.isocode` value. This read-only query identifies missing or ambiguous matches while the legacy column still exists:
+
+```sql
+SELECT c.course_language, COUNT(DISTINCT l.id) AS language_matches
+FROM course c
+LEFT JOIN language l ON l.isocode = c.course_language
+GROUP BY c.course_language
+HAVING COUNT(DISTINCT l.id) <> 1;
+```
+
+A successful preflight returns no rows. If it returns any, review and correct the source data carefully before running the migration. The migration refuses unmatched/ambiguous codes and also rejects a conflicting partial schema (`course_language` and `language_id` both present). Back up the database and test on staging; do not remove the legacy column or disable these checks manually.
+
 ## Security notes
 
 ### Predictable passwords of SSO and SCIM users
