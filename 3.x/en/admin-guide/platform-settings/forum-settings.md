@@ -2,7 +2,7 @@
 
 Behaviour of the course **Forums** tool.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Forums**. This category contains **14 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -45,6 +45,14 @@ What should be the default option when creating a new forum. Any trainer can how
 Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
 
 *Default: `true`*
+
+### `first_reply_min_words`
+
+**Minimum words for first forum reply**
+
+Minimum reply length when the user has no previous post in the same forum thread. A shorter reply is refused with the message "N word minimum requirement not met". It applies to every user replying to a thread, but not to the opening post of a new thread. Set to 0 to accept replies of any length.
+
+*Default: `0`*
 
 ### `forum_fold_categories`
 
@@ -93,6 +101,14 @@ For learners, return only the opening post of a thread until they contribute a p
 Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
 
 *Default: `false`*
+
+### `subsequent_reply_min_words`
+
+**Minimum words for subsequent forum replies**
+
+Minimum reply length when the user already has a post in the same forum thread, to require for example a substantial first answer and allow shorter follow-up replies. Set to 0 to accept replies of any length.
+
+*Default: `0`*
 
 ### `thread_participation_progress_posts`
 
