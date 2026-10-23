@@ -84,6 +84,12 @@ Configure how the thematic advance messages will appear on the course homepage.
 
 Control behaviour in the forum tool of this course.
 
+When the platform administrator allows each course to choose them (`forum_participation_can_be_modified_in_course`), this section also shows the forum participation options. Otherwise the platform settings apply to every course, as described in [Forums](../collaboration-and-communication/forums.md#participation-requirements-and-category-information).
+
+* **Show thread replies only after participating** — **Yes** to show learners only the opening post of a thread until they have posted in it, **No** to always show every reply, or **Use the platform setting**
+* **Show the forum category description in threads** — **Yes** to show the title and a shortened description of the forum category at the top of each thread, **No** to hide them, or **Use the platform setting**
+* **Posts required to complete a forum thread** — The number of posts a learner has to write in a thread for its participation progress bar to reach 100%. Set `0` to hide the bar, or leave empty to use the platform setting
+
 ### Assignment Settings
 
 * **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)

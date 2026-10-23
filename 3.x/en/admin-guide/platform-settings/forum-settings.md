@@ -2,7 +2,7 @@
 
 Behaviour of the course **Forums** tool.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **14 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Forums**. This category contains **15 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -59,6 +59,14 @@ Minimum reply length when the user has no previous post in the same forum thread
 **Fold forum categories**
 
 Visual effect to enable forum categories folding/unfolding.
+
+*Default: `false`*
+
+### `forum_participation_can_be_modified_in_course`
+
+**Forum participation settings can be changed by course**
+
+When enabled, teachers can choose in the Forum section of the course settings whether their course hides thread replies until the learner posts, shows the category description in threads and how many posts the participation progress bar expects, instead of following the platform settings.
 
 *Default: `false`*
 

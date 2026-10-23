@@ -63,6 +63,8 @@ Administrators can optionally enable three forum-wide behaviors under **Administ
 
 The progress target is an informational indicator, **not** the threshold for unlocking replies: if participation-gated replies are enabled, posting once is sufficient to lift that restriction. These settings are disabled by default. See [Forums Settings](../../admin-guide/platform-settings/forum-settings.md).
 
+These three settings apply to every course of the platform, unless the administrator also enables **Forum participation settings can be changed by course** (`forum_participation_can_be_modified_in_course`). Each course then chooses its own values in the **Forum Settings** section of its [course settings](../creating-your-course/course-settings.md#forum-settings) — for example to hide replies until learners post in some courses only, while the platform settings stay disabled. A course that keeps **Use the platform setting** follows the platform value.
+
 ## Forum discussions inside a learning path
 
 When learners open a forum discussion **from a Learning Path step**, its replies are displayed **newest first**. The opening post remains part of the discussion, while ordinary forum navigation outside the learning path retains its normal ordering. The forum page hides redundant **Back to threads** and **Back to learning path** actions in this embedded context; learners should use the learning path player's navigation to move to another step.
