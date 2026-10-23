@@ -2,7 +2,7 @@
 
 Behaviour of the course **Forums** tool.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **15 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Forums**. This category contains **16 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -115,6 +115,14 @@ Enable this option to enable notifications coming from the base course forum, ev
 **Minimum words for subsequent forum replies**
 
 Minimum reply length when the user already has a post in the same forum thread, to require for example a substantial first answer and allow shorter follow-up replies. Set to 0 to accept replies of any length.
+
+*Default: `0`*
+
+### `thread_max_posts_for_non_admins`
+
+**Maximum posts shown in a forum thread**
+
+Show only the first posts of each forum thread, up to this number, to every user who is not a platform administrator, teachers included. Set to 0 to show every post. The posts are counted in chronological order; the thread list and the forum search are not limited.
 
 *Default: `0`*
 

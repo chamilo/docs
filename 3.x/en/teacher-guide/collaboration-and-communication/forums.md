@@ -49,6 +49,8 @@ Learners (and you) can create new topics within a forum. As a teacher, you can:
 * **Edit or delete posts** — Moderate the discussion
 * **Move a topic** — Transfer a topic to a different forum
 
+On very long threads, your platform may only show the first posts of each thread to everyone except platform administrators — you included — when the administrator sets **Maximum posts shown in a forum thread** (`thread_max_posts_for_non_admins`, see [Forums Settings](../../admin-guide/platform-settings/forum-settings.md)). Ask an administrator if you need to read the later posts of such a thread.
+
 ## Forum Scoring
 
 When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
