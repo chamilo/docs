@@ -320,6 +320,19 @@ These changes are documented in [PR #9212](https://github.com/chamilo/chamilo-lm
 
 ## Security notes
 
+### October 2026 security maintenance on the 3.x development branch
+
+Several security fixes authored by **christianbeeznest** were merged into Chamilo's `master` branch between **16 and 18 October 2026**. These are code-level protections, **not new settings**. A merged pull request does not guarantee that the change is included in a particular tagged release or in an installation that has not been updated. Check the release notes or deployed Git revision before marking a deployment as patched.
+
+The changes include:
+
+* **HTML filtering:** more robust removal of unsafe event attributes from user-supplied HTML ([PR #9247](https://github.com/chamilo/chamilo-lms/pull/9247)).
+* **Learning path progress and exercise annotations:** strengthened server-side handling of learning-path progress requests and access to a learner's annotated attempt answers ([PR #9251](https://github.com/chamilo/chamilo-lms/pull/9251), [PR #9259](https://github.com/chamilo/chamilo-lms/pull/9259)).
+* **Social profile links and link checking:** tighter URL validation and protection of the course-link checker against unsafe changes in DNS resolution ([PR #9263](https://github.com/chamilo/chamilo-lms/pull/9263), [PR #9271](https://github.com/chamilo/chamilo-lms/pull/9271)).
+* **CSV exports:** mitigation of spreadsheet formula interpretation in exported data, across multiple legacy and modern reporting/export paths ([PR #9267](https://github.com/chamilo/chamilo-lms/pull/9267)).
+
+**After deploying code containing these fixes**, run a staging regression check: create and display formatted HTML content; save and resume a learning path; verify that learners can read only their own authorized exercise annotations; check permitted social and course links; and open representative CSV exports in a spreadsheet tool to confirm that user-controlled text is not interpreted as a formula. Include teacher, learner and administrator roles where relevant. Keep existing authentication, access controls and outbound-network restrictions in place. These checks help catch regressions but do not substitute for a security review.
+
 ### Predictable passwords of SSO and SCIM users
 
 Before Chamilo 3.0.2, some accounts provisioned or updated by an external identity system had a fixed, publicly guessable password. Anyone who knew the username could sign in with the regular login form if the account kept the `platform` authentication source.
