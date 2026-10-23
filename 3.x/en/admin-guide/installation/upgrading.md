@@ -304,6 +304,20 @@ HAVING COUNT(DISTINCT l.id) <> 1;
 
 A successful preflight returns no rows. If it returns any, review and correct the source data carefully before running the migration. The migration refuses unmatched/ambiguous codes and also rejects a conflicting partial schema (`course_language` and `language_id` both present). Back up the database and test on staging; do not remove the legacy column or disable these checks manually.
 
+## Chamilo 3.1: AI Toolbox registration on upgraded courses
+
+When AI Toolbox is missing from courses that existed before an upgrade, check whether the relevant **V310 migrations** ran successfully. The repair migration `Version20261008113000` ensures the Toolbox tool and `toolbox_items` resource type exist, and creates missing Toolbox course-tool entries **as drafts**; it does not publish them automatically. Subsequent migration improvements address upgrade reliability and performance. This is an upgrade repair, not a replacement for the platform's normal tool visibility and permissions.
+
+If the tool is still absent, check migration status and the Toolbox configuration before changing course records. Do **not** manually insert tool or resource-link rows or repeatedly execute migrations without reviewing the actual schema and migration history. See [PR #9195](https://github.com/chamilo/chamilo-lms/pull/9195) and its follow-up [PR #9229](https://github.com/chamilo/chamilo-lms/pull/9229).
+
+## Chamilo 3.1: Legacy database schema normalization
+
+The October 2026 schema cleanup changes some database **column names, types and relations**, while retaining fields that are still actively used. In particular, `course_rel_class.course_code` is replaced by `course_rel_class.c_id` (referencing `course.id`), and `course_request.category_code` is replaced by `course_request.category_id` (referencing `course_category.id`). Selected `title`, `url` and long `VARCHAR` columns are converted to `LONGTEXT`, while other Chamilo-owned `VARCHAR` fields are normalized to length 255 where applicable. External package-owned columns are deliberately handled separately.
+
+For installations with custom SQL reports, plugins or integrations, **review their queries and schema assumptions** before deploying these migrations. The class/course and course-request/category conversions refuse unresolved references rather than silently discarding them. The cleanup also removes obsolete FOS group tables after safely preserving group-derived user roles; incompatible or invalid legacy group data causes the migration to stop for review. Do not drop those tables or rewrite the associations manually in advance.
+
+These changes are documented in [PR #9212](https://github.com/chamilo/chamilo-lms/pull/9212) (issue #7445). Back up the database and verify the upgrade on a staging copy, particularly if custom code reads these legacy tables or expects fixed text lengths.
+
 ## Security notes
 
 ### Predictable passwords of SSO and SCIM users

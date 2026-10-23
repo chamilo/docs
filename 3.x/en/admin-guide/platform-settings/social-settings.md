@@ -6,6 +6,12 @@ Access these settings under **Administration > Configuration settings > Social N
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
+## Multiple relationships between users
+
+A pair of users can have **more than one relationship type** at the same time. For example, a friendship can coexist with a supervisory (`BOSS`) relationship; recording one type must not replace the other, and adding the same relation twice must not create duplicate records. This was corrected in [PR #9202](https://github.com/chamilo/chamilo-lms/pull/9202) (issue #2246).
+
+This is not a new social-network setting or an automatic promotion of user privileges. Relationship types, the user's platform role and access permissions are separate concepts. When investigating missing social contacts or supervisor links after an upgrade, check the appropriate relationship type rather than assuming only one relationship can exist between two accounts.
+
 ## Settings
 
 ### `allow_social_tool`
