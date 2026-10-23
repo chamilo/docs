@@ -71,6 +71,18 @@ Chamilo can import course backups from **Moodle**. The importer converts Moodle'
 
 > **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
 
+## Checking course backup and restore dependencies (September 2026)
+
+Recent fixes to Chamilo's course backup and Moodle-compatible MBZ import/export improve the restoration of **related resources**, not just the list of activities. When testing a backup round-trip, check both the imported content and the links between resources:
+
+1. **Exercises:** Open restored quizzes and verify that the questions used by the quiz are present and in the expected order. The export process now takes account of quiz-question dependencies instead of assuming that every referenced question was selected independently ([PR #9114](https://github.com/chamilo/chamilo-lms/pull/9114)).
+2. **Learning path documents and videos:** Play the restored learning path and open its document, HTML and video steps. Resource references are matched against the imported resources; a learning path may reference a document that was not listed by the ordinary course-document selection ([PR #9114](https://github.com/chamilo/chamilo-lms/pull/9114)).
+3. **Final item ordering:** If the original learning path has a terminal **Final item** (for example, a closing page with certificate information), verify that it remains **after the regular steps**. Archives from legacy content may encode the final step with an outdated position; the export/import flow normalizes that position ([PR #9121](https://github.com/chamilo/chamilo-lms/pull/9121)).
+4. **Forum and Gradebook references:** Open restored forum discussions and posts, and then check **Assessments (Gradebook)** entries linked to forum threads or participation. The restored links must point to the **destination thread**, not a source-course identifier. This was improved in the MBZ forum importer ([PR #9143](https://github.com/chamilo/chamilo-lms/pull/9143)).
+5. **Prerequisites and images:** Check any learning path prerequisites and verify that image files display as images rather than being misidentified as HTML. Import fixes address ID remapping and document classification. A separate migration repairs selected **bundled demo courses**; do not assume it automatically repairs arbitrary custom courses ([PR #9137](https://github.com/chamilo/chamilo-lms/pull/9137)).
+
+**Recommended verification:** Export a representative course, preserve the original archive, restore it into a **separate test course**, and compare exercise questions, learning path navigation, prerequisite behavior, forum discussions and linked Gradebook resources. Do not overwrite a production course to test portability. Source and destination internal IDs can legitimately differ; judge the result by the restored resource and its working links. Moodle import still does not cover every activity type, so check unsupported items manually and report a reproducible missing-resource case with a **sanitized** test archive.
+
 ## Tips
 
 * **Regular backups** — Encourage teachers to export their courses periodically as a backup
