@@ -122,7 +122,7 @@ Minimum reply length when the user already has a post in the same forum thread, 
 
 **Maximum posts shown in a forum thread**
 
-Show only the first posts of each forum thread, up to this number, to every user who is not a platform administrator, teachers included. Set to 0 to show every post. The posts are counted in chronological order; the thread list and the forum search are not limited.
+Show only this number of posts of each forum thread to every user who is not a platform administrator, teachers included, and to everyone inside a learning path. In the threaded and nested views, the limit applies to the replies of each post. The posts are kept in the order of the view: the first ones, or the latest ones inside a learning path, where the latest posts come first. Set to 0 to show every post. The thread list and the forum search are not limited.
 
 *Default: `0`*
 

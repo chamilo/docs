@@ -49,7 +49,7 @@ Learners (and you) can create new topics within a forum. As a teacher, you can:
 * **Edit or delete posts** — Moderate the discussion
 * **Move a topic** — Transfer a topic to a different forum
 
-On very long threads, your platform may only show the first posts of each thread to everyone except platform administrators — you included — when the administrator sets **Maximum posts shown in a forum thread** (`thread_max_posts_for_non_admins`, see [Forums Settings](../../admin-guide/platform-settings/forum-settings.md)). Ask an administrator if you need to read the later posts of such a thread.
+On very long threads, your platform may only show part of the posts of each thread to everyone except platform administrators — you included — when the administrator sets **Maximum posts shown in a forum thread** (`thread_max_posts_for_non_admins`, see [Forums Settings](../../admin-guide/platform-settings/forum-settings.md)). In the threaded and nested views, the limit applies to the replies of each post: you see the first replies in the Forums tool, and the latest ones inside a learning path, where the limit applies to administrators too. Ask an administrator if you need to read the other posts of such a thread.
 
 ## Forum Scoring
 
@@ -69,7 +69,7 @@ These three settings apply to every course of the platform, unless the administr
 
 ## Forum discussions inside a learning path
 
-When learners open a forum discussion **from a Learning Path step**, its replies are displayed **newest first**. The opening post remains part of the discussion, while ordinary forum navigation outside the learning path retains its normal ordering. The forum page hides redundant **Back to threads** and **Back to learning path** actions in this embedded context; learners should use the learning path player's navigation to move to another step.
+When learners open a forum discussion **from a Learning Path step**, its replies are displayed **newest first**. In the threaded and nested views, the opening post stays at the top and the latest replies come right under it, each reply followed by its own replies, also newest first — so learners see their reply right after posting it. A post without parent in the thread is shown as a reply to the opening post. Ordinary forum navigation outside the learning path retains its normal ordering. The forum page hides redundant **Back to threads** and **Back to learning path** actions in this embedded context; learners should use the learning path player's navigation to move to another step.
 
 If learners open the same discussion from the regular **Forums** tool, they use the normal forum navigation and chronological post order. This contextual behavior was corrected in [PR #9163](https://github.com/chamilo/chamilo-lms/pull/9163).
 
