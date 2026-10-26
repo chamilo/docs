@@ -58,6 +58,8 @@ The **Acquired skills** block shows the skills the learner has acquired. Clickin
 
 A skill shows its short code instead of its title when it has one. A skill not attached to any parent appears at the top of the tree.
 
+The learner's report in one course lays out the skills acquired in that course the same way.
+
 ### Messages About the Learner
 
 When **Allow private messages between teachers about a learner** (`message.private_messages_about_user`) is enabled in the platform settings, a **Messages** block at the bottom of the report lists the follow-up messages written about the learner. Click a message to read it. **New message** writes a new one, with a subject and a text. When a message is sent, the learner's superiors receive a notification with a link to the report. You can delete only the messages you wrote; each deletion is recorded in the platform's event log.
