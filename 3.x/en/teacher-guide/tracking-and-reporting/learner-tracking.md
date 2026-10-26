@@ -51,6 +51,8 @@ Every table can be exported on its own to CSV or Excel. Session tables also offe
 
 When **Allow private messages between teachers about a learner** (`message.private_messages_about_user`) is enabled in the platform settings, a **Messages** block at the bottom of the report lists the follow-up messages written about the learner. Click a message to read it. **New message** writes a new one, with a subject and a text. When a message is sent, the learner's superiors receive a notification with a link to the report. You can delete only the messages you wrote; each deletion is recorded in the platform's event log.
 
+The learner's report in one course, opened with the details button, also shows the learner's classes and the same **Messages** block.
+
 ## Tracking Views
 
 You can view tracking data from different perspectives:
