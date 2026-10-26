@@ -47,6 +47,17 @@ Each course table lists the time spent, progress, score, absences (missed attend
 
 Every table can be exported on its own to CSV or Excel. Session tables also offer a PDF export of the session's attendance and a **Certificate of achievement**. The export buttons at the top of the page export all the tables at once.
 
+### Acquired Skills
+
+The **Acquired skills** block shows the skills the learner has acquired. Clicking a skill opens its badge. How the skills are laid out depends on two settings of the **Skills** category in the platform settings:
+
+* When **Skill levels names** (`skill.skill_levels_names`) is empty, the acquired skills are listed one after the other.
+* Otherwise, the skills are placed in the skill tree: each acquired skill appears under its parent skills, up to the top of the tree. The parent skills the learner has not acquired are faded, and only the branches holding at least one acquired skill are drawn.
+  * With **Show skills as a hierarchical table** (`skill.skills_hierarchical_view_in_user_tracking`) enabled, each top-level branch is a column, with its skills nested below it.
+  * With it disabled, each top-level branch is a heading, followed by its skills side by side: the first level below the heading has larger badges, and the deeper levels show their badge without a title.
+
+A skill shows its short code instead of its title when it has one. A skill not attached to any parent appears at the top of the tree.
+
 ### Messages About the Learner
 
 When **Allow private messages between teachers about a learner** (`message.private_messages_about_user`) is enabled in the platform settings, a **Messages** block at the bottom of the report lists the follow-up messages written about the learner. Click a message to read it. **New message** writes a new one, with a subject and a text. When a message is sent, the learner's superiors receive a notification with a link to the report. You can delete only the messages you wrote; each deletion is recorded in the platform's event log.
