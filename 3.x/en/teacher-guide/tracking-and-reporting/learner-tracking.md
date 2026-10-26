@@ -31,6 +31,26 @@ Click on a learner's name to see their detailed activity report. This shows:
 * Exercise scores and attempt history
 * Assignment submission status
 
+## Learner Report Across All Courses
+
+**Reporting** > **Learners**, then a learner's details, opens the learner report (`/reporting/learners/{id}`), which covers every course the learner follows. Below the learner's profile and acquired skills, it shows:
+
+* **Classes** — The classes the learner belongs to, when there are any
+* **Courses** — The courses the learner is subscribed to directly
+* **One table per session** — The session's title and access dates, then the learner's courses in that session
+
+Administrators, human resources managers, student bosses and session administrators see all the learner's subscriptions. Teachers, tutors and coaches only see the courses they teach or tutor, the sessions they coach as general coach, and the courses they coach in a session; a course teacher also sees that course in the learner's sessions.
+
+Dates are shown in the user's time zone when users may choose one, otherwise in the platform's time zone.
+
+Each course table lists the time spent, progress, score, absences (missed attendance sheets out of the total) and gradebook score for each course, followed by a **Total** row. The course title opens the course, and the details button opens the learner's report in that course. A course followed both directly and in a session appears in both tables, with the figures of each subscription.
+
+Every table can be exported on its own to CSV or Excel. Session tables also offer a PDF export of the session's attendance and a **Certificate of achievement**. The export buttons at the top of the page export all the tables at once.
+
+### Messages About the Learner
+
+When **Allow private messages between teachers about a learner** (`message.private_messages_about_user`) is enabled in the platform settings, a **Messages** block at the bottom of the report lists the follow-up messages written about the learner. Click a message to read it. **New message** writes a new one, with a subject and a text. When a message is sent, the learner's superiors receive a notification with a link to the report. You can delete only the messages you wrote; each deletion is recorded in the platform's event log.
+
 ## Tracking Views
 
 You can view tracking data from different perspectives:
