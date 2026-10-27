@@ -20,9 +20,11 @@ Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg"
    * **Start date and time**
    * **End date and time**
    * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
+3. Choose the **audience** in the **Send to** field:
+   * Leave it empty to send the event to **everyone** in the course (or in the course of the current session)
+   * Select one or more **users** and/or **groups** of the course to send the event only to them. A learner then sees the event only if it was sent to them or to one of their groups; teachers always see every event of the course.
+
+   You can change the recipients later by editing the event. The **Send to** field is only shown to teachers, in the agenda of a course; inside a group's agenda, new events always belong to that group.
 4. Optionally set a **reminder** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
 5. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
 
@@ -40,6 +42,10 @@ By default, new events get a color based on their context (course, session, pers
 * **Edit** <img src="../../.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
 * **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
 * **Drag and drop** — In calendar view, drag events to reschedule them
+
+## Filtering by Recipient
+
+As a teacher, use the **Filter** selector above the course agenda to list only the events sent to one user or to one group. Pick **All** (or clear the selector) to see every event again. The filter applies to both the calendar view and the list view, and it is kept when you switch between them.
 
 ## Personal Agenda
 
