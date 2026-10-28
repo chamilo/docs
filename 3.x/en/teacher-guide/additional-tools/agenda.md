@@ -27,10 +27,11 @@ Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg"
 
    You can change the recipients later by editing the event. The **Send to** field is only shown to teachers, in the agenda of a course; inside a group's agenda, new events always belong to that group.
 4. Optionally set a **reminder** <img src="../../.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
+5. Optionally check **Add an announcement (Send mail)** to also publish the event as a course announcement, sent by email to the same recipients. The announcement takes the title and the description of the event. This option is only shown to teachers, when they create a course event
+6. Pick a **color** for the event by clicking the color swatch. This color is used to highlight the event throughout the calendar (month, week and day views), making it easy to tell events apart at a glance — for example to distinguish deadlines from regular sessions, or events from different courses in your personal agenda.
 
    ![The color picker in the event creation form](../../.gitbook/assets/agenda-event-color-picker.png)
-6. Save
+7. Save
 
 The chosen color is then reflected wherever the event appears in the calendar:
 
