@@ -140,6 +140,12 @@ Chamilo offers a rich set of question types organized into several categories:
 6. Set the **difficulty level** and **category** (useful for random selection and reporting)
 7. Save
 
+## Correcting Open Questions
+
+Open-ended questions (open question, oral expression, file upload, annotation and Office document answers) are corrected by hand. Open the learner's attempt from the exercise's results in correction mode: below each of these answers, the **Teacher correction** box sets the score and a **Teacher comment**.
+
+When **Audio feedback to submitted answers** (`exercise.allow_teacher_comment_audio`) is enabled in the platform settings, the box also offers an **Audio comment**: click **Start recording**, speak, then **Stop recording**, and listen to the result before saving. The recording is saved with the correction, by **Save as draft** or **Save correction**. A new recording replaces the previous one. The learner hears it next to the written comment when the exercise shows feedback.
+
 ## Reviewing Learner Reports
 
 Open a question in the question editor and expand **Learner reports**. Each report shows the learner, the time, the exercise when available, and the submitted comment. When Chamilo can link the report to the attempt, use **View attempt** to inspect the surrounding answers before correcting the question.
