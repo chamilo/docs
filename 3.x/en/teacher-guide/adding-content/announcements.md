@@ -17,6 +17,7 @@ Messages sent through announcements are sent to the learners both by e-mail *and
    * **Description** — The message body (supports rich text with formatting, links, and images)
    * **Attachment** — An optional attachment sent along with the e-mail
    * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
+     * When you tick **Add event in course calendar**, set the event's **Start date** and **End date**. Each click on **Add reminder** adds a line where you set how long before the event the reminder is sent (in minutes, hours or days). The reminders can be changed later by editing the event in the course agenda.
 4. Save
 
 The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
