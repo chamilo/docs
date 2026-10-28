@@ -45,6 +45,17 @@ By default, new events get a color based on their context (course, session, pers
 * **Delete** <img src="../../.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
 * **Drag and drop** — In calendar view, drag events to reschedule them
 
+## Repeating an Event
+
+When you create a course event, check **Repeat event**, then choose:
+
+* **Repeat type** — **Daily**, **Weekly**, **Monthly, by date** or **Yearly**
+* **Repeat end date** — The last day on which a repetition can start
+
+The agenda then creates a copy of the event at each repetition, with the same details and the same recipients. Each copy is a separate event: you can edit or delete it on its own. To delete the whole series at once, click any event of the series and click **Delete all items**.
+
+The repeat options are only available when you create a course event; you cannot add a repetition to an existing event.
+
 ## Filtering by Recipient
 
 As a teacher, use the **Filter** selector above the course agenda to list only the events sent to one user or to one group. Pick **All** (or clear the selector) to see every event again. The filter applies to both the calendar view and the list view, and it is kept when you switch between them.
