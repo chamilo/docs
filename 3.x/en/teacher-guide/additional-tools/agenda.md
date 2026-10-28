@@ -20,6 +20,7 @@ Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg"
    * **Start date and time**
    * **End date and time**
    * **Description** — Additional details (supports rich text)
+   * **Attachments** — Click **Add attachment** to attach one or more files, and optionally describe them in **File comment**. Learners see the files in the event details and can download them, if the event is sent to them. To delete a file, edit the event and click the delete icon next to the file. Attachments are only available for course events
    * **Comment** — A short plain-text note, for example what learners must bring. It is only available for course events, and learners see it under the description, in the event details and in the list view
 3. Choose the **audience** in the **Send to** field:
    * Leave it empty to send the event to **everyone** in the course (or in the course of the current session)
