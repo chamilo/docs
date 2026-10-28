@@ -20,6 +20,7 @@ Open the **Agenda** <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg"
    * **Start date and time**
    * **End date and time**
    * **Description** — Additional details (supports rich text)
+   * **Comment** — A short plain-text note, for example what learners must bring. It is only available for course events, and learners see it under the description, in the event details and in the list view
 3. Choose the **audience** in the **Send to** field:
    * Leave it empty to send the event to **everyone** in the course (or in the course of the current session)
    * Select one or more **users** and/or **groups** of the course to send the event only to them. A learner then sees the event only if it was sent to them or to one of their groups; teachers always see every event of the course.
