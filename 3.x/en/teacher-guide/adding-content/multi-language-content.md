@@ -39,7 +39,7 @@ As with any AI-generated content, proofread the result — it's a fast way to ge
 
 ## What Learners See
 
-Each learner sees exactly one language version: Chamilo tries their own interface language first; if none of your blocks match it, it falls back to the course's own language, then to the platform's default language; if none of those match either, it shows whichever language you happen to have written first rather than leaving the content blank. This all happens automatically — there is nothing for the learner to configure, and nothing for you to configure per-learner either.
+Each learner sees exactly one language version: Chamilo tries the learner's own profile language first; if none of your blocks match it, it falls back to the course's own language, then to the platform's default language; if none of those match either, it shows whichever language you happen to have written first rather than leaving the content blank. This all happens automatically — there is nothing for the learner to configure, and nothing for you to configure per-learner either.
 
 Here is the same course description section, as seen by three learners with different interface languages — nothing else about the course changed between these three screenshots, only the viewer's own language:
 
