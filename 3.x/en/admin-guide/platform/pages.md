@@ -19,6 +19,15 @@ Each page has:
 
 On a multi-URL (multi-portal) install, pages are also scoped per access URL, so each portal manages its own content.
 
+## Menu Link Categories
+
+Two categories turn their enabled pages into a list of links (each link shows the page title and opens the page) instead of rendering their content in place:
+
+* **`menu_links`** — links shown to everyone: under the login form for anonymous visitors, and at the bottom of the left sidebar for logged-in users. Use it for content every user may need, such as legal notices or terms of use.
+* **`menu_public_links`** — links shown **only to anonymous visitors**, under the login form on the homepage and on the login page. They disappear once the user logs in. Use it for content aimed at prospective users, such as a presentation of the platform or how to request an account.
+
+When both categories have pages, the `menu_links` links are listed first.
+
 ## The Registration Intro Page
 
 **Platform > Setting the registration page** is a shortcut into this same Pages system for one specific placement: the introductory text shown above the public sign-up form. It's restricted to Portal Administrators. Clicking it either:
