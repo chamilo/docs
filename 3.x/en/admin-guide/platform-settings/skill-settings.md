@@ -74,7 +74,7 @@ Users can see their skills in the social network and in a block in the homepage.
 
 **Assigning skills to user: sub-skills auto-loading**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+When manually assigning skills to a user, choose the skill level by level in the skills tree instead of in a single list. The first list only shows the skills of the first level; selecting one adds a list with its sub-skills, and so on. The skill assigned is the deepest one selected, so you can stop at any level. Skills that are not acquirable are listed too, to reach their sub-skills, but cannot be assigned. The lists are labelled with the names set in `skill_levels_names`, when set. See [Manual Skill Assignment](../skills/managing-skills.md#manual-skill-assignment).
 
 *Default: `false`*
 

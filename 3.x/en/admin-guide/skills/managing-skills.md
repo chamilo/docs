@@ -18,6 +18,8 @@ When creating or editing a skill, use **Acquirable** to indicate whether learner
 
 When manual skill assignment is available for your role, open **Assign skill** for the user, select the **Skill**, choose a **Level acquired** when levels are used, and provide the required **Argumentation** explaining why the skill is being awarded.
 
+When **Assigning skills to user: sub-skills auto-loading** (`manual_assignment_subskill_autoload`) is enabled, the **Skill** list only shows the skills of the first level of the tree. Selecting one displays a second list with its sub-skills, then a third one, and so on. Stop at the level of the skill you want to assign and leave the next list empty; to go back up one level, clear the list. A skill that is not **Acquirable** can be selected to reach its sub-skills, but the form indicates that it cannot be acquired and does not let you save it.
+
 For an existing manual assignment that can be removed, select the skill and click **Remove**, then confirm the action. Removed assignments no longer count as acquired skills. Assignments whose source does not allow manual removal do not expose this action.
 
 From a learner's reporting details, an authorised user can follow the **skill badge/link** to the assignment details and then use the existing removal action when the skill was manually assigned. The assignment history remains available after removal and reassignment; removing a skill does not erase its audit trail. Return to the learner report using the available navigation link.
