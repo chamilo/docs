@@ -4,6 +4,18 @@ This guide covers security best practices for running a Chamilo 3.0 platform in 
 
 For the built-in monitoring and auditing tools referenced throughout this guide (login attempt logs, intrusion detection, password strength scans, and file integrity checks), see the [Security](../security/README.md) chapter.
 
+## Remove the Install Folder
+
+The install folder (`public/main/install`) has very specific requirements, because it must be able to install and update Chamilo, sometimes on a platform that is not fully configured yet. For this reason it has historically been a target of attacks.
+
+Once Chamilo is installed, you do not need it for day-to-day operation. It is better to remove it altogether:
+
+```
+rm -rf public/main/install
+```
+
+This is also why the [Health Check](../health-check.md) block of the administration page warns you while the folder is still there. When you need to run an update, restore the folder from a fresh copy of the package, then remove it again afterwards.
+
 ## Keep Chamilo Updated
 
 The most important security practice is keeping your Chamilo installation up to date.

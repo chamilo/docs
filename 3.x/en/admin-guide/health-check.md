@@ -13,9 +13,9 @@ From the administration panel, the **Health check** block appears alongside the 
 * **E-mail settings** — Verifies that a mailer connection string and a "from" e-mail/name are configured. If not, links to Mail settings to fix it.
 * **All URLs have at least one admin assigned** — On a multi-URL install, checks that every access URL has at least one administrator who can manage it. If one doesn't, links to the access URL/user assignment page.
 * **`.env` is not writable** — `.env` holds secrets and should not be writable by the web server after installation. Flagged as an error if it is; links to the Security Guide.
-* **`config/` is not writable** — Same reasoning as `.env`: this directory should not be web-writable in normal operation. Links to the Security Guide.
+* **`config/` is not writable** — Same reasoning as `.env`: this directory should not be web-writable in normal operation. Because this folder has historically been a target of attacks, remove it with `rm -rf public/main/install`. Links to the [Security Guide](appendix/security-guide.md#remove-the-install-folder).
 * **`var/cache` is writable** — The opposite check: Symfony needs to write to its cache directory, so this one is flagged as an error if it *isn't* writable. Links to the Performance Tuning / optimization guide.
-* **Install folder is not present** — The `public/main/install` folder is only needed during installation and should be removed afterward. This is flagged as a warning (not a hard error) if it still exists, since it's a lower-severity risk than the two writability checks above. Links to the Security Guide.
+* **Install folder is not present** — The `public/main/install` folder is only needed during installation and should be removed afterward. This is flagged as a warning (not a hard error) if it still exists, since it's a lower-severity risk than the two writability checks above. Because this folder has historically been a target of attacks, remove it with `rm -rf public/main/install`. Links to the [Security Guide](appendix/security-guide.md#remove-the-install-folder).
 
 ## What to Do About It
 
