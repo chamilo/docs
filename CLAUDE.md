@@ -87,10 +87,43 @@ chrome included. Use the **AI Act** course (`cid=1`, node `5`) for these: it's
 configured with "Show course in user's language: Yes", so it just works with
 no course-settings changes. Details in `localize-screenshots.md`, Step 4.
 
+## Working conventions
+
+* Work in the `all` branch and from the repository root; the default working
+  directory may be a single space such as `3.x/en/`, so use paths relative to
+  the root when running git.
+* Edit the English source (`<version>/en/`) first. Other languages are
+  produced with `scripts/translate-docs.php` and
+  `.claude/commands/localize-screenshots.md`; don't hand-edit them to mirror an
+  English change unless asked.
+* A new page must be added to that space's `SUMMARY.md`, or it won't appear in
+  the navigation. When moving or renaming a page, fix the relative links that
+  point to it.
+* Use relative links between pages (`../../x.md`, `page.md#anchor`), never
+  absolute URLs to the published site.
+* `<version>/en/CHANGELOG.md` records page changes per release (see
+  `scripts/tag-release.php`); don't edit it for ordinary content changes.
+* Commit only what you changed: untracked editor folders such as `.idea/` are
+  not part of the repository. Don't push unless asked.
+
 ## Commit messages
 
-Follow the `<Prefix>: <imperative summary>` convention from
-`3.x/en/developer-guide/contributing/git-workflow.md`. The prefix is the
-**singular** canonical tool name (e.g. `Exercise:`, `Learnpath:`,
-`Gradebook:`). Changes that touch only this documentation site use the
-`Documentation:` prefix.
+Prefix each message with the **type of guide** the change touches (`Admin`,
+`Developer`, `Teacher`, `Student`), then an optional category (the topic or
+page, e.g. `Security`, `Multi-language content`), then an imperative summary:
+
+```
+<Guide>: [<Category>: ]<imperative summary>
+```
+
+e.g. `Admin: Security: Recommend removing the install folder` or
+`Teacher: Multi-language content: Refer to the learner's profile language`.
+Pick the guide from the path (`admin-guide/`, `teacher-guide/`, ...); a change
+spanning several guides, or none (scripts, `gitbook-docs.yaml`, this file),
+may use `Documentation:`. Don't use the Chamilo-application convention from
+`3.x/en/developer-guide/contributing/git-workflow.md` (`Exercise:`,
+`Learnpath:`, ...) here: that describes commits to the LMS repo, not this one.
+Append `- refs BT#<number>` when there is a ticket.
+
+Never add `Co-Authored-By` or "Generated with Claude Code" lines to a commit
+or PR: commits are made under the contributor's own git identity only.
