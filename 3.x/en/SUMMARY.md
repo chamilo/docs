@@ -74,6 +74,7 @@
     * [LTI 1.3 Advantage Provider](teacher-guide/plugins/lti-1-3-advantage-provider.md)
     * [Survey Export CSV](teacher-guide/plugins/survey-export-csv.md)
     * [Survey Export TXT](teacher-guide/plugins/survey-export-txt.md)
+    * [Grading Electronic](teacher-guide/plugins/grading-electronic.md)
   * [Social Network](teacher-guide/social-network.md)
   * [Sessions](teacher-guide/sessions.md)
   * [Branches and Rooms](teacher-guide/branches-and-rooms.md)

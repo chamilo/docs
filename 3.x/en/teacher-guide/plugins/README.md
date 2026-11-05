@@ -39,6 +39,7 @@ This section documents the plugins that change something a **teacher** interacts
 
 * **[IMS/LTI Client](ims-lti.md)** — Launch an external tool or content provider from inside your course
 * **[LTI 1.3 Advantage Provider](lti-1-3-advantage-provider.md)** — Let an external LMS launch one of your exercises or learning paths (admin-configured, nothing for teachers to set up)
+* **[Grading Electronic](grading-electronic.md)** — Export the learners who passed your course to a certification body, as a text file or a roster spreadsheet
 
 ## Survey Exports
 
