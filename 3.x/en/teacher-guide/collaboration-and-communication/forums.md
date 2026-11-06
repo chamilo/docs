@@ -48,8 +48,9 @@ Learners (and you) can create new topics within a forum. As a teacher, you can:
 * **Lock a topic** — Prevent further replies
 * **Edit or delete posts** — Moderate the discussion
 * **Move a topic** — Transfer a topic to a different forum
+* **List the posts from the newest** — A thread lists its posts from the oldest. The arrows button of the thread's toolbar (**Newest first**) lists them from the newest, to follow the latest activity of a long thread; click it again (**Oldest first**) to go back. In the threaded and nested views, the replies of each post are listed from the newest. Learners always read the thread from the oldest post, and inside a learning path everyone sees the newest posts first.
 
-On very long threads, your platform may only show part of the posts of each thread to everyone except platform administrators — you included — when the administrator sets **Maximum posts shown in a forum thread** (`thread_max_posts_for_non_admins`, see [Forums Settings](../../admin-guide/platform-settings/forum-settings.md)). In the threaded and nested views, the limit applies to the replies of each post: you see the first replies in the Forums tool, and the latest ones inside a learning path, where the limit applies to administrators too. Ask an administrator if you need to read the other posts of such a thread.
+On very long threads, your platform may only show part of the posts of each thread to everyone except platform administrators — you included — when the administrator sets **Maximum posts shown in a forum thread** (`thread_max_posts_for_non_admins`, see [Forums Settings](../../admin-guide/platform-settings/forum-settings.md)). In the threaded and nested views, the limit applies to the replies of each post: you see the first replies in the Forums tool, and the latest ones inside a learning path, where the limit applies to administrators too. Listing the posts from the newest shows you the latest ones instead. Ask an administrator if you need to read the other posts of such a thread.
 
 ## Forum Scoring
 
