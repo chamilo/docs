@@ -55,6 +55,8 @@ On very long threads, your platform may only show part of the posts of each thre
 
 When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
 
+To grade, click **Grade thread** on the thread in the forum's thread list. The window lists the learners who posted in the thread, with a score field for each. Click a learner's name to open their participation before scoring it: the number of course users, the number of posts in the thread, how many of them are the learner's and their share of the thread, then each post the learner wrote, with its attachments. You can save the learner's score from this window too. A red bin next to each post deletes it after confirmation, for example to remove an off-topic or duplicate message before grading; the counts are updated, and a learner left without any post disappears from the list. The bin is not shown once the gradebook has locked the thread's score.
+
 ## Participation Requirements and Category Information
 
 Administrators can optionally enable three forum-wide behaviors under **Administration > Configuration settings > Forums**:
