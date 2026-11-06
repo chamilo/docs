@@ -22,7 +22,7 @@ Voordat u Chamilo 2.0 installeert, controleer of uw server voldoet aan de volgen
 | **ldap** | LDAP-connector. Hoewel u waarschijnlijk geen LDAP zult gebruiken, vereist Chamilo dit |
 | **mbstring** | Behandeling van multibyte-tekenreeksen (UTF-8 ondersteuning) |
 | **openssl** | Cryptografische bewerkingen (HTTPS, wachtwoordhashing, tokens) |
-| **pdo_mysql** of **pdo_pgsql** | Databaseconnectiviteit (installeer degene die overeenkomt met uw database) |
+| **pdo_mysql** | Databaseconnectiviteit |
 | **xml** | XML-parsing (SCORM, RSS, SOAP) |
 | **zip** | Behandeling van ZIP-archieven (SCORM-pakketten, bulkimport/export) |
 | **apcu** | Gebruikersniveau caching (aanbevolen) |

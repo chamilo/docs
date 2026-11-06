@@ -27,7 +27,7 @@ Ennen Chamilo 3.0:n asennusta varmista, että palvelimesi täyttää seuraavat v
 | **ldap** | LDAP-liitin. Vaikka et todennäköisesti käytä LDAP:ia, Chamilo vaatii sen |
 | **mbstring** | Monitavuisten merkkijonojen käsittely (UTF-8-tuki) |
 | **openssl** | Kryptografiset toiminnot (HTTPS, salasanan hajautus, JWT-tunnukset) |
-| **pdo**, plus **pdo_mysql** tai **pdo_pgsql** | Tietokantayhteys (asenna tietokantaasi vastaava ajuri) |
+| **pdo**, plus **pdo_mysql** | Tietokantayhteys |
 | **soap** | SOAP-verkkopalveluiden käsittely |
 | **zip** | ZIP-arkistojen käsittely (SCORM-paketit, joukkoon tuonnit/viennit) |
 | **zlib** | Pakkaus, jota useat riippuvuudet käyttävät sisäisesti |

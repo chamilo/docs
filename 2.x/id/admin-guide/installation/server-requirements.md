@@ -22,7 +22,7 @@ Sebelum menginstal Chamilo 2.0, pastikan server Anda memenuhi persyaratan beriku
 | **ldap** | Konektor LDAP. Meskipun Anda mungkin tidak menggunakan LDAP, Chamilo membutuhkannya |
 | **mbstring** | Penanganan string multibyte (dukungan UTF-8) |
 | **openssl** | Operasi kriptografi (HTTPS, hashing kata sandi, token) |
-| **pdo_mysql** atau **pdo_pgsql** | Konektivitas basis data (instal yang sesuai dengan basis data Anda) |
+| **pdo_mysql** | Konektivitas basis data |
 | **xml** | Penguraian XML (SCORM, RSS, SOAP) |
 | **zip** | Penanganan arsip ZIP (paket SCORM, impor/ekspor massal) |
 | **apcu** | Caching tingkat pengguna (direkomendasikan) |

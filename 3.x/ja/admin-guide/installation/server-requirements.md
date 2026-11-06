@@ -27,7 +27,7 @@ Chamilo 3.0 をインストールする前に、サーバーが次の要件を�
 | **ldap** | LDAP コネクタ。LDAP を使わない場合でも、Chamilo では必須です |
 | **mbstring** | マルチバイト文字列処理（UTF-8 対応） |
 | **openssl** | 暗号処理（HTTPS、パスワードハッシュ、JWT トークン） |
-| **pdo**, plus **pdo_mysql** or **pdo_pgsql** | データベース接続（使用するデータベースに合わせたドライバをインストール） |
+| **pdo**, plus **pdo_mysql** | データベース接続 |
 | **soap** | SOAP Web サービスの処理 |
 | **zip** | ZIP アーカイブの処理（SCORM パッケージ、一括インポート／エクスポート） |
 | **zlib** | 複数の依存関係が内部で使用する圧縮 |

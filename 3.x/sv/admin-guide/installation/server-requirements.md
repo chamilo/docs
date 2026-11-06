@@ -27,7 +27,7 @@ Innan du installerar Chamilo 3.0, kontrollera att servern uppfyller följande kr
 | **ldap** | LDAP-anslutning. Även om du troligen inte använder LDAP kräver Chamilo det |
 | **mbstring** | Hantering av multibyte-strängar (UTF-8-stöd) |
 | **openssl** | Kryptografiska operationer (HTTPS, lösenordshashning, JWT-token) |
-| **pdo**, plus **pdo_mysql** eller **pdo_pgsql** | Databasanslutning (installera drivrutinen som matchar din databas) |
+| **pdo**, plus **pdo_mysql** | Databasanslutning |
 | **soap** | Hantering av SOAP-webbtjänster |
 | **zip** | Hantering av ZIP-arkiv (SCORM-paket, massimport/export) |
 | **zlib** | Komprimering som används internt av flera beroenden |

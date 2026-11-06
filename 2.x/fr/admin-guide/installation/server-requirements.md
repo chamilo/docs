@@ -22,7 +22,7 @@ Avant d'installer Chamilo 2.0, vérifiez que votre serveur répond aux exigences
 | **ldap** | Connecteur LDAP. Bien que vous n'utilisiez probablement pas LDAP, Chamilo en a besoin |
 | **mbstring** | Gestion des chaînes multibytes (support UTF-8) |
 | **openssl** | Opérations cryptographiques (HTTPS, hachage de mots de passe, jetons) |
-| **pdo_mysql** ou **pdo_pgsql** | Connexion à la base de données (installez celui correspondant à votre base de données) |
+| **pdo_mysql** | Connexion à la base de données |
 | **xml** | Analyse XML (SCORM, RSS, SOAP) |
 | **zip** | Gestion des archives ZIP (paquets SCORM, imports/exports en masse) |
 | **apcu** | Mise en cache au niveau utilisateur (recommandé) |

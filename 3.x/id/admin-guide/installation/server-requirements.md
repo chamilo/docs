@@ -27,7 +27,7 @@ Sebelum menginstal Chamilo 3.0, pastikan server Anda memenuhi persyaratan beriku
 | **ldap** | Konektor LDAP. Meskipun Anda mungkin tidak menggunakan LDAP, Chamilo membutuhkannya |
 | **mbstring** | Penanganan string multibyte (dukungan UTF-8) |
 | **openssl** | Operasi kriptografi (HTTPS, hashing kata sandi, token JWT) |
-| **pdo**, plus **pdo_mysql** atau **pdo_pgsql** | Konektivitas basis data (instal driver yang sesuai dengan basis data Anda) |
+| **pdo**, plus **pdo_mysql** | Konektivitas basis data |
 | **soap** | Penanganan layanan web SOAP |
 | **zip** | Penanganan arsip ZIP (paket SCORM, impor/ekspor massal) |
 | **zlib** | Kompresi yang digunakan secara internal oleh beberapa dependensi |

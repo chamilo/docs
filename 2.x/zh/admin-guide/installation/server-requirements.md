@@ -22,7 +22,7 @@
 | **ldap** | LDAP 连接器。尽管您可能不会使用 LDAP，但 Chamilo 需要它 |
 | **mbstring** | 多字节字符串处理（支持 UTF-8） |
 | **openssl** | 加密操作（HTTPS、密码哈希、令牌） |
-| **pdo_mysql** 或 **pdo_pgsql** | 数据库连接（安装与您的数据库匹配的扩展） |
+| **pdo_mysql** | 数据库连接 |
 | **xml** | XML 解析（SCORM、RSS、SOAP） |
 | **zip** | 处理 ZIP 存档（SCORM 包、批量导入/导出） |
 | **apcu** | 用户级缓存（推荐） |

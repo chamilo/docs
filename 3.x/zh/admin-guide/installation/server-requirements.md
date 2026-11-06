@@ -27,7 +27,7 @@
 | **ldap** | LDAP 连接器。尽管您可能不会使用 LDAP，但 Chamilo 仍要求安装该扩展 |
 | **mbstring** | 多字节字符串处理（UTF-8 支持） |
 | **openssl** | 加密操作（HTTPS、密码哈希、JWT 令牌） |
-| **pdo**, plus **pdo_mysql** or **pdo_pgsql** | 数据库连接（请安装与您的数据库相匹配的驱动） |
+| **pdo**, plus **pdo_mysql** | 数据库连接 |
 | **soap** | SOAP Web 服务处理 |
 | **zip** | 处理 ZIP 归档（SCORM 包、批量导入/导出） |
 | **zlib** | 若干依赖内部使用的压缩功能 |

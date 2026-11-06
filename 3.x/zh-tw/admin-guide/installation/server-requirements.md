@@ -27,7 +27,7 @@
 | **ldap** | LDAP 連接器。即使您可能不會使用 LDAP，Chamilo 仍要求安裝此擴充套件 |
 | **mbstring** | 多位元組字串處理（UTF-8 支援） |
 | **openssl** | 加密作業（HTTPS、密碼雜湊、JWT 權杖） |
-| **pdo**，以及 **pdo_mysql** 或 **pdo_pgsql** | 資料庫連線（請安裝與您資料庫相符的驅動程式） |
+| **pdo**，以及 **pdo_mysql** | 資料庫連線 |
 | **soap** | SOAP 網路服務處理 |
 | **zip** | 處理 ZIP 封存（SCORM 套件、批次匯入／匯出） |
 | **zlib** | 多個相依套件內部使用的壓縮功能 |

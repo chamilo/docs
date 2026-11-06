@@ -27,7 +27,7 @@ Antes de instalar o Chamilo 3.0, verifique se o seu servidor atende aos seguinte
 | **ldap** | Conector LDAP. Embora provavelmente você não use LDAP, o Chamilo o exige |
 | **mbstring** | Manipulação de strings multibyte (suporte a UTF-8) |
 | **openssl** | Operações criptográficas (HTTPS, hash de senhas, tokens JWT) |
-| **pdo**, plus **pdo_mysql** or **pdo_pgsql** | Conectividade com banco de dados (instale o driver correspondente ao seu banco de dados) |
+| **pdo**, plus **pdo_mysql** | Conectividade com banco de dados |
 | **soap** | Manipulação de serviços web SOAP |
 | **zip** | Manipulação de arquivos ZIP (pacotes SCORM, importações/exportações em lote) |
 | **zlib** | Compressão usada internamente por várias dependências |

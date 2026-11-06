@@ -27,7 +27,7 @@ Bevor Sie Chamilo 3.0 installieren, prüfen Sie, ob Ihr Server die folgenden Anf
 | **ldap** | LDAP-Konnektor. Obwohl Sie LDAP wahrscheinlich nicht nutzen, setzt Chamilo ihn voraus |
 | **mbstring** | Verarbeitung mehrbytiger Zeichenketten (UTF-8-Unterstützung) |
 | **openssl** | Kryptografische Operationen (HTTPS, Passwort-Hashing, JWT-Token) |
-| **pdo**, plus **pdo_mysql** oder **pdo_pgsql** | Datenbankanbindung (installieren Sie den Treiber, der zu Ihrer Datenbank passt) |
+| **pdo**, plus **pdo_mysql** | Datenbankanbindung |
 | **soap** | Verarbeitung von SOAP-Webdiensten |
 | **zip** | Verarbeitung von ZIP-Archiven (SCORM-Pakete, Massenimporte/-exporte) |
 | **zlib** | Kompression, die intern von mehreren Abhängigkeiten genutzt wird |

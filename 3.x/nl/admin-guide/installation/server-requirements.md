@@ -27,7 +27,7 @@ Controleer voordat u Chamilo 3.0 installeert of uw server aan de volgende vereis
 | **ldap** | LDAP-connector. Hoewel u LDAP waarschijnlijk niet zult gebruiken, vereist Chamilo deze extensie |
 | **mbstring** | Verwerking van multibyte-tekenreeksen (UTF-8-ondersteuning) |
 | **openssl** | Cryptografische bewerkingen (HTTPS, wachtwoordhashing, JWT-tokens) |
-| **pdo**, plus **pdo_mysql** of **pdo_pgsql** | Databaseverbinding (installeer het stuurprogramma dat bij uw database past) |
+| **pdo**, plus **pdo_mysql** | Databaseverbinding |
 | **soap** | Verwerking van SOAP-webservices |
 | **zip** | Verwerking van ZIP-archieven (SCORM-pakketten, bulkimports/-exports) |
 | **zlib** | Compressie die intern door verschillende afhankelijkheden wordt gebruikt |
