@@ -50,7 +50,7 @@ Display group forums in the forum tool at the course level. This option is enabl
 
 **Minimum words for first forum reply**
 
-Minimum reply length when the user has no previous post in the same forum thread. A shorter reply is refused with the message "N word minimum requirement not met". It applies to every user replying to a thread, but not to the opening post of a new thread. Set to 0 to accept replies of any length.
+Minimum reply length when the user has no previous post in the same forum thread. A shorter reply is refused with a message that gives this minimum and the number of words the reply contains. Only the words of the text count, not its formatting. It applies to every user replying to a thread, but not to the opening post of a new thread. Set to 0 to accept replies of any length.
 
 *Default: `0`*
 
@@ -114,7 +114,7 @@ Enable this option to enable notifications coming from the base course forum, ev
 
 **Minimum words for subsequent forum replies**
 
-Minimum reply length when the user already has a post in the same forum thread, to require for example a substantial first answer and allow shorter follow-up replies. Set to 0 to accept replies of any length.
+Minimum reply length when the user already has a post in the same forum thread, to require for example a substantial first answer and allow shorter follow-up replies. A shorter reply is refused with a message that gives this minimum and the number of words the reply contains. Set to 0 to accept replies of any length.
 
 *Default: `0`*
 
