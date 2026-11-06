@@ -22,6 +22,8 @@ Every call runs as the connected user, so a tool only ever sees and modifies cou
 | Get user course test score | Return a student's latest and best completed scores on a test |
 | Create training satisfaction survey | Create a seven-question satisfaction survey |
 | Create course learning path | Create a learning path from pages supplied by the MCP client |
+| Set learning path item prerequisite | Make a learning path item available only once an earlier item of the same learning path is completed (with a score range when that item is a test), or remove the prerequisite; works for learning paths attached to a session when the session is given |
+| Set course introduction | Replace, or clear, the introduction section shown on the course homepage, for the base course or for one session of it (the session introduction then supersedes the base one inside that session) |
 | Create course Toolbox application | Generate a versioned SCORM 1.2 application in the course AI Toolbox and optionally publish it |
 | Update course Toolbox application | Generate a new AI-assisted version of an existing Toolbox application while keeping previous versions |
 | List documents | List the documents in a course's Documents tool |
