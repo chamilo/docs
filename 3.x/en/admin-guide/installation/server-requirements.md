@@ -27,7 +27,7 @@ Before installing Chamilo 3.0, verify that your server meets the following requi
 | **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
 | **mbstring** | Multibyte string handling (UTF-8 support) |
 | **openssl** | Cryptographic operations (HTTPS, password hashing, JWT tokens) |
-| **pdo**, plus **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the driver matching your database) |
+| **pdo**, plus **pdo_mysql** | Database connectivity (the MySQL/MariaDB PDO driver) |
 | **soap** | SOAP web service handling |
 | **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
 | **zlib** | Compression used internally by several dependencies |
