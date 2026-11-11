@@ -19,6 +19,17 @@ Each page has:
 
 On a multi-URL (multi-portal) install, pages are also scoped per access URL, so each portal manages its own content.
 
+## Where Each Category Appears
+
+The page creation and edition form ends with two diagrams that show where the pages of each category are displayed. Use them to pick the right **Category** before writing the content.
+
+![The page edition form, with the title, friendly URL, enabled, category, language and content fields, followed by two diagrams of the login page and of the interface of signed-in users, whose blue areas are labelled with the page categories index, faq, demo, footer_public, home, menu_links and footer_private](../../.gitbook/assets/admin-pages-form.png)
+
+* **Login page (visitors who are not signed in)** — the `index` pages fill the main area next to the login form, and the `footer_public` pages are shown in the footer. The `index`, `faq` and `demo` categories also appear as entries in the top bar.
+* **Interface of signed-in users** — the `home` pages fill the main area of the home page. The `menu_links` pages are listed in the side menu and the `footer_private` pages are shown in the footer.
+
+The highlighted blue areas are the places a page can take; the grey blocks are Chamilo's own interface, which pages do not replace.
+
 ## Menu Link Categories
 
 Two categories turn their enabled pages into a list of links (each link shows the page title and opens the page) instead of rendering their content in place:

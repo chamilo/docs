@@ -242,6 +242,17 @@ screenshots:
     and crop with those coordinates - card heights shift with translated text length, so do not reuse
     another language''s pixel coordinates. See localize-screenshots.md Step 4a.'
   confidence: verified
+- file: admin-pages-form.png
+  doc_page: admin-guide/platform/pages.md
+  alt: The page edition form, with the title, friendly URL, enabled, category, language and content fields,
+    followed by two diagrams of the login page and of the interface of signed-in users, whose blue areas
+    are labelled with the page categories index, faq, demo, footer_public, home, menu_links and footer_private
+  url: /resources/pages/new
+  role: admin
+  steps: 'Wait for the two svg.schema diagrams at the bottom of the form (they only exist in the build that
+    includes the page layout schema), hide the fixed floating chat button, then take a full-page screenshot
+    cropped to the main area (x 256, y 90, width 1168 on a 1440 px wide viewport), without the sidebar.'
+  confidence: verified
 - file: admin-plugins-block.png
   doc_page: admin-guide/plugins/README.md
   alt: The Plugins block on the administration dashboard, listing shortcuts to installed plugins that
