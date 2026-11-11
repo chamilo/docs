@@ -105,6 +105,14 @@ In the **list view**, the Excel (`.xls`) export writes each assessed activity an
 
 For example, an activity result of 18 out of 20 is exported as a percentage-formatted numeric cell (shown as **90.00%**), **18** in the score column and **20** in the maximum-score column. A learner with no recorded result has blank score cells, not zeroes. This applies specifically to the Excel export of the assessment list; it does not imply the same column structure for CSV, PDF or other export formats.
 
+## Security Token on Action Links
+
+Some links that used to change data on a plain GET now carry a per-session security token, so a link copied from an old page, a bookmark, or a link opened from another site no longer performs the action: the user is shown the "not allowed" page (or, for certificates, a "Security token expired, reload the page" message). Reload the page and use the button again. Users who click the buttons normally notice no change.
+
+* Gradebook (course and "my gradebook" pages): delete or show/hide a category, evaluation or link; move a category or evaluation; create the missing categories; delete a learner's result or one attempt of it.
+* Gradebook certificates list: **Generate certificates**.
+* Session > Scheduled announcements: **Send pending announcements manually**. The scheduled sending done by cron (`app:send-scheduled-announcements` / `main/cron/scheduled_announcement.php`) is unaffected.
+
 ## Tips
 
 * **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
