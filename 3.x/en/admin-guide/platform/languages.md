@@ -24,3 +24,12 @@ Right-to-left languages (such as Arabic, Hebrew, or Persian) automatically switc
 ## Sub-Languages
 
 If the **Allow sub-languages** setting is enabled, additional actions appear for creating "sub-languages" — partial overrides of a parent language, historically used for regional dialects or organization-specific terminology tweaks. This is a legacy feature; most installations won't need it.
+
+## Order of People's Names
+
+Chamilo displays and sorts people's names according to the convention of the interface language in use.
+
+* **Given name first** (for example "Maria Garcia"), sorted by given name: Spanish (es, es_MX), Galician (gl), Malay (ms_MY), and all other languages not listed below.
+* **Family name first** (for example "Yamada Taro"), sorted by family name: Japanese, Korean, Chinese (simplified and traditional), Vietnamese and Hungarian.
+
+Spanish, Spanish (Mexico), Galician and Malay were previously treated as family-name-first; they now follow the given-name-first order. The convention is built into the platform language definitions (it is not stored per installation), so no administrator action is needed on upgrade.
