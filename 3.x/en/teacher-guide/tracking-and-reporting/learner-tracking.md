@@ -66,6 +66,17 @@ When **Allow private messages between teachers about a learner** (`message.priva
 
 The learner's report in one course, opened with the details button, also shows the learner's classes and the same **Messages** block.
 
+## Learning Path Scores: the Best Attempt Counts
+
+> **Behaviour change.** Learning path statistics now use each learner's **best attempt** per item instead of the average of all attempts.
+
+When a learner opens a learning path item (SCORM item or test) several times, the score shown in the learning path statistics is the score of the learner's best attempt of that item. Before, every attempt was added to the total and counted as an extra item, so the score shown was the average of all attempts: a learner who scored 9/10 and then 4/10 on the same item was shown 65%; they are now shown 90%.
+
+* There is one value per item and per learner: the attempt with the highest score/maximum ratio. When two attempts have the same ratio, the latest one is used. A test attempt is compared with its own maximum (random questions can change it), so 8/10 beats 9/20.
+* The "latest attempt" columns of the learner follow-up page are unchanged (they still show the latest attempt); the "best score" columns now agree with the default score.
+* It applies wherever the learning path score is displayed or exported: course and session reports, the learner follow-up page ("My students"), the learning path report, the user portal, the Reporting dashboard overview and their CSV/Excel exports.
+* Existing tracking data is not modified; only how it is summarised changes, so figures of past attempts are recalculated on display.
+
 ## Tracking Views
 
 You can view tracking data from different perspectives:
