@@ -53,4 +53,27 @@ BuyCourses can reconcile Stripe invoice history for older recurring services who
 
 After upgrading, test a complete course purchase, a session purchase if sold, a delayed/replayed webhook, expired and partial BTCPay invoices, an automatic renewal, and cancellation with access lasting until the end of the paid period. Keep credentials and webhook secrets out of screenshots, logs, and support tickets.
 
+## Payment hardening
+
+### Gateway amount check (Redsys / Cecabank)
+
+When the bank notifies the platform that a payment succeeded, BuyCourses compares the amount the bank charged (in cents, from the signed notification) with the price of the sale. If they differ, the notification is refused, the sale stays pending and a line `[BuyCourses] Redsys notification refused` or `[BuyCourses] Cecabank notification refused` is written to the PHP error log. Normal payments are unaffected.
+
+If a sale stays pending although the buyer paid, check the log: a price changed after the order was created, or a partial payment, will show up there. Complete such a sale manually from the sales report once verified.
+
+### Security tokens
+
+* Coupon forms (add / configure), the public plan cards form, and the payout actions use the same BuyCourses admin token as every other plugin admin page. A form left open for a long time still works as long as the session is alive; after logging out and in again, reload the page before saving (otherwise a "Not validated" message is shown).
+* The "request invoice" page (`request_invoice.php`) and the web trigger of `process_recurring_subscriptions.php` need the token in the link (`buycourses_admin_sec_token=...`). Links that were bookmarked or mailed without it show "Not validated". The command-line/cron run (`php .../process_recurring_subscriptions.php` or the console command) is unchanged and needs no token.
+* Success pages (PayPal, Stripe, subscriptions, services) only show a sale to the user who bought it.
+* Payout actions (PayPal mass payment, cancelling a payout) are restricted to platform administrators (session administrators are no longer accepted) and must be sent as POST with the token.
+
+### Dates
+
+The end date of a subscription sale is now always computed in UTC, like the sale date, whatever the server timezone is.
+
+### Multi-URL limits
+
+The course-creation and hosting limits applied when a service expires follow the same rule as the rest of the platform: a setting locked, or marked not changeable, on the main URL cannot be overridden by another URL.
+
 Changes: [BTCPay #9286](https://github.com/chamilo/chamilo-lms/pull/9286), [recurring services #9288](https://github.com/chamilo/chamilo-lms/pull/9288), [Stripe reconciliation #9293](https://github.com/chamilo/chamilo-lms/pull/9293), [service sale totals #9220](https://github.com/chamilo/chamilo-lms/pull/9220).
