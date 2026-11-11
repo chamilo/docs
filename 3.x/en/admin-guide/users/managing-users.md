@@ -96,6 +96,33 @@ Select multiple users in the user list to perform batch actions:
 * Delete multiple users
 * Assign users to a course or session
 
+## Merging User Accounts
+
+The **Unify** action of the duplicate-users report (**Administration > Reports > Duplicate users**) merges the other accounts of a duplicate group into the account you keep. The merged accounts are soft-deleted and then permanently deleted.
+
+### Who May Merge
+
+* Only administrators (`ROLE_ADMIN` or `ROLE_GLOBAL_ADMIN`). Session administrators cannot merge accounts.
+* Both the account you keep and every account merged into it must be inside the access URLs you manage: a global administrator restricted to a sub-portal tree can only merge users of that tree; a plain administrator only users of the URL(s) they are registered to. Duplicates outside your scope are ignored; if none is inside your scope the action is refused.
+* You cannot merge your own account into another one.
+
+### What Is Refused
+
+The whole operation is cancelled (nothing is merged) with an explicit message when:
+
+* the account to merge holds an administrative role (administrator, global administrator, session administrator) that the account to keep does not hold: the roles are never transferred, so the privilege would silently vanish;
+* the account to merge is a **teacher** (teacher or HR manager role) and the account to keep is a **student** (none of the teacher, HR manager or administrator roles). The reverse direction (student into teacher) and same-role merges stay allowed.
+
+### What Is Merged
+
+Everything that belongs to the learner follows the kept account: course, session, class and URL subscriptions, learning path progress, exercise attempts and tracking, gradebook results and certificates, attendance, forum, blog, wiki, dropbox, assignments, surveys (invitations and the answers of non-anonymous surveys), tickets, messages, skills, certificates/transcripts, career, justification documents, shared resource links (`resource_link.user_id`), authorship (who created or last edited an item) and audit logs.
+
+When both accounts have a row for the same item (same course, same learning path, same evaluation, same course vote...) the kept account's row wins and the merged account's row is dropped (or, when other data hangs from it, left on the merged account). Answers to a survey that both accounts answered are not combined: only the kept account's stay.
+
+### What Is Never Merged
+
+Credentials and private data are left on the (deleted) merged account, so one person's identity is never handed to another account: sign-in methods (`user_auth_source`), OAuth tokens and consents, password-reset requests, push subscriptions and API keys, AI-tutor and support-bot conversations, dashboard blocks, user templates, saved searches and notification-event subscriptions. Anonymous survey answers are never touched. The username, e-mail and password of the kept account are never changed.
+
 ## Tips
 
 * **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
