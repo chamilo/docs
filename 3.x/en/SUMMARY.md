@@ -219,6 +219,7 @@
     * [Achievement Certificates](admin-guide/maintenance/achievement-certificates.md)
     * [Signed Certificate Verification](admin-guide/maintenance/signed-certificate-verification.md)
     * [Completing Stuck Learning Path Final Items](admin-guide/maintenance/learning-path-final-items.md)
+    * [Repair and Conversion Commands](admin-guide/maintenance/repair-commands.md)
   * [MCP](admin-guide/mcp.md)
   * [Appendix](admin-guide/appendix/faq.md)
     * [FAQ](admin-guide/appendix/faq.md)

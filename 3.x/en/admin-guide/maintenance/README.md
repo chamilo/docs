@@ -8,3 +8,4 @@ Regular maintenance keeps your Chamilo platform running smoothly.
 * **[Achievement Certificates](achievement-certificates.md)** — Batch-generate missing course-completion certificates
 * **[Signed Certificate Verification](signed-certificate-verification.md)** — Issue, verify and revoke consent-based signed credentials
 * **[Completing Stuck Learning Path Final Items](learning-path-final-items.md)** — Unstick learners who finished a learning path but never opened its final "Congratulations" step
+* **[Repair and Conversion Commands](repair-commands.md)** — Console repair commands, read-only by default, and the `--apply` option
