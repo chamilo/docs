@@ -39,3 +39,15 @@ Classes in the administration panel are platform-wide groups used to organize us
 * **Edit** — Change the group name, description, or visibility
 * **Manage members** — Add or remove members
 * **Delete** — Remove the group (does not delete the member accounts)
+
+## Sort Order of the Lists
+
+The helper that sorted several lists applied the requested direction upside down: choosing "ascending" in a column header returned the highest value first, and "descending" the lowest first. It now follows the direction asked for. If you were used to clicking a header twice to get the order you wanted, the first click now gives it.
+
+Lists affected (sorted by clicking a column header):
+
+* **Administration > Classes / user groups** list (title, users, courses, sessions and type columns)
+* The user groups list of the course **Classes** tab
+* Three lists of the course home pages (served by `course_home.ajax.php`)
+
+Unchanged: the agenda day cell, the next-exercise block of the user portal (explicitly ascending, as before) and the session **Exercises** grid, whose rows are then re-sorted by the grid itself (initial order: oldest first).
