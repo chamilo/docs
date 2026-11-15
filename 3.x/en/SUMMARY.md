@@ -276,6 +276,7 @@
     * [Session Student Enrollment](developer-guide/api/session-students.md)
     * [Class Subscriptions](developer-guide/api/class-subscriptions.md)
     * [Course Administration](developer-guide/api/course-administration.md)
+    * [Course Copy](developer-guide/api/course-copy.md)
     * [User Account Status](developer-guide/api/user-account-status.md)
     * [User Connection Time](developer-guide/api/user-connection-time.md)
     * [User Creation](developer-guide/api/user-creation.md)

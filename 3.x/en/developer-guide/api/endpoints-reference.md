@@ -24,7 +24,7 @@ Not all operations are enabled for every resource — security constraints apply
 | Resource | Path | Description |
 |----------|------|-------------|
 | Users | `/api/users` | User accounts |
-| Courses | `/api/courses` | Courses |
+| Courses | `/api/courses` | Courses (see also [Course Copy](course-copy.md) at `POST /api/courses/copy`) |
 | Sessions | `/api/sessions` | Training sessions |
 | Promotions | `/api/promotions` | Career promotions, read-only (see [Session Promotion](session-promotion.md)) |
 | Resource Nodes | `/api/resource_nodes` | Unified content nodes |
