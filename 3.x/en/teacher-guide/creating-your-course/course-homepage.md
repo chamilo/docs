@@ -4,7 +4,7 @@ The course homepage is the first page your learners see when they enter a course
 
 ## Course Introduction
 
-The course introduction is a rich-text area displayed at the top of the homepage, above the tool grid. Use it to:
+The course introduction is a rich-text area on the homepage. By default it sits above the tool grid. Use it to:
 
 * Welcome your learners
 * Describe the course objectives
@@ -19,11 +19,24 @@ To edit the introduction:
 
 If no introduction has been created yet, you will see a button to **Create an introduction**.
 
+### Choosing where the introduction appears
+
+You can place the introduction above, below, to the left or to the right of the tools.
+
+* On the course homepage, use the **Introduction position** selector on the introduction block. Learners only see the result; they do not see the selector.
+* You can also change this in [Course Settings](course-settings.md), under **Course homepage**.
+
+The default is **Above the tools**, which keeps the previous layout.
+
+On smaller screens, **Left of the tools** and **Right of the tools** stack the introduction above the tools so the page stays readable.
+
+If the course sequence column is shown on the right of the homepage, a **Right of the tools** introduction is displayed above the tools instead, so the two columns do not overlap. The setting itself is kept: if the sequence column is hidden later, the introduction moves to the right. **Left of the tools** can appear beside the tools with the sequence column still on the far right.
+
 ## Tool Grid
 
 ![The course homepage tool grid showing available course tools with icons and visibility toggles](../../.gitbook/assets/course-homepage-tool-grid.png)
 
-Below the introduction, the course tools are displayed in a grid layout. Each tool appears as a card with:
+The course tools are displayed in a grid layout, next to or below the introduction depending on the position you chose. Each tool appears as a card with:
 
 * An icon representing the tool
 * The tool name

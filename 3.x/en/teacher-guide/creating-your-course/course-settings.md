@@ -76,6 +76,12 @@ Control how the **Chat** tool will show.
 
 * **Default visibility for new tests** — Decide whether a test you create (or import) is visible to learners straight away, or invisible until you publish it. This section only appears when the platform administrator allows each course to choose; otherwise the platform default applies (visible, unless changed).
 
+### Course Homepage
+
+* **Course introduction position** — Choose whether the course introduction appears above, below, to the left or to the right of the tools on the course homepage. The default is above the tools. On smaller screens, the left and right options are shown above the tools. If the course sequence column is also shown, a right-hand introduction is displayed above the tools so the two columns do not overlap.
+
+You can also change this position from the introduction block on the [course homepage](course-homepage.md) itself.
+
 ### Thematic Advance Settings
 
 Configure how the thematic advance messages will appear on the course homepage.
