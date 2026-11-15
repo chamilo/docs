@@ -95,6 +95,8 @@ A private comment:
 
 A file attached to a private comment is private too. The score is not: if you change it while sending a private comment, the learner sees the new score.
 
+When you export a PDF list of submissions, private comments are left out by default. If the assignment contains at least one private comment, the export dialog shows an **Include teacher-only comments** checkbox, which is unticked until you choose otherwise. Tick it to add those comments to the teacher's PDF, each labelled **Private (teachers only)**. If the assignment has no private comments, the checkbox is not shown and the export starts immediately. Learners never receive private comments in an export.
+
 ### AI-Assisted Grading
 
 If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
