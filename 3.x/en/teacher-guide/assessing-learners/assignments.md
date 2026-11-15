@@ -82,6 +82,19 @@ The teacher who creates a new assignment follows it automatically and may unfoll
 5. Optionally upload a **corrected file** as an attachment
 6. Save
 
+### Private Comments for Teachers
+
+Tick **Private (teachers only)** before you send a comment to keep it between the course staff. Use it for notes such as a suspected plagiarism case or a reminder for a colleague who will grade next.
+
+A private comment:
+
+* Is shown with a **Private (teachers only)** badge in the comments list
+* Can be read and written by the course teachers and tutors, and by the general coaches and course coaches of the session
+* Is never shown to the learner, and does not count in the comment total the learner sees
+* Sends no e-mail or notification, even when **Send mail to student** was ticked
+
+A file attached to a private comment is private too. The score is not: if you change it while sending a private comment, the learner sees the new score.
+
 ### AI-Assisted Grading
 
 If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
