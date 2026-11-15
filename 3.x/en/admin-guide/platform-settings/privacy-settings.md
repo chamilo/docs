@@ -2,7 +2,7 @@
 
 Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Privacy**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -47,4 +47,22 @@ If you already manage your personal data protection declaration to users elsewhe
 **Hide fields from users list in course**
 
 By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
+
+### `allow_personal_data_export_to_url`
+
+**Allow users to send their personal data export to a URL**
+
+When enabled, a user can ask Chamilo to POST their personal data (JSON) to an HTTPS address they provide. The request is signed and private or internal addresses are blocked. Disabled by default.
+
+*Default: `false`*
+
+### `personal_data_export_hmac_secret`
+
+**HMAC secret for personal data export to a URL**
+
+Shared secret used to sign POST requests when a user sends their personal data to another service. Share it only with receiving services so they can verify the signature. Leave empty to generate one automatically on first use. Rotate it if it may have been disclosed.
+
+This value is stored as a confidential setting. Do not publish it in screenshots or issue trackers. The signature algorithm and headers are described in the student guide's [Personal Data](../../student-guide/account-and-security/personal-data.md) page.
+
+*Default: empty (a secret is generated on first use)*
 

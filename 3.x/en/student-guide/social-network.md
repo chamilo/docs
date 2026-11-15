@@ -6,7 +6,7 @@ Chamilo includes a built-in social network for connecting with other users on th
 
 Click **Social network** <img src="../.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> in the sidebar to expand it, then click **Home**. If this option isn't there at all, your administrator has disabled it for your platform — there's nothing missing on your end.
 
-The same expanded section also lists **Messages**, **My friends**, **Social groups** — and, a little unexpectedly, **My files** (your personal file storage) and **Personal data** (an export of the personal data the platform holds about you). Those last two aren't social features; they're just grouped into this part of the sidebar.
+The same expanded section also lists **Messages**, **My friends**, **Social groups** — and, a little unexpectedly, **My files** (your personal file storage) and **[Personal data](account-and-security/personal-data.md)** (review and export the personal data the platform holds about you). Those last two aren't social features; they're just grouped into this part of the sidebar.
 
 ## Your Social Wall
 

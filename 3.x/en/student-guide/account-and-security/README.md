@@ -5,6 +5,7 @@ Your Chamilo account gives access to your courses, your grades, and your persona
 * **[Resetting Your Password](resetting-your-password.md)** — What to do if you forget your password, or want to change it
 * **[Two-Factor Authentication](two-factor-authentication.md)** — Add a second layer of protection to your account, if your administrator has enabled it
 * **[CAPTCHA](captcha.md)** — Why you might be asked to prove you're human on the login, registration, or lost-password forms
+* **[Personal Data](personal-data.md)** — Review the data the platform holds about you, and download it as JSON or send it to another service
 * **[My Transcript](my-transcript.md)** — View completed certified courses and download unofficial or issued official academic transcripts
 
 Not every feature described here is necessarily active on your platform — administrators can turn each of them on or off. If something described in this section doesn't appear for you, it likely hasn't been enabled.

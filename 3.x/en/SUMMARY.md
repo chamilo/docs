@@ -248,6 +248,7 @@
     * [Resetting Your Password](student-guide/account-and-security/resetting-your-password.md)
     * [Two-Factor Authentication](student-guide/account-and-security/two-factor-authentication.md)
     * [CAPTCHA](student-guide/account-and-security/captcha.md)
+    * [Personal Data](student-guide/account-and-security/personal-data.md)
     * [My Transcript](student-guide/account-and-security/my-transcript.md)
   * [Appendix](student-guide/appendix/faq.md)
     * [FAQ](student-guide/appendix/faq.md)
