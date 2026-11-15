@@ -40,6 +40,8 @@ Find a course in the list to access management options in the *Actions* column:
 
 > Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
 
+After a course is deleted, its code stays reserved: no new course can use it. If you create a course with the same title, it gets another code, for example `MYCOURSE1` instead of `MYCOURSE`. Chamilo keeps a hidden record of the deleted course, so its internal ID is never given to a new course and the platform logs that mention it never point to the wrong course. The deleted course doesn't appear in the course list, the catalogue, statistics, searches or the API. Its address returns a "not found" error.
+
 ## Administrator integrations
 
 Administrators can also synchronize selected course metadata using `PATCH /api/courses/{id}`, or request course deletion with `DELETE /api/courses/{id}`. These API operations require a platform administrator; a teacher cannot use them to bypass the course settings interface. Course deletion through the API may behave differently in multi-URL installations and does not use the maintenance screen's optional deletion of exclusive documents. See [Course Administration API](../../developer-guide/api/course-administration.md) before automating destructive operations.
