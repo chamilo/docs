@@ -25,7 +25,7 @@ Use the **Advanced search** tool to find specific users by name, email, role, or
 
 1. Click **Add a user** from the administration panel
 2. Fill in the required fields:
-   * **First name** and **Last name**
+   * **First name** and **Last name**. The first name can be left empty when **First name required** is turned off (see below).
    * **Email** — Must be unique on the platform
    * **Username** — The login name (must be unique)
    * **Password** — Set an initial password
@@ -51,7 +51,17 @@ For bulk user creation, you can import users from a file:
 4. Choose how to handle existing users (update or skip)
 5. Import
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+The import file should contain columns for at least: first name, last name, email, username, and password. The first name column (and value) is optional when **First name required** is turned off.
+
+## Users with a single name
+
+Some people only have one name. To register them, go to **Administration > Settings > Registration** and set **First name required** to *No*. It is set to *Yes* by default.
+
+When it is set to *No*:
+
+* the registration form, the profile page, the administrator's add/edit user forms and the user import all accept an empty first name
+* the **Last name** stays required, so put the single name there
+* names are shown without a stray space or comma (for example "Doe" rather than "Doe," when names are displayed as *Last name, First name*)
 
 Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
 
