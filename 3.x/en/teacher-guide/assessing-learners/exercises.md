@@ -157,7 +157,9 @@ When many learners answered the same open question, you can score that question 
 
 Only the attempts of the current course or session are listed.
 
-Saving a score here updates the answer's mark and the attempt's total score, nothing else. The learner gets no notification and the attempt stays pending correction. To add comments, notify the learner and release the result, open the attempt with **Full review** and validate the correction as usual.
+Saving a score here updates the answer's mark and the attempt's total score, nothing else. The learner gets no notification and the attempt stays pending correction. While some answers have not been reviewed yet, that running total is shown with an asterisk and the footnote "* Partial score: some answers have not been reviewed yet." The same mark appears in the **Learner score** report and on the attempt result page when the total is visible. It is removed once you validate the full review.
+
+To add comments, notify the learner and release the result, open the attempt with **Full review** and validate the correction as usual.
 
 ## Reviewing Learner Reports
 
