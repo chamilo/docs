@@ -49,7 +49,7 @@ Course and session enrolment, exercise attempts and results, learning-path progr
 * **actor** — an Agent. The Inverse Functional Identifier is an `account` (`homePage` is the portal URL, `name` is your username), plus a display `name`. Email is not repeated here; it lives on the `Person`.
 * **verb** — a standard ADL verb IRI such as `http://adlnet.gov/expapi/verbs/registered`, `attempted`, `completed`, `passed`, `answered`, `commented`, or `attended`, with a short `display`.
 * **object** — an Activity whose `id` is an IRI built from the portal URL, plus a `definition` with `name` and a type IRI (`http://adlnet.gov/expapi/activities/course`, `assessment`, `module`, and similar).
-* **result** — when it applies: `score` (`raw`, `min`, `max`, `scaled`), `success`, `completion`, and `duration` in ISO 8601 (for example `PT5M`).
+* **result** — when it applies: `score` (`raw`, `min`, `max`, `scaled`), `success`, `completion`, and `duration` in ISO 8601 (for example `PT5M`). For an exercise, `success` follows the quiz's own pass percentage (`pass_percentage`) when one is set (greater than zero): the attempt succeeds if `(score / max) × 100` meets that mark. If the quiz has no pass mark, a perfect score (`score` equal to `max`) is reported as success; otherwise `success` is omitted rather than reporting a failure that the exercise itself does not define.
 * **context** — `contextActivities.parent` is the course; the session id and course code, when known, are in `extensions` (`https://chamilo.org/xapi/extensions/session-id` and `https://chamilo.org/xapi/extensions/course-code`).
 * **timestamp** — when the activity took place, as ISO 8601.
 
@@ -58,7 +58,7 @@ Typical mappings:
 | What in Chamilo | Verb | Activity type |
 | --- | --- | --- |
 | Course or session subscription | `registered` | course, or Chamilo's session activity type |
-| Exercise attempt | `attempted` or `completed` | assessment |
+| Exercise attempt | `attempted` or `completed` | assessment. `result.success` uses the quiz pass mark when set; with no pass mark, only a perfect score is marked successful, and other scores omit `success` |
 | Learning path progress | `attempted` or `completed` | module |
 | Assignment submission | `completed` | assignment |
 | Forum post | `commented` | forum topic |
