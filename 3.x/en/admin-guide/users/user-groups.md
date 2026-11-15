@@ -27,6 +27,14 @@ Classes in the administration panel are platform-wide groups used to organize us
 4. Select the users to add, using the arrows to the right side
 5. Click the confirmation button to save
 
+## Previewing Members
+
+The **Users** column of the class list shows how many members each class has. Click the group icon next to that number to open a paginated list of the class members (name and username). Click the number itself to open the full member management page.
+
+Teachers get the same preview in their course, under **Users > Classes**: clicking the member count of a class linked to the course (or, inside a session, to that session) opens the list of its members. Teachers can't preview classes that aren't linked to their course.
+
+On a portal with several URLs, only the members registered in the current URL are counted and listed.
+
 ## Use Cases
 
 * **Department organization** — Group users by department or team
