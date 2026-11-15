@@ -146,6 +146,21 @@ Open-ended questions (open question, oral expression, file upload, annotation an
 
 When **Audio feedback to submitted answers** (`exercise.allow_teacher_comment_audio`) is enabled in the platform settings, the box also offers an **Audio comment**: click **Start recording**, speak, then **Stop recording**, and listen to the result before saving. The recording is saved with the correction, by **Save as draft** or **Save correction**. A new recording replaces the previous one. The learner hears it next to the written comment when the exercise shows feedback.
 
+## Grading Open Questions by Question
+
+When many learners answered the same open question, you can score that question for everyone in one place instead of opening each attempt.
+
+1. Open the exercise **Learner score** report and click **Grade by question** in the toolbar
+2. Pick the **Question** to grade. Only questions that need manual grading are listed (free answer, oral expression, upload answer, annotation, answer in Office document), each with the number of answers not scored yet
+3. Sort the answers by **Submission date** or **Last name**, and tick **Only answers not scored yet** to hide the ones you already scored
+4. Read or listen to each answer, enter the score (between 0 and the question's maximum) and click **Save score**
+
+Only the attempts of the current course or session are listed.
+
+Saving a score here updates the answer's mark and the attempt's total score, nothing else. The learner gets no notification and the attempt stays pending correction. While some answers have not been reviewed yet, that running total is shown with an asterisk and the footnote "* Partial score: some answers have not been reviewed yet." The same mark appears in the **Learner score** report and on the attempt result page when the total is visible. It is removed once you validate the full review.
+
+To add comments, notify the learner and release the result, open the attempt with **Full review** and validate the correction as usual.
+
 ## Reviewing Learner Reports
 
 Open a question in the question editor and expand **Learner reports**. Each report shows the learner, the time, the exercise when available, and the submitted comment. When Chamilo can link the report to the attempt, use **View attempt** to inspect the surrounding answers before correcting the question.
