@@ -26,6 +26,14 @@ For ticket escalation, select a **Default ticket project** and a category belong
 
 The editor validates tree structure before publication. The **Published** and **Archived** versions are read-only; use **Duplicate** to create a new editable draft. Publishing a replacement archives the previously published version in the same scope. From the list, administrators can also import or export a tree and review its conversation history. A published tree must be archived before deletion, and a tree with conversation history cannot be deleted.
 
+## Importing Examples and Reviewing Conversations
+
+Open **Administration > Support bot** and select **Import**. The import dialog offers **Download JSON example** and **Download CSV example**. Download a sample, replace its questions and options with your own, then select the edited `.json` or `.csv` file and import it. Every imported tree starts as a **new draft**; review it and publish it explicitly when ready.
+
+The examples do not require an existing ticket project. If your workflow should create tickets, configure the required project and eligible category after importing.
+
+In the tree list, use **View conversations** to inspect conversation logs for a particular tree, including trees whose conversation count is zero. Conversation histories remain scoped to the relevant user and portal. See [PR #9419](https://github.com/chamilo/chamilo-lms/pull/9419).
+
 ## How users access it
 
 When the setting is on and the portal has a valid published tree, signed-in users see a **Support bot** contact in the docked chat. They answer by choosing the offered options. The bot can resolve the conversation, open a same-site page, or create a ticket and show the link to it. Users can start a new conversation after an earlier one ends.

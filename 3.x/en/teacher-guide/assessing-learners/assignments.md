@@ -47,6 +47,12 @@ Learners open the assignment and:
 
 Learners can see whether they have already submitted and, if allowed, update their submission.
 
+### Rich-Text (HTML) Submissions
+
+When you configure **Allow only text** or **Allow files or online text**, learners can write a formatted answer in the online editor rather than upload a separate document. Chamilo sanitizes the submitted HTML and stores it as an `.html` submission file. It remains subject to the assignment's existing access and deadline rules.
+
+In the teacher's submission list, use **Preview** to open an available HTML submission, or **Correct and rate** to see its content in the review dialog before adding feedback and a score. The HTML is presented safely rather than executed as a learner-supplied script. See [PR #9410](https://github.com/chamilo/chamilo-lms/pull/9410).
+
 ## Reviewing Submissions
 
 ![The assignment submissions list showing student names, dates, files, and grading status](../../.gitbook/assets/assignments-submissions-list.png)

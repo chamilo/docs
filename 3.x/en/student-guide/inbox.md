@@ -22,6 +22,18 @@ Send the reply from the same e-mail address registered on your Chamilo account a
 
 Click the **new message** <img src="../.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> button, choose one or more recipients, write a subject and body, and send. Just like a reply, a new message can go to multiple people at once.
 
+## Inserting a Function Graph
+
+You can add a graph of a mathematical function to a new Inbox message or reply:
+
+1. In the message editor, select **Graph** (the **Insert graph** action).
+2. Enter a function of `x`, for example `x^3`, `sin(x)` or `2*x+1`.
+3. Select **Insert graph**, review the result in your message, and send it.
+
+The expression can use `x`, numbers, `pi`, `e`, parentheses, `+`, `-`, `*`, `/`, `^`, and the functions `sin`, `cos`, `tan`, `sqrt`, `abs`, `log` and `exp`. Use `*` for multiplication and parentheses for function arguments. Expressions are limited to 120 characters. The graph displays a fixed window of approximately **x = -3 to 3** and **y = -10 to 10**, so values outside that window are not shown.
+
+Recipients can view the rendered graph in the Inbox message. This feature is separate from writing [LaTeX mathematical formulas](../teacher-guide/adding-content/math-formulas.md); it plots supported functions rather than evaluating arbitrary scripts or a full graphing-calculator language. See [PR #9439](https://github.com/chamilo/chamilo-lms/pull/9439).
+
 ## Tabs and Actions
 
 Besides your **Inbox**, a tab shows just your **Unread** messages, and another shows **Sent** — what you've sent, for your own reference. A search box lets you find a message by keyword. The buttons above the list let you compose a new message, refresh, delete selected messages, and mark selected messages as read.
