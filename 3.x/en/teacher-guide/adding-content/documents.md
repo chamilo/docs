@@ -84,6 +84,12 @@ Replacing a file is an important feature when you use documents to build learnin
 
 Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
 
+#### Moving several documents at once
+
+In the Documents list, select the files or folders that need to be moved, then use the **Move** action for the selection. Choose the destination folder and confirm. This moves the selected documents together instead of repeating the operation for each item.
+
+The operation respects document edit permissions and the existing folder-move safeguards; an item for which you lack edit rights is not a valid move target. Check the destination and the resulting folder contents after confirmation, especially when moving a mixed selection of files and subfolders. See [bulk document move PR #9349](https://github.com/chamilo/chamilo-lms/pull/9349).
+
 ## OnlyOffice Integration
 
 If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="../../.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.

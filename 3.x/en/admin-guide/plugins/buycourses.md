@@ -49,6 +49,20 @@ The calculation uses the service sale audit history, avoids counting duplicate r
 
 BuyCourses can reconcile Stripe invoice history for older recurring services whose renewal transactions were not fully recorded in the plugin audit log. The **My Services** view and service sales report can refresh those records and update the locally known paid period and totals. Administrators should verify exceptional payment-history differences against Stripe rather than editing sales directly.
 
+## Filtering sales reports
+
+The **course and session sales report** can be filtered by order status, user, date range or email. Optional product filters let you narrow results by product type and product name. The **service sales report** supports status filtering plus user/email/name/order-reference search and a service-name search. Review the active filters before exporting or reconciling sales; the two report screens have different filter controls.
+
+See [BuyCourses sales filters PR #9387](https://github.com/chamilo/chamilo-lms/pull/9387).
+
+## Subscription-linked course lifecycle and deletion safeguards
+
+BuyCourses can close, hide and reactivate courses associated with recurring service subscriptions as their paid status changes. In a service's **Subscription behavior JSON**, `hide_after_days` specifies the delay after closure before hiding a course (default 30 days), while `delete_after_days` specifies the delay after hiding before permanent deletion. Deletion is disabled by default (`null`); only a positive value makes a course eligible.
+
+Administrators can review eligible, pending and blocked courses at `/admin/buycourses/course-lifecycle`. The interface supports a non-destructive simulation and targeted deletion of **one eligible course per execution**, guarded by explicit confirmation. The CLI processor `chamilo:buycourses:process-recurring-subscriptions` also supports `--dry-run`, `--delete-expired` and `--max-deletions` (1–25). Without `--delete-expired`, it does not permanently delete courses.
+
+**Permanent deletion is destructive.** Keep backups and test with disposable courses first. Eligibility checks protect active sales, session-linked courses and inconsistent ownership; automatic deletion is blocked for multi-access-URL installations. Review concurrent renewal/deletion behavior before scheduling destructive cleanup in production. See [subscription course lifecycle PR #9442](https://github.com/chamilo/chamilo-lms/pull/9442).
+
 ## Operational checks
 
 After upgrading, test a complete course purchase, a session purchase if sold, a delayed/replayed webhook, expired and partial BTCPay invoices, an automatic renewal, and cancellation with access lasting until the end of the paid period. Keep credentials and webhook secrets out of screenshots, logs, and support tickets.

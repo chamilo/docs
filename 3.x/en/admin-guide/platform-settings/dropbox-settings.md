@@ -2,7 +2,7 @@
 
 Behaviour of the **Dropbox** file-exchange tool.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -73,3 +73,20 @@ How big (in MB) can a dropbox document be?
 
 *Default: `100000000`*
 
+### `dropbox_user_quota_mb`
+
+**Dropbox: total storage quota per user (MB)**
+
+Maximum combined size of files uploaded by a single user across courses. Recipients do not incur a second charge.
+
+*Default: `0` (unlimited)*
+
+### `dropbox_course_quota_mb`
+
+**Dropbox: total storage quota per course (MB)**
+
+Maximum combined size of Dropbox files for one course, including its sessions. Separate from the Documents course quota.
+
+*Default: `0` (unlimited)*
+
+See [storage quotas PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).
