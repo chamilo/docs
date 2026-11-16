@@ -26,6 +26,16 @@ Once the scan finishes, flagged users are listed with two available actions, eit
 
 Both actions re-verify the selected users against the weak-password list before acting, so a stale or tampered request cannot be used to reset an account that no longer has a weak password.
 
+## Disabling accounts with weak passwords
+
+After the scan identifies weak-password accounts, authorized administrators can disable an eligible account individually or select multiple accounts and use **Disable selected accounts**. Confirm the action before proceeding. The tool also retains the existing password-reset remediation actions.
+
+The checker restricts scans and remediation to the applicable access URL. It does not allow administrators to disable their own accounts or other administrative accounts through this workflow. A disabled account will need an appropriate authorized reactivation process before the person can sign in again. See [weak-password disabling PR #9373](https://github.com/chamilo/chamilo-lms/pull/9373).
+
+## Password castle illustration
+
+The security page includes a localized **password castle** demonstration; the change-password screen also uses the visual guide. It illustrates progressive password-strength characteristics, but it is an **illustration**, not a replacement for the actual password-policy validation. The demonstration password is not submitted or stored by the visualizer. Continue to enforce the configured password policy rather than relying on the picture alone. See [password castle PR #9447](https://github.com/chamilo/chamilo-lms/pull/9447).
+
 ## Recommended Use
 
 * Run this scan periodically, especially after a bulk user import (imported accounts sometimes ship with simple default passwords)

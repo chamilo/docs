@@ -47,3 +47,15 @@ When both categories have pages, the `menu_links` links are listed first.
 * Creates the placement on the fly and takes you straight to creating its content
 
 Whatever you save here is rendered as an info box directly above the registration form — a natural place for instructions, terms specific to your organization, or context prospective users should read before signing up. Leave it disabled (or never create it) to show the plain registration form with no intro text.
+
+## Publishing a page in all languages
+
+In the page editor's language selector, choose **All languages** when the same page should be visible regardless of the visitor's interface language. Use a specific language for localized content instead. Existing language-specific pages and locale fallback behavior are preserved; this feature does not automatically translate a page.
+
+See [all-languages pages PR #9398](https://github.com/chamilo/chamilo-lms/pull/9398).
+
+## Deleting several pages or related language versions
+
+The Pages list supports selecting multiple entries and choosing **Delete selected pages**. Review the confirmation list carefully before deleting them. When deleting an individual page, Chamilo can also display candidate pages in other languages so you can explicitly select related versions to remove.
+
+Pages in different languages are **not automatically linked**. Do not select a similarly named page unless you have verified it is the correct translation or counterpart. Deletions are destructive, so review the selection and preserve a copy of important CMS content first. See [bulk and multilingual page deletion PR #9331](https://github.com/chamilo/chamilo-lms/pull/9331).

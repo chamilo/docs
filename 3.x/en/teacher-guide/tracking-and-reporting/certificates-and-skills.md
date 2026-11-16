@@ -71,6 +71,18 @@ When the administrator enables signed certificate verification, learners can app
 
 See [Signed Certificate Verification](../../admin-guide/maintenance/signed-certificate-verification.md) for the administrator workflow and important consent limits.
 
+## Importing certificate templates from ZIP files
+
+You can upload a ZIP package containing an HTML certificate template and its images when attaching a certificate to a course assessment. In the certificate template upload view, choose an `.html` file or a `.zip` archive. Chamilo imports the HTML template and embeds supported image assets so the certificate can be previewed and generated without exposing the extracted images as public files.
+
+The ZIP must contain at least one `.html` or `.htm` file. HTML templates may be inside subdirectories; supported image formats are PNG, JPEG, GIF and WebP. Other file types, unsafe archive paths, symbolic links and oversized archives are rejected. If a package contains multiple templates, inspect the imported documents and select the intended certificate template before generating certificates for learners.
+
+Preview a certificate with a test learner before bulk generation, especially when the layout references relative image paths or course-tracking placeholders. See [certificate ZIP import PR #9371](https://github.com/chamilo/chamilo-lms/pull/9371).
+
+## Platform report for expired certificates
+
+Portal administrators have an **Expired certificates** report in Global Reporting. It supports filtering by keyword, session, course, month and year, and lists the expiry date of each matching certificate. This is distinct from the teacher's **Expiring certificates** reminder view described above. See [Global expired certificate report PR #9372](https://github.com/chamilo/chamilo-lms/pull/9372) and the [Global Statistics guide](../../admin-guide/analytics/global-statistics.md).
+
 ## Skills
 
 Skills represent competencies that learners acquire. In Chamilo:

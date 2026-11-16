@@ -185,6 +185,18 @@ The QTI 2 exporter supports single-choice, multiple-choice, free-answer, matchin
 
 For critical assessments, test the exported archive by importing it into a non-production course and checking the questions and answers before using it with learners. This is **not** a guarantee of full QTI 2 coverage for all question types or packages.
 
+## Showing or hiding each question's maximum score
+
+Open an exercise's configuration and locate **Show maximum score per question during the test**. Enable it when learners should see the maximum number of points available for each question while taking an exercise; disable it when this information should be hidden during the attempt.
+
+This controls presentation in the exercise player, not how questions are graded. The configured value is preserved when the exercise is duplicated and applies to both the modern player and supported legacy exercise flow. See [question maximum score PR #9362](https://github.com/chamilo/chamilo-lms/pull/9362).
+
+## Creating a linked copy of an exercise
+
+In the exercise list, use **Create linked exercise** on an exercise where that action is available, then confirm. This creates another exercise linked to the original question set rather than a fully independent copy. Use a normal independent copy when the questions must be edited without affecting related exercises.
+
+Before editing linked questions, verify which other exercises reuse them so a shared change does not unintentionally alter another assessment. The linked-copy action is only shown for eligible exercises. See [linked exercise copy PR #9350](https://github.com/chamilo/chamilo-lms/pull/9350).
+
 ## Tips
 
 * **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment

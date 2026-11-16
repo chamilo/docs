@@ -105,6 +105,18 @@ Individual submission actions:
 
 Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
 
+## Reviewing submissions grouped by learner
+
+For teachers, the assignment detail now groups submissions by student. The initial table shows each learner and the **Number submitted**; open a learner's row to inspect their submissions and access the usual feedback and grading actions. This avoids repeating a learner's identity across the top-level list when multiple submissions are allowed.
+
+The grouping is a presentation change, not a change to submission permissions, deadlines or grading. See [group submissions PR #9424](https://github.com/chamilo/chamilo-lms/pull/9424).
+
+## Sending reminders only to selected learners
+
+Open **Users without submission** from the assignment detail to review learners who have not yet submitted. Select the specific users you want to contact and choose **Remind all selected users**; confirm before sending. **Send email to all** remains available when every learner without a submission should receive a reminder.
+
+A selection is required for the selective action. Check the recipient list before confirming; sending a reminder is an actual email operation, not just a preview. See [selective reminders PR #9386](https://github.com/chamilo/chamilo-lms/pull/9386).
+
 ## Tips
 
 * **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria

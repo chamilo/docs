@@ -33,6 +33,17 @@ The uploaded images are stored in the theme directory (`var/themes/<theme>/image
 
 In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
 
+## Importing, exporting and maintaining color themes
+
+Portal administrators can manage reusable color-theme ZIP packages from the color-theme configuration interface:
+
+1. Select an existing theme and choose **Export theme ZIP** to download a package.
+2. To import a package, choose **Import color theme ZIP**, provide a **New theme name**, select the ZIP file and confirm. The upload control accepts ZIP files smaller than 10 MB.
+3. Use **Rename theme** to change a theme's display name without changing its technical slug.
+4. Use **Delete theme** only for an unused custom theme. Built-in themes and themes referenced by the platform are protected from deletion.
+
+Duplicate imports and invalid archives are rejected. Check theme use across access URLs before deleting custom assets; multi-portal scenarios deserve additional testing. See [color-theme packages PR #9404](https://github.com/chamilo/chamilo-lms/pull/9404).
+
 ## Tips
 
 * **Match your brand** — Choose or customize a theme that matches your organization's brand colors

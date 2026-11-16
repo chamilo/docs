@@ -105,6 +105,10 @@ In the **list view**, the Excel (`.xls`) export writes each assessed activity an
 
 For example, an activity result of 18 out of 20 is exported as a percentage-formatted numeric cell (shown as **90.00%**), **18** in the score column and **20** in the maximum-score column. A learner with no recorded result has blank score cells, not zeroes. This applies specifically to the Excel export of the assessment list; it does not imply the same column structure for CSV, PDF or other export formats.
 
+## Keeping learner names visible in the flat view
+
+In the Assessments **flat view**, the learner's first-name and last-name columns remain frozen while the evaluation columns scroll horizontally. This makes wide score tables easier to inspect without losing track of the learner attached to each row. The change is visual only; it does not alter grades, weights, calculations or exports. See [frozen learner columns PR #9429](https://github.com/chamilo/chamilo-lms/pull/9429).
+
 ## Tips
 
 * **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
