@@ -13,6 +13,12 @@ Open the **Assignments** <img src="../../.gitbook/assets/icons/mdi-inbox-full.sv
 
 Once submitted, you can see confirmation that your work went through. If your teacher allows it, you can update your submission later — otherwise, your first submission is final, so double-check before submitting.
 
+## Writing and Submitting Online Text
+
+If your teacher allows text submissions, choose **Text** when both file and text options are available. Give the submission a title, write your answer in the rich-text editor, and select **Send**. The editor preserves supported formatting in an HTML submission; Chamilo sanitizes the content before storing it as an `.html` file.
+
+If your teacher allows files only, you will not see the text editor. The submission still follows the assignment's deadline, cutoff and permitted-number-of-submissions rules. Your teacher can preview the HTML content during review. See [PR #9410](https://github.com/chamilo/chamilo-lms/pull/9410).
+
 ## Deadlines
 
 Assignments can have two different dates:

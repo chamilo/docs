@@ -51,6 +51,12 @@ From the ticket list, you can see all tickets you have submitted and their curre
 
 Click any ticket to read the full conversation thread and add a reply.
 
+## Identifying the Ticket Creator
+
+The ticket detail now shows the creator's **full name** and **username** (when available), together with their **Roles**. The username helps distinguish people with similar names, while the role labels (for example, Learner, Teacher, or Administrator) provide context for a support request. The creator's name may link to their profile when a profile URL is available.
+
+These details are shown in the ticket view; they do not grant additional permissions or change ticket ownership. See [PR #9403](https://github.com/chamilo/chamilo-lms/pull/9403).
+
 ## Replying to a Ticket
 
 Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
