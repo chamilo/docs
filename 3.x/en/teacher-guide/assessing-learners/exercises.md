@@ -181,7 +181,11 @@ To import, look for the **Import** option in the exercises tool and upload your 
 
 Chamilo 3.1 supports a defined subset of IMS QTI 2 question types. Recent improvements cover **Matching** (`matchInteraction`), including correct associations, and **Fill in the blanks**, including typed blanks (`textEntryInteraction`), dropdown blanks (`inlineChoiceInteraction`) and their per-blank scoring when represented by the imported package.
 
-The QTI 2 exporter supports single-choice, multiple-choice, exact combination, free-answer, matching (including draggable matching) and fill-in-the-blanks questions. Exact combination questions are exported as a multiple-choice interaction that awards the full score only when exactly the correct answers are selected, and are imported back as exact combination questions. Matching and draggable matching are exported using QTI `matchInteraction`; **QTI imports them as standard Matching**, since the QTI interaction does not preserve Chamilo's draggable variant distinction. Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
+The QTI 2 exporter supports single-choice, multiple-choice, exact combination, free-answer, matching (including draggable matching) and fill-in-the-blanks questions. Multiple-answer questions use QTI `choiceInteraction` with `maxChoices="0"`, allowing learners to select more than one option. Exact combination questions award the full score only when exactly the correct choices are selected, and import back as exact combination questions.
+
+Matching and draggable matching both use QTI `matchInteraction`. For draggable matching, Chamilo adds the optional `assessmentItem` label `chamilo:matching-draggable`. **Chamilo-to-Chamilo QTI 2.1 round trips preserve draggable matching (type 19)** when this label is present; ordinary or unmarked matching items import as standard Matching (type 4). Other QTI tools may ignore or remove the optional label, so the draggable presentation is not guaranteed when transferring through another tool.
+
+Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
 
 For critical assessments, test the exported archive by importing it into a non-production course and checking the questions and answers before using it with learners. This is **not** a guarantee of full QTI 2 coverage for all question types or packages.
 
