@@ -181,9 +181,11 @@ To import, look for the **Import** option in the exercises tool and upload your 
 
 Chamilo 3.1 supports a defined subset of IMS QTI 2 question types. Recent improvements cover **Matching** (`matchInteraction`), including correct associations, and **Fill in the blanks**, including typed blanks (`textEntryInteraction`), dropdown blanks (`inlineChoiceInteraction`) and their per-blank scoring when represented by the imported package.
 
-The QTI 2 exporter supports single-choice, multiple-choice, exact combination, free-answer, matching (including draggable matching) and fill-in-the-blanks questions. Multiple-answer questions use QTI `choiceInteraction` with `maxChoices="0"`, allowing learners to select more than one option. Exact combination questions award the full score only when exactly the correct choices are selected, and import back as exact combination questions.
+The QTI 2 exporter supports single-choice, multiple-choice, exact combination, free-answer, matching (including draggable matching), sequence ordering and fill-in-the-blanks questions. Multiple-answer questions use QTI `choiceInteraction` with `maxChoices="0"`, allowing learners to select more than one option. Exact combination questions award the full score only when exactly the correct choices are selected, and import back as exact combination questions.
 
 Matching and draggable matching both use QTI `matchInteraction`. For draggable matching, Chamilo adds the optional `assessmentItem` label `chamilo:matching-draggable`. **Chamilo-to-Chamilo QTI 2.1 round trips preserve draggable matching (type 19)** when this label is present; ordinary or unmarked matching items import as standard Matching (type 4). Other QTI tools may ignore or remove the optional label, so the draggable presentation is not guaranteed when transferring through another tool.
+
+**Sequence ordering (type 18)** is exported and imported using QTI 2.1 `orderInteraction` with an ordered response. A Chamilo-to-Chamilo round trip preserves the correct order, horizontal or vertical orientation, and per-position partial-credit points. QTI tools may use different scoring rules or omit this positional scoring, so verify the imported weights and total score before using an assessment.
 
 Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
 
