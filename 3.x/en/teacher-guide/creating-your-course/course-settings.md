@@ -95,6 +95,14 @@ When the platform administrator allows each course to choose them (`forum_partic
 * **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
 * **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
 
+### Time Spent in the Course
+
+When the platform administrator allows each course to choose it (`show_clock_time_spent_can_be_modified_in_course`), this section lets you decide whether learners see, on every page of the course including the learning paths, a clock with the total time they have spent in the course. Otherwise the platform setting (`show_clock_time_spent_on_all_course_page_for_learner`) applies to every course.
+
+* **Show learners the time spent in the course** — **Yes** to show the clock to the learners of this course, **No** to hide it, or **Use the platform setting**
+
+The clock appears at the bottom left of the page. It shows the time recorded by the course tracking, the same as in the course reports, and stops counting when the learner has been inactive for longer than the platform allows. Teachers never see it, even in the learner view.
+
 ### Autolaunch Settings
 
 A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="../../.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
