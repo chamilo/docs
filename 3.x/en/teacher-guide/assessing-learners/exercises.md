@@ -31,6 +31,20 @@ The exercises tool (also called "tests") lets you create quizzes and exams with 
 | **Start date** | When the exercise becomes available to learners |
 | **End date** | When the exercise stops being available |
 
+### Access Conditions
+
+When the administrator enables **Access conditions before a test** (`allow_final_exam_access_rule`), the **Attempts and timing** part of the advanced settings shows an **Access conditions** block. Use it to keep a test, typically a final exam, closed until the learner is ready:
+
+| Setting | Description |
+|---------|-------------|
+| **Minimum time in the course before starting the test (in minutes)** | The learner can only start the test once they have spent this time in the course, as the course reports count it (the same time as the clock of the time spent in the course). 0 sets no minimum |
+| **Profile field required before starting the test** | A field of the learner's profile, such as a student ID, that must be filled in first. Only the text fields learners can change on their own profile are offered |
+| **The learner can choose not to fill in this field** | Asks the learner a question first (**Question asked before filling in the field**). If they answer No, the field is marked as declined and the test can start |
+
+Until the conditions are met, the start page of the test hides the **Start test** button and tells the learner how much time they still have to spend in the course and what profile field to fill in. The learner fills in the field directly on that page: it only accepts digits (at least 3). Teachers are not concerned by the conditions.
+
+Under the fields, **Access conditions in JSON** shows, read-only, the rule as it will be saved. Check **Edit the JSON** to write it yourself: the fields above are then frozen and the JSON is saved as written, including keys the fields do not edit (such as the `source` of rules imported from an older platform). The JSON must be an object with at least `minimum_minutes_before_exam` (a whole number of minutes) and `user_identifier_field_variable` (the profile field, or an empty string); `allow_user_identifier_opt_out` (true or false) and `user_identifier_opt_out_prompt` are optional. An empty JSON removes the conditions. Unchecking **Edit the JSON** fills the fields from a valid JSON.
+
 ### Attempts and Scoring
 
 | Setting | Description |

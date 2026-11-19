@@ -359,6 +359,17 @@ Make sure users are all set to start the test by providing a simulation of the q
 *Default: `false`*
 
 
+### `allow_final_exam_access_rule`
+
+**Access conditions before a test**
+
+Lets teachers keep a test, such as a final exam, closed until the learner has spent a minimum time in the course and has filled in a required profile field. Teachers set these conditions in the advanced settings of each test. While this setting is off, the conditions are neither shown nor applied.
+
+The setting is turned on automatically when the platform is upgraded with tests that already hold such conditions, and by the `chamilo:migration:migrate-final-exam-access` command when it writes them.
+
+*Default: `false`*
+
+
 ### `quiz_confirm_saved_answers`
 
 **Add checkbox for answers count confirmation**
