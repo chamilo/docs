@@ -2,7 +2,7 @@
 
 Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Course**. This category contains **47 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -316,6 +316,24 @@ Send an email to the platform administrator each time a teacher creates a new co
 
 *Default: `false`*
 
+
+### `show_clock_time_spent_can_be_modified_in_course`
+
+**Time spent clock can be changed by course**
+
+When enabled, teachers can choose in the course settings whether their course shows learners the time spent in the course, instead of following the platform setting.
+
+*Default: `false`*
+
+### `show_clock_time_spent_on_all_course_page_for_learner`
+
+**Show learners the time spent in the course**
+
+Display, on every page of a course including the learning paths, a clock showing learners the total time they have spent in the course, as counted by the course tracking. It keeps running while the learner is active and stops after the maximum inactivity time considered by the tracking.
+
+The clock shows the same time as the course reports: it starts from the time already recorded for the learner in the course (and in the session, when the course is followed in a session), then counts each second. Past the inactivity time set in `maximum_inactive_time_to_consider` (Tracking settings), the tracking stops counting and the clock stops with it, until the learner acts again. Teachers, tutors, coaches and administrators never see the clock.
+
+*Default: `false`*
 
 ### `show_course_duration`
 

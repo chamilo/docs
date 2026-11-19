@@ -31,6 +31,12 @@ When creating or editing a session, you can enroll an entire class at once inste
 
 Platform administrators can use the [Class Subscriptions API](../../developer-guide/api/class-subscriptions.md) to inspect membership and replace a class's users, sessions and courses. Unlike adding one user in the administration interface, each API `PUT` replaces the **complete** corresponding list. Always read the current subscriptions before sending an update.
 
+## Filtering class members using extra fields
+
+When assigning users to a class, use **Extra fields** to filter the available users by a searchable user-profile field. Choose the field, enter or select a value, and add matching users from the available-users panel. Depending on the extra field type, the filter can offer a text input or predefined choices.
+
+Only user extra fields configured as searchable/filterable are offered. Existing class members remain in the selected-members panel while you filter the available users; filtering must not silently remove them. Verify the full selected-members list before saving. See [class membership filters PR #9364](https://github.com/chamilo/chamilo-lms/pull/9364).
+
 ## Tips
 
 * **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team

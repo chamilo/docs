@@ -13,11 +13,11 @@ There are **39 configuration categories** in total, listed alphabetically below.
 ### Platform-wide
 
 * **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
+* **[Platform](platform-settings.md)** (30) — Platform-level identity, time zone, registration policy, online users, performance flags.
 * **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
 * **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
 * **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
+* **[Mail](mail-settings.md)** (22) — Outgoing-mail layout, sender identity, signature.
 * **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
 
 ### Authentication, security & privacy
@@ -42,7 +42,7 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Attendance](attendance-settings.md)** (4)
 * **[Chat](chat-settings.md)** (5)
 * **[Documents](document-settings.md)** (29)
-* **[Dropbox](dropbox-settings.md)** (8)
+* **[Dropbox](dropbox-settings.md)** (10)
 * **[Exercises (Tests)](exercise-settings.md)** (63)
 * **[Forums](forum-settings.md)** (9)
 * **[Glossary](glossary-settings.md)** (3)
@@ -55,7 +55,7 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
 * **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
 * **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[Tracking](tracking-settings.md)** (14) — What is recorded, what reports are exposed.
 
 ### Communication & community
 
@@ -70,7 +70,7 @@ There are **39 configuration categories** in total, listed alphabetically below.
 
 * **[Cron Jobs](crons-settings.md)** (3)
 * **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
+* **[Tickets](ticket-settings.md)** (8) — Helpdesk system.
 * **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
 
 ## How Settings Work
@@ -82,6 +82,12 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
 
 For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+
+## Inline Validation for JSON Settings
+
+Some settings require a JSON value. On these JSON-specific text fields, Chamilo checks the syntax approximately **three seconds** after you stop typing. If the value is invalid, an **Invalid JSON syntax** message appears below the field, and the form cannot be submitted until the syntax is corrected.
+
+The same behaviour is available when editing a JSON setting through the settings search results. Ordinary text fields and disabled settings are not treated as JSON. This browser-side check helps catch typing errors; server-side validation remains in effect. See [PR #9411](https://github.com/chamilo/chamilo-lms/pull/9411).
 
 ## Tips
 

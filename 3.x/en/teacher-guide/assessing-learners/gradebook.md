@@ -113,6 +113,10 @@ Some links that used to change data on a plain GET now carry a per-session secur
 * Gradebook certificates list: **Generate certificates**.
 * Session > Scheduled announcements: **Send pending announcements manually**. The scheduled sending done by cron (`app:send-scheduled-announcements` / `main/cron/scheduled_announcement.php`) is unaffected.
 
+## Keeping learner names visible in the flat view
+
+In the Assessments **flat view**, the learner's first-name and last-name columns remain frozen while the evaluation columns scroll horizontally. This makes wide score tables easier to inspect without losing track of the learner attached to each row. The change is visual only; it does not alter grades, weights, calculations or exports. See [frozen learner columns PR #9429](https://github.com/chamilo/chamilo-lms/pull/9429).
+
 ## Tips
 
 * **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect

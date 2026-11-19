@@ -32,3 +32,9 @@ You can also batch-download selected files as a ZIP.
 * You can send files to individual learners, groups of learners, or all enrolled users
 * You can view files sent to you by learners
 * This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+
+## Dropbox storage limits
+
+An administrator can set a total Dropbox storage quota per user across courses and a separate quota for each course, including sessions. When either configured quota would be exceeded, the upload is rejected. Recipients do not consume a second quota charge just because a file was shared with them.
+
+Both limits default to `0` MB, meaning unlimited. The Dropbox limits are independent of the Documents course quota. See [Dropbox Settings](../../admin-guide/platform-settings/dropbox-settings.md) and [storage quotas PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

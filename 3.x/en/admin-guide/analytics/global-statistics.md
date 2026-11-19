@@ -51,3 +51,13 @@ The **Quarterly report** entry that also appears under System is covered separat
 ## Session
 
 * **Sessions by date** — Sessions starting or ending within a chosen date range (optionally filtered by status): count, average sessions per week, average users per session, average sessions per tutor, breakdowns by category/language/status, and a per-course session count table
+
+## Additional reports in Chamilo 3.1
+
+### Users by language
+
+The **Users by language** statistic groups platform users by their configured language. Use it to understand language distribution when planning localized communication or content. It is a user-language report, not a course-language count (which is listed separately under Courses). See [users by language PR #9397](https://github.com/chamilo/chamilo-lms/pull/9397).
+
+### Expired certificates (Global Reporting)
+
+The administrator **Expired certificates** report is available from Global Reporting rather than as a teacher's course-only certificate list. Filter by keyword, course session, course, month or year and inspect the expiry date and certificate link. Its view is intended for portal-wide certificate review and is distinct from reminders for certificates that will expire soon. See [global expired certificates PR #9372](https://github.com/chamilo/chamilo-lms/pull/9372) and [Certificates and Skills](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md).

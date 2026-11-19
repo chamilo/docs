@@ -2,7 +2,7 @@
 
 How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **21 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Mail**. This category contains **22 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -167,4 +167,12 @@ During special CSV cron imports of users, automatically replace e-mails with dum
 
 *Default: `false`*
 
+### `mailer_dsn_massmailing`
 
+**Mass mailing DSN**
+
+Optional Symfony Mailer DSN for course and platform announcement broadcasts. Leave it empty to use the main mail transport configured with `mailer_dsn`. Individual notifications continue using the main transport. Configure and test the additional mail transport with your mail provider before using it for large broadcasts.
+
+*Default: empty (main transport)*
+
+See [mass-mail transport PR #9406](https://github.com/chamilo/chamilo-lms/pull/9406).

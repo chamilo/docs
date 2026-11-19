@@ -31,6 +31,20 @@ The exercises tool (also called "tests") lets you create quizzes and exams with 
 | **Start date** | When the exercise becomes available to learners |
 | **End date** | When the exercise stops being available |
 
+### Access Conditions
+
+When the administrator enables **Access conditions before a test** (`allow_final_exam_access_rule`), the **Attempts and timing** part of the advanced settings shows an **Access conditions** block. Use it to keep a test, typically a final exam, closed until the learner is ready:
+
+| Setting | Description |
+|---------|-------------|
+| **Minimum time in the course before starting the test (in minutes)** | The learner can only start the test once they have spent this time in the course, as the course reports count it (the same time as the clock of the time spent in the course). 0 sets no minimum |
+| **Profile field required before starting the test** | A field of the learner's profile, such as a student ID, that must be filled in first. Only the text fields learners can change on their own profile are offered |
+| **The learner can choose not to fill in this field** | Asks the learner a question first (**Question asked before filling in the field**). If they answer No, the field is marked as declined and the test can start |
+
+Until the conditions are met, the start page of the test hides the **Start test** button and tells the learner how much time they still have to spend in the course and what profile field to fill in. The learner fills in the field directly on that page: it only accepts digits (at least 3). Teachers are not concerned by the conditions.
+
+Under the fields, **Access conditions in JSON** shows, read-only, the rule as it will be saved. Check **Edit the JSON** to write it yourself: the fields above are then frozen and the JSON is saved as written, including keys the fields do not edit (such as the `source` of rules imported from an older platform). The JSON must be an object with at least `minimum_minutes_before_exam` (a whole number of minutes) and `user_identifier_field_variable` (the profile field, or an empty string); `allow_user_identifier_opt_out` (true or false) and `user_identifier_opt_out_prompt` are optional. An empty JSON removes the conditions. Unchecking **Edit the JSON** fills the fields from a valid JSON.
+
 ### Attempts and Scoring
 
 | Setting | Description |
@@ -181,9 +195,29 @@ To import, look for the **Import** option in the exercises tool and upload your 
 
 Chamilo 3.1 supports a defined subset of IMS QTI 2 question types. Recent improvements cover **Matching** (`matchInteraction`), including correct associations, and **Fill in the blanks**, including typed blanks (`textEntryInteraction`), dropdown blanks (`inlineChoiceInteraction`) and their per-blank scoring when represented by the imported package.
 
-The QTI 2 exporter supports single-choice, multiple-choice, free-answer, matching (including draggable matching) and fill-in-the-blanks questions. Matching and draggable matching are exported using QTI `matchInteraction`; **QTI imports them as standard Matching**, since the QTI interaction does not preserve Chamilo's draggable variant distinction. Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
+The QTI 2 exporter supports single-choice, multiple-choice, exact combination, free-answer, matching (including draggable matching), sequence ordering and fill-in-the-blanks questions. Multiple-answer questions use QTI `choiceInteraction` with `maxChoices="0"`, allowing learners to select more than one option. Exact combination questions award the full score only when exactly the correct choices are selected, and import back as exact combination questions.
+
+**Unique answer with unknown (type 10)** uses a QTI 2.1 `choiceInteraction` with a single answer. Chamilo includes the fixed **Don't know** choice with zero points and an optional `assessmentItem` label `chamilo:unique-answer-unknown`. When a package produced by Chamilo is imported back into Chamilo, this label restores type 10 and its fixed answer. Unmarked single-choice questions import as ordinary Unique answer (type 1), even when one choice says "Don't know". Other QTI tools may ignore or remove the label, so verify the question type and scoring after transfers.
+
+Matching and draggable matching both use QTI `matchInteraction`. For draggable matching, Chamilo adds the optional `assessmentItem` label `chamilo:matching-draggable`. **Chamilo-to-Chamilo QTI 2.1 round trips preserve draggable matching (type 19)** when this label is present; ordinary or unmarked matching items import as standard Matching (type 4). Other QTI tools may ignore or remove the optional label, so the draggable presentation is not guaranteed when transferring through another tool.
+
+**Sequence ordering (type 18)** is exported and imported using QTI 2.1 `orderInteraction` with an ordered response. A Chamilo-to-Chamilo round trip preserves the correct order, horizontal or vertical orientation, and per-position partial-credit points. QTI tools may use different scoring rules or omit this positional scoring, so verify the imported weights and total score before using an assessment.
+
+Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
 
 For critical assessments, test the exported archive by importing it into a non-production course and checking the questions and answers before using it with learners. This is **not** a guarantee of full QTI 2 coverage for all question types or packages.
+
+## Showing or hiding each question's maximum score
+
+Open an exercise's configuration and locate **Show maximum score per question during the test**. Enable it when learners should see the maximum number of points available for each question while taking an exercise; disable it when this information should be hidden during the attempt.
+
+This controls presentation in the exercise player, not how questions are graded. The configured value is preserved when the exercise is duplicated and applies to both the modern player and supported legacy exercise flow. See [question maximum score PR #9362](https://github.com/chamilo/chamilo-lms/pull/9362).
+
+## Creating a linked copy of an exercise
+
+In the exercise list, use **Create linked exercise** on an exercise where that action is available, then confirm. This creates another exercise linked to the original question set rather than a fully independent copy. Use a normal independent copy when the questions must be edited without affecting related exercises.
+
+Before editing linked questions, verify which other exercises reuse them so a shared change does not unintentionally alter another assessment. The linked-copy action is only shown for eligible exercises. See [linked exercise copy PR #9350](https://github.com/chamilo/chamilo-lms/pull/9350).
 
 ## Tips
 

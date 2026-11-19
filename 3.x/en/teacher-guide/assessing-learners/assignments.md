@@ -47,6 +47,12 @@ Learners open the assignment and:
 
 Learners can see whether they have already submitted and, if allowed, update their submission.
 
+### Rich-Text (HTML) Submissions
+
+When you configure **Allow only text** or **Allow files or online text**, learners can write a formatted answer in the online editor rather than upload a separate document. Chamilo sanitizes the submitted HTML and stores it as an `.html` submission file. It remains subject to the assignment's existing access and deadline rules.
+
+In the teacher's submission list, use **Preview** to open an available HTML submission, or **Correct and rate** to see its content in the review dialog before adding feedback and a score. The HTML is presented safely rather than executed as a learner-supplied script. See [PR #9410](https://github.com/chamilo/chamilo-lms/pull/9410).
+
 ## Reviewing Submissions
 
 ![The assignment submissions list showing student names, dates, files, and grading status](../../.gitbook/assets/assignments-submissions-list.png)
@@ -104,6 +110,18 @@ Individual submission actions:
 ## Linking to the Gradebook
 
 Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+
+## Reviewing submissions grouped by learner
+
+For teachers, the assignment detail now groups submissions by student. The initial table shows each learner and the **Number submitted**; open a learner's row to inspect their submissions and access the usual feedback and grading actions. This avoids repeating a learner's identity across the top-level list when multiple submissions are allowed.
+
+The grouping is a presentation change, not a change to submission permissions, deadlines or grading. See [group submissions PR #9424](https://github.com/chamilo/chamilo-lms/pull/9424).
+
+## Sending reminders only to selected learners
+
+Open **Users without submission** from the assignment detail to review learners who have not yet submitted. Select the specific users you want to contact and choose **Remind all selected users**; confirm before sending. **Send email to all** remains available when every learner without a submission should receive a reminder.
+
+A selection is required for the selective action. Check the recipient list before confirming; sending a reminder is an actual email operation, not just a preview. See [selective reminders PR #9386](https://github.com/chamilo/chamilo-lms/pull/9386).
 
 ## Tips
 

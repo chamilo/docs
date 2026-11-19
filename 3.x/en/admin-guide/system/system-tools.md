@@ -28,6 +28,8 @@ Long-running steps report progress so the page can be safely left open while the
 
 **System > File info** lists every uploaded resource file, searchable by name, showing its physical path, whether it's an orphan (not linked to any course or session), and how many places reference it. From here you can attach an orphaned file to a resource, detach it, or delete it — useful for tracking down and cleaning up storage that no longer belongs to any course.
 
+To find where a file is actually used, open its **File info** details and inspect **File locations**. Chamilo lists known document or personal-file locations with their paths and, where applicable, links to open those locations. The details also show the physical file path separately. A file can have more than one location; an empty list means no document or personal-file location was found for that resource. Check the locations before detaching or permanently deleting a shared file. See [PR #9438](https://github.com/chamilo/chamilo-lms/pull/9438).
+
 ## Resources by Type
 
 **System > Resources by type** lets you pick a resource type and see, across every course and session, an aggregated count and list of items of that type, when they were created, and (where applicable) which users are associated with them. Use it to answer questions like "how many forums exist platform-wide" or "which courses have the most documents."

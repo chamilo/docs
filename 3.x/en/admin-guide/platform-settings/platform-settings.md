@@ -2,7 +2,7 @@
 
 Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Platform**. This category contains **30 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -237,3 +237,13 @@ An array of role => true/false that defines whether that role should be shown or
 Enable to use an array to define which roles should be clearly displayed and which should be hidden.
 
 *Default: `false`*
+
+### `personal_files_quota_mb`
+
+**My Files: total storage quota per user (MB)**
+
+Maximum total size of personal files owned by each user. This limit does not apply to course documents, Dropbox or BuyCourses benefits.
+
+*Default: `0` (unlimited)*
+
+See [storage quotas PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

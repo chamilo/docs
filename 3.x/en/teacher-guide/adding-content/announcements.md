@@ -32,6 +32,12 @@ The **Preview** button is not very intuitive: it allows you to see whom this ann
 
 Announcements are displayed in reverse chronological order (newest first).
 
+## Mass-mail delivery configuration
+
+Administrators can configure a separate mail transport for course and platform announcement broadcasts. When enabled, this affects how announcement emails are sent; it does not change the announcement editor, recipient choices or the normal transport used by individual notifications.
+
+If delivery differs between individual messages and announcements, ask a platform administrator to check **Administration > Configuration settings > Mail > Mass mailing DSN** (`mail.mailer_dsn_massmailing`). If this optional setting is empty, announcements use the main email transport. See [mass-mail transport PR #9406](https://github.com/chamilo/chamilo-lms/pull/9406).
+
 ## Tips
 
 * **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
