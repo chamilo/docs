@@ -1,50 +1,50 @@
 # Rapports de cours
 
-Les rapports de cours vous offrent une vue agrégée de l’activité et des performances de l’ensemble des apprenants de votre cours.
+Les rapports de cours vous offrent une vue d'ensemble de l'activité et des performances de l'ensemble des apprenants de votre cours.
 
 ## Accéder aux rapports de cours
 
-Ouvrez l’outil **Suivi** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d’accueil du cours et sélectionnez la vue des rapports au niveau du cours.
+Ouvrez l'outil **Suivi** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> depuis la page d'accueil du cours et sélectionnez la vue des rapports au niveau du cours.
 
-![Vue d’ensemble du suivi du cours affichant les indicateurs d’engagement et le résumé de l’activité des apprenants](../../.gitbook/assets/tracking-course-overview.png)
+![Vue d'ensemble du suivi du cours présentant les indicateurs d'engagement et le résumé de l'activité des apprenants](../../.gitbook/assets/tracking-course-overview.png)
 
 ## Rapports disponibles
 
-### Vue d’ensemble de l’activité
+### Vue d'ensemble de l'activité
 
-Un résumé de l’engagement global dans le cours, comprenant les apprenants inscrits, le temps passé dans le cours, la progression du cours, la progression des exercices et la note moyenne, ainsi que l’activité des devoirs.
+Un résumé de l'engagement global dans le cours, comprenant les apprenants inscrits, le temps passé dans le cours, la progression du cours, la progression des exercices et le score moyen, ainsi que l'activité liée aux travaux.
 
-Des vues détaillées distinctes sont disponibles depuis la section de suivi pour les **ressources** (nombre d’accès par ressource), les **outils** (utilisation par outil) et les **événements** (journal brut des événements).
+Des vues détaillées distinctes sont disponibles dans la section de suivi pour les **ressources** (nombre d'accès par ressource), les **outils** (utilisation par outil) et les **événements** (journal brut des événements).
 
-### Rapports d’exercices
+### Rapports d'exercices
 
 Pour chaque exercice du cours :
 
-* Nombre d’apprenants l’ayant tenté
-* Note moyenne
-* Distribution des notes
-* Nombre d’apprenants ayant réussi (selon le seuil de réussite que vous avez défini)
+* Nombre d'apprenants qui l'ont tenté
+* Score moyen
+* Répartition des scores
+* Nombre d'apprenants qui ont réussi (selon le seuil de réussite que vous avez défini)
 
-### Rapports de parcours d’apprentissage
+### Rapports de parcours d'apprentissage
 
-Pour chaque parcours d’apprentissage :
+Pour chaque parcours d'apprentissage :
 
-* Taux d’achèvement pour l’ensemble des apprenants
+* Taux d'achèvement pour l'ensemble des apprenants
 * Pourcentage moyen de progression
 * Temps passé par élément
 * Apprenants ayant terminé le parcours par rapport à ceux encore en cours
 
-### Rapports de devoirs
+### Rapports de travaux
 
-Pour chaque devoir :
+Pour chaque travail :
 
 * Nombre de soumissions reçues
-* Nombre d’évaluations en attente
+* Nombre de corrections en attente
 
 ## Exporter les données
 
-Vous pouvez exporter les données de suivi et de rapport pour une analyse plus approfondie. Recherchez l’option **Exporter** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les données dans un format compatible avec un tableur.
+Vous pouvez exporter les données de suivi et de rapports pour une analyse plus approfondie. Recherchez l'option **Exporter** <img src="../../.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> afin de télécharger les données dans un format compatible avec les tableurs.
 
 ## Rapports de session
 
-Si vous enseignez au sein d’une session, les rapports sont limités aux apprenants de la session. Les tuteurs de session ont accès aux rapports de tous les cours de leur session. Un paramètre de configuration global peut également permettre aux enseignants de voir les devoirs à travers toutes les sessions utilisant leur cours (demandez à votre administrateur).
+Si vous enseignez dans le cadre d'une session, les rapports sont limités aux apprenants de cette session. Les tuteurs de session ont accès aux rapports de tous les cours de leur session. Un paramètre de configuration globale peut également permettre aux enseignants de consulter les travaux de toutes les sessions utilisant leur cours (demandez à votre administrateur).

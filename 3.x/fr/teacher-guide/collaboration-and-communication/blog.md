@@ -1,37 +1,43 @@
 # Blog
 
-L'outil Blog vous permet de créer un blog partagé au sein de votre cours. Les apprenants peuvent rédiger des articles, laisser des commentaires et participer à des activités d'écriture structurées.
+L'outil blog vous permet de créer un blog partagé au sein de votre cours. Les apprenants peuvent rédiger des billets, laisser des commentaires et participer à des activités d'écriture structurées.
 
 ## Création d'un blog
 
 1. Ouvrez l'outil **Blog** depuis la page d'accueil du cours (sous l'icône d'engrenage en haut)
-2. Cliquez sur **New project**
-3. Saisissez un **title** et un sous-titre facultatif
+2. Cliquez sur **Nouveau projet**
+3. Saisissez un **titre** et un sous-titre facultatif
 4. Enregistrez
-5. Décidez du moment où vous souhaitez le rendre disponible aux étudiants en cliquant sur l'icône **Show** (œil)
+5. Décidez du moment où vous souhaitez le rendre disponible aux étudiants en cliquant sur l'icône **Afficher** (œil)
 
 Vous pouvez créer plusieurs blogs au sein d'un même cours (par exemple, un par thème ou un par groupe).
 
-## Rédaction d'articles de blog
+## Périmètre du cours et de la session
+
+Les blogs suivent exactement le contexte de cours/session dans lequel ils ont été créés. Lorsque vous travaillez au sein d'une session, cette session dispose de ses propres ressources de blog et de sa propre liste de membres : les blogs du cours de base ne sont pas hérités automatiquement, et un blog d'une session n'est pas exposé dans une autre session.
+
+Cette séparation s'applique également aux billets, commentaires, tâches, évaluations et pièces jointes appartenant au blog. Revenez au même contexte de cours/session pour gérer un blog de session.
+
+## Rédaction des billets de blog
 
 1. Ouvrez un blog
-2. Cliquez sur **New post**
-3. Saisissez un **title** et rédigez le contenu de l'article à l'aide de l'éditeur de texte enrichi
+2. Cliquez sur **Nouveau billet**
+3. Saisissez un **titre** et rédigez le contenu du billet à l'aide de l'éditeur de texte enrichi
 4. Enregistrez
 
-Les enseignants comme les apprenants (selon les permissions) peuvent créer des articles.
+Les enseignants comme les apprenants (selon les permissions) peuvent créer des billets.
 
 ## Commentaires et évaluations
 
-Les lecteurs peuvent interagir avec les articles de blog par :
+Les lecteurs peuvent interagir avec les billets de blog par le biais de :
 
-* **Comments** — Laisser un retour ou lancer une discussion sous un article (les commentaires peuvent également être imbriqués en réponses à d'autres commentaires)
-* **Ratings** — Noter les articles afin de mettre en évidence les contributions les plus appréciées
-* **Attachments** — Les articles comme les commentaires peuvent contenir des pièces jointes
+* **Commentaires** — Laissez un retour ou lancez une discussion sous un billet (les commentaires peuvent également être organisés en fils de discussion sous forme de réponses à d'autres commentaires)
+* **Évaluations** — Évaluez les billets afin de mettre en avant les contributions les plus appréciées
+* **Pièces jointes** — Les billets comme les commentaires peuvent comporter des pièces jointes
 
 ## Tâches du blog
 
-Vous pouvez créer des **tasks** au sein d'un blog — des devoirs d'écriture spécifiques que les apprenants doivent réaliser sous forme d'articles de blog. Cela est utile pour :
+Vous pouvez créer des **tâches** au sein d'un blog — des devoirs d'écriture précis que les apprenants doivent réaliser sous forme de billets de blog. Cela est utile pour :
 
 * Les journaux de réflexion
 * Les devoirs d'écriture hebdomadaires
@@ -41,6 +47,6 @@ Vous pouvez créer des **tasks** au sein d'un blog — des devoirs d'écriture s
 
 En tant qu'enseignant, vous pouvez :
 
-* **Edit or delete** des articles et des commentaires (la suppression d'un article est limitée à l'auteur de l'article ou aux enseignants)
-* **Toggle blog visibility** pour afficher ou masquer le blog aux apprenants
-* **Define tasks** — Ajouter des devoirs d'écriture spécifiques que les apprenants sont censés réaliser sous forme d'articles. Les tâches peuvent être codées par couleur pour un regroupement visuel plus aisé.
+* **Modifier ou supprimer** des billets et des commentaires (la suppression d'un billet est réservée à l'auteur du billet ou aux enseignants)
+* **Basculer la visibilité du blog** pour afficher ou masquer le blog aux apprenants
+* **Définir des tâches** — Ajoutez des devoirs d'écriture précis que les apprenants sont censés réaliser sous forme de billets. Les tâches peuvent être codées par couleur afin de faciliter le regroupement visuel.

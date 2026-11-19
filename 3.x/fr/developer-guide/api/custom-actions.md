@@ -1,6 +1,6 @@
 # Actions personnalisées
 
-Au-delà des opérations CRUD standard, Chamilo dispose d’un certain nombre de contrôleurs d’actions API personnalisées (de l’ordre de plusieurs dizaines) qui gèrent des opérations spécialisées. Le nombre exact varie selon les versions — listez `src/CoreBundle/Controller/Api/` pour l’ensemble actuel.
+Au-delà des opérations CRUD standard, Chamilo dispose d'un certain nombre de contrôleurs d'actions API personnalisées (de l'ordre de plusieurs dizaines) qui gèrent des opérations spécialisées. Le nombre exact varie selon les versions — listez `src/CoreBundle/Controller/Api/` pour obtenir l'ensemble actuel.
 
 ## Emplacement
 
@@ -10,77 +10,77 @@ Les actions personnalisées se trouvent dans `src/CoreBundle/Controller/Api/`.
 
 ### Documents
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreateDocumentFileAction` | Téléverser un fichier ou créer un dossier/lien document |
-| `UpdateDocumentFileAction` | Remplacer le fichier d’un document |
-| `ReplaceDocumentFileAction` | Remplacer le fichier d’un document en conservant ses identifiants |
+| `CreateDocumentFileAction` | Téléverser un fichier ou créer un document de type dossier/lien |
+| `UpdateDocumentFileAction` | Remplacer le fichier d'un document |
+| `ReplaceDocumentFileAction` | Remplacer le fichier d'un document en conservant ses identifiants |
 | `MoveDocumentAction` | Déplacer un document vers un autre dossier |
-| `UpdateVisibilityDocument` | Basculer la visibilité d’un document pour les apprenants |
-| `DownloadAllDocumentsAction` | Télécharger tous les documents d’un dossier sous forme de ZIP |
-| `DownloadSelectedDocumentsAction` | Télécharger un ensemble sélectionné de documents sous forme de ZIP |
-| `DocumentUsageAction` | Lister les cours/sessions où un document est utilisé |
-| `DocumentLearningPathUsageAction` | Lister les parcours d’apprentissage où un document est utilisé |
+| `UpdateVisibilityDocument` | Basculer la visibilité d'un document pour les apprenants |
+| `DownloadAllDocumentsAction` | Télécharger tous les documents d'un dossier sous forme d'archive ZIP |
+| `DownloadSelectedDocumentsAction` | Télécharger un ensemble sélectionné de documents sous forme d'archive ZIP |
+| `DocumentUsageAction` | Lister les cours/sessions dans lesquels un document est utilisé |
+| `DocumentLearningPathUsageAction` | Lister les parcours d'apprentissage dans lesquels un document est utilisé |
 
 ### Glossaire
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `CreateCGlossaryAction` | Créer un terme de glossaire |
 | `UpdateCGlossaryAction` | Mettre à jour un terme de glossaire |
 | `ExportCGlossaryAction` | Exporter le glossaire vers un fichier |
-| `ImportCGlossaryAction` | Importer un glossaire depuis un fichier |
-| `ExportGlossaryToDocumentsAction` | Exporter le glossaire comme document dans le cours |
-| `GetGlossaryCollectionController` | Obtenir la collection de glossaire avec un filtrage personnalisé |
+| `ImportCGlossaryAction` | Importer le glossaire depuis un fichier |
+| `ExportGlossaryToDocumentsAction` | Exporter le glossaire sous forme de document dans le cours |
+| `GetGlossaryCollectionController` | Obtenir la collection du glossaire avec un filtrage personnalisé |
 
 ### Liens
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `CreateCLinkAction` | Créer un lien externe |
 | `UpdateCLinkAction` | Mettre à jour un lien externe |
 | `CreateCLinkCategoryAction` | Créer une catégorie de liens |
 | `UpdateCLinkCategoryAction` | Mettre à jour une catégorie de liens |
-| `CheckCLinkAction` | Vérifier si l’URL d’un lien est accessible |
+| `CheckCLinkAction` | Vérifier si l'URL d'un lien est accessible |
 | `ExportCLinksAction` | Exporter les liens vers un fichier |
-| `CLinkDetailsController` | Obtenir les détails d’un lien |
-| `CLinkImageController` | Obtenir ou définir l’image d’aperçu d’un lien |
+| `CLinkDetailsController` | Obtenir les détails d'un lien |
+| `CLinkImageController` | Obtenir ou définir l'image d'aperçu d'un lien |
 | `GetLinksCollectionController` | Obtenir la collection de liens avec un filtrage personnalisé |
-| `UpdateVisibilityLink` | Basculer la visibilité d’un lien |
-| `UpdateVisibilityLinkCategory` | Basculer la visibilité d’une catégorie de liens |
+| `UpdateVisibilityLink` | Basculer la visibilité d'un lien |
+| `UpdateVisibilityLinkCategory` | Basculer la visibilité d'une catégorie de liens |
 | `UpdatePositionLink` | Réordonner les liens |
 
-### Parcours d’apprentissage
+### Parcours d'apprentissage
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreateCLpAction` | Créer un parcours d’apprentissage |
-| `LpReorderController` | Réordonner les éléments d’un parcours d’apprentissage |
+| `CreateCLpAction` | Créer un parcours d'apprentissage |
+| `LpReorderController` | Réordonner les éléments d'un parcours d'apprentissage |
 
 ### Calendrier
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `UpdateCCalendarEventAction` | Mettre à jour un événement du calendrier de cours |
-| `CalendarMyStudentsScheduleAction` | Obtenir l’emploi du temps des étudiants d’un enseignant |
+| `CalendarMyStudentsScheduleAction` | Obtenir l'emploi du temps des étudiants d'un enseignant |
 
 ### Blog
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreateCBlogAction` | Créer un article de blog |
-| `CreateBlogAttachmentAction` | Joindre un fichier à un article de blog |
+| `CreateCBlogAction` | Créer un billet de blog |
+| `CreateBlogAttachmentAction` | Joindre un fichier à un billet de blog |
 | `UpdateVisibilityBlog` | Basculer la visibilité du blog |
 
 ### Dropbox
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreateDropboxFileAction` | Téléverser un fichier dans la dropbox (outil d’échange de fichiers) |
+| `CreateDropboxFileAction` | Téléverser un fichier dans la dropbox (outil d'échange de fichiers) |
 
-### Travaux d’étudiants (devoirs)
+### Travaux d'étudiants (devoirs)
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `CreateStudentPublicationFileAction` | Soumettre un fichier de devoir |
 | `CreateStudentPublicationCommentAction` | Ajouter un commentaire à une soumission |
@@ -88,46 +88,48 @@ Les actions personnalisées se trouvent dans `src/CoreBundle/Controller/Api/`.
 
 ### Fichiers personnels
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreatePersonalFileAction` | Téléverser un fichier dans l’espace de fichiers personnels de l’utilisateur |
+| `CreatePersonalFileAction` | Téléverser un fichier dans l'espace de fichiers personnels de l'utilisateur |
 | `UpdatePersonalFileAction` | Mettre à jour un fichier personnel |
 
-### Social
+### Réseau social
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `LikeSocialPostController` | Aimer une publication sociale |
-| `DislikeSocialPostController` | Ne plus aimer une publication sociale |
+| `DislikeSocialPostController` | Retirer le « J'aime » d'une publication sociale |
 | `CreateSocialPostAttachmentAction` | Joindre un fichier à une publication sociale |
-| `SocialPostAttachmentsController` | Lister les pièces jointes d’une publication sociale |
+| `SocialPostAttachmentsController` | Lister les pièces jointes d'une publication sociale |
 | `AbstractFeedbackSocialPostController` | Classe de base pour les actions de retour sur les publications sociales |
 
 ### Sessions
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
 | `CreateSessionWithUsersAndCoursesAction` | Créer une session et y inscrire des utilisateurs et des cours en un seul appel |
+| `SessionDuplicateProcessor` (`POST /api/sessions/{id}/duplicate`) | Créer une session à partir d'une session modèle — voir [Duplication de session](session-duplication.md) |
 
-### Utilisateurs et URL d’accès
+### Utilisateurs et URL d'accès
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Créer un utilisateur et l’associer à une URL d’accès |
-| `UserAccessUrlsController` | Lister les URL d’accès auxquelles un utilisateur appartient |
+| `CreateUserOnAccessUrlAction` (`POST /api/access_urls/{id}/user`) | Créer un utilisateur et l'associer à une URL d'accès — voir [Création d'utilisateur](user-creation.md) |
+| `UserAccessUrlsController` | Lister les URL d'accès auxquelles un utilisateur appartient |
 | `UserSkillsController` | Lister les compétences attribuées à un utilisateur |
 
 ### Visioconférence
 
-| Controller | Purpose |
+| Contrôleur | Objectif |
 |-----------|---------|
-| `VideoConferenceCallbackController` | Traiter les rappels (callbacks) des fournisseurs de visioconférence externes |
+| `VideoConferenceCallbackController` | Gérer les rappels (callbacks) provenant de fournisseurs externes de visioconférence |
 
+---
 ### Classes de base
 
-| Class | Purpose |
+| Classe | Rôle |
 |-------|---------|
-| `BaseResourceFileAction` | Classe de base pour les actions de téléversement de fichiers ; gère l’analyse multipart, la création de nœuds de ressource et le stockage |
+| `BaseResourceFileAction` | Classe de base pour les actions de téléversement de fichiers ; gère l'analyse multipart, la création de nœuds de ressources et le stockage |
 
 ## Implémentation d'une action personnalisée
 
@@ -152,7 +154,7 @@ Les actions personnalisées sont des contrôleurs Symfony standard référencés
 class CDocument extends AbstractResource { ... }
 ```
 
-La classe d'action elle-même est un contrôleur invocable simple — les services sont injectés via les arguments de la méthode `__invoke()` :
+La classe d'action elle-même est un simple contrôleur invocable — les services sont injectés via les arguments de la méthode `__invoke()` :
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -173,6 +175,6 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 ```
 
 Points clés :
-- `deserialize: false` est défini lorsque l'action lit la requête directement (par ex. les téléversements de fichiers multipart) au lieu de laisser API Platform désérialiser un corps JSON.
-- Les actions de téléversement de fichiers étendent généralement `BaseResourceFileAction`, qui gère l'analyse multipart et le câblage des nœuds de ressource.
+- `deserialize: false` est défini lorsque l'action lit la requête directement (par exemple, les téléversements de fichiers multipart) au lieu de laisser API Platform désérialiser un corps JSON.
+- Les actions de téléversement de fichiers étendent généralement `BaseResourceFileAction`, qui gère l'analyse multipart et le câblage des nœuds de ressources.
 - La sécurité est appliquée via le paramètre `security:` de l'opération, et non à l'intérieur du contrôleur.
