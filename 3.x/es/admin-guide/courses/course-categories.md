@@ -1,6 +1,6 @@
 # Categorías de cursos
 
-Las categorías de cursos ayudan a organizar el catálogo de cursos, lo que facilita a los alumnos encontrar cursos relevantes.
+Las categorías de cursos ayudan a organizar el catálogo de cursos, facilitando que los estudiantes encuentren cursos relevantes.
 
 ## Crear una categoría
 
@@ -8,14 +8,14 @@ Las categorías de cursos ayudan a organizar el catálogo de cursos, lo que faci
 2. Haga clic en **Añadir categoría**
 3. Introduzca:
    * **Código de categoría** — Un identificador único breve
-   * **Nombre de categoría** — El nombre que se muestra (p. ej., "Tecnologías de la información", "Habilidades de gestión")
-   * **¿Permitir añadir cursos en esta categoría?** — Si permite que los cursos la establezcan como categoría, o si solo sirve como un nivel intermedio en una jerarquía 
-   * **Categoría padre** — (Opcional) Coloque esta categoría bajo otra categoría para crear una jerarquía
+   * **Nombre de categoría** — El nombre visible (p. ej., «Tecnologías de la información», «Habilidades de gestión»)
+   * **¿Permitir añadir cursos en esta categoría?** — Si permite que los cursos la establezcan como categoría, o si solo sirve como nivel intermedio en una jerarquía
+   * **Categoría superior** — (Opcional) Coloque esta categoría bajo otra categoría para crear una jerarquía
    * **Descripción** — (Opcional)
-   * **Imagen** — (Opcional) Representará esta categoría, aunque casi no se muestra en ningún sitio
+   * **Imagen** — (Opcional) Representará esta categoría, aunque casi no se muestra en ningún lugar
 4. Pulse *Añadir categoría*
 
-Chamilo crea 3 categorías por defecto: *Language skills*, *PC Skills* y *Projects*. Estas se pueden renombrar, eliminar o conservar, según sus necesidades.
+Chamilo crea 3 categorías de forma predeterminada: *Competencias lingüísticas*, *Competencias informáticas* y *Proyectos*. Estas se pueden renombrar, eliminar o conservar, según sus necesidades.
 
 ## Jerarquía de categorías
 
@@ -23,7 +23,7 @@ Chamilo crea 3 categorías por defecto: *Language skills*, *PC Skills* y *Projec
 
 Las categorías se pueden anidar para crear una estructura de árbol:
 
-* Negocios
+* Empresa
   * Gestión
   * Marketing
   * Finanzas
@@ -32,16 +32,16 @@ Las categorías se pueden anidar para crear una estructura de árbol:
   * Redes
   * Ciberseguridad
 
-Los alumnos que consultan el catálogo de cursos pueden navegar por esta jerarquía para encontrar cursos.
+Los estudiantes que exploran el catálogo de cursos pueden navegar por esta jerarquía para encontrar cursos.
 
 ## Gestionar categorías
 
-* **Editar** — Cambiar el nombre, el código o el padre de la categoría
+* **Editar** — Cambiar el nombre, el código o la categoría superior
 * **Mover** — Cambiar la posición de una categoría en la lista
-* **Eliminar** — Quitar una categoría. Los cursos de una categoría eliminada se mueven a «sin categoría».
+* **Eliminar** — Eliminar una categoría. Los cursos de una categoría eliminada se mueven a «sin categorizar».
 
 ## Consejos
 
-* **Manténgalo simple** — Use categorías amplias que los alumnos puedan comprender de un vistazo
-* **Limite la profundidad** — Evite categorías muy anidadas. Dos o tres niveles suelen ser suficientes.
-* **Asigne categorías al crear el curso** — Anime a los profesores a seleccionar una categoría al crear cursos, para que el catálogo se mantenga organizado
+* **Manténgalo simple** — Utilice categorías amplias que los estudiantes puedan comprender de un vistazo
+* **Limite la profundidad** — Evite categorías profundamente anidadas. Dos o tres niveles suelen ser suficientes.
+* **Asigne categorías durante la creación del curso** — Anime a los docentes a seleccionar una categoría al crear cursos, para que el catálogo se mantenga organizado

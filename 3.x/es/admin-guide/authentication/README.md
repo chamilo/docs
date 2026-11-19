@@ -1,6 +1,6 @@
 # Autenticación
 
-Chamilo admite múltiples métodos de autenticación, desde el sistema integrado de nombre de usuario y contraseña hasta soluciones empresariales de inicio de sesión único.
+Chamilo admite múltiples métodos de autenticación, desde el sistema integrado de usuario y contraseña hasta soluciones empresariales de inicio de sesión único.
 
 ## Archivo de configuración
 
@@ -15,27 +15,28 @@ parameters:
           <config_key>: <value>
 ```
 
-Tras editar el archivo, vacíe y precaliente la caché:
+Después de editar el archivo, limpie y caliente la caché:
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-Los botones de inicio de sesión externos aparecen en la página de acceso una vez actualizada la caché.
+Los botones de inicio de sesión externos aparecen en la página de inicio de sesión una vez actualizada la caché.
 
-## Métodos admitidos
+## Métodos compatibles
 
 * **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook y proveedores OAuth2 genéricos
-* **[Azure Entra ID](azure-entra-id.md)** — Configuración detallada de Azure/Entra ID: registro de la aplicación, asignación de roles basada en grupos, autenticación por certificado y comandos de sincronización de usuarios y grupos
+* **[Servidor de autorización OAuth 2.1](oauth-server.md)** — Clientes OAuth, recursos protegidos MCP, registro y consentimiento
+* **[Azure Entra ID](azure-entra-id.md)** — Configuración detallada de Azure/Entra ID: registro de aplicaciones, asignación de roles basada en grupos, autenticación mediante certificados y comandos de sincronización de usuarios y grupos
 * **[LDAP](ldap.md)** — Autenticación frente a un servidor LDAP o Active Directory
-* **[CAS](cas.md)** — Central Authentication Service (legado, no funcional en 3.x)
+* **[CAS](cas.md)** — Central Authentication Service (heredado, no funcional en 3.x)
 * **[SCIM](scim.md)** — Aprovisionamiento automatizado de usuarios desde proveedores de identidad externos
-* **[Configuración SSO](sso-configuration.md)** — Resolución de problemas y notas entre métodos
+* **[Configuración de SSO](sso-configuration.md)** — Resolución de problemas y notas entre métodos
 
 ## Autenticación predeterminada
 
-De forma predeterminada, Chamilo utiliza su propio sistema interno: los usuarios inician sesión con un nombre de usuario y una contraseña almacenados en la base de datos de Chamilo. Los métodos externos son aditivos: el formulario de inicio de sesión estándar permanece disponible junto a cualquier proveedor configurado.
+De forma predeterminada, Chamilo utiliza su propio sistema interno: los usuarios inician sesión con un nombre de usuario y una contraseña almacenados en la base de datos de Chamilo. Los métodos externos son complementarios: el formulario de inicio de sesión estándar permanece disponible junto con cualquier proveedor configurado.
 
 ## Referencia adicional
 

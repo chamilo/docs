@@ -1,36 +1,42 @@
-# Seguir una ruta de aprendizaje
+# Seguir un itinerario de aprendizaje
 
-Una **ruta de aprendizaje** le guía a través de una secuencia estructurada de actividades — documentos, tests, enlaces y más — en el orden que ha definido su profesor. En muchos cursos, es la herramienta principal (o la única) que realmente necesitará usar, ya que puede agrupar todo lo demás en su interior.
+Un **itinerario de aprendizaje** le guía a través de una secuencia estructurada de actividades — documentos, pruebas, enlaces y más — en un orden definido por su docente. En muchos cursos, es la herramienta principal (o la única) que realmente necesitará utilizar, ya que puede agrupar todo lo demás en su interior.
 
-## Abrir una ruta de aprendizaje
+## Abrir un itinerario de aprendizaje
 
-Abra la herramienta **Rutas de aprendizaje** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Rutas de aprendizaje" data-size="line"> desde la página de inicio del curso y haga clic en una para comenzar. Si su profesor habilitó el **inicio automático**, la ruta de aprendizaje puede abrirse automáticamente en cuanto entre al curso.
+Abra la herramienta **Itinerarios de aprendizaje** <img src="../../.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Itinerarios de aprendizaje" data-size="line"> desde la página de inicio del curso y haga clic en uno para comenzar. Si su docente ha activado el **inicio automático**, el itinerario de aprendizaje puede abrirse automáticamente en cuanto entre en el curso.
 
-![La lista de rutas de aprendizaje de un curso, cada una mostrando su propio progreso](../../.gitbook/assets/student-learning-paths-list.png)
+![La lista de itinerarios de aprendizaje de un curso, cada uno con su propio progreso](../../.gitbook/assets/student-learning-paths-list.png)
 
-## Avanzar por la ruta
+## Avanzar por el itinerario
 
-Dentro de una ruta de aprendizaje, verá:
+Dentro de un itinerario de aprendizaje, verá:
 
-* Una **lista de elementos** (pasos) en un panel, organizados en secciones que su profesor puede haber agrupado como capítulos
-* El **contenido del elemento actual** en el área principal — un documento, un test incrustado, un enlace, etc.
+* Una **lista de elementos** (pasos) en un panel, organizados en secciones que su docente puede haber agrupado como capítulos
+* El **contenido del elemento actual** en el área principal: un documento, una prueba incrustada, un enlace, etc.
 
-A medida que complete elementos, se marcan con una marca de verificación, y una **barra de progreso** muestra su porcentaje global de finalización de toda la ruta. Si se marcha y vuelve más tarde, reanuda exactamente donde lo dejó: no se pierde nada.
+A medida que completa los elementos, se marcan con una marca de verificación, y una **barra de progreso** muestra su porcentaje global de finalización de todo el itinerario. Si sale y vuelve más tarde, reanuda exactamente donde lo dejó: no se pierde nada.
 
 ## Elementos bloqueados y prerrequisitos
 
-Algunos elementos pueden aparecer **bloqueados** hasta que cumpla un prerrequisito establecido por su profesor — normalmente terminar un elemento anterior, o alcanzar una puntuación mínima en un test anterior de la ruta. Si no puede abrir un paso, compruebe si alguno anterior sigue incompleto.
+Algunos elementos pueden aparecer **bloqueados** hasta que cumpla un prerrequisito establecido por su docente, normalmente terminar un elemento anterior o alcanzar una puntuación mínima en una prueba anterior del itinerario. Si no puede abrir un paso, compruebe si alguno anterior sigue incompleto.
 
-## Tests y certificados dentro de una ruta
+## Pruebas y certificados dentro de un itinerario
 
-Una ruta de aprendizaje puede incluir un test como uno de sus pasos: realizarlo funciona igual que se describe en [Realizar tests](taking-tests.md). Algunas rutas terminan con un paso de **certificado**: alcanzarlo (habiendo cumplido los requisitos de puntuación a lo largo del camino) genera su certificado de finalización, si su profesor ha configurado uno para el curso.
+Un itinerario de aprendizaje puede incluir una prueba como uno de sus pasos; realizarla funciona igual que se describe en [Realizar pruebas](taking-tests.md). Algunos itinerarios terminan con un paso de **certificado**: al alcanzarlo (habiendo cumplido los requisitos de puntuación a lo largo del camino) se genera su certificado de finalización, si su docente ha configurado uno para el curso.
 
 ## SCORM y otro contenido importado
 
-Algunos elementos de la ruta de aprendizaje no se construyen directamente en Chamilo, sino que se importan como un paquete **SCORM**, un paquete **CMI5/xAPI**, o se crean con el plugin C-Studio. En general se ven y se comportan como cualquier otro contenido interactivo: Chamilo registra su progreso y su puntuación a través de ellos de la misma forma, aunque el contenido se haya creado en otro lugar.
+Algunos elementos del itinerario de aprendizaje no se crean directamente en Chamilo, sino que se importan como un paquete **SCORM**, un paquete **CMI5/xAPI** o se elaboran con el complemento C-Studio. Por lo general, se ven y se comportan como cualquier otro contenido interactivo: Chamilo registra su progreso y su puntuación de la misma manera, aunque el contenido en sí se haya creado en otro lugar.
+
+## Asistente de estudio con IA
+
+Si su administrador ha activado los asistentes de IA, los pasos de documento de un itinerario de aprendizaje pueden ofrecer un **asistente de estudio con IA**. Seleccione un pasaje del documento y aparecerá una pequeña acción de robot junto a la selección. Ábrala, elija una **técnica de aprendizaje** (por ejemplo, técnica de Feynman, mapas mentales, repetición espaciada o SQ3R) y, a continuación, haga clic en **Generar**.
+
+Chamilo envía el pasaje seleccionado y la técnica al servicio de IA configurado y muestra la explicación generada en un cuadro de diálogo. El asistente está pensado para apoyar su comprensión del material; no modifica sus respuestas, su puntuación ni el progreso del itinerario de aprendizaje.
 
 ## Consejos
 
-* **Use la barra de progreso** para estimar cuánto queda de la ruta.
-* **No se preocupe por perder el lugar** — Chamilo recuerda exactamente dónde se encuentra en una ruta entre sesiones.
-* **Un paso bloqueado suele significar trabajo sin terminar más atrás en la ruta** — vuelva atrás y compruebe, en lugar de asumir que el acceso se denegó por error.
+* **Utilice la barra de progreso** para estimar cuánto queda del itinerario.
+* **No se preocupe por perder su lugar**: Chamilo recuerda exactamente dónde se encuentra en un itinerario entre sesiones.
+* **Un paso bloqueado suele indicar trabajo pendiente en una parte anterior del itinerario**: vuelva atrás y compruébelo en lugar de suponer que el acceso se denegó por error.

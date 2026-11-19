@@ -2,18 +2,18 @@
 
 El Tutor de IA es un chatbot integrado en Chamilo con el que los estudiantes pueden interactuar para obtener respuestas instantáneas generadas por IA. Funciona en dos contextos, con un enfoque distinto en cada uno:
 
-* **Dentro de un curso** — el Tutor de IA se centra en ese curso: responde preguntas sobre su contenido, explica los conceptos que cubre y guía a los estudiantes a través del material.
-* **Fuera de un curso** (en la plataforma general) — el Tutor de IA atiende en cambio preguntas genéricas sobre el uso de la plataforma, como cómo encontrar algo o usar una función, en lugar del contenido del curso.
+* **Dentro de un curso** — el Tutor de IA se centra en ese curso: responde preguntas sobre su contenido, explica los conceptos que trata y guía a los estudiantes a través del material.
+* **Fuera de un curso** (en la plataforma general) — el Tutor de IA atiende en cambio preguntas genéricas sobre el uso de la plataforma, como cómo encontrar algo o utilizar una función, en lugar del contenido del curso.
 
 ## Cómo funciona
 
 Cuando el Tutor de IA está habilitado para un curso, los estudiantes ven una interfaz de chat en la que pueden:
 
 * **Hacer preguntas** sobre el contenido del curso
-* **Obtener explicaciones** de los conceptos cubiertos en el curso
-* **Recibir orientación** sin esperar a que el profesor responda
+* **Obtener explicaciones** de los conceptos tratados en el curso
+* **Recibir orientación** sin esperar a que responda el docente
 
-Dentro de un curso, el Tutor de IA utiliza el contexto de ese curso para ofrecer respuestas pertinentes. Está pensado para complementar su docencia, no para sustituirla.
+Dentro de un curso, el Tutor de IA utiliza el contexto de ese curso para ofrecer respuestas pertinentes. Está diseñado para complementar su enseñanza, no para sustituirla.
 
 ## Habilitar el Tutor de IA
 
@@ -36,21 +36,21 @@ La interfaz de chat muestra el intercambio entre el estudiante y la IA en un for
 
 ## Comportamiento importante
 
-* **Acotado al lugar donde se abre** — Dentro de un curso, el Tutor de IA solo responde sobre ese curso; si se abre desde fuera de cualquier curso, pasa a preguntas generales sobre el uso de la plataforma. El modo de toda la plataforma (fuera del curso) es un interruptor independiente que controla su administrador, distinto del de cada curso.
-* **Deshabilitado durante los exámenes** — El Tutor de IA se deshabilita automáticamente cuando un estudiante está realizando un ejercicio, para evitar trampas
-* **Conversación por estudiante** — Cada estudiante tiene su propia conversación privada con el Tutor de IA, y el contexto de la indicación (prompt) solo incluye los mensajes más recientes
-* **Conmutación por error del proveedor** — Si el proveedor configurado falla, Chamilo pasa a otro proveedor disponible para que el chat siga funcionando
+* **Limitado al lugar desde el que se abre** — Dentro de un curso, el Tutor de IA solo responde sobre ese curso; si se abre fuera de cualquier curso, pasa a preguntas generales sobre el uso de la plataforma. El modo de toda la plataforma (fuera del curso) es un interruptor independiente que su administrador controla por separado del de cada curso.
+* **Deshabilitado durante los exámenes** — El Tutor de IA se deshabilita automáticamente cuando un estudiante está realizando un ejercicio, para evitar el fraude
+* **Conversación por estudiante** — Cada estudiante tiene su propia conversación privada con el Tutor de IA, y el contexto del prompt solo incluye los mensajes más recientes
+* **Conmutación por error del proveedor** — Si el proveedor configurado falla, Chamilo recurre a otro proveedor disponible para que el chat siga funcionando
 
-## Como profesor
+## Como docente
 
 Debe tener en cuenta que:
 
-* El Tutor de IA no siempre da respuestas perfectas: anime a los estudiantes a verificar la información importante
+* El Tutor de IA puede no dar siempre respuestas perfectas: anime a los estudiantes a verificar la información importante
 * Puede revisar el uso del Tutor de IA a través del seguimiento de la plataforma
-* El Tutor de IA es un complemento de su docencia, no un sustituto. Úselo junto con foros, anuncios y mensajería directa para un apoyo integral al estudiante.
+* El Tutor de IA es un complemento de su enseñanza, no un sustituto. Utilícelo junto con los foros, los anuncios y la mensajería directa para ofrecer un apoyo integral a los estudiantes.
 
 ## Consejos
 
-* **Establezca expectativas** — Informe a los estudiantes al inicio del curso de que hay un Tutor de IA disponible y explique cómo usarlo de forma adecuada
-* **Fomente el pensamiento crítico** — Recuerde a los estudiantes que piensen de forma crítica sobre las respuestas generadas por IA
-* **Úselo para preguntas frecuentes** — El Tutor de IA es especialmente útil para atender preguntas habituales que de otro modo tendría que responder repetidamente
+* **Establezca expectativas** — Indique a los estudiantes al inicio del curso que hay un Tutor de IA disponible y explique cómo utilizarlo de forma adecuada
+* **Fomente el pensamiento crítico** — Recuerde a los estudiantes que deben analizar de forma crítica las respuestas generadas por IA
+* **Úselo para las preguntas frecuentes** — El Tutor de IA es especialmente útil para atender las preguntas habituales que, de otro modo, tendría que responder repetidamente

@@ -17,13 +17,13 @@ Una **carrera** representa un itinerario formativo estructurado: una secuencia d
 
 ## Promociones
 
-Una **promoción** representa una cohorte o grupo de alumnado que avanza a través de una carrera. Piénselo como un grupo de personas que recorre el mismo itinerario de carrera al mismo tiempo.
+Una **promoción** representa una cohorte o un grupo de alumnado que progresa a través de una carrera. Piense en ella como un grupo de personas que recorre el mismo itinerario formativo al mismo tiempo.
 
-### Vinculación con sesiones
+### Vincular a sesiones
 
-Tras crear una promoción, se le vinculan sesiones. Esto define la secuencia de formación que el alumnado debe completar.
+Después de crear una promoción, se vinculan sesiones a ella. Esto define la secuencia de formación que el alumnado debe completar.
 
-Más adelante puede replicar promociones para facilitar la creación de la siguiente promoción con copias de las mismas sesiones, de modo que la siguiente promoción se pueda construir al instante.
+Más adelante puede replicar promociones para facilitar la creación de la siguiente promoción con copias de las mismas sesiones, de modo que la próxima promoción pueda configurarse al instante.
 
 ### Crear una promoción
 
@@ -38,9 +38,9 @@ Más adelante puede replicar promociones para facilitar la creación de la sigui
 
 * Una **carrera** define el itinerario (p. ej., «Certificación de desarrollador junior»)
 * Una **promoción** representa una cohorte (p. ej., «Promoción de marzo de 2026»)
-* Las **sesiones** de la promoción imparten el contenido formativo real
+* Las **sesiones** dentro de la promoción imparten el contenido formativo real
 
 ## Consejos
 
-* **Úselo para programas estructurados** — Las carreras y las promociones resultan más útiles en programas formativos de varias etapas en los que el alumnado avanza según una secuencia definida
-* **Seguimiento de la finalización** — Utilice las herramientas de informes para supervisar cómo avanzan las promociones a lo largo de sus itinerarios de carrera
+* **Úselas para programas estructurados** — Las carreras y las promociones son especialmente útiles para programas de formación en varias etapas, en los que el alumnado progresa a través de una secuencia definida
+* **Haga un seguimiento de la finalización** — Utilice las herramientas de informes para supervisar cómo avanzan las promociones a lo largo de sus itinerarios formativos

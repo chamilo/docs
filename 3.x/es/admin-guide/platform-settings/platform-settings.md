@@ -1,8 +1,8 @@
 # Configuración de la plataforma
 
-Identidad y comportamiento a nivel de plataforma: nombre de la institución, zona horaria, política de registro, usuarios en línea, indicadores de rendimiento.
+Identidad y comportamiento a nivel de plataforma: nombre de la institución, zona horaria, política de registro, usuarios en línea y opciones de rendimiento.
 
-Acceda a estos ajustes en **Administración > Configuración > Plataforma**. Esta categoría contiene **29 ajustes**, enumerados a continuación con el título y el comentario incluidos en los fixtures de configuración de la plataforma (`SettingsCurrentFixtures.php`).
+Acceda a estos ajustes en **Administración > Parámetros de configuración > Plataforma**. Esta categoría contiene **30 ajustes**, enumerados a continuación con el título y el comentario incluidos en los fixtures de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
 > El nombre de la variable en el código se muestra en monoespaciado. Úselo al automatizar mediante la API o cuando necesite cambiar esos ajustes a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -20,13 +20,13 @@ Permite a los usuarios subir archivos a un espacio personal en la plataforma.
 
 **Versión actual del esquema de base de datos utilizado por Chamilo**
 
-Muestra la versión actual de la BD para que coincida con la versión del núcleo de Chamilo.
+Muestra la versión actual de la base de datos para que coincida con la versión del núcleo de Chamilo.
 
 ### `cookie_warning`
 
-**Aviso de privacidad de cookies**
+**Aviso de privacidad sobre cookies**
 
-Si está activada, esta opción muestra un banner en la parte superior de la plataforma que pide a los usuarios que reconozcan que la plataforma utiliza cookies necesarias para ofrecer la experiencia de usuario. El banner puede aceptarse y ocultarse fácilmente. Esto permite a Chamilo cumplir la normativa de la UE sobre cookies web.
+Si está activada, esta opción muestra un banner en la parte superior de la plataforma que pide a los usuarios que reconozcan que la plataforma utiliza cookies necesarias para ofrecer la experiencia de usuario. El usuario puede aceptar y ocultar el banner fácilmente. Esto permite a Chamilo cumplir la normativa europea sobre cookies web.
 
 *Valor predeterminado: `false`*
 
@@ -34,15 +34,15 @@ Si está activada, esta opción muestra un banner en la parte superior de la pla
 
 **Desactivar copiar y pegar**
 
-Cuando está activada, esta opción desactiva en la medida de lo posible los mecanismos de copiar y pegar. Útil en configuraciones de exámenes restrictivas.
+Cuando está activada, esta opción desactiva en la medida de lo posible los mecanismos de copiar y pegar. Resulta útil en configuraciones de exámenes restrictivas.
 
 *Valor predeterminado: `false`*
 
 ### `donotlistcampus`
 
-**No listar este campus en chamilo.org**
+**No incluir este campus en chamilo.org**
 
-Por defecto, los portales de Chamilo se registran automáticamente en una lista pública en chamilo.org, utilizando únicamente el título que dio a este portal (no la URL ni ningún dato privado). Marque esta casilla para evitar que aparezca el título de su portal.
+De forma predeterminada, los portales de Chamilo se registran automáticamente en una lista pública en chamilo.org, utilizando únicamente el título que haya asignado a este portal (ni la URL ni ningún dato privado). Marque esta casilla para evitar que aparezca el título de su portal.
 
 *Valor predeterminado: `false`*
 
@@ -50,15 +50,15 @@ Por defecto, los portales de Chamilo se registran automáticamente en una lista 
 
 **Generar nombre de usuario aleatorio**
 
-Al importar usuarios (procesos por lotes), genera automáticamente una cadena aleatoria para el nombre de usuario. En caso contrario, el nombre de usuario se genera a partir del nombre y el apellido, o del prefijo del correo electrónico.
+Al importar usuarios (procesos por lotes), genera automáticamente una cadena aleatoria como nombre de usuario. De lo contrario, el nombre de usuario se generará a partir del nombre y los apellidos, o del prefijo del correo electrónico.
 
 *Valor predeterminado: `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limitar el uso de correos electrónicos idénticos**
+**Limitar el uso del mismo correo electrónico**
 
-Número máximo de cuentas que pueden compartir la misma dirección de correo electrónico. Establezca 0 para desactivar este límite.
+Número máximo de cuentas que pueden compartir la misma dirección de correo electrónico. Establezca el valor en 0 para desactivar este límite.
 
 *Valor predeterminado: `0`*
 
@@ -66,7 +66,7 @@ Número máximo de cuentas que pueden compartir la misma dirección de correo el
 
 **Límite global de usuarios por curso**
 
-Define un número máximo global de usuarios (incluidos los profesores) que pueden estar inscritos en un mismo curso de la plataforma. Establezca este valor en 0 para desactivar el límite. Ayuda a evitar que los cursos se sobrecarguen en portales abiertos.
+Define un número máximo global de usuarios (incluidos los docentes) que pueden estar inscritos en un mismo curso de la plataforma. Establezca este valor en 0 para desactivar el límite. Esto ayuda a evitar que los cursos se sobrecarguen en portales abiertos.
 
 *Valor predeterminado: `0`*
 
@@ -74,7 +74,7 @@ Define un número máximo global de usuarios (incluidos los profesores) que pued
 
 **Nombre de la organización**
 
-El nombre de la organización (aparece en la cabecera a la derecha)
+El nombre de la organización (aparece en el encabezado, a la derecha)
 
 *Valor predeterminado: `Chamilo.org`*
 
@@ -89,22 +89,22 @@ Dirección
 
 **URL de la organización (dirección web)**
 
-La URL de las instituciones (el enlace que aparece en la cabecera a la derecha)
+La URL de la institución (el enlace que aparece en el encabezado, a la derecha)
 
 *Valor predeterminado: `http://www.chamilo.org`*
 
 
 ### `max_courses_per_user`
 
-**Máximo de cursos por usuario**
+**Número máximo de cursos por usuario**
 
-Número máximo de cursos que un profesor/formador puede crear. Establezca 0 para desactivar el límite. Puede anularse por usuario mediante una compra del servicio BuyCourses.
+Número máximo de cursos que puede crear un docente o formador. Establezca el valor en 0 para desactivar el límite. Puede anularse por usuario mediante la compra de un servicio de BuyCourses.
 
 *Valor predeterminado: `0`*
 
 ### `notification_event`
 
-**Activar la herramienta de notificaciones para un canal de comunicación más impactante con los estudiantes**
+**Activar la herramienta de notificaciones para un canal de comunicación más eficaz con los estudiantes**
 
 Activa notificaciones emergentes o del sistema para eventos importantes de la plataforma.
 
@@ -112,15 +112,15 @@ Activa notificaciones emergentes o del sistema para eventos importantes de la pl
 
 ### `pdf_img_dpi`
 
-**Resolución de exportación PDF**
+**Resolución de exportación a PDF**
 
-Representa la resolución de los archivos PDF generados (en puntos por pulgada, o dpi). El valor predeterminado es 96. Aumentarlo dará archivos PDF de mejor resolución, pero también incrementará el peso y el tiempo de generación de los archivos.
+Representa la resolución de los archivos PDF generados (en puntos por pulgada, o dpi). El valor predeterminado es 96. Aumentarlo produce archivos PDF de mejor resolución, pero también incrementa el peso y el tiempo de generación de los archivos.
 
 *Valor predeterminado: `96`*
 
 ### `platform_logo_url`
 
-**URL para un logotipo alternativo de la plataforma**
+**URL del logotipo alternativo de la plataforma**
 
 Sustituye el logotipo de Chamilo cargando una URL (posiblemente remota). Asegúrese de que sus políticas de seguridad lo permiten.
 
@@ -131,7 +131,7 @@ Sustituye el logotipo de Chamilo cargando una URL (posiblemente remota). Asegúr
 
 **Activar el uso compartido avanzado del portafolio**
 
-Decide quién puede ver las publicaciones y los comentarios del portafolio.
+Decida quién puede ver las publicaciones y los comentarios del portafolio.
 
 *Valor predeterminado: `false`*
 
@@ -139,7 +139,7 @@ Decide quién puede ver las publicaciones y los comentarios del portafolio.
 
 **Mostrar las publicaciones del curso base en el curso de sesión**
 
-Decide quién puede ver las publicaciones y los comentarios del portafolio.
+Decida quién puede ver las publicaciones y los comentarios del portafolio.
 
 *Valor predeterminado: `false`*
 
@@ -147,13 +147,13 @@ Decide quién puede ver las publicaciones y los comentarios del portafolio.
 
 **Ajustes de notificaciones push (JSON)**
 
-Configuración JSON para la integración de notificaciones Push.
+Configuración JSON para la integración de notificaciones push.
 
 ### `server_type`
 
 **Tipo de servidor**
 
-Define el tipo de entorno: "prod" (producción normal), "validation" (como producción pero sin informar estadísticas) o "test" (modo de depuración con herramientas para desarrolladores, como indicadores de cadenas no traducidas).
+Define el tipo de entorno: «prod» (producción normal), «validation» (como producción, pero sin informes estadísticos) o «test» (modo de depuración con herramientas para desarrolladores, como indicadores de cadenas no traducidas).
 
 *Valor predeterminado: `prod`*
 
@@ -169,60 +169,60 @@ Si está activada, los administradores de sesión pueden buscar y listar usuario
 
 **Nombre del portal de e-learning**
 
-El nombre de su portal Chamilo (aparece en la cabecera)
+El nombre de su portal Chamilo (aparece en el encabezado)
 
-*Default: `Chamilo site`*
+*Valor predeterminado: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
 **Incremento del selector de hora**
 
-Incremento mínimo de tiempo (en minutos) al seleccionar una fecha y hora con el widget de selector de hora. Por ejemplo, puede no ser útil disponer de incrementos inferiores a 5 o 15 minutos al hablar de la entrega de una tarea, la disponibilidad de una prueba, la hora de inicio de una sesión, etc.
+Incremento mínimo de tiempo (en minutos) al seleccionar una fecha y una hora con el widget selector de hora. Por ejemplo, puede no ser útil disponer de incrementos inferiores a 5 o 15 minutos al hablar del envío de una tarea, la disponibilidad de un examen, la hora de inicio de una sesión, etc.
 
-*Default: `15`*
+*Valor predeterminado: `15`*
 
 ### `timezone`
 
 **Zona horaria predeterminada**
 
-Seleccione la zona horaria predeterminada para este portal. Esto ayudará a establecer la zona horaria (si la función está habilitada) para cada usuario nuevo o para cualquier usuario que aún no haya definido una zona horaria específica. Las zonas horarias ayudan a mostrar toda la información relacionada con el tiempo en pantalla en la zona horaria específica de cada usuario.
+Seleccione la zona horaria predeterminada de este portal. Esto ayudará a establecer la zona horaria (si la función está habilitada) para cada usuario nuevo o para cualquier usuario que aún no haya definido una zona horaria específica. Las zonas horarias permiten mostrar en pantalla toda la información relacionada con el tiempo en la zona horaria específica de cada usuario.
 
-*Default: `Europe/Paris`*
+*Valor predeterminado: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**Binarios del convertidor UNO**
+**Binarios del conversor UNO**
 
-Indique la ruta del sistema a la biblioteca del convertidor UNO para habilitar algunas funciones adicionales de exportación.
+Indique la ruta del sistema a la biblioteca del conversor UNO para habilitar algunas funciones adicionales de exportación.
 
-*Default: `/usr/bin/unoconv`*
+*Valor predeterminado: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Usar el ID externo de carrera en los diagramas**
+**Usar el ID externo de la carrera en los diagramas**
 
-Si se utilizan diagramas de carrera, mostrar un campo extra en lugar del ID interno de la carrera.
+Si se utilizan diagramas de carrera, mostrar un campo adicional en lugar del ID interno de la carrera.
 
-*Default: `false`*
+*Valor predeterminado: `false`*
 
 ### `use_custom_pages`
 
 **Usar páginas personalizadas**
 
-Habilite esta función para configurar páginas de inicio de sesión específicas por rol
+Habilite esta función para configurar páginas de inicio de sesión específicas según el rol
 
-*Default: `false`*
+*Valor predeterminado: `false`*
 
 ### `use_virtual_keyboard`
 
 **Usar teclado virtual**
 
-Hacer que aparezca un teclado virtual. Esto es útil al configurar exámenes restrictivos en una sala física donde los estudiantes no tienen teclado, para limitar su capacidad de hacer trampa.
+Hacer que aparezca un teclado virtual. Esto resulta útil al configurar exámenes restrictivos en un aula física donde los estudiantes no disponen de teclado, a fin de limitar su capacidad de hacer trampas.
 
-*Default: `false`*
+*Valor predeterminado: `false`*
 
 ### `user_status_show_option`
 
@@ -234,6 +234,16 @@ Un array de rol => true/false que define si ese rol debe mostrarse u ocultarse.
 
 **Visualización selectiva de roles**
 
-Habilitar el uso de un array para definir qué roles deben mostrarse claramente y cuáles deben ocultarse.
+Habilite el uso de un array para definir qué roles deben mostrarse claramente y cuáles deben ocultarse.
 
-*Default: `false`*
+*Valor predeterminado: `false`*
+
+### `personal_files_quota_mb`
+
+**Mis archivos: cuota total de almacenamiento por usuario (MB)**
+
+Tamaño total máximo de los archivos personales de cada usuario. Este límite no se aplica a los documentos del curso, Dropbox ni a los beneficios de BuyCourses.
+
+*Valor predeterminado: `0` (ilimitado)*
+
+Consulte [PR de cuotas de almacenamiento #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

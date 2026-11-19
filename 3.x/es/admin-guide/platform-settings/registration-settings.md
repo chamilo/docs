@@ -1,92 +1,97 @@
 # Configuración de registro
 
-Política de autorregistro y redirecciones posteriores al registro: qué se pide a los usuarios nuevos y a dónde llegan.
+Política de autorregistro y redirecciones posteriores al registro: qué se solicita a los nuevos usuarios y dónde llegan.
 
-Acceda a estos ajustes en **Administración > Configuración > Registro**. Esta categoría contiene **21 ajustes**, enumerados a continuación con el título y el comentario incluidos en los fixtures de configuración de la plataforma (`SettingsCurrentFixtures.php`).
+Acceda a estos ajustes en **Administración > Parámetros de configuración > Registro**. Esta categoría contiene **21 ajustes**, enumerados a continuación con el título y el comentario incluidos en los fixtures de ajustes de la plataforma (`SettingsCurrentFixtures.php`).
 
-> El nombre de la variable en el código se muestra en monoespaciado. Úselo al automatizar mediante la API o cuando necesite cambiar esos ajustes a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monoespaciado. Utilícelo al crear scripts a través de la API o cuando necesite cambiar esos ajustes a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
 ## Ajustes
 
 ### `allow_double_validation_in_registration`
 
-**Doble validación en el proceso de registro**
+**Doble validación del proceso de registro**
 
 Simplemente muestra una solicitud de confirmación en la página de registro antes de continuar con la creación del usuario.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `allow_fields_inscription`
 
 **Restringir los campos mostrados durante el registro**
 
-Si solo desea mostrar algunos de los campos de perfil disponibles, puede completar aquí el array con los subelementos 'fields' y 'extra_fields' que contengan arrays con la lista de campos a mostrar.
+Si solo desea mostrar algunos de los campos de perfil disponibles, puede completar aquí el array con los subelementos 'fields' y 'extra_fields', que contienen arrays con la lista de campos que se mostrarán.
 
 ### `allow_invitation_registration` **v3**
 
-**Permitir el registro mediante enlaces de invitación a un curso**
+**Permitir el registro mediante enlaces de invitación a cursos**
 
-Cuando está habilitado, un profesor/administrador puede enviar un enlace de invitación de un solo uso desde la herramienta Usuarios de un curso, que permite a una persona no registrada llegar al formulario de registro e inscribirse incluso si el autorregistro general (`allow_registration`) está deshabilitado.
+Cuando está activado, un docente o administrador puede enviar un enlace de invitación de un solo uso desde la herramienta Usuarios de un curso, que permite a una persona no registrada acceder al formulario de registro y registrarse incluso cuando el autorregistro general (`allow_registration`) está desactivado.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
-Consulte [Inscripción de usuarios](../../teacher-guide/assessing-learners/subscribing-users.md#inviting-users-by-email) para el aspecto de esta función orientado al profesor.
+Consulte [Inscripción de usuarios](../../teacher-guide/assessing-learners/subscribing-users.md#inviting-users-by-email) para conocer el aspecto de esta función orientado al docente.
 
 ### `allow_lostpassword`
 
-**Contraseña perdida**
+**Contraseña olvidada**
 
-¿Se permite a los usuarios solicitar su contraseña perdida?
+¿Se permite a los usuarios solicitar su contraseña olvidada?
 
-*Predeterminado: `true`*
+*Valor predeterminado: `true`*
 
 ### `allow_registration`
 
 **Registro**
 
-¿Está permitido el registro como usuario nuevo? ¿Pueden los usuarios crear cuentas nuevas?
+¿Se permite el registro como nuevo usuario? ¿Pueden los usuarios crear cuentas nuevas?
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registro como profesor**
+**Registro como docente**
 
-¿Puede uno registrarse como profesor (con la capacidad de crear cursos)?
+¿Se puede registrar alguien como docente (con la capacidad de crear cursos)?
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 ### `allow_terms_conditions`
 
-**Habilitar términos y condiciones**
+**Activar términos y condiciones**
 
-Esta opción mostrará los Términos y condiciones en el formulario de registro para usuarios nuevos. Debe configurarse primero en la página de administración del portal.
+Esta opción mostrará los Términos y condiciones en el formulario de registro de los nuevos usuarios. Debe configurarse primero en la página de administración del portal.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
+
+Cuando está activada, un administrador de la plataforma, o un superior del estudiante, puede gestionar el acuerdo de un estudiante desde tres lugares: la página de información del usuario (**Administración > Usuarios**, y después el usuario), la página de seguimiento del estudiante en **Informes** y la página del estudiante de los informes globales (`/reporting/learners/<id>`). El botón es el mismo en todos los casos:
+
+* **Enviar acuerdo legal** envía al estudiante un mensaje, firmado con el nombre del remitente, en el que se le pide que firme los términos y condiciones, con un enlace a la dirección establecida en [`course_validation_terms_and_conditions_url`](course-settings.md#course_validation_terms_and_conditions_url).
+* **Eliminar acuerdo legal** aparece una vez que el estudiante ha aceptado, y elimina esa aceptación, de modo que se le vuelve a pedir que acepte los términos y condiciones.
 
 
-### `drh_autosubscribe`
+### `hrm_autosubscribe`
 
-**Autoinscripción del director de recursos humanos**
+**Autosuscripción del responsable de recursos humanos**
 
-Autoinscripción del director de recursos humanos: aún no disponible
+Códigos de curso separados por `|` (por ejemplo, `COURSE001|COURSE002`). Cuando un responsable de recursos humanos inicia sesión, Chamilo suscribe automáticamente al usuario a los cursos indicados sin cambiar el rol del usuario. El nombre heredado del ajuste `registration.drh_autosubscribe` sigue reconociéndose por compatibilidad.
 
 ### `extendedprofile_registration`
 
-**Campos de portafolio en el registro**
+**Campos del portafolio en el registro**
 
-¿Cuáles de los siguientes campos del portafolio deben estar disponibles en el proceso de registro de usuarios? Esto requiere que la opción de portafolio esté habilitada (véase más arriba).
+¿Cuáles de los siguientes campos del portafolio deben estar disponibles en el proceso de registro de usuarios? Esto requiere que la opción de portafolio esté activada (véase más arriba).
 
 ### `extendedprofile_registrationrequired`
 
-**Campos de portafolio obligatorios en el registro**
+**Campos obligatorios del portafolio en el registro**
 
-¿Cuáles de los siguientes campos del portafolio son *obligatorios* en el proceso de registro de usuarios? Esto requiere que la opción de portafolio esté habilitada y que el campo también esté disponible en el formulario de registro (véase más arriba).
+¿Cuáles de los siguientes campos del portafolio son *obligatorios* en el proceso de registro de usuarios? Esto requiere que la opción de portafolio esté activada y que el campo también esté disponible en el formulario de registro (véase más arriba).
 
 ### `extldap_config`
 
-**Configuración de conexión LDAP**
+**Configuración de la conexión LDAP**
 
 Array que define el host y el puerto del servidor LDAP.
 
@@ -96,17 +101,16 @@ Array que define el host y el puerto del servidor LDAP.
 
 Si se establece en true, elimina la casilla «He leído y acepto» en el flujo de la página de Términos y condiciones.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `platform_unsubscribe_allowed`
 
 **Permitir la baja de la plataforma**
 
-Al habilitar esta opción, permite a cualquier usuario eliminar de forma definitiva su propia cuenta y todos los datos relacionados con ella de la plataforma. Se trata de una acción bastante radical, pero es necesaria en portales abiertos al público donde los usuarios pueden autorregistrarse. Aparecerá una entrada adicional en el perfil del usuario para darse de baja tras confirmación.
+Al activar esta opción, permite que cualquier usuario elimine de forma definitiva su propia cuenta y todos los datos relacionados con ella de la plataforma. Se trata de una acción bastante radical, pero es necesaria en los portales abiertos al público en los que los usuarios pueden autorregistrarse. Aparecerá una entrada adicional en el perfil del usuario para darse de baja tras la confirmación.
 
-*Predeterminado: `false`*
-
+*Valor predeterminado: `false`*
 
 ### `redirect_after_login`
 
@@ -114,12 +118,12 @@ Al habilitar esta opción, permite a cualquier usuario eliminar de forma definit
 
 Defina la redirección por perfil tras el inicio de sesión mediante un objeto JSON como {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Predeterminado:*
+*Valor predeterminado:*
 ```json
 {
   "COURSEMANAGER": "courses",
   "STUDENT": "courses",
-  "DRH": "",
+  "HRM": "",
   "SESSIONADMIN": "admin-dashboard",
   "STUDENT_BOSS": "main/my_space/student.php",
   "INVITEE": "courses",
@@ -127,49 +131,51 @@ Defina la redirección por perfil tras el inicio de sesión mediante un objeto J
 }
 ```
 
+Utilice la clave de rol `HRM` en las nuevas configuraciones de redirección. Los mapas existentes que contienen `DRH` se siguen leyendo por compatibilidad; si ambas claves están presentes, `HRM` tiene prioridad.
+
 ### `required_extra_fields_in_inscription`
 
-**Campos extra obligatorios durante el registro**
+**Campos adicionales obligatorios durante la inscripción**
 
-Array de identificadores de campos extra que deben completarse durante el registro de usuarios.
+Matriz de identificadores de campos adicionales que deben completarse durante la inscripción del usuario.
 
 ### `required_profile_fields`
 
-**Campos obligatorios durante el registro**
+**Campos obligatorios durante la inscripción**
 
-Array de nombres de campos de perfil (email, phone, language, official_code) que deben proporcionarse durante el registro.
+Matriz de nombres de campos de perfil (email, phone, language, official_code) que deben proporcionarse durante la inscripción.
 
 ### `send_inscription_msg_to_inbox`
 
 **Enviar el mensaje de bienvenida al correo electrónico y a la bandeja de entrada**
 
-De forma predeterminada, el mensaje de bienvenida (con las credenciales) se envía solo por correo electrónico. Habilite esta opción para enviarlo también a la bandeja de entrada de Chamilo del usuario.
+De forma predeterminada, el mensaje de bienvenida (con las credenciales) se envía únicamente por correo electrónico. Active esta opción para enviarlo también a la bandeja de entrada de Chamilo del usuario.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `sessionadmin_autosubscribe`
 
-**Autoinscripción del administrador de sesión**
+**Autosuscripción del administrador de sesión**
 
-Autoinscripción del administrador de sesión: aún no disponible
+Autosuscripción del administrador de sesión - aún no disponible
 
 ### `student_autosubscribe`
 
-**Autosuscripción de alumnos**
+**Autosuscripción del estudiante**
 
-Autosuscripción de alumnos: aún no disponible
+Autosuscripción del estudiante - todavía no disponible
 
 ### `teacher_autosubscribe`
 
-**Autosuscripción de profesores**
+**Autosuscripción del profesor**
 
-Autosuscripción de profesores: aún no disponible
+Autosuscripción del profesor - todavía no disponible
 
 ### `user_hide_never_expire_option`
 
-**Ocultar la opción «nunca caduca» para los usuarios**
+**Ocultar la opción 'nunca caduca' para los usuarios**
 
-Elimina la opción «nunca caduca» al crear o editar una cuenta de usuario.
+Elimine la opción 'nunca caduca' al crear o editar una cuenta de usuario.
 
 *Valor predeterminado: `false`*

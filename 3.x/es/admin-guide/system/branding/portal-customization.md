@@ -4,7 +4,7 @@ Personalice el aspecto de su plataforma Chamilo y la información que se muestra
 
 ## Identidad de la plataforma
 
-![La página de personalización del portal que muestra los ajustes de identidad de la plataforma para el nombre, el logotipo y la institución](../../../.gitbook/assets/admin-portal-customization.png)
+![La página de personalización del portal que muestra la configuración de identidad de la plataforma para el nombre, el logotipo y la institución](../../../.gitbook/assets/admin-portal-customization.png)
 
 Configure la identidad básica de su portal:
 
@@ -16,5 +16,5 @@ Configure la identidad básica de su portal:
 ## Consejos
 
 * **Mantenga la página de inicio despejada** — Demasiado contenido en la página de inicio puede resultar abrumador. Céntrese en los anuncios esenciales y en el acceso a los cursos.
-* **Actualice con regularidad** — Mantenga actualizados los anuncios del sistema y elimine los obsoletos
+* **Actualice con regularidad** — Mantenga vigentes los anuncios del sistema y elimine los obsoletos
 * **Cargue un logotipo de alta calidad** — El logotipo es uno de los elementos de marca más visibles. Utilice una imagen nítida y de tamaño adecuado.

@@ -1,8 +1,8 @@
 # Configuración de competencias
 
-Comportamiento del sistema de **Competencias** — árbol de competencias, reglas de otorgamiento, integración con el perfil.
+Comportamiento del sistema de **Competencias**: árbol de competencias, reglas de concesión e integración en el perfil.
 
-Acceda a estos ajustes en **Administración > Configuración > Competencias**. Esta categoría contiene **13 ajustes**, listados a continuación con el título y el comentario incluidos en los fixtures de configuración de la plataforma (`SettingsCurrentFixtures.php`).
+Acceda a estos ajustes en **Administración > Parámetros de configuración > Competencias**. Esta categoría contiene **13 ajustes**, enumerados a continuación con el título y el comentario incluidos en los fixtures de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
 > El nombre de la variable en el código se muestra en monoespaciado. Úselo al automatizar mediante la API o cuando necesite cambiar esos ajustes a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -12,27 +12,27 @@ Acceda a estos ajustes en **Administración > Configuración > Competencias**. E
 
 **Permitir la gestión de competencias por RR. HH.**
 
-Permite que RR. HH. gestione las competencias
+Permite a RR. HH. gestionar las competencias
 
-*Predeterminado: `true`*
+*Valor predeterminado: `true`*
 
 
 ### `allow_private_skills`
 
 **Ocultar las competencias a los estudiantes**
 
-Si está habilitado, las competencias solo serán visibles para administradores, profesores (relacionados con un usuario a través de un curso) y usuarios de RR. HH. (si están relacionados con un usuario).
+Si está activado, las competencias solo son visibles para los administradores, los docentes (relacionados con un usuario a través de un curso) y los usuarios de RR. HH. (si están relacionados con un usuario).
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `allow_skill_rel_items`
 
-**Habilitar la vinculación de competencias con elementos**
+**Activar la vinculación de competencias con elementos**
 
-Esto activa una funcionalidad importante que permite vincular cualquier elemento a (y, por tanto, permitir la adquisición de) una competencia. La funcionalidad sigue requiriendo que el profesor confirme la adquisición de la competencia, por lo que la adquisición no es automática.
+Esto activa una función importante que permite vincular cualquier elemento a una competencia (y, por tanto, permitir su adquisición). La función sigue exigiendo que el docente confirme la adquisición de la competencia, por lo que la adquisición no es automática.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `allow_skills_tool`
@@ -41,49 +41,49 @@ Esto activa una funcionalidad importante que permite vincular cualquier elemento
 
 Los usuarios pueden ver sus competencias en la red social y en un bloque de la página de inicio.
 
-*Predeterminado: `true`*
+*Valor predeterminado: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Permitir que los profesores accedan a las competencias de los estudiantes**
+**Permitir a los docentes acceder a las competencias de los estudiantes**
 
-[inferido] Permite a los instructores ver y supervisar las competencias adquiridas por los estudiantes en sus cursos.
+[inferido] Permitir a los instructores ver y supervisar las competencias adquiridas por los estudiantes en sus cursos.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `badge_assignation_notification`
 
-**Enviar notificación al estudiante cuando se ha adquirido una competencia/insignia**
+**Enviar una notificación al estudiante cuando se haya adquirido una competencia o una insignia**
 
-[inferido] Enviar notificaciones a los estudiantes cuando adquieren una nueva competencia o un logro de insignia.
+[inferido] Enviar notificaciones a los estudiantes cuando adquieran una nueva competencia o un logro de insignia.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `hide_skill_levels`
 
-**Ocultar la funcionalidad de niveles de competencia**
+**Ocultar la función de niveles de competencia**
 
-[inferido] Ocultar la jerarquía de niveles de competencia y las etiquetas de nivel en las vistas relacionadas con competencias.
+[inferido] Ocultar la jerarquía de niveles de competencia y las etiquetas de nivel en las vistas relacionadas con las competencias.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `manual_assignment_subskill_autoload`
 
 **Asignación de competencias a un usuario: carga automática de subcompetencias**
 
-Al asignar competencias a un usuario de forma manual, el formulario puede configurarse para ofrecerle automáticamente asignar una subcompetencia en lugar de la competencia que seleccionó.
+Al asignar competencias manualmente a un usuario, elija el nivel de competencia nivel por nivel en el árbol de competencias en lugar de en una única lista. La primera lista solo muestra las competencias del primer nivel; al seleccionar una se añade una lista con sus subcompetencias, y así sucesivamente. La competencia asignada es la más profunda seleccionada, por lo que puede detenerse en cualquier nivel. Las competencias que no son adquiribles también se enumeran, para llegar a sus subcompetencias, pero no pueden asignarse. Las listas se etiquetan con los nombres definidos en `skill_levels_names`, cuando están definidos. Consulte [Asignación manual de competencias](../skills/managing-skills.md#manual-skill-assignment).
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `openbadges_backpack`
 
 **URL de la mochila OpenBadges**
 
-La URL del servidor de mochila OpenBadges que se usará de forma predeterminada para todos los usuarios que deseen exportar sus insignias. El valor predeterminado es el repositorio de mochila abierto y gratuito de la Mozilla Foundation: https://backpack.openbadges.org/
+La URL del servidor de mochila OpenBadges que se utilizará de forma predeterminada para todos los usuarios que deseen exportar sus insignias. De forma predeterminada, apunta al repositorio de mochila abierto y gratuito de la Mozilla Foundation: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
@@ -91,28 +91,28 @@ La URL del servidor de mochila OpenBadges que se usará de forma predeterminada 
 
 En la rueda de competencias, muestra el nombre de la competencia cuando esta tiene un código corto.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `skill_levels_names`
 
 **Nombres de los niveles de competencia**
 
-Defina nombres para los niveles de competencias como un array de id => name.
+Defina nombres para los niveles de competencia como un array de id => nombre.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
 **Mostrar las competencias como una tabla jerárquica**
 
-[inferido] Mostrar las competencias del estudiante como una estructura de árbol jerárquica en las páginas de progreso e informes.
+[inferido] Mostrar las competencias del estudiante como una estructura de árbol jerárquico en las páginas de progreso e informes.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*
 
 
 ### `skills_teachers_can_assign_skills`
 
-**Permitir que los profesores definan qué competencias se adquieren a través de sus cursos**
+**Permitir a los docentes definir qué competencias se adquieren a través de sus cursos**
 
-De forma predeterminada, solo los administradores pueden decidir qué competencias se pueden adquirir a través de cada curso.
+De forma predeterminada, solo los administradores pueden decidir qué competencias pueden adquirirse a través de qué curso.
 
-*Predeterminado: `false`*
+*Valor predeterminado: `false`*

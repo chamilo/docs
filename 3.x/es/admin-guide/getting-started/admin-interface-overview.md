@@ -1,73 +1,73 @@
-# Descripción general de la interfaz de administración
+# Visión general de la interfaz de administración
 
 El panel de administración es su centro de mando para gestionar la plataforma Chamilo. Acceda a él haciendo clic en **Administración** <img src="../../.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> en la barra lateral.
 
 ## Panel de administración
 
-![El panel de administración mostrando bloques funcionales para Usuarios, Cursos, Sesiones y Configuración](../../.gitbook/assets/admin-dashboard-overview.png)
+![El panel de administración mostrando bloques funcionales de Usuarios, Cursos, Sesiones y Configuración](../../.gitbook/assets/admin-dashboard-overview.png)
 
 El panel de administración está organizado en bloques funcionales. Cada bloque agrupa herramientas de gestión relacionadas:
 
-### Users
+### Usuarios
 
-* **User list** — Ver, buscar, editar y gestionar todos los usuarios de la plataforma
-* **Add a user** — Crear cuentas de usuario individuales
-* **Classes** — Gestionar clases de usuarios para la inscripción masiva en sesiones
+* **Lista de usuarios** — Ver, buscar, editar y gestionar todos los usuarios de la plataforma
+* **Añadir un usuario** — Crear cuentas de usuario individuales
+* **Clases** — Gestionar clases de usuarios para la inscripción masiva en sesiones
 
 Consulte el capítulo [Usuarios](../users/README.md) para más detalles.
 
-### Courses
+### Cursos
 
-* **Course list** — Ver y gestionar todos los cursos de la plataforma
-* **Create a course** — Crear un curso nuevo
-* **Course categories** — Organizar los cursos en categorías para el catálogo
+* **Lista de cursos** — Ver y gestionar todos los cursos de la plataforma
+* **Crear un curso** — Crear un curso nuevo
+* **Categorías de cursos** — Organizar los cursos en categorías para el catálogo
 
 Consulte el capítulo [Cursos](../courses/README.md) para más detalles.
 
-### Sessions
+### Sesiones
 
-* **Session list** — Ver y gestionar las sesiones de formación
-* **Create a session** — Configurar una sesión nueva con cursos e inscripción
-* **Session categories** — Organizar las sesiones en categorías
-* **Careers and promotions** — Gestionar itinerarios profesionales y flujos de promoción
+* **Lista de sesiones** — Ver y gestionar las sesiones de formación
+* **Crear una sesión** — Configurar una nueva sesión con cursos e inscripción
+* **Categorías de sesiones** — Organizar las sesiones en categorías
+* **Carreras y promociones** — Gestionar itinerarios formativos y flujos de trabajo de promociones
 
 Consulte el capítulo [Sesiones](../sessions/README.md) para más detalles.
 
-### Platform
+### Plataforma
 
-* **Configuration settings**, **Languages**, **Portal news**, **Global agenda**, **Pages**, **Extra fields**, **Mail templates**, **Contact form categories**, y más — consulte el capítulo [Plataforma](../platform/README.md) para más detalles. El enlace «Configuration settings» es el punto de entrada al capítulo independiente [Configuración de la plataforma](../platform-settings/README.md).
+* **Parámetros de configuración**, **Idiomas**, **Noticias del portal**, **Agenda global**, **Páginas**, **Campos extra**, **Plantillas de correo**, **Categorías del formulario de contacto** y más — consulte el capítulo [Plataforma](../platform/README.md) para más detalles. El enlace «Parámetros de configuración» es el punto de entrada al capítulo independiente [Configuración de la plataforma](../platform-settings/README.md).
 
-### Analytics
+### Analítica
 
-* **Global statistics**, **Reports catalog**, **Learning analytics**, **Quarterly report**, **Teachers time report**, **Corporate report**, **Special exports**, **Tickets** — Estadísticas e informes de la plataforma; consulte el capítulo [Analítica](../analytics/README.md) para más detalles
+* **Estadísticas globales**, **Catálogo de informes**, **Analítica del aprendizaje**, **Informe trimestral**, **Informe de tiempo de los docentes**, **Informe corporativo**, **Exportaciones especiales**, **Incidencias** — Estadísticas e informes de la plataforma; consulte el capítulo [Analítica](../analytics/README.md) para más detalles
 
-### Skills
+### Competencias
 
-* **Skills wheel**, **Skills import**, **Manage skills**, **Manage skills levels**, **Skills ranking**, **Skills and assessments** — Insignias de competencias vinculadas a los resultados del libro de calificaciones; consulte el capítulo [Competencias](../skills/README.md) para más detalles
+* **Rueda de competencias**, **Importación de competencias**, **Gestionar competencias**, **Gestionar niveles de competencias**, **Clasificación de competencias**, **Competencias y evaluaciones** — Insignias de competencia vinculadas a los resultados del cuaderno de calificaciones; consulte el capítulo [Competencias](../skills/README.md) para más detalles
 
-### System
+### Sistema
 
-* **Clean temporary files**, **System status**, **System update**, **Colors**, **File info**, **Resources by type**, **List icons** — Mantenimiento del servidor, autoactualización e imagen corporativa; consulte el capítulo [Sistema](../system/README.md) para más detalles
+* **Limpiar archivos temporales**, **Estado del sistema**, **Actualización del sistema**, **Colores**, **Información de archivos**, **Recursos por tipo**, **Lista de iconos** — Mantenimiento del servidor, autoactualización e identidad visual; consulte el capítulo [Sistema](../system/README.md) para más detalles
 
-### Rooms
+### Salas
 
-* **Branches**, **Rooms**, **Room availability finder** — Sedes físicas y aulas de formación reservables; consulte el capítulo [Aulas](../rooms/README.md) para más detalles
+* **Sedes**, **Salas**, **Buscador de disponibilidad de salas** — Sedes físicas y salas de formación reservables; consulte el capítulo [Salas](../rooms/README.md) para más detalles
 
-### Security
+### Seguridad
 
-* **Activities audit**, **Login attempts**, **Simple IDS**, **Password strength checker**, **File integrity** — Herramientas de supervisión y auditoría de seguridad; consulte el capítulo [Seguridad](../security/README.md) para más detalles
+* **Auditoría de actividades**, **Intentos de inicio de sesión**, **IDS simple**, **Comprobador de fortaleza de contraseñas**, **Integridad de archivos** — Herramientas de supervisión y auditoría de seguridad; consulte el capítulo [Seguridad](../security/README.md) para más detalles
 
 ### Plugins
 
 * Accesos directos a los plugins instalados que declaran una página de menú de administración, además de la gestión general de plugins — consulte el capítulo [Plugins](../plugins/README.md) para más detalles
 
-### Health Check
+### Comprobación de estado
 
-* Comprobaciones en vivo de superación/fallo (configuración de correo, asignación de URL de administración, permisos de archivos) — consulte la página [Comprobación de estado](../health-check.md) para más detalles
+* Comprobaciones en vivo de aprobado/fallo (configuración de correo, asignación de URL de administración, permisos de archivos) — consulte la página [Comprobación de estado](../health-check.md) para más detalles
 
-### Other Blocks
+### Otros bloques
 
-* **Chamilo.org**, **Version check**, **Professional support**, **News from Chamilo** — enlaces y paneles de estado que obtienen contenido del proyecto Chamilo; consulte [Otros bloques de administración](../other-admin-blocks/README.md) para más detalles
+* **Chamilo.org**, **Comprobación de versión**, **Soporte profesional**, **Noticias de Chamilo** — enlaces y paneles de estado que obtienen contenido del proyecto Chamilo; consulte [Otros bloques de administración](../other-admin-blocks/README.md) para más detalles
 
 Cada sección se trata en detalle en el capítulo correspondiente de esta guía.
 
