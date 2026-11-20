@@ -1,6 +1,6 @@
 # Back-ups
 
-Regelmatige back-ups zijn essentieel om uw Chamilo-gegevens te beschermen. Deze pagina beschrijft wat u moet back-uppen en hoe.
+Regelmatige back-ups zijn essentieel om uw Chamilo-gegevens te beschermen. Op deze pagina leest u wat u moet back-uppen en hoe.
 
 ## Wat te back-uppen
 
@@ -8,7 +8,7 @@ Regelmatige back-ups zijn essentieel om uw Chamilo-gegevens te beschermen. Deze 
 
 De Chamilo-database bevat alle platformgegevens: gebruikers, cursussen, tracking, cijfers, berichten en instellingen. Dit is het meest kritieke onderdeel om te back-uppen.
 
-**Hoe te back-uppen:**
+**Back-up maken:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
@@ -18,10 +18,10 @@ mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 
 Chamilo slaat geüploade bestanden (documenten, afbeeldingen, SCORM-pakketten) op in het bestandssysteem. De belangrijkste mappen om te back-uppen:
 
-* `var/` — Geüploade bestanden en resources
+* `var/` — Geüploade bestanden en bronnen. Dit omvat `var/certificate-issuer/`, de sleutel die certificaatreferenties en [officiële transcripties](../users/academic-transcripts.md) ondertekent: zonder deze sleutel kunnen de reeds uitgegeven documenten niet langer worden geverifieerd
 * `public/plugin/` — Pluginbestanden (alleen als u aangepaste plugins hebt toegevoegd)
 
-Als u cloudopslag gebruikt (S3, Azure Blob), zorg er dan voor dat de back-up-/versiebeheerfunctie van uw cloudprovider is ingeschakeld.
+Als u cloudopslag gebruikt (S3, Azure Blob), zorg er dan voor dat de back-up/versiebeheer van uw cloudprovider is ingeschakeld.
 
 ### 3. Configuratie
 
@@ -30,7 +30,7 @@ Als u cloudopslag gebruikt (S3, Azure Blob), zorg er dan voor dat de back-up-/ve
 
 ## Back-upschema
 
-| Component | Aanbevolen frequentie |
+| Onderdeel | Aanbevolen frequentie |
 |-----------|---------------------|
 | Database | Dagelijks |
 | Bestanden | Dagelijks of wekelijks (afhankelijk van de uploadactiviteit) |
@@ -38,16 +38,16 @@ Als u cloudopslag gebruikt (S3, Azure Blob), zorg er dan voor dat de back-up-/ve
 
 ## Herstel
 
-Om te herstellen vanuit een back-up:
+Een back-up herstellen:
 
 1. Herstel de database vanuit de SQL-dump
-2. Herstel de bestandsdirectories
+2. Herstel de bestandsmappen
 3. Herstel de configuratiebestanden
 4. Wis de Symfony-cache: `php bin/console cache:clear`
 
 ## Tips
 
-* **Automatiseer back-ups** — Gebruik cronjobs om back-ups automatisch uit te voeren
+* **Automatiseer back-ups** — Gebruik cron-taken om back-ups automatisch uit te voeren
 * **Bewaar off-site** — Bewaar back-upkopieën op een aparte server of in cloudopslag
-* **Test het herstel** — Test periodiek of u succesvol kunt herstellen vanuit een back-up
-* **Documenteer uw proces** — Houd schriftelijke instructies bij voor het herstelproces, zodat iedereen in het team het kan uitvoeren
+* **Test het herstel** — Test periodiek of u een back-up succesvol kunt herstellen
+* **Documenteer uw proces** — Houd schriftelijke instructies bij voor het herstelproces, zodat iedereen in het team dit kan uitvoeren

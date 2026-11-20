@@ -1,10 +1,10 @@
 # E-mailconfiguratie
 
-Chamilo beheert de configuratie voor het verzenden van e-mails nu vanuit het beheerdersdashboard, in de sectie platforminstellingen (er is een specifieke vermelding voor e-mails). E-mails worden verzonden bij accountaanmaak, wachtwoordresets, cursusmeldingen, berichtwaarschuwingen en andere platformgebeurtenissen. De e-maillevering wordt geconfigureerd via een configuratie-instelling `MAILER_DSN`.
+Chamilo beheert de configuratie voor het verzenden van e-mails nu vanuit het beheerdersdashboard, in de sectie platforminstellingen (er is een specifieke vermelding voor e-mails). E-mails worden verzonden voor het aanmaken van accounts, het opnieuw instellen van wachtwoorden, cursusmeldingen, berichtwaarschuwingen en andere platformgebeurtenissen. De e-mailbezorging wordt geconfigureerd via de configuratie-instelling `MAILER_DSN`.
 
 ## Configuratie
 
-Stel de optie `Mail DSN` in in de sectie /admin/settings/mail. Het formaat hangt af van uw e-mailtransport.
+Stel de optie `Mail DSN` in in de sectie /admin/settings/mail. De indeling hangt af van uw e-mailtransport.
 
 ### SMTP
 
@@ -24,7 +24,7 @@ smtp://username:password@smtp.example.com:587?encryption=tls
 smtp://localhost:25
 ```
 
-Vervang `username`, `password` en de host door de inloggegevens van uw SMTP-server.
+Vervang `username`, `password` en de host door de referenties van uw SMTP-server.
 
 ### Amazon SES
 
@@ -56,7 +56,7 @@ Het Symfony Brevo-transport is ingebouwd in Chamilo. Er is geen extra installati
 
 ### Microsoft 365 / Outlook (Microsoft Graph API)
 
-Microsoft stopt met SMTP met basisauthenticatie in Exchange Online, dus een gewone DSN `smtp://user:password@smtp.office365.com:587` werkt alleen zolang de tenantbeheerder "Authenticated SMTP" expliciet ingeschakeld houdt voor dat specifieke postvak. Verzend in plaats daarvan via de Microsoft Graph API — die gebruikt helemaal geen SMTP:
+Microsoft schaft SMTP met basisverificatie in Exchange Online af, dus een eenvoudige DSN `smtp://user:password@smtp.office365.com:587` werkt alleen zolang de tenantbeheerder "Authenticated SMTP" expliciet ingeschakeld houdt voor die specifieke mailbox. Verzend in plaats daarvan via de Microsoft Graph API — die gebruikt helemaal geen SMTP:
 
 ```bash
 microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@default?tenantId=TENANT_ID
@@ -66,18 +66,18 @@ Het Symfony Microsoft Graph-transport is ingebouwd in Chamilo. Er is geen extra 
 
 Om die drie waarden te verkrijgen, in het [Microsoft Entra-beheercentrum](https://entra.microsoft.com):
 
-1. Registreer een toepassing. De **Application (client) ID** en **Directory (tenant) ID** zijn `CLIENT_ID` en `TENANT_ID`.
-2. Onder *API permissions* voegt u de Microsoft Graph-**application**-machtiging `Mail.Send` toe (niet de gedelegeerde), en verleent u vervolgens beheerdersinstemming.
-3. Onder *Certificates & secrets* maakt u een clientgeheim aan. De **waarde** (niet de ID) is `CLIENT_SECRET`.
+1. Registreer een toepassing. De **Application (client) ID** en de **Directory (tenant) ID** zijn `CLIENT_ID` en `TENANT_ID`.
+2. Voeg onder *API permissions* de Microsoft Graph-**toepassings**machtiging `Mail.Send` toe (niet de gedelegeerde), en verleen vervolgens beheerderstoestemming.
+3. Maak onder *Certificates & secrets* een clientgeheim aan. De **waarde** ervan (niet de ID) is `CLIENT_SECRET`.
 
 Opmerkingen:
 
-* URL-encode elk teken met een speciale betekenis in een URL dat in het clientgeheim voorkomt (`@` als `%40`, `+` als `%2B`, `/` als `%2F`, enzovoort).
-* Het adres dat is geconfigureerd in **Send all e-mails from this e-mail address** moet een echt postvak binnen uw tenant zijn, anders weigert Microsoft het bericht.
-* Voeg `&noSave=true` toe aan de DSN als u geen kopie van elke platform-e-mail in de map *Sent Items* van de afzender wilt opslaan.
-* Voor nationale clouds wijst u de DSN naar de juiste eindpunten, zonder het voorvoegsel `https://`: `microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@microsoftgraph.chinacloudapi.cn?tenantId=TENANT_ID&authEndpoint=login.partner.microsoftonline.cn`.
+* URL-codeer elk teken met een speciale betekenis in een URL dat in het clientgeheim voorkomt (`@` als `%40`, `+` als `%2B`, `/` als `%2F`, enzovoort).
+* Het adres dat is geconfigureerd in **Send all e-mails from this e-mail address** moet een echte mailbox binnen uw tenant zijn, anders weigert Microsoft het bericht.
+* Voeg `&noSave=true` toe aan de DSN als u niet wilt dat een kopie van elke platform-e-mail wordt opgeslagen in de map *Sent Items* van de afzender.
+* Wijs voor nationale clouds de DSN naar de juiste eindpunten, zonder het voorvoegsel `https://`: `microsoftgraph+api://CLIENT_ID:CLIENT_SECRET@microsoftgraph.chinacloudapi.cn?tenantId=TENANT_ID&authEndpoint=login.partner.microsoftonline.cn`.
 
-**Beveiligingswaarschuwing:** de *application*-machtiging `Mail.Send` laat de geregistreerde toepassing e-mail verzenden als **elk** postvak in de tenant, niet alleen het postvak dat Chamilo gebruikt. Beperk dit tot het afzenderpostvak met een Exchange Online-toegangsbeleid voor toepassingen:
+**Beveiligingswaarschuwing:** de *toepassings*machtiging `Mail.Send` laat de geregistreerde toepassing e-mail verzenden als **elke** mailbox in de tenant, niet alleen de mailbox die Chamilo gebruikt. Beperk deze tot de afzendermailbox met een Exchange Online-toepassingsbeleid voor toegang:
 
 ```powershell
 New-ApplicationAccessPolicy -AppId CLIENT_ID -PolicyScopeGroupId no-reply@yourdomain.com -AccessRight RestrictAccess -Description "Restrict Chamilo to its sender mailbox"
@@ -89,32 +89,75 @@ New-ApplicationAccessPolicy -AppId CLIENT_ID -PolicyScopeGroupId no-reply@yourdo
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Gebruik een App-wachtwoord, niet uw gewone Gmail-wachtwoord. Dit is alleen geschikt voor kleine platforms of ontwikkeling, omdat Gmail verzendlimieten heeft.
+Gebruik een app-wachtwoord, niet uw gewone Gmail-wachtwoord. Dit is alleen geschikt voor kleine platforms of ontwikkeling, omdat Gmail verzendlimieten heeft.
 
-## Platform-e-mailinstellingen
+## Platforminstellingen voor e-mail
 
-Naast het transport configureert u de afzenderidentiteit op dezelfde pagina:
+Configureer naast het transport de identiteit van de afzender op dezelfde pagina:
 
 | Instelling | Beschrijving |
 |---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | De weergavenaam die bij systeem-e-mails hoort. |
-| **Send all e-mails from this e-mail address** | Het "From"-adres voor alle systeem-e-mails. Moet een geldig adres zijn dat door uw e-mailtransport wordt geaccepteerd. We raden aan een "no reply"-adres te gebruiken zoals `no-reply@yourdomain.com` om zinloze antwoorden op geautomatiseerde e-mails te vermijden. |
+| **Send all e-mails as originating from this (organizational) name** | De weergavenaam die aan systeem-e-mails is gekoppeld. |
+| **Send all e-mails from this e-mail address** | Het "Van"-adres voor alle systeem-e-mails. Moet een geldig adres zijn dat door uw e-mailtransport wordt geaccepteerd. Wij raden aan een "no reply"-adres te gebruiken, zoals `no-reply@yourdomain.com`, om zinloze antwoorden op geautomatiseerde e-mails te vermijden. |
 
-## E-maillevering testen
+---
+## Inkomende antwoorden op directe berichten
 
-Na het configureren van `MAILER_DSN` test u of e-mails worden afgeleverd: ga naar *Beheer* > *Systeem* > *E-mailtester*, geef een ontvanger, een onderwerp en een e-mailbericht op en klik op **Test-e-mail verzenden**.
+Chamilo kan een ontvanger laten antwoorden op een melding van een direct bericht vanuit de normale e-mailclient en dat antwoord omzetten in een bericht in de Chamilo-inbox. Configureer het volgende onder **Beheer > Configuratie-instellingen > E-mail**:
 
-Als de opdracht zonder fouten wordt voltooid maar de e-mail niet aankomt:
+1. Stel **E-mailantwoorden op berichten toestaan** (`enable_inbound_mail`) in op **Ja**.
+2. Stel **Inkomend e-mailadres** (`inbound_mail_address`) in op een geldig basisadres zoals `replies@example.com`. Chamilo gebruikt plus-adressering om voor elke ontvanger een uniek adres op te bouwen, zoals `replies+TOKEN@example.com`.
+3. Leid die inkomende berichten terug naar Chamilo via een van de onderstaande methoden.
 
-1. Controleer de map spam/ongewenste e-mail van de ontvanger.
+### Een IMAP-postvak pollen
+
+Stel **DSN van inkomend postvak** (`inbound_mail_dsn`) in op het postvak dat de antwoorden ontvangt, bijvoorbeeld:
+
+```text
+imaps://user:password@imap.example.com:993/INBOX
+```
+
+URL-codeer gereserveerde tekens in de gebruikersnaam of het wachtwoord. Voer vervolgens de postvakverzamelaar periodiek uit, bijvoorbeeld elke vijf minuten:
+
+```bash
+*/5 * * * * cd /path/to/chamilo && php bin/console chamilo:mail:fetch-inbound --no-interaction
+```
+
+De verzamelaar verwerkt ongelezen berichten in batches. Mislukte berichten blijven standaard ongelezen zodat ze opnieuw kunnen worden geprobeerd; gebruik `--mark-failed-seen` alleen wanneer u dat herhaalgedrag uitdrukkelijk niet wilt.
+
+### E-mail pipen vanuit de MTA
+
+Een MTA kan in plaats daarvan één onbewerkt RFC822-bericht rechtstreeks naar Chamilo pipen:
+
+```bash
+php bin/console chamilo:mail:process-inbound
+```
+
+De opdracht leest van STDIN; `--file` kan worden gebruikt voor een opgeslagen bericht en `--recipient` kan de SMTP-envelopontvanger opgeven wanneer de `To`-header is herschreven.
+
+Om veiligheidsredenen accepteert Chamilo het antwoord alleen wanneer het token een geldige berichtontvanger identificeert en het `From`-adres van het bericht overeenkomt met het e-mailadres van die ontvanger in Chamilo. De oorspronkelijke afzender en de antwoordende gebruiker moeten nog actief zijn. Alleen de nieuwe antwoordtekst wordt opgeslagen; geciteerde geschiedenis wordt waar mogelijk verwijderd.
+
+## Bijhouden van geopende e-mails
+
+Stel **Openingen van e-mails bijhouden** (`enable_email_open_tracking`) in op **Ja** om een kleine trackingafbeelding toe te voegen aan meldingsmails van directe berichten. Wanneer die afbeelding wordt opgevraagd, registreert Chamilo het tijdstip en kan dit weergeven in de **Verzonden** berichten van de afzender onder **E-mailmeldingen**.
+
+Een tijdstempel voor het bijhouden van openingen betekent alleen dat de afbeelding is opgevraagd. E-mailclients kunnen afbeeldingen blokkeren, vooraf ophalen of via een proxy laden, dus dit mag niet worden beschouwd als bewijs dat de ontvanger het bericht daadwerkelijk heeft gelezen.
+
+## E-mailbezorging testen
+
+Na het configureren van `MAILER_DSN` test u of e-mails worden bezorgd: ga naar *Beheer* > *Systeem* > *E-mailtester*, geef een ontvanger, een onderwerp en een e-mailtekst op en klik op **Test-e-mail verzenden**.
+
+Als de opdracht zonder fouten wordt voltooid maar de e-mail niet wordt ontvangen:
+
+1. Controleer de spam-/ongewenste-map van de ontvanger.
 2. Controleer of uw verzenddomein de juiste DNS-records heeft (SPF, DKIM, DMARC).
-3. Controleer de verzendlogboeken van uw e-mailprovider op bounces of weigeringen.
-4. Bekijk het Chamilo-logboek in `var/log/prod.log` op mailerfouten.
-5. Schakel in de instellingen voor e-mailconfiguratie *Mail: Debug* in (niet beschikbaar in 3.0, volgt binnenkort).
+3. Controleer de verzendlogboeken van uw e-mailprovider op bounces of afwijzingen.
+4. Bekijk het Chamilo-logboek op `var/log/prod.log` op mailerfouten.
+5. Schakel in de e-mailconfiguratie-instellingen *Mail: Debug* in (niet beschikbaar in 3.0, volgt binnenkort).
 
-## Experimenteel: e-mailwachtrij (asynchrone levering)
+## Experimenteel: e-mailwachtrij (asynchrone bezorging)
 
-Standaard worden e-mails synchroon verzonden tijdens het webverzoek. Voor betere prestaties configureert u asynchrone levering met Symfony Messenger:
+Standaard worden e-mails synchroon verzonden tijdens het webverzoek. Configureer voor betere prestaties asynchrone bezorging met Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -126,16 +169,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-Bij asynchrone levering worden e-mails in de wachtrij geplaatst en verzonden door een achtergrondworker:
+Bij asynchrone bezorging worden e-mails in de wachtrij geplaatst en verzonden door een achtergrondworker:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Voer dit uit als systeemservice (bijv. via systemd of supervisord) zodat het blijft draaien.
+Voer dit uit als een systeemservice (bijv. via systemd of supervisord) zodat het blijft draaien.
 
 ## Tips
 
-* **Gebruik een dedicated e-maildienst** (SES, Mailjet, Brevo) voor productieplatforms. Directe SMTP naar uw eigen mailserver vereist zorgvuldige configuratie om problemen met de afleverbaarheid te voorkomen.
-* **Configureer SPF-, DKIM- en DMARC-DNS-records** voor uw verzenddomein om de afleverpercentages te maximaliseren en te voorkomen dat e-mails als spam worden gemarkeerd. U kunt DKIM-headers ook configureren vanaf de pagina met e-mailinstellingen.
-* **Gebruik asynchrone levering** op platforms met meer dan enkele tientallen actieve gebruikers -- synchroon e-mailverzenden kan webverzoeken merkbaar vertragen.
+* **Gebruik een speciale e-mailservice** (SES, Mailjet, Brevo) voor productieplatformen. Directe SMTP naar uw eigen mailserver vereist zorgvuldige configuratie om bezorgbaarheidsproblemen te voorkomen.
+* **Configureer SPF-, DKIM- en DMARC**-DNS-records voor uw verzenddomein om de bezorgpercentages te maximaliseren en te voorkomen dat e-mails als spam worden gemarkeerd. U kunt DKIM-headers ook configureren via de pagina met e-mailinstellingen.
+* **Gebruik asynchrone bezorging** op platformen met meer dan enkele tientallen actieve gebruikers -- synchroon e-mail verzenden kan webverzoeken merkbaar vertragen.

@@ -1,37 +1,43 @@
-# Eine Aufgabe einreichen
+# Aufgabe einreichen
 
-Das Werkzeug **Aufgaben** (manchmal auch „Studentenveröffentlichungen“ oder „Arbeit“ genannt) ist der Ort, an dem Sie Aufsätze, Projekte, Berichte oder jede andere datei- oder textbasierte Arbeit zur Bewertung durch Ihre Lehrkraft abgeben.
+Das Werkzeug **Aufgaben** (manchmal auch „studentische Veröffentlichungen“ oder „Arbeiten“ genannt) ist der Ort, an dem Sie Aufsätze, Projekte, Berichte oder sonstige dateibasierte oder textbasierte Arbeiten zur Bewertung durch Ihre Lehrkraft einreichen.
 
 ## Ihre Arbeit einreichen
 
-Öffnen Sie das Werkzeug **Aufgaben** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> von der Kursstartseite aus und öffnen Sie anschließend die konkrete Aufgabe. Lesen Sie die Beschreibung sorgfältig — sie enthält die Anweisungen Ihrer Lehrkraft dazu, was Sie einreichen sollen und wie die Bewertung erfolgt. Dann:
+Öffnen Sie das Werkzeug **Aufgaben** <img src="../../.gitbook/assets/icons/mdi-inbox-full.svg" alt="Aufgaben" data-size="line"> auf der Kursstartseite und öffnen Sie anschließend die jeweilige Aufgabe. Lesen Sie die Beschreibung sorgfältig — sie enthält die Anweisungen Ihrer Lehrkraft dazu, was einzureichen ist und wie die Bewertung erfolgt. Anschließend:
 
 1. Klicken Sie auf **Datei hochladen** (oder die Schaltfläche zum Einreichen)
-2. Je nachdem, wie Ihre Lehrkraft die Aufgabe konfiguriert hat, wählen Sie eine Datei von Ihrem Computer, verfassen Sie Ihre Einreichung direkt als Text oder beides
+2. Wählen Sie je nach Konfiguration der Aufgabe durch Ihre Lehrkraft eine Datei von Ihrem Computer aus, verfassen Sie Ihre Abgabe direkt als Text oder beides
 3. Fügen Sie optional einen Kommentar für Ihre Lehrkraft hinzu
-4. Reichen Sie ein
+4. Reichen Sie die Arbeit ein
 
-Nach dem Einreichen sehen Sie eine Bestätigung, dass Ihre Arbeit übermittelt wurde. Wenn Ihre Lehrkraft es zulässt, können Sie Ihre Einreichung später aktualisieren — andernfalls ist Ihre erste Einreichung endgültig, prüfen Sie daher vor dem Absenden alles gründlich.
+Nach dem Einreichen sehen Sie eine Bestätigung, dass Ihre Arbeit übermittelt wurde. Wenn Ihre Lehrkraft dies zulässt, können Sie Ihre Abgabe später aktualisieren — andernfalls ist Ihre erste Abgabe endgültig. Prüfen Sie sie daher vor dem Einreichen sorgfältig.
+
+## Online-Text verfassen und einreichen
+
+Wenn Ihre Lehrkraft Textabgaben zulässt, wählen Sie **Text**, sofern sowohl Datei- als auch Textoptionen verfügbar sind. Geben Sie der Abgabe einen Titel, verfassen Sie Ihre Antwort im Rich-Text-Editor und wählen Sie **Senden**. Der Editor behält unterstützte Formatierungen in einer HTML-Abgabe bei; Chamilo bereinigt den Inhalt, bevor er als `.html`-Datei gespeichert wird.
+
+Wenn Ihre Lehrkraft ausschließlich Dateien zulässt, wird der Texteditor nicht angezeigt. Die Abgabe unterliegt weiterhin den Regeln der Aufgabe zu Abgabefrist, endgültigem Annahmeschluss und zulässiger Anzahl von Abgaben. Ihre Lehrkraft kann den HTML-Inhalt während der Prüfung in der Vorschau anzeigen. Siehe [PR #9410](https://github.com/chamilo/chamilo-lms/pull/9410).
 
 ## Fristen
 
-Aufgaben können zwei unterschiedliche Daten haben:
+Aufgaben können zwei unterschiedliche Termine haben:
 
-* Eine **Frist** — nach diesem Datum wird Ihre Einreichung noch angenommen, Ihrer Lehrkraft jedoch als verspätet gekennzeichnet
-* Eine **harte Sperrfrist** — nach diesem Datum ist ein Einreichen überhaupt nicht mehr möglich
+* Eine **Abgabefrist** — nach diesem Datum wird Ihre Abgabe weiterhin angenommen, Ihrer Lehrkraft jedoch als verspätet gekennzeichnet
+* Ein **endgültiger Annahmeschluss** — nach diesem Datum ist eine Abgabe überhaupt nicht mehr möglich
 
-Wenn eine Aufgabe in der Agenda sichtbar ist, handelt es sich in der Regel um deren Frist — es lohnt sich, dort ebenfalls nachzusehen, wenn Sie unsicher sind, wann etwas fällig ist.
+Wenn eine Aufgabe in der Agenda sichtbar ist, handelt es sich in der Regel um ihre Abgabefrist — es lohnt sich, auch dort nachzusehen, wenn Sie unsicher sind, wann etwas fällig ist.
 
 ## Note und Rückmeldung erhalten
 
-Sobald Ihre Lehrkraft Ihre Einreichung geprüft hat, sehen Sie Ihre **Punktzahl** und etwaige **Rückmeldungskommentare**. Manche Lehrkräfte hängen außerdem eine **korrigierte Datei** an — eine annotierte Version dessen, was Sie eingereicht haben — achten Sie daher auf einen herunterladbaren Anhang neben Ihrer Note. Wenn die Aufgabe mit dem Notenbuch verknüpft ist, zählt Ihre Punktzahl auch zur Gesamtnote des Kurses.
+Sobald Ihre Lehrkraft Ihre Abgabe geprüft hat, sehen Sie Ihre **Punktzahl** und etwaige **Rückmeldungskommentare**. Einige Lehrkräfte fügen außerdem eine **korrigierte Datei** bei — eine kommentierte Fassung Ihrer Abgabe. Prüfen Sie daher, ob neben Ihrer Note ein herunterladbarer Anhang vorhanden ist. Wenn die Aufgabe mit dem Notenbuch verknüpft ist, fließt Ihre Punktzahl auch in Ihre Gesamtnote für den Kurs ein.
 
-## Andere Einreichungen einsehen
+## Andere Abgaben einsehen
 
-Standardmäßig ist Ihre Einreichung nur für Sie und Ihre Lehrkraft sichtbar. Manche Lehrkräfte machen Einreichungen für den gesamten Kurs sichtbar — in diesem Fall können Sie möglicherweise auch die Arbeiten Ihrer Kommilitoninnen und Kommilitonen sehen (und diese die Ihre).
+Standardmäßig ist Ihre Abgabe nur für Sie und Ihre Lehrkraft sichtbar. Einige Lehrkräfte entscheiden sich dafür, Abgaben für den gesamten Kurs sichtbar zu machen — in diesem Fall können Sie möglicherweise auch die Arbeiten Ihrer Kurskolleginnen und Kurskollegen sehen (und diese die Ihre).
 
 ## Tipps
 
-* **Reichen Sie vor der Frist ein, nicht erst zur harten Sperrfrist** — eine verspätete Einreichung wird auch dann als verspätet erfasst, wenn sie angenommen wird.
+* **Reichen Sie vor der Abgabefrist ein, nicht erst vor dem endgültigen Annahmeschluss** — eine verspätete Abgabe wird auch dann als verspätet erfasst, wenn sie angenommen wird.
 * **Schauen Sie nach dem Fälligkeitsdatum erneut nach** Ihrer Note und Rückmeldung — die Bewertung erfolgt nicht unbedingt sofort.
-* **Wenn Sie überhaupt nicht einreichen können**, ist die harte Sperrfrist für diese Aufgabe wahrscheinlich abgelaufen — wenden Sie sich an Ihre Lehrkraft, wenn Sie glauben, dass dies ein Fehler ist.
+* **Wenn Sie überhaupt nicht einreichen können**, ist der endgültige Annahmeschluss für diese Aufgabe wahrscheinlich bereits verstrichen — wenden Sie sich an Ihre Lehrkraft, wenn Sie dies für einen Fehler halten.

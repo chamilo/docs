@@ -1,75 +1,75 @@
 # Benutzerprofile
 
-Chamilo ermöglicht die Definition benutzerdefinierter Profilfelder (Extrafelder), um über den Standardnamen, die E-Mail-Adresse und die Rolle hinaus zusätzliche Informationen zu Benutzern zu erfassen.
+Mit Chamilo können Sie benutzerdefinierte Profilfelder (Zusatzfelder) definieren, um zusätzliche Informationen über Benutzer zu erfassen, die über den Standardnamen, die E-Mail-Adresse und die Rolle hinausgehen.
 
-## Extra-Profilfelder
+## Zusätzliche Profilfelder
 
-![Die Liste der Extra-Profilfelder mit benutzerdefinierten Feldern, Name, Typ und Sichtbarkeitseinstellungen](../../.gitbook/assets/admin-extra-fields-list.png)
+![Die Liste der zusätzlichen Profilfelder mit benutzerdefinierten Feldern sowie Einstellungen für Name, Typ und Sichtbarkeit](../../.gitbook/assets/admin-extra-fields-list.png)
 
-Extrafelder ermöglichen die Speicherung organisationsspezifischer Metadaten, beispielsweise:
+Zusatzfelder ermöglichen es Ihnen, organisationsspezifische Metadaten zu speichern, beispielsweise:
 
 * Mitarbeiter-ID
 * Abteilung
-* Stellenbezeichnung
+* Berufsbezeichnung
 * Standort/Büro
 * Telefonnummer
 * Benutzerdefinierte Kennungen
 
-## Extrafelder anlegen
+## Zusatzfelder erstellen
 
-1. Navigieren Sie im Administrationsbereich zu **Extra fields** oder **Profile fields**
-2. Klicken Sie auf **Add**
+1. Navigieren Sie im Administrationsbereich zu **Zusatzfelder** oder **Profilfelder**
+2. Klicken Sie auf **Hinzufügen**
 3. Konfigurieren Sie das Feld:
-   * **Name** — Der den Benutzern angezeigte Feldtitel
-   * **Description** — Optionale Beschreibung
-   * **Helper text** — Wird unter dem Feld in jedem Formular angezeigt, das es enthält
-   * **Field type** — Text, Dropdown, Datum, Kontrollkästchen usw.
-   * **Field label** — Der interne Name des Feldes, für die Integration von Plugins 
-   * **Possible values** — Wenn das Feld eine Auswahl zwischen diesen Werten ist 
-   * **Default value** — Ein optionaler Standardwert
-   * **Visible to self** — Ob das Feld auf dem Benutzerprofil für den Benutzer selbst sichtbar ist
-   * **Visible to others** — Ob das Feld für andere Benutzer der Plattform sichtbar ist
-   * **Can change** — Ob der Benutzer sein eigenes Feld selbst ändern kann (oder ob nur Administratoren dies können)
-   * **Filter** — Wenn es sich um ein Auswahlfeld handelt, ob es als Filter auf Administrationsseiten einbezogen werden soll (z. B. zum Einschreiben von Benutzern in Kurse oder Sessions)
-   * **Order** — Wenn Sie die Anzeigereihenfolge der Felder steuern möchten, müssen Sie jedem Feld eine numerische Reihenfolge zuweisen
-   * **Remove on anonymization** — Wichtig für Datenschutzregeln und -gesetze: Wenn der Benutzer anonymisiert, aber nicht gelöscht wird, soll dieses Feld als möglicher Träger personenbezogener Daten gelten? 
+   * **Name** — Der Feldtitel, der den Benutzern angezeigt wird
+   * **Beschreibung** — Optionale Beschreibung
+   * **Hilfetext** — Wird unter dem Feld in jedem Formular angezeigt, das es enthält
+   * **Feldtyp** — Text, Dropdown, Datum, Kontrollkästchen usw.
+   * **Feldbezeichnung** — Der interne Name des Feldes für die Integration von Plugins
+   * **Mögliche Werte** — Wenn das Feld eine Auswahl zwischen diesen Werten ist
+   * **Standardwert** — Ein optionaler Standardwert
+   * **Für sich selbst sichtbar** — Ob das Feld im Benutzerprofil für den Benutzer selbst sichtbar ist
+   * **Für andere sichtbar** — Ob das Feld für andere Benutzer der Plattform sichtbar ist
+   * **Kann ändern** — Ob der Benutzer sein eigenes Feld selbst ändern kann (oder ob dies nur Administratoren können)
+   * **Filter** — Ob ein Feld vom Typ Auswahl als Filter auf Administrationsseiten einbezogen werden soll (z. B. um Benutzer in Kurse oder Sitzungen einzuschreiben)
+   * **Reihenfolge** — Wenn Sie die Anzeigereihenfolge der Felder steuern möchten, müssen Sie jedem Feld eine numerische Reihenfolge zuweisen
+   * **Bei Anonymisierung entfernen** — Wichtig für Datenschutzregeln und -gesetze: Wenn der Benutzer anonymisiert, aber nicht gelöscht wird, soll dieses Feld als potenzieller Träger personenbezogener Daten betrachtet werden?
 4. Speichern
 
 ## Feldtypen
 
-Die Extrafeld-Engine unterstützt eine breite Palette von Eingabetypen. Zu den gängigen gehören:
+Die Zusatzfeld-Engine unterstützt eine breite Palette von Eingabetypen. Häufig verwendete Typen sind:
 
-| Type | Description |
+| Typ | Beschreibung |
 |------|-------------|
-| **Text** | Eine einzeilige Texteingabe |
-| **Textarea** | Eine mehrzeilige Texteingabe |
-| **Radio** | Eine Einfachauswahl-Radiogruppe |
-| **Dropdown / Dropdown multiple** | Eine Liste vordefinierter Optionen (Einzel- oder Mehrfachauswahl) |
-| **Double select** | Zwei abhängige Dropdowns (z. B. Land → Stadt) |
-| **Checkbox** | Ein Ja/Nein-Schalter |
-| **Date / Date and time** | Datums- oder Datums-und-Uhrzeit-Auswahl |
-| **Integer** | Eine numerische Eingabe |
+| **Text** | Ein einzeiliges Texteingabefeld |
+| **Textbereich** | Ein mehrzeiliges Texteingabefeld |
+| **Optionsfeld** | Eine Optionsfeldgruppe mit Einfachauswahl |
+| **Dropdown / Dropdown mehrfach** | Eine Liste vordefinierter Optionen (Einfach- oder Mehrfachauswahl) |
+| **Doppelauswahl** | Zwei voneinander abhängige Dropdowns (z. B. Land → Stadt) |
+| **Kontrollkästchen** | Ein Ja/Nein-Schalter |
+| **Datum / Datum und Uhrzeit** | Auswahl für Datum oder Datum und Uhrzeit |
+| **Ganzzahl** | Ein numerisches Eingabefeld |
 | **Tag** | Mehrere frei formulierte Tag-Werte |
-| **File** | Datei-Upload-Feld |
-| **Video URL** | Eine URL, die auf ein Video verweist |
-| **Mobile phone number** | Ein formatiertes Telefonnummernfeld |
-| **Timezone** | Eine Zeitzonenauswahl |
-| **Social profile** | Ein Link zu einem Profil in einem sozialen Netzwerk |
-| **Divider** | Eine visuelle Trennlinie im Formular (kein Wert) |
+| **Datei** | Feld zum Hochladen von Dateien |
+| **Video-URL** | Eine URL, die auf ein Video verweist |
+| **Mobiltelefonnummer** | Ein formatiertes Feld für Telefonnummern |
+| **Zeitzone** | Eine Zeitzonenauswahl |
+| **Soziales Profil** | Ein Link zu einem Profil in einem sozialen Netzwerk |
+| **Trennlinie** | Eine visuelle Trennlinie innerhalb des Formulars (ohne Wert) |
 
-Der genaue Satz nutzbarer Typen hängt von der Chamilo-Version ab; das Dropdown für den Feldtyp auf der Administrationsseite **Extra fields** ist maßgeblich.
+Die genaue Menge der verwendbaren Typen hängt von der Chamilo-Version ab; das Dropdown für den Feldtyp auf der Administrationsseite **Zusatzfelder** ist die maßgebliche Quelle.
 
-## Extrafelder verwenden
+## Zusatzfelder verwenden
 
-Extrafelder erscheinen:
+Zusatzfelder erscheinen:
 
-* In den Formularen zum Anlegen (falls für den Benutzer selbst sichtbar) und Bearbeiten von Benutzern
-* Auf Benutzerprofilseiten (falls für den Benutzer selbst sichtbar)
-* Bei Benutzerimporten (Sie können Extrafeldwerte in CSV-Importen angeben)
-* In Exporten und Berichten (Filtern oder Gruppieren nach Extrafeldwerten)
+* In den Formularen zur Benutzererstellung (wenn für sich selbst sichtbar) und zur Bearbeitung
+* Auf Benutzerprofilseiten (wenn für sich selbst sichtbar)
+* Bei Benutzerimporten (Sie können Werte von Zusatzfeldern in CSV-Importe aufnehmen)
+* In Exporten und Berichten (Filtern oder Gruppieren nach Werten von Zusatzfeldern)
 
 ## Tipps
 
-* **Vor dem Anlegen planen** — Legen Sie fest, welche Informationen Sie benötigen, bevor Sie Felder anlegen, da das Ändern von Feldtypen nach der Dateneingabe problematisch sein kann
-* **Dropdowns für Konsistenz nutzen** — Wenn ein Feld einen bekannten Satz möglicher Werte hat, verwenden Sie ein Dropdown statt Freitext, um Datenkonsistenz sicherzustellen
-* **Für Berichte nutzen** — Extrafelder eignen sich zum Filtern von Berichten (z. B. „alle Benutzer in Abteilung X anzeigen, die Schulung Y abgeschlossen haben“)
+* **Vor dem Erstellen planen** — Legen Sie fest, welche Informationen Sie benötigen, bevor Sie Felder erstellen, da das Ändern von Feldtypen nach der Eingabe von Daten problematisch sein kann
+* **Dropdowns für Konsistenz verwenden** — Wenn ein Feld eine bekannte Menge möglicher Werte hat, verwenden Sie ein Dropdown anstelle von Freitext, um die Datenkonsistenz sicherzustellen
+* **Für Berichte verwenden** — Zusatzfelder eignen sich zum Filtern von Berichten (z. B. „alle Benutzer in Abteilung X anzeigen, die Schulung Y abgeschlossen haben“)

@@ -1,10 +1,10 @@
 # Einstellungen der KI-Helfer
 
-Konfiguration der KI-Helfer (Textgenerierung, Bildgenerierung, Videogenerierung, KI-Tutor, KI-Bewertung). Jeder Anbieter kann pro Aufgabentyp aktiviert werden. Siehe auch [KI-Konfiguration](../integrations/ai-configuration.md).
+Konfiguration der KI-Helfer (Texterzeugung, Bilderzeugung, Videoerzeugung, KI-Tutor, KI-Bewertung). Jeder Anbieter kann je Aufgabentyp aktiviert werden. Siehe auch [KI-Konfiguration](../integrations/ai-configuration.md).
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > KI-Helfer**. Diese Kategorie enthält **14 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > KI-Helfer**. Diese Kategorie enthält **15 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -12,7 +12,7 @@ Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellun
 
 **Verbindungsdaten der KI-Anbieter**
 
-Konfigurationsdaten zur Verbindung mit externen KI-Diensten.
+Konfigurationsdaten für die Verbindung mit externen KI-Diensten.
 
 ### `content_analyser`
 
@@ -26,15 +26,15 @@ Analysiert Lernmaterialien, um Erkenntnisse zu gewinnen oder die Qualität zu ve
 
 **Kursanalysator**
 
-Analysiert alle Ressourcen in einem oder mehreren Kursen und trainiert das KI-Modell vor, um beliebige Fragen zu diesem oder diesen Kursen zu beantworten (stellen Sie sicher, dass Inhalte mit den konfigurierten KI-Diensten geteilt werden dürfen).
+Analysiert alle Ressourcen in einem oder mehreren Kursen und trainiert das KI-Modell vor, damit es jede Frage zu diesem oder diesen Kursen beantworten kann (stellen Sie sicher, dass Inhalte mit den konfigurierten KI-Diensten geteilt werden dürfen).
 
 *Standard: `false`*
 
 ### `disclose_ai_assistance`
 
-**KI-Unterstützung kenntlich machen**
+**KI-Unterstützung offenlegen**
 
-Zeigt eine Kennzeichnung an jedem Inhalt oder Feedback, der bzw. das von einem KI-System erzeugt oder mit erzeugt wurde, und macht dem Nutzer deutlich, dass der Inhalt mit Hilfe eines KI-Systems erstellt wurde. Angaben dazu, welches KI-System in welchem Fall verwendet wurde, werden in der Datenbank für die Prüfung aufbewahrt, sind für den Endnutzer jedoch nicht direkt zugänglich.
+Zeigt eine Kennzeichnung bei jedem Inhalt oder Feedback an, der bzw. das von einem KI-System erzeugt oder mit erzeugt wurde, und macht dem Benutzer damit deutlich, dass der Inhalt mit Hilfe eines KI-Systems erstellt wurde. Angaben dazu, welches KI-System in welchem Fall verwendet wurde, werden zu Prüfzwecken in der Datenbank gespeichert, sind für den Endbenutzer jedoch nicht direkt zugänglich.
 
 *Standard: `true`*
 
@@ -58,7 +58,7 @@ Erzeugt personalisierte Tests mit KI auf Grundlage der Kursinhalte.
 
 **Glossarbegriffe-Generator**
 
-Ermöglicht Lehrenden, in ihrem Kurs KI-generierte Glossarbegriffe anzufordern. Es werden 20 Begriffe auf Grundlage des Kurstitels und der allgemeinen Beschreibung im Werkzeug Kursbeschreibung erzeugt. Bei wiederholter Nutzung werden bereits im Glossar vorhandene Begriffe ausgeschlossen (stellen Sie sicher, dass Inhalte mit den konfigurierten KI-Diensten geteilt werden dürfen).
+Ermöglicht Lehrkräften, KI-generierte Glossarbegriffe für ihren Kurs anzufordern. Dabei werden 20 Begriffe auf Grundlage des Kurstitels und der allgemeinen Beschreibung im Werkzeug „Kursbeschreibung“ erzeugt. Bei mehrfacher Verwendung werden bereits in diesem Glossar vorhandene Begriffe ausgeschlossen (stellen Sie sicher, dass Inhalte mit den konfigurierten KI-Diensten geteilt werden dürfen).
 
 *Standard: `false`*
 
@@ -66,7 +66,7 @@ Ermöglicht Lehrenden, in ihrem Kurs KI-generierte Glossarbegriffe anzufordern. 
 
 **Bildgenerator**
 
-Erzeugt Bilder auf Grundlage von Prompts oder Inhalten mittels KI.
+Erzeugt Bilder anhand von Prompts oder Inhalten mithilfe von KI.
 
 *Standard: `false`*
 
@@ -82,7 +82,7 @@ Erzeugt personalisierte Lernpfade anhand von KI-Vorschlägen.
 
 **Bewertung offener Antworten**
 
-Bewertet offene Antworten automatisch mittels KI.
+Bewertet offene Antworten automatisch mithilfe von KI.
 
 *Standard: `false`*
 
@@ -90,7 +90,15 @@ Bewertet offene Antworten automatisch mittels KI.
 
 **Aufgabenbewertung**
 
-Nutzt KI, um hochgeladene Aufgaben zu bewerten und zu benoten.
+Verwendet KI, um hochgeladene Aufgaben zu bewerten und zu benoten.
+
+*Standard: `false`*
+
+### `toolbox`
+
+**KI-Werkzeugkasten**
+
+Ermöglicht Lehrkräften, KI-gestützte Bildungsanwendungen innerhalb von Kursen zu erstellen und zu versionieren.
 
 *Standard: `false`*
 
@@ -98,7 +106,7 @@ Nutzt KI, um hochgeladene Aufgaben zu bewerten und zu benoten.
 
 **Von KI angetriebener Tutor-Chatbot**
 
-Stellt Studierenden einen KI-gestützten Tutor-Assistenten bereit.
+Stellt Studierenden einen KI-gestützten Tutor-Assistenten zur Verfügung.
 
 *Standard: `false`*
 
@@ -106,7 +114,7 @@ Stellt Studierenden einen KI-gestützten Tutor-Assistenten bereit.
 
 **Videogenerator**
 
-Erzeugt Videos auf Grundlage von Prompts oder Inhalten mittels KI (dies kann viele Tokens verbrauchen).
+Erzeugt Videos anhand von Prompts oder Inhalten mithilfe von KI (dies kann viele Tokens verbrauchen).
 
 *Standard: `false`*
 
@@ -114,6 +122,6 @@ Erzeugt Videos auf Grundlage von Prompts oder Inhalten mittels KI (dies kann vie
 
 **KI-Übersetzung in alle aktiven Sprachen in WYSIWYG-Editoren zulassen**
 
-Ermöglicht Lehrenden, in einer WYSIWYG-Aktion Übersetzungen für alle aktiven Plattformsprachen zu erzeugen. Dies kann eine große Anzahl von KI-Tokens verbrauchen.
+Ermöglicht Lehrkräften, Übersetzungen für alle aktiven Plattformsprachen in einer einzigen WYSIWYG-Aktion zu erzeugen. Dies kann eine große Anzahl von KI-Tokens verbrauchen.
 
 *Standard: `true`*

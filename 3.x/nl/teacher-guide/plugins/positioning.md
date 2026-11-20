@@ -1,29 +1,29 @@
 # Positionering
 
-Positionering <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> voegt een zelfbeoordelingsworkflow voor en na toe: kies één toets als de **initiële toets** en een andere als de **eindoets** (vaak een kopie van dezelfde toets), en Chamilo toont de scoreverandering van elke cursist tussen beide op een radardiagram.
+Positionering <img src="../../.gitbook/assets/icons/mdi-radar.svg" alt="Positionering" data-size="line"> voegt een zelfbeoordelingsworkflow voor en na toe: kies één toets als de **begintoets** en een andere als de **eindtoets** (vaak een kopie van dezelfde toets), en Chamilo toont de scoreverandering van elke cursist tussen de twee op een radardiagram.
 
-## De tool openen
+## Toegang tot het hulpmiddel
 
-Zodra de tool is ingeschakeld, verschijnt een tool **Positionering** op de startpagina van uw cursus. Deze toont de in aanmerking komende toetsen van de cursus met knoppen **Selecteren als initiële toets** / **Selecteren als eindoets**, een snelkoppeling naar de resultaten van elke toets, en het radardiagram dat de gemiddelde initiële scores vergelijkt met de eindscores.
+Zodra het is ingeschakeld, verschijnt een hulpmiddel **Positionering** op de startpagina van uw cursus. Het toont de in aanmerking komende toetsen van de cursus met knoppen **Selecteren als begintoets** / **Selecteren als eindtoets**, een snelkoppeling naar de resultaten van elke toets en het radardiagram dat de gemiddelde begin- en eindscores vergelijkt.
 
-## Welke toetsen in aanmerking komen
+## Welke toetsen komen in aanmerking
 
-Alleen toetsen die aan alle drie de volgende criteria voldoen, verschijnen als selecteerbaar:
+Alleen toetsen die aan alle drie deze criteria voldoen, verschijnen als selecteerbaar:
 
-* Minstens 3 vraagcategorieën
-* Het resultaatpaginatype van de toets is ingesteld op **radar**
-* Er is precies één poging toegestaan
+* Minimaal 3 vragencategorieën
+* Het type resultatenpagina van de toets is ingesteld op **radar**
+* Precies één poging is toegestaan
 
 Als een toets die u verwacht te zien ontbreekt in de lijst, controleer dan eerst deze drie instellingen van die toets.
 
 ## De volgorde afdwingen
 
-Uw beheerder kan daarnaast platformbreed configureren:
+Uw beheerder kan daarnaast platformbreed het volgende configureren:
 
-* **Andere cursustools blokkeren** totdat de cursist de initiële toets heeft voltooid
-* Een **ontgrendeldrempel voor de eindoets** — een minimaal gemiddeld voltooiingspercentage van het leerpad dat vereist is voordat de eindoets wordt ontgrendeld
+* **Andere cursushulpmiddelen blokkeren** totdat de cursist de begintoets heeft voltooid
+* Een **Ontgrendelingsdrempel voor de eindtoets** — een minimaal gemiddeld voltooiingspercentage van het leerpad dat vereist is voordat de eindtoets wordt ontgrendeld
 
 ## Tips
 
-* **Stel het radartype voor resultaten vroeg in** — Omdat de geschiktheid afhangt van toetsinstellingen die u maakt wanneer u de toets opbouwt, plant u Positionering voordat u de categorieën en het resultaatpaginatype van uw toets definitief maakt, niet erna
-* **Gebruik een echte kopie voor de eindoets** — Een toets met zichzelf vergelijken zegt weinig; de eindoets moet dezelfde categorieën bestrijken zodat het radardiagram betekenisvol is
+* **Stel het radarresultaattype vroeg in** — Omdat de geschiktheid afhangt van toetsinstellingen die u maakt bij het opbouwen van de toets, plan Positionering voordat u de categorieën en het type resultatenpagina van uw toets definitief maakt, niet erna
+* **Gebruik een echte kopie voor de eindtoets** — Een toets met zichzelf vergelijken zegt niet veel; de eindtoets moet dezelfde categorieën bestrijken zodat het radardiagram zinvol is

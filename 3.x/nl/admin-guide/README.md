@@ -1,27 +1,27 @@
 # Beheerdershandleiding
 
-Welkom bij de Chamilo 3.0 Beheerdershandleiding. Deze handleiding is bedoeld voor platformbeheerders die verantwoordelijk zijn voor het installeren, configureren en beheren van een Chamilo-instantie.
+Welkom bij de Beheerdershandleiding van Chamilo 3.0. Deze handleiding is bedoeld voor platformbeheerders die verantwoordelijk zijn voor het installeren, configureren en beheren van een Chamilo-instantie.
 
 ## Wat u als beheerder kunt doen
 
 Als Chamilo-beheerder beheert u:
 
-* **Installatie en configuratie** — Chamilo op uw server instellen, opslag, e-mail en omgevingsinstellingen configureren
+* **Installatie en configuratie** — Chamilo op uw server installeren, opslag, e-mail en omgevingsinstellingen configureren
 * **Gebruikers** — Gebruikersaccounts, rollen en machtigingen aanmaken, importeren en beheren
-* **Cursussen en sessies** — Cursusaanmaak overzien, de cursuscatalogus beheren en trainingssessies configureren
+* **Cursussen en sessies** — Het aanmaken van cursussen overzien, de cursuscatalogus beheren en trainingssessies configureren
 * **Platform** — Talen, portaalnieuws, de globale agenda en de Pages CMS-tool
 * **Platforminstellingen** — Portaalgedrag, beveiliging, prestaties en beschikbaarheid van functies configureren
-* **Analytics** — Platformstatistieken, leeranalytics en corporate/HR-rapportage
-* **Vaardigheden** — Competentiebadges definiëren en koppelen aan resultaten in het cijferboek
-* **Systeem** — Serveronderhoudstools, zelfupdate, opslaginspectie en branding
-* **Ruimtes** — Fysieke locaties en boekbare trainingsruimtes beheren
+* **Analyse** — Platformstatistieken, learning analytics en bedrijfs-/HR-rapportage
+* **Vaardigheden** — Competentiebadges definiëren en koppelen aan resultaten in het gradebook
+* **Systeem** — Onderhoudstools voor de server, zelfupdate, opslaginspectie en huisstijl
+* **Ruimtes** — Fysieke locaties en reserveerbare trainingsruimtes beheren
 * **Beveiliging** — Aanmeldpogingen monitoren, gemarkeerde inbraakpogingen beoordelen, wachtwoordsterkte controleren en bestandsintegriteit verifiëren
-* **Plugins** — Platformextensies installeren, configureren en beheren
+* **Plugins** — Platformuitbreidingen installeren, configureren en beheren
 * **Authenticatie** — Externe aanmeldsystemen instellen (OAuth2, LDAP, CAS, SCIM)
-* **Integraties** — Chamilo koppelen aan videoconferencing, LTI-tools, AI-providers en meer
-* **Onderhoud** — Back-ups uitvoeren, de systeemgezondheid monitoren en opslag beheren
+* **Integraties** — Chamilo verbinden met videoconferenties, LTI-tools, AI-providers en meer
+* **Onderhoud** — Back-ups uitvoeren, de systeemstatus monitoren en opslag beheren
 
-## Hoe deze handleiding is ingedeeld
+## Hoe deze handleiding is opgebouwd
 
 1. **Aan de slag** — Een overzicht van de beheerinterface
 2. **Installatie** — Serververeisten, installatiewizard en initiële configuratie
@@ -30,20 +30,20 @@ Als Chamilo-beheerder beheert u:
 5. **Sessies** — Tijdgebonden trainingscohorten organiseren
 6. **Platform** — Talen, portaalnieuws, de globale agenda en de Pages CMS-tool
 7. **Platforminstellingen** — Elk aspect van het platform configureren
-8. **Analytics** — Statistieken, leeranalytics en corporate/HR-rapportage
-9. **Vaardigheden** — Competentiebadges en toekenningen op basis van het cijferboek
-10. **Systeem** — Servertools, zelfupdate, opslaginspectie en branding
-11. **Ruimtes** — Vestigingen en boekbare trainingsruimtes
-12. **Beveiliging** — Beveiligingsmonitoring en audittools
-13. **Plugins** — Platformextensies beheren
-14. **Health Check** — Live configuratiecontroles
-15. **Overige beheerblokken** — Chamilo.org-links, versiecontrole, ondersteuning en nieuws
+8. **Analyse** — Statistieken, learning analytics en bedrijfs-/HR-rapportage
+9. **Vaardigheden** — Competentiebadges en op het gradebook gebaseerde onderscheidingen
+10. **Systeem** — Servertools, zelfupdate, opslaginspectie en huisstijl
+11. **Ruimtes** — Vestigingen en reserveerbare trainingsruimtes
+12. **Beveiliging** — Tools voor beveiligingsmonitoring en auditing
+13. **Plugins** — Platformuitbreidingen beheren
+14. **Statuscontrole** — Live configuratiecontroles
+15. **Overige beheerblokken** — Koppelingen naar Chamilo.org, versiecontrole, ondersteuning en nieuws
 16. **Authenticatie** — Externe authenticatieproviders instellen
-17. **Integraties** — Diensten van derden koppelen
-18. **Multi-URL** — Meerdere portalen vanuit één installatie draaien
-19. **Prestatiestuning** — Het platform optimaliseren voor snelheid en schaal
+17. **Integraties** — Verbinding maken met diensten van derden
+18. **Multi-URL** — Meerdere portalen uitvoeren vanuit één installatie
+19. **Prestatieoptimalisatie** — Het platform optimaliseren voor snelheid en schaal
 20. **Onderhoud** — Back-ups, systeemstatus en opschoning
 
-## Toegang tot het beheerpaneel
+## Het beheerpaneel openen
 
-Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om het beheerpaneel te openen.
+Nadat u zich als beheerder hebt aangemeld, klikt u op **Beheer** <img src="../.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om het beheerpaneel te openen.

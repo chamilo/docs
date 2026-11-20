@@ -1,10 +1,10 @@
-# Übungen (Tests) – Einstellungen
+# Einstellungen für Übungen (Tests)
 
-Vorgaben und Verhalten des Werkzeugs **Übungen (Tests)** – Anzeige von Fragen, Bewertung, Versuche und Ähnliches.
+Standardwerte und Verhalten des Werkzeugs **Übungen (Tests)** — Anzeige von Fragen, Bewertung, Versuche und Ähnliches.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Übungen (Tests)**. Diese Kategorie enthält **64 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Übungen (Tests)**. Diese Kategorie enthält **66 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
 
-> Der Variablenname im Code ist in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -12,60 +12,60 @@ Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellun
 
 **Anzeige des Versuchs mit der besten Punktzahl aktivieren**
 
-Geben Sie eine Liste von Kurs- und Test-IDs an, für die in den Berichten der Versuch mit der besten Punktzahl jedes Lernenden angezeigt wird.
+Geben Sie eine Liste von Kurs- und Test-IDs an, für die in den Berichten der Versuch mit der besten Punktzahl für jede lernende Person angezeigt wird.
 
 ### `allow_coach_feedback_exercises`
 
-**Tutoren das Kommentieren beim Überprüfen von Übungen erlauben**
+**Tutorinnen und Tutoren erlauben, beim Überprüfen von Übungen Kommentare abzugeben**
 
-Tutoren das Bearbeiten von Feedback beim Überprüfen von Übungen erlauben
+Tutorinnen und Tutoren erlauben, beim Überprüfen von Übungen Feedback zu bearbeiten
 
 *Standard: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Lehrenden das Bearbeiten von Tests in Lernpfaden erlauben**
+**Lehrkräften erlauben, Tests in Lernpfaden zu bearbeiten**
 
-Standardmäßig verhindert Chamilo das Bearbeiten von Tests, die in einem Lernpfad enthalten sind. Damit sollen Änderungen vermieden werden, die Lernende (vergangene und zukünftige) hinsichtlich der Ergebnisse und/oder des Fortschritts im Lernpfad unterschiedlich betreffen würden. Diese Option erlaubt Lehrenden, diese Einschränkung zu umgehen.
+Standardmäßig verhindert Chamilo, dass Sie Tests bearbeiten, die in einem Lernpfad enthalten sind. Dadurch sollen Änderungen vermieden werden, die sich auf Lernende (vergangene und zukünftige) hinsichtlich der Ergebnisse und/oder des Fortschritts im Lernpfad unterschiedlich auswirken würden. Diese Option ermöglicht es Lehrkräften, diese Einschränkung zu umgehen.
 
 
 ### `allow_exercise_categories`
 
 **Testkategorien aktivieren**
 
-Testkategorien sind standardmäßig nicht aktiviert, da sie eine zusätzliche Komplexitätsebene einführen. Aktivieren Sie diese Funktion, damit alle Verwaltungs-Symbole zu Testkategorien angezeigt werden.
+Testkategorien sind standardmäßig nicht aktiviert, da sie eine zusätzliche Komplexitätsebene hinzufügen. Aktivieren Sie diese Funktion, damit alle Verwaltungssymbole im Zusammenhang mit Testkategorien angezeigt werden.
 
 *Standard: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Auswahl verpflichtender Fragen aktivieren**
+**Auswahl obligatorischer Fragen aktivieren**
 
-Ermöglicht die Auswahl verpflichtender Fragen in einem Test bei Verwendung zufälliger Kategorien.
+Aktivieren Sie die Auswahl obligatorischer Fragen in einem Test, wenn zufällige Kategorien verwendet werden.
 
 *Standard: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test-Benachrichtigungseinstellungen auf Testebene**
+**Benachrichtigungseinstellungen für Tests auf Testebene**
 
-Ermöglicht die Konfiguration von Benachrichtigungen bei Testabgaben auf Testebene statt auf Kursebene. Falls auf Testebene nicht definiert, wird auf die Kurseinstellungen zurückgefallen.
+Aktivieren Sie die Konfiguration von Benachrichtigungen über Testabgaben auf Testebene statt auf Kursebene. Falls auf Testebene nichts definiert ist, wird auf die Einstellungen auf Kursebene zurückgegriffen.
 
 *Standard: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Schnelles Hinzufügen eines Bildes zur Frage**
+**Schnelles Hinzufügen eines Bildes zu einer Frage**
 
-Aktiviert ein zusätzliches Symbol in der Fragenliste des Tests, um ein Bild als Fragenbeschreibung hinzuzufügen. Das beschleunigt die Fragenbearbeitung erheblich, wenn die Fragen im Titel stehen und die Beschreibung nur ein Bild enthält.
+Aktivieren Sie ein zusätzliches Symbol in der Liste der Testfragen, um ein Bild als Fragenbeschreibung hinzuzufügen. Dies beschleunigt die Bearbeitung von Fragen erheblich, wenn die Fragen im Titel stehen und die Beschreibung nur ein Bild enthält.
 
 *Standard: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Fragen-Feedback bei falscher Antwort hinzufügen**
+**Fragenfeedback hinzufügen, wenn die Antwort falsch ist**
 
-Standardmäßig erlaubt Chamilo Feedback zu jeder einzelnen Antwort einer Frage. Mit dieser Option wird ein zusätzliches Feld angelegt, um vordefiniertes Feedback zur gesamten Frage bereitzustellen. Dieses Feedback erscheint nur, wenn der Benutzer falsch geantwortet hat.
+Standardmäßig ermöglicht Chamilo, Feedback zu jeder Antwort einer Frage anzuzeigen. Mit dieser Option wird ein zusätzliches Feld erstellt, um vordefiniertes Feedback zur gesamten Frage bereitzustellen. Dieses Feedback erscheint nur, wenn die nutzende Person falsch geantwortet hat.
 
 *Standard: `false`*
 
@@ -73,23 +73,23 @@ Standardmäßig erlaubt Chamilo Feedback zu jeder einzelnen Antwort einer Frage.
 
 **Konfiguration der Testergebnisseite aktivieren**
 
-Definieren Sie ein Array von Einstellungen, die auf alle Testergebnisseiten angewendet werden sollen. Mögliche Einstellungen sind ‚hide_question_score‘, ‚hide_expected_answer‘, ‚hide_category_table‘, ‚hide_correct_answered_questions‘, ‚hide_total_score‘ und möglicherweise weitere in Zukunft. Suchen Sie im Code nach ‚getPageConfigurationAttribute‘, um zu sehen, was verwendet wird.
+Definieren Sie ein Array von Einstellungen, die Sie auf alle Testergebnisseiten anwenden möchten. Mögliche Einstellungen sind ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ und möglicherweise weitere in der Zukunft. Suchen Sie im Code nach ‘getPageConfigurationAttribute’, um zu sehen, was verwendet wird.
 
 *Standard: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Schaltfläche ‚Zurück‘ im Test zur Navigation zwischen Fragen anzeigen**
+**Schaltfläche „Zurück“ im Test zur Navigation zwischen Fragen anzeigen**
 
-Setzen Sie dies auf false, um die Schaltfläche ‚Zurück‘ beim Beantworten von Fragen in einem Test zu deaktivieren und Benutzer so zu zwingen, stets vorwärts zu gehen.
+Setzen Sie dies auf false, um die Schaltfläche „Zurück“ beim Beantworten von Fragen in einem Test zu deaktivieren und die nutzenden Personen so zu zwingen, stets vorwärtszugehen.
 
 *Standard: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio-Feedback zu abgegebenen Antworten**
+**Audio-Feedback zu eingereichten Antworten**
 
-Lehrenden erlauben, Feedback an Benutzer per Audio (alternativ zu Text) zu jeder Frage in einem Test zu geben.
+Lehrkräften erlauben, den nutzenden Personen zu jeder Frage eines Tests Feedback per Audio (alternativ zu Text) zu geben.
 
 *Standard: `true`*
 
@@ -97,7 +97,7 @@ Lehrenden erlauben, Feedback an Benutzer per Audio (alternativ zu Text) zu jeder
 
 **Zeit pro Frage in Tests aktivieren**
 
-Standardmäßig ist nur eine Zeitbegrenzung pro Test möglich. Eine Begrenzung pro Frage eröffnet zusätzliche Möglichkeiten; beide können (vorsichtig) kombiniert werden.
+Standardmäßig ist es nur möglich, die Zeit pro Test zu begrenzen. Eine Begrenzung pro Frage fügt eine zusätzliche Ebene von Möglichkeiten hinzu, und Sie können beides (mit Bedacht) kombinieren.
 
 *Standard: `false`*
 
@@ -105,89 +105,107 @@ Standardmäßig ist nur eine Zeitbegrenzung pro Test möglich. Eine Begrenzung p
 
 **Fragen vorheriger Kategorien in einem Test sperren**
 
-Bei Verwendung dieser Option erscheint eine zusätzliche Option in der Testkonfiguration. Bei einem Test mit mehreren Fragenkategorien und einer Verteilung nach Kategorie können Benutzer die Fragen kategorieweise durchlaufen. Sobald eine Kategorie abgeschlossen ist, wechselt er/sie zur nächsten Kategorie und kann nicht zur vorherigen Kategorie zurückkehren.
+Wenn Sie diese Option verwenden, erscheint eine zusätzliche Option in der Konfiguration des Tests. Bei einem Test mit mehreren Fragenkategorien und einer Verteilung nach Kategorie ermöglicht dies der nutzenden Person, Fragen kategorieweise zu durchlaufen. Sobald eine Kategorie abgeschlossen ist, wechselt sie zur nächsten Kategorie und kann nicht zur vorherigen Kategorie zurückkehren.
 
 *Standard: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Versand von Test-Benachrichtigungen an den allgemeinen Tutor blockieren**
+**Versand von Testbenachrichtigungen an die allgemeine Tutorin bzw. den allgemeinen Tutor blockieren**
 
-Wenn Lernende einen Test abschließen, werden Benachrichtigungen üblicherweise an Tutoren gesendet, einschließlich des allgemeinen Sitzungstutors. Aktivieren Sie diese Option, um den allgemeinen Tutor von diesen Benachrichtigungen auszunehmen.
+Wenn Lernende einen Test abschließen, werden Benachrichtigungen in der Regel an Tutorinnen und Tutoren gesendet, einschließlich der allgemeinen Sitzungstutorin bzw. des allgemeinen Sitzungstutors. Aktivieren Sie diese Option, um die allgemeine Tutorin bzw. den allgemeinen Tutor von diesen Benachrichtigungen auszuschließen.
 
 *Standard: `false`*
 
 ### `configure_exercise_visibility_in_course`
 
-**Konfiguration der Unsichtbarkeit von Tests in Sitzungen auf Ebene des Basiskurses ermöglichen**
+**Aktivieren, um die Konfiguration „Übung in der Sitzung unsichtbar“ auf Ebene des Basiskurses zu umgehen**
 
-Ermöglicht die Konfiguration der Unsichtbarkeit von Tests in Sitzungen im Basiskurs, um die globale Konfiguration zu umgehen. Ist die Option nicht gesetzt, wird der globale Parameter verwendet.
+Aktiviert die Konfiguration der Unsichtbarkeit von Übungen in der Sitzung im Basiskurs, um die globale Konfiguration zu umgehen. Wenn nicht gesetzt, wird der globale Parameter verwendet.
 
 *Standard: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**„Ergebnisse löschen“ für Lehrende deaktivieren**
+**„Ergebnisse bereinigen“ für Lehrkräfte deaktivieren**
 
-Deaktiviert die Option, Testergebnisse aus der Testliste zu löschen. Dies wird häufig verwendet, wenn weniger sorgfältige Lehrende Kurse verwalten, um kritische Fehler zu vermeiden.
+Deaktiviert die Option, Testergebnisse aus der Testliste zu löschen. Dies wird häufig verwendet, wenn weniger sorgfältige Lehrkräfte Kurse verwalten, um schwerwiegende Fehler zu vermeiden.
 
 *Standard: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Standard-E-Mail-Benachrichtigung bei neuem Test**
+**Standard-E-Mail-Benachrichtigung bei neuem Quiz**
 
-Ob Kursverwalter (Lehrende) per E-Mail benachrichtigt werden sollen, wenn ein Test von einem Lernenden beantwortet wird. Dies ist der Standardwert für alle neuen Kurse; jeder Lehrende kann diese Einstellung in seinem eigenen Kurs weiterhin ändern.
+Legt fest, ob Kursverantwortliche (Lehrkräfte) per E-Mail benachrichtigt werden sollen, wenn ein Quiz von einem Lernenden beantwortet wird. Dies ist der Standardwert für alle neuen Kurse; jede Lehrkraft kann diese Einstellung jedoch weiterhin im eigenen Kurs ändern.
 
 *Standard: `true`*
 
 ### `enable_quiz_scenario`
 
-**Testszenario aktivieren**
+**Quiz-Szenario aktivieren**
 
-Hierüber können Sie Tests erstellen, die je nach den Antworten der Benutzer unterschiedliche Fragen vorschlagen.
+Hiermit können Sie Übungen erstellen, die je nach den Antworten der Benutzer unterschiedliche Fragen vorschlagen.
 
 *Standard: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Zusätzliche Links für Lehrende in der Testliste**
+**Zusätzliche Links für Lehrkräfte in der Testliste**
 
-Callback-Elemente konfigurieren, um neue Aktionssymbole für Lehrende rechts in der Testliste zu erzeugen, in Form eines Arrays, z. B. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+Konfigurieren Sie Callback-Elemente, um neue Aktionssymbole für Lehrkräfte auf der rechten Seite der Testliste zu erzeugen, in Form eines Arrays, z. B. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
 
 ### `exercise_attempts_report_show_username`
 
-**Benutzername auf der Testergebnisseite anzeigen**
+**Benutzernamen auf der Testergebnisseite anzeigen**
 
-Den Benutzernamen (statt oder zusätzlich zu den Benutzerinformationen) auf der Testergebnisseite anzeigen.
+Zeigt den Benutzernamen (anstelle von oder zusätzlich zu den Benutzerinformationen) auf der Testergebnisseite an.
 
 *Standard: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Zusätzliche Benutzerfelder im Testkategoriebericht hinzufügen**
+**Zusätzliche Benutzerfelder im Übungskategoriebericht hinzufügen**
 
-Ein Array mit der Liste der zusätzlichen Benutzerfelder definieren, die dem Bericht hinzugefügt werden sollen.
+Definieren Sie ein Array mit der Liste der zusätzlichen Benutzerfelder, die dem Bericht hinzugefügt werden sollen.
 
 ### `exercise_category_round_score_in_export`
 
 **Punktzahl in Testexporten runden**
 
-Wenn aktiviert, werden Testpunktzahlen beim Export von Testberichten auf die nächste ganze Zahl gerundet.
+Wenn aktiviert, werden Testpunktzahlen beim Export von Übungsberichten auf die nächste ganze Zahl gerundet.
 
 *Standard: `false`*
+
+### `exercise_default_visibility_can_be_modified_in_course` **v3**
+
+**Standardsichtbarkeit neuer Tests kann kursweise geändert werden**
+
+Wenn aktiviert, können Lehrkräfte in den Kurseinstellungen die Sichtbarkeit festlegen, die neuen Tests ihres Kurses zugewiesen wird, anstelle des Plattformstandards.
+
+*Standard: `false`*
+
+Wenn dies aktiviert ist, erscheint in den Kurseinstellungen im Abschnitt **Tests** die Option **Standardsichtbarkeit für neue Tests**. Ein Kurs, für den kein Wert gewählt wurde, verwendet `exercise_default_visibility_on_creation`.
+
+### `exercise_default_visibility_on_creation` **v3**
+
+**Standardsichtbarkeit neuer Tests**
+
+Sichtbarkeit, die einem neuen Test zugewiesen wird, wenn eine Lehrkraft ihn in einem Kurs erstellt. Lehrkräfte können die Sichtbarkeit jedes Tests anschließend weiterhin ändern.
+
+*Standard: `visible`*
 
 ### `exercise_embeddable_extra_types`
 
 **Einbettbare Fragetypen**
 
-Standardmäßig werden nur Fragen mit Einfach- und Mehrfachauswahl berücksichtigt, wenn entschieden wird, ob ein Test in ein Video eingebettet werden kann. Mit dieser Option können Sie festlegen, dass weitere Fragetypen verfügbar sind. Beachten Sie, dass nicht alle Fragetypen gut in den für Videos vorgesehenen Bereich passen. Die Fragetypen sind im Code in question.class.php verfügbar.
+Standardmäßig werden nur Einfachauswahl- und Mehrfachauswahlfragen berücksichtigt, wenn entschieden wird, ob ein Test in ein Video eingebettet werden kann. Mit dieser Option können Sie festlegen, dass weitere Fragetypen verfügbar sind. Beachten Sie, dass nicht alle Fragetypen gut in den für Videos vorgesehenen Bereich passen. Die Fragetypen sind im Code in question.class.php verfügbar.
 
 ### `exercise_hide_ip`
 
-**Benutzer-IP aus Testberichten ausblenden**
+**Benutzer-IP in Testberichten ausblenden**
 
-Standardmäßig werden Benutzerinformationen und die IP-Adresse angezeigt; dies kann jedoch als personenbezogene Daten gelten. Diese Option ermöglicht es, diese Informationen aus allen Testberichten zu entfernen.
+Standardmäßig werden Benutzerinformationen und die IP-Adresse angezeigt; dies kann jedoch als personenbezogene Daten gelten. Mit dieser Option können Sie diese Angaben aus allen Testberichten entfernen.
 
 *Standard: `false`*
 
@@ -195,57 +213,56 @@ Standardmäßig werden Benutzerinformationen und die IP-Adresse angezeigt; dies 
 
 **Fragenband (richtig/falsch) in Testergebnissen ausblenden**
 
-In Testergebnissen erscheint standardmäßig ein Band, das anzeigt, ob die Antwort richtig oder falsch war. Aktivieren Sie diese Option, um das Band global zu entfernen.
+In den Testergebnissen erscheint standardmäßig ein Band, das anzeigt, ob die Antwort richtig oder falsch war. Aktivieren Sie diese Option, um das Band global zu entfernen.
 
 *Standard: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Test in Sitzung unsichtbar**
+**Übung in der Sitzung unsichtbar**
 
-Wenn ein Test im Basiskurs sichtbar ist, erscheint er in der Sitzung unsichtbar. Wenn ein Test im Basiskurs unsichtbar ist, erscheint er in der Sitzung nicht.
+Wenn eine Übung im Basiskurs sichtbar ist, erscheint sie in der Sitzung als unsichtbar. Wenn eine Übung im Basiskurs unsichtbar ist, erscheint sie in der Sitzung nicht.
 
 *Standard: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Maximale Anzahl Editoren auf der Testergebnisseite**
+**Maximale Anzahl von Editoren im Übungsergebnisbildschirm**
 
-Wegen der großen Anzahl von Fragen, die in einem Test erscheinen können, kann der Korrekturbildschirm, auf dem der Lehrende Kommentare zu jeder Antwort hinzufügen kann, sehr langsam laden. Setzen Sie diese Zahl auf 5, damit die Plattform WYSIWYG-Editoren nur bis zu einer bestimmten Anzahl von Antworten auf dem Bildschirm anzeigt. Dadurch wird die Ladezeit der Korrekturseite erheblich verkürzt, WYSIWYG-Editoren entfallen jedoch und es bleibt nur ein reiner Texteditor.
+Aufgrund der großen Anzahl von Fragen, die in einer Übung erscheinen können, kann der Korrekturbildschirm, auf dem die Lehrkraft Kommentare zu jeder Antwort hinzufügen kann, sehr langsam laden. Setzen Sie diesen Wert auf 5, damit die Plattform WYSIWYG-Editoren nur bis zu einer bestimmten Anzahl von Antworten auf dem Bildschirm anzeigt. Dadurch wird die Ladezeit der Korrekturseite erheblich verkürzt, die WYSIWYG-Editoren werden jedoch entfernt und es bleibt nur ein einfacher Texteditor.
 
 *Standard: `0`*
 
 
 ### `exercise_max_score`
 
-**Maximale Punktzahl von Tests**
+**Maximale Punktzahl von Übungen**
 
-Eine maximale Punktzahl (in der Regel 10, 20 oder 100) für alle Tests auf der Plattform festlegen. Dies bestimmt, wie Endergebnisse Benutzern und Lehrenden angezeigt werden.
+Definieren Sie eine maximale Punktzahl (in der Regel 10, 20 oder 100) für alle Übungen auf der Plattform. Dadurch wird festgelegt, wie Endergebnisse Benutzern und Lehrkräften angezeigt werden.
 
 *Standard: `20`*
 
 
 ### `exercise_min_score`
 
-**Minimale Punktzahl von Tests**
+**Minimale Punktzahl von Übungen**
 
-Eine minimale Punktzahl (in der Regel 0) für alle Tests auf der Plattform festlegen. Dies bestimmt, wie Endergebnisse Benutzern und Lehrenden angezeigt werden.
+Definieren Sie eine minimale Punktzahl (in der Regel 0) für alle Übungen auf der Plattform. Dadurch wird festgelegt, wie Endergebnisse Benutzern und Lehrkräften angezeigt werden.
 
 *Standard: `0`*
 
-
 ### `exercise_result_end_text_html_strict_filtering`
 
-**HTML-Filterung in Test-Abschlussnachrichten umgehen**
+**HTML-Filterung in Testabschlussmeldungen umgehen**
 
-Nachrichten am Ende von Tests als immer sicher betrachten. Das Entfernen des Filters ermöglicht die Verwendung von JavaScript dort.
+Nachrichten am Ende von Tests werden als stets sicher betrachtet. Das Entfernen des Filters ermöglicht die Verwendung von JavaScript an dieser Stelle.
 
 *Standard: `false`*
 
 
 ### `exercise_score_format`
 
-**Format der Testpunktzahl**
+**Format der Testergebnisse**
 
 Wählen Sie zwischen den folgenden Formen für die Anzeige der Punktzahl der Benutzer in verschiedenen Berichten: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Verwenden Sie die numerische ID der gewünschten Form.
 
@@ -255,15 +272,16 @@ Wählen Sie zwischen den folgenden Formen für die Anzeige der Punktzahl der Ben
 
 **Neue Testversuche deaktivieren**
 
-Neue Testversuche global deaktivieren. Wird üblicherweise verwendet, wenn es ein allgemeines Problem mit Tests gibt und Sie Zeit zur Analyse benötigen, ohne die gesamte Plattform zu sperren.
+Neue Testversuche global deaktivieren. Wird üblicherweise verwendet, wenn es ein allgemeines Problem mit Tests gibt und Sie Zeit für die Analyse benötigen, ohne die gesamte Plattform zu sperren.
 
 *Standard: `false`*
+
 
 ### `hide_free_question_score`
 
 **Punktzahl offener Fragen ausblenden**
 
-Blendet aus, dass offene Fragen (einschließlich Audio und Annotationen) eine Punktzahl haben, indem die Anzeige der Punktzahl in allen berichtsbezogenen Ansichten für Lernende unterdrückt wird.
+Blendet aus, dass offene Fragen (einschließlich Audio und Anmerkungen) eine Punktzahl haben, indem die Anzeige der Punktzahl in allen für Lernende sichtbaren Berichten ausgeblendet wird.
 
 *Standard: `false`*
 
@@ -272,16 +290,16 @@ Blendet aus, dass offene Fragen (einschließlich Audio und Annotationen) eine Pu
 
 **Benutzerinformationen auf der Testergebnisseite ausblenden**
 
-Die Standard-Testergebnisseite zeigt ein Benutzerdatenblatt (Foto, Name usw.), das in manchen Kontexten als Grenzüberschreitung bei der Verarbeitung personenbezogener Daten angesehen werden kann. Aktivieren Sie diese Option, um Benutzerdetails aus den Testergebnissen zu entfernen.
+Die Standardseite der Testergebnisse zeigt ein Benutzerdatenblatt (Foto, Name usw.), das in manchen Kontexten als grenzwertig im Hinblick auf die Verarbeitung personenbezogener Daten angesehen werden kann. Aktivieren Sie diese Option, um Benutzerdetails aus den Testergebnissen zu entfernen.
 
 *Standard: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Berechtigungen von Lehrenden für Tests einschränken**
+**Berechtigungen von Lehrkräften für Tests einschränken**
 
-Wenn aktiviert, können Lehrende Tests und Fragen nicht löschen, die Sichtbarkeit von Tests nicht ändern, nicht nach QTI herunterladen, Ergebnisse nicht bereinigen usw.
+Wenn aktiviert, können Lehrkräfte weder Tests noch Fragen löschen, die Sichtbarkeit von Tests ändern, nach QTI herunterladen, Ergebnisse bereinigen usw.
 
 *Standard: `false`*
 
@@ -299,16 +317,16 @@ Aktivieren, um dem Endbenutzer eine Seite mit der Liste ausstehender Tests über
 
 **HTML-Filterung in Testfragen umgehen**
 
-Geht davon aus, dass Fragentexte in Tests stets sicher sind. Das Entfernen des Filters ermöglicht die Verwendung von JavaScript darin.
+Fragentexte in Tests werden als stets sicher betrachtet. Das Entfernen des Filters ermöglicht die Verwendung von JavaScript an dieser Stelle.
 
 *Standard: `false`*
 
 
 ### `question_pagination_length`
 
-**Fragenpaginierungslänge für Lehrende**
+**Länge der Fragenpaginierung für Lehrkräfte**
 
-Anzahl der Fragen, die auf jeder Seite angezeigt werden, wenn die Fragenpaginierung für Lehrende verwendet wird.
+Anzahl der Fragen, die auf jeder Seite angezeigt werden, wenn die Option zur Fragenpaginierung für Lehrkräfte verwendet wird.
 
 *Standard: `20`*
 
@@ -317,7 +335,7 @@ Anzahl der Fragen, die auf jeder Seite angezeigt werden, wenn die Fragenpaginier
 
 **Zusätzliche Aufzeichnung von Testantworten aktivieren**
 
-Aktiviert die Aufzeichnung aller Antworten (auch temporärer) in der Tabelle track_e_attempt_recording. Diese Funktion ist experimentell und kann Probleme auf den Berichtsseiten verursachen, wenn ein Test bewertet werden soll.
+Aktiviert die Aufzeichnung aller Antworten (auch vorübergehender) in der Tabelle track_e_attempt_recording. Diese Funktion ist experimentell und kann Probleme auf den Berichtsseiten verursachen, wenn versucht wird, einen Test zu bewerten.
 
 *Standard: `false`*
 
@@ -326,16 +344,27 @@ Aktiviert die Aufzeichnung aller Antworten (auch temporärer) in der Tabelle tra
 
 **Alle Antworten vor dem Absenden des Tests prüfen**
 
-Zeigt vor dem Absenden des Tests ein Popup mit der Liste beantworteter/unbeantworteter Fragen an.
+Zeigt vor dem Absenden des Tests ein Popup mit der Liste der beantworteten und unbeantworteten Fragen an.
 
 *Standard: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Prüfung des Antwortspeichervorgangs vor dem Test hinzufügen**
+**Prüfung des Antwortspeicherungsprozesses vor dem Test hinzufügen**
 
-Stellt sicher, dass Benutzer bereit sind, den Test zu beginnen, indem vor dem Eintritt in den Test eine Simulation des Fragenspeichervorgangs bereitgestellt wird. Dies ermöglicht die frühzeitige Erkennung einiger Verbindungsprobleme und verringert Reibungen in der Benutzererfahrung.
+Stellt sicher, dass Benutzer bereit sind, den Test zu starten, indem vor dem Betreten des Tests eine Simulation des Fragenspeicherungsprozesses bereitgestellt wird. Dies ermöglicht die frühzeitige Erkennung einiger Verbindungsprobleme und verringert Reibungen in der Benutzererfahrung.
+
+*Standard: `false`*
+
+
+### `allow_final_exam_access_rule`
+
+**Zugangsbedingungen vor einem Test**
+
+Ermöglicht Lehrkräften, einen Test, beispielsweise eine Abschlussprüfung, geschlossen zu halten, bis der Lernende eine Mindestzeit im Kurs verbracht und ein erforderliches Profilfeld ausgefüllt hat. Lehrkräfte legen diese Bedingungen in den erweiterten Einstellungen jedes Tests fest. Solange diese Einstellung deaktiviert ist, werden die Bedingungen weder angezeigt noch angewendet.
+
+Die Einstellung wird automatisch aktiviert, wenn die Plattform mit Tests aktualisiert wird, die bereits solche Bedingungen enthalten, sowie durch den Befehl `chamilo:migration:migrate-final-exam-access`, wenn dieser sie schreibt.
 
 *Standard: `false`*
 
@@ -344,23 +373,23 @@ Stellt sicher, dass Benutzer bereit sind, den Test zu beginnen, indem vor dem Ei
 
 **Kontrollkästchen zur Bestätigung der Antwortanzahl hinzufügen**
 
-Diese Option fügt am Ende jedes Tests ein Kontrollkästchen hinzu, mit dem der Benutzer die Anzahl der gespeicherten Antworten bestätigt. Dies liefert bessere Prüfungsdaten für kritische Tests.
+Diese Option fügt am Ende jedes Tests ein Kontrollkästchen hinzu, mit dem der Benutzer die Anzahl der gespeicherten Antworten bestätigen soll. Dies liefert bessere Audit-Daten für kritische Tests.
 
 *Standard: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Verwaiste Fragen beim Kursexport verwerfen**
+**Verwaiste Fragen beim Kurs-Export verwerfen**
 
-Beim Export eines Kurses werden Fragen, die zu keinem Test gehören, nicht exportiert.
+Beim Exportieren eines Kurses werden Fragen, die zu keinem Test gehören, nicht exportiert.
 
 *Standard: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Zertifikat am Testende erzeugen**
+**Zertifikat bei Testende erzeugen**
 
 Erzeugt ein Zertifikat beim Beenden eines Quiz. Das Quiz muss im Notenbuch-Werkzeug verknüpft sein und einen konfigurierten Bestehensprozentsatz haben.
 
@@ -380,7 +409,7 @@ Blendet die Tabelle aus, die alle vorherigen Versuche auf der Teststartseite anz
 
 **Fragennummer ausblenden**
 
-Blendet die fortlaufende Nummerierung der Fragen während der Testdurchführung aus.
+Blendet die fortlaufende Nummerierung der Fragen beim Ablegen eines Tests aus.
 
 *Standard: `false`*
 
@@ -389,22 +418,21 @@ Blendet die fortlaufende Nummerierung der Fragen während der Testdurchführung 
 
 **Zoomen von Testbildern aktivieren**
 
-Aktivieren Sie diese Funktion, damit Benutzer Bilder in den Tests zoomen können.
+Aktivieren Sie diese Funktion, damit Benutzer in Tests verwendete Bilder vergrößern können.
 
 ### `quiz_keep_alive_ping_interval`
 
 **Sitzung in Tests aktiv halten**
 
-Hält die Sitzung aktiv, indem in regelmäßigen Abständen alle x Sekunden ein Ping-Signal an den Server gesendet wird; der Wert wird hier festgelegt. Wir empfehlen einmal alle 300 Sekunden.
+Hält die Sitzung aktiv, indem in dem hier definierten Intervall von x Sekunden ein regelmäßiges Ping-Signal an den Server gesendet wird. Wir empfehlen ein Intervall von 300 Sekunden.
 
 *Standard: `0`*
 
-
 ### `quiz_open_question_decimal_score`
 
-**Dezimalpunktzahl bei offenen Fragetypen**
+**Dezimalbewertung bei offenen Fragetypen**
 
-Ermöglicht Lehrenden, die Fragetypen Offen, Mündlicher Ausdruck und Annotation mit einer Dezimalpunktzahl zu bewerten.
+Ermöglicht der Lehrkraft, die Fragetypen „offene Frage“, „mündlicher Ausdruck“ und „Annotation“ mit einer Dezimalbewertung zu bewerten.
 
 *Standard: `false`*
 
@@ -413,24 +441,24 @@ Ermöglicht Lehrenden, die Fragetypen Offen, Mündlicher Ausdruck und Annotation
 
 **Kopieren und Einfügen in Tests blockieren**
 
-Blockiert Kopieren/Einfügen/Speichern/Drucken sowie Rechtsklicks in Übungen.
+Blockiert die Tasten für Kopieren/Einfügen/Speichern/Drucken sowie Rechtsklicks in Übungen.
 
 *Standard: `false`*
 
 ### `quiz_question_category_destinations` **v3**
 
-**Progressive adaptive Tests über Kategorieziele aktivieren**
+**Progressive adaptive Tests nach Kategorieziel aktivieren**
 
-Aktiviert progressive adaptive Tests, bei denen jede Fragenkategorie Lernende abhängig von ihrer Punktzahl zu einer anderen Kategorie weiterleiten kann.
+Aktiviert progressive adaptive Tests, bei denen jede Fragenkategorie Lernende je nach Punktzahl in eine andere Kategorie weiterleiten kann.
 
 *Standard: `true`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Fragen beim Löschen des Tests automatisch löschen**
+**Fragen beim Löschen eines Tests automatisch löschen**
 
-Das Standardverhalten besteht darin, Fragen zu verwaisten, wenn der einzige Test, der sie verwendet, gelöscht wird. Wenn aktiviert, stellt diese Option sicher, dass alle Fragen, die sonst verwaist wären, ebenfalls gelöscht werden.
+Standardmäßig werden Fragen verwaist, wenn der einzige Test, der sie verwendet, gelöscht wird. Ist diese Option aktiviert, werden alle Fragen, die andernfalls verwaist wären, ebenfalls gelöscht.
 
 *Standard: `false`*
 
@@ -439,7 +467,7 @@ Das Standardverhalten besteht darin, Fragen zu verwaisten, wenn der einzige Test
 
 **Link zum Herunterladen der Testergebnisse anzeigen**
 
-Zeigt auf der Testergebnisseite einen Link zum Herunterladen der Ergebnisse als Datei an.
+Zeigt auf der Seite mit den Testergebnissen einen Link zum Herunterladen der Ergebnisse als Datei an.
 
 *Standard: `false`*
 
@@ -452,26 +480,27 @@ Wenn aktiviert, wird die Testbeschreibung nach Abschluss des Tests immer auf der
 
 *Standard: `false`*
 
+
 ### `score_grade_model`
 
 **Notenmodell für Punktzahlen**
 
-Definieren Sie ein Array von Punktzahlbereichen und Farben, um Berichte anhand dieses Modells darzustellen. So können Farben statt numerischer Noten angezeigt werden.
+Definiert ein Array von Punktzahlbereichen und Farben, um Berichte anhand dieses Modells anzuzeigen. Dadurch können Farben anstelle numerischer Noten angezeigt werden.
 
 ### `send_score_in_exam_notification_mail_to_manager`
 
 **Punktzahl in die E-Mail-Benachrichtigung zur Testabgabe aufnehmen**
 
-Die Punktzahl des Lernenden in die E-Mail-Benachrichtigung aufnehmen, die nach der Abgabe eines Tests an die Lehrkraft gesendet wird.
+Fügt die Punktzahl der lernenden Person der E-Mail-Benachrichtigung hinzu, die nach der Abgabe eines Tests an die Lehrkraft gesendet wird.
 
 *Standard: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Testversuche aus allen Sitzungen im Bericht zu ausstehenden Tests anzeigen**
+**Testversuche aus allen Sitzungen im Bericht ausstehender Tests anzeigen**
 
-Testversuche von Nutzern in allen Sitzungen anzeigen, auf die der allgemeine Tutor im Bericht zu ausstehenden Tests Zugriff hat.
+Zeigt im Bericht ausstehender Tests Testversuche von Benutzern aus allen Sitzungen an, auf die der allgemeine Tutor Zugriff hat.
 
 *Standard: `false`*
 
@@ -480,16 +509,16 @@ Testversuche von Nutzern in allen Sitzungen anzeigen, auf die der allgemeine Tut
 
 **Erwartete Auswahl in den Testergebnissen anzeigen**
 
-Die erwartete Auswahl und einen Status (richtig/falsch) für jede Antwort auf der Testergebnisseite anzeigen (sofern der Test so konfiguriert ist, dass Ergebnisse angezeigt werden).
+Zeigt auf der Seite mit den Testergebnissen die erwartete Auswahl und einen Status (richtig/falsch) für jede Antwort an (sofern der Test so konfiguriert ist, dass Ergebnisse angezeigt werden).
 
 *Standard: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Punktzahl für Fragen zum Sicherheitsgrad anzeigen**
+**Punktzahl für Fragen zum Gewissheitsgrad anzeigen**
 
-Standardmäßig zeigt Chamilo für Fragetypen zum Sicherheitsgrad keine Punktzahl an.
+Standardmäßig zeigt Chamilo keine Punktzahl für die Fragetypen zum Gewissheitsgrad an.
 
 *Standard: `false`*
 
@@ -498,16 +527,16 @@ Standardmäßig zeigt Chamilo für Fragetypen zum Sicherheitsgrad keine Punktzah
 
 **Testversuche aus allen Sitzungen im Basiskurs anzeigen**
 
-Testversuche von Nutzern in allen Sitzungen der Lehrkraft im Basiskurs anzeigen.
+Zeigt der Lehrkraft im Basiskurs Testversuche von Benutzern aus allen Sitzungen an.
 
 *Standard: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Offizielle Kennung in den Übungs- bzw. Testergebnissen anzeigen**
+**Amtlichen Code in den Übungsergebnissen anzeigen**
 
-Ob die offizielle Kennung der Studierenden in den Berichten zu den Übungs- bzw. Testergebnissen angezeigt werden soll
+Legt fest, ob der amtliche Code der Studierenden in den Berichten zu den Übungsergebnissen angezeigt wird.
 
 *Standard: `false`*
 
@@ -515,7 +544,7 @@ Ob die offizielle Kennung der Studierenden in den Berichten zu den Übungs- bzw.
 
 **Fragen-IDs in Tests anzeigen**
 
-Die internen IDs der Fragen anzeigen, damit Nutzer Probleme bei bestimmten Fragen notieren und effizienter melden können.
+Zeigt die internen IDs der Fragen an, damit Benutzer Probleme bei bestimmten Fragen notieren und effizienter melden können.
 
 *Standard: `false`*
 
@@ -524,7 +553,7 @@ Die internen IDs der Fragen anzeigen, damit Nutzer Probleme bei bestimmten Frage
 
 **Fragenpaginierung für Lehrkräfte anzeigen**
 
-Bei Tests mit vielen Fragen Paginierung verwenden, wenn die Anzahl der Fragen höher ist als dieser Wert. Auf 0 setzen, um Paginierung zu verhindern.
+Verwendet bei Tests mit vielen Fragen eine Paginierung, wenn die Anzahl der Fragen höher ist als dieser Wert. Auf 0 setzen, um die Paginierung zu deaktivieren.
 
 *Standard: `100`*
 
@@ -533,6 +562,6 @@ Bei Tests mit vielen Fragen Paginierung verwenden, wenn die Anzahl der Fragen h�
 
 **Gelöschte Tests unter „Mein Fortschritt“ anzeigen**
 
-Aktivieren Sie diese Option, um auf der Seite „Mein Fortschritt“ die Ergebnisse aller von Ihnen absolvierten Tests anzuzeigen, auch derjenigen, die gelöscht wurden.
+Aktivieren Sie diese Option, um auf der Seite „Mein Fortschritt“ die Ergebnisse aller absolvierten Tests anzuzeigen, auch der gelöschten.
 
 *Standard: `false`*

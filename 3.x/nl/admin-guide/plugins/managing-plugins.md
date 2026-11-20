@@ -4,7 +4,7 @@
 
 ![De pluginbeheerder met een lijst van beschikbare plugins, activeringsschakelaars en configuratieopties](../../.gitbook/assets/admin-plugin-manager.png)
 
-Klik in het beheerpaneel op **Plugins beheren** om de lijst van beschikbare plugins te bekijken.
+Klik in het beheerpaneel op **Plugins beheren** om de lijst met beschikbare plugins te zien.
 
 ## Pluginstatussen
 
@@ -16,12 +16,12 @@ Elke plugin heeft een van twee statussen:
 ## Een plugin activeren
 
 1. Zoek de plugin in de lijst
-2. Klik op **Installeren**, daarna op **Inschakelen** of schakel deze in
-3. Configureer de plugininstellingen (indien van toepassing, zoek de knop **Configureren**)
+2. Klik op **Installeren** en vervolgens op **Inschakelen**, of schakel de plugin in
+3. Configureer de plugininstellingen (zoek indien van toepassing de knop **Configureren**)
 4. Opslaan
 5. Schakel de plugin, indien aanbevolen in de README, in een specifieke **regio** in
 
-Sommige plugins voegen tools toe aan cursussen, nieuwe pagina's aan het platform, of extra functionaliteit aan bestaande functies.
+Sommige plugins voegen tools toe aan cursussen, nieuwe pagina's aan het platform of extra functionaliteit aan bestaande functies.
 
 ## Een plugin configureren
 
@@ -34,10 +34,10 @@ Veel plugins hebben configuratieopties. Na het activeren van een plugin:
 ## Een plugin deactiveren
 
 1. Zoek de plugin in de lijst
-2. Klik op **Uitschakelen** of schakel deze uit
-3. De functies van de plugin verdwijnen onmiddellijk van het platform, maar de plugin blijft geïnstalleerd en behoudt de configuratie totdat u deze **deïnstalleert**
+2. Klik op **Uitschakelen** of schakel de plugin uit
+3. De functies van de plugin worden onmiddellijk van het platform verwijderd, maar de plugin blijft geïnstalleerd en behoudt de configuratie totdat u deze **deïnstalleert**
 
-Het uitschakelen van een plugin verwijdert de gegevens niet. Als u de plugin later weer inschakelt, zijn de gegevens nog beschikbaar.
+Het uitschakelen van een plugin verwijdert de gegevens niet. Als u de plugin later weer inschakelt, zijn de gegevens nog steeds beschikbaar.
 
 ## Tips
 

@@ -1,10 +1,10 @@
-# Instellingen leerpaden
+# Instellingen voor leerpaden
 
-Standaardwaarden en gedrag van de tool **Leerpaden** — autostart, standaardweergave, vereisten, SCORM-gedrag en vergelijkbaar.
+Standaardwaarden en gedrag van het hulpmiddel **Leerpaden** — automatisch starten, standaardweergave, vereisten, SCORM-gedrag en vergelijkbare opties.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Leerpaden**. Deze categorie bevat **51 instellingen**, hieronder vermeld met de titel en toelichting zoals meegeleverd in de instellingen-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > Leerpaden**. Deze categorie bevat **53 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
@@ -12,7 +12,7 @@ Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Leerpaden
 
 **Alle bestanden exporteren bij het exporteren van een leerpad**
 
-Bij het exporteren van een LP worden alle bestanden en mappen in hetzelfde pad van een html ook geëxporteerd.
+Bij het exporteren van een leerpad worden ook alle bestanden en mappen in hetzelfde pad van een HTML-bestand geëxporteerd.
 
 *Standaard: `false`*
 
@@ -21,7 +21,7 @@ Bij het exporteren van een LP worden alle bestanden en mappen in hetzelfde pad v
 
 **.htaccess uit SCORM-pakketten toestaan**
 
-Normaal worden alle .htaccess-bestanden gefilterd en verwijderd bij het importeren van inhoud in Chamilo. Deze functie staat toe dat .htaccess wordt geïmporteerd als het aanwezig is in een SCORM-pakket.
+Normaal worden alle .htaccess-bestanden gefilterd en verwijderd bij het importeren van inhoud in Chamilo. Met deze functie kan .htaccess worden geïmporteerd als het aanwezig is in een SCORM-pakket.
 
 *Standaard: `false`*
 
@@ -30,7 +30,7 @@ Normaal worden alle .htaccess-bestanden gefilterd en verwijderd bij het importer
 
 **SCORM-import binnen cursusimport**
 
-Schakel in om de mapstructuur van SCORM-pakketten te kopiëren bij het herstellen van een cursus (via de cursusonderhoudstool).
+Schakel in om de mapstructuur van SCORM-pakketten te kopiëren bij het herstellen van een cursus (via het hulpmiddel voor cursusonderhoud).
 
 *Standaard: `false`*
 
@@ -39,14 +39,14 @@ Schakel in om de mapstructuur van SCORM-pakketten te kopiëren bij het herstelle
 
 **Leerpaden exporteren in het Chamilo-back-upformaat**
 
-Schakel de mogelijkheid in om elk van uw leerpaden te exporteren in een Chamilo-cursusback-upformaat.
+Maakt het mogelijk om elk van uw leerpaden te exporteren in een Chamilo-cursusback-upformaat.
 
 *Standaard: `false`*
 
 
 ### `allow_lp_return_link`
 
-**Terugkeerlink leerpaden tonen**
+**Terugkoppeling van leerpaden weergeven**
 
 Schakel deze optie uit om de knop 'Terug naar startpagina' in de leerpaden te verbergen.
 
@@ -55,9 +55,9 @@ Schakel deze optie uit om de knop 'Terug naar startpagina' in de leerpaden te ve
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Inschrijving op leerpaden voor klassen**
+**Inschrijving voor leerpaden voor klassen**
 
-Schakel inschrijving op leerpaden en leerpadcategorieën voor groepen/klassen in.
+Schakel inschrijving voor leerpaden en leerpadcategorieën voor groepen/klassen in.
 
 *Standaard: `false`*
 
@@ -66,16 +66,16 @@ Schakel inschrijving op leerpaden en leerpadcategorieën voor groepen/klassen in
 
 **Leerpadcategorieën kunnen in sessies worden beheerd**
 
-[afgeleid] Stelt deelnemers en docenten in staat leerpaden per categorie te organiseren en te beheren binnen sessiecursussen.
+[afgeleid] Stel cursisten en docenten in staat leerpaden te organiseren en te beheren per categorie binnen sessiecursussen.
 
 *Standaard: `false`*
 
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Docenten kunnen geblokkeerde leerpaden openen**
+**Docenten hebben toegang tot geblokkeerde leerpaden**
 
-Docenten hoeven leerpaden niet volledig te doorlopen om toegang te krijgen tot een door vereisten geblokkeerd leerpad.
+Docenten hoeven leerpaden niet volledig te doorlopen om toegang te krijgen tot een leerpad dat door vereisten is geblokkeerd.
 
 *Standaard: `false`*
 
@@ -84,7 +84,7 @@ Docenten hoeven leerpaden niet volledig te doorlopen om toegang te krijgen tot e
 
 **JS uitschakelen in de weergave van leerpaden**
 
-Schakel JS-bestanden uit die Chamilo gewoonlijk toevoegt aan HTML-bestanden in het leerpad (tijdens de weergave).
+Schakel JS-bestanden uit die Chamilo gewoonlijk toevoegt aan HTML-bestanden in het leerpad (tijdens het weergeven ervan).
 
 *Standaard: `false`*
 
@@ -99,47 +99,47 @@ De pagina 'Mijn leerpad' is toegevoegd in 1.11. Gebruik deze optie om deze te ve
 
 ### `download_files_after_all_lp_finished`
 
-**Downloadknop na het voltooien van leerpaden**
+**Downloadknop na het afronden van leerpaden**
 
-Toon een knop om bestanden te downloaden nadat alle LP's zijn voltooid. Voorbeeld: als ABC de cursuscode is, en 1 en 100 de document-id's zijn, kies: ['courses' => ['ABC' => [1, 100]]].
+Toon de knop voor het downloaden van bestanden nadat alle leerpaden zijn afgerond. Voorbeeld: als ABC de cursuscode is en 1 en 100 de document-id's zijn, kies dan: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
 **Bewerken van toetsen die in leerpaden zijn opgenomen**
 
-Schakel het bewerken van toetsen in, ook als ze in een leerpad zijn opgenomen. Standaard wordt bewerking voorkomen als de toets in een leerpad staat, omdat dat de consistentie van de tracking bij veel deelnemers kan beïnvloeden als de toetsaanpassingen ingrijpend zijn.
+Maak het bewerken van toetsen mogelijk, ook als ze in een leerpad zijn opgenomen. Standaard wordt bewerken voorkomen als de toets in een leerpad staat, omdat dit de consistentie van de tracking bij veel cursisten kan beïnvloeden als de wijzigingen aan de toets aanzienlijk zijn.
 
 *Standaard: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Vereistenlabel in leerpaden verbergen**
+**Label met vereisten in leerpaden verbergen**
 
-Verberg de tooltip met vereisten op leerpaditems. Dit is vooral een esthetische keuze.
+Verberg de tooltip met vereisten bij leerpaditems. Dit is vooral een esthetische keuze.
 
 *Standaard: `true`*
 
 ### `hide_lp_time`
 
-**Tijd uit leerpadregistraties verbergen**
+**Tijd verbergen in leerpadregistraties**
 
-Verberg de in leerpaden doorgebrachte tijd in rapporten in het algemeen.
+Verberg de bestede tijd aan leerpaden in rapporten in het algemeen.
 
 *Standaard: `false`*
 
 ### `hide_scorm_copy_link`
 
-**SCORM Kopiëren verbergen**
+**SCORM-kopie verbergen**
 
-Verberg het pictogram Leerpad kopiëren in de lijst met leerpaden
+Verberg het pictogram Leerpad kopiëren in de lijst met leerpaden.
 
 *Standaard: `false`*
 
 ### `hide_scorm_export_link`
 
-**SCORM Exporteren verbergen**
+**SCORM-export verbergen**
 
-Verberg het pictogram SCORM exporteren in de lijst met leerpaden
+Verberg het pictogram SCORM-export in de lijst met leerpaden.
 
 *Standaard: `false`*
 
@@ -147,17 +147,35 @@ Verberg het pictogram SCORM exporteren in de lijst met leerpaden
 
 **PDF-export van leerpad verbergen**
 
-Verberg het pictogram PDF-export van leerpad in de lijst met leerpaden
+Verberg het pictogram PDF-export van leerpad in de lijst met leerpaden.
 
 *Standaard: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Deelnemers kunnen leerpaden exporteren**
+**Cursisten kunnen leerpaden exporteren**
 
-Schakel dit in om deelnemers toe te staan leerpaden als SCORM-pakketten te downloaden.
+Schakel dit in om cursisten toe te staan leerpaden als SCORM-pakketten te downloaden.
 
 *Standaard: `false`*
+
+### `lp_default_visibility_can_be_modified_in_course` **v3**
+
+**Standaardzichtbaarheid van nieuwe leerpaden kan per cursus worden gewijzigd**
+
+Indien ingeschakeld, kunnen docenten in de cursusinstellingen de zichtbaarheid kiezen die aan nieuwe leerpaden van hun cursus wordt gegeven, in plaats van de platformstandaard.
+
+*Standaard: `false`*
+
+Wanneer dit is ingeschakeld, verschijnt een optie **Standaardzichtbaarheid voor nieuwe leerpaden** in de sectie **Instellingen voor leerpaden** van de cursusinstellingen. Een cursus die geen waarde heeft gekozen, gebruikt `lp_default_visibility_on_creation`.
+
+### `lp_default_visibility_on_creation` **v3**
+
+**Standaardzichtbaarheid van nieuwe leerpaden**
+
+Zichtbaarheid die aan een nieuw leerpad wordt gegeven wanneer een docent het in een cursus aanmaakt. Docenten kunnen de zichtbaarheid van elk leerpad daarna nog wijzigen.
+
+*Standaard: `invisible`*
 
 ### `lp_enable_flow`
 
@@ -169,9 +187,9 @@ Voeg de mogelijkheid toe om een 'volgend' leerpad te selecteren en toon knoppen 
 
 ### `lp_fixed_encoding`
 
-**Vaste encoding in leerpad**
+**Vaste codering in leerpad**
 
-Verminder resourcegebruik door een controle op de tekstencoding in geïmporteerde leerpaden over te slaan.
+Verminder het resourcegebruik door een controle op de tekstcodering in geïmporteerde leerpaden te negeren.
 
 *Standaard: `false`*
 
@@ -179,7 +197,7 @@ Verminder resourcegebruik door een controle op de tekstencoding in geïmporteerd
 
 **Datumgebaseerde vereisten voor leerpaditems**
 
-Voegt de optie toe om vereisten met start- en einddatums voor leerpaditems te definiëren.
+Voegt de optie toe om vereisten met begin- en einddatums te definiëren voor leerpaditems.
 
 *Standaard: `false`*
 
@@ -195,38 +213,38 @@ Stel dit in op 'left' of 'right' om de zijde van het leerpadmenu te wijzigen.
 
 **Minimale tijd om een leerpad te voltooien**
 
-Voegt een veld voor minimale tijd toe aan leerpaden. Als de gebruiker niet zoveel tijd aan het leerpad heeft besteed, kan het laatste item van het leerpad niet worden voltooid.
+Voeg een veld voor minimale tijd toe aan leerpaden. Als de gebruiker niet zoveel tijd aan het leerpad heeft besteed, kan het laatste item van het leerpad niet worden voltooid.
 
 *Standaard: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Leerpaditem ontgrendelen als het maximale aantal pogingen voor een toetsvoorwaarde is bereikt**
+**Leerpaditem ontgrendelen als het maximum aantal pogingen voor een toetsvereiste is bereikt**
 
-[inferred] Ontgrendelt automatisch volgende leerpaditems wanneer een cursist het maximale aantal toets pogingen voor een voorwaardelijke toets heeft uitgeput.
+[afgeleid] Ontgrendel automatisch volgende leerpaditems wanneer een cursist het maximum aantal toetspogingen voor een vereiste toets heeft uitgeput.
 
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Voorwaarden ontgrendelen na de laatste toetspoging**
+**Vereisten ontgrendelen na de laatste toetspoging**
 
-Staat gebruikers toe om in een leerpad verder te gaan nadat ze alle toetspogingen van een toets hebben gebruikt die als voorwaarde voor andere items geldt.
+Stelt gebruikers in staat om in een leerpad verder te gaan nadat alle toetspogingen van een toets die als vereiste voor andere items wordt gebruikt, zijn verbruikt.
 
 *Standaard: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Laatste score gebruiken bij toetsvoorwaarden in leerpaden**
+**Laatste score gebruiken bij toetsvereisten in leerpaden**
 
-Wanneer een toets als voorwaarde voor een item in het leerpad wordt gebruikt, alleen de laatste poging van de toets gebruiken als validatie voor de voorwaarde (standaard wordt de beste poging gebruikt).
+Wanneer een toets als vereiste voor een item in het leerpad wordt gebruikt, gebruik dan alleen de laatste poging van de toets als validatie voor de vereiste (standaard wordt de beste poging gebruikt).
 
 *Standaard: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**beforeunload-JS-event in leerpad voorkomen**
+**beforeunload-JS-gebeurtenis in leerpad voorkomen**
 
-Dit helpt bij browsercompatibiliteit door te voorkomen dat lastige JS-events worden uitgevoerd.
+Dit helpt bij browsercompatibiliteit door te voorkomen dat lastige JS-gebeurtenissen worden uitgevoerd.
 
 *Standaard: `false`*
 
@@ -234,15 +252,15 @@ Dit helpt bij browsercompatibiliteit door te voorkomen dat lastige JS-events wor
 
 **Leerpadscore als voortgang gebruiken**
 
-Dit is nuttig bij SCORM-inhoud met slechts één groot SCO. SCORM communiceert geen voortgang, dus dit is een truc om de score als voortgang te gebruiken. Als u deze optie inschakelt, kunt u dit per leerpad configureren.
+Dit is nuttig bij het gebruik van SCORM-inhoud met slechts één grote SCO. SCORM communiceert geen voortgang, dus dit is een truc om de score als voortgang te gebruiken. Door deze optie in te schakelen kunt u dit per leerpad configureren.
 
 *Standaard: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Maximale voortgang in plaats van gemiddelde tonen in rapportage van leerpaden**
+**Maximale voortgang tonen in plaats van gemiddelde bij leerpadrapportage**
 
-[inferred] Bereken de voortgang van het leerpad op basis van de maximale voltooiing van items in plaats van het gemiddelde van alle items.
+[afgeleid] Bereken de voortgang van het leerpad op basis van de maximale itemvoltooiing in plaats van het gemiddelde van alle items.
 
 *Standaard: `false`*
 
@@ -250,7 +268,7 @@ Dit is nuttig bij SCORM-inhoud met slechts één groot SCO. SCORM communiceert g
 
 **Maximale voortgang versus gemiddelde voor leerpaden op cursusniveau selecteren**
 
-Maakt herdefinitie mogelijk van de instelling om de beste voortgang in plaats van gemiddelden te tonen in de rapportage van leerpaden op cursusniveau.
+Schakel herdefinitie van de instelling in om de beste voortgang in plaats van gemiddelden te tonen in de rapportage van leerpaden op cursusniveau.
 
 *Standaard: `false`*
 
@@ -258,7 +276,7 @@ Maakt herdefinitie mogelijk van de instelling om de beste voortgang in plaats va
 
 **Leerpaden: verkort rapport tonen**
 
-Binnen de leerpadentool, wanneer een gebruiker de eigen voortgang bekijkt (via het statistiekenpictogram), een verkorte (minder gedetailleerde) versie van het voortgangsrapport tonen.
+Toon in de leerpadentool, wanneer een gebruiker de eigen voortgang bekijkt (via het statistiekenpictogram), een verkorte (minder gedetailleerde) versie van het voortgangsrapport.
 
 *Standaard: `false`*
 
@@ -266,21 +284,21 @@ Binnen de leerpadentool, wanneer een gebruiker de eigen voortgang bekijkt (via h
 
 **Beschikbaarheid van leerpaden aan cursisten tonen**
 
-Toon leerpaden aan cursisten met hun beschikbaarheidsdata, in plaats van ze te verbergen tot de datum is aangebroken.
+Toon leerpaden aan cursisten met hun beschikbaarheidsdatums, in plaats van ze te verbergen tot de datum aanbreekt.
 
 *Standaard: `false`*
 
 ### `lp_subscription_settings`
 
-**Inschrijvingsinstellingen voor leerpaden**
+**Abonnementsinstellingen voor leerpaden**
 
-Configureer extra opties voor de inschrijvingsfunctie van leerpaden. Opties omvatten 'allow_add_users_to_lp' en 'allow_add_users_to_lp_category'.
+Configureer extra opties voor de abonnementsfunctie van leerpaden. Opties omvatten 'allow_add_users_to_lp' en 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
 **Inklapbare items van leerpaden**
 
-[inferred] Toon leerpaditems in inklapbaar accordeonformaat voor verbeterde navigatie en inhoudsorganisatie.
+[afgeleid] Toon leerpaditems in een inklapbaar accordeonformaat voor verbeterde navigatie en inhoudsorganisatie.
 
 *Standaard: `false`*
 
@@ -300,7 +318,7 @@ Geef de naam van het extra veld dat als student_id moet worden gebruikt voor all
 
 **Gebruikersnaam als student\_id gebruiken in SCORM-communicatie**
 
-[inferred] Gebruik de gebruikersnaam van de cursist als studentidentificatie in SCORM-API-communicatie in plaats van de cursist-ID.
+[afgeleid] Gebruik de gebruikersnaam van de cursist als studentidentificatie in SCORM API-communicatie in plaats van de cursist-ID.
 
 *Standaard: `false`*
 
@@ -308,15 +326,15 @@ Geef de naam van het extra veld dat als student_id moet worden gebruikt voor all
 
 **SCO-status autonoom bijwerken**
 
-Als de SCO geen status verzendt, de controle overnemen en de status bijwerken op basis van wat in Chamilo kan worden waargenomen.
+Als de SCO geen status verzendt, neem dan over en werk de status bij op basis van wat in Chamilo kan worden waargenomen.
 
 *Standaard: `false`*
 
 ### `scorm_upload_from_cache`
 
-**SCORM uploaden vanuit cachemap**
+**SCORM uploaden vanuit de cachemap**
 
-Staat beheerders toe een SCORM-pakket (in zip-vorm) in de cachemap te uploaden en het als importbron te gebruiken op de SCORM-uploadpagina.
+Beheerders toestaan een SCORM-pakket (in zip-vorm) naar de cachemap te uploaden en dit te gebruiken als importbron op de SCORM-uploadpagina.
 
 *Standaard: `false`*
 
@@ -324,15 +342,15 @@ Staat beheerders toe een SCORM-pakket (in zip-vorm) in de cachemap te uploaden e
 
 **Toetsen uit leerpaden weergeven, ook als ze onzichtbaar zijn**
 
-Toon verborgen oefeningen die aan een LP zijn toegevoegd in de oefeningenlijst. Als we in een sessie zijn, de toets onzichtbaar is in de basiscursus, deze in een LP is opgenomen en de instelling om deze te tonen niet specifiek op true is gezet, verberg deze dan.
+Verborgen oefeningen weergeven die aan een leerpad zijn toegevoegd in de oefeningenlijst. Als we ons in een sessie bevinden, de toets onzichtbaar is in de basiscursus, deze is opgenomen in een leerpad en de instelling om deze weer te geven niet specifiek op true is gezet, dan wordt deze verborgen.
 
 *Standaard: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Toetsen in de lijst van leerpadtoetsen weergeven, ook als ze onzichtbaar zijn**
+**Toetsen weergeven in de lijst van leerpadtoetsen, ook als ze onzichtbaar zijn**
 
-[inferred] Neem verborgen toetsen op in de lijst van beschikbare toetsen bij het bekijken van leerpadinhoud.
+[afgeleid] Verborgen toetsen opnemen in de lijst van beschikbare toetsen bij het bekijken van de inhoud van een leerpad.
 
 *Standaard: `false`*
 
@@ -340,63 +358,63 @@ Toon verborgen oefeningen die aan een LP zijn toegevoegd in de oefeningenlijst. 
 
 **Onzichtbare toetsen zichtbaar in leerpaden**
 
-Zorg dat toetsen die in de toetsentool als 'onzichtbaar' zijn gemarkeerd, verschijnen wanneer ze in een leerpad zijn opgenomen.
+Toetsen die in de toetstool als 'onzichtbaar' zijn gemarkeerd, weergeven wanneer ze in een leerpad zijn opgenomen.
 
 *Standaard: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Koppeling naar leerpad op de cursushomepagina weergeven wanneer onzichtbaar**
+**Koppeling naar leerpad op de cursusstartpagina weergeven wanneer het onzichtbaar is**
 
-Als een leerpad op onzichtbaar is gezet maar de docent/tutor heeft besloten het vanaf de cursushomepagina beschikbaar te maken, voorkomt deze optie dat Chamilo de koppeling op de cursushomepagina verbergt.
+Als een leerpad op onzichtbaar is ingesteld, maar de docent/begeleider heeft besloten het beschikbaar te maken vanaf de cursusstartpagina, voorkomt deze optie dat Chamilo de koppeling op de cursusstartpagina verbergt.
 
 *Standaard: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Vereisten van het leerpad**
+**Voorwaarden van het leerpad**
 
-Toon op de lijsten van leerpaden een visueel element om aan te geven dat andere leerpaden momenteel geblokkeerd zijn door een vereistenregel.
+In de lijsten met leerpaden een visueel element weergeven om aan te geven dat andere leerpaden momenteel geblokkeerd zijn door een voorwaarderegel.
 
 *Standaard: `false`*
 
 ### `student_follow_page_add_lp_acquisition_info`
 
-**Kolom verwerving toevoegen in de leerlingopvolging**
+**Kolom verwerving toevoegen in de opvolging van de cursist**
 
-Voeg een kolom toe aan de pagina voor leerlingopvolging om de verwervingsstatus van een leerling voor een leerpad weer te geven.
+Kolom toevoegen aan de opvolgingspagina van de cursist om de verwervingsstatus van een cursist voor een leerpad weer te geven.
 
 *Standaard: `false`*
 
 ### `student_follow_page_add_lp_invisible_checkbox`
 
-**Zichtbaarheidsinformatie voor leerpaden toevoegen op de pagina voor leerlingopvolging**
+**Zichtbaarheidsinformatie voor leerpaden toevoegen op de opvolgingspagina van de cursist**
 
-[afgeleid] Toon een indicator voor de zichtbaarheidsstatus van leerpaden op de pagina voor voortgangsregistratie van de leerling.
+[afgeleid] Indicator van de zichtbaarheidsstatus voor leerpaden weergeven op de pagina voor het volgen van de voortgang van de cursist.
 
 *Standaard: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Ontgrendelde informatie in de lijst van leerpaden**
+**Informatie over ontgrendeling in de lijst met leerpaden**
 
-Dit voegt een kolom 'ontgrendeld' toe in de lijst van leerpaden als de leerling is ingeschreven voor het betreffende leerpad en er toegang toe heeft.
+Dit voegt een kolom 'ontgrendeld' toe in de lijst met leerpaden als de cursist is ingeschreven voor het betreffende leerpad en er toegang toe heeft.
 
 *Standaard: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Procentteken verbergen in het gemiddelde van toetsen in leerpaden in de leerlingopvolging**
+**Percentage-teken verbergen in het gemiddelde van toetsen in leerpaden bij de opvolging van de cursist**
 
-Verbergt het pictogram van het percentage bij de aanduiding 'Gemiddelde van toetsen in leerpaden' in de leerlingopvolging.
+Verbergt het percentagepictogram bij de aanduiding 'Gemiddelde van toetsen in leerpaden' in de opvolging van een student.
 
 *Standaard: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Niet-ingeschreven leerpaden opnemen op de pagina voor leerlingopvolging**
+**Leerpaden waarvoor niet is ingeschreven opnemen op de opvolgingspagina van de cursist**
 
-[afgeleid] Toon leerpaden op voortgangspagina's, ook wanneer leerlingen er niet voor zijn ingeschreven.
+[afgeleid] Leerpaden weergeven op voortgangspagina's, ook wanneer cursisten er niet voor zijn ingeschreven.
 
 *Standaard: `false`*
 
@@ -404,14 +422,14 @@ Verbergt het pictogram van het percentage bij de aanduiding 'Gemiddelde van toet
 
 **Informatie over leerpaden en toetsen toevoegen aan ticketrapportage**
 
-[afgeleid] Neem informatie over leerpaden en toetsen op in de rapportage van supporttickets voor een betere opvolging van problemen.
+[afgeleid] Informatie over leerpaden en toetsen opnemen in de rapportage van supporttickets voor een betere probleemopvolging.
 
 *Standaard: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Itemstatus van leerpaden uit andere sessies gebruiken**
+**Status van leerpaditem uit andere sessies gebruiken**
 
-Sta gebruikers toe vereisten in een leerpad te voltooien als het overeenkomstige item al in een andere sessie is voltooid.
+Gebruikers toestaan voorwaarden in een leerpad te voltooien als het overeenkomstige item al in een andere sessie is voltooid.
 
 *Standaard: `false`*

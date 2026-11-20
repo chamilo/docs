@@ -1,20 +1,20 @@
 # Ruimtes
 
-Het blok **Rooms** op het beheerdersdashboard beheert de fysieke locaties die Chamilo kan bijhouden voor face-to-face of blended training: vestigingen (sites), de ruimtes daarin, en een tool om te vinden welke ruimtes vrij zijn op een bepaald moment.
+Het blok **Ruimtes** op het beheerdersdashboard beheert de fysieke locaties die Chamilo kan bijhouden voor klassikale of blended training: vestigingen (sites), de ruimtes daarbinnen en een hulpmiddel om te zien welke ruimtes op een bepaald tijdstip vrij zijn.
 
-![Het blok Rooms op het beheerdersdashboard, met Branches, Rooms en Room availability finder](../../.gitbook/assets/admin-rooms-block.png)
+![Het blok Ruimtes op het beheerdersdashboard, met Vestigingen, Ruimtes en de zoeker naar beschikbaarheid van ruimtes](../../.gitbook/assets/admin-rooms-block.png)
 
-Dit hoofdstuk behandelt het beheer van vestigingen en ruimtes aan de beheerderszijde. Voor de kant van de docent — het toewijzen van een ruimte aan een cursussessie — zie [Branches and Rooms](../../teacher-guide/branches-and-rooms.md) in de Teacher Guide.
+Dit hoofdstuk behandelt het beheer van vestigingen en ruimtes aan de beheerderszijde. Voor de docentenzijde — het toewijzen van een ruimte aan een cursussessie — zie [Vestigingen en ruimtes](../../teacher-guide/branches-and-rooms.md) in de Docentenhandleiding.
 
-## Toegang tot het blok Rooms
+## Het blok Ruimtes openen
 
-Vanuit het beheerderspaneel verschijnt het blok **Rooms** naast de andere dashboardblokken. Klik op een van de koppelingen om de bijbehorende tool te openen.
+Vanuit het beheerpaneel verschijnt het blok **Ruimtes** naast de andere dashboardblokken. Klik op een van de koppelingen om het bijbehorende hulpmiddel te openen.
 
-## Wat zit er in het blok
+## Wat het blok bevat
 
-* **[Managing Rooms](managing-rooms.md)** — Vestigingen (sites) aanmaken en organiseren, en de ruimtes binnen elke vestiging
-* **[Room Availability Finder](room-availability-finder.md)** — Controleren welke ruimtes vrij zijn voor een gegeven datum en tijdsbereik
+* **[Ruimtes beheren](managing-rooms.md)** — Vestigingen (sites) aanmaken en organiseren, en de ruimtes binnen elke vestiging
+* **[Zoeker naar beschikbaarheid van ruimtes](room-availability-finder.md)** — Controleren welke ruimtes vrij zijn voor een bepaalde datum en tijdsperiode
 
 ## Opmerking over Multi-URL
 
-Op een multi-URL-installatie (multi-tenant) zijn vestigingen en ruimtes elk beperkt tot één access URL — ze worden nooit gedeeld tussen portals.
+Bij een installatie met meerdere URL's (multi-tenant) zijn vestigingen en ruimtes elk gekoppeld aan één toegangs-URL — ze worden nooit gedeeld tussen portalen.

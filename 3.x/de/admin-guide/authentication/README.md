@@ -4,7 +4,7 @@ Chamilo unterstützt mehrere Authentifizierungsmethoden, vom integrierten Benutz
 
 ## Konfigurationsdatei
 
-Alle externen Authentifizierungsmethoden werden in `config/authentication.yaml` konfiguriert. Eine Vorlage liegt unter `config/authentication.dist.yaml`. Die allgemeine Struktur lautet:
+Alle externen Authentifizierungsmethoden werden in `config/authentication.yaml` konfiguriert. Eine Vorlage befindet sich unter `config/authentication.dist.yaml`. Die allgemeine Struktur lautet:
 
 ```yaml
 parameters:
@@ -15,28 +15,29 @@ parameters:
           <config_key>: <value>
 ```
 
-Nach dem Bearbeiten der Datei Cache leeren und vorwärmen:
+Nach dem Bearbeiten der Datei den Cache leeren und aufwärmen:
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-Externe Anmelde-Schaltflächen erscheinen auf der Anmeldeseite, nachdem der Cache aktualisiert wurde.
+Externe Anmeldeschaltflächen erscheinen auf der Anmeldeseite, nachdem der Cache aktualisiert wurde.
 
 ## Unterstützte Methoden
 
 * **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook und generische OAuth2-Anbieter
-* **[Azure Entra ID](azure-entra-id.md)** — Detaillierte Azure-/Entra-ID-Einrichtung: App-Registrierung, gruppenbasierte Rollenzuordnung, Zertifikatsauthentifizierung und Benutzer-/Gruppensynchronisationsbefehle
-* **[LDAP](ldap.md)** — Authentifizierung gegenüber einem LDAP- oder Active-Directory-Server
+* **[OAuth 2.1 Authorization Server](oauth-server.md)** — OAuth-Clients, geschützte MCP-Ressourcen, Registrierung und Einwilligung
+* **[Azure Entra ID](azure-entra-id.md)** — Detaillierte Einrichtung von Azure/Entra ID: App-Registrierung, gruppenbasierte Rollenzuordnung, Zertifikatsauthentifizierung sowie Befehle zur Benutzer-/Gruppensynchronisierung
+* **[LDAP](ldap.md)** — Authentifizierung gegen einen LDAP- oder Active-Directory-Server
 * **[CAS](cas.md)** — Central Authentication Service (veraltet, in 3.x nicht funktionsfähig)
 * **[SCIM](scim.md)** — Automatisierte Benutzerbereitstellung durch externe Identitätsanbieter
-* **[SSO-Konfiguration](sso-configuration.md)** — Fehlerbehebung und Hinweise über Methoden hinweg
+* **[SSO-Konfiguration](sso-configuration.md)** — Fehlerbehebung und methodenübergreifende Hinweise
 
 ## Standardauthentifizierung
 
-Standardmäßig verwendet Chamilo sein eigenes internes System — Benutzer melden sich mit einem Benutzernamen und einem Passwort an, die in der Chamilo-Datenbank gespeichert sind. Externe Methoden sind additiv: Das Standard-Anmeldeformular bleibt neben allen konfigurierten Anbietern verfügbar.
+Standardmäßig verwendet Chamilo sein eigenes internes System — Benutzer melden sich mit einem Benutzernamen und einem Passwort an, die in der Chamilo-Datenbank gespeichert sind. Externe Methoden ergänzen dieses System: Das Standard-Anmeldeformular bleibt neben allen konfigurierten Anbietern verfügbar.
 
-## Weitere Referenz
+## Weiterführende Informationen
 
-Für die vollständige Parameterreferenz und fortgeschrittene Szenarien siehe die [Wiki-Seite zur Konfiguration der externen Authentifizierung](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Eine vollständige Parameterreferenz und fortgeschrittene Szenarien finden Sie auf der [Wiki-Seite zur Konfiguration der externen Authentifizierung](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

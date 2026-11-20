@@ -1,46 +1,52 @@
 # Blog
 
-De blogtool laat u een gedeelde blog binnen uw cursus aanmaken. Cursisten kunnen berichten schrijven, reacties plaatsen en deelnemen aan gestructureerde schrijfactiviteiten.
+Met de blogtool kunt u een gedeelde blog binnen uw cursus aanmaken. Cursisten kunnen berichten schrijven, reacties achterlaten en deelnemen aan gestructureerde schrijfactiviteiten.
 
 ## Een blog aanmaken
 
-1. Open de tool **Blog** vanaf de startpagina van de cursus (onder het tandwielpictogram bovenaan)
+1. Open de **Blog**-tool vanaf de startpagina van de cursus (onder het tandwielpictogram bovenaan)
 2. Klik op **Nieuw project**
-3. Voer een **titel** en optioneel een ondertitel in
-4. Sla op
-5. Bepaal wanneer u de blog beschikbaar wilt maken voor studenten door op het pictogram **Tonen** (oog) te klikken
+3. Voer een **titel** en een optionele ondertitel in
+4. Opslaan
+5. Bepaal wanneer u deze beschikbaar wilt maken voor studenten door op het pictogram **Tonen** (oog) te klikken
 
 U kunt meerdere blogs binnen één cursus aanmaken (bijv. één per onderwerp of één per groep).
+
+## Cursus- en sessiebereik
+
+Blogs volgen exact de cursus-/sessiecontext waarin ze zijn aangemaakt. Wanneer u binnen een sessie werkt, heeft die sessie eigen blogbronnen en een eigen ledenlijst: blogs van de basiscursus worden niet automatisch overgenomen, en een blog uit de ene sessie is niet zichtbaar in een andere sessie.
+
+Deze scheiding geldt ook voor berichten, reacties, taken, beoordelingen en bijlagen die bij de blog horen. Keer terug naar dezelfde cursus-/sessiecontext wanneer u een sessieblog beheert.
 
 ## Blogberichten schrijven
 
 1. Open een blog
 2. Klik op **Nieuw bericht**
-3. Voer een **titel** in en schrijf de inhoud van het bericht met de rich-texteditor
-4. Sla op
+3. Voer een **titel** in en schrijf de inhoud van het bericht met de rich-text-editor
+4. Opslaan
 
 Zowel docenten als cursisten (afhankelijk van de rechten) kunnen berichten aanmaken.
 
 ## Reacties en beoordelingen
 
-Lezers kunnen interageren met blogberichten via:
+Lezers kunnen met blogberichten interageren via:
 
-* **Reacties** — Feedback geven of een discussie starten onder een bericht (reacties kunnen ook als antwoorden op andere reacties worden genest)
-* **Beoordelingen** — Berichten beoordelen om de meest gewaardeerde bijdragen te markeren
+* **Reacties** — Laat feedback achter of start een discussie onder een bericht (reacties kunnen ook als threads worden geplaatst, als antwoorden op andere reacties)
+* **Beoordelingen** — Beoordeel berichten om de meest gewaardeerde bijdragen te benadrukken
 * **Bijlagen** — Zowel berichten als reacties kunnen bestandsbijlagen bevatten
 
 ## Blogtaken
 
 U kunt **taken** binnen een blog aanmaken — specifieke schrijfopdrachten die cursisten als blogberichten moeten voltooien. Dit is nuttig voor:
 
-* Reflectiedagboeken
+* Reflectiejournalen
 * Wekelijkse schrijfopdrachten
-* Rapporten over projectvoortgang
+* Projectvoortgangsrapporten
 
 ## De blog beheren
 
 Als docent kunt u:
 
-* Berichten en reacties **bewerken of verwijderen** (het verwijderen van berichten is beperkt tot de auteur van het bericht of tot docenten)
-* **De zichtbaarheid van de blog omschakelen** om de blog voor cursisten te tonen of te verbergen
-* **Taken definiëren** — Voeg specifieke schrijfopdrachten toe die cursisten als berichten moeten voltooien. Taken kunnen van een kleurcode worden voorzien voor eenvoudigere visuele groepering.
+* **Bewerken of verwijderen** van berichten en reacties (het verwijderen van een bericht is beperkt tot de auteur van het bericht of tot docenten)
+* **Zichtbaarheid van de blog in- of uitschakelen** om de blog voor cursisten te tonen of te verbergen
+* **Taken definiëren** — Voeg specifieke schrijfopdrachten toe die cursisten als berichten moeten voltooien. Taken kunnen een kleurcode krijgen voor een eenvoudigere visuele groepering.

@@ -1,10 +1,10 @@
-# Kompetenz-Einstellungen
+# Einstellungen zu Kompetenzen
 
-Verhalten des **Kompetenz**-Systems — Kompetenzbaum, Vergaberegeln, Profilintegration.
+Verhalten des Systems **Kompetenzen** — Kompetenzbaum, Vergaberegeln, Profilintegration.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Kompetenzen**. Diese Kategorie enthält **13 Einstellungen**, die nachfolgend mit Titel und Kommentar aus den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) aufgeführt sind.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Kompetenzen**. Diese Kategorie enthält **13 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
 
-> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -12,7 +12,7 @@ Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellun
 
 **HR-Kompetenzverwaltung zulassen**
 
-Ermöglicht der Personalabteilung (HR) die Verwaltung von Kompetenzen
+Ermöglicht der Personalabteilung die Verwaltung von Kompetenzen
 
 *Standard: `true`*
 
@@ -21,7 +21,7 @@ Ermöglicht der Personalabteilung (HR) die Verwaltung von Kompetenzen
 
 **Kompetenzen vor Lernenden verbergen**
 
-Wenn aktiviert, sind Kompetenzen nur für Administratoren, Lehrende (bezogen auf einen Benutzer über einen Kurs) und HRM-Benutzer (falls einem Benutzer zugeordnet) sichtbar.
+Wenn aktiviert, sind Kompetenzen nur für Administratoren, Lehrkräfte (die über einen Kurs mit einem Benutzer verknüpft sind) und HRM-Benutzer (sofern mit einem Benutzer verknüpft) sichtbar.
 
 *Standard: `false`*
 
@@ -30,24 +30,24 @@ Wenn aktiviert, sind Kompetenzen nur für Administratoren, Lehrende (bezogen auf
 
 **Verknüpfung von Kompetenzen mit Elementen aktivieren**
 
-Aktiviert eine wesentliche Funktion, mit der jedes Element mit einer Kompetenz verknüpft werden kann (und so deren Erwerb ermöglicht). Die Funktion erfordert weiterhin die Bestätigung des Kompetenzerwerbs durch die Lehrkraft; der Erwerb erfolgt also nicht automatisch.
+Dies aktiviert eine umfangreiche Funktion, mit der jedes Element mit einer Kompetenz verknüpft werden kann (und damit deren Erwerb ermöglicht). Die Funktion erfordert weiterhin, dass die Lehrkraft den Erwerb der Kompetenz bestätigt; der Erwerb erfolgt also nicht automatisch.
 
 *Standard: `false`*
 
 
 ### `allow_skills_tool`
 
-**Kompetenz-Werkzeug zulassen**
+**Kompetenzwerkzeug zulassen**
 
-Benutzer können ihre Kompetenzen im sozialen Netzwerk und in einem Block auf der Startseite einsehen.
+Benutzer können ihre Kompetenzen im sozialen Netzwerk und in einem Block auf der Startseite sehen.
 
 *Standard: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Lehrenden Zugriff auf Kompetenzen der Lernenden gewähren**
+**Lehrkräften den Zugriff auf die Kompetenzen der Lernenden erlauben**
 
-[inferred] Ermöglicht Lehrenden, die von Lernenden in ihren Kursen erworbenen Kompetenzen einzusehen und zu überwachen.
+[abgeleitet] Lehrkräften erlauben, die von Lernenden in ihren Kursen erworbenen Kompetenzen einzusehen und zu überwachen.
 
 *Standard: `false`*
 
@@ -56,25 +56,25 @@ Benutzer können ihre Kompetenzen im sozialen Netzwerk und in einem Block auf de
 
 **Benachrichtigung an Lernende senden, wenn eine Kompetenz/ein Badge erworben wurde**
 
-[inferred] Sendet Benachrichtigungen an Lernende, wenn sie eine neue Kompetenz oder eine Badge-Auszeichnung erwerben.
+[abgeleitet] Benachrichtigungen an Lernende senden, wenn sie eine neue Kompetenz oder einen Badge erwerben.
 
 *Standard: `false`*
 
 
 ### `hide_skill_levels`
 
-**Funktion der Kompetenzstufen ausblenden**
+**Funktion für Kompetenzstufen ausblenden**
 
-[inferred] Blendet die Hierarchie der Kompetenzstufen und die Stufenbezeichnungen in kompetenzbezogenen Ansichten aus.
+[abgeleitet] Die Hierarchie der Kompetenzstufen und die Stufenbezeichnungen in kompetenzbezogenen Ansichten ausblenden.
 
 *Standard: `false`*
 
 
 ### `manual_assignment_subskill_autoload`
 
-**Kompetenzen einem Benutzer zuweisen: automatisches Laden von Unterkompetenzen**
+**Kompetenzen Benutzern zuweisen: automatisches Laden von Teilkompetenzen**
 
-Beim manuellen Zuweisen von Kompetenzen an einen Benutzer kann das Formular so eingestellt werden, dass automatisch das Zuweisen einer Unterkompetenz anstelle der ausgewählten Kompetenz angeboten wird.
+Beim manuellen Zuweisen von Kompetenzen an einen Benutzer wählen Sie die Kompetenz Stufe für Stufe im Kompetenzbaum aus, anstatt in einer einzigen Liste. Die erste Liste zeigt nur die Kompetenzen der ersten Stufe; die Auswahl einer Kompetenz fügt eine Liste mit ihren Teilkompetenzen hinzu, und so weiter. Die zugewiesene Kompetenz ist die tiefste ausgewählte, sodass Sie auf jeder Stufe anhalten können. Kompetenzen, die nicht erwerbbar sind, werden ebenfalls aufgeführt, um ihre Teilkompetenzen zu erreichen, können aber nicht zugewiesen werden. Die Listen sind mit den in `skill_levels_names` festgelegten Namen beschriftet, sofern diese gesetzt sind. Siehe [Manuelle Kompetenzzuweisung](../skills/managing-skills.md#manual-skill-assignment).
 
 *Standard: `false`*
 
@@ -104,14 +104,14 @@ Definieren Sie Namen für Kompetenzstufen als Array von id => name.
 
 **Kompetenzen als hierarchische Tabelle anzeigen**
 
-[inferred] Zeigt die Kompetenzen der Lernenden als hierarchische Baumstruktur auf Fortschritts- und Berichtsseiten an.
+[abgeleitet] Kompetenzen der Lernenden als hierarchische Baumstruktur auf Fortschritts- und Berichtsseiten anzeigen.
 
 *Standard: `false`*
 
 
 ### `skills_teachers_can_assign_skills`
 
-**Lehrenden erlauben festzulegen, welche Kompetenzen über ihre Kurse erworben werden**
+**Lehrkräften erlauben festzulegen, welche Kompetenzen über ihre Kurse erworben werden**
 
 Standardmäßig können nur Administratoren festlegen, welche Kompetenzen über welchen Kurs erworben werden können.
 

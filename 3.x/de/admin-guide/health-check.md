@@ -1,22 +1,22 @@
-# Health Check
+# Zustandsprüfung
 
-Health Check ist ein kleiner Block auf dem Administrations-Dashboard, der eine Handvoll Live-Prüfungen Ihrer Installation durchführt und alles kennzeichnet, das Aufmerksamkeit erfordert — ohne dass Sie Konfigurationsdateien durchsuchen müssen, um häufige Fehlkonfigurationen zu erkennen.
+Die Zustandsprüfung ist ein kleiner Block im Administrations-Dashboard, der einige Live-Prüfungen Ihrer Installation durchführt und alles markiert, was Aufmerksamkeit erfordert — Sie müssen nicht in Konfigurationsdateien suchen, um häufige Fehlkonfigurationen zu erkennen.
 
-![Der Health-Check-Block auf dem Administrations-Dashboard mit Bestanden/Nicht-bestanden-Status für E-Mail-Einstellungen, Admin-URL-Zuweisung und Dateiberechtigungsprüfungen](../.gitbook/assets/admin-health-check-block.png)
+![Der Block „Zustandsprüfung“ im Administrations-Dashboard mit Bestanden-/Nicht-bestanden-Status für E-Mail-Einstellungen, Admin-URL-Zuweisung und Dateiberechtigungsprüfungen](../.gitbook/assets/admin-health-check-block.png)
 
-## Zugriff auf Health Check
+## Zugriff auf die Zustandsprüfung
 
-Im Administrationsbereich erscheint der Block **Health check** neben den anderen Dashboard-Blöcken — kein Klick erforderlich, die Ergebnisse werden direkt angezeigt.
+Im Administrationsbereich erscheint der Block **Zustandsprüfung** neben den anderen Dashboard-Blöcken — kein Klick erforderlich, die Ergebnisse werden direkt angezeigt.
 
 ## Die Prüfungen
 
-* **E-mail settings** — Prüft, ob eine Mailer-Verbindungszeichenkette sowie eine „Von“-E-Mail/ein „Von“-Name konfiguriert sind. Falls nicht, verweist der Link auf die Mail-Einstellungen zur Behebung.
-* **All URLs have at least one admin assigned** — Bei einer Multi-URL-Installation wird geprüft, dass jede Zugriffs-URL mindestens einen Administrator hat, der sie verwalten kann. Fehlt einer, verweist der Link auf die Seite zur Zuweisung von Zugriffs-URL/Benutzer.
-* **`.env` is not writable** — `.env` enthält Geheimnisse und sollte nach der Installation nicht vom Webserver beschreibbar sein. Wird als Fehler gekennzeichnet, wenn es beschreibbar ist; verweist auf den Security Guide.
-* **`config/` is not writable** — Gleiche Begründung wie bei `.env`: Dieses Verzeichnis sollte im Normalbetrieb nicht vom Webserver beschreibbar sein. Verweist auf den Security Guide.
-* **`var/cache` is writable** — Die gegenteilige Prüfung: Symfony muss in sein Cache-Verzeichnis schreiben können, daher wird dies als Fehler gekennzeichnet, wenn es *nicht* beschreibbar ist. Verweist auf den Leitfaden Performance Tuning / Optimierung.
-* **Install folder is not present** — Der Ordner `public/main/install` wird nur während der Installation benötigt und sollte danach entfernt werden. Dies wird als Warnung (nicht als harter Fehler) gekennzeichnet, wenn er noch existiert, da das Risiko geringer ist als bei den beiden Schreibbarkeitsprüfungen oben. Verweist auf den Security Guide.
+* **E-Mail-Einstellungen** — Prüft, ob eine Mailer-Verbindungszeichenfolge sowie eine Absender-E-Mail und ein Absendername konfiguriert sind. Andernfalls wird auf die E-Mail-Einstellungen verlinkt, um dies zu beheben.
+* **Allen URLs ist mindestens ein Administrator zugewiesen** — Bei einer Installation mit mehreren URLs wird geprüft, ob jede Zugriffs-URL mindestens einen Administrator hat, der sie verwalten kann. Falls nicht, wird auf die Seite zur Zuweisung von Zugriffs-URL und Benutzer verlinkt.
+* **`.env` ist nicht beschreibbar** — `.env` enthält Geheimnisse und sollte nach der Installation vom Webserver nicht beschreibbar sein. Wird als Fehler markiert, wenn sie es ist; verlinkt auf den Sicherheitsleitfaden.
+* **`config/` ist nicht beschreibbar** — Dieselbe Begründung wie bei `.env`: Dieses Verzeichnis sollte im normalen Betrieb nicht vom Web beschreibbar sein. Da dieser Ordner historisch ein Angriffsziel war, entfernen Sie ihn mit `rm -rf public/main/install`. Verlinkt auf den [Sicherheitsleitfaden](appendix/security-guide.md#remove-the-install-folder).
+* **`var/cache` ist beschreibbar** — Die gegenteilige Prüfung: Symfony muss in sein Cache-Verzeichnis schreiben können, daher wird dies als Fehler markiert, wenn es *nicht* beschreibbar ist. Verlinkt auf den Leitfaden zur Leistungsoptimierung.
+* **Installationsordner ist nicht vorhanden** — Der Ordner `public/main/install` wird nur während der Installation benötigt und sollte danach entfernt werden. Dies wird als Warnung (nicht als harter Fehler) markiert, wenn er noch vorhanden ist, da das Risiko geringer ist als bei den beiden oben genannten Schreibbarkeitsprüfungen. Da dieser Ordner historisch ein Angriffsziel war, entfernen Sie ihn mit `rm -rf public/main/install`. Verlinkt auf den [Sicherheitsleitfaden](appendix/security-guide.md#remove-the-install-folder).
 
-## Was Sie tun sollten
+## Was Sie dagegen tun können
 
-Jede Prüfung verweist direkt auf die Stelle, an der Sie das zugrunde liegende Problem beheben — entweder eine Einstellungsseite oder den entsprechenden Leitfaden. Gehen Sie diese Liste direkt nach der Installation durch und danach regelmäßig (zum Beispiel nach einer manuellen Dateiübertragung oder einer Änderung der Berechtigungen), da eine heute bestandene Prüfung nicht garantiert, dass sie so bleibt. Für eine umfassendere Checkliste zur Härtung in der Produktion über diese sechs Prüfungen hinaus siehe den [Security Guide](appendix/security-guide.md).
+Jede Prüfung verlinkt direkt dorthin, wo Sie das zugrunde liegende Problem beheben würden — entweder eine Einstellungsseite oder den entsprechenden Leitfaden. Gehen Sie diese Liste direkt nach der Installation und danach regelmäßig durch (zum Beispiel nach einer manuellen Dateiübertragung oder einer Änderung der Berechtigungen), da eine heute bestandene Prüfung nicht garantiert, dass dies so bleibt. Eine umfassendere Checkliste zur Härtung von Produktivsystemen, die über diese sechs Prüfungen hinausgeht, finden Sie im [Sicherheitsleitfaden](appendix/security-guide.md).

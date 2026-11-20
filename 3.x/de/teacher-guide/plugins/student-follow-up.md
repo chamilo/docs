@@ -1,23 +1,23 @@
 # Lernenden-Nachverfolgung
 
-Lernenden-Nachverfolgung <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Lernenden-Nachverfolgung" data-size="line"> ermöglicht zeitgestempelte, mit Tags versehene Notizen zum Fortschritt und zu Schwierigkeiten einer lernenden Person — ein schlankes Fallnotizen-System, um den Verlauf über die Zeit festzuhalten.
+Die Lernenden-Nachverfolgung <img src="../../.gitbook/assets/icons/mdi-account-search.svg" alt="Lernenden-Nachverfolgung" data-size="line"> ermöglicht es Ihnen, zeitgestempelte, mit Schlagwörtern versehene Notizen zum Lernfortschritt und zu den Schwierigkeiten einer lernenden Person zu führen — ein schlankes Fallnotizensystem, um den Verlauf der Entwicklung einer lernenden Person über die Zeit zu verfolgen.
 
 ## Zugriff auf das Werkzeug
 
-Sobald aktiviert, erscheint ein Eintrag **Lernenden-Nachverfolgung** in **Mein Bereich** (Ihrem Berichtsbereich) mit einer durchsuchbaren Liste der Lernenden. Beim Öffnen der Detailseite einer lernenden Person und Auswahl der Nachverfolgungs-Zeitleiste werden alle zu ihr erfassten Notizen in der Reihenfolge angezeigt.
+Nach der Aktivierung erscheint unter **Mein Bereich** (Ihrem Berichtsbereich) ein Eintrag **Lernenden-Nachverfolgung** mit einer durchsuchbaren Liste der Lernenden. Wenn Sie die Detailseite einer lernenden Person öffnen und deren Nachverfolgungszeitachse auswählen, werden alle zu ihr erfassten Notizen der Reihe nach angezeigt.
 
-> Dieses Werkzeug steht nur Kurscoaches, HR-/Schulungsmanagern (DRH) und Plattformadministratoren zur Verfügung — nicht unbedingt jeder Lehrendenrolle.
+> Dieses Werkzeug steht nur Kursbetreuenden, Personal- und Weiterbildungsverantwortlichen (HRM, früher DRH) sowie Plattformadministratoren zur Verfügung — nicht unbedingt jeder Lehrendenrolle.
 
 ## Eine Notiz hinzufügen
 
-Klicken Sie in der Nachverfolgungs-Zeitleiste einer lernenden Person auf **Nachverfolgungsnotiz hinzufügen** und füllen Sie aus:
+Klicken Sie in der Nachverfolgungszeitachse einer lernenden Person auf **Nachverfolgungsnotiz hinzufügen** und füllen Sie Folgendes aus:
 
 * Einen Titel und Rich-Text-Inhalt
-* Durch Kommas getrennte Tags, damit Sie verwandte Notizen später leichter finden
-* **Private Notiz** — schränkt die Sichtbarkeit auf Administratoren und andere berechtigte Betreuende ein, statt auf das gesamte Lehrteam
+* Durch Kommas getrennte Schlagwörter, damit Sie verwandte Notizen später leichter finden
+* **Private Notiz** — beschränkt die Sichtbarkeit auf Administratoren und andere autorisierte Betreuungspersonen, statt auf das gesamte Lehrendenteam
 
 ## Tipps
 
-* **Tags einheitlich verwenden** — Eine kurze, konsistente Tag-Menge (z. B. "attendance", "motivation", "technical-issue") macht die Zeitleiste einer lernenden Person später deutlich leichter zu überblicken
-* **Sensible Notizen als privat kennzeichnen** — Nutzen Sie die private Option für alles, was nicht für das gesamte Lehrteam sichtbar sein soll
-* **Dies ist eine Funktion im Frühstadium** — Rechnen Sie damit, dass sie weniger ausgereift ist als die Kernwerkzeuge von Chamilo und sich mit der Weiterentwicklung ändert
+* **Schlagwörter einheitlich verwenden** — Ein kurzer, einheitlicher Satz von Schlagwörtern (z. B. „Anwesenheit“, „Motivation“, „technisches Problem“) macht die Zeitachse einer lernenden Person später deutlich leichter zu überblicken
+* **Sensible Notizen als privat kennzeichnen** — Verwenden Sie die Option „privat“ für alles, was nicht für das gesamte Lehrendenteam sichtbar sein soll
+* **Dies ist eine Funktion in einem frühen Stadium** — Rechnen Sie damit, dass sie weniger ausgereift ist als die zentralen Chamilo-Werkzeuge und sich mit zunehmender Reife noch verändert

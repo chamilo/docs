@@ -6,7 +6,7 @@ Het beheerpaneel is uw commandocentrum voor het beheren van het Chamilo-platform
 
 ![Het beheerdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](../../.gitbook/assets/admin-dashboard-overview.png)
 
-Het beheerdashboard is ingedeeld in functionele blokken. Elk blok groepeert gerelateerde beheertaken:
+Het beheerdashboard is ingedeeld in functionele blokken. Elk blok groepeert gerelateerde beheerhulpmiddelen:
 
 ### Gebruikers
 
@@ -27,48 +27,48 @@ Zie het hoofdstuk [Cursussen](../courses/README.md) voor details.
 ### Sessies
 
 * **Sessielijst** — Trainingssessies bekijken en beheren
-* **Sessie aanmaken** — Een nieuwe sessie instellen met cursussen en inschrijving
+* **Sessie aanmaken** — Een nieuwe sessie opzetten met cursussen en inschrijving
 * **Sessiecategorieën** — Sessies indelen in categorieën
-* **Carrières en promoties** — Carrièrepaden en promotieworkflows beheren
+* **Loopbanen en promoties** — Loopbaantrajecten en promotieworkflows beheren
 
 Zie het hoofdstuk [Sessies](../sessions/README.md) voor details.
 
 ### Platform
 
-* **Configuratie-instellingen**, **Talen**, **Portaalnieuws**, **Globale agenda**, **Pagina's**, **Extra velden**, **E-mailsjablonen**, **Categorieën contactformulier**, en meer — zie het hoofdstuk [Platform](../platform/README.md) voor details. De koppeling "Configuratie-instellingen" is het toegangspunt tot het afzonderlijke hoofdstuk [Platforminstellingen](../platform-settings/README.md).
+* **Configuratie-instellingen**, **Talen**, **Portaalnieuws**, **Globale agenda**, **Pagina's**, **Extra velden**, **E-mailsjablonen**, **Contactformuliercategorieën** en meer — zie het hoofdstuk [Platform](../platform/README.md) voor details. De koppeling "Configuratie-instellingen" is het toegangspunt tot het afzonderlijke hoofdstuk [Platforminstellingen](../platform-settings/README.md).
 
-### Analytics
+### Analyse
 
-* **Globale statistieken**, **Rapportencatalogus**, **Leeranalytics**, **Kwartaalrapport**, **Tijdsrapport docenten**, **Bedrijfsrapport**, **Speciale exports**, **Tickets** — Platformstatistieken en rapportage; zie het hoofdstuk [Analytics](../analytics/README.md) voor details
+* **Globale statistieken**, **Rapportencatalogus**, **Leeranalyse**, **Kwartaalrapport**, **Tijdsrapport van docenten**, **Bedrijfsrapport**, **Speciale exports**, **Tickets** — Platformstatistieken en rapportage; zie het hoofdstuk [Analyse](../analytics/README.md) voor details
 
-### Skills
+### Vaardigheden
 
-* **Vaardighedenwiel**, **Vaardigheden importeren**, **Vaardigheden beheren**, **Vaardigheidsniveaus beheren**, **Vaardighedenranglijst**, **Vaardigheden en beoordelingen** — Competentiebadges gekoppeld aan cijferboekresultaten; zie het hoofdstuk [Skills](../skills/README.md) voor details
+* **Vaardighedenwiel**, **Vaardigheden importeren**, **Vaardigheden beheren**, **Vaardigheidsniveaus beheren**, **Vaardighedenrangschikking**, **Vaardigheden en beoordelingen** — Competentiebadges gekoppeld aan resultaten in het cijferboek; zie het hoofdstuk [Vaardigheden](../skills/README.md) voor details
 
 ### Systeem
 
-* **Tijdelijke bestanden opschonen**, **Systeemstatus**, **Systeemupdate**, **Kleuren**, **Bestandsinfo**, **Bronnen per type**, **Pictogrammenlijst** — Serveronderhoud, zelfupdate en huisstijl; zie het hoofdstuk [Systeem](../system/README.md) voor details
+* **Tijdelijke bestanden opschonen**, **Systeemstatus**, **Systeemupdate**, **Kleuren**, **Bestandsinfo**, **Bronnen per type**, **Pictogrammen weergeven** — Serveronderhoud, zelfupdate en huisstijl; zie het hoofdstuk [Systeem](../system/README.md) voor details
 
 ### Ruimtes
 
-* **Vestigingen**, **Ruimtes**, **Zoeker beschikbaarheid ruimtes** — Fysieke locaties en reserveerbare trainingsruimtes; zie het hoofdstuk [Ruimtes](../rooms/README.md) voor details
+* **Vestigingen**, **Ruimtes**, **Zoeker naar beschikbaarheid van ruimtes** — Fysieke locaties en reserveerbare trainingsruimtes; zie het hoofdstuk [Ruimtes](../rooms/README.md) voor details
 
 ### Beveiliging
 
-* **Activiteitenaudit**, **Aanmeldpogingen**, **Eenvoudige IDS**, **Wachtwoordsterktecontrole**, **Bestandsintegriteit** — Hulpmiddelen voor beveiligingsmonitoring en auditing; zie het hoofdstuk [Beveiliging](../security/README.md) voor details
+* **Activiteitencontrole**, **Aanmeldpogingen**, **Simple IDS**, **Wachtwoordsterktecontrole**, **Bestandsintegriteit** — Hulpmiddelen voor beveiligingsmonitoring en auditing; zie het hoofdstuk [Beveiliging](../security/README.md) voor details
 
 ### Plugins
 
-* Snelkoppelingen naar geïnstalleerde plugins die een beheermenu-pagina declareren, plus algemeen pluginbeheer — zie het hoofdstuk [Plugins](../plugins/README.md) voor details
+* Snelkoppelingen naar geïnstalleerde plugins die een beheerpagina in het menu declareren, plus algemeen pluginbeheer — zie het hoofdstuk [Plugins](../plugins/README.md) voor details
 
-### Health Check
+### Gezondheidscontrole
 
-* Live geslaagd/mislukt-controles (e-mailinstellingen, toewijzing van de beheer-URL, bestandsrechten) — zie de pagina [Health Check](../health-check.md) voor details
+* Live controles met geslaagd/mislukt (e-mailinstellingen, toewijzing van de beheer-URL, bestandsrechten) — zie de pagina [Gezondheidscontrole](../health-check.md) voor details
 
 ### Overige blokken
 
 * **Chamilo.org**, **Versiecontrole**, **Professionele ondersteuning**, **Nieuws van Chamilo** — koppelingen en statuspanelen die inhoud ophalen van het Chamilo-project; zie [Overige beheerblokken](../other-admin-blocks/README.md) voor details
 
-Elk onderdeel wordt in detail behandeld in het bijbehorende hoofdstuk van deze gids.
+Elke sectie wordt in detail behandeld in het bijbehorende hoofdstuk van deze handleiding.
 
 Authenticatiemethoden zoals OAuth2, LDAP, CAS en andere externe authenticatieproviders worden niet geconfigureerd in het beheerdashboard, maar in `config/authentication.yaml`.

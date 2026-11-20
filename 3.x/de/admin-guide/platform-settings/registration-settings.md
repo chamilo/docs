@@ -1,88 +1,93 @@
 # Registrierungseinstellungen
 
-Richtlinie zur Selbstregistrierung und Weiterleitungen nach der Registrierung — welche Angaben neue Benutzer machen müssen und wohin sie gelangen.
+Richtlinie zur Selbstregistrierung und Weiterleitungen nach der Registrierung — welche Angaben von neuen Benutzern verlangt werden und wohin sie gelangen.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Registrierung**. Diese Kategorie enthält **21 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Registrierung**. Diese Kategorie enthält **21 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> Der Variablenname im Code ist in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_double_validation_in_registration`
 
-**Doppelte Bestätigung im Registrierungsprozess**
+**Doppelte Validierung für den Registrierungsprozess**
 
-Zeigt auf der Registrierungsseite einfach eine Bestätigungsabfrage an, bevor mit der Benutzererstellung fortgefahren wird.
+Zeigt auf der Registrierungsseite einfach eine Bestätigungsanfrage an, bevor die Benutzererstellung fortgesetzt wird.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `allow_fields_inscription`
 
-**Angezeigte Felder bei der Registrierung einschränken**
+**Bei der Registrierung angezeigte Felder einschränken**
 
-Wenn Sie nur einige der verfügbaren Profilfelder anzeigen möchten, können Sie das Array hier mit den Unterelementen 'fields' und 'extra_fields' ausfüllen, die Arrays mit einer Liste der anzuzeigenden Felder enthalten.
+Wenn Sie nur einige der verfügbaren Profilfelder anzeigen möchten, können Sie das Array hier mit den Unterelementen „fields“ und „extra_fields“ vervollständigen, die Arrays mit einer Liste der anzuzeigenden Felder enthalten.
 
 ### `allow_invitation_registration` **v3**
 
 **Registrierung über Kurseinladungslinks zulassen**
 
-Wenn aktiviert, kann ein Lehrer/Administrator aus dem Benutzer-Werkzeug eines Kurses einen einmaligen Einladungslink senden, über den eine nicht registrierte Person das Registrierungsformular erreicht und sich registrieren kann, selbst wenn die allgemeine Selbstregistrierung (`allow_registration`) deaktiviert ist.
+Wenn diese Option aktiviert ist, kann eine Lehrkraft oder ein Administrator aus dem Benutzerwerkzeug eines Kurses einen einmaligen Einladungslink senden, über den eine nicht registrierte Person das Registrierungsformular erreicht und sich registrieren kann, auch wenn die allgemeine Selbstregistrierung (`allow_registration`) deaktiviert ist.
 
-*Default: `false`*
+*Standard: `false`*
 
-Siehe [Benutzer einschreiben](../../teacher-guide/assessing-learners/subscribing-users.md#inviting-users-by-email) für die lehrerseitige Darstellung dieser Funktion.
+Siehe [Benutzer einschreiben](../../teacher-guide/assessing-learners/subscribing-users.md#inviting-users-by-email) für die lehrkraftseitige Darstellung dieser Funktion.
 
 ### `allow_lostpassword`
 
 **Passwort vergessen**
 
-Dürfen Benutzer ihr vergessenes Passwort anfordern?
+Dürfen Benutzer ihr verlorenes Passwort anfordern?
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `allow_registration`
 
 **Registrierung**
 
-Ist die Registrierung als neuer Benutzer erlaubt? Können Benutzer neue Konten anlegen?
+Ist die Registrierung als neuer Benutzer zulässig? Können Benutzer neue Konten erstellen?
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registrierung als Lehrer**
+**Registrierung als Lehrkraft**
 
-Kann man sich als Lehrer registrieren (mit der Möglichkeit, Kurse zu erstellen)?
+Kann man sich als Lehrkraft registrieren (mit der Möglichkeit, Kurse zu erstellen)?
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_terms_conditions`
 
-**Nutzungsbedingungen aktivieren**
+**Allgemeine Geschäftsbedingungen aktivieren**
 
-Diese Option zeigt die Nutzungsbedingungen im Registrierungsformular für neue Benutzer an. Muss zuerst auf der Portal-Administrationsseite konfiguriert werden.
+Diese Option zeigt die Allgemeinen Geschäftsbedingungen im Registrierungsformular für neue Benutzer an. Sie muss zuerst auf der Portalverwaltungsseite konfiguriert werden.
 
-*Default: `false`*
+*Standard: `false`*
+
+Wenn diese Option aktiviert ist, kann ein Plattformadministrator oder ein Vorgesetzter eines Lernenden die Zustimmung eines Lernenden an drei Stellen verwalten: auf der Benutzerinformationsseite (**Administration > Benutzer**, dann der Benutzer), auf der Tracking-Seite des Lernenden unter **Berichterstattung** und auf der Lernendenseite der globalen Berichterstattung (`/reporting/learners/<id>`). Die Schaltfläche ist überall dieselbe:
+
+* **Rechtliche Vereinbarung senden** sendet dem Lernenden eine mit dem Namen des Absenders signierte Nachricht, in der er aufgefordert wird, die Allgemeinen Geschäftsbedingungen zu unterzeichnen, mit einem Link zu der in [`course_validation_terms_and_conditions_url`](course-settings.md#course_validation_terms_and_conditions_url) festgelegten Adresse.
+* **Rechtliche Vereinbarung löschen** erscheint, sobald der Lernende zugestimmt hat, und entfernt diese Zustimmung, sodass der Lernende erneut aufgefordert wird, die Allgemeinen Geschäftsbedingungen zu akzeptieren.
 
 
-### `drh_autosubscribe`
+### `hrm_autosubscribe`
 
 **Automatische Einschreibung des Personalverantwortlichen**
 
-Automatische Einschreibung des Personalverantwortlichen – noch nicht verfügbar
+Durch `|` getrennte Kurscodes (zum Beispiel `COURSE001|COURSE002`). Wenn sich ein Personalverantwortlicher anmeldet, schreibt Chamilo den Benutzer automatisch in die aufgeführten Kurse ein, ohne die Benutzerrolle zu ändern. Der frühere Einstellungsname `registration.drh_autosubscribe` bleibt aus Kompatibilitätsgründen erkannt.
 
 ### `extendedprofile_registration`
 
-**Portfolio-Felder bei der Registrierung**
+**Portfoliofelder bei der Registrierung**
 
-Welche der folgenden Felder des Portfolios müssen im Benutzerregistrierungsprozess verfügbar sein? Dies setzt voraus, dass die Portfolio-Option aktiviert ist (siehe oben).
+Welche der folgenden Portfoliofelder müssen im Benutzerregistrierungsprozess verfügbar sein? Dies setzt voraus, dass die Portfolio-Option aktiviert ist (siehe oben).
 
 ### `extendedprofile_registrationrequired`
 
-**Pflicht-Portfolio-Felder bei der Registrierung**
+**Erforderliche Portfoliofelder bei der Registrierung**
 
-Welche der folgenden Felder des Portfolios sind im Benutzerregistrierungsprozess *erforderlich*? Dies setzt voraus, dass die Portfolio-Option aktiviert ist und dass das Feld auch im Registrierungsformular verfügbar ist (siehe oben).
+Welche der folgenden Portfoliofelder sind im Benutzerregistrierungsprozess *erforderlich*? Dies setzt voraus, dass die Portfolio-Option aktiviert ist und dass das Feld auch im Registrierungsformular verfügbar ist (siehe oben).
 
 ### `extldap_config`
 
@@ -92,21 +97,20 @@ Array, das Host und Port für den LDAP-Server definiert.
 
 ### `hide_legal_accept_checkbox`
 
-**Kontrollkästchen zur rechtlichen Annahme auf der Seite der Nutzungsbedingungen ausblenden**
+**Kontrollkästchen zur rechtlichen Zustimmung auf der Seite der Allgemeinen Geschäftsbedingungen ausblenden**
 
-Wenn auf true gesetzt, wird das Kontrollkästchen „Ich habe gelesen und akzeptiere“ im Ablauf der Seite der Nutzungsbedingungen entfernt.
+Wenn auf true gesetzt, entfernt das Kontrollkästchen „Ich habe gelesen und akzeptiere“ im Ablauf der Seite der Allgemeinen Geschäftsbedingungen.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `platform_unsubscribe_allowed`
 
 **Abmeldung von der Plattform zulassen**
 
-Durch Aktivieren dieser Option erlauben Sie jedem Benutzer, sein eigenes Konto und alle damit verbundenen Daten endgültig von der Plattform zu entfernen. Dies ist eine recht radikale Maßnahme, ist jedoch für öffentlich zugängliche Portale notwendig, auf denen sich Benutzer selbst registrieren können. Im Benutzerprofil erscheint nach Bestätigung ein zusätzlicher Eintrag zur Abmeldung.
+Wenn Sie diese Option aktivieren, erlauben Sie jedem Benutzer, sein eigenes Konto und alle damit verbundenen Daten endgültig von der Plattform zu entfernen. Dies ist eine recht radikale Maßnahme, sie ist jedoch für öffentlich zugängliche Portale erforderlich, auf denen sich Benutzer selbst registrieren können. Im Benutzerprofil erscheint ein zusätzlicher Eintrag, um sich nach einer Bestätigung abzumelden.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `redirect_after_login`
 
@@ -114,12 +118,12 @@ Durch Aktivieren dieser Option erlauben Sie jedem Benutzer, sein eigenes Konto u
 
 Definieren Sie die Weiterleitung pro Profil nach der Anmeldung mithilfe eines JSON-Objekts wie {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*Standard:*
 ```json
 {
   "COURSEMANAGER": "courses",
   "STUDENT": "courses",
-  "DRH": "",
+  "HRM": "",
   "SESSIONADMIN": "admin-dashboard",
   "STUDENT_BOSS": "main/my_space/student.php",
   "INVITEE": "courses",
@@ -127,11 +131,13 @@ Definieren Sie die Weiterleitung pro Profil nach der Anmeldung mithilfe eines JS
 }
 ```
 
+Verwenden Sie in neuen Weiterleitungskonfigurationen den Rollenschlüssel `HRM`. Vorhandene Zuordnungen, die `DRH` enthalten, werden aus Kompatibilitätsgründen weiterhin gelesen; wenn beide Schlüssel vorhanden sind, hat `HRM` Vorrang.
+
 ### `required_extra_fields_in_inscription`
 
-**Erforderliche Extra-Felder bei der Registrierung**
+**Erforderliche Zusatzfelder bei der Registrierung**
 
-Array von Extra-Feld-Identifikatoren, die bei der Benutzerregistrierung ausgefüllt werden müssen.
+Array von Zusatzfeld-Kennungen, die bei der Benutzerregistrierung ausgefüllt werden müssen.
 
 ### `required_profile_fields`
 
@@ -141,11 +147,11 @@ Array von Profilfeldnamen (email, phone, language, official_code), die bei der R
 
 ### `send_inscription_msg_to_inbox`
 
-**Willkommensnachricht an E-Mail und Posteingang senden**
+**Willkommensnachricht per E-Mail und in den Posteingang senden**
 
-Standardmäßig wird die Willkommensnachricht (mit Zugangsdaten) nur per E-Mail gesendet. Aktivieren Sie diese Option, um sie zusätzlich an den Chamilo-Posteingang des Benutzers zu senden.
+Standardmäßig wird die Willkommensnachricht (mit Zugangsdaten) nur per E-Mail gesendet. Aktivieren Sie diese Option, um sie zusätzlich in den Chamilo-Posteingang des Benutzers zu senden.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `sessionadmin_autosubscribe`
@@ -156,20 +162,20 @@ Automatische Einschreibung des Sitzungsadministrators – noch nicht verfügbar
 
 ### `student_autosubscribe`
 
-**Automatische Anmeldung von Lernenden**
+**Automatische Einschreibung des Lernenden**
 
-Automatische Anmeldung von Lernenden – noch nicht verfügbar
+Automatische Einschreibung des Lernenden – noch nicht verfügbar
 
 ### `teacher_autosubscribe`
 
-**Automatische Anmeldung von Lehrenden**
+**Automatische Einschreibung des Lehrenden**
 
-Automatische Anmeldung von Lehrenden – noch nicht verfügbar
+Automatische Einschreibung des Lehrenden – noch nicht verfügbar
 
 ### `user_hide_never_expire_option`
 
 **Option „läuft nie ab“ für Benutzer ausblenden**
 
-Die Option „läuft nie ab“ beim Erstellen/Bearbeiten eines Benutzerkontos entfernen.
+Entfernt die Option „läuft nie ab“ beim Erstellen oder Bearbeiten eines Benutzerkontos.
 
 *Standard: `false`*

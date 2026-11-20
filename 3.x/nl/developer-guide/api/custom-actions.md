@@ -1,10 +1,10 @@
 # Aangepaste acties
 
-Naast standaard CRUD-bewerkingen heeft Chamilo een aantal aangepaste API-actiecontrollers (in de orde van tientallen) die gespecialiseerde bewerkingen afhandelen. Het exacte aantal verschilt per release — raadpleeg `src/CoreBundle/Controller/Api/` voor de huidige set.
+Naast standaard CRUD-bewerkingen beschikt Chamilo over een aantal aangepaste API-actiecontrollers (in de orde van tientallen) die gespecialiseerde bewerkingen afhandelen. Het exacte aantal varieert tussen releases — bekijk `src/CoreBundle/Controller/Api/` voor de huidige set.
 
 ## Locatie
 
-Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
+Aangepaste acties bevinden zich in `src/CoreBundle/Controller/Api/`.
 
 ## Opmerkelijke aangepaste acties
 
@@ -12,26 +12,26 @@ Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
 
 | Controller | Doel |
 |-----------|---------|
-| `CreateDocumentFileAction` | Een bestand uploaden of een map-/linkdocument aanmaken |
+| `CreateDocumentFileAction` | Een bestand uploaden of een map-/koppelingsdocument aanmaken |
 | `UpdateDocumentFileAction` | Het bestand van een document vervangen |
-| `ReplaceDocumentFileAction` | Een documentbestand vervangen, waarbij de ID's behouden blijven |
+| `ReplaceDocumentFileAction` | Een documentbestand vervangen, met behoud van de ID's |
 | `MoveDocumentAction` | Een document naar een andere map verplaatsen |
 | `UpdateVisibilityDocument` | De zichtbaarheid van een document voor cursisten in- of uitschakelen |
-| `DownloadAllDocumentsAction` | Alle documenten in een map als ZIP downloaden |
-| `DownloadSelectedDocumentsAction` | Een geselecteerde set documenten als ZIP downloaden |
+| `DownloadAllDocumentsAction` | Alle documenten in een map downloaden als ZIP |
+| `DownloadSelectedDocumentsAction` | Een geselecteerde set documenten downloaden als ZIP |
 | `DocumentUsageAction` | Cursussen/sessies weergeven waarin een document wordt gebruikt |
 | `DocumentLearningPathUsageAction` | Leerpaden weergeven waarin een document wordt gebruikt |
 
-### Glossarium
+### Woordenlijst
 
 | Controller | Doel |
 |-----------|---------|
-| `CreateCGlossaryAction` | Een glossariumterm aanmaken |
-| `UpdateCGlossaryAction` | Een glossariumterm bijwerken |
-| `ExportCGlossaryAction` | Glossarium naar bestand exporteren |
-| `ImportCGlossaryAction` | Glossarium uit bestand importeren |
-| `ExportGlossaryToDocumentsAction` | Glossarium als document in de cursus exporteren |
-| `GetGlossaryCollectionController` | Glossariumcollectie ophalen met aangepaste filtering |
+| `CreateCGlossaryAction` | Een woordenlijstterm aanmaken |
+| `UpdateCGlossaryAction` | Een woordenlijstterm bijwerken |
+| `ExportCGlossaryAction` | Woordenlijst exporteren naar een bestand |
+| `ImportCGlossaryAction` | Woordenlijst importeren vanuit een bestand |
+| `ExportGlossaryToDocumentsAction` | Woordenlijst exporteren als document in de cursus |
+| `GetGlossaryCollectionController` | Woordenlijstverzameling ophalen met aangepaste filtering |
 
 ### Koppelingen
 
@@ -42,26 +42,26 @@ Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
 | `CreateCLinkCategoryAction` | Een koppelingscategorie aanmaken |
 | `UpdateCLinkCategoryAction` | Een koppelingscategorie bijwerken |
 | `CheckCLinkAction` | Controleren of een koppelings-URL bereikbaar is |
-| `ExportCLinksAction` | Koppelingen naar bestand exporteren |
+| `ExportCLinksAction` | Koppelingen exporteren naar een bestand |
 | `CLinkDetailsController` | Koppelingsdetails ophalen |
 | `CLinkImageController` | De voorbeeldafbeelding van een koppeling ophalen of instellen |
-| `GetLinksCollectionController` | Koppelingscollectie ophalen met aangepaste filtering |
+| `GetLinksCollectionController` | Koppelingenverzameling ophalen met aangepaste filtering |
 | `UpdateVisibilityLink` | De zichtbaarheid van een koppeling in- of uitschakelen |
 | `UpdateVisibilityLinkCategory` | De zichtbaarheid van een koppelingscategorie in- of uitschakelen |
-| `UpdatePositionLink` | Koppelingen herschikken |
+| `UpdatePositionLink` | Koppelingen opnieuw ordenen |
 
 ### Leerpaden
 
 | Controller | Doel |
 |-----------|---------|
 | `CreateCLpAction` | Een leerpad aanmaken |
-| `LpReorderController` | Leerpaditems herschikken |
+| `LpReorderController` | Leerpaditems opnieuw ordenen |
 
 ### Agenda
 
 | Controller | Doel |
 |-----------|---------|
-| `UpdateCCalendarEventAction` | Een cursusagenda-evenement bijwerken |
+| `UpdateCCalendarEventAction` | Een cursusagenda-gebeurtenis bijwerken |
 | `CalendarMyStudentsScheduleAction` | Het rooster van de studenten van een docent ophalen |
 
 ### Blog
@@ -76,29 +76,29 @@ Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
 
 | Controller | Doel |
 |-----------|---------|
-| `CreateDropboxFileAction` | Een bestand naar de dropbox uploaden (hulpmiddel voor bestandsuitwisseling) |
+| `CreateDropboxFileAction` | Een bestand uploaden naar de dropbox (hulpmiddel voor bestandsuitwisseling) |
 
 ### Studentenwerk (opdrachten)
 
 | Controller | Doel |
 |-----------|---------|
 | `CreateStudentPublicationFileAction` | Een opdrachtbestand indienen |
-| `CreateStudentPublicationCommentAction` | Een opmerking bij een inzending toevoegen |
+| `CreateStudentPublicationCommentAction` | Een opmerking aan een inzending toevoegen |
 | `CreateStudentPublicationCorrectionFileAction` | Een correctiebestand voor een inzending uploaden |
 
 ### Persoonlijke bestanden
 
 | Controller | Doel |
 |-----------|---------|
-| `CreatePersonalFileAction` | Een bestand naar de persoonlijke bestandsruimte van de gebruiker uploaden |
+| `CreatePersonalFileAction` | Een bestand uploaden naar de persoonlijke bestandsruimte van de gebruiker |
 | `UpdatePersonalFileAction` | Een persoonlijk bestand bijwerken |
 
 ### Sociaal
 
 | Controller | Doel |
 |-----------|---------|
-| `LikeSocialPostController` | Een sociaal bericht liken |
-| `DislikeSocialPostController` | Een like van een sociaal bericht verwijderen |
+| `LikeSocialPostController` | Een sociaal bericht leuk vinden |
+| `DislikeSocialPostController` | Een sociaal bericht niet meer leuk vinden |
 | `CreateSocialPostAttachmentAction` | Een bestand aan een sociaal bericht koppelen |
 | `SocialPostAttachmentsController` | Bijlagen bij een sociaal bericht weergeven |
 | `AbstractFeedbackSocialPostController` | Basisklasse voor feedbackacties op sociale berichten |
@@ -108,13 +108,14 @@ Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
 | Controller | Doel |
 |-----------|---------|
 | `CreateSessionWithUsersAndCoursesAction` | Een sessie aanmaken en in één aanroep gebruikers en cursussen inschrijven |
+| `SessionDuplicateProcessor` (`POST /api/sessions/{id}/duplicate`) | Een sessie aanmaken op basis van een modelsessie — zie [Sessieduplicatie](session-duplication.md) |
 
-### Gebruikers en toegang-URL's
+### Gebruikers en toegangs-URL's
 
 | Controller | Doel |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Een gebruiker aanmaken en koppelen aan een toegang-URL |
-| `UserAccessUrlsController` | Toegang-URL's weergeven waartoe een gebruiker behoort |
+| `CreateUserOnAccessUrlAction` (`POST /api/access_urls/{id}/user`) | Een gebruiker aanmaken en koppelen aan een toegangs-URL — zie [Gebruikersaanmaak](user-creation.md) |
+| `UserAccessUrlsController` | Toegangs-URL's weergeven waartoe een gebruiker behoort |
 | `UserSkillsController` | Vaardigheden weergeven die aan een gebruiker zijn toegekend |
 
 ### Videoconferentie
@@ -125,13 +126,13 @@ Aangepaste acties staan in `src/CoreBundle/Controller/Api/`.
 
 ### Basisklassen
 
-| Class | Doel |
+| Klasse | Doel |
 |-------|---------|
-| `BaseResourceFileAction` | Basisklasse voor bestandsuploadacties; handelt multipart-parsing, het aanmaken van resource nodes en opslag af |
+| `BaseResourceFileAction` | Basisklasse voor acties voor het uploaden van bestanden; verzorgt het parsen van multipart-verzoeken, het aanmaken van resourceknooppunten en de opslag |
 
 ## Een aangepaste actie implementeren
 
-Aangepaste acties zijn standaard Symfony-controllers die worden gerefereerd in de operation-definities van API Platform. Het attribuut `#[ApiResource]` staat op de **entiteit**, en de parameter `controller:` van elke operation wijst naar de actieklasse:
+Aangepaste acties zijn standaard Symfony-controllers die worden verwezen in de operatiedefinities van API Platform. Het attribuut `#[ApiResource]` staat op de **entiteit**, en de parameter `controller:` van elke operatie verwijst naar de actieklasse:
 
 ```php
 // On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
@@ -152,7 +153,7 @@ Aangepaste acties zijn standaard Symfony-controllers die worden gerefereerd in d
 class CDocument extends AbstractResource { ... }
 ```
 
-De actieklasse zelf is een gewone invokable controller — services worden geïnjecteerd via de argumenten van de methode `__invoke()`:
+De actieklasse zelf is een gewone aanroepbare controller — services worden geïnjecteerd via de argumenten van de methode `__invoke()`:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -173,6 +174,6 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 ```
 
 Belangrijke punten:
-- `deserialize: false` wordt ingesteld wanneer de actie het request rechtstreeks leest (bijv. multipart-bestandsuploads) in plaats van API Platform een JSON-body te laten deserialiseren.
-- Acties voor bestandsupload breiden doorgaans `BaseResourceFileAction` uit, die multipart-parsing en de koppeling van resource nodes afhandelt.
-- Beveiliging wordt afgedwongen via de parameter `security:` op de operation, niet binnen de controller.
+- `deserialize: false` wordt ingesteld wanneer de actie het verzoek rechtstreeks leest (bijvoorbeeld bij multipart-bestandsuploads) in plaats van API Platform een JSON-body te laten deserialiseren.
+- Acties voor het uploaden van bestanden breiden doorgaans `BaseResourceFileAction` uit, die het parsen van multipart-verzoeken en de koppeling van resourceknooppunten verzorgt.
+- Beveiliging wordt afgedwongen via de parameter `security:` op de operatie, niet binnen de controller.

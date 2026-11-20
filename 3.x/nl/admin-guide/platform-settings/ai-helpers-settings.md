@@ -1,48 +1,48 @@
-# Instellingen AI-helpers
+# Instellingen voor AI-helpers
 
-Configuratie van de AI-helpers (tekstgeneratie, beeldgeneratie, videogeneratie, AI-tutor, AI-beoordeling). Elke provider kan per taaktype worden ingeschakeld. Zie ook [AI-configuratie](../integrations/ai-configuration.md).
+Configuratie van de AI-helpers (tekstgeneratie, afbeeldingsgeneratie, videogeneratie, AI-tutor, AI-beoordeling). Elke provider kan per taaktype worden ingeschakeld. Zie ook [AI-configuratie](../integrations/ai-configuration.md).
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > AI-helpers**. Deze categorie bevat **14 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de settings-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > AI-helpers**. Deze categorie bevat **15 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de settings-fixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code staat in monospace. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
 ### `ai_providers`
 
-**Verbindingsgegevens AI-providers**
+**Verbindingsgegevens van AI-providers**
 
 Configuratiegegevens om verbinding te maken met externe AI-diensten.
 
 ### `content_analyser`
 
-**Inhoudsanalyser**
+**Inhoudsanalyse**
 
-Analyseert leermateriaal om inzichten te extraheren of de kwaliteit te verbeteren.
+Analyseert leermaterialen om inzichten te extraheren of de kwaliteit te verbeteren.
 
 *Standaard: `false`*
 
 ### `course_analyser`
 
-**Cursusanalyser**
+**Cursusanalyse**
 
-Analyseert alle bronnen in één of meerdere cursussen en traint het AI-model vooraf om elke vraag over deze cursus of cursussen te beantwoorden (zorg ervoor dat inhoud mag worden gedeeld met de geconfigureerde AI-diensten).
+Analyseert alle bronnen in één of meerdere cursussen en traint het AI-model vooraf om vragen over deze cursus of cursussen te beantwoorden (zorg ervoor dat inhoud gedeeld mag worden met de geconfigureerde AI-diensten).
 
 *Standaard: `false`*
 
 ### `disclose_ai_assistance`
 
-**AI-ondersteuning kenbaar maken**
+**AI-ondersteuning vermelden**
 
-Toon een label op alle inhoud of feedback die is gegenereerd of mede-gegenereerd door een AI-systeem, zodat de gebruiker ziet dat de inhoud tot stand is gekomen met hulp van een AI-systeem. Details over welk AI-systeem in welk geval is gebruikt, blijven in de database voor auditdoeleinden, maar zijn niet rechtstreeks toegankelijk voor de eindgebruiker.
+Toon een label bij inhoud of feedback die is gegenereerd of mede gegenereerd door een AI-systeem, zodat de gebruiker ziet dat de inhoud met hulp van een AI-systeem tot stand is gekomen. Details over welk AI-systeem in welk geval is gebruikt, worden in de database bewaard voor audit, maar zijn niet rechtstreeks toegankelijk voor de eindgebruiker.
 
 *Standaard: `true`*
 
 ### `enable_ai_helpers`
 
-**AI-helpertool inschakelen**
+**De AI-helpertool inschakelen**
 
-Schakelt alle beschikbare AI-functies in het platform in.
+Schakelt alle beschikbare AI-functies op het platform in.
 
 *Standaard: `false`*
 
@@ -56,15 +56,15 @@ Genereert gepersonaliseerde toetsen met AI op basis van cursusinhoud.
 
 ### `glossary_terms_generator`
 
-**Generator van begrippenlijsttermen**
+**Generator van glossariumtermen**
 
-Stelt docenten in staat om AI-gegenereerde begrippenlijsttermen in hun cursus aan te vragen. Dit genereert 20 termen op basis van de cursustitel en de algemene beschrijving in de tool Cursusbeschrijving. Bij herhaald gebruik worden termen die al in die begrippenlijst staan uitgesloten (zorg ervoor dat inhoud mag worden gedeeld met de geconfigureerde AI-diensten).
+Stelt docenten in staat om AI-gegenereerde glossariumtermen voor hun cursus aan te vragen. Dit genereert 20 termen op basis van de cursustitel en de algemene beschrijving in het hulpmiddel voor de cursusbeschrijving. Bij herhaald gebruik worden termen die al in dat glossarium aanwezig zijn uitgesloten (zorg ervoor dat inhoud gedeeld mag worden met de geconfigureerde AI-diensten).
 
 *Standaard: `false`*
 
 ### `image_generator`
 
-**Beeldgenerator**
+**Afbeeldingsgenerator**
 
 Genereert afbeeldingen op basis van prompts of inhoud met behulp van AI.
 
@@ -72,33 +72,41 @@ Genereert afbeeldingen op basis van prompts of inhoud met behulp van AI.
 
 ### `learning_path_generator`
 
-**Leerpadengenerator**
+**Generator van leerpaden**
 
-Genereert gepersonaliseerde leerpaden met AI-suggesties.
+Genereert gepersonaliseerde leerpaden met behulp van AI-suggesties.
 
 *Standaard: `false`*
 
 ### `open_answers_grader`
 
-**Beoordelaar open antwoorden**
+**Beoordelaar van open antwoorden**
 
-Beoordeelt open antwoorden automatisch met AI.
+Beoordeelt open antwoorden automatisch met behulp van AI.
 
 *Standaard: `false`*
 
 ### `task_grader`
 
-**Opdrachtenbeoordelaar**
+**Beoordelaar van opdrachten**
 
 Gebruikt AI om geüploade opdrachten te evalueren en te beoordelen.
 
 *Standaard: `false`*
 
+### `toolbox`
+
+**AI Toolbox**
+
+Stelt docenten in staat om AI-ondersteunde educatieve toepassingen binnen cursussen te maken en te versiebeheren.
+
+*Standaard: `false`*
+
 ### `tutor_chatbot`
 
-**Tutor-chatbot aangedreven door AI**
+**Tutorchatbot aangedreven door AI**
 
-Biedt studenten een AI-gestuurde tutorassistent.
+Biedt studenten een door AI aangedreven tutorassistent.
 
 *Standaard: `false`*
 

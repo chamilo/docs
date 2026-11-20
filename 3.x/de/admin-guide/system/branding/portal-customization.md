@@ -1,20 +1,20 @@
 # Portal-Anpassung
 
-Passen Sie an, wie Ihre Chamilo-Plattform aussieht und welche Informationen den Nutzern angezeigt werden.
+Passen Sie das Erscheinungsbild Ihrer Chamilo-Plattform an und legen Sie fest, welche Informationen den Benutzern angezeigt werden.
 
 ## Plattformidentität
 
-![Die Seite zur Portal-Anpassung mit Einstellungen zur Plattformidentität für Name, Logo und Institution](../../../.gitbook/assets/admin-portal-customization.png)
+![Die Seite zur Portal-Anpassung mit den Einstellungen zur Plattformidentität für Name, Logo und Institution](../../../.gitbook/assets/admin-portal-customization.png)
 
 Konfigurieren Sie die grundlegende Identität Ihres Portals:
 
-* **Plattformname** — Der Name, der im Browser-Titel und in der gesamten Oberfläche angezeigt wird
-* **Institutionsname** — Der Name Ihrer Organisation
-* **Institutions-URL** — Ein Link zur Website Ihrer Organisation
+* **Plattformname** — Der Name, der im Browsertitel und in der gesamten Benutzeroberfläche angezeigt wird
+* **Name der Institution** — Der Name Ihrer Organisation
+* **URL der Institution** — Ein Link zur Website Ihrer Organisation
 * **Plattformlogo** — Laden Sie das Logo Ihrer Organisation hoch (wird in der oberen Leiste angezeigt)
 
 ## Tipps
 
-* **Halten Sie die Startseite übersichtlich** — Zu viel Inhalt auf der Startseite kann überfordern. Konzentrieren Sie sich auf wesentliche Ankündigungen und den Kurszugang.
-* **Regelmäßig aktualisieren** — Halten Sie Systemankündigungen aktuell und entfernen Sie veraltete
-* **Laden Sie ein hochwertiges Logo hoch** — Das Logo ist eines der sichtbarsten Markenelemente. Verwenden Sie ein scharfes, angemessen dimensioniertes Bild.
+* **Halten Sie die Startseite übersichtlich** — Zu viele Inhalte auf der Startseite können überfordern. Konzentrieren Sie sich auf wesentliche Ankündigungen und den Kurszugang.
+* **Aktualisieren Sie regelmäßig** — Halten Sie Systemankündigungen aktuell und entfernen Sie veraltete
+* **Laden Sie ein hochwertiges Logo hoch** — Das Logo ist eines der sichtbarsten Branding-Elemente. Verwenden Sie ein scharfes Bild in angemessener Größe.

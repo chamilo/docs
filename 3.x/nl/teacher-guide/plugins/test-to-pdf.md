@@ -1,12 +1,12 @@
-# Toets naar PDF
+# Test to PDF
 
-Toets naar PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Toets naar PDF" data-size="line"> exporteert de vragen van een toets in een cursus naar een afdrukbare PDF — alleen vragen, alleen antwoorden, of beide samen — nuttig voor een papieren versie van een toets.
+Test to PDF <img src="../../.gitbook/assets/icons/mdi-file-pdf-box.svg" alt="Test to PDF" data-size="line"> exporteert de vragen van een cursustoets naar een afdrukbare PDF — alleen vragen, alleen antwoorden, of beide samen — handig voor een papieren versie van een toets.
 
-## De tool openen
+## Toegang tot de tool
 
-Zodra de tool is ingeschakeld, verschijnt **Toets naar PDF** op de startpagina van uw cursus, met een overzicht van elke toets in de cursus (of sessie). Elke rij biedt drie acties: **Vragen downloaden**, **Antwoorden downloaden** en **Alles downloaden**.
+Zodra de tool is ingeschakeld, verschijnt een **Test to PDF**-tool op de startpagina van uw cursus, met een overzicht van elke toets in de cursus (of sessie). Elke rij biedt drie acties: **Vragen downloaden**, **Antwoorden downloaden** en **Alles downloaden**.
 
 ## Tips
 
-* **Niet elk vraagtype wordt ondersteund** — Slechts een subset van de vraagtypen van Chamilo (meerkeuze, waar/onwaar en vergelijkbare gesloten formaten) wordt netjes geëxporteerd; open vragen of complexere vraagtypen verschijnen mogelijk niet correct, of helemaal niet
-* **Controleer de uitvoer voordat u een volledige batch afdrukt** — Bekijk de gegenereerde PDF van één toets voordat u massaal afdrukt voor een examensessie
+* **Niet elk vraagtype wordt ondersteund** — Slechts een deel van de vraagtypen van Chamilo (meerkeuze, waar/onwaar en vergelijkbare gesloten formaten) wordt correct geëxporteerd; open vragen of complexere vraagtypen worden mogelijk niet correct weergegeven, of helemaal niet
+* **Controleer de uitvoer voordat u een volledige reeks afdrukt** — Bekijk de gegenereerde PDF van één toets voordat u deze massaal afdrukt voor een examensessie

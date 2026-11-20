@@ -1,12 +1,12 @@
 # Karrieren und Promotionen
 
-Chamilo umfasst ein Karrieremanagementsystem, mit dem Sie Ausbildungswege definieren und den Fortschritt der Lernenden in strukturierten Programmen nachverfolgen können.
+Chamilo umfasst ein Karrieremanagementsystem, mit dem Sie Ausbildungspfade definieren und den Fortschritt der Lernenden durch strukturierte Programme verfolgen können.
 
 ## Karrieren
 
-![Die Karrierenliste mit definierten Karrierewegen, Name und Beschreibung](../../.gitbook/assets/admin-careers-list.png)
+![Die Karriereliste mit definierten Karrierepfaden einschließlich Name und Beschreibung](../../.gitbook/assets/admin-careers-list.png)
 
-Eine **Karriere** stellt einen strukturierten Ausbildungsweg dar — eine Abfolge von Ausbildungsschritten, die ein Lernender durchläuft, um ein berufliches Ziel zu erreichen.
+Eine **Karriere** stellt einen strukturierten Ausbildungspfad dar — eine Abfolge von Ausbildungsschritten, die Lernende durchlaufen, um ein berufliches Ziel zu erreichen.
 
 ### Eine Karriere erstellen
 
@@ -17,13 +17,13 @@ Eine **Karriere** stellt einen strukturierten Ausbildungsweg dar — eine Abfolg
 
 ## Promotionen
 
-Eine **Promotion** stellt eine Kohorte oder einen Jahrgang von Lernenden dar, die eine Karriere durchlaufen. Betrachten Sie sie als eine Gruppe von Personen, die denselben Karriereweg zur gleichen Zeit absolvieren.
+Eine **Promotion** stellt eine Kohorte oder einen Jahrgang von Lernenden dar, die eine Karriere durchlaufen. Stellen Sie sich dies als eine Gruppe von Personen vor, die denselben Karrierepfad zur gleichen Zeit absolvieren.
 
-### Verknüpfung mit Sessions
+### Verknüpfung mit Sitzungen
 
-Nach dem Erstellen einer Promotion verknüpfen Sie Sessions damit. Damit legen Sie die Abfolge der Ausbildung fest, die ein Lernender abschließen muss.
+Nachdem Sie eine Promotion erstellt haben, verknüpfen Sie Sitzungen damit. Dadurch wird die Abfolge der Ausbildung definiert, die Lernende absolvieren müssen.
 
-Sie können Promotionen später replizieren, um die nächste Promotion mithilfe von Kopien derselben Sessions zu erstellen, sodass Ihre nächste Promotion in kürzester Zeit aufgebaut werden kann.
+Sie können Promotionen später replizieren, um die Erstellung der nächsten Promotion mit Kopien derselben Sitzungen zu erleichtern, sodass Ihre nächste Promotion im Handumdrehen aufgebaut werden kann.
 
 ### Eine Promotion erstellen
 
@@ -31,16 +31,16 @@ Sie können Promotionen später replizieren, um die nächste Promotion mithilfe 
 2. Klicken Sie auf **Promotion erstellen**
 3. Geben Sie einen **Namen** und eine **Beschreibung** ein
 4. Verknüpfen Sie sie mit einer **Karriere**
-5. Weisen Sie der Promotion **Sessions** zu
+5. Weisen Sie der Promotion **Sitzungen** zu
 6. Speichern
 
-## Wie alles zusammenhängt
+## Wie alles zusammenpasst
 
-* Eine **Karriere** definiert den Weg (z. B. „Junior Developer Certification“)
+* Eine **Karriere** definiert den Pfad (z. B. „Zertifizierung zum Junior Developer“)
 * Eine **Promotion** stellt eine Kohorte dar (z. B. „Jahrgang März 2026“)
-* **Sessions** innerhalb der Promotion liefern die eigentlichen Ausbildungsinhalte
+* **Sitzungen** innerhalb der Promotion liefern die eigentlichen Ausbildungsinhalte
 
 ## Tipps
 
-* **Für strukturierte Programme nutzen** — Karrieren und Promotionen sind am nützlichsten für mehrstufige Ausbildungsprogramme, in denen Lernende eine festgelegte Abfolge durchlaufen
-* **Abschluss nachverfolgen** — Nutzen Sie die Berichtswerkzeuge, um zu überwachen, wie Promotionen ihre Karrierewege durchlaufen
+* **Für strukturierte Programme verwenden** — Karrieren und Promotionen sind besonders nützlich für mehrstufige Ausbildungsprogramme, bei denen Lernende eine definierte Abfolge durchlaufen
+* **Abschluss verfolgen** — Verwenden Sie die Berichtswerkzeuge, um zu überwachen, wie Promotionen auf ihren Karrierepfaden vorankommen

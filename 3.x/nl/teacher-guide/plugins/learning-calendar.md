@@ -1,20 +1,20 @@
-# Leeragenda
+# Leerkalender
 
-Leeragenda <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Leeragenda" data-size="line"> helpt bij het plannen van blended of duale opleidingen die klassikale tijd combineren met praktijk op locatie. U bouwt een agenda waarin elke dag als **Bezet**, **Examen** of **Vrij** wordt gemarkeerd, wijst cursisten eraan toe, en hun persoonlijke agenda toont vervolgens die geplande dagen.
+Leerkalender <img src="../../.gitbook/assets/icons/mdi-calendar-text.svg" alt="Leerkalender" data-size="line"> helpt bij het plannen van blended of leerwerkopleidingen waarin klassikale tijd wordt gecombineerd met praktijk buiten de instelling. U stelt een kalender samen waarin u elke dag markeert als **Bezet**, **Examen** of **Vrij**, wijst er cursisten aan toe, en hun persoonlijke agenda toont vervolgens die geplande dagen.
 
-## De tool openen
+## Toegang tot de tool
 
-Zodra de functie is ingeschakeld, verschijnt een pictogram **Leeragenda** in **Mijn ruimte** (uw rapportagegebied). Het opent een lijst van agenda's die u hebt aangemaakt, met opties om toe te voegen, te bewerken, te kopiëren, te verwijderen en cursisten aan elke agenda toe te wijzen.
+Zodra de tool is ingeschakeld, verschijnt een pictogram **Leerkalender** in **Mijn ruimte** (uw rapportagegebied). Het opent een lijst van kalenders die u hebt gemaakt, met opties om toe te voegen, te bewerken, te kopiëren, te verwijderen en cursisten aan elk ervan toe te wijzen.
 
-## Een agenda opbouwen
+## Een kalender samenstellen
 
-1. Maak een nieuwe agenda
-2. Klik op een dag om deze te laten wisselen tussen **Bezet → Examen → Vrij → wissen**
-3. Wijs de cursisten toe die deze agenda moeten volgen
+1. Maak een nieuwe kalender
+2. Klik op een dag om deze te doorlopen via **Bezet → Examen → Vrij → wissen**
+3. Wijs de cursisten toe die deze kalender moeten volgen
 
-Toegewezen cursisten zien hun geplande dagen in hun eigen agenda, en rapportage vergelijkt geplande dagen met hun daadwerkelijke afronding van leerpaden.
+Toegewezen cursisten zien hun geplande dagen in hun eigen agenda, en de rapportage vergelijkt geplande dagen met de werkelijke voltooiing van hun leerpad.
 
 ## Tips
 
-* **Eén agenda per cursist tegelijk** — Een cursist kan slechts aan één agenda worden toegewezen, dus plan rond cohorten in plaats van te proberen meerdere agenda's op één persoon te stapelen
-* **Dit is een functie in een vroeg stadium** — Ze is onafhankelijk van een enkele cursus, dus verwacht niet dezelfde afwerking als bij de kernfuncties van Chamilo; controleer of ze bij uw opleidingsvorm past voordat u erop vertrouwt voor een echte cohort
+* **Eén kalender per cursist tegelijk** — Een cursist kan slechts aan één kalender worden toegewezen, dus plan rond cohorten in plaats van te proberen meerdere kalenders op één persoon te stapelen
+* **Dit is een functie in een vroeg stadium** — Ze staat los van een afzonderlijke cursus, dus verwacht niet dezelfde afwerking als bij de kernfuncties van Chamilo; controleer of ze past bij uw opleidingsvorm voordat u er voor een echte cohort op vertrouwt

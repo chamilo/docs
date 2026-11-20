@@ -1,47 +1,47 @@
 # Kurskategorien
 
-Kurskategorien helfen dabei, Ihren Kurskatalog zu strukturieren, sodass Lernende relevante Kurse leichter finden.
+Kurskategorien helfen dabei, Ihren Kurskatalog zu organisieren, sodass Lernende relevante Kurse leichter finden können.
 
 ## Eine Kategorie erstellen
 
 1. Navigieren Sie im Administrationsbereich zu **Kurskategorien**
 2. Klicken Sie auf **Kategorie hinzufügen**
-3. Geben Sie ein:
-   * **Kategoriecode** — Eine kurze, eindeutige Kennung
-   * **Kategoriename** — Der Anzeigename (z. B. „Informationstechnologie“, „Managementkompetenzen“)
-   * **Hinzufügen von Kursen in dieser Kategorie erlauben?** — Ob Kurse diese Kategorie setzen dürfen oder sie lediglich als Zwischenebene in einer Hierarchie dient 
-   * **Übergeordnete Kategorie** — (Optional) Platzieren Sie diese Kategorie unter einer anderen Kategorie, um eine Hierarchie zu erzeugen
+3. Geben Sie Folgendes ein:
+   * **Kategoriecode** — Eine kurze eindeutige Kennung
+   * **Kategoriename** — Der Anzeigename (z. B. „Informationstechnologie“, „Führungskompetenzen“)
+   * **Hinzufügen von Kursen in dieser Kategorie zulassen?** — Ob Kurse diese Kategorie als Kategorie festlegen dürfen oder ob sie lediglich als Zwischenebene in einer Hierarchie dient
+   * **Übergeordnete Kategorie** — (Optional) Ordnen Sie diese Kategorie einer anderen Kategorie unter, um eine Hierarchie zu erstellen
    * **Beschreibung** — (Optional)
-   * **Bild** — (Optional) Repräsentiert diese Kategorie, obwohl es praktisch nirgendwo angezeigt wird
-4. Drücken Sie *Kategorie hinzufügen*
+   * **Bild** — (Optional) Stellt diese Kategorie dar, wird jedoch fast nirgends angezeigt
+4. Drücken Sie auf *Kategorie hinzufügen*
 
-Chamilo legt standardmäßig 3 Kategorien an: *Language skills*, *PC Skills* und *Projects*. Diese können umbenannt, entfernt oder beibehalten werden, je nach Bedarf.
+Chamilo erstellt standardmäßig 3 Kategorien: *Sprachkenntnisse*, *PC-Kenntnisse* und *Projekte*. Diese können je nach Bedarf umbenannt, entfernt oder beibehalten werden.
 
 ## Kategoriehierarchie
 
-![Die Verwaltungsseite der Kurskategorien mit einem verschachtelten Kategoriebaum](../../.gitbook/assets/admin-course-categories.png)
+![Die Verwaltungsseite für Kurskategorien mit einem verschachtelten Kategoriebaum](../../.gitbook/assets/admin-course-categories.png)
 
-Kategorien können verschachtelt werden, um eine Baumstruktur zu erzeugen:
+Kategorien können verschachtelt werden, um eine Baumstruktur zu erstellen:
 
-* Business
+* Wirtschaft
   * Management
   * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+  * Finanzen
+* Technologie
+  * Programmierung
+  * Netzwerktechnik
+  * Cybersicherheit
 
-Lernende, die den Kurskatalog durchsuchen, können diese Hierarchie nutzen, um Kurse zu finden.
+Lernende, die den Kurskatalog durchsuchen, können durch diese Hierarchie navigieren, um Kurse zu finden.
 
 ## Kategorien verwalten
 
-* **Bearbeiten** — Kategoriename, Code oder übergeordnete Kategorie ändern
-* **Verschieben** — Die Position einer Kategorie in der Liste ändern
-* **Löschen** — Eine Kategorie entfernen. Kurse einer gelöschten Kategorie werden nach „unkategorisiert“ verschoben.
+* **Bearbeiten** — Ändern Sie den Kategorienamen, den Code oder die übergeordnete Kategorie
+* **Verschieben** — Ändern Sie die Position einer Kategorie in der Liste
+* **Löschen** — Entfernen Sie eine Kategorie. Kurse in einer gelöschten Kategorie werden nach „Nicht kategorisiert“ verschoben.
 
 ## Tipps
 
-* **Einfach halten** — Verwenden Sie breite Kategorien, die Lernende auf einen Blick verstehen
-* **Tiefe begrenzen** — Vermeiden Sie tief verschachtelte Kategorien. Zwei oder drei Ebenen sind in der Regel ausreichend.
-* **Kategorien bei der Kurserstellung zuweisen** — Ermutigen Sie Lehrende, beim Anlegen von Kursen eine Kategorie zu wählen, damit der Katalog organisiert bleibt
+* **Halten Sie es einfach** — Verwenden Sie breite Kategorien, die Lernende auf einen Blick verstehen
+* **Begrenzen Sie die Tiefe** — Vermeiden Sie tief verschachtelte Kategorien. Zwei oder drei Ebenen sind in der Regel ausreichend.
+* **Kategorien bei der Kurserstellung zuweisen** — Ermutigen Sie Lehrkräfte, beim Erstellen von Kursen eine Kategorie auszuwählen, damit der Katalog organisiert bleibt

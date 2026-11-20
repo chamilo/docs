@@ -1,43 +1,43 @@
 # Ihr Profil
 
-Ihr Profil in Chamilo enthält Ihre persönlichen Informationen und Einstellungen. Andere Nutzer auf der Plattform können Teile Ihres Profils sehen, abhängig von Ihren Sichtbarkeitseinstellungen.
+Ihr Profil in Chamilo enthält Ihre persönlichen Informationen und Einstellungen. Andere Benutzer der Plattform können je nach Ihren Sichtbarkeitseinstellungen Teile Ihres Profils sehen.
 
 ## Zugriff auf Ihr Profil
 
-Klicken Sie auf Ihren **Avatar** in der oberen rechten Ecke der oberen Leiste und wählen Sie dann **Profil** aus dem Dropdown-Menü. Sie können es auch über den Bereich **Soziales Netzwerk** in der Seitenleiste aufrufen.
+Klicken Sie auf Ihren **Avatar** in der oberen rechten Ecke der oberen Leiste und wählen Sie anschließend **Profil** aus dem Dropdown-Menü. Sie können auch über den Bereich **Soziales Netzwerk** in der Seitenleiste darauf zugreifen.
 
-![Das Dropdown-Menü des Benutzer-Avatars mit den Optionen Profil, Kontoeinstellungen und Abmelden](../../.gitbook/assets/user-avatar-dropdown.png)
+![Dropdown-Menü des Benutzeravatars mit den Optionen Profil, Kontoeinstellungen und Abmelden](../../.gitbook/assets/user-avatar-dropdown.png)
 
 ## Profilinformationen
 
-Ihre Profilseite kann (abhängig von der Konfiguration) Folgendes anzeigen:
+Auf Ihrer Profilseite werden möglicherweise folgende Angaben angezeigt (abhängig von der Konfiguration):
 
 * **Avatar** — Ihr Profilbild. Klicken Sie auf **Profil bearbeiten**, um es zu ändern.
-* **Vollständiger Name** — Ihr Vor- und Nachname, wie auf der Plattform registriert.
-* **E-Mail** — Ihre E-Mail-Adresse. Andere Nutzer können darauf klicken, um Ihnen innerhalb von Chamilo eine Nachricht zu senden.
+* **Vollständiger Name** — Ihr Vor- und Nachname, wie er auf der Plattform registriert ist.
+* **E-Mail** — Ihre E-Mail-Adresse. Andere Benutzer können darauf klicken, um Ihnen eine Nachricht innerhalb von Chamilo zu senden.
 * **Sprache** — Ihre bevorzugte Sprache.
-* **Zusätzliche Felder** — Abhängig von der Konfiguration Ihrer Plattform können Felder wie Telefonnummer, Skype-Kennung, LinkedIn-Profillink oder vom Administrator definierte benutzerdefinierte Felder angezeigt werden.
+* **Zusätzliche Felder** — Je nach Konfiguration Ihrer Plattform werden möglicherweise Felder wie Telefonnummer, Skype-Name, LinkedIn-Profillink oder von Ihrer Administration definierte benutzerdefinierte Felder angezeigt.
 
-## Ihr Profil bearbeiten
+## Bearbeiten Ihres Profils
 
 Um Ihre Profilinformationen zu aktualisieren, klicken Sie auf **Profil bearbeiten**. Hier können Sie:
 
 * Ihren Namen, Ihre E-Mail-Adresse und Ihr Passwort ändern
-* Ihren Avatar/Ihr Bild hochladen oder ändern
+* Ihren Avatar bzw. Ihr Bild hochladen oder ändern
 * Ihre bevorzugte Sprache aktualisieren
 * Zusätzliche Profilfelder ausfüllen (Skype, LinkedIn usw.)
 * Benachrichtigungseinstellungen konfigurieren
 
-Um Ihr Passwort zu ändern, klicken Sie auf **Passwort ändern**. Aus Sicherheitsgründen müssen Sie Ihr aktuelles Passwort sowie Ihr neues Passwort zweimal angeben.
+Um Ihr Passwort zu ändern, klicken Sie auf **Passwort ändern**. Aus Sicherheitsgründen müssen Sie Ihr aktuelles Passwort sowie Ihr neues Passwort zweimal eingeben.
 
-Wenn Ihr Administrator die Option **Zwei-Faktor-Authentifizierung** (`2fa_enable`) für die Plattform aktiviert hat, können Sie in Ihrem Profil 2FA für Ihr eigenes Konto mit einer TOTP-Authenticator-App (Google Authenticator, Authy, 1Password usw.) einschalten. Nach der Aktivierung fordert der Anmeldevorgang zusätzlich zu Ihrem Passwort den zeitbasierten 6-stelligen Code an.
+Wenn Ihre Administration die Option **Zwei-Faktor-Authentifizierung** (`2fa_enable`) für die Plattform aktiviert hat, können Sie in Ihrem Profil die 2FA für Ihr eigenes Konto mit einer TOTP-Authenticator-App (Google Authenticator, Authy, 1Password usw.) einschalten. Nach der Aktivierung wird im Anmeldevorgang zusätzlich zu Ihrem Passwort der zeitbasierte 6-stellige Code abgefragt.
 
-## Persönliche Daten
+## Personenbezogene Daten
 
-Unter **Soziales Netzwerk** > **Persönliche Daten** können Sie alle Informationen einsehen, die Chamilo über Sie speichert. Dieser Bereich umfasst:
+Unter **Soziales Netzwerk** > **Personenbezogene Daten** können Sie alle Informationen einsehen, die Chamilo über Sie speichert. Dieser Bereich umfasst:
 
-* Eine nach Kategorien geordnete Zusammenfassung aller erfassten Daten
-* Falls von Ihrer Organisation aktiviert, Ihren Annahme-Status für die **Nutzungsbedingungen** der Plattform
-* Falls von Ihrer Organisation aktiviert, eine Option zum **Widerruf Ihrer Einwilligung** oder zum **Konto löschen**, wodurch eine Kontolöschungsanfrage ausgelöst wird, die Ihr Administrator bearbeitet
+* Eine Zusammenfassung aller erfassten Daten, geordnet nach Kategorie
+* Falls von Ihrer Organisation aktiviert, Ihren Annahmestatus für die **Nutzungsbedingungen** der Plattform
+* Falls von Ihrer Organisation aktiviert, eine Option zum **Widerruf Ihrer Einwilligung** oder zum **Konto löschen**, wodurch eine Anfrage zur Kontolöschung ausgelöst wird, die Ihre Administration bearbeitet
 
-> Diese Funktion dient der Einhaltung von Datenschutzvorschriften. Wenden Sie sich an Ihren Administrator, wenn Sie Fragen zur Verarbeitung Ihrer Daten haben.
+> Diese Funktion wird bereitgestellt, um Datenschutzvorschriften einzuhalten. Wenden Sie sich an Ihre Administration, wenn Sie Fragen zur Verarbeitung Ihrer Daten haben.

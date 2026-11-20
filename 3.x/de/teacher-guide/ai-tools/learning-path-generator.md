@@ -1,46 +1,46 @@
 # Lernpfad-Generator
 
-Der KI-Lernpfad-Generator hilft Ihnen, strukturierte Lernsequenzen automatisch zu erstellen. Sie geben ein Thema und Lernziele vor, und die KI erzeugt eine Lernpfad-Gliederung mit Abschnitten und Inhaltselementen, die Sie prüfen und anpassen können.
+Der KI-Lernpfad-Generator hilft Ihnen, strukturierte Lernsequenzen automatisch zu erstellen. Sie geben ein Thema und Lernziele an, und die KI erzeugt einen Lernpfad-Entwurf mit Abschnitten und Inhaltselementen, den Sie prüfen und anpassen können.
 
 ## Zugriff auf den Lernpfad-Generator
 
-Der Lernpfad-Generator steht beim Anlegen eines neuen Lernpfads zur Verfügung, sofern:
+Der Lernpfad-Generator ist beim Erstellen eines neuen Lernpfads verfügbar, sofern:
 
-1. KI-Helfer auf Plattformebene aktiviert sind
-2. Der Lernpfad-Generator in den Kurseinstellungen aktiviert ist
-3. Mindestens ein KI-Textanbieter konfiguriert ist
+1. KI-Hilfen auf Plattformebene aktiviert sind
+2. der Lernpfad-Generator in den Kurseinstellungen aktiviert ist
+3. mindestens ein KI-Textanbieter konfiguriert ist
 
-Suchen Sie im Lernpfad-Erstellungsinterface nach dem Abschnitt **AI Generator**.
+Suchen Sie im Bereich zur Erstellung von Lernpfaden nach dem Abschnitt **KI-Generator**.
 
-## So generieren Sie einen Lernpfad
+## So erzeugen Sie einen Lernpfad
 
-![Das Formular des KI-Lernpfad-Generators mit Feldern für Thema, Lernziele und Anzahl der Abschnitte](../../.gitbook/assets/ai-learning-path-generator.png)
+![Das Formular des KI-Lernpfad-Generators mit Feldern für Thema, Lernziele und Abschnittsanzahl](../../.gitbook/assets/ai-learning-path-generator.png)
 
-1. Öffnen Sie das Formular **AI Generator**
+1. Öffnen Sie das Formular des KI-Generators
 2. Konfigurieren Sie die Parameter:
-   * **Topic** — Das Thema des Lernpfads
-   * **Number of items** — Wie viele Inhaltsseiten der Pfad enthalten soll
-   * **Words count per page** — Ungefähre Länge jeder Seite
-   * **Add test after each page** — Wenn aktiviert, erstellt die KI nach jeder Seite zusätzlich ein kurzes Multiple-Choice-Quiz (standardmäßig 2 Fragen, höchstens 5)
-3. Klicken Sie auf **Generate**
-4. Die KI erzeugt einen Lernpfad mit einem Dokumentenelement pro Seite und optional einem Quiz-Element nach jeder Seite
+   * **Thema** — Der Gegenstand des Lernpfads
+   * **Anzahl der Elemente** — Wie viele Inhaltsseiten der Pfad enthalten soll
+   * **Wortanzahl pro Seite** — Ungefähre Länge jeder Seite
+   * **Test nach jeder Seite hinzufügen** — Wenn aktiviert, erstellt die KI nach jeder Seite zusätzlich ein kurzes Multiple-Choice-Quiz (standardmäßig 2 Fragen, maximal 5)
+3. Klicken Sie auf **Erzeugen**
+4. Die KI erzeugt einen Lernpfad mit einem Dokumentelement pro Seite und optional einem Quiz-Element nach jedem davon
 
 ## Prüfen und Anpassen
 
-Der generierte Lernpfad ist ein **Ausgangspunkt**. Sie sollten:
+Der erzeugte Lernpfad ist ein **Ausgangspunkt**. Sie sollten:
 
-* **Die Struktur prüfen** — Kontrollieren Sie, ob die Abschnitte in einer logischen Reihenfolge stehen
-* **Inhalte bearbeiten** — Den generierten Text anpassen, eigene Materialien hinzufügen und irrelevante Abschnitte entfernen
-* **Ressourcen hinzufügen** — Eigene Dokumente, Übungen, Links und weitere Inhalte einfügen
-* **Voraussetzungen festlegen** — Konfigurieren Sie, welche Abschnitte vor anderen abgeschlossen sein müssen
-* **Bewertungen hinzufügen** — Übungen an geeigneten Stellen einfügen, um das Verständnis zu überprüfen
+* **Struktur prüfen** — Prüfen Sie, ob die Abschnitte in einer logischen Reihenfolge stehen
+* **Inhalte bearbeiten** — Ändern Sie den erzeugten Text, fügen Sie eigene Materialien hinzu und entfernen Sie irrelevante Abschnitte
+* **Ressourcen hinzufügen** — Fügen Sie eigene Dokumente, Übungen, Links und weitere Inhalte ein
+* **Voraussetzungen festlegen** — Legen Sie fest, welche Abschnitte vor anderen abgeschlossen sein müssen
+* **Bewertungen hinzufügen** — Fügen Sie an geeigneten Stellen Übungen ein, um das Verständnis zu prüfen
 
-## Kennzeichnung KI-generierter Inhalte
+## Hinweis auf KI-generierte Inhalte
 
-Von KI erzeugte Inhalte werden mit einem Hinweis versehen, der angibt, dass sie mithilfe künstlicher Intelligenz erstellt wurden. Diese Transparenz hilft Lernenden, die Herkunft des Materials zu verstehen.
+Von KI erzeugte Inhalte werden mit einem Hinweis gekennzeichnet, der angibt, dass sie mithilfe künstlicher Intelligenz erstellt wurden. Diese Transparenz hilft Lernenden, die Herkunft des Materials zu verstehen.
 
 ## Tipps
 
-* **Zuerst grob, dann verfeinern** — Erzeugen Sie zunächst eine übergeordnete Struktur und fügen Sie anschließend manuell Details und konkrete Ressourcen hinzu
-* **Für die Kursplanung nutzen** — Auch wenn Sie die generierten Inhalte nicht direkt verwenden, kann die von der KI vorgeschlagene Struktur ein nützliches Planungswerkzeug sein
-* **Mit der Übungs-Generierung kombinieren** — Nach dem Erzeugen eines Lernpfads nutzen Sie den Exercise Generator, um Bewertungen für jeden Abschnitt zu erstellen
+* **Zuerst grob, dann verfeinern** — Erzeugen Sie zunächst eine übergeordnete Struktur und ergänzen Sie anschließend manuell Details und konkrete Ressourcen
+* **Für die Kursplanung nutzen** — Auch wenn Sie die erzeugten Inhalte nicht direkt verwenden, kann die von der KI vorgeschlagene Struktur ein nützliches Planungswerkzeug sein
+* **Mit der Übungserzeugung kombinieren** — Nutzen Sie nach dem Erzeugen eines Lernpfads den Übungs-Generator, um Bewertungen für jeden Abschnitt zu erstellen

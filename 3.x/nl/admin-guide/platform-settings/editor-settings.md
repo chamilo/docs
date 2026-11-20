@@ -1,10 +1,10 @@
 # Editorinstellingen
 
-Configuratie van de rich-text-editor (TinyMCE) die platformbreed wordt gebruikt — werkbalken, plugins, AI-helpers in de editor.
+Configuratie van de rich-texteditor (TinyMCE) die op het platform wordt gebruikt — werkbalken, plug-ins, AI-hulpmiddelen in de editor.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Editor**. Deze categorie bevat **26 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de settings-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > Editor**. Deze categorie bevat **29 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
@@ -16,21 +16,21 @@ Als deze optie is geactiveerd, opent een klik op een e-mailadres een online edit
 
 ### `allow_spellcheck`
 
-**Spellingscontrole**
+**Spellingcontrole**
 
-Spellingscontrole inschakelen
+Spellingcontrole inschakelen
 
 ### `block_copy_paste_for_students`
 
 **Kopiëren en plakken voor cursisten blokkeren**
 
-Blokkeer voor cursisten de mogelijkheid om te kopiëren en te plakken in de WYSIWYG-editor
+Cursisten de mogelijkheid ontnemen om te kopiëren en te plakken in de WYSIWYG-editor
 
 ### `editor_block_image_copy_paste`
 
-**Kopiëren-plakken van afbeeldingen in de WYSIWYG-editor voorkomen**
+**Kopiëren en plakken van afbeeldingen in de WYSIWYG-editor voorkomen**
 
-Voorkom het gebruik van kopiëren-plakken van afbeeldingen als base64 in de editor om te vermijden dat de database volloopt met afbeeldingen.
+Voorkom het gebruik van kopiëren en plakken van afbeeldingen als base64 in de editor, om te vermijden dat de database met afbeeldingen wordt gevuld.
 
 *Standaard: `false`*
 
@@ -45,19 +45,19 @@ Array met de namen van de drivers voor bestandstoegang vanuit de WYSIWYG-editor.
 
 **Instellingen van de WYSIWYG-editor**
 
-Generieke configuratie-array om de WYSIWYG-editor globaal te herconfigureren.
+Generieke configuratie-array om de WYSIWYG-editor globaal opnieuw te configureren.
 
 ### `enable_iframe_inclusion`
 
-**Iframes in de HTML-editor toestaan**
+**Iframes toestaan in de HTML-editor**
 
-Het toestaan van willekeurige iframes in de HTML-editor vergroot de bewerkingsmogelijkheden van gebruikers, maar kan een beveiligingsrisico vormen. Zorg ervoor dat u op uw gebruikers kunt vertrouwen (d.w.z. dat u weet wie ze zijn) voordat u deze functie inschakelt.
+Het toestaan van willekeurige iframes in de HTML-editor vergroot de bewerkingsmogelijkheden van gebruikers, maar kan een beveiligingsrisico vormen. Zorg ervoor dat u op uw gebruikers kunt vertrouwen (dat wil zeggen: u weet wie zij zijn) voordat u deze functie inschakelt.
 
 ### `enable_uploadimage_editor`
 
 **Slepen en neerzetten van afbeeldingen in de WYSIWYG-editor toestaan**
 
-Schakel het uploaden van afbeeldingen als bestand in bij kopiëren in de inhoud of bij slepen en neerzetten.
+Afbeeldingsupload als bestand inschakelen bij kopiëren in de inhoud of bij slepen en neerzetten.
 
 *Standaard: `false`*
 
@@ -66,49 +66,73 @@ Schakel het uploaden van afbeeldingen als bestand in bij kopiëren in de inhoud 
 
 **AsciiSVG inschakelen**
 
-Schakel de AsciiSVG-plugin in de WYSIWYG-editor in om grafieken te tekenen op basis van wiskundige functies.
+Schakel de AsciiSVG-plug-in in de WYSIWYG-editor in om grafieken te tekenen op basis van wiskundige functies.
 
 ### `enabled_googlemaps`
 
 **Google Maps activeren**
 
-Activeer de knop om Google Maps in te voegen. Activering is niet volledig als u niet eerder het bestand main/inc/lib/fckeditor/myconfig.php hebt bewerkt en een Google Maps API-sleutel hebt toegevoegd.
+Activeer de knop om Google Maps in te voegen. De activering is niet volledig als het bestand main/inc/lib/fckeditor/myconfig.php niet vooraf is bewerkt en er geen Google Maps API-sleutel is toegevoegd.
 
 ### `enabled_imgmap`
 
-**Image maps activeren**
+**Afbeeldingskaarten activeren**
 
-Activeer de knop om image maps in te voegen. Hiermee kunt u URL's koppelen aan gebieden van een afbeelding en zo hotspots maken.
+Activeer de knop om afbeeldingskaarten in te voegen. Hiermee kunt u URL's koppelen aan gebieden van een afbeelding en zo hotspots maken.
 
 ### `enabled_insertHtml`
 
 **Invoegen van widgets toestaan**
 
-Hiermee kunt u op uw webpagina's uw favoriete video's en toepassingen insluiten, zoals Vimeo of SlideShare, en allerlei widgets en gadgets
+Hiermee kunt u op uw webpagina's uw favoriete video's en toepassingen insluiten, zoals vimeo of slideshare, en allerlei widgets en gadgets
 
 ### `enabled_mathjax`
 
 **MathJax inschakelen**
 
-Schakel de MathJax-bibliotheek in om wiskundige formules weer te geven. Dit voegt een formuleknop toe aan de werkbalk van de editor, waarbij formules in LaTeX worden geschreven. Zie [Wiskundige formules](../../teacher-guide/adding-content/math-formulas.md).
+Schakel de MathJax-bibliotheek in om wiskundige formules weer te geven. Dit voegt een formuleknop toe aan de werkbalk van de editor, waarin formules in LaTeX worden geschreven. Zie [Wiskundige formules](../../teacher-guide/adding-content/math-formulas.md).
 
 ### `enabled_support_svg`
 
 **SVG-bestanden maken en bewerken**
 
-Met deze optie kunt u SVG-bestanden (Scalable Vector Graphics) online in meerdere lagen maken en bewerken, en ze exporteren naar png-afbeeldingen.
+Met deze optie kunt u online SVG-bestanden (Scalable Vector Graphics) met meerdere lagen maken en bewerken, en deze exporteren naar afbeeldingen in png-formaat.
 
 ### `enabled_wiris`
 
-**WIRIS wiskundige editor**
+**WIRIS-wiskunde-editor**
 
-Schakel de WIRIS wiskundige editor in. Door deze plugin te installeren krijgt u de WIRIS-editor en WIRIS CAS.<br/>Deze activering is niet volledig tenzij u eerder de <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP-plugin voor CKeditor WIRIS</a> hebt gedownload en de inhoud ervan hebt uitgepakt in de Chamilo-map main/inc/lib/javascript/ckeditor/plugins/.<br/>Dit is nodig omdat Wiris propriëtaire software is en de diensten <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercieel</a> zijn. Om de plugin aan te passen, bewerkt u het bestand configuration.ini of vervangt u de inhoud door het bestand configuration.ini.default dat bij Chamilo wordt geleverd.
+Schakel de WIRIS-wiskunde-editor in. Door deze plug-in te installeren krijgt u de WIRIS-editor en WIRIS CAS.<br/>Deze activering is niet volledig tenzij de <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP-plug-in voor CKeditor WIRIS</a> vooraf is gedownload en de inhoud ervan is uitgepakt in de Chamilo-map main/inc/lib/javascript/ckeditor/plugins/.<br/>Dit is nodig omdat Wiris propriëtaire software is en de diensten ervan <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercieel</a> zijn. Om de plug-in aan te passen, bewerkt u het bestand configuration.ini of vervangt u de inhoud ervan door het bestand configuration.ini.default dat met Chamilo wordt meegeleverd.
+
+### `etherpad_api_key`
+
+**Etherpad API-sleutel**
+
+API-referentie aan de serverzijde die wordt gebruikt om de pad- en editorsessies aan te maken. Behandel deze als een geheim; deel deze niet in tickets of documentatiescreenshots.
+
+*Standaard: leeg*
+
+### `etherpad_enabled`
+
+**Etherpad inschakelen voor Wiki-bewerking**
+
+Indien ingeschakeld en correct geconfigureerd, laadt het bewerkingsformulier van een bestaande Wiki-pagina de collaboratieve Etherpad-editor. Opslaan maakt een normale Wiki-revisie op basis van de huidige inhoud.
+
+*Standaard: `false`*
+
+### `etherpad_url`
+
+**Etherpad-URL**
+
+Basis-URL van de Etherpad-server die wordt gebruikt om de gedeelde Wiki-editor te openen. Voor beveiligde ingesloten sessies moet Etherpad beschikbaar zijn op **dezelfde origin als Chamilo**, bijvoorbeeld achter een reverse proxy op `https://campus.example.org/etherpad`. Sluit geen niet-gerelateerde cross-origin-server in.
+
+*Standaard: leeg*
 
 ### `force_wiki_paste_as_plain_text`
 
-**Plakken als platte tekst in de wiki forceren**
+**Plakken als platte tekst in de wiki afdwingen**
 
-Dit voorkomt dat veel verborgen tags, onjuiste of niet-standaard tags, gekopieerd uit andere teksten, de wiki-tekst na veel bewerkingen beschadigen; sommige functies tijdens het bewerken gaan echter verloren.
+Dit voorkomt dat veel verborgen, onjuiste of niet-standaard tags die uit andere teksten zijn gekopieerd, de tekst van de wiki na veel problemen beschadigen; maar hierdoor gaan sommige functies tijdens het bewerken verloren.
 
 ### `full_editor_toolbar_set`
 
@@ -123,19 +147,19 @@ Toon de volledige werkbalk in alle WYSIWYG-editorvakken op het platform.
 
 **HTMLPurifier in de wiki**
 
-HTML Purifier inschakelen in de wiki-tool (verhoogt de beveiliging maar vermindert stijlfuncties)
+Schakel HTML-zuivering in de wiki-tool in (verhoogt de beveiliging, maar vermindert opmaakfuncties)
 
 ### `include_asciimathml_script`
 
 **De Mathjax-bibliotheek op alle systeempagina's laden**
 
-Activeer deze instelling als u wiskundige formules op basis van MathML en wiskundige grafieken op basis van ASCIIsvg niet alleen in de tool 'Documenten' wilt weergeven, maar ook elders in het systeem.
+Activeer deze instelling als u op MathML gebaseerde wiskundige formules en op ASCIIsvg gebaseerde wiskundige grafieken niet alleen in de tool ‘Documenten’, maar ook elders in het systeem wilt weergeven.
 
 ### `math_asciimathML`
 
-**ASCIIMathML wiskundige editor**
+**Wiskundige editor ASCIIMathML**
 
-ASCIIMathML wiskundige editor inschakelen
+Schakel de wiskundige editor ASCIIMathML in
 
 ### `more_buttons_maximized_mode`
 
@@ -149,7 +173,7 @@ Schakel uitgebreide knoppenbalken in wanneer de WYSIWYG-editor is gemaximaliseer
 
 **Titels opslaan als HTML**
 
-Sta gebruikers toe HTML op te nemen in titelvelden op verschillende plaatsen. Dit maakt enige opmaak van titels mogelijk, met name in toetsvragen. Het laat die specifieke titelvelden ook dezelfde taalgebonden tagging gebruiken als `translate_html` hieronder, wat gewone-teksttitels anders niet kunnen bevatten.
+Sta gebruikers toe HTML op te nemen in titelvelden op verschillende plaatsen. Dit maakt enige opmaak van titels mogelijk, met name bij toetsvragen. Het stelt die specifieke titelvelden ook in staat dezelfde tagging per taal te gebruiken als `translate_html` hieronder, wat titels in platte tekst anders niet kunnen bevatten.
 
 *Standaard: `false`*
 
@@ -157,30 +181,30 @@ Sta gebruikers toe HTML op te nemen in titelvelden op verschillende plaatsen. Di
 
 **Ondersteuning voor meertalige HTML-inhoud**
 
-Indien ingeschakeld, stelt deze optie gebruikers in staat een ‘lang’-attribuut in HTML-elementen te gebruiken om de taal te definiëren waarin de inhoud van dat element is geschreven. Schakel meerdere elementen in met verschillende ‘lang’-attributen en Chamilo toont de inhoud alleen in de taal van de gebruiker.
+Indien ingeschakeld, stelt deze optie gebruikers in staat een ‘lang’-attribuut in HTML-elementen te gebruiken om de taal te definiëren waarin de inhoud van dat element is geschreven. Schakel meerdere elementen met verschillende ‘lang’-attributen in en Chamilo toont alleen de inhoud in de taal van de gebruiker.
 
 *Standaard: `false`*
 
-Zie [Meertalige inhoud](../../teacher-guide/adding-content/multi-language-content.md) in de Teacher Guide voor de volledige, op docenten gerichte handleiding van deze functie.
+Zie [Meertalige inhoud](../../teacher-guide/adding-content/multi-language-content.md) in de Docentenhandleiding voor de volledige uitleg van deze functie voor docenten.
 
 
 ### `video_context_menu_hidden`
 
-**Contextmenu van de videospeler verbergen**
+**Het contextmenu van de videospeler verbergen**
 
-Indien ingeschakeld, is het contextmenu met de rechtermuisknop op HTML5-videospelers uitgeschakeld.
+Indien ingeschakeld, wordt het contextmenu bij rechtsklikken op HTML5-videospelers uitgeschakeld.
 
 *Standaard: `false`*
 
 
 ### `video_player_renderers`
 
-**Renderers van de videospeler**
+**Renderers voor videospelers**
 
-Schakel spelerrenderers in voor media van YouTube, Vimeo, Facebook, DailyMotion, Twitch
+Schakel speler-renderers in voor media van YouTube, Vimeo, Facebook, DailyMotion en Twitch
 
 ### `youtube_for_students`
 
-**Leerlingen toestaan video’s van YouTube in te voegen**
+**Cursisten toestaan video's van YouTube in te voegen**
 
-Schakel de mogelijkheid in dat leerlingen YouTube-video’s kunnen invoegen
+Schakel de mogelijkheid in dat cursisten YouTube-video's kunnen invoegen

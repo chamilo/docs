@@ -1,13 +1,13 @@
 # Tracking en rapportage
 
-Chamilo volgt de activiteit van cursisten doorheen het platform, zodat u gedetailleerd inzicht krijgt in hoe uw cursisten vorderen.
+Chamilo volgt de activiteit van cursisten op het hele platform en geeft u gedetailleerd inzicht in de voortgang van uw cursisten.
 
-* **[Cursisttracking](learner-tracking.md)** — Volg de activiteit van individuele cursisten: inlogtijden, bestede tijd, bezochte pagina's en gebruik van tools
+* **[Cursistvolging](learner-tracking.md)** — Volg de activiteit van individuele cursisten: aanmeldtijden, bestede tijd, bezochte pagina's en toolgebruik
 * **[Cursusrapporten](course-reports.md)** — Bekijk geaggregeerde gegevens van alle cursisten in een cursus
-* **[Certificaten en vaardigheden](certificates-and-skills.md)** — Reik certificaten uit op basis van cijferboekresultaten en valideer verworven vaardigheden
+* **[Certificaten en vaardigheden](certificates-and-skills.md)** — Ken certificaten toe op basis van scores in het cijferboek en valideer verworven vaardigheden
 
 ## Rapporten openen
 
-Klik vanuit uw cursus op de tool **Tracking** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> op de cursushomepagina. U kunt rapportage ook openen via de link **Rapportage** in de zijbalk voor een overzicht over meerdere cursussen.
+Vanuit uw cursus klikt u op de tool **Volgen** <img src="../../.gitbook/assets/icons/mdi-chart-box.svg" alt="Volgen" data-size="line"> op de startpagina van de cursus. U kunt rapportage ook openen via de koppeling **Rapportage** in de zijbalk voor een overzicht over meerdere cursussen.
 
-Docenten zien rapportagegegevens voor de cursussen die zij geven. Sessiebegeleiders zien gegevens van alle cursussen binnen hun sessie.
+Docenten zien rapportagegegevens voor de cursussen die zij geven. Sessietutoren zien gegevens van alle cursussen binnen hun sessie.

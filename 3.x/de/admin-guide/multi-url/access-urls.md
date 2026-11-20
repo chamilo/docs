@@ -1,88 +1,88 @@
-# Access URLs
+# Zugriffs-URLs
 
-Access URLs ermöglichen es, mit einer einzigen Chamilo-Installation mehrere voneinander getrennte Portale bereitzustellen.
+Zugriffs-URLs ermöglichen es, mit einer einzigen Chamilo-Installation mehrere getrennte Portale bereitzustellen.
 
-Dieses Werkzeug ist auch über den Block [Plattform](../platform/README.md) im Administrations-Dashboard erreichbar, als **Mehrere Access-URLs konfigurieren**.
+Dieses Werkzeug ist auch über den Block [Plattform](../platform/README.md) im Administrations-Dashboard erreichbar, und zwar als **Mehrere Zugriffs-URLs konfigurieren**.
 
 
 ## Anwendungsfälle
 
-* **Mandantenfähige Bereitstellungen** — Getrennte Schulungsportale für verschiedene Organisationen auf einem einzigen Server hosten
-* **Abteilungsportale** — Jeder Abteilung ein eigenes gebrandetes Portal geben (z. B. `hr.training.company.com`, `it.training.company.com`)
+* **Multi-Tenant-Bereitstellungen** — Getrennte Schulungsportale für verschiedene Organisationen auf einem einzigen Server betreiben
+* **Abteilungsportale** — Jeder Abteilung ein eigenes, markenspezifisch gestaltetes Portal geben (z. B. `hr.training.company.com`, `it.training.company.com`)
 * **Regionale Portale** — Getrennte Portale für verschiedene Regionen oder Sprachen
 
 ## Funktionsweise
 
-Jede Access-URL ist ein eigener Einstiegspunkt in dieselbe Chamilo-Installation:
+Jede Zugriffs-URL ist ein separater Einstiegspunkt in dieselbe Chamilo-Installation:
 
-* Benutzer können einer oder mehreren Access-URLs zugeordnet werden
-* Kurse und Sessions gehören zu bestimmten Access-URLs
-* Plattformeinstellungen können pro Access-URL angepasst werden
-* Branding und Themes können sich pro URL unterscheiden
-* Benutzer eines Portals sehen weder Benutzer noch Kurse eines anderen Portals (sofern sie nicht ausdrücklich geteilt werden)
+* Benutzer können einer oder mehreren Zugriffs-URLs zugewiesen werden
+* Kurse und Sitzungen gehören zu bestimmten Zugriffs-URLs
+* Plattformeinstellungen können je Zugriffs-URL angepasst werden
+* Branding und Themes können sich je URL unterscheiden
+* Benutzer eines Portals können Benutzer oder Kurse eines anderen Portals nicht sehen (sofern sie nicht ausdrücklich freigegeben wurden)
 
 ## Konfiguration
 
 ### Multi-URL aktivieren
 
-Multi-URL muss in der Chamilo-Konfiguration aktiviert werden (üblicherweise in den Umgebungseinstellungen). Dies geschieht in der Regel während der Erstinstallation.
+Multi-URL muss in der Chamilo-Konfiguration aktiviert werden (in der Regel in den Umgebungseinstellungen). Dies erfolgt üblicherweise während der Ersteinrichtung.
 
-### Eine Access-URL anlegen
+### Eine Zugriffs-URL erstellen
 
-1. Navigieren Sie im Administrationsbereich zu **Access URLs**
-2. Klicken Sie auf **Add URL**
-3. Geben Sie die URL ein (z. B. `https://portal2.yoursite.com`) sowie eine Beschreibung
-4. Optional wählen Sie eine **Parent URL**, um diese URL unter einer anderen einzuordnen — siehe [URL-Hierarchie](#url-hierarchy) weiter unten
+1. Navigieren Sie im Administrationsbereich zu **Zugriffs-URLs**
+2. Klicken Sie auf **URL hinzufügen**
+3. Geben Sie die URL (z. B. `https://portal2.yoursite.com`) und eine Beschreibung ein
+4. Wählen Sie optional eine **Übergeordnete URL**, um diese URL einer anderen unterzuordnen — siehe [URL-Hierarchie](#url-hierarchy) unten
 5. Speichern
 
-### Benutzer und Kurse zuordnen
+### Benutzer und Kurse zuweisen
 
-* **Benutzer** — Benutzer bestimmten Access-URLs zuordnen. Ein Benutzer kann mehreren URLs angehören.
-* **Kurse** — Kurse bestimmten Access-URLs zuordnen
-* **Sessions** — Sessions bestimmten Access-URLs zuordnen
+* **Benutzer** — Weisen Sie Benutzer bestimmten Zugriffs-URLs zu. Ein Benutzer kann mehreren URLs angehören.
+* **Kurse** — Weisen Sie Kurse bestimmten Zugriffs-URLs zu
+* **Sitzungen** — Weisen Sie Sitzungen bestimmten Zugriffs-URLs zu
 
-### Einstellungen pro URL
+### Einstellungen je URL
 
-Jede Access-URL kann über eigene verfügen:
+Jede Zugriffs-URL kann Folgendes besitzen:
 
-* **Farbthema** — Unterschiedliches visuelles Branding
-* **Plattformname und Logo** — Eigene Identität
-* **Einstellungsüberschreibungen** — Bestimmte Plattformeinstellungen können pro URL angepasst werden
+* **Farb-Theme** — Unterschiedliches visuelles Branding
+* **Plattformname und Logo** — Individuelle Identität
+* **Einstellungsüberschreibungen** — Bestimmte Plattformeinstellungen können je URL angepasst werden
 
 ## URL-Hierarchie
 
-Access-URLs können statt in einer flachen Liste in einem Eltern-/Kind-Baum organisiert werden. Beim Anlegen oder Bearbeiten einer URL kann ein uneingeschränkter Global Administrator (siehe [Teilbaum-Administratoren](#subtree-administrators) weiter unten) eine beliebige andere URL als **Parent URL** wählen:
+Zugriffs-URLs können statt einer flachen Liste in einem Eltern-/Kind-Baum organisiert werden. Beim Erstellen oder Bearbeiten einer URL kann ein uneingeschränkter Globaler Administrator (siehe [Teilbaum-Administratoren](#subtree-administrators) unten) eine beliebige andere URL als **Übergeordnete URL** auswählen:
 
-![Dialog „URL bearbeiten“ mit geöffnetem Dropdown „Parent URL“, das die anderen als Eltern verfügbaren Access-URLs auflistet](../../.gitbook/assets/admin-access-url-parent-select.png)
+![Dialog „URL bearbeiten“ mit geöffnetem Dropdown „Übergeordnete URL“, in dem die anderen als übergeordnet verfügbaren Zugriffs-URLs aufgeführt sind](../../.gitbook/assets/admin-access-url-parent-select.png)
 
-* Das Dropdown bietet niemals die gerade bearbeitete URL oder einen ihrer eigenen Nachkommen als möglichen Elternknoten an — so wird ein Zyklus verhindert. Das Backend prüft dies unabhängig davon, was die Oberfläche anzeigt, erneut.
-* Wird eine URL ohne Wahl eines Elternknotens angelegt, gilt standardmäßig die **login-only URL**, sofern eine existiert (siehe [Einstellungen pro URL](#per-url-settings) oben), andernfalls die erste Access-URL — dasselbe Standardverhalten wie vor dieser Funktion.
-* Die oberste URL eines Baums — die ohne Elternknoten — ist die **Wurzel** dieses Baums. Eine einzelne Chamilo-Installation kann mehr als einen unabhängigen Baum hosten.
+* Das Dropdown bietet niemals die gerade bearbeitete URL oder einen ihrer eigenen Nachkommen als mögliche übergeordnete URL an — dadurch wird das Entstehen eines Zyklus verhindert. Das Backend prüft dies erneut, unabhängig davon, was die Oberfläche anzeigt.
+* Wird eine URL ohne Auswahl einer übergeordneten URL erstellt, wird standardmäßig die **Nur-Anmeldung-URL** verwendet, sofern eine vorhanden ist (siehe [Einstellungen je URL](#per-url-settings) oben), andernfalls die erste Zugriffs-URL — dasselbe Standardverhalten wie vor Einführung dieser Funktion.
+* Die oberste URL eines Baums — die ohne übergeordnete URL — ist die **Wurzel** dieses Baums. Eine einzelne Chamilo-Installation kann mehr als einen unabhängigen Baum beherbergen.
 
-Überall, wo Access-URLs aufgelistet werden — im Multi-URL-Dashboard und auf der Verwaltungsseite Access URLs — wird der Baum durch Einrückung dargestellt, ein Elternknoten unmittelbar gefolgt von seinen eigenen Kindern (Geschwister alphabetisch sortiert), statt einer eigenen Spalte „Parent“:
+Überall dort, wo Zugriffs-URLs aufgelistet werden — im Multi-URL-Dashboard und auf der Verwaltungsseite für Zugriffs-URLs — wird der Baum durch Einrückung dargestellt: Eine übergeordnete URL steht unmittelbar vor ihren eigenen untergeordneten URLs (Geschwister alphabetisch sortiert), anstelle einer separaten Spalte „Übergeordnet“:
 
-![Liste der Access-URLs mit einer Wurzel-URL und zwei Kind-URLs, von denen eine eine eigene Kind-URL hat, eingerückt zur Darstellung der Hierarchie](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
+![Liste der Zugriffs-URLs mit einer Wurzel-URL und zwei untergeordneten URLs, von denen eine eine eigene untergeordnete URL hat, eingerückt zur Darstellung der Hierarchie](../../.gitbook/assets/admin-access-url-hierarchy-list.png)
 
 ## Teilbaum-Administratoren
 
-Die URL-Hierarchie bestimmt auch, was ein [Global Administrator](../users/user-roles.md) verwalten kann:
+Die URL-Hierarchie bestimmt auch, was ein [Globaler Administrator](../users/user-roles.md) verwalten kann:
 
-* Wer auf der **Wurzel**-URL eines Baums registriert ist, ist **uneingeschränkt**: er verwaltet jede Access-URL, genau wie vor dieser Funktion.
-* Wer nur auf einer **Nicht-Wurzel**-URL registriert ist, ist **eingeschränkt**: die Seiten Multi-URL und Access URLs zeigen nur diese URL und ihre Nachkommen, und das Anmelde-Diagramm im Multi-URL-Dashboard lautet „Logins (your URLs)“ statt „Logins (all URLs combined)“.
+* Wer auf der **Wurzel**-URL eines Baums registriert ist, ist **uneingeschränkt**: Er verwaltet jede Zugriffs-URL, genau wie vor Einführung dieser Funktion.
+* Wer nur auf einer **Nicht-Wurzel**-URL registriert ist, ist **eingeschränkt**: Die Seiten Multi-URL und Zugriffs-URLs zeigen nur diese URL und ihre Nachkommen, und das Anmeldediagramm im Multi-URL-Dashboard zeigt „Anmeldungen (Ihre URLs)“ statt „Anmeldungen (alle URLs zusammen)“.
 
-Unabhängig vom Geltungsbereich bleiben die folgenden Aktionen einem **uneingeschränkten** Global Administrator vorbehalten — ein eingeschränkter Administrator kann sie auch für URLs im eigenen Teilbaum nicht ausführen:
+Unabhängig vom Umfang bleiben die folgenden Aktionen einem **uneingeschränkten** Globalen Administrator vorbehalten — ein eingeschränkter Administrator kann sie auch für URLs innerhalb seines eigenen Teilbaums nicht ausführen:
 
-* Anlegen einer neuen Access-URL
-* Bearbeiten der eigenen URL, Beschreibung oder des Elternknotens einer Access-URL
-* Aktivieren oder Deaktivieren einer Access-URL
-* Löschen einer Access-URL (die Wurzel-URL der gesamten Installation kann von niemandem gelöscht werden)
-* Sich selbst auf einmal in jede Access-URL eintragen
+* Eine neue Zugriffs-URL erstellen
+* Die eigene URL, die Beschreibung oder die übergeordnete URL einer Zugriffs-URL bearbeiten
+* Eine Zugriffs-URL aktivieren oder deaktivieren
+* Eine Zugriffs-URL löschen (die Wurzel-URL der gesamten Installation kann von niemandem gelöscht werden)
+* Sich selbst gleichzeitig in jeder Zugriffs-URL registrieren
 
-Ein eingeschränkter Administrator kann weiterhin alles verwalten, was den URLs in seinem Teilbaum *zugeordnet* ist — Benutzer, Kurse, Sessions, Branding und Einstellungen — nur nicht die Access-URL-Einträge selbst.
+Ein eingeschränkter Administrator kann weiterhin alles verwalten, was den URLs in seinem Teilbaum *zugewiesen* ist — Benutzer, Kurse, Sitzungen, Branding und Einstellungen —, jedoch nicht die Einträge der Zugriffs-URLs selbst.
 
 ## Tipps
 
-* **Früh entscheiden** — Wenn Sie sich für eine Multi-URL-Einrichtung entscheiden, sollten Sie das zu Beginn Ihres Chamilo-Projekts tun, da die erste URL relativ inhaltsleer bleiben muss. Die nachträgliche Aktivierung von Multi-URL ist aufwändiger (erfordert manuelle Datenbankänderungen).
-* **URL-Struktur planen** — Legen Sie Ihr URL-Schema fest, bevor Sie Access-URLs anlegen, da spätere URL-Änderungen alle bestehenden Links und Lesezeichen betreffen
-* **DNS-Konfiguration** — Jede Access-URL muss auf denselben Chamilo-Server auflösen. Konfigurieren Sie die DNS-Einträge entsprechend.
-* **Globaler Administrator** — Nutzen Sie die Rolle Global Administrator, um über alle Access-URLs hinweg zu verwalten. Um stattdessen nur die Verwaltung eines Zweigs zu delegieren, registrieren Sie den Administrator auf einer Nicht-Root-URL — siehe [Subtree-Administratoren](#subtree-administrators)
+* **Früh entscheiden** — Wenn Sie ein Multi-URL-Setup wählen, sollten Sie dies zu Beginn Ihres Chamilo-Projekts tun, da die erste URL relativ inhaltsleer bleiben muss. Die nachträgliche Aktivierung von Multi-URL ist anspruchsvoller (erfordert manuelle Datenbankänderungen).
+* **URL-Struktur planen** — Legen Sie Ihr URL-Schema fest, bevor Sie Zugriffs-URLs erstellen, da spätere URL-Änderungen alle bestehenden Links und Lesezeichen betreffen
+* **DNS-Konfiguration** — Jede Zugriffs-URL muss auf denselben Chamilo-Server auflösen. Konfigurieren Sie die DNS-Einträge entsprechend.
+* **Globaler Administrator** — Verwenden Sie die Rolle „Globaler Administrator“, um alle Zugriffs-URLs zu verwalten. Um stattdessen die Verwaltung nur eines Zweigs zu delegieren, registrieren Sie den Administrator auf einer Nicht-Root-URL — siehe [Subtree-Administratoren](#subtree-administrators)

@@ -1,10 +1,10 @@
-# Tickets-Einstellungen
+# Ticket-Einstellungen
 
 Verhalten des **Tickets**-Systems (Helpdesk).
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Tickets**. Diese Kategorie enthält **7 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Tickets**. Diese Kategorie enthält **8 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
 
-> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -12,25 +12,25 @@ Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellun
 
 **Link zum Melden eines Fehlers anzeigen**
 
-Einen Link in der Kopfzeile anzeigen, um einen Fehler in unserer Support-Plattform (http://support.chamilo.org) zu melden. Beim Klicken auf den Link wird der Benutzer zur Support-Plattform weitergeleitet, auf eine Wiki-Seite, die den Prozess der Fehlermeldung beschreibt.
+Zeigt im Kopfbereich einen Link an, um einen Fehler in unserer Support-Plattform zu melden (http://support.chamilo.org). Beim Klicken auf den Link wird der Benutzer zur Support-Plattform weitergeleitet, auf eine Wiki-Seite, die den Prozess der Fehlermeldung beschreibt.
 
 *Standard: `false`*
 
 
 ### `show_link_ticket_notification`
 
-**Link zur Ticket-Erstellung anzeigen**
+**Link zur Ticketerstellung anzeigen**
 
-Den Link zur Ticket-Erstellung für Benutzer auf der rechten Seite des Portals anzeigen
+Zeigt den Link zur Ticketerstellung für Benutzer auf der rechten Seite des Portals an
 
 *Standard: `false`*
 
 
 ### `ticket_allow_category_edition`
 
-**Bearbeitung von Ticket-Kategorien zulassen**
+**Bearbeitung von Ticketkategorien zulassen**
 
-Die Bearbeitung von Kategorien durch Administratoren zulassen.
+Erlaubt Administratoren die Bearbeitung von Kategorien.
 
 *Standard: `false`*
 
@@ -38,31 +38,41 @@ Die Bearbeitung von Kategorien durch Administratoren zulassen.
 
 **Benutzern das Hinzufügen von Tickets erlauben**
 
-Allen Benutzern das Hinzufügen von Tickets erlauben, nicht nur den Administratoren.
+Erlaubt allen Benutzern, Tickets hinzuzufügen, nicht nur den Administratoren.
 
 *Standard: `false`*
 
 ### `ticket_project_user_roles`
 
-**Zugriff auf Ticket-Projekte nach Rolle**
+**Zugriff nach Rolle auf Ticketprojekte**
 
-Ticket-Projekte für bestimmte Benutzerrollen zugänglich machen. Beispiel: ['permissions' => [1 => [17]] wobei project_id = 1, STUDENT_BOSS = 17.
+Erlaubt den Zugriff auf Ticketprojekte durch bestimmte Benutzerrollen. Beispiel: ['permissions' => [1 => [17]] wobei project_id = 1, STUDENT_BOSS = 17.
 
-> Diese Einstellung ist für Nicht-Administratoren verpflichtend: Ohne eine hier definierte Rollenzuordnung können nur Administratoren auf Support-Tickets zugreifen. Um einer anderen Rolle Zugriff auf ein Ticket-Projekt zu geben, fügen Sie deren Rollen-ID den Berechtigungen dieser Einstellung für das betreffende Projekt hinzu.
+> Diese Einstellung ist für Nicht-Administratoren obligatorisch: Ohne eine hier definierte Rollenzuordnung können nur Administratoren auf Support-Tickets zugreifen. Um einer anderen Rolle Zugriff auf ein Ticketprojekt zu gewähren, fügen Sie deren Rollen-ID zu den Berechtigungen dieser Einstellung für dieses Projekt hinzu.
 
 ### `ticket_send_warning_to_all_admins`
 
 **Ticket-Warnmeldungen an Administratoren senden**
 
-Eine Nachricht senden, wenn ein Ticket ohne Kategorie erstellt wurde oder wenn einer Kategorie kein Administrator zugewiesen ist.
+Sendet eine Nachricht, wenn ein Ticket ohne Kategorie erstellt wurde oder wenn einer Kategorie kein Administrator zugewiesen ist.
 
 *Standard: `false`*
 
 
+### `ticket_support_bot_enabled`
+
+**Support-Bot aktivieren**
+
+Aktiviert den entscheidungsbaumbasierten Support-Assistenten im angedockten Chat. Dies ist standardmäßig deaktiviert. Administratoren müssen außerdem einen gültigen Support-Baum mit einer Einstiegsfrage und Optionen konfigurieren und veröffentlichen, bevor der Bot verfügbar wird. Der Bot verwendet vordefinierte Auswahlmöglichkeiten anstelle generativer KI und kann für ungelöste Fragen ein Ticket erstellen.
+
+*Standard: `false`*
+
+Siehe [Support-Bot](../support-bot.md) für Konfiguration und Benutzerablauf (PR #9224, Issue #8754).
+
 ### `ticket_warn_admin_no_user_in_category`
 
-**Administratoren benachrichtigen, wenn einer Ticket-Kategorie niemand zugewiesen ist**
+**Warnung an Administratoren senden, wenn einer Ticketkategorie niemand zugewiesen ist**
 
-Eine Warnmeldung (E-Mail und Chamilo-Nachricht) an alle Administratoren senden, wenn einer Kategorie kein Benutzer zugewiesen ist.
+Sendet eine Warnmeldung (E-Mail und Chamilo-Nachricht) an alle Administratoren, wenn einer Kategorie kein Benutzer zugewiesen ist.
 
 *Standard: `false`*

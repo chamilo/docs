@@ -1,16 +1,16 @@
 # Sitzungseinstellungen
 
-Vorgaben und Verhalten für **Sitzungen** — Lebenszyklus von Sitzungen, Zugriffsfenster für Tutoren, Kurssichtbarkeit innerhalb einer Sitzung und Ähnliches.
+Standardwerte und Verhalten für **Sitzungen** — Sitzungslebenszyklus, Zugriffsfenster für Tutoren, Sichtbarkeit von Kursen innerhalb einer Sitzung und Ähnliches.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Sitzungen**. Diese Kategorie enthält **68 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Sitzungen**. Diese Kategorie enthält **68 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
 ### `add_users_by_coach`
 
-**Tutoren das Registrieren von Benutzern erlauben**
+**Tutoren erlauben, Benutzer zu registrieren**
 
 Tutoren dürfen Benutzer auf der Plattform anlegen und Benutzer in eine Sitzung einschreiben.
 
@@ -20,7 +20,7 @@ Tutoren dürfen Benutzer auf der Plattform anlegen und Benutzer in eine Sitzung 
 
 **Karrierediagramme aktivieren**
 
-Karrierediagramme ermöglichen die Anzeige von Diagrammen zu Karrieren, Kompetenzen und Kursen.
+Karrierediagramme ermöglichen die Darstellung von Diagrammen zu Karrieren, Kompetenzen und Kursen.
 
 *Standard: `false`*
 
@@ -35,9 +35,9 @@ Wenn Karrierediagramme aktiviert sind, können Benutzer sie nur sehen (und nur d
 
 ### `allow_coach_to_edit_course_session`
 
-**Tutoren das Bearbeiten innerhalb von Kurssitzungen erlauben**
+**Tutoren erlauben, innerhalb von Kurssitzungen zu bearbeiten**
 
-Tutoren das Bearbeiten innerhalb von Kurssitzungen erlauben
+Tutoren erlauben, innerhalb von Kurssitzungen zu bearbeiten
 
 *Standard: `true`*
 
@@ -54,7 +54,7 @@ Sitzungsadministratoren können Benutzer von der Plattform entfernen, wenn sie i
 
 **Sitzungsadministratoren können Benutzer deaktivieren**
 
-Sitzungsadministratoren können Benutzerkonten deaktivieren, um die Anmeldung zu verhindern, während die Einschreibungsdaten in ihren Sitzung(en) erhalten bleiben.
+Sitzungsadministratoren können Benutzerkonten deaktivieren, um die Anmeldung zu verhindern, während Einschreibungsdatensätze in ihren Sitzungen erhalten bleiben.
 
 *Standard: `false`*
 
@@ -63,15 +63,15 @@ Sitzungsadministratoren können Benutzerkonten deaktivieren, um die Anmeldung zu
 
 **Bearbeitung der Werkzeugsichtbarkeit in Sitzungen erlauben**
 
-Bei der Verwendung von Sitzungen ist das Standardverhalten, die im Basiskurs definierte Werkzeugsichtbarkeit zu verwenden. Diese Einstellung ändert das so, dass Tutoren in Sitzungskursen die Werkzeugsichtbarkeiten an ihre Bedürfnisse anpassen können.
+Bei der Verwendung von Sitzungen besteht das Standardverhalten darin, die im Basiskurs definierte Werkzeugsichtbarkeit zu verwenden. Diese Einstellung ändert dies, sodass Tutoren in Sitzungskursen die Sichtbarkeit der Werkzeuge an ihre Bedürfnisse anpassen können.
 
 *Standard: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Nach der Registrierung auf der „Über“-Seite der Sitzung zur Sitzung weiterleiten**
+**Nach der Registrierung auf der Seite „Über“ der Sitzung zur Sitzung weiterleiten**
 
-Neue Benutzer nach Abschluss der Registrierung über die Über-Seite einer Sitzung automatisch auf ihre Sitzungsseite weiterleiten.
+Neue Benutzer nach Abschluss der Registrierung über die Seite „Über“ einer Sitzung automatisch zu ihrer Sitzungsseite weiterleiten.
 
 *Standard: `false`*
 
@@ -87,52 +87,52 @@ Tutoren eine Diagnose ermöglichen, mit der sie nach den besten Sitzungen für L
 
 ### `allow_session_admin_extra_access`
 
-**Sitzungsadministrator kann auf den Stapelimport, die Aktualisierung und den Export von Benutzern zugreifen**
+**Sitzungsadministratoren können auf den Stapelimport, die Aktualisierung und den Export von Benutzern zugreifen**
 
-Sitzungsadministratoren können zusätzlich zu ihren Standardberechtigungen auf die Funktionen für Stapelimport, Aktualisierung und Export von Benutzern zugreifen.
+Sitzungsadministratoren können zusätzlich zu ihren Standardberechtigungen auf Funktionen zum Stapelimport, zur Aktualisierung und zum Export von Benutzern zugreifen.
 
 *Standard: `false`*
 
 
 ### `allow_session_admin_login_as_teacher`
 
-**Sitzungsadministratoren können sich als Lehrende „anmelden“**
+**Sitzungsadministratoren können sich als Lehrkräfte anmelden**
 
-Sitzungsadministratoren können Lehrendenkonten übernehmen, um Kursinhalte und die Lernerfahrung innerhalb ihrer Sitzung(en) vorab zu betrachten.
+Sitzungsadministratoren können Lehrkraftkonten übernehmen, um Kursinhalte und die Lernerfahrung innerhalb ihrer Sitzung(en) in der Vorschau anzuzeigen.
 
 *Standard: `false`*
 
 
 ### `allow_session_admin_read_careers`
 
-**Sitzungsadministratoren können Karrieren einsehen**
+**Sitzungsadministratoren können Karrieren anzeigen**
 
-[inferred] Sitzungsadministratoren können Karrierepfade und Beförderungsabläufe einsehen und darauf zugreifen, die mit den von ihnen verwalteten Sitzungen verknüpft sind.
+[abgeleitet] Sitzungsadministratoren können Karrierepfade und Beförderungsabläufe anzeigen und darauf zugreifen, die mit ihren verwalteten Sitzungen verknüpft sind.
 
 *Standard: `false`*
 
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Sitzungsadministratoren das Einsehen aller Sitzungen erlauben**
+**Sitzungsadministratoren erlauben, alle Sitzungen zu sehen**
 
-Wenn diese Option nicht aktiviert ist (Standard), können Sitzungsadministratoren nur die von ihnen erstellten Sitzungen sehen. Das ist in einer offenen Umgebung verwirrend, in der Sitzungsadministratoren Unterstützungszeit zwischen zwei Sitzungen aufteilen müssen.
+Wenn diese Option nicht aktiviert ist (Standard), können Sitzungsadministratoren nur die von ihnen erstellten Sitzungen sehen. Dies ist in einer offenen Umgebung verwirrend, in der Sitzungsadministratoren die Betreuungszeit möglicherweise zwischen zwei Sitzungen aufteilen müssen.
 
 *Standard: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Kopieren von Sitzung zu Sitzung für Lehrende erlauben**
+**Kopieren von Sitzung zu Sitzung für Lehrkräfte erlauben**
 
-Aktivieren Sie diese Option, damit Lehrende ihre Inhalte von einem Kurs in einer Sitzung in einen Kurs in einer anderen Sitzung kopieren können. Standardmäßig steht diese Option nur Plattformadministratoren zur Verfügung.
+Aktivieren Sie diese Option, damit Lehrkräfte ihre Inhalte von einem Kurs in einer Sitzung in einen Kurs in einer anderen Sitzung kopieren können. Standardmäßig steht diese Option nur Plattformadministratoren zur Verfügung.
 
 *Standard: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Lehrenden das Erstellen von Sitzungen erlauben**
+**Lehrkräften erlauben, Sitzungen zu erstellen**
 
-Lehrende können eigene Sitzungen erstellen, bearbeiten und löschen.
+Lehrkräfte können ihre eigenen Sitzungen erstellen, bearbeiten und löschen.
 
 *Standard: `false`*
 
@@ -140,67 +140,67 @@ Lehrende können eigene Sitzungen erstellen, bearbeiten und löschen.
 
 **Tutoren können Lernende Sitzungen zuweisen**
 
-Wenn aktiviert, können Kurstutoren in Sitzungen neue Benutzer in ihre Sitzung einschreiben. Diese Option steht andernfalls nur Administratoren und Sitzungsadministratoren zur Verfügung.
+Wenn diese Option aktiviert ist, können Kurstutoren in Sitzungen neue Benutzer in ihre Sitzung einschreiben. Andernfalls steht diese Option nur Administratoren und Sitzungsadministratoren zur Verfügung.
 
 *Standard: `false`*
 
-### `allow_user_session_collabsable`
+### `allow_user_session_collapsable`
 
-**Benutzern das Einklappen von Sitzungen in Meine Sitzungen erlauben**
+**Benutzern erlauben, Sitzungen unter „Meine Sitzungen“ einzuklappen**
 
-Benutzer können Sitzungskarten oder -gruppen auf der Seite Meine Sitzungen einklappen, um visuelle Unordnung zu reduzieren und die Navigation zu verbessern.
+Benutzer können Sitzungskarten oder Gruppen auf der Seite „Meine Sitzungen“ einklappen, um die visuelle Überladung zu verringern und die Navigation zu verbessern.
 
 *Standard: `false`*
 
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Lehrende des Basiskurses können Aufgaben aus allen Sitzungen sehen**
+**Lehrkraft des Basiskurses kann Aufgaben aus allen Sitzungen sehen**
 
-Alle Lernendenveröffentlichungen (aus dem Basiskurs und aus allen Sitzungen) auf der Seite work/pending.php des Basiskurses anzeigen.
+Alle Veröffentlichungen von Lernenden (aus dem Basiskurs und aus allen Sitzungen) auf der Seite work/pending.php des Basiskurses anzeigen.
 
 *Standard: `false`*
 
 ### `career_diagram_disclaimer`
 
-**Einen Haftungsausschluss unter dem Karrierediagramm anzeigen**
+**Haftungsausschluss unter dem Karrierediagramm anzeigen**
 
-Einen Haftungsausschluss unter dem Karrierediagramm hinzufügen. Eine Sprachvariable namens 'Career diagram disclaimer' muss in Ihrer Untersprache vorhanden sein.
+Fügen Sie einen Haftungsausschluss unter dem Karrierediagramm hinzu. Eine Sprachvariable mit dem Namen „Career diagram disclaimer“ muss in Ihrer Untersprache vorhanden sein.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `career_diagram_legend`
 
-**Eine Legende unter dem Karrierediagramm anzeigen**
+**Legende unter dem Karrierediagramm anzeigen**
 
-Eine Karrierelegende unter dem Karrierediagramm hinzufügen. Eine Sprachvariable namens 'Career diagram legend' muss in Ihrer Untersprache vorhanden sein.
+Fügen Sie eine Karrierelegende unter dem Karrierediagramm hinzu. Eine Sprachvariable mit dem Namen „Career diagram legend“ muss in Ihrer Untersprache vorhanden sein.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `courses_list_session_title_link`
 
 **Art des Links für den Sitzungstitel**
 
-Auf der Kurse-/Sitzungsseite kann der Sitzungstitel eines der Folgenden sein: 0 = kein Link (Sitzungstitel ausblenden) ; 1 = Titel mit einer speziellen Sitzungsseite verknüpfen ; 2 = mit dem Kurs verknüpfen, wenn nur ein Kurs vorhanden ist ; 3 = Sitzungstitel macht die Kursliste einklappbar ; 4 = kein Link (Sitzungstitel anzeigen).
+Auf der Seite Kurse/Sitzungen kann der Sitzungstitel eine der folgenden Formen haben: 0 = kein Link (Sitzungstitel ausblenden); 1 = Titel mit einer speziellen Sitzungsseite verknüpfen; 2 = Link zum Kurs, wenn nur ein Kurs vorhanden ist; 3 = der Sitzungstitel macht die Kursliste einklappbar; 4 = kein Link (Sitzungstitel anzeigen).
 
-*Standard: `1`*
+*Standardwert: `1`*
 
 ### `default_session_list_view`
 
 **Standardansicht der Sitzungsliste**
 
-Wählen Sie den Standard-Tab, den Sie beim Öffnen der Sitzungsliste als Administrator sehen möchten.
+Wählen Sie die Standardregisterkarte aus, die beim Öffnen der Sitzungsliste als Administrator angezeigt werden soll.
 
-*Standard: `all`*
+*Standardwert: `all`*
 
 
-### `drh_can_access_all_session_content`
+### `hrm_can_access_all_session_content`
 
 **HR-Direktoren greifen auf alle Sitzungsinhalte zu**
 
-Wenn aktiviert, erhalten Personalleiter Zugriff auf alle Inhalte und Benutzer der Sitzungen, denen sie folgen.
+Wenn aktiviert, können HRM-Benutzer auf Inhalte und Benutzer in den Sitzungen zugreifen, denen sie folgen. Der Legacy-Schlüssel `session.drh_can_access_all_session_content` bleibt aus Kompatibilitätsgründen erkannt.
 
-*Standard: `true`*
+*Standardwert: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
@@ -208,139 +208,138 @@ Wenn aktiviert, erhalten Personalleiter Zugriff auf alle Inhalte und Benutzer de
 
 Ermöglicht die Duplizierung von Ressourcen, die in der Sitzung erstellt wurden, beim Duplizieren der Sitzung.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Link zum Zurücksetzen des Passworts zur E-Mail-Benachrichtigung über die Anmeldung zur Sitzung hinzufügen**
+**Link zum Zurücksetzen des Passworts zur E-Mail-Benachrichtigung über die Anmeldung zu einer Sitzung hinzufügen**
 
-Einen Link zum Zurücksetzen des Passworts in Bestätigungs-E-Mails zur Anmeldung aufnehmen, die an Benutzer gesendet werden, wenn sie in eine Sitzung eingeschrieben werden.
+Fügen Sie einen Link zum Zurücksetzen des Passworts in Bestätigungs-E-Mails zur Anmeldung ein, die an Benutzer gesendet werden, wenn sie in eine Sitzung eingeschrieben werden.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Benutzernamen zur E-Mail-Benachrichtigung über die Anmeldung zur Sitzung hinzufügen**
+**Benutzernamen zur E-Mail-Benachrichtigung über die Anmeldung zu einer Sitzung hinzufügen**
 
-Den Benutzernamen des Benutzers in Bestätigungs-E-Mails zur Anmeldung aufnehmen, die gesendet werden, wenn sie in eine Sitzung eingeschrieben werden.
+Fügen Sie den Benutzernamen des Benutzers in Bestätigungs-E-Mails zur Anmeldung ein, die gesendet werden, wenn sie in eine Sitzung eingeschrieben werden.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `enable_auto_reinscription`
 
 **Automatische Wiedereinschreibung aktivieren**
 
-Automatische Wiedereinschreibung aktivieren oder deaktivieren, wenn die Gültigkeit des Kurses abläuft. Der zugehörige Cron-Job muss ebenfalls aktiviert sein.
+Aktivieren oder deaktivieren Sie die automatische Wiedereinschreibung, wenn die Gültigkeit des Kurses abläuft. Der zugehörige Cron-Job muss ebenfalls aktiviert sein.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `enable_session_replication`
 
 **Sitzungsreplikation aktivieren**
 
-Automatische Sitzungsreplikation aktivieren oder deaktivieren. Der zugehörige Cron-Job muss ebenfalls aktiviert sein.
+Aktivieren oder deaktivieren Sie die automatische Sitzungsreplikation. Der zugehörige Cron-Job muss ebenfalls aktiviert sein.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `extend_rights_for_coach`
 
 **Rechte für Tutoren erweitern**
 
-Aktivieren Sie diese Option, um Tutoren dieselben Berechtigungen wie Trainern bei den Autorentools zu geben
+Aktivieren Sie diese Option, um Tutoren dieselben Berechtigungen wie Trainern für Autorentools zu geben
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `hide_courses_in_sessions`
 
 **Kursliste in Sitzungen ausblenden**
 
-Beim Anzeigen des Sitzungsblocks auf Ihrer Kursseite die Liste der Kurse innerhalb dieser Sitzung ausblenden (nur innerhalb der spezifischen Sitzungsansicht anzeigen).
+Wenn der Sitzungsblock auf Ihrer Kursseite angezeigt wird, blenden Sie die Liste der Kurse innerhalb dieser Sitzung aus (zeigen Sie sie nur auf dem spezifischen Sitzungsbildschirm an).
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `hide_reporting_session_list`
 
-**Sitzungsliste im Berichtstool ausblenden**
+**Sitzungsliste im Berichtswerkzeug ausblenden**
 
-Sitzungen, die den Kurs enthalten, werden im Berichtstool innerhalb des Kurses selbst aufgelistet, was erhebliches Gewicht hinzufügen kann, wenn derselbe Kurs in Hunderten von Sitzungen verwendet wird. Diese Option entfernt diese Liste.
+Sitzungen, die den Kurs enthalten, werden im Berichtswerkzeug innerhalb des Kurses selbst aufgelistet, was die Darstellung erheblich belasten kann, wenn derselbe Kurs in Hunderten von Sitzungen verwendet wird. Diese Option entfernt diese Liste.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `hide_search_form_in_session_list`
 
 **Suchformular in der Sitzungsliste ausblenden**
 
-Das Sucheingabefeld aus der Sitzungslistenansicht in der Administrationsoberfläche entfernen.
+Entfernen Sie das Sucheingabefeld aus der Sitzungslistenansicht in der Verwaltungsoberfläche.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `hide_session_graph_in_my_progress`
 
-**Sitzungsdiagramm in Mein Fortschritt ausblenden**
+**Sitzungsdiagramm in „Mein Fortschritt“ ausblenden**
 
-Sitzungsfortschrittsdiagramme und Visualisierungen auf der Seite Mein Fortschritt in den Lernenden-Dashboards ausblenden.
+Blenden Sie Sitzungsfortschrittsdiagramme und Visualisierungen auf der Seite „Mein Fortschritt“ in den Dashboards der Lernenden aus.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `hide_tab_list`
 
-**Tabs auf der Sitzungsseite ausblenden**
+**Registerkarten auf der Sitzungsseite ausblenden**
 
-Navigations-Tabs von der Sitzungsdetailseite entfernen, um die Oberfläche zu vereinfachen.
+Entfernen Sie Navigationsregisterkarten von der Sitzungsdetailseite, um die Oberfläche zu vereinfachen.
 
 ### `limit_session_admin_list_users`
 
 **Sitzungsadministratoren ist der Zugriff auf die Benutzerliste untersagt**
 
-Sitzungsadministratoren daran hindern, auf die globale Benutzerliste in der Administrationsoberfläche zuzugreifen.
+Verhindern Sie, dass Sitzungsadministratoren auf die globale Benutzerliste in der Verwaltungsoberfläche zugreifen.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 
 ### `limit_session_admin_role`
 
 **Berechtigungen von Sitzungsadministratoren einschränken**
 
-Wenn aktiviert, sehen die Sitzungsadministratoren nur den Benutzer-Block mit der Option „Benutzer hinzufügen“ und den Sitzungen-Block mit der Option „Sitzungsliste“.
+Wenn aktiviert, sehen die Sitzungsadministratoren nur den Benutzerblock mit der Option „Benutzer hinzufügen“ und den Sitzungsblock mit der Option „Sitzungsliste“.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `my_courses_session_order`
 
-**Die Standardsortierung der Sitzungen in Meine Sitzungen ändern**
+**Standardsortierung der Sitzungen in „Meine Sitzungen“ ändern**
 
-Standardmäßig werden Sitzungen nach Startdatum sortiert. Ändern Sie dies, indem Sie ein Array vom Typ ['field' => 'end_date', 'order' => 'desc'] angeben.
+Standardmäßig werden Sitzungen nach Startdatum sortiert. Ändern Sie dies, indem Sie ein Array des Typs ['field' => 'end_date', 'order' => 'desc'] angeben.
 
 ### `my_courses_view_by_session`
 
 **Meine Kurse nach Sitzung anzeigen**
 
-Eine zusätzliche Seite „Meine Kurse“ aktivieren, auf der Sitzungen als Teil von Kursen erscheinen, und nicht umgekehrt.
+Aktivieren Sie eine zusätzliche Seite „Meine Kurse“, auf der Sitzungen als Teil von Kursen erscheinen und nicht umgekehrt.
 
-*Standard: `false`*
+*Standardwert: `false`*
 
 ### `my_progress_session_show_all_courses`
 
 **Mein Fortschritt: Kursdetails in der Sitzung anzeigen**
 
-Alle Details jedes Kurses in der Sitzung anzeigen, wenn auf die Sitzungsdetails geklickt wird.
+Zeigen Sie alle Details jedes Kurses in der Sitzung an, wenn Sie auf die Sitzungsdetails klicken.
 
-*Standard: `false`*
-
+*Standardwert: `false`*
 
 ### `prevent_session_admins_to_manage_all_users`
 
 **Sitzungsadministratoren daran hindern, alle Benutzer zu verwalten**
 
-Durch Aktivieren dieser Option können Sitzungsadministratoren auf der Administrationsseite nur die Benutzer sehen, die sie selbst erstellt haben.
+Wenn diese Option aktiviert ist, können Sitzungsadministratoren auf der Verwaltungsseite nur die Benutzer sehen, die sie selbst erstellt haben.
 
 *Standard: `false`*
 
@@ -348,7 +347,7 @@ Durch Aktivieren dieser Option können Sitzungsadministratoren auf der Administr
 
 **Link zur Sitzungsseite ausblenden**
 
-Link zur Sitzungsseite in der Sitzungsliste ausblenden.
+Blendet den Link zur Sitzungsseite in der Sitzungsliste aus.
 
 *Standard: `false`*
 
@@ -365,24 +364,24 @@ Sitzungsadministratoren können alle Kursinhalte innerhalb ihrer Sitzungen einse
 
 **Sitzungsadministratoren können Kursinhalte bearbeiten**
 
-Sitzungsadministratoren können Kursinhalte (Dokumente, Übungen, Werkzeuge) in Kursen ändern, die ihren Sitzungen zugeordnet sind.
+Sitzungsadministratoren können Kursinhalte (Dokumente, Übungen, Werkzeuge) in Kursen bearbeiten, die ihren Sitzungen zugewiesen sind.
 
 *Standard: `false`*
 
 ### `session_automatic_creation_user_id`
 
-**Ersteller-ID automatisch angelegter Sitzungen**
+**Ersteller-ID automatisch erstellter Sitzungen**
 
-Benutzer festlegen, der als Ersteller der automatisch angelegten Sitzungen verwendet wird (um zu vermeiden, dass jede Sitzung dem Benutzer „1“ zugeordnet wird, der oft der Portaladministrator ist).
+Legen Sie den Benutzer fest, der als Ersteller der automatisch erstellten Sitzungen verwendet wird (um zu vermeiden, dass jede Sitzung dem Benutzer „1“ zugewiesen wird, der häufig der Portaladministrator ist).
 
 *Standard: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Hinzufügen von Klassen im Sitzungskurs für Nicht-Administratoren deaktivieren**
+**Registerkarte „Klasse hinzufügen“ im Sitzungskurs für Nicht-Administratoren deaktivieren**
 
-Registerkarte zum Hinzufügen von Klassen im Sitzungskurs für Nicht-Administratoren deaktivieren.
+Deaktiviert die Registerkarte zum Hinzufügen von Klassen im Sitzungskurs für Nicht-Administratoren.
 
 *Standard: `false`*
 
@@ -400,79 +399,79 @@ Andernfalls haben Sitzungstutoren nur während der aktiven Dauer Zugriff auf Sit
 
 **Manuelle Sortierung der Sitzungskurse**
 
-Diese Option aktivieren, damit Sitzungsadministratoren die Kurse innerhalb einer Sitzung manuell sortieren können. Wenn deaktiviert, werden Kurse alphabetisch nach Kurstitel sortiert.
+Aktivieren Sie diese Option, damit Sitzungsadministratoren die Kurse innerhalb einer Sitzung manuell sortieren können. Wenn deaktiviert, werden Kurse alphabetisch nach Kurstitel sortiert.
 
 *Standard: `false`*
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Einschreibungen in den Kurs auf Sitzungsbenutzer beschränken**
+**Kurseinschreibungen auf Benutzer der Sitzung beschränken**
 
-Die Liste der in die Kurssitzung einzuschreibenden Lernenden einschränken. Und die Registrierung von Benutzern in allen Kursen auf der Seite „Sitzung fortsetzen“ deaktivieren.
+Schränkt die Liste der Lernenden ein, die in die Kurssitzung eingeschrieben werden können. Und deaktiviert die Registrierung von Benutzern in allen Kursen über die Seite „Sitzung fortsetzen“.
 
 *Standard: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Kurs in der Sitzung schreibgeschützt setzen**
+**Kurs in der Sitzung auf schreibgeschützt setzen**
 
-Lehrende können bestimmte Kurse in den schreibgeschützten Modus versetzen, wenn sie über Sitzungen geöffnet werden. In den Kurseigenschaften die Option „Kurs in der Sitzung sperren“ aktivieren.
+Ermöglicht Lehrkräften, einige Kurse in den schreibgeschützten Modus zu versetzen, wenn sie über Sitzungen geöffnet werden. Aktivieren Sie in den Kurseigenschaften die Option „Kurs in der Sitzung sperren“.
 
 *Standard: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Zusätzliche Felder im Formular zur Sitzungserstellung als Pflichtfelder setzen**
+**Pflicht-Zusatzfelder im Formular zur Sitzungserstellung festlegen**
 
-Die aufgeführten Felder bei der Sitzungserstellung als Pflichtfelder verlangen.
+Macht die aufgeführten Felder bei der Sitzungserstellung erforderlich.
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
 **Sitzungsfelder mit Benutzerfeldern vorausfüllen**
 
-Array von Beziehungen zwischen zusätzlichen Benutzerfeldern und zusätzlichen Sitzungsfeldern, sodass die Sitzung mit Daten vorausgefüllt werden kann, die den Benutzerdaten entsprechen.
+Array von Beziehungen zwischen Benutzer-Zusatzfeldern und Sitzungs-Zusatzfeldern, damit die Sitzung mit Daten vorausgefüllt werden kann, die den Benutzerdaten entsprechen.
 
 ### `session_days_after_coach_access`
 
-**Standard-Zugriffstage des Tutors nach der Sitzung**
+**Standardzugriffstage des Tutors nach der Sitzung**
 
-Standardanzahl der Tage, die ein Tutor nach dem offiziellen Enddatum der Sitzung auf eine Sitzung zugreifen kann
+Standardanzahl der Tage, an denen ein Tutor nach dem offiziellen Sitzungsende auf eine Sitzung zugreifen kann
 
 ### `session_days_before_coach_access`
 
-**Standard-Zugriffstage des Tutors vor der Sitzung**
+**Standardzugriffstage des Tutors vor der Sitzung**
 
-Standardanzahl der Tage, die ein Tutor vor dem offiziellen Startdatum der Sitzung auf eine Sitzung zugreifen kann
+Standardanzahl der Tage, an denen ein Tutor vor dem offiziellen Sitzungsbeginn auf eine Sitzung zugreifen kann
 
 ### `session_import_settings`
 
 **Optionen für den Sitzungsimport**
 
-Array von Optionen, die als Standardparameter beim CSV/XML-Sitzungsimport angewendet werden.
+Array von Optionen, die als Standardparameter beim CSV-/XML-Sitzungsimport angewendet werden.
 
 ### `session_list_order`
 
 **Sitzungen unterstützen manuelle Sortierung**
 
-Manuelle Neuordnung von Sitzungen in der administrativen Sitzungsliste per Drag-and-Drop oder einem ähnlichen Mechanismus aktivieren.
+Aktiviert die manuelle Neuanordnung von Sitzungen in der Verwaltungssitzungsliste per Drag-and-Drop oder einem ähnlichen Mechanismus.
 
 *Standard: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Anzahl der Benutzer in der Sitzungsliste anzeigen**
+**Benutzeranzahl in der Sitzungsliste anzeigen**
 
-Der Administrator kann die Anzahl der Benutzer in jeder Sitzung sehen. Dies belastet die Sitzungsliste zusätzlich; bei häufiger Nutzung sollte daher sorgfältig abgewogen werden, ob die zusätzliche Wartezeit akzeptabel ist.
+Der Administrator kann die Anzahl der Benutzer in jeder Sitzung sehen. Dies erhöht die Last der Sitzungsliste. Wenn Sie die Liste häufig verwenden, sollten Sie sorgfältig abwägen, ob Sie die zusätzliche Wartezeit in Kauf nehmen möchten.
 
 *Standard: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Verbleibende Tage unter „Meine Sitzungen“ anzeigen**
+**Verbleibende Tage in „Meine Sitzungen“ anzeigen**
 
 Wenn aktiviert, werden die Sitzungsdaten auf der Seite „Meine Sitzungen“ durch die Anzahl der verbleibenden Tage ersetzt.
 
@@ -482,7 +481,7 @@ Wenn aktiviert, werden die Sitzungsdaten auf der Seite „Meine Sitzungen“ dur
 
 **Sitzungsvorlagen im Formular zur Sitzungserstellung nach ID sortieren**
 
-[inferred] Sitzungsvorlagen im Dropdown des Formulars zur Sitzungserstellung nach ihrer numerischen ID statt alphabetisch nach Namen sortieren.
+[abgeleitet] Sortiert Sitzungsvorlagen im Dropdown des Formulars zur Sitzungserstellung nach ihrer numerischen ID statt alphabetisch nach Namen.
 
 *Standard: `false`*
 
@@ -491,7 +490,7 @@ Wenn aktiviert, werden die Sitzungsdaten auf der Seite „Meine Sitzungen“ dur
 
 **Leeren der eingeschriebenen Benutzer bei der Sitzungseinschreibung verhindern**
 
-Beim Einschreiben mehrerer Lernender in eine Sitzung das normale Verhalten verhindern, bei dem Benutzer, die sich nicht im rechten Bereich befinden, beim Klicken auf Senden abgemeldet werden. Alle Benutzer dort belassen.
+Verhindert bei der Mehrfacheinschreibung von Lernenden in eine Sitzung das normale Verhalten, Benutzer abzumelden, die sich beim Absenden nicht im rechten Bereich befinden. Alle Benutzer bleiben erhalten.
 
 *Standard: `false`*
 
@@ -500,7 +499,7 @@ Beim Einschreiben mehrerer Lernender in eine Sitzung das normale Verhalten verhi
 
 **Alle Sitzungen auf der Seite „Meine Kurse“ anzeigen**
 
-Wenn aktiviert, zeigt diese Option alle Sitzungen des Benutzers in einer kalenderbasierten Ansicht.
+Wenn aktiviert, zeigt diese Option alle Sitzungen des Benutzers in der kalenderbasierten Ansicht an.
 
 *Standard: `true`*
 
@@ -509,7 +508,7 @@ Wenn aktiviert, zeigt diese Option alle Sitzungen des Benutzers in einer kalende
 
 **Sitzungstutor anzeigen**
 
-Den Namen des allgemeinen Sitzungstutors im Sitzungstitelfeld in der Kursliste anzeigen
+Zeigt den Namen des allgemeinen Sitzungstutors im Sitzungstitelfeld der Kursliste an
 
 *Standard: `false`*
 
@@ -517,7 +516,7 @@ Den Namen des allgemeinen Sitzungstutors im Sitzungstitelfeld in der Kursliste a
 
 **Titel der Sitzungsdaten anzeigen**
 
-Kommentar zu den Sitzungsdaten anzeigen
+Kommentar zu Sitzungsdaten anzeigen
 
 *Standard: `false`*
 
@@ -525,7 +524,7 @@ Kommentar zu den Sitzungsdaten anzeigen
 
 **Sitzungsbeschreibung anzeigen**
 
-Die Sitzungsbeschreibung überall dort anzeigen, wo diese Option implementiert ist (Seiten zur Sitzungsverfolgung usw.)
+Die Sitzungsbeschreibung überall anzeigen, wo diese Option implementiert ist (Seiten zur Sitzungsnachverfolgung usw.).
 
 *Standard: `false`*
 
@@ -533,31 +532,31 @@ Die Sitzungsbeschreibung überall dort anzeigen, wo diese Option implementiert i
 
 **Einfache Sitzungsinformationen anzeigen**
 
-Fügt den Tutor und die Daten zum Sitzungsuntertitel in der Sitzungsliste hinzu.
+Den Tutor und die Daten zum Sitzungsuntertitel in der Sitzungsliste hinzufügen.
 
 *Standard: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Nur Benutzer aus aktiven Sitzungen im Tracking anzeigen**
+**Nur Benutzer aus aktiven Sitzungen in der Nachverfolgung anzeigen**
 
-Zeigt in den Lerner-Tracking- und Berichtsansichten nur Benutzer aus aktuell aktiven Sitzungen an.
+Nur Benutzer aus derzeit aktiven Sitzungen in den Ansichten zur Lernendennachverfolgung und Berichterstattung anzeigen.
 
 *Standard: `false`*
 
 
 ### `tracking_columns`
 
-**Spalten des Kurs-Sitzungs-Trackings anpassen**
+**Spalten der Kurs-Sitzungs-Nachverfolgung anpassen**
 
-Definiert ein Array von Spalten für die folgenden Berichte: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+Ein Array von Spalten für die folgenden Berichte definieren: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
 **Dauer automatisch erstellter Sitzungen**
 
-Dauer (in Tagen) der für einzelne Benutzer automatisch erstellten Sitzungen. Nach Ablauf kann sich der Benutzer nicht mehr für denselben Kurs registrieren (es wird keine weitere Sitzung erstellt).
+Dauer (in Tagen) der automatisch erstellten Einzelnutzer-Sitzungen. Nach Ablauf kann sich der Benutzer nicht erneut für denselben Kurs registrieren (es wird keine weitere Sitzung erstellt).
 
 *Standard: `1095`*
 
@@ -566,6 +565,6 @@ Dauer (in Tagen) der für einzelne Benutzer automatisch erstellten Sitzungen. Na
 
 **Anzeigemodus „Meine Sitzungen“**
 
-Legt fest, wie die Seite „Meine Sitzungen“ angezeigt wird: als moderne visuelle Blockansicht (Karten) oder im klassischen Listenstil.
+Wählen Sie, wie die Seite „Meine Sitzungen“ angezeigt wird: als moderne visuelle Blockansicht (Karten) oder im klassischen Listenstil.
 
 *Standard: `list`*

@@ -1,21 +1,21 @@
 # Analytics
 
-Het blok **Analytics** op het beheerdashboard groepeert platformbrede statistieken, learning analytics, corporate/HR-rapportage en tools voor bulksgewijze export. Afhankelijk van uw Chamilo-versie kan dit blok op het dashboard zelf als **"Tracking"** zijn gelabeld — het is in beide gevallen hetzelfde blok. Deze gids noemt het overal Analytics om verwarring te voorkomen met [Tracking Settings](../platform-settings/tracking-settings.md), de aparte instellingencategorie die bepaalt wat wordt vastgelegd, en niet de rapporten zelf.
+Het blok **Analytics** op het beheerdersdashboard groepeert platformbrede statistieken, learning analytics, bedrijfs-/HR-rapportage en hulpmiddelen voor bulkexport. Afhankelijk van uw Chamilo-versie kan dit blok op het dashboard zelf het label **"Tracking"** hebben — het is in beide gevallen hetzelfde blok. In deze handleiding wordt het overal Analytics genoemd om verwarring te voorkomen met [Trackinginstellingen](../platform-settings/tracking-settings.md), de afzonderlijke instellingencategorie die bepaalt wat wordt vastgelegd in plaats van de rapporten zelf.
 
-![Het blok Analytics op het beheerdashboard (in dit scherm gelabeld als "Tracking"), met Global statistics, Reports catalog, Learning analytics, Quarterly report, Teachers time report, Corporate report, Special exports en Tickets](../../.gitbook/assets/admin-analytics-block.png)
+![Het blok Analytics op het beheerdersdashboard (in deze schermafbeelding gelabeld als "Tracking"), met Globale statistieken, Rapportencatalogus, Learning analytics, Kwartaalrapport, Tijdsrapport van docenten, Bedrijfsrapport, Speciale exports en Tickets](../../.gitbook/assets/admin-analytics-block.png)
 
 ## Analytics openen
 
-Op het beheerpaneel verschijnt het blok **Analytics** naast de andere dashboardblokken. Klik op een van de koppelingen om het bijbehorende rapport te openen.
+Vanuit het beheerpaneel verschijnt het blok **Analytics** naast de andere dashboardblokken. Klik op een van de koppelingen om het bijbehorende rapport te openen.
 
-## Wat er in het blok staat
+## Wat het blok bevat
 
-* **[Global Statistics](global-statistics.md)** — Platformbrede statistieken: cursussen, gebruikers, logins, sessies en schijfgebruik
-* **[Reports Catalog](reports-catalog.md)** — Blader door elk geregistreerd rapport, wie er toegang toe heeft en waarom
-* **[Learning Analytics](learning-analytics.md)** — Het klassieke trackingdashboard: drill-downs per gebruiker, cursus en sessie met gemiddelden voor bestede tijd en scores
-* **[Corporate Reports](corporate-reports.md)** — Kwartaaloverzichten, tijdsregistratie van docenten en HR-gerichte rapportage over cursussen/gebruikers
-* **[Tickets](tickets.md)** — Ga rechtstreeks naar de lijst met supporttickets
+* **[Globale statistieken](global-statistics.md)** — Platformbrede statistieken: cursussen, gebruikers, aanmeldingen, sessies en schijfgebruik
+* **[Rapportencatalogus](reports-catalog.md)** — Blader door elk geregistreerd rapport, wie er toegang toe heeft en waarom
+* **[Learning analytics](learning-analytics.md)** — Het klassieke trackingdashboard: detailweergaven van gebruikers, cursussen en sessies met gemiddelden van bestede tijd en scores
+* **[Bedrijfsrapporten](corporate-reports.md)** — Kwartaalsamenvattingen, tijdsregistratie van docenten en op HR gerichte rapportage over cursussen en gebruikers
+* **[Tickets](tickets.md)** — Ga rechtstreeks naar de lijst met ondersteuningstickets
 
 ## Wie er toegang toe heeft
 
-De meeste van deze rapporten vereisen toegang als **Portal Administrator**. Het Corporate Report is de uitzondering — het is ook toegankelijk voor de rollen **Human Resources Manager** en **Student Boss**, omdat het specifiek voor dat publiek is gebouwd.
+Voor de meeste van deze rapporten is toegang als **portaalbeheerder** vereist. Het bedrijfsrapport vormt de uitzondering: het is ook toegankelijk voor de rollen **HR-manager** en **Student Boss**, omdat het specifiek voor dat publiek is gebouwd.

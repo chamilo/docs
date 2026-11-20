@@ -1,46 +1,46 @@
 # Leerpadgenerator
 
-De AI-leerpadgenerator helpt u automatisch gestructureerde leersequenties te maken. U geeft een onderwerp en doelstellingen op, en de AI genereert een leerpadoverzicht met secties en inhoudsitems die u kunt beoordelen en aanpassen.
+De AI-leerpadgenerator helpt u automatisch gestructureerde leerreeksen te maken. U geeft een onderwerp en leerdoelen op, en de AI genereert een leerpadschets met secties en inhoudsitems die u kunt bekijken en aanpassen.
 
 ## De leerpadgenerator openen
 
 De leerpadgenerator is beschikbaar bij het aanmaken van een nieuw leerpad, mits:
 
-1. AI-helpers op platformniveau zijn ingeschakeld
-2. De leerpadgenerator in de cursusinstellingen is ingeschakeld
-3. Ten minste één AI-tekstprovider is geconfigureerd
+1. AI-helpers zijn ingeschakeld op platformniveau
+2. De leerpadgenerator is ingeschakeld in de cursusinstellingen
+3. Er ten minste één AI-tekstprovider is geconfigureerd
 
-Zoek naar de sectie **AI Generator** in de interface voor het aanmaken van leerpaden.
+Zoek naar de sectie **AI-generator** in de interface voor het aanmaken van leerpaden.
 
 ## Een leerpad genereren
 
-![Het formulier van de AI-leerpadgenerator met velden voor onderwerp, doelstellingen en aantal secties](../../.gitbook/assets/ai-learning-path-generator.png)
+![Het formulier van de AI-leerpadgenerator met velden voor onderwerp, leerdoelen en aantal secties](../../.gitbook/assets/ai-learning-path-generator.png)
 
-1. Open het formulier AI Generator
+1. Open het formulier van de AI-generator
 2. Configureer de parameters:
-   * **Topic** — Het onderwerp van het leerpad
-   * **Number of items** — Hoeveel inhoudspagina's het pad moet bevatten
-   * **Words count per page** — Ongeveer hoe lang elke pagina moet zijn
-   * **Add test after each page** — Indien aangevinkt, maakt de AI ook een korte meerkeuzetoets na elke pagina (standaard 2 vragen, maximaal 5)
-3. Klik op **Generate**
-4. De AI produceert een leerpad met één documentitem per pagina en, optioneel, een toetsitem na elk daarvan
+   * **Onderwerp** — Het onderwerp van het leerpad
+   * **Aantal items** — Hoeveel inhoudspagina's het pad moet bevatten
+   * **Aantal woorden per pagina** — Ongeveer hoe lang elke pagina moet zijn
+   * **Toets toevoegen na elke pagina** — Indien aangevinkt, maakt de AI ook een korte meerkeuzetoets na elke pagina (standaard 2 vragen, maximaal 5)
+3. Klik op **Genereren**
+4. De AI maakt een leerpad met één documentitem per pagina en, optioneel, een toetsitem na elk documentitem
 
-## Beoordelen en aanpassen
+## Controleren en aanpassen
 
-Het gegenereerde leerpad is een **startpunt**. U dient:
+Het gegenereerde leerpad is een **uitgangspunt**. U moet:
 
-* **De structuur te beoordelen** — Controleer of de secties in een logische volgorde staan
-* **Inhoud te bewerken** — Pas de gegenereerde tekst aan, voeg uw eigen materialen toe en verwijder irrelevante secties
-* **Bronnen toe te voegen** — Voeg uw eigen documenten, oefeningen, links en andere inhoud in
-* **Voorwaarden in te stellen** — Configureer welke secties voltooid moeten zijn voordat andere kunnen worden gevolgd
-* **Toetsen toe te voegen** — Voeg oefeningen toe op geschikte punten om begrip te controleren
+* **Controleer de structuur** — Controleer of de secties in een logische volgorde staan
+* **Bewerk de inhoud** — Pas de gegenereerde tekst aan, voeg uw eigen materiaal toe en verwijder irrelevante secties
+* **Voeg bronnen toe** — Voeg uw eigen documenten, oefeningen, links en andere inhoud in
+* **Stel voorwaarden in** — Configureer welke secties moeten zijn voltooid voordat andere kunnen worden geopend
+* **Voeg beoordelingen toe** — Voeg oefeningen toe op geschikte momenten om het begrip te controleren
 
-## Vermelding van AI-gegenereerde inhoud
+## Vermelding van door AI gegenereerde inhoud
 
-Door AI gegenereerde inhoud is voorzien van een vermelding, die aangeeft dat deze met kunstmatige intelligentie is gemaakt. Deze transparantie helpt cursisten de herkomst van het materiaal te begrijpen.
+Door AI gegenereerde inhoud wordt voorzien van een vermelding die aangeeft dat deze is gemaakt met behulp van kunstmatige intelligentie. Deze transparantie helpt cursisten de herkomst van het materiaal te begrijpen.
 
 ## Tips
 
-* **Begin breed, verfijn daarna** — Genereer eerst een overkoepelende structuur en voeg daarna handmatig details en specifieke bronnen toe
+* **Begin breed en verfijn daarna** — Genereer eerst een structuur op hoofdlijnen en voeg daarna handmatig details en specifieke bronnen toe
 * **Gebruik het voor cursusplanning** — Zelfs als u de gegenereerde inhoud niet rechtstreeks gebruikt, kan de door de AI voorgestelde structuur een nuttig planningsinstrument zijn
-* **Combineer met oefeningengeneratie** — Gebruik na het genereren van een leerpad de Exercise Generator om toetsen voor elke sectie te maken
+* **Combineer met het genereren van oefeningen** — Gebruik na het genereren van een leerpad de oefeningengenerator om beoordelingen voor elke sectie te maken

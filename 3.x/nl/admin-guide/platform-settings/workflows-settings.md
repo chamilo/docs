@@ -1,18 +1,18 @@
-# Workflows-instellingen
+# Workflowinstellingen
 
-Overkoepelende workflow-schakelaars — cursusaanmaak, inschrijvingsvalidatie, opdrachtworkflows en vergelijkbare instellingen.
+Doorsnijdende workflowschakelaars — cursusaanmaak, validatie van inschrijvingen, opdrachtworkflows en soortgelijke zaken.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Workflows**. Deze categorie bevat **23 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de instellingen-fixtures van het platform (`SettingsCurrentFixtures.php`).
+U bereikt deze instellingen via **Beheer > Configuratie-instellingen > Werkstromen**. Deze categorie bevat **23 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau moet wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Gebruikersinschrijving in cursus door cursusbeheerder toestaan**
+**Gebruikersinschrijving voor cursussen toestaan door cursusbeheerder**
 
-Als u deze optie activeert, mag de cursusbeheerder gebruikers in een cursus inschrijven
+Het activeren van deze optie stelt de cursusbeheerder in staat gebruikers in een cursus in te schrijven
 
 *Standaard: `true`*
 
@@ -30,16 +30,16 @@ Niet-beheerders (docenten) toestaan nieuwe cursussen op de server aan te maken
 
 **Bewerken van cursuswerktijd inschakelen**
 
-Schakel deze functie in zodat docenten de tijd die lerenden in de cursus hebben doorgebracht handmatig kunnen bijwerken.
+Schakel deze functie in zodat docenten handmatig de tijd kunnen bijwerken die cursisten in de cursus hebben doorgebracht.
 
 *Standaard: `false`*
 
 
 ### `course_visibility_change_only_admin`
 
-**Cursuszichtbaarheid alleen door beheerders wijzigen**
+**Wijzigingen van cursuszichtbaarheid alleen voor beheerders**
 
-Neem de mogelijkheid weg voor niet-beheerders om de cursuszichtbaarheid te wijzigen. Zichtbaarheid kan een probleem zijn wanneer er te veel docenten zijn om rechtstreeks te controleren. Het afdwingen van zichtbaarheden stelt de organisatie in staat de cursuscatalogi beter te beheren.
+Verwijder de mogelijkheid voor niet-beheerders om de cursuszichtbaarheid te wijzigen. Zichtbaarheid kan een probleem zijn wanneer er te veel docenten zijn om rechtstreeks te controleren. Het afdwingen van zichtbaarheden stelt de organisatie in staat cursuscatalogi beter te beheren.
 
 *Standaard: `false`*
 
@@ -48,34 +48,34 @@ Neem de mogelijkheid weg voor niet-beheerders om de cursuszichtbaarheid te wijzi
 
 **Standaardmenu-item voor cursussen**
 
-Definieer de standaard subelementen van het item 'Cursussen' die worden weergegeven als de gebruiker bij geen enkele cursus of sessie is ingeschreven.
+Definieer de standaard subelementen van het item 'Cursussen' die worden weergegeven als de gebruiker voor geen enkele cursus of sessie is ingeschreven.
 
 *Standaard: `my_courses`*
 
 
 ### `disable_user_conditions_sender_id`
 
-**Intern ID van de gebruiker die meldingen over uitgeschakelde accounts verstuurt**
+**Interne ID van de gebruiker die wordt gebruikt om meldingen over uitgeschakelde accounts te verzenden**
 
-Vermijd een te persoonlijke toon naar gebruikers door een 'bot'-account te gebruiken om e-mails te versturen wanneer hun account om een of andere reden is uitgeschakeld.
+Vermijd een te persoonlijke toon naar gebruikers door een 'bot'-account te gebruiken om e-mails te verzenden wanneer hun account om een of andere reden is uitgeschakeld.
 
 *Standaard: `0`*
 
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Mogelijkheid om cursustutors te bewerken uitschakelen**
+**De mogelijkheid om cursustutoren te bewerken uitschakelen**
 
-Indien uitgeschakeld hebben beheerders op de pagina voor het bewerken van de cursus geen koppeling om snel tutors aan sessiecursussen toe te wijzen.
+Wanneer uitgeschakeld, hebben beheerders geen koppeling om snel tutoren toe te wijzen aan sessiecursussen op de pagina voor het bewerken van de cursus.
 
 *Standaard: `false`*
 
 
-### `drh_allow_access_to_all_students`
+### `hrm_allow_access_to_all_students`
 
-**HRM heeft toegang tot alle studenten via rapportagepagina's**
+**HRM kan alle studenten openen vanuit rapportagepagina's**
 
-[afgeleid] Geef HR/DRH-managers toegang tot rapportagepagina's voor alle lerenden op het platform.
+HRM-gebruikers toestaan alle cursisten te openen vanuit rapportagepagina's. De verouderde sleutel `workflows.drh_allow_access_to_all_students` blijft herkend voor compatibiliteit.
 
 *Standaard: `false`*
 
@@ -88,16 +88,16 @@ Activeer de sterrenprestatie in leerpaden
 
 ### `go_to_course_after_login`
 
-**Direct naar de cursus gaan na aanmelden**
+**Ga direct naar de cursus na aanmelden**
 
-Wanneer een gebruiker bij één cursus is ingeschreven, ga na het aanmelden rechtstreeks naar die cursus
+Wanneer een gebruiker voor één cursus is ingeschreven, ga direct naar de cursus na aanmelden
 
 *Standaard: `false`*
 
 
 ### `load_term_conditions_section`
 
-**Sectie gebruiksvoorwaarden laden**
+**Sectie met gebruiksvoorwaarden laden**
 
 De juridische overeenkomst verschijnt tijdens het aanmelden of bij het betreden van een cursus.
 
@@ -108,35 +108,35 @@ De juridische overeenkomst verschijnt tijdens het aanmelden of bij het betreden 
 
 **Uitgeschakelde instellingen in sub-URL's verbergen**
 
-Zet op ja om instellingen volledig te verbergen in een sub-URL als de instelling in de hoofd-URL is uitgeschakeld (waar het veld access_url_changeable = 0)
+Stel in op ja om instellingen volledig te verbergen in een sub-URL als de instelling is uitgeschakeld in de hoofd-URL (waarbij het veld access_url_changeable = 0)
 
 *Standaard: `false`*
 
 
 ### `plugin_redirection_enabled`
 
-**Omleidingsplugin inschakelen**
+**Omleidingsplug-in inschakelen**
 
-Alleen inschakelen als u de Redirection-plugin gebruikt
+Schakel alleen in als u de Redirection-plug-in gebruikt
 
 *Standaard: `false`*
 
 
 ### `redirect_index_to_url_for_logged_users`
 
-**index.php omleiden naar opgegeven URL voor aangemelde gebruikers**
+**index.php omleiden naar een opgegeven URL voor geauthenticeerde gebruikers**
 
-Als u de indexpagina (aankondigingen, populaire cursussen, enz.) niet wilt gebruiken, kunt u hier het script (vanaf de document root) opgeven waarnaar gebruikers worden omgeleid wanneer ze de index proberen te laden.
+Als u de indexpagina niet wilt gebruiken (aankondigingen, populaire cursussen, enz.), kunt u hier het script (vanaf de documentroot) definiëren waarnaar gebruikers worden omgeleid wanneer zij de index proberen te laden.
 
 ### `send_all_emails_to`
 
 **Alle e-mails verzenden naar**
 
-Geef een lijst van e-mailadressen op waarnaar *alle* e-mails die vanaf het platform worden verstuurd, worden verzonden. De e-mails worden naar deze adressen verzonden als zichtbare bestemming.
+Geef een lijst met e-mailadressen aan wie *alle* e-mails die vanaf het platform worden verzonden, zullen worden gestuurd. De e-mails worden naar deze adressen verzonden als zichtbare bestemming.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra gebruikersveld gebruikt om sessies te zoeken en te benoemen**
+**Extra gebruikersveld dat wordt gebruikt om sessies te zoeken en te benoemen**
 
 Deze instelling definieert de sleutel van het extra gebruikersveld (bijv. "company") die wordt gebruikt om gebruikers te zoeken en om de naam van de sessie te bepalen bij het inschrijven van studenten via /admin-dashboard/register.
 
@@ -144,7 +144,7 @@ Deze instelling definieert de sleutel van het extra gebruikersveld (bijv. "compa
 
 **Docent kan een cursus als sjabloon selecteren**
 
-Toestaan om een cursus als sjabloon te kiezen voor de nieuwe cursus die de docent aanmaakt
+Sta toe een cursus als sjabloon te kiezen voor de nieuwe cursus die de docent aanmaakt
 
 *Standaard: `true`*
 
@@ -153,42 +153,43 @@ Toestaan om een cursus als sjabloon te kiezen voor de nieuwe cursus die de docen
 
 **Vervaldatum instellen bij eerste aanmelding**
 
-Array die de 'dagen' en 'maanden' definieert om de vervaldatum van het account in te stellen wanneer de gebruiker zich voor het eerst aanmeldt.
+Array die de 'days' en 'months' definieert om de vervaldatum van het account in te stellen wanneer de gebruiker zich voor het eerst aanmeldt.
 
 ### `user_edition_extra_field_to_check`
 
-**Een extra veld instellen als trigger voor registratie als ex-lerende**
+**Een extra veld instellen als trigger voor registratie als voormalige cursist**
 
-Geef hier het label van een extra veld op. Als dit extra veld voor een gebruiker wordt bijgewerkt, wordt een proces gestart om de toegang van deze gebruiker tot cursussen met hetzelfde extra veld te controleren.
+Geef hier een label van een extra veld op. Als dit extra veld voor een gebruiker wordt bijgewerkt, wordt een proces geactiveerd om de toegang van deze gebruiker tot cursussen met hetzelfde opgegeven extra veld te controleren.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
 **Standaard vervaldagen per rol**
 
-Een array van rol => getal dat het aantal dagen weergeeft dat een account heeft tot verval, afhankelijk van de rol.
+Een array van rol => getal die het aantal dagen aangeeft dat een account geldig is vóór de vervaldatum, afhankelijk van de rol.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Uitschrijven van gebruiker uit cursus/sessie uitschakelen bij uitschrijven van gebruiker uit groep/klas**
+**Automatisch uitschrijven van gebruikers uit cursus/sessie uitschakelen bij uitschrijven uit groep/klas**
 
-[inferred] Wanneer een gebruiker uit een groep/klas wordt verwijderd, deze niet automatisch uitschrijven uit gekoppelde cursussen of sessies.
+[afgeleid] Wanneer een gebruiker uit een groep/klas wordt verwijderd, deze niet automatisch uitschrijven uit gekoppelde cursussen of sessies.
 
 *Standaard: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Uitschrijven van gebruiker uit cursus uitschakelen bij verwijderen van cursus uit groep/klas**
+**Automatisch uitschrijven van gebruikers uit de cursus uitschakelen bij verwijdering van de cursus uit groep/klas**
 
-[inferred] Wanneer een cursus uit een groep/klas wordt verwijderd, gebruikers niet automatisch uitschrijven uit die cursus.
+[afgeleid] Wanneer een cursus uit een groep/klas wordt verwijderd, gebruikers niet automatisch uitschrijven uit die cursus.
 
 *Standaard: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Uitschrijven van gebruiker uit sessie uitschakelen bij verwijderen van sessie uit groep/klas**
+**Automatisch uitschrijven van gebruikers uit de sessie uitschakelen bij verwijdering van de sessie uit groep/klas**
 
-[inferred] Wanneer een sessie uit een groep/klas wordt verwijderd, gebruikers niet automatisch uitschrijven uit die sessie.
+[afgeleid] Wanneer een sessie uit een groep/klas wordt verwijderd, gebruikers niet automatisch uitschrijven uit die sessie.
 
 *Standaard: `false`*

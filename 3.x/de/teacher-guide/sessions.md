@@ -1,46 +1,46 @@
-# Sessions
+# Sitzungen
 
-Sessions in Chamilo sind eine Möglichkeit, denselben Kurs zu unterschiedlichen Zeiten an verschiedene Gruppen von Lernenden auszuliefern, ohne den Kursinhalt zu duplizieren. Stellen Sie sich eine Session als geplante Ausgabe oder Kohorte eines Kurses vor.
+Sitzungen in Chamilo sind eine Möglichkeit, denselben Kurs verschiedenen Lerngruppen zu unterschiedlichen Zeiten anzubieten, ohne die Kursinhalte zu duplizieren. Stellen Sie sich eine Sitzung als eine geplante Ausgabe oder Kohorte eines Kurses vor.
 
-## Funktionsweise von Sessions
+## Funktionsweise von Sitzungen
 
-Ein **Kurs** ist ein Container für Inhalte und Werkzeuge. Eine **Session** weist diesen Kurs einer bestimmten Gruppe von Lernenden für einen bestimmten Zeitraum zu. Das bedeutet:
+Ein **Kurs** ist ein Container für Inhalte und Werkzeuge. Eine **Sitzung** weist diesen Kurs einer bestimmten Lerngruppe für einen bestimmten Zeitraum zu. Das bedeutet:
 
-* Derselbe Kurs kann in mehreren Sessions wiederverwendet werden
-* Jede Session hat eigene eingeschriebene Lernende sowie eigene Start- und Enddaten
-* Jede Session hat eigene Ergebnisse — Noten, Fortschritt und Tracking-Daten werden pro Session getrennt gehalten
-* Der Basis-Kursinhalt wird geteilt, Lehrende können jedoch bestimmte Elemente pro Session anpassen
+* Derselbe Kurs kann in mehreren Sitzungen wiederverwendet werden
+* Jede Sitzung hat eigene eingeschriebene Lernende sowie eigene Start- und Enddaten
+* Jede Sitzung hat eigene Ergebnisse — Noten, Fortschritt und Tracking-Daten werden pro Sitzung getrennt geführt
+* Die Basisinhalte des Kurses werden gemeinsam genutzt, Lehrkräfte können jedoch bestimmte Elemente pro Sitzung anpassen
 
-## Ihre Sessions
+## Ihre Sitzungen
 
-Klicken Sie in der Seitenleiste auf **Meine Sessions**, um Ihre Sessions zu sehen. Sie sind in drei Ansichten organisiert:
+Klicken Sie in der Seitenleiste auf **Meine Sitzungen**, um Ihre Sitzungen anzuzeigen. Sie sind in drei Ansichten gegliedert:
 
-![Die Seite Meine Sessions mit den Ansichten aktuelle, vergangene und bevorstehende Sessions](../.gitbook/assets/my-sessions-list.png)
+![Die Seite „Meine Sitzungen“ mit den Ansichten für aktuelle, vergangene und bevorstehende Sitzungen](../.gitbook/assets/my-sessions-list.png)
 
-* **Aktuelle Sessions** — Sessions, die derzeit aktiv sind
-* **Vergangene Sessions** — Sessions, die beendet sind
-* **Bevorstehende Sessions** — Sessions, die noch nicht begonnen haben
+* **Aktuelle Sitzungen** — Sitzungen, die derzeit aktiv sind
+* **Vergangene Sitzungen** — Sitzungen, die beendet sind
+* **Bevorstehende Sitzungen** — Sitzungen, die noch nicht begonnen haben
 
-Jede Session zeigt die enthaltenen Kurse. Klicken Sie auf einen Kurs innerhalb einer Session, um darauf zuzugreifen.
+Jede Sitzung zeigt die enthaltenen Kurse an. Klicken Sie auf einen Kurs innerhalb einer Sitzung, um darauf zuzugreifen.
 
-## Unterrichten in einer Session
+## Unterrichten in einer Sitzung
 
-Wenn Sie über eine Session in einen Kurs eintreten, ähnelt das Erlebnis einem regulären Kurs, mit einigen Unterschieden:
+Wenn Sie einen Kurs über eine Sitzung öffnen, ähnelt die Erfahrung einem regulären Kurs, mit einigen Unterschieden:
 
-* Der **Session-Name** erscheint neben dem Kurstitel, sodass Sie stets wissen, in welcher Session Sie arbeiten
-* Lernendendaten (Fortschritt, Noten, Abgaben) gelten spezifisch für diese Session
-* Einige Einstellungen (etwa die Möglichkeit, die Sichtbarkeit von Werkzeugen zu ändern) können durch den Session-Administrator gesperrt sein
+* Der **Sitzungsname** erscheint neben dem Kurstitel, sodass Sie stets wissen, in welcher Sitzung Sie arbeiten
+* Lerndaten (Fortschritt, Noten, Abgaben) gelten speziell für diese Sitzung
+* Einige Einstellungen (etwa die Möglichkeit, die Sichtbarkeit von Werkzeugen zu ändern) können von der Sitzungsverwaltung gesperrt sein
 
-## Rollen in Sessions
+## Sitzungsrollen
 
-Sessions führen zusätzliche Rollen ein:
+Sitzungen führen zusätzliche Rollen ein:
 
 | Rolle | Beschreibung |
 |------|-------------|
-| **Session-Administrator** | Verwaltet die Erstellung und Konfiguration von Sessions |
-| **Session-Tutor** | Beaufsichtigt alle Kurse innerhalb einer Session (kann auf Tracking über Kurse hinweg zugreifen) |
-| **Kurs-Tutor** | Unterrichtet einen bestimmten Kurs innerhalb einer Session |
+| **Sitzungsverwaltung** | Verwaltet die Erstellung und Konfiguration von Sitzungen |
+| **Sitzungstutor** | Betreut alle Kurse innerhalb einer Sitzung (kann das Tracking kursübergreifend einsehen) |
+| **Kurstutor** | Unterrichtet einen bestimmten Kurs innerhalb einer Sitzung |
 
-Wenn Sie in einer Session als **Kurs-Tutor** zugewiesen sind, können Sie den Inhalt dieses Kurses verwalten und den Lernfortschritt der Lernenden der Session verfolgen.
+Wenn Sie in einer Sitzung als **Kurstutor** zugewiesen sind, können Sie die Inhalte dieses Kurses verwalten und den Lernfortschritt der Lernenden dieser Sitzung verfolgen.
 
-> Sessions werden in der Regel von Administratoren verwaltet. Wenn Sie eine Session erstellen oder ändern müssen, wenden Sie sich an Ihren Plattform-Administrator oder Session-Administrator.
+> Sitzungen werden in der Regel von Administratoren verwaltet. Wenn Sie eine Sitzung erstellen oder ändern müssen, wenden Sie sich an Ihre Plattformadministration oder Sitzungsverwaltung.

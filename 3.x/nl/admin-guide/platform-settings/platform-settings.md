@@ -1,10 +1,10 @@
 # Platforminstellingen
 
-Identiteit en gedrag op platformniveau — naam van de instelling, tijdzone, registratiebeleid, online gebruikers, prestatiemarkeringen.
+Identiteit en gedrag op platformniveau — naam van de instelling, tijdzone, registratiebeleid, online gebruikers, prestatievlaggen.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Platform**. Deze categorie bevat **29 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de instellingen-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > Platform**. Deze categorie bevat **30 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code staat in monospace. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
@@ -18,23 +18,23 @@ Gebruikers toestaan bestanden te uploaden naar een persoonlijke ruimte op het pl
 
 ### `chamilo_database_version`
 
-**Huidige versie van het databaseschema dat Chamilo gebruikt**
+**Huidige versie van het databaseschema dat door Chamilo wordt gebruikt**
 
-Toont de huidige DB-versie om overeen te komen met de Chamilo-coreversie.
+Toont de huidige DB-versie zodat deze overeenkomt met de kernversie van Chamilo.
 
 ### `cookie_warning`
 
-**Cookie-privacybericht**
+**Privacykennisgeving over cookies**
 
-Indien ingeschakeld toont deze optie een banner bovenaan uw platform waarin gebruikers wordt gevraagd te bevestigen dat het platform cookies gebruikt die nodig zijn voor de gebruikerservaring. De banner kan eenvoudig worden bevestigd en verborgen door de gebruiker. Dit stelt Chamilo in staat te voldoen aan de EU-regelgeving voor webcookies.
+Indien ingeschakeld, toont deze optie een banner bovenaan uw platform waarin gebruikers wordt gevraagd te bevestigen dat het platform cookies gebruikt die nodig zijn om de gebruikerservaring te bieden. De banner kan eenvoudig door de gebruiker worden bevestigd en verborgen. Hiermee kan Chamilo voldoen aan de EU-regelgeving voor webcookies.
 
 *Standaard: `false`*
 
 ### `disable_copy_paste`
 
-**Kopiëren-plakken uitschakelen**
+**Kopiëren en plakken uitschakelen**
 
-Indien ingeschakeld schakelt deze optie de kopiëren-plakken-mechanismen zoveel mogelijk uit. Nuttig in restrictieve examensetups.
+Indien ingeschakeld, schakelt deze optie de mechanismen voor kopiëren en plakken zo goed mogelijk uit. Nuttig bij restrictieve exameninstellingen.
 
 *Standaard: `false`*
 
@@ -42,7 +42,7 @@ Indien ingeschakeld schakelt deze optie de kopiëren-plakken-mechanismen zoveel 
 
 **Deze campus niet vermelden op chamilo.org**
 
-Standaard worden Chamilo-portalen automatisch geregistreerd in een openbare lijst op chamilo.org, alleen met de titel die u aan dit portaal hebt gegeven (niet de URL noch privégegevens). Vink dit vakje aan om te voorkomen dat de titel van uw portaal verschijnt.
+Standaard worden Chamilo-portalen automatisch geregistreerd in een openbare lijst op chamilo.org, uitsluitend met de titel die u aan dit portaal hebt gegeven (niet de URL en geen privégegevens). Vink dit vakje aan om te voorkomen dat de titel van uw portaal verschijnt.
 
 *Standaard: `false`*
 
@@ -50,7 +50,7 @@ Standaard worden Chamilo-portalen automatisch geregistreerd in een openbare lijs
 
 **Willekeurige gebruikersnaam genereren**
 
-Bij het importeren van gebruikers (batchprocessen) automatisch een willekeurige tekenreeks voor de gebruikersnaam genereren. Anders wordt de gebruikersnaam gegenereerd op basis van voornaam en achternaam, of het voorvoegsel van het e-mailadres.
+Bij het importeren van gebruikers (batchprocessen) automatisch een willekeurige tekenreeks als gebruikersnaam genereren. Anders wordt de gebruikersnaam gegenereerd op basis van de voornaam en achternaam, of het voorvoegsel van het e-mailadres.
 
 *Standaard: `false`*
 
@@ -66,7 +66,7 @@ Maximumaantal accounts dat hetzelfde e-mailadres mag delen. Stel in op 0 om deze
 
 **Globale limiet van gebruikers per cursus**
 
-Definieert een globaal maximumaantal gebruikers (inclusief docenten) dat mag worden ingeschreven voor eender welke afzonderlijke cursus op het platform. Stel deze waarde in op 0 om de limiet uit te schakelen. Dit helpt voorkomen dat cursussen overbelast raken in open portalen.
+Definieert een globaal maximumaantal gebruikers (inclusief docenten) dat aan een afzonderlijke cursus op het platform mag worden ingeschreven. Stel deze waarde in op 0 om de limiet uit te schakelen. Dit helpt te voorkomen dat cursussen op open portalen overbelast raken.
 
 *Standaard: `0`*
 
@@ -74,7 +74,7 @@ Definieert een globaal maximumaantal gebruikers (inclusief docenten) dat mag wor
 
 **Naam van de organisatie**
 
-De naam van de organisatie (verschijnt in de koptekst rechts)
+De naam van de organisatie (verschijnt rechts in de koptekst)
 
 *Standaard: `Chamilo.org`*
 
@@ -89,24 +89,24 @@ Adres
 
 **URL van de organisatie (webadres)**
 
-De URL van de instellingen (de link die in de koptekst rechts verschijnt)
+De URL van de instellingen (de koppeling die rechts in de koptekst verschijnt)
 
 *Standaard: `http://www.chamilo.org`*
 
 
 ### `max_courses_per_user`
 
-**Maximumcursussen per gebruiker**
+**Maximumaantal cursussen per gebruiker**
 
-Maximumaantal cursussen dat een docent/trainer kan aanmaken. Stel in op 0 om de limiet uit te schakelen. Kan per gebruiker worden overschreven via een aankoop van een BuyCourses-dienst.
+Maximumaantal cursussen dat een docent/trainer kan aanmaken. Stel in op 0 om de limiet uit te schakelen. Kan per gebruiker worden overschreven via een aankoop van de BuyCourses-dienst.
 
 *Standaard: `0`*
 
 ### `notification_event`
 
-**De meldingstool inschakelen voor een impactvoller communicatiekanaal met studenten**
+**Het meldingsinstrument inschakelen voor een impactvoller communicatiekanaal met studenten**
 
-Activeert popup- of systeemmeldingen voor belangrijke platformgebeurtenissen.
+Activeert pop-up- of systeemmeldingen voor belangrijke platformgebeurtenissen.
 
 *Standaard: `false`*
 
@@ -114,7 +114,7 @@ Activeert popup- of systeemmeldingen voor belangrijke platformgebeurtenissen.
 
 **Resolutie van PDF-export**
 
-Dit vertegenwoordigt de resolutie van gegenereerde PDF-bestanden (in dots per inch, of dpi). De standaardwaarde is 96. Verhogen geeft PDF-bestanden met een betere resolutie, maar verhoogt ook het gewicht en de generatietijd van de bestanden.
+Dit is de resolutie van gegenereerde PDF-bestanden (in dots per inch, of dpi). De standaardwaarde is 96. Een hogere waarde levert PDF-bestanden met een betere resolutie op, maar vergroot ook de bestandsgrootte en de generatietijd.
 
 *Standaard: `96`*
 
@@ -122,7 +122,7 @@ Dit vertegenwoordigt de resolutie van gegenereerde PDF-bestanden (in dots per in
 
 **URL voor alternatief platformlogo**
 
-Vervangt het Chamilo-logo door het laden van een (mogelijk externe) URL. Zorg ervoor dat dit is toegestaan door uw beveiligingsbeleid.
+Vervangt het Chamilo-logo door een (mogelijk externe) URL te laden. Zorg ervoor dat dit is toegestaan volgens uw beveiligingsbeleid.
 
 *Standaard: `https://chamilo.org`*
 
@@ -131,15 +131,15 @@ Vervangt het Chamilo-logo door het laden van een (mogelijk externe) URL. Zorg er
 
 **Geavanceerd delen van portfolio inschakelen**
 
-Bepaal wie de berichten en reacties van het portfolio kan bekijken.
+Bepaal wie de berichten en opmerkingen van het portfolio kan bekijken.
 
 *Standaard: `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Berichten van de basiscursus tonen in sessiecursus**
+**Berichten van de basiscursus tonen in de sessiecursus**
 
-Bepaal wie de berichten en reacties van het portfolio kan bekijken.
+Bepaal wie de berichten en opmerkingen van het portfolio kan bekijken.
 
 *Standaard: `false`*
 
@@ -147,13 +147,13 @@ Bepaal wie de berichten en reacties van het portfolio kan bekijken.
 
 **Instellingen voor pushmeldingen (JSON)**
 
-JSON-configuratie voor integratie van pushmeldingen.
+JSON-configuratie voor de integratie van pushmeldingen.
 
 ### `server_type`
 
 **Servertype**
 
-Definieert het omgevingstype: "prod" (normale productie), "validation" (zoals productie maar zonder rapportagestatistieken), of "test" (debugmodus met ontwikkelaarshulpmiddelen zoals indicatoren voor onvertaalde tekenreeksen).
+Definieert het type omgeving: "prod" (normale productie), "validation" (zoals productie maar zonder rapportagestatistieken) of "test" (debugmodus met ontwikkelaarshulpmiddelen zoals indicatoren voor niet-vertaalde tekenreeksen).
 
 *Standaard: `prod`*
 
@@ -161,7 +161,7 @@ Definieert het omgevingstype: "prod" (normale productie), "validation" (zoals pr
 
 **Sessiebeheerders toestaan alle gebruikers op alle URL's te zien**
 
-Indien ingeschakeld kunnen sessiebeheerders gebruikers van alle toegangs-URL's zoeken en weergeven, ongeacht hun huidige URL.
+Indien ingeschakeld, kunnen sessiebeheerders gebruikers van alle toegangs-URL's zoeken en weergeven, ongeacht hun huidige URL.
 
 *Standaard: `false`*
 
@@ -171,69 +171,79 @@ Indien ingeschakeld kunnen sessiebeheerders gebruikers van alle toegangs-URL's z
 
 De naam van uw Chamilo-portaal (verschijnt in de koptekst)
 
-*Default: `Chamilo site`*
+*Standaard: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Tijdkiezer-increment**
+**Increment van de timepicker**
 
-Minimale tijdstap (in minuten) bij het selecteren van een datum en tijd met de tijdkiezer-widget. Het is bijvoorbeeld mogelijk niet nuttig om stappen van minder dan 5 of 15 minuten te hebben bij het indienen van opdrachten, de beschikbaarheid van een toets, de starttijd van een sessie, enz.
+Minimale tijdstap (in minuten) bij het selecteren van een datum en tijd met de timepicker-widget. Het is bijvoorbeeld mogelijk niet zinvol om stappen van minder dan 5 of 15 minuten te gebruiken bij het instellen van de inleverdatum van een opdracht, de beschikbaarheid van een toets, de starttijd van een sessie, enzovoort.
 
-*Default: `15`*
+*Standaard: `15`*
 
 ### `timezone`
 
 **Standaardtijdzone**
 
-Selecteer de standaardtijdzone voor dit portaal. Dit helpt de tijdzone in te stellen (als de functie is ingeschakeld) voor elke nieuwe gebruiker of voor elke gebruiker die nog geen specifieke tijdzone heeft ingesteld. Tijdzones helpen alle tijdgerelateerde informatie op het scherm weer te geven in de specifieke tijdzone van elke gebruiker.
+Selecteer de standaardtijdzone voor dit portaal. Hiermee wordt de tijdzone ingesteld (als de functie is ingeschakeld) voor elke nieuwe gebruiker of voor elke gebruiker die nog geen specifieke tijdzone heeft ingesteld. Tijdzones zorgen ervoor dat alle tijdgerelateerde informatie op het scherm wordt weergegeven in de specifieke tijdzone van elke gebruiker.
 
-*Default: `Europe/Paris`*
+*Standaard: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
 **UNO-converterbinaries**
 
-Geef het systeempad naar de UNO-converterbibliotheek om extra exportfuncties in te schakelen.
+Geef het systeempad naar de UNO-converterbibliotheek op om enkele extra exportfuncties in te schakelen.
 
-*Default: `/usr/bin/unoconv`*
+*Standaard: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Extern loopbaan-ID gebruiken in diagrammen**
+**Externe carrière-ID gebruiken in diagrammen**
 
-Als u loopbaandiagrammen gebruikt, toon dan een extra veld in plaats van het interne loopbaan-ID.
+Als carrièrediagrammen worden gebruikt, een extra veld weergeven in plaats van de interne carrière-ID.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `use_custom_pages`
 
 **Aangepaste pagina's gebruiken**
 
-Schakel deze functie in om specifieke inlogpagina's per rol te configureren
+Schakel deze functie in om specifieke aanmeldpagina's per rol te configureren
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `use_virtual_keyboard`
 
 **Virtueel toetsenbord gebruiken**
 
-Laat een virtueel toetsenbord verschijnen. Dit is nuttig bij het opzetten van restrictieve examens in een fysieke ruimte waar studenten geen toetsenbord hebben, om hun mogelijkheid tot spieken te beperken.
+Laat een virtueel toetsenbord verschijnen. Dit is nuttig bij het inrichten van beperkte examens in een fysieke ruimte waar studenten geen toetsenbord hebben, om hun mogelijkheden om te frauderen te beperken.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `user_status_show_option`
 
 **Weergaveopties voor rollen**
 
-Een array van rol => true/false die definieert of die rol moet worden getoond of verborgen.
+Een array van rol => true/false die bepaalt of die rol moet worden weergegeven of verborgen.
 
 ### `user_status_show_options_enabled`
 
 **Selectieve weergave van rollen**
 
-Schakel in om een array te gebruiken om te definiëren welke rollen duidelijk moeten worden weergegeven en welke moeten worden verborgen.
+Inschakelen om een array te gebruiken waarmee wordt bepaald welke rollen duidelijk moeten worden weergegeven en welke moeten worden verborgen.
 
-*Default: `false`*
+*Standaard: `false`*
+
+### `personal_files_quota_mb`
+
+**Mijn bestanden: totale opslagquota per gebruiker (MB)**
+
+Maximale totale omvang van de persoonlijke bestanden van elke gebruiker. Deze limiet geldt niet voor cursusdocumenten, Dropbox of BuyCourses-voordelen.
+
+*Standaard: `0` (onbeperkt)*
+
+Zie [opslagquota PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

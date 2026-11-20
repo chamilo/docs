@@ -1,10 +1,10 @@
 # Registratie-instellingen
 
-Zelfregistratiebeleid en omleidingen na registratie — wat nieuwe gebruikers wordt gevraagd en waar ze terechtkomen.
+Beleid voor zelfregistratie en omleidingen na registratie — wat nieuwe gebruikers wordt gevraagd en waar zij terechtkomen.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Registratie**. Deze categorie bevat **21 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de instellingen-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > Registratie**. Deze categorie bevat **21 instellingen**, hieronder vermeld met de titel en het commentaar zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code staat in monospace. Gebruik deze bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
@@ -12,7 +12,7 @@ Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Registrat
 
 **Dubbele validatie voor het registratieproces**
 
-Toon eenvoudig een bevestigingsverzoek op de registratiepagina voordat de gebruiker wordt aangemaakt.
+Toon eenvoudig een bevestigingsverzoek op de registratiepagina voordat de aanmaak van de gebruiker wordt voortgezet.
 
 *Standaard: `false`*
 
@@ -21,13 +21,13 @@ Toon eenvoudig een bevestigingsverzoek op de registratiepagina voordat de gebrui
 
 **Velden beperken die tijdens registratie worden getoond**
 
-Als u slechts enkele van de beschikbare profielvelden wilt tonen, kunt u hier de array aanvullen met de subelementen 'fields' en 'extra_fields' die arrays bevatten met een lijst van de te tonen velden.
+Als u slechts enkele van de beschikbare profielvelden wilt tonen, kunt u de array hier aanvullen met de subelementen 'fields' en 'extra_fields', die arrays bevatten met een lijst van de te tonen velden.
 
 ### `allow_invitation_registration` **v3**
 
-**Registratie via uitnodigingslinks van cursussen toestaan**
+**Registratie via uitnodigingslinks voor cursussen toestaan**
 
-Indien ingeschakeld kan een docent/beheerder vanuit de tool Gebruikers van een cursus een eenmalige uitnodigingslink versturen waarmee een niet-geregistreerde persoon het registratieformulier kan bereiken en zich kan registreren, zelfs wanneer algemene zelfregistratie (`allow_registration`) is uitgeschakeld.
+Indien ingeschakeld, kan een docent/beheerder vanuit het gebruikershulpmiddel van een cursus een eenmalige uitnodigingslink versturen waarmee een niet-geregistreerde persoon het registratieformulier kan bereiken en zich kan registreren, zelfs wanneer algemene zelfregistratie (`allow_registration`) is uitgeschakeld.
 
 *Standaard: `false`*
 
@@ -37,7 +37,7 @@ Zie [Gebruikers inschrijven](../../teacher-guide/assessing-learners/subscribing-
 
 **Wachtwoord vergeten**
 
-Mogen gebruikers hun verloren wachtwoord opvragen?
+Mogen gebruikers hun vergeten wachtwoord opvragen?
 
 *Standaard: `true`*
 
@@ -61,28 +61,33 @@ Kan men zich registreren als docent (met de mogelijkheid om cursussen aan te mak
 
 **Algemene voorwaarden inschakelen**
 
-Deze optie toont de Algemene voorwaarden in het registratieformulier voor nieuwe gebruikers. Dit moet eerst worden geconfigureerd op de beheerpagina van het portaal.
+Deze optie toont de algemene voorwaarden in het registratieformulier voor nieuwe gebruikers. Moet eerst worden geconfigureerd op de beheerpagina van het portaal.
 
 *Standaard: `false`*
 
+Indien ingeschakeld, kan een platformbeheerder, of een leidinggevende van een cursist, de overeenkomst van een cursist beheren vanaf drie plaatsen: de gebruikersinformatiepagina (**Beheer > Gebruikers**, vervolgens de gebruiker), de trackingpagina van de cursist in **Rapportage** en de cursistenpagina van de globale rapportage (`/reporting/learners/<id>`). De knop is overal dezelfde:
 
-### `drh_autosubscribe`
+* **Juridische overeenkomst verzenden** stuurt de cursist een bericht, ondertekend met de naam van de afzender, waarin wordt gevraagd de algemene voorwaarden te ondertekenen, met een link naar het adres dat is ingesteld in [`course_validation_terms_and_conditions_url`](course-settings.md#course_validation_terms_and_conditions_url).
+* **Juridische overeenkomst verwijderen** verschijnt zodra de cursist heeft geaccepteerd, en verwijdert die acceptatie, zodat de cursist opnieuw wordt gevraagd de algemene voorwaarden te accepteren.
 
-**Automatisch inschrijven van HR-directeur**
 
-Automatisch inschrijven van HR-directeur - nog niet beschikbaar
+### `hrm_autosubscribe`
+
+**Automatisch inschrijven van humanresourcesmanager**
+
+Cursuscodes gescheiden door `|` (bijvoorbeeld `COURSE001|COURSE002`). Wanneer een HRM inlogt, schrijft Chamilo de gebruiker automatisch in voor de vermelde cursussen zonder de gebruikersrol te wijzigen. De oude instellingsnaam `registration.drh_autosubscribe` blijft herkend voor compatibiliteit.
 
 ### `extendedprofile_registration`
 
 **Portfoliovelden bij registratie**
 
-Welke van de volgende portfoliovelden moeten beschikbaar zijn in het gebruikersregistratieproces? Dit vereist dat de portfolio-optie is ingeschakeld (zie hierboven).
+Welke van de volgende portfoliovelden moeten beschikbaar zijn in het gebruikersregistratieproces? Hiervoor moet de portfolio-optie zijn ingeschakeld (zie hierboven).
 
 ### `extendedprofile_registrationrequired`
 
 **Verplichte portfoliovelden bij registratie**
 
-Welke van de volgende portfoliovelden zijn *verplicht* in het gebruikersregistratieproces? Dit vereist dat de portfolio-optie is ingeschakeld en dat het veld ook beschikbaar is in het registratieformulier (zie hierboven).
+Welke van de volgende portfoliovelden zijn *verplicht* in het gebruikersregistratieproces? Hiervoor moet de portfolio-optie zijn ingeschakeld en moet het veld ook beschikbaar zijn in het registratieformulier (zie hierboven).
 
 ### `extldap_config`
 
@@ -92,9 +97,9 @@ Array die host en poort voor de LDAP-server definieert.
 
 ### `hide_legal_accept_checkbox`
 
-**Selectievakje voor juridische aanvaarding verbergen op de pagina Algemene voorwaarden**
+**Selectievakje voor juridische acceptatie verbergen op de pagina Algemene voorwaarden**
 
-Indien ingesteld op true, wordt het selectievakje "Ik heb gelezen en ga akkoord" in de flow van de pagina Algemene voorwaarden verwijderd.
+Indien ingesteld op true, verwijdert dit het selectievakje "Ik heb gelezen en accepteer" in de flow van de pagina Algemene voorwaarden.
 
 *Standaard: `false`*
 
@@ -103,23 +108,22 @@ Indien ingesteld op true, wordt het selectievakje "Ik heb gelezen en ga akkoord"
 
 **Uitschrijven van het platform toestaan**
 
-Door deze optie in te schakelen, staat u elke gebruiker toe om definitief zijn eigen account en alle gerelateerde gegevens van het platform te verwijderen. Dit is een vrij radicale actie, maar noodzakelijk voor portalen die openstaan voor het publiek waar gebruikers zichzelf kunnen registreren. Er verschijnt een extra item in het gebruikersprofiel om na bevestiging uit te schrijven.
+Door deze optie in te schakelen, staat u elke gebruiker toe zijn eigen account en alle daaraan gerelateerde gegevens definitief van het platform te verwijderen. Dit is een vrij radicale actie, maar noodzakelijk voor portalen die openstaan voor het publiek waar gebruikers zich zelf kunnen registreren. Er verschijnt een extra item in het gebruikersprofiel om zich na bevestiging uit te schrijven.
 
 *Standaard: `false`*
 
-
 ### `redirect_after_login`
 
-**Omleiding na aanmelden (per profiel)**
+**Omleiding na aanmelding (per profiel)**
 
-Definieer omleiding per profiel na aanmelden met een JSON-object zoals {"STUDENT":"", "ADMIN":"admin-dashboard"}
+Definieer de omleiding per profiel na aanmelding met een JSON-object zoals {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
 *Standaard:*
 ```json
 {
   "COURSEMANAGER": "courses",
   "STUDENT": "courses",
-  "DRH": "",
+  "HRM": "",
   "SESSIONADMIN": "admin-dashboard",
   "STUDENT_BOSS": "main/my_space/student.php",
   "INVITEE": "courses",
@@ -127,23 +131,25 @@ Definieer omleiding per profiel na aanmelden met een JSON-object zoals {"STUDENT
 }
 ```
 
+Gebruik de rolsleutel `HRM` in nieuwe omleidingsconfiguraties. Bestaande toewijzingen die `DRH` bevatten, worden nog steeds gelezen voor compatibiliteit; als beide sleutels aanwezig zijn, heeft `HRM` voorrang.
+
 ### `required_extra_fields_in_inscription`
 
 **Verplichte extra velden tijdens registratie**
 
-Array van extra-veldidentificatoren die tijdens gebruikersregistratie moeten worden ingevuld.
+Array van extra veldidentificatoren die tijdens de gebruikersregistratie moeten worden ingevuld.
 
 ### `required_profile_fields`
 
 **Verplichte velden tijdens registratie**
 
-Array van profielveldnamen (email, phone, language, official_code) die tijdens registratie moeten worden opgegeven.
+Array van profielveldnamen (email, phone, language, official_code) die tijdens de registratie moeten worden opgegeven.
 
 ### `send_inscription_msg_to_inbox`
 
-**Het welkomstbericht naar e-mail en inbox verzenden**
+**Welkomstbericht naar e-mail en inbox verzenden**
 
-Standaard wordt het welkomstbericht (met inloggegevens) alleen per e-mail verzonden. Schakel deze optie in om het ook naar de Chamilo-inbox van de gebruiker te sturen.
+Standaard wordt het welkomstbericht (met inloggegevens) alleen per e-mail verzonden. Schakel deze optie in om het ook naar de Chamilo-inbox van de gebruiker te verzenden.
 
 *Standaard: `false`*
 
@@ -156,20 +162,20 @@ Automatisch inschrijven van sessiebeheerder - nog niet beschikbaar
 
 ### `student_autosubscribe`
 
-**Automatische inschrijving van cursisten**
+**Automatisch inschrijven van cursist**
 
-Automatische inschrijving van cursisten - nog niet beschikbaar
+Automatisch inschrijven van cursist - nog niet beschikbaar
 
 ### `teacher_autosubscribe`
 
-**Automatische inschrijving van docenten**
+**Automatisch inschrijven van docent**
 
-Automatische inschrijving van docenten - nog niet beschikbaar
+Automatisch inschrijven van docent - nog niet beschikbaar
 
 ### `user_hide_never_expire_option`
 
-**Optie 'vervalt nooit' voor gebruikers verbergen**
+**Optie 'verloopt nooit' voor gebruikers verbergen**
 
-Verwijder de optie 'vervalt nooit' bij het aanmaken/bewerken van een gebruikersaccount.
+Verwijder de optie 'verloopt nooit' bij het aanmaken of bewerken van een gebruikersaccount.
 
 *Standaard: `false`*

@@ -1,10 +1,10 @@
-# Zertifikatseinstellungen
+# Zertifikateinstellungen
 
-Standardeinstellungen, die gelten, wenn ein Lernender ein Zertifikat aus dem Notenbuch erhält.
+Standardwerte, die angewendet werden, wenn ein Lernender ein Zertifikat aus dem Notenbuch erhält.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Zertifikate**. Diese Kategorie enthält **11 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
+Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Zertifikate**. Diese Kategorie enthält **23 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> Der Variablenname im Code ist in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -18,9 +18,9 @@ Wenn aktiviert, wird den PDF-Exporten von Zertifikaten eine Fußzeile hinzugefü
 
 ### `add_gradebook_certificates_cron_task_enabled` **v3**
 
-**Automatische Zertifikatsgenerierung bei WS-Aufruf**
+**Automatische Zertifikatserzeugung bei WS-Aufruf**
 
-Wenn aktiviert und der Webservice WSCertificatesList verwendet wird, stellt diese Option sicher, dass alle Zertifikate von den Nutzern generiert wurden, sofern sie in allen im Notenbuch definierten Elementen für alle Kurse und Sitzungen die ausreichende Punktzahl erreicht haben (dies kann erhebliche Verarbeitungsressourcen auf Ihrem Server beanspruchen).
+Wenn aktiviert und bei Verwendung des Webservices WSCertificatesList stellt diese Option sicher, dass alle Zertifikate von den Benutzern erzeugt wurden, sofern sie in allen im Notenbuch definierten Elementen für alle Kurse und Sitzungen die ausreichende Punktzahl erreicht haben (dies kann erhebliche Verarbeitungsressourcen auf Ihrem Server beanspruchen).
 
 *Standard: `false`*
 
@@ -28,7 +28,7 @@ Wenn aktiviert und der Webservice WSCertificatesList verwendet wird, stellt dies
 
 **Zertifikatssuche zulassen**
 
-Erlaubt Nutzern und Besuchern, generierte Zertifikate über das Menü in der oberen Leiste zu suchen.
+Erlaubt Benutzern und Besuchern, erzeugte Zertifikate über das Menü in der oberen Leiste zu suchen.
 
 *Standard: `false`*
 
@@ -36,7 +36,7 @@ Erlaubt Nutzern und Besuchern, generierte Zertifikate über das Menü in der obe
 
 **Allgemeines Zertifikat aktivieren**
 
-Ein allgemeines Zertifikat ist ein Zertifikat, das alle Leistungen des Nutzers in den von ihm besuchten Kursen zusammenfasst.
+Ein allgemeines Zertifikat ist ein Zertifikat, das alle Leistungen des Benutzers in den von ihm absolvierten Kursen zusammenfasst.
 
 *Standard: `false`*
 
@@ -44,7 +44,15 @@ Ein allgemeines Zertifikat ist ein Zertifikat, das alle Leistungen des Nutzers i
 
 **Öffentliche Zertifikate zulassen**
 
-Nutzerzertifikate können von nicht registrierten Nutzern eingesehen werden.
+Benutzerzertifikate können von nicht registrierten Benutzern eingesehen werden.
+
+*Standard: `false`*
+
+### `blockchain_verification_enabled`
+
+**Signierte Zertifikate und optionale Verankerung im Sepolia-Testnet aktivieren**
+
+Wenn aktiviert, kann ein Lernender die Veröffentlichung eines digital signierten Notenbuch-Zertifikatsnachweises genehmigen; ein Administrator kann ihn ausstellen oder widerrufen und optional den Fingerabdruck des Nachweises im Sepolia-Testnet verankern. Siehe [Verifizierung signierter Zertifikate](../maintenance/signed-certificate-verification.md).
 
 *Standard: `false`*
 
@@ -52,7 +60,7 @@ Nutzerzertifikate können von nicht registrierten Nutzern eingesehen werden.
 
 **Zertifikate nach offiziellem Code filtern**
 
-Fügt der Zertifikatsliste einen Filter nach dem offiziellen Code der Studierenden hinzu.
+Fügt der Zertifikatsliste einen Filter auf den offiziellen Code der Studierenden hinzu.
 
 *Standard: `false`*
 
@@ -60,7 +68,7 @@ Fügt der Zertifikatsliste einen Filter nach dem offiziellen Code der Studierend
 
 **PDF-Ausrichtung für Zertifikate**
 
-Legen Sie ‚portrait‘ oder ‚landscape‘ (technische Begriffe) für PDF-Zertifikate fest.
+Legen Sie „portrait“ oder „landscape“ (Fachbegriffe) für PDF-Zertifikate fest.
 
 *Standard: `landscape`*
 
@@ -68,7 +76,7 @@ Legen Sie ‚portrait‘ oder ‚landscape‘ (technische Begriffe) für PDF-Zer
 
 **Zertifikate: PDF-Exportlink für alle ausblenden**
 
-Aktivieren, um die Möglichkeit zum Export von Zertifikaten als PDF vollständig zu entfernen (für alle Nutzer). Wenn aktiviert, gilt dies auch für das Ausblenden gegenüber Studierenden.
+Aktivieren, um die Möglichkeit, Zertifikate als PDF zu exportieren, vollständig zu entfernen (für alle Benutzer). Wenn aktiviert, schließt dies das Ausblenden für Studierende ein.
 
 *Standard: `false`*
 
@@ -82,9 +90,9 @@ Wenn aktiviert, können Studierende ihre Zertifikate nicht als PDF exportieren. 
 
 ### `hide_my_certificate_link`
 
-**Link ‚Mein Zertifikat‘ ausblenden**
+**Link „Mein Zertifikat“ ausblenden**
 
-Blendet die Zertifikatsseite für Nicht-Administratoren aus.
+Blendet die Zertifikatsseite für Benutzer ohne Administratorrechte aus.
 
 *Standard: `false`*
 
@@ -92,10 +100,98 @@ Blendet die Zertifikatsseite für Nicht-Administratoren aus.
 
 **Sitzungsadministratoren das Herunterladen privater Zertifikate erlauben**
 
-Wenn aktiviert, können Sitzungsadministratoren Zertifikate herunterladen, auch wenn diese nicht öffentlich veröffentlicht sind.
+Wenn aktiviert, können Sitzungsadministratoren Zertifikate herunterladen, auch wenn sie nicht öffentlich veröffentlicht sind.
 
 *Standard: `false`*
 
+### `transcript_enabled`
+
+**Akademische Leistungsnachweise**
+
+Aktiviert inoffizielle akademische Leistungsnachweise für Lernende und erlaubt autorisiertem Personal, digital signierte, widerrufbare offizielle Leistungsnachweise auszustellen. Der eigene Leistungsnachweis eines Benutzers erscheint unter `/transcript`. Siehe [Akademische Leistungsnachweise](../users/academic-transcripts.md).
+
+*Standard: `false`*
+
+### `transcript_program_title`
+
+**Programmtitel des Leistungsnachweises**
+
+Programm- oder Qualifikationsbezeichnung, die auf Leistungsnachweis-PDFs gedruckt wird.
+
+*Standard: leer*
+
+### `transcript_course_code_source`
+
+**Kurscode des Leistungsnachweises**
+
+Wählen Sie, welches Kursfeld den auf Leistungsnachweisen angezeigten Code liefert: Kurscode (`visual_code`) oder Abteilungsname (`department_name`).
+
+*Standard: `visual_code`*
+
+### `transcript_hours_extra_field`
+
+**Feld für Kursstunden des Leistungsnachweises**
+
+Variable des zusätzlichen Kursfelds, das die erforderlichen Stunden enthält. Leer lassen, um die Kursdauer zu verwenden.
+
+*Standard: leer*
+
+### `transcript_completed_hours_are_required_hours`
+
+**Abgeschlossene Stunden des Leistungsnachweises sind die erforderlichen Stunden**
+
+Wenn aktiviert, werden die erforderlichen Kursstunden als abgeschlossene Stunden angezeigt. Andernfalls spiegeln die abgeschlossenen Stunden die im Kurs erfasste Lernzeit wider.
+
+*Standard: `false`*
+
+### `transcript_student_number_extra_field`
+
+**Feld für die Matrikelnummer des Leistungsnachweises**
+
+Variable des zusätzlichen Benutzerfelds, das die Matrikelnummer des Lernenden enthält. Leer lassen, um diese Nummer wegzulassen.
+
+*Standard: leer*
+
+### `transcript_address_extra_fields`
+
+**Adressfelder des Transcripts**
+
+Kommagetrennte Variablen zusätzlicher Benutzerfelder, die an die Adresse der lernenden Person angehängt werden, z. B. Ort oder Postleitzahl.
+
+*Standard: leer*
+
+### `transcript_grading_scale`
+
+**Notenskala des Transcripts**
+
+Ein JSON-Array aus Mindestprozentsatz, Buchstabennote und Notenpunkten, geordnet vom höchsten zum niedrigsten Minimum. Beispiel: `{ "min": 90, "letter": "A", "points": 4.0 }`. Diese Zuordnung wird für die Buchstaben und den GPA des Transcripts verwendet.
+
+*Standard: A (90% / 4), B (80% / 3), C (70% / 2), D (60% / 1), F (0% / 0)*
+
+### `transcript_gpa_note`
+
+**GPA-Hinweis des Transcripts**
+
+Text, der unter dem GPA gedruckt wird und die Berechnung erläutert. Standardmäßig ist der GPA der **ungewichtete Durchschnitt** der Notenpunkte der im Transcript aufgeführten Kurse.
+
+*Standard: `The GPA is the unweighted average of the grade points of the courses listed in this transcript.`*
+
+### `transcript_signatory_name`
+
+**Name der unterzeichnenden Person des Transcripts**
+
+Name der institutionellen unterzeichnenden Person, der auf offiziellen Transcripts gedruckt wird. Eine Plattformadministration kann auf der Transcript-Seite eines Benutzers ein separates Unterschriftsbild hochladen.
+
+*Standard: leer*
+
+### `transcript_signatory_title`
+
+**Titel der unterzeichnenden Person des Transcripts**
+
+Amts- bzw. Funktionsbezeichnung der institutionellen unterzeichnenden Person auf offiziellen Transcripts.
+
+*Standard: leer*
+
 ## Siehe auch
 
-Zertifikaten kann nun eine Gültigkeitsdauer und ein Ablaufdatum zugewiesen werden, mit automatischen oder manuellen Ablauf-Erinnerungen. Dies wird hier nicht konfiguriert — die Gültigkeitsdauer ist eine lehrendenbezogene Notenbuch-Einstellung, und der Ein-/Ausschalter für den Erinnerungs-Cron befindet sich in der Kategorie **Cron-Jobs**. Siehe [Zertifikate und Kompetenzen](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) und [Cron-Job-Einstellungen](crons-settings.md#certificate-expiry-reminders).
+Zertifikate können nun eine Gültigkeitsdauer und ein Ablaufdatum erhalten, mit automatischen oder manuellen Ablauferinnerungen. Dies wird hier nicht konfiguriert — die Gültigkeitsdauer ist eine lehrendenorientierte Einstellung des Notenbuchs, und der Ein-/Aus-Schalter des Erinnerungs-Crons befindet sich in der Kategorie **Cron-Jobs**. Siehe [Zertifikate und Kompetenzen](../../teacher-guide/tracking-and-reporting/certificates-and-skills.md#certificate-validity-and-expiry) und [Einstellungen für Cron-Jobs](crons-settings.md#certificate-expiry-reminders).

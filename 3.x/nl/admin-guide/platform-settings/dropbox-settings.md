@@ -1,42 +1,42 @@
 # Dropbox-instellingen
 
-Gedrag van de **Dropbox**-tool voor bestandsuitwisseling.
+Gedrag van het bestanduitwisselingsinstrument **Dropbox**.
 
-Deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Dropbox**. Deze categorie bevat **8 instellingen**, hieronder weergegeven met de titel en toelichting zoals meegeleverd in de settings-fixtures van het platform (`SettingsCurrentFixtures.php`).
+Open deze instellingen via **Beheer > Configuratie-instellingen > Dropbox**. Deze categorie bevat **10 instellingen**, hieronder vermeld met de titel en de toelichting zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> De variabelenaam in de code staat in monospace. Gebruik die bij scripting via de API of wanneer u deze instellingen globaal wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij scripting via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
 ## Instellingen
 
 ### `dropbox_allow_group`
 
-**Dropbox: groepen toestaan**
+**Dropbox: groep toestaan**
 
-Gebruikers kunnen bestanden naar groepen sturen
+Gebruikers kunnen bestanden naar groepen verzenden
 
 *Standaard: `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: uploaden naar eigen dropbox-ruimte?**
+**Dropbox: Uploaden naar de eigen Dropbox-ruimte?**
 
-Trainers en gebruikers toestaan documenten naar hun dropbox te uploaden zonder de documenten naar zichzelf te sturen
+Trainers en gebruikers toestaan documenten naar hun Dropbox te uploaden zonder de documenten naar zichzelf te verzenden
 
 *Standaard: `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: mailing toestaan**
+**Dropbox: Verzending toestaan**
 
-Met de mailingfunctionaliteit kunt u elke cursist een persoonlijk document sturen
+Met de verzendfunctionaliteit kunt u elke cursist een persoonlijk document sturen
 
 *Standaard: `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: mogen documenten overschreven worden**
+**Dropbox: Kunnen documenten worden overschreven**
 
-Mag het oorspronkelijke document overschreven worden wanneer een gebruiker of trainer een document uploadt met de naam van een document dat al bestaat? Als u ja antwoordt, verliest u het versiebeheermechanisme.
+Kan het oorspronkelijke document worden overschreven wanneer een gebruiker of trainer een document uploadt met de naam van een document dat al bestaat? Als u ja antwoordt, verliest u het versiebeheermechanisme.
 
 *Standaard: `true`*
 
@@ -44,31 +44,49 @@ Mag het oorspronkelijke document overschreven worden wanneer een gebruiker of tr
 
 **Dropbox: Cursist <-> Cursist**
 
-Gebruikers toestaan documenten naar andere gebruikers te sturen (peer 2 peer). Gebruikers kunnen dit ook gebruiken voor minder relevante documenten (mp3, toetsantwoorden, ...). Als u dit uitschakelt, kunnen gebruikers documenten alleen naar de trainer sturen.
+Gebruikers toestaan documenten naar andere gebruikers te verzenden (peer-to-peer). Gebruikers kunnen dit ook gebruiken voor minder relevante documenten (mp3, oplossingen van toetsen, ...). Als u dit uitschakelt, kunnen gebruikers alleen documenten naar de trainer verzenden.
 
 *Standaard: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: cursusbegeleider verbergen**
+**Dropbox: cursustutor verbergen**
 
-De sessie-cursusbegeleider in Dropbox verbergen wanneer de begeleider een document naar studenten stuurt
+De sessiecursustutor in Dropbox verbergen wanneer een document door de tutor naar studenten wordt verzonden
 
 *Standaard: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Algemene begeleider in Dropbox verbergen**
+**Algemene tutor in Dropbox verbergen**
 
-De naam van de algemene begeleider in de Dropbox-tool verbergen wanneer de algemene begeleider het bestand heeft geüpload
+De naam van de algemene tutor in het Dropbox-instrument verbergen wanneer de algemene tutor het bestand heeft geüpload
 
 *Standaard: `false`*
 
 
 ### `dropbox_max_filesize`
 
-**Dropbox: maximale bestandsgrootte van een document**
+**Dropbox: Maximale bestandsgrootte van een document**
 
-Hoe groot (in MB) mag een dropbox-document zijn?
+Hoe groot (in MB) mag een Dropbox-document zijn?
 
 *Standaard: `100000000`*
+
+### `dropbox_user_quota_mb`
+
+**Dropbox: totale opslagquota per gebruiker (MB)**
+
+Maximale gecombineerde grootte van bestanden die door één gebruiker over cursussen heen zijn geüpload. Ontvangers worden niet een tweede keer belast.
+
+*Standaard: `0` (onbeperkt)*
+
+### `dropbox_course_quota_mb`
+
+**Dropbox: totale opslagquota per cursus (MB)**
+
+Maximale gecombineerde grootte van Dropbox-bestanden voor één cursus, inclusief de sessies ervan. Los van de cursusquota voor Documenten.
+
+*Standaard: `0` (onbeperkt)*
+
+Zie [opslagquota PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

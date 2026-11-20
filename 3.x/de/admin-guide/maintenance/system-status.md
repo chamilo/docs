@@ -1,14 +1,14 @@
 # Systemstatus
 
-Die Seite Systemstatus hilft Ihnen zu überprüfen, ob Ihr Chamilo-Server korrekt konfiguriert ist, und mögliche Probleme zu erkennen.
+Die Seite „Systemstatus“ hilft Ihnen zu überprüfen, ob Ihr Chamilo-Server korrekt konfiguriert ist, und potenzielle Probleme zu erkennen.
 
 ## Zugriff auf den Systemstatus
 
 Klicken Sie im Administrationsbereich auf **Systemstatus** (oder **Systeminformationen**).
 
-## Was angezeigt wird
+## Angezeigte Informationen
 
-![Die Seite Systemstatus mit PHP-Konfiguration, Datenbankstatus, Dateiberechtigungen und Serverinformationen](../../.gitbook/assets/admin-system-status.png)
+![Die Seite „Systemstatus“ mit PHP-Konfiguration, Datenbankstatus, Dateiberechtigungen und Serverinformationen](../../.gitbook/assets/admin-system-status.png)
 
 ### PHP-Konfiguration
 
@@ -19,17 +19,17 @@ Klicken Sie im Administrationsbereich auf **Systemstatus** (oder **Systeminforma
 ### Datenbankstatus
 
 * **Datenbankverbindung** — Bestätigt, dass die Datenbank erreichbar ist
-* **Datenbankversion** — Zeigt die Version des Datenbankservers
+* **Datenbankversion** — Zeigt die Version des Datenbankservers an
 
 ### Dateiberechtigungen
 
-* **Beschreibbare Verzeichnisse** — Prüft, ob Chamilo in die erforderlichen Verzeichnisse schreiben kann (Cache, Uploads, Logs)
+* **Beschreibbare Verzeichnisse** — Prüft, ob Chamilo in die erforderlichen Verzeichnisse schreiben kann (Cache, Uploads, Protokolle)
 
 ### Serverinformationen
 
-* **Betriebssystem** — Angaben zum Server-Betriebssystem
-* **Webserver** — Apache, Nginx oder anderer
-* **Festplattenspeicher** — Verfügbarer Speicherplatz
+* **Betriebssystem** — Details zum Server-Betriebssystem
+* **Webserver** — Apache, Nginx oder ein anderer
+* **Speicherplatz** — Verfügbarer Speicher
 
 ## Empfohlene Prüfungen
 

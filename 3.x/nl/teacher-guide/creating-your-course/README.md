@@ -1,13 +1,13 @@
 # Uw cursus aanmaken
 
-Dit gedeelte legt uit hoe u een nieuwe cursus in Chamilo aanmaakt en deze naar uw behoeften configureert.
+In dit gedeelte wordt uitgelegd hoe u een nieuwe cursus aanmaakt in Chamilo en deze naar uw behoeften configureert.
 
 ## Een nieuwe cursus aanmaken
 
-Om een cursus aan te maken:
+Een cursus aanmaken:
 
 1. Klik op **Mijn cursussen** in de zijbalk
-2. Klik op de knop **Cursus aanmaken** (meestal een groen boek <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursussen" data-size="line">-pictogram met een +-teken)
+2. Klik op de knop **Cursus aanmaken** (meestal een groen boek <img src="../../.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursussen" data-size="line"> pictogram met een +-teken)
 3. Vul het formulier voor het aanmaken van de cursus in:
 
 ![Het formulier voor het aanmaken van een cursus met velden voor naam, categorie, code en taal](../../.gitbook/assets/course-creation-form.png)
@@ -15,11 +15,11 @@ Om een cursus aan te maken:
 | Veld | Verplicht | Beschrijving |
 |-------|----------|-------------|
 | **Cursusnaam** | Ja | Een korte, beschrijvende titel voor uw cursus (bijv. "Innovatiemanagement") |
-| **Cursuscategorie** | Nee | Selecteer een categorie om cursussen op het platform te helpen organiseren |
-| **Cursuscode** | Nee | Een korte code met alleen letters en cijfers (max. 40 tekens). Als u dit leeg laat, wordt er automatisch een gegenereerd op basis van de cursusnaam |
-| **Taal** | Nee | De primaire taal van de cursus. Standaard de taal die u momenteel gebruikt |
+| **Cursuscategorie** | Nee | Selecteer een categorie om cursussen op het platform te organiseren |
+| **Cursuscode** | Nee | Een korte code met alleen letters en cijfers (max. 40 tekens). Als dit veld leeg blijft, wordt er automatisch een code gegenereerd op basis van de cursusnaam |
+| **Taal** | Nee | De primaire taal van de cursus. Standaard ingesteld op uw huidige taal |
 
-Indien ingeschakeld, kunt u ook een instelling **Standaardlokaal** vinden en de mogelijkheid om een **Cursussjabloon** te gebruiken, zodat u uw cursus niet helemaal vanaf nul hoeft op te bouwen.
+Indien ingeschakeld, vindt u mogelijk ook een instelling **Standaardruimte** en de mogelijkheid om een **Cursussjabloon** te gebruiken, zodat u uw cursus niet volledig vanaf nul hoeft aan te maken.
 
 4. Klik op **Deze cursus aanmaken**
 
@@ -27,9 +27,9 @@ U wordt doorgestuurd naar de startpagina van uw nieuwe cursus. Er verschijnt een
 
 ## De cursusstartpagina
 
-Zodra uw cursus is aangemaakt, komt u op de startpagina terecht. Dit is het centrale knooppunt van uw cursus, waar u en uw deelnemers toegang hebben tot alle tools en inhoud.
+Zodra uw cursus is aangemaakt, komt u op de startpagina terecht. Dit is het centrale punt van uw cursus, waar u en uw cursisten toegang hebben tot alle tools en inhoud.
 
-![Het toolraster van de cursusstartpagina met beschikbare cursustools, pictogrammen en zichtbaarheidsschakelaars](../../.gitbook/assets/course-homepage-tool-grid.png)
+![Het toolraster op de cursusstartpagina met beschikbare cursustools, pictogrammen en zichtbaarheidsschakelaars](../../.gitbook/assets/course-homepage-tool-grid.png)
 
 De startpagina toont:
 
@@ -39,18 +39,18 @@ De startpagina toont:
 
 ### Zichtbaarheid van tools beheren
 
-Als docent kunt u bepalen welke tools uw deelnemers kunnen zien:
+Als docent kunt u bepalen welke tools uw cursisten kunnen zien:
 
-* Klik op het **oogpictogram** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaar" data-size="line"> naast een tool om deze voor deelnemers te verbergen. Verborgen tools tonen een **doorgestreept oog** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Verborgen" data-size="line"> en blijven voor u toegankelijk.
+* Klik op het **oogpictogram** <img src="../../.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaar" data-size="line"> naast een tool om deze voor cursisten te verbergen. Verborgen tools tonen een **doorgestreept oog** <img src="../../.gitbook/assets/icons/mdi-eye-off.svg" alt="Verborgen" data-size="line"> en blijven voor u toegankelijk.
 * Gebruik de knoppen **Alles tonen** en **Alles verbergen** om alle tools tegelijk te wijzigen
 * Klik op **Sorteren** om slepen-en-neerzetten voor het herschikken van het toolraster in te schakelen
 
 ### Studentweergave
 
-Klik op de knop **Studentweergave** om de cursusstartpagina precies te zien zoals een deelnemer die zou zien. Dit is nuttig om te controleren dat verborgen tools en niet-gepubliceerde inhoud niet zichtbaar zijn. Klik opnieuw op de knop om terug te keren naar de docentweergave.
+Klik op de knop **Studentweergave** om de cursusstartpagina precies te zien zoals een cursist deze zou zien. Dit is handig om te controleren of verborgen tools en niet-gepubliceerde inhoud niet zichtbaar zijn. Klik nogmaals op de knop om terug te keren naar de docentweergave.
 
 ## Volgende stappen
 
 * [Cursusinstellingen](course-settings.md) — Configureer toegang, inschrijving en andere opties op cursusniveau
-* [Cursusstartpagina](course-homepage.md) — Gedetailleerde gids voor het aanpassen van uw cursusstartpagina
+* [Cursusstartpagina](course-homepage.md) — Gedetailleerde handleiding voor het aanpassen van uw cursusstartpagina
 * [Cursusbeschrijving](course-description.md) — Schrijf een gestructureerde beschrijving van uw cursus voor de cursuscatalogus

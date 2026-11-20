@@ -1,10 +1,10 @@
 # Dropbox-Einstellungen
 
-Verhalten des Dateiaustausch-Werkzeugs **Dropbox**.
+Verhalten des Dateiaustausch-Tools **Dropbox**.
 
-Diese Einstellungen finden Sie unter **Administration > Konfigurationseinstellungen > Dropbox**. Diese Kategorie enthält **8 Einstellungen**, die nachfolgend mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
+Zugriff auf diese Einstellungen unter **Administration > Konfigurationseinstellungen > Dropbox**. Diese Kategorie enthält **10 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, die in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) mitgeliefert werden.
 
-> Der Variablenname im Code wird in Monospace dargestellt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen global ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
+> Der Variablenname im Code wird in Festbreitenschrift angezeigt. Verwenden Sie ihn beim Skripten über die API oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
 ## Einstellungen
 
@@ -26,9 +26,9 @@ Trainern und Benutzern erlauben, Dokumente in ihre Dropbox hochzuladen, ohne die
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Mailing zulassen**
+**Dropbox: Versand zulassen**
 
-Mit der Mailing-Funktion können Sie jedem Lernenden ein persönliches Dokument senden
+Mit der Versandfunktion können Sie jedem Lernenden ein persönliches Dokument senden
 
 *Standard: `false`*
 
@@ -36,7 +36,7 @@ Mit der Mailing-Funktion können Sie jedem Lernenden ein persönliches Dokument 
 
 **Dropbox: Können Dokumente überschrieben werden**
 
-Kann das Originaldokument überschrieben werden, wenn ein Benutzer oder Trainer ein Dokument mit dem Namen eines bereits vorhandenen Dokuments hochlädt? Wenn Sie ja antworten, verlieren Sie den Versionsmechanismus.
+Kann das Originaldokument überschrieben werden, wenn ein Benutzer oder Trainer ein Dokument mit dem Namen eines bereits vorhandenen Dokuments hochlädt? Wenn Sie mit Ja antworten, geht der Versionierungsmechanismus verloren.
 
 *Standard: `true`*
 
@@ -44,15 +44,15 @@ Kann das Originaldokument überschrieben werden, wenn ein Benutzer oder Trainer 
 
 **Dropbox: Lernender <-> Lernender**
 
-Benutzern erlauben, Dokumente an andere Benutzer zu senden (Peer-to-Peer). Benutzer könnten dies auch für weniger relevante Dokumente nutzen (mp3, Testlösungen, ...). Wenn Sie dies deaktivieren, können die Benutzer Dokumente nur an den Trainer senden.
+Benutzern erlauben, Dokumente an andere Benutzer zu senden (Peer-to-Peer). Benutzer könnten dies auch für weniger relevante Dokumente verwenden (mp3, Testlösungen, ...). Wenn Sie dies deaktivieren, können die Benutzer Dokumente nur an den Trainer senden.
 
 *Standard: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: Kurs-Tutor ausblenden**
+**Dropbox: Kurstutor ausblenden**
 
-Den Sitzungs-Kurs-Tutor in der Dropbox ausblenden, wenn ein Dokument vom Tutor an Studierende gesendet wird
+Den Sitzungskurstutor in der Dropbox ausblenden, wenn ein Dokument vom Tutor an Studierende gesendet wird
 
 *Standard: `false`*
 
@@ -60,7 +60,7 @@ Den Sitzungs-Kurs-Tutor in der Dropbox ausblenden, wenn ein Dokument vom Tutor a
 
 **Allgemeinen Tutor in der Dropbox ausblenden**
 
-Den Namen des allgemeinen Tutors im Dropbox-Werkzeug ausblenden, wenn der allgemeine Tutor die Datei hochgeladen hat
+Den Namen des allgemeinen Tutors im Dropbox-Tool ausblenden, wenn der allgemeine Tutor die Datei hochgeladen hat
 
 *Standard: `false`*
 
@@ -72,3 +72,21 @@ Den Namen des allgemeinen Tutors im Dropbox-Werkzeug ausblenden, wenn der allgem
 Wie groß (in MB) darf ein Dropbox-Dokument sein?
 
 *Standard: `100000000`*
+
+### `dropbox_user_quota_mb`
+
+**Dropbox: Gesamtspeicherkontingent pro Benutzer (MB)**
+
+Maximale kombinierte Größe der von einem einzelnen Benutzer kursübergreifend hochgeladenen Dateien. Empfänger werden nicht ein zweites Mal belastet.
+
+*Standard: `0` (unbegrenzt)*
+
+### `dropbox_course_quota_mb`
+
+**Dropbox: Gesamtspeicherkontingent pro Kurs (MB)**
+
+Maximale kombinierte Größe der Dropbox-Dateien für einen Kurs, einschließlich seiner Sitzungen. Getrennt vom Kurskontingent für Dokumente.
+
+*Standard: `0` (unbegrenzt)*
+
+Siehe [Speicherkontingente PR #9358](https://github.com/chamilo/chamilo-lms/pull/9358).

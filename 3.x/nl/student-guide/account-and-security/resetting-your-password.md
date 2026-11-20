@@ -1,38 +1,38 @@
-# Je wachtwoord opnieuw instellen
+# Uw wachtwoord opnieuw instellen
 
-Als je je wachtwoord bent vergeten — of het gewoon wilt wijzigen — lees je hier hoe, in beide situaties: voordat je bent ingelogd, en terwijl je al bent ingelogd.
+Als u uw wachtwoord bent vergeten — of het gewoon wilt wijzigen — leest u hier hoe dat werkt, in beide situaties: voordat u bent aangemeld en terwijl u al bent aangemeld.
 
-## Voordat je bent ingelogd
+## Voordat u bent aangemeld
 
-Klik op de inlogpagina op **Wachtwoord vergeten?**. Als deze link er niet is, heeft je beheerder deze functie uitgeschakeld — neem rechtstreeks contact met hen op om weer toegang te krijgen.
+Klik op de aanmeldpagina op **Wachtwoord vergeten?**. Als deze koppeling er niet is, heeft uw beheerder deze functie uitgeschakeld — neem rechtstreeks contact met hen op om weer toegang te krijgen.
 
-![Het formulier "Ik ben mijn wachtwoord kwijt", met één veld voor je gebruikersnaam of e-mailadres](../../.gitbook/assets/student-lost-password.png)
+![Het formulier "Ik ben mijn wachtwoord kwijt", met één veld voor uw gebruikersnaam of e-mailadres](../../.gitbook/assets/student-lost-password.png)
 
-1. Voer je **gebruikersnaam of e-mailadres** in het enige veld op het formulier in.
-2. Als er een CAPTCHA-uitdaging verschijnt, los die dan op (zie [CAPTCHA](captcha.md)).
+1. Voer uw **gebruikersnaam of e-mailadres** in het enige veld van het formulier in.
+2. Als er een CAPTCHA-uitdaging verschijnt, los deze dan op (zie [CAPTCHA](captcha.md)).
 3. Klik op **Bericht verzenden**.
 
-Wat er daarna gebeurt, hangt af van hoe je beheerder deze functie heeft geconfigureerd:
+Wat er daarna gebeurt, hangt af van hoe uw beheerder deze functie heeft geconfigureerd:
 
-* **Je ontvangt een link per e-mail.** Klik erop om een formulier voor het opnieuw instellen van het wachtwoord te openen met de velden **Wachtwoord** en **Wachtwoord bevestigen** — kies zelf een nieuw wachtwoord en dien het in. Deze link is eenmalig te gebruiken en verloopt na een beperkte tijd (standaard één uur, hoewel je beheerder dit kan wijzigen); als hij is verlopen, meldt de resetpagina dat en moet je een nieuwe aanvragen.
-* **Je ontvangt rechtstreeks een nieuw wachtwoord per e-mail.** Op sommige platformen genereert het systeem, in plaats van je zelf een wachtwoord te laten kiezen, er een voor je en stuurt het in de e-mail. Log daarmee in en overweeg het daarna te wijzigen in iets dat je onthoudt (zie hieronder).
+* **U ontvangt een koppeling per e-mail.** Klik erop om een formulier voor het opnieuw instellen van het wachtwoord te openen met de velden **Wachtwoord** en **Wachtwoord bevestigen** — kies zelf een nieuw wachtwoord en verzend het. Deze koppeling is eenmalig te gebruiken en verloopt na een beperkte tijd (standaard één uur, hoewel uw beheerder dit kan wijzigen); als de koppeling is verlopen, geeft de pagina voor het opnieuw instellen dat aan en moet u een nieuwe aanvragen.
+* **U ontvangt rechtstreeks een nieuw wachtwoord per e-mail.** Op sommige platforms genereert het systeem een wachtwoord voor u en stuurt het dit in de e-mail, in plaats van u zelf een wachtwoord te laten kiezen. Meld u ermee aan en overweeg het daarna te wijzigen in iets dat u gemakkelijk onthoudt (zie hieronder).
 
-Als je externe authenticatie gebruikt (single sign-on via je instelling), worden wachtwoordresets helemaal niet door Chamilo afgehandeld — gebruik in plaats daarvan het eigen proces "wachtwoord vergeten" van je instelling.
+Als u externe authenticatie gebruikt (single sign-on via uw instelling), worden het opnieuw instellen van wachtwoorden helemaal niet door Chamilo afgehandeld — gebruik in plaats daarvan de eigen procedure "wachtwoord vergeten" van uw instelling.
 
-## Terwijl je bent ingelogd
+## Terwijl u bent aangemeld
 
-Je kunt je wachtwoord op elk moment wijzigen, zonder te wachten tot je het vergeet:
+U kunt uw wachtwoord op elk moment wijzigen, zonder te wachten tot u het bent vergeten:
 
-1. Open je **avatar-menu** (rechterbovenhoek) en klik op **Mijn profiel**.
+1. Open uw **avatarmenu** (rechtsboven) en klik op **Mijn profiel**.
 2. Klik op **Wachtwoord wijzigen**.
-3. Voer je huidige wachtwoord in, daarna twee keer je nieuwe wachtwoord, en dien in.
+3. Voer uw huidige wachtwoord in, daarna tweemaal uw nieuwe wachtwoord, en verzend het formulier.
 
-![Het formulier Wachtwoord wijzigen, met velden voor je huidige wachtwoord en een nieuw wachtwoord](../../.gitbook/assets/student-change-password.png)
+![Het formulier Wachtwoord wijzigen, met velden voor uw huidige wachtwoord en een nieuw wachtwoord](../../.gitbook/assets/student-change-password.png)
 
-Dit is dezelfde pagina waar je [tweefactorauthenticatie](two-factor-authentication.md) kunt inschakelen, als je platform dat ondersteunt — in dat geval zie je hier ook een selectievakje "Tweefactorauthenticatie inschakelen", dat hierboven niet wordt getoond omdat het niet op elk platform actief is.
+Dit is dezelfde pagina waarop u [tweefactorauthenticatie](two-factor-authentication.md) kunt inschakelen, als uw platform dit ondersteunt — in dat geval ziet u hier ook een selectievakje "Tweefactorauthenticatie inschakelen", dat hierboven niet wordt getoond omdat het niet op elk platform actief is.
 
 ## Tips
 
-* **Controleer je spammap** als een reset-e-mail niet binnen enkele minuten aankomt.
-* **Reageer snel op resetlinks** — ze verlopen, en platformen stellen die vervaltermijn vaak in op slechts een uur.
-* **Nog steeds vastgelopen?** Als zelfbedieningsreset niet is ingeschakeld of niet werkt, kan je platformbeheerder je account altijd handmatig opnieuw instellen.
+* **Controleer uw spammap** als een e-mail voor het opnieuw instellen niet binnen enkele minuten aankomt.
+* **Handel snel bij koppelingen voor het opnieuw instellen** — ze verlopen, en platforms stellen die vervaltermijn vaak in op slechts één uur.
+* **Nog steeds vastgelopen?** Als zelfservice voor het opnieuw instellen niet is ingeschakeld of niet werkt, kan uw platformbeheerder uw account altijd handmatig opnieuw instellen.
