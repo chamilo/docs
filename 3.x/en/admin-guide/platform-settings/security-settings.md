@@ -106,6 +106,14 @@ Enable validation of the password requirements defined above during password cre
 *Default: `false`*
 
 
+### `content_security_policy_mode` **v3.1**
+
+**Content Security Policy mode**
+
+Select `disabled`, `report_only` or `enforce` to control the optional application CSP for pages rendered with Chamilo's shared layout. Report only observes violations without blocking resources; Enforce applies the configured policy. Test on a staging portal before enforcing a policy. See [Content Security Policy](content-security-policy.md) for policy examples, scope and emergency recovery.
+
+*Default: `disabled`*
+
 ### `confidential_reporting_attachments_enabled`
 
 **Allow confidential evidence attachments**
@@ -251,13 +259,13 @@ Immediately block users who have been disabled by the admin through users manage
 
 **Content Security Policy**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+Policy sent in the `Content-Security-Policy` header when the mode is `enforce`. The existing value is preserved on upgrade. Use the quoted placeholder `'nonce-{nonce}'` to authorize explicitly marked core scripts with a fresh nonce per response. An empty value omits the selected header. Existing compatibility-oriented defaults containing `'unsafe-inline'` and `'unsafe-eval'` are not strict CSP policies. See [Content Security Policy](content-security-policy.md) before enabling enforcement.
 
 ### `security_content_policy_report_only`
 
 **Content Security Policy report only**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+Policy sent in the `Content-Security-Policy-Report-Only` header when the mode is `report_only`. Violations can be inspected in browser developer tools without blocking the resources under this policy. The existing value is preserved on upgrade; an empty value omits the selected header. Configure a reporting receiver separately if centralized reports are required.
 
 ### `security_public_key_pins`
 

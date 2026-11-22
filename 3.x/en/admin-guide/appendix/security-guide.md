@@ -103,7 +103,7 @@ Create a matching filter in `/etc/fail2ban/filter.d/chamilo-auth.conf` to match 
 
 ## HTTP Security Headers
 
-Configure your web server to send security headers:
+Configure your web server to send appropriate security headers. Since Chamilo 3.1, [Content Security Policy](../platform-settings/content-security-policy.md) can also be configured inside the application for shared-layout HTML responses. It is disabled by default. Start with Report only on a staging portal, review violations, and consider enforcement only after testing. Do not blindly duplicate or replace CSP headers at the web server: multiple enforced policies restrict the same response cumulatively, and specialized resource policies must remain intact.
 
 | Header | Value | Purpose |
 |--------|-------|---------|
