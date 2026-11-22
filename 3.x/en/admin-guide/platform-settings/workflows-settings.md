@@ -21,7 +21,7 @@ Activate this option will allow course administrator to subscribe users inside a
 
 **Allow non admin to create courses**
 
-Allow non administrators (teachers) to create new courses on the server
+Allow non-administrators who are teachers or have an explicit `course:create` role permission to create courses, subject to applicable course limits, approval policies and service restrictions. A role permission alone does not override this setting. See [User Roles](../users/user-roles.md#delegating-course-creation).
 
 *Default: `false`*
 

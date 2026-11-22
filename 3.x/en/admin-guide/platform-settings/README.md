@@ -13,7 +13,7 @@ There are **39 configuration categories** in total, listed alphabetically below.
 ### Platform-wide
 
 * **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (30) — Platform-level identity, time zone, registration policy, online users, performance flags.
+* **[Platform](platform-settings.md)** (31) — Platform-level identity, time zone, registration policy, online users, performance flags.
 * **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
 * **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
 * **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
@@ -22,14 +22,14 @@ There are **39 configuration categories** in total, listed alphabetically below.
 
 ### Authentication, security & privacy
 
-* **[Security](security-settings.md)** — Login protection, password policy, headers, 2FA, IDS and antivirus upload scanning.
+* **[Security](security-settings.md)** — Login protection, password policy, headers, 2FA, IDS, antivirus upload scanning and teacher HTML policy.
 * **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
 * **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
 * **[CAS](cas-settings.md)** (7) — CAS single sign-on configuration, restored in Chamilo 3.1.
 
 ### Course and session lifecycle
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
+* **[Course](course-settings.md)** — Defaults and policies that apply to courses platform-wide.
 * **[Sessions](session-settings.md)** (68) — Session lifecycle, tutor access windows, visibility.
 * **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
 * **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.

@@ -2,7 +2,7 @@
 
 Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **47 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Course**. The settings below describe the available course policies; the platform settings fixtures (`SettingsCurrentFixtures.php`) contain their names and titles.
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -51,14 +51,6 @@ Only show public courses. Do not allow registered users to access courses with '
 
 *Default: `false`*
 
-### `breadcrumbs_course_homepage`
-
-**Course homepage breadcrumb**
-
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
-
-*Default: `course_title`*
-
 ### `course_about_teacher_name_hide`
 
 **Hide course teacher info on course details page**
@@ -84,12 +76,6 @@ The fields defined in this array will appear on the course settings page.
 **Extra fields to show on course creation form**
 
 The fields defined in this array will appear as additional fields in the course creation form.
-
-### `course_creation_donate_link`
-
-**Donation link on course creation page**
-
-The page the donation message should link to (full URL).
 
 ### `course_creation_donate_message_show`
 
@@ -121,14 +107,6 @@ When creating a course, make the course category a required setting.
 
 The fields defined in this array will be mandatory in the course creation form.
 
-### `course_creation_splash_screen`
-
-**Splash screen for courses**
-
-Show a splash screen when creating a new course.
-
-*Default: `true`*
-
 ### `course_creation_use_template`
 
 **Use template course for new courses**
@@ -149,9 +127,9 @@ Check the tools you want to hide from teachers. This will prohibit access to the
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**Custom thumbnails for courses**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+Show course-specific thumbnails in course lists. When disabled, the default course image is used instead.
 
 *Default: `true`*
 
@@ -186,7 +164,7 @@ On the ‘My courses’/’My sessions’ pages, show additional information reg
 
 **Courses validation**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+When enabled, eligible non-administrator course creators submit a course request instead of immediately creating a course. The modern course creation form displays **Create a course request**. An administrator reviews the request and approves or rejects it. Direct API creation cannot bypass the approval policy. Configure outgoing mail for request notifications. Administrators can still create courses directly. See [Managing Courses](../courses/managing-courses.md#course-creation-and-approval).
 
 *Default: `false`*
 
@@ -210,7 +188,7 @@ Default course visibility while creating a new course
 
 **Display Code in Course name**
 
-Display Course Code in courses list
+Show the course code alongside the title in course lists. On course cards, the visual code (or course code when no visual code is available) appears in parentheses after the title.
 
 *Default: `false`*
 
@@ -237,7 +215,7 @@ Enable introductions on each tool's homepage
 
 **Show unsubscribe button in ‘My courses’**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+Show an **Unsubscribe** action on eligible course cards in **My courses**. The action applies to direct student subscriptions, not session enrolments, and only when the course permits self-unsubscription. The learner must confirm before the subscription is removed. This is different from [temporarily suspending course access](../../teacher-guide/assessing-learners/subscribing-users.md), which preserves enrolment.
 
 *Default: `false`*
 
@@ -257,14 +235,6 @@ Create example material automatically when creating a new course
 The course rating feature comes by default in different places. If you don’t want it, enable this option.
 
 *Default: `false`*
-
-### `hide_course_sidebar`
-
-**Hide courses block in the sidebar**
-
-When on screens where the left menu is visible, do not display the « Courses » section.
-
-*Default: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
@@ -343,15 +313,6 @@ Display the course duration next to the course title in the course catalogue and
 
 *Default: `false`*
 
-### `show_navigation_menu`
-
-**Display course navigation menu**
-
-Display a navigation menu that quickens access to the tools
-
-*Default: `false`*
-
-
 ### `show_toolshortcuts`
 
 **Tools shortcuts**
@@ -368,12 +329,14 @@ Enable the learner view, which allows a teacher or admin to see a course as a le
 
 *Default: `true`*
 
+## Retired course interface settings
 
-### `view_grid_courses`
+Chamilo 3.1 hides the following legacy controls from the course settings administration form. Existing stored values may still be present for compatibility; do not rely on them to configure the modern interface.
 
-**View courses in a grid layout**
+* `show_navigation_menu` — redundant legacy navigation menu (see `show_toolshortcuts` for the separate shortcut setting).
+* `breadcrumbs_course_homepage` — legacy course breadcrumb options.
+* `course_creation_splash_screen` — legacy introduction page after course creation.
+* `view_grid_courses` and `hide_course_sidebar` — legacy course layout controls.
+* `course_creation_donate_link` — legacy donation URL setting.
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
-
-*Default: `true`*
-
+The existing `allow_course_theme` behavior was retained. Do not assume that changing a course theme immediately restyles every part of the platform shell. See [PR #9555](https://github.com/chamilo/chamilo-lms/pull/9555).

@@ -318,6 +318,14 @@ For installations with custom SQL reports, plugins or integrations, **review the
 
 These changes are documented in [PR #9212](https://github.com/chamilo/chamilo-lms/pull/9212) (issue #7445). Back up the database and verify the upgrade on a staging copy, particularly if custom code reads these legacy tables or expects fixed text lengths.
 
+## Chamilo 3.1: Resource files larger than 2 GB
+
+Chamilo 3.1 uses a `BIGINT` column for `resource_file.size` so resource metadata can represent files larger than the previous signed 32-bit limit (approximately 2 GiB). The schema migrations cover existing installations and legacy upgrades, and the migration no longer skips resource files solely because their size exceeds that limit.
+
+Apply the required schema updates through the normal upgrade procedure. Verify representative resource files and downloads in a staging copy, particularly if a legacy installation contains large media or archive files. A full upgrade of a real 1.11 installation with a file larger than 2 GB remains to be validated; the implementation was verified with a 3.5 GiB metadata value in Doctrine.
+
+This schema change does not increase PHP upload limits, web server request limits, storage quotas, or optional antivirus scan limits. See [Server Requirements](server-requirements.md#large-file-uploads) and [PR #9532](https://github.com/chamilo/chamilo-lms/pull/9532).
+
 ## Security notes
 
 ### October 2026 security maintenance on the 3.x development branch

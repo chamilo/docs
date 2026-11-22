@@ -203,7 +203,25 @@ Matching and draggable matching both use QTI `matchInteraction`. For draggable m
 
 **Sequence ordering (type 18)** is exported and imported using QTI 2.1 `orderInteraction` with an ordered response. A Chamilo-to-Chamilo round trip preserves the correct order, horizontal or vertical orientation, and per-position partial-credit points. QTI tools may use different scoring rules or omit this positional scoring, so verify the imported weights and total score before using an assessment.
 
-Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer.
+#### Additional QTI 2.1 question types (Chamilo 3.1)
+
+Chamilo extends import and export to the following question types. The round trip refers to transferring an assessment definition between Chamilo installations, not to transferring learners' attempts or grades.
+
+| Type | Question | What to check after import |
+| --- | --- | --- |
+| 6 | Hotspot | Image, zones, geometry and answer weights |
+| 7 | Graphic ordering | Image, ordered zones and scoring |
+| 11 | True/false with partial scoring | Statements, answer choices and signed scores |
+| 12 | True/false with combination scoring | Statements and overall combination score |
+| 13 | Oral expression | Question text and maximum score; response is manually graded |
+| 17 | Single answer with images | Packaged answer images, choices and scores |
+| 22 | True/false with degree of certainty | Statements, certainty options and scoring rules |
+| 23 | Upload answer | Question text and maximum score; response is manually graded |
+| 29 | Multiple answer (dropdown) | Choices, correct answers and weights |
+
+Media required by supported questions is packaged in the QTI ZIP and restored on import. Some variants rely on optional Chamilo-specific item labels and scoring conventions; unmarked items may import as a more general question type. Interoperability with external QTI tools is therefore not guaranteed. In particular, type 7 supports QTI data interchange, but its modern Vue editor and player are not yet supported. Do not rely on that question type for a live modern exercise without separately confirming playback.
+
+Unsupported question types may be skipped during export or import, so compare the question count and scoring after each transfer. See [PR #9529](https://github.com/chamilo/chamilo-lms/pull/9529).
 
 For critical assessments, test the exported archive by importing it into a non-production course and checking the questions and answers before using it with learners. This is **not** a guarantee of full QTI 2 coverage for all question types or packages.
 

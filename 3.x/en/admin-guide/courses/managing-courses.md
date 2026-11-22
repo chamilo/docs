@@ -26,6 +26,14 @@ As an administrator, you can create courses and assign them to any teacher:
 
 Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour changed starting in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
 
+## Course creation and approval
+
+Administrators can allow eligible non-administrators to create courses using `workflows.allow_users_to_create_courses` and, for roles other than teachers, the explicit `course:create` permission. See [User Roles](../users/user-roles.md#delegating-course-creation).
+
+When `course.course_validation` is enabled, the modern creation form becomes **Create a course request** for eligible non-administrators. No course is created at submission time. If a terms and conditions URL is configured, the requester must accept those terms before submitting. The administrator uses the course request management workflow to review, approve or reject the request. Configure outgoing mail for notifications and verify approval with a dedicated test request. Administrator-created courses are not subject to this approval requirement.
+
+The policy also prevents direct course creation through the API from bypassing required approval. Existing creation limits and other restrictions still apply. See [Course Settings](../platform-settings/course-settings.md) and [PR #9555](https://github.com/chamilo/chamilo-lms/pull/9555).
+
 ## Managing an Existing Course
 
 Find a course in the list to access management options in the *Actions* column:

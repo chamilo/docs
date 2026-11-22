@@ -2,7 +2,7 @@
 
 Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **30 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Platform**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -134,6 +134,16 @@ Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is 
 Decide who can view the posts and comments of the portfolio.
 
 *Default: `false`*
+
+### `portfolio_order_post_by_alphabetical_order`
+
+**Default alphabetical ordering of portfolio posts**
+
+When enabled, the personal and course Portfolio lists default to alphabetical ordering. When disabled, they default to chronological ordering. Users can still explicitly select either order; clearing the filters restores the configured default.
+
+*Default: `false`*
+
+See [Portfolio](../../teacher-guide/additional-tools/portfolio.md#ordering-portfolio-posts).
 
 ### `portfolio_show_base_course_post_in_sessions`
 
