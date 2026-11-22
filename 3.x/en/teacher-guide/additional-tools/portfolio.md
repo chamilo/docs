@@ -22,6 +22,12 @@ To view a learner's portfolio, open the portfolio tool and filter the items list
 
 If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
 
+## Ordering portfolio posts
+
+The Portfolio list offers chronological and alphabetical ordering. By default it uses chronological order; an administrator can enable `platform.portfolio_order_post_by_alphabetical_order` under **Administration > Configuration settings > Platform** to make alphabetical ordering the default in personal and course portfolios. Explicit ordering selections still take precedence, and clearing filters returns to the configured default.
+
+See [Platform Settings](../../admin-guide/platform-settings/platform-settings.md#portfolio_order_post_by_alphabetical_order) and [PR #9546](https://github.com/chamilo/chamilo-lms/pull/9546).
+
 ## Tips
 
 * **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio

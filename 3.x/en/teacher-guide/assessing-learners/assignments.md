@@ -47,6 +47,12 @@ Learners open the assignment and:
 
 Learners can see whether they have already submitted and, if allowed, update their submission.
 
+### File upload validation
+
+Chamilo rejects empty uploaded files. A file named with the `.zip` extension must be a readable, consistent ZIP archive containing at least one non-directory entry with non-zero size. Archives containing only directories or empty files are rejected, as are invalid ZIP files; the server must have ZIP support for ZIP uploads.
+
+If a submission fails, check that the original file is not empty, open or recreate the ZIP if necessary, and retry before the assignment deadline. These checks do not replace the course's file type and size restrictions or optional [antivirus scanning](../../admin-guide/security/antivirus-upload-scanning.md). They do not prohibit valid online text submissions. See [PR #9500](https://github.com/chamilo/chamilo-lms/pull/9500).
+
 ### Rich-Text (HTML) Submissions
 
 When you configure **Allow only text** or **Allow files or online text**, learners can write a formatted answer in the online editor rather than upload a separate document. Chamilo sanitizes the submitted HTML and stores it as an `.html` submission file. It remains subject to the assignment's existing access and deadline rules.

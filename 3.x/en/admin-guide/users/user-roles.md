@@ -49,6 +49,16 @@ See [Registration Settings](../platform-settings/registration-settings.md), [Ses
 
 When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
 
+## Delegating course creation
+
+An administrator can grant the existing `course:create` permission to a configured platform role from the permissions management page (`/permissions`). Select the permission for the intended role and save. This allows, for example, an HR manager or student boss to create courses without becoming a platform administrator or teacher globally.
+
+For non-administrators, `workflows.allow_users_to_create_courses` must also be enabled. The grant is evaluated on explicitly assigned roles rather than permissions inherited implicitly through the Symfony role hierarchy. Existing teacher and administrator behavior is preserved. Course limits, approval policies and BuyCourses restrictions still apply; the grant does not authorize general administration or editing unrelated courses.
+
+Verify with a test account carrying only the intended role: check the course creation action and create or request a test course, then remove the grant and confirm that creation is no longer available (unless another assigned role independently permits it).
+
+See [Workflows Settings](../platform-settings/workflows-settings.md), [Managing Courses](../courses/managing-courses.md#course-creation-and-approval) and [PR #9511](https://github.com/chamilo/chamilo-lms/pull/9511).
+
 ## Role Hierarchy
 
 Higher-privileged roles inherit the capabilities of lower-privileged roles:

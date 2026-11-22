@@ -85,6 +85,14 @@ These are baseline figures from Chamilo's own installation guide. Actual require
 * Outbound SMTP access if sending emails directly (or use a third-party email service).
 * Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
 
+## Large file uploads
+
+Chamilo 3.1 can represent resource file sizes larger than 2 GB after the relevant database migrations. Actual upload capacity still depends on PHP (`upload_max_filesize`, `post_max_size`, request timeouts), reverse proxy and web server body limits, temporary and destination storage, and platform or course quotas. Configure these coherently and allow sufficient disk space for temporary files and archive processing.
+
+When [antivirus upload scanning](../security/antivirus-upload-scanning.md) is enabled, its independent scan size and timeout limits must also be considered. Raising only PHP's upload limit does not make a larger file acceptable to the antivirus scanner. Validate a representative upload and download on a staging installation before increasing production limits.
+
+See [Upgrading](upgrading.md#chamilo-31-resource-files-larger-than-2-gb).
+
 ## Checking Requirements
 
 After placing the Chamilo source on your server, you can check your PHP configuration directly:

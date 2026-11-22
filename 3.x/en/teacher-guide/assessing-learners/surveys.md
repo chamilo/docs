@@ -94,6 +94,16 @@ After learners have responded:
 
 You can export results to a spreadsheet for further analysis.
 
+### Average scores for score-type questions
+
+The **Overview** and **Detailed report by question** display the average for score-type survey questions. The report shows the overall question average and individual criterion averages, using the question's scoring scale. For example, on a 20-point scale, criterion averages of 12/20 and 2/20 can produce an overall average of 7/20 when the two criteria have equal numbers of valid scores. Unanswered or invalid scores are excluded rather than treated as zero; existing distribution and response reporting remain available.
+
+These are descriptive survey statistics, not a new Gradebook score. Access to the results remains subject to the survey's confidentiality and results visibility configuration. See [PR #9550](https://github.com/chamilo/chamilo-lms/pull/9550).
+
+### Answer timestamps (technical)
+
+New and updated survey answer rows record creation and modification timestamps in `c_survey_answer.created_at` and `c_survey_answer.updated_at`. Creation time is set on insert; modification time is maintained when answers change. The Doctrine lifecycle uses UTC. Historical answers with unknown dates remain nullable rather than receiving invented historical timestamps. This is database-level metadata, not a new teacher-facing timeline or guaranteed export column. Apply the corresponding schema migration as part of a normal Chamilo upgrade. See [PR #9549](https://github.com/chamilo/chamilo-lms/pull/9549).
+
 ## Tips
 
 * **Keep it short** — Learners are more likely to complete shorter surveys

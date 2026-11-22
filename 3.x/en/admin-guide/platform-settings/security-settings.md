@@ -8,6 +8,18 @@ Access these settings under **Administration > Configuration settings > Security
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
+## Teacher-authored JavaScript
+
+### `teacher_use_js`
+
+**Teachers can use JavaScript in WYSIWYG editors**
+
+This global setting (`security.teacher_use_js`) applies to all Access URLs. By default (`true`), existing behavior is preserved for content explicitly treated as trusted teacher HTML. When set to `false`, those paths use the teacher HTMLPurifier profile, removing scripts and unsafe HTML attributes such as JavaScript event handlers while retaining permitted formatting.
+
+Previously saved Course Description HTML is also filtered when read with the setting disabled; saved database content is not rewritten. Re-enabling the setting can therefore expose previously stored trusted content again. This is not a general-purpose sanitization of every stored HTML field or a replacement for content security policy and other application security controls. Coverage for historical HTML in other tools should be verified separately.
+
+To check the policy on a staging portal, create a Course Description with harmless formatting and a harmless JavaScript event attribute using a test teacher. Compare rendering with the setting enabled and disabled, including content saved before disabling it. See [PR #9505](https://github.com/chamilo/chamilo-lms/pull/9505).
+
 ## Settings
 
 ### `2fa_enable`
