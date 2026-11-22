@@ -63,7 +63,7 @@ class MyPluginPlugin extends Plugin
 | `$isAdminPlugin` | bool | Adds an admin interface page |
 | `$isMailPlugin` | bool | Integrates with the mail system |
 | `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| `$course_settings` | array | Legacy per-course configuration fields; modern form sections use a registered Symfony extension |
 
 ## Plugin Lifecycle
 
@@ -141,6 +141,10 @@ Available methods:
 | `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
 | `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
 | `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+
+### Course settings extensions
+
+For the modern Chamilo 3.1 course form, register a Symfony service implementing `CourseSettingsPluginInterface` with the `chamilo.course_settings_plugin` tag. The shared registry resolves integration state, sections, values, validation and persistence; the existing course settings API and Vue form remain the entry point. External plugin services can be registered in `config/plugin.yaml` and must be autoloadable. See [Per-Course Settings](course-tool-plugins.md#modern-symfony-course-settings-extensions-31) for an example and validation steps. Do not add plugin-specific branches to `CourseSettingsManager` for standard extensions.
 
 ## Core File References
 

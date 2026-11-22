@@ -28,7 +28,7 @@ class MyToolPlugin extends Plugin
 
 ## Per-Course Settings
 
-Define course-level configuration fields via the `$course_settings` property:
+Legacy plugin installation and configuration code can still define course-level fields via the `$course_settings` property:
 
 ```php
 public array $course_settings = [
@@ -37,7 +37,81 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+Legacy integrations may use `validateCourseSetting(string $variable)` and `course_settings_updated(array $values)`. Do not assume that this declaration alone adds a section to the modern Vue course settings form. For Chamilo 3.1, register a Symfony course-settings extension as described below.
+
+### Modern Symfony course settings extensions (3.1)
+
+`CourseSettingsManager` delegates plugin sections to `CourseSettingsPluginRegistry`. A third-party plugin can extend the existing Vue/API Platform form without adding branches to CoreBundle or copying a legacy FormValidator form.
+
+Implement `Chamilo\CoreBundle\State\CourseSettings\CourseSettingsPluginInterface`, or extend `AbstractCourseSettingsPlugin` for the common case. The following example assumes an installed plugin named `MyPlugin` and a class autoloadable by Composer; the namespace and service ID must match your own plugin.
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Chamilo\PluginBundle\MyPlugin;
+
+use Chamilo\CoreBundle\Entity\Course;
+use Chamilo\CoreBundle\Entity\Session;
+use Chamilo\CoreBundle\State\CourseSettings\AbstractCourseSettingsPlugin;
+
+final class MyPluginCourseSettings extends AbstractCourseSettingsPlugin
+{
+    protected function pluginName(): string
+    {
+        return 'MyPlugin';
+    }
+
+    public function getIntegrationKey(): string
+    {
+        return 'myPlugin';
+    }
+
+    public function getSection(Course $course, ?Session $session, array $values): ?array
+    {
+        return $this->section('my_plugin', 'My plugin', 'admin-settings', [
+            $this->field('my_plugin_note', 'Course note', 'text'),
+            $this->field('my_plugin_limit', 'Limit', 'number', min: 0, max: 100),
+        ], collapsed: true);
+    }
+}
+```
+
+Merge a service definition into the existing `config/plugin.yaml` (keep its existing `parameters` and other service definitions intact):
+
+```yaml
+services:
+    Chamilo\PluginBundle\MyPlugin\MyPluginCourseSettings:
+        autowire: true
+        tags: ['chamilo.course_settings_plugin']
+```
+
+Bundled extensions under `src/PluginBundle/CourseSettings/` are registered by `config/services.yaml`. The `_instanceof` rule tags implementations of the interface in that file; external services should specify the tag explicitly. The example requires no new controller or Vue route. Once the service is registered and the plugin is active, open the course settings form to inspect and save the section.
+
+| Contract | Responsibility |
+|----------|----------------|
+| `getIntegrationKey()` / `getIntegration()` | Unique integration ID and enabled state for the context |
+| `getSection()` | Section metadata and field descriptors (or `null`) |
+| `getValues()` / `saveValues()` | Read and persist values |
+| `afterSave()` | Plugin-specific follow-up after saving |
+| `managesCourseSetting()` | Declare legacy course-setting variables managed by this integration, when applicable |
+
+The base class checks plugin activation through `PluginHelper` and uses `CourseSettingsPluginStore` by default. This stores values in `c_course_setting` by course ID; receiving a `Session` argument does not automatically create session-specific storage. Override the persistence methods if a plugin genuinely needs its own storage and context rules. The base class defaults text to an empty string, numbers to zero, and checkboxes to false; use the field descriptors and your persistence implementation consistently.
+
+Use unique integration, section and field keys. The registry validates submitted fields, ignores undeclared, disabled or read-only fields, respects global course-setting policies, and preserves existing values for partial saves. Do not accept arbitrary client keys or bypass course permissions. Use the supported field descriptors and verify rendering in the actual form; read-only links and external links are not writable fields. Custom storage must also enforce context and policy boundaries.
+
+Validate the registration in the LMS repository:
+
+```bash
+php bin/console debug:container --tag=chamilo.course_settings_plugin
+php bin/console lint:container
+php bin/phpunit tests/CoreBundle/State/CourseSettings/CourseSettingsPluginRegistryTest.php
+```
+
+Test the plugin enabled and disabled, save/reload, invalid values, locked policies, and separate courses/sessions. Use the existing `CourseBlockCourseSettings` as a concrete implementation reference. The migration to tagged services covers BuyCourses, CourseBlock, CourseHomeNotify, CourseLegal, CustomCertificate and IMS/LTI. Paid-course checks have a separate optional `CourseSettingsPaidCourseProviderInterface` contract.
+
+See [Plugin Architecture](plugin-architecture.md) and [LMS PR #9552](https://github.com/chamilo/chamilo-lms/pull/9552).
 
 ## Installation and Uninstallation
 

@@ -103,6 +103,22 @@ After editing a `.feature` file or anything under `tests/playwright/steps/`, reg
 node_modules/.bin/bddgen --config=tests/playwright/playwright.config.ts
 ```
 
+## Accessibility and responsive regressions
+
+Run narrowly scoped browser scenarios against an isolated Chamilo test installation when changing form validation, keyboard navigation, dialogs or responsive layout. A static audit can identify candidate issues, but confirm them in the browser before changing the UI.
+
+For the modern web guidance regressions, the existing Playwright-BDD scenarios cover text-input validation, group tabs and social dialogs, invitations, mobile sidebar and topbar reflow. After generating the specs, execute from the LMS repository:
+
+```bash
+node_modules/.bin/playwright test \
+  --config=tests/playwright/playwright.config.ts \
+  modernWebGuidance8776 --workers=1 --retries=0
+```
+
+Use the fixture accounts and base URL configured for the test installation. Check the accessible name of icon-only controls, keyboard interaction, focus and error associations, ARIA selection state and document overflow at a 320 CSS pixel viewport. The test should assert behaviour rather than just an English label or a screenshot. Prefer stable roles, accessible names where locale is controlled, and explicit element IDs where needed.
+
+The targeted Chromium suite in [LMS PR #9543](https://github.com/chamilo/chamilo-lms/pull/9543) passed 16 scenarios. These checks are not a complete accessibility certification, screen-reader audit, Core Web Vitals assessment or Firefox/WebKit test. Record the browser, viewport and exact scenarios actually executed. See also [Vue Components](../frontend/vue-components.md#accessible-forms-tabs-and-dialogs).
+
 ## Frontend Checks
 
 ```bash

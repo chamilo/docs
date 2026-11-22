@@ -27,7 +27,7 @@ Chamilo 3.0 maps a large set of Doctrine entities to database tables. The exact 
 |-------|---------|
 | `course` | Courses |
 | `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| `course_rel_user` | Course enrollments, including direct-course student access (`visibility`) in 3.1 |
 
 ### Sessions
 
@@ -43,7 +43,7 @@ Chamilo 3.0 maps a large set of Doctrine entities to database tables. The exact 
 | Table | Purpose |
 |-------|---------|
 | `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
+| `resource_file` | File attachments; `size` uses `BIGINT` in 3.1 |
 | `resource_link` | Visibility/access per context |
 | `resource_type` | Resource type registry |
 
@@ -63,6 +63,7 @@ Chamilo 3.0 maps a large set of Doctrine entities to database tables. The exact 
 | `c_forum_post` | Forum posts |
 | `c_student_publication` | Assignments/submissions |
 | `c_survey` | Surveys |
+| `c_survey_answer` | Survey responses, with nullable UTC creation/update timestamps in 3.1 |
 | `c_glossary` | Glossary terms |
 | `c_calendar_event` | Calendar events |
 | `c_attendance` | Attendance sheets |
@@ -83,6 +84,22 @@ Chamilo 3.0 maps a large set of Doctrine entities to database tables. The exact 
 |-------|---------|
 | `settings` | Platform settings |
 | `settings_options` | Setting option definitions |
+
+### Security audit
+
+| Table | Purpose |
+|-------|---------|
+| `antivirus_scan` | Independent upload scan history, including rejected uploads |
+
+The Chamilo 3.1 antivirus audit table stores the portal ID, optional user/course/session IDs, filename, size, SHA-256 when available, scanner, status, threat, source, scan time and duration. It does not require a resource to have been created or store the uploaded content. Audit writes are separate from the upload transaction. See [Antivirus Upload Scanning](../../admin-guide/security/antivirus-upload-scanning.md) and [LMS PR #9562](https://github.com/chamilo/chamilo-lms/pull/9562).
+
+### Selected Chamilo 3.1 schema changes
+
+* `course_rel_user.visibility`: integer, default `1` (enabled); `0` disables direct student access when the global workflow setting is enabled. This is not `user.active`, course visibility or session enrollment. See [LMS PR #9551](https://github.com/chamilo/chamilo-lms/pull/9551).
+* `resource_file.size`: `BIGINT`, allowing sizes over 2 GB; HTTP upload limits and disk capacity still apply. See [LMS PR #9532](https://github.com/chamilo/chamilo-lms/pull/9532).
+* `c_survey_answer.created_at` and `updated_at`: nullable timestamps. Historical rows with unknown dates retain `NULL`; creation and modification times are recorded for new/updated answers. See [LMS PR #9549](https://github.com/chamilo/chamilo-lms/pull/9549).
+
+Apply the release's migrations as part of the normal upgrade process. Do not fabricate missing historical timestamps or manually delete subscription/audit records to implement these features.
 
 ## Migrations
 

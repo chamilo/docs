@@ -33,6 +33,20 @@ GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
+## Session administrator tokens
+
+For a read-only integration that manages training sessions, authenticate with the intended session administrator's own credentials rather than a platform administrator's token. Chamilo 3.1 exposes scoped reads for sessions, courses and course/session extra fields to `ROLE_SESSION_MANAGER`. A token authenticates the account; it does not grant access to every resource or portal. Scope is evaluated against the current Access URL and the user's authorized sessions.
+
+For example, after obtaining a token as above, inspect the accessible sessions:
+
+```http
+GET /api/sessions
+Authorization: Bearer <session-manager-token>
+Accept: application/ld+json
+```
+
+Use an HTTPS portal in production. See [Scoped API access for session administrators](endpoints-reference.md#scoped-api-access-for-session-administrators-31) for the supported endpoints and restrictions. In particular, a session manager's token does not authorize administrator-only session enrollment operations.
+
 ## Token Lifecycle
 
 * Tokens have a configurable expiration time

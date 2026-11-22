@@ -73,6 +73,25 @@ The following explicitly implemented controller routes are **not** generic API P
 
 See [Session Student Enrollment](session-students.md) and [Class Subscriptions](class-subscriptions.md) for validation, permissions, multi-URL scope and important differences between additive and replacing operations.
 
+## Scoped API access for session administrators (3.1)
+
+A session administrator (`ROLE_SESSION_MANAGER`) can use the following standard collection and item GET operations without being granted `ROLE_ADMIN`. The API scope is evaluated server-side against their assigned sessions and current Access URL.
+
+| Collection | Scope for session administrators |
+|------------|----------------------------------|
+| `/api/sessions` | Managed sessions on the current portal |
+| `/api/courses` | Courses in those sessions that also belong to the current portal |
+| `/api/extra_fields` | Course/session field definitions when the corresponding scope is non-empty |
+| `/api/extra_field_values` | Only values belonging to the authorized courses or sessions |
+
+The equivalent item GET routes (`/{id}`) enforce the corresponding item-level rules. Regular collection filtering and pagination still apply; query parameters cannot expand the authorization scope. If the portal setting `session.allow_session_admins_to_manage_all_sessions` is enabled, the manager may read all sessions in the current Access URL, not sessions on other portals. The user must belong to the current portal. User profile extra fields are not included in this extension. Other existing access rules (such as ordinary course membership) are not replaced by the scoped read extension.
+
+Authorized course-description reads are also supported through `/api/course-description/list?cid={courseId}` (optionally with `sid` for the session context). Supplying a session ID must not widen access. `POST /api/enrollment-notifications` allows administrators and scoped session managers to notify an already enrolled user; the action checks both the target scope and existing enrollment and does not enroll the user.
+
+This is not a general write grant. The administrative enrollment routes listed above still require `ROLE_ADMIN`, and existing create/update/delete permissions remain unchanged. See [Authentication](authentication.md#session-administrator-tokens) and [LMS PR #9508](https://github.com/chamilo/chamilo-lms/pull/9508).
+
+Implementation: `SessionManagerApiScope` supplies the scope, `SessionManagerApiCollectionExtension` applies collection restrictions to operations explicitly marked `sessionManagerScoped`, and `SessionManagerApiReadVoter` evaluates the `SESSION_MANAGER_API_READ` item permission. New API integrations must enforce both collection and object checks; never rely only on a hidden menu or client-supplied course/session ID.
+
 ## Filtering and Pagination
 
 API Platform supports:

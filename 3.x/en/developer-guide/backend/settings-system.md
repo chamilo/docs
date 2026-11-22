@@ -75,6 +75,10 @@ Some settings can be overridden at the course level. These are defined in `src/C
 * Assignment settings per course
 * AI feature toggles per course
 
+### Plugin-provided course settings
+
+In Chamilo 3.1, the modern course settings form uses a registry of Symfony services tagged `chamilo.course_settings_plugin`. Plugin-specific fields do not require adding a new platform settings schema or hardcoding a section in `CourseSettingsManager`. The registry validates the declared fields and applies global course-setting policies. Default course-scoped persistence is `c_course_setting` through `CourseSettingsPluginStore`; plugins requiring different storage must implement it explicitly. See [Course Tool Plugins](../plugins/course-tool-plugins.md#modern-symfony-course-settings-extensions-31) and [Global Course Setting Policies](../../admin-guide/courses/global-course-setting-policies.md).
+
 ## Multi-URL Settings
 
 In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
