@@ -100,7 +100,7 @@ Most accept the value through `v-model`, expose `id` + `label` props for accessi
 
 | File              | Purpose                                                                                                                                                                                                                                                          |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ChamiloIcons.js` | Maps semantic icon names (`edit`, `delete`, `eye-on`, `courses`, …) to MDI CSS classes. ~127 entries. Browse them at `/admin/list-icons` on a running instance.                                                                                                  |
+| `ChamiloIcons.js` | Maps semantic icon names (`edit`, `delete`, `eye-on`, `courses`, …) to MDI CSS classes. The registry is the source of truth; validate new mappings against the installed MDI library. Browse them at `/admin/list-icons` on a running instance.                                                                                                  |
 | `validators.js`   | Shared prop validators: `iconValidator` (must be a known Chamilo icon name), `sizeValidator` (`normal` / `small` / `large`), `buttonTypeValidator` (allowed `BaseButton` types). Import them when defining new `Base*` components that mirror these conventions. |
 
 ### Conventions across Base components
@@ -148,13 +148,53 @@ export const chamiloIconToClass = {
   "delete": "mdi mdi-delete",
   "eye-on": "mdi mdi-eye",
   "courses": "mdi mdi-book-open-page-variant",
-  // ... 127 mappings
+  // ... other registered semantic names
 }
 ```
 
 Components use `BaseIcon` or reference `chamiloIconToClass` to render icons consistently.
 
 A browsable reference of all icons available in the platform can be found at `/admin/list-icons` in any running Chamilo instance.
+
+### Composable icons and action modifiers
+
+Chamilo 3.1 supports a base object icon with a compact action badge. This avoids introducing a separate glyph for every object/action combination. Use the registered semantic names from `ChamiloIcons.js` for both parts.
+
+```vue
+<BaseButton
+  :label="t('New folder')"
+  icon="folder-generic"
+  badge-icon="star"
+  only-icon
+  type="success"
+  @click="openNew"
+/>
+<BaseIcon icon="folder-generic" badge-icon="arrow-down" badge-compact />
+```
+
+`BaseButton` accepts `badge-icon` and `badge-position` (default `bottom-right`; also `top-left`, `top-right`, and `bottom-left`). It renders the compact badge through `BaseIcon` for buttons and links. `BaseIcon` accepts `badge-compact` directly. Use a translated `label` on icon-only buttons and links so the action is accessible independently of the glyph. Existing unbadged icons, aliases, icon position and loading behaviour are retained.
+
+| Modifier | Meaning |
+|----------|---------|
+| `star` | Create a new object |
+| `plus` / `minus` | Add / remove |
+| `delete` / `close` | Delete / close |
+| `arrow-up` / `arrow-down` | Upload / download, or move vertically in context |
+| `arrow-left` / `arrow-right` | Move horizontally or navigate in context |
+| `eye-on` / `eye-off` | Visibility actions |
+| `cog` | Configuration |
+
+Documents uses these combinations for new folders, new drawings and downloading all items. Exercises uses them for creating a test and importing Aiken questions. Preserve established single icons where a modifier adds no useful meaning. Use the `pencil` and `delete` semantic names for ordinary edit and delete row actions. The registry includes RTL-aware mappings for directional icons.
+
+From the LMS repository, run `node tests/scripts/check-composable-icons.cjs` after installing frontend dependencies. The script verifies that mapped glyphs exist in the installed MDI font, checks the action modifiers and compiles selected Vue components. See [LMS PR #9556](https://github.com/chamilo/chamilo-lms/pull/9556).
+
+### Accessible forms, tabs and dialogs
+
+For text fields with Vuelidate, `BaseInputTextWithVuelidate` accepts an explicit `id` or generates one with Vue's `useId()`. It connects the error container to the input via `aria-describedby`, sets `aria-invalid`, and renders active errors in a `role="alert"` region using the `errors` slot of `BaseInputText`. Prefer this component over duplicating error markup.
+
+Use native buttons for interactive controls (including a mobile menu toggle and user-menu avatar). Give icon-only actions accessible names. For custom tabs, expose tab and tabpanel roles, selection state and keyboard navigation. Dialogs should have an accessible name, appropriate dialog semantics, focus handling and keyboard dismissal. Test that the triggering control can be reached again once the dialog closes. Do not hide essential navigation actions to make a narrow layout fit.
+
+The social groups, search, invitations, mobile sidebar and topbar improvements were validated in selected Chromium scenarios. These changes are not a claim of complete WCAG conformance or full cross-browser coverage. See [Testing](../contributing/testing.md#accessibility-and-responsive-regressions), [LMS PR #9506](https://github.com/chamilo/chamilo-lms/pull/9506) and [LMS PR #9543](https://github.com/chamilo/chamilo-lms/pull/9543).
 
 ## Component Patterns
 
