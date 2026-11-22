@@ -158,6 +158,7 @@
     * [Registration](admin-guide/platform-settings/registration-settings.md)
     * [Search](admin-guide/platform-settings/search-settings.md)
     * [Security](admin-guide/platform-settings/security-settings.md)
+      * [Content Security Policy](admin-guide/platform-settings/content-security-policy.md)
     * [Sessions](admin-guide/platform-settings/session-settings.md)
     * [Skills](admin-guide/platform-settings/skill-settings.md)
     * [Social Network](admin-guide/platform-settings/social-settings.md)
