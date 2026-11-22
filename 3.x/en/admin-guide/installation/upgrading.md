@@ -360,3 +360,7 @@ New users created after the update receive a random password, and an SSO sign-in
 * **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
 * **If the wizard answers `Chamilo is already installed`**, it found no pending migration. Run `php bin/console doctrine:migrations:status` to check. If `Executed` is 0 on a platform that works, your migration history was never seeded — see [Seed the migration history first](#seed-the-migration-history-first).
 * **Automatic download of new versions** is not yet provided in Chamilo 3.0, but this is an ongoing project we hope to be releasing soon. The upgrade itself already runs from the web wizard.
+
+## Reviewing recoverable legacy data issues in Chamilo 3.1
+
+Selected legacy migrations now report recoverable data inconsistencies, including invalid or ambiguous matching-answer references, while allowing valid data to continue migrating. Review installer/CLI warnings and download the CSV report as a global administrator when available. Critical schema and integrity failures still stop the migration. See [Migration Data Issue Reports](migration-data-issues.md) for report contents, private server-side storage and post-upgrade verification.

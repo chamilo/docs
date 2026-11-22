@@ -2,7 +2,7 @@
 
 Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Workflows**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -148,6 +148,14 @@ Allow pick a course as template for the new course that teacher is creating
 
 *Default: `true`*
 
+
+### `teacher_defined_student_access_to_course`
+
+**Allow teachers to disable individual student access to a course**
+
+Let course teachers suspend and restore direct course access without unsubscribing students or deleting their progress. The option is global, and independent session access is not affected. See [Subscribing Users](../../teacher-guide/assessing-learners/subscribing-users.md#suspend-or-restore-an-enrolled-students-course-access).
+
+*Default: `false`*
 
 ### `update_student_expiration_x_date`
 

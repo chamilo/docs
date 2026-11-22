@@ -4,7 +4,7 @@ Chamilo supports multiple authentication methods, from the built-in username/pas
 
 ## Configuration file
 
-All external authentication methods are configured in `config/authentication.yaml`. A template is provided at `config/authentication.dist.yaml`. The general structure is:
+External authentication policies are configured in `config/authentication.yaml`. CAS server settings are managed in Administration > Settings > CAS; optional CAS policies use the same authentication configuration file. A template is provided at `config/authentication.dist.yaml`. The general structure is:
 
 ```yaml
 parameters:
@@ -30,7 +30,7 @@ External login buttons appear on the login page after the cache is refreshed.
 * **[OAuth 2.1 Authorization Server](oauth-server.md)** — OAuth clients, MCP protected resources, registration and consent
 * **[Azure Entra ID](azure-entra-id.md)** — Detailed Azure/Entra ID setup: app registration, group-based role mapping, certificate authentication, and user/group sync commands
 * **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 3.x)
+* **[CAS](cas.md)** — Central Authentication Service (restored in Chamilo 3.1)
 * **[SCIM](scim.md)** — Automated user provisioning from external identity providers
 * **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
 

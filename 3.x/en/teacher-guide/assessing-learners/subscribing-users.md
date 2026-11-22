@@ -90,6 +90,16 @@ The link is one-time use and expires after 7 days. If it expires or its target i
 
 > The platform-wide **Allow registration via course invitation links** setting (`registration.allow_invitation_registration`) governs whether your invitation link can open registration when general self-registration is turned off. Ask your administrator if invitations don't seem to work on an otherwise closed platform.
 
+## Suspend or restore an enrolled student's course access
+
+From Chamilo 3.1, a platform administrator can enable **Allow teachers to disable individual student access to a course** in [Workflows Settings](../../admin-guide/platform-settings/workflows-settings.md), using `workflows.teacher_defined_student_access_to_course`. The setting is global and disabled by default.
+
+In a standalone course, open the **Users** tool as an authorised teacher. The **Course access** column shows **Enabled** or **Disabled** for the applicable enrollment. Use the eye action (**Disable Course access** or **Enable Course access**) and confirm. A suspended student cannot access that standalone course, but remains enrolled and retains tracking, progress and academic data. Restore access using the opposite action.
+
+This is not account deactivation or unsubscription. It does not suspend independent access through a session. Verify the student's access in a separate login after suspension and restoration. When the global option is off, the teacher-controlled access actions are not available.
+
+Implementation: [PR #9551](https://github.com/chamilo/chamilo-lms/pull/9551), issue [#3231](https://github.com/chamilo/chamilo-lms/issues/3231).
+
 ## Tips
 
 * **Match the method to the situation** — administrator or self-enrollment for people already using the platform, manual enrollment for a known existing user, invitations for external guests, reviewers, or anyone who doesn't have an account yet.

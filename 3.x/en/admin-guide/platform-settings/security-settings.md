@@ -4,7 +4,7 @@ Login protection, password policy, content security headers, two-factor authenti
 
 This page covers security *policy*. For the monitoring tools that watch the platform using this policy (login attempt logs, intrusion detection events, password strength scans, and file integrity checks), see [Security](../security/README.md).
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **40 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Access these settings under **Administration > Configuration settings > Security**. The settings below describe this category; the platform settings fixtures (`SettingsCurrentFixtures.php`) are the source of truth for setting names and titles.
 
 > The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
@@ -26,6 +26,14 @@ Allows access to all personal files without restriction
 
 *Default: `false`*
 
+
+### `antivirus_upload_enabled`
+
+**Enable antivirus upload scanning**
+
+Require ClamAV scanning for guarded upload operations. Configure and test the server-side daemon first; failed scans and detections block the upload. See [Antivirus Upload Scanning](../security/antivirus-upload-scanning.md) for installation, testing and audit reporting.
+
+*Default: `false` (global)*
 
 ### `admins_can_set_users_pass`
 

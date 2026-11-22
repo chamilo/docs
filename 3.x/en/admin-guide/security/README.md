@@ -4,7 +4,7 @@ The **Security** block on the administration dashboard groups the platform's bui
 
 ![The Security block on the administration dashboard, listing Activities audit, Login attempts, Simple IDS, Password strength checker, and File integrity](../../.gitbook/assets/admin-security-block.png)
 
-The block was introduced in Chamilo 2.0 with four tools and extended in Chamilo 3.0 with a fifth, **File integrity**.
+The block was introduced in Chamilo 2.0 and extended in later releases. Chamilo 3.1 adds the **Antivirus scan report** for optional ClamAV upload scanning.
 
 ## Accessing the Security Block
 
@@ -17,11 +17,12 @@ From the administration panel, the **Security** block appears alongside the othe
 * **[Simple IDS](simple-ids.md)** — See requests flagged by Chamilo's built-in, lightweight intrusion detection system
 * **[Password Strength Checker](password-strength-checker.md)** — Scan active users for passwords that match a list of commonly used passwords
 * **[File Integrity](file-integrity.md)** *(new in Chamilo 3.0)* — Detect unexpected additions, modifications, deletions, or permission changes in the installed files
+* **[Antivirus Upload Scanning](antivirus-upload-scanning.md)** *(new in Chamilo 3.1)* — Review clean scans, detections and scan errors, with status filtering and CSV export
 
 ## Additional Confidential Reporting Workflow
 
-[Confidential Reporting](confidential-reporting.md) is an optional, permission-controlled reporting and investigation feature. It is separate from the five administrator monitoring tools listed above.
+[Confidential Reporting](confidential-reporting.md) is an optional, permission-controlled reporting and investigation feature. It is separate from the administrator monitoring tools listed above.
 
 ## Who Can Access It
 
-All five tools require **Portal Administrator** access. File integrity's scan, pause, and re-baseline actions additionally require **Global Administrator** access, and pausing alerts or establishing a new baseline requires re-entering your own password — see [File Integrity](file-integrity.md#actions) for details.
+The monitoring tools listed above require **Portal Administrator** access. File integrity's scan, pause, and re-baseline actions additionally require **Global Administrator** access, and pausing alerts or establishing a new baseline requires re-entering your own password — see [File Integrity](file-integrity.md#actions) for details.
