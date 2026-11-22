@@ -106,3 +106,6 @@ Include both courses and sessions in catalog results.
 
 *Default: `0`*
 
+## Public XML sitemaps
+
+From Chamilo 3.1, the public catalogue settings also determine which catalogue and eligible public course URLs can appear in generated XML sitemaps. See [Public XML Sitemaps](../platform/xml-sitemaps.md) for the publication rules, endpoint URLs and anonymous verification procedure.

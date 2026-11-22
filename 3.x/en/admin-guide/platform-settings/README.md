@@ -8,7 +8,7 @@ Access platform settings from the administration panel by clicking **Configurati
 
 ## All categories
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+There are **39 configuration categories** in total, listed alphabetically below. Where shown, the number after a link is the documented setting count for that category.
 
 ### Platform-wide
 
@@ -18,14 +18,14 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
 * **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
 * **[Mail](mail-settings.md)** (22) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[Workflows](workflows-settings.md)** (24) — Cross-cutting workflow toggles (course creation, enrollment validation…).
 
 ### Authentication, security & privacy
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
+* **[Security](security-settings.md)** — Login protection, password policy, headers, 2FA, IDS and antivirus upload scanning.
 * **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
 * **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[CAS](cas-settings.md)** (7) — CAS single sign-on configuration, restored in Chamilo 3.1.
 
 ### Course and session lifecycle
 
