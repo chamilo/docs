@@ -1062,3 +1062,10 @@ screenshots:
   role: null
   steps: No login needed. Screenshot the <main> element
   confidence: verified
+- file: admin-works-in-session-report.png
+  doc_page: admin-guide/analytics/learning-analytics.md
+  alt: The Works in session report for a session with two courses, one row per learner, with time spent, first and latest login, then the best score, progress and last sent work date of each course
+  url: /reporting/admin/works-in-session?sessionId=<id of the demo session>
+  role: admin
+  steps: Requires a session ("Workplace Essentials - Spring 2026") with the courses AIACT and USINGCHAMILO, four learners with official codes, learning path progress and test attempts in the session, one assignment per course with submissions, and platform logins. Hide the Symfony debug toolbar, then screenshot the report container (div.space-y-5.pb-8) at a 1440x900 viewport
+  confidence: verified
